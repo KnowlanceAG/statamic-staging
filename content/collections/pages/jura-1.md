@@ -143,7 +143,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1683655856
+updated_at: 1683664035
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -168,7 +168,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Anglistik. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Anglistik Texte</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Anglistik in sichere Hände geben und bei einem Anglistik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Anglisten, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Anglistik. Wir bieten Ihnen einen akademischen Ghostwriter für Ihre Anglistik-Texte, der perfekt zu Ihren individuellen Anforderungen passt. Möchten Sie Ihre akademische Arbeit im Fachbereich Anglistik von einem <b>erfahrenen Ghostwriter schreiben lassen</b>? Dann wenden Sie sich an eine seriöse Ghostwriting-Agentur, die ausschließlich mit erfahrenen Anglisten, Doktoren und Professoren arbeitet und Ihnen eine Mustervorlage für Ihre Arbeit erstellen kann.
                       </p>
             show_as_card: false
         type: row
@@ -297,28 +297,57 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Unsere Jura Ghostwriter'
+                    text: 'Was ist Anglistik?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unser Team von erfahrenen Akademikern aus dem Fach Jura unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen sowie bei der Entstehung der Arbeiten. Unsere Akademiker sind Professoren im Rechtsbereich. Für jede rechtliche Problemstellung findet unsere professionelle Ghostwriting-Dienstleistung Ihnen den passenden Ghostwriter aus dem jeweiligen Rechtsgebiet, um Ihren Fall zu bearbeiten und zu lösen. Sie kennen alle Gesetzbücher: '
+                    text: 'Der Begriff „'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Das Sozialgesetzbuch (SGB), das Handelsgesetzbuch (HGB), das Bürgerliche Gesetzbuch (BGB) und das Strafgesetzbuch (StGB)'
+                    text: Anglistik
                   -
                     type: text
-                    text: .
+                    text: '“ beschreibt die Wissenschaft, die sich mit der englischen Sprache, der englischsprachigen Literatur sowie der Kultur im englischen Sprachraum auseinandersetzt. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Dabei ist Amerikanistik nicht mit Anglistik zu verwechseln'
+                  -
+                    type: text
+                    text: ': das Studienfach Amerikanistik beschäftigt sich ausschließlich mit der amerikanischen Literatur und betrachtet diese in einem kulturhistorischen Zusammenhang. Je nach Universität wird in Teilen aber auch im Studiengang Anglistik Amerikanistik unterrichtet.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Erstellung handelt: wir bieten Ihnen umfassenden individuellen Beistand.'
+                    text: 'Der Begriff „'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Literaturwissenschaft
+                  -
+                    type: text
+                    text: '“ wiederum ist übergeordnet zu interpretieren: hier geht es um die wissenschaftliche Beschäftigung mit Literatur, was Teil von Anglistik oder Amerikanistik sein kann.'
+              -
+                type: set
+                attrs:
+                  id: lhgll7j9
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/anglistik-1-min.png
+                    img_size: w-full
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -436,111 +465,30 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Jura - Rechtswissenschaften'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Bedeutung hat Ghostwriting in der Anglistik?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Rechtswissenschaften – auch als Jurisprudenz von lateinisch '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '„iuris prudenita“ = „Kenntnis des Rechts“ '
-                  -
-                    type: text
-                    text: 'abgeleitet und bezeichnet – haben schon eine lange Tradition und Historie; die Grundzüge finden sich bereits in der Antike, wobei erst in römischer Zeit von einer „echten“ Rechtswissenschaft gesprochen werden kennen, die Fragestellungen systematisch reflektierte. Es geht bei den Rechtswissenschaften im modernen Verständnis darum, juristische Fälle zu durchdringen und Falllösungen zu erarbeiten, die mit dem herrschenden Recht in Einklang stehen. So erfahren die Fälle sowohl eine rechtswissenschaftliche, als auch eine geisteswissenschaftliche Würdigung.'
+                    text: 'Ghostwriting in der Anglistik hat eine große Bedeutung, da das Studium hohe Ansprüche an die Sprach- und Fachkompetenz stellt. Anglistik wird vorwiegend auf Englisch gelehrt, was hohe Anforderungen an das Sprachverständnis und damit auch eine doppelte Belastung mit sich bringt: es geht nicht nur darum, die Thematik zu verstehen, sondern man muss diese auch auf Englisch erfassen und ebenso englischsprachige Texte verfassen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Als „Begründer“ der Rechtswissenschaft gilt der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Römer Ulpian'
-                  -
-                    type: text
-                    text: ', der die Rechtswissenschaft als Kenntnis der menschlichen und göttlichen Entwicklung sowie als Wissenschaft vom Gerechten und Ungerechten interpretierte. Rechtswissenschaften können so als hermeneutische Disziplin (Textwissenschaft) verstanden werden und gehören zu den Geisteswissenschaften.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Was lernt man im Jura Studium?'
+                    text: 'Sehr gute Englischkenntnisse und ein allgemeines Interesse an der englischen Sprache ist damit unbedingte Voraussetzung für ein Anglistik-Studium. Daher rührt auch die enge Verbindung von Anglistik zum Fachgebiet der Kulturwissenschaften. Es geht dabei aber nicht nur, um das Verstehen von englischem Text, sondern auch um das Schreiben von englischem Text.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In einem rechtswissenschaftlichen Studium lernen Studenten Sachverhalte in logische Einheiten aufzuteilen und sie mithilfe von passenden Gesetzen zu interpretieren. Logisches Denken und die Fähigkeit, Gegebenheiten in kürzester Zeit zu analysieren gehören zu den Grundkompetenzen eines Jura-Studenten. Ergänzt wird dies mit der Vermittlung einer strukturierten Vorgehensweise, um hier auch komplexe Sachverhalte erfassen und Falllösungen finden zu können. Diese Fähigkeiten zu Erlangen ist ein langwieriger und aufwendiger Prozess, dessen Anforderungen sehr hoch sind. Die Durchfallquoten in Jura sind wesentlich höher, als bei anderen Studienfächern.'
+                    text: 'Gutes Zeitmanagement und eine hohe Selbstdisziplin ist damit notwendig, um erfolgreich ein Anglistik-Studium zu absolvieren. Hier kann der akademische Ghostwriter in der Anglistik Entlastung bieten!'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Nichts desto trotz rangiert Jura aber bei einem Blick auf die beliebtesten Studiengänge seit Jahren auf Rang 3, was insbesondere auf die exzellenten Karrierechancen mit einem attraktiven Gehalt nach Abschluss des Jurastudiums zurückzuführen ist: nach 10 Berufsjahren hat sich das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Einstiegsgehalt
-                  -
-                    type: text
-                    text: ' eines ehemaligen Jura Studenten im Schnitt '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: versechsfacht
-                  -
-                    type: text
-                    text: '. Als mögliche Berufe, die nach dem Studium in Frage kommen, kann der Richter, der Staatsanwalt, der Rechtsanwalt oder der Notar erwähnt werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Dementsprechend lastet ein immenser Leistungsdruck auf den Studenten. Ein Jura\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: _blank
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: "\_oder Freelancer schafft neue Freiräume für den Studenten, um sich für wichtige Rechtfachprüfungen oder ein Praktikum genügend vorzubereiten zu können. Darüber hinaus steht der "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Jura Ghostwriter'
-                  -
-                    type: text
-                    text: ' auch als Coach zur Verfügung, um dem Studenten in seiner persönlichen Entwicklung zu begleiten. Dies mit dem Ziel, dass dieser in die Lage versetzt wird, selbständig Jura-Texte zu bearbeiten. So kann der Ghostwriter helfen, die notwendigen Kenntnisse beim Studenten zu vertiefen.'
             show_as_card: false
         type: row
         enabled: true
@@ -572,49 +520,58 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Warum sollten Jurastudenten sich unterstützen lassen?'
+                    text: 'Warum sollten Anglistik-Studenten sich unterstützen lassen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Sehen Sie sich jetzt die Vorstellung unserer Jura Ghostwriter in unserem\_"
+                    text: 'Gerade für Bachelor- oder Masterkandidaten bietet GWriters Unterstützung beim Schreiben von Hausarbeiten und insbesondere bei '
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://www.youtube.com/watch?v=dK1_IH8Jjak'
-                          target: _blank
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
                           rel: null
-                    text: Youtube-Video
+                    text: Bachelor
                   -
                     type: text
-                    text: "\_an! Ein akademischer Ghostwriter in Jura ist meist ein "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Rechtsanwalt oder examinierter Jurist'
-                  -
-                    type: text
-                    text: ', hat sein Jurastudium also schon beendet, und verfügt oft schon über langjährige Berufserfahrung z.B. als '
+                    text: '- oder '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Rechtsanwalt oder an einem Gericht'
+                        type: link
+                        attrs:
+                          href: /masterarbeiten/masterarbeiten-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeiten
                   -
                     type: text
-                    text: '. Somit hat er bereits genaue Kenntnisse der Abläufe einer juristischen Arbeit und kennt alle nötigen Formalien zu Genüge.'
+                    text: ' in der Anglistik an: die Bandbreite geht hier vom Coaching, über die Literarturrecherche bis zur Erstellung von Mustervorlagen. Sie haben Bedarf an einer einmaligen Mustervorlage? Unter '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage-1
+                          target: null
+                          rel: null
+                    text: Hier
+                  -
+                    type: text
+                    text: ' können Sie sich ein Angebot schicken lassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Weitere Leistungen und ihre Zusammenführung finden Sie in der nachfolgenden Abbildung.'
             show_as_card: false
           -
             id: AzhQCQBl
@@ -622,10 +579,13 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: 97zsjxrT
+                  id: lhgno7dz
                   values:
-                    type: video
-                    video: 'https://youtu.be/dK1_IH8Jjak'
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/anglistik-ghostwriter-min.png
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -681,73 +641,51 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Jura Repetitorium: Ghostwriter hilft!'
+                    text: 'Welche Anforderungen müssen Ghostwriter in der Anglistik erfüllen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Er berät und coacht den Jurastudenten bei der Erstellung einer vollständigen '
+                    text: 'Ghostwriter in der Anglistik erfüllen ganz besondere Anforderungen, um in diesem Fachbereich tätig sein zu können.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'juristischen Arbeit'
-                  -
-                    type: text
-                    text: " (z.B. Seminararbeit, Studienabschlussarbeit), kann jedoch auch lediglich mit dem Studenten gemeinsam ein Konzept für die Bearbeitung umsetzen, einfache oder detaillierte Lösungsskizzen erarbeiten, rechtliche (Teil-)Gutachten oder generell eine Teilleistung erbringen, als ein\_"
-                  -
-                    type: text
-                    marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat/lektor
-                          target: _blank
-                          rel: null
-                    text: Lektor
-                  -
-                    type: text
-                    text: "\_oder\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/korrektor
-                          target: _blank
-                          rel: null
-                    text: Korrektor
-                  -
-                    type: text
-                    text: "\_der Arbeit. Weiterhin bietet unsere Schreib-Agentur "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Jura Repetitorien'
-                  -
-                    type: text
-                    text: ' an, in dem Ghostwriter für Studenten Übungsmaterialien oder Fortgeschrittenenübungen vorbereiten. Die Informationssammlungen werden in Form von Fällen, Lösungsskizzen, Lernskripten übertragen.'
+                        type: italic
+                    text: 'Welche akademische Qualifikationen von Ghostwriter im Fachbereich Anglistik existieren?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Im Ergebnis erhalten Sie eine Musterarbeit, die als Inspiration dienen kann und sich dabei exakt an die spezifischen juristischen Formatvorgaben hält. Da die Arbeiten ähnliche Anforderungen stellen, wie dies bei einer Klausur der Fall ist, bringen unsere Ghostwriter eine hohe Expertise in der vollständigen Erfassung des Sachverhaltes und im Verständnis für die zu behandelnden juristischen (Schwerpunkt-)Probleme mit.'
+                    text: 'Akademische Ghostwriter in der Anglistik sind Professoren und Doktoren. Akademische Ghostwriter, die in Fragestellungen der Anglistik tätig sind, haben im Regelfall selbst Anglistik, Amerikanistik oder Literaturwissenschaften studiert und häufig auch im Fachbereich promoviert. Der Besuch egelmäßiger Aus- und Fortbildungen zählt darüber hinaus zu den Voraussetzungen, die ein akademischer Ghostwriter in der Anglistik mitbringen muss.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: italic
+                    text: 'Warum ist Sprach- und Fachwissen notwendig?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nur wenn sein Fach- und Sprachwissen sowie sein kulturelles Verständnis umfassend aktuelle Entwicklungen erfasst, kann er dauerhaft und erfolgreich als akademischer Ghostwriter in der Anglistik tätig sein.'
               -
                 type: set
                 attrs:
@@ -840,127 +778,31 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Aufbau eines Jura-Studiums'
+                    text: 'Welche Erfahrungen und Qualifikationen haben Ghostwriter in der Anglistik typischerweise?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Das klassische Jurastudium besteht aus mindestens'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' 8, i.d.R. 9, Semestern an einer Universität'
-                  -
-                    type: text
-                    text: ' und wird mit einer staatlichen Prüfung, dem'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' 1. Staatsexamen'
-                  -
-                    type: text
-                    text: ', abgeschlossen. Nach der Bestehung dieses Examens folgen ein zweijähriges Referendariat und der Abschluss der juristischen Ausbildung durch das 2. Staatsexamen. Wer beide Staatsexamen absolviert hat, ist ein Volljurist und hat eine Anwaltzulassung. Den Titel eines „Volljuristen“ darf man demnach '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'frühestens nach 7 Jahren'
-                  -
-                    type: text
-                    text: ' führen.'
+                    text: 'Akademische Ghostwriter in der Anglistik bringen jahrelange Erfahrung mit der englischsprachigen Literatur und Kultur mit und haben in vielen Fällen einige Jahre im Ausland verbracht bzw. sind dort aufgewachsen. So zeigen diese nicht nur eine fachliche, sondern auch eine persönliche Nähe zur englischen Sprache. Damit besetzen akademische Ghostwriter in der Anglistik die Inhalte, die ein Studium der Anglistik erfordert.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Besonders hier ist im Bereich der Jura\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: "\_verbreitet, weil Doktoranden sich einen großen Teil ihrer Arbeitslast abnehmen lassen können, indem sie von einem Ghostwriter eine Mustervorlage für eine "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/dissertation-schreiben-motivationstipps
-                          target: null
-                          rel: null
-                    text: 'Dissertation schreiben lassen'
-                  -
-                    type: text
-                    text: ", die sie als Orientierungshilfe nutzen. Einige Universitäten ermöglichen den Studenten das Diplomierungsverfahren, bei dem durch Erstellen einer\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/diplomarbeit
-                          target: null
-                          rel: null
-                    text: Diplomarbeit
-                  -
-                    type: text
-                    text: "\_der akademische Grad „Diplom-Jurist“ erreicht werden kann."
+                    text: 'Ein Anglistik-Studium besteht im Regelfall aus drei Teilen: dem Umgang mit der englischsprachigen Literatur und Kultur, die linguistische Auseinandersetzung mit Merkmalen der englischen Sprachen und deren Varietäten und die Auseinandersetzung mit der englischen Kultur. In diesen drei Bereichen sind Ghostwriter in der Anglistik Experten und haben einschlägige Qualifikationen z.B. in Form eines Masterabschlusses – häufig als Master of Education – oder einer Promotion aufzuweisen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zusätzlich zu dem eigentlichen Studium können an manchen Universitäten seit einigen Jahren als Nebenstudium in juristischen Teilbereichen Bachelor-, Master- oder Magisterabschlüsse erreicht werden. Sie werden mit der '
+                    text: 'Auch Zusatzqualifikationen in diesem Fachbereich bringen akademische Ghostwriter in der Anglistik mit: viele akademische Ghostwriter, die Anglistik besetzen, sind Journalisten, Lektoren oder sind als Sprachdozenten tätig.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-                  -
-                    type: text
-                    text: ' (Bachelor Thesis), der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Masterarbeit '
-                  -
-                    type: text
-                    text: '(Master Thesis), Dissertation und Magisterarbeit abgeschlossen. Ein Bachelor-Studium dauert i.d.R. 3 Jahre, qualifiziert jedoch nicht für einen Beruf als Anwalt oder Richter.'
+                    text: 'Zusammenfassend gelten folgende Qualifikationen bzw. Erfahrungen englischsprachiger Ghostwriter im Fachbereich Anglistik. Darüber hinaus sind sie häufig selbst als Autoren englischsprachiger Werke tätig.'
             show_as_card: false
           -
             id: NQUDEDoG
@@ -973,14 +815,14 @@ replicator:
                     type: spacer
                     padding-y: 30
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
-                  id: hbyOqhTf
+                  id: lhgpm08d
                   values:
-                    type: video
-                    video: 'https://www.youtube.com/watch?v=hBlLAoJ6m0I'
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/erfahrungen-qualifikationen-ghostwriter-anglistik-min.png
+                    img_size: w-full
               -
                 type: paragraph
             show_as_card: false
@@ -1014,444 +856,13 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Inhalt des Jurastudiums'
+                    text: 'Welche Forschungsinteressen und -schwerpunkte haben Ghostwriter in der Anglistik?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Zu Beginn des Studiums formen im Grundstudium mit vier Semestern Grundlagenfächer, wie \_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Rechtsgeschichte, Rechtsinformatik'
-                  -
-                    type: text
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Rechtsphilosophie
-                  -
-                    type: text
-                    text: ' sowie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Rechtssoziologie
-                  -
-                    type: text
-                    text: ', die Basis des juristischen Wissens. Des Weiteren wird Wissen zum öffentlichen Recht, zum Zivilrecht und zum Strafrecht vermittelt.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Diese Basis wird nach einer Zwischenprüfung im Hauptstudium mit fünf Semestern erweitert. Neben Handelsrecht, Europarecht, Arbeits- und Sozialrecht, Familienrecht, Erbrecht sowie Steuerrecht werden im Hauptstudium wichtige Schlüsselqualifikationen, wie Rhetorik und Verhandlungsführung, vermittelt. Darüber hinaus muss der Student einen Schwerpunktbereich wählen, wie z.B. Umwelt-, Medien- oder Medizinrecht. Die Wahlmöglichkeiten bei diesen Schwerpunkten können sich jedoch von Universität zu Universität unterscheiden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die nachfolgende Tabelle zeigt die zentralen Inhalte der einzelnen Rechtsgebiete im Überblick.'
-              -
-                type: set
-                attrs:
-                  id: MZUlONOX
-                  values:
-                    type: accordion_wrapper
-                    items:
-                      -
-                        id: ELUjItjm
-                        headline: 'Handelsrecht § 🧾'
-                        accordion_content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Teilgebiet des Zivilrechts'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Inhalt ist das "Recht der Kaufleute"'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Richtlinien in Deutschland im HGB und in seinen Nebengesetzen'
-                        active: false
-                      -
-                        id: rbwizWQE
-                        headline: 'Europarecht 🌎'
-                        accordion_content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Recht der EU'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht)'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Primärrecht = völkerrechtliche Verträge'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Sekundärrecht = Richtlinien, Verordnungen'
-                        active: false
-                      -
-                        id: srUOZJAQ
-                        headline: 'Arbeits- und Sozialrecht ⚖'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Arbeitsrecht = Regelung der Rechtsbindungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
-                        active: false
-                      -
-                        id: rOOLWZ3T
-                        headline: 'Familienrecht 👨‍👩‍👧‍👦'
-                        accordion_content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Teilgebiet des Zivilrechts'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: ' Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
-                        active: false
-                      -
-                        id: KLJrBJfY
-                        headline: 'Erbrecht ✝'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Regelung der Verfügungen von Todes Weges'
-                        active: false
-                      -
-                        id: oSlRdRqZ
-                        headline: 'Umweltrecht 🌳🌲🌴'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Normen, die dem Umweltschutz dienen'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Kernbereich sind Schutzgesetze'
-                        active: false
-                      -
-                        id: J5PjbdSE
-                        headline: 'Steuerrecht 💰'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Teil des Abgabenrechts'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: ' alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
-                        active: false
-                      -
-                        id: MW7gRSYs
-                        headline: 'Medienrecht ⏏'
-                        accordion_content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Regelung des Umgangs mit Veröffentlichungen'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
-                        active: false
-                      -
-                        id: RKYuYtAt
-                        headline: 'Medizinrecht 💊'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht)'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
-                        active: false
-                      -
-                        id: D7jHBa1X
-                        headline: 'IT-Recht 💻'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Auch Rechtsinformatik genannt, rechtliche Betrachtungen in der Informationstechnologie'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Die Meinungsstreiten etablieren sich im Datenschutzrecht, Softwarerecht oder im IT-Strafrecht'
-                        active: false
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die einzelnen Fächer sind mit einer Klausur oder Hausarbeit abzuschließen. Diese bestehen aus Sachverhalten und Fragestellungen, deren Lösungswege im juristischen Gutachtenstil erarbeitet werden müssen. 30% der Abschlussnote bilden sich aus den Noten der Pflichtfachprüfungen und Jurahausarbeiten, 70% aus der Note der Staatsexamen. Deren Bestehen stellt allerdings für sehr viele Studenten große Schwierigkeiten dar, da lediglich ein Wiederholungsversuch gestattet wird. Das zweite Durchfallen führt dabei zum Ende der juristischen Karriere bzw. zur Exmatrikulation. Ein großer Zeitdruck lastet auf den Studenten, die sich nicht selten mithilfe von einem Jura Ghostwriter oder Freelancer Entlastung schaffen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Weitere interessante Studiengänge im Bereich Rechtswissenschaften:'
+                    text: 'Die Forschungsinteressen von Ghostwritern im Fachbereich der Anglistik unterscheiden sich je nach akademischer Herkunft und Schwerpunktsetzung in der Ausbildung. Im Allgemeinen finden sich Schwerpunkte und Forschungsinteressen im Bereich'
               -
                 type: bullet_list
                 content:
@@ -1463,7 +874,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Wirtschaftsrecht
+                            text: 'Classroom Disclosure, im'
                   -
                     type: list_item
                     content:
@@ -1472,7 +883,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Unternehmensrecht
+                            text: 'Bereich Language Teaching,'
                   -
                     type: list_item
                     content:
@@ -1481,7 +892,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Steuerrecht
+                            text: 'im Language Integrated Learning, im'
                   -
                     type: list_item
                     content:
@@ -1490,7 +901,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Wirtschaftsrecht für Technologieunternehmen'
+                            text: 'Intercultural Learning und Teaching sowie'
                   -
                     type: list_item
                     content:
@@ -1499,7 +910,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Recht & Management'
+                            text: 'in der Durchführung von Writing-Workshops und'
                   -
                     type: list_item
                     content:
@@ -1508,7 +919,27 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Kriminologie
+                            text: 'beim Zugriff auf wichtige kostenpflichtige Datenbanken.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Themenbereiche sind besonders gefragt?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Rahmen des Anglistik-Studium werden Unterstützungen in der'
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -1517,7 +948,43 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Rechtspsychologie
+                            text: 'Kulturwissenschaft – den sog. Cultural Studies,'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'der Sprachwissenschaft – den sog. Linguistics sowie'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'der Literaturwissenschaft – den sog. Literatry Studies'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'primär angefragt. Dabei ist die Nachfrage abhängig vom Forschungssemester, indem sich die Studenten befinden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Während beim Anglistik studieren in den Anfangssemester eher die Sprachwissenschaft im Fokus steht und ein grundlegendes Sprachtraining mit Blick auf Grammatik, Vokabular und Aussprache bestimmend ist, werden die höheren Semester geprägt durch die kritische Auseinandersetzung mit Kultur, Sprache sowie Literatur aus dem anglophonen Sprachraum. Dementsprechend werden dann hier auch andere Leistungen angefragt als zu Beginn des Studiums.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Inhaltlich geht es primär um die Erstellung von Seminararbeiten, die Erstellung von Essays sowie die Ausarbeitung von akademischen Arbeiten in Form größerer Textleistungen. Die Erstellung von Texten spielt beim Anglistik studieren eine sehr wichtige Rolle.'
             show_as_card: false
         type: row
         enabled: true
@@ -1670,164 +1137,448 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wie Sie die perfekte Jura Hausarbeit schreiben'
+                    text: 'Welche aktuellen Forschungsprojekte und -aktivitäten betreibenl Ghostwriter in der Anglistik?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Das erfolgreiche Absolvieren des Jurastudiums\_setzt auch das Anfertigen von "
+                    text: 'Auch hier zeigt sich eine große Bandbreite. Um ein Gefühl für aktuelle Forschungsprojekte und Forschungsaktivitäten zu erhalten, sollen nachfolgend einige Beispiele erwähnt werden:'
+              -
+                type: table
+                content:
                   -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: link
+                        type: table_cell
                         attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Haus
-                  -
-                    type: text
-                    text: '- und '
-                  -
-                    type: text
-                    marks:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Forschungsprojekt
                       -
-                        type: link
+                        type: table_cell
                         attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Seminararbeiten
-                  -
-                    type: text
-                    text: " voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Inhalt
                       -
-                        type: bold
-                    text: "Hausarbeit Jura –\_Sachverhaltslektüre und Stoffsammlung"
-              -
-                type: paragraph
-                content:
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Weiterführende Informationen'
                   -
-                    type: text
-                    text: "Gegenstand der\_Jura Hausarbeit ist regelmäßig die Falllösung, sodass es zuerst darum gehen muss den Sachverhalt zu lesen und zu verstehen. Wie im Rahmen einer Klausurbearbeitung kommt es auch für das erfolgreiche Gestalten einer Ausarbeitung einer Hausarbeit darauf an, dass Sie sich ausreichend Zeit zur Lektüre nehmen und davor schützen, durch Assoziationen zu Ihnen bekannten Fällen voreilig Schlüsse zu ziehen. Es bietet sich daher an den Sachverhalt einer Hausarbeit in mehreren Schritten zu erfassen. "
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zunächst sollte das bloße Lesen im Vordergrund stehen und etwaige Anmerkungen – auch wenn es schwerfällt – auf den zweiten Lesedurchgang verschoben werden. In diesem Durchgang können bereits Notizen parallel zum Lesen angefertigt werden und insbesondere sollten die wesentlichen Sachverhaltsangaben wie Daten, Personen und deren Beziehungen zueinander unterstrichen bzw. anderweitig hervorgehoben werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Eine chronologische Tafel, eine Personenskizze oder eine Stoffsammlung können in dieser Phase der Erstellung einer Hausarbeit sehr wertvoll sein. Hierdurch ergibt sich eine Art „bereinigter Sachverhalt“, den Sie mit dem eigentlichen Sachverhalt wiederum abgleichen sollten, um anschließend eine Differenzierung innerhalb des bereinigten Sachverhaltes nach unstreitigen und streitigen und juristischen und tatsächlichen Angaben vornehmen zu können. Sind Sie an diesem Punkt angelangt, haben Sie bereits wichtige Schritte zur erfolgreichen Bearbeitung der Hausarbeit hinter sich gebracht. Als nächstes sollten ihre Feststellungen vor der Fallfrage respektive den Fallfragen gespiegelt werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Innerhalb einer Jura Hausarbeit (ebenso wie innerhalb einer Jura Seminararbeit) gilt stets das Prinzip, dass falsch ist, was überflüssig ist. Deshalb müssen Sie genau eruieren, auf welche der von Ihnen herausgearbeiteten Punkte es angesichts der Fallfrage tatsächlich ankommt.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: bold
-                    text: 'Recherche und Lösungsskizze'
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Primary Englisch Classroom Corpus (PECC)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Das Projekt hat zum Ziel, einen videobasierten Korpus von Englischstunden für die Grundschule zu entwickeln.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://uni-flensburg.de/pecc'
+                                      target: _blank
+                                      rel: 'noopener noreferrer nofollow'
+                                text: 'Universität Flensburg'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Pragmatische Kompetenzen im Englisch-unterricht (PraKEU)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Erforschung, welche Kompetenzen bei Englisch als Fremdsprache notwendig sind und wie diese etabliert werden können.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://uni-flensburg.de/englisch/wer-wir-sind/mitarbeiterinnen-und-mitarbeiter/limberg-holger-prof-dr/research'
+                                      target: _blank
+                                      rel: 'noopener noreferrer nofollow'
+                                text: 'Universität Flensburg'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Empirische Unterrichts-forschung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Analyse der Fähigkeiten, die für ein freies Sprechen im Englischunterricht notwendig sind.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://anglistik.uni-halle.de/fachgebiete/did/forschung/'
+                                      target: _blank
+                                      rel: 'noopener noreferrer nofollow'
+                                text: 'Universität Halle'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Teaching Poetry in the EFL-Classroom'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Erhebung, wie mit Hilfe von Gedichten das englische Sprachwissen vertieft werden kann.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://anglistik.uni-halle.de/fachgebiete/did/forschung/'
+                                      target: _blank
+                                      rel: 'noopener noreferrer nofollow'
+                                text: 'Universität Halle'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Peer-Teaching und Peer-Coaching in Sprachlehr- und lernprojekten mit internationalen Studierenden (PETE)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Entwicklung fachdidaktischer Lehrkonzepte zur Vorbereitung, Durchführung und Evaluation von studentischen Lehrprojekten.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://kolbi.uni-wuppertal.de/index.php?id=3747'
+                                      target: _blank
+                                      rel: 'noopener noreferrer nofollow'
+                                text: 'Universität Wuppertal'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'DFG-Projekt Anglizismen im Deutschen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Analyse der Anwendung von Anglizismen im deutschen Sprach-gebrauch und Analyse ihrer Bedeutung und Funktion.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://anglistik.uni-wuppertal.de/de/linke-navigation/forschung/forschungsprojekte/anglizismen-im-deutschen/'
+                                      target: _blank
+                                      rel: 'noopener noreferrer nofollow'
+                                text: 'Universität Wuppertal'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Forschung zum bilingualen Lehren und Lernen (BiLL) in der Didaktik des Englischen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Erhebung der An-forderungen an die sprachlichen, fachlichen und kulturellen Kompetenzen im bilingualen Unterricht.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://anglistik.uni-wuppertal.de/de/forschung/forschungsprojekte/bilinguales-lehren-und-lernen-bill-in-der-didaktik-des-englischen/'
+                                      target: _blank
+                                      rel: 'noopener noreferrer nofollow'
+                                text: 'Universität Wuppertal'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wesentlicher Teil der Bearbeitung sowohl einer Hausarbeit, als auch einer Seminararbeit, ist stets die Recherche der jeweiligen Probleme des Falls. Hier hilft es, dass viele Angebote in Bezug auf Jura online verfügbar sind. Sowohl über die Datenbanken '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: juris
-                  -
-                    type: text
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: beck-online
-                  -
-                    type: text
-                    text: ', als auch in den vielfach online einsehbaren Skripten der Vorlesungen lassen sich schnelle erste Vorstellungen der Fallbearbeitung fassen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Entscheidend ist insoweit, dass Sie sich in den Kommentarstellen bzw. den entsprechen Beiträgen in der juristischen Literatur einen umfassenden Eindruck zu den im Fall aufgeworfenen Rechtssachverhalte verschaffen, damit Sie abschätzen können ob und in welchem Umfang die Bearbeitung der\_Jura Hausarbeit auf bestimmte Probleme wird eingehen müssen."
-              -
-                type: set
-                attrs:
-                  id: w8ex2UM9
-                  values:
-                    type: floating_img
-                    dateien:
-                      - jura-ghostwriter.png
-                    img_size: w-3/4
-                    float: mx-auto
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Sie können sich bei GWriters nicht nur Mustervorlagen für Ihre Jura Hausarbeit schreiben lassen, sondern\_sich auch lediglich "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'bestimmte Sachverhaltsabschnitte von einem Jura Ghostwriter genau erklären'
-                  -
-                    type: text
-                    text: ' '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: lassen
-                  -
-                    type: text
-                    text: ' oder eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Lösungsskizze erarbeiten lassen'
-                  -
-                    type: text
-                    text: ". Es empfiehlt sich, erst in diesem Stadium der Bearbeitung der Hausarbeit mit der Erstellung der Lösungsskizze zu beginnen. Auch für die aufwändige juristische Literaturrecherche und bei der Erstellung von Gliederung können Ghostwriter unterstützend werden. \_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ausgehend von der jeweiligen Fallfragestellung der Arbeit müssen Sie die insoweit zutreffende Rechtsfolge aus den Ihnen bekannten Normen herausarbeiten und finden so die zu prüfenden Vorschriften. Diese Vorschriften sollen dann im Rahmen der Lösungsskizze zueinander ins Verhältnis gesetzt werden. Auch bei der Frage, wie die Lösungsskizze zu erstellen ist, kann auf online verfügbare Quellen zurückgegriffen werden. Insbesondere hinsichtlich des Aufbaus der Hausarbeit empfiehlt es sich, die insoweit vielfach gegebenen Anleitungen der Lehrbücher zu befolgen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1897,31 +1648,19 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Ausformulierung der Jura Hausarbeit'
+                    text: 'Welche Beiträge leisten Ghostwriter in der Anglistik zur Entwicklung des Fachgebietes?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Schließlich ist\_"
+                    text: 'Ghostwriter in der Anglistik können durch die Unterstützung von Forschung sowie akademischer Arbeiten – z.B. in der Begleitung von Studenten bei der Erstellung wissenschaftlicher Arbeiten – zur Wissenserweiterung beitragen.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/gutachten-schreiben
-                          target: _blank
-                          rel: null
-                    text: 'die anzuwendende Gutachtentechnik'
-                  -
-                    type: text
-                    text: "\_zu beachten und zu nutzen. Achten Sie diesbezüglich darauf, dass zum einen nahe am Sachverhalt der Jurahausarbeit formuliert wird, zum anderen aber auch „sauber“ der Sachverhalt unter die jeweiligen Tatbestandsvoraussetzungen subsumiert wird. Schließlich ist im Rahmen der Ausformulierung der Hausarbeit auch maßgeblich, dass die Arbeit „rund“ ist: Dies bedeutet, dass sämtliche, durch die Fallfrage aufgeworfenen Probleme gelöst werden müssen und zudem die Arbeit durch ein Ergebnis geschlossen wird."
+                    text: 'Des Weiteren können Ghostwriter in der Anglistik die Anglistik-Studium Inhalte in ihren Publikationen abbilden, indem sie fachspezifische Texte z.B. in Form von Lehrbüchern, Essays, Artikeln in Papers oder in Form der Publikation von Herausgeberwerken publizieren. So helfen akademische Ghostwriter Fachinformationen zu vermitteln und diese auch einem breiten Publikum zur Verfügung zu stellen. Dies erfolgt mit dem Ziel, die Anglistik in der Öffentlichkeit bekannter zu machen und auch neue Studenten für das Fachgebiet zu gewinnen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1953,32 +1692,82 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Seminararbeit Jura – Unterschiede und Anforderungen'
+                    text: 'Wie arbeiten Ghostwriter in der Anglistik mit anderen Forschern zusammen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Das '
+                    text: 'Ghostwritern in der Anglistik arbeiten eng mit Forschern in anderen Fachgebieten zusammen. Dies gilt insbesondere mit Forschern, die im Bereich der Literaturwissenschaften, der Germanistik oder der Amerikanistik tätig sind. Der Ghostwriter Anglistik kann so sein eigenes Wissen erweitern, aber auch Impulse in anderen Forschungsgebieten geben.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Herausforderungen stellen sich beim Ghostwriting?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Herausforderungen zeigen sich für den akademischen Ghostwritern insbesondere in der Auseinandersetzung mit den spezifischen Anforderungen an den wissenschaftlichen Stil und die akademische Zielsetzung. Sprachliche Barrieren finden sich beim akademischen Ghostwriter im Fachbereich Anglistik keine: das ist sein Metier. Von zentraler Bedeutung, dass ein akademischer Ghostwriter erfolgreich wirken kann ist demnach, dass er ein umfangreiches Briefing mit spezifischen Anforderungen erhält.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Welche Bedeutung hat Fachwissen für Ghostwriter?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch das umfangreiche Fachwissen muss beim akademischen Ghostwriter vorhanden sein. Dies muss ein Wissen über englische Sprache, die englische Kultur sowie die englische Kultur und die betreffende Geschichte sein. Der akademische Ghostwriter muss die einzelnen kulturellen Strömungen und kulturellen Unterschiede kennen und ihre Wirkungen im sprachlichen Kontext interpretieren können. Ein tiefes Verständnis fremdsprachlicher Kulturen zeichnet demnach einen akademische Ghostwriter in der Anglistik aus.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter in der Anglistik müssen darüber hinaus in der Lage sein, innerhalb einer vorgegebenen Zeit ihre Leistungen zu erbringen. Eine effektive Arbeitsstrategie und ein ebensolches Zeitmanagement sind hierfür Herausforderung.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Letztendlich muss der Umgang mit Plagiaten als Herausforderung für den Ghostwriter erkannt werden. Er muss bei der Erstellung von Texten stets auf die Einzigartigkeit dieser achten. Um ein unbeabsichtigtes Plagiieren zu vermeiden, greift der akademische Ghostwriter auf eine Plagiatssoftware wie z.B. '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /blog/erste-seminararbeit-schreiben
-                          target: null
-                          rel: null
-                    text: 'Schreiben einer Seminararbeit'
+                          href: 'https://plagscan.com/de/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: PlagScan
                   -
                     type: text
-                    text: ' unterscheidet sich von der Hausarbeit insofern, als hier regelmäßig nicht am Fall gearbeitet, sondern abstrakt die Darstellung und Einordnung eines abstrakten Rechtsproblems gefordert wird. Dies erleichtert in der Vorbereitung der Ausarbeitung der Seminararbeit die Arbeit insofern, als es gerade nicht erforderlich ist, den Sachverhalt korrekt zu bereinigen, erschwert die eigentliche Lösungsskizze allerdings im Hinblick auf den Transferteil der Aufgabenstellung, als insoweit die entsprechende Recherche der Rechtsprobleme zwar als Grundlage der eigenen Ausarbeitung dienen kann, eine vollständig selbständig erdachte Lösung dennoch erforderlich bleibt.'
-              -
-                type: paragraph
-                content:
+                    text: ' oder '
                   -
                     type: text
-                    text: 'Hier kann die Einbeziehung von Autoren von GWriters hilfreich sein, insbesondere da der Mehrwert der Ausarbeitung einer Seminararbeit im Hinblick auf das Studiumsziel des Examens ausgesprochen überschaubar bleibt und insofern die Studienzeit – etwa zur Klausurenübung – oftmals lerntaktisch sinnvoller genutzt werden kann.'
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://app.ithenticate.com/en_us/login'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: Turnitin
+                  -
+                    type: text
+                    text: ' zurück.'
               -
                 type: set
                 attrs:
@@ -2000,25 +1789,120 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Haus- oder Seminararbeiten in Jura erfolgreich bewältigen'
+                    text: 'Welche Probleme und Herausforderungen stellen sich Studenten der Anglistik?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Die Ausarbeitung einer Jura Hausarbeit oder auch einer\_Jura Seminararbeit setzt vor allem Zeit voraus. Das Gelingen einer solchen Ausarbeitung hängt von der Gründlichkeit der Durchführung der jeweiligen Arbeitsschritte ab. Es bedarf einer sorgfältigen Sachverhaltslektüre, umfangreicher Skizzen und einer in sich stimmigen Lösungsskizze, um eine überzeugende Ausarbeitung einer Haus- bzw. Seminararbeit zu schaffen."
+                    text: 'Zeiteinhaltung, die Erfassung von Fachwissen und die Umsetzung dieses Wissens in englische Sprache ist Kerninhalt der Anglistik. Hinzu kommt die Analyse englischsprachiger Texte sowie die Optimierung des Textverständnisses. All dies sind die zentralen Herausforderungen, vor den Studenten der Anglistik stehen. Viele Studenten in diesem Fachbereich Schwierigkeiten beim Verfassen einer wissenschaftlichen Arbeit haben, insbesondere bei der Abschlussarbeit, weil Texte in einer Fremdsprache nicht nur verstanden, sondern auch verfasst werden müssen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Welche Probleme existieren bei Forschungsarbeiten?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Auch und gerade deshalb gibt es viele Studenten bzw. Auftraggeber, die sich Mustervorlagen für Ihre Haus- oder Seminararbeiten in Jura schreiben lassen. Professionelle Ghostwriting-Agenturen setzen hier dort an, wo es an der Unterstützung durch Lehrende, Doktoranden und Professoren mangelt. Durch Mustervorlagen nach wissenschaftlichen Standards und Experten-Coachings werden die korrekten wissenschaftlichen Arbeitstechniken demonstriert und verständlich erklärt sowie beispielsweise der Unterschied zwischen dem Gutachten- und Urteilsstil verdeutlicht.'
+                    text: 'Ähnliche Herausforderungen zeigen sich bei den Forschungsarbeiten von Studenten. Hier steht im Fokus die Frage, wie Englisch als Fremdsprache möglichst früh in der Bildung vermittelt werden kann, um ein tiefes Sprachenwissen zu verankern. Dies wird als Voraussetzung für zukünftigen beruflichen Erfolg angesehen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Probleme und Schwierigkeiten gibt es in der Anglistik?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei GWriters konnten wir durch unsere langjährige Erfahrung und mit Hilfe unserer hochqualifizierten Jura Ghostwriter, Lektoren und Coaches bereits einer Vielzahl von Studenten zum erfolgreichen Abschluss ihres Jurastudiums verhelfen.'
+                    text: 'Probleme im Studienfach Anglistik zeigen sich'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'in den hohen fachlichen und sprachlichen Anforderungen,'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'in einer Kombination dieser Anforderungen,'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'in der Forderung ein umfassendes Sprachgefühl zu haben und die Bereitschaft zu zeigen, es dauerhaft weiterzuentwickeln,'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'in einem hohen Erfolgsdruck,'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'in der Kombination verschiedener Module, die verarbeitet werden müssen – beispielhaft seien hier filmische, musische, sprachgeschichtliche und literarische Module sowie in der Notwendigkeit'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Praktika und Auslandssemester zu belegen, was insbesondere in jungen Jahren nicht nur eine fachliche Herausforderung darstellen kann.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademische Ghostwriter können in diesem Zusammenhang helfen, indem sie durch Coachingdienstleistungen, durch Recherchen oder im Rahmen der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: gwriters.de/leistungen
+                          target: null
+                          rel: null
+                    text: 'Erstellung von Mustervorlagen'
+                  -
+                    type: text
+                    text: ' helfen.'
             show_as_card: true
         type: row
         enabled: true
@@ -2030,6 +1914,159 @@ replicator:
     type: add_section
     enabled: true
     bg_color: '#F9F9F9'
+  -
+    id: lhgq0b2i
+    columns_replicator:
+      -
+        id: lhgq0cyh
+        single_col: false
+        grid:
+          -
+            id: Scs9MTIS
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '10 Anglistik-Themen für die Abschlussarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Folgende Themen sind für eine Abschlussarbeit zu empfehlen:'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Ein Vergleich zwischen amerikanischem und britischem Englisch – Die Wirkungen auf die Unternehmenskultur'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Zusammenhängende Analyse zwischen der englischen Sprache und Kultur und anderen Kulturen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Englische Populärliteratur und ihre Wirkung auf den akademischen Kontext'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Die Bedeutung von Dialekten in der englischsprachigen Literatur – Auswirkungen auf die Bildungslandschaft'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Konstitutionelle Reformen und ihre Auswirkungen auf die Kultur'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Die „politische Korrektheit“ in Großbritannien untersucht an Ausdrücken der Jugendsprache'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Die filmische und szenische Bearbeitung kultureller Länderprägungen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Englisch als Weltsprache? Ursachen und Gründe für die Bedeutung und Entwicklung des Englischen als Wissenschaftssprache'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Die Wirkungen des „Brexit“ für Großbritannien – eine kulturwissenschaftliche Analyse'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Die Bedeutung der englischen Sprache in der Kolonialzeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Weitere Beispiele für relevante Themen finden sich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://philol.uni-leipzig.de/fileadmin/Fakult%C3%A4t_Philo/Anglistik/Studium/Pr%C3%BCfungen/Abschlussarbeiten/themen/abschlussarbeiten_themen_kultur.pdf'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: hier
+                  -
+                    type: text
+                    text: .
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    border: false
+    type: add_section
+    enabled: true
   -
     id: 93qjJLSb
     columns_replicator:
@@ -2064,157 +2101,6 @@ replicator:
                         attrs:
                           align: left
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Einige unserer Blogartikel zum Thema Jura Ghostwriter'
-              -
-                type: set
-                attrs:
-                  id: QRjFKGvL
-                  values:
-                    type: blog_entries
-                    entries:
-                      - 70e3de9b-2de4-4dec-8edb-aaac764bb6d7
-                      - eafbdab5-b138-4080-8c67-59f5f2c1a5c1
-                      - 77170534-1ca3-42c2-97b1-d3031ddb9b48
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Nützliche Weblinks'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.gesetze-im-internet.de/bgb/'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Bürgerliches Gesetzbuch – Bundesministerium der Justiz Deutschland'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fstudium%2Fhochschule%2F2011-03%2Fjuranoten-reform'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: '“Im Jurastudium werden die Noten plötzlich ganz mau” – Zeit Online'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.sueddeutsche.de/karriere/endstation-staatspruefung-ungeloeste-faelle-1.559957'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Endstation Staatsprüfung – Süddeutsche.de'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://studiengaenge.zeit.de/studium/recht/rechtswissenschaften/rechtswissenschaft-jura'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Jura studieren – Zeit Online'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                    text: ' '
               -
                 type: paragraph
                 content:
