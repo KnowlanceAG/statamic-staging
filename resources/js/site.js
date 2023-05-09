@@ -126,6 +126,13 @@ const handleMenuScroll = () => {
   })
 }
 
+const renderPhoneList = () => {
+  const phoneList = document.querySelector('#phoneList')
+  if (phoneList) {
+    phoneList.classList.remove('hidden')
+  }
+}
+
 // END Menu
 
 function lazzyVideo () {
@@ -385,6 +392,7 @@ const ready = callback => {
 ready(() => {
   handleUTM()
   handleMenuScroll()
+  renderPhoneList()
   addMenuHandler()
   lazzyVideo()
   tabToggle()
