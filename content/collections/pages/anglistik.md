@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1683664161
+updated_at: 1683664265
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -790,6 +790,17 @@ replicator:
                   -
                     type: text
                     text: 'Ein Anglistik-Studium besteht im Regelfall aus drei Teilen: dem Umgang mit der englischsprachigen Literatur und Kultur, die linguistische Auseinandersetzung mit Merkmalen der englischen Sprachen und deren Varietäten und die Auseinandersetzung mit der englischen Kultur. In diesen drei Bereichen sind Ghostwriter in der Anglistik Experten und haben einschlägige Qualifikationen z.B. in Form eines Masterabschlusses – häufig als Master of Education – oder einer Promotion aufzuweisen.'
+            show_as_card: false
+          -
+            id: NQUDEDoG
+            bard:
+              -
+                type: set
+                attrs:
+                  id: iZgYO2vn
+                  values:
+                    type: spacer
+                    padding-y: 30
               -
                 type: paragraph
                 content:
@@ -802,17 +813,6 @@ replicator:
                   -
                     type: text
                     text: 'Zusammenfassend gelten folgende Qualifikationen bzw. Erfahrungen englischsprachiger Ghostwriter im Fachbereich Anglistik. Darüber hinaus sind sie häufig selbst als Autoren englischsprachiger Werke tätig.'
-            show_as_card: false
-          -
-            id: NQUDEDoG
-            bard:
-              -
-                type: set
-                attrs:
-                  id: iZgYO2vn
-                  values:
-                    type: spacer
-                    padding-y: 30
               -
                 type: set
                 attrs:
