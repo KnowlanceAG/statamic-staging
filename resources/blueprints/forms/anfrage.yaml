@@ -49,6 +49,9 @@ sections:
           tooltip: 'Wir würde Sie gern zeitnah telefonisch kontaktieren. Ihre Telefonnummer wird natürlich ebenfalls vertraulich behandelt.'
           validate:
             - austria_phone
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: fachrichtung
         field:
@@ -157,6 +160,63 @@ sections:
           type: text
           icon: text
           listable: hidden
+      -
+        handle: callback_needed
+        field:
+          inline_label: 'Wünschen Sie einen Telefontermin? Wir rufen Sie gerne zurück!'
+          default: false
+          display: 'Rückruf erwünscht'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: callback_date
+        field:
+          input_type: date
+          antlers: false
+          display: Rückrufdatum
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          if:
+            callback_needed: 'equals true'
+      -
+        handle: callback_time_from
+        field:
+          input_type: time
+          antlers: false
+          display: 'Rückrufzeit von'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          if:
+            callback_needed: 'equals true'
+      -
+        handle: callback_time_to
+        field:
+          input_type: time
+          antlers: false
+          display: 'Rückrufzeit bis'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          if:
+            callback_needed: 'equals true'
       -
         handle: gw_source
         field:
