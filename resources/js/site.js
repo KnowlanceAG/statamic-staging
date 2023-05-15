@@ -17,11 +17,16 @@ const burger = document.querySelector('.menu-opener')
 const mobileMenu = document.querySelector('.menu-mobile')
 const mobileMenuCloseButton = document.querySelector('.menu-closer')
 
-const megaMenuToggler = document.querySelector('.dropdown');
-const megaMenuCloseButton = document.querySelector('.closesub');
+const megaMenuToggler = document.querySelector('.dropdown')
+const megaMenuCloseButton = document.querySelector('.closesub')
 
 const megaMenuOpened = () => !megaMenuToggler.nextElementSibling.classList.contains('hidden')
 const mobileMenuOpened = () => !mobileMenu.classList.contains('hidden')
+
+const mobileMailMenu = document.querySelector('#mobileMailMenu')
+const mailMenuButton = document.querySelector('#mobileMailMenuBtn')
+const mailMenuCloseButton = document.querySelector('#mailMenuCloseBtn')
+const mailMenuOpened = () => !mobileMailMenu.classList.contains('hidden')
 
 const setScrolling = (active) => {
   if (!active) {
@@ -63,10 +68,27 @@ const toggleMobileMenu = () => {
   setScrolling(!mobileMenuOpened())
 }
 
+const toggleMailMenu = (ev) => {
+  mobileMailMenu.classList.toggle('hidden')
+  mobileMailMenuBtn.classList.toggle('hidden')
+  mailMenuCloseBtn.classList.toggle('hidden')
+  setScrolling(!mailMenuOpened())
+}
+
+const closeMailMenu = () => {
+  mobileMailMenu.classList.remove('hidden')
+  mobileMailMenu.classList.add('hidden')
+  mobileMailMenuBtn.classList.remove('hidden')
+  mailMenuCloseBtn.classList.remove('hidden')
+  mailMenuCloseBtn.classList.add('hidden')
+  setScrolling(true)
+}
+
 const closeAllMenus = () => {
   setScrolling(true)
   closeMegaMenu()
   closeMobileMenu()
+  closeMailMenu()
 }
 
 const addMegaMenuHandler = () => {
@@ -101,6 +123,12 @@ const addMobileMenuHandler = () => {
   })
 }
 
+const addMobileMailMenuHandler = () => {
+  if (!mailMenuButton || !mailMenuCloseButton) return
+  mailMenuButton.addEventListener('click', toggleMailMenu)
+  mailMenuCloseButton.addEventListener('click', closeMailMenu)
+}
+
 const addMenuHandler = () => {
   window.addEventListener('resize', closeAllMenus)
   megaMenuToggler.addEventListener('click', toggleMegaMenu)
@@ -111,6 +139,7 @@ const addMenuHandler = () => {
 
   addMegaMenuHandler()
   addMobileMenuHandler()
+  addMobileMailMenuHandler()
 }
 
 const handleMenuScroll = () => {
@@ -126,11 +155,11 @@ const handleMenuScroll = () => {
   })
 }
 
-const renderPhoneList = () => {
-  const phoneList = document.querySelector('#phoneList')
-  if (phoneList) {
-    phoneList.classList.remove('hidden')
-  }
+const renderContactLists = () => {
+  const contactLists = document.querySelectorAll('.contact-list')
+  contactLists.forEach((list) => {
+    list.classList.remove('hidden')
+  })
 }
 
 // END Menu
@@ -392,7 +421,7 @@ const ready = callback => {
 ready(() => {
   handleUTM()
   handleMenuScroll()
-  renderPhoneList()
+  renderContactLists()
   addMenuHandler()
   lazzyVideo()
   tabToggle()
