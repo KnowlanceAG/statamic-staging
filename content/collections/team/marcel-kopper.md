@@ -31,5 +31,5 @@ show_as_card: false
 phone_number: '+49 30 809332313'
 email_address: info@gwriters.de
 breadcrumbs_active: true
-publish_phone: true
+publish_contact: true
 ---

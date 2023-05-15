@@ -204,7 +204,7 @@ table {
     @apply absolute top-12;
   }
 }
-.phone-entry {
+.contact-entry {
   &:hover {
     svg {
       fill: #fff !important;

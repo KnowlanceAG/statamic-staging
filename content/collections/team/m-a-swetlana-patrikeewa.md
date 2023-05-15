@@ -126,5 +126,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 show_as_card: false
 breadcrumbs_active: true
-publish_phone: true
+publish_contact: true
 ---

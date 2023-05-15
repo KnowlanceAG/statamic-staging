@@ -20,5 +20,5 @@ email_address: jung@gwriters.de
 published: true
 phone_number: '+49 30 809332362'
 breadcrumbs_active: true
-publish_phone: true
+publish_contact: true
 ---

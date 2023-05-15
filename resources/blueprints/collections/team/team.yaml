@@ -83,20 +83,6 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-          width: 50
-      -
-        handle: publish_phone
-        field:
-          default: true
-          display: 'Telefonnummer veröffentlichen'
-          type: toggle
-          icon: toggle
-          instructions: 'Soll die Telefonnummer auf der Seite veröffentlich werden?'
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          width: 50
       -
         handle: email_address
         field:
@@ -108,3 +94,15 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
+      -
+        handle: publish_contact
+        field:
+          default: true
+          display: 'Kontakt veröffentlichen'
+          type: toggle
+          icon: toggle
+          instructions: 'Soll dieser Kontakt auf der Seite veröffentlich werden?'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false

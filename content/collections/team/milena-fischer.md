@@ -18,5 +18,5 @@ show_as_card: false
 email_address: fischer@gwriters.de
 phone_number: '+49 30 809332356'
 breadcrumbs_active: true
-publish_phone: true
+publish_contact: true
 ---

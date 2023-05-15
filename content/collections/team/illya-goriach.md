@@ -50,5 +50,5 @@ updated_by: 94ade404-9791-479c-a67d-f792aa146207
 updated_at: 1666185494
 published: true
 breadcrumbs_active: true
-publish_phone: true
+publish_contact: true
 ---
