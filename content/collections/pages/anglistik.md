@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1684874310
+updated_at: 1684874390
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -650,28 +650,6 @@ replicator:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    border: false
-    type: add_section
-    enabled: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-  -
-    id: li0qfj6o
-    columns_replicator:
-      -
-        id: li0qfksq
-        single_col: true
-        grid:
-          -
-            id: toE2KOEb
-            bard:
               -
                 type: heading
                 attrs:
@@ -732,11 +710,11 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: li0qg6iu
     columns_replicator:
