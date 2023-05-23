@@ -1192,6 +1192,7 @@ replicator:
                           - 1de3d76b-f23a-41a8-a629-15b48a07223e
                           - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
+                          - 24308319-8d41-41a9-ad35-e9cf2ceba726
                       -
                         id: aWNfIIOo
                         text: Arbeiten
@@ -2922,8 +2923,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677240223
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1684876755
 template: default
 use_meta_keywords: false
 no_index_page: false
