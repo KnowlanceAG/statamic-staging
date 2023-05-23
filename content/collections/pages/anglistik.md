@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1684873447
+updated_at: 1684873696
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -650,7 +650,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: '#FFFFFF'
     border: false
     type: add_section
     enabled: true
@@ -779,10 +779,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: IJu1YDQk
     columns_replicator:
@@ -906,7 +908,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: '#FFFFFF'
     border: false
     type: add_section
     enabled: true
@@ -1134,10 +1136,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: bvMF0mps
     columns_replicator:
@@ -1733,67 +1737,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: AsUvOZac
-    columns_replicator:
-      -
-        id: xDEN5TgD
-        single_col: true
-        grid:
-          -
-            id: NeTTbdfH
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Welche Beiträge leisten Ghostwriter in der Anglistik zur Entwicklung des Fachgebietes?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter in der Anglistik können durch die Unterstützung von Forschung sowie akademischer Arbeiten – z.B. i'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'n der Begleitung von Studenten bei der Erstellung wissenschaftlicher Arbeiten'
-                  -
-                    type: text
-                    text: ' – zur Wissenserweiterung beitragen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Des Weiteren können Ghostwriter in der Anglistik die Anglistik-Studium Inhalte in ihren Publikationen abbilden, indem sie fachspezifische Texte z.B.'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' in Form von Lehrbüchern, Essays, Artikeln in Papers oder in Form der Publikation von Herausgeberwerken'
-                  -
-                    type: text
-                    text: ' publizieren. So helfen akademische Ghostwriter Fachinformationen zu vermitteln und diese auch einem breiten Publikum zur Verfügung zu stellen. Dies erfolgt mit dem Ziel, die Anglistik in der Öffentlichkeit bekannter zu machen und auch neue Studenten für das Fachgebiet zu gewinnen.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
     id: 9jGd5xvR
     columns_replicator:
       -
@@ -2108,6 +2051,67 @@ replicator:
     type: add_section
     enabled: true
     bg_color: '#F9F9F9'
+  -
+    id: li0qaa4k
+    columns_replicator:
+      -
+        id: li0qabhb
+        single_col: true
+        grid:
+          -
+            id: toE2KOEb
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Beiträge leisten Ghostwriter in der Anglistik zur Entwicklung des Fachgebietes?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter in der Anglistik können durch die Unterstützung von Forschung sowie akademischer Arbeiten – z.B. i'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'n der Begleitung von Studenten bei der Erstellung wissenschaftlicher Arbeiten'
+                  -
+                    type: text
+                    text: ' – zur Wissenserweiterung beitragen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Des Weiteren können Ghostwriter in der Anglistik die Anglistik-Studium Inhalte in ihren Publikationen abbilden, indem sie fachspezifische Texte z.B.'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' in Form von Lehrbüchern, Essays, Artikeln in Papers oder in Form der Publikation von Herausgeberwerken'
+                  -
+                    type: text
+                    text: ' publizieren. So helfen akademische Ghostwriter Fachinformationen zu vermitteln und diese auch einem breiten Publikum zur Verfügung zu stellen. Dies erfolgt mit dem Ziel, die Anglistik in der Öffentlichkeit bekannter zu machen und auch neue Studenten für das Fachgebiet zu gewinnen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
   -
     id: lhgq0b2i
     columns_replicator:
