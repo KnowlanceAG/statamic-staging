@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1683666543
+updated_at: 1684872987
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -384,7 +384,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich Jura'
+                    text: 'Unsere Leistungen im Fachbereich Anglistik'
               -
                 type: set
                 attrs:
@@ -688,11 +688,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: italic
                     text: 'Welche akademische Qualifikationen von Ghostwriter im Fachbereich Anglistik existieren?'
               -
                 type: paragraph
@@ -710,8 +705,6 @@ replicator:
                     marks:
                       -
                         type: bold
-                      -
-                        type: italic
                     text: 'Warum ist Sprach- und Fachwissen notwendig?'
               -
                 type: paragraph
@@ -1232,7 +1225,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Unsere Preise für Informatik, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                    text: "Unsere Preise für Anglistik, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
                   -
                     type: text
                     marks:
@@ -1736,45 +1729,6 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: TV6yQ2Cs
-    columns_replicator:
-      -
-        id: Y6WcZlJY
-        single_col: true
-        grid:
-          -
-            id: 7wAOxndL
-            bard:
-              -
-                type: set
-                attrs:
-                  id: ryh0rGzH
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/beispielarbeiten-1.JPG
-                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
-                    ex_fachbereich:
-                      - 21ef3416-f1fd-43eb-8e38-ec597763c45f
-                    ex_type: Hausarbeit
-                    ex_pages: '10'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_text: Weiterlesen
-                    ex_button_align: justify-start
-                    ex_spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
