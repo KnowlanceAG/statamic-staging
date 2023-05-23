@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1684873832
+updated_at: 1684873998
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -448,81 +448,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: ka8aWQz1
-    columns_replicator:
-      -
-        id: jcsfnZT2
-        single_col: true
-        grid:
-          -
-            id: Pv0OohYS
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Welche Bedeutung hat Ghostwriting in der Anglistik?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriting in der Anglistik hat eine große Bedeutung, da das Studium hohe Ansprüche an die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Sprach- und Fachkompetenz'
-                  -
-                    type: text
-                    text: ' stellt. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Anglistik wird vorwiegend auf Englisch gelehr'
-                  -
-                    type: text
-                    text: 't, was hohe Anforderungen an das Sprachverständnis und damit auch eine doppelte Belastung mit sich bringt: es geht nicht nur darum, die Thematik zu verstehen, sondern man muss diese auch auf Englisch erfassen und ebenso englischsprachige Texte verfassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Sehr gute Englischkenntnisse und ein allgemeines Interesse an der englischen Sprache ist damit unbedingte Voraussetzung für ein Anglistik-Studium'
-                  -
-                    type: text
-                    text: '. Daher rührt auch die enge Verbindung von Anglistik zum Fachgebiet der Kulturwissenschaften. Es geht dabei aber nicht nur, um das Verstehen von englischem Text, sondern auch um das Schreiben von englischem Text.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Gutes Zeitmanagement und eine hohe Selbstdisziplin ist damit notwendig, um erfolgreich ein Anglistik-Studium zu absolvieren. Hier kann der akademische Ghostwriter in der Anglistik Entlastung bieten!'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
     id: o8yjhty7
     columns_replicator:
       -
@@ -655,14 +580,89 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: W5EXgPr8
+    id: li0qfj6o
     columns_replicator:
       -
-        id: 58cp4D2L
+        id: li0qfksq
         single_col: true
         grid:
           -
-            id: eGIeRfvX
+            id: toE2KOEb
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Bedeutung hat Ghostwriting in der Anglistik?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriting in der Anglistik hat eine große Bedeutung, da das Studium hohe Ansprüche an die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sprach- und Fachkompetenz'
+                  -
+                    type: text
+                    text: ' stellt. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Anglistik wird vorwiegend auf Englisch gelehr'
+                  -
+                    type: text
+                    text: 't, was hohe Anforderungen an das Sprachverständnis und damit auch eine doppelte Belastung mit sich bringt: es geht nicht nur darum, die Thematik zu verstehen, sondern man muss diese auch auf Englisch erfassen und ebenso englischsprachige Texte verfassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sehr gute Englischkenntnisse und ein allgemeines Interesse an der englischen Sprache ist damit unbedingte Voraussetzung für ein Anglistik-Studium'
+                  -
+                    type: text
+                    text: '. Daher rührt auch die enge Verbindung von Anglistik zum Fachgebiet der Kulturwissenschaften. Es geht dabei aber nicht nur, um das Verstehen von englischem Text, sondern auch um das Schreiben von englischem Text.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Gutes Zeitmanagement und eine hohe Selbstdisziplin ist damit notwendig, um erfolgreich ein Anglistik-Studium zu absolvieren. Hier kann der akademische Ghostwriter in der Anglistik Entlastung bieten!'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: li0qg6iu
+    columns_replicator:
+      -
+        id: li0qg84x
+        single_col: true
+        grid:
+          -
+            id: toE2KOEb
             bard:
               -
                 type: heading
@@ -712,6 +712,26 @@ replicator:
                   -
                     type: text
                     text: 'Nur wenn sein Fach- und Sprachwissen sowie sein kulturelles Verständnis umfassend aktuelle Entwicklungen erfasst, kann er dauerhaft und erfolgreich als akademischer Ghostwriter in der Anglistik tätig sein.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: W5EXgPr8
+    columns_replicator:
+      -
+        id: 58cp4D2L
+        single_col: true
+        grid:
+          -
+            id: eGIeRfvX
+            bard:
               -
                 type: set
                 attrs:
