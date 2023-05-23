@@ -144,6 +144,18 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
   </div>
 {{ /form:create }}
 <script>
+  const adjustCallbackTime = (ev) => {
+    if (ev.id === 'callback_time_to') {
+      const timeFrom = form.querySelector('#callback_time_from select')
+      if (!timeFrom) return
+      timeFrom.value = ev.value < timeFrom.value ? ev.value : timeFrom.value
+      return
+    }
+    const timeTo = form.querySelector('#callback_time_to select')
+    if (!timeTo) return
+    timeTo.value = ev.value > timeTo.value ? ev.value : timeTo.value
+  }
+
   const promobutton = document.querySelector('#promobutton')
 
   const enablePromocode = () => {
@@ -165,9 +177,10 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
   }
 
   const callbackbutton = document.querySelector('#callbackbutton')
+  const callbackNeeded = document.querySelector('#callback_needed input[type="checkbox"]')
 
   const enableCallback = () => {
-    const callbackNeeded = document.querySelector('#callback_needed input[type="checkbox"]')
+    if (!callbackNeeded) return
     callbackNeeded.checked = !callbackNeeded.checked
 
     callbackbutton.classList.toggle('bg-gray-200')
@@ -189,7 +202,6 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
   if (callbackbutton) {
     callbackbutton.addEventListener('click', enableCallback)
   }
-
 
   const actionUrl =
     "{{ config:cpssg:dynamic_site_url }}/!/forms/{{ form:handle }}"
