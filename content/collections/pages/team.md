@@ -5,7 +5,7 @@ title: Team
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662388820
+updated_at: 1684756670
 page_title: 'Unser Team • GWriters.de'
 teaser:
   -
@@ -52,10 +52,12 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: UeTiUhC6
     bard:
       -
         type: set
         attrs:
+          id: VWscIXef
           values:
             type: bilder
             has_border: false
@@ -98,6 +100,7 @@ replicator:
       -
         type: set
         attrs:
+          id: Q4wnyMD6
           values:
             type: team_liste
             team_mitglieder:
@@ -106,7 +109,6 @@ replicator:
               - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
               - a0275a30-5d74-46a4-84d6-acc7e827e95e
               - 0443cc18-5f72-486a-91de-9648a8fc0b2f
-              - 18e28099-a7de-4213-a85e-299c6b9b9a5f
               - c76d960c-26be-47ac-a08b-ca4dbba5e041
               - d8d9c64e-1304-48b0-bdb1-493f652499ee
               - 24e70a94-8ad0-4509-bf64-2b04e5b28ff9
@@ -121,6 +123,7 @@ replicator:
               - 59da4718-41c8-4485-9adc-f6e28f7c7844
               - 8ede280d-eba3-4ad9-9d78-2eaec92444ac
               - c167d814-0006-480c-99b5-7dd093d04f69
+            in_flow: false
       -
         type: paragraph
     type: editor
@@ -132,6 +135,5 @@ og_title: 'Unser Team • GWriters'
 og_description: 'Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Menschen, die sich täglich mit viel Know-How & Feingefühl um Ihre akademischen Projekte kümmern.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
