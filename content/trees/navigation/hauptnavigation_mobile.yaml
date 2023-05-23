@@ -184,6 +184,9 @@ tree:
               -
                 id: ce25ea45-5b98-4e72-9e82-5b60e6c9c0dd
                 entry: fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+              -
+                id: 6385cd39-6f79-4ade-a343-4733ea167246
+                entry: 24308319-8d41-41a9-ad35-e9cf2ceba726
           -
             id: e4c7273b-beef-4142-89f5-f19c8d291450
             title: 'Medizinische Fachrichtungen'
