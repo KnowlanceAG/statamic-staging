@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1684874390
+updated_at: 1684874591
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -716,74 +716,6 @@ replicator:
     bg_toggle: false
     bg_color: '#F9F9F9'
   -
-    id: li0qg6iu
-    columns_replicator:
-      -
-        id: li0qg84x
-        single_col: true
-        grid:
-          -
-            id: toE2KOEb
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Welche Anforderungen müssen Ghostwriter in der Anglistik erfüllen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter in der Anglistik erfüllen ganz besondere Anforderungen, um in diesem Fachbereich tätig sein zu können.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Welche akademische Qualifikationen von Ghostwriter im Fachbereich Anglistik existieren?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Akademische Ghostwriter in der Anglistik sind Professoren und Doktoren. Akademische Ghostwriter, die in Fragestellungen der Anglistik tätig sind, haben im Regelfall selbst Anglistik, Amerikanistik oder Literaturwissenschaften studiert und häufig auch im Fachbereich promoviert. Der Besuch egelmäßiger Aus- und Fortbildungen zählt darüber hinaus zu den Voraussetzungen, die ein akademischer Ghostwriter in der Anglistik mitbringen muss.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Warum ist Sprach- und Fachwissen notwendig?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Nur wenn sein Fach- und Sprachwissen sowie sein kulturelles Verständnis umfassend aktuelle Entwicklungen erfasst, kann er dauerhaft und erfolgreich als akademischer Ghostwriter in der Anglistik tätig sein.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
     id: IJu1YDQk
     columns_replicator:
       -
@@ -907,6 +839,76 @@ replicator:
     is_full: true
     bg_toggle: false
     bg_color: '#FFFFFF'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: li0qtj3x
+    columns_replicator:
+      -
+        id: li0qtkkf
+        single_col: true
+        grid:
+          -
+            id: toE2KOEb
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Anforderungen müssen Ghostwriter in der Anglistik erfüllen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter in der Anglistik erfüllen ganz besondere Anforderungen, um in diesem Fachbereich tätig sein zu können.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Welche akademische Qualifikationen von Ghostwriter im Fachbereich Anglistik existieren?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademische Ghostwriter in der Anglistik sind Professoren und Doktoren. Akademische Ghostwriter, die in Fragestellungen der Anglistik tätig sind, haben im Regelfall selbst Anglistik, Amerikanistik oder Literaturwissenschaften studiert und häufig auch im Fachbereich promoviert. Der Besuch egelmäßiger Aus- und Fortbildungen zählt darüber hinaus zu den Voraussetzungen, die ein akademischer Ghostwriter in der Anglistik mitbringen muss.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Warum ist Sprach- und Fachwissen notwendig?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nur wenn sein Fach- und Sprachwissen sowie sein kulturelles Verständnis umfassend aktuelle Entwicklungen erfasst, kann er dauerhaft und erfolgreich als akademischer Ghostwriter in der Anglistik tätig sein.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
