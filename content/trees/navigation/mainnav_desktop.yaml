@@ -181,6 +181,10 @@ tree:
               -
                 id: ce25ea45-5b98-4e72-9e82-5b60e6c9c0dd
                 entry: fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+              -
+                id: 32198fca-2143-410e-bba6-90e9c30cff22
+                title: Anglistik
+                url: /fachrichtungen/anglistik
           -
             id: ecbc3f43-8690-4c01-968b-8b574c22fab0
             title: 'Medizinische Fachrichtungen'
