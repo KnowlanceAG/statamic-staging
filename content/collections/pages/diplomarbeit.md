@@ -476,6 +476,7 @@ replicator:
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+                          - 24308319-8d41-41a9-ad35-e9cf2ceba726
               -
                 type: set
                 attrs:
@@ -1037,8 +1038,8 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677240200
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1684876356
 template: default
 use_meta_keywords: false
 no_index_page: false

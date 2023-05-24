@@ -121,7 +121,7 @@ sections:
         field:
           input_type: text
           antlers: false
-          display: Seitenzahl
+          display: Seitenzahl, Wörter oder Zeichen
           type: text
           icon: text
           listable: hidden

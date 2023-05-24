@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1683666543
+updated_at: 1684874656
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -384,7 +384,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich Jura'
+                    text: 'Unsere Leistungen im Fachbereich Anglistik'
               -
                 type: set
                 attrs:
@@ -448,81 +448,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: ka8aWQz1
-    columns_replicator:
-      -
-        id: jcsfnZT2
-        single_col: true
-        grid:
-          -
-            id: Pv0OohYS
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Welche Bedeutung hat Ghostwriting in der Anglistik?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriting in der Anglistik hat eine große Bedeutung, da das Studium hohe Ansprüche an die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Sprach- und Fachkompetenz'
-                  -
-                    type: text
-                    text: ' stellt. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Anglistik wird vorwiegend auf Englisch gelehr'
-                  -
-                    type: text
-                    text: 't, was hohe Anforderungen an das Sprachverständnis und damit auch eine doppelte Belastung mit sich bringt: es geht nicht nur darum, die Thematik zu verstehen, sondern man muss diese auch auf Englisch erfassen und ebenso englischsprachige Texte verfassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Sehr gute Englischkenntnisse und ein allgemeines Interesse an der englischen Sprache ist damit unbedingte Voraussetzung für ein Anglistik-Studium'
-                  -
-                    type: text
-                    text: '. Daher rührt auch die enge Verbindung von Anglistik zum Fachgebiet der Kulturwissenschaften. Es geht dabei aber nicht nur, um das Verstehen von englischem Text, sondern auch um das Schreiben von englischem Text.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Gutes Zeitmanagement und eine hohe Selbstdisziplin ist damit notwendig, um erfolgreich ein Anglistik-Studium zu absolvieren. Hier kann der akademische Ghostwriter in der Anglistik Entlastung bieten!'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
     id: o8yjhty7
     columns_replicator:
       -
@@ -575,7 +500,7 @@ replicator:
                     text: Masterarbeiten
                   -
                     type: text
-                    text: ' in der Anglistik an: die Bandbreite geht hier vom Coaching, über die Literarturrecherche bis zur Erstellung von Mustervorlagen. Sie haben Bedarf an einer einmaligen Mustervorlage? Unter '
+                    text: ' in der Anglistik an: die Bandbreite geht hier vom Coaching, über die Literarturrecherche bis zur Erstellung von Mustervorlagen. Sie haben Bedarf an einer einmaligen Mustervorlage? '
                   -
                     type: text
                     marks:
@@ -585,10 +510,10 @@ replicator:
                           href: /anfrage-1
                           target: null
                           rel: null
-                    text: Anfrage-Button
+                    text: 'Fordern Sie mit einer kostenlosen Anfrage ein unverbindliches Angebot an'
                   -
                     type: text
-                    text: ' können Sie sich ein Angebot schicken lassen.'
+                    text: .
               -
                 type: paragraph
                 content:
@@ -650,7 +575,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: '#FFFFFF'
     border: false
     type: add_section
     enabled: true
@@ -664,61 +589,6 @@ replicator:
           -
             id: eGIeRfvX
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Welche Anforderungen müssen Ghostwriter in der Anglistik erfüllen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter in der Anglistik erfüllen ganz besondere Anforderungen, um in diesem Fachbereich tätig sein zu können.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: italic
-                    text: 'Welche akademische Qualifikationen von Ghostwriter im Fachbereich Anglistik existieren?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Akademische Ghostwriter in der Anglistik sind Professoren und Doktoren. Akademische Ghostwriter, die in Fragestellungen der Anglistik tätig sind, haben im Regelfall selbst Anglistik, Amerikanistik oder Literaturwissenschaften studiert und häufig auch im Fachbereich promoviert. Der Besuch egelmäßiger Aus- und Fortbildungen zählt darüber hinaus zu den Voraussetzungen, die ein akademischer Ghostwriter in der Anglistik mitbringen muss.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: italic
-                    text: 'Warum ist Sprach- und Fachwissen notwendig?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Nur wenn sein Fach- und Sprachwissen sowie sein kulturelles Verständnis umfassend aktuelle Entwicklungen erfasst, kann er dauerhaft und erfolgreich als akademischer Ghostwriter in der Anglistik tätig sein.'
               -
                 type: set
                 attrs:
@@ -780,16 +650,71 @@ replicator:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Bedeutung hat Ghostwriting in der Anglistik?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriting in der Anglistik hat eine große Bedeutung, da das Studium hohe Ansprüche an die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sprach- und Fachkompetenz'
+                  -
+                    type: text
+                    text: ' stellt. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Anglistik wird vorwiegend auf Englisch gelehr'
+                  -
+                    type: text
+                    text: 't, was hohe Anforderungen an das Sprachverständnis und damit auch eine doppelte Belastung mit sich bringt: es geht nicht nur darum, die Thematik zu verstehen, sondern man muss diese auch auf Englisch erfassen und ebenso englischsprachige Texte verfassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sehr gute Englischkenntnisse und ein allgemeines Interesse an der englischen Sprache ist damit unbedingte Voraussetzung für ein Anglistik-Studium'
+                  -
+                    type: text
+                    text: '. Daher rührt auch die enge Verbindung von Anglistik zum Fachgebiet der Kulturwissenschaften. Es geht dabei aber nicht nur, um das Verstehen von englischem Text, sondern auch um das Schreiben von englischem Text.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Gutes Zeitmanagement und eine hohe Selbstdisziplin ist damit notwendig, um erfolgreich ein Anglistik-Studium zu absolvieren. Hier kann der akademische Ghostwriter in der Anglistik Entlastung bieten!'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: IJu1YDQk
     columns_replicator:
@@ -910,6 +835,76 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#FFFFFF'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: li0qtj3x
+    columns_replicator:
+      -
+        id: li0qtkkf
+        single_col: true
+        grid:
+          -
+            id: toE2KOEb
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Anforderungen müssen Ghostwriter in der Anglistik erfüllen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter in der Anglistik erfüllen ganz besondere Anforderungen, um in diesem Fachbereich tätig sein zu können.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Welche akademische Qualifikationen von Ghostwriter im Fachbereich Anglistik existieren?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademische Ghostwriter in der Anglistik sind Professoren und Doktoren. Akademische Ghostwriter, die in Fragestellungen der Anglistik tätig sind, haben im Regelfall selbst Anglistik, Amerikanistik oder Literaturwissenschaften studiert und häufig auch im Fachbereich promoviert. Der Besuch egelmäßiger Aus- und Fortbildungen zählt darüber hinaus zu den Voraussetzungen, die ein akademischer Ghostwriter in der Anglistik mitbringen muss.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Warum ist Sprach- und Fachwissen notwendig?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nur wenn sein Fach- und Sprachwissen sowie sein kulturelles Verständnis umfassend aktuelle Entwicklungen erfasst, kann er dauerhaft und erfolgreich als akademischer Ghostwriter in der Anglistik tätig sein.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
@@ -1141,10 +1136,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#FFFFFF'
   -
     id: bvMF0mps
     columns_replicator:
@@ -1232,7 +1229,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Unsere Preise für Informatik, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                    text: "Unsere Preise für Anglistik, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
                   -
                     type: text
                     marks:
@@ -1740,106 +1737,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: TV6yQ2Cs
-    columns_replicator:
-      -
-        id: Y6WcZlJY
-        single_col: true
-        grid:
-          -
-            id: 7wAOxndL
-            bard:
-              -
-                type: set
-                attrs:
-                  id: ryh0rGzH
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/beispielarbeiten-1.JPG
-                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
-                    ex_fachbereich:
-                      - 21ef3416-f1fd-43eb-8e38-ec597763c45f
-                    ex_type: Hausarbeit
-                    ex_pages: '10'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_text: Weiterlesen
-                    ex_button_align: justify-start
-                    ex_spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: AsUvOZac
-    columns_replicator:
-      -
-        id: xDEN5TgD
-        single_col: true
-        grid:
-          -
-            id: NeTTbdfH
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Welche Beiträge leisten Ghostwriter in der Anglistik zur Entwicklung des Fachgebietes?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter in der Anglistik können durch die Unterstützung von Forschung sowie akademischer Arbeiten – z.B. i'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'n der Begleitung von Studenten bei der Erstellung wissenschaftlicher Arbeiten'
-                  -
-                    type: text
-                    text: ' – zur Wissenserweiterung beitragen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Des Weiteren können Ghostwriter in der Anglistik die Anglistik-Studium Inhalte in ihren Publikationen abbilden, indem sie fachspezifische Texte z.B.'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' in Form von Lehrbüchern, Essays, Artikeln in Papers oder in Form der Publikation von Herausgeberwerken'
-                  -
-                    type: text
-                    text: ' publizieren. So helfen akademische Ghostwriter Fachinformationen zu vermitteln und diese auch einem breiten Publikum zur Verfügung zu stellen. Dies erfolgt mit dem Ziel, die Anglistik in der Öffentlichkeit bekannter zu machen und auch neue Studenten für das Fachgebiet zu gewinnen.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
     id: 9jGd5xvR
     columns_replicator:
       -
@@ -2154,6 +2051,67 @@ replicator:
     type: add_section
     enabled: true
     bg_color: '#F9F9F9'
+  -
+    id: li0qaa4k
+    columns_replicator:
+      -
+        id: li0qabhb
+        single_col: true
+        grid:
+          -
+            id: toE2KOEb
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Welche Beiträge leisten Ghostwriter in der Anglistik zur Entwicklung des Fachgebietes?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter in der Anglistik können durch die Unterstützung von Forschung sowie akademischer Arbeiten – z.B. i'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'n der Begleitung von Studenten bei der Erstellung wissenschaftlicher Arbeiten'
+                  -
+                    type: text
+                    text: ' – zur Wissenserweiterung beitragen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Des Weiteren können Ghostwriter in der Anglistik die Anglistik-Studium Inhalte in ihren Publikationen abbilden, indem sie fachspezifische Texte z.B.'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' in Form von Lehrbüchern, Essays, Artikeln in Papers oder in Form der Publikation von Herausgeberwerken'
+                  -
+                    type: text
+                    text: ' publizieren. So helfen akademische Ghostwriter Fachinformationen zu vermitteln und diese auch einem breiten Publikum zur Verfügung zu stellen. Dies erfolgt mit dem Ziel, die Anglistik in der Öffentlichkeit bekannter zu machen und auch neue Studenten für das Fachgebiet zu gewinnen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
   -
     id: lhgq0b2i
     columns_replicator:
