@@ -16,6 +16,9 @@ RewriteRule ^(.*)$ https://gwriters.ch/$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule !/$ %{REQUEST_URI}/index.html [L]
 
+RewriteCond %{REQUEST_URI} ^/(.*/)?author/([^/]+)/page/1$
+RewriteRule ^(.*)$ /%1author/%2 [R=301,L]
+
 ErrorDocument 404 /error-404/index.html
 ErrorDocument 403 /error-404/index.html
 
