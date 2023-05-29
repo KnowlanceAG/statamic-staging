@@ -9,6 +9,7 @@ bard:
   -
     type: set
     attrs:
+      id: onjcxTeJ
       values:
         type: text_box_alignment
         bard:
@@ -68,18 +69,18 @@ bard:
                       align: left
                 text: ', aber auch in der Logistik. Durch ihre Leidenschaft dafür, ihren persönlichen Horizont zu erweitern und unsere Kunden bei diversen akademischen Fragestellungen zu unterstützen, hat sich Susanne Kahl in der bereits mehrere Jahre andauernden Zusammenarbeit als eine unserer wichtigsten Expertinnen etabliert.'
         text_ausrichtung: text-left
+        column_count: false
   -
     type: paragraph
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627300666
+updated_at: 1685359202
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 show_as_card: false
 breadcrumbs_active: true
+publish_contact: false
 ---
