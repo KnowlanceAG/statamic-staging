@@ -6,7 +6,7 @@ position: Projektmanagerin
 photo:
   - team/elena-fiedler-gwriters.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665141344
+updated_at: 1685359256
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -16,7 +16,6 @@ override_twitter_settings: false
 link: 'entry::553c1dcf-1bfb-44ae-8248-e0dc9b4321ab'
 show_as_card: false
 email_address: fiedler@gwriters.de
-published: true
 phone_number: '+49 30 809332361'
 breadcrumbs_active: true
 publish_contact: true
