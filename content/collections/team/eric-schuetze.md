@@ -5,7 +5,6 @@ title: 'Eric Schütze'
 position: Ghostwriter
 photo:
   - portrait_gw-1.png
-published: true
 detail_position: Ghostwriter
 bard:
   -
@@ -61,7 +60,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665153411
+updated_at: 1685359263
 breadcrumbs_active: true
-publish_contact: true
+publish_contact: false
 ---
