@@ -6,11 +6,12 @@ photo:
   - team/dr_eule_gwriters_ghostwriter-1.jpeg
 detail_position: 'Supervisorin & Ghostwriterin'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1663197653
+updated_at: 1685359246
 bard:
   -
     type: set
     attrs:
+      id: 7B9C47nl
       values:
         type: text_box_alignment
         bard:
@@ -80,7 +81,6 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 show_as_card: false
-published: true
 breadcrumbs_active: true
-publish_contact: true
+publish_contact: false
 ---
