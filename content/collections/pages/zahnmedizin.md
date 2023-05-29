@@ -139,8 +139,8 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680540008
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1685394376
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -641,7 +641,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://www.gesetze-im-internet.de/zappro/BJNR093310019.html'
+                          href: 'https://www.gesetze-im-internet.de/zappro/BJNR093310019.html'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Approbationsordnung für Zahnärzte'
