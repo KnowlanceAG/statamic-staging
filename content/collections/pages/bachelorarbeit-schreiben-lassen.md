@@ -1479,51 +1479,31 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: left
+                        type: bold
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(0,0,0,var(--tw-text-opacity)) !important'
+                          color: '#333333'
                           hex: '#000'
-                    text: 'Warum sollten Sie sich unterstützen lassen?'
+                    text: 'Hilfe beim Schreiben der Bachelor Thesis: Profitieren Sie von unserem Coaching'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Im Video erklären wir Ihnen, wie sich der Coaching Service von unserer '
-                  -
-                    type: text
                     marks:
                       -
-                        type: bold
-                    text: 'akademischen Ghostwriting-Agentur für Bachelorarbeiten '
-                  -
-                    type: text
-                    text: 'gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Das Coaching kann sowohl in Form von Textteilen wie der Einleitungen, Ergänzung und Überarbeitung als auch der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Beantwortung der wissenschaftlichen Fragestellungen'
-                  -
-                    type: text
-                    text: ' während des Schreibprozesses erfolgen. Wir übernehmen auch gerne die Formatierung, die Korrektur oder das Lektorat für Sie.'
+                        type: textColor
+                        attrs:
+                          color: '#333333'
+                          hex: '#000'
+                    text: 'Im Video zeigen wir Ihnen, in welchen Punkten wir Sie mit unser Bachelorarbeit Coaching Service unterstützen können.'
             show_as_card: false
           -
             id: CyFLCJWN
@@ -1540,9 +1520,7 @@ replicator:
         enabled: true
         responsive_columns: 0
     remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F2F2F2'
+    is_full: false
     border: false
     type: add_section
     enabled: true
@@ -3013,7 +2991,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685467371
+updated_at: 1685467505
 template: default
 use_meta_keywords: false
 no_index_page: false
