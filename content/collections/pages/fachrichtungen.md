@@ -141,7 +141,7 @@ page_title: 'Fachrichtungen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861868
+updated_at: 1685092068
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -541,6 +541,43 @@ replicator:
                           - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
+                      -
+                        id: li4ca52j
+                        text: Fachrichtungen
+                        eintraege:
+                          - 24308319-8d41-41a9-ad35-e9cf2ceba726
+                          - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+                          - 9944d809-005e-4651-bf9b-5555f0229245
+                          - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                          - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
+                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
+                          - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
+                          - 522e26b9-451d-43a8-a204-2e0f75b87f4b
+                          - 45680fad-6f7a-437f-88c2-23e0bc080818
+                          - 34f7528d-839e-4ef6-b735-627084dba887
+                          - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
+                          - d72509d7-bb3a-40dd-a757-3317732e2a57
+                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
+                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+                          - dc0c7edd-0724-4454-9525-49b8f9065f16
+                          - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
+                          - a9561621-8360-4ecf-855c-753f4a217c5a
+                          - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
+                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
+                          - f501c52c-7217-448e-bb53-d6f84c7e51c8
+                          - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
+                          - b850974c-8d2d-4448-b168-3dccef384025
+                          - 051a1060-2c31-4edd-af39-c44fe3842526
+                          - 21aff10c-582a-440f-9f50-1af525566292
+                          - 839e6791-eebd-4bc8-8975-a278836a9c05
+                          - 925eedca-5fbe-4da9-a307-807426feaeeb
+                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                          - f07c0010-40dd-407e-bf32-a1a260b5016b
+                          - b8930678-fff6-4d7a-8ae8-056605f303f2
+                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
               -
                 type: heading
                 attrs:
