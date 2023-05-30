@@ -249,6 +249,13 @@ replicator:
             id: zTGQFwTg
             bard:
               -
+                type: set
+                attrs:
+                  id: liaqp5vv
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -288,6 +295,13 @@ replicator:
                   -
                     type: text
                     text: '✔️haben als Doktoren und Professoren die nötige wissenschaftliche Erfahrung.'
+              -
+                type: set
+                attrs:
+                  id: liaqntch
+                  values:
+                    type: spacer
+                    padding-y: 15
               -
                 type: heading
                 attrs:
@@ -1102,7 +1116,7 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: false
+    remove_spacing: true
     is_full: false
     border: false
     type: add_section
@@ -1600,6 +1614,13 @@ replicator:
                     type: text
                     text: .
               -
+                type: set
+                attrs:
+                  id: liaqrm0k
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -1831,40 +1852,7 @@ replicator:
                                     attrs:
                                       color: '#333333'
                                       hex: '#000'
-                                text: 'Je nach Fachrichtung und Institution umfasst die Bachelor Thesis 20 bis 60 Seiten inklusive Inhaltsverzeichnis und Exposé. Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig für die Formatierung erwiesen. Laut Prüfungsordnung '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: '#_msocom_1'
-                                      target: null
-                                      rel: null
-                                text: '[KZ1]'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: "\_"
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#333333'
-                                      hex: '#000'
-                                text: 'gelten diese Voraussetzungen:'
+                                text: 'Je nach Fachrichtung und Institution umfasst die Bachelor Thesis 20 bis 60 Seiten inklusive Inhaltsverzeichnis und Exposé. Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig für die Formatierung erwiesen. Laut Prüfungsordnung gelten diese Voraussetzungen:'
                           -
                             type: paragraph
                             content:
@@ -2323,6 +2311,13 @@ replicator:
                           color: '#333333'
                           hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
+              -
+                type: set
+                attrs:
+                  id: liaqkhbb
+                  values:
+                    type: spacer
+                    padding-y: 20
             show_as_card: false
         type: row
         enabled: true
@@ -2551,7 +2546,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685478717
+updated_at: 1685479357
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2569,4 +2564,95 @@ alternative_page_title: 'Bachelorarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
 page_title: 'Bachelorarbeit schreiben lassen'
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Was ist eine Bachelorarbeit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eine Bachelorarbeit ist die wissenschaftliche Abschlussarbeit nach einem Bachelorstudium. Sie umfasst in der Regel eine Einleitung, Literaturübersicht, Methodik, Ergebnisse, Diskussion und Schlussfolgerung.
+
+  Der Bachelorabschluss ist der erste akademische Grad, der innerhalb der EU und einigen englischsprachigen Ländern an Universitäten erreicht werden kann.
+
+  In Deutschland wird der Bachelortitel im Zuge einer Hochschulprüfung verliehen. Dazu müssen Studierende im Verlauf der Hochschulzeit eine gewisse Anzahl an ECTS-Punkten erreichen. Den Studienabschluss bildet ein schriftlicher Leistungsnachweis sowie eine mündliche Abschlussprüfung. Das Schreiben einer Bachelorarbeit (Bachelor Thesis) dabei die gängige Form des schriftlichen Examens.
+
+  Die Note der Bachelor Thesis beeinflusst die Gesamtabschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden und eine tiefgehende Recherche nach Literatur sind dabei grundlegend für den Erfolg."
+      }
+    },{
+      "@type": "Question",
+      "name": "Welche (formalen) Kriterien muss ich beim Schreiben der Bachelorarbeit beachten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Je nach Fachrichtung und Institution umfasst die Bachelor Thesis 20 bis 60 Seiten inklusive Inhaltsverzeichnis und Exposé. Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig für die Formatierung erwiesen. Laut Prüfungsordnung [KZ1] gelten diese Voraussetzungen:
+
+
+  Gliederung:
+
+  Deckblatt
+
+  Abstract
+
+  Vorwort
+
+  Inhaltsverzeichnis (Kapitel, Unterkapitel)
+
+  Abbildungsverzeichnis und Tabellenverzeichnis
+
+  Abkürzungsverzeichnis
+
+  Einleitung
+
+  Haupttei
+
+  Schlussteil/Fazit
+
+  Literaturverzeichnis
+
+  Anhang
+
+  Eidesstattliche Erklärung/ Eigenständigkeitserklärung
+
+   
+
+  Formatierung:
+
+  Schriftart: Times New Roman (oder Arial Größe 11)
+
+  Schriftgröße: 12 Punkt
+
+  Zeilenabstand: 1,5
+
+  Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm
+
+  Absatzformat: Blocksatz (auf Trennung achten)
+
+  Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand
+
+  Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand
+
+  Fußnoten: Schriftgröße 10
+
+  Seitenzahlen: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Bachelorarbeit, Literaturverzeichnis und Anhang"
+      }
+    },{
+      "@type": "Question",
+      "name": "Was kostet eine Bachelorarbeit Normseite, wenn ich eine Mustervorlage von einem Ghostwriter schreiben lasse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unsere Preise für Ihre Bachelorarbeit in Jura, BWL und anderen Fachbereichen beginnen ab 80,- € pro Normseite. Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis gelten nicht als Normseite und sind gratis inkludiert."
+      }
+    },{
+      "@type": "Question",
+      "name": "Ist es legal, wenn ich die Vorlage für meine Bachelorarbeit vom Ghostwriter schreiben lasse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Ghostwriting ist Deutschland legal, wenn man sich an Regeln hält Der Auftraggeber eines Ghostwriting-Bachelorarbeit kann in jedem Falle das Werk als Mustervorlage bei der Erstellung seiner eigenen Arbeit verwenden. Es kann ebenso verwendet werden, um den Stand der Forschung vorab zu klären bzw. die eigene Recherche zu überprüfen etc. Ausführliche Informationen zum finden Sie hier: Ist Ghostwriting strafbar?"
+      }
+    }]
+  }
+  </script>
 ---
