@@ -115,6 +115,7 @@ module.exports = {
         '2xl': '1.65rem',
         '5xl': '2.75rem',
         tiny: ['9px', '18px'],
+        xxs: ['11px', '22px'],
         xs: ['13px', '26px'],
         sm: ['15px', '28px'],
         base: ['16px', '28px'],
@@ -127,6 +128,9 @@ module.exports = {
       },
       padding: {
         'py-22': '5.5rem'
+      },
+      margin: {
+        '.2': '0.2rem'
       },
       transitionProperty: {
         height: 'height'
