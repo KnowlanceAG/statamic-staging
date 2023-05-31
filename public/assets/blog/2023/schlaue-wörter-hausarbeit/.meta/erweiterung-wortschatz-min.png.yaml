@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Wortschatz für schlaue wörter'
 size: 10775
 last_modified: 1685572037
 width: 876
