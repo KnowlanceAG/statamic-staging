@@ -28,6 +28,11 @@ const mailMenuButton = document.querySelector('#mobileMailMenuBtn')
 const mailMenuCloseButton = document.querySelector('#mailMenuCloseBtn')
 const mailMenuOpened = () => !mobileMailMenu.classList.contains('hidden')
 
+const mobilePhoneMenu = document.querySelector('#mobilePhoneMenu')
+const phoneMenuButton = document.querySelector('#mobilePhoneMenuBtn')
+const phoneMenuCloseButton = document.querySelector('#phoneMenuCloseBtn')
+const phoneMenuOpened = () => !mobileMailMenu.classList.contains('hidden')
+
 const setScrolling = (active) => {
   if (!active) {
     body.classList.remove('submenuopen')
@@ -69,10 +74,19 @@ const toggleMobileMenu = () => {
 }
 
 const toggleMailMenu = (ev) => {
-  mobileMailMenu.classList.toggle('hidden')
+  const hidden = mobileMailMenu.classList.toggle('hidden')
   mobileMailMenuBtn.classList.toggle('hidden')
   mailMenuCloseBtn.classList.toggle('hidden')
+  if (!hidden && phoneMenuOpened()) closePhoneMenu()
   setScrolling(!mailMenuOpened())
+}
+
+const togglePhoneMenu = (ev) => {
+  const hidden = mobilePhoneMenu.classList.toggle('hidden')
+  mobilePhoneMenuBtn.classList.toggle('hidden')
+  phoneMenuCloseBtn.classList.toggle('hidden')
+  if (!hidden && mailMenuOpened()) closeMailMenu()
+  setScrolling(!phoneMenuOpened())
 }
 
 const closeMailMenu = () => {
@@ -84,11 +98,21 @@ const closeMailMenu = () => {
   setScrolling(true)
 }
 
+const closePhoneMenu = () => {
+  mobilePhoneMenu.classList.remove('hidden')
+  mobilePhoneMenu.classList.add('hidden')
+  mobilePhoneMenuBtn.classList.remove('hidden')
+  phoneMenuCloseBtn.classList.remove('hidden')
+  phoneMenuCloseBtn.classList.add('hidden')
+  setScrolling(true)
+}
+
 const closeAllMenus = () => {
   setScrolling(true)
   closeMegaMenu()
   closeMobileMenu()
   closeMailMenu()
+  closePhoneMenu()
 }
 
 const addMegaMenuHandler = () => {
@@ -129,6 +153,12 @@ const addMobileMailMenuHandler = () => {
   mailMenuCloseButton.addEventListener('click', closeMailMenu)
 }
 
+const addMobilePhoneMenuHandler = () => {
+  if (!phoneMenuButton || !phoneMenuCloseButton) return
+  phoneMenuButton.addEventListener('click', togglePhoneMenu)
+  phoneMenuCloseButton.addEventListener('click', closePhoneMenu)
+}
+
 const addMenuHandler = () => {
   window.addEventListener('resize', closeAllMenus)
   megaMenuToggler.addEventListener('click', toggleMegaMenu)
@@ -140,6 +170,7 @@ const addMenuHandler = () => {
   addMegaMenuHandler()
   addMobileMenuHandler()
   addMobileMailMenuHandler()
+  addMobilePhoneMenuHandler()
 }
 
 const handleMenuScroll = () => {

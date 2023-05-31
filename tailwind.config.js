@@ -130,6 +130,7 @@ module.exports = {
         'py-22': '5.5rem'
       },
       margin: {
+        '.1': '0.1rem',
         '.2': '0.2rem'
       },
       transitionProperty: {
