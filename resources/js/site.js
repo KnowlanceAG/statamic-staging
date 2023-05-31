@@ -31,7 +31,7 @@ const mailMenuOpened = () => !mobileMailMenu.classList.contains('hidden')
 const mobilePhoneMenu = document.querySelector('#mobilePhoneMenu')
 const phoneMenuButton = document.querySelector('#mobilePhoneMenuBtn')
 const phoneMenuCloseButton = document.querySelector('#phoneMenuCloseBtn')
-const phoneMenuOpened = () => !mobileMailMenu.classList.contains('hidden')
+const phoneMenuOpened = () => !mobilePhoneMenu.classList.contains('hidden')
 
 const setScrolling = (active) => {
   if (!active) {
