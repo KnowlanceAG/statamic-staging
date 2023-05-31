@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'schlaue wörter liste'
 size: 824685
 last_modified: 1685572452
 width: 1576
