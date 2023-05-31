@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'word synonyme finden'
 size: 5096
 last_modified: 1685572046
 width: 384
