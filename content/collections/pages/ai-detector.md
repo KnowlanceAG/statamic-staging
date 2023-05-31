@@ -1,5 +1,6 @@
 ---
 id: 046e5eb8-8a16-431a-abdf-c079ed2d95d0
+published: false
 blueprint: pages
 title: 'AI Detector'
 replicator:
@@ -237,5 +238,5 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685542165
+updated_at: 1685542174
 ---
