@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685619892
+updated_at: 1685620182
 replicator:
   -
     id: VvunKODE
@@ -17,6 +17,13 @@ replicator:
           -
             id: 4U7AG0w4
             bard:
+              -
+                type: set
+                attrs:
+                  id: lid2q7bi
+                  values:
+                    type: spacer
+                    padding-y: 20
               -
                 type: heading
                 attrs:
