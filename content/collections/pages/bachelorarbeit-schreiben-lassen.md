@@ -1857,14 +1857,6 @@ replicator:
                             type: paragraph
                             content:
                               -
-                                type: hard_break
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                              -
                                 type: text
                                 marks:
                                   -
@@ -2064,9 +2056,6 @@ replicator:
                               -
                                 type: text
                                 text: "\_"
-                          -
-                            type: paragraph
-                            content:
                               -
                                 type: text
                                 marks:
@@ -2273,6 +2262,128 @@ replicator:
                                       target: null
                                       rel: null
                                 text: 'Ist Ghostwriting strafbar?'
+                        active: false
+                      -
+                        id: lidhjyud
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Kann ich auch meine Bachelorarbeit auch auf Englisch oder in einer anderen Sprache schreiben lassen?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(209, 213, 219)'
+                                      hex: '#000'
+                                text: 'Selbstverständlich. Unsere Ghostwriting-Agentur verfügt über ein umfangreiches und vielfältiges Team von Autoren, die in verschiedenen Sprachen versiert sind. Unabhängig davon, ob Sie Ihre Bachelorarbeit in Englisch, Deutsch, Französisch, Spanisch oder einer anderen Sprache verfassen möchten, können wir einen passenden muttersprachlichen Autor für Sie finden. Unsere Autoren sind nicht nur sprachlich kompetent, sondern haben auch ein tiefes Verständnis der kulturellen und akademischen Kontexte, die mit ihren jeweiligen Sprachen verbunden sind. Dies stellt sicher, dass Ihre Arbeit nicht nur sprachlich korrekt, sondern auch inhaltlich relevant und kulturell angemessen ist.'
+                        active: false
+                      -
+                        id: lidhlcxe
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Wie lange braucht ein Ghostwriter, um die Mustervorlage meiner Bachelorarbeit zu schreiben?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(209, 213, 219)'
+                                      hex: '#000'
+                                text: 'Die Dauer für das Verfassen einer Bachelorarbeit durch einen Ghostwriter hängt von verschiedenen Faktoren ab, darunter die Komplexität des Themas, die erforderliche Forschung und die Länge der Arbeit. Im Allgemeinen können Sie jedoch erwarten, dass der Prozess mehrere Wochen dauert.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(209, 213, 219)'
+                                      hex: '#000'
+                                text: 'Dieser Zeitraum beinhaltet nicht nur das tatsächliche Schreiben, sondern auch die Zeit für die Forschung, die Planung der Arbeit, die Überprüfung und das Korrekturlesen. Darüber hinaus ermöglicht es auch eine angemessene Zeit für die Überprüfung und mögliche Überarbeitungen basierend auf Ihrem Feedback.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(209, 213, 219)'
+                                      hex: '#000'
+                                text: 'Es ist wichtig zu beachten, dass eine gute Bachelorarbeit Zeit und Sorgfalt erfordert. Unsere Ghostwriter sind bemüht, hochwertige Arbeiten zu liefern, und wir empfehlen daher, genügend Zeit für den Prozess einzuplanen. Eine stark eingeschränkte Bearbeitungszeit kann zu zusätzlichen Kosten führen, da sie den Autor dazu zwingt, innerhalb eines begrenzten Zeitrahmens zu arbeiten. Daher empfehlen wir, uns '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(209, 213, 219)'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /anfrage
+                                      target: null
+                                      rel: null
+                                text: 'so früh wie möglich zu kontaktieren'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(209, 213, 219)'
+                                      hex: '#000'
+                                text: ', um sicherzustellen, dass Ihre Bachelorarbeit rechtzeitig und zu Ihrer Zufriedenheit abgeschlossen wird.'
                         active: false
               -
                 type: set
@@ -2546,7 +2657,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685479390
+updated_at: 1685645540
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2578,7 +2689,7 @@ schema_objects: |-
 
   Der Bachelorabschluss ist der erste akademische Grad, der innerhalb der EU und einigen englischsprachigen Ländern an Universitäten erreicht werden kann.
 
-  In Deutschland wird der Bachelortitel im Zuge einer Hochschulprüfung verliehen. Dazu müssen Studierende im Verlauf der Hochschulzeit eine gewisse Anzahl an ECTS-Punkten erreichen. Den Studienabschluss bildet ein schriftlicher Leistungsnachweis sowie eine mündliche Abschlussprüfung. Das Schreiben einer Bachelorarbeit (Bachelor Thesis) dabei die gängige Form des schriftlichen Examens.
+  In Deutschland wird der Bachelortitel im Zuge einer Hochschulprüfung verliehen. Dazu müssen Studierende im Verlauf der Hochschulzeit eine gewisse Anzahl an ECTS-Punkten erreichen. Den Studienabschluss bildet ein schriftlicher Leistungsnachweis sowie eine mündliche Abschlussprüfung. Das Schreiben einer Bachelorarbeit (Bachelor Thesis) dabei die gängige Form des schriftlichen Examens.
 
   Die Note der Bachelor Thesis beeinflusst die Gesamtabschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden und eine tiefgehende Recherche nach Literatur sind dabei grundlegend für den Erfolg."
       }
@@ -2587,8 +2698,7 @@ schema_objects: |-
       "name": "Welche (formalen) Kriterien muss ich beim Schreiben der Bachelorarbeit beachten?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Je nach Fachrichtung und Institution umfasst die Bachelor Thesis 20 bis 60 Seiten inklusive Inhaltsverzeichnis und Exposé. Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig für die Formatierung erwiesen. Laut Prüfungsordnung [KZ1] gelten diese Voraussetzungen:
-
+        "text": "Je nach Fachrichtung und Institution umfasst die Bachelor Thesis 20 bis 60 Seiten inklusive Inhaltsverzeichnis und Exposé. Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig für die Formatierung erwiesen. Laut Prüfungsordnung gelten diese Voraussetzungen:
 
   Gliederung:
 
@@ -2616,9 +2726,7 @@ schema_objects: |-
 
   Eidesstattliche Erklärung/ Eigenständigkeitserklärung
 
-   
-
-  Formatierung:
+   Formatierung:
 
   Schriftart: Times New Roman (oder Arial Größe 11)
 
@@ -2643,7 +2751,7 @@ schema_objects: |-
       "name": "Was kostet eine Bachelorarbeit Normseite, wenn ich eine Mustervorlage von einem Ghostwriter schreiben lasse?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Unsere Preise für Ihre Bachelorarbeit in Jura, BWL und anderen Fachbereichen beginnen ab 80,- € pro Normseite. Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis gelten nicht als Normseite und sind gratis inkludiert."
+        "text": "Unsere Preise für Ihre Bachelorarbeit in Jura, BWL und anderen Fachbereichen beginnen ab 80,- € pro Normseite. Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis gelten nicht als Normseite und  sind gratis inkludiert."
       }
     },{
       "@type": "Question",
@@ -2651,6 +2759,24 @@ schema_objects: |-
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Ja, Ghostwriting ist Deutschland legal, wenn man sich an Regeln hält Der Auftraggeber eines Ghostwriting-Bachelorarbeit kann in jedem Falle das Werk als Mustervorlage bei der Erstellung seiner eigenen Arbeit verwenden. Es kann ebenso verwendet werden, um den Stand der Forschung vorab zu klären bzw. die eigene Recherche zu überprüfen etc. Ausführliche Informationen zum finden Sie hier: Ist Ghostwriting strafbar?"
+      }
+    },{
+      "@type": "Question",
+      "name": "Kann ich auch meine Bachelorarbeit auch auf Englisch oder in einer anderen Sprache schreiben lassen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Selbstverständlich. Unsere Ghostwriting-Agentur verfügt über ein umfangreiches und vielfältiges Team von Autoren, die in verschiedenen Sprachen versiert sind. Unabhängig davon, ob Sie Ihre Bachelorarbeit in Englisch, Deutsch, Französisch, Spanisch oder einer anderen Sprache verfassen möchten, können wir einen passenden muttersprachlichen Autor für Sie finden. Unsere Autoren sind nicht nur sprachlich kompetent, sondern haben auch ein tiefes Verständnis der kulturellen und akademischen Kontexte, die mit ihren jeweiligen Sprachen verbunden sind. Dies stellt sicher, dass Ihre Arbeit nicht nur sprachlich korrekt, sondern auch inhaltlich relevant und kulturell angemessen ist."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie lange braucht ein Ghostwriter, um die Mustervorlage meiner Bachelorarbeit zu schreiben?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Dauer für das Verfassen einer Bachelorarbeit durch einen Ghostwriter hängt von verschiedenen Faktoren ab, darunter die Komplexität des Themas, die erforderliche Forschung und die Länge der Arbeit. Im Allgemeinen können Sie jedoch erwarten, dass der Prozess mehrere Wochen dauert.
+
+  Dieser Zeitraum beinhaltet nicht nur das tatsächliche Schreiben, sondern auch die Zeit für die Forschung, die Planung der Arbeit, die Überprüfung und das Korrekturlesen. Darüber hinaus ermöglicht es auch eine angemessene Zeit für die Überprüfung und mögliche Überarbeitungen basierend auf Ihrem Feedback.
+
+  Es ist wichtig zu beachten, dass eine gute Bachelorarbeit Zeit und Sorgfalt erfordert. Unsere Ghostwriter sind bemüht, hochwertige Arbeiten zu liefern, und wir empfehlen daher, genügend Zeit für den Prozess einzuplanen. Eine stark eingeschränkte Bearbeitungszeit kann zu zusätzlichen Kosten führen, da sie den Autor dazu zwingt, innerhalb eines begrenzten Zeitrahmens zu arbeiten. Daher empfehlen wir, uns so früh wie möglich zu kontaktieren, um sicherzustellen, dass Ihre Bachelorarbeit rechtzeitig und zu Ihrer Zufriedenheit abgeschlossen wird."
       }
     }]
   }
