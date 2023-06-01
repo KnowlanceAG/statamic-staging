@@ -63,7 +63,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im Zeitalter der digitalen Information ist die Verwendung von Künstlicher Intelligenz (KI) zum Verfassen wissenschaftlicher Arbeiten ein wachsender Trend. Doch trotz des zunehmenden Interesses und der effizienten Möglichkeiten, die KI bietet, ist die Aufrechterhaltung der akademischen Integrität von zentraler Bedeutung. In einem Umfeld, in dem Originalität und ein persönlicher Beitrag zum wissenschaftlichen Diskurs im Vordergrund stehen, ist es unerlässlich, dass Arbeiten nicht von künstlicher Intelligenz erstellt werden. Hier kommt unser AI Detector ins Spiel.'
+                    text: 'Im Zeitalter der digitalen Information ist die Verwendung von Künstlicher Intelligenz (KI) zum Verfassen wissenschaftlicher Arbeiten ein wachsender Trend. Doch trotz des zunehmenden Interesses und der effizienten Möglichkeiten, die KI bietet, ist die Aufrechterhaltung der akademischen Integrität, auch im '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ', von zentraler Bedeutung. In einem Umfeld, in dem Originalität und ein persönlicher Beitrag zum wissenschaftlichen Diskurs im Vordergrund stehen, ist es unerlässlich, dass Arbeiten nicht von künstlicher Intelligenz erstellt werden. Hier kommen unser AI Detector und unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' ins Spiel.'
               -
                 type: heading
                 attrs:
@@ -142,7 +168,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: ' Diese Technologie wurde von einem Team aus KI-Experten entwickelt und trainiert, um den Einsatz populärer KI-Schreibwerkzeuge wie ChatGPT, GPT-4, GPT-3, GPT-2, GPT-NEO, GPT-J und Quillbot (für Paraphrasen) vorherzusagen​. Der AI Detector liefert eine Punktzahl zwischen 0 und 100, die die Wahrscheinlichkeit angibt, dass der überprüfte Inhalt von einem KI-Schreibwerkzeug erstellt wurde​'
+                    text: 'Diese Technologie wurde von einem Team aus KI-Experten entwickelt und trainiert, um den Einsatz populärer KI-Schreibwerkzeuge wie ChatGPT, GPT-4, GPT-3, GPT-2, GPT-NEO, GPT-J und Quillbot (für Paraphrasen) vorherzusagen​. Der AI Detector liefert eine Punktzahl zwischen 0 und 100, die die Wahrscheinlichkeit angibt, dass der überprüfte Inhalt von einem KI-Schreibwerkzeug erstellt wurde​'
               -
                 type: heading
                 attrs:
@@ -210,7 +236,46 @@ replicator:
                             text: 'Varianz in menschlichem Schreibstil:'
                           -
                             type: text
-                            text: ' Menschen haben sehr unterschiedliche Schreibstile, und manchmal kann ein ungewöhnlicher oder einzigartiger Schreibstil von einem KI-Detektor als "nicht-menschlich" interpretiert werden. Zum Beispiel könnte ein Text, der sehr formell, technisch oder "roboterhaft" geschrieben ist, fälschlicherweise als KI-generiert eingestuft werden.'
+                            text: ' Menschen haben sehr unterschiedliche Schreibstile, und manchmal kann ein ungewöhnlicher oder einzigartiger Schreibstil von einem KI-Detektor als "nicht-menschlich" interpretiert werden. Zum Beispiel könnte ein Text, der sehr formell, technisch oder "roboterhaft" geschrieben ist, fälschlicherweise als KI-generiert eingestuft werden. Besonders tritt dies in den Fachbereichen '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/jura
+                                  target: null
+                                  rel: null
+                            text: Jura
+                          -
+                            type: text
+                            text: ', '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/maschinenbau
+                                  target: null
+                                  rel: null
+                            text: Maschinenbau
+                          -
+                            type: text
+                            text: ' und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/informatik
+                                  target: null
+                                  rel: null
+                            text: Informatik
+                          -
+                            type: text
+                            text: ' auf.'
                   -
                     type: list_item
                     content:
@@ -304,7 +369,7 @@ replicator:
                             text: 'Fortschrittliche KI-Modelle: '
                           -
                             type: text
-                            text: 'Mit der raschen Entwicklung der KI-Technologie werden KI-generierte Texte immer ausgefeilter und menschenähnlicher. Modelle wie GPT-3 von OpenAI können komplexe und kohärente Texte erstellen, die von menschlichen Schreibweisen kaum zu unterscheiden sind. Das macht es für Detektoren schwieriger, sie zuverlässig zu erkennen.'
+                            text: 'Mit der raschen Entwicklung der KI-Technologie werden KI-generierte Texte immer ausgefeilter und menschenähnlicher. Modelle wie GPT-4 von OpenAI können komplexe und kohärente Texte erstellen, die von menschlichen Schreibweisen kaum zu unterscheiden sind. Das macht es für Detektoren schwieriger, sie zuverlässig zu erkennen.'
                   -
                     type: list_item
                     content:
@@ -430,5 +495,5 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685647864
+updated_at: 1685649603
 ---
