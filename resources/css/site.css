@@ -526,12 +526,18 @@ body.iframe {
 body.de {
   .visible-de {
     display: inline;
+    &.set-block {
+      @apply block;
+    }
   }
 }
 
 body.ch {
   .visible-ch {
     display: inline;
+    &.set-block {
+      @apply block;
+    }
   }
 }
 
