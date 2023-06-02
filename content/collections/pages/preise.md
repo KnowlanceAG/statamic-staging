@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677856853
+updated_at: 1685620229
 replicator:
   -
     id: VvunKODE
@@ -17,6 +17,13 @@ replicator:
           -
             id: 4U7AG0w4
             bard:
+              -
+                type: set
+                attrs:
+                  id: lid2q7bi
+                  values:
+                    type: spacer
+                    padding-y: 20
               -
                 type: heading
                 attrs:
@@ -546,7 +553,7 @@ replicator:
         columns_per_row: 0
       -
         id: lesobz8b
-        columns_per_row: 8
+        columns_per_row: 7
         single_col: false
         grid:
           -
@@ -560,20 +567,6 @@ replicator:
                     type: custom_svg_width
                     svg_file: paymentprovider/Mastercard-logo.svg
                     custom_svg_width: 65
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            id: lesocyfy
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lesoe9w7
-                  values:
-                    type: custom_svg_width
-                    svg_file: paymentprovider/Klarna_Payment_Badge.svg
-                    custom_svg_width: 85
               -
                 type: paragraph
             show_as_card: false
