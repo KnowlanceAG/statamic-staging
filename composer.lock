@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8412dcd26303f9ea12c8482df5d9e38",
+    "content-hash": "046e8effb449fdcc2301f8e6f327a841",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -8381,11 +8381,11 @@
         },
         {
             "name": "uscreen/cpssg",
-            "version": "1.5.0",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.uscreen.net/uscreen/statamic-addons/cpssg",
-                "reference": "42abd2595ebc78bb93c1c971fd3860d891f764d3"
+                "reference": "6bf4f65c8976c4ebb2aac1360011fe0ddafc4be8"
             },
             "type": "library",
             "extra": {
@@ -8413,7 +8413,7 @@
             "support": {
                 "email": "info@uscreen.de"
             },
-            "time": "2023-04-11T11:58:14+00:00"
+            "time": "2023-06-02T16:54:07+00:00"
         },
         {
             "name": "uscreen/link-extended",
