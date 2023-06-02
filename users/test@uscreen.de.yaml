@@ -21,6 +21,8 @@ preferences:
         - photo
     presse:
       after_save: continue_editing
+    akademie:
+      per_page: 100
   assets:
     downloads:
       mode: table
