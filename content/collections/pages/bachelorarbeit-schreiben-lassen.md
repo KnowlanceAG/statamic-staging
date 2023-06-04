@@ -1795,6 +1795,13 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lihlzy5g
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: set
+                attrs:
                   id: lihlsj2r
                   values:
                     type: experts_list
@@ -2468,6 +2475,13 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
+              -
+                type: set
+                attrs:
+                  id: lihly0sq
+                  values:
+                    type: spacer
+                    padding-y: 20
             show_as_card: false
         type: row
         enabled: true
@@ -2696,7 +2710,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685894223
+updated_at: 1685894414
 template: default
 use_meta_keywords: false
 no_index_page: false
