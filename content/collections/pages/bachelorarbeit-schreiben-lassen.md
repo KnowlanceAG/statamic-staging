@@ -1199,7 +1199,7 @@ replicator:
                   id: lihl9wqf
                   values:
                     type: spacer
-                    padding-y: 21
+                    padding-y: 20
               -
                 type: heading
                 attrs:
@@ -2648,7 +2648,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685893193
+updated_at: 1685893215
 template: default
 use_meta_keywords: false
 no_index_page: false
