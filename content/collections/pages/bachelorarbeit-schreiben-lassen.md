@@ -1102,14 +1102,14 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: lihkhtk1
+    id: hVj4fyj7
     columns_replicator:
       -
-        id: lihki7n5
+        id: WHE7qDqT
         single_col: true
         grid:
           -
-            id: 7RU97uvW
+            id: cUWiZObZ
             bard:
               -
                 type: heading
@@ -1122,7 +1122,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Übersicht aller Fachrichtungen & Arbeiten'
               -
                 type: set
@@ -1186,26 +1186,6 @@ replicator:
                           - 52f5092f-800b-4742-8636-a840b9ab1ddb
                           - 2b55bfe7-06df-4e71-86da-152e256904ec
                           - 2931f444-5e22-4860-8f40-a41821377b93
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: hVj4fyj7
-    columns_replicator:
-      -
-        id: WHE7qDqT
-        single_col: true
-        grid:
-          -
-            id: cUWiZObZ
-            bard:
               -
                 type: heading
                 attrs:
@@ -1560,7 +1540,7 @@ replicator:
       -
         id: pJKBLsKo
         columns_per_row: 2
-        single_col: false
+        single_col: true
         grid:
           -
             id: ae9kQIgY
@@ -1610,7 +1590,7 @@ replicator:
         responsive_columns: 0
       -
         id: liapor9m
-        single_col: false
+        single_col: true
         grid:
           -
             id: 73cOWkpP
@@ -1767,28 +1747,6 @@ replicator:
                                 type: text
                                 text: 'Unsere akademischen Ghostwriter können in Notfällen ganze Bachelorarbeiten an einem Wochenende schreiben. Bei dringenden Aufträgen ist dies möglich. Jedoch möchten sie für diese Extraarbeit fair entlohnt werden. Daher spielt die verfügbare Bearbeitungszeit eine wesentliche Rolle für die Kosten.'
                         active: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: liaq5xc0
-    columns_replicator:
-      -
-        id: liaq5yxc
-        single_col: true
-        grid:
-          -
-            id: vAt3f8O2
-            bard:
               -
                 type: heading
                 attrs:
@@ -2417,7 +2375,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: '#333333'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -2431,7 +2389,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: '#333333'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
               -
@@ -2447,11 +2405,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
-        id: liaqeou5
+        id: lihkpk4s
         single_col: false
         grid:
           -
-            id: vAt3f8O2
+            id: PM8Jj2x8
             bard:
               -
                 type: set
@@ -2478,7 +2436,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Weitere Links & Referenzen'
               -
@@ -2494,7 +2452,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2520,7 +2478,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2546,7 +2504,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2572,7 +2530,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2598,7 +2556,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2624,7 +2582,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2648,7 +2606,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2669,7 +2627,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685891973
+updated_at: 1685892326
 template: default
 use_meta_keywords: false
 no_index_page: false
