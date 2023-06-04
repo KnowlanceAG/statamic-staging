@@ -308,7 +308,10 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Garantien für Sie'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Bachelorarbeit Ghostwriting: Ihre Vorteile im Überblick'
               -
                 type: set
                 attrs:
@@ -1761,13 +1764,65 @@ replicator:
                                 type: text
                                 text: 'Unsere akademischen Ghostwriter können in Notfällen ganze Bachelorarbeiten an einem Wochenende schreiben. Bei dringenden Aufträgen ist dies möglich. Jedoch möchten sie für diese Extraarbeit fair entlohnt werden. Daher spielt die verfügbare Bearbeitungszeit eine wesentliche Rolle für die Kosten.'
                         active: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lihlrru7
+    columns_replicator:
+      -
+        id: lihlrvt2
+        single_col: false
+        grid:
+          -
+            id: 1nqorlsk
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Erfahrene Ghostwriter für Ihre Bachelorarbeit'
               -
                 type: set
                 attrs:
-                  id: lihkzaqe
+                  id: lihlsj2r
                   values:
-                    type: spacer
-                    padding-y: 20
+                    type: experts_list
+                    experts:
+                      - bdab7ac8-0923-4d8c-b848-caa250aa5e62
+                      - 5bbd2a1b-3cbe-423a-8557-bd86be4fabf6
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lihlrv2u
+    columns_replicator:
+      -
+        id: lihlv8er
+        single_col: true
+        grid:
+          -
+            id: 1nqorlsk
+            bard:
               -
                 type: heading
                 attrs:
@@ -2413,24 +2468,17 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
-              -
-                type: set
-                attrs:
-                  id: liaqkhbb
-                  values:
-                    type: spacer
-                    padding-y: 20
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
       -
-        id: lihkpk4s
+        id: lihlvbmj
         single_col: false
         grid:
           -
-            id: PM8Jj2x8
+            id: 1nqorlsk
             bard:
               -
                 type: set
@@ -2648,7 +2696,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685893215
+updated_at: 1685894223
 template: default
 use_meta_keywords: false
 no_index_page: false
