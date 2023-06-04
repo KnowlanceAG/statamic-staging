@@ -1028,6 +1028,13 @@ replicator:
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
+              -
+                type: set
+                attrs:
+                  id: lihl5u9g
+                  values:
+                    type: spacer
+                    padding-y: 20
             show_as_card: false
         type: row
         enabled: true
@@ -1186,6 +1193,13 @@ replicator:
                           - 52f5092f-800b-4742-8636-a840b9ab1ddb
                           - 2b55bfe7-06df-4e71-86da-152e256904ec
                           - 2931f444-5e22-4860-8f40-a41821377b93
+              -
+                type: set
+                attrs:
+                  id: lihl9wqf
+                  values:
+                    type: spacer
+                    padding-y: 21
               -
                 type: heading
                 attrs:
@@ -1747,6 +1761,13 @@ replicator:
                                 type: text
                                 text: 'Unsere akademischen Ghostwriter können in Notfällen ganze Bachelorarbeiten an einem Wochenende schreiben. Bei dringenden Aufträgen ist dies möglich. Jedoch möchten sie für diese Extraarbeit fair entlohnt werden. Daher spielt die verfügbare Bearbeitungszeit eine wesentliche Rolle für die Kosten.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: lihkzaqe
+                  values:
+                    type: spacer
+                    padding-y: 20
               -
                 type: heading
                 attrs:
@@ -2627,7 +2648,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685892573
+updated_at: 1685893193
 template: default
 use_meta_keywords: false
 no_index_page: false
