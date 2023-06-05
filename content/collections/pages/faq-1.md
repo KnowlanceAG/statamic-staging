@@ -1412,8 +1412,8 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685986669
-template: without-teaser-with-sidebar
+updated_at: 1685986686
+template: without-teaser
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
