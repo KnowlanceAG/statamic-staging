@@ -133,7 +133,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: EW79BIrE
@@ -309,7 +308,10 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Garantien für Sie'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Bachelorarbeit Ghostwriting: Ihre Vorteile im Überblick'
               -
                 type: set
                 attrs:
@@ -1032,10 +1034,93 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: liahj1rq
+                  id: lihl5u9g
                   values:
                     type: spacer
-                    padding-y: 15
+                    padding-y: 20
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: xej6edx8
+    columns_replicator:
+      -
+        id: 8j4Apaql
+        single_col: true
+        grid:
+          -
+            id: lFxlbzr3
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Beispiel Bachelorarbeit von unseren Ghostwritern'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Laden Sie sich unser Beispiel für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ghostwriter-Bachelorarbeit jetzt kostenlos herunter'
+                  -
+                    type: text
+                    text: '. Diese Mustervorlage wurde von einem unserer kompetentesten Ghostwriter verfasst, sodass Sie sich einen Eindruck von unseren Qualifikationen und Qualitätsstandards machen können. So wissen Sie von Anfang an, was Sie erwartet, wenn Sie sich für den ausgezeichneten Service von GWriters entscheiden.'
+              -
+                type: set
+                attrs:
+                  id: qeGs5Inq
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-bachelorarbeit-biografiearbeit.jpg
+                    ex_title: 'Biografiearbeit und pädagogische Professionalität'
+                    ex_type: Bachelorarbeit
+                    ex_pages: '31'
+                    ex_zitation: APA-Style
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/bachelorarbeit-beispiel-biografiearbeit.pdf
+                    ex_button_text: 'KOSTENLOS HERUNTERLADEN'
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+                    ex_fachbereich:
+                      - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: hVj4fyj7
+    columns_replicator:
+      -
+        id: WHE7qDqT
+        single_col: true
+        grid:
+          -
+            id: cUWiZObZ
+            bard:
               -
                 type: heading
                 attrs:
@@ -1047,7 +1132,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Übersicht aller Fachrichtungen & Arbeiten'
               -
                 type: set
@@ -1111,26 +1196,13 @@ replicator:
                           - 52f5092f-800b-4742-8636-a840b9ab1ddb
                           - 2b55bfe7-06df-4e71-86da-152e256904ec
                           - 2931f444-5e22-4860-8f40-a41821377b93
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: hVj4fyj7
-    columns_replicator:
-      -
-        id: WHE7qDqT
-        single_col: true
-        grid:
-          -
-            id: cUWiZObZ
-            bard:
+              -
+                type: set
+                attrs:
+                  id: lihl9wqf
+                  values:
+                    type: spacer
+                    padding-y: 20
               -
                 type: heading
                 attrs:
@@ -1485,7 +1557,7 @@ replicator:
       -
         id: pJKBLsKo
         columns_per_row: 2
-        single_col: false
+        single_col: true
         grid:
           -
             id: ae9kQIgY
@@ -1535,7 +1607,7 @@ replicator:
         responsive_columns: 0
       -
         id: liapor9m
-        single_col: false
+        single_col: true
         grid:
           -
             id: 73cOWkpP
@@ -1692,8 +1764,6 @@ replicator:
                                 type: text
                                 text: 'Unsere akademischen Ghostwriter können in Notfällen ganze Bachelorarbeiten an einem Wochenende schreiben. Bei dringenden Aufträgen ist dies möglich. Jedoch möchten sie für diese Extraarbeit fair entlohnt werden. Daher spielt die verfügbare Bearbeitungszeit eine wesentliche Rolle für die Kosten.'
                         active: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1705,14 +1775,14 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: xej6edx8
+    id: lihlrru7
     columns_replicator:
       -
-        id: 8j4Apaql
-        single_col: true
+        id: lihlrvt2
+        single_col: false
         grid:
           -
-            id: lFxlbzr3
+            id: 1nqorlsk
             bard:
               -
                 type: heading
@@ -1721,40 +1791,23 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Beispiel Bachelorarbeit von unseren Ghostwritern'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Laden Sie sich unser Beispiel für eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwriter-Bachelorarbeit jetzt kostenlos herunter'
-                  -
-                    type: text
-                    text: '. Diese Mustervorlage wurde von einem unserer kompetentesten Ghostwriter verfasst, sodass Sie sich einen Eindruck von unseren Qualifikationen und Qualitätsstandards machen können. So wissen Sie von Anfang an, was Sie erwartet, wenn Sie sich für den ausgezeichneten Service von GWriters entscheiden.'
+                    text: 'Erfahrene Ghostwriter für Ihre Bachelorarbeit'
               -
                 type: set
                 attrs:
-                  id: qeGs5Inq
+                  id: lihlzy5g
                   values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/deckblatt-bachelorarbeit-biografiearbeit.jpg
-                    ex_title: 'Biografiearbeit und pädagogische Professionalität'
-                    ex_type: Bachelorarbeit
-                    ex_pages: '31'
-                    ex_zitation: APA-Style
-                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/bachelorarbeit-beispiel-biografiearbeit.pdf
-                    ex_button_text: 'KOSTENLOS HERUNTERLADEN'
-                    ex_color: '#FF6606'
-                    ex_spacing_top: false
-                    ex_fachbereich:
-                      - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                    type: spacer
+                    padding-y: 15
+              -
+                type: set
+                attrs:
+                  id: lihlsj2r
+                  values:
+                    type: experts_list
+                    experts:
+                      - bdab7ac8-0923-4d8c-b848-caa250aa5e62
+                      - 5bbd2a1b-3cbe-423a-8557-bd86be4fabf6
             show_as_card: false
         type: row
         enabled: true
@@ -1763,19 +1816,19 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: '#D6D6D6'
     border: false
     type: add_section
     enabled: true
   -
-    id: liaq5xc0
+    id: lihlrv2u
     columns_replicator:
       -
-        id: liaq5yxc
+        id: lihlv8er
         single_col: true
         grid:
           -
-            id: vAt3f8O2
+            id: 1nqorlsk
             bard:
               -
                 type: heading
@@ -2405,7 +2458,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: '#333333'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -2419,13 +2472,13 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: '#333333'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
               -
                 type: set
                 attrs:
-                  id: liaqkhbb
+                  id: lihly0sq
                   values:
                     type: spacer
                     padding-y: 20
@@ -2435,11 +2488,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
-        id: liaqeou5
+        id: lihlvbmj
         single_col: false
         grid:
           -
-            id: vAt3f8O2
+            id: 1nqorlsk
             bard:
               -
                 type: set
@@ -2466,7 +2519,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Weitere Links & Referenzen'
               -
@@ -2482,7 +2535,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2508,7 +2561,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2534,7 +2587,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2560,7 +2613,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2586,7 +2639,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2612,7 +2665,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2636,7 +2689,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2657,7 +2710,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685646797
+updated_at: 1685894464
 template: default
 use_meta_keywords: false
 no_index_page: false

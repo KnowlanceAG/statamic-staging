@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: F1beWuU1
@@ -3510,7 +3509,7 @@ replicator:
                   id: 52jn8b4c
                   values:
                     type: spacer
-                    padding-y: 40
+                    padding-y: 20
               -
                 type: heading
                 attrs:
@@ -3526,6 +3525,25 @@ replicator:
                     type: text
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
+                type: set
+                attrs:
+                  id: lihnvqi2
+                  values:
+                    type: spacer
+                    padding-y: 20
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lihnv85k
+        single_col: false
+        grid:
+          -
+            id: mCGfcPEj
+            bard:
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -3536,18 +3554,18 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Einige unserer Blogartikel zum Thema Ghostwriter'
               -
                 type: set
                 attrs:
-                  id: MfzCpctV
+                  id: lihnw7bm
                   values:
                     type: blog_entries
                     entries:
                       - 4148325d-d0d4-4055-9104-c4cb39f5a282
-                      - a2cde5ef-6e62-42fc-a5dc-ea0e899eb3da
-                      - 0be1ce34-0695-44d3-bbad-81e3f715edd7
+                      - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
+                      - ece83e8a-3c91-4e07-8c58-4bcd1c937ec1
               -
                 type: paragraph
                 content:
@@ -3559,7 +3577,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -3579,7 +3597,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1674667772
+updated_at: 1685897745
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
