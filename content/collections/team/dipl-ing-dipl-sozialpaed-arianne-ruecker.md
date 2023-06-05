@@ -5,7 +5,6 @@ title: 'Dipl.-Ing., Dipl.-Sozialpäd. Arianne Rücker'
 position: 'Senior Ghostwriterin'
 photo:
   - portrait_gw-5.png
-published: true
 detail_position: 'Senior Ghostwriterin'
 bard:
   -
@@ -48,6 +47,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665151053
+updated_at: 1685359235
 breadcrumbs_active: true
+publish_contact: false
 ---

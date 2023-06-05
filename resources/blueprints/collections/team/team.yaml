@@ -94,3 +94,15 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
+      -
+        handle: publish_contact
+        field:
+          default: true
+          display: 'Kontakt veröffentlichen'
+          type: toggle
+          icon: toggle
+          instructions: 'Soll dieser Kontakt auf der Seite veröffentlich werden?'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false

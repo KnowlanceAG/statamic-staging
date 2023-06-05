@@ -188,6 +188,11 @@ fields:
         breadcrumbs_element:
           display: 'Breadcrumbs Element'
           fields: {  }
+        faq_section:
+          display: 'FAQ Bereich'
+          fields:
+            -
+              import: faq_section
       container: assets
       enable_input_rules: true
       enable_paste_rules: true

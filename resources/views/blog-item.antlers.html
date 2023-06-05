@@ -96,6 +96,50 @@
           </p>
         </div>
       </div>
+      <script type='application/ld+json'>
+        {
+          "@context": http://schema.org,
+          "@type": "Article",
+          "headline": "{{ detail_title ? detail_title | shortcode : title | shortcode }}",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ config:cpssg:static_site_url | substr:0:-1 }}{{ current_uri }}"
+          },
+          "image": {
+            "@type": "ImageObject",
+{{ if teaser_image }}
+{{ glide:teaser_image width="843" }}
+            "url": {{ config:cpssg:static_site_url | substr:0:-1 }}{{ url }},
+            "width": "{{ width }}",
+            "height": "{{ height }}"
+{{ /glide:teaser_image }}
+{{ else }}
+{{ glide:post_image width="843" }}
+            "url": {{ config:cpssg:static_site_url | substr:0:-1 }}{{ url }},
+            "width": "{{ width }}",
+            "height": "{{ height }}"
+{{ /glide:post_image }}
+{{ /if }}
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Gwriters",
+            "logo": {
+              "@type": "ImageObject",
+              "url": {{ config:cpssg:static_site_url }}assets/webseite/brand_gwriters.png,
+              "width": "",
+              "height": ""
+            }
+          },
+          "datePublished": "{{ date timezone="Europe/Berlin" format="Y-m-d" }}",
+          "dateModified": "{{ last_modified timezone="Europe/Berlin" format="Y-m-d" }}",
+          "author": {
+            "@type": "Person",
+            "name": "{{ author }}{{ name }}{{ /author }}"
+          },
+          "description": "{{ meta_description }}"
+        }
+        </script>
       <aside id="sidebar" class="mb-8">
         {{ yield:sidebar }}
           {{ partial src="partials/sidebar" }}

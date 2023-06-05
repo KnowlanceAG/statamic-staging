@@ -25,8 +25,11 @@
   {{ if arbeitsthema_spezifikationen_usw }}Spezifikation:
     {{ arbeitsthema_spezifikationen_usw }}<br>
   {{ /if }}
-  {{ if seitenzahl }}Seitenzahl:
+  {{ if seitenzahl }}Seitenzahl, Wörter oder Zeichen:
     {{ seitenzahl }}<br>
+  {{ /if }}
+  {{ if callback_needed }}Rückruf erwünscht am:
+    {{ callback_date timezone="Europe/Berlin" format="d.m.Y" }} ({{ callback_time_from }} - {{ callback_time_to }} Uhr)<br>
   {{ /if }}
   {{ if lieferdatum }}Abgabedatum:
     {{ lieferdatum }}</br>

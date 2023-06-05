@@ -5,7 +5,6 @@ title: 'M. Sc. Tobias Wensing'
 position: 'Senior Ghostwriter'
 photo:
   - portrait_gw-3.png
-published: true
 detail_position: 'Senior Ghostwriter'
 bard:
   -
@@ -35,6 +34,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665150779
+updated_at: 1685359314
 breadcrumbs_active: true
+publish_contact: false
 ---

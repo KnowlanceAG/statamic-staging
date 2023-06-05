@@ -61,12 +61,12 @@
       {{ if canonical_url }}
         <link rel="canonical" href="{{ canonical_url }}">
         <meta property="og:url" content="{{ canonical_url }}">
-      {{ elseif current_uri | starts_with:/presse }}
-        <link rel="canonical" href="{{ current_url }}">
+      {{ elseif current_uri | starts_with:/presse || current_uri | starts_with:/blog }}
         <meta property="og:url" content="{{ current_url }}">
-      {{ elseif current_uri | starts_with:/blog }}
-        <link rel="canonical" href="{{ current_url }}">
-        <meta property="og:url" content="{{ current_url }}">
+        {{ if current_uri | not_paginated_page }}
+          <link rel="canonical" href="{{ current_url }}">
+        {{ /if }}
+
       {{ else }}
         <!-- purely generated -->
         <link rel="canonical" href="{{ aardvark-seo:generated_canonical }}">
@@ -95,12 +95,20 @@
         {{ aardvark-seo:graph }}
       {{ /if }}
     {{ /seo_data }}
+    {{ elseif author_slug && current_uri | starts_with:/author  }}
+      <meta property="og:url" content="{{ current_url }}">
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="{{ site:locale | lower }}">
+    {{ if current_uri | not_paginated_page }}
+      <link rel="canonical" href="{{ current_url }}">
+    {{ /if }}
   {{ /if }}
   {{ partial src="partials/analytics_header" }}
 </head>
 
 <body
-  class="{{ if id == "home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen">
+  class="{{ if id == "home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen"
+  tabIndex=0>
   {{ partial src="partials/analytics_body" }}
   {{ aardvark-seo:body }}
   {{ partial src="partials/header" }}
@@ -111,6 +119,12 @@
 
   {{ cookie_notice }}
   {{ aardvark-seo:footer }}
+
+  {{ if rating_widget_footer && current_uri | not_article_page }}
+    {{ rating_widget_footer }}
+      {{ widget_code_html }}
+    {{ /rating_widget_footer }}
+  {{ /if }}
 </body>
 
 </html>

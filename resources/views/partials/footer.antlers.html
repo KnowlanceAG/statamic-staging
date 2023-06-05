@@ -63,15 +63,6 @@
             {{ /nav }}
         </div>
     </section>
-    {{ if rating_widget_footer }}
-        <section class="px-4 py-5 bg-gray-100">
-            <div class="container mx-auto max-w-screen-xl text-center">
-                {{ rating_widget_footer }}
-                    {{ widget_code_html }}
-                {{ /rating_widget_footer }}
-            </div>
-        </section>
-    {{ /if }}
     <section class="md:hidden px-4 bg-gray-100 md:pt-20 pb-8">
         <div class="flex max-w-screen-xl mx-auto">
             {{ partial src="partials/footer_paymentprovider" }}

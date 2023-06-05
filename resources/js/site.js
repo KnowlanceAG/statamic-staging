@@ -17,11 +17,21 @@ const burger = document.querySelector('.menu-opener')
 const mobileMenu = document.querySelector('.menu-mobile')
 const mobileMenuCloseButton = document.querySelector('.menu-closer')
 
-const megaMenuToggler = document.querySelector('.dropdown');
-const megaMenuCloseButton = document.querySelector('.closesub');
+const megaMenuToggler = document.querySelector('.dropdown')
+const megaMenuCloseButton = document.querySelector('.closesub')
 
 const megaMenuOpened = () => !megaMenuToggler.nextElementSibling.classList.contains('hidden')
 const mobileMenuOpened = () => !mobileMenu.classList.contains('hidden')
+
+const mobileMailMenu = document.querySelector('#mobileMailMenu')
+const mailMenuButton = document.querySelector('#mobileMailMenuBtn')
+const mailMenuCloseButton = document.querySelector('#mailMenuCloseBtn')
+const mailMenuOpened = () => !mobileMailMenu.classList.contains('hidden')
+
+const mobilePhoneMenu = document.querySelector('#mobilePhoneMenu')
+const phoneMenuButton = document.querySelector('#mobilePhoneMenuBtn')
+const phoneMenuCloseButton = document.querySelector('#phoneMenuCloseBtn')
+const phoneMenuOpened = () => !mobilePhoneMenu.classList.contains('hidden')
 
 const setScrolling = (active) => {
   if (!active) {
@@ -63,10 +73,46 @@ const toggleMobileMenu = () => {
   setScrolling(!mobileMenuOpened())
 }
 
+const toggleMailMenu = (ev) => {
+  const hidden = mobileMailMenu.classList.toggle('hidden')
+  mobileMailMenuBtn.classList.toggle('hidden')
+  mailMenuCloseBtn.classList.toggle('hidden')
+  if (!hidden && phoneMenuOpened()) closePhoneMenu()
+  setScrolling(!mailMenuOpened())
+}
+
+const togglePhoneMenu = (ev) => {
+  const hidden = mobilePhoneMenu.classList.toggle('hidden')
+  mobilePhoneMenuBtn.classList.toggle('hidden')
+  phoneMenuCloseBtn.classList.toggle('hidden')
+  if (!hidden && mailMenuOpened()) closeMailMenu()
+  setScrolling(!phoneMenuOpened())
+}
+
+const closeMailMenu = () => {
+  mobileMailMenu.classList.remove('hidden')
+  mobileMailMenu.classList.add('hidden')
+  mobileMailMenuBtn.classList.remove('hidden')
+  mailMenuCloseBtn.classList.remove('hidden')
+  mailMenuCloseBtn.classList.add('hidden')
+  setScrolling(true)
+}
+
+const closePhoneMenu = () => {
+  mobilePhoneMenu.classList.remove('hidden')
+  mobilePhoneMenu.classList.add('hidden')
+  mobilePhoneMenuBtn.classList.remove('hidden')
+  phoneMenuCloseBtn.classList.remove('hidden')
+  phoneMenuCloseBtn.classList.add('hidden')
+  setScrolling(true)
+}
+
 const closeAllMenus = () => {
   setScrolling(true)
   closeMegaMenu()
   closeMobileMenu()
+  closeMailMenu()
+  closePhoneMenu()
 }
 
 const addMegaMenuHandler = () => {
@@ -101,6 +147,18 @@ const addMobileMenuHandler = () => {
   })
 }
 
+const addMobileMailMenuHandler = () => {
+  if (!mailMenuButton || !mailMenuCloseButton) return
+  mailMenuButton.addEventListener('click', toggleMailMenu)
+  mailMenuCloseButton.addEventListener('click', closeMailMenu)
+}
+
+const addMobilePhoneMenuHandler = () => {
+  if (!phoneMenuButton || !phoneMenuCloseButton) return
+  phoneMenuButton.addEventListener('click', togglePhoneMenu)
+  phoneMenuCloseButton.addEventListener('click', closePhoneMenu)
+}
+
 const addMenuHandler = () => {
   window.addEventListener('resize', closeAllMenus)
   megaMenuToggler.addEventListener('click', toggleMegaMenu)
@@ -111,6 +169,28 @@ const addMenuHandler = () => {
 
   addMegaMenuHandler()
   addMobileMenuHandler()
+  addMobileMailMenuHandler()
+  addMobilePhoneMenuHandler()
+}
+
+const handleMenuScroll = () => {
+  const upperRow = document.querySelector('#menuUpperRow')
+  const lowerRow = document.querySelector('#menuLowerRow')
+  if (!upperRow || !lowerRow) return
+  window.addEventListener('scroll', () => {
+    if (upperRow.getBoundingClientRect().bottom < 0) {
+      lowerRow.classList.remove('flexible')
+    } else {
+      lowerRow.classList.add('flexible')
+    }
+  })
+}
+
+const renderContactLists = () => {
+  const contactLists = document.querySelectorAll('.contact-list')
+  contactLists.forEach((list) => {
+    list.classList.remove('hidden')
+  })
 }
 
 // END Menu
@@ -371,6 +451,8 @@ const ready = callback => {
 
 ready(() => {
   handleUTM()
+  handleMenuScroll()
+  renderContactLists()
   addMenuHandler()
   lazzyVideo()
   tabToggle()

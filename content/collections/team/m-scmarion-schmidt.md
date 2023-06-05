@@ -5,7 +5,6 @@ title: 'M. Sc. Marion Schmidt'
 position: 'Senior Ghostwriterin'
 photo:
   - portrait_gw-4.png
-published: true
 detail_position: 'Senior Ghostwriterin'
 bard:
   -
@@ -35,6 +34,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665150533
+updated_at: 1685359320
 breadcrumbs_active: true
+publish_contact: false
 ---

@@ -1,10 +1,9 @@
 ---
 id: 942c2c8b-0964-473f-bd8d-10426b828eb8
-published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1668528614
+updated_at: 1684833266
 replicator:
   -
     id: laieiq4o
@@ -164,6 +163,162 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: lhqbk7kh
+    bard:
+      -
+        type: set
+        attrs:
+          id: lhqbk9kd
+          values:
+            type: faq_section
+            faq_tabs:
+              -
+                id: lhqbkaay
+                items:
+                  -
+                    id: lhqbkbgk
+                    active: false
+                    headline: 'Allgemeine FAQ Überschrift 1'
+                    accordion_content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(102, 102, 102)'
+                                  hex: '#000'
+                            text: "Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.\_"
+                  -
+                    id: lhqbnmpl
+                    headline: 'Allgemeine FAQ Überschrift 2'
+                    accordion_content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: "Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.\_"
+                    active: false
+                  -
+                    id: lhqbnusu
+                    headline: 'Allgemeine FAQ Überschrift 3'
+                    accordion_content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: "Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.\_"
+                    active: false
+                tab_headline: 'Allgemeine FAQ'
+              -
+                id: lhqbqv8r
+                tab_headline: 'FAQ Seite 2'
+                items:
+                  -
+                    id: lhqbr1nq
+                    headline: 'FAQ Seite 2 Überschrift 1'
+                    accordion_content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: "Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.\_"
+                    active: false
+                  -
+                    id: lhqbr95z
+                    headline: 'FAQ Seite 2 Überschrift 2'
+                    accordion_content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: "Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.\_"
+                    active: false
+              -
+                id: lhqdr8xd
+                tab_headline: 'FAQ Seite 3'
+                items:
+                  -
+                    id: lhqdreo3
+                    headline: ' Habe ich einen festen Ansprechpartner und an wen kann ich mich wenden, wenn ich eine Frage habe?'
+                    accordion_content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: "Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.\_"
+                    active: true
+              -
+                id: lhqdrsty
+                tab_headline: 'FAQ Seite 4'
+      -
+        type: paragraph
+    show_as_card: false
+    type: editor
+    enabled: true
+  -
     id: 7HFvFtfY
     bard:
       -
@@ -171,7 +326,7 @@ replicator:
         content:
           -
             type: text
-            text: 2.35.0
+            text: 2.36.0
     show_as_card: false
     type: editor
     enabled: true

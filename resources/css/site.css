@@ -198,6 +198,25 @@ table {
   }
 }
 
+#menuLowerRow {
+  @apply fixed top-0;
+  &.flexible {
+    @apply absolute top-12;
+  }
+}
+.contact-entry {
+  &:hover {
+    svg {
+      fill: #fff !important;
+    }
+  }
+}
+
+.max-dynamic-height {
+  height: 82vh;
+  height: 82dvh;
+}
+
 .menu-desktop,
 .menu-mobile {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
@@ -507,12 +526,18 @@ body.iframe {
 body.de {
   .visible-de {
     display: inline;
+    &.set-block {
+      @apply block;
+    }
   }
 }
 
 body.ch {
   .visible-ch {
     display: inline;
+    &.set-block {
+      @apply block;
+    }
   }
 }
 

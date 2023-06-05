@@ -56,7 +56,29 @@ module.exports = {
   },
   important: true,
   theme: {
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
+    },
     extend: {
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '1',
+          },
+        },
+      },
       screens: {
         'prelg': '1142px',
       },
@@ -92,6 +114,8 @@ module.exports = {
       fontSize: {
         '2xl': '1.65rem',
         '5xl': '2.75rem',
+        tiny: ['9px', '18px'],
+        xxs: ['11px', '22px'],
         xs: ['13px', '26px'],
         sm: ['15px', '28px'],
         base: ['16px', '28px'],
@@ -105,16 +129,30 @@ module.exports = {
       padding: {
         'py-22': '5.5rem'
       },
+      margin: {
+        '.1': '0.1rem',
+        '.2': '0.2rem'
+      },
       transitionProperty: {
         height: 'height'
       },
       maxWidth: {
         'max-w-screen': '100vw',
         '150px': '150px'
+      },
+      zIndex: {
+        '55': '55',
+        '60': '60',
       }
     }
   },
-  variants: {},
+  variants: {
+    extend: {
+      visibility: ['group-hover', 'group-focus'],
+      pointerEvents: ['group-hover', 'group-focus'],
+      borderRadius: ['last']
+    }
+  },
   plugins: [
     require('tailwind-scrollbar-hide')
   ]

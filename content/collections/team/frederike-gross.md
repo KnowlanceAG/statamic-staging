@@ -14,8 +14,9 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1684756650
+updated_at: 1685359013
 phone_number: '+49 30 809332332'
 email_address: gross@gwriters.de
 breadcrumbs_active: true
+publish_contact: false
 ---

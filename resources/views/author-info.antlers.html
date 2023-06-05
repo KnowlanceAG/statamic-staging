@@ -6,7 +6,22 @@
           {{ if !id }}
             {{ redirect to="/404" }}
           {{ /if }}
-          {{ collection:blog as="col" limit="10" paginate="true" author:contains="{id}" sort="date:desc" }}
+
+          {{ avatar }}
+            <div class="bg-white border-b-4 shadow-sm p-2 mb-8 flex flex-col lg:flex-row space-x-6">
+                {{ responsive:avatar alt="Foto {alt}" class="mx-auto h-auto w-40 md:w-auto rounded-full" }}
+                <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
+                  <div class="flex flex-col justify-center lg:justify-start text-gray-550">
+                    <h1 class="mt-4 py-0 text-center leading-none">{{ name }}</h1>
+                    <div class="my-0 font-bold text-center">{{ position }}</div>
+                    <p>{{ short_text }}</p>
+                  </div>
+                </div>
+            </div>
+          {{ /avatar }}
+
+          <h2>Beiträge von {{ name }}</h2>
+          {{ collection:blog as="col" limit="{{ config:app:pagination_limit }}" paginate="true" author:contains="{id}" sort="date:desc" }}
             {{ partial src="partials/content/blogentry" }}
             {{ paginate }}
               {{ partial src="partials/pagination" handle="blog" }}

@@ -6,11 +6,12 @@ photo:
   - team/hause_gwriters_ghostwriter-1.jpg
 detail_position: 'Supervisor & Senior Ghostwriter'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627300600
+updated_at: 1685359299
 bard:
   -
     type: set
     attrs:
+      id: hhdXC7eA
       values:
         type: text_box_alignment
         bard:
@@ -92,6 +93,7 @@ bard:
                       align: left
                 text: "\_und medizinischen Biologie einen akademischen Hintergrund vorweisen kann, sondern auch im geisteswissenschaftlichen Fachbereichen der theoretischen und praktischen Philosophie."
         text_ausrichtung: text-left
+        column_count: false
   -
     type: paragraph
 use_meta_keywords: false
@@ -100,8 +102,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 show_as_card: false
 breadcrumbs_active: true
+publish_contact: false
 ---

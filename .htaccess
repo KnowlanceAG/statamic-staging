@@ -16,6 +16,9 @@ RewriteRule ^(.*)$ https://gwriters.ch/$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule !/$ %{REQUEST_URI}/index.html [L]
 
+RewriteCond %{REQUEST_URI} ^/(.*/)?author/([^/]+)/page/1$
+RewriteRule ^(.*)$ /%1author/%2 [R=301,L]
+
 ErrorDocument 404 /error-404/index.html
 ErrorDocument 403 /error-404/index.html
 
@@ -28,8 +31,8 @@ ErrorDocument 403 /error-404/index.html
 # Prohibit access to formular uploads
 RedirectMatch 403 ^/public/img/containers/formular_uploads/.?$
 
-Redirect 301 /blog/index.html /blog/page/1
-Redirect 301 /presse/index.html /presse/page/1
+Redirect 301 /blog/page/1 /blog
+Redirect 301 /presse/page/1 /presse
 
 Redirect 301 /Seminararbeit-beispiel-blockchain /hausarbeit-beispiel-embryonenforschung
 Redirect 301 /abgesendet-new /anfrage-abgesendet-adag
