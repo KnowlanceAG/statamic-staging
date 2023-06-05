@@ -5,229 +5,787 @@ blueprint: pages
 title: 'Hilfe & FAQ zum Ghostwriting und Ghostwritern (Dupliziert)'
 replicator:
   -
+    id: lij58n2h
+    columns_replicator:
+      -
+        id: lij58rz4
+        single_col: false
+        grid:
+          -
+            id: as0NMLlt
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lij58vji
+                  values:
+                    type: faq_section
+                    faq_tabs:
+                      -
+                        id: lij58xop
+                        tab_headline: 'Ghostwriting FAQ'
+                        items:
+                          -
+                            id: lij5wjhs
+                            headline: 'Was ist Ghostwriting?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriting
+                                          target: null
+                                          rel: null
+                                    text: Ghostwriting
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_ist die individuelle Texterstellung im Auftrag eines Kunden nach dessen individuellen Wünschen und Vorgaben durch einen anonymen Autor (siehe: „Was ist ein Ghostwriter?“)."
+                            active: false
+                          -
+                            id: lij5naqt
+                            headline: 'Was ist ein Ghostwriter?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Ein '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter
+                                          target: null
+                                          rel: null
+                                    text: Ghostwriter
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: ' fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an.'
+                            active: false
+                          -
+                            id: lij5oggg
+                            headline: 'Was ist ein "akademischer" Ghostwriter?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: 'Als Ghostwriter (dt. Geisterschreiber), bezeichnet man einen Autor, der im Auftrag oder im Namen einer anderen Person schreibt. Ein sogenannter akademischer Ghostwriter spezialisiert sich dabei auf die Ausfertigung von Mustervorlagen für wissenschaftliche Arbeiten oder akademische Texte und von einem solchen Ghostwriter können sich Studenten Mustervorlagen für bspw. '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/seminararbeit-schreiben-lassen
+                                          target: null
+                                          rel: null
+                                    text: Seminararbeiten
+                                  -
+                                    type: text
+                                    text: ', '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/hausarbeit-schreiben-lassen
+                                          target: null
+                                          rel: null
+                                    text: Hausarbeiten
+                                  -
+                                    type: text
+                                    text: ', '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                          target: null
+                                          rel: null
+                                    text: Bachelorarbeiten
+                                  -
+                                    type: text
+                                    text: ' oder '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/masterarbeit-schreiben-lassen
+                                          target: null
+                                          rel: null
+                                    text: 'Masterarbeiten schreiben lassen'
+                                  -
+                                    type: text
+                                    text: '. Er sollte Experte in seinem Fachbereich sein und weiterhin sollte er über ausgezeichnete Erfahrung beim Verfassen wissenschaftlicher Arbeiten verfügen.'
+                            active: false
+                          -
+                            id: lij5qwhj
+                            headline: 'Welche Motivation haben akademische Ghostwriter?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "Akademische\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: Ghostwriter
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_verstehen das Verfassen von Mustervorlagen für wissenschaftliche Arbeiten als ihre Profession – und verdienen damit Ihren Lebensunterhalt."
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: "Die Motivation der Freiberufler, welche Werke für GWriters erstellen sind sehr unterschiedlich. Im Grunde lässt sich allerdings feststellen, dass sicherlich die gleichen Beweggründe bestehen, wie bei jedem anderen Freiberufler auch. Ob Softwareentwickler, Ingenieur oder wissenschaftlicher Autor – als Freiberufler ergeben sich Freiheiten, in deren Genuss man als klassischer Arbeitnehmer selten kommen wird. Zum einen haben wissenschaftliche Autoren eine hohe zeitliche Flexibilität. Viele sind passionierte Autoren und nehmen nur die Aufträge an, an denen sie Freude finden und welche für sie in einem zeitlich akzeptablen Rahmen liegen. Weiter verdient ein Freiberufler oft mehr als ein fest Angestellter. Unsere Freiberufler sind häufig wissenschaftliche Mitarbeiter oder Doktoranden und weisen dadurch einen hohen Erfahrungsschatz beim Verfassen wissenschaftlicher Arbeiten auf. Auch als langjähriger Dozent an einer staatlichen Universität müssen diese meist mit Gehältern auskommen, welche den Einstiegsgehältern von frischen\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/bwl
+                                          target: null
+                                          rel: null
+                                    text: BWL
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: '-Alumni gleichen. Wenn man sich als Autor wissenschaftlicher Arbeiten mit einem verhältnismäßig geringen Zeitaufwand also ein zweites Standbein aufbauen kann, so ist das für viele unserer Autoren eine lukrative Einnahmequelle.'
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Natürlich trägt der Freelancer grundsätzlich ein höheres Risiko als ein Arbeitnehmer mit “gesichertem Arbeitsplatz”, jedoch überwiegen die Freiheiten für viele Freiberufler und die Entscheidung zur freien Tätigkeit fällt folglich leicht.'
+                            active: false
+                          -
+                            id: lij5tkal
+                            headline: 'Wie wird man akademischer Ghostwriter?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: 'Die Berufsbezeichnung "Ghostwriter" ist nicht geschützt, theoretisch kann sich daher jeder so nennen. Allerdings gelten für Ghostwriter, die mit unserer Agentur zusammenarbeiten wollen, einige strenge Auswahlkriterien, da wir uns auf die hochwertige Erstellung und Überarbeitung von fachspezifischen und wissenschaftlichen Texten spezialisiert haben.'
+                            active: false
+                          -
+                            id: lij5w1ia
+                            headline: 'Wer kann akademischer Ghostwriter werden? Was muss man mitbringen?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: 'Formal müssen Bewerber über mindestens zwei Hochschulabschlüsse verfügen, eine hohe fachliche Expertise in ihrem präferierten Forschungsgebiet vorweisen und natürlich auch ohne jegliche Schwierigkeiten hochwertige Texte zu komplexen Fragestellungen erstellen können. Ob jemand allerdings wirklich in der Lage ist den qualitativen Erwartungen unserer Kunden gerecht zu werden, wird im Einzelfall entschieden.'
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /blog/bewerbung-ghostwriter-gwriters
+                                          target: _blank
+                                          rel: 'noopener noreferrer'
+                                    text: 'Im Bewerbungsprozess'
+                                  -
+                                    type: text
+                                    text: ' werden nicht nur die eigereichten Unterlagen, sondern auch bereits durch den Bewerber erstellte wissenschaftliche Texte und Publikationen auf "Herz und Niere" geprüft. Selbst nach Erhalt des Autorenvertrages und der erfolgreichen Kooperation mit uns endet dieser "Bewerbungsprozess" prinzipiell nicht, da jeder erstellte Text vor der Übergabe an unsere Kunden von einem Supervisor aus dem Fachgebiet inhaltlich und stilistisch überprüft, intern bewertet und anhand moderner Plagiatssoftware überprüft wird.'
+                            active: false
+                      -
+                        id: lij598c2
+                        tab_headline: 'FAQ zu GWriters'
+                        items:
+                          -
+                            id: lij5zlhe
+                            headline: 'Warum sollte ich GWriters nutzen um einen passenden Ghostwriter oder Bearbeiter zu finden?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: 'Seriöse und für Ihre spezielle Aufgabenstellung passende akademische Freelancer (z.B. wissenschaftliche Berater, Ghostwriter, '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /lektorat/lektor
+                                          target: null
+                                          rel: null
+                                    text: Lektoren
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ",\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /korrektorat/korrektor
+                                          target: null
+                                          rel: null
+                                    text: Korrektoren
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_oder Übersetzer) lassen sich auf eigene Faust nur sehr schwer finden."
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "Vertrauen Sie auf unsere Erfahrung: GWriters bietet Ihnen schnell und einfach Zugriff auf derzeit über 3000 Autoren & Bearbeiter aus diversen Fachbereichen an und hilft dabei, einen für Ihre\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /anfrage
+                                          target: null
+                                          rel: null
+                                    text: Anfrage
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_bestmöglich passenden Autor auszuwählen."
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Durch den Einsatz von Supervisoren und automatisierten Prüf- und Bewertungssystemen garantieren wir darüber hinaus die einwandfreie Qualität der durch uns erstellten Mustervorlagen.'
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Anders als im journalistischen Bereich sind seriöse akademische Autoren schwer aus eigener Initiative oder über das Internet zu finden. Die Gründe dafür liegen auf der Hand: Wirklich qualifizierte, akademische Freelancer scheuen sich, Ihre Leistungen im Internet unter ihrem eigenen Namen anzubieten. Des Weiteren fragt man je nach Verwendungszweck als Nutzer dieser Leistung ungern Personen aus dem persönlichen Umfeld. Der Vorteil von GWriters ist für Sie also der Zugriff auf ein breites Netzwerk an Autoren und die Wahrung von Diskretion auf beiden Seiten: Keiner unserer akademischen Freelancer erhält personenbezogene Daten über unsere Kunden. Dies gilt selbstverständlich auch umgekehrt.'
+                            active: false
+                          -
+                            id: lij62bv3
+                            headline: 'Welche Leistungen und Fachrichtungen werden bei GWriters angeboten?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: "Wir bieten Ihnen\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: 'https://gwriters.de/ghostwriting'
+                                          target: null
+                                          rel: null
+                                    text: Ghostwriting
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_für wissenschaftliche Mustervorlagen,\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: 'https://gwriters.de/lektorat'
+                                          target: null
+                                          rel: null
+                                    text: Lektorate
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ",\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: 'https://gwriters.de/korrektorat'
+                                          target: null
+                                          rel: null
+                                    text: Korrektorate
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ",\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: 'https://gwriters.de/leistungen/uebersetzung'
+                                          target: null
+                                          rel: null
+                                    text: Übersetzungen
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ",\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: 'https://gwriters.de/leistungen/maxqda-auswertung'
+                                          target: null
+                                          rel: null
+                                    text: 'MAXQDA Auswertungen'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ",\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                                          target: null
+                                          rel: null
+                                    text: Plagiatsprüfungen
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_und\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: 'https://gwriters.de/promotionsberatung'
+                                          target: null
+                                          rel: null
+                                    text: Promotionsberatungen
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_in nahezu allen akademischen Fachbereichen an."
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Sollten wir für Ihr Thema keinen Experten haben, teilen wir Ihnen das offen und zeitnah mit, da auch wir es uns zum Ziel gesetzt haben, nur hochwertige Leistungen zu liefern und unsere Kunden zufrieden zu stellen. Unser Erfolg resultiert wesentlich aus der Qualität, die wir unseren Kunden liefern und dem dadurch gewonnenen Vertrauen. Falls Sie den von Ihnen benötigten Service nicht in unserer Leistungsübersicht oder den aufgeführten Fachrichtung finden sollten, schreiben Sie uns einfach eine Email oder rufen Sie unsere Berater unter '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: 'tel:##phone##'
+                                          target: null
+                                          rel: null
+                                    text: '##phone##'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: ' an. Wir beraten Sie gern, kostenlos und unverbindlich.'
+                            active: false
+                      -
+                        id: lij59kok
+                        tab_headline: 'FAQ zum Ablauf'
+                      -
+                        id: lij5kd3y
+                        tab_headline: 'Qualität, Preise & Diskretion '
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: FLCjONVG
     bard:
-      -
-        type: heading
-        attrs:
-          level: 1
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: left
-              -
-                type: textColor
-                attrs:
-                  color: orange-500
-                  hex: '#ff6606'
-            text: 'Hilfe & FAQ'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: 'Was ist ein Ghostwriter?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ein Ghostwriter fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an. '
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: 'Was ist ein "akademischer" Ghostwriter?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Als Ghostwriter (dt. Geisterschreiber), bezeichnet man einen Autor, der im Auftrag oder im Namen einer anderen Person schreibt. Ein sogenannter akademischer Ghostwriter spezialisiert sich dabei auf die Ausfertigung von Mustervorlagen für wissenschaftliche Arbeiten oder akademische Texte und von einem solchen Ghostwriter können sich Studenten Mustervorlagen für bspw. '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/seminararbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Seminararbeiten
-          -
-            type: text
-            text: ', '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/hausarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Hausarbeiten
-          -
-            type: text
-            text: ', Bachelorarbeiten oder Masterarbeiten schreiben lassen. Er sollte Experte in seinem Fachbereich sein und weiterhin sollte er über ausgezeichnete Erfahrung beim Verfassen wissenschaftlicher Arbeiten verfügen.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: inherit
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /faq/motivation-akademische-ghostwriter
-                  target: null
-                  rel: null
-            text: 'Welche Motivation haben akademische Ghostwriter?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: "Akademische\_"
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: "\_verstehen das Verfassen von Mustervorlagen für wissenschaftliche Arbeiten als ihre Profession – und verdienen damit Ihren Lebensunterhalt. "
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: link
-                attrs:
-                  href: /faq/motivation-akademische-ghostwriter
-                  target: null
-                  rel: null
-            text: 'Mehr lesen...'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wie wird man akademischer Ghostwriter?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die Berufsbezeichnung "'
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: Ghostwriter
-          -
-            type: text
-            text: '" ist nicht geschützt, theoretisch kann sich daher jeder so nennen. Allerdings gelten für Ghostwriter, die mit unserer Agentur zusammenarbeiten wollen, einige strenge Auswahlkriterien, da wir uns auf die hochwertige Erstellung und Überarbeitung von fachspezifischen und wissenschaftlichen Texten spezialisiert haben.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wer kann akademischer Ghostwriter werden? Was muss man mitbringen?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Formal müssen Bewerber über mindestens zwei Hochschulabschlüsse verfügen, eine hohe fachliche Expertise in ihrem präferierten Forschungsgebiet vorweisen und natürlich auch ohne jegliche Schwierigkeiten hochwertige Texte zu komplexen Fragestellungen erstellen können. Ob jemand allerdings wirklich in der Lage ist den qualitativen Erwartungen unserer Kunden gerecht zu werden, wird im Einzelfall entschieden.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/bewerbung-ghostwriter-gwriters
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'Im Bewerbungsprozess'
-          -
-            type: text
-            text: ' werden nicht nur die eigereichten Unterlagen, sondern auch bereits durch den Bewerber erstellte wissenschaftliche Texte und Publikationen auf "Herz und Niere" geprüft. Selbst nach Erhalt des Autorenvertrages und der erfolgreichen Kooperation mit uns endet dieser "Bewerbungsprozess" prinzipiell nicht, da jeder erstellte Text vor der Übergabe an unsere Kunden von einem Supervisor aus dem Fachgebiet inhaltlich und stilistisch überprüft, intern bewertet und anhand moderner Plagiatssoftware überprüft wird.'
       -
         type: heading
         attrs:
@@ -324,79 +882,6 @@ replicator:
           -
             type: text
             text: ', wer immer diese auch sein mögen.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: inherit
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: 'Was ist Ghostwriting?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: Ghostwriting
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: "\_ist die individuelle Texterstellung im Auftrag eines Kunden nach dessen individuellen Wünschen und Vorgaben durch einen anonymen Autor (siehe: „Was ist ein Ghostwriter?“).\_"
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: 'Mehr lesen…'
       -
         type: heading
         attrs:
@@ -563,147 +1048,6 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /faq/warum-gwriters
-                  target: null
-                  rel: null
-            text: 'Warum sollte ich GWriters nutzen um einen passenden Ghostwriter oder Bearbeiter zu finden?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: 'Seriöse und für Ihre spezielle Aufgabenstellung passende akademische Freelancer (z.B. wissenschaftliche Berater, Ghostwriter, '
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: link
-                attrs:
-                  href: /lektorat/lektor
-                  target: null
-                  rel: null
-            text: Lektoren
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: ",\_"
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /korrektorat/korrektor
-                  target: null
-                  rel: null
-            text: Korrektoren
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: "\_oder Übersetzer) lassen sich auf eigene Faust nur sehr schwer finden."
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: "Vertrauen Sie auf unsere Erfahrung: GWriters bietet Ihnen schnell und einfach Zugriff auf derzeit über 3000 Autoren & Bearbeiter aus diversen Fachbereichen an und hilft dabei, einen für Ihre\_"
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: Anfrage
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: "\_bestmöglich passenden Autor auszuwählen.\_"
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /faq/warum-gwriters
-                  target: null
-                  rel: null
-            text: 'Mehr lesen…'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: inherit
-                  hex: '#000'
-              -
-                type: link
-                attrs:
                   href: /faq/preise-ghostwriting
                   target: null
                   rel: null
@@ -735,60 +1079,6 @@ replicator:
                 type: link
                 attrs:
                   href: /faq/preise-ghostwriting
-                  target: null
-                  rel: null
-            text: 'Mehr lesen…'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: inherit
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /faq/fachrichtungen-ghostwriting
-                  target: null
-                  rel: null
-            text: 'Welche Leistungen und Fachrichtungen werden bei GWriters angeboten?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: "Wir bieten Ihnen hochwertige Ausarbeitungen für viele verschiedenen Themenfelder an.\_"
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /faq/fachrichtungen-ghostwriting
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -1412,7 +1702,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685986821
+updated_at: 1685988879
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1428,4 +1718,25 @@ og_description: 'Alle Antworten zu Fragen über Ghostwriting oder wie Sie eine M
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+        text: 'Hilfe & FAQ'
 ---
