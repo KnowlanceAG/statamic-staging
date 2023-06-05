@@ -1,5 +1,6 @@
 ---
 id: 86e1cf04-e596-4134-b351-ccc924042c63
+published: false
 blueprint: pages
 title: 'Hilfe & FAQ zum Ghostwriting und Ghostwritern (Dupliziert)'
 replicator:
@@ -1410,8 +1411,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1680130555
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1685986669
 template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false
