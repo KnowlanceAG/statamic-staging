@@ -203,3 +203,21 @@ Redirect 410 /blog/online-nachhilfe-vorlesung
 #14042
 Redirect 301 /blog/literaturverzeichnis-automatisch-erstellen /blog/word-automatisches-verzeichnis-erstellen
 Redirect 301 /blog/verzeichnisse /blog/word-automatisches-verzeichnis-erstellen
+
+#14286
+Redirect 301 /faq/motivation-akademische-ghostwriter /ghostwriter
+Redirect 301 /faq/ghostwriting-strafbar /blog/plagiate-ghostwriting-legal
+Redirect 301 /faq/warum-gwriters /faq
+Redirect 301 /faq/preise-ghostwriting /preise
+Redirect 301 /faq/fachrichtungen-ghostwriting /fachrichtungen
+Redirect 301 /faq/qualitaet-ghostwriter /faq
+Redirect 301 /faq/kontakt-ghostwriter /so-funktioniert-es
+Redirect 301 /faq/ghostwriter-englisch /blog/hausarbeit-auf-englisch-schreiben
+Redirect 301 /faq/ghostwriter-korrektur /korrektorat
+Redirect 301 /faq/website-content /faq
+Redirect 301 /faq/gwriters-in-unternehmen /faq
+Redirect 301 /faq/texte-ghostwriting /ghostwriting
+Redirect 301 /faq/ablauf-ghostwriting /so-funktioniert-es
+Redirect 301 /faq/wie-lange-braucht-ein-ghostwriter /ghostwriter
+Redirect 301 /faq/diskretion-ghostwriting /blog/gwriters-diskretion-kunden
+Redirect 301 /faq/formatvorgaben /faq
