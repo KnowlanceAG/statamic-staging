@@ -955,7 +955,189 @@ replicator:
                                         type: textAlign
                                         attrs:
                                           align: start
-                                    text: "\_in nahezu allen akademischen Fachbereichen an."
+                                    text: "\_in nahezu allen akademischen "
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen
+                                          target: null
+                                          rel: null
+                                    text: Fachbereichen
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ' an. Dazu zählen '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/jura
+                                          target: null
+                                          rel: null
+                                    text: Jura
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ', '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/wirtschaftswissenschaften
+                                          target: null
+                                          rel: null
+                                    text: Wirtschaftswissenschaften
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ', '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/bwl
+                                          target: null
+                                          rel: null
+                                    text: BWL
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ', '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/medizin
+                                          target: null
+                                          rel: null
+                                    text: Medizin
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ', '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/psychologie
+                                          target: null
+                                          rel: null
+                                    text: Psychologie
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ', '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/sozialwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: Sozialwissenschaften
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: ' und viele mehr.'
                               -
                                 type: paragraph
                                 content:
@@ -1006,41 +1188,15 @@ replicator:
                                     text: ' an. Wir beraten Sie gern, kostenlos und unverbindlich.'
                             active: false
                           -
-                            id: lik8j1hw
-                            headline: 'In den Jahren seit Guttenberg standen akademische Ghostwriter oft in negativem Licht. Wie gehen Sie damit um?'
+                            id: lik8r0zd
+                            headline: 'Wer wendet sich durchschnittlich am häufigsten an GWriters?'
                             accordion_content:
                               -
                                 type: paragraph
                                 content:
                                   -
                                     type: text
-                                    text: 'Durch '
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriting/guttenberg-ghostwriter
-                                          target: _blank
-                                          rel: 'noopener noreferrer'
-                                    text: Guttenberg
-                                  -
-                                    type: text
-                                    text: ', andere bekannte politische Plagiatsaffären und die anschließenden Debatten wurde die Öffentlichkeit, merkwürdigerweise, erst auf das Phänomen "akademisches Ghostwriting" aufmerksam. Allerdings kann man nicht oft genug sagen, dass es sich bei Guttenberg, Schavan, etc. um die Aufdeckung umfangreicher Plagiieren, also den Raub fremden geistigen Eigentums, handelte und nicht um die Erstellung dieser Doktorarbeiten durch Dritte! Zugegebenermaßen wurde GWriters aber aufgrund glücklichen Timings durch verschiedene '
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /presse/page/1
-                                          target: null
-                                          rel: null
-                                    text: 'Beiträge in den Medien'
-                                  -
-                                    type: text
-                                    text: ' während dieser Zeit schnell als Anbieter von seriösem Ghostwriting bekannt und hat damit von diesen Fällen profitiert. Von negativen Auswirkungen durch den "Fall Guttenberg" können wir daher nicht berichten.'
+                                    text: 'Den überwiegenden Teil unserer Kunden bilden Studenten. Darüber hinaus betreuen wir vom Großkonzern über Verlage, Lehrinstitute oder Betreiber von Webseiten mit wissenschaftlichem Fokus eine bunt gemischte Kundengruppe.'
                             active: false
                           -
                             id: lik8jd0b
@@ -1096,15 +1252,41 @@ replicator:
                                     text: ', wer immer diese auch sein mögen.'
                             active: false
                           -
-                            id: lik8r0zd
-                            headline: 'Wer wendet sich durchschnittlich am häufigsten an GWriters?'
+                            id: lik8j1hw
+                            headline: 'In den Jahren seit Guttenberg standen akademische Ghostwriter oft in negativem Licht. Wie gehen Sie damit um?'
                             accordion_content:
                               -
                                 type: paragraph
                                 content:
                                   -
                                     type: text
-                                    text: 'Den überwiegenden Teil unserer Kunden bilden Studenten. Darüber hinaus betreuen wir vom Großkonzern über Verlage, Lehrinstitute oder Betreiber von Webseiten mit wissenschaftlichem Fokus eine bunt gemischte Kundengruppe.'
+                                    text: 'Durch '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriting/guttenberg-ghostwriter
+                                          target: _blank
+                                          rel: 'noopener noreferrer'
+                                    text: Guttenberg
+                                  -
+                                    type: text
+                                    text: ', andere bekannte politische Plagiatsaffären und die anschließenden Debatten wurde die Öffentlichkeit, merkwürdigerweise, erst auf das Phänomen "akademisches Ghostwriting" aufmerksam. Allerdings kann man nicht oft genug sagen, dass es sich bei Guttenberg, Schavan, etc. um die Aufdeckung umfangreicher Plagiieren, also den Raub fremden geistigen Eigentums, handelte und nicht um die Erstellung dieser Doktorarbeiten durch Dritte! Zugegebenermaßen wurde GWriters aber aufgrund glücklichen Timings durch verschiedene '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /presse/page/1
+                                          target: null
+                                          rel: null
+                                    text: 'Beiträge in den Medien'
+                                  -
+                                    type: text
+                                    text: ' während dieser Zeit schnell als Anbieter von seriösem Ghostwriting bekannt und hat damit von diesen Fällen profitiert. Von negativen Auswirkungen durch den "Fall Guttenberg" können wir daher nicht berichten.'
                             active: false
                       -
                         id: lij59kok
@@ -1220,6 +1402,76 @@ replicator:
                                     text: .
                             active: false
                           -
+                            id: lik9i7op
+                            headline: 'Wie lange braucht ein Autor für das Ghostwriting eines wissenschaftlichen Textes?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: "Auch bei kurzfristigen Aufträgen haben wir die Möglichkeit schnell zu reagieren. Teilen Sie uns dies einfach in der\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /anfrage
+                                          target: null
+                                          rel: null
+                                    text: Anfrage
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_mit konkretem Datum mit."
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Die Dauer der Bearbeitung hängt u.a. vom Umfang und der thematischen Tiefe einer Ausarbeitung ab. Fakt ist, dass die Qualität der Ausarbeitung unter zu knappen Fristen leiden kann. Auch wenn eine schnellere Bearbeitung von unserer Seite möglich ist, sollte für einen wissenschaftlichen Text, der z. B. etwa 60 Seiten umfasst, eine Bearbeitungszeit von mindestens 30 Tagen eingeplant werden.'
+                            active: false
+                          -
                             id: lik8wc2z
                             headline: 'Habe ich direkten Kontakt zu meinem Ghostwriter oder Bearbeiter?'
                             accordion_content:
@@ -1313,6 +1565,86 @@ replicator:
                                         attrs:
                                           align: start
                                     text: "\_her. In diesem Fall erheben wir eine Vermittlungsprovision und Sie handeln den Preis mit dem Autor selbst aus."
+                            active: false
+                          -
+                            id: lik95emz
+                            headline: 'Welche Texte kann ich durch GWriters schreiben lassen?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: "Sie können bei uns wissenschaftliche Texte aller Art anfordern.\_Zu unseren Kunden gehören kleinere Websites, mittelständische Unternehmen, Unternehmensberatungen und natürlich Privatleute."
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: "Die Themenfelder und Kunden auf unserer Plattform sind äußerst vielseitig. Zu den wissenschaftlich fundierten Texten gehören neben kleineren Mustervorlagen auch größere Manuskripte im Bereich von mehreren Hundert Seiten sowie statistische oder empirische Auswertungen. Weiterhin verfassen unsere Autoren für Sie auch gerne Dokumente zur Prüfungsvorbereitung auf ganze Themengebiete. Auch Skripte und Präsentationen für Sie als Dozenten oder als Unternehmen sind möglich. Genauso wie wissenschaftlich fundierter Content für Ihre Website oder Sach- und Fachbücher. Im Grunde finden Sie über unsere Plattform immer den richtigen Autor, bzw. Bearbeiter für alle Arten von Dokumenten mit wissenschaftlichem Hintergrund für Ihre individuellen Anforderungen. Für einen genauen Überblick, besuchen Sie die Übersicht über\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'unsere Leistungen'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: .
+                            active: false
+                          -
+                            id: lik90mwl
+                            headline: 'Bietet GWriters Korrektur- oder Lektoratsdienste bzw. Überarbeitungen meiner wissenschaftlichen Arbeiten an?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                    text: 'Ja, durch unsere große Zahl an akademischen Autoren & Bearbeitern können wir Ihnen auch Korrektur- & Lektoratsdienste sowie Überarbeitungen anbieten.'
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: "Durch den großen Erfahrungsschatz unserer Autoren beim Verfassen von wissenschaftlichen Arbeiten können wir Ihnen natürlich auch (Teil-)überarbeitungen, Übersetzungen sowie Leistungen vom schlichten\_Korrektorat\_bis hin zum\_Lektorat\_Ihrer\_Hausarbeit,\_Seminararbeit,\_Bachelorarbeit,\_Master-Thesis,\_Diplomarbeit\_usw. anbieten. Unser Team ist dafür besonders geeignet, da wir Ihnen so nicht nur sprachlich versierte, sondern auch themenfokussierte Mitarbeiter bieten. Nähere Informationen zu all unseren Korrekturdienstleistungen können Sie auch unserer Leistungsübersicht entnehmen."
                             active: false
                           -
                             id: lik8xnf4
@@ -1496,313 +1828,6 @@ replicator:
                                         attrs:
                                           align: start
                                     text: .
-                            active: false
-                          -
-                            id: lik90mwl
-                            headline: 'Bietet GWriters Korrektur- oder Lektoratsdienste bzw. Überarbeitungen meiner wissenschaftlichen Arbeiten an?'
-                            accordion_content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: 'Ja, durch unsere große Zahl an akademischen Autoren & Bearbeitern können wir Ihnen auch Korrektur- & Lektoratsdienste sowie Überarbeitungen anbieten.'
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: "Durch den großen Erfahrungsschatz unserer Autoren beim Verfassen von wissenschaftlichen Arbeiten können wir Ihnen natürlich auch (Teil-)überarbeitungen, Übersetzungen sowie Leistungen vom schlichten\_Korrektorat\_bis hin zum\_Lektorat\_Ihrer\_Hausarbeit,\_Seminararbeit,\_Bachelorarbeit,\_Master-Thesis,\_Diplomarbeit\_usw. anbieten. Unser Team ist dafür besonders geeignet, da wir Ihnen so nicht nur sprachlich versierte, sondern auch themenfokussierte Mitarbeiter bieten. Nähere Informationen zu all unseren Korrekturdienstleistungen können Sie auch unserer Leistungsübersicht entnehmen."
-                            active: false
-                          -
-                            id: lik932wn
-                            headline: 'Erstellt GWriters auch hochwertigen Content für meine Website / meinen Blog?'
-                            accordion_content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: 'Ja. Durch GWriters finden Sie natürlich auch Autoren, welche mit viel Expertise und einer hohen Motivation an der Erstellung von Web-Content mitwirken. Dabei grenzt sich GWriters allerdings von den klassischen “SEO-Content-Schmieden” ab.'
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: 'Unsere Autoren haben alle einen akademischen Hintergrund und sind Spezialisten in Ihrem Fachbereich. Das bedeutet für Sie, dass Sie Content höchster Qualität erhalten. Unser Fokus liegt dabei naturgemäß auf Texten mit wissenschaftlichem Hintergrund, also z.B. für Arztpraxen, Anwaltskanzleien, Unternehmenswebsites und –'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /blog/
-                                          target: null
-                                          rel: null
-                                    text: blogs
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                    text: "\_und für jegliche andere Webpräsenzen mit wissenschaftlichem Anspruch."
-                            active: false
-                          -
-                            id: lik947kh
-                            headline: 'Wie kann GWriters meinem Unternehmen helfen?'
-                            accordion_content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: 'Durch den Zugriff auf einen ständig wachsenden Pool mit derzeit bereits über 3000 Autoren & Bearbeitern mit unterschiedlichen Spezialisierungen und aus verschiedenen Fachrichtungen, kann GWriters auch Ihr Unternehmen mit der Übernahme von Teilaufgaben unterstützen.'
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: 'Bei GWriters finden Sie den richtigen Autor beispielsweise für Marktanalysen, ansprechende Unternehmenspräsentationen, Unternehmensbücher, die Erstellung von individuellen Marketingkonzepten, u.v.m.'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: "Die Autoren zeichnen sich dabei aus durch Ihre Unabhängigkeit von Dritten und Ihre Objektivität. Weiterhin bringen sie die richtigen Kompetenzen mit und es werden nur Autoren ausgewählt, welche auf dem angeforderten Themengebiet auch die entsprechende Expertise aufweisen. Ein letzter wichtiger Punkt ist die Vertraulichkeit. Keine internen Informationen über\_"
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /das-unternehmen
-                                          target: null
-                                          rel: null
-                                    text: 'das Unternehmen'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                    text: "\_oder Informationen, welche im Zuge der Erstellung der Ausarbeitung gewonnen werden, werden an Dritte weitergegeben. Die kompletten Nutzungsrechte der wissenschaftlich fundierten Ausarbeitung gehen an das Unternehmen über."
-                            active: false
-                          -
-                            id: lik95emz
-                            headline: 'Welche Texte kann ich durch GWriters schreiben lassen?'
-                            accordion_content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: "Sie können bei uns wissenschaftliche Texte aller Art anfordern.\_Zu unseren Kunden gehören kleinere Websites, mittelständische Unternehmen, Unternehmensberatungen und natürlich Privatleute."
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: "Die Themenfelder und Kunden auf unserer Plattform sind äußerst vielseitig. Zu den wissenschaftlich fundierten Texten gehören neben kleineren Mustervorlagen auch größere Manuskripte im Bereich von mehreren Hundert Seiten sowie statistische oder empirische Auswertungen. Weiterhin verfassen unsere Autoren für Sie auch gerne Dokumente zur Prüfungsvorbereitung auf ganze Themengebiete. Auch Skripte und Präsentationen für Sie als Dozenten oder als Unternehmen sind möglich. Genauso wie wissenschaftlich fundierter Content für Ihre Website oder Sach- und Fachbücher. Im Grunde finden Sie über unsere Plattform immer den richtigen Autor, bzw. Bearbeiter für alle Arten von Dokumenten mit wissenschaftlichem Hintergrund für Ihre individuellen Anforderungen. Für einen genauen Überblick, besuchen Sie die Übersicht über\_"
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: 'unsere Leistungen'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                    text: .
-                            active: false
-                          -
-                            id: lik9i7op
-                            headline: 'Wie lange braucht ein Autor zur Redaktion eines wissenschaftlichen Textes?'
-                            accordion_content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: "Auch bei kurzfristigen Aufträgen haben wir die Möglichkeit schnell zu reagieren. Teilen Sie uns dies einfach in der\_"
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /anfrage
-                                          target: null
-                                          rel: null
-                                    text: Anfrage
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                    text: "\_mit konkretem Datum mit."
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                                          hex: '#000'
-                                    text: 'Die Dauer der Bearbeitung hängt u.a. vom Umfang und der thematischen Tiefe einer Ausarbeitung ab. Fakt ist, dass die Qualität der Ausarbeitung unter zu knappen Fristen leiden kann. Auch wenn eine schnellere Bearbeitung von unserer Seite möglich ist, sollte für einen wissenschaftlichen Text, der z. B. etwa 60 Seiten umfasst, eine Bearbeitungszeit von mindestens 30 Tagen eingeplant werden.'
                             active: false
                           -
                             id: lik9jpbm
@@ -2140,10 +2165,187 @@ replicator:
                                                   align: start
                                             text: 'Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
                             active: false
+                          -
+                            id: lik947kh
+                            headline: 'Wie kann GWriters meinem Unternehmen helfen?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Durch den Zugriff auf einen ständig wachsenden Pool mit derzeit bereits über 3000 Autoren & Bearbeitern mit unterschiedlichen Spezialisierungen und aus verschiedenen Fachrichtungen, kann GWriters auch Ihr Unternehmen mit der Übernahme von Teilaufgaben unterstützen.'
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Bei GWriters finden Sie den richtigen Autor beispielsweise für Marktanalysen, ansprechende Unternehmenspräsentationen, Unternehmensbücher, die Erstellung von individuellen Marketingkonzepten, u.v.m.'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: "Die Autoren zeichnen sich dabei aus durch Ihre Unabhängigkeit von Dritten und Ihre Objektivität. Weiterhin bringen sie die richtigen Kompetenzen mit und es werden nur Autoren ausgewählt, welche auf dem angeforderten Themengebiet auch die entsprechende Expertise aufweisen. Ein letzter wichtiger Punkt ist die Vertraulichkeit. Keine internen Informationen über\_"
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /das-unternehmen
+                                          target: null
+                                          rel: null
+                                    text: 'das Unternehmen'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_oder Informationen, welche im Zuge der Erstellung der Ausarbeitung gewonnen werden, werden an Dritte weitergegeben. Die kompletten Nutzungsrechte der wissenschaftlich fundierten Ausarbeitung gehen an das Unternehmen über."
+                            active: false
+                          -
+                            id: lik932wn
+                            headline: 'Erstellt GWriters auch hochwertigen Content für meine Website / meinen Blog?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Ja. Durch GWriters finden Sie natürlich auch Autoren, welche mit viel Expertise und einer hohen Motivation an der Erstellung von Web-Content mitwirken. Dabei grenzt sich GWriters allerdings von den klassischen “SEO-Content-Schmieden” ab.'
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Unsere Autoren haben alle einen akademischen Hintergrund und sind Spezialisten in Ihrem Fachbereich. Das bedeutet für Sie, dass Sie Content höchster Qualität erhalten. Unser Fokus liegt dabei naturgemäß auf Texten mit wissenschaftlichem Hintergrund, also z.B. für Arztpraxen, Anwaltskanzleien, Unternehmenswebsites und –'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /blog/
+                                          target: null
+                                          rel: null
+                                    text: blogs
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                    text: "\_und für jegliche andere Webpräsenzen mit wissenschaftlichem Anspruch."
+                            active: false
                       -
                         id: lij5kd3y
                         tab_headline: 'Qualität, Preise & Diskretion '
                         items:
+                          -
+                            id: likbqq9z
+                            headline: 'Nutzt GWriters AI bzw. ChatGPT im Schreibprozess?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: bold
+                                    text: 'Nein. Weder für die Texterstellung, noch für die Recherche verwenden wir AI.'
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: 'Die Gründe hierfür sind klar: Im akademischen Bereich ist die Bedeutung von Originalität und Authentizität von höchster Bedeutung. Akademisches Ghostwriting erfordert ein hohes Maß an Fachwissen und individueller Beiträge. In einem Umfeld, in dem Originalität und ein persönlicher Beitrag zum wissenschaftlichen Diskurs im Vordergrund stehen, ist es unerlässlich, dass Arbeiten nicht von künstlicher Intelligenz erstellt werden.'
+                            active: false
                           -
                             id: lik8sh9x
                             headline: 'Wie hoch sind die Preise bei GWriters?'
@@ -2559,7 +2761,7 @@ replicator:
     type: add_section
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1686055645
+updated_at: 1686059715
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2576,6 +2778,13 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true
 teaser:
+  -
+    type: set
+    attrs:
+      id: likceuio
+      values:
+        type: spacer
+        padding-y: 15
   -
     type: heading
     attrs:
@@ -2596,4 +2805,99 @@ teaser:
               color: orange-500
               hex: '#ff6606'
         text: 'Hilfe & FAQ'
+  -
+    type: set
+    attrs:
+      id: zwnaYou3
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: 2FC4RyrC
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: wNkymqh9
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp;amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: Awfm0X4k
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp;amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: 0f6BxR0G
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp;amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp; finaler Form.'
+          -
+            id: GQNX6eXT
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: 3kZE4d3D
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: 2V4ZjCGH
+      values:
+        type: button
+        button_link: /anfrage
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: set
+    attrs:
+      id: WyfqrGif
+      values:
+        type: spacer
+        padding-y: 20
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#ff6606!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 ---
