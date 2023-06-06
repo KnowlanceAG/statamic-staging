@@ -2,7 +2,7 @@
 id: cba20f34-32b1-472a-b3d9-03aca1df4a07
 published: false
 blueprint: pages
-title: 'Hilfe & FAQ zum Ghostwriting und Ghostwritern'
+title: 'Hilfe & FAQ zum Ghostwriting und Ghostwritern (alt)'
 replicator:
   -
     id: FLCjONVG
@@ -1412,7 +1412,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1686087777
+updated_at: 1686087920
 template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false
