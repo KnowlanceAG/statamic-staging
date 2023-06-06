@@ -1,9 +1,11 @@
 ---
 id: c9dec921-4bd2-48b7-bd24-51ef0c005fd5
+published: false
 blueprint: pages
 title: 'Warum sollte ich GWriters nutzen um einen passenden Ghostwriter oder Bearbeiter zu finden?'
 replicator:
   -
+    id: 4JEkrT3O
     bard:
       -
         type: heading
@@ -26,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: W30nXavo
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: 16
       -
         type: paragraph
       -
@@ -246,8 +249,8 @@ replicator:
     type: editor
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655715469
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1686087796
 page_title: 'Warum genau GWriters nutzen? Vorteile unserer Ghostwriting Agentur'
 template: without-teaser-with-sidebar
 meta_title: 'Warum genau GWriters nutzen? Vorteile unserer Ghostwriting Agentur'
@@ -258,8 +261,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Warum genau GWriters nutzen? Vorteile unserer Ghostwriting Agentur'
 og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
