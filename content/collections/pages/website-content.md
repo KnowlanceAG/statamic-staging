@@ -1,9 +1,11 @@
 ---
 id: 8ce56e7c-7e52-478b-bdc4-0408abcc8fb5
+published: false
 blueprint: pages
 title: 'Erstellt GWriters auch hochwertigen Content für meine Website / meinen Blog?'
 replicator:
   -
+    id: oGJHPdXK
     bard:
       -
         type: heading
@@ -26,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: MAgqlqnT
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: 16
       -
         type: paragraph
       -
@@ -121,7 +124,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638884303
+updated_at: 1686087784
 meta_title: 'Erstellung von hochwertigen Website Content? • GWriters'
 meta_description: 'Sie benötigen qualitativen und professionellen Inhalt für Ihre Branche und Webseite? Das akademische Expertenteam von GWriters.de steht bereit!'
 use_meta_keywords: false
@@ -130,12 +133,11 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Erstellung von hochwertigen Website Content? • GWriters'
 template: without-teaser-with-sidebar
 og_title: 'Erstellung von hochwertigen Website Content? • GWriters'
 og_description: 'Sie benötigen qualitativen und professionellen Inhalt für Ihre Branche und Webseite? Das akademische Expertenteam von GWriters.de steht bereit!'
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
+sitemap_active: true
 ---
