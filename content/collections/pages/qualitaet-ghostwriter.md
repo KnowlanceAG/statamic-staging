@@ -1,8 +1,11 @@
 ---
 id: 07b6f956-0fb6-451b-a021-1528f4ccebdc
+published: false
+blueprint: pages
 title: 'Wie wird die Qualität bei GWriters sichergestellt?'
 replicator:
   -
+    id: 5uaMG8Dm
     bard:
       -
         type: heading
@@ -25,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: obEHRzg5
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: 16
       -
         type: paragraph
       -
@@ -232,8 +236,8 @@ replicator:
     type: editor
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623331210
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1686087818
 page_title: 'Wie wird die hohe Qualität bei GWriters sichergestellt?'
 template: without-teaser-with-sidebar
 meta_title: 'Wie wird die hohe Qualität bei GWriters sichergestellt?'
@@ -244,10 +248,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Wie wird die hohe Qualität bei GWriters sichergestellt?'
 og_description: 'Wie sich GWriters.de von dubiosen und umprofessionellen Ghostwritern und Agenturen unterscheidet und die hohe Qualität sicherstellt, erfahren Sie hier.'
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
+sitemap_active: true
 ---
