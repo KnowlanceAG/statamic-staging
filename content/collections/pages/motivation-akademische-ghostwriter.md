@@ -1,9 +1,11 @@
 ---
 id: 45bfe28d-2dd6-42f1-b5b7-227bcab8c5aa
+published: false
 blueprint: pages
 title: 'Welche Motivation haben akademische Ghostwriter?'
 replicator:
   -
+    id: F55MF5ym
     bard:
       -
         type: heading
@@ -26,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: nEAY5VfD
           values:
             type: spacer
-            padding-y: '20'
+            padding-y: 20
       -
         type: paragraph
       -
@@ -169,8 +172,8 @@ replicator:
 page_title: 'Welche Motivation haben akademische Ghostwriter? • GWriters'
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655647794
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1686087798
 meta_title: 'Welche Motivation haben akademische Ghostwriter? • GWriters'
 meta_description: 'Welche Motivation haben akademische Ghostwriter? Alle Antworten von der Ghostwriter Agentur GWriters.de.'
 use_meta_keywords: false
@@ -179,8 +182,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Welche Motivation haben akademische Ghostwriter? • GWriters'
 og_description: 'Welche Motivation haben akademische Ghostwriter? Alle Antworten von der Ghostwriter Agentur GWriters.de.'
 og_image: GWriters-Logo.png
