@@ -1,9 +1,11 @@
 ---
 id: 2a6e04de-0d5a-4712-ba29-fcfe717090dd
+published: false
 blueprint: pages
 title: 'Können Ihre Freelancer auch Ausarbeitungen auf Englisch schreiben?'
 replicator:
   -
+    id: OUdBpxpu
     bard:
       -
         type: heading
@@ -26,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: ssLOq2T5
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: 16
       -
         type: paragraph
       -
@@ -206,8 +209,8 @@ replicator:
     type: editor
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655647368
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1686087791
 meta_title: 'Habt Ihr Autoren für Ausarbeitungen auf Englisch? • GWriters'
 meta_description: 'Viele der GWriters.de Freelancer, ob Autoren, Lektoren, Korrektoren, Übersetzer oder Ghostwriter schreiben und publizieren regelmäßig in englischer Sprache.'
 use_meta_keywords: false
@@ -216,8 +219,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: without-teaser-with-sidebar
 og_title: 'Habt Ihr Autoren für Ausarbeitungen auf Englisch? • GWriters'
 og_description: 'Viele der GWriters.de Freelancer, ob Autoren, Lektoren, Korrektoren, Übersetzer oder Ghostwriter schreiben und publizieren regelmäßig in englischer Sprache.'
