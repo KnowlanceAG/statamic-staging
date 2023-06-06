@@ -1,8 +1,11 @@
 ---
 id: d1ec5521-c661-4be4-9f8e-01eb8a5d4d7c
+published: false
+blueprint: pages
 title: 'Wie lange braucht ein Autor zur Redaktion eines wissenschaftlichen Textes?'
 replicator:
   -
+    id: 8xPTmT4P
     bard:
       -
         type: heading
@@ -25,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: S6PDlvvm
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: 16
       -
         type: paragraph
       -
@@ -123,8 +127,8 @@ replicator:
     type: editor
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623332080
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1686087813
 page_title: 'Wie lange braucht ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
 meta_title: 'Wie lange braucht ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
 meta_description: 'Erfahren Sie wie lange ein Ghostwriter bei der Ghostwriting Agentur GWriters.de für Ihre akademische Arbeit benötigt.'
@@ -134,11 +138,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: without-teaser-with-sidebar
 og_title: 'Wie lange braucht ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
 og_description: 'Erfahren Sie wie lange ein Ghostwriter bei der Ghostwriting Agentur GWriters.de für Ihre akademische Arbeit benötigt.'
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
+sitemap_active: true
 ---
