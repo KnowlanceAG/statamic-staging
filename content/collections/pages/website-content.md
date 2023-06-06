@@ -124,7 +124,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1686087784
+updated_at: 1686087856
 meta_title: 'Erstellung von hochwertigen Website Content? • GWriters'
 meta_description: 'Sie benötigen qualitativen und professionellen Inhalt für Ihre Branche und Webseite? Das akademische Expertenteam von GWriters.de steht bereit!'
 use_meta_keywords: false
