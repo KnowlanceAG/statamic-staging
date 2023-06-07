@@ -32,6 +32,9 @@ src: local(''),
 :root {
   --tiny-slider-cutoff-color: #fff;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-display: swap;
   font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
@@ -65,7 +68,7 @@ h5 {
 }
 
 h1 {
-  @apply font-bold text-xl lg:text-2xl lg:text-4xl text-gray-550;
+  @apply text-xl font-bold lg:text-2xl lg:text-4xl text-gray-550;
 }
 
 h2 {
@@ -89,7 +92,7 @@ strong {
 }
 
 p {
-  @apply mb-2 lg:mb-4 text-sm text-gray-550;
+  @apply mb-2 text-sm lg:mb-4 text-gray-550;
   line-height: 28px;
   &.info-text-headline {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
@@ -124,7 +127,9 @@ ul,
 ol {
   @apply mb-4;
 }
-
+.anchor-target {
+  scroll-margin-top: 160px;
+}
 a.arrow {
   position: relative;
 }
@@ -143,14 +148,14 @@ a.arrow::after {
 
 input,
 textarea {
-  @apply p-2 w-full border border-gray-300 bg-white text-sm focus:outline-none;
+  @apply w-full p-2 text-sm bg-white border border-gray-300 focus:outline-none;
 }
 
 input[type='file'] {
 }
 
 select {
-  @apply p-2 py-3 w-full border border-gray-300 bg-white text-sm focus:outline-none;
+  @apply w-full p-2 py-3 text-sm bg-white border border-gray-300 focus:outline-none;
   -moz-appearance: none;
 
   option {
@@ -159,7 +164,7 @@ select {
 }
 
 table {
-  @apply my-8 w-full min-w-full overflow-x-auto max-w-max block md:table;
+  @apply block w-full min-w-full my-8 overflow-x-auto max-w-max md:table;
 
   tbody {
     @apply table-auto;
@@ -176,7 +181,7 @@ table {
 
       th,
       td {
-        @apply text-left px-3 py-2 border-t border-gray-400;
+        @apply px-3 py-2 text-left border-t border-gray-400;
       }
 
       th {
@@ -223,7 +228,7 @@ table {
   font-size: 15px;
 }
 .submenuopen {
-  @apply fixed h-screen overflow-hidden z-10;
+  @apply fixed z-10 h-screen overflow-hidden;
   .dropdown {
     @apply text-orange-500;
   }
@@ -234,13 +239,13 @@ table {
   }
 }
 .subitem {
-  @apply opacity-0 absolute left-full;
+  @apply absolute opacity-0 left-full;
   &.active {
     @apply opacity-100 left-1/4;
   }
 }
 .lvl {
-  @apply h-auto max-h-0 overflow-hidden transition-all;
+  @apply h-auto overflow-hidden transition-all max-h-0;
   &.open {
     max-height: 10000px;
   }
@@ -510,10 +515,10 @@ body.iframe {
   }
 
   .link-list-body {
-    @apply opacity-0 transition-all duration-100 hidden;
+    @apply hidden transition-all duration-100 opacity-0;
 
     &.active {
-      @apply opacity-100 duration-100 block;
+      @apply block duration-100 opacity-100;
     }
   }
 }
@@ -598,24 +603,24 @@ body.ch {
   }
 }
 .teaser-tooltip {
-  @apply absolute opacity-0 top-full left-4 right-0 mb-2 transition-opacity duration-200;
+  @apply absolute right-0 mb-2 transition-opacity duration-200 opacity-0 top-full left-4;
 }
 
 .tooltip {
-  @apply absolute opacity-0 bottom-full right-0 mb-2 transition-opacity;
+  @apply absolute right-0 mb-2 transition-opacity opacity-0 bottom-full;
 }
 
 .has-tooltip:hover .tooltip {
-  @apply opacity-90 z-50;
+  @apply z-50 opacity-90;
 }
 
 .spinner {
-  @apply text-center mx-auto;
+  @apply mx-auto text-center;
   width: 70px;
 }
 
 .spinner > div {
-  @apply bg-white inline-block rounded-full;
+  @apply inline-block bg-white rounded-full;
   width: 18px;
   height: 18px;
   -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
