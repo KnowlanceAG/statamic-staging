@@ -33,7 +33,7 @@ src: local(''),
   --tiny-slider-cutoff-color: #fff;
 }
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 body {
   font-display: swap;
@@ -126,9 +126,6 @@ blockquote {
 ul,
 ol {
   @apply mb-4;
-}
-.anchor-target {
-  scroll-margin-top: 160px;
 }
 a.arrow {
   position: relative;

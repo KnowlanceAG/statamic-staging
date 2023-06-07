@@ -2,6 +2,10 @@ import 'alpinejs'
 import './components/cookieconsent/dist/cookieconsent.js'
 import { tns } from "tiny-slider"
 
+window.__forceSmoothScrollPolyfill__ = true;
+import smoothscroll from 'smoothscroll-polyfill'
+smoothscroll.polyfill();
+
 // utm consts
   const utmGraceMs = 259200000 // 72 hours
   const utmSearchKeys = [
@@ -409,6 +413,26 @@ if (document.querySelector('.expert-slider')) {
   })
 }
 
+const scrollToHash = (hash) => {
+  const target = document.querySelector(`[name="${hash.slice(1)}"]`)
+  if (!target) return
+  window.scroll({top: target.offsetTop - 160, behavior: 'smooth'})
+  window.location.hash = hash
+}
+
+body.addEventListener('click', (ev) => {
+  if(ev.target.localName === 'a' && ev.target.hash) {
+    ev.preventDefault()
+    scrollToHash(ev.target.hash)
+  }
+})
+
+const handleWindowScroll = () => {
+  if (window.location.hash) {
+    scrollToHash(window.location.hash)
+  }
+}
+
 /**
  * Add utm data to localStorage #14116
  */
@@ -450,6 +474,7 @@ const ready = callback => {
 }
 
 ready(() => {
+  handleWindowScroll()
   handleUTM()
   handleMenuScroll()
   renderContactLists()
