@@ -1,9 +1,11 @@
 ---
 id: 574c5411-bb80-4e7a-aebe-43560437d8e9
+published: false
 blueprint: pages
 title: 'Bietet GWriters Korrektur- oder Lektoratsdienste bzw. Überarbeitungen meiner wissenschaftlichen Arbeiten an?'
 replicator:
   -
+    id: d5fitTKJ
     bard:
       -
         type: heading
@@ -26,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: Ajb9hz4W
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: 16
       -
         type: paragraph
       -
@@ -287,8 +290,8 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655647768
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1686087839
 page_title: 'Bietet GWriters Korrektur-Dienstleistungen an? • GWriters'
 meta_title: 'Bietet GWriters Korrektur-Dienstleistungen an? • GWriters'
 meta_description: 'Übersetzung, Korrektorat und Lektorat Ihrer Hausarbeit, Bachelorarbeit, Masterarbeit oder Doktorarbeit erhalten Sie diskret & qualitativ von GWriters.de.'
@@ -298,8 +301,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Bietet GWriters Korrektur-Dienstleistungen an? • GWriters'
 og_description: 'Übersetzung, Korrektorat und Lektorat Ihrer Hausarbeit, Bachelorarbeit, Masterarbeit oder Doktorarbeit erhalten Sie diskret & qualitativ von GWriters.de.'
 og_image: GWriters-Logo.png

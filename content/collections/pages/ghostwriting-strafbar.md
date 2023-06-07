@@ -1,9 +1,11 @@
 ---
 id: 75f1b1f7-4160-4132-b809-cf8ecfb77237
+published: false
 blueprint: pages
 title: 'Ist Ghostwriting strafbar?'
 replicator:
   -
+    id: fqMHWXyZ
     bard:
       -
         type: heading
@@ -26,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: vzqH9DVi
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: 16
       -
         type: paragraph
       -
@@ -311,8 +314,8 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653400316
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1686087867
 page_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_description: 'Ist Ghostwriting strafbar? Erfahren Sie alles dazu im Artikel und auf GWriters.de - Ihrer Ghostwriter Agentur.'
@@ -322,8 +325,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 og_description: 'Ist Ghostwriting strafbar? Erfahren Sie alles dazu im Artikel und auf GWriters.de - Ihrer Ghostwriter Agentur.'
 og_image: GWriters-Logo.png

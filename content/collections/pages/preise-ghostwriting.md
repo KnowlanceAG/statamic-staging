@@ -1,8 +1,11 @@
 ---
 id: ac12c5af-c26c-40e9-b472-a803395d49cf
+published: false
+blueprint: pages
 title: 'Wie hoch sind die Preise bei GWriters?'
 replicator:
   -
+    id: blABvJpq
     bard:
       -
         type: heading
@@ -25,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: 4GzLwjsk
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: 16
       -
         type: paragraph
       -
@@ -220,8 +224,8 @@ replicator:
     enabled: true
 page_title: 'Wie hoch sind die Preise bei GWriters? • GWriters'
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623330993
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1686087806
 template: without-teaser-with-sidebar
 meta_title: 'Wie hoch sind die Preise bei GWriters? • GWriters'
 meta_description: 'Preissicherheit bei GWriters.de: Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
@@ -231,10 +235,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Wie hoch sind die Preise bei GWriters? • GWriters'
 og_description: 'Preissicherheit bei GWriters.de: Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
+sitemap_active: true
 ---

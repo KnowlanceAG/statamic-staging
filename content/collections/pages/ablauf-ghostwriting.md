@@ -1,5 +1,6 @@
 ---
 id: 41fcc8f0-ff27-4b3b-b8d6-49da94dab23f
+published: false
 blueprint: pages
 title: 'Wie ist der übliche Ablauf bei einem redaktionellen Auftrag?'
 replicator:
@@ -166,7 +167,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670884446
+updated_at: 1686087808
 page_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'
 template: without-teaser-with-sidebar
 meta_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'

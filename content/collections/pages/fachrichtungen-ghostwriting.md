@@ -1,8 +1,11 @@
 ---
 id: f327bcb5-261e-4225-9d2c-1140a9ca14e5
+published: false
+blueprint: pages
 title: 'Welche Leistungen und Fachrichtungen werden bei GWriters angeboten?'
 replicator:
   -
+    id: ajKXfCD9
     bard:
       -
         type: heading
@@ -25,9 +28,10 @@ replicator:
       -
         type: set
         attrs:
+          id: 8Ip2n3bB
           values:
             type: spacer
-            padding-y: '25'
+            padding-y: 25
       -
         type: paragraph
       -
@@ -310,8 +314,8 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623331101
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1686087801
 page_title: 'Welche Fachrichtungen werden bei GWriters angeboten? • GWriters'
 meta_title: 'Welche Fachrichtungen werden bei GWriters angeboten? • GWriters'
 meta_description: 'Wir unterstützen Sie in nahezu allen Fachrichtungen bei Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Medizin, Jura, BWL und vieles mehr.'
@@ -321,10 +325,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Welche Fachrichtungen werden bei GWriters angeboten? • GWriters'
 og_description: 'Wir unterstützen Sie in nahezu allen Fachrichtungen bei Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Medizin, Jura, BWL und vieles mehr.'
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
+sitemap_active: true
 ---
