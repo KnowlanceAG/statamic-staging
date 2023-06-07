@@ -193,6 +193,11 @@ fields:
           fields:
             -
               import: faq_section
+        anchor_target:
+          display: 'Anker Ziel'
+          fields:
+            -
+              import: anchor_target
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
