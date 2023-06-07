@@ -4,7 +4,7 @@ published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1686149000
+updated_at: 1686149021
 replicator:
   -
     id: laieiq4o
@@ -557,7 +557,7 @@ replicator:
         content:
           -
             type: text
-            text: 2.36.0
+            text: 2.59.0
     show_as_card: false
     type: editor
     enabled: true
