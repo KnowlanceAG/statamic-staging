@@ -1200,7 +1200,7 @@ replicator:
                   id: liojgeos
                   values:
                     type: anchor_target
-                    anchor_name: Informatik
+                    anchor_name: informatik
               -
                 type: set
                 attrs:
@@ -1234,19 +1234,21 @@ replicator:
                                 text: 'Informatiker zählen zu den begehrtesten Fachkräften, aber das Studium ist anspruchsvoll und geprägt von hohen Durchfallquoten. Wir unterstützen Sie bei Ihrer Bachelorarbeit im Fach Informatik mit erfahrenen Ghostwritern.'
                         active: false
               -
-                type: paragraph
+                type: set
+                attrs:
+                  id: lioji9cm
+                  values:
+                    type: anchor_target
+                    anchor_name: elektrotechnik
               -
                 type: set
                 attrs:
-                  id: liagy375
+                  id: liojihjk
                   values:
                     type: accordion_custom_wrapper
                     items:
                       -
-                        id: liah95fi
-                        active: false
-                      -
-                        id: liah9o0l
+                        id: liojikr5
                         headline:
                           -
                             type: heading
@@ -1266,12 +1268,26 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Ghostwriter für Bachelorarbeiten im Bereich Elektrotechnik müssen über fundiertes Fachwissen in den relevanten Themengebieten verfügen und zudem Kenntnisse im Umgang mit den gängigen Tools und Programmen zur Erstellung von technischen Zeichnungen und Modellen haben. Unsere Ghostwriter erfüllen diese hohen Anforderungen und unterstützen Sie neben zudem gern bei der Planung von Laborexperimenten und Datenauswertung.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojiviz
+                  values:
+                    type: anchor_target
+                    anchor_name: bauingenieurwesen
+              -
+                type: set
+                attrs:
+                  id: liojj4po
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liaha4xq
+                        id: liojj7ys
                         headline:
                           -
                             type: heading
@@ -1291,12 +1307,26 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Für Ihre Bachelorarbeit im Bauingenieurswesen: Unsere Ghostwriter haben nicht nur praktische Erfahrung als Ingenieure, sondern auch wissenschaftliches Know-how. Sie wissen, welche Datenbanken und Recherchestrategien zu verwenden sind.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojjjgu
+                  values:
+                    type: anchor_target
+                    anchor_name: psychologie
+              -
+                type: set
+                attrs:
+                  id: liojjrpc
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liahatx1
+                        id: liojjswr
                         headline:
                           -
                             type: heading
@@ -1316,7 +1346,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'GWriters Psychologie Ghostwriter haben einen wissenschaftlichen Abschluss in dem Fachgebiet und sind zudem alle in der Psychologie tätig. Sei es als Psychotherapeut oder in Wirtschaft, Human Resources oder Unternehmensberatung. Natürlich bringen unsere Ghostwriter das komplette methodische Know How mit, das zur Erstellung wissenschaftlicher Arbeit im Fachbereich Psychologie benötigt wird.'
                           -
@@ -1328,7 +1358,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -1336,7 +1366,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Neben einer vollständigen Mustervorlage für Ihre Bachelorarbeit in Psychologie können unsere Ghostwriter Sie in folgenden Bereichen unterstützen:'
                           -
@@ -1354,7 +1384,7 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: '#333333'
+                                              color: '#000!important'
                                               hex: '#000'
                                         text: 'Quantitative und qualitative Datenanalysen'
                               -
@@ -1369,7 +1399,7 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: '#333333'
+                                              color: '#000!important'
                                               hex: '#000'
                                         text: 'Unterstützung bei der Konzeption von Forschungsprojekten'
                               -
@@ -1384,7 +1414,7 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: '#333333'
+                                              color: '#000!important'
                                               hex: '#000'
                                         text: 'Planung und Vorbereitung von Experimenten'
                               -
@@ -1399,12 +1429,26 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: '#333333'
+                                              color: '#000!important'
                                               hex: '#000'
                                         text: 'statistische Hypothesentests'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojkg0o
+                  values:
+                    type: anchor_target
+                    anchor_name: chemie
+              -
+                type: set
+                attrs:
+                  id: liojkkbf
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liahc2q4
+                        id: liojkr6d
                         headline:
                           -
                             type: heading
@@ -1424,10 +1468,24 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Das Chemiestudium ist bekannt für seine hohen Durchfallquoten und den anspruchsvollen Schwierigkeitsgrad, der zeitaufwendige Laborversuche erfordert. Gerade in bei einer naturwissenschaftlichen Bachelorarbeit wie im Bereich Chemie sind Ghostwriter eine große Hilfe. Unsere Chemie-Ghostwriter sind Experten mit viel Erfahrung in wissenschaftlicher Arbeit.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojl82d
+                  values:
+                    type: anchor_target
+                    anchor_name: sozialearbeit
+              -
+                type: set
+                attrs:
+                  id: liagy375
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
                         id: liahcjxm
                         headline:
@@ -1636,6 +1694,13 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 20
+              -
+                type: set
+                attrs:
+                  id: liojpfyh
+                  values:
+                    type: anchor_target
+                    anchor_name: zusammenarbeit
               -
                 type: heading
                 attrs:
@@ -2046,6 +2111,13 @@ replicator:
             id: 73cOWkpP
             bard:
               -
+                type: set
+                attrs:
+                  id: liojqcp2
+                  values:
+                    type: anchor_target
+                    anchor_name: kosten
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2263,6 +2335,13 @@ replicator:
           -
             id: 1nqorlsk
             bard:
+              -
+                type: set
+                attrs:
+                  id: liojqqz0
+                  values:
+                    type: anchor_target
+                    anchor_name: faq
               -
                 type: heading
                 attrs:
@@ -3143,7 +3222,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1686313422
+updated_at: 1686313893
 template: default
 use_meta_keywords: false
 no_index_page: false
