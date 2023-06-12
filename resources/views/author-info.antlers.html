@@ -21,7 +21,7 @@
           {{ /avatar }}
 
           <h2>Beiträge von {{ name }}</h2>
-          {{ collection:blog as="col" limit="{{ config:app:pagination_limit }}" paginate="true" author:contains="{id}" sort="date:desc" }}
+          {{ collection:blog as="col" limit="{config:app:pagination_limit}" paginate="true" author:contains="{id}" sort="date:desc" }}
             {{ partial src="partials/content/blogentry" }}
             {{ paginate }}
               {{ partial src="partials/pagination" handle="blog" }}

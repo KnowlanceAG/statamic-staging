@@ -1,6 +1,6 @@
 <div class="mt-10">
   {{ collections }}
-    {{ collection:presse as="col" limit="{{ config:app:pagination_limit }}" paginate="true" sort="published_at:desc" }}
+    {{ collection:presse as="col" limit="{config:app:pagination_limit}" paginate="true" sort="published_at:desc" }}
       {{ col }}
         <div class="mb-20 border-t border-gray-300 pt-10">
           {{ if post_image }}
