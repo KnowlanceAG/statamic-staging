@@ -1,9 +1,9 @@
 {{ collections }}
-  {{ collection:{{handle}} as="col" limit="{{ config:app:pagination_limit }}" paginate="true" sort="date:desc" }}
-    {{ partial src="partials/content/blogentry" }}
+{{ collection:{{handle}} as="col" limit="{config:app:pagination_limit}" paginate="true" sort="date:desc" }}
+  {{ partial src="partials/content/blogentry" }}
 
-    {{ paginate }}
-      {{ partial src="partials/pagination" }}
-    {{ /paginate }}
-  {{ /collection:{{handle}} }}
+  {{ paginate }}
+  {{ partial src="partials/pagination" }}
+  {{ /paginate }}
+{{ /collection:{{handle}} }}
 {{ /collections }}
