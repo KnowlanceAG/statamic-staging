@@ -138,6 +138,308 @@ replicator:
     id: EW79BIrE
     columns_replicator:
       -
+        id: lin1fne3
+        single_col: true
+        grid:
+          -
+            id: uDIvG2qz
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lin1iv87
+                  values:
+                    type: insert_html
+                    html: |-
+                      <p style="font-size:18px" align="center">
+                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei GWriters finden Sie exakt den <b><a href="/ghostwriter">akademischen Ghostwriter</a> für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an Fachrichtungen von Informatik über Maschinenbau bis Psychologie.
+                      </p>
+              -
+                type: set
+                attrs:
+                  id: lin1j00m
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#leistungenvorteile'
+                                  target: null
+                                  rel: null
+                            text: 'Bachelorarbeit von GWriters schreiben lassen: Leistungen & Vorteile'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#fachbereiche'
+                                  target: null
+                                  rel: null
+                            text: 'Fachbereiche Bachelorarbeiten, unter anderem'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: ':'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lin1g8nm
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: uDIvG2qz
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#bwl'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelorarbeit BWL'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#bauingenieurwesen'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelorarbeit Bauingenieurwesen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#elektrotechnik'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelorarbeit Elektrotechnik'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#maschinenbau'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelorarbeit Maschinenbau'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#informatik'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelorarbeit Informatik'
+            show_as_card: false
+          -
+            id: lin1gc06
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#jura'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelorarbeit Jura'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#psychologie'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelorarbeit Psychologie'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#chemie'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelorarbeit Chemie'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#sozialearbeit'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelorarbeit Soziale Arbeit'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
         id: 4rIl9jX9
         single_col: true
         grid:
@@ -145,15 +447,71 @@ replicator:
             id: zzOZBEUQ
             bard:
               -
-                type: set
-                attrs:
-                  id: NqHCtuUJ
-                  values:
-                    type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center">
-                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei GWriters finden Sie exakt den <b><a href="/ghostwriter">akademischen Ghostwriter</a> für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an Fachrichtungen von Informatik über Maschinenbau bis Psychologie.
-                      </p>
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#zusammenarbeit'
+                                  target: null
+                                  rel: null
+                            text: 'So läuft die Zusammenarbeit ab'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#kosten'
+                                  target: null
+                                  rel: null
+                            text: 'Mit welchen Kosten muss ich rechnen?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#faq'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Bachelor Thesis: Häufig gestellte Fragen'
             show_as_card: false
         type: row
         enabled: true
@@ -301,6 +659,13 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 15
+              -
+                type: set
+                attrs:
+                  id: lin2im05
+                  values:
+                    type: anchor_target
+                    anchor_name: leistungenvorteile
               -
                 type: heading
                 attrs:
@@ -686,6 +1051,13 @@ replicator:
                     type: spacer
                     padding-y: 15
               -
+                type: set
+                attrs:
+                  id: lin2ki33
+                  values:
+                    type: anchor_target
+                    anchor_name: fachbereiche
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -708,12 +1080,19 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: liagy375
+                  id: lin2kry5
+                  values:
+                    type: anchor_target
+                    anchor_name: bwl
+              -
+                type: set
+                attrs:
+                  id: lin2kzv9
                   values:
                     type: accordion_custom_wrapper
                     items:
                       -
-                        id: liagy4sx
+                        id: lin2l0zr
                         headline:
                           -
                             type: heading
@@ -733,12 +1112,26 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Unsere BWL-Ghostwriter sind stets up-to-date und nah an der Forschung, um die Aktualität der Themenstellungen und Inhalte zu gewährleisten. Sie haben vielfältige Erfahrung im unternehmerischen Kontext, um Forschungsergebnisse in der Praxis bewerten zu können. Die Grundlagen der Betriebswirtschaftslehre sind selbstverständlich, viele unserer Ghostwriter haben zudem in diesem Fach promoviert. Ihre Bachelorarbeit ist also in den besten Händen.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojemxf
+                  values:
+                    type: anchor_target
+                    anchor_name: jura
+              -
+                type: set
+                attrs:
+                  id: liojfe3d
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liagzrly
+                        id: liojff07
                         headline:
                           -
                             type: heading
@@ -758,12 +1151,26 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Die Anforderungen für eine professionelle Bachelorarbeit in Jura sind besonders hoch. Ghostwriter müssen nicht nur den Gutachten- und Urteilsstil beherrschen, sondern auch die aktuelle Gesetzes- und Urteilslage zum Thema kennen. Unsere Mitarbeiter haben durch ihre Tätigkeiten in Anwaltskanzleien und ihre Spezialisierungen Zugriff auf relevante Jura-Datenbanken und Publikationen. Dadurch können sie bei der Erstellung Ihrer Bachelorarbeit auf umfangreiches Wissen zurückgreifen.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojftma
+                  values:
+                    type: anchor_target
+                    anchor_name: maschinenbau
+              -
+                type: set
+                attrs:
+                  id: liojg2um
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liah0c8a
+                        id: liojg3vz
                         headline:
                           -
                             type: heading
@@ -783,12 +1190,26 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Bachelorarbeit Ghostwriter im Maschinenbau verfügen über eine tief gehende Expertise im Fachgebiet und sind immer auf dem aktuellen Stand der Forschung. Wir unterstützen Sie gern, zum Beispiel bei mathematischen Berechnungen, der Erstellung von technischen Zeichnungen oder Erstellung von Simulationen für Ihre Bachelorarbeit.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojgeos
+                  values:
+                    type: anchor_target
+                    anchor_name: informatik
+              -
+                type: set
+                attrs:
+                  id: liojgkit
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liah95fi
+                        id: liojgn2j
                         headline:
                           -
                             type: heading
@@ -808,12 +1229,26 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Informatiker zählen zu den begehrtesten Fachkräften, aber das Studium ist anspruchsvoll und geprägt von hohen Durchfallquoten. Wir unterstützen Sie bei Ihrer Bachelorarbeit im Fach Informatik mit erfahrenen Ghostwritern.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: lioji9cm
+                  values:
+                    type: anchor_target
+                    anchor_name: elektrotechnik
+              -
+                type: set
+                attrs:
+                  id: liojihjk
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liah9o0l
+                        id: liojikr5
                         headline:
                           -
                             type: heading
@@ -833,12 +1268,26 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Ghostwriter für Bachelorarbeiten im Bereich Elektrotechnik müssen über fundiertes Fachwissen in den relevanten Themengebieten verfügen und zudem Kenntnisse im Umgang mit den gängigen Tools und Programmen zur Erstellung von technischen Zeichnungen und Modellen haben. Unsere Ghostwriter erfüllen diese hohen Anforderungen und unterstützen Sie neben zudem gern bei der Planung von Laborexperimenten und Datenauswertung.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojiviz
+                  values:
+                    type: anchor_target
+                    anchor_name: bauingenieurwesen
+              -
+                type: set
+                attrs:
+                  id: liojj4po
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liaha4xq
+                        id: liojj7ys
                         headline:
                           -
                             type: heading
@@ -858,12 +1307,26 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Für Ihre Bachelorarbeit im Bauingenieurswesen: Unsere Ghostwriter haben nicht nur praktische Erfahrung als Ingenieure, sondern auch wissenschaftliches Know-how. Sie wissen, welche Datenbanken und Recherchestrategien zu verwenden sind.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojjjgu
+                  values:
+                    type: anchor_target
+                    anchor_name: psychologie
+              -
+                type: set
+                attrs:
+                  id: liojjrpc
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liahatx1
+                        id: liojjswr
                         headline:
                           -
                             type: heading
@@ -883,7 +1346,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'GWriters Psychologie Ghostwriter haben einen wissenschaftlichen Abschluss in dem Fachgebiet und sind zudem alle in der Psychologie tätig. Sei es als Psychotherapeut oder in Wirtschaft, Human Resources oder Unternehmensberatung. Natürlich bringen unsere Ghostwriter das komplette methodische Know How mit, das zur Erstellung wissenschaftlicher Arbeit im Fachbereich Psychologie benötigt wird.'
                           -
@@ -895,7 +1358,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -903,7 +1366,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Neben einer vollständigen Mustervorlage für Ihre Bachelorarbeit in Psychologie können unsere Ghostwriter Sie in folgenden Bereichen unterstützen:'
                           -
@@ -921,7 +1384,7 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: '#333333'
+                                              color: '#000!important'
                                               hex: '#000'
                                         text: 'Quantitative und qualitative Datenanalysen'
                               -
@@ -936,7 +1399,7 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: '#333333'
+                                              color: '#000!important'
                                               hex: '#000'
                                         text: 'Unterstützung bei der Konzeption von Forschungsprojekten'
                               -
@@ -951,7 +1414,7 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: '#333333'
+                                              color: '#000!important'
                                               hex: '#000'
                                         text: 'Planung und Vorbereitung von Experimenten'
                               -
@@ -966,12 +1429,26 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: '#333333'
+                                              color: '#000!important'
                                               hex: '#000'
                                         text: 'statistische Hypothesentests'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojkg0o
+                  values:
+                    type: anchor_target
+                    anchor_name: chemie
+              -
+                type: set
+                attrs:
+                  id: liojkkbf
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: liahc2q4
+                        id: liojkr6d
                         headline:
                           -
                             type: heading
@@ -991,10 +1468,24 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Das Chemiestudium ist bekannt für seine hohen Durchfallquoten und den anspruchsvollen Schwierigkeitsgrad, der zeitaufwendige Laborversuche erfordert. Gerade in bei einer naturwissenschaftlichen Bachelorarbeit wie im Bereich Chemie sind Ghostwriter eine große Hilfe. Unsere Chemie-Ghostwriter sind Experten mit viel Erfahrung in wissenschaftlicher Arbeit.'
                         active: false
+              -
+                type: set
+                attrs:
+                  id: liojl82d
+                  values:
+                    type: anchor_target
+                    anchor_name: sozialearbeit
+              -
+                type: set
+                attrs:
+                  id: liagy375
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
                         id: liahcjxm
                         headline:
@@ -1203,6 +1694,13 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 20
+              -
+                type: set
+                attrs:
+                  id: liojpfyh
+                  values:
+                    type: anchor_target
+                    anchor_name: zusammenarbeit
               -
                 type: heading
                 attrs:
@@ -1613,6 +2111,13 @@ replicator:
             id: 73cOWkpP
             bard:
               -
+                type: set
+                attrs:
+                  id: liojqcp2
+                  values:
+                    type: anchor_target
+                    anchor_name: kosten
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1830,6 +2335,13 @@ replicator:
           -
             id: 1nqorlsk
             bard:
+              -
+                type: set
+                attrs:
+                  id: liojqqz0
+                  values:
+                    type: anchor_target
+                    anchor_name: faq
               -
                 type: heading
                 attrs:
@@ -2710,7 +3222,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1686060025
+updated_at: 1686320963
 template: default
 use_meta_keywords: false
 no_index_page: false
