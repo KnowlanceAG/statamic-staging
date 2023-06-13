@@ -2839,8 +2839,8 @@ replicator:
     border: false
     type: add_section
     enabled: true
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1686088050
+updated_by: f3fd11ca-3ac3-42f4-af3a-b2c5393e92c7
+updated_at: 1686666029
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3000,7 +3000,7 @@ schema_objects: |-
       }
     },{
       "@type": "Question",
-      "name": "Was ist ein "akademischer" Ghostwriter?",
+      "name": "Was ist ein akademischer Ghostwriter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Als Ghostwriter (dt. Geisterschreiber), bezeichnet man einen Autor, der im Auftrag oder im Namen einer anderen Person schreibt. Ein sogenannter akademischer Ghostwriter spezialisiert sich dabei auf die Ausfertigung von Mustervorlagen für wissenschaftliche Arbeiten oder akademische Texte und von einem solchen Ghostwriter können sich Studenten Mustervorlagen für bspw. Seminararbeiten, Hausarbeiten, Bachelorarbeiten oder Masterarbeiten schreiben lassen. Er sollte Experte in seinem Fachbereich sein und weiterhin sollte er über ausgezeichnete Erfahrung beim Verfassen wissenschaftlicher Arbeiten verfügen."
