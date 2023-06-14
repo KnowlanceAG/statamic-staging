@@ -421,7 +421,12 @@ const scrollToHash = (hash) => {
 }
 
 body.addEventListener('click', (ev) => {
-  if(ev.target.localName === 'a' && ev.target.hash) {
+  if (!ev.target.getAttribute('href')) return
+  if (
+    ev.target.getAttribute('href').startsWith('#') &&
+    ev.target.localName === 'a' &&
+    ev.target.hash
+  ) {
     ev.preventDefault()
     scrollToHash(ev.target.hash)
   }
