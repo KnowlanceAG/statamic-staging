@@ -1,0 +1,4 @@
+title: 'AI Detect Konfiguration'
+data:
+  api_url: 'https://api.originality.ai/api/v1/scan/ai'
+  api_key: qcibx4a28zgjd39vpn7ly5e1rmtuhow0
