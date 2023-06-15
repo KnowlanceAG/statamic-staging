@@ -19,7 +19,14 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*.uscreen.net', '*.uscreen.me', 'gwriters.de', 'gwriters.ch'],
+    'allowed_origins' => [
+        'gwriters-statamic-stage.uscreen.net',
+        'gwriters-ssg-stage.uscreen.net',
+        'ssg-gwriters.uscreen.me',
+        'statamic-dynamic.gwriters.de',
+        'gwriters.de',
+        'gwriters.ch'
+    ],
 
     'allowed_origins_patterns' => [],
 
