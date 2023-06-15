@@ -415,13 +415,31 @@ if (document.querySelector('.expert-slider')) {
 
 const scrollToHash = (hash) => {
   const target = document.querySelector(`[name="${hash.slice(1)}"]`)
+  
   if (!target) return
-  window.scroll({top: target.offsetTop - 160, behavior: 'smooth'})
+  
+  let isInAccordion = target.closest('div.accordion-tab') !== null
+  let headerHeight = 160
+  
+  if ( isInAccordion ) {
+    headerHeight = 200
+    const accordionTabs = document.querySelectorAll('div.accordion-tab')
+    for (const tab of accordionTabs) {
+      tab.classList.remove('active')
+    }
+    target.closest('div.accordion-tab').classList.add('active')
+  }
+  window.scroll({top: target.offsetTop - headerHeight, behavior: 'smooth'})
   window.location.hash = hash
 }
 
 body.addEventListener('click', (ev) => {
-  if(ev.target.localName === 'a' && ev.target.hash) {
+  if (!ev.target.getAttribute('href')) return
+  if (
+    ev.target.getAttribute('href').startsWith('#') &&
+    ev.target.localName === 'a' &&
+    ev.target.hash
+  ) {
     ev.preventDefault()
     scrollToHash(ev.target.hash)
   }

@@ -2,13 +2,15 @@
   {{ items }}
     <div
       class="accordion-tab mb-4 {{ if active }}active{{ /if }}">
-      <div class="header block px-6 py-1 bg-gray-400 hover:cursor-pointer hover:text-white"
+      <div class="block px-6 py-1 bg-gray-400 header hover:cursor-pointer hover:text-white"
         data-target="#accordion-tab-{{ index }}">
         {{ headline | shortcode }}
       </div>
       <div id="accordion-tab-{{ index }}"
-        class="px-6 content overflow-hidden transition-all duration-500">
+        class="px-6 overflow-hidden transition-all duration-500 content">
         {{ accordion_content }}
+          {{ partial src="partials/content/{type}" }}
+        {{ /accordion_content }}
       </div>
     </div>
   {{ /items }}
