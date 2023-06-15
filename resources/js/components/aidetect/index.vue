@@ -39,7 +39,6 @@ export default {
     return {
       turnstileUrl: 'https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback',
       turnstileId: false,
-      idempotencyKey: null,
       turnstileResponse: false,
       text: '',
       calling: false,
@@ -47,7 +46,6 @@ export default {
       maxCharacters: 5000,
       minWordCount: 100,
       aiResult: '',
-      verified: false
       csrf: null
     }
   },
@@ -79,9 +77,6 @@ export default {
     },
     sitekey() {
       return this.parsedOptions.sitekey || false
-    },
-    verificationUrl() {
-      return this.parsedOptions.verificationUrl || false
     }
   },
   methods: {
@@ -101,8 +96,7 @@ export default {
           },
           body: JSON.stringify({
             text: this.text,
-            turnstileResponse: this.turnstileResponse,
-            idempotencyKey: this.idempotencyKey
+            turnstileResponse: this.turnstileResponse
           })
         }
         const response = await fetch(this.aiUrl, options)
@@ -120,49 +114,15 @@ export default {
         sitekey: this.sitekey,
         theme: 'light',
         callback: (response) => {
-          // this.verifyTurnstileLoadResponse(response)
           this.turnstileResponse = response
         },
         'expired-callback': this.resetTurnstile,
         'error-callback': this.handleTurnstileError
       })
     },
-    // async verifyTurnstileLoadResponse(response) {
-    //   if (
-    //     response !== null &&
-    //     response !== '' &&
-    //     this.verificationUrl
-    //   ) {
-
-    //     this.turnstileResponse = response
-    //     try {
-    //       const body = JSON.stringify({ turnstileResponse: this.turnstileResponse })
-    //       const options = {
-    //         method: 'POST',
-    //         headers: {
-    //           'Content-Type': 'application/json',
-    //         },
-    //         body
-    //       }
-    //       const response = await fetch(this.verificationUrl, options)
-    //       const result = await response.json()
-    //       console.log('turnstile result', result)
-    //       this.verified = result?.success
-    //       this.idempotencyKey = result.idempotency_key
-    //       // if (this.verified && this.turnstileId) {
-    //       //   console.log('removing turnstile now', this.turnstileId)
-    //       //   window.turnstile.remove(this.turnstileId)
-    //       // }
-    //     } catch (error) {
-    //       this.aiResult = ''
-    //       console.error('aidetect error: error calling backend', error)
-    //     }
-    //   }
-    // },
 
     resetTurnstile() {
       console.log('reset Turnstile')
-      this.verified = false
       this.turnstileResponse = false
       window.turnstile?.reset(this.turnstileId)
     },
