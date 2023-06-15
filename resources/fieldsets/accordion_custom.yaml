@@ -78,6 +78,18 @@ fields:
             icon: bard
             listable: hidden
             instructions_position: above
+            visibility: visible
+            always_save: false
+            collapse: false
+            previews: true
+            sets:
+              anchor_target:
+                display: 'Anker Ziel'
+                fields:
+                  -
+                    import: anchor_target
+            antlers: false
+            remove_empty_nodes: false
         -
           handle: active
           field:
@@ -95,3 +107,5 @@ fields:
       icon: grid
       listable: hidden
       instructions_position: above
+      visibility: visible
+      always_save: false
