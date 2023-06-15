@@ -15,11 +15,11 @@ return [
     |
     */
 
-    'paths' => ['api/*', '/!/DynamicToken/*'],
+    'paths' => ['api/*', '/!/DynamicToken/*', '/!/aidetect'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['*.uscreen.net', '*.uscreen.me', 'gwriters.de', 'gwriters.ch'],
 
     'allowed_origins_patterns' => [],
 
