@@ -80,11 +80,6 @@ class AIDetector extends Controller
             return response(json_encode(array('error' => 'unprivileged access')), 401);
         }
 
-        // @todo remove me
-        // return response()->json([
-        //     "answer" => "<b>Warnung: Dieser AI Detektor basiert auf experimenteller AI, die sich zum aktuellen Zeitpunkt noch im Entwicklungsstadium befindet. Falsch-Positve oder Falsch-Negative Testergebnisse sind daher leider noch häufig. Durch das Verwenden des Tools und die Äußerung objektiven Feedbacks helfen Sie uns, das Tool stetig zu verbessern und verlässlichere Ergebnisse zu liefern. </b><p></p><b>Text höchstwahrscheinlich durch AI erstellt</b>"
-        // ]);
-
         if (!($request->text)) {
             Log::debug('aidetect: missing text');
             return response(json_encode(array('error' => 'missing text')), 400);
@@ -113,7 +108,6 @@ class AIDetector extends Controller
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'Content-Type: application/json',
-            // 'X-OAI-API-KEY: o09w13h5daiulj4bfk2z76yq8sepvcgr'
             'X-OAI-API-KEY:' . $this->configuration['api_key']
         ));
         $response = curl_exec($ch);
@@ -150,8 +144,6 @@ class AIDetector extends Controller
         if ($result->score->ai > 0.75) $answer = $answer1;
         if (($result->score->ai < 0.5) && ($result->score->ai > 0.25)) $answer = $answer2;
         if ($result->score->ai < 0.5) $answer = $answer3;
-
-        Log::debug('Returning answer: ' . $answer);
 
         return response()->json([
             "answer" => $answer

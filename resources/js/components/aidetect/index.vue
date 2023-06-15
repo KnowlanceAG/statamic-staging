@@ -45,8 +45,7 @@ export default {
       minCharacters: 500,
       maxCharacters: 5000,
       minWordCount: 100,
-      aiResult: '',
-      csrf: null
+      aiResult: ''
     }
   },
   computed: {
@@ -69,9 +68,6 @@ export default {
       }
       return {}
     },
-    tokenUrl() {
-      return this.parsedOptions.tokenUrl || false
-    },
     aiUrl() {
       return this.parsedOptions.aiUrl || false
     },
@@ -81,7 +77,7 @@ export default {
   },
   methods: {
     async submit() {
-      if (!this.aiUrl || !this.csrf) {
+      if (!this.aiUrl) {
         console.error('aidetect error: no url provided')
         return
       }
@@ -91,8 +87,7 @@ export default {
         const options = {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json',
-            'X-CSRF-TOKEN': this.csrf
+            'Content-Type': 'application/json'
           },
           body: JSON.stringify({
             text: this.text,
@@ -135,16 +130,6 @@ export default {
     },
     handleTurnstileError(e) {
       console.error('aidetect: Turnstile error', e)
-    },
-    async updateToken() {
-      if (!this.tokenUrl) {
-        console.log('aidetect: no dynamic url')
-        return
-      }
-
-      const res = await fetch(this.tokenUrl, { headers: { 'Content-Type': 'application/json' } })
-      const body = await res.json()
-      this.csrf = body?.csrf_token
     }
   },
   async mounted() {
@@ -158,9 +143,6 @@ export default {
       this.renderTurnstile()
     }
     window.onloadTurnstileCallback = this.renderTurnstile
-
-    await this.updateToken()
-    setInterval(this.updateToken, 15 * 60 * 1000)
   }
 }
 </script>
