@@ -100,6 +100,13 @@ export default {
           })
         }
         const response = await fetch(this.aiUrl, options)
+
+        if (response.status !== 200) {
+          console.log(`aidetect error: server responded with code ${response.status}`)
+          this.aiResult = 'Momentan liegt eine Störung vor. Bitte versuchen Sie es später erneut.'
+          return
+        }
+
         const result = await response.json()
         this.aiResult = result.answer ? result.answer : 'Keine Antwort vom Server. Bitte versuchen Sie es später erneut.'
       } catch (error) {
