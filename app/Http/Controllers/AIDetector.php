@@ -59,28 +59,6 @@ class AIDetector extends Controller
         }
     }
 
-    // public function turnstile(Request $request)
-    // {
-    //     Log::debug('turnstile: start verification');
-
-    //     if (!$request->turnstileResponse) {
-    //         Log::debug('turnstile: missing response');
-    //         return response(json_encode(array('error' => 'missing response')), 400);
-    //     }
-
-    //     Log::debug('turnstile entering with response: ' . $request->turnstileResponse);
-
-    //     $data = array(
-    //         'response' => $request->turnstileResponse,
-    //         'remoteip' => $_SERVER['REMOTE_ADDR'],
-    //         'idempotency_key' => $request->idempotencyKey ?? false
-    //     );
-
-    //     $verificationResult = $this->verifyTurnstile($data);
-
-    //     return response()->json($verificationResult);
-    // }
-
     public function query(Request $request)
     {
 
@@ -91,8 +69,7 @@ class AIDetector extends Controller
 
         $data = array(
             'response' => $request->turnstileResponse,
-            'remoteip' => $_SERVER['REMOTE_ADDR'],
-            // 'idempotency_key' => $request->idempotencyKey ?? uniqid()
+            'remoteip' => $_SERVER['REMOTE_ADDR']
         );
 
         $verificationResult = $this->verifyTurnstile($data);
@@ -103,9 +80,10 @@ class AIDetector extends Controller
             return response(json_encode(array('error' => 'unprivileged access')), 401);
         }
 
-        return response()->json([
-            "answer" => "<b>Warnung: Dieser AI Detektor basiert auf experimenteller AI, die sich zum aktuellen Zeitpunkt noch im Entwicklungsstadium befindet. Falsch-Positve oder Falsch-Negative Testergebnisse sind daher leider noch häufig. Durch das Verwenden des Tools und die Äußerung objektiven Feedbacks helfen Sie uns, das Tool stetig zu verbessern und verlässlichere Ergebnisse zu liefern. </b><p></p><b>Text höchstwahrscheinlich durch AI erstellt</b>"
-        ]);
+        // @todo remove me
+        // return response()->json([
+        //     "answer" => "<b>Warnung: Dieser AI Detektor basiert auf experimenteller AI, die sich zum aktuellen Zeitpunkt noch im Entwicklungsstadium befindet. Falsch-Positve oder Falsch-Negative Testergebnisse sind daher leider noch häufig. Durch das Verwenden des Tools und die Äußerung objektiven Feedbacks helfen Sie uns, das Tool stetig zu verbessern und verlässlichere Ergebnisse zu liefern. </b><p></p><b>Text höchstwahrscheinlich durch AI erstellt</b>"
+        // ]);
 
         if (!($request->text)) {
             Log::debug('aidetect: missing text');
@@ -135,8 +113,8 @@ class AIDetector extends Controller
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'Content-Type: application/json',
-            'X-OAI-API-KEY: o09w13h5daiulj4bfk2z76yq8sepvcgr'
-            // 'X-OAI-API-KEY:' . $this->configuration['api_key']
+            // 'X-OAI-API-KEY: o09w13h5daiulj4bfk2z76yq8sepvcgr'
+            'X-OAI-API-KEY:' . $this->configuration['api_key']
         ));
         $response = curl_exec($ch);
         curl_close($ch);
