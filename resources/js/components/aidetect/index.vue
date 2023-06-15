@@ -48,6 +48,7 @@ export default {
       minWordCount: 100,
       aiResult: '',
       verified: false
+      csrf: null
     }
   },
   computed: {
@@ -70,8 +71,11 @@ export default {
       }
       return {}
     },
-    url() {
-      return this.parsedOptions.url || false
+    tokenUrl() {
+      return this.parsedOptions.tokenUrl || false
+    },
+    aiUrl() {
+      return this.parsedOptions.aiUrl || false
     },
     sitekey() {
       return this.parsedOptions.sitekey || false
@@ -82,7 +86,7 @@ export default {
   },
   methods: {
     async submit() {
-      if (!this.url) {
+      if (!this.aiUrl || !this.csrf) {
         console.error('aidetect error: no url provided')
         return
       }
@@ -93,6 +97,7 @@ export default {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
+            'X-CSRF-TOKEN': this.csrf
           },
           body: JSON.stringify({
             text: this.text,
@@ -100,7 +105,7 @@ export default {
             idempotencyKey: this.idempotencyKey
           })
         }
-        const response = await fetch(this.url, options)
+        const response = await fetch(this.aiUrl, options)
         const result = await response.json()
         this.aiResult = result.answer ? result.answer : 'Keine Antwort vom Server. Bitte versuchen Sie es später erneut.'
       } catch (error) {
@@ -163,9 +168,19 @@ export default {
     },
     handleTurnstileError(e) {
       console.error('aidetect: Turnstile error', e)
+    },
+    async updateToken() {
+      if (!this.tokenUrl) {
+        console.log('aidetect: no dynamic url')
+        return
+      }
+
+      const res = await fetch(this.tokenUrl, { headers: { 'Content-Type': 'application/json' } })
+      const body = await res.json()
+      this.csrf = body?.csrf_token
     }
   },
-  mounted() {
+  async mounted() {
     if (window.turnstile === null || !window.turnstile) {
       const script = document.createElement('script')
       script.src = this.turnstileUrl
@@ -176,6 +191,9 @@ export default {
       this.renderTurnstile()
     }
     window.onloadTurnstileCallback = this.renderTurnstile
+
+    await this.updateToken()
+    setInterval(this.updateToken, 15 * 60 * 1000)
   }
 }
 </script>
