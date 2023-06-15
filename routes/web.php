@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AIDetector;
+use App\Http\Middleware\VerifyCsrfToken;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +26,4 @@ Route::statamic('presse/page/{page}', 'without-teaser-with-sidebar', ['load' => 
 Route::statamic('author/{author_slug}', 'author-info');
 Route::statamic('author/{author_slug}/page/{page}', 'author-info');
 
-Route::post('/!/aidetect', [AIDetector::class, 'query']);
+Route::post('/!/aidetect', [AIDetector::class, 'query'])->withoutMiddleware([VerifyCsrfToken::class]);
