@@ -198,6 +198,11 @@ fields:
           fields:
             -
               import: anchor_target
+        ai_detect:
+          display: 'AI Detect'
+          fields:
+            -
+              import: ai_detect_element
       container: assets
       enable_input_rules: true
       enable_paste_rules: true

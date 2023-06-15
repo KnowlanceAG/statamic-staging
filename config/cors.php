@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'paths' => ['api/*'],
+    'paths' => ['api/*', '/!/DynamicToken/*'],
 
     'allowed_methods' => ['*'],
 
