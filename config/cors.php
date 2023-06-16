@@ -22,6 +22,7 @@ return [
     'allowed_origins' => [
         '*.uscreen.net',
         '*.uscreen.me',
+        '*.uscreen.me:5500',
         'gwriters.de',
         '*.gwriters.de',
         'gwriters.ch',

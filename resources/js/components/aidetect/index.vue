@@ -7,7 +7,6 @@
         placeholder="Ihr Text, mindestens 100 Wörter (mindestens 500 Zeichen erforderlich, maximal 5000 Zeichen erlaubt)." rows="4" />
       <div class="text-xs text-gray-600">{{ text.length }} Zeichen, {{ wordCount }} {{ wordCount > 0 ? 'Wörter' : 'Worte' }}</div>
       <div v-html="aiResult" class="py-4"></div>
-      <div id="aicaptcha"></div>
       <button
         :disabled="!canSubmit"
         @click="submit"
@@ -57,7 +56,7 @@ export default {
       return this.text.trim().split(/\s+/).length;
     },
     canSubmit() {
-      return this.turnstileResponse && this.validTextLength && !this.calling
+      return this.validTextLength && !this.calling
     },
     parsedOptions() {
       if (!this.options) return {}
@@ -90,14 +89,19 @@ export default {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            text: this.text,
-            turnstileResponse: this.turnstileResponse
+            text: this.text
           })
         }
         const response = await fetch(this.aiUrl, options)
 
         if (response.status !== 200) {
           console.log(`aidetect error: server responded with code ${response.status}`)
+
+          if (response.status === 429) {
+            this.aiResult = 'Diese Funktion ist limitiert auf zehn Prüfungen pro Stunde. Versuchen Sie es später erneut.'
+            return
+          }
+
           this.aiResult = 'Momentan liegt eine Störung vor. Bitte versuchen Sie es später erneut.'
           return
         }
@@ -109,40 +113,7 @@ export default {
         console.error('aidetect error: error calling backend', error)
       }
       this.calling = false
-      this.resetTurnstile()
     },
-    renderTurnstile() {
-      this.turnstileId = window.turnstile?.render("#aicaptcha", {
-        sitekey: this.sitekey,
-        theme: 'light',
-        callback: (response) => {
-          this.turnstileResponse = response
-        },
-        'expired-callback': this.resetTurnstile,
-        'error-callback': this.handleTurnstileError
-      })
-    },
-
-    resetTurnstile() {
-      console.log('reset Turnstile')
-      this.turnstileResponse = false
-      window.turnstile?.reset(this.turnstileId)
-    },
-    handleTurnstileError(e) {
-      console.error('aidetect: Turnstile error', e)
-    }
   },
-  async mounted() {
-    if (window.turnstile === null || !window.turnstile) {
-      const script = document.createElement('script')
-      script.src = this.turnstileUrl
-      script.async = true
-      script.defer = true
-      document.head.appendChild(script)
-    } else {
-      this.renderTurnstile()
-    }
-    window.onloadTurnstileCallback = this.renderTurnstile
-  }
 }
 </script>

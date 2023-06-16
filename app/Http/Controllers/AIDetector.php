@@ -19,66 +19,11 @@ class AIDetector extends Controller
         $this->configuration = GlobalSet::findByHandle('ai_detect_configuration')->fileData()['data'];
     }
 
-    private function verifyTurnstile($data)
-    {
-        $turnStileVerificationUrl = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
-        $data['secret'] = config('app.turnstile_secret');
-
-        $query = http_build_query($data);
-        $options = array(
-            'http' => array(
-                'header' => "Content-Type: application/x-www-form-urlencoded\r\n" .
-                    "Content-Length: " . strlen($query),
-                'method' => 'POST',
-                'content' => $query
-            )
-        );
-
-        $stream = stream_context_create($options);
-
-        $result = file_get_contents(
-            $turnStileVerificationUrl,
-            false,
-            $stream
-        );
-
-        $responseKeys = json_decode($result, true);
-
-        Log::debug('responseKeys', $responseKeys);
-
-        if (intval($responseKeys["success"]) !== 1) {
-            Log::debug('spammer?');
-            return array(
-                'success' => false
-            );
-        } else {
-            Log::debug('passed!');
-            return array(
-                'success' => true
-            );
-        }
-    }
-
     public function query(Request $request)
     {
-
-        if (!$request->turnstileResponse) {
-            Log::debug('aidetect: missing token');
-            return response(json_encode(array('error' => 'missing token')), 400);
-        }
-
-        $data = array(
-            'response' => $request->turnstileResponse,
-            'remoteip' => $_SERVER['REMOTE_ADDR']
-        );
-
-        $verificationResult = $this->verifyTurnstile($data);
-        Log::debug('verificationResult', $verificationResult);
-
-        if ($verificationResult['success'] === false) {
-            Log::debug('aidetect: unprivileged access');
-            return response(json_encode(array('error' => 'unprivileged access')), 401);
-        }
+        // return response()->json([
+        //     "answer" => 'Test'
+        // ]);
 
         if (!($request->text)) {
             Log::debug('aidetect: missing text');
