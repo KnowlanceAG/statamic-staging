@@ -2076,7 +2076,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /faq/qualitaet-ghostwriter
+                          href: /faq/qualitaet
                           target: _blank
                           rel: 'noopener noreferrer'
                     text: Ghostwriting-Qualitätsansprüchen
@@ -3596,8 +3596,8 @@ replicator:
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685897745
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1686776695
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
