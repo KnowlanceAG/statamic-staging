@@ -129,7 +129,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: pQUTxwLs
@@ -220,7 +219,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die MAXQDA Analyse findet ihren Einsatz bei allen Arten qualitativer Forschung. Sowohl bei Grounded Theory, Literaturreviews, Marktforschung, qualitativer Inhaltsanalyse als auch bei Mixed Methods Ansätzen wird sie genutzt. Für eine schnelle und zuverlässige Auswertung von Daten bietet MAXQDA Hilfe – wenn die MAXQDA Auswertung richtig angewendet wird.'
+                    text: 'Die MAXQDA Analyse findet ihren Einsatz bei allen Arten qualitativer Forschung. Sowohl bei Grounded Theory, Literaturreviews, Marktforschung, qualitativer Inhaltsanalyse als auch bei Mixed Methods Ansätzen wird sie genutzt. Für eine schnelle und zuverlässige Auswertung von Daten bietet MAXQDA Hilfe – wenn die MAXQDA Auswertung richtig angewendet wird. In den vergangene Jahren wurde die MAXQDA für Abschlussarbeiten immer populärer und wird mittlerweile auch bereits eingesetzt, wenn Universitäten Studierende kleinere Arbeiten wie eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
@@ -410,20 +422,7 @@ replicator:
                     text: Hausarbeit
                   -
                     type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Seminararbeit
-                  -
-                    type: text
-                    text: ', Bachelorarbeit oder '
+                    text: ', Seminararbeit, Bachelorarbeit oder '
                   -
                     type: text
                     marks:
@@ -717,7 +716,7 @@ replicator:
     border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670878204
+updated_at: 1687186046
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
