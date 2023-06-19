@@ -131,6 +131,12 @@ sections:
       -
         import: breadcrubs_active
       -
+        handle: template
+        field:
+          type: template
+          display: Template
+          localizable: true
+      -
         handle: parent
         field:
           type: entries
@@ -139,6 +145,16 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+      -
+        handle: abschnitt_link_list_category
+        field:
+          display: 'Link Liste Kategorie'
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: fachrichtungsgruppe
         field:
@@ -183,8 +199,38 @@ sections:
           listable: hidden
           if: parentIsArbeiten
       -
-        handle: template
+        handle: abschnitt_extend_link_list
         field:
-          type: template
-          display: Template
-          localizable: true
+          display: 'Erweiterung Link Liste'
+          type: section
+          icon: section
+          instructions: 'Link Text und Sprungmarke'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: link_text_overwrite
+        field:
+          input_type: text
+          antlers: false
+          display: 'Link Text überschreiben'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: jumpmark
+        field:
+          input_type: text
+          antlers: false
+          display: Sprungmarke
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          prepend: '#'

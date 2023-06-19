@@ -1,5 +1,11 @@
 <?php
 
+use App\Http\Controllers\AIDetector;
+use App\Http\Middleware\VerifyCsrfToken;
+use Illuminate\Cache\RateLimiting\Limit;
+use Illuminate\Support\Facades\RateLimiter;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +28,8 @@ Route::statamic('presse', 'without-teaser-with-sidebar', ['load' => '8bdfe06a-1a
 Route::statamic('presse/page/{page}', 'without-teaser-with-sidebar', ['load' => '8bdfe06a-1a06-46e1-94d2-591c8f5faece']);
 Route::statamic('author/{author_slug}', 'author-info');
 Route::statamic('author/{author_slug}/page/{page}', 'author-info');
+
+Route::middleware(['throttle:ai'])->group(function () {
+  Route::post('/!/aidetect', [AIDetector::class, 'query'])
+    ->withoutMiddleware([VerifyCsrfToken::class]);
+});
