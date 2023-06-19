@@ -98,7 +98,7 @@ export default {
           console.log(`aidetect error: server responded with code ${response.status}`)
 
           if (response.status === 429) {
-            this.aiResult = 'Diese Funktion ist limitiert auf zehn Prüfungen pro Stunde. Versuchen Sie es später erneut.'
+            this.aiResult = 'Diese Funktion ist limitiert auf fünf Prüfungen pro Stunde. Versuchen Sie es später erneut.'
             this.calling = false
             return
           }
