@@ -6,7 +6,7 @@ page_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1687188852
+updated_at: 1687188941
 meta_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Nutzen Sie dieses Facharbeit Beispiel als Orientierung und überzeugen Sie sich von den Qualifikationen unserer akademischen Ghostwriter.'
 use_meta_keywords: false
@@ -263,7 +263,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /faq/qualitaet-ghostwriter
+                  href: '/faq#qualitaet'
                   target: null
                   rel: null
             text: 'unsere hohen Qualitätsstandards'
