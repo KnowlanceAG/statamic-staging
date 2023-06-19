@@ -2330,6 +2330,13 @@ replicator:
                             headline: 'Nutzt GWriters AI bzw. ChatGPT im Schreibprozess?'
                             accordion_content:
                               -
+                                type: set
+                                attrs:
+                                  id: lj30nexp
+                                  values:
+                                    type: anchor_target
+                                    anchor_name: qualitaet
+                              -
                                 type: paragraph
                                 content:
                                   -
@@ -2839,8 +2846,8 @@ replicator:
     border: false
     type: add_section
     enabled: true
-updated_by: f3fd11ca-3ac3-42f4-af3a-b2c5393e92c7
-updated_at: 1686666029
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1687188837
 template: default
 use_meta_keywords: false
 no_index_page: false
