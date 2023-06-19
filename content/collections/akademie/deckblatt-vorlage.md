@@ -1,5 +1,6 @@
 ---
 id: e1eeb52b-af75-4803-a498-6678be9b695d
+blueprint: akademie
 title: 'Deckblatt Vorlage'
 teaser:
   -
@@ -36,6 +37,7 @@ teaser:
   -
     type: set
     attrs:
+      id: ehZLBgzc
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -46,6 +48,7 @@ teaser:
     type: paragraph
 replicator:
   -
+    id: RSkyBTLz
     bard:
       -
         type: paragraph
@@ -65,7 +68,7 @@ replicator:
             text: Bachelorarbeit
           -
             type: text
-            text: ', '
+            text: ' und '
           -
             type: text
             marks:
@@ -78,7 +81,7 @@ replicator:
             text: Masterarbeit
           -
             type: text
-            text: ' oder'
+            text: ' ist unerlässlich und gibt gleichzeitig den ersten Eindruck der wissenschaftlichen Arbeit ab. Auch wenn das Deckblatt lediglich relevante Eckdaten über den Wissenschaftsbereich der Arbeit, personenbezogene Daten des Autors und Angaben der Hochschule vermittelt, sollte ein solches Titelblatt genügend Aufmerksamkeit bekommen. Insbesondere wenn Universitäten Doktoranden eine '
           -
             type: text
             marks:
@@ -88,13 +91,14 @@ replicator:
                   href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
-            text: ' Doktorarbeit '
+            text: 'Doktorarbeit schreiben lassen'
           -
             type: text
-            text: 'ist unerlässlich und gibt gleichzeitig den ersten Eindruck der wissenschaftlichen Arbeit ab. Auch wenn das Deckblatt lediglich relevante Eckdaten über den Wissenschaftsbereich der Arbeit, personenbezogene Daten des Autors und Angaben der Hochschule vermittelt, sollte ein solches Titelblatt genügend Aufmerksamkeit bekommen.'
+            text: ', ist ein Deckblatt unglaublich wichtig, denn dies ist das Aushängeschild Ihrer Forschung.'
       -
         type: set
         attrs:
+          id: qklYnIrh
           values:
             type: bilder
             assets:
@@ -159,8 +163,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623866959
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1687188792
 academy_short_text_headline: 'Deckblatt Vorlage'
 academy_short_text: 'Nutzen und individualisieren Sie bequem unsere Deckblatt Vorlage für Ihre eigene Abschlussarbeit anwenden.'
 use_meta_keywords: false
@@ -169,8 +173,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 more_templates:
   - 8778439c-ea07-4542-9287-cb87e6074f6a
   - b609ef85-dc84-4405-93d0-1b92d92ca1a4
