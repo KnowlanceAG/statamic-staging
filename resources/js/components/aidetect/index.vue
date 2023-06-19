@@ -99,10 +99,12 @@ export default {
 
           if (response.status === 429) {
             this.aiResult = 'Diese Funktion ist limitiert auf zehn Prüfungen pro Stunde. Versuchen Sie es später erneut.'
+            this.calling = false
             return
           }
 
           this.aiResult = 'Momentan liegt eine Störung vor. Bitte versuchen Sie es später erneut.'
+          this.calling = false
           return
         }
 

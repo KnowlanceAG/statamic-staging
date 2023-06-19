@@ -61,7 +61,7 @@ class RouteServiceProvider extends ServiceProvider
         });
 
         RateLimiter::for('ai', function (Request $request) {
-            return Limit::perHour(10)->response(function (Request $request, array $headers) {
+            return Limit::perHour(10)->by($request->ip())->response(function (Request $request, array $headers) {
                 return response('Rate Limit', 429, $headers);
             });
         });
