@@ -1,6 +1,5 @@
 ---
 id: 046e5eb8-8a16-431a-abdf-c079ed2d95d0
-published: false
 blueprint: pages
 title: 'AI Detector'
 replicator:
@@ -76,20 +75,7 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: ', von zentraler Bedeutung. In einem Umfeld, in dem Originalität und ein persönlicher Beitrag zum wissenschaftlichen Diskurs im Vordergrund stehen, ist es unerlässlich, dass Arbeiten nicht von künstlicher Intelligenz erstellt werden. Hier kommen unser AI Detector und unsere '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ' ins Spiel.'
+                    text: ', von zentraler Bedeutung. In einem Umfeld, in dem Originalität und ein persönlicher Beitrag zum wissenschaftlichen Diskurs im Vordergrund stehen, ist es unerlässlich, dass Arbeiten nicht von künstlicher Intelligenz erstellt werden. Hier kommen unser AI Detector und unsere Ghostwriter ins Spiel.'
               -
                 type: heading
                 attrs:
@@ -119,23 +105,11 @@ replicator:
                     type: text
                     text: 'Vertrauen Sie auf modernste Technologie, um die akademische Integrität zu wahren. Testen Sie unseren AI Detector und erleben Sie die Sicherheit, die durch unsere zuverlässige AI Detection-Technologie geboten wird. Treten Sie dem Kampf für akademische Originalität und Integrität bei - mit unserem AI Detector.'
               -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: orange-500
-                          hex: '#ff6606'
-                    text: '[AI DETECTOR]'
-              -
-                type: paragraph
+                type: set
+                attrs:
+                  id: lj3anu1i
+                  values:
+                    type: ai_detect
               -
                 type: heading
                 attrs:
@@ -495,5 +469,5 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685649603
+updated_at: 1687205658
 ---

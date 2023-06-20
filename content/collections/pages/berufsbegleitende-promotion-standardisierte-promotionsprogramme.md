@@ -282,7 +282,29 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_wenden."
+                    text: "\_wenden. Auch können sich diese eine Mustervorlage für Ihre "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: .
               -
                 type: paragraph
                 content:
@@ -1377,12 +1399,6 @@ replicator:
                         attrs:
                           color: 'rgb(255, 102, 2)'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/doktorarbeit
-                          target: null
-                          rel: null
                     text: Doktorarbeit
                   -
                     type: text
@@ -1701,7 +1717,7 @@ page_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860600
+updated_at: 1687188036
 meta_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 meta_description: 'Finden Sie jetzt das passende standardisierte Promotionsprogramm für Ihre nebenberufliche Promotion und profitieren Sie von unserer Promotionsberatung!'
 use_meta_keywords: false

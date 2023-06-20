@@ -138,11 +138,10 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680537188
+updated_at: 1687182069
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -896,7 +895,33 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: "\_verbreitet, weil Doktoranden sich einen großen Teil ihrer Arbeitslast abnehmen lassen können, indem sie von einem Ghostwriter eine Mustervorlage für eine "
+                    text: "\_verbreitet, weil Doktoranden sich einen großen Teil ihrer Arbeitslast abnehmen lassen können, indem sie von einem Ghostwriter eine Mustervorlage für eine  "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ' oder für eine '
                   -
                     type: text
                     marks:
@@ -933,33 +958,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zusätzlich zu dem eigentlichen Studium können an manchen Universitäten seit einigen Jahren als Nebenstudium in juristischen Teilbereichen Bachelor-, Master- oder Magisterabschlüsse erreicht werden. Sie werden mit der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-                  -
-                    type: text
-                    text: ' (Bachelor Thesis), der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Masterarbeit '
-                  -
-                    type: text
-                    text: '(Master Thesis), Dissertation und Magisterarbeit abgeschlossen. Ein Bachelor-Studium dauert i.d.R. 3 Jahre, qualifiziert jedoch nicht für einen Beruf als Anwalt oder Richter.'
+                    text: 'Zusätzlich zu dem eigentlichen Studium können an manchen Universitäten seit einigen Jahren als Nebenstudium in juristischen Teilbereichen Bachelor-, Master- oder Magisterabschlüsse erreicht werden. Sie werden mit der Bachelorarbeit (Bachelor Thesis), der Masterarbeit (Master Thesis), Dissertation und Magisterarbeit abgeschlossen. Ein Bachelor-Studium dauert i.d.R. 3 Jahre, qualifiziert jedoch nicht für einen Beruf als Anwalt oder Richter.'
             show_as_card: false
           -
             id: NQUDEDoG
@@ -1675,7 +1674,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Das erfolgreiche Absolvieren des Jurastudiums\_setzt auch das Anfertigen von "
+                    text: "Das erfolgreiche Absolvieren des Jurastudiums\_setzt auch das Anfertigen von wissenschaftlichen Arbeiten voraus. Besonders häufig kommt es gerade in diesem Fachbereich vor, dass Professoren Ihre Studierenden eine "
                   -
                     type: text
                     marks:
@@ -1688,7 +1687,7 @@ replicator:
                     text: Haus
                   -
                     type: text
-                    text: '- und '
+                    text: '- oder '
                   -
                     type: text
                     marks:
@@ -1698,10 +1697,10 @@ replicator:
                           href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Seminararbeiten
+                    text: 'Seminararbeit schreiben lassen'
                   -
                     type: text
-                    text: " voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
+                    text: ". Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
               -
                 type: heading
                 attrs:
@@ -1958,20 +1957,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/erste-seminararbeit-schreiben
-                          target: null
-                          rel: null
-                    text: 'Schreiben einer Seminararbeit'
-                  -
-                    type: text
-                    text: ' unterscheidet sich von der Hausarbeit insofern, als hier regelmäßig nicht am Fall gearbeitet, sondern abstrakt die Darstellung und Einordnung eines abstrakten Rechtsproblems gefordert wird. Dies erleichtert in der Vorbereitung der Ausarbeitung der Seminararbeit die Arbeit insofern, als es gerade nicht erforderlich ist, den Sachverhalt korrekt zu bereinigen, erschwert die eigentliche Lösungsskizze allerdings im Hinblick auf den Transferteil der Aufgabenstellung, als insoweit die entsprechende Recherche der Rechtsprobleme zwar als Grundlage der eigenen Ausarbeitung dienen kann, eine vollständig selbständig erdachte Lösung dennoch erforderlich bleibt.'
+                    text: 'Das Schreiben einer Seminararbeit unterscheidet sich von der Hausarbeit insofern, als hier regelmäßig nicht am Fall gearbeitet, sondern abstrakt die Darstellung und Einordnung eines abstrakten Rechtsproblems gefordert wird. Dies erleichtert in der Vorbereitung der Ausarbeitung der Seminararbeit die Arbeit insofern, als es gerade nicht erforderlich ist, den Sachverhalt korrekt zu bereinigen, erschwert die eigentliche Lösungsskizze allerdings im Hinblick auf den Transferteil der Aufgabenstellung, als insoweit die entsprechende Recherche der Rechtsprobleme zwar als Grundlage der eigenen Ausarbeitung dienen kann, eine vollständig selbständig erdachte Lösung dennoch erforderlich bleibt.'
               -
                 type: paragraph
                 content:
