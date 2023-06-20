@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1687277783
+updated_at: 1687278034
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -801,12 +801,13 @@ replicator:
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
                           - 1de3d76b-f23a-41a8-a629-15b48a07223e
-                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
                           - 06fbb3f4-51c2-4f11-832e-9b72a495857d
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                          - 24308319-8d41-41a9-ad35-e9cf2ceba726
             show_as_card: false
         type: row
         enabled: true
