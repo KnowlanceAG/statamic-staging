@@ -19,17 +19,19 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [
-        '*.uscreen.net',
-        '*.uscreen.me',
-        '*.uscreen.me:5500',
-        'gwriters.de',
-        '*.gwriters.de',
-        'gwriters.ch',
-        '*.gwriters.ch'
-    ],
+    // 'allowed_origins' => [
+    //     '*.uscreen.net',
+    //     '*.uscreen.me',
+    //     '*.uscreen.me:5500',
+    //     'gwriters.de',
+    //     '*.gwriters.de',
+    //     'gwriters.ch',
+    //     '*.gwriters.ch'
+    // ],
 
-    'allowed_origins_patterns' => [],
+    // 'allowed_origins_patterns' => [],
+
+    'allowed_origins_patterns' => explode(',', preg_replace('/\s+/', '', env('CORS_PATTERNS', ''))),
 
     'allowed_headers' => ['*'],
 
