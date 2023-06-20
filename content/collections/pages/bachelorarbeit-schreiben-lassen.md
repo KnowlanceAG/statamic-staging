@@ -1031,7 +1031,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sie möchten sich ein Mustervorlage für Ihre Bachelorarbeit von Ghostwritern schreiben lassen und benötigen noch Informationen? Kontaktieren Sie uns schnell und kostenlos:'
+                    text: 'Sie möchten sich eine Mustervorlage für Ihre Bachelorarbeit von Ghostwritern schreiben lassen und benötigen noch Informationen? Kontaktieren Sie uns schnell und kostenlos:'
               -
                 type: set
                 attrs:
@@ -1076,14 +1076,7 @@ replicator:
                         attrs:
                           color: '#333333'
                           hex: '#000'
-                    text: 'Sie können sich für fast alle Fachbereiche eine Vorlage für Ihre Bachelorarbeit schreiben lassen. Hier finden sie nähere Infos sowie Beispiel-Vorlagen für Bachelorarbeiten beliebter Studiengänge:'
-              -
-                type: set
-                attrs:
-                  id: lin2kry5
-                  values:
-                    type: anchor_target
-                    anchor_name: bwl
+                    text: 'Sie können sich für fast alle Fachbereiche eine Vorlage für Ihre Bachelorarbeit schreiben lassen. Hier finden Sie nähere Infos sowie Beispiel-Vorlagen für Bachelorarbeiten beliebter Studiengänge:'
               -
                 type: set
                 attrs:
@@ -1104,6 +1097,13 @@ replicator:
                                 text: 'Ghostwriter Bachelorarbeit BWL'
                         accordion_content:
                           -
+                            type: set
+                            attrs:
+                              id: lj4faow3
+                              values:
+                                type: anchor_target
+                                anchor_name: bwl
+                          -
                             type: paragraph
                             content:
                               -
@@ -1116,22 +1116,8 @@ replicator:
                                       hex: '#000'
                                 text: 'Unsere BWL-Ghostwriter sind stets up-to-date und nah an der Forschung, um die Aktualität der Themenstellungen und Inhalte zu gewährleisten. Sie haben vielfältige Erfahrung im unternehmerischen Kontext, um Forschungsergebnisse in der Praxis bewerten zu können. Die Grundlagen der Betriebswirtschaftslehre sind selbstverständlich, viele unserer Ghostwriter haben zudem in diesem Fach promoviert. Ihre Bachelorarbeit ist also in den besten Händen.'
                         active: false
-              -
-                type: set
-                attrs:
-                  id: liojemxf
-                  values:
-                    type: anchor_target
-                    anchor_name: jura
-              -
-                type: set
-                attrs:
-                  id: liojfe3d
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
                       -
-                        id: liojff07
+                        id: lj4fb1u3
                         headline:
                           -
                             type: heading
@@ -1142,6 +1128,13 @@ replicator:
                                 type: text
                                 text: 'Ghostwriter Bachelorarbeit Jura'
                         accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fbr24
+                              values:
+                                type: anchor_target
+                                anchor_name: jura
                           -
                             type: paragraph
                             content:
@@ -1155,22 +1148,8 @@ replicator:
                                       hex: '#000'
                                 text: 'Die Anforderungen für eine professionelle Bachelorarbeit in Jura sind besonders hoch. Ghostwriter müssen nicht nur den Gutachten- und Urteilsstil beherrschen, sondern auch die aktuelle Gesetzes- und Urteilslage zum Thema kennen. Unsere Mitarbeiter haben durch ihre Tätigkeiten in Anwaltskanzleien und ihre Spezialisierungen Zugriff auf relevante Jura-Datenbanken und Publikationen. Dadurch können sie bei der Erstellung Ihrer Bachelorarbeit auf umfangreiches Wissen zurückgreifen.'
                         active: false
-              -
-                type: set
-                attrs:
-                  id: liojftma
-                  values:
-                    type: anchor_target
-                    anchor_name: maschinenbau
-              -
-                type: set
-                attrs:
-                  id: liojg2um
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
                       -
-                        id: liojg3vz
+                        id: lj4fc4gy
                         headline:
                           -
                             type: heading
@@ -1181,6 +1160,13 @@ replicator:
                                 type: text
                                 text: 'Ghostwriter Bachelorarbeit Maschinenbau'
                         accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fcaez
+                              values:
+                                type: anchor_target
+                                anchor_name: maschinenbau
                           -
                             type: paragraph
                             content:
@@ -1194,22 +1180,8 @@ replicator:
                                       hex: '#000'
                                 text: 'Bachelorarbeit Ghostwriter im Maschinenbau verfügen über eine tief gehende Expertise im Fachgebiet und sind immer auf dem aktuellen Stand der Forschung. Wir unterstützen Sie gern, zum Beispiel bei mathematischen Berechnungen, der Erstellung von technischen Zeichnungen oder Erstellung von Simulationen für Ihre Bachelorarbeit.'
                         active: false
-              -
-                type: set
-                attrs:
-                  id: liojgeos
-                  values:
-                    type: anchor_target
-                    anchor_name: informatik
-              -
-                type: set
-                attrs:
-                  id: liojgkit
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
                       -
-                        id: liojgn2j
+                        id: lj4fcswl
                         headline:
                           -
                             type: heading
@@ -1220,6 +1192,13 @@ replicator:
                                 type: text
                                 text: 'Ghostwriter Bachelorarbeit Informatik'
                         accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fcvlb
+                              values:
+                                type: anchor_target
+                                anchor_name: informatik
                           -
                             type: paragraph
                             content:
@@ -1233,22 +1212,8 @@ replicator:
                                       hex: '#000'
                                 text: 'Informatiker zählen zu den begehrtesten Fachkräften, aber das Studium ist anspruchsvoll und geprägt von hohen Durchfallquoten. Wir unterstützen Sie bei Ihrer Bachelorarbeit im Fach Informatik mit erfahrenen Ghostwritern.'
                         active: false
-              -
-                type: set
-                attrs:
-                  id: lioji9cm
-                  values:
-                    type: anchor_target
-                    anchor_name: elektrotechnik
-              -
-                type: set
-                attrs:
-                  id: liojihjk
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
                       -
-                        id: liojikr5
+                        id: lj4fdc12
                         headline:
                           -
                             type: heading
@@ -1259,6 +1224,13 @@ replicator:
                                 type: text
                                 text: 'Ghostwriter Bachelorarbeit Elektrotechnik'
                         accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fdels
+                              values:
+                                type: anchor_target
+                                anchor_name: elektrotechnik
                           -
                             type: paragraph
                             content:
@@ -1272,22 +1244,8 @@ replicator:
                                       hex: '#000'
                                 text: 'Ghostwriter für Bachelorarbeiten im Bereich Elektrotechnik müssen über fundiertes Fachwissen in den relevanten Themengebieten verfügen und zudem Kenntnisse im Umgang mit den gängigen Tools und Programmen zur Erstellung von technischen Zeichnungen und Modellen haben. Unsere Ghostwriter erfüllen diese hohen Anforderungen und unterstützen Sie neben zudem gern bei der Planung von Laborexperimenten und Datenauswertung.'
                         active: false
-              -
-                type: set
-                attrs:
-                  id: liojiviz
-                  values:
-                    type: anchor_target
-                    anchor_name: bauingenieurwesen
-              -
-                type: set
-                attrs:
-                  id: liojj4po
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
                       -
-                        id: liojj7ys
+                        id: lj4feylm
                         headline:
                           -
                             type: heading
@@ -1298,6 +1256,13 @@ replicator:
                                 type: text
                                 text: 'Ghostwriter Bachelorarbeit Bauingenieurwesen'
                         accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4ff6oe
+                              values:
+                                type: anchor_target
+                                anchor_name: bauingenieurwesen
                           -
                             type: paragraph
                             content:
@@ -1311,22 +1276,8 @@ replicator:
                                       hex: '#000'
                                 text: 'Für Ihre Bachelorarbeit im Bauingenieurswesen: Unsere Ghostwriter haben nicht nur praktische Erfahrung als Ingenieure, sondern auch wissenschaftliches Know-how. Sie wissen, welche Datenbanken und Recherchestrategien zu verwenden sind.'
                         active: false
-              -
-                type: set
-                attrs:
-                  id: liojjjgu
-                  values:
-                    type: anchor_target
-                    anchor_name: psychologie
-              -
-                type: set
-                attrs:
-                  id: liojjrpc
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
                       -
-                        id: liojjswr
+                        id: lj4ffhcq
                         headline:
                           -
                             type: heading
@@ -1337,6 +1288,13 @@ replicator:
                                 type: text
                                 text: 'Ghostwriter Bachelorarbeit Psychologie'
                         accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4ffqmq
+                              values:
+                                type: anchor_target
+                                anchor_name: psychologie
                           -
                             type: paragraph
                             content:
@@ -1433,22 +1391,8 @@ replicator:
                                               hex: '#000'
                                         text: 'statistische Hypothesentests'
                         active: false
-              -
-                type: set
-                attrs:
-                  id: liojkg0o
-                  values:
-                    type: anchor_target
-                    anchor_name: chemie
-              -
-                type: set
-                attrs:
-                  id: liojkkbf
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
                       -
-                        id: liojkr6d
+                        id: lj4fg6u5
                         headline:
                           -
                             type: heading
@@ -1459,6 +1403,13 @@ replicator:
                                 type: text
                                 text: 'Ghostwriter Bachelorarbeit Chemie'
                         accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fgafn
+                              values:
+                                type: anchor_target
+                                anchor_name: chemie
                           -
                             type: paragraph
                             content:
@@ -1472,22 +1423,8 @@ replicator:
                                       hex: '#000'
                                 text: 'Das Chemiestudium ist bekannt für seine hohen Durchfallquoten und den anspruchsvollen Schwierigkeitsgrad, der zeitaufwendige Laborversuche erfordert. Gerade in bei einer naturwissenschaftlichen Bachelorarbeit wie im Bereich Chemie sind Ghostwriter eine große Hilfe. Unsere Chemie-Ghostwriter sind Experten mit viel Erfahrung in wissenschaftlicher Arbeit.'
                         active: false
-              -
-                type: set
-                attrs:
-                  id: liojl82d
-                  values:
-                    type: anchor_target
-                    anchor_name: sozialearbeit
-              -
-                type: set
-                attrs:
-                  id: liagy375
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
                       -
-                        id: liahcjxm
+                        id: lj4fgsbk
                         headline:
                           -
                             type: heading
@@ -1499,6 +1436,13 @@ replicator:
                                 text: 'Ghostwriter Bachelorarbeit Soziale Arbeit'
                         accordion_content:
                           -
+                            type: set
+                            attrs:
+                              id: lj4fgzs0
+                              values:
+                                type: anchor_target
+                                anchor_name: sozialearbeit
+                          -
                             type: paragraph
                             content:
                               -
@@ -1507,7 +1451,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#333333'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Unser Ghostwriter im Bereich der Sozialen Arbeit haben selbst jahrelange Erfahrung auf diesem Fachgebiet. Unser Team von erfahrenen Akademikern aus der Sozialen Arbeit unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung Ihrer Bachelorarbeit.'
                         active: false
@@ -3222,7 +3166,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1686320963
+updated_at: 1687274189
 template: default
 use_meta_keywords: false
 no_index_page: false
