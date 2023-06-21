@@ -4,7 +4,7 @@ published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1687356197
+updated_at: 1687364453
 replicator:
   -
     id: laieiq4o
@@ -107,6 +107,79 @@ replicator:
   -
     id: o0BSns5z
     columns_replicator:
+      -
+        id: lj5x74nn
+        single_col: false
+        grid:
+          -
+            id: 5xHSksJ3
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lj5x77tv
+                  values:
+                    type: custom_link_list
+                    raster:
+                      -
+                        id: lj5x78f4
+                        text: test
+                        eintraege:
+                          -
+                            id: lj5x7a0e
+                            headline: test2
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: test
+                                          target: null
+                                          rel: null
+                                    text: test
+                      -
+                        id: lj5x7nng
+                        text: 'test 2'
+                        eintraege:
+                          -
+                            id: lj5x7qlx
+                            headline: test2
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: test
+                                          target: null
+                                          rel: null
+                                    text: test
+                          -
+                            id: lj5x855m
+                            headline: test
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: das
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
         id: nUHgkjro
         columns_per_row: 3
@@ -594,6 +667,17 @@ replicator:
                     type: ai_detect
               -
                 type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lj5x6yl0
+        single_col: false
+        grid:
+          -
+            id: ypy4eMS2
             show_as_card: false
         type: row
         enabled: true
