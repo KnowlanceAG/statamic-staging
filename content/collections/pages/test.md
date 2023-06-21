@@ -4,7 +4,7 @@ published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1687176344
+updated_at: 1687356144
 replicator:
   -
     id: laieiq4o
@@ -547,6 +547,51 @@ replicator:
                   id: lit081ua
                   values:
                     type: ai_detect
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lj5s95xc
+        single_col: false
+        grid:
+          -
+            id: tDcwoCN0
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lj5s9kt6
+                  values:
+                    type: custom_link_list
+                    raster:
+                      -
+                        id: lj5s9lh2
+                        text: test1
+                        eintraege:
+                          -
+                            id: lj5s9uhs
+                            headline: 'test 1_1'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: test
+                          -
+                            id: lj5sa0xx
+                            headline: 'test 1_2'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: test
               -
                 type: paragraph
             show_as_card: false
