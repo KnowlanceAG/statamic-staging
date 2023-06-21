@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1687182069
+updated_at: 1687278034
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -749,12 +749,12 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: qIsNZcLf
+                  id: tydJZ4iJ
                   values:
                     type: link_liste
                     raster:
                       -
-                        id: 9UDk2QZL
+                        id: Wbn8KUkt
                         text: Arbeiten
                         eintraege:
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
@@ -772,7 +772,7 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
                       -
-                        id: k0R3RpCn
+                        id: IcyEd5cw
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -801,12 +801,13 @@ replicator:
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
                           - 1de3d76b-f23a-41a8-a629-15b48a07223e
-                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-                          - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                          - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                          - 24308319-8d41-41a9-ad35-e9cf2ceba726
             show_as_card: false
         type: row
         enabled: true

@@ -603,8 +603,8 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1684877017
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1687278182
 template: default
 meta_title: 'Lernskript schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
@@ -618,7 +618,7 @@ og_title: 'Lernskript schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Lernskript schreiben lassen • Ghostwriter von GWriters'
+alternative_page_title: 'Lernskript schreiben lassen'
 arbeitsgruppe: a_sonstige_arbeiten
 breadcrumbs_active: true
 page_title: 'Lernskript schreiben lassen • Ghostwriter von GWriters'
