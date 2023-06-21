@@ -211,13 +211,21 @@ function lazzyVideo () {
 function tabToggle() {
   const gwritersTabs = document.querySelectorAll('div.link-list-header > p')
   function gwritersTabClicks (tabClickEvent) {
-    for (const tab of gwritersTabs) {
+    const clickedTab = tabClickEvent.currentTarget
+    const linkList = clickedTab.closest('.link-list')
+    if (!linkList) {
+      console.error('linklist not found')
+      return
+    }
+
+    const internalTabs = linkList.querySelectorAll('.link-list-header > p')
+    
+    for (const tab of internalTabs) {
       tab.classList.remove('active')
     }
 
-    const clickedTab = tabClickEvent.currentTarget
+    const gwritersContentPanes = linkList.querySelectorAll('.link-list-body')
     clickedTab.classList.add('active')
-    const gwritersContentPanes = document.querySelectorAll('.link-list-body')
 
     for (const pane of gwritersContentPanes) {
       pane.classList.remove('active')
@@ -225,7 +233,7 @@ function tabToggle() {
 
     const anchorReference = tabClickEvent.target
     const activePaneId = anchorReference.getAttribute('data-target')
-    const activePane = document.querySelector('.' + activePaneId)
+    const activePane = linkList.querySelector('.' + activePaneId)
     activePane.classList.add('active')
   }
 
@@ -243,22 +251,21 @@ function accordionToogle () {
 
   function accordionTabClicks (tabClickEvent) {
     const clickedTab = tabClickEvent.currentTarget
+    const linkListBody = clickedTab.closest('.link-list-body')
+    if (!linkListBody) {
+      console.error('linkListBody not found')
+      return
+    }
+
+    const internalAccordionTabs = linkListBody.querySelectorAll('.accordion-tab')
     const active = clickedTab.classList.contains('active')
 
-    for (const tab of accordionTabs) {
+    for (const tab of internalAccordionTabs) {
       tab.classList.remove('active')
     }
 
     if (!active) {
       clickedTab.classList.add('active')
-    }
-
-    const accordionTabsContent = document.querySelectorAll(
-      'div.accordion-tab.content'
-    )
-
-    for (const content of accordionTabsContent) {
-      content.classList.remove('active')
     }
   }
 }
