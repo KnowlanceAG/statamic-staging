@@ -117,7 +117,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Verteidigung umfasst einen indirekt kreativen Teil, denn die Präsentation im Kolloquium soll wissenschaftlich fundiert und übersichtlich aber auch farblich abgestimmt sein. Wie Sie Ihre Präsentation optimal ausarbeiten und die grafischen Elemente passend einfügen, erklären Ihnen detailliert unsere Vorlagen für Kolloquium-Präsentationen.'
+            text: 'Die Verteidigung umfasst einen indirekt kreativen Teil, denn die Präsentation im Kolloquium soll wissenschaftlich fundiert und übersichtlich aber auch farblich abgestimmt sein. Wie Sie Ihre Präsentation optimal ausarbeiten und die grafischen Elemente passend einfügen, erklären Ihnen detailliert unsere Vorlagen für Kolloquium-Präsentationen. Falls Sie eine individuellere Unterstützung benötigen sollten, können Sie sich von unseren Ghostwritern auch eine individuelle '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/praesentationen
+                  target: null
+                  rel: null
+            text: 'Präsentation erstellen lassen'
+          -
+            type: text
+            text: .
       -
         type: paragraph
         content:
@@ -141,7 +154,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670881703
+updated_at: 1688320376
 downloads:
   - akademie/Praesentation.pptx
 from_the_blog:
