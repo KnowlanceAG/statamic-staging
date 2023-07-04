@@ -420,24 +420,80 @@ if (document.querySelector('.expert-slider')) {
   })
 }
 
+/**
+ * There are three different link targets to scroll to:
+ * 1. ordinary link
+ * 2. link embedded in 2-dimensional accordeon
+ * 3. link embedded in simple (custom) accordeon
+ * All differ in technique to handle closing/opening tabs/accordeon bodies and in scroll distances
+ * @param {string} hash - the hash to scroll to
+ * @returns
+ */
+
 const scrollToHash = (hash) => {
   const target = document.querySelector(`[name="${hash.slice(1)}"]`)
-  
   if (!target) return
-  
-  let isInAccordion = target.closest('div.accordion-tab') !== null
-  let headerHeight = 160
-  
-  if ( isInAccordion ) {
-    headerHeight = 200
-    const accordionTabs = document.querySelectorAll('div.accordion-tab')
-    for (const tab of accordionTabs) {
-      tab.classList.remove('active')
+
+  let headerHeight = 100
+
+  const accordeonTab = target.closest('div.accordion-tab')
+  if (accordeonTab) {
+    headerHeight = 180
+    const linkList = target.closest('.link-list')
+    const customAccordeon = target.closest('.accordion-custom')
+
+    if (linkList) {
+      let linkListBodyIndex = -1
+      let linkWrapper = null
+
+      const linkListBody = target.closest('.link-list-body')
+      if (linkListBody) {
+        linkWrapper = Array.from(linkListBody.classList).find((c) => c.startsWith('link-wrapper-'))
+        linkListBodyIndex = linkWrapper ? Number.parseInt(linkWrapper.substring(linkWrapper.lastIndexOf('-') + 1)) : false
+      }
+
+      if (linkListBodyIndex > -1) {
+        const linkListHeaderElements = linkList.querySelectorAll('.link-list-header > p')
+        const linkListBodyElements = linkList.querySelectorAll('.link-list-body')
+        if (linkListHeaderElements.length && linkListBodyElements.length) {
+          // we are in a 2-dimensional accordeon
+          headerHeight += 120
+          for (const el of linkListHeaderElements) {
+            el.classList.remove('active')
+          }
+          const parentLinkListHeaderElement = linkList.querySelector(`p[data-target="link-wrapper-${linkListBodyIndex}"]`)
+          if (parentLinkListHeaderElement) {
+            parentLinkListHeaderElement.classList.add('active')
+          }
+
+          for (const el of linkListBodyElements) {
+            el.classList.remove('active')
+          }
+          linkListBody.classList.add('active')
+        }
+      }
+
+      const accordionTabs = linkListBody.querySelectorAll('div.accordion-tab')
+      for (const tab of accordionTabs) {
+        tab.classList.remove('active')
+      }
+      accordeonTab.classList.add('active')
+    } else if (customAccordeon) {
+      const bodyElement = target.closest('.accordion-tab')
+      const bodyElements = customAccordeon.querySelectorAll('.accordion-tab')
+      for (const el of bodyElements) {
+        el.classList.remove('active')
+      }
+      bodyElement.classList.add('active')
     }
-    target.closest('div.accordion-tab').classList.add('active')
   }
-  window.scroll({top: target.offsetTop - headerHeight, behavior: 'smooth'})
+
   window.location.hash = hash
+
+  setTimeout(() => {
+    const rect = target.getBoundingClientRect()
+    window.scroll({top: rect.top + window.scrollY - headerHeight, behavior: 'smooth'})
+  }, 100)
 }
 
 body.addEventListener('click', (ev) => {
