@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1688487338
+updated_at: 1688493221
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -859,10 +859,10 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/arbeiten/bachelorarbeit-schreiben-lassen#bwl'
+                                          href: '/arbeiten/bachelorarbeit-schreiben-lassen#informatik'
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Bachelorarbeit BWL'
+                                    text: 'Ghostwriter Bachelorarbeit Informatik'
                                   -
                                     type: hard_break
                                     marks:
