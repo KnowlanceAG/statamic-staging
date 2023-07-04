@@ -222,7 +222,20 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: ' in diesem Bereich spart Zeit und befähigt, auf den Punkt genau vorbereitet zu sein.'
+                    text: ' in diesem Bereich spart Zeit und befähigt, auf den Punkt genau vorbereitet zu sein. Der Prozess ist hierbei sehr ähnlich zu dem, wenn Sie sich von einem Ghostwriter eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: .
               -
                 type: set
                 attrs:
@@ -613,7 +626,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685618372
+updated_at: 1688477508
 meta_title: 'Essay schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
