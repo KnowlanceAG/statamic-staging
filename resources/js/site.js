@@ -436,11 +436,11 @@ const scrollToHash = (hash, initial = false) => {
   if (!target) return
 
   let scrollTarget = target
-  let headerHeight = 100
+  let offsetY = 100
 
   const accordeonTab = target.closest('div.accordion-tab')
   if (accordeonTab) {
-    headerHeight = 200
+    offsetY = 200
     const linkList = target.closest('.link-list')
     const customAccordeon = target.closest('.accordion-custom')
 
@@ -459,7 +459,7 @@ const scrollToHash = (hash, initial = false) => {
         const linkListBodyElements = linkList.querySelectorAll('.link-list-body')
         if (linkListHeaderElements.length && linkListBodyElements.length) {
           // we are in a 2-dimensional accordeon
-          headerHeight += 100
+          offsetY += 100
           for (const el of linkListHeaderElements) {
             el.classList.remove('active')
           }
@@ -490,7 +490,7 @@ const scrollToHash = (hash, initial = false) => {
   }
 
   const rect = target.getBoundingClientRect()
-  window.scroll({top: rect.top + window.scrollY - headerHeight, behavior: 'smooth'})
+  window.scroll({top: rect.top + window.scrollY - offsetY, behavior: 'smooth'})
   if (!initial) window.location.hash = hash
 }
 
