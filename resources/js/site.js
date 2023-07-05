@@ -492,12 +492,6 @@ const scrollToHash = (hash, initial = false) => {
   const rect = target.getBoundingClientRect()
   window.scroll({top: rect.top + window.scrollY - headerHeight, behavior: 'smooth'})
   if (!initial) window.location.hash = hash
-
-  // setTimeout(() => {
-  //   const rect = target.getBoundingClientRect()
-  //   window.scroll({top: rect.top + window.scrollY - headerHeight, behavior: 'smooth'})
-  //   if (!initial) window.location.hash = hash
-  // }, 100)
 }
 
 /**
