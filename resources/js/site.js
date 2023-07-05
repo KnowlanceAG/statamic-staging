@@ -219,7 +219,7 @@ function tabToggle() {
     }
 
     const internalTabs = linkList.querySelectorAll('.link-list-header > p')
-    
+
     for (const tab of internalTabs) {
       tab.classList.remove('active')
     }
@@ -420,41 +420,105 @@ if (document.querySelector('.expert-slider')) {
   })
 }
 
-const scrollToHash = (hash) => {
+/**
+ * There are three different link targets to scroll to:
+ * 1. ordinary link
+ * 2. link embedded in 2-dimensional accordeon
+ * 3. link embedded in simple (custom) accordeon
+ * All differ in technique to handle closing/opening tabs/accordeon bodies and in scroll distances
+ * @param {string} hash - the hash to scroll to
+ * @param {boolean} initial - the operation is processed directly after page load
+ * @returns
+ */
+
+const scrollToHash = (hash, initial = false) => {
   const target = document.querySelector(`[name="${hash.slice(1)}"]`)
-  
   if (!target) return
-  
-  let isInAccordion = target.closest('div.accordion-tab') !== null
-  let headerHeight = 160
-  
-  if ( isInAccordion ) {
-    headerHeight = 200
-    const accordionTabs = document.querySelectorAll('div.accordion-tab')
-    for (const tab of accordionTabs) {
-      tab.classList.remove('active')
+
+  let scrollTarget = target
+  let offsetY = 100
+
+  const accordeonTab = target.closest('div.accordion-tab')
+  if (accordeonTab) {
+    offsetY = 200
+    const linkList = target.closest('.link-list')
+    const customAccordeon = target.closest('.accordion-custom')
+
+    if (linkList) {
+      let linkListBodyIndex = -1
+      let linkWrapper = null
+
+      const linkListBody = target.closest('.link-list-body')
+      if (linkListBody) {
+        linkWrapper = Array.from(linkListBody.classList).find((c) => c.startsWith('link-wrapper-'))
+        linkListBodyIndex = linkWrapper ? Number.parseInt(linkWrapper.substring(linkWrapper.lastIndexOf('-') + 1)) : false
+      }
+
+      if (linkListBodyIndex > -1) {
+        const linkListHeaderElements = linkList.querySelectorAll('.link-list-header > p')
+        const linkListBodyElements = linkList.querySelectorAll('.link-list-body')
+        if (linkListHeaderElements.length && linkListBodyElements.length) {
+          // we are in a 2-dimensional accordeon
+          offsetY += 100
+          for (const el of linkListHeaderElements) {
+            el.classList.remove('active')
+          }
+          const parentLinkListHeaderElement = linkList.querySelector(`p[data-target="link-wrapper-${linkListBodyIndex}"]`)
+          if (parentLinkListHeaderElement) {
+            parentLinkListHeaderElement.classList.add('active')
+          }
+
+          for (const el of linkListBodyElements) {
+            el.classList.remove('active')
+          }
+          linkListBody.classList.add('active')
+          scrollTarget = linkListBody
+        }
+      }
+
+      const accordionTabs = linkListBody.querySelectorAll('div.accordion-tab')
+      for (const tab of accordionTabs) {
+        tab.classList.remove('active')
+      }
+      accordeonTab.classList.add('active')
+    } else if (customAccordeon) {
+      const bodyElement = target.closest('.accordion-tab')
+      const bodyElements = customAccordeon.querySelectorAll('.accordion-tab')
+      bodyElement.classList.add('active')
+      scrollTarget = bodyElement
     }
-    target.closest('div.accordion-tab').classList.add('active')
   }
-  window.scroll({top: target.offsetTop - headerHeight, behavior: 'smooth'})
-  window.location.hash = hash
+
+  const rect = target.getBoundingClientRect()
+  window.scroll({top: rect.top + window.scrollY - offsetY, behavior: 'smooth'})
+  if (!initial) window.location.hash = hash
 }
 
-body.addEventListener('click', (ev) => {
-  if (!ev.target.getAttribute('href')) return
-  if (
-    ev.target.getAttribute('href').startsWith('#') &&
-    ev.target.localName === 'a' &&
-    ev.target.hash
-  ) {
-    ev.preventDefault()
-    scrollToHash(ev.target.hash)
+/**
+ * Adding event listeners to all scrollable internal links with href attribute
+ */
+const addAnchorLinkListener = () => {
+  const allLinks = body.querySelectorAll('a')
+  for (const link of allLinks) {
+    if (!link.getAttribute('href')) continue
+    if (
+      link.getAttribute('href').startsWith('#') &&
+      link.hash
+    ) {
+      link.addEventListener('click', (ev) => {
+        ev.preventDefault()
+        scrollToHash(link.hash)
+      })
+    }
   }
-})
+}
 
+/**
+ * Scroll to existing achor target on page load
+ */
 const handleWindowScroll = () => {
   if (window.location.hash) {
-    scrollToHash(window.location.hash)
+    scrollToHash(window.location.hash, true)
   }
 }
 
@@ -499,6 +563,7 @@ const ready = callback => {
 }
 
 ready(() => {
+  addAnchorLinkListener()
   handleWindowScroll()
   handleUTM()
   handleMenuScroll()
