@@ -681,50 +681,21 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Unterschiedliches\_ Vorbereitungsprogramm und Forschungsgegenstände in der Dissertation"
+                    text: "Unterschiedliches\_Vorbereitungsprogramm und Forschungsgegenstände in der Dissertation"
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Für den Erwerb des\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: DBA
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "\_wird gefordert, ein Problem aus der Praxis theoretisch aufzubereiten und Lösungsansätze für wissenschaftliche oder berufliche Anwendungskontexte zu entwickeln."
               -
                 type: paragraph
@@ -806,44 +777,15 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Für den Erwerb des\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: Ph.D.
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "\_ist erforderlich, mit der Thesis eine Forschungslücke zu schließen bzw. einen theoretisch gültigen alternativen Ansatz in der scientific community zu etablieren."
               -
                 type: paragraph
@@ -861,6 +803,25 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Die Mindeststudienzeit beim Ph.D. beträgt in der Regel vier Jahre. Voraussetzung für die Dissertation ist ein erfolgreich absolviertes mindestens zweijähriges Studienprogramm, bestehend aus mehreren Präsenzmodulen. Die Dissertation wird als Ph.D.-Thesis eingereicht. Nach erfolgreichem Abschluss aller Module erfolgt eine mündliche Verteidigung der Forschungsarbeit (mündlich).'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In beiden Fällen werden Doktoranden mit hohen Anforderungen konfrontiert. Daher kommt es häufig vor, dass diese sich von einem akademischen Ghostwriter eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: .
               -
                 type: heading
                 attrs:
@@ -1010,88 +971,30 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Das\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: DBA-Promotionsstudium
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "\_hat die vergleichsweise höchsten Studiengebühren. Besteht die Kooperation mit einer ausländischen Elite-Universität, können Spitzenwerte erreicht werden, die bei um die 50.000 Euro liegen (z. B. Bradford-DBA mit ca. 39.000 Pfund). Das in der Regel vierjährige Studium bietet ein strukturiertes Programm mit umfangreicher und betreuungsintensiver Unterstützung."
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Das\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: Ph.D.-Studium
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "\_wird in der Regel an Privat-Unis absolviert. Hier sind gestaffelte Kosten abhängig davon, wie renommiert der ausländische Kooperationspartner ist. (Beispiel IHP: 1. Jahr 11.500 GBP/ 2. Jahr 6.000 GBP / 3. Jahr 6.000 GBP/ 4. Jahr ff. 2.750 GBP; Beispiel FHM: 1. Jahr 9.750 GBP/ 2. Jahr 4.750 GBP/ 3. Jahr 4.750 GBP/ 4. Jahr ff. 2.750 GBP)."
             show_as_card: false
         type: row
@@ -1107,7 +1010,7 @@ page_title: 'Berufsbegleitende Promotion: DBA oder Ph.D. • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860586
+updated_at: 1688477379
 meta_title: 'Berufsbegleitende Promotion: DBA oder Ph.D. • GWriters'
 meta_description: 'Passt zu Ihnen ein Ph.D. oder eher eine berufsbegleitende Promotion zum DBA? Erfahren Sie jetzt alle Informationen aus unserer seriösen Promotionsberatung!'
 use_meta_keywords: false
