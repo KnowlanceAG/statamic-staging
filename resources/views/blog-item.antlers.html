@@ -98,7 +98,7 @@
       </div>
       <script type='application/ld+json'>
         {
-          "@context": http://schema.org,
+          "@context": "http://schema.org",
           "@type": "Article",
           "headline": "{{ detail_title ? detail_title | shortcode : title | shortcode }}",
           "mainEntityOfPage": {
@@ -109,7 +109,7 @@
             "@type": "ImageObject",
 {{ if teaser_image }}
 {{ glide:teaser_image width="843" }}
-            "url": {{ config:cpssg:static_site_url | substr:0:-1 }}{{ url }},
+            "url": "{{ config:cpssg:static_site_url | substr:0:-1 }}{{ url }}",
             "width": "{{ width }}",
             "height": "{{ height }}"
 {{ /glide:teaser_image }}
