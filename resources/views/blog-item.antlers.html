@@ -115,7 +115,7 @@
 {{ /glide:teaser_image }}
 {{ else }}
 {{ glide:post_image width="843" }}
-            "url": {{ config:cpssg:static_site_url | substr:0:-1 }}{{ url }},
+            "url": "{{ config:cpssg:static_site_url | substr:0:-1 }}{{ url }}",
             "width": "{{ width }}",
             "height": "{{ height }}"
 {{ /glide:post_image }}
