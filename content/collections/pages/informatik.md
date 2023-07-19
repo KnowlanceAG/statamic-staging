@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1689783699
+updated_at: 1689784674
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -166,6 +166,326 @@ replicator:
                     html: |-
                       <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Informatik. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Informatik Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Informatik in sichere Hände geben und bei einem Informatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatikern, Doktoren und Professoren arbeitet.
                       </p>
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lk9xozzc
+    columns_replicator:
+      -
+        id: lk9xp1x1
+        single_col: true
+        grid:
+          -
+            id: 3aYw7DzZ
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#informatik'
+                                  target: null
+                                  rel: null
+                            text: 'Definition: Informatik'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Leistungen'
+                                  target: null
+                                  rel: null
+                            text: 'Unsere Leistungen im Fachbereich Informatik'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'Informatik-Ghostwriter unterstützen Sie im Informatik-Studium'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#grund'
+                                  target: null
+                                  rel: null
+                            text: 'Grund für das Informatik-Studium'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#inhalte'
+                                  target: null
+                                  rel: null
+                            text: 'Studieninhalte des Informatikstudiums'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Aufbau'
+                                  target: null
+                                  rel: null
+                            text: 'Aufbau des Informatikstudiums'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Prüfungsleistungen'
+                                          target: null
+                                          rel: null
+                                    text: Prüfungsleistungen
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Beispiel'
+                                  target: null
+                                  rel: null
+                            text: 'Beispielarbeit im Fachbereich Informatik'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Allgemein'
+                                  target: null
+                                  rel: null
+                            text: 'Allgemeines zur Informatik'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Disziplin'
+                                          target: null
+                                          rel: null
+                                    text: 'Disziplinen der Informatik'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Ziele'
+                                  target: null
+                                  rel: null
+                            text: 'Ziele der Informatik'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Beruf'
+                                  target: null
+                                  rel: null
+                            text: 'Berufsbilder im Informatiksektor'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Software'
+                                  target: null
+                                  rel: null
+                            text: 'Subdisziplin: Softwarelokalisierung'
             show_as_card: false
         type: row
         enabled: true
@@ -282,6 +602,13 @@ replicator:
             id: HMjGOEna
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xq2p6
+                  values:
+                    type: anchor_target
+                    anchor_name: informatik
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -370,6 +697,15 @@ replicator:
             id: 93rSTbZP
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xqorm
+                  values:
+                    type: anchor_target
+                    anchor_name: Leistungen
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -386,7 +722,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich BWL'
+                    text: 'Unsere Leistungen im Fachbereich Informatik'
               -
                 type: set
                 attrs:
@@ -457,6 +793,15 @@ replicator:
           -
             id: ryarPnV4
             bard:
+              -
+                type: set
+                attrs:
+                  id: lk9xrpmp
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -680,6 +1025,15 @@ replicator:
           -
             id: KC9aujGw
             bard:
+              -
+                type: set
+                attrs:
+                  id: lk9xsy3b
+                  values:
+                    type: anchor_target
+                    anchor_name: grund
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1613,6 +1967,13 @@ replicator:
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
               -
+                type: set
+                attrs:
+                  id: lk9xugvl
+                  values:
+                    type: anchor_target
+                    anchor_name: inhalte
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1970,6 +2331,13 @@ replicator:
             id: REiGiqsl
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xxso8
+                  values:
+                    type: anchor_target
+                    anchor_name: Aufbau
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2046,6 +2414,15 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+              -
+                type: set
+                attrs:
+                  id: lk9xxhp0
+                  values:
+                    type: anchor_target
+                    anchor_name: Prüfungsleistung
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2141,6 +2518,15 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lk9xx8v5
+                  values:
+                    type: anchor_target
+                    anchor_name: Beispielarbeit
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
                   id: hc7lAaBP
                   values:
                     type: example_work
@@ -2178,6 +2564,15 @@ replicator:
             id: 5nqVbAOQ
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xwu6g
+                  values:
+                    type: anchor_target
+                    anchor_name: Allgemein
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2212,6 +2607,15 @@ replicator:
                   -
                     type: text
                     text: 'Hinzu kommt eine Informatik, die sich politischen Regeln unterwirft. Unter dem Motto „Netzpolitik ist Wirtschaftspolitik“ hat sich beispielsweise in Deutschland ein Kompetenzzentrum in Zusammenarbeit von Bundesministerien und den entsprechenden Fachgesellschaften der Informatik entstanden.'
+              -
+                type: set
+                attrs:
+                  id: lk9xwnit
+                  values:
+                    type: anchor_target
+                    anchor_name: Disziplin
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2495,6 +2899,15 @@ replicator:
             id: nK7RhBoC
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xw14p
+                  values:
+                    type: anchor_target
+                    anchor_name: Ziel
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2561,6 +2974,13 @@ replicator:
             id: o1GpioE6
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xvhvt
+                  values:
+                    type: anchor_target
+                    anchor_name: Beruf
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2600,11 +3020,18 @@ replicator:
     columns_replicator:
       -
         id: lk9x79dc
-        single_col: false
+        single_col: true
         grid:
           -
             id: 3aYw7DzZ
             bard:
+              -
+                type: set
+                attrs:
+                  id: lk9xv72x
+                  values:
+                    type: anchor_target
+                    anchor_name: Software
               -
                 type: heading
                 attrs:
