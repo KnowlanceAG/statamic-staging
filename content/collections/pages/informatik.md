@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1688493235
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1689783699
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2272,7 +2272,7 @@ replicator:
                     type: hard_break
                   -
                     type: text
-                    text: '• die angewandte Informatik.'
+                    text: '• die angewandte Informatik'
               -
                 type: heading
                 attrs:
@@ -2392,6 +2392,11 @@ replicator:
                   -
                     type: text
                     text: '• Schaltungstechnik'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Softwarelokalisierung'
                   -
                     type: hard_break
                   -
@@ -2587,6 +2592,178 @@ replicator:
     bg_toggle: true
     bg_image: seiten/fachrichtungen/informatik-ghostwriter.jpg
     bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lk9x77rr
+    columns_replicator:
+      -
+        id: lk9x79dc
+        single_col: false
+        grid:
+          -
+            id: 3aYw7DzZ
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter im Softwarelokalisierung (Subdisziplin)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Möglichkeit, Softwarelokalisierung zu studieren, hängt von den Bildungseinrichtungen und Hochschulen ab, die dieses Fach als Teil ihres Studienangebots führen. Softwarelokalisierung kann als eigenständiges Studium angeboten werden oder in verwandten Studiengängen wie Übersetzungswissenschaften, Informatik, Sprachwissenschaften oder Technische Redaktion integriert sein. Es kann sowohl auf Bachelor- als auch auf Master-Ebene studiert werden.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Was ist Softwarelokalisierung?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Softwarelokalisierung bezieht sich auf den Prozess der Anpassung von Software oder digitalen Inhalten, wie Anwendungen, Websites oder Videospielen, an verschiedene kulturelle, sprachliche und regionale Bedürfnisse, um sie in verschiedenen Ländern und für verschiedene Zielgruppen erfolgreich zu vermarkten und zu nutzen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Wie können Ghostwriter in Softwarelokalisierung den Studierenden helfen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Ghostwriter in Softwarelokalisierung können den Studierenden auf verschiedene Weisen helfen:'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Übersetzung und Anpassung von Texten'
+                          -
+                            type: text
+                            text: ': Studierende können Ghostwriter beauftragen, um Softwaretexte, Benutzeroberflächen, Anleitungen und andere Inhalte in verschiedene Sprachen und kulturelle Kontexte zu übersetzen und anzupassen. Dies kann besonders hilfreich sein, um qualitativ hochwertige und professionelle Lokalisierungen zu gewährleisten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Unterstützung bei akademischen Arbeiten'
+                          -
+                            type: text
+                            text: ': Studierende, die sich auf das Thema Softwarelokalisierung spezialisieren oder eine Abschlussarbeit in diesem Bereich schreiben, können Ghostwriter um Hilfe bei der Recherche, dem Verfassen von wissenschaftlichen Texten und der Erstellung von Inhalten bitten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Anleitung und Beratung'
+                          -
+                            type: text
+                            text: ': Ghostwriter mit Erfahrung in Softwarelokalisierung können den Studierenden wertvolle Anleitung und Beratung bieten, um ihnen bei der Bewältigung von Herausforderungen und technischen Aspekten der Lokalisierung zu helfen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Erstellung von Schulungs- und Lernmaterialien'
+                          -
+                            type: text
+                            text: ': Ghostwriter können Lernmaterialien, Tutorials oder Schulungsunterlagen für Studierende erstellen, die ihr Wissen über Softwarelokalisierung vertiefen möchten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Unterstützung bei Projektarbeiten'
+                          -
+                            type: text
+                            text: ': Wenn Studierende im Rahmen ihres Studiums praktische Projekte in Softwarelokalisierung durchführen müssen, können Ghostwriter ihnen bei der Planung, Umsetzung und Dokumentation der Projekte helfen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
     border: false
     type: add_section
     enabled: true
