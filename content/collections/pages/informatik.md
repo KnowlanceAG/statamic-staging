@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1689784674
+updated_at: 1689784739
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -363,6 +363,13 @@ replicator:
                                           target: null
                                           rel: null
                                     text: Prüfungsleistungen
+            show_as_card: false
+          -
+            id: lk9y7638
+            bard:
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -379,7 +386,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
@@ -477,7 +484,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
@@ -489,8 +496,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        columns_per_row: 2
         responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
