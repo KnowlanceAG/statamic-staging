@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1689784986
+updated_at: 1689785121
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -283,7 +283,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Ghostwriter'
+                                  href: '#ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Informatik-Ghostwriter unterstützen Sie im Informatik-Studium'
@@ -359,7 +359,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#Prüfungsleistungen'
+                                          href: '#Prüfungsleistung'
                                           target: null
                                           rel: null
                                     text: Prüfungsleistungen
@@ -400,7 +400,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Beispiel'
+                                  href: '#beispiel'
                                   target: null
                                   rel: null
                             text: 'Beispielarbeit im Fachbereich Informatik'
@@ -454,7 +454,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Ziele'
+                                  href: '#Ziel'
                                   target: null
                                   rel: null
                             text: 'Ziele der Informatik'
