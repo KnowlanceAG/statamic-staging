@@ -138,11 +138,10 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1685395861
+updated_at: 1689886035
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1622,9 +1621,9 @@ replicator:
                                   -
                                     type: link
                                     attrs:
-                                      href: 'https://kolbi.uni-wuppertal.de/index.php?id=3747'
-                                      target: _blank
-                                      rel: 'noopener noreferrer nofollow'
+                                      href: 'https://www.kolbi.uni-wuppertal.de/index.php?id=3747'
+                                      target: null
+                                      rel: null
                                 text: 'Universität Wuppertal'
                   -
                     type: table_row
@@ -1728,7 +1727,7 @@ replicator:
                                   -
                                     type: link
                                     attrs:
-                                      href: 'https://www.anglistik.uni-wuppertal.de/de/forschung/forschungsprojekte/bilinguales-lehren-und-lernen-bill-in-der-didaktik-des-englischen/'
+                                      href: 'https://www.kolbi.uni-wuppertal.de/index.php?id=3747'
                                       target: _blank
                                       rel: 'noopener noreferrer nofollow'
                                 text: 'Universität Wuppertal'
