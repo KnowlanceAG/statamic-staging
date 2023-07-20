@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1689886035
+updated_at: 1689886561
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1397,7 +1397,7 @@ replicator:
                                   -
                                     type: link
                                     attrs:
-                                      href: 'https://uni-flensburg.de/pecc'
+                                      href: 'https://www.uni-flensburg.de/pecc'
                                       target: _blank
                                       rel: 'noopener noreferrer nofollow'
                                 text: 'Universität Flensburg'
@@ -1450,7 +1450,7 @@ replicator:
                                   -
                                     type: link
                                     attrs:
-                                      href: 'https://uni-flensburg.de/englisch/wer-wir-sind/mitarbeiterinnen-und-mitarbeiter/limberg-holger-prof-dr/research'
+                                      href: 'https://www.uni-flensburg.de/pecc'
                                       target: _blank
                                       rel: 'noopener noreferrer nofollow'
                                 text: 'Universität Flensburg'
@@ -1877,7 +1877,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://plagscan.com/de/'
+                          href: 'https://www.plagscan.com/de/'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: PlagScan
