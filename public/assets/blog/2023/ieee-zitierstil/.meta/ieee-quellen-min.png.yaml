@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'ieee quellenangabe'
 size: 28128
 last_modified: 1689946160
 width: 1115
