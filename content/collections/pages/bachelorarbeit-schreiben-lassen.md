@@ -1829,7 +1829,7 @@ replicator:
                         attrs:
                           color: '#333333'
                           hex: '#000'
-                    text: 'Die erhalten das finale Dokument, garantiert frei von Plagiaten und nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
+                    text: 'Sie erhalten das finale Dokument, garantiert frei von Plagiaten und nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
             show_as_card: false
         type: row
         enabled: true
@@ -3178,8 +3178,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
-updated_at: 1690196288
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1690202491
 template: default
 use_meta_keywords: false
 no_index_page: false
