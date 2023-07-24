@@ -152,7 +152,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei GWriters finden Sie exakt den <b><a href="/ghostwriter">akademischen Ghostwriter</a> für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an Fachrichtungen von Informatik über Maschinenbau bis Psychologie.
+                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei GWriters finden Sie exakt den <b>>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an Fachrichtungen von Informatik über Maschinenbau bis Psychologie.
                       </p>
               -
                 type: set
@@ -256,7 +256,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#bwl'
+                                  href: '#bwl-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit BWL'
@@ -277,7 +277,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#bauingenieurwesen'
+                                  href: '#bauingenieurwesen-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Bauingenieurwesen'
@@ -298,7 +298,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#elektrotechnik'
+                                  href: '#elektrotechnik-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Elektrotechnik'
@@ -319,7 +319,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#maschinenbau'
+                                  href: '#maschinenbau-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Maschinenbau'
@@ -340,7 +340,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#informatik'
+                                  href: '#informatik-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Informatik'
@@ -368,7 +368,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#jura'
+                                  href: '#jura-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Jura'
@@ -389,7 +389,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#psychologie'
+                                  href: '#psychologie-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Psychologie'
@@ -410,7 +410,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#chemie'
+                                  href: '#chemie-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Chemie'
@@ -431,7 +431,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#sozialearbeit'
+                                  href: '#sozialearbeit-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Soziale Arbeit'
@@ -1102,7 +1102,7 @@ replicator:
                               id: lj4faow3
                               values:
                                 type: anchor_target
-                                anchor_name: bwl
+                                anchor_name: bwl-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1134,7 +1134,7 @@ replicator:
                               id: lj4fbr24
                               values:
                                 type: anchor_target
-                                anchor_name: jura
+                                anchor_name: jura-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1166,7 +1166,7 @@ replicator:
                               id: lj4fcaez
                               values:
                                 type: anchor_target
-                                anchor_name: maschinenbau
+                                anchor_name: maschinenbau-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1198,7 +1198,7 @@ replicator:
                               id: lj4fcvlb
                               values:
                                 type: anchor_target
-                                anchor_name: informatik
+                                anchor_name: informatik-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1230,7 +1230,7 @@ replicator:
                               id: lj4fdels
                               values:
                                 type: anchor_target
-                                anchor_name: elektrotechnik
+                                anchor_name: elektrotechnik-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1262,7 +1262,7 @@ replicator:
                               id: lj4ff6oe
                               values:
                                 type: anchor_target
-                                anchor_name: bauingenieurwesen
+                                anchor_name: bauingenieurwesen-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1294,7 +1294,7 @@ replicator:
                               id: lj4ffqmq
                               values:
                                 type: anchor_target
-                                anchor_name: psychologie
+                                anchor_name: psychologie-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1409,7 +1409,7 @@ replicator:
                               id: lj4fgafn
                               values:
                                 type: anchor_target
-                                anchor_name: chemie
+                                anchor_name: chemie-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1441,7 +1441,7 @@ replicator:
                               id: lj4fgzs0
                               values:
                                 type: anchor_target
-                                anchor_name: sozialearbeit
+                                anchor_name: sozialearbeit-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -3165,8 +3165,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1687274320
+updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
+updated_at: 1690192928
 template: default
 use_meta_keywords: false
 no_index_page: false
