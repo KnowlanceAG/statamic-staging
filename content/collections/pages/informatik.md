@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1688493235
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1689785326
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -171,6 +171,342 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lk9xozzc
+    columns_replicator:
+      -
+        id: lk9xp1x1
+        single_col: true
+        grid:
+          -
+            id: 3aYw7DzZ
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#informatik'
+                                  target: null
+                                  rel: null
+                            text: 'Definition: Informatik'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Leistungen'
+                                  target: null
+                                  rel: null
+                            text: 'Unsere Leistungen im Fachbereich Informatik'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'Informatik-Ghostwriter unterstützen Sie im Informatik-Studium'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#grund'
+                                  target: null
+                                  rel: null
+                            text: 'Grund für das Informatik-Studium'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#inhalte'
+                                  target: null
+                                  rel: null
+                            text: 'Studieninhalte des Informatikstudiums'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Aufbau'
+                                  target: null
+                                  rel: null
+                            text: 'Aufbau des Informatikstudiums'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Prufungsleistung'
+                                          target: null
+                                          rel: null
+                                    text: Prüfungsleistungen
+            show_as_card: false
+          -
+            id: lk9y7638
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lk9y8847
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: paragraph
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Beispielarbeit'
+                                  target: null
+                                  rel: null
+                            text: 'Beispielarbeit im Fachbereich Informatik'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Allgemein'
+                                  target: null
+                                  rel: null
+                            text: 'Allgemeines zur Informatik'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Disziplin'
+                                          target: null
+                                          rel: null
+                                    text: 'Disziplinen der Informatik'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Ziel'
+                                  target: null
+                                  rel: null
+                            text: 'Ziele der Informatik'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Beruf'
+                                  target: null
+                                  rel: null
+                            text: 'Berufsbilder im Informatiksektor'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Software'
+                                  target: null
+                                  rel: null
+                            text: 'Subdisziplin: Softwarelokalisierung'
+            show_as_card: false
+        type: row
+        enabled: true
+        columns_per_row: 2
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -282,6 +618,13 @@ replicator:
             id: HMjGOEna
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xq2p6
+                  values:
+                    type: anchor_target
+                    anchor_name: informatik
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -370,6 +713,15 @@ replicator:
             id: 93rSTbZP
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xqorm
+                  values:
+                    type: anchor_target
+                    anchor_name: Leistungen
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -386,7 +738,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich BWL'
+                    text: 'Unsere Leistungen im Fachbereich Informatik'
               -
                 type: set
                 attrs:
@@ -457,6 +809,15 @@ replicator:
           -
             id: ryarPnV4
             bard:
+              -
+                type: set
+                attrs:
+                  id: lk9xrpmp
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -680,6 +1041,15 @@ replicator:
           -
             id: KC9aujGw
             bard:
+              -
+                type: set
+                attrs:
+                  id: lk9xsy3b
+                  values:
+                    type: anchor_target
+                    anchor_name: grund
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1613,6 +1983,13 @@ replicator:
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
               -
+                type: set
+                attrs:
+                  id: lk9xugvl
+                  values:
+                    type: anchor_target
+                    anchor_name: inhalte
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1970,6 +2347,13 @@ replicator:
             id: REiGiqsl
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xxso8
+                  values:
+                    type: anchor_target
+                    anchor_name: Aufbau
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2046,6 +2430,15 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+              -
+                type: set
+                attrs:
+                  id: lk9xxhp0
+                  values:
+                    type: anchor_target
+                    anchor_name: Prufungsleistung
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2141,6 +2534,15 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lk9xx8v5
+                  values:
+                    type: anchor_target
+                    anchor_name: Beispielarbeit
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
                   id: hc7lAaBP
                   values:
                     type: example_work
@@ -2178,6 +2580,15 @@ replicator:
             id: 5nqVbAOQ
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xwu6g
+                  values:
+                    type: anchor_target
+                    anchor_name: Allgemein
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2212,6 +2623,15 @@ replicator:
                   -
                     type: text
                     text: 'Hinzu kommt eine Informatik, die sich politischen Regeln unterwirft. Unter dem Motto „Netzpolitik ist Wirtschaftspolitik“ hat sich beispielsweise in Deutschland ein Kompetenzzentrum in Zusammenarbeit von Bundesministerien und den entsprechenden Fachgesellschaften der Informatik entstanden.'
+              -
+                type: set
+                attrs:
+                  id: lk9xwnit
+                  values:
+                    type: anchor_target
+                    anchor_name: Disziplin
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2272,7 +2692,7 @@ replicator:
                     type: hard_break
                   -
                     type: text
-                    text: '• die angewandte Informatik.'
+                    text: '• die angewandte Informatik'
               -
                 type: heading
                 attrs:
@@ -2396,6 +2816,11 @@ replicator:
                     type: hard_break
                   -
                     type: text
+                    text: '• Softwarelokalisierung'
+                  -
+                    type: hard_break
+                  -
+                    type: text
                     text: '• Rechnerkommunikationen und'
                   -
                     type: hard_break
@@ -2490,6 +2915,15 @@ replicator:
             id: nK7RhBoC
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xw14p
+                  values:
+                    type: anchor_target
+                    anchor_name: Ziel
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2556,6 +2990,13 @@ replicator:
             id: o1GpioE6
             bard:
               -
+                type: set
+                attrs:
+                  id: lk9xvhvt
+                  values:
+                    type: anchor_target
+                    anchor_name: Beruf
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2587,6 +3028,185 @@ replicator:
     bg_toggle: true
     bg_image: seiten/fachrichtungen/informatik-ghostwriter.jpg
     bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lk9x77rr
+    columns_replicator:
+      -
+        id: lk9x79dc
+        single_col: true
+        grid:
+          -
+            id: 3aYw7DzZ
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lk9xv72x
+                  values:
+                    type: anchor_target
+                    anchor_name: Software
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter im Softwarelokalisierung (Subdisziplin)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Möglichkeit, Softwarelokalisierung zu studieren, hängt von den Bildungseinrichtungen und Hochschulen ab, die dieses Fach als Teil ihres Studienangebots führen. Softwarelokalisierung kann als eigenständiges Studium angeboten werden oder in verwandten Studiengängen wie Übersetzungswissenschaften, Informatik, Sprachwissenschaften oder Technische Redaktion integriert sein. Es kann sowohl auf Bachelor- als auch auf Master-Ebene studiert werden.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Was ist Softwarelokalisierung?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Softwarelokalisierung bezieht sich auf den Prozess der Anpassung von Software oder digitalen Inhalten, wie Anwendungen, Websites oder Videospielen, an verschiedene kulturelle, sprachliche und regionale Bedürfnisse, um sie in verschiedenen Ländern und für verschiedene Zielgruppen erfolgreich zu vermarkten und zu nutzen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Wie können Ghostwriter in Softwarelokalisierung den Studierenden helfen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Ghostwriter in Softwarelokalisierung können den Studierenden auf verschiedene Weisen helfen:'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Übersetzung und Anpassung von Texten'
+                          -
+                            type: text
+                            text: ': Studierende können Ghostwriter beauftragen, um Softwaretexte, Benutzeroberflächen, Anleitungen und andere Inhalte in verschiedene Sprachen und kulturelle Kontexte zu übersetzen und anzupassen. Dies kann besonders hilfreich sein, um qualitativ hochwertige und professionelle Lokalisierungen zu gewährleisten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Unterstützung bei akademischen Arbeiten'
+                          -
+                            type: text
+                            text: ': Studierende, die sich auf das Thema Softwarelokalisierung spezialisieren oder eine Abschlussarbeit in diesem Bereich schreiben, können Ghostwriter um Hilfe bei der Recherche, dem Verfassen von wissenschaftlichen Texten und der Erstellung von Inhalten bitten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Anleitung und Beratung'
+                          -
+                            type: text
+                            text: ': Ghostwriter mit Erfahrung in Softwarelokalisierung können den Studierenden wertvolle Anleitung und Beratung bieten, um ihnen bei der Bewältigung von Herausforderungen und technischen Aspekten der Lokalisierung zu helfen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Erstellung von Schulungs- und Lernmaterialien'
+                          -
+                            type: text
+                            text: ': Ghostwriter können Lernmaterialien, Tutorials oder Schulungsunterlagen für Studierende erstellen, die ihr Wissen über Softwarelokalisierung vertiefen möchten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Unterstützung bei Projektarbeiten'
+                          -
+                            type: text
+                            text: ': Wenn Studierende im Rahmen ihres Studiums praktische Projekte in Softwarelokalisierung durchführen müssen, können Ghostwriter ihnen bei der Planung, Umsetzung und Dokumentation der Projekte helfen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
     border: false
     type: add_section
     enabled: true
