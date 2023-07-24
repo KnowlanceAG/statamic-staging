@@ -655,6 +655,19 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lkgq94ms
+                  values:
+                    type: button
+                    button_link: 'entry::a0a35314-4e42-429e-ae58-9c7bd8fae01c'
+                    button_text: 'MEHR ÜBER UNSERE GHOSTWRITER'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
                   id: liaqntch
                   values:
                     type: spacer
@@ -3166,7 +3179,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
-updated_at: 1690192928
+updated_at: 1690194940
 template: default
 use_meta_keywords: false
 no_index_page: false
