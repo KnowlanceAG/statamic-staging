@@ -88,6 +88,11 @@ fields:
                 fields:
                   -
                     import: anchor_target
+              button:
+                display: Button
+                fields:
+                  -
+                    import: ce_button
             antlers: false
             remove_empty_nodes: false
         -
