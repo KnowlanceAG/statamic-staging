@@ -3178,8 +3178,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1690202509
+updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
+updated_at: 1690287423
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3200,107 +3200,42 @@ page_title: 'Bachelorarbeit schreiben lassen'
 schema_objects: |-
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "Was ist eine Bachelorarbeit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Eine Bachelorarbeit ist die wissenschaftliche Abschlussarbeit nach einem Bachelorstudium. Sie umfasst in der Regel eine Einleitung, Literaturübersicht, Methodik, Ergebnisse, Diskussion und Schlussfolgerung.
-
-  Der Bachelorabschluss ist der erste akademische Grad, der innerhalb der EU und einigen englischsprachigen Ländern an Universitäten erreicht werden kann.
-
-  In Deutschland wird der Bachelortitel im Zuge einer Hochschulprüfung verliehen. Dazu müssen Studierende im Verlauf der Hochschulzeit eine gewisse Anzahl an ECTS-Punkten erreichen. Den Studienabschluss bildet ein schriftlicher Leistungsnachweis sowie eine mündliche Abschlussprüfung. Das Schreiben einer Bachelorarbeit (Bachelor Thesis) dabei die gängige Form des schriftlichen Examens.
-
-  Die Note der Bachelor Thesis beeinflusst die Gesamtabschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden und eine tiefgehende Recherche nach Literatur sind dabei grundlegend für den Erfolg."
-      }
+    "@context": "https://schema.org/", 
+    "@type": "HowTo", 
+    "name": "Bachelorarbeit schreiben lassen",
+    "description": "Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei GWriters finden Sie exakt den akademischen Ghostwriter für Ihre Bachelorarbeit, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an Fachrichtungen von Informatik über Maschinenbau bis Psychologie.",
+    "image": "https://gwriters.de/assets/webseite/brand_gwriters.png",
+    "totalTime": "P2W",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": "3000"
+    },
+    "step": [{
+      "@type": "HowToStep",
+      "text": "Sie kontaktieren uns über das Anfrageformular oder telefonisch. Ein Kundenberater meldet sich umgehend für ein unverbindliches Erstgespräch.",
+      "image": "https://gwriters.de/assets/seiten/so-funktioniert-es/icon-anfrage-orange.svg",
+      "name": "Kostenlose Anfrage",
+      "url": "https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen#zusammenarbeit"
     },{
-      "@type": "Question",
-      "name": "Welche (formalen) Kriterien muss ich beim Schreiben der Bachelorarbeit beachten?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Je nach Fachrichtung und Institution umfasst die Bachelor Thesis 20 bis 60 Seiten inklusive Inhaltsverzeichnis und Exposé. Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig für die Formatierung erwiesen. Laut Prüfungsordnung gelten diese Voraussetzungen:
-
-  Gliederung:
-
-  Deckblatt
-
-  Abstract
-
-  Vorwort
-
-  Inhaltsverzeichnis (Kapitel, Unterkapitel)
-
-  Abbildungsverzeichnis und Tabellenverzeichnis
-
-  Abkürzungsverzeichnis
-
-  Einleitung
-
-  Haupttei
-
-  Schlussteil/Fazit
-
-  Literaturverzeichnis
-
-  Anhang
-
-  Eidesstattliche Erklärung/ Eigenständigkeitserklärung
-
-   Formatierung:
-
-  Schriftart: Times New Roman (oder Arial Größe 11)
-
-  Schriftgröße: 12 Punkt
-
-  Zeilenabstand: 1,5
-
-  Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm
-
-  Absatzformat: Blocksatz (auf Trennung achten)
-
-  Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand
-
-  Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand
-
-  Fußnoten: Schriftgröße 10
-
-  Seitenzahlen: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Bachelorarbeit, Literaturverzeichnis und Anhang"
-      }
+      "@type": "HowToStep",
+      "text": "Sie erhalten ein unverbindliches, individuell auf Sie zugeschnittenes Angebot inklusive vorläufiger Auftragsplanung.",
+      "image": "https://gwriters.de/assets/seiten/so-funktioniert-es/icon-angebot-orange.svg",
+      "name": "Unverbindliches Angebot",
+      "url": "https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen#zusammenarbeit"
     },{
-      "@type": "Question",
-      "name": "Was kostet eine Bachelorarbeit Normseite, wenn ich eine Mustervorlage von einem Ghostwriter schreiben lasse?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Unsere Preise für Ihre Bachelorarbeit in Jura, BWL und anderen Fachbereichen beginnen ab 80,- € pro Normseite. Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis gelten nicht als Normseite und  sind gratis inkludiert."
-      }
+      "@type": "HowToStep",
+      "text": "Nach Auftragserteilung schreiben wir die Mustervorlage für Ihre Bachelorarbeit. Sie erhalten regelmäßig Zwischenstände, Feedbacks setzen wir kostenfrei um.",
+      "image": "https://gwriters.de/assets/seiten/so-funktioniert-es/icon-auftrag-orange.svg",
+      "name": "Wir schreiben für Sie",
+      "url": "https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen#zusammenarbeit"
     },{
-      "@type": "Question",
-      "name": "Ist es legal, wenn ich die Vorlage für meine Bachelorarbeit vom Ghostwriter schreiben lasse?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ja, Ghostwriting ist Deutschland legal, wenn man sich an Regeln hält Der Auftraggeber eines Ghostwriting-Bachelorarbeit kann in jedem Falle das Werk als Mustervorlage bei der Erstellung seiner eigenen Arbeit verwenden. Es kann ebenso verwendet werden, um den Stand der Forschung vorab zu klären bzw. die eigene Recherche zu überprüfen etc. Ausführliche Informationen zum finden Sie hier: Ist Ghostwriting strafbar?"
-      }
-    },{
-      "@type": "Question",
-      "name": "Kann ich auch meine Bachelorarbeit auch auf Englisch oder in einer anderen Sprache schreiben lassen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Selbstverständlich. Unsere Ghostwriting-Agentur verfügt über ein umfangreiches und vielfältiges Team von Autoren, die in verschiedenen Sprachen versiert sind. Unabhängig davon, ob Sie Ihre Bachelorarbeit in Englisch, Deutsch, Französisch, Spanisch oder einer anderen Sprache verfassen möchten, können wir einen passenden muttersprachlichen Autor für Sie finden. Unsere Autoren sind nicht nur sprachlich kompetent, sondern haben auch ein tiefes Verständnis der kulturellen und akademischen Kontexte, die mit ihren jeweiligen Sprachen verbunden sind. Dies stellt sicher, dass Ihre Arbeit nicht nur sprachlich korrekt, sondern auch inhaltlich relevant und kulturell angemessen ist."
-      }
-    },{
-      "@type": "Question",
-      "name": "Wie lange braucht ein Ghostwriter, um die Mustervorlage meiner Bachelorarbeit zu schreiben?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Die Dauer für das Verfassen einer Bachelorarbeit durch einen Ghostwriter hängt von verschiedenen Faktoren ab, darunter die Komplexität des Themas, die erforderliche Forschung und die Länge der Arbeit. Im Allgemeinen können Sie jedoch erwarten, dass der Prozess mehrere Wochen dauert.
-
-  Dieser Zeitraum beinhaltet nicht nur das tatsächliche Schreiben, sondern auch die Zeit für die Forschung, die Planung der Arbeit, die Überprüfung und das Korrekturlesen. Darüber hinaus ermöglicht es auch eine angemessene Zeit für die Überprüfung und mögliche Überarbeitungen basierend auf Ihrem Feedback.
-
-  Es ist wichtig zu beachten, dass eine gute Bachelorarbeit Zeit und Sorgfalt erfordert. Unsere Ghostwriter sind bemüht, hochwertige Arbeiten zu liefern, und wir empfehlen daher, genügend Zeit für den Prozess einzuplanen. Eine stark eingeschränkte Bearbeitungszeit kann zu zusätzlichen Kosten führen, da sie den Autor dazu zwingt, innerhalb eines begrenzten Zeitrahmens zu arbeiten. Daher empfehlen wir, uns so früh wie möglich zu kontaktieren, um sicherzustellen, dass Ihre Bachelorarbeit rechtzeitig und zu Ihrer Zufriedenheit abgeschlossen wird."
-      }
-    }]
+      "@type": "HowToStep",
+      "text": "Sie erhalten das finale Dokument, garantiert frei von Plagiaten und nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.",
+      "image": "https://gwriters.de/assets/seiten/so-funktioniert-es/icon-lieferung-orange.svg",
+      "name": "Finale Lieferung",
+      "url": "https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen#zusammenarbeit"
+    }]    
   }
   </script>
 ---
