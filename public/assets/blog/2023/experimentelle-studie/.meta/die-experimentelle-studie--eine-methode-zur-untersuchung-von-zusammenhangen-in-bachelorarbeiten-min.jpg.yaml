@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'experimentelle Studie'
 size: 48297
 last_modified: 1689953003
 width: 886
