@@ -152,7 +152,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei GWriters finden Sie exakt den <b><a href="/ghostwriter">akademischen Ghostwriter</a> für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an Fachrichtungen von Informatik über Maschinenbau bis Psychologie.
+                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an Fachrichtungen von Informatik über Maschinenbau bis Psychologie.
                       </p>
               -
                 type: set
@@ -256,7 +256,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#bwl'
+                                  href: '#bwl-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit BWL'
@@ -277,7 +277,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#bauingenieurwesen'
+                                  href: '#bauingenieurwesen-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Bauingenieurwesen'
@@ -298,7 +298,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#elektrotechnik'
+                                  href: '#elektrotechnik-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Elektrotechnik'
@@ -319,7 +319,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#maschinenbau'
+                                  href: '#maschinenbau-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Maschinenbau'
@@ -340,7 +340,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#informatik'
+                                  href: '#informatik-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Informatik'
@@ -368,7 +368,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#jura'
+                                  href: '#jura-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Jura'
@@ -389,7 +389,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#psychologie'
+                                  href: '#psychologie-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Psychologie'
@@ -410,7 +410,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#chemie'
+                                  href: '#chemie-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Chemie'
@@ -431,7 +431,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#sozialearbeit'
+                                  href: '#sozialearbeit-ghostwriter'
                                   target: null
                                   rel: null
                             text: 'Ghostwriter Bachelorarbeit Soziale Arbeit'
@@ -652,6 +652,19 @@ replicator:
                   -
                     type: text
                     text: '✔️haben als Doktoren und Professoren die nötige wissenschaftliche Erfahrung.'
+              -
+                type: set
+                attrs:
+                  id: lkgq94ms
+                  values:
+                    type: button
+                    button_link: 'entry::a0a35314-4e42-429e-ae58-9c7bd8fae01c'
+                    button_text: 'MEHR ÜBER UNSERE GHOSTWRITER'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -1102,7 +1115,7 @@ replicator:
                               id: lj4faow3
                               values:
                                 type: anchor_target
-                                anchor_name: bwl
+                                anchor_name: bwl-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1134,7 +1147,7 @@ replicator:
                               id: lj4fbr24
                               values:
                                 type: anchor_target
-                                anchor_name: jura
+                                anchor_name: jura-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1166,7 +1179,7 @@ replicator:
                               id: lj4fcaez
                               values:
                                 type: anchor_target
-                                anchor_name: maschinenbau
+                                anchor_name: maschinenbau-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1198,7 +1211,7 @@ replicator:
                               id: lj4fcvlb
                               values:
                                 type: anchor_target
-                                anchor_name: informatik
+                                anchor_name: informatik-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1230,7 +1243,7 @@ replicator:
                               id: lj4fdels
                               values:
                                 type: anchor_target
-                                anchor_name: elektrotechnik
+                                anchor_name: elektrotechnik-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1262,7 +1275,7 @@ replicator:
                               id: lj4ff6oe
                               values:
                                 type: anchor_target
-                                anchor_name: bauingenieurwesen
+                                anchor_name: bauingenieurwesen-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1294,7 +1307,7 @@ replicator:
                               id: lj4ffqmq
                               values:
                                 type: anchor_target
-                                anchor_name: psychologie
+                                anchor_name: psychologie-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1409,7 +1422,7 @@ replicator:
                               id: lj4fgafn
                               values:
                                 type: anchor_target
-                                anchor_name: chemie
+                                anchor_name: chemie-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1441,7 +1454,7 @@ replicator:
                               id: lj4fgzs0
                               values:
                                 type: anchor_target
-                                anchor_name: sozialearbeit
+                                anchor_name: sozialearbeit-ghostwriter
                           -
                             type: paragraph
                             content:
@@ -1816,7 +1829,7 @@ replicator:
                         attrs:
                           color: '#333333'
                           hex: '#000'
-                    text: 'Die erhalten das finale Dokument, garantiert frei von Plagiaten und nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
+                    text: 'Sie erhalten das finale Dokument, garantiert frei von Plagiaten und nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
             show_as_card: false
         type: row
         enabled: true
@@ -2998,7 +3011,7 @@ replicator:
                         attrs:
                           href: 'https://www.bmbf.de/de/der-bologna-prozess-die-europaeische-studienreform-1038.html'
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          rel: 'noopener noreferrer'
                     text: 'Bologna Prozess - Deutsches Bundesministerium für Bildung und Forschung'
                   -
                     type: hard_break
@@ -3024,7 +3037,7 @@ replicator:
                         attrs:
                           href: 'https://www2.daad.de/hochschulen/ausschreibungen/projekte/de/11342-foerderprogramme-finden/?projektid=57317077&s=1'
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          rel: 'noopener noreferrer'
                     text: 'Bachelor Plus - Deutscher Akademischer Austauschdienst'
                   -
                     type: hard_break
@@ -3050,7 +3063,7 @@ replicator:
                         attrs:
                           href: 'http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=LEGISSUM:c11088'
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          rel: 'noopener noreferrer'
                     text: 'Bologna Prozess - Europäisches Recht'
                   -
                     type: hard_break
@@ -3076,7 +3089,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Ghostwriter'
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          rel: 'noopener noreferrer'
                     text: 'Ghostwriter - Wikipedia'
                   -
                     type: hard_break
@@ -3102,7 +3115,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Bachelorarbeit'
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          rel: 'noopener noreferrer'
                     text: 'Bachelorarbeit - Wikipedia'
                   -
                     type: hard_break
@@ -3128,7 +3141,7 @@ replicator:
                         attrs:
                           href: 'https://www.bildungsserver.de/Zur-Einfuehrung-von-Bachelor-und-Master-Studiengaengen-in-Deutschland-2534-de.html'
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          rel: 'noopener noreferrer'
                     text: 'Zur Einführung von Bachelor- und Masterstudiengängen - Deutscher Bildungsserver'
               -
                 type: paragraph
@@ -3166,7 +3179,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1687274320
+updated_at: 1690202509
 template: default
 use_meta_keywords: false
 no_index_page: false
