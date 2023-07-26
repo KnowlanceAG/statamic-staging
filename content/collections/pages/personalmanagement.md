@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690385280
+updated_at: 1690385440
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1647,40 +1647,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: lkjvg6dt
-    columns_replicator:
-      -
-        id: lkjvg801
-        single_col: false
-        grid:
-          -
-            id: wk4wBu2X
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lkjvgd8q
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/fachrichtungen/personalmanagement-ghostwriter.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
     id: YWzQxnl2
     columns_replicator:
       -
@@ -1698,102 +1664,64 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufbau eines BWL-Studiums'
+                    text: 'Belegarbeiten für das Studium Personalmanagement'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'ein duales Studium oder durch ein Vollzeitstudium'
-                  -
-                    type: text
-                    text: ' an einer Universität oder Fachhochschule erlangen. '
+                    text: 'Das Studium ist vom Aufbau her mit anderen Studiengängen vergleichbar: Sie besuchen Vorlesungen und Seminare. Als Beleg müssen Sie mehrere Hausarbeiten, unter anderem in Personalmanagement schreiben. Hierbei kann Sie ein Ghostwriter für Personalmanagement unterstützen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'berufsbegleitende Fachbereiche'
-                  -
-                    type: text
-                    text: ', die sich auf ein bestimmtes Themenfeld (z.B. '
+                    text: 'Dieser Stundenplan der '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/marketing
+                          href: 'https://www.thm.de/organizer/veranstaltungen/fb-07-wirtschaft/stundenplaene.html'
                           target: null
                           rel: null
-                    text: Marketing
+                    text: 'THM Mittelhessen'
                   -
                     type: text
-                    text: ') konzentrieren.'
+                    text: ' zeigt beispielhaft den Aufbau eines Studiums in Personalmanagement. Sie sehen, dass in einem Semester allein vier Seminararbeiten angefertigt werden müssen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Bachelorarbeit (Bachelor Thesis)'
-                  -
-                    type: text
-                    text: ' und die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeit (Master Thesis)'
-                  -
-                    type: text
-                    text: '. Optional kann darauf aufbauend die '
+                    text: 'Sie können von unseren Experten die Vorlage für eine '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /promotionsberatung
+                          href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
                           target: null
                           rel: null
-                    text: Promotion
+                    text: 'Seminararbeit schreiben lassen'
                   -
                     type: text
-                    text: ' erfolgen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein '
+                    text: '. Ghostwriter kennen sich in den Bereichen Marketing, Recht und Controlling aus und können Ihnen wertvolle Tipps geben. Außerdem haben unsere Autoren Kontakte zu Unternehmen. Das kann nützlich sein, weil im Personalmanagement-Studium auch Praktika vorgesehen sind. Für die Dokumentation können Sie sich an diesen Vorgaben zum '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'BWL-Ghostwriter hilft Doktoranden'
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/praktikumsbericht-vorlage'
+                          target: null
+                          rel: null
+                    text: Praktikumsbericht
                   -
                     type: text
-                    text: ' durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
+                    text: ' orientieren. Wenn Sie sprachlich unsicher sind, kann auch ein Lektorat einzeln gebucht werden.'
             show_as_card: false
           -
             id: DZ7MWmhN
@@ -1805,7 +1733,7 @@ replicator:
                   values:
                     type: bilder
                     assets:
-                      - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
+                      - seiten/fachrichtungen/stundenplan-personalmanagement.png
                     has_border: false
             show_as_card: false
         type: row
