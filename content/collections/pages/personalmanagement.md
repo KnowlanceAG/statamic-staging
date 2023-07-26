@@ -140,7 +140,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690384126
+updated_at: 1690385245
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1563,147 +1563,120 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Allgemeines zur BWL'
+                    text: 'Studium und Weiterbildung Personalmanagement'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Die Betriebswirtschaftslehre (BWL), auch Betriebsökonomie genannt, ist ein Teilgebiet der\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
-                  -
-                    type: text
-                    text: "\_(WiWi). Sie ist eng verwandt mit der "
+                    text: 'Personalmanagement ist sehr umfassend und sollte daher von der Pike auf gelernt werden. In Deutschland gibt es inzwischen '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/vwl
+                          href: 'https://www.personalmanagement-studieren.de/studiengaenge/personalmanagement/#hochschulen-finden'
                           target: null
                           rel: null
-                    text: Volkswirtschaftslehre
+                    text: '55 Hochschulen'
                   -
                     type: text
-                    text: ' ('
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                    text: VWL
-                  -
-                    type: text
-                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
+                    text: ', die Personalmanagement als Studium anbieten. Grundsätzlich ist Personalmanagement inzwischen ein wesentliches Teilgebiet von BWL. Wer sich für Personalmanagement interessiert, kann jedoch verschiedene Studiengänge wählen. Die folgende Grafik zeigt, in welchen Wissenschaften Personalmanagement ein Thema ist.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft '
+                    text: 'Wer BWL, VWL oder International Business studiert, begegnet dort zwangsläufig auch entsprechenden Inhalten. Es kann also auch in diesen Studiengängen nützlich sein, mit einem Ghostwriter für Personalmanagement zusammenzuarbeiten. Sollten Sie eine Mustervorlage für eine '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Entscheidungen zur Förderung des Unternehmenserfolgs'
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/bachelorarbeit-thema'
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit in BWL'
                   -
                     type: text
-                    text: '. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
-              -
-                type: set
-                attrs:
-                  id: nO2F1RVY
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/besipielarbeit.JPG
-                    ex_title: 'BWL Seminararbeit Beispiel jetzt KOSTENLOS herunterladen!'
-                    ex_type: Seminararbeit
-                    ex_pages: '12'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
-                    ex_button_text: Download
-                    ex_spacing_top: false
-                    ex_fachbereich:
-                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                    text: ' benötigen, dann arbeiten unsere Experten aus BWL und Personalmanagement zusammen.'
               -
                 type: heading
                 attrs:
                   level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Karriereaussichten nach dem BWL-Studium'
+            show_as_card: false
+          -
+            id: lkjv3low
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkjvdc9h
+                  values:
+                    type: spacer
+                    padding-y: 40
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Management eines Unternehmens'
-                  -
-                    type: text
-                    text: ' arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Karrierechancen sehr gut'
-                  -
-                    type: text
-                    text: ' sind.'
+                    text: 'Vom Aufbau her ähneln sich die Studiengänge zum Personalmanagement. Studenten dieser Fachrichtungen befassen sich mit einem betriebswirtschaftlichen Anteil – ein weiterer Schwerpunkt liegt auf dem Personalwesen. Zum BWL-Teil gehören Wirtschaftsmathematik, Rechnungswesen, Buchführung und Bilanzierung, Wirtschaftsrecht sowie Controlling. In den Lehrveranstaltungen zum Personalwesen lernen Sie das Wesentliche über Personalmarketing, Personalentwicklung und Personalmanagement. Wichtige Inhalte in diesem Schwerpunkt sind auch das Arbeits- und Sozialrecht.'
+              -
+                type: set
+                attrs:
+                  id: lkjvp8yf
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/personalmanagement-ghostwriter.png
+                    img_size: w-1/2
+                    float: mx-auto
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen'
-                  -
-                    type: text
-                    text: '. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        columns_per_row: 2
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lkjvg6dt
+    columns_replicator:
+      -
+        id: lkjvg801
+        single_col: false
+        grid:
+          -
+            id: wk4wBu2X
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkjvgd8q
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/personalmanagement-ghostwriter.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: false
+    remove_spacing: true
     is_full: false
     border: false
     type: add_section
