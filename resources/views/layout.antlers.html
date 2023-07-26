@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site:locale replace="_|-" lower="true" }}" class="max-w-screen overflow-x-hidden">
+<html lang="{{ site:locale replace="_|-" lower="true" }}" class="overflow-x-hidden max-w-screen">
 
 <head>
   <meta charset="utf-8">
@@ -107,7 +107,7 @@
 </head>
 
 <body
-  class="{{ if id == "home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen"
+  class="{{ if id == "home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-36 body {{ template }} w-screen"
   tabIndex=0>
   {{ partial src="partials/analytics_body" }}
   {{ aardvark-seo:body }}

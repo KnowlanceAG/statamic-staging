@@ -1,10 +1,9 @@
 ---
 id: 942c2c8b-0964-473f-bd8d-10426b828eb8
-published: false
 blueprint: pages
 title: test
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1687454036
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1690200987
 replicator:
   -
     id: laieiq4o
@@ -416,6 +415,20 @@ replicator:
           -
             id: tDcwoCN0
             bard:
+              -
+                type: set
+                attrs:
+                  id: lkgr5hdy
+                  values:
+                    type: button
+                    button_link: /
+                    button_text: 'Teest buttton'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+                    btn_icon: logo-startseite/icon-akademische-qualitaet.svg
+              -
+                type: paragraph
               -
                 type: set
                 attrs:

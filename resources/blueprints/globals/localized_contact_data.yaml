@@ -23,6 +23,18 @@ sections:
           input_type: text
           antlers: false
       -
+        handle: whatsapp_de_DE
+        field:
+          input_type: text
+          antlers: false
+          display: 'WhatsApp DE'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: phone_de_CH
         field:
           type: text
@@ -42,3 +54,15 @@ sections:
           visibility: visible
           input_type: text
           antlers: false
+      -
+        handle: whatsapp_de_CH
+        field:
+          input_type: text
+          antlers: false
+          display: 'WhatsApp CH'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
