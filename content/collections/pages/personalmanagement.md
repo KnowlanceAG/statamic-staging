@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690385584
+updated_at: 1690385778
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1773,96 +1773,76 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Inhalte des BWL-Studiums'
+                    text: 'Bachelorarbeit Personalmanagement: Mögliche Themen'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In dem '
+                    text: 'Eine Bachelorarbeit in Personalmanagement kann durchaus auch theoriebezogen sein. Deutlich häufiger sind jedoch konkrete Anwendungsthemen. Mögliche Themen können sein:'
+              -
+                type: bullet_list
+                content:
                   -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: bold
-                    text: 'betriebswirtschaftlichen Studium'
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Eignung der Balanced Scorecard als strategisches Steuerungsinstrument im Personalmanagement von KMU'
                   -
-                    type: text
-                    text: ' lernen Studenten u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: bold
-                    text: Praxiseinheiten
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Steigerung der Arbeitgeberattraktivität. Handlungsempfehlungen für das Personalmanagement zur Gewinnung, Entwicklung und Bindung der Generation Y'
                   -
-                    type: text
-                    text: ' (Praktika) und '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: bold
-                    text: Projektarbeiten
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'nternationales Personalmanagement. Länderspezifische Unterschiede bei Personalrekrutierung und Personalauswahl'
                   -
-                    type: text
-                    text: ' wesentliche Elemente des Studiums, die das erlernte Fachwissen vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studenten eine hohe Bedeutung zugeschrieben.'
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Auswirkungen des demographischen Wandel auf das strategische Personalmanagement'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Einfluss der Industrie 4.0 auf das Personalmanagement'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Fachwissens bilden Grundlagenfächer/Pflichtbereiche wie '
+                    text: 'Die genannten Themen lassen sich prinzipiell auch in einer Masterarbeit in Personalmanagement behandeln. Alle Themenvorschläge zeigen, dass sich im Personalmanagement '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: "Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
+                    text: 'verschiedene Wissenschaftsrichtungen überschneiden'
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Marketing
-                  -
-                    type: text
-                    text: '. Diese Grundlagenfächer werden in höheren Semestern durch Schwerpunkte, die der Student wählt, weiter vertieft.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Planung (Businessplan, Marketingkonzept), Organisation und Analyse'
-                  -
-                    type: text
-                    text: ' sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenbereiche '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Marketing, Personal, Controlling und Finanzen oder auch Produktion'
-                  -
-                    type: text
-                    text: ' erwähnt werden.'
+                    text: '. Wenn Sie über die Herausforderungen des Personalmanagements gegenüber der Generation Y schreiben wollen, sind Kenntnisse in Psychologie und Soziologie Voraussetzung.'
               -
                 type: set
                 attrs:
