@@ -1128,6 +1128,17 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Unsere BWL-Ghostwriter sind stets up-to-date und nah an der Forschung, um die Aktualität der Themenstellungen und Inhalte zu gewährleisten. Sie haben vielfältige Erfahrung im unternehmerischen Kontext, um Forschungsergebnisse in der Praxis bewerten zu können. Die Grundlagen der Betriebswirtschaftslehre sind selbstverständlich, viele unserer Ghostwriter haben zudem in diesem Fach promoviert. Ihre Bachelorarbeit ist also in den besten Händen.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjvyx3h
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
                         active: false
                       -
                         id: lj4fb1u3
@@ -1160,6 +1171,17 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Die Anforderungen für eine professionelle Bachelorarbeit in Jura sind besonders hoch. Ghostwriter müssen nicht nur den Gutachten- und Urteilsstil beherrschen, sondern auch die aktuelle Gesetzes- und Urteilslage zum Thema kennen. Unsere Mitarbeiter haben durch ihre Tätigkeiten in Anwaltskanzleien und ihre Spezialisierungen Zugriff auf relevante Jura-Datenbanken und Publikationen. Dadurch können sie bei der Erstellung Ihrer Bachelorarbeit auf umfangreiches Wissen zurückgreifen.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw01d8
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
                         active: false
                       -
                         id: lj4fc4gy
@@ -1192,6 +1214,17 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Bachelorarbeit Ghostwriter im Maschinenbau verfügen über eine tief gehende Expertise im Fachgebiet und sind immer auf dem aktuellen Stand der Forschung. Wir unterstützen Sie gern, zum Beispiel bei mathematischen Berechnungen, der Erstellung von technischen Zeichnungen oder Erstellung von Simulationen für Ihre Bachelorarbeit.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw0kmi
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
                         active: false
                       -
                         id: lj4fcswl
@@ -1224,6 +1257,17 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Informatiker zählen zu den begehrtesten Fachkräften, aber das Studium ist anspruchsvoll und geprägt von hohen Durchfallquoten. Wir unterstützen Sie bei Ihrer Bachelorarbeit im Fach Informatik mit erfahrenen Ghostwritern.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw1jyp
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
                         active: false
                       -
                         id: lj4fdc12
@@ -1256,6 +1300,17 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Ghostwriter für Bachelorarbeiten im Bereich Elektrotechnik müssen über fundiertes Fachwissen in den relevanten Themengebieten verfügen und zudem Kenntnisse im Umgang mit den gängigen Tools und Programmen zur Erstellung von technischen Zeichnungen und Modellen haben. Unsere Ghostwriter erfüllen diese hohen Anforderungen und unterstützen Sie neben zudem gern bei der Planung von Laborexperimenten und Datenauswertung.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw28fq
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
                         active: false
                       -
                         id: lj4feylm
@@ -1288,6 +1343,17 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Für Ihre Bachelorarbeit im Bauingenieurswesen: Unsere Ghostwriter haben nicht nur praktische Erfahrung als Ingenieure, sondern auch wissenschaftliches Know-how. Sie wissen, welche Datenbanken und Recherchestrategien zu verwenden sind.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw2t77
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
                         active: false
                       -
                         id: lj4ffhcq
@@ -1403,6 +1469,17 @@ replicator:
                                               color: '#000!important'
                                               hex: '#000'
                                         text: 'statistische Hypothesentests'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw3ekn
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
                         active: false
                       -
                         id: lj4fg6u5
@@ -1435,6 +1512,17 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Das Chemiestudium ist bekannt für seine hohen Durchfallquoten und den anspruchsvollen Schwierigkeitsgrad, der zeitaufwendige Laborversuche erfordert. Gerade in bei einer naturwissenschaftlichen Bachelorarbeit wie im Bereich Chemie sind Ghostwriter eine große Hilfe. Unsere Chemie-Ghostwriter sind Experten mit viel Erfahrung in wissenschaftlicher Arbeit.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw40v7
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
                         active: false
                       -
                         id: lj4fgsbk
@@ -1467,18 +1555,18 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Unser Ghostwriter im Bereich der Sozialen Arbeit haben selbst jahrelange Erfahrung auf diesem Fachgebiet. Unser Team von erfahrenen Akademikern aus der Sozialen Arbeit unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung Ihrer Bachelorarbeit.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw5imf
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
                         active: false
-              -
-                type: set
-                attrs:
-                  id: liahd65f
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
               -
                 type: set
                 attrs:
@@ -3178,8 +3266,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
-updated_at: 1690287423
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1690386031
 template: default
 use_meta_keywords: false
 no_index_page: false
