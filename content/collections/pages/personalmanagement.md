@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690385778
+updated_at: 1690388243
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1844,46 +1844,114 @@ replicator:
                     type: text
                     text: '. Wenn Sie über die Herausforderungen des Personalmanagements gegenüber der Generation Y schreiben wollen, sind Kenntnisse in Psychologie und Soziologie Voraussetzung.'
               -
-                type: set
+                type: heading
                 attrs:
-                  id: 8hIYvANs
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/fachrichtungen/BWL-Ghostwriter.png
-                    has_border: false
-              -
-                type: paragraph
+                  level: 3
                 content:
                   -
                     type: text
-                    text: 'Jedoch bereiten gerade die Grundlagenfächer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mathe, Statistik und Recht'
-                  -
-                    type: text
-                    text: ' sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu, Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwriting-Arbeiten dürfen nicht als Prüfungsleistungen verwendet werden'
-                  -
-                    type: text
-                    text: '. Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
+                    text: 'Experten-Empfehlungen: Themen im Bereich Personalmanagement '
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+      -
+        id: lkjx2x41
+        columns_per_row: 3
+        single_col: false
+        grid:
+          -
+            id: AnBPMZrL
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkjxb1ov
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/personalmanagement-bucher-3-min.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Klaffke, M. (Hg.'
+                  -
+                    type: text
+                    text: '): Personalmanagement von Millennials. Gabler'
+            show_as_card: false
+          -
+            id: lkjx32ei
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkjxg59g
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/personalmanagement-bucher-1-min.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Parment, A. (2009)'
+                  -
+                    type: text
+                    text: ': Die Generation Y - Mitarbeiter der Zukunft: Herausforderung und Erfolgsfaktor für das Personalmanagement'
+            show_as_card: false
+          -
+            id: lkjx33zp
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkjxhe6k
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/personalmanagement-bucher-2-min.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ruthus, J. (2013)'
+                  -
+                    type: text
+                    text: ': Employer of Choice der Generation Y. Herausforderungen und Erfolgsfaktoren zur Steigerung der Arbeitgeberattraktivität'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
