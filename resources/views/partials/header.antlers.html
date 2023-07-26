@@ -33,7 +33,7 @@
             <li
               class="text-gray-900 transition duration-300 visible-de set-block hover:bg-orange-500 sm:text-xs text-xxs hover:text-white last:rounded-br last:rounded-bl">
               <a target="_blank" rel="noopener noreferrer" href="tel:{{ localized_contact_data:phone_de_DE }}"
-                class="flex w-full h-10 font-bold cursor-pointer  contact-entry">
+                class="flex w-full h-10 font-bold cursor-pointer contact-entry">
                 <div class="flex self-center px-2">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                     class="self-center text-white fill-current group-hover:text-orange-500">
@@ -165,6 +165,7 @@
           </ul>
         </li>
       </ul>
+      {{ partial src="partials/whatsapp" additional_classes="hidden sm:block" variante="desktop" }}
       <div class="flex mr-4 text-xs border-white sm:hidden border-1">
         <div class="flex">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
@@ -208,6 +209,7 @@
             fill="currentColor" />
         </svg>
       </button>
+      {{ partial src="partials/whatsapp" additional_classes="flex sm:hidden" }}
       <div id="mobilePhoneMenu" class="fixed left-0 hidden w-screen h-screen bg-white top-12 bg-opacity-95">
         <section class="px-4 py-2 max-w-screen">
           <div class="container flex flex-col mx-auto overflow-scroll content max-dynamic-height">
