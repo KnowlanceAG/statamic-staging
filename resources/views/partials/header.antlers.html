@@ -165,7 +165,7 @@
           </ul>
         </li>
       </ul>
-      {{ partial src="partials/whatsapp" additional_classes="hidden sm:block" variante="desktop" }}
+      {{# {{ partial src="partials/whatsapp" additional_classes="hidden sm:block" variante="desktop" }} #}}
       <div class="flex mr-4 text-xs border-white sm:hidden border-1">
         <div class="flex">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
@@ -209,7 +209,7 @@
             fill="currentColor" />
         </svg>
       </button>
-      {{ partial src="partials/whatsapp" additional_classes="flex sm:hidden" }}
+      {{# {{ partial src="partials/whatsapp" additional_classes="flex sm:hidden" }} #}}
       <div id="mobilePhoneMenu" class="fixed left-0 hidden w-screen h-screen bg-white top-12 bg-opacity-95">
         <section class="px-4 py-2 max-w-screen">
           <div class="container flex flex-col mx-auto overflow-scroll content max-dynamic-height">
@@ -284,7 +284,8 @@
             <ul class="block pl-0 list-none divide-y divide-gray-300 cursor-pointer">
               <li
                 class="px-2 text-gray-900 transition duration-150 visible-de set-block group hover:bg-orange-500 sm:text-xs text-xxs hover:text-white">
-                <a target="_blank" rel="noopener noreferrer" href="mailto:{{ localized_contact_data:mail_address_de_DE }}"
+                <a target="_blank" rel="noopener noreferrer"
+                  href="mailto:{{ localized_contact_data:mail_address_de_DE }}"
                   class="flex h-10 font-bold cursor-pointer contact-entry">
                   <div class="flex self-center pr-2">
                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -301,7 +302,8 @@
               </li>
               <li
                 class="px-2 text-gray-900 transition duration-150 visible-ch set-block group hover:bg-orange-500 sm:text-xs text-xxs hover:text-white">
-                <a target="_blank" rel="noopener noreferrer" href="mailto:{{ localized_contact_data:mail_address_de_CH }}"
+                <a target="_blank" rel="noopener noreferrer"
+                  href="mailto:{{ localized_contact_data:mail_address_de_CH }}"
                   class="flex h-10 font-bold cursor-pointer contact-entry">
                   <div class="flex self-center pr-2">
                     <svg xmlns="http://www.w3.org/2000/svg"
