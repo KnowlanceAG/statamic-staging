@@ -2,7 +2,7 @@
 id: c15ef599-1566-42e7-8dde-929af350c15a
 published: false
 blueprint: pages
-title: 'BWL (Dupliziert)'
+title: Personalmanagement
 teaser:
   -
     type: heading
@@ -140,7 +140,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690379469
+updated_at: 1690379483
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
