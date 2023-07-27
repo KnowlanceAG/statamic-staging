@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690459858
+updated_at: 1690460977
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -389,7 +389,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#unterstützung'
+                                  href: '#perso'
                                   target: null
                                   rel: null
                             text: 'Personalmanagement mit professioneller Unterstützung'
@@ -847,8 +847,8 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.absolventa.de/jobs/channel/human-resources/thema/gehalt-personalmanagement'
-                          target: null
-                          rel: null
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
                     text: Jahresgehalt
                   -
                     type: text
@@ -1802,26 +1802,44 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' Ghostwriting-Agentur beschäftigen sie sich täglich mit anspruchsvollen wissenschaftlichen Arbeiten und verfolgen aktuelle Entwicklungen in der Personalwirtschaft.'
+                    text: ' '
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
+                        type: bold
                       -
-                        type: textColor
+                        type: link
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: .
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: Ghostwriting-Agentur
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' beschäftigen sie sich täglich mit anspruchsvollen wissenschaftlichen Arbeiten und verfolgen aktuelle Entwicklungen in der Personalwirtschaft.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter im Personalmanagement unterstützen Sie bei verschiedenen Aufgabenstellungen, die sich mit '
+                    text: 'Unsere Ghostwriter im Personalmanagement unterstützen Sie bei '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen
+                          target: null
+                          rel: null
+                    text: 'verschiedenen Aufgabenstellungen'
+                  -
+                    type: text
+                    text: ', die sich mit '
                   -
                     type: text
                     marks:
@@ -1846,7 +1864,39 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Wenn Sie Ihre wissenschaftliche Arbeit im Fachgebiet Personalmanagement in professionelle Hände geben möchten, sind unsere qualifizierten Ghostwriter die richtige Wahl. Sie bieten Ihnen nicht nur Fachkompetenz, sondern auch diskrete und zuverlässige Unterstützung, um Ihre akademischen Ziele zu erreichen.'
+                    text: 'Wenn Sie Ihre wissenschaftliche Arbeit im Fachgebiet Personalmanagement in professionelle Hände geben möchten, sind unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'qualifizierten Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' die richtige Wahl. Sie bieten Ihnen nicht nur Fachkompetenz, sondern auch diskrete und zuverlässige Unterstützung, um Ihre akademischen Ziele zu erreichen.'
               -
                 type: set
                 attrs:
@@ -1921,20 +1971,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wer BWL, VWL oder International Business studiert, begegnet dort zwangsläufig auch entsprechenden Inhalten. Es kann also auch in diesen Studiengängen nützlich sein, mit einem Ghostwriter für Personalmanagement zusammenzuarbeiten. Sollten Sie eine Mustervorlage für eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/bachelorarbeit-thema'
-                          target: null
-                          rel: null
-                    text: 'Bachelorarbeit in BWL'
-                  -
-                    type: text
-                    text: ' benötigen, dann arbeiten unsere '
+                    text: 'Wer BWL, VWL oder International Business studiert, begegnet dort zwangsläufig auch entsprechenden Inhalten. Es kann also auch in diesen Studiengängen nützlich sein, mit einem Ghostwriter für Personalmanagement zusammenzuarbeiten. Sollten Sie eine Mustervorlage für eine Bachelorarbeit in BWL benötigen, dann arbeiten unsere '
                   -
                     type: text
                     marks:
@@ -2038,8 +2075,8 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.thm.de/organizer/veranstaltungen/fb-07-wirtschaft/stundenplaene.html'
-                          target: null
-                          rel: null
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
                     text: 'THM Mittelhessen'
                   -
                     type: text
@@ -2056,26 +2093,65 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                          href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: 'Seminararbeit schreiben lassen'
                   -
                     type: text
-                    text: '. Ghostwriter kennen sich in den Bereichen Marketing, Recht und Controlling aus und können Ihnen wertvolle Tipps geben. Außerdem haben unsere Autoren Kontakte zu Unternehmen. Das kann nützlich sein, weil im Personalmanagement-Studium auch Praktika vorgesehen sind. Für die Dokumentation können Sie sich an diesen Vorgaben zum '
+                    text: '. Ghostwriter kennen sich in den Bereichen '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/praktikumsbericht-vorlage'
+                          href: /fachrichtungen/marketing
                           target: null
                           rel: null
-                    text: Praktikumsbericht
+                    text: Marketing
                   -
                     type: text
-                    text: ' orientieren. Wenn Sie sprachlich unsicher sind, kann auch ein Lektorat einzeln gebucht werden.'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Recht
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bwl-schwerpunkt-controlling
+                          target: null
+                          rel: null
+                    text: Controlling
+                  -
+                    type: text
+                    text: ' aus und können Ihnen wertvolle Tipps geben. Außerdem haben unsere Autoren Kontakte zu Unternehmen. Das kann nützlich sein, weil im Personalmanagement-Studium auch Praktika vorgesehen sind. Für die Dokumentation können Sie sich an diesen Vorgaben zum orientieren. Wenn Sie sprachlich unsicher sind, kann auch ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: ' einzeln gebucht werden.'
             show_as_card: false
           -
             id: DZ7MWmhN
@@ -2471,7 +2547,29 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Die Begleitung durch einen Ghostwriter ist immer maßgeschneidert. Das heißt: Sie bekommen von Ihrem Autoren genau die Leistung, die Sie in Ihrer Situation brauchen. Vorteile bietet auch unser interdisziplinärer Ansatz: Auch komplizierte Themenstellungen können erfolgreich zum Abschluss gebracht werden, wenn Ghostwriter aus verschiedenen Fachrichtungen zusammenarbeiten.'
+                            text: 'Die Begleitung durch einen Ghostwriter ist immer maßgeschneidert. Das heißt: Sie bekommen von Ihrem Autoren genau die Leistung, die Sie in Ihrer Situation brauchen. '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Vorteile bietet auch unser interdisziplinärer Ansatz:'
+                          -
+                            type: text
+                            text: ' Auch komplizierte Themenstellungen können erfolgreich zum Abschluss gebracht werden, wenn '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter aus verschiedenen Fachrichtungen'
+                          -
+                            type: text
+                            text: ' zusammenarbeiten.'
             show_as_card: false
         type: row
         enabled: true
@@ -2501,7 +2599,7 @@ replicator:
                   id: lkl3hhnx
                   values:
                     type: anchor_target
-                    anchor_name: unterstützung
+                    anchor_name: perso
               -
                 type: heading
                 attrs:
@@ -2563,7 +2661,7 @@ replicator:
                           href: /
                           target: null
                           rel: null
-                    text: Gwriters
+                    text: GWriters
                   -
                     type: text
                     text: ' ist jederzeit unkompliziert und kostenlos möglich. Sie können einen Termin für eine persönliche Beratung vereinbaren, bei der Ihre spezifischen Anforderungen besprochen werden.'
@@ -2662,10 +2760,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: Vb7y9im2
     columns_replicator:
@@ -2722,7 +2822,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: 'Einige unserer Blogartikel zum Thema BWL Ghostwriter'
+                    text: 'Einige unserer Blogartikel zum Thema Personalmanagement Ghostwriter'
               -
                 type: set
                 attrs:
@@ -2730,9 +2830,9 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
-                      - e74abe89-2a92-4e81-bb8f-e357cc66776a
-                      - e3607494-f5c6-43c1-833e-69ab509b9846
+                      - a218c7ed-7850-4ac8-bfe8-b6cc2c4b4c16
+                      - a6f9e2d8-1e4c-4f7c-9cc3-990ebe0bc3fc
+                      - c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf
               -
                 type: paragraph
                 content:
