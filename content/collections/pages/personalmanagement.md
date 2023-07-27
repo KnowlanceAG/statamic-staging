@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690461226
+updated_at: 1690461330
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -165,7 +165,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Personalmanagement. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre Personalmanagement Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich BWL in sichere Hände geben und bei einem Ghostwriter im Personalmanagement eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Wir sind eine seriöse Ghostwriting-Agentur, die ausschließlich mit erfahrenen Personalmanagement-Experten, Doktoren und Professoren zusammenarbeitet. Zögern Sie nicht, uns zu kontaktieren, um Ihre akademische Arbeit professionell und effizient zu bewältigen.
+                      <b>akademischen Ghostwriter für Ihre Personalmanagement Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Personalmanagement in sichere Hände geben und bei einem Ghostwriter im Personalmanagement eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Wir sind eine seriöse Ghostwriting-Agentur, die ausschließlich mit erfahrenen Personalmanagement-Experten, Doktoren und Professoren zusammenarbeitet. Zögern Sie nicht, uns zu kontaktieren, um Ihre akademische Arbeit professionell und effizient zu bewältigen.
 
 
 
@@ -445,7 +445,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich BWL'
+                    text: 'Unsere Leistungen im Fachbereich Personalmanagement'
               -
                 type: set
                 attrs:
