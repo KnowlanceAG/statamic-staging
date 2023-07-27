@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690457585
+updated_at: 1690457697
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -546,8 +546,16 @@ replicator:
                             type: text
                             text: 'Personalentwicklung begleiten und evaluieren'
             show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lkl2uxux
+        single_col: false
+        grid:
           -
-            id: lkl2qgm6
+            id: OzNwMVBq
             bard:
               -
                 type: heading
@@ -585,8 +593,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 2
         responsive_columns: 0
+        columns_per_row: 0
       -
         id: VU31hpFG
         single_col: false
