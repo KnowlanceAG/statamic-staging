@@ -1,7 +1,7 @@
 ---
-id: 68b88fd1-ec03-4ea8-9292-431555e47744
+id: 8cef061f-0c77-475f-8142-7f28ac492eab
 blueprint: pages
-title: Bachelorarbeit
+title: 'Bachelorarbeit (Dupliziert)'
 teaser:
   -
     type: heading

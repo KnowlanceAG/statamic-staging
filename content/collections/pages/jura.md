@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1688493347
+updated_at: 1690448494
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3053,9 +3053,9 @@ replicator:
     type: add_section
     enabled: true
 meta_title: 'Jura Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Jura Ghostwriter – Hilfe durch akademische Experten aus dem Fachbereich Jura ✔️ Mehr Zeit für rechtliche Prüfungen, Klausuren & Ihr Praktikum!'
+meta_description: 'Jura Ghostwriter unterstützen Sie bei Ihren Rechtfachprüfungen ✔️ Mehr Zeit für rechtliche Klausuren & Ihr Praktikum dank der Hilfe von Volljuristen!'
 og_title: 'Jura Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Jura Ghostwriter – Hilfe durch akademische Experten aus dem Fachbereich Jura ✔️ Mehr Zeit für rechtliche Prüfungen, Klausuren & Ihr Praktikum!'
+og_description: 'Jura Ghostwriter unterstützen Sie bei Ihren Rechtfachprüfungen ✔️ Mehr Zeit für rechtliche Klausuren & Ihr Praktikum dank der Hilfe von Volljuristen!'
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Jura Ghostwriter'

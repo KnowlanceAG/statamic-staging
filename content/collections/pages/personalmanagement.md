@@ -1,6 +1,5 @@
 ---
 id: c15ef599-1566-42e7-8dde-929af350c15a
-published: false
 blueprint: pages
 title: Personalmanagement
 teaser:
@@ -140,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690379500
+updated_at: 1690461330
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -166,13 +165,254 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Personalmanagement. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre Personalmanagement Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich BWL in sichere Hände geben und bei einem Ghostwriter im Personalmanagement eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Personalmanagement, Doktoren und Professoren arbeitet.
+                      <b>akademischen Ghostwriter für Ihre Personalmanagement Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Personalmanagement in sichere Hände geben und bei einem Ghostwriter im Personalmanagement eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Wir sind eine seriöse Ghostwriting-Agentur, die ausschließlich mit erfahrenen Personalmanagement-Experten, Doktoren und Professoren zusammenarbeitet. Zögern Sie nicht, uns zu kontaktieren, um Ihre akademische Arbeit professionell und effizient zu bewältigen.
+
+
+
+
+
+
+
                       </p>
+              -
+                type: heading
+                attrs:
+                  level: 2
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+      -
+        id: lkl43go8
+        single_col: true
+        grid:
+          -
+            id: ikUEmDVn
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lkl3vodg
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: ikUEmDVn
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#definition'
+                                  target: null
+                                  rel: null
+                            text: 'Was ist Personalmanagement?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#personalmanager'
+                                  target: null
+                                  rel: null
+                            text: 'Was macht ein Ghostwriter als Personalmanager?'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#berufe'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter im Personalmanagement: Berufe'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#beauftragen'
+                                  target: null
+                                  rel: null
+                            text: 'Warum sollte man Ghostwriter im Personalmanagement beauftragen?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#weiterbildung'
+                                  target: null
+                                  rel: null
+                            text: 'Studium und Weiterbildung Personalmanagement'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#wissenschaftlich'
+                                  target: null
+                                  rel: null
+                            text: 'Wissenschaftliche Arbeiten für das Studium Personalmanagement'
+            show_as_card: false
+          -
+            id: lkl3vpl4
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#themen'
+                                  target: null
+                                  rel: null
+                            text: 'Bachelorarbeit Personalmanagement: Themen'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#buch'
+                                          target: null
+                                          rel: null
+                                    text: 'Experten-Empfehlungen: Themen im Bereich Personalmanagement'
+                                  -
+                                    type: text
+                                    text: ' '
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#aufgaben'
+                                  target: null
+                                  rel: null
+                            text: 'Personalmanagement: Aufgaben im Studium oft kompliziert'
+                          -
+                            type: text
+                            text: ' '
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#perso'
+                                  target: null
+                                  rel: null
+                            text: 'Personalmanagement mit professioneller Unterstützung'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#fragen'
+                                  target: null
+                                  rel: null
+                            text: 'Häufige Fragen zum Ghostwriting im Personalmanagement'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -205,7 +445,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich BWL'
+                    text: 'Unsere Leistungen im Fachbereich Personalmanagement'
               -
                 type: set
                 attrs:
@@ -218,7 +458,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit im Bereich Personalmanagement von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -226,7 +466,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (BWL) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Personalmanagement) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -234,7 +474,7 @@ replicator:
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL.'
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Personalmanagement.'
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
@@ -242,7 +482,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (BWL) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Personalmanagement) Übersetzungen von akademischen Texten, Arbeiten, usw.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -251,7 +491,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH PERSONALMANAGEMENT'
                     color: '#FF6606'
                     spacing_top: false
               -
@@ -283,55 +523,22 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'BWL ist unter den Studierenden ein äußerst beliebter Studiengang und ist aus diesem Grund an vielen Hochschulen „überlaufen“. Wer auffallen will, muss immerzu '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'qualitativ hochwertige Ausarbeitungen'
-                  -
-                    type: text
-                    text: " liefern und stets einen sehr guten Notendurchschnitt \_erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studierenden neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu dem Leistungsdruck ein zusätzlicher Zeitdruck hinzu. "
+                    text: 'Das Personal gilt gemeinhin als das wichtigste Kapital einer Firma. Ohne gute und loyale Mitarbeiter kann sich kein Unternehmen lange am Markt halten. Deswegen braucht jede Firma gute Personalmanager. Es gibt spezielle Studiengänge zum Personalmanagement. Studenten wird dort vermittelt, wie das Personal eines Unternehmens geführt und weiterentwickelt wird. Der erste Abschnitt des Studiums wird einer Bachelorarbeit abgeschlossen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Speziell im Bereich der BWL wird aus diesem Grund in diesem Zeitrahmen oftmals die Hilfe unserer\_"
+                    text: 'Hier zeigen Sie, dass Sie die gelernte Theorie auch praktisch anwenden können. Ein '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
+                    text: 'Ghostwriter für Personalmanagement'
                   -
                     type: text
-                    text: "\_benötigt. Unsere Auftraggeber haben in dieser Studienlaufbahn besonders Schwierigkeiten bei der "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /bachelorarbeit-thema
-                          target: null
-                          rel: null
-                    text: Themenfindung
-                  -
-                    type: text
-                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein.'
+                    text: ' kann Sie sowohl bei der thematischen Eingrenzung als auch bei der praktischen Umsetzung unterstützen. Wir erklären Ihnen in diesem Beitrag die wichtigsten Aufgaben des Personalmanagements und worauf Sie bei einer wissenschaftlichen Arbeit in diesem Bereich achten müssen.'
             show_as_card: false
         type: row
         enabled: true
@@ -374,7 +581,7 @@ replicator:
                             attrs:
                               color: white
                               hex: '#fff'
-                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet BWL Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
+                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet Personalmanagement Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
                       -
                         type: text
                         marks:
@@ -452,60 +659,200 @@ replicator:
             id: RY4Hwivx
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3e369
+                  values:
+                    type: anchor_target
+                    anchor_name: definition
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter'
+                    text: 'Was ist Personalmanagement?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Jeder unserer '
+                    text: 'Unter Personalmanagement wird die Summe aller personalen Handlungsfelder und Veränderungsprozesse verstanden, die zum Unternehmenserfolg beitragen. Oft wird auch der englischsprachige Begriff'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse'
+                    text: ' Human Ressources '
                   -
                     type: text
-                    text: ' und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. '
+                    text: 'verwendet. Personalmanagement ist in allen größeren Unternehmen notwendig. Dementsprechend hat sich das Fachgebiet im Zusammenhang mit industriellen Großbetrieben entwickelt.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Er kann entweder das\_"
+                    text: 'So lange es einen einzelnen Eigentümer an der Spitze eines Unternehmens gab, konnte dieser seine Vorstellungen von den Arbeitsabläufen direkt an die Belegschaft weitergeben. Ab einer bestimmten Unternehmensgröße jedoch ist die direkte Kommunikation nicht mehr möglich. Dann muss es klare Leitlinien für den Umgang mit dem Personal geben.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+            show_as_card: false
+          -
+            id: lkl2vxdm
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3dnh2
+                  values:
+                    type: anchor_target
+                    anchor_name: personalmanager
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was macht ein Ghostwriter als Personalmanager?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die '
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                    text: 'Aufgaben von Ghostwriter im Unternehmen als Personalmanager'
+                  -
+                    type: text
+                    text: ' umfassen den Umgang mit dem Personal im weitesten Sinne. Das beginnt bereits beim Anwerbeprozess und dauert dann so lang, wie die Mitarbeiter im Unternehmen sind.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
+                        type: bold
+                    text: 'Konkrete Aufgaben von Ghostwriter als Personalmanager '
+                  -
+                    type: text
+                    text: 'sind die Gewinnung und die Entwicklung von Personal. Hierzu gehört konkret:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Stellenprofile verfassen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Recruiting vorantreiben'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Bewerbungsprozesse begleiten'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Talent Management betreiben'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Onboarding-Phase von neuen Mitarbeitern begleiten'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Personalentwicklung begleiten und evaluieren'
+            show_as_card: false
+        type: row
+        enabled: true
+        columns_per_row: 2
+        responsive_columns: 0
+      -
+        id: lkl2uxux
+        single_col: true
+        grid:
+          -
+            id: OzNwMVBq
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3d8it
+                  values:
+                    type: anchor_target
+                    anchor_name: berufe
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter im Personalmanagement: Berufe'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Personalmanagement ist ein Praxisfach. Typische Berufe sind Personalreferent, Personalberater, Personalmarketing-Manager, Personaldisponent oder auch HR Business Partner. Unsere Ghostwriter im Personalmanagement arbeiten in diesen Bereichen. Dementsprechend verfügen sie über die notwendige Expertise, um Ihnen bei Problemen weiterhelfen zu können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der Abschluss des Studiums mit einem Zeugnis lohnt sich auf jeden Fall in finanzieller Hinsicht. Das '
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
+                          href: 'https://www.absolventa.de/jobs/channel/human-resources/thema/gehalt-personalmanagement'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: Jahresgehalt
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit"
-                  -
-                    type: text
-                    text: ' oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten.'
+                    text: ' liegt bei ca. 50.000 Euro. Aufgrund des Fachkräftemangels ist zu erwarten, dass Stellen im Personalmanagement in den nächsten Jahren noch wichtiger werden. Dadurch steigt für Sie der Spielraum bei Gehaltsverhandlungen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1397,6 +1744,18 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/informatik#Software'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Softwarelokalisierung'
             show_as_card: false
         type: row
         enabled: true
@@ -1408,78 +1767,149 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: Vzf3o85f
+    id: lkjubufm
     columns_replicator:
       -
-        id: UznK4RLR
-        columns_per_row: 2
-        single_col: false
+        id: lkjubvz3
+        single_col: true
         grid:
           -
-            id: x9hjjSI5
+            id: wk4wBu2X
             bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3ezr1
+                  values:
+                    type: anchor_target
+                    anchor_name: beauftragen
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
-                    text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
+                    text: 'Warum sollte man Ghostwriter im Personalmanagement beauftragen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftlern, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse im Umgang mit Forschungsarbeiten. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'BWL-Ghostwriter erstellen für verschiedene Aufgabenstellungen im Fachbereich BWL ('
+                    text: 'Unsere Personalmanagement-Ghostwriter verfügen über umfassende Expertise im Fachgebiet des Personalmanagements. Sie sind erfahrene Fachleute, darunter Betriebswirtschaftler, zertifizierte Professoren und wissenschaftliche Mitarbeiter, die sich speziell mit den Herausforderungen und Anforderungen im Personalbereich auskennen. Als Teil unserer'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Abschlussarbeit, Businessplan, Marketingkonzept'
+                    text: ' '
                   -
                     type: text
-                    text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevanten Datenbanken Zugriff, wie Fachzeitschriften, Fachartikel etc.'
-            show_as_card: false
-          -
-            id: KifGK2jM
-            bard:
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: Ghostwriting-Agentur
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' beschäftigen sie sich täglich mit anspruchsvollen wissenschaftlichen Arbeiten und verfolgen aktuelle Entwicklungen in der Personalwirtschaft.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Ghostwriter im Personalmanagement unterstützen Sie bei '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen
+                          target: null
+                          rel: null
+                    text: 'verschiedenen Aufgabenstellungen'
+                  -
+                    type: text
+                    text: ', die sich mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Personalfragen befassen, sei es die Erstellung von Abschlussarbeiten, Fachkonzepten, Personalanalysen oder anderen Forschungsprojekten'
+                  -
+                    type: text
+                    text: '. Sie bringen tiefgreifende Kenntnisse über bewährte Methoden, Theorien und Praktiken im Personalwesen mit und sind vertraut mit den neuesten Erkenntnissen und Trends in diesem Bereich. Durch den Zugriff auf relevante Datenbanken, Fachliteratur und Forschungsquellen stellen unsere Ghostwriter sicher, dass Ihre Arbeit auf einem fundierten wissenschaftlichen Fundament basiert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wenn Sie Ihre wissenschaftliche Arbeit im Fachgebiet Personalmanagement in professionelle Hände geben möchten, sind unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'qualifizierten Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' die richtige Wahl. Sie bieten Ihnen nicht nur Fachkompetenz, sondern auch diskrete und zuverlässige Unterstützung, um Ihre akademischen Ziele zu erreichen.'
               -
                 type: set
                 attrs:
-                  id: 43Q9cxMl
-                  values:
-                    type: video
-                    video: 'https://youtu.be/PmgIh10dij0'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-      -
-        id: AoASYIXl
-        single_col: false
-        grid:
-          -
-            id: 6IOfLEnE
-            bard:
-              -
-                type: set
-                attrs:
-                  id: EAxkykP9
+                  id: lkjue0en
                   values:
                     type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_link: 'entry::fb7f2840-5af4-40d9-b494-39fb8921a8d8'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1503,152 +1933,98 @@ replicator:
             id: 4Y6hlzis
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3ffd7
+                  values:
+                    type: anchor_target
+                    anchor_name: weiterbildung
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Allgemeines zur BWL'
+                    text: 'Studium und Weiterbildung Personalmanagement'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Die Betriebswirtschaftslehre (BWL), auch Betriebsökonomie genannt, ist ein Teilgebiet der\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
-                  -
-                    type: text
-                    text: "\_(WiWi). Sie ist eng verwandt mit der "
+                    text: 'Personalmanagement ist sehr umfassend und sollte daher von der Pike auf gelernt werden. In Deutschland gibt es inzwischen '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/vwl
-                          target: null
-                          rel: null
-                    text: Volkswirtschaftslehre
+                          href: 'https://www.personalmanagement-studieren.de/studiengaenge/personalmanagement/#hochschulen-finden'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: '55 Hochschulen'
                   -
                     type: text
-                    text: ' ('
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                    text: VWL
-                  -
-                    type: text
-                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
+                    text: ', die Personalmanagement als Studium anbieten. Grundsätzlich ist Personalmanagement inzwischen ein wesentliches Teilgebiet von BWL. Wer sich für Personalmanagement interessiert, kann jedoch verschiedene Studiengänge wählen. Die folgende Grafik zeigt, in welchen Wissenschaften Personalmanagement ein Thema ist.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft '
+                    text: 'Wer BWL, VWL oder International Business studiert, begegnet dort zwangsläufig auch entsprechenden Inhalten. Es kann also auch in diesen Studiengängen nützlich sein, mit einem Ghostwriter für Personalmanagement zusammenzuarbeiten. Sollten Sie eine Mustervorlage für eine Bachelorarbeit in BWL benötigen, dann arbeiten unsere '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Entscheidungen zur Förderung des Unternehmenserfolgs'
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: Experten
                   -
                     type: text
-                    text: '. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
-              -
-                type: set
-                attrs:
-                  id: nO2F1RVY
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/besipielarbeit.JPG
-                    ex_title: 'BWL Seminararbeit Beispiel jetzt KOSTENLOS herunterladen!'
-                    ex_type: Seminararbeit
-                    ex_pages: '12'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
-                    ex_button_text: Download
-                    ex_spacing_top: false
-                    ex_fachbereich:
-                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                    text: ' aus BWL und Personalmanagement zusammen.'
               -
                 type: heading
                 attrs:
                   level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Karriereaussichten nach dem BWL-Studium'
+            show_as_card: false
+          -
+            id: lkjv3low
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkjvdc9h
+                  values:
+                    type: spacer
+                    padding-y: 40
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Management eines Unternehmens'
-                  -
-                    type: text
-                    text: ' arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Karrierechancen sehr gut'
-                  -
-                    type: text
-                    text: ' sind.'
+                    text: 'Vom Aufbau her ähneln sich die Studiengänge zum Personalmanagement. Studenten dieser Fachrichtungen befassen sich mit einem betriebswirtschaftlichen Anteil – ein weiterer Schwerpunkt liegt auf dem Personalwesen. Zum BWL-Teil gehören Wirtschaftsmathematik, Rechnungswesen, Buchführung und Bilanzierung, Wirtschaftsrecht sowie Controlling. In den Lehrveranstaltungen zum Personalwesen lernen Sie das Wesentliche über Personalmarketing, Personalentwicklung und Personalmanagement. Wichtige Inhalte in diesem Schwerpunkt sind auch das Arbeits- und Sozialrecht.'
+              -
+                type: set
+                attrs:
+                  id: lkjvp8yf
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/personalmanagement-ghostwriter.png
+                    img_size: w-1/2
+                    float: mx-auto
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen'
-                  -
-                    type: text
-                    text: '. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
             show_as_card: false
         type: row
         enabled: true
+        columns_per_row: 2
         responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -1666,43 +2042,64 @@ replicator:
             id: StE9S7ZP
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3fupl
+                  values:
+                    type: anchor_target
+                    anchor_name: wissenschaftlich
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Aufbau eines BWL-Studiums'
+                    text: 'Wissenschaftliche Arbeiten für das Studium Personalmanagement'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'ein duales Studium oder durch ein Vollzeitstudium'
-                  -
-                    type: text
-                    text: ' an einer Universität oder Fachhochschule erlangen. '
+                    text: 'Das Studium ist vom Aufbau her mit anderen Studiengängen vergleichbar: Sie besuchen Vorlesungen und Seminare. Als Beleg müssen Sie mehrere Hausarbeiten, unter anderem in Personalmanagement schreiben. Hierbei kann Sie ein Ghostwriter für Personalmanagement unterstützen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um '
+                    text: 'Dieser Stundenplan der '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'berufsbegleitende Fachbereiche'
+                        type: link
+                        attrs:
+                          href: 'https://www.thm.de/organizer/veranstaltungen/fb-07-wirtschaft/stundenplaene.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'THM Mittelhessen'
                   -
                     type: text
-                    text: ', die sich auf ein bestimmtes Themenfeld (z.B. '
+                    text: ' zeigt beispielhaft den Aufbau eines Studiums in Personalmanagement. Sie sehen, dass in einem Semester allein vier Seminararbeiten angefertigt werden müssen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie können von unseren Experten die Vorlage für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Ghostwriter kennen sich in den Bereichen '
                   -
                     type: text
                     marks:
@@ -1715,59 +2112,46 @@ replicator:
                     text: Marketing
                   -
                     type: text
-                    text: ') konzentrieren.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Bachelorarbeit (Bachelor Thesis)'
-                  -
-                    type: text
-                    text: ' und die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeit (Master Thesis)'
-                  -
-                    type: text
-                    text: '. Optional kann darauf aufbauend die '
+                    text: ', '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /promotionsberatung
+                          href: /fachrichtungen/jura
                           target: null
                           rel: null
-                    text: Promotion
+                    text: Recht
                   -
                     type: text
-                    text: ' erfolgen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein '
+                    text: ' und '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'BWL-Ghostwriter hilft Doktoranden'
+                        type: link
+                        attrs:
+                          href: /blog/bwl-schwerpunkt-controlling
+                          target: null
+                          rel: null
+                    text: Controlling
                   -
                     type: text
-                    text: ' durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
+                    text: ' aus und können Ihnen wertvolle Tipps geben. Außerdem haben unsere Autoren Kontakte zu Unternehmen. Das kann nützlich sein, weil im Personalmanagement-Studium auch Praktika vorgesehen sind. Für die Dokumentation können Sie sich an diesen Vorgaben zum orientieren. Wenn Sie sprachlich unsicher sind, kann auch ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: ' einzeln gebucht werden.'
             show_as_card: false
           -
             id: DZ7MWmhN
@@ -1775,12 +2159,22 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lkjvwb9u
+                  values:
+                    type: spacer
+                    padding-y: 40
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
                   id: CI1UmfoE
                   values:
                     type: bilder
                     assets:
-                      - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
+                      - seiten/fachrichtungen/stundenplan-personalmanagement.png
                     has_border: false
+                    img_alignment: justify-center
             show_as_card: false
         type: row
         enabled: true
@@ -1803,126 +2197,165 @@ replicator:
             id: OSzmY8He
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3gl60
+                  values:
+                    type: anchor_target
+                    anchor_name: themen
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Inhalte des BWL-Studiums'
+                    text: 'Bachelorarbeit Personalmanagement: Themen'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In dem '
+                    text: 'Eine Bachelorarbeit in Personalmanagement kann durchaus auch theoriebezogen sein. Deutlich häufiger sind jedoch konkrete Anwendungsthemen. Mögliche Themen können sein:'
+              -
+                type: bullet_list
+                content:
                   -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: bold
-                    text: 'betriebswirtschaftlichen Studium'
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Eignung der Balanced Scorecard als strategisches Steuerungsinstrument im Personalmanagement von KMU'
                   -
-                    type: text
-                    text: ' lernen Studenten u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: bold
-                    text: Praxiseinheiten
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Steigerung der Arbeitgeberattraktivität. Handlungsempfehlungen für das Personalmanagement zur Gewinnung, Entwicklung und Bindung der Generation Y'
                   -
-                    type: text
-                    text: ' (Praktika) und '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: bold
-                    text: Projektarbeiten
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'nternationales Personalmanagement. Länderspezifische Unterschiede bei Personalrekrutierung und Personalauswahl'
                   -
-                    type: text
-                    text: ' wesentliche Elemente des Studiums, die das erlernte Fachwissen vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studenten eine hohe Bedeutung zugeschrieben.'
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Auswirkungen des demographischen Wandel auf das strategische Personalmanagement'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Einfluss der Industrie 4.0 auf das Personalmanagement'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Fachwissens bilden Grundlagenfächer/Pflichtbereiche wie '
+                    text: 'Die genannten Themen lassen sich prinzipiell auch in einer Masterarbeit in Personalmanagement behandeln. Alle Themenvorschläge zeigen, dass sich im Personalmanagement '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: "Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
+                    text: 'verschiedene Wissenschaftsrichtungen überschneiden'
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Marketing
-                  -
-                    type: text
-                    text: '. Diese Grundlagenfächer werden in höheren Semestern durch Schwerpunkte, die der Student wählt, weiter vertieft.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Planung (Businessplan, Marketingkonzept), Organisation und Analyse'
-                  -
-                    type: text
-                    text: ' sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenbereiche '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Marketing, Personal, Controlling und Finanzen oder auch Produktion'
-                  -
-                    type: text
-                    text: ' erwähnt werden.'
+                    text: '. Wenn Sie über die Herausforderungen des Personalmanagements gegenüber der Generation Y schreiben wollen, sind Kenntnisse in Psychologie und Soziologie Voraussetzung.'
               -
                 type: set
                 attrs:
-                  id: 8hIYvANs
+                  id: lkl3guml
                   values:
-                    type: bilder
-                    assets:
-                      - seiten/fachrichtungen/BWL-Ghostwriter.png
-                    has_border: false
+                    type: anchor_target
+                    anchor_name: buch
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Experten-Empfehlungen: Themen im Bereich Personalmanagement '
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lkjx2x41
+        columns_per_row: 3
+        single_col: true
+        grid:
+          -
+            id: AnBPMZrL
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkjxb1ov
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/personalmanagement-bucher-3-min.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Jedoch bereiten gerade die Grundlagenfächer '
-                  -
-                    type: text
                     marks:
                       -
                         type: bold
-                    text: 'Mathe, Statistik und Recht'
+                    text: 'Klaffke, M. (Hg.'
                   -
                     type: text
-                    text: ' sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu, Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können.'
+                    text: '): Personalmanagement von Millennials. Gabler'
+            show_as_card: false
+          -
+            id: lkjx32ei
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkjxg59g
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/personalmanagement-bucher-1-min.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -1931,10 +2364,212 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Ghostwriting-Arbeiten dürfen nicht als Prüfungsleistungen verwendet werden'
+                    text: 'Parment, A. (2009)'
                   -
                     type: text
-                    text: '. Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
+                    text: ': Die Generation Y - Mitarbeiter der Zukunft: Herausforderung und Erfolgsfaktor für das Personalmanagement'
+            show_as_card: false
+          -
+            id: lkjx33zp
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkjxhe6k
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/personalmanagement-bucher-2-min.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ruthus, J. (2013)'
+                  -
+                    type: text
+                    text: ': Employer of Choice der Generation Y. Herausforderungen und Erfolgsfaktoren zur Steigerung der Arbeitgeberattraktivität'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lkl2ffo0
+    columns_replicator:
+      -
+        id: lkl2fhyw
+        single_col: true
+        grid:
+          -
+            id: wk4wBu2X
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3h771
+                  values:
+                    type: anchor_target
+                    anchor_name: aufgaben
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Personalmanagement: Aufgaben im Studium oft kompliziert '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Personalmanagement ist ein klassisches Querschnittsfach. Die Kombination aus Kenntnissen in Wirtschaft und Psychologie gibt Personalmanagern das Werkzeug, um Belegschaften in der Praxis tatsächlich anleiten zu können. Allerdings entstehen aus der Mischung von zwei verschiedenen Fachrichtungen für viele Studierende Schwierigkeiten. Ghostwriter für Personalmanagement können jedoch Abhilfe schaffen. Besonders häufig gibt es in diesen Bereichen Probleme:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Viele haben Probleme mit dem starken Fokus auf Mathematik: Hier können unsere Autoren Sie unterstützen. Von einem Ghostwriter aus dem Bereich Personalmanagement können Sie z.B. '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/statistische-analysen
+                                  target: null
+                                  rel: null
+                            text: 'statistische Analysen durchführen lassen'
+                          -
+                            type: text
+                            text: '. Für den Statistik-Teil arbeiten '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/mathematik
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter für Mathematik'
+                          -
+                            type: text
+                            text: ' mit Ghostwritern für Personalmanagement zusammen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Ähnlich sieht es beim Rechnungswesen, in der Buchführung und der Bilanzierung aus. Auch in diesen Bereichen brauchen Sie fundierte Kenntnisse, um den Anforderungen eines Personalmanagement-Studiums gerecht zu werden. Unsere Ghostwriter für Personalmanagementverfügen über das Hintergrundwissen und können Sie gezielt unterstützen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'In Klausuren im Personalmanagement sind oft Transferaufgaben zu lösen. Ein theoretischer Ansatz muss dann praxisbezogen angewendet werden. Dieses Vorgehen lässt sich im Vorfeld mit einem '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/bwl
+                                  target: null
+                                  rel: null
+                            text: 'BWL Ghostwriter'
+                          -
+                            type: text
+                            text: ' üben.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Unsere Ghostwriter für Personalmanagement können Sie außerdem durch Mustervorlagen unterstützen. Sie können eine '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                  target: null
+                                  rel: null
+                            text: 'Bachelorarbeit schreiben lassen'
+                          -
+                            type: text
+                            text: ', eine Hausarbeit oder auch Masterarbeiten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Bei Praxisarbeiten können unsere Experten Ihnen bei der Erstellung von HR-Leitlinien, Mitarbeiterhandbüchern oder auch konkreten Schulungsunterlagen behilflich sein.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Die Begleitung durch einen Ghostwriter ist immer maßgeschneidert. Das heißt: Sie bekommen von Ihrem Autoren genau die Leistung, die Sie in Ihrer Situation brauchen. '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Vorteile bietet auch unser interdisziplinärer Ansatz:'
+                          -
+                            type: text
+                            text: ' Auch komplizierte Themenstellungen können erfolgreich zum Abschluss gebracht werden, wenn '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter aus verschiedenen Fachrichtungen'
+                          -
+                            type: text
+                            text: ' zusammenarbeiten.'
             show_as_card: false
         type: row
         enabled: true
@@ -1943,9 +2578,194 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
+    bg_color: '#D6D6D6'
     border: false
     type: add_section
     enabled: true
+  -
+    id: lkl2pglz
+    columns_replicator:
+      -
+        id: lkl2piv6
+        single_col: true
+        grid:
+          -
+            id: wk4wBu2X
+            show_as_card: false
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3hhnx
+                  values:
+                    type: anchor_target
+                    anchor_name: perso
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Personalmanagement mit professioneller Unterstützung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Beim Personalmanagement handelt es sich um einen zentralen Aufgabenbereich von Unternehmen. Das Studium ist komplex, doch das Durchhalten bis zur Abschlussarbeit zahlt sich aus: Jobs in diesem Bereich sind zukunftssicher und gut bezahlt. Der Fachkräftemangel in der Branche nimmt aktuell sehr stark zu, was Ihre Jobaussichten noch verbessert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Studienabschluss in Personalmanagement lohnt sich also auf alle Fälle. Bei Problemen können Studenten individuelle und maßgeschneiderte Unterstützung durch unsere Ghostwriter für Personalmanagement in Anspruch nehmen. Die Ghostwriter von GWriters halten hohe Qualitätsstandards bei der Erstellung Ihrer Inhalte ein. Alle Kundenprojekte werden '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/gwriters-diskretion-kunden
+                          target: null
+                          rel: null
+                    text: diskret
+                  -
+                    type: text
+                    text: ' behandelt, die Datenschutzrichtlinien werden eingehalten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /kontakt
+                          target: null
+                          rel: null
+                    text: Kontaktaufnahme
+                  -
+                    type: text
+                    text: ' mit dem Team von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          target: null
+                          rel: null
+                    text: GWriters
+                  -
+                    type: text
+                    text: ' ist jederzeit unkompliziert und kostenlos möglich. Sie können einen Termin für eine persönliche Beratung vereinbaren, bei der Ihre spezifischen Anforderungen besprochen werden.'
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lkl3w51v
+    columns_replicator:
+      -
+        id: lkl3w70i
+        single_col: true
+        grid:
+          -
+            id: wk4wBu2X
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3z4wc
+                  values:
+                    type: anchor_target
+                    anchor_name: fragen
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Häufige Fragen zum Ghostwriting im Personalmanagement'
+              -
+                type: set
+                attrs:
+                  id: lkl3ww45
+                  values:
+                    type: accordion_wrapper
+                    items:
+                      -
+                        id: lkl3wx7s
+                        headline: 'In welchen Bereichen ist Unterstützung durch Ghostwriter für Personalmanagement möglich?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ghostwriter können Sie bei allen Schritten Ihres Projektes unterstützen: Planung, Materialbeschaffung, Schreibvorgang, Lektorat. Alle Niveaustufen sind möglich: Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit. Auch bei Praktikumsberichten können Ghostwriter für Personalmanagement Ihnen behilflich sein.'
+                        active: false
+                      -
+                        id: lkl3x82a
+                        headline: 'Können Ghostwriter für Personalmanagement auch Kontakte zu Unternehmen vermitteln?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ja, Ghostwriter sind Experten für Ihr Gebiet. Sie haben Beziehungen zu Unternehmen und können dadurch auch wichtige Daten für praxisbezogene Arbeiten erheben.'
+                        active: false
+                      -
+                        id: lkl3xo7l
+                        headline: 'Werden meine Daten diskret behandelt, wenn ich Unterstützung bei einem Projekt im Personalmanagement in Anspruch nehme?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Selbstverständlich. GWriters speichert die Kundendaten nur für die Dauer des Projekts. Wenn Ihre Arbeit abgeschlossen ist, werden alle personenbezogenen Daten vernichtet. Der Kontakt zwischen Ihnen und Ihrem Ghostwriter läuft vermittelt über die Agentur ab. Ein Missbrauch Ihrer Daten ist damit ausgeschlossen.'
+                        active: false
+                      -
+                        id: lkl3y148
+                        headline: 'Wie kann ich sicher gehen, dass ich eine Unikat als Arbeit für mein Personalmanagement-Projekt bekomme?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Experten von GWriters werden nach einem standardisierten Verfahren ausgewählt. Sie verpflichten sich, Inhalte einzigartig für Kunden zu erstellen. Bei GWriters gibt es außerdem einen Korrektur- und Supervisionsdurchlauf für jedes Projekt. Neben dem Lektorat ist selbstverständlich auch eine Plagiatsprüfung inbegriffen. Sie können also sicher sein, ein Unikat zu erhalten.'
+                        active: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: Vb7y9im2
     columns_replicator:
@@ -2002,7 +2822,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: 'Einige unserer Blogartikel zum Thema BWL Ghostwriter'
+                    text: 'Einige unserer Blogartikel zum Thema Personalmanagement Ghostwriter'
               -
                 type: set
                 attrs:
@@ -2010,122 +2830,9 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
-                      - e74abe89-2a92-4e81-bb8f-e357cc66776a
-                      - e3607494-f5c6-43c1-833e-69ab509b9846
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Nützliche Weblinks & Referenzen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://studiengaenge.zeit.de/ranking'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'CHE Hochschulranking 2020 – Zeit Online'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Betriebswirtschaftslehre'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Grundinformationen zur BWL – Wikipedia'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.handelsblatt.com/'
-                          target: _blank
-                          rel: nofollow
-                    text: 'Wirtschaftsnachrichten – Handelsblatt'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://studiengaenge.zeit.de/studium/wirtschaft/wirtschaftswissenschaften/betriebswirtschaftslehre'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'BWL studieren – Zeit Online'
+                      - a218c7ed-7850-4ac8-bfe8-b6cc2c4b4c16
+                      - a6f9e2d8-1e4c-4f7c-9cc3-990ebe0bc3fc
+                      - c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf
               -
                 type: paragraph
                 content:
@@ -2155,13 +2862,50 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'Personalmanagement Ghostwriter, Lektoren & Coaches • GWriters'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Personalmanagement – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_title: 'Personalmanagement Ghostwriter, Lektoren & Coaches • GWriters'
+og_description: 'Hilfe durch Experten und akademische Ghostwriter der Personalmanagement – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Ghostwriter Personalmanagement'
 breadcrumbs_active: true
+jumpmark: mutlu@gwriters.net
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "In welchen Bereichen ist Unterstützung durch Ghostwriter für Personalmanagement möglich?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ghostwriter können Sie bei allen Schritten Ihres Projektes unterstützen: Planung, Materialbeschaffung, Schreibvorgang, Lektorat. Alle Niveaustufen sind möglich: Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit. Auch bei Praktikumsberichten können Ghostwriter für Personalmanagement Ihnen behilflich sein."
+      }
+    },{
+      "@type": "Question",
+      "name": "Können Ghostwriter für Personalmanagement auch Kontakte zu Unternehmen vermitteln?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Ghostwriter sind Experten für Ihr Gebiet. Sie haben Beziehungen zu Unternehmen und können dadurch auch wichtige Daten für praxisbezogene Arbeiten erheben."
+      }
+    },{
+      "@type": "Question",
+      "name": "Ja, Ghostwriter sind Experten für Ihr Gebiet. Sie haben Beziehungen zu Unternehmen und können dadurch auch wichtige Daten für praxisbezogene Arbeiten erheben.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Selbstverständlich. GWriters speichert die Kundendaten nur für die Dauer des Projekts. Wenn Ihre Arbeit abgeschlossen ist, werden alle personenbezogenen Daten vernichtet. Der Kontakt zwischen Ihnen und Ihrem Ghostwriter läuft vermittelt über die Agentur ab. Ein Missbrauch Ihrer Daten ist damit ausgeschlossen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie kann ich sicher gehen, dass ich eine Unikat als Arbeit für mein Personalmanagement-Projekt bekomme?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Experten von GWriters werden nach einem standardisierten Verfahren ausgewählt. Sie verpflichten sich, Inhalte einzigartig für Kunden zu erstellen. Bei GWriters gibt es außerdem einen Korrektur- und Supervisionsdurchlauf für jedes Projekt. Neben dem Lektorat ist selbstverständlich auch eine Plagiatsprüfung inbegriffen. Sie können also sicher sein, ein Unikat zu erhalten."
+      }
+    }]
+  }
+  </script>
 ---

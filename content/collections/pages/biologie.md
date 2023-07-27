@@ -136,11 +136,10 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680536763
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1690466493
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -157,6 +156,151 @@ replicator:
           -
             id: hV3QuvzO
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#biologie'
+                                  target: null
+                                  rel: null
+                            text: 'Unsere Ghostwriter im Fachbereich Biologie'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#studium'
+                                  target: null
+                                  rel: null
+                            text: 'Das Biologie-Studium'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#allgemein'
+                                  target: null
+                                  rel: null
+                            text: 'Zur Biologie'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriting'
+                                  target: null
+                                  rel: null
+                            text: 'Biologie & Ghostwriting'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#biotechnologie'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Biotechnologie'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#unterschied'
+                                  target: null
+                                  rel: null
+                            text: 'Unterschiede: Biologie vs. Biotechnologie '
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -256,6 +400,13 @@ replicator:
                         attrs:
                           align: start
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+              -
+                type: set
+                attrs:
+                  id: lkl7v82q
+                  values:
+                    type: anchor_target
+                    anchor_name: biologie
               -
                 type: heading
                 attrs:
@@ -591,6 +742,13 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
               -
+                type: set
+                attrs:
+                  id: lkl7vnx3
+                  values:
+                    type: anchor_target
+                    anchor_name: studium
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -682,6 +840,13 @@ replicator:
               -
                 type: horizontal_rule
               -
+                type: set
+                attrs:
+                  id: lkl7vzx9
+                  values:
+                    type: anchor_target
+                    anchor_name: allgemein
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -731,6 +896,13 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Darüber hinaus fließt die Biologie in andere Naturwissenschaften ein und ist auch elementarer Bestandteil der Human-, Tier- und Zahnmedizin. Wichtige frühere Vertreter ihres Faches wie Milet, Aristoteles, Mendel und Darwin haben die Biologie maßgeblich beeinflusst. Ihre Erkenntnisse sind auch heute noch Bestandteil biologischer Basisgrundlagen, auf denen die aktuelle Forschung aufbaut.'
+              -
+                type: set
+                attrs:
+                  id: lkl7w8la
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriting
               -
                 type: heading
                 attrs:
@@ -835,6 +1007,602 @@ replicator:
                         attrs:
                           align: start
                     text: "\_und dem Schreiben von Mustervorlagen für wissenschaftliche Arbeiten stehen unsere Biologie-Ghostwriter auch für die Analyse von Labor- und Forschungsversuchen zur Verfügung und beraten bei deren Konzeptionierung. Letztlich coachen sie Sie als Studenten, damit Sie Ihr Studium ohne Hürden und “Haare Raufen” in einer angemessenen Studienzeit absolvieren und ihrem Traumberuf nachgehen können."
+              -
+                type: heading
+                attrs:
+                  level: 2
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lkl5qwr9
+        single_col: true
+        grid:
+          -
+            id: 92WwYrid
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkl7wlz3
+                  values:
+                    type: anchor_target
+                    anchor_name: biotechnologie
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter Biotechnologie'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Biotechnologie ist ein komplexes Fachgebiet, das sich mit der Anwendung von biologischen Prozessen und Organismen zur Entwicklung neuer Technologien und Produkte befasst. Im Zuge der wachsenden Bedeutung dieses innovativen Forschungsbereichs entsteht bei Studierenden und Forschenden in der Biotechnologie ein steigender Bedarf an qualitativ hochwertigen wissenschaftlichen Arbeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Hier kommt das Konzept des "Ghostwriter Biotechnologie" ins Spiel. Ghostwriting-Agenturen stellen kompetente Fachautoren zur Verfügung, die über umfassendes Wissen im Bereich Biotechnologie verfügen. Akademische Ghostwriter in der Biotechnologie bieten wertvolle '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Unterstützung bei der Erstellung von wissenschaftlichen Arbeiten, Abschlussarbeiten und Forschungsprojekten'
+                  -
+                    type: text
+                    text: '. Ihre Expertise reicht von der Analyse komplexer biotechnologischer Fragestellungen bis zur Erstellung fundierter, wissenschaftliche Arbeiten.'
+              -
+                type: set
+                attrs:
+                  id: lkl7wuxl
+                  values:
+                    type: anchor_target
+                    anchor_name: unterschied
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was ist Biotechnologie?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Biotechnologie ist ein Fachgebiet, das eng mit den Biowissenschaften verbunden ist. Es zeichnet sich durch seine anwendungsorientierte Spitzentechnologie aus und befindet sich an der Schnittstelle von Biologie, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medizin
+                          target: null
+                          rel: null
+                    text: Medizin
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/chemie
+                          target: null
+                          rel: null
+                    text: Chemie
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und Ingenieurwissenschaften.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Biotechnologie ist ein Fachgebiet, das biologische Prozesse nutzt, um neue Technologien, Produkte und Verfahren zu entwickeln. Es verbindet Biologie mit ingenieurwissenschaftlichen Ansätzen und findet Anwendung in Medizin, Landwirtschaft, Lebensmittelproduktion und Umweltschutz. Ziel ist es, nützliche Lösungen für verschiedene Bereiche zu schaffen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Unterschiede: Biologie vs. Biotechnologie '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Der Hauptunterschied liegt darin, dass die Biologie als Wissenschaft die Grundlagen und Zusammenhänge des Lebens erforscht, während die Biotechnologie die Anwendung dieses Wissens nutzt, um praktische Lösungen für verschiedene Bereiche zu entwickeln. Die Biotechnologie ist also eine angewandte Disziplin, die biologische Erkenntnisse in Technologien und Produkte umsetzt, während die Biologie als Forschungsfach grundlegende Erkenntnisse über lebende Organismen generiert.'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Biologie:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Biotechnologie:'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Biologie ist die Wissenschaft, die sich mit dem Studium von lebenden Organismen und ihren Lebensprozessen befasst. Sie erforscht die Struktur, Funktion, Entwicklung, Verhalten und Evolution von Pflanzen, Tieren, Mikroorganismen und anderen lebenden Organismen. Die Biologie ist breit gefächert und umfasst verschiedene Disziplinen wie Genetik, Ökologie, Zoologie, Botanik, Physiologie, Mikrobiologie und viele weitere.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Biotechnologie ist ein Teilbereich der Biologie, der sich mit der Anwendung biologischer Prozesse, Organismen oder Zellen zur Entwicklung neuer Technologien, Produkte und Verfahren beschäftigt. Sie nutzt das Wissen der Biologie, um biotechnologische Methoden einzusetzen, um Probleme zu lösen oder innovative Produkte zu entwickeln. Die Biotechnologie hat Anwendungen in der Medizin, Landwirtschaft, Lebensmittelindustrie, Umweltschutz, Pharmazie und anderen Bereichen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Beispiel: Biotechnologie'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Biotechnologie bzw. Biotechnik wird in der Lebensmittelindustrie eingesetzt, um wertvolle Produkte herzustellen, die den Alltag der Menschen verbessern können. Ein bedeutendes Beispiel ist die Herstellung von Insulin mittels Gentechnik.'
+              -
+                type: set
+                attrs:
+                  id: lkl5vtm1
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b> Biotechnologie in der Lebensmittelproduktion - Herstellung von Insulin durch Gentechnik</div>
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Früher wurde Insulin zur Behandlung von Diabetes aus der Bauchspeicheldrüse von Schlachttieren gewonnen, was teuer und aufwendig war. Mit Hilfe der Biotechnologie gelang es jedoch, den genetischen Code für das Insulin-Protein zu identifizieren und in Bakterien einzuschleusen.'
+              -
+                type: set
+                attrs:
+                  id: lkl82btx
+                  values:
+                    type: button
+                    button_link: 'entry::fb7f2840-5af4-40d9-b494-39fb8921a8d8'
+                    button_text: 'Jetzt kostenlos Anfragen'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wie kann ein Ghostwriter in der Biotechnologie behilflich sein?'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Literaturrecherche und -analyse:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter führt eine umfassende Literaturrecherche zu einem spezifischen Thema in der Biotechnologie durch und erstellt eine Zusammenfassung der relevanten Forschungsarbeiten und Studien.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Verfassen von wissenschaftlichen Artikeln:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter in der Biotechnologie verfasst einen wissenschaftlichen Artikel über eine neuartige biotechnologische Methode zur Herstellung von nachhaltigen Biokunststoffen und liefert dabei eine fundierte Diskussion der Ergebnisse.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Erstellung von Laborprotokollen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Nach einer erfolgreichen DNA-Analyse im Labor verfasst der Ghostwriter ein detailliertes Laborprotokoll, das den Versuchsaufbau, die verwendeten Materialien und die erhaltenen Ergebnisse beschreibt.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Unterstützung bei Abschlussarbeiten:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter hilft einem Studierenden bei der Erstellung seiner Masterarbeit zum Thema "Anwendung von CRISPR-Cas9-Technologie in der Pflanzenzüchtung" und gibt Anleitungen zur Gliederung und Strukturierung der Arbeit.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Analyse von Forschungsdaten:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Nach der Durchführung von Experimenten mit Stammzellkulturen wertet der Ghostwriter die gewonnenen Forschungsdaten aus und erstellt eine statistische Auswertung der Ergebnisse.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Verfassen von Forschungsanträgen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter unterstützt einen Wissenschaftler dabei, einen Forschungsantrag für ein Projekt zur Entwicklung von personalisierten Krebstherapien mit genetischen Technologien zu formulieren und die Zielsetzung sowie den wissenschaftlichen Mehrwert zu verdeutlichen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Erstellung von Präsentationen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter verfasst eine Präsentation über die Bedeutung von CRISPR-Cas9 für die Biotechnologie und zeigt dabei anschaulich die Chancen und Herausforderungen dieser Technologie auf.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Fachübergreifende Projekte:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'In einem interdisziplinären Projekt zur Entwicklung von biotechnologischen Verfahren für die Kreislaufwirtschaft verfasst der Ghostwriter einen Zwischenbericht, der die technischen Aspekte der biotechnologischen Prozesse verständlich für ein nicht-technisches Publikum darstellt.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lkl70fs0
+        single_col: true
+        grid:
+          -
+            id: 92WwYrid
+            bard:
               -
                 type: heading
                 attrs:
