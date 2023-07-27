@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690464715
+updated_at: 1690466305
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -156,6 +156,151 @@ replicator:
           -
             id: hV3QuvzO
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#biologie'
+                                  target: null
+                                  rel: null
+                            text: 'Unsere Ghostwriter im Fachbereich Biologie'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#studium'
+                                  target: null
+                                  rel: null
+                            text: 'Das Biologie-Studium'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#allgemein'
+                                  target: null
+                                  rel: null
+                            text: 'Zur Biologie'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriting'
+                                  target: null
+                                  rel: null
+                            text: 'Biologie & Ghostwriting'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#biotechnologie'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Biotechnologie'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#unterschied'
+                                  target: null
+                                  rel: null
+                            text: 'Unterschiede: Biologie vs. Biotechnologie '
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -255,6 +400,13 @@ replicator:
                         attrs:
                           align: start
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+              -
+                type: set
+                attrs:
+                  id: lkl7v82q
+                  values:
+                    type: anchor_target
+                    anchor_name: biologie
               -
                 type: heading
                 attrs:
@@ -590,6 +742,13 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
               -
+                type: set
+                attrs:
+                  id: lkl7vnx3
+                  values:
+                    type: anchor_target
+                    anchor_name: studium
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -681,6 +840,13 @@ replicator:
               -
                 type: horizontal_rule
               -
+                type: set
+                attrs:
+                  id: lkl7vzx9
+                  values:
+                    type: anchor_target
+                    anchor_name: '#allgemein'
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -730,6 +896,13 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Darüber hinaus fließt die Biologie in andere Naturwissenschaften ein und ist auch elementarer Bestandteil der Human-, Tier- und Zahnmedizin. Wichtige frühere Vertreter ihres Faches wie Milet, Aristoteles, Mendel und Darwin haben die Biologie maßgeblich beeinflusst. Ihre Erkenntnisse sind auch heute noch Bestandteil biologischer Basisgrundlagen, auf denen die aktuelle Forschung aufbaut.'
+              -
+                type: set
+                attrs:
+                  id: lkl7w8la
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriting
               -
                 type: heading
                 attrs:
@@ -851,6 +1024,13 @@ replicator:
             id: 92WwYrid
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl7wlz3
+                  values:
+                    type: anchor_target
+                    anchor_name: biotechnologie
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -889,6 +1069,13 @@ replicator:
                   -
                     type: text
                     text: '. Ihre Expertise reicht von der Analyse komplexer biotechnologischer Fragestellungen bis zur Erstellung fundierter, wissenschaftliche Arbeiten.'
+              -
+                type: set
+                attrs:
+                  id: lkl7wuxl
+                  values:
+                    type: anchor_target
+                    anchor_name: unterschied
               -
                 type: heading
                 attrs:
@@ -1007,7 +1194,71 @@ replicator:
                         attrs:
                           color: 'rgb(55, 65, 81)'
                           hex: '#000'
-                    text: 'Die Biotechnologie ist ein Fachgebiet, das eng mit den Biowissenschaften verbunden ist. Es zeichnet sich durch seine anwendungsorientierte Spitzentechnologie aus und befindet sich an der Schnittstelle von Biologie, Medizin, Chemie und Ingenieurwissenschaften.'
+                    text: 'Die Biotechnologie ist ein Fachgebiet, das eng mit den Biowissenschaften verbunden ist. Es zeichnet sich durch seine anwendungsorientierte Spitzentechnologie aus und befindet sich an der Schnittstelle von Biologie, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medizin
+                          target: null
+                          rel: null
+                    text: Medizin
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/chemie
+                          target: null
+                          rel: null
+                    text: Chemie
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: ' und Ingenieurwissenschaften.'
               -
                 type: paragraph
                 content:
