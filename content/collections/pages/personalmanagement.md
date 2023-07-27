@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690388281
+updated_at: 1690457585
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -546,10 +546,47 @@ replicator:
                             type: text
                             text: 'Personalentwicklung begleiten und evaluieren'
             show_as_card: false
+          -
+            id: lkl2qgm6
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter im Personalmanagement: Berufe'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Personalmanagement ist ein Praxisfach. Typische Berufe sind Personalreferent, Personalberater, Personalmarketing-Manager, Personaldisponent oder auch HR Business Partner. Unsere Ghostwriter im Personalmanagement arbeiten in diesen Bereichen. Dementsprechend verfügen sie über die notwendige Expertise, um Ihnen bei Problemen weiterhelfen zu können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der Abschluss des Studiums mit einem Zeugnis lohnt sich auf jeden Fall in finanzieller Hinsicht. Das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.absolventa.de/jobs/channel/human-resources/thema/gehalt-personalmanagement'
+                          target: null
+                          rel: null
+                    text: Jahresgehalt
+                  -
+                    type: text
+                    text: ' liegt bei ca. 50.000 Euro. Aufgrund des Fachkräftemangels ist zu erwarten, dass Stellen im Personalmanagement in den nächsten Jahren noch wichtiger werden. Dadurch steigt für Sie der Spielraum bei Gehaltsverhandlungen.'
+            show_as_card: false
         type: row
         enabled: true
+        columns_per_row: 2
         responsive_columns: 0
-        columns_per_row: 0
       -
         id: VU31hpFG
         single_col: false
@@ -1773,7 +1810,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bachelorarbeit Personalmanagement: Mögliche Themen'
+                    text: 'Bachelorarbeit Personalmanagement: Themen'
               -
                 type: paragraph
                 content:
@@ -1955,6 +1992,170 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lkl2ffo0
+    columns_replicator:
+      -
+        id: lkl2fhyw
+        single_col: true
+        grid:
+          -
+            id: wk4wBu2X
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Personalmanagement: Aufgaben im Studium oft kompliziert '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Personalmanagement ist ein klassisches Querschnittsfach. Die Kombination aus Kenntnissen in Wirtschaft und Psychologie gibt Personalmanagern das Werkzeug, um Belegschaften in der Praxis tatsächlich anleiten zu können. Allerdings entstehen aus der Mischung von zwei verschiedenen Fachrichtungen für viele Studierende Schwierigkeiten. Ghostwriter für Personalmanagement können jedoch Abhilfe schaffen. Besonders häufig gibt es in diesen Bereichen Probleme:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Viele haben Probleme mit dem starken Fokus auf Mathematik: Hier können unsere Autoren Sie unterstützen. Von einem Ghostwriter aus dem Bereich Personalmanagement können Sie z.B. '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/statistische-analysen
+                                  target: null
+                                  rel: null
+                            text: 'statistische Analysen durchführen lassen'
+                          -
+                            type: text
+                            text: '. Für den Statistik-Teil arbeiten '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/mathematik
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter für Mathematik'
+                          -
+                            type: text
+                            text: ' mit Ghostwritern für Personalmanagement zusammen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Ähnlich sieht es beim Rechnungswesen, in der Buchführung und der Bilanzierung aus. Auch in diesen Bereichen brauchen Sie fundierte Kenntnisse, um den Anforderungen eines Personalmanagement-Studiums gerecht zu werden. Unsere Ghostwriter für Personalmanagementverfügen über das Hintergrundwissen und können Sie gezielt unterstützen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'In Klausuren im Personalmanagement sind oft Transferaufgaben zu lösen. Ein theoretischer Ansatz muss dann praxisbezogen angewendet werden. Dieses Vorgehen lässt sich im Vorfeld mit einem '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/bwl
+                                  target: null
+                                  rel: null
+                            text: 'BWL Ghostwriter'
+                          -
+                            type: text
+                            text: ' üben.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Unsere Ghostwriter für Personalmanagement können Sie außerdem durch Mustervorlagen unterstützen. Sie können eine '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                  target: null
+                                  rel: null
+                            text: 'Bachelorarbeit schreiben lassen'
+                          -
+                            type: text
+                            text: ', eine Hausarbeit oder auch Masterarbeiten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Bei Praxisarbeiten können unsere Experten Ihnen bei der Erstellung von HR-Leitlinien, Mitarbeiterhandbüchern oder auch konkreten Schulungsunterlagen behilflich sein.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Die Begleitung durch einen Ghostwriter ist immer maßgeschneidert. Das heißt: Sie bekommen von Ihrem Autoren genau die Leistung, die Sie in Ihrer Situation brauchen. Vorteile bietet auch unser interdisziplinärer Ansatz: Auch komplizierte Themenstellungen können erfolgreich zum Abschluss gebracht werden, wenn Ghostwriter aus verschiedenen Fachrichtungen zusammenarbeiten.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lkl2pglz
+    columns_replicator:
+      -
+        id: lkl2piv6
+        single_col: false
+        grid:
+          -
+            id: wk4wBu2X
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
     border: false
     type: add_section
     enabled: true
@@ -2176,4 +2377,5 @@ fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Ghostwriter Personalmanagement'
 breadcrumbs_active: true
+jumpmark: mutlu@gwriters.net
 ---
