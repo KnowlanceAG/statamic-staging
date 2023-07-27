@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690457745
+updated_at: 1690458866
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -174,6 +174,189 @@ replicator:
 
 
                       </p>
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#definition'
+                                  target: null
+                                  rel: null
+                            text: 'Was ist Personalmanagement?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#personalmanager'
+                                  target: null
+                                  rel: null
+                            text: 'Was macht ein Ghostwriter als Personalmanager?'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#berufe'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter im Personalmanagement: Berufe'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#beauftragen'
+                                  target: null
+                                  rel: null
+                            text: 'Warum sollte man Ghostwriter im Personalmanagement beauftragen?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#weiterbildung'
+                                  target: null
+                                  rel: null
+                            text: 'Studium und Weiterbildung Personalmanagement'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#wissenschaftlich'
+                                  target: null
+                                  rel: null
+                            text: 'Wissenschaftliche Arbeiten für das Studium Personalmanagement'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#themen'
+                                  target: null
+                                  rel: null
+                            text: 'Bachelorarbeit Personalmanagement: Themen'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#buch'
+                                          target: null
+                                          rel: null
+                                    text: 'Experten-Empfehlungen: Themen im Bereich Personalmanagement'
+                                  -
+                                    type: text
+                                    text: ' '
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#aufgaben'
+                                  target: null
+                                  rel: null
+                            text: 'Personalmanagement: Aufgaben im Studium oft kompliziert'
+                          -
+                            type: text
+                            text: ' '
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#unterstützung'
+                                  target: null
+                                  rel: null
+                            text: 'Personalmanagement mit professioneller Unterstützung'
             show_as_card: false
         type: row
         enabled: true
@@ -224,7 +407,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit im Bereich Personalmanagement von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -232,7 +415,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (BWL) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Personalmanagement) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -240,7 +423,7 @@ replicator:
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL.'
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Personalmanagement.'
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
@@ -248,7 +431,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (BWL) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Personalmanagement) Übersetzungen von akademischen Texten, Arbeiten, usw.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -257,7 +440,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH PERSONALMANAGEMENT'
                     color: '#FF6606'
                     spacing_top: false
               -
@@ -425,6 +608,13 @@ replicator:
             id: RY4Hwivx
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3e369
+                  values:
+                    type: anchor_target
+                    anchor_name: definition
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -461,6 +651,13 @@ replicator:
           -
             id: lkl2vxdm
             bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3dnh2
+                  values:
+                    type: anchor_target
+                    anchor_name: personalmanager
               -
                 type: heading
                 attrs:
@@ -566,9 +763,16 @@ replicator:
             id: OzNwMVBq
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3d8it
+                  values:
+                    type: anchor_target
+                    anchor_name: berufe
+              -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
@@ -1489,6 +1693,18 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/informatik#Software'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Softwarelokalisierung'
             show_as_card: false
         type: row
         enabled: true
@@ -1510,9 +1726,16 @@ replicator:
             id: wk4wBu2X
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3ezr1
+                  values:
+                    type: anchor_target
+                    anchor_name: beauftragen
+              -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -1609,6 +1832,13 @@ replicator:
             id: 4Y6hlzis
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3ffd7
+                  values:
+                    type: anchor_target
+                    anchor_name: weiterbildung
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1629,8 +1859,8 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.personalmanagement-studieren.de/studiengaenge/personalmanagement/#hochschulen-finden'
-                          target: null
-                          rel: null
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
                     text: '55 Hochschulen'
                   -
                     type: text
@@ -1653,7 +1883,20 @@ replicator:
                     text: 'Bachelorarbeit in BWL'
                   -
                     type: text
-                    text: ' benötigen, dann arbeiten unsere Experten aus BWL und Personalmanagement zusammen.'
+                    text: ' benötigen, dann arbeiten unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: Experten
+                  -
+                    type: text
+                    text: ' aus BWL und Personalmanagement zusammen.'
               -
                 type: heading
                 attrs:
@@ -1711,13 +1954,20 @@ replicator:
             id: StE9S7ZP
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3fupl
+                  values:
+                    type: anchor_target
+                    anchor_name: wissenschaftlich
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Belegarbeiten für das Studium Personalmanagement'
+                    text: 'Wissenschaftliche Arbeiten für das Studium Personalmanagement'
               -
                 type: paragraph
                 content:
@@ -1820,6 +2070,15 @@ replicator:
             id: OSzmY8He
             bard:
               -
+                type: set
+                attrs:
+                  id: lkl3gl60
+                  values:
+                    type: anchor_target
+                    anchor_name: themen
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1896,6 +2155,15 @@ replicator:
                   -
                     type: text
                     text: '. Wenn Sie über die Herausforderungen des Personalmanagements gegenüber der Generation Y schreiben wollen, sind Kenntnisse in Psychologie und Soziologie Voraussetzung.'
+              -
+                type: set
+                attrs:
+                  id: lkl3guml
+                  values:
+                    type: anchor_target
+                    anchor_name: buch
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2021,6 +2289,15 @@ replicator:
           -
             id: wk4wBu2X
             bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3h771
+                  values:
+                    type: anchor_target
+                    anchor_name: aufgaben
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2166,6 +2443,79 @@ replicator:
           -
             id: wk4wBu2X
             show_as_card: false
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3hhnx
+                  values:
+                    type: anchor_target
+                    anchor_name: unterstützung
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Personalmanagement mit professioneller Unterstützung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Beim Personalmanagement handelt es sich um einen zentralen Aufgabenbereich von Unternehmen. Das Studium ist komplex, doch das Durchhalten bis zur Abschlussarbeit zahlt sich aus: Jobs in diesem Bereich sind zukunftssicher und gut bezahlt. Der Fachkräftemangel in der Branche nimmt aktuell sehr stark zu, was Ihre Jobaussichten noch verbessert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Studienabschluss in Personalmanagement lohnt sich also auf alle Fälle. Bei Problemen können Studenten individuelle und maßgeschneiderte Unterstützung durch unsere Ghostwriter für Personalmanagement in Anspruch nehmen. Die Ghostwriter von GWriters halten hohe Qualitätsstandards bei der Erstellung Ihrer Inhalte ein. Alle Kundenprojekte werden '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/gwriters-diskretion-kunden
+                          target: null
+                          rel: null
+                    text: diskret
+                  -
+                    type: text
+                    text: ' behandelt, die Datenschutzrichtlinien werden eingehalten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /kontakt
+                          target: null
+                          rel: null
+                    text: Kontaktaufnahme
+                  -
+                    type: text
+                    text: ' mit dem Team von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          target: null
+                          rel: null
+                    text: Gwriters
+                  -
+                    type: text
+                    text: ' ist jederzeit unkompliziert und kostenlos möglich. Sie können einen Termin für eine persönliche Beratung vereinbaren, bei der Ihre spezifischen Anforderungen besprochen werden.'
         type: row
         enabled: true
         responsive_columns: 0
@@ -2242,119 +2592,6 @@ replicator:
                       - be1aacde-86af-4b82-9a8b-10b05c6743b5
                       - e74abe89-2a92-4e81-bb8f-e357cc66776a
                       - e3607494-f5c6-43c1-833e-69ab509b9846
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Nützliche Weblinks & Referenzen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://studiengaenge.zeit.de/ranking'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'CHE Hochschulranking 2020 – Zeit Online'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Betriebswirtschaftslehre'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Grundinformationen zur BWL – Wikipedia'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.handelsblatt.com/'
-                          target: _blank
-                          rel: nofollow
-                    text: 'Wirtschaftsnachrichten – Handelsblatt'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://studiengaenge.zeit.de/studium/wirtschaft/wirtschaftswissenschaften/betriebswirtschaftslehre'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'BWL studieren – Zeit Online'
               -
                 type: paragraph
                 content:
