@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690457697
+updated_at: 1690457745
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -457,6 +457,14 @@ replicator:
                 type: heading
                 attrs:
                   level: 2
+            show_as_card: false
+          -
+            id: lkl2vxdm
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
                     type: text
@@ -548,11 +556,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        columns_per_row: 2
         responsive_columns: 0
-        columns_per_row: 0
       -
         id: lkl2uxux
-        single_col: false
+        single_col: true
         grid:
           -
             id: OzNwMVBq
