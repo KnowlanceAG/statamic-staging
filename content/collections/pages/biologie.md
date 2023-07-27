@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690466305
+updated_at: 1690466463
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -845,7 +845,7 @@ replicator:
                   id: lkl7vzx9
                   values:
                     type: anchor_target
-                    anchor_name: '#allgemein'
+                    anchor_name: allgemein
               -
                 type: heading
                 attrs:
@@ -1083,6 +1083,110 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Was ist Biotechnologie?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Biotechnologie ist ein Fachgebiet, das eng mit den Biowissenschaften verbunden ist. Es zeichnet sich durch seine anwendungsorientierte Spitzentechnologie aus und befindet sich an der Schnittstelle von Biologie, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medizin
+                          target: null
+                          rel: null
+                    text: Medizin
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/chemie
+                          target: null
+                          rel: null
+                    text: Chemie
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und Ingenieurwissenschaften.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Biotechnologie ist ein Fachgebiet, das biologische Prozesse nutzt, um neue Technologien, Produkte und Verfahren zu entwickeln. Es verbindet Biologie mit ingenieurwissenschaftlichen Ansätzen und findet Anwendung in Medizin, Landwirtschaft, Lebensmittelproduktion und Umweltschutz. Ziel ist es, nützliche Lösungen für verschiedene Bereiche zu schaffen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
                     text: 'Unterschiede: Biologie vs. Biotechnologie '
               -
                 type: paragraph
@@ -1178,110 +1282,6 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Was ist Biotechnologie?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                    text: 'Die Biotechnologie ist ein Fachgebiet, das eng mit den Biowissenschaften verbunden ist. Es zeichnet sich durch seine anwendungsorientierte Spitzentechnologie aus und befindet sich an der Schnittstelle von Biologie, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/medizin
-                          target: null
-                          rel: null
-                    text: Medizin
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/chemie
-                          target: null
-                          rel: null
-                    text: Chemie
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                    text: ' und Ingenieurwissenschaften.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                    text: 'Biotechnologie ist ein Fachgebiet, das biologische Prozesse nutzt, um neue Technologien, Produkte und Verfahren zu entwickeln. Es verbindet Biologie mit ingenieurwissenschaftlichen Ansätzen und findet Anwendung in Medizin, Landwirtschaft, Lebensmittelproduktion und Umweltschutz. Ziel ist es, nützliche Lösungen für verschiedene Bereiche zu schaffen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
                     text: 'Beispiel: Biotechnologie'
               -
                 type: paragraph
@@ -1324,6 +1324,18 @@ replicator:
                           color: 'rgb(55, 65, 81)'
                           hex: '#000'
                     text: 'Früher wurde Insulin zur Behandlung von Diabetes aus der Bauchspeicheldrüse von Schlachttieren gewonnen, was teuer und aufwendig war. Mit Hilfe der Biotechnologie gelang es jedoch, den genetischen Code für das Insulin-Protein zu identifizieren und in Bakterien einzuschleusen.'
+              -
+                type: set
+                attrs:
+                  id: lkl82btx
+                  values:
+                    type: button
+                    button_link: 'entry::fb7f2840-5af4-40d9-b494-39fb8921a8d8'
+                    button_text: 'Jetzt kostenlos Anfragen'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
