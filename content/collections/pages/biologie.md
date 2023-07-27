@@ -136,11 +136,10 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680536763
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1690464451
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -973,6 +972,442 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lkl5qwr9
+        single_col: false
+        grid:
+          -
+            id: 92WwYrid
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter Biotechnologie'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Biotechnologie ist ein komplexes Fachgebiet, das sich mit der Anwendung von biologischen Prozessen und Organismen zur Entwicklung neuer Technologien und Produkte befasst. Im Zuge der wachsenden Bedeutung dieses innovativen Forschungsbereichs entsteht bei Studierenden und Forschenden in der Biotechnologie ein steigender Bedarf an qualitativ hochwertigen wissenschaftlichen Arbeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Hier kommt das Konzept des "Ghostwriter Biotechnologie" ins Spiel. Ghostwriting-Agenturen stellen kompetente Fachautoren zur Verfügung, die über umfassendes Wissen im Bereich Biotechnologie verfügen. Akademische Ghostwriter in der Biotechnologie bieten wertvolle '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Unterstützung bei der Erstellung von wissenschaftlichen Arbeiten, Abschlussarbeiten und Forschungsprojekten'
+                  -
+                    type: text
+                    text: '. Ihre Expertise reicht von der Analyse komplexer biotechnologischer Fragestellungen bis zur Erstellung fundierter, wissenschaftliche Arbeiten.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unterschiede: Biologie vs. Biotechnologie '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Der Hauptunterschied liegt darin, dass die Biologie als Wissenschaft die Grundlagen und Zusammenhänge des Lebens erforscht, während die Biotechnologie die Anwendung dieses Wissens nutzt, um praktische Lösungen für verschiedene Bereiche zu entwickeln. Die Biotechnologie ist also eine angewandte Disziplin, die biologische Erkenntnisse in Technologien und Produkte umsetzt, während die Biologie als Forschungsfach grundlegende Erkenntnisse über lebende Organismen generiert.'
+              -
+                type: set
+                attrs:
+                  id: lkl6uzde
+                  values:
+                    type: table
+                    table_structure:
+                      -
+                        cells:
+                          - Biologie
+                          - 'Biotechnologie:'
+                      -
+                        cells:
+                          - ' Die Biologie ist die Wissenschaft, die sich mit dem Studium von lebenden Organismen und ihren Lebensprozessen befasst. Sie erforscht die Struktur, Funktion, Entwicklung, Verhalten und Evolution von Pflanzen, Tieren, Mikroorganismen und anderen lebenden Organismen. Die Biologie ist breit gefächert und umfasst verschiedene Disziplinen wie Genetik, Ökologie, Zoologie, Botanik, Physiologie, Mikrobiologie und viele weitere.'
+                          - 'Die Biotechnologie ist ein Teilbereich der Biologie, der sich mit der Anwendung biologischer Prozesse, Organismen oder Zellen zur Entwicklung neuer Technologien, Produkte und Verfahren beschäftigt. Sie nutzt das Wissen der Biologie, um biotechnologische Methoden einzusetzen, um Probleme zu lösen oder innovative Produkte zu entwickeln. Die Biotechnologie hat Anwendungen in der Medizin, Landwirtschaft, Lebensmittelindustrie, Umweltschutz, Pharmazie und anderen Bereichen.'
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was ist Biotechnologie?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Biotechnologie ist ein Fachgebiet, das eng mit den Biowissenschaften verbunden ist. Es zeichnet sich durch seine anwendungsorientierte Spitzentechnologie aus und befindet sich an der Schnittstelle von Biologie, Medizin, Chemie und Ingenieurwissenschaften.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Biotechnologie ist ein Fachgebiet, das biologische Prozesse nutzt, um neue Technologien, Produkte und Verfahren zu entwickeln. Es verbindet Biologie mit ingenieurwissenschaftlichen Ansätzen und findet Anwendung in Medizin, Landwirtschaft, Lebensmittelproduktion und Umweltschutz. Ziel ist es, nützliche Lösungen für verschiedene Bereiche zu schaffen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Beispiel: Biotechnologie'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Biotechnologie bzw. Biotechnik wird in der Lebensmittelindustrie eingesetzt, um wertvolle Produkte herzustellen, die den Alltag der Menschen verbessern können. Ein bedeutendes Beispiel ist die Herstellung von Insulin mittels Gentechnik.'
+              -
+                type: set
+                attrs:
+                  id: lkl5vtm1
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b> Biotechnologie in der Lebensmittelproduktion - Herstellung von Insulin durch Gentechnik</div>
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Früher wurde Insulin zur Behandlung von Diabetes aus der Bauchspeicheldrüse von Schlachttieren gewonnen, was teuer und aufwendig war. Mit Hilfe der Biotechnologie gelang es jedoch, den genetischen Code für das Insulin-Protein zu identifizieren und in Bakterien einzuschleusen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(52, 53, 65)'
+                          hex: '#000'
+                    text: 'Wie kann ein Ghostwriter in der Biotechnologie behilflich sein?'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Literaturrecherche und -analyse:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter führt eine umfassende Literaturrecherche zu einem spezifischen Thema in der Biotechnologie durch und erstellt eine Zusammenfassung der relevanten Forschungsarbeiten und Studien.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Verfassen von wissenschaftlichen Artikeln:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter in der Biotechnologie verfasst einen wissenschaftlichen Artikel über eine neuartige biotechnologische Methode zur Herstellung von nachhaltigen Biokunststoffen und liefert dabei eine fundierte Diskussion der Ergebnisse.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Erstellung von Laborprotokollen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Nach einer erfolgreichen DNA-Analyse im Labor verfasst der Ghostwriter ein detailliertes Laborprotokoll, das den Versuchsaufbau, die verwendeten Materialien und die erhaltenen Ergebnisse beschreibt.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Unterstützung bei Abschlussarbeiten:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter hilft einem Studierenden bei der Erstellung seiner Masterarbeit zum Thema "Anwendung von CRISPR-Cas9-Technologie in der Pflanzenzüchtung" und gibt Anleitungen zur Gliederung und Strukturierung der Arbeit.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Analyse von Forschungsdaten:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Nach der Durchführung von Experimenten mit Stammzellkulturen wertet der Ghostwriter die gewonnenen Forschungsdaten aus und erstellt eine statistische Auswertung der Ergebnisse.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Verfassen von Forschungsanträgen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter unterstützt einen Wissenschaftler dabei, einen Forschungsantrag für ein Projekt zur Entwicklung von personalisierten Krebstherapien mit genetischen Technologien zu formulieren und die Zielsetzung sowie den wissenschaftlichen Mehrwert zu verdeutlichen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Erstellung von Präsentationen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter verfasst eine Präsentation über die Bedeutung von CRISPR-Cas9 für die Biotechnologie und zeigt dabei anschaulich die Chancen und Herausforderungen dieser Technologie auf.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Fachübergreifende Projekte:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ' In einem interdisziplinären Projekt zur Entwicklung von biotechnologischen Verfahren für die Kreislaufwirtschaft verfasst der Ghostwriter einen Zwischenbericht, der die technischen Aspekte der biotechnologischen Prozesse verständlich für ein nicht-technisches Publikum darstellt.'
             show_as_card: false
         type: row
         enabled: true
