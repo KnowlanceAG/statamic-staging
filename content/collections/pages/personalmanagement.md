@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690458866
+updated_at: 1690459596
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -182,6 +182,19 @@ replicator:
                   -
                     type: text
                     text: Inhaltsverzeichnis
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lkl3vodg
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: ikUEmDVn
+            bard:
               -
                 type: bullet_list
                 content:
@@ -268,6 +281,13 @@ replicator:
                                   target: null
                                   rel: null
                             text: 'Studium und Weiterbildung Personalmanagement'
+            show_as_card: false
+          -
+            id: lkl3vpl4
+            bard:
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -357,11 +377,26 @@ replicator:
                                   target: null
                                   rel: null
                             text: 'Personalmanagement mit professioneller Unterstützung'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#fragen'
+                                  target: null
+                                  rel: null
+                            text: 'Häufige Fragen zum Ghostwriting im Personalmanagement'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -2438,7 +2473,7 @@ replicator:
     columns_replicator:
       -
         id: lkl2piv6
-        single_col: false
+        single_col: true
         grid:
           -
             id: wk4wBu2X
@@ -2516,6 +2551,96 @@ replicator:
                   -
                     type: text
                     text: ' ist jederzeit unkompliziert und kostenlos möglich. Sie können einen Termin für eine persönliche Beratung vereinbaren, bei der Ihre spezifischen Anforderungen besprochen werden.'
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lkl3w51v
+    columns_replicator:
+      -
+        id: lkl3w70i
+        single_col: false
+        grid:
+          -
+            id: wk4wBu2X
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lkl3z4wc
+                  values:
+                    type: anchor_target
+                    anchor_name: fragen
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Häufige Fragen zum Ghostwriting im Personalmanagement'
+              -
+                type: set
+                attrs:
+                  id: lkl3ww45
+                  values:
+                    type: accordion_wrapper
+                    items:
+                      -
+                        id: lkl3wx7s
+                        headline: 'In welchen Bereichen ist Unterstützung durch Ghostwriter für Personalmanagement möglich?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ghostwriter können Sie bei allen Schritten Ihres Projektes unterstützen: Planung, Materialbeschaffung, Schreibvorgang, Lektorat. Alle Niveaustufen sind möglich: Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit. Auch bei Praktikumsberichten können Ghostwriter für Personalmanagement Ihnen behilflich sein.'
+                        active: false
+                      -
+                        id: lkl3x82a
+                        headline: 'Können Ghostwriter für Personalmanagement auch Kontakte zu Unternehmen vermitteln?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ja, Ghostwriter sind Experten für Ihr Gebiet. Sie haben Beziehungen zu Unternehmen und können dadurch auch wichtige Daten für praxisbezogene Arbeiten erheben.'
+                        active: false
+                      -
+                        id: lkl3xo7l
+                        headline: 'Werden meine Daten diskret behandelt, wenn ich Unterstützung bei einem Projekt im Personalmanagement in Anspruch nehme?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Selbstverständlich. GWriters speichert die Kundendaten nur für die Dauer des Projekts. Wenn Ihre Arbeit abgeschlossen ist, werden alle personenbezogenen Daten vernichtet. Der Kontakt zwischen Ihnen und Ihrem Ghostwriter läuft vermittelt über die Agentur ab. Ein Missbrauch Ihrer Daten ist damit ausgeschlossen.'
+                        active: false
+                      -
+                        id: lkl3y148
+                        headline: 'Wie kann ich sicher gehen, dass ich eine Unikat als Arbeit für mein Personalmanagement-Projekt bekomme?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Experten von GWriters werden nach einem standardisierten Verfahren ausgewählt. Sie verpflichten sich, Inhalte einzigartig für Kunden zu erstellen. Bei GWriters gibt es außerdem einen Korrektur- und Supervisionsdurchlauf für jedes Projekt. Neben dem Lektorat ist selbstverständlich auch eine Plagiatsprüfung inbegriffen. Sie können also sicher sein, ein Unikat zu erhalten.'
+                        active: false
+              -
+                type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
