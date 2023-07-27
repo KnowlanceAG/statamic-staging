@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690460977
+updated_at: 1690461226
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2679,7 +2679,7 @@ replicator:
     columns_replicator:
       -
         id: lkl3w70i
-        single_col: false
+        single_col: true
         grid:
           -
             id: wk4wBu2X
@@ -2862,14 +2862,50 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'Personalmanagement Ghostwriter, Lektoren & Coaches • GWriters'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Personalmanagement – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_title: 'Personalmanagement Ghostwriter, Lektoren & Coaches • GWriters'
+og_description: 'Hilfe durch Experten und akademische Ghostwriter der Personalmanagement – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Ghostwriter Personalmanagement'
 breadcrumbs_active: true
 jumpmark: mutlu@gwriters.net
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "In welchen Bereichen ist Unterstützung durch Ghostwriter für Personalmanagement möglich?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ghostwriter können Sie bei allen Schritten Ihres Projektes unterstützen: Planung, Materialbeschaffung, Schreibvorgang, Lektorat. Alle Niveaustufen sind möglich: Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit. Auch bei Praktikumsberichten können Ghostwriter für Personalmanagement Ihnen behilflich sein."
+      }
+    },{
+      "@type": "Question",
+      "name": "Können Ghostwriter für Personalmanagement auch Kontakte zu Unternehmen vermitteln?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Ghostwriter sind Experten für Ihr Gebiet. Sie haben Beziehungen zu Unternehmen und können dadurch auch wichtige Daten für praxisbezogene Arbeiten erheben."
+      }
+    },{
+      "@type": "Question",
+      "name": "Ja, Ghostwriter sind Experten für Ihr Gebiet. Sie haben Beziehungen zu Unternehmen und können dadurch auch wichtige Daten für praxisbezogene Arbeiten erheben.",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Selbstverständlich. GWriters speichert die Kundendaten nur für die Dauer des Projekts. Wenn Ihre Arbeit abgeschlossen ist, werden alle personenbezogenen Daten vernichtet. Der Kontakt zwischen Ihnen und Ihrem Ghostwriter läuft vermittelt über die Agentur ab. Ein Missbrauch Ihrer Daten ist damit ausgeschlossen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie kann ich sicher gehen, dass ich eine Unikat als Arbeit für mein Personalmanagement-Projekt bekomme?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Experten von GWriters werden nach einem standardisierten Verfahren ausgewählt. Sie verpflichten sich, Inhalte einzigartig für Kunden zu erstellen. Bei GWriters gibt es außerdem einen Korrektur- und Supervisionsdurchlauf für jedes Projekt. Neben dem Lektorat ist selbstverständlich auch eine Plagiatsprüfung inbegriffen. Sie können also sicher sein, ein Unikat zu erhalten."
+      }
+    }]
+  }
+  </script>
 ---
