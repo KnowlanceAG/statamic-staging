@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1688487243
+updated_at: 1690448765
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2155,9 +2155,9 @@ replicator:
     type: add_section
     enabled: true
 meta_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_description: 'Unsere BWL-Ghostwriter - betriebswirtschaftliche Experten, wissenschaftliche Mitarbeiter & Professor unterstützen Sie im Fachgebiet BWL - schnell & diskret!'
 og_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_description: 'Unsere BWL-Ghostwriter - betriebswirtschaftliche Experten, wissenschaftliche Mitarbeiter & Professor unterstützen Sie im Fachgebiet BWL - schnell & diskret!'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
