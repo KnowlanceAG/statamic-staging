@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: Mk2CSuR9
@@ -477,6 +476,7 @@ replicator:
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
                           - 24308319-8d41-41a9-ad35-e9cf2ceba726
+                          - c15ef599-1566-42e7-8dde-929af350c15a
               -
                 type: set
                 attrs:
@@ -1039,7 +1039,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1684876356
+updated_at: 1690545621
 template: default
 use_meta_keywords: false
 no_index_page: false
