@@ -96,6 +96,10 @@ tree:
               -
                 id: f60dfe18-9047-49ed-b8b3-e3372d970f32
                 entry: 1de3d76b-f23a-41a8-a629-15b48a07223e
+              -
+                id: 8cf191fb-ceba-438d-be7b-39b91342c4ee
+                title: Softwarelokalisierung
+                url: 'https://gwriters.de/fachrichtungen/informatik#Softwarelokalisierung'
           -
             id: 09b49026-2406-4550-b276-3e7c6124b13a
             title: Naturwissenschaften
@@ -103,6 +107,10 @@ tree:
               -
                 id: 28471033-6d2e-4b1c-aa53-d6f2c114a0b4
                 entry: 9232eaf7-a636-467d-9699-5e34e4a7c4a9
+              -
+                id: 83bc2057-2210-43e6-b6a7-d7dd43bb86e0
+                title: Biotechnologie
+                url: 'https://gwriters.de/fachrichtungen/biologie#biotechnologie'
               -
                 id: 9c6092ac-97e5-4e37-91f7-8e992021ba9c
                 entry: a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
@@ -156,6 +164,9 @@ tree:
               -
                 id: 0276f2e0-c782-40a3-92f2-645dcdf3f214
                 entry: f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+              -
+                id: 108dab1d-edfc-49fa-be73-20dfff412d11
+                entry: c15ef599-1566-42e7-8dde-929af350c15a
               -
                 id: c69bb324-4d0e-48a1-9967-75ebfb1fd384
                 entry: 89bfdf0d-d156-4ee5-9575-09e85f7e3655
