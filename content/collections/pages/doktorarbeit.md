@@ -136,7 +136,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: ec5xCRCG
@@ -1448,6 +1447,7 @@ replicator:
                           - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
                           - 24308319-8d41-41a9-ad35-e9cf2ceba726
+                          - c15ef599-1566-42e7-8dde-929af350c15a
                       -
                         id: t3YGZmH1
                         text: Arbeiten
@@ -2851,7 +2851,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1684876479
+updated_at: 1690545733
 template: default
 use_meta_keywords: false
 no_index_page: false
