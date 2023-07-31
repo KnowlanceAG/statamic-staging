@@ -97,13 +97,28 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Probieren Sie unseren AI Detector sofort aus'
+                    text: 'Probieren Sie unseren KI Detector sofort aus'
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     text: 'Vertrauen Sie auf modernste Technologie, um die akademische Integrität zu wahren. Testen Sie unseren AI Detector und erleben Sie die Sicherheit, die durch unsere zuverlässige AI Detection-Technologie geboten wird. Treten Sie dem Kampf für akademische Originalität und Integrität bei - mit unserem AI Detector.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Anforderung unseres KI Deteectors: Ihr Text muss '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'mindestens 100 Wörter und 500 Zeichen'
+                  -
+                    type: text
+                    text: ' enthalten, um eine Analyse auf AI Content zu ermöglichen.'
               -
                 type: set
                 attrs:
@@ -469,5 +484,5 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1687205658
+updated_at: 1690805130
 ---
