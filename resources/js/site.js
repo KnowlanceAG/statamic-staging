@@ -79,7 +79,6 @@ const toggleMobileMenu = () => {
 
 const toggleMailMenu = (ev) => {
   const hidden = mobileMailMenu.classList.toggle('hidden')
-  mobileMailMenuBtn.classList.toggle('hidden')
   mailMenuCloseBtn.classList.toggle('hidden')
   if (!hidden && phoneMenuOpened()) closePhoneMenu()
   setScrolling(!mailMenuOpened())
@@ -87,7 +86,6 @@ const toggleMailMenu = (ev) => {
 
 const togglePhoneMenu = (ev) => {
   const hidden = mobilePhoneMenu.classList.toggle('hidden')
-  mobilePhoneMenuBtn.classList.toggle('hidden')
   phoneMenuCloseBtn.classList.toggle('hidden')
   if (!hidden && mailMenuOpened()) closeMailMenu()
   setScrolling(!phoneMenuOpened())
@@ -96,7 +94,6 @@ const togglePhoneMenu = (ev) => {
 const closeMailMenu = () => {
   mobileMailMenu.classList.remove('hidden')
   mobileMailMenu.classList.add('hidden')
-  mobileMailMenuBtn.classList.remove('hidden')
   mailMenuCloseBtn.classList.remove('hidden')
   mailMenuCloseBtn.classList.add('hidden')
   setScrolling(true)
