@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1689785326
+updated_at: 1690540801
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -498,7 +498,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Software'
+                                  href: '#Softwarelokalisierung'
                                   target: null
                                   rel: null
                             text: 'Subdisziplin: Softwarelokalisierung'
@@ -3047,7 +3047,7 @@ replicator:
                   id: lk9xv72x
                   values:
                     type: anchor_target
-                    anchor_name: Software
+                    anchor_name: Softwarelokalisierung
               -
                 type: heading
                 attrs:

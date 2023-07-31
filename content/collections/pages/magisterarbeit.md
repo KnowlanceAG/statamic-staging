@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
     id: tQ7gs7jM
@@ -497,6 +496,7 @@ replicator:
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
                           - 24308319-8d41-41a9-ad35-e9cf2ceba726
+                          - c15ef599-1566-42e7-8dde-929af350c15a
               -
                 type: set
                 attrs:
@@ -1046,7 +1046,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1684877058
+updated_at: 1690546612
 meta_title: 'Magisterarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false

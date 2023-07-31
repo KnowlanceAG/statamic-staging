@@ -136,12 +136,11 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Fachrichtungen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685092068
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1690547539
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -578,6 +577,7 @@ replicator:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+                          - c15ef599-1566-42e7-8dde-929af350c15a
               -
                 type: heading
                 attrs:

@@ -108,7 +108,7 @@ teaser:
         text: '##phone##'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1686656192
+updated_at: 1690547304
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1508,6 +1508,7 @@ replicator:
                           - 1de3d76b-f23a-41a8-a629-15b48a07223e
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
                           - 24308319-8d41-41a9-ad35-e9cf2ceba726
+                          - c15ef599-1566-42e7-8dde-929af350c15a
               -
                 type: paragraph
             show_as_card: false
