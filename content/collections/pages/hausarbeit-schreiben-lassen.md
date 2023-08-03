@@ -247,7 +247,7 @@ replicator:
                     text: 'Ghostwriter zur Betreuung Ihrer Hausarbeit'
                   -
                     type: text
-                    text: ' ein. Unsere Autoren konzipieren Ihre Gliederung, schreiben die Einleitung Ihrer Musterhausarbeit und helfen bei der Texterstellung des Hauptteils sowie auch des Fazits. Auch wenn Sie Ihre Hausarbeit selbst schreiben möchten, ist Unterstützung durch Akademiker Ihres Fachs hilfreich. Sie geben Tipps zum Schreibstil, geben Verbesserungsvorschläge zur Ausarbeitung, sorgen für einen roten Faden, achten auf die Zitierweise und bewahren Sie und Ihr Arbeit vor einem Plagiat. '
+                    text: ' ein. Unsere Autoren konzipieren Ihre Gliederung, schreiben die Einleitung Ihrer Musterhausarbeit und helfen bei der Texterstellung des Hauptteils sowie auch des Fazits. Auch wenn Sie Ihre Hausarbeit selbst schreiben möchten, ist Unterstützung durch Akademiker Ihres Fachs hilfreich. Sie geben Tipps zum Schreibstil, geben Verbesserungsvorschläge zur Ausarbeitung, sorgen für einen roten Faden, achten auf die Zitierweise und bewahren Sie und Ihre Arbeit vor einem Plagiat. '
               -
                 type: paragraph
                 content:
@@ -1934,7 +1934,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691027047
+updated_at: 1691054609
 template: default
 use_meta_keywords: false
 no_index_page: false
