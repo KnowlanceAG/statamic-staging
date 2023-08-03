@@ -185,7 +185,7 @@ replicator:
                     text: 'Muster für Ihre Hausarbeit'
                   -
                     type: text
-                    text: ', geben Ihnen die Strukturierung an die Hand und stimmen diese exakt auf Ihr Thema und den gewünschten Umfang ab. Zusätzlich zur Erstellung einer '
+                    text: ', geben Ihnen die Strukturierung an die Hand und stimmen diese exakt auf Ihr Thema und den gewünschten Umfang Ihrer Arbeit ab. Zusätzlich zur Erstellung einer '
                   -
                     type: text
                     marks:
@@ -206,7 +206,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Hilfe beim Aufbau'
+                            text: 'Hilfe beim Aufbau Ihrer Arbeit'
                   -
                     type: list_item
                     content:
@@ -247,7 +247,7 @@ replicator:
                     text: 'Ghostwriter zur Betreuung Ihrer Hausarbeit'
                   -
                     type: text
-                    text: ' ein. Unsere Autoren konzipieren Ihre Gliederung, schreiben die Einleitung Ihrer Musterhausarbeit und helfen bei der Texterstellung des Hauptteils sowie auch des Fazits. Auch wenn Sie Ihre Hausarbeit selbst schreiben möchten, ist Unterstützung durch Akademiker Ihres Fachs hilfreich. Sie geben Tipps zum Schreibstil, geben Verbesserungsvorschläge zur Ausarbeitung, sorgen für einen roten Faden, achten auf die Zitierweise und bewahren Sie vor einem Plagiat. '
+                    text: ' ein. Unsere Autoren konzipieren Ihre Gliederung, schreiben die Einleitung Ihrer Musterhausarbeit und helfen bei der Texterstellung des Hauptteils sowie auch des Fazits. Auch wenn Sie Ihre Hausarbeit selbst schreiben möchten, ist Unterstützung durch Akademiker Ihres Fachs hilfreich. Sie geben Tipps zum Schreibstil, geben Verbesserungsvorschläge zur Ausarbeitung, sorgen für einen roten Faden, achten auf die Zitierweise und bewahren Sie und Ihr Arbeit vor einem Plagiat. '
               -
                 type: paragraph
                 content:
@@ -345,7 +345,7 @@ replicator:
                     text: 'als Doktoren, Forscher und Professoren aktiv'
                   -
                     type: text
-                    text: '. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Die Ghostwriter von GWriters verfügen über langjährige praktische Erfahrung in der Erstellung von Hausarbeiten sowie anderen Projektarbeiten und haben darüber hinaus Zugriff auf relevante Datenbanken. '
+                    text: '. Sie und Ihre Arbeit profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Die Ghostwriter von GWriters verfügen über langjährige praktische Erfahrung in der Erstellung von Hausarbeiten sowie anderen Projektarbeiten und haben darüber hinaus Zugriff auf relevante Datenbanken. '
               -
                 type: paragraph
                 content:
@@ -590,7 +590,7 @@ replicator:
                     text: 'Doktoren & Professoren'
                   -
                     type: text
-                    text: ' aus Ihrem Fachgebiet erstellen die Mustervorlage für Ihre Hausarbeit oder übernehmen das Korrekturlesen. So garantieren wir höchste Qualität.'
+                    text: ' aus Ihrem Fachgebiet erstellen die Mustervorlage für Ihre Hausarbeit oder übernehmen das Korrekturlesen Ihrer eigenen Arbeit. So garantieren wir höchste Qualität.'
               -
                 type: set
                 attrs:
@@ -664,7 +664,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster für wissenschaftliche Arbeiten oder zumindest exemplarische Gliederungen, ähnlich wie Beispiele von vergangenen Klausuren. So erhalten Studierende mit wenig Erfahrung eine Hilfestellung bei Ihrer Arbeit. Wenn Sie diese Hilfe im Studium nicht erhalten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel unterstützend nutzen. Damit Sie sich ein besseres Bild davon machen können, was Sie von unserer Schreibagentur & Ghostwriting Service erhalten, stellen wir Ihnen im Folgenden '
+                    text: 'Häufig veröffentlichen Lehrstühle Muster für wissenschaftliche Arbeiten oder zumindest exemplarische Gliederungen, ähnlich wie Beispiele von vergangenen Klausuren. So erhalten Studierende mit wenig Erfahrung eine Hilfestellung bei Ihrer Arbeit. Wenn Sie diese Hilfe im Studium nicht erhalten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel für Ihre eigene Arbeit unterstützend nutzen. Damit Sie sich ein besseres Bild davon machen können, was Sie von unserer Schreibagentur & Ghostwriting Service erhalten, stellen wir Ihnen im Folgenden '
                   -
                     type: text
                     marks:
@@ -1199,7 +1199,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die Bearbeitung durch erfahrene akademische Ghostwriter,'
+                            text: 'die Bearbeitung Ihrer Arbeit durch erfahrene akademische Ghostwriter,'
                   -
                     type: list_item
                     content:
@@ -1208,7 +1208,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Literaturverzeichnis und andere Verzeichnisse'
+                            text: 'Literaturverzeichnis und andere Verzeichnisse für Ihre Arbeit'
                   -
                     type: list_item
                     content:
@@ -1256,7 +1256,7 @@ replicator:
                     text: 'bei 80 Euro pro Normseite'
                   -
                     type: text
-                    text: '. Eine Normseite umfasst zirka 1.800 Zeichen. Es handelt sich um Textseiten – nicht um Deckblatt, Quellenverzeichnis etc. '
+                    text: '. Eine Normseite umfasst zirka 1.800 Zeichen. Berechnet werden hierbei nur die Textseiten der Arbeit – nicht das Deckblatt, das Quellenverzeichnis etc. '
               -
                 type: paragraph
                 content:
@@ -1934,7 +1934,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691026190
+updated_at: 1691027036
 template: default
 use_meta_keywords: false
 no_index_page: false
