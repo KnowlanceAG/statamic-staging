@@ -3121,8 +3121,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690547005
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1691163280
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3175,4 +3175,5 @@ sitemap_active: true
 alternative_page_title: 'Seminararbeit schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
 breadcrumbs_active: true
+teaser_bg: seiten/arbeiten/gwriters_seminararbeit_2000x512.jpg
 ---
