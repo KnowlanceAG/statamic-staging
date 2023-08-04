@@ -1,5 +1,6 @@
 ---
 id: 7befbd0c-a8fa-49aa-98fa-e677900b5105
+published: false
 blueprint: pages
 title: 'Examensarbeit (Dupliziert)'
 teaser:
@@ -131,7 +132,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
     id: dVKGqoSm
@@ -1300,8 +1300,8 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1684876621
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1691159940
 meta_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
