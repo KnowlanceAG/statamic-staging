@@ -1,5 +1,6 @@
 ---
 id: 8cef061f-0c77-475f-8142-7f28ac492eab
+published: false
 blueprint: pages
 title: 'Bachelorarbeit (Dupliziert)'
 teaser:
@@ -3267,7 +3268,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1690386105
+updated_at: 1691159937
 template: default
 use_meta_keywords: false
 no_index_page: false
