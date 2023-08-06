@@ -155,7 +155,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Seminararbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Seminararbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Hausarbeit als Mustervorlage für Ihre Seminararbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Seminararbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Seminararbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und für einen fairen Preis eine Ghostwriter Hausarbeit als Mustervorlage für Ihre Seminararbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -288,7 +288,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Seminararbeit schreiben - Ghostwriter unterstützen Sie!'
+                    text: 'Seminararbeit schreiben - erfahrene Ghostwriter unterstützen Sie!'
               -
                 type: paragraph
                 content:
@@ -312,7 +312,7 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' können Sie bei Ihren akademischen Arbeiten professionell unterstützen! '
+                    text: ' können Sie bei Ihren akademischen Arbeiten professionell im vollen Umfang unterstützen! '
                   -
                     type: text
                     marks:
@@ -330,7 +330,7 @@ replicator:
                     text: 'Seminararbeit schreiben lassen'
                   -
                     type: text
-                    text: '. Diese Seminararbeiten haben durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss. '
+                    text: '. Diese Seminararbeiten haben durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss und haben hohe Anforderungen an die Literaturrecherche, Zitierweise und andere Aspekte des wissenschaftlichen Arbeitens.'
             show_as_card: false
         type: row
         enabled: true
@@ -521,7 +521,7 @@ replicator:
                     text: 'garantieren die pünktliche Lieferung'
                   -
                     type: text
-                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage im vollen Umfang zum vereinbarten Datum in lektorierter & finaler Form.'
               -
                 type: set
                 attrs:
@@ -658,7 +658,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück. Falls Sie eine kostenlose telefonische Beratung wünschen, rufen wir Sie auch gerne an.'
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot für Ihre Arbeit bei Ihnen zurück. Falls Sie eine kostenlose telefonische Beratung zu Ihrer Arbeit wünschen, rufen wir Sie auch gerne an.'
             show_as_card: false
         type: row
         enabled: true
@@ -771,7 +771,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Seminararbeit Ghostwriter '
+                    text: 'Seminararbeit Ghostwriter für faire Preise '
                   -
                     type: text
                     marks:
@@ -842,7 +842,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Auch am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation können Sie sich Hilfe holen. Zudem ist es möglich, einen '
+                    text: 'Auch am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation können Sie sich von unseren erfahrenen Experten Hilfe für Ihre Arbeit holen. Zudem ist es möglich, einen '
                   -
                     type: text
                     marks:
@@ -940,7 +940,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'anbieten. Auch ein erfahrener Coach mit fachlichem Wissen unterstützt Sie bei Ihrer Seminararbeit oder im Studienprozess. Auch können Sie sich als Student eine Mustervorlage für Ihre '
+                    text: 'anbieten. Auch ein erfahrener Coach kann Sie mit fachlichem Wissen bei Ihrer Seminararbeit oder im Studienprozess unterstützen. Alternativ können Sie sich als Student eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -1038,7 +1038,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_beschäftigt sich täglich mit dem Verfassen von disziplinären und interdisziplinären wissenschaftlichen Texten und Arbeiten. Unsere akademischen Autoren sind "
+                    text: "\_beschäftigt sich täglich mit dem Verfassen, dem Lektorat oder der Korrektur von disziplinären und interdisziplinären wissenschaftlichen Texten und Arbeiten. Unsere akademischen Autoren sind "
                   -
                     type: text
                     marks:
@@ -1070,7 +1070,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Da wir keine Studenten oder Hobbyschreiber beschäftigen, können wir Ihnen eine qualitativ hochwertige Mustervorlage garantieren. Bei unseren erfahrenen '
+                    text: 'Da wir keine Studenten oder Hobbyschreiber beschäftigen, können wir Ihnen eine qualitativ hochwertige Mustervorlage für Ihre Projektarbeit garantieren, berechnen dafür aber auch angemessene und faire Preise. Bei unseren erfahrenen '
                   -
                     type: text
                     marks:
@@ -1090,7 +1090,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Da diese selbst promoviert oder habilitiert haben, meistern diese alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
+                    text: '. Da diese selbst promoviert oder habilitiert haben, meistern diese problemlos due Literaturrecherche, die korrekte Anwendung der Zitierweise und alle anderen Schwierigkeiten des wissenschaftlichen Arbeitens.'
                   -
                     type: hard_break
             show_as_card: false
@@ -1350,7 +1350,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' und deren Aufgaben, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten mit den akademischen Texten überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als sie einige Hochschulen bieten können.'
+                    text: ' und deren Aufgaben, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten mit den akademischen Texten und deren Umfang überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als sie einige Hochschulen bieten können.'
               -
                 type: paragraph
                 content:
@@ -1382,7 +1382,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
+                    text: '. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss. Abschließend kann die selbst erstellte Arbeit dann noch durch eine Korrektur im Rahmen eines Lektorats und eine Plagiatsprüfung aufgewertet werden. Im Bezug auf die Mustervorlage sind diese Schritt bereits im Preis inbegriffen.'
             show_as_card: true
         type: row
         enabled: true
@@ -1444,7 +1444,7 @@ replicator:
                     vertical_alignment_img: self-center
                     text: |-
                       ### Kostenlose Anfrage
-                      Schicken Sie uns einfach eine [**unverbindlichen Anfrage**](/anfrage) über unsere Webseite.  Sie erhalten dann ein **kostenloses Leistungsangebot** und eine individuelle Beratung zur Planung Ihres Projektes von unserem Kundenberater. Nach Ihrer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass Ihre Anonymität stets gesichert ist. Bei größeren Seminararbeiten oder Abschlussarbeiten ist auch eine anonyme Telefonkonferenz mit dem Ihrem Autor möglich.
+                      Schicken Sie uns einfach eine [**unverbindlichen Anfrage**](/anfrage) über unsere Webseite.  Sie erhalten dann ein **kostenloses Leistungsangebot** mit fairen Preisen und eine individuelle Beratung zur Planung Ihres Projektes von unserem Kundenberater. Nach Ihrer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass Ihre Anonymität stets gesichert ist. Bei größeren Seminararbeiten oder Abschlussarbeiten ist auch eine anonyme Telefonkonferenz mit dem Ihrem Autor möglich.
                     vertical_alignment_text: self-center
                     reverse_columns: bild_text
               -
@@ -1465,7 +1465,7 @@ replicator:
                     vertical_alignment_img: self-center
                     text: |-
                       ### Teillieferungen & Feedbacks
-                      **Je nach Umfang der Mustervorlage** werden eine oder mehrere Teillieferungen vereinbart. Gerade diese **Teillieferungstermine** sind wichtig, um einen Abgleich zwischen Ihren Anforderungen und dem bisherigen Arbeitsstand zu erhalten. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich **kostenlos** umgesetzt.
+                      **Je nach Umfang der Mustervorlage** werden eine oder mehrere Teillieferungen vereinbart. Gerade diese **Teillieferungstermine** sind wichtig, um einen Abgleich zwischen Ihren Anforderungen und dem bisherigen Arbeitsstand zu erhalten. Die Teillieferungen sind im Preis inbegriffen und ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich **kostenlos** umgesetzt.
                     vertical_alignment_text: self-center
                     reverse_columns: text_bild
               -
@@ -1655,7 +1655,7 @@ replicator:
                     text: Hilfe
                   -
                     type: text
-                    text: " zurückzugreifen. Für akademische Freelancer stellt die Unterstützung und das\_Ghostwriting\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. "
+                    text: " zurückzugreifen. Für akademische Freelancer stellt die Unterstützung und das\_Ghostwriting\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. Die Unterstützung kann auch in Form eines Lektorats und einer Plagiatsprüfung erfolgen, um Ihre Arbeit inhaltlich sowie formal aufzuwerten."
             show_as_card: false
           -
             id: ljEDK6l9
@@ -1714,7 +1714,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'gute Orientierungsmöglichkeiten'
+                    text: 'gute Orientierungsmöglichkeiten zu fairen Preisen'
                   -
                     type: text
                     text: '. Ghostwriter betrachten jede akademische Aufgabe aus einer wissenschaftlichen Perspektive. Sie besitzen sowohl das '
@@ -1767,7 +1767,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine '
+                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit in reduziertem Umfang, um Studierenden Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine '
                   -
                     type: text
                     marks:
@@ -3122,7 +3122,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691163280
+updated_at: 1691337822
 template: default
 use_meta_keywords: false
 no_index_page: false
