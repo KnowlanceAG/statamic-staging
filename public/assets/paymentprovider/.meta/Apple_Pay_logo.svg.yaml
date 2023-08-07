@@ -1,6 +1,8 @@
-data: {  }
+data:
+  alt: 'Apple Pay Zahlungsanbieter'
 size: 1609
-last_modified: 1657806504
+last_modified: 1665501411
 width: '512'
 height: '210.2'
 mime_type: image/svg+xml
+duration: null
