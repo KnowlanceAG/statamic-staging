@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1685620229
+updated_at: 1691416953
 replicator:
   -
     id: VvunKODE
@@ -931,7 +931,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: '80,- € pro Normseite'
+                    text: '90,- € pro Normseite'
               -
                 type: set
                 attrs:
@@ -1583,7 +1583,7 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: 'ab 85,- € pro Normseite'
+                                            text: 'ab 94,- € pro Normseite'
                           -
                             type: set
                             attrs:
@@ -1876,7 +1876,7 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: 'ab 90,- € pro Normseite'
+                                            text: 'ab 99,- € pro Normseite'
                           -
                             type: set
                             attrs:
@@ -2169,7 +2169,7 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: 'ab 95,- € pro Normseite'
+                                            text: 'ab 104,- € pro Normseite'
                           -
                             type: set
                             attrs:
