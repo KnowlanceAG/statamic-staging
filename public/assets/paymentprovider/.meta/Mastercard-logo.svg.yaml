@@ -1,6 +1,8 @@
-data: {  }
+data:
+  alt: 'Mastercard Zahlungsanbieter'
 size: 4053
-last_modified: 1657806500
+last_modified: 1665501411
 width: '999.2'
 height: '776'
 mime_type: image/svg+xml
+duration: null
