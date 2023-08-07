@@ -1,6 +1,8 @@
-data: {  }
+data:
+  alt: 'Google Pay Zahlungsanbieter'
 size: 4772
-last_modified: 1657806502
+last_modified: 1665501411
 width: '1395.7'
 height: '250'
 mime_type: image/svg+xml
+duration: null
