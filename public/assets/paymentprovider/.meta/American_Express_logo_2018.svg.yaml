@@ -1,6 +1,8 @@
-data: {  }
+data:
+  alt: 'American Express Zahlungsanbieter'
 size: 9816
-last_modified: 1657806503
+last_modified: 1665501411
 width: 1000.0
 height: 997.51703
 mime_type: image/svg+xml
+duration: null
