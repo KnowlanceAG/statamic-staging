@@ -2,7 +2,6 @@ title: 'Footer Paymentprovider'
 data:
   logos:
     - paymentprovider/Mastercard-logo.svg
-    - paymentprovider/Klarna_Payment_Badge.svg
     - paymentprovider/sofort-logo-vector.svg
     - paymentprovider/PayPal.svg
     - paymentprovider/Google_Pay_Logo_(2020).svg
