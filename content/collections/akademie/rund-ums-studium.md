@@ -35,6 +35,7 @@ teaser:
   -
     type: set
     attrs:
+      id: ed1BsNNA
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -45,6 +46,7 @@ teaser:
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
   -
+    id: WNxISiQI
     bard:
       -
         type: heading
@@ -118,30 +120,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/bachelorarbeit-betreuer/
-                  target: null
-                  rel: null
-            text: 'Probleme mit Ihrem '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
                   href: /blog/bachelorarbeit-betreuer
                   target: null
                   rel: null
-            text: Bachelorarbeit
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/bachelorarbeit-betreuer/
-                  target: null
-                  rel: null
-            text: ' Betreuer'
+            text: 'Probleme mit Ihrem Bachelorarbeit Betreuer'
           -
             type: text
             text: ' haben.'
@@ -213,6 +195,7 @@ replicator:
       -
         type: set
         attrs:
+          id: uo9JHUqd
           values:
             type: bilder
             assets:
@@ -221,6 +204,7 @@ replicator:
       -
         type: set
         attrs:
+          id: f5a1ARBv
           values:
             type: blog_entries
             entries:
@@ -259,7 +243,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656333452
+updated_at: 1691418018
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
@@ -267,8 +251,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service'
 academy_short_text_headline: 'Rund ums Studium von Gwriters'
 academy_short_text: 'Jedes Studium stellt ganz eigene Anforderungen an die Studierenden. Auch besitzt jeder Fachbereich eigene Vorgaben und Anforderung, auch hinsichtlich der Abschlussarbeit. Beispielsweise erklären wir Ihnen, wie Sie sich auf die mündliche Prüfung, die Veröffentlichung Ihrer Dissertation oder ein Auslandsstudium vorbereiten.'
