@@ -1359,7 +1359,7 @@ replicator:
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo. - Fr. 9 - 18 Uhr'
+                    open: 'Mo. - Fr. 9 - 20 Uhr'
             show_as_card: true
           -
             id: UA8dmSEa
@@ -1934,7 +1934,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691417118
+updated_at: 1691417559
 template: default
 use_meta_keywords: false
 no_index_page: false
