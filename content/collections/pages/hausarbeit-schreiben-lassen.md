@@ -170,7 +170,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sie studieren an der Hochschule oder Universität, die nächste Hausarbeit mit einem undankbaren Thema steht an und Sie sind ohnehin schon mächtig im Stress? Der Abgabetermin rückt näher, doch eine Hilfestellung durch Betreuer, Dozenten und Professoren fehlt? Die Akademiker, die für unsere Ghostwriting-Agentur schreiben, unterstützen Sie tatkräftig beim Erstellen einer wissenschaftlichen Hausarbeit. '
+                    text: 'Sie studieren an einer Hochschule oder Universität, die nächste Hausarbeit mit einem undankbaren Thema steht an und Sie sind durch Klausuren ohnehin schon ziemlich gestresst? Der Abgabetermin Ihrer Arbeit rückt näher, doch eine Hilfestellung durch Betreuer, Dozenten und Professoren fehlt? Die Akademiker, die für unsere Ghostwriting-Agentur schreiben, unterstützen Sie mit Diskretion aber auch tatkräftig beim Verfassen einer wissenschaftlichen Hausarbeit. '
               -
                 type: paragraph
                 content:
@@ -185,7 +185,7 @@ replicator:
                     text: 'Muster für Ihre Hausarbeit'
                   -
                     type: text
-                    text: '. Sie geben Ihnen die Strukturierung an die Hand und stimmen diese exakt auf Ihr Thema ab. Unsere '
+                    text: ', geben Ihnen die Strukturierung an die Hand und stimmen diese exakt auf Ihr Thema und den gewünschten Umfang Ihrer Arbeit ab. Zusätzlich zur Erstellung einer '
                   -
                     type: text
                     marks:
@@ -194,7 +194,7 @@ replicator:
                     text: 'Vorlage für Ihre Hausarbeit'
                   -
                     type: text
-                    text: ' besteht aus:'
+                    text: ' erhalten Sie bei uns auch:'
               -
                 type: bullet_list
                 content:
@@ -206,7 +206,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Aufbau
+                            text: 'Hilfe beim Aufbau Ihrer Arbeit'
                   -
                     type: list_item
                     content:
@@ -215,7 +215,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Gliederung
+                            text: 'eine Gliederung'
                   -
                     type: list_item
                     content:
@@ -224,7 +224,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Exposé
+                            text: 'und ein Exposé für Ihre Projektarbeit.'
               -
                 type: heading
                 attrs:
@@ -247,7 +247,7 @@ replicator:
                     text: 'Ghostwriter zur Betreuung Ihrer Hausarbeit'
                   -
                     type: text
-                    text: ' ein. Unsere Autoren schreiben bei Bedarf die Einleitung Ihrer Musterhausarbeit, helfen bei der Texterstellung des Hauptteils und des Fazits. Selbst wenn Sie Ihre Hausarbeit selbst schreiben möchten, ist Unterstützung durch Akademiker Ihres Fachs hilfreich. Sie geben Tipps zum Schreibstil, geben Verbesserungsvorschläge zur Ausarbeitung, sorgen für einen roten Faden, werfen ein Argusauge auf die Zitierweise und bewahren Sie vor einem Plagiat. '
+                    text: ' ein. Unsere Autoren konzipieren Ihre Gliederung, schreiben die Einleitung Ihrer Musterhausarbeit und helfen bei der Texterstellung des Hauptteils sowie auch des Fazits. Auch wenn Sie Ihre Hausarbeit selbst schreiben möchten, ist Unterstützung durch Akademiker Ihres Fachs hilfreich. Sie geben Tipps zum Schreibstil, geben Verbesserungsvorschläge zur Ausarbeitung, sorgen für einen roten Faden, achten auf die Zitierweise und bewahren Sie und Ihre Arbeit vor einem Plagiat. '
               -
                 type: paragraph
                 content:
@@ -262,7 +262,7 @@ replicator:
                     text: 'Themenfindung oder der Entwicklung der Forschungsfrage'
                   -
                     type: text
-                    text: ' beraten. Unsere Ghostwriter übernehmen gerne die '
+                    text: ' für Ihre Projektarbeit beraten. Unsere Ghostwriter übernehmen gerne die '
                   -
                     type: text
                     marks:
@@ -271,22 +271,35 @@ replicator:
                     text: Literaturrecherche
                   -
                     type: text
-                    text: ' für Ihre Hausarbeit. Im Fachbereich Jura überprüfen wir beispielsweise auch die rechtliche Richtigkeit des Inhalts und gehen auf die Argumentationsstruktur ein.'
+                    text: ' für Ihre Hausarbeit. Auch eine bereits verfasste wissenschaftliche Arbeit können wir durch ein Lektorat oder die Überarbeitung der Formatierung aufwerten. Im Fachbereich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Jura
+                  -
+                    type: text
+                    text: ' prüfen wir beispielsweise auch die rechtliche Richtigkeit des Inhalts und gehen auf die Argumentationsstruktur ein.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Egal, ob Sie unsere Ghostwriter die Mustervorlage für Ihre Hausarbeit schreiben lassen oder unsere Autoren lediglich '
+                    text: 'Ganz gleich, ob Sie sich von einem unserer Ghostwriter eine Mustervorlage für Ihre Hausarbeit schreiben lassen möchten oder unsere erfahrenen Autoren lediglich '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'lektorieren und Korrekturlesen'
+                    text: 'lektorieren und korrekturlesen'
                   -
                     type: text
-                    text: ' sollen – zögern Sie nicht, professionelle Unterstützung durch GWriters unverbindlich anzufragen!'
+                    text: ' sollen – zögern Sie nicht, bei GWriters unverbindlich professionelle Unterstützung von erfahrenen Autoren anzufordern!'
               -
                 type: set
                 attrs:
@@ -323,7 +336,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Unsere Schreiber sind häufig selbst '
+                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter mit Diskretion. Unsere erfahrenen Schreiber sind häufig selbst '
                   -
                     type: text
                     marks:
@@ -332,13 +345,13 @@ replicator:
                     text: 'als Doktoren, Forscher und Professoren aktiv'
                   -
                     type: text
-                    text: '. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Die Ghostwriter von GWriters verfügen über viel praktische Erfahrung in der Erstellung von Hausarbeiten und haben darüber hinaus Zugriff auf relevante Datenbanken. '
+                    text: '. Sie und Ihre Arbeit profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Die Ghostwriter von GWriters verfügen über langjährige praktische Erfahrung in der Erstellung von Hausarbeiten sowie anderen Projektarbeiten und haben darüber hinaus Zugriff auf relevante Datenbanken. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Weil wir um Ihre hohen Anforderungen beim Hausarbeit schreiben lassen wissen, unterliegt jede Leistung, die Sie von unseren Ghostwritern erhalten, der GWriters Qualitätsgarantie. Je nach Komplexität des Themas werden mehrere Fachautoren auf Ihre Arbeit angesetzt. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird unabhängig vom Umfang von Anfang bis Ende durch einen '
+                    text: 'Weil wir um Ihre hohen Anforderungen wissen, wenn Sie sich eine Hausarbeit schreiben lassen, unterliegt jede Leistung, die Sie von unseren Ghostwritern erhalten, der GWriters Qualitätsgarantie. Je nach Komplexität des Themas werden mehrere Fachautoren mit Ihrer Arbeit betraut. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird unabhängig vom Umfang von Anfang bis Ende durch einen '
                   -
                     type: text
                     marks:
@@ -577,7 +590,7 @@ replicator:
                     text: 'Doktoren & Professoren'
                   -
                     type: text
-                    text: ' aus Ihrem Fachgebiet erstellen die Mustervorlage für Ihre Hausarbeit. So garantieren wir höchste Qualität.'
+                    text: ' aus Ihrem Fachgebiet erstellen die Mustervorlage für Ihre Hausarbeit oder übernehmen das Korrekturlesen Ihrer eigenen Arbeit. So garantieren wir höchste Qualität.'
               -
                 type: set
                 attrs:
@@ -610,7 +623,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im Video erklären wir Ihnen, wie die Zusammenarbeit mit GWriters funktioniert. So erstellen unsere Ghostwriter eine Mustervorlage für Ihre Hausarbeit:'
+                    text: 'Im Video erklären wir Ihnen, wie die Zusammenarbeit mit GWriters funktioniert. So erstellen unsere erfahrenen Ghostwriter eine Mustervorlage für Ihre Hausarbeit:'
               -
                 type: set
                 attrs:
@@ -651,13 +664,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird Ihnen diese Hilfe im Studium nicht geboten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel unterstützend nutzen. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
+                    text: 'Häufig veröffentlichen Lehrstühle Muster für wissenschaftliche Arbeiten oder zumindest exemplarische Gliederungen, ähnlich wie Beispiele von vergangenen Klausuren. So erhalten Studierende mit wenig Erfahrung eine Hilfestellung bei Ihrer Arbeit. Wenn Sie diese Hilfe im Studium nicht erhalten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel für Ihre eigene Arbeit unterstützend nutzen. Damit Sie sich ein besseres Bild davon machen können, was Sie von unserer Schreibagentur & Ghostwriting Service erhalten, stellen wir Ihnen im Folgenden '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'ein Ghostwriting Beispiel zum kostenlosen Download bereit:'
+                    text: 'ein Ghostwriting-Beispiel zum kostenlosen Download im vollen Umfang bereit:'
             show_as_card: false
         type: row
         enabled: true
@@ -806,7 +819,7 @@ replicator:
                     vertical_alignment_img: self-center
                     text: |-
                       ### Kostenlose Anfrage
-                      Senden Sie uns einfach & schnell über unser Bestellformular eine kostenlose Anfrage. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein **unverbindliches Leistungsangebot und eine individuelle Beratung** zu Ihrem Auftrag. Wir beginnen sofort nach Ihrer Zusage und einer Anzahlung.
+                      Senden Sie uns einfach & schnell eine kostenlose Anfrage über unser Bestellformular. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein **unverbindliches Leistungsangebot und eine individuelle Beratung** zu Ihrem Auftrag. Wir beginnen sofort nach Ihrer Zusage und einer Anzahlung.
                     vertical_alignment_text: self-center
                     reverse_columns: bild_text
               -
@@ -848,7 +861,7 @@ replicator:
                     vertical_alignment_img: self-center
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
-                      Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Vorab wird diese von einem **unabhängigen Lektor aus Ihrem Fachbereich Korrektur gelesen**. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes Vier-Augen-Prinzip ist selbstverständlich im Preis enthalten. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Copyleaks** auf Ungereimtheiten und Gefahren hin überprüft.
+                      Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Diese wird zuvor von einem **unabhängigen Lektor aus Ihrem Fachbereich Korrektur gelesen**. Hier werden Verbesserungen hinsichtlich Formatierung, Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes Vier-Augen-Prinzip ist selbstverständlich im Preis inbegriffen. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Copyleaks** auf Ungereimtheiten und Gefahren hin überprüft.
                     vertical_alignment_text: self-center
                     reverse_columns: bild_text
               -
@@ -869,7 +882,7 @@ replicator:
                     vertical_alignment_img: self-center
                     text: |-
                       ### Kostenlose Änderungswünsche
-                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF-Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese auch nach dem Abgabetermin selbstverständlich **kostenfrei** um.
+                      Mit der Endlieferung erhalten Sie eine hochwertige und von Experten auf Qualität geprüfte Musterarbeit als PDF-Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Sollten Sie hierzu Änderungswünsche haben, setzen unsere Autoren diese selbstverständlich auch nach dem Abgabetermin **kostenfrei** um.
                     vertical_alignment_text: self-center
                     reverse_columns: text_bild
               -
@@ -877,7 +890,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Benötigen Sie Unterstützung in Form eines Coachings oder einer Mustervorlage für andere wissenschaftliche Arbeiten, wenden Sie sich gerne an unser Schreibbüro. Über '
+                    text: 'Wenn Sie Unterstützung in Form eines Coachings oder einer Mustervorlage für andere wissenschaftliche Arbeiten oder Projektarbeiten benötigen, wenden Sie sich gerne an unser Schreibbüro. Eine kostenlose Beratung erhalten Sie jederzeit über '
                   -
                     type: text
                     marks:
@@ -892,7 +905,7 @@ replicator:
                     text: 'unser Kontaktformular'
                   -
                     type: text
-                    text: ' erhalten Sie jederzeit eine kostenlose Beratung.'
+                    text: .
               -
                 type: set
                 attrs:
@@ -1029,7 +1042,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wir unterstützen Sie in nahezu allen akademischen Fachbereichen und Arbeiten. Das beginnt damit, dass Sie von unseren Experten eine Mustervorlage für Ihre Hausarbeit schreiben lassen können.'
+                    text: 'Wir unterstützen Sie in nahezu allen akademischen Fachbereichen und Arbeiten. Das beginnt damit, dass Sie von unseren erfahrenen Experten eine Mustervorlage in vollem Umfang für Ihre Hausarbeit schreiben lassen können.'
               -
                 type: set
                 attrs:
@@ -1106,7 +1119,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wenn Sie über eine seriöse Agentur für Ghostwriting eine '
+                    text: 'Wenn Sie bei einer seriöse Agentur für Ghostwriting eine '
                   -
                     type: text
                     marks:
@@ -1119,16 +1132,16 @@ replicator:
                     text: Mustervorlage
                   -
                     type: text
-                    text: ' für Ihre Hausarbeit kaufen möchten, dann erwarten Sie '
+                    text: ' für Ihre Hausarbeit kaufen möchten, dann können Sie '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'faire, aber auch angemessene Preise'
+                    text: 'faire, aber auch angemessene Preise '
                   -
                     type: text
-                    text: '. Seien Sie daher vorsichtig: Wenn Sie Ihre '
+                    text: 'erwarten. Seien Sie daher vorsichtig: Wenn Sie Ihre '
                   -
                     type: text
                     marks:
@@ -1150,7 +1163,7 @@ replicator:
                     text: Ghostwriting-Betrügern
                   -
                     type: text
-                    text: '. Wenn Sie Ihre Hausarbeit von einem Unbekannten schreiben lassen, beginnen die Kosten je nach Anbieter bei 35 bis 50 Euro pro Seite. Die Wahrscheinlichkeit, dass Sie mit einem Ghostwriter dieser Preisklasse auf die Note 1,0 kommen, ist sehr gering. Das Risiko, aufzufliegen, ist dafür ungleich höher. '
+                    text: '. Wenn Sie Ihre Hausarbeit von einem Unbekannten schreiben lassen, beginnen die Kosten je nach Anbieter bei 35 bis 50 Euro pro Seite. Die Wahrscheinlichkeit, mit einem Ghostwriter in dieser Preisklasse die Note 1,0 in Ihrer Projektarbeit zu erreichen, ist sehr gering. Das Risiko, dabei aufzufliegen, ist dafür ungleich höher. '
               -
                 type: paragraph
                 content:
@@ -1168,7 +1181,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die fachliche und wissenschaftliche Kompetenz unserer Agentur,'
+                            text: 'die fachliche und wissenschaftliche Kompetenz unserer Agentur & Autoren,'
                   -
                     type: list_item
                     content:
@@ -1186,7 +1199,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die Bearbeitung durch erfahrene akademische Ghostwriter,'
+                            text: 'die Bearbeitung Ihrer Arbeit durch erfahrene akademische Ghostwriter,'
                   -
                     type: list_item
                     content:
@@ -1195,7 +1208,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Literaturverzeichnis und andere Verzeichnisse'
+                            text: 'Literaturverzeichnis und andere Verzeichnisse für Ihre Arbeit'
                   -
                     type: list_item
                     content:
@@ -1204,43 +1217,52 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'und schließlich die Kosten für ein abschließendes Lektorat.'
+                            text: 'und schließlich die Kosten für ein abschließendes Lektorat & die Formatierung.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Aufgrund dieser Leistungsbestandteile können wir nur durch ein angemessenes Honorar die '
+                    text: 'Aufgrund dieser Leistungsbestandteile können wir die hohe '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'hohe Qualität Ihrer Hausarbeit garantieren'
+                    text: 'Qualität Ihrer Hausarbeit'
                   -
                     type: text
-                    text: '. Diese Leistungen können selbstständige Ghostwriter oder Billig-Ghostwriter-Agenturen, die mit günstigen Preisen werben, oftmals nicht bieten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Preise für fachlich und formell korrektes wissenschaftliches Arbeiten der Ghostwriter für Ihre Hausarbeit bei GWriters beginnen '
+                    text: ' nur durch ein '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'ab 80 Euro pro Normseite'
+                    text: 'angemessenes Honorar'
                   -
                     type: text
-                    text: '. Eine Normseite umfasst zirka 1.800 Zeichen. Es handelt sich um Textseiten – nicht um Deckblatt, Quellenverzeichnis und Co. '
+                    text: ' garantieren. Selbstständige Ghostwriter oder Billig-Ghostwriter-Agenturen, die mit günstigen Preisen werben, können dieses Leistungsniveau oft nicht bieten.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Je nach Anfrage variieren die Kosten für Hausarbeiten in verschiedenen Fachbereichen. Welche Hausarbeit günstig und welche teuer ist, liegt somit auch an den Ansprüchen an die Mustervorlage. Details hierzu können in einem '
+                    text: 'Die Preise für fachlich und formal korrektes wissenschaftliches Arbeiten der Ghostwriter für Ihre Hausarbeit bei GWriters beginnen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'bei 80 Euro pro Normseite'
+                  -
+                    type: text
+                    text: '. Eine Normseite umfasst zirka 1.800 Zeichen. Berechnet werden hierbei nur die Textseiten der Arbeit – nicht das Deckblatt, das Quellenverzeichnis etc. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Je nach Anfrage variieren die Kosten für Hausarbeiten in verschiedenen Fachbereichen. Welche Hausarbeit günstig und welche teuer ist, hängt somit auch von den Anforderungen an die Mustervorlage. Details dazu können in einem '
                   -
                     type: text
                     marks:
@@ -1263,12 +1285,6 @@ replicator:
                   -
                     type: text
                     text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Stellen Sie uns eine unverbindliche Anfrage. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung zu Ihren Vorteilen bei GWriters wünschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1305,7 +1321,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine '
+                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort in Anspruch nehmen und uns eine '
                   -
                     type: text
                     marks:
@@ -1323,7 +1339,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung zu Ihren Vorteilen bei GWriters wünschen.'
+                    text: ' senden. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, wenn Sie eine kostenlose telefonische Beratung zu Ihren Vorteilen bei GWriters wünschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1343,7 +1359,7 @@ replicator:
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo. - Fr. 9 - 18 Uhr'
+                    open: 'Mo. - Fr. 9 - 20 Uhr'
             show_as_card: true
           -
             id: UA8dmSEa
@@ -1366,7 +1382,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '80,- € pro Normseite.'
+                    text: '90,- € pro Normseite.'
               -
                 type: set
                 attrs:
@@ -1438,7 +1454,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
+                                text: 'Wir garantieren Ihnen, dass Ihr Ghostwriter ein absoluter Experten in Ihrem Fachgebiet ist. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Viele unserer Ghostwriter sind jedoch promoviert und auch Professoren, die selbst noch in der Wissenschaft tätig sind.'
                         active: false
                       -
                         id: bh4wq8yj
@@ -1457,7 +1473,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO / GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
+                                text: 'Ihre Anonymität ist durch Ihren persönlichen Projektmanager jederzeit gewährleistet. Niemand außer ihm erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO / GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
                         active: false
                       -
                         id: tO35Xan9
@@ -1476,7 +1492,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie ab 800 Euro. Die Preise pro Seite variieren abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
+                                text: 'Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie ab 800 Euro. Der Preis pro Seite variiert je nach Anspruch des Projekts und eventuellen empirischen Analysen.'
                         active: false
                       -
                         id: VccpEOI9
@@ -1495,64 +1511,64 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Erfahrene Akademiker als Ghostwriter zur '
+                                text: 'Gerade für Studienanfänger und gestresste Studierende in der Prüfungsphase hat es viele Vorteile, wenn ein '
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                text: 'Erstellung der Mustervorlage'
+                                text: 'erfahrener Akademiker als Ghostwriter'
                               -
                                 type: text
-                                text: ' für Ihre Hausarbeit bringen viele Vorteile mit sich – gerade für Studienanfänger und gestresste Studierende in der Klausurenphase.'
+                                text: ' die Vorlage für die Hausarbeit schreibt.'
                           -
                             type: paragraph
                             content:
                               -
                                 type: text
-                                text: 'Mit unseren Dienstleistungen können Sie Flüchtigkeitsfehler beim Schreiben Ihres Textes oder im Umgang mit wissenschaftlichen Quellen aufgrund mangelnder Erfahrung vermeiden. Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit können Sie auch '
+                                text: 'Flüchtigkeitsfehler beim Verfassen des Textes oder im Umgang mit wissenschaftlichen Quellen aufgrund mangelnder Erfahrung lassen sich mit unseren Dienstleistungen vermeiden. Neben der '
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                text: 'eine umfassende Plagiatsprüfung von Ihrem Text und Literaturverzeichnis '
+                                text: 'Korrektur und dem Lektorat Ihrer wissenschaftlichen Arbeit'
                               -
                                 type: text
-                                text: 'mit einer Plagiatssoftware in Auftrag geben. Wir nutzen hierfür die renommierte Software '
+                                text: ' können Sie auch eine '
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                text: 'Copyleaks '
+                                text: 'umfassende Plagiatsprüfung'
                               -
                                 type: text
-                                text: 'und überprüfen damit die Einhaltung aller Vorgaben an Quellen und die Zitationen.'
+                                text: ' Ihres Textes und Ihres Literaturverzeichnisses mit Hilfe einer Plagiatssoftware in Auftrag geben. Wir verwenden hierfür die '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'renommierte Software Copyleaks '
+                              -
+                                type: text
+                                text: 'und überprüfen damit die Einhaltung aller Quellen- und Zitierrichtlinien.'
                           -
                             type: paragraph
                             content:
                               -
                                 type: text
-                                text: 'Gwriters hat Zugriff auf '
+                                text: 'GWriters hat Zugang zu Literaturdatenbanken und unsere fachkundigen Autorinnen und Autoren sind stets auf dem neuesten Stand der Forschung. Darüber hinaus arbeiten wir mit '
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                text: Literatur-Datenbanken
+                                text: 'modernster Analysesoftware wie SPSS, Stata oder R'
                               -
                                 type: text
-                                text: ' und unsere fachkundigen Autoren sind stets auf dem neuesten Stand der Forschung. Wir arbeiten zudem mit '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'modernster Analyse-Software'
-                              -
-                                type: text
-                                text: ' wie SPSS, Stata oder R für statistische Analysen sowie '
+                                text: ' für statistische Analysen und '
                               -
                                 type: text
                                 marks:
@@ -1584,7 +1600,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Studienanfänger bekommen durch eine Mustervorlage für eine Hausarbeit eine Vorstellung vom Aufbau und Aufwand einer wissenschaftlichen Arbeit. Dies ist vor allem dann hilfreiche, wenn seitens der Hochschule keine ausreichende Betreuung und Hilfestellung erfolgt. Doch auch Studierende aus höheren Semestern greifen – meist aus Zeitnot – auf die Dienste eines Ghostwriters zurück.'
+                                text: 'Studienanfänger können sich anhand einer Mustervorlage für eine Hausarbeit eine Vorstellung vom Aufbau und Aufwand einer wissenschaftlichen Arbeit machen. Dies ist vor allem dann hilfreich, wenn seitens der Hochschule keine ausreichende Betreuung und Hilfestellung erfolgt. Aber auch Studierende höherer Semester nehmen - meist aus Zeitmangel - die Dienste eines Ghostwriters in Anspruch.'
                           -
                             type: bullet_list
                             content:
@@ -1620,7 +1636,7 @@ replicator:
                                         text: Hausarbeit
                                       -
                                         type: text
-                                        text: ' während der Klausurphase und bei mehreren Abgaben. So vermeiden wir Stress und Druck bei Ihnen.'
+                                        text: ' während der Klausurphase und bei mehreren Abgaben. So ersparen wir Ihnen Stress und Druck.'
                               -
                                 type: list_item
                                 content:
@@ -1663,7 +1679,7 @@ replicator:
                                         text: Literaturrecherche
                                       -
                                         type: text
-                                        text: ', der Forschungsfrage oder geben Tipps und Erklärungen zur Prüfung Ihrer Argumentation.'
+                                        text: ', der Formulierung der Forschungsfrage oder geben Tipps und Erklärungen zur Überprüfung Ihrer Argumentation.'
                         active: false
                       -
                         id: DeWwtkYa
@@ -1682,7 +1698,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ein Ghostwriter kann Ihnen ein Muster für eine Hausarbeit erstellen. Mit seiner Vorlage, die unter anderem Themenfindung, Argumentationsstruktur und Quellenrecherche enthalten kann, fällt Ihnen das Schreiben der Hausarbeit viel leichter. Die Ghostwriter von GWriters sind Akademiker auf dem neuesten Stand der Forschung in ihrem jeweiligen Fachgebiet und erstellen Ihnen gerne die Mustervorlage für Ihre Hausarbeit.'
+                                text: 'Ein Ghostwriter kann Ihnen ein Muster für eine Hausarbeit erstellen. Mit seiner Vorlage, die unter anderem die Themenfindung, die Argumentationsstruktur und die Quellenrecherche enthalten kann, fällt Ihnen das Schreiben der Hausarbeit viel leichter. Die Ghostwriter von GWriters sind Akademiker auf dem neuesten Stand der Forschung in ihrem jeweiligen Fachgebiet und erstellen Ihnen gerne die Mustervorlage für Ihre Hausarbeit.'
                         active: false
                       -
                         id: FUoIkR9C
@@ -1701,7 +1717,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Je länger der Ghostwriter Zeit hat, um die Mustervorlage für eine Hausarbeit zu erstellen, desto gewissenhafter kann er dabei arbeiten. Prinzipiell ist es möglich, eine Hausarbeit auch bis zum nächsten Tag zu erstellen. Die Dringlichkeit macht das Ghostwriting allerdings sehr teuer. Bereits für eine Frist von zwei bis vier Tagen kalkulieren wir einen Express-Zuschlag für die Mustervorlage ein. Ist die Abgabe der Hausarbeit hingegen erst in fünf oder mehr Tagen, handelt es sich um normale Fristen, die wir umsetzen können.'
+                                text: 'Je mehr Zeit der Ghostwriter hat, um die Mustervorlage für eine Hausarbeit zu erstellen, desto sorgfältiger kann er arbeiten. Prinzipiell ist es möglich, eine Hausarbeit auch bis zum nächsten Tag zu erstellen. Die Dringlichkeit macht das Ghostwriting jedoch sehr teuer. Bereits bei einer Frist von zwei bis vier Tagen kalkulieren wir einen Express-Zuschlag für die Mustervorlage ein. Soll die Hausarbeit erst in fünf oder mehr Tagen abgegeben werden, handelt es sich um eine normale Frist, die wir einhalten können.'
                         active: false
               -
                 type: paragraph
@@ -1917,8 +1933,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690546189
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1691417612
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2005,4 +2021,5 @@ page_title: 'Hausarbeit schreiben lassen'
 alternative_page_title: 'Hausarbeit schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
 breadcrumbs_active: true
+teaser_bg: seiten/arbeiten/gwriters_hausarbeit_2000x512.jpg
 ---

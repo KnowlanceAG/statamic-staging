@@ -18,6 +18,3 @@ preferences:
         - title
         - slug
         - date
-  assets:
-    assets:
-      mode: grid

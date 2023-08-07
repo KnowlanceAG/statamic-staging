@@ -2308,7 +2308,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /blog/
+                                          href: /blog
                                           target: null
                                           rel: null
                                     text: blogs
@@ -2846,8 +2846,8 @@ replicator:
     border: false
     type: add_section
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1687252538
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1691417954
 template: default
 use_meta_keywords: false
 no_index_page: false

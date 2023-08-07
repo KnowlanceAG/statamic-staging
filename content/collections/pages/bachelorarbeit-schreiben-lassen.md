@@ -152,7 +152,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an Fachrichtungen von Informatik über Maschinenbau bis Psychologie.
+                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei der Ghostwriting Agentur GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an akademischen Fachrichtungen von Informatik über Maschinenbau und Politikwissenschaften bis Psychologie.
                       </p>
               -
                 type: set
@@ -625,7 +625,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein akademischer Ghostwriter unterstützt Sie bei Ihrer Bachelor Thesis durch seine Erfahrungen und fachlichen Kenntnisse genauso professionell wie ein Betreuer der Universität. Den Zeitpunkt und Umfang bestimmen Sie. Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeiten wir garantiert nur mit den besten wissenschaftlichen Autoren zusammen!'
+                    text: 'Ein akademischer Ghostwriter unterstützt Sie im Studium und bei Ihrer Bachelor Thesis durch seine Erfahrungen und fachlichen Kenntnisse genauso professionell wie ein Betreuer der Universität. Den Zeitpunkt und Umfang bestimmen Sie. Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeitet unsere Agentur garantiert nur mit den besten wissenschaftlichen Autoren zusammen und mit absoluter Diskretion!'
               -
                 type: heading
                 attrs:
@@ -639,7 +639,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: '✔️ kennen den aktuellen Forschungsstand zu vielen Themenstellungen '
+                    text: '✔️ kennen den aktuellen Forschungsstand zu vielen akademischen Themenstellungen '
               -
                 type: paragraph
                 content:
@@ -651,7 +651,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: '✔️haben als Doktoren und Professoren die nötige wissenschaftliche Erfahrung.'
+                    text: '✔️ haben als Doktoren und Professoren die nötige wissenschaftliche Erfahrung.'
               -
                 type: set
                 attrs:
@@ -741,13 +741,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wir '
+                    text: 'Unsere Agentur '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'garantieren Ihre Anonymität '
+                    text: 'garantiert Diskretion & Ihre Anonymität '
                   -
                     type: text
                     text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
@@ -903,7 +903,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademischen Experten die sonst als '
+                    text: 'Akademischen Experten, die sonst als '
                   -
                     type: text
                     marks:
@@ -972,7 +972,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'beim Aufbau der Bachelor Thesis (Einleitung, Hauptteil, Fazit), Gliederung (Kapitel, Unterkapitel) sowie beim Exposé'
+                            text: 'beim Aufbau der Bachelor Thesis (Literaturrecherche, Forschungsfrage, Einleitung, Hauptteil, Fazit), Gliederung (Kapitel, Unterkapitel) sowie beim Exposé.'
                   -
                     type: list_item
                     content:
@@ -981,7 +981,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'beim Schreiben: Sie können eine vollständige Mustervorlage für Ihre Bachelorarbeit schreiben lassen. Diese Ghostwriter-Bachelorarbeit nutzen Sie als Vorlage für Ihre eigene akademische Arbeit '
+                            text: 'beim Schreiben: Sie können eine vollständige Mustervorlage für Ihre Bachelorarbeit schreiben lassen. Diese Ghostwriter-Bachelorarbeit nutzen Sie als Vorlage für Ihre eigene akademische Arbeit. Auch die Auswertung Ihrer Daten und die Darstellung der Ergebnisse könne Teil des Auftrags werden.'
                   -
                     type: list_item
                     content:
@@ -990,7 +990,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'beim Finalisieren: Sie haben die Abschlussarbeit bereits geschrieben – und sind nicht zufrieden? Unsere erfahrenen Ghostwriter übernehmen die Überarbeitung'
+                            text: 'beim Finalisieren: Sie haben die Abschlussarbeit bereits geschrieben – und sind nicht zufrieden? Unsere erfahrenen Ghostwriter übernehmen die Überarbeitung der Zitierweise und anderer wissenschaftlicher Aspekte Ihrer Projektarbeit.'
                   -
                     type: list_item
                     content:
@@ -1012,7 +1012,7 @@ replicator:
                             text: Korrektorat
                           -
                             type: text
-                            text: ' und '
+                            text: ' (einfaches Korrekturlesen) und '
                           -
                             type: text
                             marks:
@@ -1038,7 +1038,7 @@ replicator:
                             text: 'überprüfen sie gründlich auf Plagiate'
                           -
                             type: text
-                            text: .
+                            text: ' mit professioneller Software für Plagiatsprüfungen. Auch formale Aspekte wie die Zitierweise überprüfen wir im Rahmen eines Lektorats.'
               -
                 type: paragraph
                 content:
@@ -1127,7 +1127,7 @@ replicator:
                                     attrs:
                                       color: '#000!important'
                                       hex: '#000'
-                                text: 'Unsere BWL-Ghostwriter sind stets up-to-date und nah an der Forschung, um die Aktualität der Themenstellungen und Inhalte zu gewährleisten. Sie haben vielfältige Erfahrung im unternehmerischen Kontext, um Forschungsergebnisse in der Praxis bewerten zu können. Die Grundlagen der Betriebswirtschaftslehre sind selbstverständlich, viele unserer Ghostwriter haben zudem in diesem Fach promoviert. Ihre Bachelorarbeit ist also in den besten Händen.'
+                                text: 'Unsere BWL-Ghostwriter sind stets up-to-date und nah an der Forschung, um die Aktualität der Themenstellungen und Inhalte zu gewährleisten. Sie haben vielfältige Erfahrung im unternehmerischen Kontext, um Forschungsergebnisse in der Praxis bewerten und Forschungsfragen aus dem Studium untersuchen zu können. Die Grundlagen der Betriebswirtschaftslehre sind selbstverständlich, viele unserer Ghostwriter haben zudem in diesem Fach promoviert. Ihre Bachelorarbeit ist also in den besten Händen.'
                           -
                             type: set
                             attrs:
@@ -1170,7 +1170,7 @@ replicator:
                                     attrs:
                                       color: '#000!important'
                                       hex: '#000'
-                                text: 'Die Anforderungen für eine professionelle Bachelorarbeit in Jura sind besonders hoch. Ghostwriter müssen nicht nur den Gutachten- und Urteilsstil beherrschen, sondern auch die aktuelle Gesetzes- und Urteilslage zum Thema kennen. Unsere Mitarbeiter haben durch ihre Tätigkeiten in Anwaltskanzleien und ihre Spezialisierungen Zugriff auf relevante Jura-Datenbanken und Publikationen. Dadurch können sie bei der Erstellung Ihrer Bachelorarbeit auf umfangreiches Wissen zurückgreifen.'
+                                text: 'Die Anforderungen für eine professionelle Bachelorarbeit in Jura sind besonders hoch. Ghostwriter müssen für solche Aufträge nicht nur den Gutachten- und Urteilsstil beherrschen, sondern auch die aktuelle Gesetzes- und Urteilslage zum Thema kennen. Unsere Mitarbeiter haben durch ihre Tätigkeiten in Anwaltskanzleien und ihre Spezialisierungen Zugriff auf relevante Jura-Datenbanken und Publikationen. Dadurch können sie bei der Erstellung Ihrer Bachelorarbeit auf umfangreiches Wissen zurückgreifen und beherrschen auch die besondere Zitierweise, die im Bezug auf Gesetzestexte erforderlich ist.'
                           -
                             type: set
                             attrs:
@@ -1213,7 +1213,7 @@ replicator:
                                     attrs:
                                       color: '#000!important'
                                       hex: '#000'
-                                text: 'Bachelorarbeit Ghostwriter im Maschinenbau verfügen über eine tief gehende Expertise im Fachgebiet und sind immer auf dem aktuellen Stand der Forschung. Wir unterstützen Sie gern, zum Beispiel bei mathematischen Berechnungen, der Erstellung von technischen Zeichnungen oder Erstellung von Simulationen für Ihre Bachelorarbeit.'
+                                text: 'Bachelorarbeit Ghostwriter im Maschinenbau verfügen über eine tief gehende Expertise im Fachgebiet und sind immer auf dem aktuellen Stand der Forschung. Wir unterstützen Sie gern, zum Beispiel bei mathematischen Berechnungen, der Erstellung von technischen Zeichnungen oder Erstellung von Simulationen für Ihre Bachelorarbeit. Auch die Auswertung von technischen Daten und die Darstellung der Ergebnisse für eine Projektarbeit übernehmen wir gerne.'
                           -
                             type: set
                             attrs:
@@ -1299,7 +1299,7 @@ replicator:
                                     attrs:
                                       color: '#000!important'
                                       hex: '#000'
-                                text: 'Ghostwriter für Bachelorarbeiten im Bereich Elektrotechnik müssen über fundiertes Fachwissen in den relevanten Themengebieten verfügen und zudem Kenntnisse im Umgang mit den gängigen Tools und Programmen zur Erstellung von technischen Zeichnungen und Modellen haben. Unsere Ghostwriter erfüllen diese hohen Anforderungen und unterstützen Sie neben zudem gern bei der Planung von Laborexperimenten und Datenauswertung.'
+                                text: 'Ghostwriter für Bachelorarbeiten im Bereich Elektrotechnik müssen über fundiertes Fachwissen in den relevanten Themengebieten verfügen und zudem Kenntnisse im Umgang mit den gängigen Tools und Programmen zur Erstellung von technischen Zeichnungen und Modellen haben. Unsere Ghostwriter erfüllen diese hohen Anforderungen und unterstützen Sie neben zudem gern bei der Planung von Laborexperimenten und Datenauswertung sowie der Darstellung der Ergebnisse für Ihre Projektarbeit.'
                           -
                             type: set
                             attrs:
@@ -1511,7 +1511,7 @@ replicator:
                                     attrs:
                                       color: '#000!important'
                                       hex: '#000'
-                                text: 'Das Chemiestudium ist bekannt für seine hohen Durchfallquoten und den anspruchsvollen Schwierigkeitsgrad, der zeitaufwendige Laborversuche erfordert. Gerade in bei einer naturwissenschaftlichen Bachelorarbeit wie im Bereich Chemie sind Ghostwriter eine große Hilfe. Unsere Chemie-Ghostwriter sind Experten mit viel Erfahrung in wissenschaftlicher Arbeit.'
+                                text: 'Das Chemiestudium ist bekannt für seine hohen Durchfallquoten und den anspruchsvollen Schwierigkeitsgrad, der zeitaufwendige Laborversuche und die Auswertung der gesammelten Daten zur Beantwortung von Forschungsfragen erfordert. Gerade in bei einer naturwissenschaftlichen Bachelorarbeit wie im Bereich Chemie sind Ghostwriter eine große Hilfe. Unsere Chemie-Ghostwriter sind Experten mit viel Erfahrung in wissenschaftlicher Arbeit.'
                           -
                             type: set
                             attrs:
@@ -1616,7 +1616,7 @@ replicator:
                     text: 'Ghostwriter-Bachelorarbeit jetzt kostenlos herunter'
                   -
                     type: text
-                    text: '. Diese Mustervorlage wurde von einem unserer kompetentesten Ghostwriter verfasst, sodass Sie sich einen Eindruck von unseren Qualifikationen und Qualitätsstandards machen können. So wissen Sie von Anfang an, was Sie erwartet, wenn Sie sich für den ausgezeichneten Service von GWriters entscheiden.'
+                    text: '. Diese Mustervorlage wurde von einem unserer kompetentesten Ghostwriter verfasst, sodass Sie sich einen Eindruck von unseren Qualifikationen und Qualitätsstandards machen können. So wissen Sie von Anfang an, was Sie erwartet, wenn Sie sich für den ausgezeichneten Service der akademischen Ghostwriting Agentur GWriters entscheiden.'
               -
                 type: set
                 attrs:
@@ -1918,7 +1918,7 @@ replicator:
                         attrs:
                           color: '#333333'
                           hex: '#000'
-                    text: 'Sie erhalten das finale Dokument, garantiert frei von Plagiaten und nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
+                    text: 'Sie erhalten das finale Dokument, garantiert frei von Plagiaten und durch ein Lektorat nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
             show_as_card: false
         type: row
         enabled: true
@@ -2133,7 +2133,7 @@ replicator:
                         attrs:
                           color: '#333333'
                           hex: '#000'
-                    text: 'Im Video zeigen wir Ihnen, in welchen Punkten wir Sie mit unser Bachelorarbeit Coaching Service unterstützen können.'
+                    text: 'Im Video zeigen wir Ihnen, in welchen Punkten wir Sie mit unser Bachelorarbeit Coaching Service unterstützen können. Unsere Coaches können Sie bspw. bei der richtigen Anwendung der der Zitierweise, durch eine Plagiatsprüfung oder durch ein Korrekturlesen im Rahmen eines Lektorats unterstützen.'
             show_as_card: false
           -
             id: CyFLCJWN
@@ -2204,7 +2204,7 @@ replicator:
                     text: 'So sichern wir eine faire und nachvollziehbare Berechnungsgrundlage. '
                   -
                     type: text
-                    text: 'Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis werden dabei nicht berücksichtigt, diese sind gratis inkludiert.'
+                    text: 'Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis werden dabei nicht berücksichtigt, diese sind gratis inkludiert. Bei der Preisberechnung für Korrekturlesen, Lektorate oder Plagiatsprüfungen gehen wir analog vor.'
               -
                 type: set
                 attrs:
@@ -2294,7 +2294,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Einige Fachbereiche zeichnen sich beim wissenschaftlichen Schreiben durch eine höhere Komplexität aus als andere. Daher erwarten und erhalten Ghostwriter aus diesen Bereichen eine höhere Honorierung ihrer Leistungen.'
+                                text: 'Einige Fachbereiche zeichnen sich beim wissenschaftlichen Schreiben durch eine höhere Komplexität aus als andere. Daher erwarten und erhalten Ghostwriter aus diesen Bereichen eine höhere Honorierung ihrer Leistungen. Ein Thema aus den Politikwissenschaften stellt bspw. andere Anforderungen an den Ghostwriter, als ein Thema aus der höheren Mathematik. '
                         active: false
                       -
                         id: liapuki3
@@ -3267,8 +3267,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690545511
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1691341073
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3327,4 +3327,5 @@ schema_objects: |-
     }]    
   }
   </script>
+teaser_bg: seiten/arbeiten/gwriters_bachelorarbeit_2000x512.jpg
 ---
