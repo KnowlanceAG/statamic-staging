@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-language" content="{{ site:locale replace="_|-" lower="true" }}">
-  {{ if current_template == 'errors/404' || current_uri | contains:blog/page || current_uri | ends_with:/blog }}
+  {{ if current_template == 'errors/404' || current_uri | contains:blog/page || current_uri | ends_with:/blog || current_uri | contains:presse/page || current_uri | ends_with:/presse || current_uri | contains:author }}
     <meta name="robots" content="noindex, follow">
     {{ else }}
       {{ if no_index_page }}
