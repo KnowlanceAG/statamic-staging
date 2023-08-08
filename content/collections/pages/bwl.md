@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691529881
+updated_at: 1691529951
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1112,6 +1112,18 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Mathematik Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/biologie#biotechnologie'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Biotechnologie'
                           -
                             id: ljoh3l91
                             headline: Sozialwissenschaften
