@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691527774
+updated_at: 1691528239
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2003,7 +2003,7 @@ replicator:
                           hex: '#000'
                   -
                     type: text
-                    text: 'Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedene Schwerpunkten:'
+                    text: 'Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedenen Schwerpunkten:'
             show_as_card: false
           -
             id: ll2rhsv0
@@ -2293,7 +2293,7 @@ replicator:
                                 attrs:
                                   color: '#000!important'
                                   hex: '#000'
-                            text: 'Wissenschaftliche Arbeit ( Hausarbeit, Bachelorarbeit oder Masterarbeit):'
+                            text: 'Wissenschaftliche Arbeit (Hausarbeit, Bachelorarbeit oder Masterarbeit):'
                           -
                             type: text
                             marks:
@@ -3173,7 +3173,7 @@ replicator:
     is_full: false
     border: false
     type: add_section
-    enabled: false
+    enabled: true
 meta_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 meta_description: 'Kompetente Unterstützung für Ihre wissenschaftliche Masterarbeit - Masterarbeit schreiben lassen von über 3.000 akademischen Ghostwritern ✔️'
 og_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
