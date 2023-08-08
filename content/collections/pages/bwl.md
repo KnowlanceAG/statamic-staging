@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691527370
+updated_at: 1691527665
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2416,7 +2416,7 @@ replicator:
                   id: ll2rphnm
                   values:
                     type: spacer
-                    padding-y: 20
+                    padding-y: 27
               -
                 type: paragraph
               -
@@ -2478,7 +2478,7 @@ replicator:
                             text: 'Seminararbeit über kulturelle Diversität:'
                           -
                             type: text
-                            text: 'Ein Studierender soll eine Seminararbeit über "Die Bedeutung interkultureller Kommunikation für internationale Geschäftsbeziehungen" verfassen. Ein Ghostwriter in der internationale Betriebswirtschaftslehre kann relevante Theorien zur interkulturellen Kommunikation finden, aktuelle Fallbeispiele einbringen und die Arbeit professionell strukturieren. Außerdem kann ein Student eine komplette Mustervorlage für seine '
+                            text: 'Ein Studierender soll eine Seminararbeit über "Die Bedeutung interkultureller Kommunikation für internationale Geschäftsbeziehungen" verfassen. Ein Ghostwriter in der internationalen Betriebswirtschaftslehre kann relevante Theorien zur interkulturellen Kommunikation finden, aktuelle Fallbeispiele einbringen und die Arbeit professionell strukturieren. Außerdem kann ein Student eine komplette Mustervorlage für seine '
                           -
                             type: text
                             marks:
