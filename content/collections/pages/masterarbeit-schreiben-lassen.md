@@ -299,7 +299,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' im Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in attraktiven Firmen Arbeit zu finden und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, '
+                    text: ' im akademischen Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in attraktiven Firmen Arbeit zu finden und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht nach dem Abschluss auch an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, '
                   -
                     type: text
                     marks:
@@ -334,13 +334,13 @@ replicator:
                     text: 'Hilfe von akademischen Freelancern und Ghostwritern'
                   -
                     type: text
-                    text: ' zurückgreifen, die tiefgründige Kenntnisse in dem Ihrem persönlichen Fachbereich aufweisen und umfassende Erfahrung mit wissenschaftlichen Arbeiten haben.'
+                    text: ' zurückgreifen, die tiefgründige Kenntnisse in dem Ihrem persönlichen Fachbereich aufweisen und umfassende Erfahrung mit wissenschaftlichen Arbeiten und dem Erstellen einer Thesis haben.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Diese entlasten Sie durch'
+                    text: 'Diese entlasten Sie durch akademisches'
                   -
                     type: text
                     marks:
@@ -361,7 +361,7 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: ', Coachings bei der Strukturierung Ihrer und übernehmen Ihre '
+                    text: ', durch Coachings in der Rolle eines Betreuers bei der Strukturierung Ihrer Thesis und übernehmen Ihre '
                   -
                     type: text
                     marks:
@@ -387,7 +387,7 @@ replicator:
                     text: 'Überprüfung auf Plagiate'
                   -
                     type: text
-                    text: '. Durch diese Dienstleistung können Sie sich auf die wesentlichen Dinge in ihrem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen '
+                    text: '. Auch ein Korrekturlesen mit dem Fokus auf der Formatierung oder dem Literaturverzeichnis ist möglich. Durch diese Dienstleistung können Sie sich auf die wesentlichen Dinge in ihrem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen '
                   -
                     type: text
                     marks:
@@ -523,7 +523,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im nächsten Schritt erhalten Sie ein ganz unverbindlich ein Angebot von uns, individuell zugeschnitten auf Ihre Bedürfnisse. Dieses beinhaltet auch bereits eine vorläufige Auftragsplanung.'
+                    text: 'Im nächsten Schritt erhalten Sie ein ganz unverbindlich ein Angebot von uns, individuell zugeschnitten auf Ihre Bedürfnisse mit einem fairen Preis für Ihre Projektarbeit. Dieses beinhaltet auch bereits eine vorläufige Auftragsplanung.'
             show_as_card: false
           -
             id: lalg3yqv
@@ -554,7 +554,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sobald wir Sie unser Angebot angenommen haben, erstellen wir die Mustervorlage für Ihre Bachelorarbeit. Sie erhalten von Ihrem persönlichen Projektmanager regelmäßig Zwischenstände und wir setzen Ihre Feedbacks zu diesen kostenfrei um.'
+                    text: 'Sobald wir Sie unser Angebot angenommen haben, erstellen wir die Mustervorlage für Ihre Masterarbeit. Sie erhalten von Ihrem persönlichen Projektmanager regelmäßig Zwischenstände zu den Ergebnissen und wir setzen Ihre Feedbacks zu diesen kostenfrei um.'
             show_as_card: false
           -
             id: lalg3zn6
@@ -585,7 +585,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die finale Lieferung erhalten Sie garantiert frei von Plagiaten und nach unserem 4-Augen-Prinzip auf Qualität geprüft. Falls Sie Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.'
+                    text: 'Die finale Lieferung erhalten Sie garantiert frei von Plagiaten dank professioneller Plagiatsprüfung und durch ein Lektorat nach unserem 4-Augen-Prinzip auf Qualität geprüft. Falls Sie Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.'
             show_as_card: false
         type: row
         enabled: true
@@ -639,7 +639,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Unsere Schreibagentur melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: '. Unsere Schreibagentur melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot mit fairen Preisen für Ihre Thesis bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung durch einen unserer akademischen Betreuer wünschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -676,13 +676,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere akademische Fachbereiche beginnen ab\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: '80,- € pro Normseite.'
+                    text: '100,- € pro Normseite.'
               -
                 type: set
                 attrs:
@@ -858,7 +858,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Kostenlose Änderung nach Ihrem Feedback'
+                    text: 'Kostenlose Änderung nach Ihrem Feedback im Preis enthalten'
               -
                 type: paragraph
                 content:
@@ -931,7 +931,7 @@ replicator:
                     text: 'garantieren die pünktliche Lieferung'
                   -
                     type: text
-                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage und alle Ergebnisse zum vereinbarten Datum in lektorierter & finaler Form.'
               -
                 type: set
                 attrs:
@@ -1046,13 +1046,13 @@ replicator:
                     text: Experten-Befragungen
                   -
                     type: text
-                    text: ' oder Studienumfragen erstellt werden.'
+                    text: ' oder Studienumfragen erstellt und deren Ergebnisse in einer Thesis verschriftlicht werden.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn. Denn bei unseren Ghostwritern handelt es sich häufig um '
+                    text: 'Unsere Agentur begleitet Sie zu angemessenen Preisen in jeder Form während des vollen Umfangs Ihrer akademischen Laufbahn bei jeder Art von Projektarbeit bis hin zum Abschluss. Denn bei unseren Ghostwritern handelt es sich häufig um '
                   -
                     type: text
                     marks:
@@ -1061,7 +1061,7 @@ replicator:
                     text: 'Doktoren und Professoren'
                   -
                     type: text
-                    text: ', die Sie in jedem Aspekt des wissenschaftlichen Arbeitens unterstützen können.'
+                    text: ', die Sie in jedem Aspekt des wissenschaftlichen Arbeitens unterstützen können. Auch die Plagiatsprüfung, das Korrekturlesen oder ein akademisches Lektorat  Ihrer eigenen Ergebnisse übernehmen unsere Experten für Sie.'
               -
                 type: paragraph
                 content:
@@ -1076,7 +1076,20 @@ replicator:
                     text: 'Beispiel für eine englische Masterarbeit'
                   -
                     type: text
-                    text: ', verfasst von einem unserer erfahrensten Wirtschaftswissenschaften Ghostwriter, von den Kompetenzen unserer Experten.'
+                    text: ' von den Kompetenzen unserer Experten. Dieses Beispiel im vollen Umfang einer Masterarbeit wurde von einem unserer erfahrensten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/wirtschaftswissenschaften
+                          target: null
+                          rel: null
+                    text: 'Wirtschaftswissenschaften Ghostwriter'
+                  -
+                    type: text
+                    text: ' verfasst.'
               -
                 type: set
                 attrs:
@@ -1173,13 +1186,13 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' wissenschaftliche Texterstellungen problemlos zu jedem Zeitpunkt übernehmen. '
+                    text: ' wissenschaftliche Texterstellungen im vollen Umfang einer akademischen Arbeit problemlos zu jedem Zeitpunkt übernehmen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Sie können unsere Hilfe während des Schreibprozesses in Anspruch nehmen oder sich bei Teilbereichen helfen lassen. Wir bieten Ihnen darüber hinaus auch Leistungen wie das '
+                    text: 'Sie können unsere Hilfe für einen fairen Preis während des gesamten Schreibprozesses in Anspruch nehmen oder sich bei Teilbereichen helfen lassen. Wir bieten Ihnen darüber hinaus auch Leistungen wie das gründliche Korrekturlesen in Form eines Korrektorats oder das '
                   -
                     type: text
                     marks:
@@ -1197,10 +1210,28 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' und das Korrektorat der Masterarbeit'
+                    text: ' '
                   -
                     type: text
-                    text: ', wenn Sie diese bereits selbständige fertiggestellt haben.'
+                    text: 'zur tief gehenden Überprüfung und Verbesserung'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' '
+                  -
+                    type: text
+                    text: 'der Ergebnisse Ihrer'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' Masterarbeit'
+                  -
+                    type: text
+                    text: ', wenn Sie diese bereits selbständige fertiggestellt haben. So können Sie sich einen hervorragenden Abschluss sichern!'
             show_as_card: false
           -
             id: gfuL4CzA
@@ -1455,7 +1486,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Fragestellung zu recherchieren und diese wissenschaftlich zu erarbeiten'
+                    text: 'Fragestellung zu recherchieren, diese wissenschaftlich zu erarbeiten'
                   -
                     type: text
                     marks:
@@ -1464,7 +1495,18 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: .
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'und eine Masterthesis zu erstellen.'
               -
                 type: paragraph
                 content:
@@ -1496,7 +1538,31 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: ' oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine Textkorrektur, sondern auch '
+                    text: ' oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat/textkorrektur
+                          target: null
+                          rel: null
+                    text: Textkorrektur
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ', sondern auch '
                   -
                     type: text
                     marks:
@@ -1516,7 +1582,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: ' der Arbeit. '
+                    text: ' der Arbeit.'
             show_as_card: true
           -
             id: GkB02Mc4
@@ -1629,7 +1695,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit. Wenn Sie für Ihre '
+                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit, das weit über eine einfaches Korrekturlesen hinausgeht. Wenn Sie für Ihre '
                   -
                     type: text
                     marks:
@@ -1669,7 +1735,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', die sich täglich mit wissenschaftlichen Texten beschäftigen.'
+                    text: ', die sich täglich mit wissenschaftlichen Texten und deren Erstellung beschäftigen und zu angemessenen Preisen ihre Expertise anbieten.'
               -
                 type: paragraph
                 content:
@@ -2638,7 +2704,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691163144
+updated_at: 1691454894
 template: default
 use_meta_keywords: false
 no_index_page: false
