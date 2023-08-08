@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691524213
+updated_at: 1691526483
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1974,7 +1974,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein Studium in Internationaler Betriebswirtschaftslehre (IBWL) bereitet Sie darauf vor, in der globalisierten Geschäftswelt erfolgreich zu agieren. In den meisten Betriebswirtschaftslehre Studiengängen wird die Internationale BWL als Modul oder Wahlfach angeboten. Jedoch wird das international Betriebswirtschaftslehre komplett als Bachelorstudium angeboten zum Beispiel an der '
+                    text: 'Ein Studium in Internationaler Betriebswirtschaftslehre (IBWL) bereitet Sie darauf vor, in der globalisierten Geschäftswelt erfolgreich zu agieren. In den meisten Betriebswirtschaftslehre-Studiengängen wird die Internationale BWL als Modul oder Wahlfach angeboten. Hingegen wird die International Betriebswirtschaftslehre als eigenständiger Bachelorstudiengang beispielsweise an der '
                   -
                     type: text
                     marks:
@@ -1987,7 +1987,7 @@ replicator:
                     text: 'Universität Wien'
                   -
                     type: text
-                    text: '. Oft werden in diesem Studiengang die Inhalte auf Englisch vermittelt. Es bereitet Sie umfassend auf Ihre berufliche Karriere in internationalen Unternehmen im In- oder Ausland vor.'
+                    text: '  unterrichtet. Häufig werden in diesem Studiengang die Lehrinhalte in englischer Sprache vermittelt, was Sie umfassend auf Ihre berufliche Karriere in internationalen Unternehmen im In- oder Ausland vorbereitet.'
                   -
                     type: hard_break
                     marks:
@@ -2002,7 +2002,7 @@ replicator:
                           hex: '#000'
                   -
                     type: text
-                    text: 'Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedene Aspekte:'
+                    text: 'Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedene Schwerpunkten:'
               -
                 type: heading
                 attrs:
@@ -2047,7 +2047,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 4
+                  level: 3
                 content:
                   -
                     type: text
@@ -2074,7 +2074,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Internationales Finanzmanagement'
+                    text: 'Internationales Rechnungswesen und Finanzmanagement '
               -
                 type: paragraph
                 content:
@@ -2097,13 +2097,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Internationale Lieferkettenmanagement'
+                    text: 'Internationale Digitalisierung und Supply Chain Management'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Effiziente Gestaltung und Verwaltung von globalen Lieferketten, um Produkte oder Dienstleistungen über verschiedene Länder hinweg zu beschaffen, zu produzieren und zu vertreiben.'
+                    text: 'Effiziente Gestaltung und Verwaltung von globalen Lieferketten, um Produkte oder Dienstleistungen über verschiedene Länder hinweg zu beschaffen, zu produzieren und zu vertreiben. Der Schwerpunkt Digitalisierung und Supply Chain Management im Studiengang Internationale Betriebswirtschaftslehre bereitet Sie gezielt auf die Bewältigung der aktuellen Herausforderungen der fortschreitenden Digitalisierung vor. Hierbei stehen Themen wie Operations Management, Liefernetzwerke, Informationssysteme, E-Commerce, Innovationsmanagement und sogar Softwareentwicklung mit Python im Fokus. '
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0)'
+                          hex: '#000'
               -
                 type: set
                 attrs:
@@ -2136,8 +2148,6 @@ replicator:
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
                         <b>Beispiel:</b><br><br>Ein Unternehmen eröffnet eine Filiale in einem neuen Land. Es muss sich mit den kulturellen Unterschieden in Bezug auf Arbeitskultur, Arbeitsrecht und soziale Normen auseinandersetzen. Das Personalmanagement muss sicherstellen, dass die Mitarbeiter aus verschiedenen Ländern gut integriert werden und in einer harmonischen Arbeitsumgebung arbeiten können.</div>
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2182,190 +2192,56 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+  -
+    id: ll2r3ep9
+    columns_replicator:
       -
-        id: ll2awimi
+        id: ll2r3gpx
         single_col: true
         grid:
           -
             id: WcOVwpix
             bard:
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Leistungen: Internationale Betriebswirtschaftslehre'
-              -
-                type: ordered_list
-                attrs:
-                  order: 1
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Gruppenarbeiten:'
-                          -
-                            type: text
-                            text: 'Für das Thema "Internationale Lieferketten und Logistik" könnte eine Gruppenarbeit verlangt werden, bei der Sie und Ihre Teammitglieder eine Fallstudie eines Unternehmens analysieren, das globale Lieferketten betreibt. Sie könnten '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Empfehlungen zur Optimierung der Lieferkette unter Berücksichtigung von Logistik, Transport und Risikomanagement erarbeiten.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Individuelle Aufgaben:'
-                          -
-                            type: text
-                            text: 'Im Rahmen des Themas "Internationales Finanzmanagement" könnten Sie gebeten werden, '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'einen individuellen Aufsatz über die Auswirkungen von Währungsschwankungen auf die Finanzstrategien multinationaler Unternehmen zu verfassen'
-                          -
-                            type: text
-                            text: .
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Präsentationen:'
-                          -
-                            type: text
-                            text: 'Im "Interkulturelle Kommunikation"-Teil könnten Sie aufgefordert werden, eine Präsentation darüber zu halten, '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'wie sich kulturelle Unterschiede auf die Geschäftskommunikation in internationalen Teams auswirken können'
-                          -
-                            type: text
-                            text: ' und wie effektive Lösungsansätze aussehen könnten.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Mündliche Prüfungen:'
-                          -
-                            type: hard_break
-                          -
-                            type: text
-                            text: 'Als Teil einer mündlichen Prüfung im Bereich "Internationale Geschäftsstrategien" könnten Sie aufgefordert werden, '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'eine reale Situation zu analysieren, in der ein Unternehmen verschiedene Markteintrittsstrategien in einem internationalen Kontext in Erwägung ziehen muss'
-                          -
-                            type: text
-                            text: .
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Abschlussarbeit oder -prüfung:'
-                          -
-                            type: text
-                            text: 'Als Abschlussprojekt könnten Sie aufgefordert werden, eine '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'umfassende Analyse eines multinationalen Unternehmens'
-                          -
-                            type: text
-                            text: ' durchzuführen. Dies könnte eine schriftliche Arbeit sein, in der Sie die behandelten Inhalte auf reale Geschäftssituationen anwenden.'
-              -
-                type: heading
-                attrs:
-                  level: 2
+                  id: ll2r3o2j
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/aufbau-internationale-betriebswirtschaft.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
             show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: ll2r5jdf
+    columns_replicator:
+      -
+        id: ll2r5ktx
+        single_col: false
+        grid:
           -
-            id: ll2okmvi
+            id: WcOVwpix
             bard:
               -
                 type: heading
@@ -2643,13 +2519,222 @@ replicator:
                                 attrs:
                                   align: start
                             text: 'Ein Bachelorabsolvent, der sich für ein Masterstudium in Internationale Betriebswirtschaftslehre bewirbt, benötigt eine überzeugende Bewerbung. Ein erfahrener Ghostwriter kann die Bewerbung verfassen, die die Motivation, akademischen Hintergrund und zukünftige Karriereziele überzeugend darstellt.'
+              -
+                type: set
+                attrs:
+                  id: ll2r6egm
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'Jetzt kostenlos Anfragen'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 2
         responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: ll2qygya
+    columns_replicator:
+      -
+        id: ll2qyj2u
+        single_col: false
+        grid:
+          -
+            id: WcOVwpix
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Leistungen: Internationale Betriebswirtschaftslehre'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Gruppenarbeiten:'
+                          -
+                            type: text
+                            text: 'Für das Thema "Internationale Lieferketten und Logistik" könnte eine Gruppenarbeit verlangt werden, bei der Sie und Ihre Teammitglieder eine Fallstudie eines Unternehmens analysieren, das globale Lieferketten betreibt. Sie könnten '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Empfehlungen zur Optimierung der Lieferkette unter Berücksichtigung von Logistik, Transport und Risikomanagement erarbeiten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Individuelle Aufgaben:'
+                          -
+                            type: text
+                            text: 'Im Rahmen des Themas "Internationales Finanzmanagement" könnten Sie gebeten werden, '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'einen individuellen Aufsatz über die Auswirkungen von Währungsschwankungen auf die Finanzstrategien multinationaler Unternehmen zu verfassen'
+                          -
+                            type: text
+                            text: .
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Präsentationen:'
+                          -
+                            type: text
+                            text: 'Im "Interkulturelle Kommunikation"-Teil könnten Sie aufgefordert werden, eine Präsentation darüber zu halten, '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'wie sich kulturelle Unterschiede auf die Geschäftskommunikation in internationalen Teams auswirken können'
+                          -
+                            type: text
+                            text: ' und wie effektive Lösungsansätze aussehen könnten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Mündliche Prüfungen:'
+                          -
+                            type: hard_break
+                          -
+                            type: text
+                            text: 'Als Teil einer mündlichen Prüfung im Bereich "Internationale Geschäftsstrategien" könnten Sie aufgefordert werden, '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'eine reale Situation zu analysieren, in der ein Unternehmen verschiedene Markteintrittsstrategien in einem internationalen Kontext in Erwägung ziehen muss'
+                          -
+                            type: text
+                            text: .
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Abschlussarbeit oder -prüfung:'
+                          -
+                            type: text
+                            text: 'Als Abschlussprojekt könnten Sie aufgefordert werden, eine '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'umfassende Analyse eines multinationalen Unternehmens'
+                          -
+                            type: text
+                            text: ' durchzuführen. Dies könnte eine schriftliche Arbeit sein, in der Sie die behandelten Inhalte auf reale Geschäftssituationen anwenden.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
