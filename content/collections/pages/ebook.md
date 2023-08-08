@@ -1148,52 +1148,6 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: 8mk5jV41
-                  values:
-                    type: link_liste
-                    raster:
-                      -
-                        id: ymmIatoe
-                        text: Fachrichtungen
-                        eintraege:
-                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
-                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
-                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                          - b8930678-fff6-4d7a-8ae8-056605f303f2
-                          - f07c0010-40dd-407e-bf32-a1a260b5016b
-                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
-                          - 925eedca-5fbe-4da9-a307-807426feaeeb
-                          - 21aff10c-582a-440f-9f50-1af525566292
-                          - 839e6791-eebd-4bc8-8975-a278836a9c05
-                          - 051a1060-2c31-4edd-af39-c44fe3842526
-                          - b850974c-8d2d-4448-b168-3dccef384025
-                          - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
-                          - f501c52c-7217-448e-bb53-d6f84c7e51c8
-                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
-                          - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
-                          - a9561621-8360-4ecf-855c-753f4a217c5a
-                          - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
-                          - dc0c7edd-0724-4454-9525-49b8f9065f16
-                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
-                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
-                          - d72509d7-bb3a-40dd-a757-3317732e2a57
-                          - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
-                          - 34f7528d-839e-4ef6-b735-627084dba887
-                          - 45680fad-6f7a-437f-88c2-23e0bc080818
-                          - 522e26b9-451d-43a8-a204-2e0f75b87f4b
-                          - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
-                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
-                          - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
-                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-                          - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
-                          - 9944d809-005e-4651-bf9b-5555f0229245
-                          - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
-                          - 24308319-8d41-41a9-ad35-e9cf2ceba726
-                          - c15ef599-1566-42e7-8dde-929af350c15a
-              -
-                type: set
-                attrs:
                   id: OAFKA5Qo
                   values:
                     type: spacer
@@ -1718,7 +1672,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691533196
+updated_at: 1691533505
 meta_title: 'eBook schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
