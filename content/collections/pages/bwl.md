@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1690449429
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1691498881
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1942,6 +1942,1250 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: ll25ovck
+    columns_replicator:
+      -
+        id: ll25ox4p
+        single_col: false
+        grid:
+          -
+            id: WcOVwpix
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Internationale BWL '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Internationale Betriebswirtschaftslehre (BWL) ist ein Teilgebiet der Betriebswirtschaftslehre, das sich mit den wirtschaftlichen Aktivitäten von Unternehmen im globalen Kontext beschäftigt. Sie konzentriert sich auf die Untersuchung und Gestaltung von Geschäftsprozessen, Strategien und Entscheidungen, die grenzüberschreitend agierende Unternehmen treffen müssen, um in einer internationalen Geschäftsumgebung erfolgreich zu sein. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Ein Studium in Internationaler Betriebswirtschaftslehre (BWL) bereitet dich darauf vor, in der globalisierten Geschäftswelt erfolgreich zu agieren. In den meisten Betriebswirtschaftslehre (BWL)-Studiengängen wird die Internationale BWL als Modul oder Wahlfach angeboten. Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Wenn Sie sich für einen regulären BWL-Studiengang einschreibst, haben Sie die Möglichkeit, Module in Internationaler BWL als Wahlfächer zu wählen. In einigen Fällen bieten Hochschulen auch die Möglichkeit, sich auf einen internationalen Schwerpunkt innerhalb des allgemeinen BWL-Studiengangs zu spezialisieren, indem Sie spezielle Kurse in diesem Bereich belegen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Inhalte: internationale BWL'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Internationale BWL umfasst verschiedene Aspekte:'
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Internationale Geschäftsstrategien'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Unternehmen müssen strategische Entscheidungen treffen, wie sie ihre Produkte oder Dienstleistungen auf verschiedenen internationalen Märkten positionieren und vermarkten möchten.'
+              -
+                type: set
+                attrs:
+                  id: ll2ahoga
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Internationale Geschäftsstrategie
+                      Ein Unternehmen, das Elektronikprodukte herstellt, möchte seine Produkte auf internationalen Märkten einführen. Die internationale Geschäftsstrategie umfasst die Entscheidung, welche Länder für den Markteintritt ausgewählt werden sollen, wie die Produkte an die Bedürfnisse und kulturellen Vorlieben der jeweiligen Länder angepasst werden und welche Vertriebskanäle am effektivsten sind.</div>
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    text: 'Internationales Marketing'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dies umfasst die Anpassung von Marketingstrategien an verschiedene Kulturen und Märkte, um die Bedürfnisse und Vorlieben der Zielgruppen in verschiedenen Ländern zu berücksichtigen.'
+              -
+                type: set
+                attrs:
+                  id: ll2akve8
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen, das Sportbekleidung herstellt, möchte seine Produkte global vermarkten. Es muss seine Marketingkampagnen an die kulturellen Unterschiede und sportlichen Präferenzen der verschiedenen Länder anpassen. So könnte eine Werbekampagne in Europa andere Aspekte hervorheben als eine Kampagne in Asien, um die jeweiligen Zielgruppen anzusprechen.</div>
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    text: 'Internationales Finanzmanagement'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unternehmen müssen sich mit Währungsrisiken, Kapitalbeschaffung, Investitionen und anderen finanziellen Aspekten befassen, die sich aus grenzüberschreitenden Aktivitäten ergeben.'
+              -
+                type: set
+                attrs:
+                  id: ll2alw9n
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen hat Niederlassungen in verschiedenen Ländern und muss sich mit unterschiedlichen Währungen und Wechselkursen auseinandersetzen. Bei der Budgetplanung und Finanzierung muss es Währungsrisiken berücksichtigen und geeignete Absicherungsstrategien entwickeln, um Verluste aufgrund von Währungsschwankungen zu minimieren.</div>
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    text: 'Internationale Lieferkettenmanagement'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Effiziente Gestaltung und Verwaltung von globalen Lieferketten, um Produkte oder Dienstleistungen über verschiedene Länder hinweg zu beschaffen, zu produzieren und zu vertreiben.'
+              -
+                type: set
+                attrs:
+                  id: ll2aoll2
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Automobilhersteller bezieht Teile von Lieferanten aus verschiedenen Ländern. Das Unternehmen muss sicherstellen, dass die Teile pünktlich geliefert werden, Zollvorschriften eingehalten werden und die Lieferkette effizient funktioniert, um die Produktionsprozesse nicht zu beeinträchtigen.</div>
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    text: 'Internationales Personalmanagement'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unternehmen müssen geeignete Mitarbeiter aus verschiedenen Kulturen rekrutieren, schulen und führen, um effektiv in einem internationalen Umfeld zu agieren.'
+              -
+                type: set
+                attrs:
+                  id: ll2aqeb4
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen eröffnet eine Filiale in einem neuen Land. Es muss sich mit den kulturellen Unterschieden in Bezug auf Arbeitskultur, Arbeitsrecht und soziale Normen auseinandersetzen. Das Personalmanagement muss sicherstellen, dass die Mitarbeiter aus verschiedenen Ländern gut integriert werden und in einer harmonischen Arbeitsumgebung arbeiten können.</div>
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    text: 'Internationales Recht'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unternehmen müssen sich mit unterschiedlichen rechtlichen Rahmenbedingungen auseinandersetzen, wenn sie in verschiedenen Ländern tätig sind.'
+              -
+                type: set
+                attrs:
+                  id: ll2ar8f3
+                  values:
+                    type: insert_html
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-body)
+                          hex: '#000'
+                    text: 'Diese Themen vermitteln den Studierenden ein tiefes Verständnis für die Komplexität und Vielfalt der internationalen Geschäftswelt. Die genaue Gewichtung der Inhalte und deren Tiefe hängen von der jeweiligen Hochschule, dem Studiengang und dem spezifischen Modul ab. Es ist ratsam, das Curriculum der Hochschule zu überprüfen, um eine genaue Vorstellung von den in den einzelnen Kursen behandelten Themen zu erhalten.'
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Einführung in die Internationale BWL:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Unterschiede zwischen nationaler und internationaler Geschäftstätigkeit'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Globalisierung und ihre Auswirkungen auf Unternehmen'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Internationale Geschäftsstrategien:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Markteintrittsstrategien: Export, Lizenzierung, Joint Ventures, Direktinvestitionen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Diversifikation und Portfoliostrategien auf globaler Ebene'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Strategisches Allianzmanagement und Kooperationen'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Internationales Marketing:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Anpassung von Produkten, Preisen, Promotion und Vertrieb an unterschiedliche Märkte'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Kulturelle Aspekte im internationalen Marketing'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Entwicklung globaler Marken und Markenmanagement'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Internationale Finanzen:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Währungsrisiken und Absicherungsstrategien'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Internationale Finanzierung und Kapitalbeschaffung'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Analyse von Finanzberichten im internationalen Kontext'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Internationale Lieferketten und Logistik:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Planung, Implementierung und Überwachung globaler Lieferketten'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Transport, Lagerung und Distribution über Ländergrenzen hinweg'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Risikomanagement in internationalen Lieferketten'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Internationales Personalmanagement:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Personalrekrutierung, Auswahl und Entwicklung in einem multikulturellen Umfeld'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Interkulturelle Kommunikation und Konfliktmanagement'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Globale Mitarbeitermotivation und -bindung'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Globales Recht:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Handelsrecht und internationale Verträge'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Schutz des geistigen Eigentums und Rechtskonformität'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Ethik im internationalen Geschäft und soziale Verantwortung von Unternehmen'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Interkulturelle Kommunikation:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Kulturelle Unterschiede in Kommunikation, Verhandlung und Zusammenarbeit'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Umgang mit kulturellen Missverständnissen und kulturellen Barrieren'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Internationale Business Case Studies:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Analyse von realen Fallbeispielen internationaler Unternehmen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Ableitung von Lektionen und Best Practices aus den Fallstudien'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Abschlussarbeit oder Prüfung:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Anwendung des erworbenen Wissens auf eine reale internationale Geschäftssituation'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(55, 65, 81)'
+                                  hex: '#000'
+                            text: 'Präsentation, Analyse oder schriftliche Ausarbeitung eines Projekts'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter: Internationale BWL'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (BWL) unterstützt in erster Linie bei der Erstellung von schriftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Recherche und Informationsbeschaffung:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter führt umfangreiche Recherchen durch, um aktuelle Informationen, Studien, Fallbeispiele und Quellen zu sammeln, die für das Thema der Arbeit relevant sind.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Inhaltsentwicklung:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Basierend auf den gesammelten Informationen erstellt der Ghostwriter gut strukturierte Inhalte, die die spezifischen Anforderungen der Arbeit erfüllen. Dies kann Essays, Fallstudien, Berichte oder wissenschaftliche Artikel umfassen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Anpassung an akademische Standards:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter sorgt dafür, dass die Arbeit den akademischen Standards und Formatierungsrichtlinien entspricht, die an der jeweiligen Bildungseinrichtung erwartet werden.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Verständliche Darstellung komplexer Konzepte:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter kann dazu beitragen, komplexe BWL-Konzepte der Internationalen BWL verständlich zu erklären, damit sie von den Lesern leichter nachvollzogen werden können.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Fachterminologie:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter verwendet die korrekte Fachterminologie, um sicherzustellen, dass die Arbeit den sprachlichen Anforderungen des Fachgebiets gerecht wird.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Übersetzungen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Wenn die Arbeit in einer anderen Sprache verfasst werden muss oder Übersetzungen erforderlich sind, kann der Ghostwriter dabei helfen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Business-Pläne und Analysen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter kann bei der Erstellung von Business-Plänen, Marktanalysen oder Unternehmensanalysen unterstützen, die für internationale Geschäftsprojekte benötigt werden.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Korrekturlesen und Lektorat:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Der Ghostwriter überprüft den Text auf Grammatik, Rechtschreibung, Kohärenz und Formatierung, um sicherzustellen, dass die Arbeit frei von Fehlern ist.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
     border: false
     type: add_section
     enabled: true
