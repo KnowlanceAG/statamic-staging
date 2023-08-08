@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691499061
+updated_at: 1691509010
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1950,7 +1950,7 @@ replicator:
     columns_replicator:
       -
         id: ll25ox4p
-        single_col: false
+        single_col: true
         grid:
           -
             id: WcOVwpix
@@ -2169,6 +2169,206 @@ replicator:
                           color: var(--tw-prose-body)
                           hex: '#000'
                     text: 'Diese Themen vermitteln den Studierenden ein tiefes Verständnis für die Komplexität und Vielfalt der internationalen Geschäftswelt. Die genaue Gewichtung der Inhalte und deren Tiefe hängen von der jeweiligen Hochschule, dem Studiengang und dem spezifischen Modul ab. '
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: ll2awimi
+        single_col: false
+        grid:
+          -
+            id: WcOVwpix
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Leistungen: Internationale Betriebswirtschaftslehre'
+              -
+                type: paragraph
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Gruppenarbeiten:'
+                          -
+                            type: text
+                            text: 'Für das Thema "Internationale Lieferketten und Logistik" könnte eine Gruppenarbeit verlangt werden, bei der Sie und Ihre Teammitglieder eine Fallstudie eines Unternehmens analysieren, das globale Lieferketten betreibt. Sie könnten '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Empfehlungen zur Optimierung der Lieferkette unter Berücksichtigung von Logistik, Transport und Risikomanagement erarbeiten.'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: .
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Individuelle Aufgaben:'
+                          -
+                            type: text
+                            text: 'Im Rahmen des Themas "Internationales Finanzmanagement" könnten Sie gebeten werden, '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'einen individuellen Aufsatz über die Auswirkungen von Währungsschwankungen auf die Finanzstrategien multinationaler Unternehmen zu verfassen'
+                          -
+                            type: text
+                            text: .
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: .
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Präsentationen:'
+                          -
+                            type: text
+                            text: 'Im "Interkulturelle Kommunikation"-Teil könnten Sie aufgefordert werden, eine Präsentation darüber zu halten, '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'wie sich kulturelle Unterschiede auf die Geschäftskommunikation in internationalen Teams auswirken können'
+                          -
+                            type: text
+                            text: ' und wie effektive Lösungsansätze aussehen könnten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Mündliche Prüfungen:'
+                          -
+                            type: hard_break
+                          -
+                            type: text
+                            text: 'Als Teil einer mündlichen Prüfung im Bereich "Internationale Geschäftsstrategien" könnten Sie aufgefordert werden, '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'eine reale Situation zu analysieren, in der ein Unternehmen verschiedene Markteintrittsstrategien in einem internationalen Kontext in Erwägung ziehen muss'
+                          -
+                            type: text
+                            text: .
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Abschlussarbeit oder -prüfung:'
+                          -
+                            type: text
+                            text: 'Als Abschlussprojekt könnten Sie aufgefordert werden, eine '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'umfassende Analyse eines multinationalen Unternehmens'
+                          -
+                            type: text
+                            text: ' durchzuführen. Dies könnte eine schriftliche Arbeit sein, in der Sie die behandelten Inhalte auf reale Geschäftssituationen anwenden.'
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2190,7 +2390,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(55, 65, 81)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (BWL) unterstützt in erster Linie bei der Erstellung von schriftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
               -
@@ -2216,7 +2416,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Recherche und Informationsbeschaffung:'
                           -
@@ -2245,7 +2445,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Inhaltsentwicklung:'
                           -
@@ -2274,7 +2474,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Anpassung an akademische Standards:'
                           -
@@ -2303,7 +2503,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Verständliche Darstellung komplexer Konzepte:'
                           -
@@ -2332,7 +2532,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Fachterminologie:'
                           -
@@ -2361,7 +2561,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Übersetzungen:'
                           -
@@ -2390,7 +2590,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Business-Pläne und Analysen:'
                           -
@@ -2419,7 +2619,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Korrekturlesen und Lektorat:'
                           -
@@ -2430,6 +2630,230 @@ replicator:
                                 attrs:
                                   align: start
                             text: 'Der Ghostwriter überprüft den Text auf Grammatik, Rechtschreibung, Kohärenz und Formatierung, um sicherzustellen, dass die Arbeit frei von Fehlern ist.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Ghostwriter können in verschiedenen Bereichen der Internationalen Betriebswirtschaftslehre (BWL) Unterstützung bieten, wenn es darum geht, wissenschaftliche Arbeiten oder Projekte zu erstellen. Hier sind einige Bereiche, in denen Ghostwriter unterstützen könnten:'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Wissenschaftliche Arbeiten:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Internationale Betriebswirtschaftler Ghostwriter können bei der Erstellung von Essays, Seminararbeiten, Bachelor- oder Masterarbeiten in Themen der Internationalen BWL helfen. Sie können bei der Recherche, Strukturierung und Formulierung der Arbeit unterstützen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Fallstudien:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Ghostwriter können detaillierte Fallstudien zu bestimmten internationalen Geschäftsszenarien erstellen, die komplexe Fragestellungen und Lösungsansätze behandeln.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Marktanalysen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Ghostwriter können umfassende Marktanalysen für verschiedene Länder oder Branchen durchführen, um aktuelle Trends, Wettbewerber und Chancen aufzuzeigen. Experten aus dem Fachbereich BWL haben zu allen Datenbanken Zugriff und kennen den aktuellen Marktstand. '
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Übersetzungen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'In der Internationalen BWL können Übersetzungen von Dokumenten, Geschäftsberichten oder Forschungsartikeln von großer Bedeutung sein, um Informationen in verschiedenen Sprachen verfügbar zu machen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Forschungsunterstützung:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Ghostwriter in internationalen Betriebswirtschaftsehre können bei der Sammlung von relevanten Forschungsartikeln, Studien und Quellen helfen, um eine solide Basis für eine wissenschaftliche Arbeit z.B. Bachelorarbeit zu schaffen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Business-Pläne:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Wenn Studierende oder Fachleute Geschäftspläne für internationale Unternehmungen entwickeln müssen, können Ghostwriter bei der Erstellung von detaillierten Business-Plänen und Strategiedokumenten unterstützen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Präsentationen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ' Ghostwriter können Inhalte für Präsentationen erstellen, die in Vorlesungen, Seminaren oder geschäftlichen Präsentationen verwendet werden können.'
             show_as_card: false
         type: row
         enabled: true
@@ -2658,4 +3082,5 @@ fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'BWL Ghostwriter'
 breadcrumbs_active: true
+jumpmark: mutlu@gwriters.net
 ---
