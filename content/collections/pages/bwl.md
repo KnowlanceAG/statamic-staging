@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691522119
+updated_at: 1691522835
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1962,39 +1962,19 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Internationale BWL '
+                    text: 'Internationale BWL (IBWL)'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                    text: 'Die Internationale Betriebswirtschaftslehre (BWL) ist ein Teilgebiet der Betriebswirtschaftslehre, das sich mit den wirtschaftlichen Aktivitäten von Unternehmen im globalen Kontext beschäftigt. Sie konzentriert sich auf die Untersuchung und Gestaltung von Geschäftsprozessen, Strategien und Entscheidungen, die grenzüberschreitend agierende Unternehmen treffen müssen, um in einer internationalen Geschäftsumgebung erfolgreich zu sein. '
+                    text: 'Die Internationale Betriebswirtschaftslehre (IBWL) ist ein Teilgebiet der Betriebswirtschaftslehre, das sich mit den wirtschaftlichen Aktivitäten von Unternehmen im globalen Kontext beschäftigt. Sie konzentriert sich auf die Untersuchung und Gestaltung von Geschäftsprozessen, Strategien und Entscheidungen, die grenzüberschreitend agierende Unternehmen treffen müssen, um in einer internationalen Geschäftsumgebung erfolgreich zu sein. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                    text: 'Ein Studium in Internationaler Betriebswirtschaftslehre (BWL) bereitet dich darauf vor, in der globalisierten Geschäftswelt erfolgreich zu agieren. In den meisten Betriebswirtschaftslehre (BWL)-Studiengängen wird die Internationale BWL als Modul oder Wahlfach angeboten. Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Wenn Sie sich für einen regulären BWL-Studiengang einschreibst, haben Sie die Möglichkeit, Module in Internationaler BWL als Wahlfächer zu wählen. In einigen Fällen bieten Hochschulen auch die Möglichkeit, sich auf einen internationalen Schwerpunkt innerhalb des allgemeinen BWL-Studiengangs zu spezialisieren, indem Sie spezielle Kurse in diesem Bereich belegen. Die Internationale BWL umfasst verschiedene Aspekte:'
+                    text: 'Ein Studium in Internationaler Betriebswirtschaftslehre (IBWL) bereitet dich darauf vor, in der globalisierten Geschäftswelt erfolgreich zu agieren. In den meisten Betriebswirtschaftslehre Studiengängen wird die Internationale BWL als Modul oder Wahlfach angeboten. Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedene Aspekte:'
               -
                 type: heading
                 attrs:
@@ -2366,23 +2346,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter: Internationale BWL'
+                    text: 'Ghostwriter: Internationale BWL (IBWL)'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (BWL) unterstützt in erster Linie bei der Erstellung von schriftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
+                    text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (IBWL) unterstützt in erster Linie bei der Erstellung von schriftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
               -
                 type: ordered_list
                 attrs:
