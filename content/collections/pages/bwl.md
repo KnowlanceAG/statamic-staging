@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691526827
+updated_at: 1691527178
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1946,11 +1946,12 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: ll25ovck
+    id: ll2rg26m
     columns_replicator:
       -
-        id: ll25ox4p
-        single_col: true
+        id: ll2rg4ce
+        columns_per_row: 2
+        single_col: false
         grid:
           -
             id: WcOVwpix
@@ -1998,11 +1999,49 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(0, 0, 0)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
                     text: 'Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedene Schwerpunkten:'
+            show_as_card: false
+          -
+            id: ll2rhsv0
+            bard:
+              -
+                type: set
+                attrs:
+                  id: ll2rhxxn
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/aufbau-internationale-betriebswirtschaft.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: ll25ovck
+    columns_replicator:
+      -
+        id: ll25ox4p
+        single_col: true
+        grid:
+          -
+            id: WcOVwpix
+            bard:
               -
                 type: heading
                 attrs:
@@ -2210,40 +2249,6 @@ replicator:
             id: WcOVwpix
             bard:
               -
-                type: set
-                attrs:
-                  id: ll2r3o2j
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/fachrichtungen/aufbau-internationale-betriebswirtschaft.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: ll2r5jdf
-    columns_replicator:
-      -
-        id: ll2r5ktx
-        single_col: false
-        grid:
-          -
-            id: WcOVwpix
-            bard:
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -2395,6 +2400,15 @@ replicator:
                           -
                             type: text
                             text: ', relevante Statistiken und Grafiken einfügen und eine überzeugende Botschaft für das internationale Publikum vermitteln.'
+            show_as_card: false
+          -
+            id: ll2rk96s
+            bard:
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
                   -
                     type: list_item
                     content:
@@ -2519,9 +2533,24 @@ replicator:
                                 attrs:
                                   align: start
                             text: 'Ein Bachelorabsolvent, der sich für ein Masterstudium in Internationale Betriebswirtschaftslehre bewirbt, benötigt eine überzeugende Bewerbung. Ein erfahrener Ghostwriter kann die Bewerbung verfassen, die die Motivation, akademischen Hintergrund und zukünftige Karriereziele überzeugend darstellt.'
-              -
-                type: paragraph
             show_as_card: false
+        type: row
+        enabled: true
+        columns_per_row: 2
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: ll2r5jdf
+    columns_replicator:
+      -
+        id: ll2r5ktx
+        single_col: true
+        grid:
           -
             id: ll2r8ce4
             bard:
@@ -2700,8 +2729,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 2
         responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
@@ -2742,6 +2771,7 @@ replicator:
     type: add_section
     enabled: true
     bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: ll2oirxc
     columns_replicator:
