@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691528239
+updated_at: 1691529881
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1266,6 +1266,30 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftswissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/personalmanagement
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Personalmanagement'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Internationale'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Internationale BWL'
                           -
                             id: ljoh4b21
                             headline: Geisteswissenschaften
@@ -1956,6 +1980,13 @@ replicator:
           -
             id: WcOVwpix
             bard:
+              -
+                type: set
+                attrs:
+                  id: ll2t6bkz
+                  values:
+                    type: anchor_target
+                    anchor_name: Internationale
               -
                 type: heading
                 attrs:
