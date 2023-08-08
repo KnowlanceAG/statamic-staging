@@ -800,7 +800,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#Internationale'
+                                          href: '/fachrichtungen/bwl#Internationale'
                                           target: null
                                           rel: null
                                     text: 'Internationale BWL Ghostwriter'
@@ -1058,7 +1058,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691533460
+updated_at: 1691535093
 meta_title: 'Essay schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
