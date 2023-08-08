@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691527284
+updated_at: 1691527370
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2271,9 +2271,7 @@ replicator:
                     type: text
                     text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (IBWL) unterstützt in erster Linie bei der Erstellung von schriftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
               -
-                type: ordered_list
-                attrs:
-                  order: 1
+                type: bullet_list
                 content:
                   -
                     type: list_item
@@ -2413,9 +2411,16 @@ replicator:
             id: ll2rk96s
             bard:
               -
-                type: ordered_list
+                type: set
                 attrs:
-                  order: 1
+                  id: ll2rphnm
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: paragraph
+              -
+                type: bullet_list
                 content:
                   -
                     type: list_item
