@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691522835
+updated_at: 1691524213
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1974,7 +1974,35 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein Studium in Internationaler Betriebswirtschaftslehre (IBWL) bereitet dich darauf vor, in der globalisierten Geschäftswelt erfolgreich zu agieren. In den meisten Betriebswirtschaftslehre Studiengängen wird die Internationale BWL als Modul oder Wahlfach angeboten. Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedene Aspekte:'
+                    text: 'Ein Studium in Internationaler Betriebswirtschaftslehre (IBWL) bereitet Sie darauf vor, in der globalisierten Geschäftswelt erfolgreich zu agieren. In den meisten Betriebswirtschaftslehre Studiengängen wird die Internationale BWL als Modul oder Wahlfach angeboten. Jedoch wird das international Betriebswirtschaftslehre komplett als Bachelorstudium angeboten zum Beispiel an der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://studieren.univie.ac.at/studienangebot/bachelor-und-diplomstudien/internationale-betriebswirtschaft-bachelor-mit-aufnahmeverfahren/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Universität Wien'
+                  -
+                    type: text
+                    text: '. Oft werden in diesem Studiengang die Inhalte auf Englisch vermittelt. Es bereitet Sie umfassend auf Ihre berufliche Karriere in internationalen Unternehmen im In- oder Ausland vor.'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0)'
+                          hex: '#000'
+                  -
+                    type: text
+                    text: 'Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedene Aspekte:'
               -
                 type: heading
                 attrs:
