@@ -1007,7 +1007,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#Internationale'
+                                          href: '/fachrichtungen/bwl#Internationale'
                                           target: null
                                           rel: null
                                     text: 'Internationale BWL Ghostwriter'
@@ -1733,7 +1733,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691534003
+updated_at: 1691535255
 meta_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
