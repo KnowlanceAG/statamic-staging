@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1690449429
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1691569694
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1047,6 +1047,18 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Informatik Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/informatik#Softwarelokalisierung'
+                                          target: null
+                                          rel: null
+                                    text: 'Softwarelokalisierung Ghostwriter'
                           -
                             id: ljoh2wxw
                             headline: Naturwissenschaften
@@ -1112,6 +1124,21 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Mathematik Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/biologie#biotechnologie'
+                                          target: null
+                                          rel: null
+                                    text: 'Biotechnologie Ghostwriter'
+                                  -
+                                    type: text
+                                    text: ' '
                           -
                             id: ljoh3l91
                             headline: Sozialwissenschaften
@@ -1266,6 +1293,34 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftswissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/personalmanagement
+                                          target: null
+                                          rel: null
+                                    text: 'Personalmanagement Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Internationale'
+                                          target: null
+                                          rel: null
+                                    text: 'Internationale BWL Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: hard_break
                           -
                             id: ljoh4b21
                             headline: Geisteswissenschaften
@@ -1946,6 +2001,970 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: ll2rg26m
+    columns_replicator:
+      -
+        id: ll2rg4ce
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: WcOVwpix
+            bard:
+              -
+                type: set
+                attrs:
+                  id: ll2t6bkz
+                  values:
+                    type: anchor_target
+                    anchor_name: Internationale
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Internationale BWL (IBWL)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Internationale Betriebswirtschaftslehre (IBWL) ist ein Teilgebiet der Betriebswirtschaftslehre, das sich mit den wirtschaftlichen Aktivitäten von Unternehmen im globalen Kontext beschäftigt. Sie konzentriert sich auf die Untersuchung und Gestaltung von Geschäftsprozessen, Strategien und Entscheidungen, die grenzüberschreitend agierende Unternehmen treffen müssen, um in einer internationalen Geschäftsumgebung erfolgreich zu sein. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Studium in Internationaler Betriebswirtschaftslehre (IBWL) bereitet Sie darauf vor, in der globalisierten Geschäftswelt erfolgreich zu agieren. In den meisten Betriebswirtschaftslehre-Studiengängen wird die Internationale BWL als Modul oder Wahlfach angeboten. Hingegen wird die International Betriebswirtschaftslehre als eigenständiger Bachelorstudiengang beispielsweise an der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://studieren.univie.ac.at/studienangebot/bachelor-und-diplomstudien/internationale-betriebswirtschaft-bachelor-mit-aufnahmeverfahren/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Universität Wien'
+                  -
+                    type: text
+                    text: '  unterrichtet. Häufig werden in diesem Studiengang die Lehrinhalte in englischer Sprache vermittelt, was Sie umfassend auf Ihre berufliche Karriere in internationalen Unternehmen im In- oder Ausland vorbereitet.'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                  -
+                    type: text
+                    text: 'Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedenen Schwerpunkten:'
+            show_as_card: false
+          -
+            id: ll2rhsv0
+            bard:
+              -
+                type: set
+                attrs:
+                  id: ll2rncf4
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  id: ll2rhxxn
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/aufbau-internationale-betriebswirtschaft.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: ll25ovck
+    columns_replicator:
+      -
+        id: ll25ox4p
+        single_col: true
+        grid:
+          -
+            id: WcOVwpix
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Internationale Geschäftsstrategien'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Unternehmen müssen strategische Entscheidungen treffen, wie sie ihre Produkte oder Dienstleistungen auf verschiedenen internationalen Märkten positionieren und vermarkten möchten.'
+              -
+                type: set
+                attrs:
+                  id: ll2ahoga
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>
+                      Ein Unternehmen, das Elektronikprodukte herstellt, möchte seine Produkte auf internationalen Märkten einführen. Die internationale Geschäftsstrategie umfasst die Entscheidung, welche Länder für den Markteintritt ausgewählt werden sollen, wie die Produkte an die Bedürfnisse und kulturellen Vorlieben der jeweiligen Länder angepasst werden und welche Vertriebskanäle am effektivsten sind.</div>
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Internationales Marketing'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dies umfasst die Anpassung von Marketingstrategien an verschiedene Kulturen und Märkte, um die Bedürfnisse und Vorlieben der Zielgruppen in verschiedenen Ländern zu berücksichtigen.'
+              -
+                type: set
+                attrs:
+                  id: ll2akve8
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen, das Sportbekleidung herstellt, möchte seine Produkte global vermarkten. Es muss seine Marketingkampagnen an die kulturellen Unterschiede und sportlichen Präferenzen der verschiedenen Länder anpassen. So könnte eine Werbekampagne in Europa andere Aspekte hervorheben als eine Kampagne in Asien, um die jeweiligen Zielgruppen anzusprechen.</div>
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Internationales Rechnungswesen und Finanzmanagement '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unternehmen müssen sich mit Währungsrisiken, Kapitalbeschaffung, Investitionen und anderen finanziellen Aspekten befassen, die sich aus grenzüberschreitenden Aktivitäten ergeben.'
+              -
+                type: set
+                attrs:
+                  id: ll2alw9n
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen hat Niederlassungen in verschiedenen Ländern und muss sich mit unterschiedlichen Währungen und Wechselkursen auseinandersetzen. Bei der Budgetplanung und Finanzierung muss es Währungsrisiken berücksichtigen und geeignete Absicherungsstrategien entwickeln, um Verluste aufgrund von Währungsschwankungen zu minimieren.</div>
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Internationale Digitalisierung und Supply Chain Management'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Effiziente Gestaltung und Verwaltung von globalen Lieferketten, um Produkte oder Dienstleistungen über verschiedene Länder hinweg zu beschaffen, zu produzieren und zu vertreiben. Der Schwerpunkt Digitalisierung und Supply Chain Management im Studiengang Internationale Betriebswirtschaftslehre bereitet Sie gezielt auf die Bewältigung der aktuellen Herausforderungen der fortschreitenden Digitalisierung vor. Hierbei stehen Themen wie Operations Management, Liefernetzwerke, Informationssysteme, E-Commerce, Innovationsmanagement und sogar Softwareentwicklung mit Python im Fokus. '
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0)'
+                          hex: '#000'
+              -
+                type: set
+                attrs:
+                  id: ll2aoll2
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Automobilhersteller bezieht Teile von Lieferanten aus verschiedenen Ländern. Das Unternehmen muss sicherstellen, dass die Teile pünktlich geliefert werden, Zollvorschriften eingehalten werden und die Lieferkette effizient funktioniert, um die Produktionsprozesse nicht zu beeinträchtigen.</div>
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Internationales Personalmanagement'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unternehmen müssen geeignete Mitarbeiter aus verschiedenen Kulturen rekrutieren, schulen und führen, um effektiv in einem internationalen Umfeld zu agieren.'
+              -
+                type: set
+                attrs:
+                  id: ll2aqeb4
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen eröffnet eine Filiale in einem neuen Land. Es muss sich mit den kulturellen Unterschieden in Bezug auf Arbeitskultur, Arbeitsrecht und soziale Normen auseinandersetzen. Das Personalmanagement muss sicherstellen, dass die Mitarbeiter aus verschiedenen Ländern gut integriert werden und in einer harmonischen Arbeitsumgebung arbeiten können.</div>
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Internationales Recht'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unternehmen müssen sich mit unterschiedlichen rechtlichen Rahmenbedingungen auseinandersetzen, wenn sie in verschiedenen Ländern tätig sind.'
+              -
+                type: set
+                attrs:
+                  id: ll2ar8f3
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen möchte seine Produkte in Ländern mit unterschiedlichen Rechts- und Ethikstandards verkaufen. Es muss sicherstellen, dass seine Geschäftspraktiken den lokalen Vorschriften entsprechen, um Konflikte oder rechtliche Probleme zu vermeiden.</div>
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-body)
+                          hex: '#000'
+                    text: 'Diese Themen vermitteln den Studierenden ein tiefes Verständnis für die Komplexität und Vielfalt der internationalen Geschäftswelt. Die genaue Gewichtung der Inhalte und deren Tiefe hängen von der jeweiligen Hochschule, dem Studiengang und dem spezifischen Modul ab. '
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+  -
+    id: ll2r3ep9
+    columns_replicator:
+      -
+        id: ll2r3gpx
+        single_col: false
+        grid:
+          -
+            id: WcOVwpix
+            bard:
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter: Internationale BWL (IBWL)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (IBWL) unterstützt in erster Linie bei der Erstellung von wissenschaftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wissenschaftliche Arbeit (Hausarbeit, Bachelorarbeit oder Masterarbeit)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ein Studierender im Fach Internationale Betriebswirtschaftslehre benötigt eine umfangreiche Bachelorarbeit über "Die Auswirkungen von Freihandelsabkommen auf internationale Handelsströme". Ein erfahrener Ghostwriter im Bereich internationale BWL kann umfassende Forschung betreiben, relevante wirtschaftliche Theorien und reale Handelsbeispiele einbeziehen und dem Studierenden eine gut strukturierte Bachelorarbeit schreiben lassen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Businessplan für internationale Expansion'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein angehender Unternehmer, der Internationale Betriebswirtschaftslehre studiert, plant die Erweiterung seines Unternehmens auf internationale Märkte. Ein Ghostwriter kann eine gründliche Marktanalyse durchführen, die Wettbewerbssituation in verschiedenen Ländern untersuchen und den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Businessplan erstellen'
+                  -
+                    type: text
+                    text: ', der potenzielle Investoren überzeugt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Übersetzung einer Forschungsarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Studierender hat eine anspruchsvolle Bachelorarbeit über "Internationale Markenstrategien in aufstrebenden Märkten" geschrieben und möchte sie für eine Veröffentlichung in einer internationalen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Fachzeitschrift übersetzen lassen'
+                  -
+                    type: text
+                    text: '. Ein qualifizierter Ghostwriter kann die Arbeit sorgfältig übersetzen und sicherstellen, dass die Fachterminologie korrekt verwendet wird.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Präsentation für eine internationale Geschäftskonferenz'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Studierender wird auf einer internationalen Geschäftskonferenz sprechen und benötigt eine aussagekräftige Präsentation über "Globale Trends im Supply Chain Management". Ein erfahrener Ghostwriter im Unternehmensbereich kann die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Präsentation erstellen'
+                  -
+                    type: text
+                    text: ', relevante Statistiken und Grafiken einfügen und eine überzeugende Botschaft für das internationale Publikum vermitteln.'
+            show_as_card: false
+          -
+            id: ll2rk96s
+            bard:
+              -
+                type: set
+                attrs:
+                  id: ll2rphnm
+                  values:
+                    type: spacer
+                    padding-y: 48
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Verfassen eines akademischen Artikels'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Masterstudent im Bereich Internationale Betriebswirtschaftslehre möchte seine Forschungsergebnisse über "Internationale Finanzierung und Währungsrisiken" in einer angesehenen Fachzeitschrift veröffentlichen. Ein Ghostwriter kann bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Umwandlung der Forschungsergebnisse in einen akademischen Artikel'
+                  -
+                    type: text
+                    text: ' unterstützen, der den hohen Standards der Fachzeitschrift entspricht.'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Beispiel: Seminararbeit '
+                          -
+                            type: text
+                            text: 'Ein Studierender soll eine Seminararbeit über "Die Bedeutung interkultureller Kommunikation für internationale Geschäftsbeziehungen" verfassen. Ein Ghostwriter in der internationalen Betriebswirtschaftslehre kann relevante Theorien zur interkulturellen Kommunikation finden, aktuelle Fallbeispiele einbringen und die Arbeit professionell strukturieren. Außerdem kann ein Student eine komplette Mustervorlage für seine '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Seminararbeit schreiben lassen'
+                          -
+                            type: text
+                            text: .
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Marktanalyse für internationale Expansion'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Ein Unternehmen plant die Erschließung eines neuen internationalen Marktes und benötigt eine detaillierte Marktanalyse. Ein Ghostwriter mit Fachkenntnissen in Internationale Betriebswirtschaftslehre kann die politischen, wirtschaftlichen und kulturellen Aspekte des Ziellandes analysieren und die Ergebnisse in einem umfassenden Bericht zusammenfassen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Bewerbung für ein internationales Masterprogramm'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Ein Bachelorabsolvent, der sich für ein Masterstudium in Internationale Betriebswirtschaftslehre bewirbt, benötigt eine überzeugende Bewerbung. Ein erfahrener Ghostwriter kann die Bewerbung verfassen, die die Motivation, akademischen Hintergrund und zukünftige Karriereziele überzeugend darstellt.'
+              -
+                type: set
+                attrs:
+                  id: ll3gvy9r
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'Jetzt kostenlos anfragen'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        columns_per_row: 2
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: ll2r5jdf
+    columns_replicator:
+      -
+        id: ll2r5ktx
+        single_col: true
+        grid:
+          -
+            id: ll2r8ce4
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Leistungen: Internationale Betriebswirtschaftslehre'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                            text: Gruppenarbeiten
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: ':'
+                          -
+                            type: text
+                            text: ' Für das Thema "Internationale Lieferketten und Logistik" könnte eine Gruppenarbeit verlangt werden, bei der Sie und Ihre Teammitglieder eine Fallstudie eines Unternehmens analysieren, das globale Lieferketten betreibt. Sie könnten Empfehlungen zur Optimierung der Lieferkette unter Berücksichtigung von Logistik, Transport und Risikomanagement erarbeiten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                            text: 'Individuelle Aufgaben'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: ':'
+                          -
+                            type: text
+                            text: ' Im Rahmen des Themas "Internationales Finanzmanagement" könnten Sie gebeten werden, einen individuellen Aufsatz über die Auswirkungen von Währungsschwankungen auf die Finanzstrategien multinationaler Unternehmen zu verfassen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                            text: Präsentationen
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: ': '
+                          -
+                            type: text
+                            text: 'Im "Interkulturelle Kommunikation"-Teil könnten Sie aufgefordert werden, eine Präsentation darüber zu halten, wie sich kulturelle Unterschiede auf die Geschäftskommunikation in internationalen Teams auswirken können und wie effektive Lösungsansätze aussehen könnten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                            text: 'Mündliche Prüfungen'
+                          -
+                            type: text
+                            text: ': Als Teil einer mündlichen Prüfung im Bereich "Internationale Geschäftsstrategien" könnten Sie aufgefordert werden, eine reale Situation zu analysieren, in der ein Unternehmen verschiedene Markteintrittsstrategien in einem internationalen Kontext in Erwägung ziehen muss.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                            text: 'Abschlussarbeit oder -prüfung'
+                          -
+                            type: text
+                            text: ': Als Abschlussprojekt könnten Sie aufgefordert werden, eine umfassende Analyse eines multinationalen Unternehmens durchzuführen. Dies könnte eine schriftliche Arbeit sein, in der Sie die behandelten Inhalte auf reale Geschäftssituationen anwenden.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    border: false
+    type: add_section
+    enabled: true
+    bg_color: '#F9F9F9'
+  -
+    id: ll2oirxc
+    columns_replicator:
+      -
+        id: ll2oits9
+        single_col: true
+        grid:
+          -
+            id: WcOVwpix
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '5 Bachelorarbeit-Themen: Internationale Betriebswirtschaftslehre'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Einfluss kultureller Diversität auf internationale Geschäftsstrategien:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Eine Analyse, wie Unternehmen die kulturelle Diversität in verschiedenen Ländern berücksichtigen und in ihre Geschäftsstrategien integrieren, um erfolgreich auf internationalen Märkten zu operieren.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Internationale Joint Ventures: Chancen und Herausforderungen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Eine Bewertung der Vor- und Nachteile von internationalen Joint Ventures als Form der Markterschließung und wie Unternehmen die verschiedenen Herausforderungen in multikulturellen Partnerschaften bewältigen können.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Entwicklung nachhaltiger Lieferketten in globalen Märkten:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Eine Untersuchung, wie Unternehmen nachhaltige Lieferketten auf globaler Ebene aufbauen, um ökologische und soziale Verantwortung zu fördern, während sie effiziente Betriebsabläufe aufrechterhalten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Analyse des Einflusses politischer Instabilität auf internationale Investitionen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Eine Untersuchung, wie politische Unsicherheiten, Regierungswechsel und geopolitische Ereignisse das Investitionsverhalten von Unternehmen in verschiedenen Ländern beeinflussen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'E-Commerce und internationale Märkte:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Eine Analyse der Auswirkungen des E-Commerce auf die internationalen Handelsmuster und wie Unternehmen digitale Plattformen nutzen, um grenzüberschreitend erfolgreich zu sein, einschließlich logistischer und kultureller Aspekte.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: Vb7y9im2
     columns_replicator:
       -
@@ -2163,4 +3182,5 @@ fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'BWL Ghostwriter'
 breadcrumbs_active: true
+jumpmark: mutlu@gwriters.net
 ---
