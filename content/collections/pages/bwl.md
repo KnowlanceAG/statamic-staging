@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691568870
+updated_at: 1691569694
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2621,6 +2621,18 @@ replicator:
                         attrs:
                           align: start
                     text: 'Ein Bachelorabsolvent, der sich für ein Masterstudium in Internationale Betriebswirtschaftslehre bewirbt, benötigt eine überzeugende Bewerbung. Ein erfahrener Ghostwriter kann die Bewerbung verfassen, die die Motivation, akademischen Hintergrund und zukünftige Karriereziele überzeugend darstellt.'
+              -
+                type: set
+                attrs:
+                  id: ll3gvy9r
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'Jetzt kostenlos anfragen'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2771,40 +2783,6 @@ replicator:
     border: false
     type: add_section
     enabled: true
-    bg_color: '#F9F9F9'
-  -
-    id: ll2ra05o
-    columns_replicator:
-      -
-        id: ll2ra1vo
-        single_col: false
-        grid:
-          -
-            id: WcOVwpix
-            bard:
-              -
-                type: set
-                attrs:
-                  id: ll2raw3y
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'Jetzt kostenlos anfragen'
-                    button_align: justify-center
-                    spacing_top: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    border: false
-    type: add_section
-    enabled: true
-    bg_toggle: false
     bg_color: '#F9F9F9'
   -
     id: ll2oirxc
