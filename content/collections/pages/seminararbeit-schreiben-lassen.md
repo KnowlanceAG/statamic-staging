@@ -3433,6 +3433,216 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: ll4d1evy
+    columns_replicator:
+      -
+        id: ll4d1h4i
+        single_col: true
+        grid:
+          -
+            id: YN0kgE5T
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Seminararbeit schreiben mit KI?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Im akademischen Bereich sollten wir, trotz des Potenzials von KI-Modellen, vorsichtig beim Einsatz von KI-Technologie sein. Der Grund dafür ist, dass KI nicht dasselbe Maß an kritischem Denken, Kreativität und tieferem Verständnis bieten kann, wie es ein akademischer Ghostwriter tut. Die Verwendung von KI zur Erstellung von Seminararbeiten birgt aufgrund technischer Grenzen und rechtlicher Fragen Risiken.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Interpretationsfehler:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'KI-Systeme wie ChatGPT-4 verfügen nicht über eine echte Einsicht in komplexe akademische Themen. Während sie Informationen wiedergeben können, die sie gelernt haben, können sie leicht missinterpretiert werden oder den Kontext falsch verstehen, was zu fehlerhaften Ergebnissen führen kann. Ein akademischer Ghostwriter hingegen besitzt nicht nur umfassendes Fachwissen, sondern auch ein tiefgehendes Verständnis für sein Spezialgebiet. Dies ermöglicht es ihm, Informationen im richtigen Licht zu sehen und detaillierte Fragen zu stellen und zu beantworten. Dies ist insbesondere in Fachrichtungen wie den Sozialwissenschaften relevant, wo menschliches Verhalten und Kultur im Fokus stehen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Mangelnde Originalität:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Eines der Hauptziele wissenschaftlicher Arbeiten ist die Vorstellung neuer und origineller Erkenntnisse. KI-Modelle basieren jedoch auf bestehenden Daten und erzeugen Inhalte durch deren Nachbildung. Die Wahrscheinlichkeit, dass sie innovative Ideen in akademischen Arbeiten liefern können, ist daher gering. Im Gegensatz dazu können menschliche Forscher bahnbrechende Ideen hervorbringen, die den Status quo ihres Fachs revolutionieren können.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Umgang mit Quellen & Urheberrecht:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'KI-generierte Inhalte könnten aus urheberrechtlich geschützten Quellen stammen, auch wenn sie nicht als solche betrachtet werden. Die Verwendung solcher Inhalte ohne korrekte Zitierung kann zu rechtlichen Problemen führen, vor allem wenn die KI urheberrechtlich geschützte Passagen verwendet. Ein akademischer Ghostwriter hingegen stellt sicher, dass die Arbeit einzigartig ist, ordnungsgemäß zitiert wird und allen akademischen Standards entspricht. Es gibt auch Bedenken, dass KI-Modelle dazu neigen könnten, fiktive Quellen oder Studien zu erstellen, um ihre Argumentation zu stützen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Selbstüberschätzung von KI:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'KIs sind auf ihre Datenbanken beschränkt und sehen diese oft als absolute Wahrheit. Daher fehlt ihnen oft der kritische Blick, der in der Wissenschaft notwendig ist, um Daten und Schlussfolgerungen zu hinterfragen. Auch fehlt es ihnen oft an der nuancierten Schreibweise, die in der Wissenschaft erforderlich ist. Ein akademischer Ghostwriter kann hingegen Daten kritisch bewerten und ist in der Lage, flexibel auf unvorhergesehene Herausforderungen zu reagieren.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'KI im Fokus von Universitäten:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Die wachsende Bedeutung der KI führt dazu, dass Universitäten ihren Einsatz intensiv diskutieren. In der Zukunft könnten Einrichtungen Unternehmen sogar verpflichten, den Einsatz von KI offenzulegen, z.B. durch Datenbanken mit allen erzeugten Texten. Das zeigt auch unser AI Detector, den Sie gerne kostenlos testen können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Es ist unbestreitbar, dass KI in vielen Bereichen nützlich ist, aber beim Verfassen von Seminararbeiten sollten wir uns auf menschliche Expertise verlassen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: qxblg2y7
     columns_replicator:
       -
@@ -3959,8 +4169,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691538163
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1691623779
 template: default
 use_meta_keywords: false
 no_index_page: false
