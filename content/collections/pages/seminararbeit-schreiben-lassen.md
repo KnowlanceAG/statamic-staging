@@ -3499,7 +3499,29 @@ replicator:
                                 type: textAlign
                                 attrs:
                                   align: start
-                            text: 'KI-Systeme wie ChatGPT-4 verfügen nicht über eine echte Einsicht in komplexe akademische Themen. Während sie Informationen wiedergeben können, die sie gelernt haben, können sie leicht missinterpretiert werden oder den Kontext falsch verstehen, was zu fehlerhaften Ergebnissen führen kann. Ein akademischer Ghostwriter hingegen besitzt nicht nur umfassendes Fachwissen, sondern auch ein tiefgehendes Verständnis für sein Spezialgebiet. Dies ermöglicht es ihm, Informationen im richtigen Licht zu sehen und detaillierte Fragen zu stellen und zu beantworten. Dies ist insbesondere in Fachrichtungen wie den Sozialwissenschaften relevant, wo menschliches Verhalten und Kultur im Fokus stehen.'
+                            text: 'KI-Systeme wie ChatGPT-4 verfügen nicht über eine echte Einsicht in komplexe akademische Themen. Während sie Informationen wiedergeben können, die sie gelernt haben, können sie leicht missinterpretiert werden oder den Kontext falsch verstehen, was zu fehlerhaften Ergebnissen führen kann. Ein akademischer Ghostwriter hingegen besitzt nicht nur umfassendes Fachwissen, sondern auch ein tiefgehendes Verständnis für sein Spezialgebiet. Dies ermöglicht es ihm, Informationen im richtigen Licht zu sehen und detaillierte Fragen zu stellen und zu beantworten. Dies ist insbesondere in Fachrichtungen wie '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/geschichte
+                                  target: _blank
+                                  rel: null
+                            text: Geschichte
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ' relevant, wo menschliches Verhalten und Kultur im Fokus stehen.'
                   -
                     type: list_item
                     content:
@@ -3615,7 +3637,29 @@ replicator:
                                 type: textAlign
                                 attrs:
                                   align: start
-                            text: 'Die wachsende Bedeutung der KI führt dazu, dass Universitäten ihren Einsatz intensiv diskutieren. In der Zukunft könnten Einrichtungen Unternehmen sogar verpflichten, den Einsatz von KI offenzulegen, z.B. durch Datenbanken mit allen erzeugten Texten. Das zeigt auch unser AI Detector, den Sie gerne kostenlos testen können.'
+                            text: 'Die wachsende Bedeutung der KI führt dazu, dass Universitäten ihren Einsatz intensiv diskutieren. In der Zukunft könnten Einrichtungen Unternehmen sogar verpflichten, den Einsatz von KI offenzulegen, z.B. durch Datenbanken mit allen erzeugten Texten. Die Einfachheit der Überprüfung zeigt auch unser '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: link
+                                attrs:
+                                  href: /ai-detector
+                                  target: _blank
+                                  rel: null
+                            text: 'AI Detector'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ', den Sie gerne kostenlos testen können.'
               -
                 type: paragraph
                 content:
@@ -4170,7 +4214,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691623779
+updated_at: 1691623980
 template: default
 use_meta_keywords: false
 no_index_page: false
