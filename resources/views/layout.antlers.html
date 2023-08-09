@@ -9,10 +9,8 @@
   {{ if
     current_template == 'errors/404' ||
     current_uri | contains:blog/page ||
-    current_uri | ends_with:/blog ||
     current_uri | contains:presse/page ||
-    current_uri | ends_with:/presse ||
-    current_uri | contains:/author
+    ( current_uri | containsAll:/author:/page )
   }}
     <meta name="robots" content="noindex, follow">
     {{ else }}
