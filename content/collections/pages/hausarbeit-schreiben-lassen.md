@@ -2482,7 +2482,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '90,- € pro Normseite.'
+                    text: '100,- € pro Normseite.'
               -
                 type: set
                 attrs:
@@ -3034,7 +3034,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691623276
+updated_at: 1691624448
 template: default
 use_meta_keywords: false
 no_index_page: false
