@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691564401
+updated_at: 1691564572
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2333,7 +2333,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (IBWL) unterstützt in erster Linie bei der Erstellung von schriftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
+                    text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (IBWL) unterstützt in erster Linie bei der Erstellung von wissenschaftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
               -
                 type: heading
                 attrs:
@@ -2369,7 +2369,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Ein Studierender im Fach Internationale Betriebswirtschaftslehre benötigt eine umfangreiche Bachelorarbeit über ''Die Auswirkungen von Freihandelsabkommen auf internationale Handelsströme''. Ein erfahrener Ghostwriter im Bereich internationale BWL kann umfassende Forschung betreiben, relevante wirtschaftliche Theorien und reale Handelsbeispiele einbeziehen und dem Studierenden eine gut strukturierte Bachelorarbeit schreiben lassen.'
+                    text: 'Ein Studierender im Fach Internationale Betriebswirtschaftslehre benötigt eine umfangreiche Bachelorarbeit über "Die Auswirkungen von Freihandelsabkommen auf internationale Handelsströme". Ein erfahrener Ghostwriter im Bereich internationale BWL kann umfassende Forschung betreiben, relevante wirtschaftliche Theorien und reale Handelsbeispiele einbeziehen und dem Studierenden eine gut strukturierte Bachelorarbeit schreiben lassen.'
               -
                 type: heading
                 attrs:
