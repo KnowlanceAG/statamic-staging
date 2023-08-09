@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691530898
+updated_at: 1691564336
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2319,6 +2319,8 @@ replicator:
             id: WcOVwpix
             bard:
               -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2333,141 +2335,146 @@ replicator:
                     type: text
                     text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (IBWL) unterstützt in erster Linie bei der Erstellung von schriftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
               -
-                type: bullet_list
+                type: heading
+                attrs:
+                  level: 3
                 content:
                   -
-                    type: list_item
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Wissenschaftliche Arbeit (Hausarbeit, Bachelorarbeit oder Masterarbeit):'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Ein Studierender im Fach Internationale Betriebswirtschaftslehre benötigt eine umfangreiche Bachelorarbeit über ''Die Auswirkungen von Freihandelsabkommen auf internationale Handelsströme''. Ein erfahrener Ghostwriter im Bereich internationale BWL kann umfassende Forschung betreiben, relevante wirtschaftliche Theorien und reale Handelsbeispiele einbeziehen und dem Studierenden eine gut strukturierte Bachelorarbeit schreiben lassen.'
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wissenschaftliche Arbeit (Hausarbeit, Bachelorarbeit oder Masterarbeit)'
+              -
+                type: paragraph
+                content:
                   -
-                    type: list_item
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Businessplan für internationale Expansion:'
-                          -
-                            type: text
-                            text: 'Ein angehender Unternehmer, der Internationale Betriebswirtschaftslehre studiert, plant die Erweiterung seines Unternehmens auf internationale Märkte. Ein Ghostwriter kann eine gründliche Marktanalyse durchführen, die Wettbewerbssituation in verschiedenen Ländern untersuchen und den '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Businessplan erstellen'
-                          -
-                            type: text
-                            text: ', der potenzielle Investoren überzeugt.'
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ein Studierender im Fach Internationale Betriebswirtschaftslehre benötigt eine umfangreiche Bachelorarbeit über ''Die Auswirkungen von Freihandelsabkommen auf internationale Handelsströme''. Ein erfahrener Ghostwriter im Bereich internationale BWL kann umfassende Forschung betreiben, relevante wirtschaftliche Theorien und reale Handelsbeispiele einbeziehen und dem Studierenden eine gut strukturierte Bachelorarbeit schreiben lassen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
                   -
-                    type: list_item
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Übersetzung einer Forschungsarbeit:'
-                          -
-                            type: text
-                            text: 'Ein Studierender hat eine anspruchsvolle Bachelorarbeit über "Internationale Markenstrategien in aufstrebenden Märkten" geschrieben und möchte sie für eine Veröffentlichung in einer internationalen '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Fachzeitschrift übersetzen lassen'
-                          -
-                            type: text
-                            text: '. Ein qualifizierter Ghostwriter kann die Arbeit sorgfältig übersetzen und sicherstellen, dass die Fachterminologie korrekt verwendet wird.'
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Businessplan für internationale Expansion'
+              -
+                type: paragraph
+                content:
                   -
-                    type: list_item
-                    content:
+                    type: text
+                    text: 'Ein angehender Unternehmer, der Internationale Betriebswirtschaftslehre studiert, plant die Erweiterung seines Unternehmens auf internationale Märkte. Ein Ghostwriter kann eine gründliche Marktanalyse durchführen, die Wettbewerbssituation in verschiedenen Ländern untersuchen und den '
+                  -
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Präsentation für eine internationale Geschäftskonferenz:'
-                          -
-                            type: text
-                            text: 'Ein Studierender wird auf einer internationalen Geschäftskonferenz sprechen und benötigt eine aussagekräftige Präsentation über "Globale Trends im Supply Chain Management". Ein erfahrener Ghostwriter im Unternehmensbereich kann die '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Präsentation erstellen'
-                          -
-                            type: text
-                            text: ', relevante Statistiken und Grafiken einfügen und eine überzeugende Botschaft für das internationale Publikum vermitteln.'
+                        type: bold
+                    text: 'Businessplan erstellen'
+                  -
+                    type: text
+                    text: ', der potenzielle Investoren überzeugt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Übersetzung einer Forschungsarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Studierender hat eine anspruchsvolle Bachelorarbeit über "Internationale Markenstrategien in aufstrebenden Märkten" geschrieben und möchte sie für eine Veröffentlichung in einer internationalen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Fachzeitschrift übersetzen lassen'
+                  -
+                    type: text
+                    text: '. Ein qualifizierter Ghostwriter kann die Arbeit sorgfältig übersetzen und sicherstellen, dass die Fachterminologie korrekt verwendet wird.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Präsentation für eine internationale Geschäftskonferenz'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Studierender wird auf einer internationalen Geschäftskonferenz sprechen und benötigt eine aussagekräftige Präsentation über "Globale Trends im Supply Chain Management". Ein erfahrener Ghostwriter im Unternehmensbereich kann die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Präsentation erstellen'
+                  -
+                    type: text
+                    text: ', relevante Statistiken und Grafiken einfügen und eine überzeugende Botschaft für das internationale Publikum vermitteln.'
             show_as_card: false
           -
             id: ll2rk96s
@@ -2478,9 +2485,44 @@ replicator:
                   id: ll2rphnm
                   values:
                     type: spacer
-                    padding-y: 29
+                    padding-y: 36
               -
                 type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Verfassen eines akademischen Artikels'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Masterstudent im Bereich Internationale Betriebswirtschaftslehre möchte seine Forschungsergebnisse über "Internationale Finanzierung und Währungsrisiken" in einer angesehenen Fachzeitschrift veröffentlichen. Ein Ghostwriter kann bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Umwandlung der Forschungsergebnisse in einen akademischen Artikel'
+                  -
+                    type: text
+                    text: ' unterstützen, der den hohen Standards der Fachzeitschrift entspricht.'
               -
                 type: bullet_list
                 content:
@@ -2504,40 +2546,7 @@ replicator:
                                 attrs:
                                   color: '#000!important'
                                   hex: '#000'
-                            text: 'Verfassen eines akademischen Artikels:'
-                          -
-                            type: text
-                            text: 'Ein Masterstudent im Bereich Internationale Betriebswirtschaftslehre möchte seine Forschungsergebnisse über "Internationale Finanzierung und Währungsrisiken" in einer angesehenen Fachzeitschrift veröffentlichen. Ein Ghostwriter kann bei der '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Umwandlung der Forschungsergebnisse in einen akademischen Artikel'
-                          -
-                            type: text
-                            text: ' unterstützen, der den hohen Standards der Fachzeitschrift entspricht.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Seminararbeit über kulturelle Diversität:'
+                            text: 'Beispiel: Seminararbeit '
                           -
                             type: text
                             text: 'Ein Studierender soll eine Seminararbeit über "Die Bedeutung interkultureller Kommunikation für internationale Geschäftsbeziehungen" verfassen. Ein Ghostwriter in der internationalen Betriebswirtschaftslehre kann relevante Theorien zur interkulturellen Kommunikation finden, aktuelle Fallbeispiele einbringen und die Arbeit professionell strukturieren. Außerdem kann ein Student eine komplette Mustervorlage für seine '
@@ -2550,64 +2559,68 @@ replicator:
                           -
                             type: text
                             text: .
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
                   -
-                    type: list_item
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Marktanalyse für internationale Expansion:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Ein Unternehmen plant die Erschließung eines neuen internationalen Marktes und benötigt eine detaillierte Marktanalyse. Ein Ghostwriter mit Fachkenntnissen in Internationale Betriebswirtschaftslehre kann die politischen, wirtschaftlichen und kulturellen Aspekte des Ziellandes analysieren und die Ergebnisse in einem umfassenden Bericht zusammenfassen.'
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Marktanalyse für internationale Expansion'
+              -
+                type: paragraph
+                content:
                   -
-                    type: list_item
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Bewerbung für ein internationales Masterprogramm:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Ein Bachelorabsolvent, der sich für ein Masterstudium in Internationale Betriebswirtschaftslehre bewirbt, benötigt eine überzeugende Bewerbung. Ein erfahrener Ghostwriter kann die Bewerbung verfassen, die die Motivation, akademischen Hintergrund und zukünftige Karriereziele überzeugend darstellt.'
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Ein Unternehmen plant die Erschließung eines neuen internationalen Marktes und benötigt eine detaillierte Marktanalyse. Ein Ghostwriter mit Fachkenntnissen in Internationale Betriebswirtschaftslehre kann die politischen, wirtschaftlichen und kulturellen Aspekte des Ziellandes analysieren und die Ergebnisse in einem umfassenden Bericht zusammenfassen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Bewerbung für ein internationales Masterprogramm'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Ein Bachelorabsolvent, der sich für ein Masterstudium in Internationale Betriebswirtschaftslehre bewirbt, benötigt eine überzeugende Bewerbung. Ein erfahrener Ghostwriter kann die Bewerbung verfassen, die die Motivation, akademischen Hintergrund und zukünftige Karriereziele überzeugend darstellt.'
             show_as_card: false
         type: row
         enabled: true
@@ -2638,9 +2651,7 @@ replicator:
                     type: text
                     text: 'Leistungen: Internationale Betriebswirtschaftslehre'
               -
-                type: ordered_list
-                attrs:
-                  order: 1
+                type: bullet_list
                 content:
                   -
                     type: list_item
@@ -2654,24 +2665,17 @@ replicator:
                               -
                                 type: bold
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Gruppenarbeiten:'
-                          -
-                            type: text
-                            text: 'Für das Thema "Internationale Lieferketten und Logistik" könnte eine Gruppenarbeit verlangt werden, bei der Sie und Ihre Teammitglieder eine Fallstudie eines Unternehmens analysieren, das globale Lieferketten betreibt. Sie könnten '
+                                type: underline
+                            text: Gruppenarbeiten
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                            text: 'Empfehlungen zur Optimierung der Lieferkette unter Berücksichtigung von Logistik, Transport und Risikomanagement erarbeiten.'
+                            text: ':'
+                          -
+                            type: text
+                            text: ' Für das Thema "Internationale Lieferketten und Logistik" könnte eine Gruppenarbeit verlangt werden, bei der Sie und Ihre Teammitglieder eine Fallstudie eines Unternehmens analysieren, das globale Lieferketten betreibt. Sie könnten Empfehlungen zur Optimierung der Lieferkette unter Berücksichtigung von Logistik, Transport und Risikomanagement erarbeiten.'
                   -
                     type: list_item
                     content:
@@ -2684,27 +2688,17 @@ replicator:
                               -
                                 type: bold
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Individuelle Aufgaben:'
-                          -
-                            type: text
-                            text: 'Im Rahmen des Themas "Internationales Finanzmanagement" könnten Sie gebeten werden, '
+                                type: underline
+                            text: 'Individuelle Aufgaben'
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                            text: 'einen individuellen Aufsatz über die Auswirkungen von Währungsschwankungen auf die Finanzstrategien multinationaler Unternehmen zu verfassen'
+                            text: ':'
                           -
                             type: text
-                            text: .
+                            text: ' Im Rahmen des Themas "Internationales Finanzmanagement" könnten Sie gebeten werden, einen individuellen Aufsatz über die Auswirkungen von Währungsschwankungen auf die Finanzstrategien multinationaler Unternehmen zu verfassen.'
                   -
                     type: list_item
                     content:
@@ -2717,53 +2711,17 @@ replicator:
                               -
                                 type: bold
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Präsentationen:'
-                          -
-                            type: text
-                            text: 'Im "Interkulturelle Kommunikation"-Teil könnten Sie aufgefordert werden, eine Präsentation darüber zu halten, '
+                                type: underline
+                            text: Präsentationen
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                            text: 'wie sich kulturelle Unterschiede auf die Geschäftskommunikation in internationalen Teams auswirken können'
+                            text: ': '
                           -
                             type: text
-                            text: ' und wie effektive Lösungsansätze aussehen könnten.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Mündliche Prüfungen:'
-                          -
-                            type: hard_break
-                          -
-                            type: text
-                            text: 'Als Teil einer mündlichen Prüfung im Bereich "Internationale Geschäftsstrategien" könnten Sie aufgefordert werden, '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'eine reale Situation zu analysieren, in der ein Unternehmen verschiedene Markteintrittsstrategien in einem internationalen Kontext in Erwägung ziehen muss'
-                          -
-                            type: text
-                            text: .
+                            text: 'Im "Interkulturelle Kommunikation"-Teil könnten Sie aufgefordert werden, eine Präsentation darüber zu halten, wie sich kulturelle Unterschiede auf die Geschäftskommunikation in internationalen Teams auswirken können und wie effektive Lösungsansätze aussehen könnten.'
                   -
                     type: list_item
                     content:
@@ -2776,27 +2734,28 @@ replicator:
                               -
                                 type: bold
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Abschlussarbeit oder -prüfung:'
+                                type: underline
+                            text: 'Mündliche Prüfungen'
                           -
                             type: text
-                            text: 'Als Abschlussprojekt könnten Sie aufgefordert werden, eine '
+                            text: ': Als Teil einer mündlichen Prüfung im Bereich "Internationale Geschäftsstrategien" könnten Sie aufgefordert werden, eine reale Situation zu analysieren, in der ein Unternehmen verschiedene Markteintrittsstrategien in einem internationalen Kontext in Erwägung ziehen muss.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                            text: 'umfassende Analyse eines multinationalen Unternehmens'
+                              -
+                                type: underline
+                            text: 'Abschlussarbeit oder -prüfung'
                           -
                             type: text
-                            text: ' durchzuführen. Dies könnte eine schriftliche Arbeit sein, in der Sie die behandelten Inhalte auf reale Geschäftssituationen anwenden.'
+                            text: ': Als Abschlussprojekt könnten Sie aufgefordert werden, eine umfassende Analyse eines multinationalen Unternehmens durchzuführen. Dies könnte eine schriftliche Arbeit sein, in der Sie die behandelten Inhalte auf reale Geschäftssituationen anwenden.'
               -
                 type: heading
                 attrs:
