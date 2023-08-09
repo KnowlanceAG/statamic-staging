@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691564572
+updated_at: 1691568870
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2151,7 +2151,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>Beispiel:</b><br><br>Internationale Geschäftsstrategie
+                        <b>Beispiel:</b><br><br>
                       Ein Unternehmen, das Elektronikprodukte herstellt, möchte seine Produkte auf internationalen Märkten einführen. Die internationale Geschäftsstrategie umfasst die Entscheidung, welche Länder für den Markteintritt ausgewählt werden sollen, wie die Produkte an die Bedürfnisse und kulturellen Vorlieben der jeweiligen Länder angepasst werden und welche Vertriebskanäle am effektivsten sind.</div>
               -
                 type: heading
