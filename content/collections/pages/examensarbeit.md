@@ -1690,18 +1690,6 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://li.hamburg.de/ausgewaehlte-examensarbeiten/'
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Ausgewählte Examensarbeiten - LI Hamburg'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
                           href: 'https://de.wikipedia.org/wiki/Examensarbeit'
                           target: _blank
                           rel: 'noopener noreferrer'
@@ -1733,7 +1721,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691678479
+updated_at: 1691678793
 meta_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
