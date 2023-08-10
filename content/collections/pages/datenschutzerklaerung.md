@@ -3,7 +3,7 @@ id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
 blueprint: pages
 title: Datenschutzerklärung
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690552482
+updated_at: 1691677101
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -2115,21 +2115,12 @@ replicator:
             type: text
             marks:
               -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-              -
                 type: link
                 attrs:
-                  href: 'https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&status=Active'
+                  href: 'https://www.privacyshield.gov/ps/participant?id=a2zt0000000GnywAAC&status=Active'
                   target: null
                   rel: null
-            text: 'https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&status=Active'
+            text: 'https://www.privacyshield.gov/ps/participant?id=a2zt0000000GnywAAC&status=Active'
       -
         type: heading
         attrs:
