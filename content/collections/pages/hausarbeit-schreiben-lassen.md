@@ -2142,6 +2142,249 @@ replicator:
                   -
                     type: text
                     text: .
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Hausarbeit schreiben lassen: in Zeiten von ChatGPT & anderer KI'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Während KI-Modelle in vielen Bereichen nützlich sind, sollten sie in der wissenschaftlichen Forschung mit Vorsicht eingesetzt werden, denn diese kann das tiefe Verständnis, die kritische Denkfähigkeit, die Flexibilität und die Kreativität, die ein akademischer Ghostwriter in den wissenschaftlichen Prozess einbringt, nicht ersetzen. Darüber hinaus machen auch technische Unzulänglichkeiten und rechtliche Bedenken es riskant, KI für das Verfassen von Hausarbeiten zu verwenden:'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Mangelnde Originalität:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Ein primäres Ziel wissenschaftlicher Arbeiten ist es, originelle und neue Erkenntnisse zu präsentieren. AI-Modelle wie ChatGPT-4 basieren auf bereits existierenden Daten und erstellen Inhalte durch das Nachahmen dieser Daten. Daher ist es unwahrscheinlich, dass eine AI wirklich innovative oder bahnbrechende Erkenntnisse in einer wissenschaftlichen Arbeit präsentieren kann. Im Gegensatz dazu'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(209, 213, 219)'
+                                  hex: '#000'
+                            text: 'ist die Fähigkeit zur Kreativität und Innovation e'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'ines der Markenzeichen menschlicher Intelligenz'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(209, 213, 219)'
+                                  hex: '#000'
+                            text: '. Menschliche Forscher können revolutionäre Ideen entwickeln, die das Paradigma ihres Fachgebiets verändern.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Interpretationsfehler:'
+                          -
+                            type: text
+                            text: 'KI-Modelle haben keine echte Intuition oder Verständnis für komplexe wissenschaftliche Konzepte. Sie können Informationen wiedergeben, die ihnen beigebracht wurden, aber sie können leicht missverstanden werden oder Zusammenhänge falsch interpretieren, was zu fehlerhaften Schlussfolgerungen führen kann. Ein akademischer Ghostwriter besitzt nicht nur das Wissen, das er aus der Literatur und im Rahmen seines akademischen Werdegangs erlernt hat, sondern auch ein tiefes, intuitives Verständnis für sein Fachgebiet. Dies ermöglicht es ihm, Informationen im Kontext zu sehen, Verbindungen zwischen verschiedenen Konzepten herzustellen und tiefer gehende Fragen zu stellen und zu beantworten. Menschliche Autoren können auch den emotionalen und kulturellen Kontext von Informationen erfassen. Dies ist besonders wichtig in Fachgebieten wie den '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/sozialwissenschaften
+                                  target: _blank
+                                  rel: null
+                            text: Sozialwissenschaften
+                          -
+                            type: text
+                            text: ', in denen menschliches Verhalten und Kultur im Mittelpunkt stehen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Selbstüberschätzung von KI:'
+                          -
+                            type: hard_break
+                          -
+                            type: text
+                            text: 'Eine KI ist auf die ihr vorliegenden Information sowie deren Rekombinationen begrenzt und sieht diese als in Stein gemeißelte Fakten an. Ebenso überzeugt ist sie von den eigenen Argumenten und den daraus gezogenen Schlüssen. Dies untermauert den wissenschaftlichen Prozess, in dem alle Argumente, Daten und Ergebnisse kritisch hinterfragt werden müssen. Auch mangelt es AI an der speziellen wissenschaftliche Schreibweise, die Raum für alternative Erklärungen und Theorien lässt und gleichzeitig speziellen Regeln des logischen Argumentationsaufbaus folgt. Akademische Ghostwriter beherrschen die kritische Bewertung von Informationen, Daten und Theorien. Ein erfahrener Akademiker kann Informationen hinterfragen, Alternativtheorien in Erwägung ziehen und seine eigenen Vorannahmen überprüfen. Während des Forschungsprozesses können zudem auch unerwartete Ergebnisse oder Probleme auftreten. Ein menschlicher Forscher kann flexibel reagieren, seine Herangehensweise ändern oder neue Methoden entwickeln, um diese Herausforderungen zu bewältigen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Umgang mit Quellen & Urheberrecht:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(209, 213, 219)'
+                                  hex: '#000'
+                            text: 'Obwohl KI generierte Inhalte nicht unbedingt als originelle Werke angesehen werden, können sie dennoch aus urheberrechtlich geschützten Quellen stammen. Das Verwenden von KI-generierten Inhalten ohne die entsprechenden Zitate oder Referenzen könnte daher zu Urheberrechtsverletzungen führen, wenn die KI ohne das Wissen des Nutzer geschützte Textpassagen übernimmt. Eine Plagiatsprüfung durch die Universität kann daher bei der Prüfung von AI Texten verheerende Folgen haben. Ein Ghostwriter verfasst hingegen für Sie ein individuelles Unikat, dass garantiert auf Plagiate geprüft würde und hinsichtlich der Zitation alle akademischen Standards erfüllt.'
+                          -
+                            type: hard_break
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(209, 213, 219)'
+                                  hex: '#000'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(209, 213, 219)'
+                                  hex: '#000'
+                            text: 'Eine weitere Problematik ergibt sich auch daraus, dass verschiedene KI-Textmodule in der Vergangenheit die Tendenz dazu gezeigt zu haben, Quellen und Studien zu erfinden, um die eigenen Aussagen zu belegen oder Argumente zu untermauern.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'KI im Fokus von Universitäten'
+                          -
+                            type: hard_break
+                            marks:
+                              -
+                                type: bold
+                          -
+                            type: text
+                            text: 'Aufgrund des aktuellen Hypes um KI wird dessen Einsatz im akademischen Kontext intensiv diskutiert. Daher kann es unter Umständen schon bald dazu kommen, das Unternehmen verpflichtet werden, die Verwendung von KI nachweisbar zu machen. Dies könnte bspw. durch das Erstellen einer Datenbank mit allen erzeugten Texten oder durch die Integration bestimmter Textmuster erreicht werden. Wie leicht es ist, einen KI Text nachzuweisen, sehen Sie ach an unserem '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /ai-detector
+                                  target: _blank
+                                  rel: null
+                            text: 'AI Detector'
+                          -
+                            type: text
+                            text: ' - testen Sie diesen gleich kostenlos!'
             show_as_card: false
         type: row
         enabled: true
@@ -2239,7 +2482,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '90,- € pro Normseite.'
+                    text: '100,- € pro Normseite.'
               -
                 type: set
                 attrs:
@@ -2790,8 +3033,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691535817
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1691624448
 template: default
 use_meta_keywords: false
 no_index_page: false

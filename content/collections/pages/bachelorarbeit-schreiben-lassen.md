@@ -2034,7 +2034,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '80,- € pro Normseite.'
+                    text: '100,- € pro Normseite.'
               -
                 type: set
                 attrs:
@@ -2381,6 +2381,240 @@ replicator:
           -
             id: 1nqorlsk
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Bachelorarbeit schreiben lassen - in Zeiten von ChatGPT & KI'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'In der wissenschaftlichen Gemeinschaft sollte der Einsatz von KI-Technologien sorgfältig überdacht werden. Während KIs in diversen Sektoren hilfreich sein können, sind sie dennoch nicht in der Lage, die Tiefgründigkeit, Kreativität und das kritische Denkvermögen, das ein akademischer Ghostwriter in den Forschungsprozess einbringt, vollständig nachzuahmen. Bei der Erstellung von Bachelorarbeiten kann der Gebrauch von KI aufgrund diverser technischer und juristischer Herausforderungen bedenklich sein.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Rechtliche Hürden und Quellenmanagement:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Inhalte, generiert von KI-Systemen, könnten problematisch sein, da sie eventuell urheberrechtlich geschützte Inhalte ohne angemessene Zitierung integrieren könnten. Hierdurch könnten rechtliche Schwierigkeiten entstehen. Ein akademischer Ghostwriter achtet jedoch darauf, dass alle Zitate korrekt und im Einklang mit akademischen Standards sind. Zudem hat sich gezeigt, dass KIs manchmal dazu neigen, nicht existierende Quellen zu nutzen, um ihre Behauptungen zu untermauern.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Begrenztes KI-Verständnis:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Trotz ihrer beeindruckenden Datenverarbeitungsfähigkeiten können KIs dennoch komplexe wissenschaftliche Ideen missverstehen oder aus dem Kontext reißen. Ein akademischer Ghostwriter, mit seinem tiefgreifenden Wissen und Verständnis, kann hingegen auch in Disziplinen, die auf menschlichen Erfahrungen basieren, wie beispielsweise den '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/kommunikationswissenschaften
+                                  target: _blank
+                                  rel: null
+                            text: Kommunikationswissenschaften
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ', authentisch und akkurat arbeiten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Originalität und KI:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Wissenschaftliche Beiträge sollen stets Neues und Originelles bieten. Aber KIs, da sie auf bestehenden Datenstrukturen operieren, könnten Schwierigkeiten haben, wirklich neuartige Perspektiven in wissenschaftlichen Arbeiten zu eröffnen. Menschen hingegen sind dafür bekannt, Pionierarbeit in ihren jeweiligen Fachgebieten zu leisten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Die Grenzen der KI-Kapazität:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'KIs sind oft in ihrer eigenen Datenwelt gefangen und nehmen diese als absolute Wahrheiten wahr. Ihre Fähigkeit zur kritischen Analyse ist begrenzt. Im Kontrast dazu verfügen akademische Ghostwriter über die Fähigkeiten, Daten zu hinterfragen, alternative Theorien zu berücksichtigen und bestehende Annahmen zu überprüfen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Die wachsende KI-Aufmerksamkeit in Hochschuleinrichtungen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Da KI immer mehr in den Mittelpunkt rückt, werden Diskussionen über ihre Nutzung im akademischen Bereich immer häufiger. Bald könnten Institutionen verpflichtet werden, den Gebrauch von KI transparenter zu gestalten, beispielsweise durch die Schaffung von Datenbanken für KI-erstellte Texte oder die Implementierung bestimmter Textmuster. Wie verlässlich AI Texte jetzt schon erkannt werden, zeigt unser '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: link
+                                attrs:
+                                  href: /ai-detector
+                                  target: _blank
+                                  rel: null
+                            text: 'KI Detektor auf deutsch'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ', den Sie jetzt kostenlos ausprobieren können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Die Anwendung von KI mag in einigen Bereichen vorteilhaft sein, doch wenn es um das Verfassen von Bachelorarbeiten geht, sollte die menschliche Expertise nicht unterschätzt werden.'
               -
                 type: set
                 attrs:
@@ -2834,7 +3068,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Unsere Preise für Ihre Bachelorarbeit in Jura, BWL und anderen Fachbereichen beginnen ab 80,- € pro Normseite. Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis gelten nicht als Normseite und  sind gratis inkludiert.'
+                                text: 'Unsere Preise für Ihre Bachelorarbeit in Jura, BWL und anderen Fachbereichen beginnen ab 100,- € pro Normseite. Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis gelten nicht als Normseite und  sind gratis inkludiert.'
                         active: false
                       -
                         id: liaqbnp0
@@ -3268,7 +3502,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691341073
+updated_at: 1691625228
 template: default
 use_meta_keywords: false
 no_index_page: false
