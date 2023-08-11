@@ -1475,6 +1475,13 @@ replicator:
                             headline: 'Habe ich direkten Kontakt zu meinem Ghostwriter oder Bearbeiter?'
                             accordion_content:
                               -
+                                type: set
+                                attrs:
+                                  id: ll6s5kx0
+                                  values:
+                                    type: anchor_target
+                                    anchor_name: kontakt
+                              -
                                 type: paragraph
                                 content:
                                   -
@@ -2886,7 +2893,7 @@ replicator:
     type: add_section
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691769750
+updated_at: 1691769973
 template: default
 use_meta_keywords: false
 no_index_page: false
