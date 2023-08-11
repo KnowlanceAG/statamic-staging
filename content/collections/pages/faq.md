@@ -1833,6 +1833,13 @@ replicator:
                             headline: 'Wie werden wissenschaftliche Arbeiten bei GWriters üblicherweise formatiert?'
                             accordion_content:
                               -
+                                type: set
+                                attrs:
+                                  id: ll6qtnkf
+                                  values:
+                                    type: anchor_target
+                                    anchor_name: formatvorgaben
+                              -
                                 type: paragraph
                                 content:
                                   -
@@ -2870,7 +2877,7 @@ replicator:
     type: add_section
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691767547
+updated_at: 1691767737
 template: default
 use_meta_keywords: false
 no_index_page: false
