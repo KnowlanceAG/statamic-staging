@@ -81,7 +81,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_bieten wir aktuell Autoren- bzw.\_Ghostwriter-Jobs in vielen Fachbereiche. Besonders gesucht werden akademische "
+                    text: "\_bieten wir aktuell Autoren- bzw.\_Ghostwriter-Jobs in vielen Fachbereichen an. Besonders gesucht werden akademische "
                   -
                     type: text
                     marks:
@@ -105,7 +105,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', die ihr Schreibtalent bereits mehrfach in der wissenschaftlichen Praxis unter Beweis gestellt haben.'
+                    text: ', die ihr Schreibtalent bereits mehrfach als Freelancer für eine Ghostwriter Agentur in der wissenschaftlichen Praxis unter Beweis gestellt haben.'
               -
                 type: paragraph
                 content:
@@ -117,7 +117,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Auch für Studierende bietet sich nach dem Studium eine Tätigkeit als wissenschaftlicher Freelancer an. Aufgrund der Erfahrungen im Studium können Absolventen mit ihrem aktuellen Forschungswissen schnell und qualitätsvoll Manuskripte für wissenschaftliche Arbeiten schreiben. Dabei hilft ihnen die praktische Übung durch Ihre eigenen Prüfungsleistungen wie '
+                    text: 'Auch für Studierende bietet sich nach dem Studium eine Tätigkeit als wissenschaftlicher Freelancer bzw. Ghostwriter an. Aufgrund der Erfahrungen im Studium können Absolventen mit ihrem aktuellen Forschungswissen schnell und qualitätsvoll eine Literaturrecherche vornehmen, das Lektorat an einer Projektarbeit vornehmen oder Texte und Manuskripte für wissenschaftliche Arbeiten schreiben. Dabei hilft ihnen die praktische Übung durch Ihre eigenen Prüfungsleistungen wie '
                   -
                     type: text
                     marks:
@@ -165,7 +165,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' sowie Abschlussarbeiten ('
+                    text: ', Projektarbeiten sowie Abschlussarbeiten ('
                   -
                     type: text
                     marks:
@@ -238,6 +238,12 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: ', Dissertation).'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Einfache Aufgaben und Texte, wie das Verfassen von Blogartikeln oder anderen Texte als Ghostwriter ohne akademischen Anspruch können Studierende als Freelance bereits während des Studiums übernehmen.'
             show_as_card: false
           -
             id: qhvDud0w
@@ -253,7 +259,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Wir, das Team von GWriters, suchen nach neuen, freiberuflich tätigen Ghostwritern zur Erweiterung unseres Autoren-Pools. Bei uns sind Ghostwriter oder Ghostwriterin sämtlicher akademischer Fachrichtungen gesucht.'
+                    text: 'Wir, das Team von GWriters, suchen nach neuen, freiberuflich tätigen Ghostwritern zur Erweiterung des Autoren-Pools unserer Agentur. Bei uns sind Ghostwriter oder Ghostwriterinnen sämtlicher akademischer Fachrichtungen gesucht.'
               -
                 type: paragraph
                 content:
@@ -313,7 +319,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' finden bei uns Einsatz. Wir bieten Ihnen eine attraktive Nebenverdienstmöglichkeit bei absoluter Flexibilität. Ghostwriter sowie Texter & Texterinnen aller Art, Lektoren und Korrektoren werden bei uns jederzeit gesucht!'
+                    text: ' finden neben Ghostwritern bei uns Einsatz. Wir bieten Ihnen eine attraktive Nebenverdienstmöglichkeit bei absoluter Flexibilität. Ghostwriter sowie Texter & Texterinnen aller Art, Lektoren und Korrektoren werden bei uns jederzeit gesucht!'
             show_as_card: false
         type: row
         enabled: true
@@ -367,7 +373,7 @@ replicator:
         content:
           -
             type: text
-            text: "Bewerben Sie sich auf unserer Internetpräsenz unter der Rubrik\_"
+            text: 'Bewerben Sie sich auf unserer Internetpräsenz unter '
           -
             type: text
             marks:
@@ -382,7 +388,7 @@ replicator:
                   href: /jobs
                   target: null
                   rel: null
-            text: www.gwriters.de/jobs
+            text: gwriters.de/jobs
           -
             type: text
             marks:
@@ -391,7 +397,7 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: "\_bei uns. Im Falle einer positiven Zusage nach Prüfung Ihrer Bewerbungsunterlagen unsererseits werden Sie regelmäßig über interessante Anfragen Ihrer Fachrichtung auf dem Laufenden gehalten. Hieraus wählen Sie als Auftragsschreiber selbst nach Ihrem Interessensgebiet und persönlichem zeitlichen Freiraum aus."
+            text: "\_bei uns. Im Falle einer positiven Zusage nach Prüfung Ihrer Bewerbungsunterlagen unsererseits werden Sie regelmäßig über interessante Anfragen in Ihrem Fachbereich auf dem Laufenden gehalten und mit neuen Aufgaben versorgt. Hieraus wählen Sie als Auftragsschreiber selbst nach Ihrem Interessensgebiet und persönlichem zeitlichen Freiraum aus."
       -
         type: paragraph
         content:
@@ -427,7 +433,7 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: "\_z.B. von Studierenden übernehmen möchten."
+            text: "\_z.B. von Studierenden übernehmen möchten. Als Ghostwriter genießen Sie absolut Anonymität und entscheiden selbst, ob Sie nur das Schreiben von Texten oder auch kleiner Aufträge wie Lektorate oder eine simple Literaturrecherche übernehmen."
       -
         type: heading
         attrs:
@@ -448,7 +454,7 @@ replicator:
               ### Bewerbungsphase:
               - Anschreiben, Lebenslauf & Diplome
               - Publikationen & Forschung
-              - Schreibproben
+              - Texte als Schreibproben
               - Erfahrungen mit Ghostwriting
             ausrichtung: text_bild
       -
@@ -471,7 +477,7 @@ replicator:
               - Verschwiegenheitserklärungen & Vorträge
               - ”Dummy Aufträge”
               - permanente Qualitätsprüfungen bei allen Aufträgen
-              - Internes Ranking
+              - Internes Ranking der Ghostwriter
             ausrichtung: text_bild
       -
         type: set
@@ -490,6 +496,7 @@ replicator:
               - seiten/ghostwriter-gesucht/vergabe-projekt.png
             text: |-
               ### Vergabe von Projekten:
+              - geforderter Preis
               - Auswahl nach Qualifikationen
               - Individuelle Themenschwerpunkte
               - Sprach- & Softwarekenntnisse
@@ -523,7 +530,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Als Auftragsschreiber haben Sie keinerlei Verpflichtungen bezüglich Auftragsvolumen oder angenommener Aufträge im Monat. Sie sind bei unserem Schreibservice also weiterhin absolut flexibel. Aufgrund der verschiedensten Projektanfragen bei uns, sind Ghostwriter aller Fachrichtungen gesucht.'
+                    text: 'Als Auftragsschreiber haben Sie keinerlei Verpflichtungen bezüglich Auftragsvolumen oder angenommener Aufträge im Monat. Sie sind bei unserem Schreibservice also weiterhin absolut flexibel. Aufgrund der verschiedensten Projektanfragen bei uns, sind Ghostwriter aller Fachrichtungen gesucht. Auch Unterstützung für die Literaturrecherche und die Durchführung von Lektoraten wird in unserer Agentur benötigt.'
               -
                 type: set
                 attrs:
@@ -572,7 +579,7 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Als Schreibexperte müssen wir uns auf Sie verlassen können, wir erwarten hundertprozentige Termintreue bei angenommenen Aufträgen, dafür bieten wir Ihnen eine äußerst attraktive Nebenverdienstmöglichkeit bei persönlicher Zeiteinteilung. Unsere Aufträge lassen sich bequem von zu Hause erarbeiten.'
+            text: 'Als Schreibexperte in unserer Ghostwriter Agentur müssen wir uns auf Sie verlassen können, wir erwarten hundertprozentige Termintreue bei angenommenen Aufträgen, dafür bieten wir Ihnen eine äußerst attraktive Nebenverdienstmöglichkeit bei persönlicher Zeiteinteilung. Unsere Aufträge lassen sich bequem von zu Hause erarbeiten.'
       -
         type: paragraph
         content:
@@ -584,7 +591,7 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Wir erwarten von Ihnen Erfahrung im wissenschaftlichen Arbeiten und bei der Erstellung von Mustervorlagen für akademische Arbeiten, wie beispielsweise für eine Seminararbeit, Bachelorarbeit oder Masterarbeit. Viele Studierende oder Kunden möchten ihre Arbeit '
+            text: 'Wir erwarten von Ihnen Erfahrung im wissenschaftlichen Arbeiten und bei der Erstellung von Texten und Mustervorlagen für akademische Arbeiten, wie beispielsweise für eine Projektarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit. Viele Studierende oder Kunden möchten ihre Arbeit '
           -
             type: text
             marks:
@@ -608,7 +615,7 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: '. Auch hier werden akademischen Mitarbeiter s wie Ghostwriter gesucht.'
+            text: '. Auch hier werden akademische Mitarbeiter wie Ghostwriter gesucht.'
       -
         type: paragraph
         content:
@@ -620,7 +627,7 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Bei der Bearbeitung von Aufträgen stehen Sie durchweg in Kontakt mit einem Mitarbeiter, der eventuelle Fragen gerne beantwortet. Auch Rückfragen bezüglich des Auftrages klärt der Mitarbeiter gerne kurzfristig für Sie. Durch unsere reichhaltige Erfahrung bei der Vermittlung akademischer Dienstleistungen sind wir jederzeit in der Lage, Ihre Fragen gezielt zu beantworten.'
+            text: 'Bei der Bearbeitung von Aufträgen stehen Sie als Ghostwriter durchweg in Kontakt mit einem Mitarbeiter unserer Agentur, der eventuelle Fragen gerne beantwortet. Auch Rückfragen bezüglich des Auftrages klärt der Mitarbeiter gerne kurzfristig für Sie. Durch unsere reichhaltige Erfahrung bei der Vermittlung akademischer Text-Dienstleistungen sind wir jederzeit in der Lage, Ihre Fragen gezielt zu beantworten.'
       -
         type: heading
         attrs:
@@ -660,7 +667,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/anfrage-1.png
-                    text: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
+                    text: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen an die Projektarbeit. Die Anforderungen an die Arbeit entscheiden über den Preis und in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
                     ausrichtung: text_bild
               -
                 type: set
@@ -728,7 +735,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/lieferung-der-arbeit-1.png
-                    text: '<p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert.<p>'
+                    text: '<p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert. Diese Qualitätssicherung ist Standard bei GWriters und für alle Kunden im Preis inbegriffen, sie entbindet Ghostwriter aber nicht von der Pflicht, sorgfältig zu arbeiten.<p>'
                     ausrichtung: text_bild
               -
                 type: set
@@ -748,7 +755,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Außerdem stellt unser Unternehmen den Schreibprofis auch eine Reihe professioneller Programme kostenlos zur Verfügung. Bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares (Plagiatsprüfung), automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, oder '
+                    text: 'Außerdem stellt unser Unternehmen seinen Schreibprofis auch eine Reihe professioneller Programme kostenlos zur Verfügung. Bspw. erhalten unsere Ghostwrit den Zugriff auf relevanten Datenbanken, Plagiatssoftware (Plagiatsprüfung), automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, R oder '
                   -
                     type: text
                     marks:
@@ -882,7 +889,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1674668392
+updated_at: 1691767191
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
