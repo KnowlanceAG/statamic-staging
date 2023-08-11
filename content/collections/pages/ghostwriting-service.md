@@ -391,7 +391,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /faq/ablauf-ghostwriting
+                  href: '/faq/#ablauf'
                   target: null
                   rel: null
             text: hier
@@ -449,8 +449,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860337
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1691771615
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -458,7 +458,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-teaser_bg: seiten/header-so-funktionierts.jpeg
 meta_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
 meta_description: 'Ghostwriting Service & Ghostwriter Service als Dienstleistung von seriöser und diskreter Ghostwriting Agentur mit über 3.000 Autoren 📃✍🏼🎓'
 og_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
