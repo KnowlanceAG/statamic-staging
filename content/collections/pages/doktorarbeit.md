@@ -745,7 +745,7 @@ replicator:
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-18:00'
+                    open: 'Mo.-Fr. 9:00-20:00'
             show_as_card: true
           -
             id: fyCy90dv
@@ -768,7 +768,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '80,- € pro Normseite.'
+                    text: '100,- € pro Normseite.'
               -
                 type: set
                 attrs:
@@ -2974,6 +2974,218 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Doktorarbeit schreiben lassen - Promovieren mit ChatGPT?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Während KI-Technologien in diversen Bereichen erfolgreich eingesetzt werden können, müssen wir bei der wissenschaftlichen Arbeit besondere Sorgfalt walten lassen. KI-Systeme können den Nuancenreichtum, das innovative Denken und die kritische Analyse, die ein akademischer Ghostwriter bei der Forschung beisteuert, nicht in Gänze widerspiegeln. Speziell bei der Anfertigung von Doktorarbeiten könnten KIs aufgrund unterschiedlicher technischer und rechtlicher Unsicherheiten problematisch sein.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Umgang mit Urheberrecht & Quellennutzung:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Die von KI erzeugten Inhalte können potenziell in Konflikt mit urheberrechtlich geschützten Materialien geraten, vor allem, wenn sie nicht korrekt zitiert werden. Dies birgt juristische Risiken. Dagegen achtet ein akademischer Ghostwriter peinlich genau darauf, dass alle Referenzen ordnungsgemäß und nach den akademischen Vorgaben zitiert werden. Außerdem haben KI-Modelle in der Vergangenheit gezeigt, dass sie gelegentlich fiktive Quellen nutzen, um ihre Darstellungen zu stärken.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Limitationen im Verständnis von KI:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Auch wenn KIs eine beeindruckende Datenmenge verarbeiten können, mangelt es ihnen oft an einem echten Verständnis für tiefgreifende wissenschaftliche Konzepte. Ein akademischer Ghostwriter hingegen bringt, dank seiner fundierten Ausbildung und Erfahrung, eine authentische Perspektive in Bereiche, in denen menschliche Interaktion und Kultur im Fokus stehen, wie beispielsweise in den Politikwissenschaften.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'KI und der Originalitätsfaktor:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Forschungsarbeiten, insbesondere Doktorarbeiten, haben die Anforderung, neuartige Erkenntnisse zu liefern. KIs, die größtenteils auf bestehenden Daten basieren, könnten es schwer finden, wirkliche Neuerungen in der Forschung hervorzubringen. Menschen hingegen ist es möglich, bahnbrechende Entdeckungen in ihren jeweiligen Fachbereichen zu machen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Das Dilemma der Selbstsicherheit von KI:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'KIs operieren oft innerhalb der Grenzen ihrer eigenen Datenbanken und können diese als unfehlbar ansehen. Ihr kritisches Denkvermögen ist beschränkt. Im Gegensatz dazu haben akademische Ghostwriter die Fähigkeit, Hypothesen und Daten kritisch zu prüfen, alternative Ansichten zu bewerten und ständig ihre eigenen Überzeugungen zu hinterfragen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Die intensive Auseinandersetzung mit KI in akademischen Kreisen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Angesichts der steigenden Popularität von KI werden ihre Anwendungen im Hochschulkontext verstärkt hinterfragt. Es könnte bald notwendig werden, den Einsatz von KI in der Wissenschaft transparenter zu gestalten, möglicherweise durch die Einführung von Datenbanken für KI-verfasste Texte. Wie einfach der Einsatz von AI jetzt schon nachgewiesen werden kann, zeigt ihr unser '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: link
+                                attrs:
+                                  href: /ai-detector
+                                  target: _blank
+                                  rel: null
+                            text: 'KI Detektor'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ', den Sie jetzt kostenlos ausprobieren können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Obwohl KI in einigen Szenarien zweifellos von Nutzen sein kann, sollte beim Verfassen von Doktorarbeiten die menschliche Expertise im Vordergrund stehen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     marks:
                       -
                         type: textColor
@@ -3719,8 +3931,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691531961
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1691712201
 template: default
 use_meta_keywords: false
 no_index_page: false
