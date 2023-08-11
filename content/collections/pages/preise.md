@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691417019
+updated_at: 1691757455
 replicator:
   -
     id: VvunKODE
@@ -136,7 +136,7 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
-                    text: ', das '
+                    text: ' inkl. Plagiatsbericht, das '
                   -
                     type: text
                     marks:
@@ -162,7 +162,7 @@ replicator:
                     text: Lektorat
                   -
                     type: text
-                    text: ' durch einen Supervisor, '
+                    text: ' durch einen Supervisor, die '
                   -
                     type: text
                     marks:
@@ -175,7 +175,7 @@ replicator:
                     text: Formatierung
                   -
                     type: text
-                    text: ', Quellerecherche, alle Verzeichnisse, Deckblatt etc. '
+                    text: ', due Quellerecherche, alle Verzeichnisse, das Deckblatt und die Teillieferungen '
                   -
                     type: text
                     marks:
@@ -199,7 +199,7 @@ replicator:
                     text: 'sicher und diskret'
                   -
                     type: text
-                    text: ' mit Google Pay, Apple Pay, Visa, Mastercard, American Express und Sofortüberweisung via Klarna zahlen.'
+                    text: ' mit Google Pay, Apple Pay, Visa, Mastercard, American Express und Sofortüberweisung via Klarna zahlen. Schicken Sie uns jetzt eine unverbindliche Anfrage für einen kostenloses Kostenvoranschlag.'
             show_as_card: false
         type: row
         enabled: true
@@ -264,7 +264,7 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: 'Unerwartete Preiserhöhungen oder versteckte Gebühren gibt es bei uns nicht! Falls Sie nicht ausdrücklich eine Änderung des Auftragsumfangs wünschen sollten, wird sich der Ihnen zugesagte Preis in keinem Fall ändern.'
+                            text: 'Unerwartete Preiserhöhungen oder versteckte Gebühren gibt es bei uns nicht! Falls Sie nicht ausdrücklich eine Änderung des Auftragsumfangs wünschen sollten, wird sich der Ihnen für Ihre Projektarbeit zugesagte Preis in keinem Fall ändern.'
                     text_ausrichtung: text-left
                     column_count: false
             show_as_card: false
@@ -313,7 +313,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: "Unabhängig davon, ob Sie Ihre Seminararbeit, Masterarbeit oder\_"
+                            text: "Unabhängig davon, ob Sie eine Vorlage für Ihre Facharbeit, Seminararbeit, Diplomarbeit, Masterarbeit oder\_"
                           -
                             type: text
                             marks:
@@ -378,7 +378,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Ihr persönlicher Projektmanager steht Ihnen während des gesamten Schreibprozesses jederzeit unterstützend zur Verfügung. Wir gehen individuell auf jeden Ihrer Wünsche ein, damit Sie zu jeder Zeit ein gutes Gefühl haben.'
+                    text: 'Ihr persönlicher Projektmanager steht Ihnen während des gesamten Schreibprozesses jederzeit unterstützend zur Verfügung und vermittelt zwischen Ihnen und Ihrem Autor. Wir gehen individuell auf jeden Ihrer Wünsche ein, damit Sie zu jeder Zeit ein gutes Gefühl haben.'
             show_as_card: false
           -
             id: pRa80JXY
@@ -428,7 +428,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Sie erhalten von uns je nach Auftragsgröße 2-5 Zwischenstände zugeschickt, sodass Sie gerne Feedback geben und die Schreibarbeit so selbst in die von Ihnen gewünschte Richtung steuern können. Auch nach Auftragsabschluss sind wir weiterhin für Sie da.'
+                    text: 'Sie erhalten von uns je nach Auftragsgröße 2-5 Zwischenstände in Teillieferungen zugeschickt, sodass Sie ein Feedback zu Ihrer Projektarbeit geben und die Schreibarbeit Ihres Autors selbst in die von Ihnen gewünschte Richtung steuern können. Auch nach Auftragsabschluss sind wir weiterhin für Sie da.'
             show_as_card: false
           -
             id: nzYXNGyd
@@ -468,7 +468,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Vor der Abschlusslieferung wird die Mustervorlage für Ihre Abschlussarbeit durch einen übergeordneten Supervisor aus Ihrem Fachgebiet auf Rechtschreibung, Grammatik, Hyphenation, inhaltliche Richtigkeit und Wissenschaftlichkeit geprüft, für Ihren Erfolg!'
+                    text: 'Vor der Abschlusslieferung wird die Mustervorlage für Ihre Facharbeit, Projektarbeit oder Abschlussarbeit durch einen übergeordneten Supervisor aus Ihrem Fachgebiet auf Rechtschreibung, Grammatik, Hyphenation, inhaltliche Richtigkeit und Wissenschaftlichkeit geprüft, für Ihren Erfolg!'
             show_as_card: false
           -
             id: M7ssxjW4
@@ -515,7 +515,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: "Bei GWriters erhalten Sie ausschließlich Unikate. Jede wissenschaftliche Arbeit wird vor der Abschlusslieferung\_auf Plagiate geprüft. Hierfür verwenden wir die gleiche Software, wie sie auch von Universitäten verwendet wird."
+                            text: "Bei GWriters erhalten Sie ausschließlich Unikate. Jede wissenschaftliche Arbeit wird vor der Abschlusslieferung\_auf Plagiate geprüft. Hierfür verwenden wir die gleiche Software, wie sie auch von Universitäten verwendet wird. Auch ein Plagiatsbericht wird erstellt und Ihnen übersandt."
                     text_ausrichtung: text-left
                     column_count: false
             show_as_card: false
@@ -802,7 +802,7 @@ replicator:
                     text: GWriters
                   -
                     type: text
-                    text: " eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder\_"
+                    text: " eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit, Diplomarbeit oder\_"
                   -
                     type: text
                     marks:
@@ -815,13 +815,13 @@ replicator:
                     text: 'Masterarbeit schreiben lassen'
                   -
                     type: text
-                    text: ', erwartet Sie jederzeit höchste Qualität auf akademischem Niveau zu fairen Preisen. Dies garantieren wir durch unsere kompromisslose Qualitätssicherung, die selbstverständlich in jedem Preis-Angebot inklusive ist.'
+                    text: ' (sowie jede andere Art von Projektarbeiten), erwartet Sie jederzeit höchste Qualität auf akademischem Niveau zu fairen Preisen. Dies garantieren wir durch unsere kompromisslose Qualitätssicherung, die selbstverständlich in jedem Preis-Angebot inklusive ist.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Angemessene und faire Kostenkalkulationen für alle Arten von Ghostwriting gehören zu den tragenden Elementen unserer Unternehmensphilosophie. Die von seriösen und zuverlässigen Ghostwriter-Agenturen angestrebte Qualität zu fairen Preisen beruht darauf, dass keine Pauschalpreise verwendet werden, sondern die Ghostwriter Kosten für jeden Auftrag individuell kalkuliert werden. Differenzierte Serviceangebote stellen sicher, dass Sie als Kunde nur für das bezahlen, was Sie auch wirklich wünschen.'
+                    text: 'Angemessene und faire Kostenkalkulationen für alle Arten von Ghostwriting gehören zu den tragenden Elementen unserer Unternehmensphilosophie. Die von seriösen und zuverlässigen Ghostwriter-Agenturen angestrebte Qualität zu fairen Preisen beruht darauf, dass keine Pauschalpreise verwendet werden, sondern die Ghostwriter Kosten für jeden Auftrag individuell kalkuliert werden. Differenzierte Serviceangebote stellen sicher, dass Sie als Kunde nur für das bezahlen, was Sie auch wirklich wünschen. '
             show_as_card: false
         type: row
         enabled: true
@@ -854,12 +854,65 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Neben unseren hohen Qualitätsstandards nehmen aber selbstverständlich auch der verfügbare Bearbeitungszeitraum und insbesondere Ihr Fachbereich einen maßgeblichen Einfluss auf die Preise für das Ghostwriting Ihrer wissenschaftlichen Arbeit. Denn aus unserer jahrelangen Erfahrung wissen wir, dass jede wissenschaftliche Arbeit einen individuellen Anspruch hat.'
-                          -
-                            type: hard_break
+                            text: 'Neben unseren hohen Qualitätsstandards nehmen aber selbstverständlich auch der verfügbare Bearbeitungszeitraum und insbesondere Ihr Fachbereich einen maßgeblichen Einfluss auf die Preise für das Ghostwriting Ihrer wissenschaftlichen Arbeit. Wenn Sie uns eine unverbindliche Anfrage schicken, prüfen wir daher zuerst, ob Sie aus einem komplexen Fachbereich wie bspw. '
                           -
                             type: text
-                            text: "Ob Sie nun beispielsweise Ihre erste juristische Hausarbeit schreiben und dafür eine Lösungsskizze von einem erfahrenen Jura-Ghostwriter benötigen oder ob Sie sich eine Mustervorlage für Ihre\_"
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/informatik
+                                  target: _blank
+                                  rel: null
+                            text: Informatik
+                          -
+                            type: text
+                            text: ', '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/maschinenbau
+                                  target: null
+                                  rel: null
+                            text: Ingenieurwissenschaften
+                          -
+                            type: text
+                            text: ' oder '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/medizin
+                                  target: _blank
+                                  rel: null
+                            text: Medizin
+                          -
+                            type: text
+                            text: ' kommen, sodass wir optimal auf Ihre Bedürfnisse eingehen können. Denn aus unserer jahrelangen Erfahrung wissen wir, dass jede wissenschaftliche Arbeit einen individuellen Anspruch hat.'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Ob Sie nun beispielsweise Ihre erste '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '/fachrichtungen/jura#hausarbeit'
+                                  target: _blank
+                                  rel: null
+                            text: 'juristische Hausarbeit schreiben'
+                          -
+                            type: text
+                            text: " und dafür eine Lösungsskizze von einem erfahrenen Jura-Ghostwriter benötigen oder ob Sie sich eine Mustervorlage für Ihre\_"
                           -
                             type: text
                             marks:
@@ -872,7 +925,7 @@ replicator:
                             text: 'finanzwissenschaftliche Masterarbeit schreiben lassen'
                           -
                             type: text
-                            text: ", die Kosten und Preise für Ihren Ghostwriter sind in jedem Fall genau so individuell wie Ihre Anforderungen. Aus diesem Grund legen wir eine hohe Priorität auf die Expertise unserer Kundenberater, damit sowohl ein Kunde mit einer kurzen\_"
+                            text: ", die Kosten und Preise für Ihren Ghostwriter sind in jedem Fall genau so individuell wie Ihre Anforderungen. Aus diesem Grund legen wir eine hohe Priorität auf die Expertise unserer Kundenberater und Autoren, damit sowohl ein Kunde mit einer kurzen\_"
                           -
                             type: text
                             marks:
@@ -885,7 +938,7 @@ replicator:
                             text: 'sozialwissenschaftlichen Literaturarbeit'
                           -
                             type: text
-                            text: ', als auch ein Kunde mit einer ingenieurwissenschaftlichen Masterarbeit, ausführlichen Berechnungen und technischen Zeichnungen immer einen fairen Preis erhalten – individuell auf Ihr Projekt zugeschnitten!'
+                            text: ', als auch ein Kunde mit einer ingenieurwissenschaftlichen Diplomarbeit oder Masterarbeit, die ausführliche Berechnungen, technischen Zeichnungen und eine Vielzahl von Teillieferungen immer einen fairen Preis erhalten – individuell auf Ihr Projekt zugeschnitten!'
                     text_ausrichtung: text-left
                     column_count: false
             show_as_card: false
@@ -906,32 +959,16 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für alle anderen Fachbereiche beginnen ab\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '90,- € pro Normseite'
+                    text: '100,- € pro Normseite'
+                  -
+                    type: text
+                    text: '. Schicken Sie uns jetzt eine unverbindliche Anfrage.'
               -
                 type: set
                 attrs:
@@ -963,7 +1000,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Benötigen Sie eine statistische Auswertung, technische Zeichnung oder haben Sie sonstige besondere Anforderungen?'
+                    text: 'Benötigen Sie eine statistische Auswertung medizinischer Daten, technische ingenieurwissenschaftliche Zeichnungen oder haben Sie sonstige besondere Anforderungen?'
               -
                 type: set
                 attrs:
@@ -1054,7 +1091,7 @@ replicator:
                     text: 'garantieren Ihre Anonymität '
                   -
                     type: text
-                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+                    text: 'zu 100% und schützen die Daten aus Ihrer Anfrage gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
               -
                 type: set
                 attrs:
@@ -1095,7 +1132,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen zu den Teillieferungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
                   -
                     type: text
                     marks:
@@ -1160,7 +1197,7 @@ replicator:
                     text: 'garantieren die pünktliche Lieferung'
                   -
                     type: text
-                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form zusammen mit einem Plagiatsbericht.'
               -
                 type: set
                 attrs:
@@ -1280,7 +1317,7 @@ replicator:
                             marks:
                               -
                                 type: bold
-                            text: 'Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                            text: 'Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen wie Klausuren erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
                     text_ausrichtung: text-left
                     column_count: false
             show_as_card: false
@@ -1583,7 +1620,7 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: 'ab 94,- € pro Normseite'
+                                            text: 'ab 100,- € pro Normseite'
                           -
                             type: set
                             attrs:
@@ -1656,7 +1693,7 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: Sozialwissenschaften
+                                            text: 'Sozialwissenschaften oder Medizin'
                               -
                                 type: table_row
                                 content:
@@ -1876,7 +1913,7 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: 'ab 99,- € pro Normseite'
+                                            text: 'ab 100,- € pro Normseite'
                           -
                             type: set
                             attrs:
@@ -1949,7 +1986,7 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: Psychologie
+                                            text: 'Psychologie oder Ingenieurwissenschaften'
                               -
                                 type: table_row
                                 content:
@@ -2169,7 +2206,7 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: 'ab 104,- € pro Normseite'
+                                            text: 'ab 105,- € pro Normseite'
                           -
                             type: set
                             attrs:
@@ -2274,7 +2311,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Demgegenüber werben zahlreiche Ghostwriting-Einzelanbieter und Agenturen mit „kostengünstigen“ Offerten für das Ghostwriting, bei denen die Preise für die Seitenzahlen teilweise unter 50 Euro liegen. Sowohl Branchenbeobachter als auch die Freelancer-Szene stehen diesen Angeboten ausgesprochen skeptisch gegenüber. Zum einen ist bei diesen sogenannten Billiganbietern davon auszugehen, dass die beauftragten Leistungen (Ghostwriting) nicht individuell durch professionelle und versierte Autoren, sondern über Copy-and-paste-Verfahren bzw. Textbausteine erbracht werden. Hier besteht folglich die Gefahr des vordergründig verdeckten '
+                    text: 'Demgegenüber werben zahlreiche Ghostwriting-Einzelanbieter und Agenturen mit „kostengünstigen“ Offerten für das Ghostwriting oder sogar das Schreiben von Klausuren, bei denen die Preise für die Seitenzahlen teilweise unter 50 Euro liegen. Sowohl Branchenbeobachter als auch die Freelancer-Szene stehen diesen Angeboten ausgesprochen skeptisch gegenüber. Zum einen ist bei diesen sogenannten Billiganbietern davon auszugehen, dass die beauftragten Leistungen (Ghostwriting) nicht individuell durch professionelle und versierte Autoren, sondern über Copy-and-paste-Verfahren bzw. Textbausteine erbracht werden. Hier besteht folglich die Gefahr des vordergründig verdeckten '
                   -
                     type: text
                     marks:
@@ -2293,13 +2330,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zum anderen weisen Ausschreibungen, bei denen Autoren mit dem kostengünstigsten Angebot den Zuschlag erhalten, auf Niedriglohnstrategien seitens der beauftragenden Ghostwriting-Agentur. In dieser Kostenkalkulation liegt eine auf Dauer qualitätsbeeinträchtigende Strategie, da davon auszugehen ist, dass die Autoren nicht ausreichend Anreize haben, qualitativ hochwertige Produkte und Leistungen zu erbringen.'
+                    text: 'Zum anderen weisen Ausschreibungen, bei denen Autoren mit dem kostengünstigsten Angebot den Zuschlag erhalten, auf Niedriglohnstrategien seitens der beauftragenden Ghostwriting-Agentur. In dieser Kostenkalkulation liegt eine auf Dauer qualitätsbeeinträchtigende Strategie, da davon auszugehen ist, dass die Autoren nicht ausreichend Anreize haben, qualitativ hochwertige Produkte und Leistungen zu erbringen sowie sich an wichtig Termine wie die der Teillieferungen zu halten.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Auffällig niedrige Kosten für akademisches Ghostwriting sollten Kunden zu Vorsicht gegenüber diesen Angeboten veranlassen! Hier sind in jedem Fall qualitative Abstriche in Hinsicht auf die erstellten Texte sowie die Serviceleistungen zu erwarten, wenn nicht sogar '
+                    text: 'Auffällig niedrige Kosten für akademisches Ghostwriting und ein fehlender Plagiatsbericht sollten Kunden zu Vorsicht gegenüber diesen Angeboten veranlassen! Hier sind in jedem Fall qualitative Abstriche in Hinsicht auf die erstellten Texte sowie die Serviceleistungen zu erwarten, wenn nicht sogar '
                   -
                     type: text
                     marks:
@@ -2983,6 +3020,23 @@ replicator:
                               -
                                 type: text
                                 text: ') und quantitativen (SPSS, Stata, R) Datenauswertungen oder Inhaltsanalysen übernehmen wir ebenfalls für Sie.'
+                        active: false
+                      -
+                        id: ll6kk53w
+                        headline:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Wie viel kostet das Ghostwriting für Klausuren?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Einen Service für das Schreiben für Klausuren können wir Ihnen aus rechtlichen Gründen nicht anbieten und dies würde auch keine seriöse Ghostwriting Agentur tun - bei solchen Angebot ist also größte Vorsicht geboten.'
                         active: false
             show_as_card: false
         type: row
