@@ -1296,6 +1296,13 @@ replicator:
                             headline: 'Wie ist der übliche Ablauf bei einem Ghostwriting Auftrag?'
                             accordion_content:
                               -
+                                type: set
+                                attrs:
+                                  id: ll6t4gg0
+                                  values:
+                                    type: anchor_target
+                                    anchor_name: ablauf
+                              -
                                 type: paragraph
                                 content:
                                   -
@@ -2907,7 +2914,7 @@ replicator:
     type: add_section
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691771505
+updated_at: 1691771629
 template: default
 use_meta_keywords: false
 no_index_page: false
