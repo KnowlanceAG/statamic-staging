@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691757608
+updated_at: 1691770749
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -166,7 +166,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Jura. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Jura Aufgabenstellungen</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Jura in sichere Hände geben und bei einem Jura-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Juristen, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Jura. Bei uns finden Sie für einen fairen Preis exakt den <b>akademischen Ghostwriter für Ihre Jura Aufgabenstellungen</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Jura in sichere Hände geben und bei einem Jura-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Juristen, Doktoren und Professoren arbeitet.
                       </p>
             show_as_card: false
         type: row
@@ -301,13 +301,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unser Team von erfahrenen Akademikern aus dem Fach Jura unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen sowie bei der Entstehung der Arbeiten. Unsere Akademiker sind Professoren im Rechtsbereich. Für jede rechtliche Problemstellung findet unsere professionelle Ghostwriting-Dienstleistung Ihnen den passenden Ghostwriter aus dem jeweiligen Rechtsgebiet, um Ihren Fall zu bearbeiten und zu lösen. Sie kennen alle Gesetzbücher: '
+                    text: 'Unser Team von erfahrenen Akademikern aus dem Fach Jura unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Gutachten, Texten und Veröffentlichungen sowie bei der Entstehung Ihrer Arbeiten. Unsere Akademiker sind Professoren im Rechtsbereich. Für jede rechtliche Problemstellung stellt Ihnen unsere professionelle Ghostwriting-Agentur den passenden Ghostwriter aus dem jeweiligen Rechtsgebiet zur Verfügung, um Ihren Fall zu bearbeiten und zu lösen, ein Gutachten zu erstellen oder eine Projektarbeit zu betreuen. Unsere Jura Ghostwriter sind erfahren im Umgang mit den aktuellen Gesetzbüchern, bspw. '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Das Sozialgesetzbuch (SGB), das Handelsgesetzbuch (HGB), das Bürgerliche Gesetzbuch (BGB) und das Strafgesetzbuch (StGB)'
+                    text: 'das Sozialgesetzbuch (SGB), das Handelsgesetzbuch (HGB), das Bürgerliche Gesetzbuch (BGB) und das Strafgesetzbuch (StGB)'
                   -
                     type: text
                     text: .
@@ -316,7 +316,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Erstellung handelt: wir bieten Ihnen umfassenden individuellen Beistand.'
+                    text: 'Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Projektarbeit handelt: wir bieten Ihnen umfassenden individuellen Beistand, sei es durch das Erstellen von Texten oder ein juristisches Lektorat.'
             show_as_card: false
         type: row
         enabled: true
@@ -375,7 +375,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Jura) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch durch ein Lektorat auf wissenschaftliche & fachliche (Jura) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -391,7 +391,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Jura) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Jura) Übersetzungen von akademischen Texten, Arbeiten, Gutachten usw.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -481,7 +481,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In einem rechtswissenschaftlichen Studium lernen Studenten Sachverhalte in logische Einheiten aufzuteilen und sie mithilfe von passenden Gesetzen zu interpretieren. Logisches Denken und die Fähigkeit, Gegebenheiten in kürzester Zeit zu analysieren gehören zu den Grundkompetenzen eines Jura-Studenten. Ergänzt wird dies mit der Vermittlung einer strukturierten Vorgehensweise, um hier auch komplexe Sachverhalte erfassen und Falllösungen finden zu können. Diese Fähigkeiten zu Erlangen ist ein langwieriger und aufwendiger Prozess, dessen Anforderungen sehr hoch sind. Die Durchfallquoten in Jura sind wesentlich höher, als bei anderen Studienfächern.'
+                    text: 'In einem rechtswissenschaftlichen Studium lernen Studenten Sachverhalte in logische Einheiten aufzuteilen und sie mithilfe von passenden Gesetzen zu interpretieren. Logisches Denken und die Fähigkeit, Gegebenheiten in kürzester Zeit zu analysieren gehören zu den Grundkompetenzen eines Jura-Studenten. Ergänzt wird dies mit der Vermittlung einer strukturierten Vorgehensweise, um hier auch komplexe Sachverhalte erfassen und Falllösungen finden zu können. Diese Fähigkeiten zu Erlangen ist ein langwieriger und aufwendiger Prozess, dessen Anforderungen sehr hoch sind und der eine Menge Erfahrung erfordert. Die Durchfallquoten in Jura sind wesentlich höher, als bei anderen Studienfächern.'
               -
                 type: paragraph
                 content:
@@ -538,7 +538,7 @@ replicator:
                     text: 'Jura Ghostwriter'
                   -
                     type: text
-                    text: ' auch als Coach zur Verfügung, um dem Studenten in seiner persönlichen Entwicklung zu begleiten. Dies mit dem Ziel, dass dieser in die Lage versetzt wird, selbständig Jura-Texte zu bearbeiten. So kann der Ghostwriter helfen, die notwendigen Kenntnisse beim Studenten zu vertiefen.'
+                    text: ' auch als erfahrener Coach zur Verfügung, um dem Studenten in seiner persönlichen Entwicklung zu begleiten. Dies mit dem Ziel, dass dieser in die Lage versetzt wird, selbständig Jura-Texte für Projektarbeiten zu bearbeiten und zu verfassen. So kann der Ghostwriter helfen, die notwendigen Kenntnisse beim Studenten zu vertiefen.'
             show_as_card: false
         type: row
         enabled: true
@@ -594,7 +594,7 @@ replicator:
                     text: Youtube-Video
                   -
                     type: text
-                    text: "\_an! Ein akademischer Ghostwriter in Jura ist meist ein "
+                    text: "\_an! Ein akademischer Ghostwriter in Jura ist meist ein erfahrener "
                   -
                     type: text
                     marks:
@@ -612,7 +612,7 @@ replicator:
                     text: 'Rechtsanwalt oder an einem Gericht'
                   -
                     type: text
-                    text: '. Somit hat er bereits genaue Kenntnisse der Abläufe einer juristischen Arbeit und kennt alle nötigen Formalien zu Genüge.'
+                    text: '. Somit hat er bereits genaue Kenntnisse der Abläufe einer juristischen Arbeit, kennt alle nötigen Formalien und kann Sie für einen fairen Preis professionell unterstützen.'
             show_as_card: false
           -
             id: AzhQCQBl
@@ -685,7 +685,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Er berät und coacht den Jurastudenten bei der Erstellung einer vollständigen '
+                    text: 'Ein Ghostwriter berät und coacht den Jurastudenten bei der Erstellung einer vollständigen '
                   -
                     type: text
                     marks:
@@ -694,7 +694,7 @@ replicator:
                     text: 'juristischen Arbeit'
                   -
                     type: text
-                    text: " (z.B. Seminararbeit, Studienabschlussarbeit), kann jedoch auch lediglich mit dem Studenten gemeinsam ein Konzept für die Bearbeitung umsetzen, einfache oder detaillierte Lösungsskizzen erarbeiten, rechtliche (Teil-)Gutachten oder generell eine Teilleistung erbringen, als ein\_"
+                    text: " (z.B. Seminararbeit, Studienabschlussarbeit), kann jedoch auch lediglich mit dem Studenten gemeinsam ein Konzept für die Bearbeitung umsetzen, einfache oder detaillierte Lösungsskizzen oder eine Gliederung erarbeiten, rechtliche (Teil-)Gutachten oder generell eine Teilleistung erbringen, als ein\_"
                   -
                     type: text
                     marks:
@@ -739,13 +739,13 @@ replicator:
                     text: 'Jura Repetitorien'
                   -
                     type: text
-                    text: ' an, in dem Ghostwriter für Studenten Übungsmaterialien oder Fortgeschrittenenübungen vorbereiten. Die Informationssammlungen werden in Form von Fällen, Lösungsskizzen, Lernskripten übertragen.'
+                    text: ' an, in dem Ghostwriter für Studenten Übungsmaterialien oder Fortgeschrittenenübungen vorbereiten. Die Informationssammlungen werden in Form von Fällen, Lösungsskizzen, Lernskripten bereitgestellt.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Im Ergebnis erhalten Sie eine Musterarbeit, die als Inspiration dienen kann und sich dabei exakt an die spezifischen juristischen Formatvorgaben hält. Da die Arbeiten ähnliche Anforderungen stellen, wie dies bei einer Klausur der Fall ist, bringen unsere Ghostwriter eine hohe Expertise in der vollständigen Erfassung des Sachverhaltes und im Verständnis für die zu behandelnden juristischen (Schwerpunkt-)Probleme mit.'
+                    text: 'Im Ergebnis erhalten Sie für einen fairen Preis eine Musterarbeit, die als Inspiration dienen kann und sich dabei exakt an die spezifischen juristischen Formatvorgaben hält. Da die Arbeiten ähnliche Anforderungen stellen, wie dies bei einer Klausur der Fall ist, bringen unsere Ghostwriter eine hohe Expertise in der vollständigen Erfassung des Sachverhaltes und im Verständnis für die zu behandelnden juristischen (Schwerpunkt-)Probleme mit.'
               -
                 type: set
                 attrs:
@@ -1680,7 +1680,7 @@ replicator:
                     text: ' 1. Staatsexamen'
                   -
                     type: text
-                    text: ', abgeschlossen. Nach der Bestehung dieses Examens folgen ein zweijähriges Referendariat und der Abschluss der juristischen Ausbildung durch das 2. Staatsexamen. Wer beide Staatsexamen absolviert hat, ist ein Volljurist und hat eine Anwaltzulassung. Den Titel eines „Volljuristen“ darf man demnach '
+                    text: ', abgeschlossen. Nach dem Bestehen dieses Examens folgen ein zweijähriges Referendariat zum Sammeln von Erfahrung und der Abschluss der juristischen Ausbildung durch das 2. Staatsexamen. Wer beide Staatsexamen absolviert hat, ist ein Volljurist und hat eine Anwaltzulassung. Den Titel eines „Volljuristen“ darf man demnach '
                   -
                     type: text
                     marks:
@@ -1752,7 +1752,7 @@ replicator:
                     text: 'Dissertation schreiben lassen'
                   -
                     type: text
-                    text: ", die sie als Orientierungshilfe nutzen. Einige Universitäten ermöglichen den Studenten das Diplomierungsverfahren, bei dem durch Erstellen einer\_"
+                    text: ", die sie als Orientierungshilfe nutzen. Einige Universitäten ermöglichen den Studenten noch das Diplomierungsverfahren, bei dem durch Erstellen einer\_"
                   -
                     type: text
                     marks:
@@ -1836,7 +1836,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Zu Beginn des Studiums formen im Grundstudium mit vier Semestern Grundlagenfächer, wie \_"
+                    text: "Zu Beginn des Studiums formen im Grundstudium mit vier Semestern Grundlagenfächer, wie\_"
                   -
                     type: text
                     marks:
@@ -2393,7 +2393,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot einem fairen Preis für unsere Leistungen bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -2414,7 +2414,7 @@ replicator:
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-18:00'
+                    open: 'Mo.-Fr. 9:00-20:00'
             show_as_card: true
           -
             id: ez8rQf5k
@@ -2437,7 +2437,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '80,- € pro Normseite.'
+                    text: '100,- € pro Normseite.'
               -
                 type: set
                 attrs:
@@ -2592,10 +2592,10 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: beck-online
+                    text: 'beck-online '
                   -
                     type: text
-                    text: ', als auch in den vielfach online einsehbaren Skripten der Vorlesungen lassen sich schnelle erste Vorstellungen der Fallbearbeitung fassen. '
+                    text: '(diese haben jedoch ihren Preis!), als auch in den vielfach online einsehbaren Skripten der Vorlesungen lassen sich schnelle erste Vorstellungen der Fallbearbeitung fassen. '
               -
                 type: paragraph
                 content:
@@ -2617,7 +2617,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Sie können sich bei GWriters nicht nur Mustervorlagen für Ihre Jura Hausarbeit schreiben lassen, sondern\_sich auch lediglich "
+                    text: "Sie können sich bei GWriters nicht nur für einen fairen Preis Mustervorlagen für Ihre Jura Hausarbeit schreiben lassen, sondern\_sich auch lediglich "
                   -
                     type: text
                     marks:
