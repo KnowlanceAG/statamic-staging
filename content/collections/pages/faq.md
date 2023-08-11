@@ -2201,7 +2201,30 @@ replicator:
                                         attrs:
                                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                                           hex: '#000'
-                                    text: 'Bei GWriters finden Sie den richtigen Autor beispielsweise für Marktanalysen, ansprechende Unternehmenspräsentationen, Unternehmensbücher, die Erstellung von individuellen Marketingkonzepten, u.v.m.'
+                                    text: 'Bei GWriters finden Sie den richtigen Autor beispielsweise für '
+                              -
+                                type: set
+                                attrs:
+                                  id: ll6qmj3i
+                                  values:
+                                    type: anchor_target
+                                    anchor_name: unternehmen
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                                          hex: '#000'
+                                    text: 'Marktanalysen, ansprechende Unternehmenspräsentationen, Unternehmensbücher, die Erstellung von individuellen Marketingkonzepten, u.v.m.'
                                   -
                                     type: hard_break
                                     marks:
@@ -2846,8 +2869,8 @@ replicator:
     border: false
     type: add_section
     enabled: true
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691417954
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1691767547
 template: default
 use_meta_keywords: false
 no_index_page: false
