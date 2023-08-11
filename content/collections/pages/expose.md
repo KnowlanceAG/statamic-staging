@@ -130,9 +130,8 @@ teaser:
               rel: null
         text: '##phone##'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680523974
-teaser_bg: seiten/header-so-funktionierts.jpeg
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1691769537
 replicator:
   -
     id: H0cWpLlj
@@ -761,7 +760,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /faq/qualitaet-ghostwriter
+                          href: '/faq/#qualitaet'
                           target: null
                           rel: null
                     text: 'Qualität Ihrer wissenschaftlichen Arbeit'
