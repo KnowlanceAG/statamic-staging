@@ -1657,6 +1657,13 @@ replicator:
                             headline: 'Können Ihre Freelancer auch Ausarbeitungen auf Englisch schreiben?'
                             accordion_content:
                               -
+                                type: set
+                                attrs:
+                                  id: ll6szsyi
+                                  values:
+                                    type: anchor_target
+                                    anchor_name: englisch
+                              -
                                 type: paragraph
                                 content:
                                   -
@@ -2893,7 +2900,7 @@ replicator:
     type: add_section
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691769999
+updated_at: 1691771385
 template: default
 use_meta_keywords: false
 no_index_page: false
