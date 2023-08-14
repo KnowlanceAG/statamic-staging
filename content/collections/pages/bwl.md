@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692052386
+updated_at: 1692054410
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -426,7 +426,7 @@ replicator:
                             attrs:
                               color: white
                               hex: '#fff'
-                        text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie zu Ihrer Arbeit eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arbeitsarten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                        text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie zu Ihrer Arbeit eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen wie bspw. Klausuren erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
             show_as_card: false
         type: row
         enabled: true
@@ -503,7 +503,7 @@ replicator:
                     text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit"
                   -
                     type: text
-                    text: ' oder verschiedener Teilbereiche als Leistungen bei einem Ghostwriter in Auftrag geben. So ist es auch üblich, dass der Ghostwriter Studierende bereits bei der Suche nach der passenden Literatur im Rahmen der Literaturrecherche unterstützt, ihnen bei der Texterstellung beratend zur Seite steht oder bereits durch die Studierenden fertig geschriebene Arbeiten lektoriert und korrigiert. Ein solches Lektorat von einem erfahrenen Ghostwriter verleiht Ihrer Arbeit zusammen mit einer Plagiatsprüfung den letzten Schliff. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen.'
+                    text: ' oder verschiedener Teilbereiche als Leistungen bei einem Ghostwriter in Auftrag geben. So ist es auch üblich, dass der Ghostwriter Studierende bereits bei der Suche nach der passenden Literatur im Rahmen der Literaturrecherche unterstützt, ihnen bei der Texterstellung beratend zur Seite steht oder bereits durch die Studierenden fertig geschriebene Arbeiten lektoriert und korrigiert. Ein solches Lektorat von einem erfahrenen Ghostwriter verleiht Ihrer Arbeit zusammen mit einer Plagiatsprüfung den letzten Schliff. Auch ein Coaching und Training ist möglich, um die Studierenden auf eine Klausur vorzubereiten oder sie in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1484,7 +1484,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftlern, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse im Umgang mit Forschungsarbeiten. '
+                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftlern, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse und Erfahrung im Umgang mit der Literaturrecherche und Forschungsarbeiten.'
               -
                 type: paragraph
                 content:
@@ -1496,10 +1496,10 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Abschlussarbeit, Businessplan, Marketingkonzept'
+                    text: 'Hausarbeiten, Projektarbeiten, Abschlussarbeit, Businessplan, Marketingkonzept'
                   -
                     type: text
-                    text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevanten Datenbanken Zugriff, wie Fachzeitschriften, Fachartikel etc.'
+                    text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevante Datenbanken wie Fachzeitschriften, Fachartikel etc. Zugriff. Den Zugriff stellen wir als Agentur unseren Autoren zur Verfügung, um diese bei ihrer Arbeit optimal zu unterstützen.'
             show_as_card: false
           -
             id: KifGK2jM
@@ -1623,7 +1623,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft '
+                    text: 'Während in der Volkswirtschaftslehre ein Wirtschaftssystem als ganzes betrachtet wird, analysiert ein Betriebswirt oder eine Betriebswirtin das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft '
                   -
                     type: text
                     marks:
@@ -1687,16 +1687,29 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der '
+                    text: 'Um ihre Studienleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studierende der '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen'
+                    text: 'BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung ihrer Arbeiten durch die Erstellung von Mustervorlagen zur Seite stehen'
                   -
                     type: text
-                    text: '. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
+                    text: '. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen. Dieses Lektorat durch einen zweiten, unabhängigen Autor ist bei GWriters immer im Preis inbegriffen, ganz gleich ob Sie sich eine Mustervorlage für eine Hausarbeit, Projektarbeit oder Doktorarbeit schreiben lassen. Wenn auch Sie Interesse an der professionellen Unterstützung durch einen erfahrenen Ghostwriter haben, dann senden Sie uns jetzt eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    text: ' und wir senden Ihnen innerhalb kürzester Zeit ein kostenloses Angebot!'
             show_as_card: false
         type: row
         enabled: true
@@ -2212,18 +2225,6 @@ replicator:
                   -
                     type: text
                     text: 'Effiziente Gestaltung und Verwaltung von globalen Lieferketten, um Produkte oder Dienstleistungen über verschiedene Länder hinweg zu beschaffen, zu produzieren und zu vertreiben. Der Schwerpunkt Digitalisierung und Supply Chain Management im Studiengang Internationale Betriebswirtschaftslehre bereitet Sie gezielt auf die Bewältigung der aktuellen Herausforderungen der fortschreitenden Digitalisierung vor. Hierbei stehen Themen wie Operations Management, Liefernetzwerke, Informationssysteme, E-Commerce, Innovationsmanagement und sogar Softwareentwicklung mit Python im Fokus. '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0)'
-                          hex: '#000'
               -
                 type: set
                 attrs:
@@ -2311,14 +2312,12 @@ replicator:
     id: ll2r3ep9
     columns_replicator:
       -
-        id: ll2r3gpx
+        id: llbhgux7
         single_col: false
         grid:
           -
-            id: WcOVwpix
+            id: C8nTtel5
             bard:
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2327,6 +2326,18 @@ replicator:
                   -
                     type: text
                     text: 'Ghostwriter: Internationale BWL (IBWL)'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: ll2r3gpx
+        single_col: false
+        grid:
+          -
+            id: WcOVwpix
+            bard:
               -
                 type: paragraph
                 content:
@@ -2479,15 +2490,6 @@ replicator:
             id: ll2rk96s
             bard:
               -
-                type: set
-                attrs:
-                  id: ll2rphnm
-                  values:
-                    type: spacer
-                    padding-y: 48
-              -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 3
@@ -2620,14 +2622,60 @@ replicator:
                         attrs:
                           align: start
                     text: 'Ein Bachelorabsolvent, der sich für ein Masterstudium in Internationale Betriebswirtschaftslehre bewirbt, benötigt eine überzeugende Bewerbung. Ein erfahrener Ghostwriter kann die Bewerbung verfassen, die die Motivation, akademischen Hintergrund und zukünftige Karriereziele überzeugend darstellt.'
+            show_as_card: false
+        type: row
+        enabled: true
+        columns_per_row: 2
+        responsive_columns: 0
+      -
+        id: llbh8si0
+        single_col: true
+        grid:
+          -
+            id: C8nTtel5
+            bard:
               -
                 type: set
                 attrs:
-                  id: ll3gvy9r
+                  id: llbhg7jk
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Benötigen Sie professionelle Unterstützung?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Lassen Sie sich jetzt von einem erfahrenen BWL-Ghostwriter bei Ihrer Hausarbeit oder jeder anderen Art von wissenschaftlichen Arbeiten unterstützen. Schicken Sie uns einfach eine unverbindliche Anfrage über unser Kontaktformular, anschließend wird sich einer unserer erfahrenen Kundenberater innerhalb kürzester Zeit für eine kostenlose Beratung mit Ihnen in Verbindung setzen.'
+              -
+                type: set
+                attrs:
+                  id: llbh9do4
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'Jetzt kostenlos anfragen'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
               -
@@ -2635,8 +2683,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 2
         responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
