@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691770749
+updated_at: 1692016781
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -481,7 +481,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In einem rechtswissenschaftlichen Studium lernen Studenten Sachverhalte in logische Einheiten aufzuteilen und sie mithilfe von passenden Gesetzen zu interpretieren. Logisches Denken und die Fähigkeit, Gegebenheiten in kürzester Zeit zu analysieren gehören zu den Grundkompetenzen eines Jura-Studenten. Ergänzt wird dies mit der Vermittlung einer strukturierten Vorgehensweise, um hier auch komplexe Sachverhalte erfassen und Falllösungen finden zu können. Diese Fähigkeiten zu Erlangen ist ein langwieriger und aufwendiger Prozess, dessen Anforderungen sehr hoch sind und der eine Menge Erfahrung erfordert. Die Durchfallquoten in Jura sind wesentlich höher, als bei anderen Studienfächern.'
+                    text: 'In einem rechtswissenschaftlichen Studium lernen Studenten Sachverhalte in logische Einheiten aufzuteilen und sie mithilfe von passenden Gesetzen zu interpretieren. Logisches Denken und die Fähigkeit, Gegebenheiten in kürzester Zeit zu analysieren gehören zu den Grundkompetenzen eines Jura-Studenten. Ergänzt wird dies mit der Vermittlung einer strukturierten Vorgehensweise, um hier auch komplexe Sachverhalte erfassen und Falllösungen finden zu können. Auch die Literaturrecherche ist in diesem Bereich sehr komplex, da die Literaturrecherche zumeist in juristischen Datenbanken stattfindet, deren Bedienung zuerst erlernt werden muss. Diese Fähigkeiten zu Erlangen ist ein langwieriger und aufwendiger Prozess, dessen Anforderungen sehr hoch sind und der eine Menge Erfahrung erfordert. Die Durchfallquoten in Jura sind wesentlich höher, als bei anderen Studienfächern.'
               -
                 type: paragraph
                 content:
