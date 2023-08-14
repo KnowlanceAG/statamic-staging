@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691569694
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692033929
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -164,8 +164,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich BWL in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Betriebswirtschaftslehre in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich mit Ihrer Arbeit an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
                       </p>
             show_as_card: false
         type: row
@@ -217,7 +216,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre akademische BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -225,7 +224,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (BWL) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern in einem Lektorat auch auf wissenschaftliche & fachliche (BWL) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -233,7 +232,7 @@ replicator:
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL.'
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen in Ihrer Arbeit aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL.'
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
