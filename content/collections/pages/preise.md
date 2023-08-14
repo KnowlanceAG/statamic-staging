@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691757490
+updated_at: 1692009322
 replicator:
   -
     id: VvunKODE
@@ -199,7 +199,7 @@ replicator:
                     text: 'sicher und diskret'
                   -
                     type: text
-                    text: ' mit Google Pay, Apple Pay, Visa, Mastercard, American Express und Sofortüberweisung via Klarna zahlen. Schicken Sie uns jetzt eine unverbindliche Anfrage für einen kostenloses Kostenvoranschlag.'
+                    text: ' mit Google Pay, Apple Pay, Visa, Mastercard, American Express oder Sofortüberweisung zahlen. Schicken Sie uns jetzt eine unverbindliche Anfrage für einen kostenloses Kostenvoranschlag.'
             show_as_card: false
         type: row
         enabled: true
