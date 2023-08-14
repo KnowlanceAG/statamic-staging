@@ -105,7 +105,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', die ihr Schreibtalent bereits mehrfach als Freelancer für eine Ghostwriter Agentur in der wissenschaftlichen Praxis unter Beweis gestellt haben.'
+                    text: ', die ihr Schreibtalent und die Qualität ihrer Arbeit bereits mehrfach als Freelancer für eine Ghostwriter Agentur in der wissenschaftlichen Praxis unter Beweis gestellt haben.'
               -
                 type: paragraph
                 content:
@@ -243,7 +243,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Einfache Aufgaben und Texte, wie das Verfassen von Blogartikeln oder anderen Texte als Ghostwriter ohne akademischen Anspruch können Studierende als Freelance bereits während des Studiums übernehmen.'
+                    text: 'Einfache Aufgaben und Texte, wie das Verfassen von Blogartikeln oder anderen Texten als Ghostwriter ohne akademischen Anspruch können Studierende als Freelance bereits während des Studiums übernehmen.'
             show_as_card: false
           -
             id: qhvDud0w
@@ -433,7 +433,7 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: "\_z.B. von Studierenden übernehmen möchten. Als Ghostwriter genießen Sie absolut Anonymität und entscheiden selbst, ob Sie nur das Schreiben von Texten oder auch kleiner Aufträge wie Lektorate oder eine simple Literaturrecherche übernehmen."
+            text: "\_z.B. von Studierenden übernehmen möchten. Als Ghostwriter genießen Sie absolute Anonymität und entscheiden selbst, ob Sie nur das Schreiben von Texten oder auch kleinere Aufträge wie Lektorate oder eine simple Literaturrecherche übernehmen."
       -
         type: heading
         attrs:
@@ -477,7 +477,7 @@ replicator:
               - Verschwiegenheitserklärungen & Vorträge
               - ”Dummy Aufträge”
               - permanente Qualitätsprüfungen bei allen Aufträgen
-              - Internes Ranking der Ghostwriter
+              - Internes Ranking der Ghostwriter bzgl. Qualität
             ausrichtung: text_bild
       -
         type: set
@@ -579,7 +579,7 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Als Schreibexperte in unserer Ghostwriter Agentur müssen wir uns auf Sie verlassen können, wir erwarten hundertprozentige Termintreue bei angenommenen Aufträgen, dafür bieten wir Ihnen eine äußerst attraktive Nebenverdienstmöglichkeit bei persönlicher Zeiteinteilung. Unsere Aufträge lassen sich bequem von zu Hause erarbeiten.'
+            text: 'Als Schreibexperte in unserer Ghostwriter Agentur müssen wir uns auf Sie verlassen können, wir erwarten hundertprozentige Termintreue und hervorragend Qualität bei angenommenen Aufträgen, dafür bieten wir Ihnen eine äußerst attraktive Nebenverdienstmöglichkeit bei persönlicher Zeiteinteilung. Unsere Aufträge lassen sich bequem von zu Hause erarbeiten.'
       -
         type: paragraph
         content:
@@ -615,7 +615,7 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: '. Auch hier werden akademische Mitarbeiter wie Ghostwriter gesucht.'
+            text: ', um die Qualität der eigenen Arbeit zu garantieren. Auch hier werden akademische Mitarbeiter wie Ghostwriter gesucht.'
       -
         type: paragraph
         content:
@@ -735,7 +735,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/lieferung-der-arbeit-1.png
-                    text: '<p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert. Diese Qualitätssicherung ist Standard bei GWriters und für alle Kunden im Preis inbegriffen, sie entbindet Ghostwriter aber nicht von der Pflicht, sorgfältig zu arbeiten.<p>'
+                    text: '<p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung der Qualität gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert. Diese Qualitätssicherung ist Standard bei GWriters und für alle Kunden im Preis inbegriffen, sie entbindet Ghostwriter aber nicht von der Pflicht, sorgfältig zu arbeiten.<p>'
                     ausrichtung: text_bild
               -
                 type: set
@@ -755,7 +755,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Außerdem stellt unser Unternehmen seinen Schreibprofis auch eine Reihe professioneller Programme kostenlos zur Verfügung. Bspw. erhalten unsere Ghostwrit den Zugriff auf relevanten Datenbanken, Plagiatssoftware (Plagiatsprüfung), automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, R oder '
+                    text: 'Außerdem stellt unser Unternehmen seinen Schreibprofis auch eine Reihe professioneller Programme kostenlos zur Verfügung, sodass wir die Qualität von Datenauswertungen durch den Einsatz modernster Software garantieren können. Bspw. erhalten unsere Ghostwrit den Zugriff auf relevanten Datenbanken, Plagiatssoftware (Plagiatsprüfung), automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, R oder '
                   -
                     type: text
                     marks:
@@ -889,7 +889,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691767191
+updated_at: 1692020706
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
