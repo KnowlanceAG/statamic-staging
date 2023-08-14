@@ -73,8 +73,8 @@ teaser:
           -
             id: GKQKgugV
             icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+            headline: 'Top-Qualität von akademischen Ghostwritern'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Ghostwriter auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
@@ -399,7 +399,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'sei es bei der Literaturrecherche, der Auswertung von Daten oder dem Verfassen der Arbeit.'
+                    text: 'sei es bei der Literaturrecherche, der Auswertung von Daten sowie dem Verfassen des Exposés oder der Arbeit.'
               -
                 type: paragraph
                 content:
@@ -411,7 +411,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Sie können einen Ghostwriter direkt zu Beginn des Schreibprozesses für verschiedene Aufgaben beauftragen. Dazu zählen die Themenfindung bzw. Themenwahl, die Literaturrecherche und die Auswertung deren Ergebnisse, der Aufbau der '
+                    text: 'Sie können einen erfahrenen Ghostwriter direkt zu Beginn des Schreibprozesses für verschiedene Aufgaben beauftragen. Dazu zählen die Themenfindung bzw. Themenwahl, die Literaturrecherche und die Auswertung deren Ergebnisse, der Aufbau der '
                   -
                     type: text
                     marks:
@@ -431,7 +431,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', die Anwendung der methodischen Ansätzen, und die Erstellung des Exposés. Auch eine bereits von Ihnen verfasste Arbeit können Sie durch ein wissenschaftliches Lektorat oder eine professionelle Plagiatsprüfung aufwerten lassen. So steht Ihrer Promotion nichts mehr im Wege.'
+                    text: ', die Anwendung der methodischen Ansätzen, und die Erstellung des Exposés. Auch eine bereits von Ihnen verfasste Arbeit können Sie durch ein wissenschaftliches Lektorat oder eine professionelle Plagiatsprüfung aufwerten lassen. Mit einem erfahrenen Ghostwriter steht Ihrer Promotion nichts mehr im Wege.'
               -
                 type: paragraph
                 content:
@@ -469,7 +469,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' in Anspruch nehmen oder sich komplexen Teilaspekten beraten lassen. Schließlich stellt eine Doktorarbeit erheblich hinsichtlich des Umfangs und der Anforderungen höhere Ansprüche als beispielsweise eine Hausarbeit, Bachelorarbeit oder Masterarbeit oder eine gewöhnliche Projektarbeit. '
+                    text: ' in Anspruch nehmen oder sich zu komplexen Teilaspekten beraten lassen. Schließlich stellt eine Doktorarbeit erheblich hinsichtlich des Umfangs und der Anforderungen höhere Ansprüche als beispielsweise eine Hausarbeit, Bachelorarbeit oder Masterarbeit oder eine gewöhnliche Projektarbeit. '
                   -
                     type: text
                     marks:
@@ -480,7 +480,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Alle unsere Leistungen werden von erfahrenen Experten aus dem jeweiligen akademischen Fachbereich betreut'
+                    text: 'Alle unsere Leistungen werden von erfahrenen Experten und Ghostwritern aus dem jeweiligen akademischen Fachbereich betreut'
                   -
                     type: text
                     marks:
@@ -609,7 +609,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im nächsten Schritt erhalten Sie ein ganz unverbindlich ein Angebot von uns, individuell zugeschnitten auf Ihre Bedürfnisse. Dieses beinhaltet auch bereits eine vorläufige Auftragsplanung.'
+                    text: 'Im nächsten Schritt erhalten Sie ein ganz unverbindlich ein Angebot von uns, individuell zugeschnitten auf Ihre Bedürfnisse. Dieses beinhaltet auch bereits eine vorläufige Auftragsplanung mit dem Ghostwriter..'
             show_as_card: false
           -
             id: lali2u4h
@@ -640,7 +640,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sobald Sie unser Angebot angenommen haben, erstellen wir die Mustervorlage für Ihre Doktorarbeit. Sie erhalten von Ihrem persönlichen Projektmanager regelmäßig Zwischenstände und wir setzen Ihre Feedbacks zu diesen kostenfrei um.'
+                    text: 'Sobald Sie unser Angebot angenommen haben, erstellen wir die Mustervorlage für Ihre Doktorarbeit. Sie erhalten von Ihrem persönlichen Projektmanager regelmäßig Zwischenstände und Ihr Ghostwriter setzt Ihre Feedbacks zu diesen kostenfrei um.'
             show_as_card: false
           -
             id: lali2v42
@@ -707,7 +707,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Doktorarbeit Unterstützung benötigen, dann können Sie unseren Schreibservice gerne sofort eine '
+                    text: 'Wenn Sie bei Ihrer Doktorarbeit Ghostwriter-Unterstützung benötigen, dann können Sie unseren Schreibservice gerne sofort eine '
                   -
                     type: text
                     marks:
@@ -1138,7 +1138,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragestellungen Ihrer Dissertation sowie bei der Literaturrecherche stehen Ihnen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn. Überzeugen Sie sich von unseren Kompetenzen gerne am folgenden Beispiel für eine '
+                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragestellungen Ihrer Dissertation sowie bei der Literaturrecherche stehen Ihnen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn. Überzeugen Sie sich gerne von den Kompetenzen unserer Ghostwriter am folgenden Beispiel für eine '
                   -
                     type: text
                     marks:
@@ -1354,7 +1354,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', besonders wenn Sie berufsbegleitend promovieren. '
+                    text: ' durch einen Ghostwriter, besonders wenn Sie berufsbegleitend promovieren. '
                   -
                     type: text
                     text: 'Gerne bieten unsere erfahrenen akademischen Ghostwriter Ihnen auch alternative Dienstleistungen wie die Auswertung Ihrer Experimente oder eine professionelle '
@@ -2385,7 +2385,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Bei Problem mit Ihrer Dissertation '
+                    text: 'Bei Problemen mit Ihrer Dissertation '
                   -
                     type: text
                     marks:
@@ -2405,7 +2405,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', die Ihre Forschungsarbeit lektorieren und korrigieren. Um auf Nummer sicher zu gehen, dass ausreichend auf sämtliche Quellen verwiesen wurde, hilft es, den Text auf Plagiate zu prüfen. Wir verwenden hierfür die professionelle Software '
+                    text: ', die Ihre Forschungsarbeit lektorieren und korrigieren. Um sicher zu gehen, dass ausreichend auf sämtliche Quellen verwiesen wurde, hilft es, den Text auf Plagiate zu prüfen. Wir verwenden hierfür die professionelle Software '
                   -
                     type: text
                     marks:
@@ -3024,7 +3024,7 @@ replicator:
                                 type: textAlign
                                 attrs:
                                   align: start
-                            text: 'Die von KI erzeugten Inhalte können potenziell in Konflikt mit urheberrechtlich geschützten Materialien geraten, vor allem, wenn sie nicht korrekt zitiert werden. Dies birgt juristische Risiken. Dagegen achtet ein akademischer Ghostwriter peinlich genau darauf, dass alle Referenzen ordnungsgemäß und nach den akademischen Vorgaben zitiert werden. Außerdem haben KI-Modelle in der Vergangenheit gezeigt, dass sie gelegentlich fiktive Quellen nutzen, um ihre Darstellungen zu stärken.'
+                            text: 'Die von KI erzeugten Inhalte können potenziell in Konflikt mit urheberrechtlich geschützten Materialien geraten, vor allem, wenn sie nicht korrekt zitiert werden. Dies birgt juristische Risiken. Dagegen achtet ein erfahrener akademischer Ghostwriter peinlich genau darauf, dass alle Referenzen ordnungsgemäß und nach den akademischen Vorgaben zitiert werden. Außerdem haben KI-Modelle in der Vergangenheit gezeigt, dass sie gelegentlich fiktive Quellen nutzen, um ihre Darstellungen zu stärken.'
                   -
                     type: list_item
                     content:
@@ -3244,7 +3244,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Wenn Sie Ihre selbst verfasste Arbeit an unsere Experten zur Korrektur geben, überprüfen diese selbstverständlich auch die '
+                    text: '. Wenn Sie Ihre selbst verfasste Arbeit an unserer Ghostwriter zur Korrektur geben, überprüfen unsere Ghostwriter selbstverständlich auch die -'
                   -
                     type: text
                     marks:
@@ -3932,7 +3932,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691754028
+updated_at: 1692020058
 template: default
 use_meta_keywords: false
 no_index_page: false
