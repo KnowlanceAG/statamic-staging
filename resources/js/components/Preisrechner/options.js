@@ -1,41 +1,43 @@
 export const service = {
   de: {
-    Ghostwriting: { price: 90 },
-    Textredaktion: { price: 50 },
-    Lektorat: { price: 18 },
-    Korrektorat: { price: 5 },
+    Ghostwriting: { price: 100 },
+    Textüberarbeitung: { price: 75 },
+    Lektorat: { price: 22 },
+    Korrektorat: { price: 10 },
     Übersetzung: { price: 60 },
-    Plagiatsprüfung: { price: 100, fixed: true }
+    Plagiatsprüfung: { price: 180, fixed: true }
   },
   ch: {
-    Ghostwriting: { price: 100 },
-    Textredaktion: { price: 56 },
-    Lektorat: { price: 20 },
-    Korrektorat: { price: 5.6 },
+    Ghostwriting: { price: 110 },
+    Textüberarbeitung: { price: 82 },
+    Lektorat: { price: 25 },
+    Korrektorat: { price: 12 },
     Übersetzung: { price: 67 },
-    Plagiatsprüfung: { price: 110, fixed: true }
+    Plagiatsprüfung: { price: 180, fixed: true }
   }
 }
 
 export const specialField = {
   'ohne Fachbezug': 1,
-  Wirtschaft: 1,
-  'Jura/Recht': 1.1,
-  Informatik: 1.1,
-  Naturwissenschaften: 1.07,
+  Wirtschaft: 1.1,
+  'Jura/Recht': 1.2,
+  Informatik: 1.3,
+  Naturwissenschaften: 1.2,
   Geisteswissenschaften: 1,
   Sozialwissenschaften: 1,
-  'Medizin/Zahnmedizin': 1.1,
-  Architektur: 1.06,
-  Ingenieurwissenschaften: 1.1,
+  'Medizin/Zahnmedizin': 1.2,
+  Architektur: 1.3,
+  Ingenieurwissenschaften: 1.3,
   Sportwissenschaften: 1,
-  'Sonstige Fachbereiche': 1
+  Psychologie: 1.1,
+  'Politik- / Geschichtswissenschaften': 1.0,
+  'Sonstige Fachbereiche': 1.1
 }
 
 export const qualityLevel = {
-  Economy: 0.89,
-  Business: 1,
-  Academic: 1.18
+  Economy: 0.85,
+  Business: 0.90,
+  Academic: 1.00
 }
 
 export const qualityDescription = {
