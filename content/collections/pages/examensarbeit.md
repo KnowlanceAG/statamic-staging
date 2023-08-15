@@ -147,7 +147,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische '
+                    text: 'Die akademischen '
                   -
                     type: text
                     marks:
@@ -160,7 +160,7 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' sind Experten ihres Fachgebietes und haben hervorragende Erfahrung mit der spezifischen Materie und dem wissenschaftlichen Arbeiten. Sie müssen sich nicht erst mühsam eine Methodik aneignen und können so zu jeder Fragestellung der Bearbeitung beauftragt werden. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, '
+                    text: ' unserer Agenturen sind Experten ihres Fachgebietes und haben hervorragende Erfahrung mit der spezifischen Materie der zu erstellenden Projektarbeit und auch als Autor mit dem wissenschaftlichen Arbeiten. Unsere Ghostwriter müssen sich nicht erst mühsam eine Methodik aneignen und können zur Bearbeitung jeder Fragestellung beauftragt werden. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, '
                   -
                     type: text
                     marks:
@@ -173,7 +173,7 @@ replicator:
                     text: Literaturrecherche
                   -
                     type: text
-                    text: ' und dem Aufbau einer Examensarbeit (Einleitung, Hauptteil, Fazit). Ein Coaching bei der Examensarbeit kann auch bei der erfolgreichen Fertigstellung einer bereits begonnenen Arbeit unterstützend wirken, sie zu einem bestimmten Punkt vorantreiben oder ein Konzept mit Lösungsansätzen für die Erfüllung der gestellten Aufgabe entwerfen. Hierbei kann zum Beispiel einen Gliederungsentwurf oder auch eine Vorlage für Textergänzungen erstellt werden.'
+                    text: ' und dem Aufbau einer Examensarbeit (Einleitung, Hauptteil, Fazit). Ein Coaching durch einen erfahrenen Autor bei der Examensarbeit kann auch bei der erfolgreichen Fertigstellung einer bereits begonnenen Arbeit unterstützend wirken, die Arbeit zu einem bestimmten Punkt vorantreiben, ein Exposé verfassen oder ein Konzept mit Lösungsansätzen für die Erfüllung der gestellten Aufgabe entwerfen. Hierbei können unsere Ghostwriter zum Beispiel einen Gliederungsentwurf oder auch eine Vorlage für Textergänzungen erstellen.'
               -
                 type: set
                 attrs:
@@ -186,7 +186,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zudem können Leistungen wie Lektorat oder Korrektorat der Examensarbeit, die bereits durch den Studierenden fertiggestellt wurde, in Anspruch genommen werden. Anschließend kann eine umfassende '
+                    text: 'Zudem bietet unserer Ghostwriter Agentur auch Leistungen wie das Lektorat oder Korrektorat der Examensarbeit, die bereits durch den Studierenden fertiggestellt wurde. Im Anschluss an das Lektorat kann eine umfassende '
                   -
                     type: text
                     marks:
@@ -199,7 +199,13 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
-                    text: ' erfolgen, um mögliche Risiken durch Flüchtigkeitsfehler zu umgehen - schließlich muss sämtliche verwendete Literaturquellen als solche gekennzeichnet sein. Es ist auch nicht selten, dass Studenten sich eine '
+                    text: ' erfolgen, um mögliche Risiken durch Flüchtigkeitsfehler zu umgehen - schließlich müssen sämtliche verwendeten Literaturquellen als solche gekennzeichnet sein. Denn das Verwenden nicht angegebener Literatur kann als Täuschungsversuch gewertet werden und für eine Examensarbeit gilt, was auch für jede andere Projektarbeit oder Klausur gilt: Ein Täuschungsversuch führt zum Durchfallen!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ebenso können Sie sich von einem unserer Ghostwriter eine '
                   -
                     type: text
                     marks:
@@ -212,7 +218,7 @@ replicator:
                     text: Mustervorlage
                   -
                     type: text
-                    text: ' für ihre Examensarbeit schreiben lassen und diese Ghostwriter-Examensarbeit als Vorlage für ihre eigene Arbeit nutzen.'
+                    text: ' für ihre Examensarbeit schreiben lassen und diese Ghostwriter-Examensarbeit als Vorlage für ihre eigene Arbeit nutzen. Auch bei der Erstellung von einem Praktikumsbericht oder von Unterrichtsentwürfen, wie Sie oft vor der Anmeldung einer Examensarbeit vorgelegt werden müssen, können unsere Ghostwriter Sie unterstützen.'
               -
                 type: paragraph
                 content:
@@ -224,7 +230,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere akademischen Ghostwriter sind zertifizierte Professoren und Doktoren. Sie haben in ihrem Fachbereich sowohl in der Praxis als auch in der Theorie hervorragende Erfahrungen. Sie sind Autoren mit hoher Qualifikation und erstellen tagtäglich Vorlagen für wissenschaftliche Arbeiten in unserer Schreibagentur ('
+                    text: 'Unsere akademischen Ghostwriter sind zertifizierte Professoren und Doktoren. Sie haben in ihrem Fachbereich sowohl in der Praxis als auch in der Theorie hervorragende Erfahrungen. Sie sind Autoren mit hoher Qualifikation und erstellen tagtäglich Vorlagen für wissenschaftliche Arbeiten in unserer Schreibagentur (Projektarbeiten, '
                   -
                     type: text
                     marks:
@@ -296,7 +302,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', haben zu allen relevanten wissenschaftlichen Datenbanken Zugriff und können alle Forschungsmaterialien zur Verfügung stellen. Sie sind somit in der Lage jede Fragestellung Ihrerseits zu beantworten.'
+                    text: ' in ihrem Fachbereich, haben zu allen relevanten wissenschaftlichen Datenbanken Zugriff und können alle Forschungsmaterialien zur Verfügung stellen. Sie sind somit in der Lage jede Fragestellung Ihrerseits zu beantworten. Die Kompetenzen der akademischen Ghostwriter unserer Agentur erstreckt sich über nahezu alle akademischen Fachbereiche, von der Zahnmedizin über die Sportwissenschaften bis hin zu den Politikwissenschaften.'
               -
                 type: paragraph
                 content:
@@ -323,7 +329,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' an unsere Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten (Bachelorarbeit, Masterarbeit, Doktorarbeit, Magisterarbeit, Diplomarbeit) oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                    text: ' an unsere Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen unsere Ghostwriter Ihnen keine Projektarbeiten oder Abschlussarbeiten (Bachelorarbeit, Masterarbeit, Doktorarbeit, Magisterarbeit, Diplomarbeit) oder andere Arten von Prüfungsleistungen oder Klausuren erstellen, gerne erstellen unsere Ghostwriter Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
               -
                 type: heading
                 attrs:
@@ -337,7 +343,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Universitäten und Hochschulen lassen am Ende des Studiums Examensarbeiten schreiben, um den Studenten zu prüfen, ob er das Gelernte nutzen kann um ein Problem innerhalb eines Zeitraumes nach wissenschaftlichen Richtlinien erfolgreich zu bearbeiten. Da die Leistungen, die ein Student bieten muss, sehr vielseitig sind, sollte man keineswegs die Bearbeitung einer Examensarbeit auf die leichte Schulter nehmen. Statt sich langwierig mit der Frage zu beschäftigen „Wie schreibe ich eine Examensarbeit?“, kann ein Student einen akademischen Freelancer mit '
+                    text: 'Nach der Abgabe aller Projektarbeiten, Praktikumsberichte und Unterrichtsentwürfe sowie dem Bestehen aller Klausuren lassen Universitäten und Hochschulen am Ende des Studiums Examensarbeiten schreiben, um die Studierenden zu prüfen, ob diese das Gelernte nutzen können, um ein Problem innerhalb eines Zeitraumes nach wissenschaftlichen Richtlinien erfolgreich zu bearbeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Da die Leistungen, die Studierende bieten müssen, sehr vielseitig sind, sollte man keineswegs die Bearbeitung einer Examensarbeit auf die leichte Schulter nehmen. Statt sich langwierig mit der Frage zu beschäftigen „Wie schreibe ich eine Examensarbeit?“, können Studierende einen akademischen Ghostwriter mit '
                   -
                     type: text
                     marks:
@@ -350,13 +362,13 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: ' beauftragen. Er weist tiefgreifende Kenntnisse in seinem Fachgebiet vor und hat Erfahrungen mit allen wissenschaftlichen Formalismen. Besonders Hilfreich sind akademische Ghostwriter beim Schreiben einer Mustervorlage für Examensarbeiten.'
+                    text: ' beauftragen. Er weist tiefgreifende Kenntnisse in seinem Fachgebiet vor und hat Erfahrungen mit allen wissenschaftlichen Formalismen. Besonders Hilfreich sind akademische Ghostwriter beim Schreiben einer Mustervorlage für Examensarbeiten oder bei der Überprüfung einer bereits verfassten Arbeit im Rahmen eines Lektorats.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die dadurch gewonnene Zeit kann der Student für Aufgaben nutzen, die er sonst nur schwerlich erfüllen könnte. Ein Beispiel dafür ist das Lernen für eine Nachholklausur, ohne die man das Studium nicht beenden kann. Auch sind Sorgen um den richtigen Umgang mit Literatur und der daraus resultierenden Plagiatsprüfung hinfällig - auch hier hat der Bearbeiter hinreichende Erfahrungen. Schließlich ist Lernen neben einer Examensarbeit sehr schwer, da diese bereits die volle Konzentration des Studenten erfordert. Eine halbherzig angefertigte Examensarbeit nützt dem Studenten nicht viel, auch sind die Anforderungen deutlich höher als beispielsweise bei einer Hausarbeit.'
+                    text: 'Die dadurch gewonnene Zeit können Studierende für Aufgaben nutzen, die er sonst nur schwerlich erfüllen könnte. Ein Beispiel dafür ist das Lernen für eine Nachholklausur oder das Verfassen von einem Praktikumsbericht, ohne die man das Studium nicht beenden kann. Auch sind Sorgen um den richtigen Umgang mit Literatur und der daraus resultierenden Plagiatsprüfung hinfällig - auch hier hat der Bearbeiter hinreichende Erfahrungen. Schließlich ist Lernen neben einer Examensarbeit sehr schwer, da diese bereits die volle Konzentration der Studierenden erfordert. Eine halbherzig angefertigte Examensarbeit nützt Studierenden nicht viel, auch sind die Anforderungen deutlich höher als beispielsweise bei einer Hausarbeit.'
               -
                 type: heading
                 attrs:
@@ -370,7 +382,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Mustervorlage für Examensarbeit verfassen lassen'
+                    text: 'Mustervorlage für Examensarbeit schreiben lassen'
               -
                 type: paragraph
                 content:
@@ -382,7 +394,31 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Sie wissen nicht, wie die Kooperation mit einem akademischen Ghostwriter funktioniert? Sie beginnen mit einer unverbindlichen Anfrage auf unserer Webseite. Im Anfrageformular geben Sie die Anforderungen an Ihre wissenschaftliche Arbeit an. Sie wählen zuerst das Fach und die Leistungsart aus. Anschließend geben den Zeitraum und den Umfang Ihrer Aufgabenstellung an. Innerhalb von weniger Stunden erhalten Sie ein kostenloses Leistungsangebot, in dem die Kosten, Termine für Teillieferungen und Inhaltliche Äußerungen zusammengestellt werden. Zum Thema Ghostwriting-Preise: die voraussichtlichen Kosten können Sie auch separat von unserem Preisrechner berechnen lassen. Die Teillieferungen dienen dazu, Feedbacks bezüglich der Arbeit von Ihnen als Auftraggeber zu erhalten.'
+                    text: 'Sie wissen nicht, wie die Kooperation mit einem akademischen Ghostwriter funktioniert? Sie beginnen mit einer unverbindlichen Anfrage auf unserer Webseite. Im Anfrageformular geben Sie die Anforderungen an Ihre wissenschaftliche Arbeit an. Sie wählen zuerst das Fach und die Leistungsart aus. Anschließend geben den Zeitraum und den Umfang Ihrer Aufgabenstellung an. Innerhalb von weniger Stunden erhalten Sie ein kostenloses Leistungsangebot, in dem die Kosten, Termine für Teillieferungen und Inhaltliche Äußerungen zusammengestellt werden. Zum Thema Ghostwriting-Preise: die voraussichtlichen Kosten können Sie auch separat von unserem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /preise
+                          target: null
+                          rel: null
+                    text: Preisrechner
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' berechnen lassen. Die Teillieferungen dienen dazu, Feedbacks bezüglich der Arbeit von Ihnen als Auftraggeber für Ihren Ghostwriter zu erhalten.'
               -
                 type: heading
                 attrs:
@@ -402,7 +438,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Nach Ihrer Zusage wird je nach Thema und Leistungsart ein passender Ghostwriter zu Ihrer Aufgabenstellung eingesetzt. Vor der Auftragsausführung werden noch einmal alle wichtigen Prozedere im Vertragsrahmen besprochen und unterschrieben. Während des Schreibprozesses erfolgt die gesamte Kommunikation per Telefon und/oder E-Mail. Da der Datenschutz für unsere Schreibagentur besonders wichtig ist, wird die Anonymität der Daten aller Auftraggeber geschützt und nach dem Auftrag sowie der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.'
+                    text: 'Nach Ihrer Zusage wird je nach Thema und Leistungsart ein passender Ghostwriter zu Ihrer Aufgabenstellung eingesetzt. Vor der Auftragsausführung werden noch einmal alle wichtigen Prozedere im Vertragsrahmen besprochen und unterschrieben. Während des Schreibprozesses erfolgt die gesamte Kommunikation mit Ihrem persönlichen Ghostwriter per Telefon und/oder E-Mail. Da der Datenschutz für unsere Schreibagentur besonders wichtig ist, wird die Anonymität der Daten aller Auftraggeber geschützt und nach dem Auftrag sowie der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.'
               -
                 type: heading
                 attrs:
@@ -410,7 +446,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Teilleistungen:'
+                    text: Teilleistungen
               -
                 type: paragraph
                 content:
@@ -442,7 +478,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Zum Schluss wird die Qualität der Arbeit von einem qualifizierten Ghostwriter überprüft, der sicherstellt, ob alle inhaltlichen Faktoren, Formatierungsrichtlinien, Formatvorgaben alle möglichen Anforderungen eingehalten wurden. Nach der Auftragsausführung wird Ihnen Ihre Musterarbeit als PDF-Datei zugeschickt. Das Musterbeispiel ist eine gute Vorbereitung vor der spätere Abgabe Ihrer eigenen Examensarbeit.'
+                    text: 'Zum Schluss wird die Qualität der Arbeit von einem qualifizierten Ghostwriter im Rahmen eines Lektorats überprüft. Der Ghostwriter stellt sicher, dass alle inhaltlichen Faktoren, Formatierungsrichtlinien, Formatvorgaben und alle weiteren Anforderungen eingehalten wurden. Nach der Auftragsausführung wird Ihnen Ihre Musterarbeit von Ihrem Ghostwriter als PDF-Datei zugeschickt. Das Musterbeispiel ist eine gute Vorbereitung vor der spätere Abgabe Ihrer eigenen Examensarbeit.'
               -
                 type: paragraph
                 content:
@@ -454,7 +490,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Leistungen wie Lektorat, Korrektur und Plagiatsprüfung können Sie je nach Bedarf auch einzeln beauftragen.'
+                    text: 'Die Leistungen wie Lektorat, Korrektur und Plagiatsprüfung können Sie bei unseren Ghostwritern je nach Bedarf auch einzeln beauftragen.'
               -
                 type: heading
                 attrs:
@@ -1190,7 +1226,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "In Deutschland ist eine Examensarbeit gleichzeitig auch eine Zulassungsarbeit, Qualifikationsarbeit, Hausarbeit, Staatsarbeit oder Staatsexamensarbeit und gilt in manchen Studienfächern als schriftliche Abschlussarbeit. Besonders in den Lehramtsstudiengängen wie Jura. Offiziell wird eine Examensarbeit als eine wissenschaftliche Hausarbeit bezeichnet. \_"
+                    text: "In Deutschland ist eine Examensarbeit gleichzeitig auch eine Zulassungsarbeit, Qualifikationsarbeit, Hausarbeit, Staatsarbeit oder Staatsexamensarbeit und gilt in manchen Studienfächern als schriftliche Abschlussarbeit, besonders in den Lehramtsstudiengängen, Jura, Zahnmedizin, Sportwissenschaften und Politikwissenschaften. Offiziell wird eine Examensarbeit als eine wissenschaftliche Hausarbeit bezeichnet. \_"
               -
                 type: paragraph
                 content:
@@ -1250,7 +1286,19 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', die zum Doktortitel verhilft und bei Studienfächern, in denen das Staatsexamen erreicht werden kann, ist die Staatsexamensarbeit notwendig. Hochschulstudiums sind durch die Bologna-Reform angehalten, dass sie zur Überprüfung der Leistungen von jedem Studenten mindestens eine Examensarbeit schreiben lassen.'
+                    text: ', die zum Doktortitel verhilft und bei Studienfächern, in denen das Staatsexamen erreicht werden kann, ist die Staatsexamensarbeit notwendig. Hochschulstudiums sind durch die Bologna-Reform angehalten, dass sie zur Überprüfung der Leistungen aller '
+                  -
+                    type: text
+                    text: Studierenden
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' mindestens eine Examensarbeit schreiben lassen. Aber auch das Absolvieren eines Praktikums und das Einreichen von einem Praktikumsbericht kann Voraussetzung für den Abschluss oder sogar Teil der Examensarbeit werden.'
               -
                 type: paragraph
                 content:
@@ -1262,7 +1310,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Nicht nur das Wissen des Studiums ist in solchen Arbeiten erforderlich, sondern oftmals auch eigene wissenschaftliche Erkenntnisse. Hilfe bekommen Studierende dabei zum einen durch die Hochschulen bzw. Dozenten selbst in Form der Betreuung, sowie durch externes professionelles Coaching bei der Examensarbeit. Da die Dozenten der Hochschulen kaum Informationen zur Literaturrecherche bzw. zum wissenschaftlichen Arbeiten vermitteln, entscheiden einige sich in diesem Zusammenhang auch dazu, in Form von Mustertexten von einem Ghostwriter Examensarbeiten schreiben zu lassen. Die Ghostwriting-Examensarbeit darf jedoch nicht als eigene Prüfungsleistung ausgegeben werden und sollte lediglich als Mustervorlage genutzt werden.'
+                    text: 'Nicht nur das Wissen des Studiums ist in solchen Arbeiten erforderlich, sondern oftmals auch eigene wissenschaftliche Erkenntnisse. Hilfe bekommen Studierende dabei zum einen durch die Hochschulen bzw. Dozenten selbst in Form der Betreuung, sowie durch externes professionelles Coaching bei der Examensarbeit, bspw. durch einen Ghostwriter. Da die Dozenten der Hochschulen kaum Informationen zur Literaturrecherche bzw. zum wissenschaftlichen Arbeiten vermitteln, entscheiden einige sich in diesem Zusammenhang auch dazu, in Form von Mustertexten von einem Ghostwriter Examensarbeiten schreiben zu lassen. Die Ghostwriting-Examensarbeit darf jedoch nicht als eigene Prüfungsleistung ausgegeben werden und sollte lediglich als Mustervorlage genutzt werden.'
               -
                 type: heading
                 attrs:
@@ -1282,7 +1330,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Je nach Art, Studiengang und Institution umfasst die Examensarbeit mit Exposé 60-100 Seiten. Sehr umfangreich sind beispielsweise die Examensarbeiten (ebenso wie die vorangegangenen Hausarbeiten oder Seminararbeiten) in der Medizin und Jura. Die Examensarbeit muss allen Richtlinien einer akademischen Arbeit entsprechen und ist als Abschlussarbeit grundlegend für den Erfolg des gesamten Studiums. Höchste wissenschaftliche Standards werden verfolgt um ihre Qualität zu beurteilen. Deshalb sollte sie mit größter Sorgfalt erarbeitet werden, ebenso ist es wichtig, auf ausreichend Literatur zu achten.'
+                    text: 'Je nach Art, Studiengang und Institution umfasst die Examensarbeit mit Exposé 60-100 Seiten. Sehr umfangreich sind beispielsweise die Examensarbeiten (ebenso wie die vorangegangenen Hausarbeiten oder Seminararbeiten) in der Medizin, Jura oder den Politikwissenschaften. Die Examensarbeit muss allen Richtlinien einer akademischen Arbeit entsprechen und ist als Abschlussarbeit grundlegend für den Erfolg des gesamten Studiums. Höchste wissenschaftliche Standards werden verfolgt um ihre Qualität zu beurteilen. Deshalb sollte sie mit größter Sorgfalt erarbeitet werden, ebenso ist es wichtig, auf ausreichend Literatur zu achten.'
               -
                 type: paragraph
                 content:
@@ -1294,7 +1342,19 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Neben der Forschungsfrage, Themenfindung, Gliederung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Dozenten zur Betreuung der Examensarbeit, sind auch zahlreiche formale Vorgaben zu beachten. Während des Schreibprozesses werden oft durch den Lehrstuhl Muster der Examensarbeit als Beispiele veröffentlicht, was als Orientierungshilfe genutzt werden kann. Ist diese Hilfe nicht vorhanden, ist es nicht unüblich, dass Studenten von einem Ghostwriter ihre Examensarbeit verfassen lassen und diese Ghostwriting-Examensarbeit als Orientierungshilfe und Musterarbeit nutzen.'
+                    text: 'Neben der Forschungsfrage, Themenfindung, Gliederung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Dozenten zur Betreuung der Examensarbeit, sind auch zahlreiche formale Vorgaben zu beachten. Während des Schreibprozesses werden oft durch den Lehrstuhl Muster der Examensarbeit als Beispiele veröffentlicht, was als Orientierungshilfe genutzt werden kann. Ist diese Hilfe nicht vorhanden, ist es nicht unüblich, dass '
+                  -
+                    type: text
+                    text: Studierende
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' von einem Ghostwriter ihre Examensarbeit verfassen lassen und diese Ghostwriting-Examensarbeit als Orientierungshilfe und Musterarbeit nutzen.'
               -
                 type: paragraph
                 content:
@@ -1720,8 +1780,8 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691678793
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692137418
 meta_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
