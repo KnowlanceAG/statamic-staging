@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1692203462
+updated_at: 1692204091
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -207,6 +207,162 @@ replicator:
           -
             id: rq5Wd7tN
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter-kommunikation'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter & Kommunikationswissenschaft'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#kommunikation'
+                                          target: null
+                                          rel: null
+                                    text: 'Kommunikation & Wissenschaft'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#studium'
+                                          target: null
+                                          rel: null
+                                    text: 'Studium der Kommunikationswissenschaften'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#unterschied'
+                                  target: null
+                                  rel: null
+                            text: 'Kommunikationsdesign und Kommunikationswissenschaften'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#kommunikationsdesign'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Kommunikationsdesign'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#arbeiten'
+                                          target: null
+                                          rel: null
+                                    text: 'Als was arbeiten noch Ghostwriter im Kommunikationsdesign?'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#aufgaben'
+                                          target: null
+                                          rel: null
+                                    text: 'Aufgaben: Ghostwriter Kommunikationsdesign'
               -
                 type: set
                 attrs:
@@ -367,6 +523,13 @@ replicator:
           -
             id: rq5Wd7tN
             bard:
+              -
+                type: set
+                attrs:
+                  id: lldygols
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter-kommunikation
               -
                 type: heading
                 attrs:
@@ -565,6 +728,15 @@ replicator:
           -
             id: rq5Wd7tN
             bard:
+              -
+                type: set
+                attrs:
+                  id: lldyh6q8
+                  values:
+                    type: anchor_target
+                    anchor_name: kommunikation
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -804,6 +976,13 @@ replicator:
                     button_align: justify-center
                     spacing_top: false
               -
+                type: set
+                attrs:
+                  id: lldyio48
+                  values:
+                    type: anchor_target
+                    anchor_name: studium
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -975,6 +1154,13 @@ replicator:
             id: rq5Wd7tN
             bard:
               -
+                type: set
+                attrs:
+                  id: lldyj14j
+                  values:
+                    type: anchor_target
+                    anchor_name: unterschied
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -1020,22 +1206,6 @@ replicator:
             bard:
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Aspekt
               -
                 type: table
                 content:
@@ -1528,6 +1698,13 @@ replicator:
             id: rq5Wd7tN
             bard:
               -
+                type: set
+                attrs:
+                  id: lldyjjyo
+                  values:
+                    type: anchor_target
+                    anchor_name: Kommunikationsdesign
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1867,6 +2044,13 @@ replicator:
           -
             id: rq5Wd7tN
             bard:
+              -
+                type: set
+                attrs:
+                  id: lldykf1s
+                  values:
+                    type: anchor_target
+                    anchor_name: arbeiten
               -
                 type: heading
                 attrs:
@@ -2377,6 +2561,13 @@ replicator:
           -
             id: lldxni59
             bard:
+              -
+                type: set
+                attrs:
+                  id: lldyko2v
+                  values:
+                    type: anchor_target
+                    anchor_name: aufgaben
               -
                 type: heading
                 attrs:
