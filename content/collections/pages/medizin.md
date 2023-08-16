@@ -137,7 +137,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692201164
+updated_at: 1692202476
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -683,7 +683,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die wissenschaftlichen Ghostwriter unserer Agentur für akademisches Ghostwriting unterstützen Sie professionell und diskret während des gesamten Medizinstudiums '
+                    text: 'Die wissenschaftlichen Ghostwriter unserer Agentur für akademisches Ghostwriting unterstützen Sie professionell und diskret während des gesamten Medizinstudiums. Sei es durch das verfassen von Mustervorlagen für wissenschaftliche Arbeiten, die Auswertung von Experimente für eine Projektarbeit oder durch die Durchführung eines Lektorats oder einer Plagiatsprüfung - unsere Ghostwriter sind hervorragend qualifiziert und verfügen über die notwendige Erfahrung, um Sie während des gesamten Schreibprozesses Ihrer wissenschaftlichen Arbeit zu begleiten.'
               -
                 type: horizontal_rule
               -
@@ -705,7 +705,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Experimentelle Doktorarbeit für alle Forschungsbegeisterte'
+                    text: 'Experimentelle Doktorarbeit für Forschungsbegeisterte'
               -
                 type: paragraph
                 content:
@@ -724,7 +724,7 @@ replicator:
                     text: 'zukünftige Forschungsarbeit'
                   -
                     type: text
-                    text: ' vor, bei der Sie Daten im Labor anhand von Experimenten erheben und auswerten. Allerdings birgt diese Form der medizinischen Doktorarbeit den Nachteil, dass sie eine intensive Einarbeitung in die verschiedenen Labortechniken erfordert. GWriters unterstützt Sie in diesem Zusammenhang bei der experimentellen Planung sowie der Auswertung und Analyse von medizinischen Experimental-Daten.'
+                    text: ' vor, bei der Sie Daten im Labor anhand von Experimenten erheben und für die Präsentation in einer wissenschaftlichen Arbeit auswerten. Allerdings birgt diese Form der medizinischen Doktorarbeit den Nachteil, dass sie eine intensive Einarbeitung in die verschiedenen Labortechniken erfordert. Ghostwriter von GWriters unterstützen Sie in diesem Zusammenhang bei der experimentellen Planung sowie der Auswertung und Analyse von medizinischen Experimental-Daten.'
               -
                 type: heading
                 attrs:
@@ -738,7 +738,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bei der sogenannten klinischen Doktorarbeit bieten sich Ihnen mehrere Möglichkeiten. Sie können mit retrospektiven Studien arbeiten, also mit bereits erhobenen Patientendaten, oder - noch spannender - eine prospektive Studie mit Patienten zusammen betreiben, in der Sie Daten selbst erheben und anschließend analysieren. Dies ist natürlich aufwändiger und mit einem hohen Zeiteinsatz verbunden, allerdings ist es auch eine hervorragende Möglichkeit, um bereits Erfahrung im klinischen Alltag zu sammeln. GWriters unterstützt Sie bei der Forschungsplanung, der Darstellung von Diagnosen oder auch bei der Auswertung von Patientendaten.'
+                    text: 'Bei der sogenannten klinischen Doktorarbeit bieten sich Ihnen mehrere Möglichkeiten des wissenschaftlichen Arbeitens. Sie können mit retrospektiven Studien arbeiten, also mit bereits erhobenen Patientendaten, oder - noch spannender - eine prospektive Studie mit Patienten zusammen betreiben, in der Sie Daten selbst erheben und anschließend analysieren. Dies ist natürlich aufwändiger und mit einem hohen Zeiteinsatz verbunden, allerdings ist es auch eine hervorragende Möglichkeit, um bereits Erfahrung im klinischen und wissenschaftlichen Alltag zu sammeln. Wissenschaftliche Ghostwriter von GWriters unterstützen Sie bei der Forschungsplanung, der Darstellung von Diagnosen oder auch bei der Auswertung von Patientendaten.'
               -
                 type: heading
                 attrs:
@@ -771,7 +771,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Regelmäßig beraten unsere medizinischen Experten von GWriters unsere Kunden bei der Planung und Umsetzung medizinischer Forschungsvorhaben mit statistischem Fokus. Nicht nur das Coaching ist eine Form, wie wir von GWriters Sie bei Ihrer medizinischen '
+                    text: 'Regelmäßig beraten unsere medizinischen Experten von GWriters unsere Kunden bei der Planung und Umsetzung medizinischer Forschungsvorhaben mit statistischem Fokus. Nicht nur das Coaching ist eine Form, wie die Ghostwriter von GWriters Sie bei Ihrer medizinischen '
                   -
                     type: text
                     marks:
@@ -827,7 +827,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'erhobene Daten analysieren'
+                            text: 'wissenschaftlich erhobene Daten analysieren'
                   -
                     type: list_item
                     content:
@@ -891,7 +891,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'GWriters unterstützt Sie professionell bei der Themenwahl für Ihre medizinische Dissertation, außerdem auch durch Literaturrecherche oder die Erstellung eines Exposes. Ebenfalls können Sie sich von einem medizinischen Ghostwriter eine Mustervorlage für Ihre Doktorarbeit schreiben lassen oder eine Textredaktion oder ein Lektorat in Anspruch nehmen, um bereits Ihre bereits verfassten Texte zu perfektionieren.'
+                    text: 'Ghostwriter von GWriters unterstützen Sie professionell bei der Themenwahl für Ihre medizinische Dissertation, außerdem auch durch Literaturrecherche oder die Erstellung eines Exposes. Ebenfalls können Sie sich von einem medizinischen Ghostwriter eine Mustervorlage für Ihre Doktorarbeit schreiben lassen oder eine Textredaktion oder ein Lektorat in Anspruch nehmen, um bereits Ihre bereits verfassten Texte zu perfektionieren.'
               -
                 type: heading
                 attrs:
@@ -1169,7 +1169,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von unseren Ghostwritern erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme der Texte des Ghostwriters als eigene Leistungen.\_"
               -
                 type: heading
                 attrs:
