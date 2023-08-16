@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1692204326
+updated_at: 1692204405
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -227,6 +227,8 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
@@ -248,6 +250,8 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: textAlign
                         attrs:
@@ -271,6 +275,8 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
@@ -293,6 +299,8 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
@@ -309,6 +317,8 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: textAlign
                         attrs:
@@ -327,6 +337,8 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
@@ -343,6 +355,8 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: textAlign
                         attrs:
