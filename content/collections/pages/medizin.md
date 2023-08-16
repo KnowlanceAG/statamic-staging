@@ -134,11 +134,10 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680539347
+updated_at: 1692201164
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -170,7 +169,33 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Das Studium der Medizin ist äußerst anspruchsvoll und muss höchsten akademischen Ansprüchen genügen, geht es doch oft um das Leben von Menschen und Tieren. Die Last des facettenreichen Studiums und das gleichzeitige Erstellen einer Doktorarbeit bereiten vielen Studenten der Medizin erhebliche Schwierigkeiten. Um für Unterstützung zu sorgen und Zeit für wichtige Prüfungen zu schaffen, können Studenten der Medizin\_"
+                    text: 'Das Studium der Medizin ist äußerst anspruchsvoll und Studierende müssen höchsten akademischen und wissenschaftlichen Ansprüchen genügen, geht es doch oft um das Leben von Menschen und Tieren. Der Abschluss des facettenreichen Medizinstudiums und das gleichzeitige Erstellen einer Doktorarbeit bereiten vielen Studierenden der Medizin erhebliche Schwierigkeiten. Um Zeit für wichtige Prüfungen zu schaffen, können '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Studierende
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: " der Medizin\_"
                   -
                     type: text
                     marks:
@@ -224,7 +249,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_und Coaches engagieren."
+                    text: "\_und Coaches zur Unterstützung bei wissenschaftlichen Arbeiten engagieren."
               -
                 type: set
                 attrs:
@@ -249,7 +274,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Medizin Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
+                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Medizin Ghostwriter suchen, dann können Sie uns gerne jetzt eine\_"
                   -
                     type: text
                     marks:
@@ -280,7 +305,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung durch einen akademischen Ghostwriter wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von akademischen Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage im vollen Umfang für Ihre wissenschaftliche Arbeit nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
               -
                 type: heading
                 attrs:
@@ -314,7 +339,33 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Selbst im Berufsleben wird besonders von Medizinern erwartet, Fachartikel in Fachzeitschriften zu veröffentlichen oder andere wissenschaftliche Texte zu verfassen, um die berufliche Karriere voranzutreiben. Dies ist kaum zu leisten, betrachtet man die Arbeitszeiten und Belastungen im Klinikalltag. Auch in diesem Bereich ist in der Medizin\_"
+                    text: 'Nicht nur im Medizinstudium, sondern auch nach dem Abschluss im Berufsleben wird besonders von Medizinern erwartet, Fachartikel zu ihrer wissenschaftlichen Forschung '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'in Fachzeitschriften '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "zu veröffentlichen oder andere wissenschaftliche Texte zu verfassen, um ihre berufliche Karriere voranzutreiben. Dies ist kaum zu leisten, betrachtet man die Arbeitszeiten und Belastungen im Klinikalltag. Daher ist in der Medizin\_"
                   -
                     type: text
                     marks:
@@ -364,7 +415,13 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Unsere Freelancer und Ghostwriter der Medizin sind meist selbst Ärzte und sind im jeweiligen Fachgebiet exzellent qualifiziert. Sie werten medizinische Forschungsdaten aus, beraten und coachen den Kunden bei der Erstellung der Dissertation oder unterstützen den Studenten bei einer Hausarbeit, Seminararbeit und anderen Abgaben.'
+                    text: 'Unsere Ghostwriter der Medizin sind meist selbst Ärzte oder in der Humanmedizin wissenschaftlich tätig und sind im jeweiligen Fachgebiet exzellent qualifiziert. Sie werten medizinische Forschungsdaten aus, beraten und coachen den Kunden bei der Erstellung der Dissertation oder unterstützen Studierende bei einer Projektarbeit, Hausarbeit, Seminararbeit und anderen Abgaben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch Teilleistungen können unsere akademischen Ghostwriter übernehmen. Dazu zählen bspw. die Literaturrecherche für Ihr Forschung, das Korrekturlesen Ihrer Arbeit sowie Durchführung einer Plagiatsprüfung, im Ihnen einen hervorragenden Abschluss zu garantieren.'
               -
                 type: heading
                 attrs:
@@ -620,7 +677,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Eine erfolgreiche medizinische Doktorarbeit anzufertigen ist eine nicht zu unterschätzende Herausforderung, vor allem, da viele Medizinstudenten ihre Doktorarbeit nebenberuflich verfassen. Ob es sich um die Planung, die Datenanalyse oder die Auswertung von Diagnosen handelt, jeder Teil der medizinischen Doktorarbeit hat wie jede andere wissenschaftliche Arbeit seine Besonderheiten und erfordert die korrekte wissenschaftliche Vorgehensweise. Daher greifen viele Medizinstudenten auf die Unterstützung von akademischen Experten zurück, sodass viele Ghostwriter Medizin als den Fachbereich für Ihre Spezialisierung wählen.'
+                    text: 'Eine erfolgreiche medizinische Doktorarbeit anzufertigen ist eine nicht zu unterschätzende Herausforderung, vor allem, da viele Medizinstudenten ihre Doktorarbeit nebenberuflich verfassen. Ob es sich um die Planung, die Literaturrecherche, den Umfang, die Datenanalyse oder die Auswertung von humanmedizinischen Diagnosen handelt, jeder Teil der medizinischen Doktorarbeit hat wie jede andere wissenschaftliche Arbeit oder Projektarbeit seine Besonderheiten und erfordert die korrekte wissenschaftliche Vorgehensweise. Daher greifen viele Medizinstudenten auf die Unterstützung von akademischen Experten zurück, sodass viele Ghostwriter Medizin als den Fachbereich für Ihre Spezialisierung wählen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die wissenschaftlichen Ghostwriter unserer Agentur für akademisches Ghostwriting unterstützen Sie professionell und diskret während des gesamten Medizinstudiums '
               -
                 type: horizontal_rule
               -
