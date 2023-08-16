@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692204755
+updated_at: 1692207385
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -682,7 +682,55 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Es ist üblich, dass Professoren von Studierenden der Wirtschaftswissenschaften eine Seminararbeit oder Hausarbeit schreiben lassen und diese bewerten. Ist dies in mehreren Fächern gleichzeitig der Fall, sind Studierende oftmals nicht in der Lage, diese in der angemessenen Güte zu bearbeiten. Daher setzen immer wieder Studierende der Wirtschaftswissenschaften Ghostwriter und akademische Freelancer ein. Diese sind Experten auf dem jeweiligen wirtschaftswissenschaftlichen Fachgebiet und sind aufgrund ihrer Erfahrung in der Lage, dem Hilfesuchenden zur Seite zu stehen. Ghostwriter der Wirtschaftswissenschaften können nicht nur bei Hausarbeiten oder Seminararbeiten, sondern auch durch die Erstellung von Mustervorlagen eine Hilfe beim Verfassen von Examensarbeiten wie einer Bachelorarbeit oder Masterarbeit sein.'
+                    text: 'Es ist üblich, dass Professoren von Studierenden der Wirtschaftswissenschaften eine Projektarbeit, Seminararbeit oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und diese bewerten. Ist dies in mehreren Fächern gleichzeitig der Fall, sind Studierende oftmals nicht in der Lage, diese in der angemessenen Güte zu bearbeiten und die notwendige Forschungsarbeit aufzubringen. Daher setzen immer wieder Studierende der Wirtschaftswissenschaften Ghostwriter und akademische Experten ein. Diese Ghostwriter sind Experten auf dem jeweiligen wirtschaftswissenschaftlichen Fachgebiet und sind aufgrund ihrer Erfahrung in der Lage, dem Hilfesuchenden zur Seite zu stehen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ghostwriter der Wirtschaftswissenschaften können nicht nur bei Hausarbeiten, Projektarbeiten oder Seminararbeiten, sondern auch durch die Auswertung von Daten und die Erstellung von Mustervorlagen eine Hilfe beim Verfassen von Examensarbeiten wie einer Bachelorarbeit oder Masterarbeit sein. Darüber hinaus können diese auch durch ein Lektorat und eine Plagiatsprüfung die Qualität eigens verfasster Arbeiten sicherstellen.'
               -
                 type: horizontal_rule
               -
@@ -898,7 +946,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Das Wirtschaftswissenschaften-Studium ist ein sehr breites und umfassendes Fach. Im Grundstudium der Wirtschaftswissenschaften wird Wissen zu Mathematik, Rechnungswesen, Statistik und auch Rechtswissenschaften vermittelt. In diesem Zusammenhang lernt der Student im Grundstudium insbesondere, wie Modelle entstehen und erstellt werden und wie mit Analysen umzugehen ist.'
+                    text: 'Das Wirtschaftswissenschaften-Studium ist ein sehr breites und umfassendes Fach. Im Grundstudium der Wirtschaftswissenschaften wird Wissen vorrangig aus dem Bereich der BWL zu Mathematik (insbesondere Wirtschaftsmathematik), Rechnungswesen, Statistik und auch Rechtswissenschaften vermittelt. In diesem Zusammenhang lernt der Student im Grundstudium insbesondere, wie Modelle entstehen und erstellt werden und wie mit Analysen umzugehen ist.'
               -
                 type: paragraph
                 content:
@@ -930,7 +978,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Weitere Verästelungen können in diesen Studienfächern folgen oder eine Fokussierung auf die BWL oder die VWL. Diese Studienfächer haben ausgeprägte Schnittstellen miteinander. Je nach Auswahl des Schwerpunktes werden verschiedene und hohe Anforderungen im Studium gestellt. Da diese hohen Anforderungen häufig zu Überforderung führen, beauftragen Studierende der Wirtschaftswissenschaften Ghostwriter häufig mit einer professionellen Unterstützung. Die erfahrenen Ghostwriter für das jeweilige Fachgebiet bringen alle notwendigen Know-Hows mit. Entweder lassen sich Studierende von Ghostwritern eine Mustervorlage für ihre wissenschaftlichen Arbeiten schreiben oder sie erhalten Ratschläge zur jeweiligen Arbeit. Gerade die Studienanfänger können eine gute Unterstützung und Begleitung durch Ghostwriter im akademischen Bereich der Wirtschaftswissenschaften erhalten.'
+                    text: 'Weitere Verästelungen können in diesen Studienfächern folgen oder eine Fokussierung auf die BWL (Betriebswirtschaftslehre) oder die VWL. Diese Studienfächer haben ausgeprägte Schnittstellen miteinander. Je nach Auswahl des Schwerpunktes werden verschiedene und hohe Anforderungen im Studium gestellt. Da diese hohen Anforderungen häufig zu Überforderung führen, beauftragen Studierende der Wirtschaftswissenschaften Ghostwriter häufig mit einer professionellen Unterstützung. Die erfahrenen Ghostwriter für das jeweilige Fachgebiet bringen alle notwendigen Know-Hows mit. Entweder lassen sich Studierende von Ghostwritern eine Mustervorlage für ihre wissenschaftlichen Arbeiten schreiben oder sie erhalten von einem im Fachbereich erfahrenen Ghostwriter Ratschläge zur jeweiligen Arbeit. Gerade die Studienanfänger können eine gute Unterstützung und Begleitung durch Ghostwriter im akademischen Bereich der Wirtschaftswissenschaften erhalten.'
               -
                 type: heading
                 attrs:
@@ -1177,7 +1225,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: ' Einblick in das Unternehmen schaffen, in dem Erfahrungen gesammelt und neue Kontakte geknüpft werden können. Häufig werden Kontakte zu einem Unternehmen aufgebaut, um dort später die Abschlussarbeit zu schreiben. Das Wirtschaftswissenschaften-Studium ist sehr stark praxisorientiertes Studium. Daher sollte der Kontakt zur Industrie aufrecht erhalten werden, um später in der Karriere auf diese Kontakte aufbauen zu können.'
+                    text: ' Einblick in das Unternehmen schaffen, in dem Erfahrungen gesammelt und neue Kontakte geknüpft werden können. Häufig werden Kontakte zu einem Unternehmen aufgebaut, um dort später die Abschlussarbeit zu schreiben. Das Wirtschaftswissenschaften-Studium ist besonders im Bereich der BWL ein sehr stark praxisorientiertes Studium. Daher sollte der Kontakt zur Industrie aufrecht erhalten werden, um später in der Karriere auf diese Kontakte aufbauen zu können.'
               -
                 type: paragraph
                 content:
@@ -1367,7 +1415,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von unseren Ghostwriter erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme des durch den Ghostwriter erstellten Texts als eigene Leistungen.\_"
               -
                 type: heading
                 attrs:
