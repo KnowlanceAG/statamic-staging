@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1692202628
+updated_at: 1692202714
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1522,7 +1522,7 @@ replicator:
       -
         id: lldxlknf
         columns_per_row: 2
-        single_col: true
+        single_col: false
         grid:
           -
             id: rq5Wd7tN
@@ -1552,9 +1552,7 @@ replicator:
                           hex: '#000'
                     text: 'Ein Ghostwriter im Kommunikationsdesign kann eine Vielzahl von Aufgaben in verschiedenen Bereichen übernehmen. Hier sind einige Beispiele:'
               -
-                type: ordered_list
-                attrs:
-                  order: 1
+                type: bullet_list
                 content:
                   -
                     type: list_item
@@ -1672,6 +1670,13 @@ replicator:
                                 attrs:
                                   align: start
                             text: 'Akademiker nutzen ihre Fachkenntnisse, um Designberatung für Unternehmen, Agenturen oder Organisationen anzubieten. Sie unterstützen bei der Entwicklung von Markenidentitäten, Benutzeroberflächen-Design und Kommunikationsstrategien.'
+            show_as_card: false
+          -
+            id: lldxlzok
+            bard:
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -1701,15 +1706,6 @@ replicator:
                                 attrs:
                                   align: start
                             text: 'Sie arbeiten in Designstudios, Werbeagenturen oder als freiberufliche Designer. Hier entwickeln sie kreative Konzepte, gestalten Werbematerialien, Websites, Apps, Verpackungen und andere visuelle Kommunikationsmittel.'
-            show_as_card: false
-          -
-            id: lldxlzok
-            bard:
-              -
-                type: ordered_list
-                attrs:
-                  order: 1
-                content:
                   -
                     type: list_item
                     content:
@@ -1857,7 +1853,7 @@ replicator:
       -
         id: lldxn3n6
         columns_per_row: 2
-        single_col: true
+        single_col: false
         grid:
           -
             id: rq5Wd7tN
