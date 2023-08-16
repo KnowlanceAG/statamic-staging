@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1692202586
+updated_at: 1692202628
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -880,7 +880,7 @@ replicator:
                   id: lldxq31f
                   values:
                     type: spacer
-                    padding-y: 68
+                    padding-y: 83
               -
                 type: paragraph
         type: row
@@ -891,7 +891,7 @@ replicator:
     is_full: true
     bg_toggle: true
     bg_image: seiten/fachrichtungen/kommunikationsdesign.jpg
-    bg_image_fixed: false
+    bg_image_fixed: true
     border: false
     type: add_section
     enabled: true
