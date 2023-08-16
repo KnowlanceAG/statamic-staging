@@ -136,11 +136,10 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680539747
+updated_at: 1692204755
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -173,7 +172,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Das Studium der Wirtschaftswissenschaften ist geprägt von zahlreichen wirtschaftlichen Modellen und Ansätzen, von denen es gilt eine möglichst optimale Lösung für ein Problem zu schaffen. Um sich bei der Bewältigung der zahlreichen Abgaben und Ausarbeitungen mit Mustervorlagen helfen zu lassen, können Studenten der Wirtschaftswissenschaften\_"
+                    text: "Das Studium der Wirtschaftswissenschaften ist geprägt von zahlreichen wirtschaftlichen Modellen und Ansätzen, von denen es gilt eine möglichst optimale Lösung für ein Problem zu schaffen. Um sich bei der Bewältigung der zahlreichen Abgaben und Ausarbeitungen mit Mustervorlagen helfen zu lassen, können Studierende der Wirtschaftswissenschaften\_"
                   -
                     type: text
                     marks:
@@ -200,7 +199,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_und akademische Freelancer beauftragen."
+                    text: "\_unserer akademischen Ghostwriting Agentur beauftragen."
               -
                 type: set
                 attrs:
@@ -225,7 +224,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftswissenschaften Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
+                    text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftswissenschaften Ghostwriter suchen, dann können Sie uns gerne jetzt eine\_"
                   -
                     type: text
                     marks:
@@ -256,7 +255,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung von einem Ghostwriter aus Ihrem Fachbereich wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Projektarbeiten, Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen Ihres Studiengangs erfüllt.'
               -
                 type: heading
                 attrs:
@@ -290,7 +289,23 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Unser Team von erfahrenen Akademikern aus den Wirtschaftswissenschaften unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder unserer Freelancer und Wirtschaftswissenschaften-Ghostwriter besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Mustervorlagen für wirtschaftswissenschaftliche Arbeiten vorweisen. Neben der Beratung und dem Coaching bei der gesamten Arbeit, kann der Ghostwriter auch lediglich als\_"
+                    text: 'Unser Team von erfahrenen Akademikern aus dem Bereich der Wirtschaftswissenschaften unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, unsere Ghostwriter bieten Ihnen umfassenden individuellen Beistand bei Ihrer Forschungsarbeit. Jeder unserer Wirtschaftswissenschaften-Ghostwriter besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Mustervorlagen für wirtschaftswissenschaftliche Arbeiten vorweisen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Neben der Beratung und dem Coaching bei der gesamten Arbeit, kann der Ghostwriter auch als\_"
                   -
                     type: text
                     marks:
@@ -366,7 +381,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: ' beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt.'
+                    text: ' oder zur Auswertung der Im Rahmen Ihrer Forschungsarbeit erhobenen Daten beauftragt werden. Durch ein Lektorat wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt. Mit einer durch unsere Ghostwriter durchgeführten Plagiatsprüfung können Sie zudem noch sicher gehen, dass Sie bei der Bewertung Ihrer Projektarbeit oder Abschlussarbeit keine böse Überraschung erwartet.'
               -
                 type: heading
                 attrs:
@@ -667,7 +682,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Es ist üblich, dass Professoren von Studenten der Wirtschaftswissenschaften eine Seminararbeit oder Hausarbeit schreiben lassen und diese bewerten. Ist dies in mehreren Fächern gleichzeitig der Fall, sind Studenten oftmals nicht in der Lage, diese in der angemessenen Güte zu bearbeiten. Daher setzen immer wieder Studenten der Wirtschaftswissenschaften Ghostwriter und akademische Freelancer ein. Diese sind Experten auf dem jeweiligen wirtschaftswissenschaftlichen Fachgebiet und sind aufgrund ihrer Erfahrung in der Lage, dem Hilfesuchenden zur Seite zu stehen. Ghostwriter der Wirtschaftswissenschaften können nicht nur bei Hausarbeiten oder Seminararbeiten, sondern auch durch die Erstellung von Mustervorlagen eine Hilfe beim Verfassen von Examensarbeiten wie einer Bachelorarbeit oder Masterarbeit sein.'
+                    text: 'Es ist üblich, dass Professoren von Studierenden der Wirtschaftswissenschaften eine Seminararbeit oder Hausarbeit schreiben lassen und diese bewerten. Ist dies in mehreren Fächern gleichzeitig der Fall, sind Studierende oftmals nicht in der Lage, diese in der angemessenen Güte zu bearbeiten. Daher setzen immer wieder Studierende der Wirtschaftswissenschaften Ghostwriter und akademische Freelancer ein. Diese sind Experten auf dem jeweiligen wirtschaftswissenschaftlichen Fachgebiet und sind aufgrund ihrer Erfahrung in der Lage, dem Hilfesuchenden zur Seite zu stehen. Ghostwriter der Wirtschaftswissenschaften können nicht nur bei Hausarbeiten oder Seminararbeiten, sondern auch durch die Erstellung von Mustervorlagen eine Hilfe beim Verfassen von Examensarbeiten wie einer Bachelorarbeit oder Masterarbeit sein.'
               -
                 type: horizontal_rule
               -
@@ -899,7 +914,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Im Hauptstudium kann dann eine Vertiefung auf weitere Studieninhalte erfolgen. Diese wären möglicherweise das Wirtschaftsrecht, die Wirtschaftspädagogik, die Wirtschaftspsychologie, die Wirtschaftschemie oder auch sogar die Wirtschaftssoziologie. Daher studieren häufig die Wirtschaftswissenschaften Studenten als Nebenfach noch andere Fächer.'
+                    text: 'Im Hauptstudium kann dann eine Vertiefung auf weitere Studieninhalte erfolgen. Diese wären möglicherweise die Wirtschaftsmathematik, das Wirtschaftsrecht, die Wirtschaftspädagogik, die Wirtschaftspsychologie, die Wirtschaftschemie oder auch sogar die Wirtschaftssoziologie. Daher studieren häufig die Wirtschaftswissenschaften-Studierenden als Nebenfach noch andere Fächer.'
               -
                 type: paragraph
                 content:
@@ -915,7 +930,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Weitere Verästelungen können in diesen Studienfächern folgen oder eine Fokussierung auf die BWL oder die VWL. Diese Studienfächer haben ausgeprägte Schnittstellen miteinander. Je nach Auswahl des Schwerpunktes werden verschiedene und hohe Anforderungen im Studium gestellt. Da diese hohen Anforderungen häufig zu Überforderung führen, beauftragen Studenten der Wirtschaftswissenschaften Ghostwriter häufig mit einer professionellen Unterstützung. Die erfahrenen Ghostwriter für das jeweilige Fachgebiet bringen alle notwendigen Know-Hows mit. Entweder lassen sich Studenten von Ghostwritern eine Mustervorlage für ihre wissenschaftlichen Arbeiten schreiben oder sie erhalten Ratschläge zur jeweiligen Arbeit. Gerade die Studienanfänger können eine gute Unterstützung und Begleitung durch Ghostwriter im akademischen Bereich der Wirtschaftswissenschaften erhalten.'
+                    text: 'Weitere Verästelungen können in diesen Studienfächern folgen oder eine Fokussierung auf die BWL oder die VWL. Diese Studienfächer haben ausgeprägte Schnittstellen miteinander. Je nach Auswahl des Schwerpunktes werden verschiedene und hohe Anforderungen im Studium gestellt. Da diese hohen Anforderungen häufig zu Überforderung führen, beauftragen Studierende der Wirtschaftswissenschaften Ghostwriter häufig mit einer professionellen Unterstützung. Die erfahrenen Ghostwriter für das jeweilige Fachgebiet bringen alle notwendigen Know-Hows mit. Entweder lassen sich Studierende von Ghostwritern eine Mustervorlage für ihre wissenschaftlichen Arbeiten schreiben oder sie erhalten Ratschläge zur jeweiligen Arbeit. Gerade die Studienanfänger können eine gute Unterstützung und Begleitung durch Ghostwriter im akademischen Bereich der Wirtschaftswissenschaften erhalten.'
               -
                 type: heading
                 attrs:
@@ -1136,7 +1151,33 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Des Weiteren wird ein Praktikum von Universitäten und Fachhochschulen während der Studienzeit verlangt. Hier können Studenten Einblick in das Unternehmen schaffen, in dem Erfahrungen gesammelt und neue Kontakte geknüpft werden können. Häufig werden Kontakte zu einem Unternehmen aufgebaut, um dort später die Abschlussarbeit zu schreiben. Das Wirtschaftswissenschaften-Studium ist sehr stark praxisorientiertes Studium. Daher sollte der Kontakt zur Industrie aufrecht erhalten werden, um später in der Karriere auf diese Kontakte aufbauen zu können.'
+                    text: 'Des Weiteren wird ein Praktikum von Universitäten und Fachhochschulen während der Studienzeit verlangt. Hier können '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Studierende
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' Einblick in das Unternehmen schaffen, in dem Erfahrungen gesammelt und neue Kontakte geknüpft werden können. Häufig werden Kontakte zu einem Unternehmen aufgebaut, um dort später die Abschlussarbeit zu schreiben. Das Wirtschaftswissenschaften-Studium ist sehr stark praxisorientiertes Studium. Daher sollte der Kontakt zur Industrie aufrecht erhalten werden, um später in der Karriere auf diese Kontakte aufbauen zu können.'
               -
                 type: paragraph
                 content:
@@ -1220,7 +1261,33 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Die Einstiegsgehälter bei Wirtschaftswissenschaftlern liegen um die 30.000 bis 40.000 Euro pro Jahr. Mit mehr Berufserfahrung sind die Jahresendgehälter über 100.000 Euro möglich und denkbar. Ähnlich sehen die Gehaltserwartungen für Wirtschaftswissenschaften Ghostwriter aus, denn entsprechend der hohen Studentenzahlen ist auch der Unterstützungsbedarf im Bereich der Wirtschaftswissenschaften sehr groß.'
+                    text: 'Die Einstiegsgehälter bei Wirtschaftswissenschaftlern liegen um die 30.000 bis 40.000 Euro pro Jahr. Mit mehr Berufserfahrung sind die Jahresendgehälter über 100.000 Euro möglich und denkbar. Ähnlich sehen die Gehaltserwartungen für Wirtschaftswissenschaften Ghostwriter aus, denn entsprechend der hohen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Studierenden
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'zahlen ist auch der Unterstützungsbedarf im Bereich der Wirtschaftswissenschaften sehr groß.'
               -
                 type: heading
                 attrs:
