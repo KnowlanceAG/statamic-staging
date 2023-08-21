@@ -856,26 +856,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: ).
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -889,7 +869,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692020768
+updated_at: 1692630899
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
