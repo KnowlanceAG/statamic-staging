@@ -455,30 +455,15 @@ replicator:
           values:
             type: blog_entries
             entries:
-              - 633553be-fc45-4714-a1cb-5d6b626a6496
-              - 3a9cfcd5-ee1b-419f-b3d0-f156009b70d4
               - ca28b460-b1e0-4cb5-b565-8667145db010
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+              - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
+              - 6711bbb6-53ac-47dd-a424-b9b451d428e0
     show_as_card: false
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692557233
+updated_at: 1692631204
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
