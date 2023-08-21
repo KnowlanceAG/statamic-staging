@@ -136,11 +136,10 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680536945
+updated_at: 1692633229
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3220,18 +3219,6 @@ replicator:
                           target: null
                           rel: null
                     text: 'https://www.gew.de/index.php?eID=dumpFile&t=f&f=69256&token=a61fcc04e8c7a56c78393bdfc02ce951cc61559d&sdownload=&n=GEW-Entgelttabelle-TVoeD-Kommunen-SuE-Web.pdf'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
