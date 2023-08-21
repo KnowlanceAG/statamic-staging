@@ -1410,8 +1410,6 @@ replicator:
                     type: blog_entries
                     entries:
                       - 24ba331e-8f49-4a91-a310-dd85b6281939
-                      - 286294bc-3927-4a37-b1e0-defe39884464
-                      - cf3e2042-acbe-483e-9eb1-3b7b20659a23
               -
                 type: heading
                 attrs:
@@ -1457,21 +1455,6 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Hilfestellungen zur Formatierung der Diplomarbeit/Masterarbeit - Ruhr Universität Bochum'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -1483,7 +1466,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692059303
+updated_at: 1692632259
 template: default
 use_meta_keywords: false
 no_index_page: false
