@@ -131,7 +131,7 @@ teaser:
         text: '##phone##'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692633076
+updated_at: 1692633091
 replicator:
   -
     id: H0cWpLlj
@@ -1046,8 +1046,6 @@ replicator:
                       - 54a21e5d-b355-4031-ba30-726ca2eb7829
                       - 09c34137-dd35-4c1b-a0a5-16a946830ad0
                       - 90c98a48-07aa-44a7-bfa5-187a2717a778
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
