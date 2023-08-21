@@ -1,9 +1,10 @@
 ---
 id: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
+published: false
 blueprint: pages
 title: Wiki
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665571710
+updated_at: 1692635533
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -13,6 +14,7 @@ override_twitter_settings: false
 page_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
 replicator:
   -
+    id: jaMBv9a5
     bard:
       -
         type: heading
@@ -949,6 +951,5 @@ og_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
 og_description: 'Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen und der Erstellung von akademischen Texten. Erfahren Sie hier meh'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
