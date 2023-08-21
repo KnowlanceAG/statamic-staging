@@ -136,11 +136,10 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680539526
+updated_at: 1692633914
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1385,34 +1384,6 @@ replicator:
                           target: _blank
                           rel: nofollow
                     text: 'Institut für Soziologie – Uni Münster'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
