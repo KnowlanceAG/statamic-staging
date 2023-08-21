@@ -2780,25 +2780,7 @@ replicator:
                     type: blog_entries
                     entries:
                       - ece83e8a-3c91-4e07-8c58-4bcd1c937ec1
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
+                      - 14859f8c-0be8-41e4-9b2b-24df4b44c28c
             show_as_card: false
         type: row
         enabled: true
@@ -2811,7 +2793,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691765116
+updated_at: 1692631111
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
