@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692632889
+updated_at: 1692633506
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -186,6 +186,177 @@ replicator:
                         attrs:
                           align: center
                     text: ' finden, der genau Ihren individuellen Anforderungen entspricht. Wenn Sie Ihr akademisches Projekt im Bereich Kommunikationswissenschaften vertrauensvoll in die Hände eines Ghostwriters geben möchten und eine Mustervorlage für Ihre wissenschaftliche Arbeit von einem Experten erstellen lassen möchten, dann empfehlen wir Ihnen, sich an eine seriöse Ghostwriting-Agentur zu wenden. Diese Agentur arbeitet ausschließlich mit erfahrenen Kommunikationswissenschaftlern, Doktoren und Professoren zusammen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter-kommunikation'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter & Kommunikationswissenschaft'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#kommunikation'
+                                  target: null
+                                  rel: null
+                            text: 'Kommunikation & Wissenschaft'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#studium'
+                                  target: null
+                                  rel: null
+                            text: 'Studium der Kommunikationswissenschaften'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: link
+                                attrs:
+                                  href: '#unterschied'
+                                  target: null
+                                  rel: null
+                            text: 'Kommunikationsdesign und Kommunikationswissenschaften'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: link
+                                attrs:
+                                  href: '#Kommunikationsdesign'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Kommunikationsdesign'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: link
+                                attrs:
+                                  href: '#arbeiten'
+                                  target: null
+                                  rel: null
+                            text: 'Als was arbeiten noch Ghostwriter im Kommunikationsdesign?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: link
+                                attrs:
+                                  href: '#aufgaben'
+                                  target: null
+                                  rel: null
+                            text: 'Aufgaben: Ghostwriter Kommunikationsdesign'
             show_as_card: false
         type: row
         enabled: true
@@ -207,167 +378,6 @@ replicator:
           -
             id: rq5Wd7tN
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: Inhaltsverzeichnis
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: '#ghostwriter-kommunikation'
-                          target: null
-                          rel: null
-                    text: 'Ghostwriter & Kommunikationswissenschaft'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: '#kommunikation'
-                          target: null
-                          rel: null
-                    text: 'Kommunikation & Wissenschaft'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: '#studium'
-                          target: null
-                          rel: null
-                    text: 'Studium der Kommunikationswissenschaften'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
-                        attrs:
-                          href: '#unterschied'
-                          target: null
-                          rel: null
-                    text: 'Kommunikationsdesign und Kommunikationswissenschaften'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
-                        attrs:
-                          href: '#Kommunikationsdesign'
-                          target: null
-                          rel: null
-                    text: 'Ghostwriter Kommunikationsdesign'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
-                        attrs:
-                          href: '#arbeiten'
-                          target: null
-                          rel: null
-                    text: 'Als was arbeiten noch Ghostwriter im Kommunikationsdesign?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
-                        attrs:
-                          href: '#aufgaben'
-                          target: null
-                          rel: null
-                    text: 'Aufgaben: Ghostwriter Kommunikationsdesign'
               -
                 type: set
                 attrs:
@@ -410,8 +420,6 @@ replicator:
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -3040,34 +3048,6 @@ replicator:
                           target: _blank
                           rel: nofollow
                     text: 'Grobe Informationen zur Kommunikationswissenschaft – Wikipedia'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
