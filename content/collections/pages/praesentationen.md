@@ -2963,25 +2963,6 @@ replicator:
                       - 8778439c-ea07-4542-9287-cb87e6074f6a
                       - e67b3f8a-aa07-4834-a747-608fdf37f8be
                       - 6bd7bc4f-12a8-43c9-8ba1-5911ca389cb7
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -2993,8 +2974,8 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691537251
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692632741
 template: default
 meta_title: 'Professionelle Präsentation erstellen lassen • GWriters'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
