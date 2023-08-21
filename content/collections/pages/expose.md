@@ -130,8 +130,8 @@ teaser:
               rel: null
         text: '##phone##'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691769537
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692633076
 replicator:
   -
     id: H0cWpLlj
@@ -1048,19 +1048,6 @@ replicator:
                       - 90c98a48-07aa-44a7-bfa5-187a2717a778
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
