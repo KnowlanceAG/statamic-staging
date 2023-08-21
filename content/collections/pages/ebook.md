@@ -1640,25 +1640,8 @@ replicator:
                     type: blog_entries
                     entries:
                       - 56aa7035-50e2-4e3c-b340-67c136dad294
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
+                      - 6189e473-16c1-4f90-9ede-1c2d4475093c
+                      - 21adb0c6-0b0a-4eca-9c69-8efee4289a4c
             show_as_card: false
         type: row
         enabled: true
@@ -1671,8 +1654,8 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691535052
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692632438
 meta_title: 'eBook schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
