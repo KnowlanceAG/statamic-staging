@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: RXuCGHOU
@@ -252,29 +251,14 @@ replicator:
             type: blog_entries
             entries:
               - 6711bbb6-53ac-47dd-a424-b9b451d428e0
-              - 27aa03db-c5fe-4cc4-b6ea-ef050232bc4d
               - 30956aca-67ef-4908-83c3-b0ca5e8cea26
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+              - ca5797f0-28d2-48ca-be1d-5c6ca8c1b01c
     show_as_card: false
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860346
+updated_at: 1692631249
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
