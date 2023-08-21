@@ -1410,6 +1410,8 @@ replicator:
                     type: blog_entries
                     entries:
                       - 24ba331e-8f49-4a91-a310-dd85b6281939
+                      - 6711bbb6-53ac-47dd-a424-b9b451d428e0
+                      - ece83e8a-3c91-4e07-8c58-4bcd1c937ec1
               -
                 type: heading
                 attrs:
@@ -1466,7 +1468,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692632259
+updated_at: 1692632318
 template: default
 use_meta_keywords: false
 no_index_page: false
