@@ -3566,25 +3566,6 @@ replicator:
                       - 4148325d-d0d4-4055-9104-c4cb39f5a282
                       - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
                       - ece83e8a-3c91-4e07-8c58-4bcd1c937ec1
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -3597,7 +3578,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1688400286
+updated_at: 1692630846
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
