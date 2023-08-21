@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: qxeDohy8
@@ -265,29 +264,14 @@ replicator:
             entries:
               - fc6e7de5-8b4e-42c8-9a10-95208fbce892
               - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
-              - b0fee135-df37-4492-83ea-6f3799719792
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+              - be792eef-d56d-4a1a-b00d-e000278c4eec
     show_as_card: false
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860400
+updated_at: 1692631872
 page_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'
