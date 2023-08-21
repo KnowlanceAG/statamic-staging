@@ -4,6 +4,7 @@ blueprint: pages
 title: 'Ghostwriter Job'
 replicator:
   -
+    id: Ui58EF6M
     bard:
       -
         type: heading
@@ -476,48 +477,12 @@ replicator:
           -
             type: text
             text: 'Bei GWriters ist jedes Projekt ein Unikat. Mit jedem neuen Thema gibt es eine neue intellektuelle Herausforderungen und unterschiedliche Arbeitsweisen, die ausprobiert werden können. Zudem könnt Sie Ihre eigenen Ideen in Projekte einbringen, den Grad zwischen Empirie und Theorie bei Arbeiten mitbestimmen und sich laufend in neue interessante Themenbereiche vorwagen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
     show_as_card: false
     type: editor
     enabled: true
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665572103
+updated_at: 1692630867
 page_title: 'GWriters • Ghostwriter Job'
 meta_title: 'GWriters • Ghostwriter Job'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Job bei GWriters!'
@@ -531,6 +496,5 @@ og_title: 'GWriters • Ghostwriter Job'
 og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Job bei GWriters!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
