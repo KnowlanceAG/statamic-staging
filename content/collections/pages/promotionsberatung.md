@@ -147,7 +147,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In Deutschland und der Schweiz gilt der Doktortitel nach wie vor als klassischer Karrierebeschleuniger. In einigen Bereichen & Branchen, wie der Forschung,'
+                    text: 'In Deutschland und der Schweiz gilt der Doktortitel nach wie vor als klassischer Karrierebeschleuniger. In einigen Bereichen & Branchen, wie der Forschung, '
                   -
                     type: text
                     marks:
@@ -157,7 +157,7 @@ replicator:
                           href: /fachrichtungen/medizin
                           target: null
                           rel: null
-                    text: ' Medizin'
+                    text: Medizin
                   -
                     type: text
                     text: ' und Wissenschaft, gilt ein beruflicher Fortschritt ohne Promotion sogar als unmöglich. Promovierte Hochschul- oder Universitätsabsolventen gelten als fachkundig und leistungsbereit und erreichen durchschnittlich 10.000€ mehr Jahresgehalt in ihrem Einstiegsjob als ihre Arbeitskollegen ohne Doktortitel. Jedoch ist der akademische Aufstieg sehr zeitintensiv und arbeitsaufwendig. Von den bundesweit rund 60.000 Doktoranden kommt Expertenschätzungen zufolge nicht einmal jeder Zweite ans Ziel. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass der Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten einen Doktorvater für eine berufsbegleitende Promotion zu finden.'
@@ -640,7 +640,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692634245
+updated_at: 1692634308
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false
