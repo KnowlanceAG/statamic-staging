@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: wI26DH71
@@ -351,28 +350,13 @@ replicator:
               - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
               - fc6e7de5-8b4e-42c8-9a10-95208fbce892
               - 27876560-a260-4e18-89b1-417c11b8b31f
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
     show_as_card: false
     type: editor
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860503
+updated_at: 1692631992
 page_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
 meta_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
 meta_description: 'Sie möchten mehr über die Lektorat Preise erfahren? Die professionelle Ghostwriting Agentur GWriters.de informiert Sie über die Preise für Ihren Lektor.'
