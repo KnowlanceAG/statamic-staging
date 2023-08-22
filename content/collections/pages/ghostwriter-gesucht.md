@@ -445,47 +445,53 @@ replicator:
       -
         type: set
         attrs:
-          id: cbcPKSok
+          id: llmx8fsg
           values:
-            type: bild_und_text
+            type: img_text_ce
             bild:
               - seiten/ghostwriter-gesucht/bewerbung-ghostwriter-1.png
+            vertical_alignment_img: self-center
             text: |-
               ### Bewerbungsphase:
               - Anschreiben, Lebenslauf & Diplome
               - Publikationen & Forschung
               - Texte als Schreibproben
               - Erfahrungen mit Ghostwriting
-            ausrichtung: text_bild
+            vertical_alignment_text: self-start
+            reverse_columns: bild_text
+      -
+        type: paragraph
       -
         type: set
         attrs:
           id: HMfDJFYx
           values:
             type: spacer
-            padding-y: 15
+            padding-y: 10
       -
         type: set
         attrs:
-          id: eEvgMyTV
+          id: llmx71xo
           values:
-            type: bild_und_text
+            type: img_text_ce
             bild:
               - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken-1.png
+            vertical_alignment_img: self-center
             text: |-
               ### Aufnahme in die Ghostwriter-Datenbanken:
               - Verschwiegenheitserklärungen & Vorträge
               - ”Dummy Aufträge”
               - permanente Qualitätsprüfungen bei allen Aufträgen
               - Internes Ranking der Ghostwriter bzgl. Qualität
-            ausrichtung: text_bild
+            vertical_alignment_text: self-start
+            reverse_columns: bild_text
       -
         type: set
         attrs:
           id: of4BWSW1
           values:
             type: spacer
-            padding-y: 15
+            padding-y: 10
       -
         type: set
         attrs:
@@ -877,7 +883,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692745799
+updated_at: 1692745983
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
