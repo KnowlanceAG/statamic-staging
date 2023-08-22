@@ -133,10 +133,10 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: jFdDYF8s
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -278,7 +278,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
