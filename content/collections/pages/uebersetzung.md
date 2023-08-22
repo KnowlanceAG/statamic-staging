@@ -129,16 +129,16 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: jFdDYF8s
-    columns-replicator:
+    columns_replicator:
       -
-        columns_per_row: 1
-        single-col: false
+        id: yUb57lvQ
+        single_col: false
         grid:
           -
+            id: rQreZL4X
             bard:
               -
                 type: paragraph
@@ -250,7 +250,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unser Schwerpunkt liegt in der Übersetzung deutscher Texte in die Zielsprache Englisch, in welcher wissenschaftlichen Texte üblicherweise veröffentlicht werden. Übersetzungen in andere Sprachen erhalten Sie auf'
+                    text: 'Unser Schwerpunkt liegt in der Übersetzung deutscher Texte in die Zielsprache Englisch, in welcher wissenschaftlichen Texte üblicherweise veröffentlicht werden. Übersetzungen in andere Sprachen erhalten Sie auf '
                   -
                     type: text
                     marks:
@@ -275,12 +275,15 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
-        single-col: false
+        id: fIhZxyTI
+        columns_per_row: 3
+        single_col: false
         grid:
           -
+            id: 7W4aDptG
             bard:
               -
                 type: paragraph
@@ -288,8 +291,6 @@ replicator:
                   -
                     type: text
                     marks:
-                      -
-                        type: underline
                       -
                         type: textAlign
                         attrs:
@@ -528,6 +529,7 @@ replicator:
                     text: Zahnmedizin
             show_as_card: false
           -
+            id: IyXpvKtD
             bard:
               -
                 type: paragraph
@@ -751,6 +753,7 @@ replicator:
                     text: Wirtschaftsinformatik
             show_as_card: false
           -
+            id: umuSInHK
             bard:
               -
                 type: paragraph
@@ -975,7 +978,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -986,8 +989,8 @@ replicator:
     is_full: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860268
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1692693402
 meta_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 meta_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
