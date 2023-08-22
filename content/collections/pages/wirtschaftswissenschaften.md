@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692739455
+updated_at: 1692740873
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -856,6 +856,13 @@ replicator:
             id: iNDlvyDH
             bard:
               -
+                type: set
+                attrs:
+                  id: llmtf6k6
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -900,6 +907,84 @@ replicator:
           -
             id: cPAXQCZP
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'ChatGPT & andere KI Module: Alternative zu Wirtschaftswissenschaften Ghostwritern?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Die rasante Entwicklung der künstlichen Intelligenz hat in zahlreichen Branchen und Fachbereichen zu tiefgreifenden Veränderungen geführt. Insbesondere im akademischen Kontext wird diskutiert, inwiefern KI beim Verfassen von wissenschaftlichen Arbeiten eingesetzt werden kann und sollte. Im Bereich der Wirtschaftswissenschaften, einem Feld, das sowohl von quantitativen Daten als auch von qualitativen Interpretationen geprägt ist, stellt sich die Frage, wie effektiv und angemessen der Einsatz von KI wirklich ist. Wegen der zahlreichen Limitationen von KI sind akademische Ghostwriter in diesem Fachbereich noch immer unverzichtbar.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Technische Limitationen von KI'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Wirtschaftswissenschaften beschäftigen sich mit der Untersuchung von Märkten, wirtschaftlichen Entscheidungen und dem Verhalten von Individuen und Organisationen. Während KI-Systeme große Mengen an Daten effizient analysieren können, fehlt ihnen oft das intuitive Verständnis für die vielen Variablen, die wirtschaftliche Phänomene beeinflussen. Diese Disziplin ist nicht nur von Zahlen und Statistiken geprägt, sondern auch von menschlichen Verhaltensweisen, sozialen Dynamiken und geopolitischen Faktoren.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dazu kommt, dass sich die wirtschaftliche Landschaft ständig verändert. Neue ökonomische Theorien, Marktveränderungen und globale Entwicklungen führen zu ständigen Anpassungen in der Branche. Eine KI, die nicht regelmäßig aktualisiert wird, könnte rasch veraltete Modelle und Annahmen verwenden.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Rechtliche Aspekte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unpräzise oder fehlerhafte Informationen in den Wirtschaftswissenschaften können weitreichende Konsequenzen haben. Fehlinterpretationen könnten zu fehlerhaften Geschäftsentscheidungen, Investitionsfehlern oder falschen Marktprognosen führen. Dies kann Unternehmen nicht nur finanziell schaden, sondern auch rechtliche Konsequenzen nach sich ziehen, wenn Entscheidungen auf Grundlage solcher Informationen getroffen werden.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Vergleich zum akademischen Ghostwriting im Fach Wirtschaftswissenschaften'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein akademischer Ghostwriter bietet im wirtschaftswissenschaftlichen Bereich den Vorteil tiefer Einblicke und Analysen. Ein Experte in den Wirtschaftswissenschaften kann die Komplexität von Märkten, das Verhalten von Akteuren und die Feinheiten wirtschaftlicher Theorien verstehen, die eine KI möglicherweise übersehen oder nicht vollständig erfassen könnte.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Trotz der beeindruckenden Datenverarbeitungsfähigkeiten moderner KI-Systeme bleibt das menschliche Fachwissen in den Wirtschaftswissenschaften unersetzlich. Ein Experte in diesem Bereich bringt nicht nur analytische Fähigkeiten, sondern auch Intuition und Erfahrung in wissenschaftliche Arbeiten ein. Somit bleibt ein menschlicher Fachexperte die bessere Wahl für das Verfassen von wissenschaftlichen Arbeiten in den Wirtschaftswissenschaften im Vergleich zur KI.'
               -
                 type: heading
                 attrs:
