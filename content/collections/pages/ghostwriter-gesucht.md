@@ -494,7 +494,7 @@ replicator:
             type: img_text_ce
             bild:
               - seiten/ghostwriter-gesucht/vergabe-projekt.png
-            vertical_alignment_img: self-start
+            vertical_alignment_img: self-center
             text: |-
               ### Vergabe von Projekten:
               - geforderter Preis
@@ -877,7 +877,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692745765
+updated_at: 1692745799
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
