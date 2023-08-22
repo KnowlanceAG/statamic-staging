@@ -385,8 +385,8 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692631267
-meta_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
+updated_at: 1692710055
+meta_title: 'Ghostwriter gesucht? | Professionell & diskret von GWriters'
 meta_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
 use_meta_keywords: false
 no_index_page: false
