@@ -133,14 +133,14 @@ teaser:
         text: '##phone##'
 replicator:
   -
-    id: dVKGqoSm
+    id: llmvcj69
     columns_replicator:
       -
-        id: 6wzqYR7b
+        id: llmvcvpb
         single_col: true
         grid:
           -
-            id: jN7vHbsh
+            id: 3B5kZsF4
             bard:
               -
                 type: paragraph
@@ -219,6 +219,107 @@ replicator:
                   -
                     type: text
                     text: ' für ihre Examensarbeit schreiben lassen und diese Ghostwriter-Examensarbeit als Vorlage für ihre eigene Arbeit nutzen. Auch bei der Erstellung von einem Praktikumsbericht oder von Unterrichtsentwürfen, wie Sie oft vor der Anmeldung einer Examensarbeit vorgelegt werden müssen, können unsere Ghostwriter Sie unterstützen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmvcur0
+    columns_replicator:
+      -
+        id: llmvf1ar
+        single_col: true
+        grid:
+          -
+            id: 3B5kZsF4
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Examensarbeit Ghostwriter-Erfahrungen unserer Kunden'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llmvezm1
+        single_col: false
+        grid:
+          -
+            id: 3B5kZsF4
+            bard:
+              -
+                type: set
+                attrs:
+                  id: llmvfrnx
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmvh767
+    columns_replicator:
+      -
+        id: llmvh8cb
+        single_col: true
+        grid:
+          -
+            id: 3B5kZsF4
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Professionelle Unterstützung bei Ihrer Examensarbeit'
               -
                 type: paragraph
                 content:
@@ -330,6 +431,114 @@ replicator:
                       -
                         type: bold
                     text: ' an unsere Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen unsere Ghostwriter Ihnen keine Projektarbeiten oder Abschlussarbeiten (Bachelorarbeit, Masterarbeit, Doktorarbeit, Magisterarbeit, Diplomarbeit) oder andere Arten von Prüfungsleistungen oder Klausuren erstellen, gerne erstellen unsere Ghostwriter Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmvhq0i
+    columns_replicator:
+      -
+        id: llmvhx8f
+        single_col: true
+        grid:
+          -
+            id: 3B5kZsF4
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Unsere Leistungen für Ihre Examensarbeit'
+              -
+                type: set
+                attrs:
+                  id: FqnUsDDF
+                  values:
+                    type: leistungen_uebersicht_4_spaltig
+                    grid:
+                      -
+                        id: UPCEBymz
+                        image:
+                          - leistung/icon-ghostwriting.svg
+                        headline: GHOSTWRITING
+                        hover_content: 'Lassen Sie Ihre akademische Arbeit in der Medizin von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität &amp; Plagiate.'
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                      -
+                        id: SwRPlYb1
+                        image:
+                          - leistung/icon-lektorat.svg
+                        headline: LEKTORAT
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche &amp; fachliche (Medizin) Korrektheit prüfen.'
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                      -
+                        id: zXVDf3e0
+                        image:
+                          - logo-startseite/icon-plagiat.svg
+                        headline: PLAGIATSPRÜFUNG
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen in Ihrer Arbeit aus.'
+                        link:
+                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
+                      -
+                        id: aVIdCunZ
+                        image:
+                          - logo-startseite/icon-uebersetzung.svg
+                        headline: ÜBERSETZUNG
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, medizinische Übersetzungen.'
+                        link:
+                          - 7cad538c-ad74-4617-825e-bbac46ebf310
+              -
+                type: set
+                attrs:
+                  id: MrUkjvO9
+                  values:
+                    type: button
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH MEDIZIN'
+                    color: '#FF6606'
+                    spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmviqay
+    columns_replicator:
+      -
+        id: llmvir5c
+        single_col: true
+        grid:
+          -
+            id: 3B5kZsF4
+            bard:
               -
                 type: heading
                 attrs:
@@ -344,363 +553,6 @@ replicator:
                   -
                     type: text
                     text: 'Nach der Abgabe aller Projektarbeiten, Praktikumsberichte und Unterrichtsentwürfe sowie dem Bestehen aller Klausuren lassen Universitäten und Hochschulen am Ende des Studiums Examensarbeiten schreiben, um die Studierenden zu prüfen, ob diese das Gelernte nutzen können, um ein Problem innerhalb eines Zeitraumes nach wissenschaftlichen Richtlinien erfolgreich zu bearbeiten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Da die Leistungen, die Studierende bieten müssen, sehr vielseitig sind, sollte man keineswegs die Bearbeitung einer Examensarbeit auf die leichte Schulter nehmen. Statt sich langwierig mit der Frage zu beschäftigen „Wie schreibe ich eine Examensarbeit?“, können Studierende einen akademischen Ghostwriter mit '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: ' beauftragen. Er weist tiefgreifende Kenntnisse in seinem Fachgebiet vor und hat Erfahrungen mit allen wissenschaftlichen Formalismen. Besonders Hilfreich sind akademische Ghostwriter beim Schreiben einer Mustervorlage für Examensarbeiten oder bei der Überprüfung einer bereits verfassten Arbeit im Rahmen eines Lektorats.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die dadurch gewonnene Zeit können Studierende für Aufgaben nutzen, die er sonst nur schwerlich erfüllen könnte. Ein Beispiel dafür ist das Lernen für eine Nachholklausur oder das Verfassen von einem Praktikumsbericht, ohne die man das Studium nicht beenden kann. Auch sind Sorgen um den richtigen Umgang mit Literatur und der daraus resultierenden Plagiatsprüfung hinfällig - auch hier hat der Bearbeiter hinreichende Erfahrungen. Schließlich ist Lernen neben einer Examensarbeit sehr schwer, da diese bereits die volle Konzentration der Studierenden erfordert. Eine halbherzig angefertigte Examensarbeit nützt Studierenden nicht viel, auch sind die Anforderungen deutlich höher als beispielsweise bei einer Hausarbeit.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Mustervorlage für Examensarbeit schreiben lassen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Sie wissen nicht, wie die Kooperation mit einem akademischen Ghostwriter funktioniert? Sie beginnen mit einer unverbindlichen Anfrage auf unserer Webseite. Im Anfrageformular geben Sie die Anforderungen an Ihre wissenschaftliche Arbeit an. Sie wählen zuerst das Fach und die Leistungsart aus. Anschließend geben den Zeitraum und den Umfang Ihrer Aufgabenstellung an. Innerhalb von weniger Stunden erhalten Sie ein kostenloses Leistungsangebot, in dem die Kosten, Termine für Teillieferungen und Inhaltliche Äußerungen zusammengestellt werden. Zum Thema Ghostwriting-Preise: die voraussichtlichen Kosten können Sie auch separat von unserem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /preise
-                          target: null
-                          rel: null
-                    text: Preisrechner
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' berechnen lassen. Die Teillieferungen dienen dazu, Feedbacks bezüglich der Arbeit von Ihnen als Auftraggeber für Ihren Ghostwriter zu erhalten.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Unverbindliche Anfrage: Texterstellung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Nach Ihrer Zusage wird je nach Thema und Leistungsart ein passender Ghostwriter zu Ihrer Aufgabenstellung eingesetzt. Vor der Auftragsausführung werden noch einmal alle wichtigen Prozedere im Vertragsrahmen besprochen und unterschrieben. Während des Schreibprozesses erfolgt die gesamte Kommunikation mit Ihrem persönlichen Ghostwriter per Telefon und/oder E-Mail. Da der Datenschutz für unsere Schreibagentur besonders wichtig ist, wird die Anonymität der Daten aller Auftraggeber geschützt und nach dem Auftrag sowie der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: Teilleistungen
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Nach dem Erstellungsprozess wird die Mustervorlage für Ihre Texterstellung von einem unabhängigen Fachautor mit Vorwissen lektoriert und korrigiert. Anschließend wird der Text auf Plagiate überprüft, um zu garantieren, dass dieser zu 100% plagiatsfrei ist. Nach der Quellenauswertung erhalten Sie das Ergebnis für die nicht zitierten Textteile.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Fertigstellung der Arbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Zum Schluss wird die Qualität der Arbeit von einem qualifizierten Ghostwriter im Rahmen eines Lektorats überprüft. Der Ghostwriter stellt sicher, dass alle inhaltlichen Faktoren, Formatierungsrichtlinien, Formatvorgaben und alle weiteren Anforderungen eingehalten wurden. Nach der Auftragsausführung wird Ihnen Ihre Musterarbeit von Ihrem Ghostwriter als PDF-Datei zugeschickt. Das Musterbeispiel ist eine gute Vorbereitung vor der spätere Abgabe Ihrer eigenen Examensarbeit.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die Leistungen wie Lektorat, Korrektur und Plagiatsprüfung können Sie bei unseren Ghostwritern je nach Bedarf auch einzeln beauftragen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Leistungen:'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: Juq3YEOg
-        columns_per_row: 3
-        single_col: true
-        grid:
-          -
-            id: EQLaaAx1
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          target: null
-                          rel: null
-                    text: 'MAXQDA Auswertung'
-            show_as_card: false
-          -
-            id: J6fVG3gd
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/formatierung
-                          target: null
-                          rel: null
-                    text: Formatierung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
-            show_as_card: false
-          -
-            id: lQl1J874
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/uebersetzung
-                          target: null
-                          rel: null
-                    text: Übersetzung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-      -
-        id: AXd938Q1
-        single_col: true
-        grid:
-          -
-            id: eoRwbkdK
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wichtige akademische Fachbereiche'
               -
                 type: set
                 attrs:
@@ -1179,34 +1031,338 @@ replicator:
                                     text: 'Zahnmedizin Ghostwriter'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Da die Leistungen, die Studierende bieten müssen, sehr vielseitig sind, sollte man keineswegs die Bearbeitung einer Examensarbeit auf die leichte Schulter nehmen. Statt sich langwierig mit der Frage zu beschäftigen „Wie schreibe ich eine Examensarbeit?“, können Studierende einen akademischen Ghostwriter mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' beauftragen. Er weist tiefgreifende Kenntnisse in seinem Fachgebiet vor und hat Erfahrungen mit allen wissenschaftlichen Formalismen. Besonders Hilfreich sind akademische Ghostwriter beim Schreiben einer Mustervorlage für Examensarbeiten oder bei der Überprüfung einer bereits verfassten Arbeit im Rahmen eines Lektorats.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die dadurch gewonnene Zeit können Studierende für Aufgaben nutzen, die er sonst nur schwerlich erfüllen könnte. Ein Beispiel dafür ist das Lernen für eine Nachholklausur oder das Verfassen von einem Praktikumsbericht, ohne die man das Studium nicht beenden kann. Auch sind Sorgen um den richtigen Umgang mit Literatur und der daraus resultierenden Plagiatsprüfung hinfällig - auch hier hat der Bearbeiter hinreichende Erfahrungen. Schließlich ist Lernen neben einer Examensarbeit sehr schwer, da diese bereits die volle Konzentration der Studierenden erfordert. Eine halbherzig angefertigte Examensarbeit nützt Studierenden nicht viel, auch sind die Anforderungen deutlich höher als beispielsweise bei einer Hausarbeit.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Mustervorlage für Examensarbeit schreiben lassen: Der Ablauf'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Sie wissen nicht, wie die Kooperation mit einem akademischen Ghostwriter funktioniert? Sie beginnen mit einer unverbindlichen Anfrage auf unserer Webseite. Im Anfrageformular geben Sie die Anforderungen an Ihre wissenschaftliche Arbeit an. Sie wählen zuerst das Fach und die Leistungsart aus. Anschließend geben den Zeitraum und den Umfang Ihrer Aufgabenstellung an. Innerhalb von weniger Stunden erhalten Sie ein kostenloses Leistungsangebot, in dem die Kosten, Termine für Teillieferungen und Inhaltliche Äußerungen zusammengestellt werden. Zum Thema Ghostwriting-Preise: die voraussichtlichen Kosten können Sie auch separat von unserem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /preise
+                          target: null
+                          rel: null
+                    text: Preisrechner
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' berechnen lassen. Die Teillieferungen dienen dazu, Feedbacks bezüglich der Arbeit von Ihnen als Auftraggeber für Ihren Ghostwriter zu erhalten.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '1. Unverbindliche Anfrage'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Nach Ihrer Zusage wird je nach Thema und Leistungsart ein passender Ghostwriter zu Ihrer Aufgabenstellung eingesetzt. Vor der Auftragsausführung werden noch einmal alle wichtigen Prozedere im Vertragsrahmen besprochen und unterschrieben. Während des Schreibprozesses erfolgt die gesamte Kommunikation mit Ihrem persönlichen Ghostwriter per Telefon und/oder E-Mail. Da der Datenschutz für unsere Schreibagentur besonders wichtig ist, wird die Anonymität der Daten aller Auftraggeber geschützt und nach dem Auftrag sowie der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '2. Texterstellung & Teilleistungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Nach dem Erstellungsprozess wird die Mustervorlage für Ihre Texterstellung von einem unabhängigen Fachautor mit Vorwissen lektoriert und korrigiert. Anschließend wird der Text auf Plagiate überprüft, um zu garantieren, dass dieser zu 100% plagiatsfrei ist. Nach der Quellenauswertung erhalten Sie das Ergebnis für die nicht zitierten Textteile.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '3. Fertigstellung der Arbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Zum Schluss wird die Qualität der Arbeit von einem qualifizierten Ghostwriter im Rahmen eines Lektorats überprüft. Der Ghostwriter stellt sicher, dass alle inhaltlichen Faktoren, Formatierungsrichtlinien, Formatvorgaben und alle weiteren Anforderungen eingehalten wurden. Nach der Auftragsausführung wird Ihnen Ihre Musterarbeit von Ihrem Ghostwriter als PDF-Datei zugeschickt. Das Musterbeispiel ist eine gute Vorbereitung vor der spätere Abgabe Ihrer eigenen Examensarbeit.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Leistungen wie Lektorat, Korrektur und Plagiatsprüfung können Sie bei unseren Ghostwritern je nach Bedarf auch einzeln beauftragen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmvmmw1
+    columns_replicator:
+      -
+        id: llmvmouu
+        single_col: false
+        grid:
+          -
+            id: 3B5kZsF4
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer Examensarbeit Unterstützung oder akademisches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' benötigen, dann senden Sie uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llmvpiwi
+        columns_per_row: 1
+        single_col: false
+        grid:
+          -
+            id: 3B5kZsF4
+            bard:
               -
                 type: set
                 attrs:
-                  id: MUi4Y71J
+                  id: OMeALlWB
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 8 - 20 Uhr'
+            show_as_card: true
+          -
+            id: llmvpm0c
+            bard:
+              -
+                type: set
+                attrs:
+                  id: S9HNcMh5
                   values:
                     type: spacer
-                    padding-y: 30
+                    padding-y: 12
               -
-                type: horizontal_rule
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '100,- € pro Normseite.'
               -
                 type: set
                 attrs:
-                  id: RUzPuKVG
+                  id: CvzBjDvR
                   values:
                     type: button
-                    button_link: /anfrage
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
+                    button_align: justify-start
+                    spacing_top: true
               -
                 type: set
                 attrs:
-                  id: GU2oUUf2
+                  id: DTOsSWP8
                   values:
                     type: spacer
-                    padding-y: 30
+                    padding-y: 10
+            show_as_card: true
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: llmvpq48
+        single_col: false
+        grid:
+          -
+            id: 3B5kZsF4
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Ansprechpartner bei GWriters'
+              -
+                type: set
+                attrs:
+                  id: laif3jj1
+                  values:
+                    type: team_liste
+                    in_flow: true
+                    team_mitglieder:
+                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
+                      - a0275a30-5d74-46a4-84d6-acc7e827e95e
+                      - 0443cc18-5f72-486a-91de-9648a8fc0b2f
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: dVKGqoSm
+    columns_replicator:
+      -
+        id: AXd938Q1
+        single_col: true
+        grid:
+          -
+            id: eoRwbkdK
+            bard:
               -
                 type: heading
                 attrs:
@@ -1766,7 +1922,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692710025
+updated_at: 1692743455
 meta_title: 'Examensarbeit schreiben lassen | Hilfe vom Ghostwriter'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
