@@ -489,11 +489,12 @@ replicator:
       -
         type: set
         attrs:
-          id: 6uGIXGwE
+          id: llmwwal0
           values:
-            type: bild_und_text
+            type: img_text_ce
             bild:
               - seiten/ghostwriter-gesucht/vergabe-projekt.png
+            vertical_alignment_img: self-start
             text: |-
               ### Vergabe von Projekten:
               - geforderter Preis
@@ -505,7 +506,10 @@ replicator:
               		-Pünktlichkeit
               		-wissenschaftliche Qualität
               		-Erfahrungen mit dem GWriters-Team
-            ausrichtung: text_bild
+            vertical_alignment_text: self-start
+            reverse_columns: text_bild
+      -
+        type: paragraph
     show_as_card: false
     type: editor
     enabled: true
@@ -670,19 +674,7 @@ replicator:
                     vertical_alignment_img: self-start
                     text: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen an die Projektarbeit. Die Anforderungen an die Arbeit entscheiden über den Preis und in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
                     vertical_alignment_text: self-start
-                    reverse_columns: bild_text
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: 7VVEW2aw
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriter-gesucht/anfrage-3.png
-                    text: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen an die Projektarbeit. Die Anforderungen an die Arbeit entscheiden über den Preis und in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
-                    ausrichtung: text_bild
+                    reverse_columns: text_bild
               -
                 type: set
                 attrs:
@@ -693,13 +685,15 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: Dprgd2RN
+                  id: llmx2ny4
                   values:
-                    type: bild_und_text
+                    type: img_text_ce
                     bild:
-                      - seiten/ghostwriter-gesucht/ghostwriter-gesucht-2.png
+                      - seiten/ghostwriter-gesucht/ghostwriter-gesucht-3.png
+                    vertical_alignment_img: self-start
                     text: '<p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>'
-                    ausrichtung: bild_text
+                    vertical_alignment_text: self-start
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -883,7 +877,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692745327
+updated_at: 1692745765
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
