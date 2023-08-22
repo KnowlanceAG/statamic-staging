@@ -137,7 +137,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692633817
+updated_at: 1692725145
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -146,13 +146,14 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
-    id: dLfv4taQ
+    id: llmkm94t
     columns_replicator:
       -
-        id: TnRL8AlH
+        id: llmkmadn
+        single_col: false
         grid:
           -
-            id: YQBuqSfl
+            id: 3xksjpMR
             bard:
               -
                 type: paragraph
@@ -167,9 +168,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
-                    text: 'Das Studium der Medizin ist äußerst anspruchsvoll und Studierende müssen höchsten akademischen und wissenschaftlichen Ansprüchen genügen, geht es doch oft um das Leben von Menschen und Tieren. Der Abschluss des facettenreichen Medizinstudiums und das gleichzeitige Erstellen einer Doktorarbeit bereiten vielen Studierenden der Medizin erhebliche Schwierigkeiten. Um Zeit für wichtige Prüfungen zu schaffen, können '
+                    text: "Das Studium der Medizin ist äußerst anspruchsvoll und Studierende müssen höchsten akademischen und wissenschaftlichen Ansprüchen genügen, geht es doch oft um das Leben von Menschen und Tieren. Der Abschluss des facettenreichen Medizinstudiums und das gleichzeitige Erstellen einer Doktorarbeit bereiten vielen Studierenden der Medizin erhebliche Schwierigkeiten. Um Zeit für wichtige Prüfungen zu schaffen, können Studierende der Medizin\_"
                   -
                     type: text
                     marks:
@@ -181,32 +182,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
-                    text: Studierende
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: " der Medizin\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
                           hex: '#000'
                       -
                         type: link
@@ -233,7 +208,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -272,7 +247,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Medizin Ghostwriter suchen, dann können Sie uns gerne jetzt eine\_"
                   -
@@ -287,7 +262,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -306,6 +281,99 @@ replicator:
                         attrs:
                           align: start
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung durch einen akademischen Ghostwriter wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von akademischen Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage im vollen Umfang für Ihre wissenschaftliche Arbeit nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmklbiv
+    columns_replicator:
+      -
+        id: llmkmiu3
+        single_col: false
+        grid:
+          -
+            id: 3xksjpMR
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Medizin Ghostwriter-Erfahrungen unserer Kunden'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llmklv0o
+        single_col: false
+        grid:
+          -
+            id: 3xksjpMR
+            bard:
+              -
+                type: set
+                attrs:
+                  id: epBUf1T1
+                  values:
+                    type: insert_html
+                    html: |-
+                      &lt;!-- ProvenExpert Bewertungssiegel --&gt;
+                      &lt;div id="pewl"&gt;&lt;/div&gt;
+                      &lt;script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&amp;avatar=0&amp;competence=0&amp;style=white" async&gt;&lt;/script&gt;
+                      &lt;link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print"&gt;
+                      &lt;!-- ProvenExpert Bewertungssiegel Ende --&gt;
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmkeye3
+    columns_replicator:
+      -
+        id: llmkhngr
+        single_col: true
+        grid:
+          -
+            id: 3xksjpMR
+            bard:
               -
                 type: heading
                 attrs:
@@ -321,7 +389,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Medizin & Ghostwriter'
               -
@@ -337,9 +405,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
-                    text: 'Nicht nur im Medizinstudium, sondern auch nach dem Abschluss im Berufsleben wird besonders von Medizinern erwartet, Fachartikel zu ihrer wissenschaftlichen Forschung '
+                    text: "Nicht nur im Medizinstudium, sondern auch nach dem Abschluss im Berufsleben wird besonders von Medizinern erwartet, Fachartikel zu ihrer wissenschaftlichen Forschung in Fachzeitschriften zu veröffentlichen oder andere wissenschaftliche Texte zu verfassen, um ihre berufliche Karriere voranzutreiben. Dies ist kaum zu leisten, betrachtet man die Arbeitszeiten und Belastungen im Klinikalltag. Daher ist in der Medizin\_"
                   -
                     type: text
                     marks:
@@ -351,32 +419,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
-                    text: 'in Fachzeitschriften '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: "zu veröffentlichen oder andere wissenschaftliche Texte zu verfassen, um ihre berufliche Karriere voranzutreiben. Dies ist kaum zu leisten, betrachtet man die Arbeitszeiten und Belastungen im Klinikalltag. Daher ist in der Medizin\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
                           hex: '#000'
                       -
                         type: link
@@ -413,7 +455,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Unsere Ghostwriter der Medizin sind meist selbst Ärzte oder in der Humanmedizin wissenschaftlich tätig und sind im jeweiligen Fachgebiet exzellent qualifiziert. Sie werten medizinische Forschungsdaten aus, beraten und coachen den Kunden bei der Erstellung der Dissertation oder unterstützen Studierende bei einer Projektarbeit, Hausarbeit, Seminararbeit und anderen Abgaben.'
               -
@@ -422,6 +464,26 @@ replicator:
                   -
                     type: text
                     text: 'Auch Teilleistungen können unsere akademischen Ghostwriter übernehmen. Dazu zählen bspw. die Literaturrecherche für Ihr Forschung, das Korrekturlesen Ihrer Arbeit sowie Durchführung einer Plagiatsprüfung, im Ihnen einen hervorragenden Abschluss zu garantieren.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmkf1lk
+    columns_replicator:
+      -
+        id: llmkfifk
+        single_col: false
+        grid:
+          -
+            id: 3xksjpMR
+            bard:
               -
                 type: heading
                 attrs:
@@ -429,209 +491,82 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Unsere Leistungen im Fachbereich BWL'
+              -
+                type: set
+                attrs:
+                  id: FqnUsDDF
+                  values:
+                    type: leistungen_uebersicht_4_spaltig
+                    grid:
+                      -
+                        id: UPCEBymz
+                        image:
+                          - leistung/icon-ghostwriting.svg
+                        headline: GHOSTWRITING
+                        hover_content: 'Lassen Sie Ihre akademische BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität &amp; Plagiate.'
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                      -
+                        id: SwRPlYb1
+                        image:
+                          - leistung/icon-lektorat.svg
+                        headline: LEKTORAT
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche &amp; fachliche (BWL) Korrektheit prüfen.'
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                      -
+                        id: zXVDf3e0
+                        image:
+                          - logo-startseite/icon-plagiat.svg
+                        headline: PLAGIATSPRÜFUNG
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen in Ihrer Arbeit aus.'
+                        link:
+                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
+                      -
+                        id: aVIdCunZ
+                        image:
+                          - logo-startseite/icon-uebersetzung.svg
+                        headline: ÜBERSETZUNG
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (BWL) Übersetzungen.'
+                        link:
+                          - 7cad538c-ad74-4617-825e-bbac46ebf310
+              -
+                type: set
+                attrs:
+                  id: MrUkjvO9
+                  values:
+                    type: button
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-        single_col: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: gfhYbg1t
-        columns_per_row: 3
-        grid:
-          -
-            id: bl3yVsS2
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(193, 76, 0)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/uebersetzung
-                          target: null
-                          rel: null
-                    text: Übersetzung
-            show_as_card: false
-          -
-            id: VrkoOClV
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/formatierung
-                          target: null
-                          rel: null
-                    text: Formatierung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-            show_as_card: false
-          -
-            id: B46wcoS2
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          target: null
-                          rel: null
-                    text: 'MAXQDA Auswertung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: true
-        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: dLfv4taQ
+    columns_replicator:
       -
         id: etteQDZh
         single_col: true
@@ -683,21 +618,207 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die wissenschaftlichen Ghostwriter unserer Agentur für akademisches Ghostwriting unterstützen Sie professionell und diskret während des gesamten Medizinstudiums. Sei es durch das verfassen von Mustervorlagen für wissenschaftliche Arbeiten, die Auswertung von Experimente für eine Projektarbeit oder durch die Durchführung eines Lektorats oder einer Plagiatsprüfung - unsere Ghostwriter sind hervorragend qualifiziert und verfügen über die notwendige Erfahrung, um Sie während des gesamten Schreibprozesses Ihrer wissenschaftlichen Arbeit zu begleiten.'
+                    text: 'Die wissenschaftlichen Ghostwriter unserer Agentur für akademisches Ghostwriting unterstützen Sie professionell und diskret während des gesamten Medizinstudiums. Sei es durch das verfassen von Mustervorlagen für wissenschaftliche Arbeiten in Kombination mit einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung
+                          target: null
+                          rel: null
+                    text: Promotionsberatung
+                  -
+                    type: text
+                    text: ', die Auswertung von Experimente für eine Projektarbeit oder durch die Durchführung eines Lektorats oder einer Plagiatsprüfung - unsere Ghostwriter sind hervorragend qualifiziert und verfügen über die notwendige Erfahrung, um Sie während des gesamten Schreibprozesses Ihrer wissenschaftlichen Arbeit zu begleiten.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    is_full: false
+    type: add_section
+    enabled: true
+    remove_spacing: false
+    border: false
+  -
+    id: llmko8xu
+    columns_replicator:
+      -
+        id: llmksrwo
+        single_col: false
+        grid:
+          -
+            id: 3xksjpMR
+            bard:
               -
-                type: horizontal_rule
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer medizinischen Doktorarbeit oder jeder anderen Art wissenschaftlicher Arbeiten im Fach Medizin Unterstützung oder akademisches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' benötigen, dann senden Sie uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llmkql7w
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 3xksjpMR
+            bard:
               -
                 type: set
                 attrs:
-                  id: 9x5cHXed
+                  id: OMeALlWB
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 8 - 20 Uhr'
+            show_as_card: true
+          -
+            id: llmkqn7q
+            bard:
+              -
+                type: set
+                attrs:
+                  id: S9HNcMh5
+                  values:
+                    type: spacer
+                    padding-y: 12
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '100,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  id: CvzBjDvR
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
+                    button_align: justify-start
+                    spacing_top: true
               -
-                type: horizontal_rule
+                type: set
+                attrs:
+                  id: DTOsSWP8
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: true
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: llmks7na
+        single_col: false
+        grid:
+          -
+            id: 3xksjpMR
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Ansprechpartner bei GWriters'
+              -
+                type: set
+                attrs:
+                  id: laif3jj1
+                  values:
+                    type: team_liste
+                    in_flow: true
+                    team_mitglieder:
+                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
+                      - a0275a30-5d74-46a4-84d6-acc7e827e95e
+                      - 0443cc18-5f72-486a-91de-9648a8fc0b2f
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmkoc5v
+    columns_replicator:
+      -
+        id: llmkos6r
+        single_col: true
+        grid:
+          -
+            id: 3xksjpMR
+            bard:
               -
                 type: heading
                 attrs:
@@ -1345,11 +1466,11 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
     is_full: false
+    border: false
     type: add_section
     enabled: true
-    remove_spacing: false
-    border: false
 meta_title: 'Medizin Ghostwriter, Lektoren & Coaches • GWriters.de'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Medizin – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_title: 'Medizin Ghostwriter, Lektoren & Coaches • GWriters.de'
