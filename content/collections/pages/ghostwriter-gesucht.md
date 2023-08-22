@@ -458,9 +458,7 @@ replicator:
               - Texte als Schreibproben
               - Erfahrungen mit Ghostwriting
             vertical_alignment_text: self-start
-            reverse_columns: bild_text
-      -
-        type: paragraph
+            reverse_columns: text_bild
       -
         type: set
         attrs:
@@ -484,7 +482,7 @@ replicator:
               - permanente Qualitätsprüfungen bei allen Aufträgen
               - Internes Ranking der Ghostwriter bzgl. Qualität
             vertical_alignment_text: self-start
-            reverse_columns: bild_text
+            reverse_columns: text_bild
       -
         type: set
         attrs:
@@ -677,7 +675,7 @@ replicator:
                     type: img_text_ce
                     bild:
                       - seiten/ghostwriter-gesucht/anfrage-3.png
-                    vertical_alignment_img: self-start
+                    vertical_alignment_img: self-center
                     text: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen an die Projektarbeit. Die Anforderungen an die Arbeit entscheiden über den Preis und in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
                     vertical_alignment_text: self-start
                     reverse_columns: text_bild
@@ -696,7 +694,7 @@ replicator:
                     type: img_text_ce
                     bild:
                       - seiten/ghostwriter-gesucht/ghostwriter-gesucht-3.png
-                    vertical_alignment_img: self-start
+                    vertical_alignment_img: self-center
                     text: '<p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>'
                     vertical_alignment_text: self-start
                     reverse_columns: bild_text
@@ -710,13 +708,15 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: bN5SgIlv
+                  id: llmxb9t2
                   values:
-                    type: bild_und_text
+                    type: img_text_ce
                     bild:
-                      - seiten/ghostwriter-gesucht/kommunikation-ghostwriter-1.png
+                      - seiten/ghostwriter-gesucht/kommunikation-ghostwriter-2.png
+                    vertical_alignment_img: self-center
                     text: '<p align="left">Die gesamte Kommunikation zwischen Auftraggeber und Auftragsschreiber läuft anonym in schriftlicher oder telefonischer Form ab. Als Ghostwriter haben Sie regelmäßige Teillieferungen zu erbringen. Diese Teillieferungen dienen dazu, Feedbacks zum bisher Geschriebene vom Kunden zu erhalten. So hat der Auftraggeber die Möglichkeit, regelmäßig inhaltlichen Einfluss auf die aktuelle Schreibarbeit zu nehmen.<p>'
-                    ausrichtung: text_bild
+                    vertical_alignment_text: self-start
+                    reverse_columns: text_bild
               -
                 type: set
                 attrs:
@@ -727,13 +727,15 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: lrJz31Sq
+                  id: llmxdj4z
                   values:
-                    type: bild_und_text
+                    type: img_text_ce
                     bild:
-                      - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-1.png
+                      - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-2.png
+                    vertical_alignment_img: self-center
                     text: '<p align="left">Die Bezahlung der Ghostwriter wird von unseren Projektmanager je nach Komplexität und Umfang des Themas bestimmt. Das vereinbarte Honorar erhalten Sie nach dem erfolgreichen Abschluss eines Projekts.<p>'
-                    ausrichtung: bild_text
+                    vertical_alignment_text: self-start
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -744,13 +746,15 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: UKT9Sixo
+                  id: llmxf2sv
                   values:
-                    type: bild_und_text
+                    type: img_text_ce
                     bild:
-                      - seiten/ghostwriter-gesucht/lieferung-der-arbeit-1.png
+                      - seiten/ghostwriter-gesucht/lieferung-der-arbeit-2.png
+                    vertical_alignment_img: self-center
                     text: '<p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung der Qualität gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert. Diese Qualitätssicherung ist Standard bei GWriters und für alle Kunden im Preis inbegriffen, sie entbindet Ghostwriter aber nicht von der Pflicht, sorgfältig zu arbeiten.<p>'
-                    ausrichtung: text_bild
+                    vertical_alignment_text: self-start
+                    reverse_columns: text_bild
               -
                 type: set
                 attrs:
@@ -883,7 +887,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692745983
+updated_at: 1692746338
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
