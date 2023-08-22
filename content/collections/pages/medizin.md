@@ -137,7 +137,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692725656
+updated_at: 1692726763
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -514,7 +514,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre akademische BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität &amp; Plagiate.'
+                        hover_content: 'Lassen Sie Ihre akademische Arbeit in der Medizin von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -522,7 +522,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche &amp; fachliche (BWL) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Medizin) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -538,7 +538,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (BWL) Übersetzungen.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, medizinische Übersetzungen.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -547,7 +547,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH MEDIZIN'
                     color: '#FF6606'
                     spacing_top: false
               -
@@ -819,6 +819,74 @@ replicator:
           -
             id: 3xksjpMR
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'ChatGPT oder Medizin Ghostwriter'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wie in jedem akademischen Fachbereich werden ChatGPT und andere KI Module seit ihrer Einführung häufig diskutiert. Viele Studierende denken nun den heiligen Gral für gute Noten gefunden zu haben. Doch Professoren, Plagiatsjäger und auch die eigenen Limitationen von KI machen einen Strich durch diese Rechnung. Daher kann ChatGPT einen erfahrenen akademischen Ghostwriter in der Medizin auf keinen Fall ersetzen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Technische Limitationen von KI'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Innerhalb des medizinischen Bereichs sind Genauigkeit und Nuance von entscheidender Bedeutung. KI-Systeme sind zwar in der Lage, große Datenmengen zu analysieren, aber sie können Schwierigkeiten haben, die Tiefe und Komplexität menschlicher Biologie und Krankheitsverläufe zu erkennen. Die Medizin beruht nicht nur auf harten Daten, sondern auch auf jahrhundertelanger klinischer Beobachtung und individuellen Patientenerfahrungen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein weiteres technisches Hindernis ist die ständige Weiterentwicklung der Medizin. Neue Forschungsergebnisse, Therapien und Behandlungsmethoden erscheinen täglich. Eine KI, die nicht regelmäßig mit den neuesten medizinischen Entdeckungen aktualisiert wird, könnte potenziell veraltete oder unvollständige Informationen liefern.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Rechtliche Aspekte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Verwendung von KI in der Medizin birgt erhebliche rechtliche Risiken. Falsche oder ungenaue medizinische Informationen können nicht nur zu wissenschaftlichen Fehlern, sondern auch zu klinischen Fehlentscheidungen führen. Dies kann erhebliche rechtliche Folgen haben, insbesondere wenn Patienten aufgrund fehlerhafter Informationen, die von einer KI bereitgestellt wurden, Schaden nehmen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Vergleich zum akademischen Ghostwriting im Fach Medizin'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Akademischer Ghostwriter bietet im medizinischen Bereich viele Vorteile gegenüber KI. Ein medizinischer Experte verfügt über klinische Erfahrung, ein tiefes Verständnis für Pathologien und ein Gespür für das Verhalten des menschlichen Körpers und seiner Reaktionen. Dieses tiefgreifende Wissen ermöglicht es, wissenschaftliche Arbeiten zu verfassen, die die Realitäten der medizinischen Praxis widerspiegeln – etwas, das eine KI nur schwerlich erreichen kann.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Trotz der Fortschritte in der KI-Technologie bleibt das menschliche Fachwissen in der Medizin unersetzlich. Das Verständnis für Krankheiten, Behandlungen und den menschlichen Körper im Allgemeinen kann nicht einfach durch Algorithmen ersetzt werden. Ein medizinischer Ghostwriter bringt nicht nur Fachkenntnisse, sondern auch klinische Erfahrungen in wissenschaftliche Arbeiten ein, wodurch er im Vergleich zur KI einen unvergleichlichen Vorteil bietet.'
               -
                 type: heading
                 attrs:
