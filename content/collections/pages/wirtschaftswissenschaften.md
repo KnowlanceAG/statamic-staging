@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692740944
+updated_at: 1692741188
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -513,7 +513,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre akademische Arbeit in der Medizin von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität &amp; Plagiate.'
+                        hover_content: 'Lassen Sie Ihre akademische Arbeit in den Wirtschaftswissenschaften von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -521,7 +521,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche &amp; fachliche (Medizin) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Wirtschaftswissenschaften) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -537,7 +537,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, medizinische Übersetzungen.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, wirtschaftswissenschaftlichen Übersetzungen.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -546,7 +546,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH MEDIZIN'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH WIRTSCHAFTSWISSENSCHAFTEN'
                     color: '#FF6606'
                     spacing_top: false
             show_as_card: false
