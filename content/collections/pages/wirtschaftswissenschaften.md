@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692633955
+updated_at: 1692739455
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -148,14 +148,14 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
-    id: 8hvA1Lvk
+    id: llmssk1x
     columns_replicator:
       -
-        id: hTx7ywHM
+        id: llmssrfp
         single_col: true
         grid:
           -
-            id: Ji8pORWl
+            id: oJauu5XN
             bard:
               -
                 type: paragraph
@@ -256,6 +256,87 @@ replicator:
                         attrs:
                           align: start
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung von einem Ghostwriter aus Ihrem Fachbereich wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Projektarbeiten, Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen Ihres Studiengangs erfüllt.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmssyma
+    columns_replicator:
+      -
+        id: llmst04s
+        single_col: false
+        grid:
+          -
+            id: oJauu5XN
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Wirtschaftswissenschaften Ghostwriter-Erfahrungen unserer Kunden'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+              -
+                type: set
+                attrs:
+                  id: llmstyzw
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmt0efn
+    columns_replicator:
+      -
+        id: llmt0git
+        single_col: true
+        grid:
+          -
+            id: oJauu5XN
+            bard:
               -
                 type: heading
                 attrs:
@@ -382,6 +463,26 @@ replicator:
                         attrs:
                           align: start
                     text: ' oder zur Auswertung der Im Rahmen Ihrer Forschungsarbeit erhobenen Daten beauftragt werden. Durch ein Lektorat wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt. Mit einer durch unsere Ghostwriter durchgeführten Plagiatsprüfung können Sie zudem noch sicher gehen, dass Sie bei der Bewertung Ihrer Projektarbeit oder Abschlussarbeit keine böse Überraschung erwartet.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llmt0cuu
+    columns_replicator:
+      -
+        id: llmt1vuj
+        single_col: true
+        grid:
+          -
+            id: oJauu5XN
+            bard:
               -
                 type: heading
                 attrs:
@@ -393,222 +494,76 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
-                    text: 'Unsere Leistungen'
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Unsere Leistungen im Fachbereich Wirtschaftswissenschaften'
+              -
+                type: set
+                attrs:
+                  id: FqnUsDDF
+                  values:
+                    type: leistungen_uebersicht_4_spaltig
+                    grid:
+                      -
+                        id: UPCEBymz
+                        image:
+                          - leistung/icon-ghostwriting.svg
+                        headline: GHOSTWRITING
+                        hover_content: 'Lassen Sie Ihre akademische Arbeit in der Medizin von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität &amp; Plagiate.'
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                      -
+                        id: SwRPlYb1
+                        image:
+                          - leistung/icon-lektorat.svg
+                        headline: LEKTORAT
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche &amp; fachliche (Medizin) Korrektheit prüfen.'
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                      -
+                        id: zXVDf3e0
+                        image:
+                          - logo-startseite/icon-plagiat.svg
+                        headline: PLAGIATSPRÜFUNG
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen in Ihrer Arbeit aus.'
+                        link:
+                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
+                      -
+                        id: aVIdCunZ
+                        image:
+                          - logo-startseite/icon-uebersetzung.svg
+                        headline: ÜBERSETZUNG
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, medizinische Übersetzungen.'
+                        link:
+                          - 7cad538c-ad74-4617-825e-bbac46ebf310
+              -
+                type: set
+                attrs:
+                  id: MrUkjvO9
+                  values:
+                    type: button
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH MEDIZIN'
+                    color: '#FF6606'
+                    spacing_top: false
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: W0cP05GW
-        columns_per_row: 3
-        grid:
-          -
-            id: 4cDSDkAi
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/uebersetzung
-                          target: null
-                          rel: null
-                    text: Übersetzung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "\_"
-            show_as_card: false
-          -
-            id: tbeh0sF7
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/formatierung
-                          target: null
-                          rel: null
-                    text: Formatierung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-            show_as_card: false
-          -
-            id: lnNgUg7o
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          target: null
-                          rel: null
-                    text: 'MAXQDA Auswertung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: true
-        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: 8hvA1Lvk
+    columns_replicator:
       -
         id: 9UsH8F13
         single_col: true
@@ -616,39 +571,6 @@ replicator:
           -
             id: iKJLveYS
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wichtige Akademische Arbeiten'
-              -
-                type: set
-                attrs:
-                  id: uLK6yY1U
-                  values:
-                    type: link_liste
-                    raster:
-                      -
-                        id: RXlLOQFZ
-                        text: Arbeiten
-                        eintraege:
-                          - 68b88fd1-ec03-4ea8-9292-431555e47744
-                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
-                          - 5659593d-2756-4e9f-a5b3-b391103d9886
-                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
-                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
-                          - 2b55bfe7-06df-4e71-86da-152e256904ec
-                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
-                          - 134ba799-3362-4166-86f7-bba4e992d7d7
-                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
-                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
-                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
-                          - 2931f444-5e22-4860-8f40-a41821377b93
-                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
               -
                 type: heading
                 attrs:
@@ -716,6 +638,31 @@ replicator:
                           hex: '#000'
                     text: ' und diese bewerten. Ist dies in mehreren Fächern gleichzeitig der Fall, sind Studierende oftmals nicht in der Lage, diese in der angemessenen Güte zu bearbeiten und die notwendige Forschungsarbeit aufzubringen. Daher setzen immer wieder Studierende der Wirtschaftswissenschaften Ghostwriter und akademische Experten ein. Diese Ghostwriter sind Experten auf dem jeweiligen wirtschaftswissenschaftlichen Fachgebiet und sind aufgrund ihrer Erfahrung in der Lage, dem Hilfesuchenden zur Seite zu stehen.'
               -
+                type: set
+                attrs:
+                  id: uLK6yY1U
+                  values:
+                    type: link_liste
+                    raster:
+                      -
+                        id: RXlLOQFZ
+                        text: Arbeiten
+                        eintraege:
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
+                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+                          - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 2b55bfe7-06df-4e71-86da-152e256904ec
+                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
+                          - 134ba799-3362-4166-86f7-bba4e992d7d7
+                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
+                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
+                          - 2931f444-5e22-4860-8f40-a41821377b93
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
+              -
                 type: paragraph
                 content:
                   -
@@ -731,27 +678,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Ghostwriter der Wirtschaftswissenschaften können nicht nur bei Hausarbeiten, Projektarbeiten oder Seminararbeiten, sondern auch durch die Auswertung von Daten und die Erstellung von Mustervorlagen eine Hilfe beim Verfassen von Examensarbeiten wie einer Bachelorarbeit oder Masterarbeit sein. Darüber hinaus können diese auch durch ein Lektorat und eine Plagiatsprüfung die Qualität eigens verfasster Arbeiten sicherstellen.'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  id: dvXTBIkc
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  id: Dv5W4WoP
-                  values:
-                    type: spacer
-                    padding-y: 40
             show_as_card: false
         type: row
         enabled: true
@@ -766,12 +692,177 @@ replicator:
     id: icRpHfIg
     columns_replicator:
       -
+        id: llmt7ktg
+        single_col: false
+        grid:
+          -
+            id: sOYvwCN5
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer wissenschaftlichen Arbeiten im Fach Wirtschaftswissenschaften Unterstützung oder akademisches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' benötigen, dann senden Sie uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llmt7k8r
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: sOYvwCN5
+            bard:
+              -
+                type: set
+                attrs:
+                  id: OMeALlWB
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 8 - 20 Uhr'
+            show_as_card: true
+          -
+            id: llmtaq5d
+            bard:
+              -
+                type: set
+                attrs:
+                  id: S9HNcMh5
+                  values:
+                    type: spacer
+                    padding-y: 12
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '100,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  id: CvzBjDvR
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  id: DTOsSWP8
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: true
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: llmtcwzb
+        single_col: false
+        grid:
+          -
+            id: sOYvwCN5
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Ansprechpartner bei GWriters'
+              -
+                type: set
+                attrs:
+                  id: laif3jj1
+                  values:
+                    type: team_liste
+                    in_flow: true
+                    team_mitglieder:
+                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
+                      - a0275a30-5d74-46a4-84d6-acc7e827e95e
+                      - 0443cc18-5f72-486a-91de-9648a8fc0b2f
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
         id: yT9AJ8t4
         single_col: true
         grid:
           -
             id: iNDlvyDH
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Beispielarbeit von unseren Ghostwritern'
               -
                 type: set
                 attrs:
