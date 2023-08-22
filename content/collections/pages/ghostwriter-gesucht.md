@@ -662,6 +662,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: llmwubmw
+                  values:
+                    type: img_text_ce
+                    bild:
+                      - seiten/ghostwriter-gesucht/anfrage-3.png
+                    vertical_alignment_img: self-start
+                    text: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen an die Projektarbeit. Die Anforderungen an die Arbeit entscheiden über den Preis und in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
+                    vertical_alignment_text: self-start
+                    reverse_columns: bild_text
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
                   id: 7VVEW2aw
                   values:
                     type: bild_und_text
@@ -869,7 +883,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692745222
+updated_at: 1692745327
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
