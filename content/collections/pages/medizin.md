@@ -137,7 +137,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692739472
+updated_at: 1692741435
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -295,11 +295,11 @@ replicator:
     id: llmklbiv
     columns_replicator:
       -
-        id: llmkxfbq
-        single_col: false
+        id: llmuj55b
+        single_col: true
         grid:
           -
-            id: 3xksjpMR
+            id: u217cVUu
             bard:
               -
                 type: heading
@@ -327,6 +327,18 @@ replicator:
                         attrs:
                           align: center
                     text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llmkxfbq
+        single_col: false
+        grid:
+          -
+            id: 3xksjpMR
+            bard:
               -
                 type: set
                 attrs:
