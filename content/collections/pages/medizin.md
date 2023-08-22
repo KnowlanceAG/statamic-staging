@@ -137,7 +137,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692725319
+updated_at: 1692725456
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -583,6 +583,25 @@ replicator:
                     type: text
                     text: 'Wichtige Akademische Arbeiten'
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die wissenschaftlichen Ghostwriter unserer Agentur für akademisches Ghostwriting unterstützen Sie professionell und diskret während des gesamten Medizinstudiums. Sei es durch das verfassen von Mustervorlagen für wissenschaftliche Arbeiten in Kombination mit einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung
+                          target: null
+                          rel: null
+                    text: Promotionsberatung
+                  -
+                    type: text
+                    text: ', die Auswertung von Experimente für eine Projektarbeit oder durch die Durchführung eines Lektorats oder einer Plagiatsprüfung - unsere Ghostwriter sind hervorragend qualifiziert und verfügen über die notwendige Erfahrung, um Sie während des gesamten Schreibprozesses Ihrer wissenschaftlichen Arbeit zu begleiten.'
+              -
                 type: set
                 attrs:
                   id: ZQmmLyjP
@@ -613,25 +632,6 @@ replicator:
                   -
                     type: text
                     text: 'Eine erfolgreiche medizinische Doktorarbeit anzufertigen ist eine nicht zu unterschätzende Herausforderung, vor allem, da viele Medizinstudenten ihre Doktorarbeit nebenberuflich verfassen. Ob es sich um die Planung, die Literaturrecherche, den Umfang, die Datenanalyse oder die Auswertung von humanmedizinischen Diagnosen handelt, jeder Teil der medizinischen Doktorarbeit hat wie jede andere wissenschaftliche Arbeit oder Projektarbeit seine Besonderheiten und erfordert die korrekte wissenschaftliche Vorgehensweise. Daher greifen viele Medizinstudenten auf die Unterstützung von akademischen Experten zurück, sodass viele Ghostwriter Medizin als den Fachbereich für Ihre Spezialisierung wählen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die wissenschaftlichen Ghostwriter unserer Agentur für akademisches Ghostwriting unterstützen Sie professionell und diskret während des gesamten Medizinstudiums. Sei es durch das verfassen von Mustervorlagen für wissenschaftliche Arbeiten in Kombination mit einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
-                  -
-                    type: text
-                    text: ', die Auswertung von Experimente für eine Projektarbeit oder durch die Durchführung eines Lektorats oder einer Plagiatsprüfung - unsere Ghostwriter sind hervorragend qualifiziert und verfügen über die notwendige Erfahrung, um Sie während des gesamten Schreibprozesses Ihrer wissenschaftlichen Arbeit zu begleiten.'
             show_as_card: false
         type: row
         enabled: true
