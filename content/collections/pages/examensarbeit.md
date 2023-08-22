@@ -173,7 +173,20 @@ replicator:
                     text: Literaturrecherche
                   -
                     type: text
-                    text: ' und dem Aufbau einer Examensarbeit (Einleitung, Hauptteil, Fazit). Ein Coaching durch einen erfahrenen Autor bei der Examensarbeit kann auch bei der erfolgreichen Fertigstellung einer bereits begonnenen Arbeit unterstützend wirken, die Arbeit zu einem bestimmten Punkt vorantreiben, ein Exposé verfassen oder ein Konzept mit Lösungsansätzen für die Erfüllung der gestellten Aufgabe entwerfen. Hierbei können unsere Ghostwriter zum Beispiel einen Gliederungsentwurf oder auch eine Vorlage für Textergänzungen erstellen.'
+                    text: ' und dem Aufbau einer Examensarbeit (Einleitung, Hauptteil, Fazit). Ein Coaching durch einen erfahrenen Autor bei der Examensarbeit kann auch bei der erfolgreichen Fertigstellung einer bereits begonnenen Arbeit unterstützend wirken, die Arbeit zu einem bestimmten Punkt vorantreiben, ein Exposé verfassen oder ein Konzept mit Lösungsansätzen für die Erfüllung der gestellten Aufgabe entwerfen. Hierbei können unsere Ghostwriter zum Beispiel einen Gliederungsentwurf oder auch eine Vorlage für Textergänzungen erstellen. Auch eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/maxqda-auswertung
+                          target: null
+                          rel: null
+                    text: 'MAXQDA Auswertung'
+                  -
+                    type: text
+                    text: ' qualitativer Quellen können unsere Ghostwriter für Sie durchführen.'
               -
                 type: set
                 attrs:
@@ -481,7 +494,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre akademische Arbeit in der Medizin von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität &amp; Plagiate.'
+                        hover_content: 'Lassen Sie Ihre Examensarbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -489,7 +502,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche &amp; fachliche (Medizin) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Examensarbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -497,7 +510,7 @@ replicator:
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen in Ihrer Arbeit aus.'
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen in Ihrer Examensarbeit aus.'
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
@@ -505,7 +518,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, medizinische Übersetzungen.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige Übersetzungen Ihrer Examensarbeit.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -514,7 +527,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH MEDIZIN'
+                    button_text: 'ALLE LEISTUNGEN FÜR IHRE EXAMENSARBEIT'
                     color: '#FF6606'
                     spacing_top: false
             show_as_card: false
@@ -2012,7 +2025,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692743738
+updated_at: 1692744773
 meta_title: 'Examensarbeit schreiben lassen | Hilfe vom Ghostwriter'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
