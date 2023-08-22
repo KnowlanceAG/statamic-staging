@@ -3478,7 +3478,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692632229
+updated_at: 1692709799
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3486,7 +3486,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
+meta_title: 'Bachelorarbeit schreiben lassen | seriöse Ghostwriter'
 meta_description: 'Ghostwriter für Ihre Bachelorarbeit ✓ mit Plagiatsprüfung ✓ 30+ Fachbereiche (BWL, Jura, u.v.m.) ➤ Vorlage für Bachelorarbeit schreiben lassen!'
 og_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Ghostwriter für Ihre Bachelorarbeit ✓ mit Plagiatsprüfung ✓ 30+ Fachbereiche (BWL, Jura, u.v.m.) ➤ Vorlage für Bachelorarbeit schreiben lassen!'
