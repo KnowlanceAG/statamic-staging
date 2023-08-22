@@ -137,7 +137,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692725250
+updated_at: 1692725319
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -150,7 +150,7 @@ replicator:
     columns_replicator:
       -
         id: llmkmadn
-        single_col: false
+        single_col: true
         grid:
           -
             id: 3xksjpMR
@@ -333,7 +333,7 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
-        id: llmklv0o
+        id: llmkxfbq
         single_col: false
         grid:
           -
@@ -342,15 +342,15 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: epBUf1T1
+                  id: llmky14j
                   values:
                     type: insert_html
                     html: |-
-                      &lt;!-- ProvenExpert Bewertungssiegel --&gt;
-                      &lt;div id="pewl"&gt;&lt;/div&gt;
-                      &lt;script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&amp;avatar=0&amp;competence=0&amp;style=white" async&gt;&lt;/script&gt;
-                      &lt;link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print"&gt;
-                      &lt;!-- ProvenExpert Bewertungssiegel Ende --&gt;
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
             show_as_card: false
         type: row
         enabled: true
