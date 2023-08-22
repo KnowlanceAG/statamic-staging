@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692633193
+updated_at: 1692724078
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1450,6 +1450,81 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'ChatGPT statt BWL Ghostwriter?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Seit seiner Veröffentlichung wird ChatGPT in allen Lebensbereichen heiß diskutiert, auch im Bezug auf das wissenschaftliche Arbeiten. Viele Professoren fragen sich bereits, wie Sie verhindern können, dass ihre Studierenden sich Ihre Arbeiten von einer KI schreiben lassen. Und auch Anbieter von Plagiatsprüfungssoftware entwickeln schon fleißig Lösungen um KI-Texte verlässlich identifizieren zu können. Aber Fakt ist noch immer: KI kann einen menschlichen Autor und auch einen akademischen Ghostwriter nicht ersetzen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Technische Limitationen von KI'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine der wesentlichen technischen Limitationen von KI-Systemen in Bezug auf BWL ist ihre Fähigkeit zur Interpretation von Daten. Während KIs Daten in großem Umfang analysieren können, fehlt ihnen oft das Verständnis für die Kontextualität und die dahinter liegenden wirtschaftlichen Zusammenhänge. Die BWL ist nicht nur von harten Zahlen und Fakten geprägt, sondern auch von menschlichen Verhaltensweisen, Unternehmenskulturen und externen Markteinflüssen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Des Weiteren sind viele BWL-Konzepte und -Strategien dynamisch und entwickeln sich ständig weiter. Eine KI, die nicht laufend mit aktuellen wirtschaftlichen Entwicklungen oder Theorien aktualisiert wird, könnte veraltete oder nicht mehr relevante Informationen verwenden.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Rechtliche Aspekte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In der BWL können falsche oder irreführende Informationen erhebliche finanzielle und rechtliche Konsequenzen haben. Ein von KI verfasster Bericht könnte beispielsweise zu fehlerhaften Investitionsentscheidungen oder zu einer fehlerhaften Markteinschätzung führen, insbesondere wenn diese Inhalt Teil einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-unternehmen
+                          target: null
+                          rel: null
+                    text: 'im Unternehmen geschriebenen Bachelorarbeit'
+                  -
+                    type: text
+                    text: ' werden. Dies könnte Unternehmen in rechtliche und wirtschaftliche Schwierigkeiten bringen, besonders wenn sie auf solchen Berichten basierende Entscheidungen treffen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Vergleich zum akademischen Ghostwriting im Fach BWL'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein akademischer Ghostwriter, insbesondere ein Fachexperte in BWL, kann eine nuancierte und kontextualisierte wissenschaftliche Arbeit liefern. Er kann aktuelle Trends, kulturelle Unterschiede und menschliche Verhaltensweisen in seiner Erläuterung und Argumentationen, was eine KI nicht in gleichem Maße leisten kann. Obwohl KI-Systeme in vielen Bereichen beeindruckende Fortschritte gemacht haben, bleibt das menschliche Verständnis und die Fähigkeit zur Interpretation im Bereich der BWL von zentraler Bedeutung. Ein menschlicher Autor kann die Komplexität und Dynamik des Wirtschaftslebens besser erfassen und interpretieren als eine KI. Daher bleibt ein akademischer Experte im Fach BWL die bevorzugte Wahl für das Verfassen von wissenschaftlichen Arbeiten im Vergleich zur KI.'
             show_as_card: false
         type: row
         enabled: true
