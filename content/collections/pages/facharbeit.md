@@ -3322,7 +3322,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692632544
+updated_at: 1692710134
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3330,7 +3330,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Facharbeit schreiben lassen • Ghostwriter von GWriters'
+meta_title: 'Facharbeit schreiben lassen | Hilfe vom Ghostwriter'
 meta_description: 'Mustervorlage für Facharbeit schreiben lassen – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_title: 'Facharbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Mustervorlage für Facharbeit schreiben lassen – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
