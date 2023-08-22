@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692633746
+updated_at: 1692714852
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1625,6 +1625,77 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Jura Ghostwriter vs. ChatGPT & andere KI'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In jüngster Vergangenheit wirft die plötzliche Verbreitung von KI Lösungen wie ChatGPT, Claude, TextCortex und mehr viele Fragen rund um das wissenschaftliche Schreiben sowie die gängige akademische Praxis auf. Können sich Studierende vollständig automatisiert wissenschaftliche Arbeiten mit KI schreiben lassen? Sind Ghostwriter nun überflüssig? Werden Professoren aufhören, ihre Studierenden wissenschaftliche Arbeiten schreiben zu lassen? Diese Fragen lassen sich mit einem klaren '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Nein
+                  -
+                    type: text
+                    text: ' beantworten. KI und dessen Fähigkeiten sind noch immer einer Reihe von Limitationen unterworfen, insbesondere im Fachbereich Jura.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Technische Limitationen von KI'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine der wesentlichen technischen Limitationen von KI-Systemen wie GPT-4 ist, dass sie, obwohl sie Informationen aus einer Vielzahl von Quellen zusammenstellen können, diese Informationen nicht wirklich "verstehen". Das bedeutet, sie können den Kontext, in dem bestimmte juristische Informationen oder Argumente stehen, möglicherweise nicht vollständig erfassen. Da das Rechtssystem und seine Anwendung stark von Kontext und Interpretation abhängig sind, kann dies zu inkonsistenten oder sogar falschen Schlussfolgerungen führen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein weiteres Problem ist die Aktualität. Das juristische Feld ist dynamisch, und Gesetze sowie deren Interpretationen können sich schnell ändern. Eine KI, die auf Informationen bis zu einem bestimmten Datum trainiert wurde, ist möglicherweise nicht auf dem neuesten Stand aktueller Entwicklungen oder Urteile. Dies kann dazu führen, dass sie veraltete oder sogar irreführende Informationen bereitstellt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Rechtliche Aspekte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein juristischer Text, der von einer KI verfasst wurde, könnte möglicherweise nicht als zuverlässige Quelle angesehen werden, da er nicht die nötige menschliche Überprüfung und Interpretation durchlaufen hat. Dies könnte rechtliche Folgen haben, wenn solch ein Text als Grundlage für wichtige Entscheidungen oder Empfehlungen verwendet wird.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Vergleich zum akademischen Ghostwriting im Fach Jura'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein akademischer Ghostwriter hat im Vergleich zu KI den Vorteil, den Kontext zu verstehen und sich an aktuelle Entwicklungen anzupassen. Trotz der Fortschritte in der KI-Technologie bleibt die menschliche Interpretation und Analyse im juristischen Bereich von unschätzbarem Wert. Ein menschlicher Autor, insbesondere ein Experte im Bereich Jura, kann subtile Nuancen und den Kontext von Gesetzen und Urteilen erfassen, die eine KI möglicherweise übersieht. Daher bleibt ein akademischer Autor die bessere Wahl für das Verfassen von wissenschaftlichen Arbeiten im Fach Jura im Vergleich zur KI.'
             show_as_card: false
         type: row
         enabled: true
