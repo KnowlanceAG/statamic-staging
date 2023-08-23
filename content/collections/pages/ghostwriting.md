@@ -134,13 +134,14 @@ teaser:
 teaser_bg: leistung/gwriters_ghostwriting_leistungen.jpg
 replicator:
   -
-    id: 5weHd3dP
+    id: llnwppsy
     columns_replicator:
       -
-        id: kOUJNdbx
+        id: llnwpret
+        single_col: true
         grid:
           -
-            id: aAloqnFT
+            id: bMTqg6qJ
             bard:
               -
                 type: paragraph
@@ -213,6 +214,98 @@ replicator:
                   -
                     type: text
                     text: "Die\_Geschichte\_des Ghostwriting reicht vermutlich so lang zurück, wie es Reden, Schriften oder Gesänge gibt, ein genaues Jahr oder Datum, an dem der erste Ghostwriter entdeckt wurde, ist jedoch nicht bekannt. Heute ist das Phänomen Ghostwriting zwar in vielen verschiedenen Lebensbereichen und der Wissenschaft zu Hause, bleibt für die breite Gesellschaft allerdings eher eine Randerscheinung. Diese Tatsache ergibt sich aus der Natur des Ghostwritings selbst, da meist nicht bekannt ist, welcher Ghostwriter ein Dokument verfasst hat, bzw. dass überhaupt ein Ghostwriter am Werk war."
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llnwq6gq
+    columns_replicator:
+      -
+        id: llnwqrug
+        single_col: true
+        grid:
+          -
+            id: bMTqg6qJ
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Ghostwriting Erfahrungen unserer Kunden'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llnwqbqd
+        single_col: false
+        grid:
+          -
+            id: bMTqg6qJ
+            bard:
+              -
+                type: set
+                attrs:
+                  id: llnwr8dl
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: 5weHd3dP
+    columns_replicator:
+      -
+        id: kOUJNdbx
+        grid:
+          -
+            id: aAloqnFT
+            bard:
               -
                 type: heading
                 attrs:
@@ -608,30 +701,188 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    type: add_section
+    enabled: true
+    border: false
+  -
+    id: llnwsi0b
+    columns_replicator:
       -
-        id: 7taGKoPg
-        single_col: true
+        id: llnwswmu
+        single_col: false
         grid:
           -
-            id: B7OXO6PX
+            id: bMTqg6qJ
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer wissenschaftlichen Arbeit Unterstützung oder akademisches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' benötigen, dann senden Sie uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llnwtebl
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: bMTqg6qJ
             bard:
               -
                 type: set
                 attrs:
-                  id: 9jgq97fu
+                  id: OMeALlWB
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 8 - 20 Uhr'
+            show_as_card: true
+          -
+            id: llnwti9x
+            bard:
+              -
+                type: set
+                attrs:
+                  id: S9HNcMh5
+                  values:
+                    type: spacer
+                    padding-y: 12
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '100,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  id: CvzBjDvR
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
+                    button_align: justify-start
+                    spacing_top: true
               -
                 type: set
                 attrs:
-                  id: Xg4UlIxa
+                  id: DTOsSWP8
                   values:
                     type: spacer
-                    padding-y: 30
+                    padding-y: 10
+            show_as_card: true
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: llnwtl44
+        single_col: false
+        grid:
+          -
+            id: bMTqg6qJ
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Ansprechpartner bei GWriters'
+              -
+                type: set
+                attrs:
+                  id: laif3jj1
+                  values:
+                    type: team_liste
+                    in_flow: true
+                    team_mitglieder:
+                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
+                      - a0275a30-5d74-46a4-84d6-acc7e827e95e
+                      - 0443cc18-5f72-486a-91de-9648a8fc0b2f
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llnwsmgz
+    columns_replicator:
+      -
+        id: llnwsqhs
+        single_col: true
+        grid:
+          -
+            id: bMTqg6qJ
+            bard:
               -
                 type: heading
                 attrs:
@@ -856,13 +1107,13 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: false
+    border: false
     type: add_section
     enabled: true
-    border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692317359
+updated_at: 1692805927
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
 meta_description: 'Ghostwriting - Akademische Ghostwriter schreiben wissenschaftliche Artikel, Manuskripte und Arbeiten mit Qualität ✔️ 18.000 zufriedene Kunden seit 2012!'
 use_meta_keywords: false
