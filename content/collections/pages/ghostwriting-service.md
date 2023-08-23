@@ -133,338 +133,600 @@ teaser:
         text: '##phone##'
 replicator:
   -
-    id: iY0QCToA
-    bard:
+    id: llnyklrx
+    columns_replicator:
       -
-        type: paragraph
-        content:
+        id: llnykrmu
+        single_col: true
+        grid:
           -
-            type: text
-            text: 'Unser akademischer '
-          -
-            type: text
-            marks:
+            id: 7Upupsm5
+            bard:
               -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: Ghostwriting
-          -
-            type: text
-            text: ' Service bietet Ihnen eine Vielzahl von attraktiven Vorteilen für Ihre Forschungsarbeit. Als '
-          -
-            type: text
-            marks:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unser akademischer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' Service bietet Ihnen eine Vielzahl von attraktiven Vorteilen für Ihre Forschungsarbeit. Als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting Agentur'
+                  -
+                    type: text
+                    text: ' arbeiten wir mit erfahrenen Ghostwritern aus allen akademischen Fachbereichen, um einen hochqualitativen und vollumfänglichen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' Service zu jeder erdenklichen Themenstellung und akademischer Arbeit bieten zu können. Zum Ghostwriting Service gehören bei uns sowie anderen seriösen Ghostwriting Agenturen auch das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    text: ', also ein reines Korrekturlesen oder auch das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: '. Das Lektorat bezeichnet eine Leistung ähnlich einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/korrektorat-lektorat-textredaktion
+                          target: null
+                          rel: null
+                    text: Textredaktion
+                  -
+                    type: text
+                    text: ', bei der ein bereits vorliegender Text, zusätzlich zum '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrekturlesen
+                  -
+                    type: text
+                    text: ', auch auf inhaltliche, strukturelle Qualität oder formale Fehler untersucht sowie einer Plagiatsprüfung unterzogen wird.'
               -
-                type: link
+                type: set
                 attrs:
-                  href: /ghostwriting/ghostwriting-agentur
-                  target: null
-                  rel: null
-            text: 'Ghostwriting Agentur'
-          -
-            type: text
-            text: ' arbeiten wir mit erfahrenen Ghostwritern aus allen akademischen Fachbereichen, um einen hochqualitativen und vollumfänglichen '
-          -
-            type: text
-            marks:
+                  id: lljst1am
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            text: ' Service zu jeder erdenklichen Themenstellung und akademischer Arbeit bieten zu können. Zum Ghostwriting Service gehören bei uns sowie anderen seriösen Ghostwriting Agenturen auch das '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /korrektorat
-                  target: null
-                  rel: null
-            text: Korrektorat
-          -
-            type: text
-            text: ', also ein reines Korrekturlesen oder auch das '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /lektorat
-                  target: null
-                  rel: null
-            text: Lektorat
-          -
-            type: text
-            text: '. Das Lektorat bezeichnet eine Leistung ähnlich einer '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/korrektorat-lektorat-textredaktion
-                  target: null
-                  rel: null
-            text: Textredaktion
-          -
-            type: text
-            text: ', bei der ein bereits vorliegender Text, zusätzlich zum '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /korrektorat
-                  target: null
-                  rel: null
-            text: Korrekturlesen
-          -
-            type: text
-            text: ', auch auf inhaltliche, strukturelle Qualität oder formale Fehler untersucht sowie einer Plagiatsprüfung unterzogen wird.'
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer akademischen Arbeit Unterstützung oder ein Lektorat benötigen, dann können Sie uns gerne jetzt eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter aus Ihrem akademischen Fachbereich wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Projektarbeiten, Abschlussarbeiten oder andere Arten von Prüfungsleistungen wie Klausuren erstellen, gerne erstellen wir Ihnen aber innerhalb eines Auftrags eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llnykz34
+    columns_replicator:
       -
-        type: set
-        attrs:
-          id: lljst1am
-          values:
-            type: show_sidebar_mobile
-            custom_sidebar_placement: 'on'
-      -
-        type: paragraph
-        content:
+        id: llnylra8
+        single_col: true
+        grid:
           -
-            type: text
-            marks:
+            id: 7Upupsm5
+            bard:
               -
-                type: bold
-            text: 'Wenn Sie bei Ihrer akademischen Arbeit Unterstützung oder ein Lektorat benötigen, dann können Sie uns gerne jetzt eine '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
+                type: heading
                 attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: 'unverbindliche Anfrage schicken'
-          -
-            type: text
-            marks:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Ghostwriting Service Erfahrungen unserer Kunden'
               -
-                type: bold
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter aus Ihrem akademischen Fachbereich wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Projektarbeiten, Abschlussarbeiten oder andere Arten von Prüfungsleistungen wie Klausuren erstellen, gerne erstellen wir Ihnen aber innerhalb eines Auftrags eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Was bietet ein Ghostwriting Service?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ein Ghostwriting Service von einem erfahrenen Autor kann dem Auftraggeber eine Hilfestellung '
-          -
-            type: text
-            marks:
-              -
-                type: link
+                type: heading
                 attrs:
-                  href: /leistungen
-                  target: null
-                  rel: null
-            text: 'rund um die Erstellung von Mustervorlagen für wissenschaftliche Arbeiten'
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llnyl0e2
+        single_col: false
+        grid:
           -
-            type: text
-            text: ' bieten. Dies reicht von der Literaturrecherche oder der Erstellung eines Gesamtkonzepts über die Ausformulierung und Verbesserung einer bereits angefangenen Arbeit bis zur kompletten Erarbeitung einer Mustervorlage, sei es nun für eine '
-          -
-            type: text
-            marks:
+            id: 7Upupsm5
+            bard:
               -
-                type: link
+                type: set
                 attrs:
-                  href: /arbeiten/hausarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Hausarbeit
+                  id: llnymjwl
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llnyne3n
+    columns_replicator:
+      -
+        id: llnynfcn
+        single_col: true
+        grid:
           -
-            type: text
-            text: ', Projektarbeit, '
-          -
-            type: text
-            marks:
+            id: 7Upupsm5
+            bard:
               -
-                type: link
+                type: heading
                 attrs:
-                  href: /arbeiten/seminararbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Seminararbeit
-          -
-            type: text
-            text: ', '
-          -
-            type: text
-            marks:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was bietet ein Ghostwriting Service?'
               -
-                type: link
-                attrs:
-                  href: /arbeiten/bachelorarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Bachelorarbeit
-          -
-            type: text
-            text: ', '
-          -
-            type: text
-            marks:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Ghostwriting Service von einem erfahrenen Autor kann dem Auftraggeber eine Hilfestellung '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen
+                          target: null
+                          rel: null
+                    text: 'rund um die Erstellung von Mustervorlagen für wissenschaftliche Arbeiten'
+                  -
+                    type: text
+                    text: ' bieten. Dies reicht von der Literaturrecherche oder der Erstellung eines Gesamtkonzepts über die Ausformulierung und Verbesserung einer bereits angefangenen Arbeit bis zur kompletten Erarbeitung einer Mustervorlage, sei es nun für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    text: ', Projektarbeit, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/diplomarbeit
+                          target: null
+                          rel: null
+                    text: Diplomarbeit
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: Dissertation
+                  -
+                    type: text
+                    text: ' oder sogar Habilitation. Auch das Verfassen von Exposés und Praktikumsberichten durch einen Ghostwriter ist möglich. Es gibt aber nicht nur die sogenannten „akademischen Ghostwriting Services“ sondern auch Ghostwriting bei der Erstellung von Biografien, Filmdrehbüchern oder Büchern im Allgemeinen sowie die statistische Auswertung von Daten für akademische Forschungsarbeiten.'
               -
-                type: link
+                type: heading
                 attrs:
-                  href: /arbeiten/masterarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Masterarbeit
-          -
-            type: text
-            text: ', '
-          -
-            type: text
-            marks:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Warum nimmt man einen Ghostwriter Service in Anspruch?'
               -
-                type: link
-                attrs:
-                  href: /arbeiten/diplomarbeit
-                  target: null
-                  rel: null
-            text: Diplomarbeit
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Es gibt viele Gründe, einen akademischen Ghostwriting Service in Anspruch zu nehmen. Dazu gehören die heutzutage extrem gestiegenen Anforderungen im Studium sowie der modernen Arbeitswelt. Gerade von Akademikern wird heutzutage eine Belastbarkeit erwartet, die Viele einfach nicht haben. Es wird gefordert einen hohen wissenschaftlichen Output zu liefern, oft nur zu erreichen mit Arbeiten bis spät in die Nacht. Regelmäßige Ruhepausen sind nicht möglich. Diese ständige Überforderung hat unserer Gesellschaft einen neuen Typus von Arbeitskrankheiten beschert. Den sogenannten Burn-Out. Dieser starken Belastung kann man durch das in Anspruch nehmen eines Ghostwriting Services entgegenwirken. Die eigene Arbeit wird auf mehrere Schultern verteilt. Man ist so in der Lage ein größeres Arbeitspensum zu bewältigen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llnyo69l
+    columns_replicator:
+      -
+        id: llnyoaf9
+        single_col: false
+        grid:
           -
-            type: text
-            text: ', '
-          -
-            type: text
-            marks:
+            id: 7Upupsm5
+            bard:
               -
-                type: link
+                type: heading
                 attrs:
-                  href: /arbeiten/doktorarbeit
-                  target: null
-                  rel: null
-            text: Dissertation
-          -
-            type: text
-            text: ' oder sogar Habilitation. Auch das Verfassen von Exposés und Praktikumsberichten durch einen Ghostwriter ist möglich. Es gibt aber nicht nur die sogenannten „akademischen Ghostwriting Services“ sondern auch Ghostwriting bei der Erstellung von Biografien, Filmdrehbüchern oder Büchern im Allgemeinen sowie die statistische Auswertung von Daten für akademische Forschungsarbeiten.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Warum nimmt man einen Ghostwriter Service in Anspruch?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Es gibt viele Gründe, einen akademischen Ghostwriting Service in Anspruch zu nehmen. Dazu gehören die heutzutage extrem gestiegenen Anforderungen im Studium sowie der modernen Arbeitswelt. Gerade von Akademikern wird heutzutage eine Belastbarkeit erwartet, die Viele einfach nicht haben. Es wird gefordert einen hohen wissenschaftlichen Output zu liefern, oft nur zu erreichen mit Arbeiten bis spät in die Nacht. Regelmäßige Ruhepausen sind nicht möglich. Diese ständige Überforderung hat unserer Gesellschaft einen neuen Typus von Arbeitskrankheiten beschert. Den sogenannten Burn-Out. Dieser starken Belastung kann man durch das in Anspruch nehmen eines Ghostwriting Services entgegenwirken. Die eigene Arbeit wird auf mehrere Schultern verteilt. Man ist so in der Lage ein größeres Arbeitspensum zu bewältigen.'
-      -
-        type: horizontal_rule
-      -
-        type: set
-        attrs:
-          id: Ajkyugrr
-          values:
-            type: button
-            button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
-            spacing_top: false
-      -
-        type: horizontal_rule
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wer bietet Ghostwriting Service?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Möchte man einen Ghostwriting Service in Anspruch nehmen, ist geboten, sich genau zu überlegen, welcher Ghostwriter für den jeweiligen Fall am besten geeignet ist. Man findet im Internet viele unseriöse Ghostwriting Services von Ghostwriting Agenturen, die nicht über die ausreichende Erfahrung verfügen, um eine qualitative Mustervorlage für eine Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit oder Doktorarbeit zu verfassen. Daher ist immer darauf zu achten, auf welche Autoren man sich bei solch einem sensiblen Thema wie dem Ghostwriting einlässt. Seriöse Ghostwriting Agenturen bieten Vorabgespräche an, machen keine Versprechungen, die nicht zu halten sind und bieten keine illegalen Services wie das verfassen von Klausuren an. Allerdings zeigt sich hier auch: Qualität hat ihren Preis. Wie der üblicher Ablauf bei einem redaktionellen Auftrag ist, erfahren Sie '
-          -
-            type: text
-            marks:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
-                type: link
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer wissenschaftlichen Arbeit Unterstützung oder einen akademischen Ghostwriting Service benötigen, dann senden Sie uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: llnyo9de
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 7Upupsm5
+            bard:
+              -
+                type: set
                 attrs:
-                  href: '/faq/#ablauf'
-                  target: null
-                  rel: null
-            text: hier
+                  id: OMeALlWB
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 8 - 20 Uhr'
+            show_as_card: true
           -
-            type: text
-            text: .
+            id: llnyoe5z
+            bard:
+              -
+                type: set
+                attrs:
+                  id: S9HNcMh5
+                  values:
+                    type: spacer
+                    padding-y: 12
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '100,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  id: CvzBjDvR
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  id: DTOsSWP8
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: true
+        type: row
+        enabled: true
+        responsive_columns: 0
       -
-        type: heading
-        attrs:
-          level: 2
-        content:
+        id: llnyo83o
+        single_col: false
+        grid:
           -
-            type: text
-            text: Disclaimer
+            id: 7Upupsm5
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Ansprechpartner bei GWriters'
+              -
+                type: set
+                attrs:
+                  id: laif3jj1
+                  values:
+                    type: team_liste
+                    in_flow: true
+                    team_mitglieder:
+                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
+                      - a0275a30-5d74-46a4-84d6-acc7e827e95e
+                      - 0443cc18-5f72-486a-91de-9648a8fc0b2f
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: llnyns7j
+    columns_replicator:
       -
-        type: paragraph
-        content:
+        id: llnynthr
+        single_col: true
+        grid:
           -
-            type: text
-            text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von unseren Ghostwritern erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze zu Ihrer Arbeit für interne Zwecke wünschen. Die weitere Verwendung der vom Autor erstellten Arbeit ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Blogartikel zum Thema Ghostwriting Service'
-      -
-        type: set
-        attrs:
-          id: zkkzrerX
-          values:
-            type: blog_entries
-            entries:
-              - ca28b460-b1e0-4cb5-b565-8667145db010
-              - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
-              - 6711bbb6-53ac-47dd-a424-b9b451d428e0
-    show_as_card: false
-    type: editor
+            id: 7Upupsm5
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wer bietet Ghostwriting Service?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Möchte man einen Ghostwriting Service in Anspruch nehmen, ist geboten, sich genau zu überlegen, welcher Ghostwriter für den jeweiligen Fall am besten geeignet ist. Man findet im Internet viele unseriöse Ghostwriting Services von Ghostwriting Agenturen, die nicht über die ausreichende Erfahrung verfügen, um eine qualitative Mustervorlage für eine Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit oder Doktorarbeit zu verfassen. Daher ist immer darauf zu achten, auf welche Autoren man sich bei solch einem sensiblen Thema wie dem Ghostwriting einlässt. Seriöse Ghostwriting Agenturen bieten Vorabgespräche an, machen keine Versprechungen, die nicht zu halten sind und bieten keine illegalen Services wie das verfassen von Klausuren an. Allerdings zeigt sich hier auch: Qualität hat ihren Preis. Wie der üblicher Ablauf bei einem redaktionellen Auftrag ist, erfahren Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: '/faq/#ablauf'
+                          target: null
+                          rel: null
+                    text: hier
+                  -
+                    type: text
+                    text: .
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von unseren Ghostwritern erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze zu Ihrer Arbeit für interne Zwecke wünschen. Die weitere Verwendung der vom Autor erstellten Arbeit ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Blogartikel zum Thema Ghostwriting Service'
+              -
+                type: set
+                attrs:
+                  id: zkkzrerX
+                  values:
+                    type: blog_entries
+                    entries:
+                      - ca28b460-b1e0-4cb5-b565-8667145db010
+                      - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
+                      - 6711bbb6-53ac-47dd-a424-b9b451d428e0
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692631204
-template: with-side-bar
+updated_at: 1692808982
+template: default
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
