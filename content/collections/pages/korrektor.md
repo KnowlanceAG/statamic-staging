@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: qsDF538w
@@ -268,28 +267,13 @@ replicator:
             entries:
               - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
               - fc6e7de5-8b4e-42c8-9a10-95208fbce892
-              - b0fee135-df37-4492-83ea-6f3799719792
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+              - be792eef-d56d-4a1a-b00d-e000278c4eec
     show_as_card: false
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860408
+updated_at: 1692631899
 page_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'

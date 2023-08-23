@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: y9mEUol1
@@ -525,7 +524,7 @@ replicator:
                     entries:
                       - ca5797f0-28d2-48ca-be1d-5c6ca8c1b01c
                       - 27876560-a260-4e18-89b1-417c11b8b31f
-                      - b0fee135-df37-4492-83ea-6f3799719792
+                      - a0ec0e1a-317f-4c4c-a06f-9ffd3c508726
             show_as_card: false
         type: row
         enabled: true
@@ -538,7 +537,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860389
+updated_at: 1692631376
 template: with-side-bar
 meta_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden & Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'

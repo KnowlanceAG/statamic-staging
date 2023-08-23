@@ -1404,7 +1404,7 @@ replicator:
                     entries:
                       - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
                       - 0408641d-3a59-44ce-a059-1b75afd3ecc4
-                      - 636b91b0-241e-4fbf-a315-2267fa607bd3
+                      - 14859f8c-0be8-41e4-9b2b-24df4b44c28c
               -
                 type: heading
                 attrs:
@@ -1450,21 +1450,6 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Leitfaden - Humboldt- Universität zu Berlin'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -1477,8 +1462,8 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691536202
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692632622
 meta_title: 'Magisterarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false

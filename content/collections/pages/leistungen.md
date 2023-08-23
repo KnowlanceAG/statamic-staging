@@ -5,7 +5,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860174
+updated_at: 1692630928
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,7 +141,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: 4l4pjmOB
@@ -970,12 +969,6 @@ replicator:
                             text: 'Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
                     text_ausrichtung: text-center
                     column_count: false
-              -
-                type: heading
-                attrs:
-                  level: 2
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true

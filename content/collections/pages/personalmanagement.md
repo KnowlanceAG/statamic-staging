@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690461330
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692634072
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2833,25 +2833,6 @@ replicator:
                       - a218c7ed-7850-4ac8-bfe8-b6cc2c4b4c16
                       - a6f9e2d8-1e4c-4f7c-9cc3-990ebe0bc3fc
                       - c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true

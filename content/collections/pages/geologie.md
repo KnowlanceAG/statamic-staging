@@ -136,11 +136,10 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680537012
+updated_at: 1692633516
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -781,9 +780,18 @@ replicator:
                           target: null
                           rel: null
                     text: 'https://www.agw.kit.edu/'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                   -
                     type: text
                     marks:
@@ -803,9 +811,18 @@ replicator:
                           target: null
                           rel: null
                     text: 'https://www.academia.edu/219426/Geologie_und_Literatur_-_Aufsatz_aus_Recherche'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                   -
                     type: text
                     marks:
@@ -825,12 +842,25 @@ replicator:
                           target: null
                           rel: null
                     text: 'https://geo.uni-greifswald.de/'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                       -
                         type: link
                         attrs:
@@ -838,21 +868,6 @@ replicator:
                           target: null
                           rel: null
                     text: 'https://studiengaenge.zeit.de/studium/naturwissenschaften/geowissenschaften/geowissenschaften'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true

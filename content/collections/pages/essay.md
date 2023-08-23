@@ -1028,23 +1028,8 @@ replicator:
                     type: blog_entries
                     entries:
                       - bbe248a3-ff7d-407f-847a-009576058efe
-                      - 774827ee-5840-450d-aca6-d60187adc46b
-                      - cf3e2042-acbe-483e-9eb1-3b7b20659a23
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
+                      - 3c6871d8-39f0-4c2c-8764-28388cef93e4
+                      - dabfe654-ec77-4680-89a4-94467547a605
             show_as_card: false
         type: row
         enabled: true
@@ -1057,9 +1042,9 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691535103
-meta_title: 'Essay schreiben lassen • Ghostwriter von GWriters'
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692709965
+meta_title: 'Essay schreiben lassen | Aufsatz vom Ghostwriter'
 meta_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
 no_index_page: false

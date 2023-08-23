@@ -1,5 +1,6 @@
 ---
 id: fba4bedd-aa85-4e2b-a1dd-ec135ff75e80
+blueprint: pages
 title: 'Wissenschaftliche Arbeiten und Artikel lesen - Die 11 besten Tipps'
 teaser:
   -
@@ -36,6 +37,7 @@ teaser:
   -
     type: set
     attrs:
+      id: Yb9GOF0I
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -44,9 +46,9 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: rmoshE3E
     bard:
       -
         type: paragraph
@@ -234,8 +236,8 @@ replicator:
     type: editor
     enabled: true
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623324992
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692634683
 page_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_description: 'Wie Sie wissenschaftliche Arbeiten lesen und verstehen - unsere erfahrenen akademischen Experten erläutern Ihnen die besten Tipps und Richtlinien.'
@@ -245,10 +247,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 og_description: 'Wie Sie wissenschaftliche Arbeiten lesen und verstehen - unsere erfahrenen akademischen Experten erläutern Ihnen die besten Tipps und Richtlinien.'
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
+sitemap_active: true
 ---

@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: TnZFpU3B
@@ -356,29 +355,14 @@ replicator:
             type: blog_entries
             entries:
               - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
-              - 286294bc-3927-4a37-b1e0-defe39884464
               - 24ba331e-8f49-4a91-a310-dd85b6281939
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+              - ece83e8a-3c91-4e07-8c58-4bcd1c937ec1
     show_as_card: false
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860362
+updated_at: 1692631318
 page_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
 template: with-side-bar
 meta_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'

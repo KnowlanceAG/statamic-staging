@@ -130,8 +130,8 @@ teaser:
               rel: null
         text: '##phone##'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691769537
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692710035
 replicator:
   -
     id: H0cWpLlj
@@ -1046,21 +1046,6 @@ replicator:
                       - 54a21e5d-b355-4031-ba30-726ca2eb7829
                       - 09c34137-dd35-4c1b-a0a5-16a946830ad0
                       - 90c98a48-07aa-44a7-bfa5-187a2717a778
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -1071,7 +1056,7 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'Exposé schreiben lassen • Ghostwriter von GWriters'
+meta_title: 'Exposé schreiben lassen | Hilfe vom Ghostwriter'
 meta_description: 'Mustervorlage für Exposé schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
 no_index_page: false

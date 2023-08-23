@@ -150,7 +150,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Das Ghostwriting von wissenschaftlichen Artikeln, Manuskripten, Arbeiten und Texten lebt von Qualität und Vertrauen. GWriters bietet mit derzeit über 3000 freiberuflichen akademischen Ghostwritern einen hochwertigen '
+                    text: 'Das Ghostwriting von wissenschaftlichen Artikeln, Manuskripten, Arbeiten und Texten lebt von Qualität und Vertrauen. GWriters bietet Ihnen mit derzeit über 3000 erfahrenen akademischen Ghostwritern einen hochwertigen '
                   -
                     type: text
                     marks:
@@ -182,22 +182,37 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Ghostwriting\_ist die individuelle Texterstellung im Auftrag eines Kunden nach dessen individuellen Wünschen und Vorgaben durch einen anonymen wissenschaftlichen Autor, der neben den sprachlichen Fertigkeiten auch themenspezifisches Fachwissen vorweisen kann. Das es sich beim Ghostwriting um eine ausgesprochen hochwertige und anspruchsvolle Dienstleistung handelt, steht dabei besonders die Qualität der zu erstellenden Mustervorlage im Vordergrund"
+                    text: "Ghostwriting\_ist die individuelle Texterstellung im Auftrag eines Kunden nach dessen individuellen Wünschen und Vorgaben durch einen anonymen wissenschaftlichen Autor, der neben den sprachlichen Fertigkeiten auch themenspezifisches Fachwissen und Erfahrung vorweisen kann. Das es sich beim Ghostwriting um eine ausgesprochen hochwertige und anspruchsvolle Dienstleistung handelt, steht dabei besonders die Qualität der zu erstellenden Mustervorlage im Vordergrund"
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Der rechtliche Hintergrund des Ghostwritings ist auch klar geregelt, oft durch einen individualisierten Werkvertrag. Darin festgehalten ist die '
+                    text: 'Der rechtliche Hintergrund des Ghostwritings ist auch klar geregelt, oft durch einen individualisierten Werkvertrag, der zwischen der Agentur und dem Auftraggeber geschlossen wird. Darin festgehalten ist die '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Abgabe aller Urheber- und Nutzungsrechte. '
+                    text: 'Abgabe aller Urheber- und Nutzungsrechte '
                   -
                     type: text
-                    text: "Diese werden von dem ursprünglichen Autoren an den Kunden übertragen. Der Text wird also im engen Dialog mit dem Kunden erstellt. Der Text wird dabei zum Eigentum des Kunden, obwohl dieser nicht selbst tätig war. Der ursprüngliche Autor bleibt unbekannt. Der Text entstand also wie von Geisterhand – von einem\_Ghostwriter. Die\_Geschichte\_des Ghostwriting reicht vermutlich so lang zurück, wie es Reden, Schriften oder Gesänge gibt, ein genaues Datum an dem der erste Ghostwriter entdeckt wurde, ist jedoch nicht bekannt. Heute ist das Phänomen Ghostwriting zwar in vielen verschiedenen Lebensbereichen zu Hause, bleibt für die breite Gesellschaft allerdings eher eine Randerscheinung. Diese Tatsache ergibt sich aus der Natur des Ghostwriting selbst, da meist nicht bekannt ist welcher Ghostwriter ein Dokument verfasst hat, bzw. dass überhaupt ein Ghostwriter am Werk war."
+                    text: 'an der erstellten Arbeit.'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' '
+                  -
+                    type: text
+                    text: "Diese werden über die Agentur von dem ursprünglichen Autoren an den Kunden übertragen. Der Text wird also im engen Dialog mit dem Kunden erstellt. Der Text wird dabei zum Eigentum des Kunden, obwohl dieser nicht selbst tätig war. Der ursprüngliche Autor der Arbeit und die Agentur bleiben unbekannt. Der Text entstand also wie von Geisterhand – von einem\_Ghostwriter."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Die\_Geschichte\_des Ghostwriting reicht vermutlich so lang zurück, wie es Reden, Schriften oder Gesänge gibt, ein genaues Jahr oder Datum, an dem der erste Ghostwriter entdeckt wurde, ist jedoch nicht bekannt. Heute ist das Phänomen Ghostwriting zwar in vielen verschiedenen Lebensbereichen und der Wissenschaft zu Hause, bleibt für die breite Gesellschaft allerdings eher eine Randerscheinung. Diese Tatsache ergibt sich aus der Natur des Ghostwritings selbst, da meist nicht bekannt ist, welcher Ghostwriter ein Dokument verfasst hat, bzw. dass überhaupt ein Ghostwriter am Werk war."
               -
                 type: heading
                 attrs:
@@ -217,7 +232,7 @@ replicator:
                     text: 'GWriters bietet Ihnen Zugang zu derzeit über 3000 erfahrenen Autoren'
                   -
                     type: text
-                    text: ' und Bearbeitern aus unterschiedlichen Fachrichtungen. Wir helfen Ihnen, auch für "exotische" Projekte, schnell und diskret den passenden Autor bzw. Texter zu finden. Je nach Bedarf können unsere Freelancer Sie von Beginn des Projektes an unterstützen oder auch bereits zum Teil bestehende '
+                    text: ' und Bearbeitern aus unterschiedlichen wissenschaftlichen Fachrichtungen. Wir helfen Ihnen, auch für "exotische" Projekte und Projektarbeiten, schnell und diskret den passenden Autor bzw. Texter mit ausreichend Erfahrung zu finden. Je nach Bedarf können unsere erfahrenen Experten Sie von Beginn des Projektes an unterstützen oder auch bereits zum Teil bestehende '
                   -
                     type: text
                     marks:
@@ -230,7 +245,7 @@ replicator:
                     text: 'Texte überarbeiten'
                   -
                     type: text
-                    text: ' und abschließen. Auch Teilunterstützungen bei Ihrem Projekt durch einen unserer '
+                    text: ' oder ein Lektorat durchführen. Auch Teilunterstützungen bei Ihrem Projekt durch einen unserer erfahrenen '
                   -
                     type: text
                     marks:
@@ -243,7 +258,7 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ', beispielsweise eine strukturelle Gliederung Ihres Manuskriptes, die statistische Auswertung einer Marktanalyse oder die Übersetzung Ihrer bereits erstellten Texte, sind durch uns realisierbar. Durch unser großes Team an Ghostwritern können wir in vielen Fachbereichen einen qualifizierten, fachspezifischen Bearbeiter bieten.'
+                    text: ', beispielsweise eine strukturelle Gliederung Ihres Manuskriptes, die statistische Auswertung einer Marktanalyse oder die Übersetzung Ihrer bereits erstellten Texte, sind durch uns realisierbar. Durch unser großes Team an erfahrenen Ghostwritern können wir in vielen Fachbereichen einen qualifizierten, fachspezifischen Bearbeiter bieten, der Sie während Ihres gesamten Studiums mit seiner Erfahrung begleitet.'
               -
                 type: paragraph
                 content:
@@ -262,7 +277,7 @@ replicator:
                     text: Mustervorlage
                   -
                     type: text
-                    text: ' pünktlich zu den vorher abgestimmten Terminen und nach Standardrichtlinien wissenschaftlicher Arbeiten '
+                    text: ' für Ihre Hausarbeit, Projektarbeit oder jede andere Art wissenschaftlicher Arbeiten pünktlich zu den vorher abgestimmten Terminen und nach Standardrichtlinien wissenschaftlicher Arbeiten '
                   -
                     type: text
                     marks:
@@ -275,7 +290,7 @@ replicator:
                     text: formatiert
                   -
                     type: text
-                    text: '. Falls Sie besondere Formatierungswünsche o.ä. haben, können natürlich auch diese umgesetzt werden. Unsere Preisgestaltung versteht sich als Gesamtpreis (siehe Preisrechner), welcher sämtliche anfallenden Kosten deckt und wird vor Auftragsbeginn in Absprache mit Ihnen festgelegt. Es treten also keine weiteren versteckten Kosten für Sie auf. Wir garantieren Ihnen vollständige Kostentransparenz. Jede von uns erstellte Mustervorlage wird durch einen Supervisor auf Richtigkeit und Qualität überprüft. Im Preis inbegriffen ist selbstverständlich auch eine automatisierte und manuelle '
+                    text: '. Falls Sie besondere Formatierungswünsche o.ä. haben, können natürlich auch diese umgesetzt werden. Unsere Preisgestaltung versteht sich als Gesamtpreis (siehe Preisrechner), welcher sämtliche anfallenden Kosten deckt und wird vor Auftragsbeginn in Absprache mit Ihnen festgelegt. Es treten also keine weiteren versteckten Kosten für Sie auf. Unsere Agentur garantiert Ihnen vollständige Kostentransparenz. Jede von uns erstellte Mustervorlage wird vor der Lieferung an den Auftraggeber durch ein Lektorat von einen erfahrenen Supervisor auf Richtigkeit und Qualität überprüft. Im Preis inbegriffen ist selbstverständlich auch eine automatisierte und manuelle '
                   -
                     type: text
                     marks:
@@ -297,7 +312,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wir bieten Ihnen stets höchste Qualität zu einem angemessenen Preis. Alle durch uns vermittelten Leistungen unterliegen strengen Qualitätskontrollen durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
+                    text: 'Wir bieten Ihnen seit vielen Jahren stets höchste Qualität zu einem angemessenen Preis. Alle durch uns vermittelten Leistungen unterliegen strengen Qualitätskontrollen durch unser Team und die Supervisor unserer Agentur. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
               -
                 type: paragraph
                 content:
@@ -306,7 +321,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Philosophie Ghostwriter suchen, dann können Sie uns gerne sofort eine '
+                    text: 'Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit oder Projektarbeit in Ihrem wissenschaftlich Fachbereich erfahrene Ghostwriter suchen, ein Lektorat benötigen oder generell Unterstützung im Studium wünschen, dann können Sie uns gerne sofort eine '
                   -
                     type: text
                     marks:
@@ -324,10 +339,10 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. '
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot für Ihre Arbeit bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung von einem erfahrenen Kundenberater wünschen. '
                   -
                     type: text
-                    text: 'Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                    text: 'Vorab: Selbstverständlich können und dürfen wir Ihnen keine Hausarbeiten, Projektarbeiten, Seminararbeiten, Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
               -
                 type: heading
                 attrs:
@@ -508,7 +523,7 @@ replicator:
                     text: 'akademischen Ghostwriter'
                   -
                     type: text
-                    text: ' und einen Supervisor bzw. '
+                    text: ' aus dem Team unserer Agentur und einen Supervisor bzw. '
                   -
                     type: text
                     marks:
@@ -521,7 +536,7 @@ replicator:
                     text: Lektoren
                   -
                     type: text
-                    text: ' für Ihr Projekt aus unserer Datenbank aus. Kriterien bei dieser Wahl sind die akademische Expertise dieser Personen in Eurem Fachbereich, unsere Erfahrung aus der Zusammenarbeit mit diesem Ghostwriter und dessen internes Ranking durch unser Team. Je spezifischer Sie bei Ihrer Anfrage sind, umso besser können unsere Kundenberater Ihrer Anforderungen definieren und die richtigen akademischen Experten für Ihr Projekt auswählen.'
+                    text: ' für Ihr Projekt aus unserer Datenbank aus. Kriterien bei dieser Wahl sind die akademische Expertise und Erfahrung dieser Personen in Eurem Fachbereich, unsere Erfahrung aus der Zusammenarbeit mit diesem Ghostwriter und dessen internes Ranking durch unser Team. Je spezifischer Sie bei Ihrer Anfrage sind, umso besser können unsere erfahrenen Kundenberater Ihre Anforderungen definieren und die richtigen akademischen Experten für Ihr Projekt auswählen.'
             show_as_card: false
           -
             id: 9zUDZKPN
@@ -539,7 +554,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nach der Auswahl des besten Ghostwriters für Sie diskutieren wir mit diesem Ihr Projekt im Detail und schätzen so den benötigten Aufwand ein. Zudem erstellen wir bereits einen vorläufigen Ablaufplan für Ihr Projekt und legen mögliche Teillieferungstermine fest. In der Regel dauert dies nicht mehr als 2 Stunden. In Ausnahmefällen dauert dies bis zu 48 Stunden. In solchen Fällen werden wir Sie aber vorab kontaktieren und Sie um etwas Geduld bitten, während wir durch eine genaue Einschätzung sicherstellen, dass es keine nachträglichen Überraschungen gibt. Anschließend erhalten Sie ein unverbindliches und individuelles Angebot für das akademische Ghostwriting von uns. Das Angebot versteht sich als Festpreis, versteckte Kosten gibt es nicht - das garantieren wir!'
+                    text: 'Nach der Auswahl des besten Ghostwriters für Sie diskutieren wir mit diesem Ihr Projekt im Detail und schätzen so den benötigten Aufwand für Ihre Arbeit ein. Zudem erstellen wir bereits einen vorläufigen Ablaufplan für Ihr Projekt und legen mögliche Teillieferungstermine fest. In der Regel dauert dies bei unserer Agentur nicht mehr als 2 Stunden. In Ausnahmefällen dauert dies bis zu 48 Stunden. In solchen Fällen werden wir Sie aber vorab kontaktieren und Sie um etwas Geduld bitten, während wir durch eine genaue Einschätzung sicherstellen, dass es keine nachträglichen Überraschungen gibt. Anschließend erhalten Sie ein unverbindliches und individuelles Angebot für das akademische Ghostwriting von uns. Das Angebot versteht sich als Festpreis, versteckte Kosten gibt es nicht - das garantieren wir!'
             show_as_card: false
           -
             id: ApGE9D4g
@@ -557,7 +572,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sobald Sie sich dazu entscheiden, unser Angebot anzunehmen, beginnt Ihr akademische Autor mit der Bearbeitung des Auftrages und der initialen '
+                    text: 'Sobald Sie sich dazu entscheiden, unser Angebot anzunehmen, beginnt Ihr akademischer Autor mit der Bearbeitung des Auftrages und der initialen '
                   -
                     type: text
                     marks:
@@ -570,7 +585,7 @@ replicator:
                     text: Literaturrecherche
                   -
                     type: text
-                    text: '. Wenn Sie damit einverstanden sind, vereinbaren wir zu Auftragsbeginn eine initiale Telefonkonferenz. Zu diesem Zeitpunkt wird außerdem die erste Teilzahlung für den Ghostwriting-Auftrag fällig, die in der Anfragephase mit Ihnen vereinbart wurde. Im Laufe der Bearbeitung erhalten Sie dann zu vereinbarten Zeitpunkten Teillieferungen zu Ihrem Projekt. Bitte nutzen Sie diese Teillieferungen, um Ihr Feedback und Änderungswünsche an den akademischen Ghostwriter zu äußern. Ihr Feedback wird natürlich kostenfrei eingearbeitet.'
+                    text: '. Wenn Sie damit einverstanden sind, vereinbaren wir zu Auftragsbeginn eine initiale Telefonkonferenz. Zu diesem Zeitpunkt wird außerdem die erste Teilzahlung für den Ghostwriting-Auftrag fällig, die in der Anfragephase mit Ihnen vereinbart wurde. Im Laufe der Bearbeitung erhalten Sie dann zu vereinbarten Zeitpunkten Teillieferungen zu Ihrem Projekt. Bitte nutzen Sie diese Teillieferungen, um Ihr Feedback und Änderungswünsche zur Arbeit an den akademischen Ghostwriter unserer Agentur zu äußern. Ihr Feedback wird natürlich kostenfrei eingearbeitet.'
             show_as_card: false
           -
             id: 8xW4ML8g
@@ -637,7 +652,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mit unserem akademischen Ghostwriting-Service können wir Sie bei flexibel bei jeder Art von Projekten unterstützen. Durch die weit diversifizierten Kompetenzen unserer über 3000 Experten und Ghostwriter können wir ein breites Service Portfolio abdecken, zu dem unter anderen die folgenden Leistungen gehören:'
+                    text: 'Mit unserem akademischen Ghostwriting-Service können wir Sie flexibel bei jeder Art von Projekten im Verlauf Ihres Studiums unterstützen. Durch die weit diversifizierten Kompetenzen unserer über 3000 Experten und Ghostwriter können wir ein breites Service Portfolio abdecken, zu dem unter anderen die folgenden Leistungen gehören:'
               -
                 type: bullet_list
                 content:
@@ -762,7 +777,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unser bewährter Service, mit dem wir bereits tausende Kunden unterstützt wurde und der hundertfach positiv bewertet wurde, wird ausschließlich von ausgewiesenen Experten erbracht, die sich in jedes Thema individuell einarbeiten und Ihnen somit immer den besten Service bieten. Darüber hinaus ermöglichen wir Ihnen als '
+                    text: 'Unser bewährter Service, mit dem wir bereits tausende Kunden unterstützt haben und der auf '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.provenexpert.com/de-de/gwriters/'
+                          target: _blank
+                          rel: null
+                    text: 'Provenexpert tausendfach positiv bewertet'
+                  -
+                    type: text
+                    text: ' wurde, wird ausschließlich von ausgewiesenen Experten mit Erfahrung erbracht, die sich in jedes Thema individuell einarbeiten und Ihnen somit immer den besten Service bieten. Darüber hinaus ermöglichen wir Ihnen als '
                   -
                     type: text
                     marks:
@@ -775,7 +803,20 @@ replicator:
                     text: 'Ghostwriting Agentur'
                   -
                     type: text
-                    text: ' immer den besten Preis für unseren Premium Service zu erhalten, da wir den gesamten Ablauf Ihres Ghostwriting-Projekts durch unsere schlanken Prozesse und unsere geschulten Projektmanager optimiert haben.'
+                    text: ' immer den besten Preis für unseren Premium Service zu erhalten, da wir den gesamten Ablauf Ihres Ghostwriting-Projekts durch unsere schlanken Prozesse und unsere geschulten Projektmanager optimiert haben. So garantieren wir Ihnen die optimale '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-erfahrung
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting Erfahrung'
+                  -
+                    type: text
+                    text: '!'
               -
                 type: heading
                 attrs:
@@ -821,7 +862,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677176489
+updated_at: 1692317359
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
 meta_description: 'Ghostwriting - Akademische Ghostwriter schreiben wissenschaftliche Artikel, Manuskripte und Arbeiten mit Qualität ✔️ 18.000 zufriedene Kunden seit 2012!'
 use_meta_keywords: false

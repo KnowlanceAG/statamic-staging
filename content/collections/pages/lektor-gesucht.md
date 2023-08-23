@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: 2Nh0cAhj
@@ -331,27 +330,12 @@ replicator:
               - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
               - fc6e7de5-8b4e-42c8-9a10-95208fbce892
               - 27876560-a260-4e18-89b1-417c11b8b31f
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
     show_as_card: false
     type: editor
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860532
+updated_at: 1692632024
 page_title: 'Lektor gesucht? Wir haben den passenden Lektor für Ihre Abschlussarbeit'
 template: with-side-bar
 meta_title: 'Lektor gesucht? Wir haben den passenden Lektor für Sie!'

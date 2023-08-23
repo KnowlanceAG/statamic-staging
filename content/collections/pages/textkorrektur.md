@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: lh4rIBui
@@ -252,28 +251,13 @@ replicator:
             entries:
               - fc6e7de5-8b4e-42c8-9a10-95208fbce892
               - 27876560-a260-4e18-89b1-417c11b8b31f
-              - b0fee135-df37-4492-83ea-6f3799719792
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+              - a0ec0e1a-317f-4c4c-a06f-9ffd3c508726
     show_as_card: false
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860437
+updated_at: 1692631955
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

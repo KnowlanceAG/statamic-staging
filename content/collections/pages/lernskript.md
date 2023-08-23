@@ -978,8 +978,6 @@ replicator:
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1005,25 +1003,6 @@ replicator:
                       - 22aac7aa-bf6b-4379-bbe7-a34e4cda84d7
                       - 1b1de42f-a221-4332-baca-9523a67e48b4
                       - 93e7d889-f11f-4a0e-8552-74dd5bce63f4
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -1035,10 +1014,10 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691535993
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692710015
 template: default
-meta_title: 'Lernskript schreiben lassen • Ghostwriter von GWriters'
+meta_title: 'Lernskript erstellen? Jetzt vom Ghostwriter helfen lassen!'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
 no_index_page: false

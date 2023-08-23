@@ -2909,7 +2909,7 @@ replicator:
                     entries:
                       - 8f956f01-0057-4727-86bd-227150d4d7c9
                       - d61b6932-74b9-4ece-9da6-a54a1265c9a3
-                      - 3f184e1e-936d-431a-811d-566210ffea43
+                      - 3c6871d8-39f0-4c2c-8764-28388cef93e4
               -
                 type: heading
                 attrs:
@@ -3003,25 +3003,6 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Tipps zum Schreiben von Hausarbeiten - Uni Greifswald'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -3034,7 +3015,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1691624448
+updated_at: 1692709828
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3042,7 +3023,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Hausarbeit schreiben lassen | Ghostwriter von GWriters'
+meta_title: 'Hausarbeit schreiben lassen | Hilfe vom Ghostwriter'
 meta_description: 'Hausarbeit schreiben lassen – Ghostwriter Hausarbeit als Mustervorlage für Sie ✔️ schnell, diskret und geprüft auf Qualität & Plagiate!'
 og_title: 'Hausarbeit schreiben lassen | Ghostwriter von GWriters'
 og_description: 'Hausarbeit schreiben lassen – Ghostwriter Hausarbeit als Mustervorlage für Sie ✔️ schnell, diskret und geprüft auf Qualität & Plagiate!'

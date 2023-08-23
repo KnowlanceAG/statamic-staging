@@ -2821,8 +2821,79 @@ replicator:
                                           align: start
                                     text: .
                             active: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lll3ctba
+        single_col: true
+        grid:
+          -
+            id: qgnoJyVG
+            bard:
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Weitere Fragen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Bietet GWriters Ghostwriting für Kunden aus Österreich an?'
+                          -
+                            type: text
+                            text: ' Nein, dazu finden Sie hier weitere Informationen: '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /faq/ghostwriter-oesterreich
+                                  target: null
+                                  rel: null
+                            text: 'Akademisches Ghostwriting & Ghostwriter in Österreich'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Wie sind wissenschaftliche Artikel & Arbeiten zu lesen?'
+                          -
+                            type: text
+                            text: ' Die 11 besten Tipps von unseren erfahrenen Ghostwritern dazu finden Sie hier: '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /faq/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
+                                  target: null
+                                  rel: null
+                            text: 'Wissenschaftliche Artikel & Arbeiten lesen'
             show_as_card: false
         type: row
         enabled: true
@@ -2913,8 +2984,8 @@ replicator:
     border: false
     type: add_section
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1691771696
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692635454
 template: default
 use_meta_keywords: false
 no_index_page: false

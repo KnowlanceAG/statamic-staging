@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692009322
+updated_at: 1692021364
 replicator:
   -
     id: VvunKODE
@@ -686,7 +686,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: "Für ein verbindliches Angebot senden Sie uns bitte eine\_"
+                            text: "Für ein konkretes Angebot senden Sie uns bitte eine unverbindliche\_"
                           -
                             type: text
                             marks:
@@ -1091,7 +1091,7 @@ replicator:
                     text: 'garantieren Ihre Anonymität '
                   -
                     type: text
-                    text: 'zu 100% und schützen die Daten aus Ihrer Anfrage gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+                    text: 'zu 100% und schützen die Daten aus Ihrer unverbindlichen Anfrage gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
               -
                 type: set
                 attrs:

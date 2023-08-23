@@ -107,8 +107,8 @@ teaser:
               rel: null
         text: '##phone##'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1690547304
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692555213
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1560,7 +1560,7 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' und Autoren Ihnen helfen. Zögern Sie nicht uns mit einer '
+                    text: ' und erfahrene Autoren Ihnen helfen. Zögern Sie nicht uns mit einer '
                   -
                     type: text
                     marks:
@@ -1573,19 +1573,37 @@ replicator:
                     text: 'kostenlosen Anfrage'
                   -
                     type: text
-                    text: ' zu kontaktieren, als '
+                    text: ' zu kontaktieren und uns alle Ihre Wünsche und Anforderungen mitzuteilen, als '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'seriöse Ghostwriting Agentur unterstützen wir Sie professionell & diskret!'
+                    text: 'seriöse '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting Agentur'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' unterstützen wir Sie professionell & diskret!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Gerne unterstützen wir Sie auf dem Weg zur Fertigstellung Ihrer wissenschaftlichen Arbeit bei der Ideensuche, beim Schreibprozess oder durch ein Korrekturlesen. Wir ermöglichen Ihnen den einfachen, schnellen und '
+                    text: 'Gerne unterstützen wir Sie auf dem Weg zur Fertigstellung Ihrer wissenschaftlichen Arbeit bei der Ideensuche, beim Schreibprozess sowie durch ein Korrekturlesen oder Lektorat. Wir ermöglichen Ihnen den einfachen, schnellen und '
                   -
                     type: text
                     marks:
@@ -1594,13 +1612,19 @@ replicator:
                     text: 'sicheren Zugang zu über 3000 akademischen Ghostwritern'
                   -
                     type: text
-                    text: .
+                    text: '. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Bei allen Dienstleistungen unserer akademischen Ghostwriting Agentur legen wir höchsten Wert auf Diskretion und Qualität.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei GWriters finden Sie sowohl '
+                    text: 'Bei GWriters finden Sie sowohl erfahrene '
                   -
                     type: text
                     marks:
@@ -1713,7 +1737,7 @@ replicator:
                     text: Facharbeiten
                   -
                     type: text
-                    text: ' und '
+                    text: ', Projektarbeiten und '
                   -
                     type: text
                     marks:
@@ -1797,7 +1821,7 @@ replicator:
                     text: Übersetzung
                   -
                     type: text
-                    text: ' von akademischen Texten. Unsere Ghostwriter sind akademische Experten mit ausgezeichneten Fachkenntnissen, die häufig selbst als '
+                    text: ' von akademischen Texten. Unsere Ghostwriter sind akademische Experten mit ausgezeichneten Fachkenntnissen und hervorragender Erfahrung, die häufig selbst als '
                   -
                     type: text
                     marks:
@@ -1806,13 +1830,13 @@ replicator:
                     text: 'Doktoren & Professoren'
                   -
                     type: text
-                    text: ' in der Forschung tätig sind. So garantieren wir Ihnen eine qualitativ hochwertige Dienstleistung.'
+                    text: ' an Universitäten in der Forschung tätig sind. So garantieren wir Ihnen eine qualitativ hochwertige Dienstleistung zu einem fairen Preis.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'GWriters legt Wert auf höchste Qualität bei jedem Auftrag und prüft sowohl die Qualifikationen unserer akademischen Ghostwriter, als auch jeden einzelnen Text durch ein '
+                    text: 'Die akademische Ghostwriter Agentur GWriters legt Wert auf höchste Qualität bei jedem Auftrag und prüft sowohl die Qualifikationen unserer akademischen Ghostwriter, als auch jeden einzelnen Text durch ein '
                   -
                     type: text
                     marks:
@@ -1821,7 +1845,7 @@ replicator:
                     text: 'mehrstufiges Qualitätssicherungssystem'
                   -
                     type: text
-                    text: ', dabei ist selbstverständlich eine umfassende '
+                    text: ', dabei sind selbstverständlich ein Lektorat und eine umfassende '
                   -
                     type: text
                     marks:
@@ -1843,7 +1867,7 @@ replicator:
                     text: inklusive
                   -
                     type: text
-                    text: '. Jeder Auftrag wird von einem erfahrenen Supervisor überwacht und von einem persönlichen, jederzeit ansprechbaren Projektkoordinator betreut.'
+                    text: '. Jeder Auftrag wird von einem erfahrenen Supervisor überwacht und die gesamte Zusammenarbeit wir von Ihrem persönlichen, jederzeit ansprechbaren Projektkoordinator betreut.'
               -
                 type: paragraph
               -
@@ -1860,19 +1884,19 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bei der Inanspruchnahme von Ghostwritern im akademischen Umfeld, also beispielsweise bei der Unterstützung von Bachelor- und Masterarbeiten, sowie Dissertationen und Habilitationen muss zwingend der rechtliche Rahmen eingehalten werden. Dies bedeutet, dass weiterhin eine eigenständige Erstellungen der Arbeiten der Studenten, Doktoranden oder Habilitanden stattfinden muss.'
+                    text: 'Bei der Inanspruchnahme von Ghostwritern im akademischen Umfeld, also beispielsweise bei der Unterstützung von Bachelor- und Masterarbeiten, Dissertationen, Habilitationen sowie anderen akademischen Arbeiten muss zwingend der rechtliche Rahmen eingehalten werden. Dies bedeutet, dass weiterhin eine eigenständige Erstellungen der Arbeiten der Studierenden, Doktoranden oder Habilitanden zum Erreichen des gewünschten Abschlusses stattfinden muss.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Da jeder Student diese Zusicherung gegenüber seiner Universität bindend eingeht, verstehen unsere Texte sich dem Grunde nach nur als Vorlagen und hilfreiche Leitfäden. GWriters hält sich strikt an europäische Gesetzgebungen. Dadurch steht Ihre Zusammenarbeit mit uns von Anfang an auf einem sicheren Fundament, die '
+                    text: 'Da Studierende diese Zusicherung gegenüber Universitäten bindend eingehen, verstehen unsere Texte sich dem Grunde nach nur als Vorlagen und hilfreiche Leitfäden sowie als Unterstützung für das Verfassen einer eigenen Arbeit. GWriters hält sich strikt an europäische Gesetzgebungen. Dadurch steht Ihre Zusammenarbeit mit uns von Anfang an auf einem sicheren Fundament, '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Legalität ist gewährleistet'
+                    text: 'Legalität und Diskretion sind gewährleistet'
                   -
                     type: text
                     text: ' und Plagiatsvorwürfe können ausgeschlossen werden.'

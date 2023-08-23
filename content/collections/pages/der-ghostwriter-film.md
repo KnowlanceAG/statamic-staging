@@ -1,5 +1,6 @@
 ---
 id: 80aaf4ab-f3ce-4817-8f2e-54d2ebece5a0
+blueprint: pages
 title: 'Der Ghostwriter (Film)'
 teaser:
   -
@@ -18,7 +19,8 @@ teaser:
             type: textColor
             attrs:
               color: '#ff6602'
-        text: 'Der Ghostwriter- ein Film von Roman Polanski, Filmkritik'
+              hex: '#000'
+        text: 'Der Ghostwriter - ein Film von Roman Polanski, Filmkritik'
   -
     type: paragraph
     content:
@@ -32,9 +34,9 @@ teaser:
             attrs:
               align: center
         text: 'Wir schreiben, lektorieren und verfeinern akademische Texte'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: IDAZhy0s
     bard:
       -
         type: paragraph
@@ -51,10 +53,10 @@ replicator:
                   href: /ghostwriter
                   target: null
                   rel: null
-            text: 'Ghostwriter '
+            text: Ghostwriter
           -
             type: text
-            text: 'ist ein Film von Roman Polanski und basiert auf dem bekannten Roman "The Ghost" (2007) von dem britischen Schriftsteller Robert Harris. Die Story des Politthrillers handelt um einen ambitionierten Ghostwriter (im Film nur ''Ghost'' genannt), gespielt von Ewan McGregor. Der Ghost übernimmt den Auftrag, die Memoiren des ehemaligen britischen Premier-Ministers zu vervollständigen und deckt ungeahnte Geheimnisse auf, welche sein Leben in Gefahr bringen.'
+            text: ' ist ein Film von Roman Polanski und basiert auf dem bekannten Roman "The Ghost" (2007) von dem britischen Schriftsteller Robert Harris. Die Story des Politthrillers handelt um einen ambitionierten Ghostwriter (im Film nur ''Ghost'' genannt), gespielt von Ewan McGregor. Der Ghost übernimmt den Auftrag, die Memoiren des ehemaligen britischen Premier-Ministers zu vervollständigen und deckt ungeahnte Geheimnisse auf, welche sein Leben in Gefahr bringen.'
       -
         type: paragraph
         content:
@@ -155,25 +157,11 @@ replicator:
               -
                 type: italic
             text: 'the ghostwriter, ghostwriter film, ghostwriter movie, der ghostwriter'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623172651
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692634286
 page_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 meta_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 meta_description: 'Eine Rezension zum Film der Ghostwriter von Roman Polanski bei GWriters.de. Wichtige Fakten und Zusammenfassung über den Film Ghostwriter erfahren Sie bei uns!'
@@ -183,11 +171,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: with-side-bar
 og_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 og_description: 'Eine Rezension zum Film der Ghostwriter von Roman Polanski bei GWriters.de. Wichtige Fakten und Zusammenfassung über den Film Ghostwriter erfahren Sie bei uns!'
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
+sitemap_active: true
 ---

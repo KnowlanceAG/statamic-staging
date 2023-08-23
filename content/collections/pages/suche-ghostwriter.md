@@ -131,7 +131,6 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     id: EvJmgSHX
@@ -381,28 +380,13 @@ replicator:
               - 84fb02d0-d713-4340-8bb6-b1cb293b3a91
               - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
               - 4148325d-d0d4-4055-9104-c4cb39f5a282
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
     show_as_card: false
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860354
-meta_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
+updated_at: 1692710055
+meta_title: 'Ghostwriter gesucht? | Professionell & diskret von GWriters'
 meta_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
 use_meta_keywords: false
 no_index_page: false

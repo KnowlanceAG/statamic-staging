@@ -1,5 +1,6 @@
 ---
 id: 3b7071cb-947f-4ede-965e-7d8d22837c97
+blueprint: pages
 title: 'Anonymous (Film)'
 teaser:
   -
@@ -36,6 +37,7 @@ teaser:
   -
     type: set
     attrs:
+      id: dyyEgN0r
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -44,6 +46,7 @@ teaser:
         spacing_top: false
 replicator:
   -
+    id: YjhKeSt3
     bard:
       -
         type: paragraph
@@ -134,35 +137,18 @@ replicator:
               -
                 type: italic
             text: 'shakespeare ghostwriter, anonymous film, anonymous movie, anounymous ghostwriter'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
     type: editor
     enabled: true
     show_as_card: false
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623172932
-teaser_bg: seiten/header-so-funktionierts.jpeg
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1692634256
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Anonymous (Film) Rezension • GWriters'
 meta_title: 'Anonymous (Film) Rezension • GWriters'
 meta_description: 'Eine Rezension zum Ghostwriter-Film Anonymous von Roland Emmerich von GWriters.de. Ghostwriter oder Shakespeare – Hier erfahren Sie die Antwort und die wichtigsten Fakten über den Ghostwriter-Film Anonymous'
@@ -170,4 +156,5 @@ og_title: 'Anonymous (Film) Rezension • GWriters'
 og_description: 'Eine Rezension zum Ghostwriter-Film Anonymous von Roland Emmerich von GWriters.de. Ghostwriter oder Shakespeare – Hier erfahren Sie die Antwort und die wichtigsten Fakten über den Ghostwriter-Film Anonymous'
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
+sitemap_active: true
 ---
