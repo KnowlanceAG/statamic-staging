@@ -1074,22 +1074,6 @@ replicator:
                           hex: '#000'
                     text: .
               -
-                type: set
-                attrs:
-                  id: jCdJlUL9
-                  values:
-                    type: spacer
-                    padding-y: 15
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  id: pEjcsN95
-                  values:
-                    type: spacer
-                    padding-y: 15
-              -
                 type: paragraph
                 content:
                   -
@@ -1162,7 +1146,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692749504
+updated_at: 1692749622
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
