@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692633132
+updated_at: 1692798002
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -499,20 +499,20 @@ replicator:
                     text: Masterarbeiten
                   -
                     type: text
-                    text: ' in der Anglistik an: die Bandbreite geht hier vom Coaching, über die Literarturrecherche bis zur Erstellung von Mustervorlagen. Sie haben Bedarf an einer einmaligen Mustervorlage? '
+                    text: ' in der Anglistik an: die Bandbreite geht hier vom Coaching, über die Literarturrecherche bis zur Erstellung von Mustervorlagen. Sie haben Bedarf an einer einmaligen Mustervorlage? Fordern Sie mit einer '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /anfrage-1
+                          href: /anfrage
                           target: null
                           rel: null
-                    text: 'Fordern Sie mit einer kostenlosen Anfrage ein unverbindliches Angebot an'
+                    text: 'kostenlosen Anfrage'
                   -
                     type: text
-                    text: .
+                    text: ' ein unverbindliches Angebot an.'
               -
                 type: paragraph
                 content:
