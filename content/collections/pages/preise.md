@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692021364
+updated_at: 1692803624
 replicator:
   -
     id: VvunKODE
@@ -2237,6 +2237,117 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Zahle ich bei GWriters für KI-Texte oder echte Unikate?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir garantieren Ihnen, dass keiner unserer Texte mit KIs wie ChatGPT & co erstellt wurde. Wir verpflichten nicht nur unsere Autoren vertraglich dazu, im Schreibprozess keine KI zu nutzen, sondern stellen Ihnen als Kunde auch unseren eigens entwickelten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ai-detector
+                          target: null
+                          rel: null
+                    text: 'KI-Detektor kostenlos'
+                  -
+                    type: text
+                    text: ' zur Verfügung. Denn bei GWriters sind wir der Meinung, dass echte Unikate auf akademischem Standard nur von einem menschlichen Verstand verfasst werden können. Hierfür gibt es eine Vielzahl an Gründen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '1. Qualität und Tiefe der Forschung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'KI nutzt vorhandenes Wissen und kann nicht aktuelle Forschung einbeziehen, was die Tiefe und Relevanz beeinträchtigt. Außerdem wurde bereits häufig beobachtet, dass KI Quellen nicht ausreichend referenziert und auch teilweise Quellen und Studien vollständig erfindet.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '2. Individualität und Originalität'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'KI basiert auf bestehenden Daten und kann keine eigenen Schlussfolgerungen ziehen, was die Gewährleistung von Originalität erschwert und möglicherweise Duplikate erzeugt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '3. Anpassung an spezifische Anforderungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademische Arbeiten haben spezielle Anforderungen und auch Sie als Kunde haben individuelle Vorstellungen für Ihr Projekt; KI könnte Schwierigkeiten haben, diese zu verstehen und exakt zu erfüllen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '5. Erkennbarkeit von KI-Texten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Moderne Textanalyse kann oft KI-generierte Texte identifizieren, was die Authentizität und Integrität Ihrer Arbeit in Gefahr bringt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '6. Fehlender wissenschaftlicher Ausdrucksstil'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'ChatGPT-Texte können den nuancierten Stil echter wissenschaftlicher Arbeiten vermissen lassen, was ihre Glaubwürdigkeit reduziert.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '7. Selbstüberschätzung und mangelnde Selbstkritik von ChatGPT'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'ChatGPT fehlt die Fähigkeit zur Selbstkritik, was zu Ungenauigkeiten oder Fehlern führen kann. Außerdem formuliert die KI Texte nicht mit der notwendigen Zurückhaltung, wie Sie von seriösen Wissenschaftlern an den Tag gelegt wird, die sich für eine eventuelle Widerlegung ihrer Thesen absichern möchten.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     text: 'Ihre Sicherheit und die Qualität Ihrer Arbeit haben für uns Priorität'
               -
                 type: paragraph
@@ -3025,7 +3136,9 @@ replicator:
                         id: ll6kk53w
                         headline:
                           -
-                            type: paragraph
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
                                 type: text
