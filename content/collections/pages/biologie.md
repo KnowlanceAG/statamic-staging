@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692633176
+updated_at: 1692797845
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -837,6 +837,7 @@ replicator:
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
                     spacing_top: false
+                    button_align: justify-center
               -
                 type: horizontal_rule
               -
@@ -1330,10 +1331,11 @@ replicator:
                   id: lkl82btx
                   values:
                     type: button
-                    button_link: 'entry::fb7f2840-5af4-40d9-b494-39fb8921a8d8'
-                    button_text: 'Jetzt kostenlos Anfragen'
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     button_align: justify-center
                     spacing_top: false
+                    color: '#FF6606'
               -
                 type: paragraph
               -
