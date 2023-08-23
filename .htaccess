@@ -221,3 +221,8 @@ Redirect 301 /faq/ablauf-ghostwriting /so-funktioniert-es
 Redirect 301 /faq/wie-lange-braucht-ein-ghostwriter /ghostwriter
 Redirect 301 /faq/diskretion-ghostwriting /blog/gwriters-diskretion-kunden
 Redirect 301 /faq/formatvorgaben /faq
+
+#14469
+Redirect 301 /wiki /faq
+Redirect 301 /wiki/ghostwriter-oesterreich /faq/ghostwriter-oesterreich
+Redirect 301 /wiki/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben /faq/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
