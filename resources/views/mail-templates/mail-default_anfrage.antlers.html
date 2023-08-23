@@ -32,7 +32,7 @@
     {{ callback_date timezone="Europe/Berlin" format="d.m.Y" }} ({{ callback_time_from }} - {{ callback_time_to }} Uhr)<br>
   {{ /if }}
   {{ if lieferdatum }}Abgabedatum:
-    {{ lieferdatum }}</br>
+    {{ lieferdatum timezone="Europe/Berlin" format="d.m.Y" }}</br>
   {{ /if }}
   {{ if promocode }}Promocode:
     {{ promocode }}<br>

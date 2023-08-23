@@ -57,22 +57,44 @@ sections:
         field:
           placeholder: 'Bitte wählen'
           options:
-            Wirtschaft: Wirtschaft
-            'Jura & Rechtswissenschaften': 'Jura & Rechtswissenschaften'
-            Informatik: Informatik
+            'Agrar- & Forstwissenschaften': 'Agrar- & Forstwissenschaften'
+            Anglistik: Anglistik
+            Architektur: Architektur
+            Biologie: Biologie
+            BWL: BWL
+            Chemie: Chemie
+            Elektrotechnik: Elektrotechnik
+            Erziehungswissenschaften: Erziehungswissenschaften
+            Finanzwissenschaften: Finanzwissenschaften
+            Geisteswissenschaften: Geisteswissenschaften
+            Geologie: Geologie
+            GeowIssenschatten: GeowIssenschatten
+            Germanistik: Germanistik
+            Geschichte: Geschichte
             'Gesellschafts- & Sozialwissenschaften': 'Gesellschafts- &amp; Sozialwissenschaften'
+            Informatik: Informatik
+            Interdisziplinär: Interdisziplinär
+            'Jura & Rechtswissenschaften': 'Jura & Rechtswissenschaften'
+            'Kunst / Gestaltung': 'Kunst / Gestaltung'
+            Literatur: Literatur
+            Marketing: Marketing
             'Medien & Kommunikation': 'Medien & Kommunikation'
             'Medizin & Gesundheitswesen': 'Medizin & Gesundheitswesen'
+            Musik: Musik
             'Naturwissenschaften & Mathematik': 'Naturwissenschaften & Mathematik'
+            Personalmanagement: Personalmanagement
+            PflegewIssenschatten: PflegewIssenschatten
+            Philosophie: Philosophie
+            Psychologie: Psychologie
+            Sonstige: Sonstige
+            'SozIale Arbeit': 'SozIale Arbeit'
+            Sportwissenschaften: Sportwissenschaften
             'Sprach- & Kulturwissenschaften': 'Sprach- & Kulturwissenschaften'
             'Technik & Ingenieurwesen': 'Technik &amp; Ingenieurwesen'
-            Geisteswissenschaften: Geisteswissenschaften
-            'Kunst / Gestaltung': 'Kunst / Gestaltung'
-            Musik: Musik
-            'Agrar- & Forstwissenschaften': 'Agrar- & Forstwissenschaften'
-            Sportwissenschaften: Sportwissenschaften
-            Interdisziplinär: Interdisziplinär
-            Sonstige: Sonstige
+            VWL: VWL
+            Wirtschaft: Wirtschaft
+            Wirtschaftsinformatik: Wirtschaftsinformatik
+            Zahnmedizin: Zahnmedizin
           multiple: false
           clearable: false
           searchable: true
@@ -85,13 +107,20 @@ sections:
           listable: hidden
           validate:
             - required
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: zitationsstil
         field:
           options:
-            APA-Style: APA-Style
-            'Harvard Style': 'Harvard Style'
+            'AMA Style': 'AMA Style'
+            'APA Style': 'APA Style'
+            'Chicago Style': 'Chicago Style'
             'Deutscher Stil (Fußnoten)': 'Deutscher Stil (Fußnoten)'
+            'Harvard Style': 'Harvard Style'
+            'IEEE Style': 'IEEE Style'
+            'MLA Style': 'MLA Style'
           multiple: false
           clearable: true
           searchable: true
@@ -121,7 +150,7 @@ sections:
         field:
           input_type: text
           antlers: false
-          display: Seitenzahl, Wörter oder Zeichen
+          display: 'Seitenzahl, Wörter oder Zeichen'
           type: text
           icon: text
           listable: hidden

@@ -19,27 +19,21 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       </div>
     {{ /fields }}
 
-    {{ if form.handle == 'anfrage' || slug == 'anfrage-1' }}
+    {{ if form.handle == 'anfrage' }}
       <!-- Topic data -->
       <div class="flex flex-col md:col-span-12">
         <h3 class="mt-0">IHR PROJEKT</h3>
       </div>
-      {{ if slug == 'anfrage-1' }}
-        <div class="flex space-y-4 md:col-span-6">
-          {{ fields where="handle:fachrichtung" }}
-            {{ partial:content/form_element marginTopNone="true" fullWidth="true" }}
-          {{ /fields }}
-        </div>
-        <div class="flex space-y-4 md:col-span-6">
-          {{ fields where="handle:zitationsstil" }}
-            {{ partial:content/form_element marginTopNone="true" fullWidth="true" }}
-          {{ /fields }}
-        </div>
-      {{ else }}
+      <div class="flex space-y-4 md:col-span-6">
         {{ fields where="handle:fachrichtung" }}
-          {{ partial:content/form_element marginTopNone="true" }}
+          {{ partial:content/form_element marginTopNone="true" fullWidth="true" }}
         {{ /fields }}
-      {{ /if }}
+      </div>
+      <div class="flex space-y-4 md:col-span-6">
+        {{ fields where="handle:zitationsstil" }}
+          {{ partial:content/form_element marginTopNone="true" fullWidth="true" }}
+        {{ /fields }}
+      </div>
       {{ fields where="handle:arbeitsthema_spezifikationen_usw" }}
         {{ partial:content/form_element }}
       {{ /fields }}
