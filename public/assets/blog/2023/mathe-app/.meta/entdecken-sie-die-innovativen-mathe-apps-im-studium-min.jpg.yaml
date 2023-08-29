@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'mathe app'
 size: 42927
 last_modified: 1693328169
 width: 886
