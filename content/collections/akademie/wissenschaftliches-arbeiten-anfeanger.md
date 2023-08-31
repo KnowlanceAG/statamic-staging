@@ -191,27 +191,51 @@ replicator:
       -
         type: set
         attrs:
-          id: llz400fh
+          id: llz41jjf
           values:
             type: blog_entries
             entries:
-              - 23a3cd20-097d-414c-8f15-d744ae288576
-              - 85952363-75e0-4471-951d-63fb7d4b2f01
-              - d0e879a4-56b8-4cfe-8489-989d650d702e
-              - 7da80f7c-3cf3-4c93-b61e-7b1ebe9eff5b
-              - 1d153b9b-b107-4f93-a2a3-7b52fb81408b
-              - e769cbbf-6254-4622-8b2c-8dc2ae4ddaaf
-              - bf1d3b0c-9b09-4864-a1ff-d6b66cfbb88c
-              - edc9ea0b-bdf2-473d-bac6-d4bdbda3b9b0
-              - 884b09f8-2dce-4e99-9860-dd1a3c39f5bc
-              - f784ec82-f68f-4b8c-b036-73e97dcf759e
+              - 6189e473-16c1-4f90-9ede-1c2d4475093c
+              - a8be85a5-7a25-44b4-a45d-fcbb1293272f
+              - 84b9f87b-2111-4c2a-8e5b-9f05ea6bb78a
+              - e1531df3-aad8-46d3-83f7-269529424a72
+              - fc07ebeb-3373-459c-8b94-b00f1eb6b44b
+              - 6bac193e-a0bb-46dc-8488-64eacbd5d84f
+              - 7f67b98b-62f0-425a-af0c-280a8f4ec679
+              - 8c80d239-58df-4e9c-bc97-ea9b91f3a25c
+              - f35f5825-ea80-4fe6-a8b9-cc2f625b9535
+              - e12620a8-faf9-4f3e-82af-5586f4a85db2
+              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+              - 3fbdae79-f1df-4c4d-88b4-274db59e6461
+              - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
+              - 14859f8c-0be8-41e4-9b2b-24df4b44c28c
+              - 5c122273-2c45-445f-993e-b3fbd547964d
+              - 92016599-ee0c-40e7-94c8-7f0148baaaa2
+              - 6654cc64-c759-4332-a182-bacd7ce0f0df
+              - ef56c098-71fb-4bf5-ac59-d82ac57c4c61
+              - 55b32196-6391-423c-b9c4-bf050f3ae0b5
+              - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
+              - de34a06b-d2ba-4dd0-ac3a-8d2761fd005e
+              - 937e72bd-a96e-4e93-87de-27ea19286dce
+              - dfb48058-d2b9-406c-9a3f-2cfd4184f265
+              - c8d39c58-ad36-4303-938c-584c06d2d8e9
+              - 6711bbb6-53ac-47dd-a424-b9b451d428e0
+              - eda4f999-f8c8-4ec2-b390-2da71d943511
+              - 1c7b042d-7409-4999-ac04-7e2169299063
+              - cd1c50c0-403b-480a-ab57-685e6c904f0f
+              - a108c6d2-e7ca-4d4a-bdde-0b4362e26793
+              - d46e0ca4-d689-4003-b50c-b692aa251e4c
+              - e43c11cc-82e1-4563-a993-8445feb5eefd
+              - 84fb02d0-d713-4340-8bb6-b1cb293b3a91
+              - 6a687d35-a211-44a8-a84c-e14fd4c067bb
+              - 1d114e72-d852-438f-ab77-c988ddf00231
       -
         type: paragraph
     show_as_card: false
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693482945
+updated_at: 1693483368
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
