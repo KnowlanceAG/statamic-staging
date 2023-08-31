@@ -1,5 +1,6 @@
 ---
 id: 96924dda-67f8-40c2-9951-3ea533162992
+published: false
 blueprint: akademie
 title: 'Wissenschaftliches Arbeiten für Anfänger (Dupliziert)'
 teaser:
@@ -227,8 +228,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670884367
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1693480412
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
