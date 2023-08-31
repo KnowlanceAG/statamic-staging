@@ -1,6 +1,5 @@
 ---
 id: 96924dda-67f8-40c2-9951-3ea533162992
-published: false
 blueprint: akademie
 title: 'Wissenschaftliche Zitierweisen für Studenten von GWriters'
 teaser:
@@ -249,7 +248,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693483419
+updated_at: 1693483425
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
