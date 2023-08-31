@@ -2,7 +2,7 @@
 id: 96924dda-67f8-40c2-9951-3ea533162992
 published: false
 blueprint: akademie
-title: 'Wissenschaftliches Arbeiten für Anfänger (Dupliziert)'
+title: 'Wissenschaftliche Zitierweisen für Studenten von GWriters'
 teaser:
   -
     type: heading
@@ -268,7 +268,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693482729
+updated_at: 1693482777
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
@@ -277,11 +277,11 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
-academy_short_text_headline: 'Wissenschaftliche Zitierweisen für Studenten von Gwriters'
+academy_short_text_headline: 'Wissenschaftliche Zitierweisen für Studenten von GWriters'
 academy_short_text: 'Mit Unterstützung der Ressourcen, Artikel und Informationen aus unserer GWriters Akademie, werden Sie sich zügig in jeden Aspekt des wissenschaftlichen Schreibens einfinden. Besonders wenn es darum geht, Informationen korrekt zu zitieren, bieten wir umfassende Einblicke in Zitierstile wie APA, Harvard, IEEE, DIN, MLA oder Deutsche Zitierweisen und mehr. Wir leiten Sie durch alle wichtigen Elemente einer korrekten Zitierung in einer Abschlussarbeit.'
 meta_title: 'Alle Zitierweisen für wissenschaftliche Arbeiten einfach erklärt!'
 meta_description: 'Sie wissen nicht, welcher Zitierstil für Ihre Abschlussarbeit geeignet ist? Hier finden Sie einen umfassenden Überblick über alle wichtigen Informationen rund um das Thema!'
-academy_teaser_headline: 'Wissenschaftliche Zitierweisen für Studenten von Gwriters'
+academy_teaser_headline: 'Wissenschaftliche Zitierweisen für Studenten von GWriters'
 academy_teaser_text: 'Mit Unterstützung der Ressourcen, Artikel und Informationen aus unserer GWriters Akademie, werden Sie sich zügig in jeden Aspekt des wissenschaftlichen Schreibens einfinden. Besonders wenn es darum geht, Informationen korrekt zu zitieren, bieten wir umfassende Einblicke in Zitierstile wie APA, Harvard, IEEE, DIN, MLA oder Deutsche Zitierweisen und mehr. Wir leiten Sie durch alle wichtigen Elemente einer korrekten Zitierung in einer Abschlussarbeit.'
 more_templates:
   - 68703917-9254-4107-82e0-0d844a79e81a
