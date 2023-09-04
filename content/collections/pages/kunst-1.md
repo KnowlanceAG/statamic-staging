@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693822029
+updated_at: 1693822259
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1050,13 +1050,22 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    is_full: true
+    type: add_section
+    enabled: true
+    remove_spacing: false
+    border: false
+    bg_toggle: false
+  -
+    id: lm4pz4cv
+    columns_replicator:
       -
-        id: lm4p7ui6
+        id: lm4pz5lw
+        columns_per_row: 2
         single_col: false
         grid:
           -
-            id: NXQ8G4cK
-            show_as_card: false
+            id: 19Be7epB
             bard:
               -
                 type: heading
@@ -1233,22 +1242,9 @@ replicator:
                                   color: '#000!important'
                                   hex: '#000'
                             text: 'Kein NC'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  id: fsKnmvQ8
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
+            show_as_card: false
           -
-            id: lm4peohp
+            id: lm4pze24
             bard:
               -
                 type: heading
@@ -1316,6 +1312,31 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Das Kunststudium ist inhaltlich sehr praktisch und gleichzeitig sehr flexibel ausgerichtet. Gerade aufgrund dieser starken Praxisausrichtung und auch der hohen zeitlichen Flexibilität erfahren Kunststudenten zum Teil Probleme. Es ist immer schwierig, sich auf verschiedene Themen zu konzentrieren und oftmals kommen sowohl Praxis- als auch Theorieprojekte gleichzeitig zum Tragen. Hier können ebenso die Kunst Ghostwriter von GWriters helfen. Sie kennen die aktuellen Forschungsthemen und sind vor allen Dingen Experten in Sachen der Kunsttheorie. Ohne professionelle Unterstützung eine wissenschaftliche Begleitung zu finden, ist gewöhnlich sehr schwierig. Hier kann GWriters helfen und Sie bei der Durchführung von Projekten beraten, darüber hinaus können Sie aber auch bei GWriters eine Mustervorlage für bspw. Ihre Hausarbeit schreiben lassen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: lm4pzuxc
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            bard:
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  id: fsKnmvQ8
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: horizontal_rule
               -
                 type: heading
                 attrs:
@@ -1705,15 +1726,15 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 2
         responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
     is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
     type: add_section
     enabled: true
-    remove_spacing: false
-    border: false
-    bg_toggle: false
-    bg_color: '#D6D6D6'
   -
     id: lm4pglpv
     columns_replicator:
