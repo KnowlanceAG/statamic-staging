@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693820744
+updated_at: 1693820808
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -671,7 +671,7 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: false
+    remove_spacing: true
     is_full: false
     border: false
     type: add_section
@@ -687,6 +687,15 @@ replicator:
           -
             id: 19Be7epB
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm4p5wg7
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -754,10 +763,12 @@ replicator:
         enabled: true
         responsive_columns: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: oKvDuA4d
     columns_replicator:
