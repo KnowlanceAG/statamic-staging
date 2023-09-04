@@ -140,7 +140,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693817884
+updated_at: 1693820716
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -149,13 +149,142 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
-    id: oKvDuA4d
+    id: lm4otvpb
     columns_replicator:
       -
-        id: 8IhwYP33
+        id: lm4otwx0
+        single_col: false
         grid:
           -
-            id: 6jGQT0t5
+            id: 19Be7epB
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lm4ou1et
+                  values:
+                    type: insert_html
+                    html: |-
+                      <p style="font-size:18px" align="center"> Bei GWriters bieten wir kompetente Unterstützung im Bereich Kunst an. <b>In unserem Team finden Sie zu einem fairen Preis genau den akademischen Ghostwriter, der perfekt auf Ihre kunstbezogenen Aufgaben und Anforderungen zugeschnitten ist</b>. Sie möchten Ihr akademisches Projekt im Fachbereich Kunst in sichere Hände geben und aus dem Fachbereich Kunst Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Wir sind eine renommierte Ghostwriting-Agentur, die ausschließlich mit erfahrenen Experten und Spezialisten auf dem Gebiet der Kunst zusammenarbeitet.
+                      </p>
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lm4oyo5j
+    columns_replicator:
+      -
+        id: lm4oypzl
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Services anhand unserer Kundenstimmen'
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lm4ozknq
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lm4ozq31
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lm4p1ofy
+    columns_replicator:
+      -
+        id: lm4p1qdi
+        single_col: true
+        grid:
+          -
+            id: 19Be7epB
             bard:
               -
                 type: paragraph
@@ -170,7 +299,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Das Fach Kunst war schon immer ein Lieblingsfach von vielen Schülern. Durch den schulischen Kunstunterricht, besonders am Gymnasium in der Oberstufe, konnten viele Schüler ihr künstlerisches Talent erfahren und entwickeln. Daher möchten viele Schüler ihr künstlerisches Talent im Kunststudium weiterentwickeln und ihr Wissen über die Welt der Kunst vertiefen. Hier spielt die Kreativität eine große Rolle, vor allem in einigen Studiengängen, wie Design oder\_"
                   -
@@ -183,7 +312,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -220,7 +349,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Das Kunststudium erstreckt sich in der Regel auf drei Bereiche. Der Hauptbereich ist die bildende Kunst, der sich in zwei weitere Hauptbereiche untergliedert. Zum einen ist es die “freie” und zum anderen ist es die “angewandte” Kunst. Der Studiengang ist darüber hinaus auch mit vielen Studienrichtungen kombinierbar. Daher gibt es zwischen den einzelnen Kunsthochschulen und -universitäten bezüglich der künstlerischen Richtung sehr große Unterschiede. In diesem Beitrag erfahren Sie, ob der Studiengang für Sie passend ist.'
               -
@@ -236,7 +365,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Im nachfolgenden Text sollen folgende Fragen beantwortet werden:'
               -
@@ -258,7 +387,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Wie kann ein Ghostwriter mich im Studium unterstützen?'
                   -
@@ -315,7 +444,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Was ist bildende Kunst?'
                   -
@@ -334,7 +463,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Wo kann ich diesen Studiengang studieren?'
                   -
@@ -353,7 +482,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Wo kann ich nach dem Kunststudium tätig werden?'
                   -
@@ -372,7 +501,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Was kann ich mit einem Kunststudium machen?'
               -
@@ -390,7 +519,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Wie können Kunst Ghostwriter helfen?'
               -
@@ -406,7 +535,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Häufig sind Kunst Ghostwriter Künstler, die entweder als freischaffender Künstler tätig sind und natürlich Kunst studiert haben. Es sind aber auch\_"
                   -
@@ -419,7 +548,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -446,7 +575,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Coachings
                   -
@@ -467,7 +596,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -494,7 +623,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -521,7 +650,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -538,6 +667,27 @@ replicator:
                         attrs:
                           align: start
                     text: "\_schreiben lassen können."
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lm4p2cyt
+    columns_replicator:
+      -
+        id: lm4p2e00
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            bard:
               -
                 type: paragraph
                 content:
@@ -553,7 +703,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Wenn Sie bei Ihrer akademischen Arbeit im Fachbereich Kunst Unterstützung benötigen, dann können Sie uns gerne sofort eine\_"
                   -
@@ -568,7 +718,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -587,13 +737,37 @@ replicator:
                         attrs:
                           align: start
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+            show_as_card: false
+          -
+            id: lm4p2i33
+            bard:
               -
                 type: set
                 attrs:
-                  id: JlrkTysS
+                  id: lm4p2wkl
                   values:
                     type: video
                     video: 'https://www.youtube.com/watch?v=4JuNBFwj_2c'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: oKvDuA4d
+    columns_replicator:
+      -
+        id: 8IhwYP33
+        grid:
+          -
+            id: 6jGQT0t5
+            bard:
               -
                 type: heading
                 attrs:
@@ -857,6 +1031,22 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
+              -
+                type: heading
+                attrs:
+                  level: 2
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lm4p466e
+        single_col: false
+        grid:
+          -
+            id: NXQ8G4cK
+            bard:
               -
                 type: heading
                 attrs:
@@ -2223,7 +2413,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
