@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693820886
+updated_at: 1693821403
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1057,43 +1057,656 @@ replicator:
           -
             id: NXQ8G4cK
             show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lm4p7td1
-        single_col: false
-        grid:
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Kunst studieren: Voraussetzungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Da die Anzahl der Studienplätze für das Studium der Kunst in der Regel stark begrenzt ist und nicht jeder für das Kunststudium geeignet ist, führen Hochschulen besondere und auf das jeweilige Hochschulprofil bezogene Eignungstests (Aufnahmeprüfung, Auswahltest) durch. Diese Test sollen die persönliche künstlerische Eignung unter Beweis stellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Obligatorischer Bestandteil des künstlerischen Auswahltests ist neben einem gewissen künstlerischem Talent auch die persönliche Bewerbungsmappe mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting-beispielarbeiten
+                          target: null
+                          rel: null
+                    text: Beispielarbeiten
+                  -
+                    type: text
+                    text: ', die querschnittartig die eigenen künstlerischen Arbeiten versammelt. Für die Vorbereitung bieten einige Hochschulen gesonderte Veranstaltungen an oder informieren in eigenen Kursen, Leitfäden und Handreichungen Basisinformationen über die an der Hochschule geltenden Erwartungshaltungen für die persönliche Mappe. An die Präsentation der Mappe schließen sich an den meisten Hochschulen in Deutschland, Österreich und der Schweiz ein- bis mehrtätige Prüfungstests (Eignungstests) an. Hier haben die Bewerber neben handwerkliche Fähigkeiten (Zeichnen, Gestalten können) auch ihre Motivation für das Studium der Kunst nachzuweisen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der Studiengang kann gleich danach ausgewählt werden. Auch ein umfassendes künstlerisches Interesse und eine entsprechende Flexibilität auf verschiedene wandelnde Anforderungen sollten Sie haben. Einen NC gibt es allerdings an fast keiner Universität.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Kunststudium: Voraussetzungen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: '(Fach-) Hochschulreife'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Bewerbungsmappe mit Beispielarbeiten'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Eignungstest
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Künstlerische Fähigkeit'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Kein NC'
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  id: fsKnmvQ8
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: horizontal_rule
           -
-            id: NXQ8G4cK
+            id: lm4peohp
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Studieninhalte & Ablauf'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Das Kunststudium kann sowohl an staatlichen als auch an privaten Hochschulen absolviert werden. Oftmals werden die Studiengänge an staatlichen Hochschulen, wenn diese nicht auf die Kunst alleine fokussiert sind, unter dem Oberbegriff „Kunst, Gestaltung und Musik“ zusammengefasst. Je nach Hochschule unterscheiden sich die Ausrichtungen der bildenden Kunst.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Bei der angewandten Kunst handelt es sich um die Gestaltung von Bedarfs- oder Gebrauchsgegenständen, hingegen handelt es sich bei der freien Kunst um die Gattung der formenden Künste. Es sind Werke, die äußerlich ästhetisch geformt sind. Auch kann dieser Bereich als Gebrauchskunst bezeichnet werden. Dazu gehören zum Beispiel Gold- und Silberschmieden, Keramik, Textil (Mode) und Bühnenbild. Zur freien Kunst, auch „schöne Künste“ genannt, zählen bspw. Bildhauerei, Malerei, Grafik, Fotografie und Gemälde. Lassen Sie sich vorher über die beliebtesten Studiengängen unter weiterführende Quellen informieren.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Das Kunststudium ist inhaltlich sehr praktisch und gleichzeitig sehr flexibel ausgerichtet. Gerade aufgrund dieser starken Praxisausrichtung und auch der hohen zeitlichen Flexibilität erfahren Kunststudenten zum Teil Probleme. Es ist immer schwierig, sich auf verschiedene Themen zu konzentrieren und oftmals kommen sowohl Praxis- als auch Theorieprojekte gleichzeitig zum Tragen. Hier können ebenso die Kunst Ghostwriter von GWriters helfen. Sie kennen die aktuellen Forschungsthemen und sind vor allen Dingen Experten in Sachen der Kunsttheorie. Ohne professionelle Unterstützung eine wissenschaftliche Begleitung zu finden, ist gewöhnlich sehr schwierig. Hier kann GWriters helfen und Sie bei der Durchführung von Projekten beraten, darüber hinaus können Sie aber auch bei GWriters eine Mustervorlage für bspw. Ihre Hausarbeit schreiben lassen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Unterschied zwischen angewandter und freier Kunst:'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(243, 243, 243)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Angewandte Kunst'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(243, 243, 243)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Freie Kunst'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Gestaltung von Bedarfs- oder Gebrauchsgegenständen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Gestaltung von nicht Bedarfs- oder Gebrauchsgegenständen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Synonym: Gebrauchskunst'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Synonym: schöne Künste'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Gold- und Silberschmieden'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Keramik
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Textil
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Bühnenbild
+                                      -
+                                        type: hard_break
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Bildhauerei
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Malerei
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Grafik
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Fotografie
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Gemälde
             show_as_card: false
         type: row
         enabled: true
+        columns_per_row: 2
         responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lm4p7sat
-        single_col: false
-        grid:
-          -
-            id: NXQ8G4cK
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lm4p7r0e
-        single_col: false
-        grid:
-          -
-            id: NXQ8G4cK
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
       -
         id: lm4p466e
         single_col: false
@@ -1776,6 +2389,32 @@ replicator:
                 type: heading
                 attrs:
                   level: 2
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    is_full: true
+    type: add_section
+    enabled: true
+    remove_spacing: false
+    border: false
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+  -
+    id: lm4pglpv
+    columns_replicator:
+      -
+        id: lm4pgmw5
+        single_col: true
+        grid:
+          -
+            id: 19Be7epB
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
                     type: text
@@ -2384,6 +3023,23 @@ replicator:
                 type: heading
                 attrs:
                   level: 2
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lm4phe44
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
                     type: text
@@ -2414,6 +3070,26 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Knapp ein Drittel der Künstler landen nach dem Studium in der Branche Industrie. An zweiter Stelle werden die Branchen Internet und Dienstleistung bevorzugt. Nach einem Kunststudium gibt es vielfältige Möglichkeiten, beruflich aktiv zu werden. Jedoch gibt es kein einheitliches Berufsbild für Absolventen der bildenden Kunst. Zum einen haben Sie die Möglichkeit als freischaffender Künstler zu arbeiten. Auch an der Grafik erkennt man, dass die Anzahl der selbständigen bildenden Künstler seit 2003 in Deutschland gestiegen ist.'
+            show_as_card: false
+          -
+            id: lm4phuj0
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ist.
               -
                 type: set
                 attrs:
@@ -2424,6 +3100,38 @@ replicator:
                       - seiten/fachrichtungen/Anzahl-der-selbstaendigen-bildenden-Kuenstler.png
                     img_size: w-3/4
                     float: mx-auto
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: lm4pi4wk
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            bard:
+              -
+                type: set
+                attrs:
+                  id: YpsIWhhH
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/Einstiegsbranchen-fuer-Bildende-Kunst-Absolventen.png
+                    img_size: w-3/4
+                    float: mx-auto
+              -
+                type: heading
+                attrs:
+                  level: 2
+            show_as_card: false
+          -
+            id: lm4picew
+            bard:
               -
                 type: paragraph
                 content:
@@ -2440,16 +3148,25 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Zum anderen können Sie als Angestellte in Museen, in Galerien oder auch sogar in Unternehmen als Kuratoren arbeiten. Auch im journalistischen Bereich oder in der Lehre finden sich weitere Berufsmöglichkeiten. Darüber hinaus finden sich im Bereich der Kunsthistorik oder der Kunstpädagogik weitere Einsatzgebiete. Hierzu wären die potenzielle Arbeitgeber Schulen oder Krankenhäusern. In der bildende Kunst liegt das Einstiegsgehalt nach dem Bachelor bei rund 35.000 Euro.'
-              -
-                type: set
-                attrs:
-                  id: YpsIWhhH
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/fachrichtungen/Einstiegsbranchen-fuer-Bildende-Kunst-Absolventen.png
-                    img_size: w-3/4
-                    float: mx-auto
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lm4piuc3
+    columns_replicator:
+      -
+        id: lm4pivn0
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            bard:
               -
                 type: heading
                 attrs:
@@ -2528,11 +3245,11 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
     is_full: false
+    border: false
     type: add_section
     enabled: true
-    remove_spacing: false
-    border: false
 meta_title: 'Kunst Ghostwriter, Lektoren & Coaches • GWriters'
 meta_description: 'Professionelle Hilfe durch Kunst Ghostwriter und akademische Experten – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate ✅'
 og_title: 'Kunst Ghostwriter, Lektoren & Coaches • GWriters'
