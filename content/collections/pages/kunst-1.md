@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693900747
+updated_at: 1693900951
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2863,7 +2863,6 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
@@ -4489,10 +4488,12 @@ replicator:
         enabled: true
         responsive_columns: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F7B195'
   -
     id: lm5zzlbz
     columns_replicator:
@@ -4909,33 +4910,6 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: lm4rb7tn
-    columns_replicator:
-      -
-        id: lm4rb9sr
-        single_col: false
-        grid:
-          -
-            id: 19Be7epB
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: lm4rahud
-    remove_spacing: false
-    is_full: false
     border: false
     type: add_section
     enabled: true
@@ -4944,7 +4918,7 @@ replicator:
     columns_replicator:
       -
         id: lm4pivn0
-        single_col: false
+        single_col: true
         grid:
           -
             id: 19Be7epB
@@ -5028,10 +5002,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
 meta_title: 'Kunst Ghostwriter, Lektoren & Coaches • GWriters'
 meta_description: 'Professionelle Hilfe durch Kunst Ghostwriter und akademische Experten – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate ✅'
 og_title: 'Kunst Ghostwriter, Lektoren & Coaches • GWriters'
