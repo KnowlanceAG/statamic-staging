@@ -170,9 +170,6 @@ tree:
                 id: cb78bf11-ef7e-4d7e-9b68-025e2768873f
                 entry: d72509d7-bb3a-40dd-a757-3317732e2a57
               -
-                id: 2fea3894-926c-467f-ace2-e740c6e2c9fe
-                entry: 1363a62f-c0e9-4dba-aa09-d331c4fa8260
-              -
                 id: 03c8d6fd-6ea1-4c34-8f4f-9194ca3bc49a
                 entry: a9561621-8360-4ecf-855c-753f4a217c5a
               -
@@ -184,6 +181,9 @@ tree:
               -
                 id: b9fe33ef-22f1-493d-833f-60d632892606
                 entry: 24308319-8d41-41a9-ad35-e9cf2ceba726
+              -
+                id: 38c64462-25cf-475a-87a1-b21da4ecac5a
+                entry: 1d98acf0-a0bc-4e18-bb1c-cb42cb096f00
           -
             id: ecbc3f43-8690-4c01-968b-8b574c22fab0
             title: 'Medizinische Fachrichtungen'
