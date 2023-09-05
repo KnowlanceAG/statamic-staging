@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693822259
+updated_at: 1693900747
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2494,20 +2494,7 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Zum anderen können Sie als Angestellte in Museen, in Galerien o'
-                  -
-                    type: text
-                    text: 'der auch sogar in Unternehmen als Kuratoren arbeiten. Auch im journalistischen Bereich oder in der Lehre finden sich weitere Berufsmöglichkeiten. Darüber hinaus finden sich im Bereich der Kunsthistorik oder der Kunstpädagogik weitere Einsatzgebiete. Hierzu wären die potenzielle Arbeitgeber Schulen oder Krankenhäusern. In der bildende Kunst liegt das Einstiegsgehalt nach dem Bachelor bei rund '
+                    text: 'Zum anderen können Sie als Angestellte in Museen, in Galerien oder auch sogar in Unternehmen als Kuratoren arbeiten. Auch im journalistischen Bereich oder in der Lehre finden sich weitere Berufsmöglichkeiten. Darüber hinaus finden sich im Bereich der Kunsthistorik oder der Kunstpädagogik weitere Einsatzgebiete. Hierzu wären die potenzielle Arbeitgeber Schulen oder Krankenhäusern. In der bildende Kunst liegt das Einstiegsgehalt nach dem Bachelor bei rund '
                   -
                     type: text
                     marks:
@@ -2538,6 +2525,2417 @@ replicator:
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lm4q331d
+    columns_replicator:
+      -
+        id: lm4q34bj
+        single_col: true
+        grid:
+          -
+            id: 19Be7epB
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Kunstgeschichte als Studium'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Ein Kunstgeschichte-Studium ist ein akademisches Programm, das sich auf die Erforschung, Analyse und Interpretation von Kunst und visueller Kultur konzentriert. Während des Studiums der Kunstgeschichte werden Studierende dazu angeleitet, Kunstwerke aus verschiedenen Epochen, Stilen und kulturellen Kontexten zu analysieren und zu verstehen. Hier sind einige wichtige Themenstellungen eines Kunstgeschichte-Studiums:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Kunstgeschichte als Disziplin:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Studierende lernen die Geschichte und Entwicklung der Kunstgeschichte als wissenschaftliche Disziplin kennen. Sie erforschen die historischen Wurzeln und die Entwicklung der Kunsttheorie.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Kunststile und Epochen:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Das Studium beinhaltet die Analyse von Kunststilen, Epochen und Bewegungen, angefangen bei der Antike bis zur zeitgenössischen Kunst. Studierende lernen, charakteristische Merkmale und Veränderungen in der Kunst im Laufe der Geschichte zu erkennen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Künstler und Werke:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Kunstgeschichte konzentriert sich auf die Analyse von Kunstwerken und die Biografien von Künstlern. Studierende lernen, wie sie die Bedeutung und den kulturellen Kontext von Kunstwerken verstehen können.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Kultureller Kontext:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Kunstgeschichte betont die Bedeutung des kulturellen, politischen, sozialen und religiösen Kontexts für die Entstehung und Interpretation von Kunst. Dies umfasst die Untersuchung von historischen Ereignissen und Ideologien, die Kunst beeinflusst haben.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Methoden und Theorien:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Studierende erlernen verschiedene Methoden und theoretische Ansätze zur Analyse von Kunst. Dazu gehören kunsthistorische Forschungsmethoden, Ikonografie, Stilanalyse und kritische Theorien.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Kunstkritik und Schreiben:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Das Schreiben von kunstkritischen Essays und wissenschaftlichen Arbeiten ist ein wichtiger Bestandteil des Studiums. Studierende entwickeln die Fähigkeit, Kunstwerke zu interpretieren und ihre Gedanken kritisch und klar auszudrücken.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Museumsarbeit:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Viele Kunstgeschichte-Programme bieten Praktika und Möglichkeiten zur Zusammenarbeit mit Museen und Galerien an. Studierende können Erfahrungen in der Kuratierung, der Restaurierung und der Ausstellungsgestaltung sammeln.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Spezialisierung:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'In fortgeschrittenen Studienjahren können Studierende sich auf bestimmte Fachgebiete der Kunstgeschichte spezialisieren, wie etwa Renaissancekunst, moderne Kunst, asiatische Kunst oder Architekturgeschichte.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Interdisziplinäre Perspektiven:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Kunstgeschichte kann sich mit anderen Disziplinen wie Literaturwissenschaft, Philosophie, Soziologie und Anthropologie überschneiden, was zu interdisziplinären Ansätzen führt.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Karrieremöglichkeiten:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: 'Absolventen eines Kunstgeschichte-Studiums finden oft Beschäftigung in Museen, Galerien, Auktionshäusern, in der Denkmalpflege, im Kunstmarkt, im Bildungsbereich, in der Kunstvermittlung, im Journalismus und in der kulturellen Verwaltung.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lm5zkjli
+    columns_replicator:
+      -
+        id: lm5zko1l
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Kunst vs. Kunstgeschichte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Diese Tabelle verdeutlicht die grundlegende Unterschiede zwischen Kunst und Kunstgeschichte. Beide Fachrichtungen sind wichtig und ergänzen sich, um ein umfassendes Verständnis und eine Wertschätzung für Kunst zu erzielen.'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgba(236, 236, 241, 0.2)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Merkmal
+                      -
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgba(236, 236, 241, 0.2)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Kunst
+                      -
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgba(236, 236, 241, 0.2)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Kunstgeschichte
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Definition
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Kreative Schaffung von Werken'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Wissenschaftliche Erforschung von Kunstwerken und ihrer Geschichte'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Schaffungsprozess
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Künstlerinnen und Künstler erstellen Kunstwerke'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Wissenschaftler analysieren und interpretieren Kunstwerke'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Subjektivität
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Subjektiv und ausdrucksstark'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Strebt nach objektiver Analyse und Interpretation'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Vielfalt der Formen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Umfasst verschiedene künstlerische Medien und Stile'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Betrachtet Kunstwerke in ihrem kulturellen und historischen Kontext'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Ziel
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Ästhetische Erfahrung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Verständnis, Kontextualisierung und Dokumentation von Kunst'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Forschungsansatz
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Kreativität und individueller Ausdruck'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Objektive Analyse und Betonung des historischen Kontexts'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Publikation
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Kunstwerke selbst sind die Endprodukte'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Untersuchungsergebnisse werden in wissenschaftlichen Arbeiten wie Hausarbeiten und Bachelorarbeiten geschrieben, Publikationen veröffentlicht'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Kontinuität und Veränderung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Fokussiert auf die Erstellung neuer Werke'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Analysiert die Entwicklung von Kunst im Laufe der Zeit'
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lm5zs27e
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Prüfungsleistungen: Kunst vs. Kunstgeschichte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Die Prüfungsleistungen in den Fachbereichen Kunst und Kunstgeschichte können je nach Bildungseinrichtung und Studiengang variieren. Hier sind jedoch einige typische Prüfungsleistungen für beide Studiengänge:'
+              -
+                type: paragraph
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgba(236, 236, 241, 0.2)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: var(--tw-prose-headings)
+                                      hex: '#000'
+                                text: Prüfungsleistung
+                      -
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgba(236, 236, 241, 0.2)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: var(--tw-prose-headings)
+                                      hex: '#000'
+                                text: Kunst
+                      -
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgba(236, 236, 241, 0.2)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: var(--tw-prose-headings)
+                                      hex: '#000'
+                                text: Kunstgeschichte
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Praktische Prüfungen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Erstellung eigener Kunstwerke'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ❌
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: Portfolio-Bewertung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Einreichung eines Kunstportfolios'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ❌
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Mündliche Präsentationen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Vorstellung eigener Werke oder Kunstwerke bekannter Künstler'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Mündliche Prüfungen oder Verteidigungen von schriftlichen Arbeiten'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: Kunsttheorie-Prüfungen
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: ❌
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Schriftliche Arbeiten zur Kunsttheorie'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Künstlerische Forschungsprojekte'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Kreative Arbeiten verknüpfen akademische Theorie und Forschung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ❌
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Schriftliche Arbeiten'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ❌
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Essays, Seminararbeiten, Abschlussarbeiten (Bachelorarbeit, Masterarbeit)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Mündliche Prüfungen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ❌
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Präsentationen, Verteidigungen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: Präsentationen
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ❌
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Präsentationen über kunsthistorische Themen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: Klausuren
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ❌
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Schriftliche Klausuren zur Bewertung von Wissen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: Forschungsprojekte
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ❌
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Eigenständige Forschungsprojekte'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lm5zzlbz
+    columns_replicator:
+      -
+        id: lm5zzo3w
+        single_col: true
+        grid:
+          -
+            id: 19Be7epB
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter in der Kunstgeschichte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Warum Ghostwriter in der Kunstgeschichte benötigt werden, wo die Herausforderungen liegen und warum Studierende Ghostwriter für ihre Arbeit beauftragen, wird in der folgenden Tabelle erklärt'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 334
+                          background: 'rgba(236, 236, 241, 0.2)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: var(--tw-prose-headings)
+                                      hex: '#000'
+                                text: 'Herausforderungen in der Kunstgeschichte'
+                      -
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgba(236, 236, 241, 0.2)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: var(--tw-prose-headings)
+                                      hex: '#000'
+                                text: 'Warum Ghostwriter benötigt werden'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 334
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: '1. Komplexe Stilanalysen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Erfahrene Ghostwriter können bei der detaillierten Analyse und Interpretation von Kunstwerken helfen.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 334
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: '2. Historische Kontextualisierung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Aus dem Fachgebiet Kunstgeschichte Ghostwriter können bei der Recherche und dem Verständnis historischer Dokumente und Ereignisse unterstützen, um die Bedeutung der Kunst in diesem Kontext zu erläutern.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 334
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: '3. Interdisziplinäre Forschung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Ein Ghostwriter mit interdisziplinärem Hintergrund kann Ihnen bei der Integration von Wissen aus verschiedenen Bereichen helfen.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 334
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: '4. Fachsprache und Terminologie'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Ghostwriter in Kunstgeschichte können dazu beitragen, dass Ihre wissenschaftliche Arbeit fachsprachlich präzise ist.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 334
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: '5. Korrekte Zitierweise'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Ein Ghostwriter kann sicherstellen, dass Ihre Zitate korrekt in wissenschaftlichen Arbeiten sind und den akademischen Standards entsprechen.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 334
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: '6.Wissenschaftliche Arbeit/Projekt'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: var(--tw-prose-bold)
+                                      hex: '#000'
+                                text: 'Ghostwriter in Kunstgeschichte können ein Werk für Sie untersuchen, analysieren und interpretieren, um es als Musterarbeit für Ihre Bachelorarbeit fertigzustellen. Wenn Sie eine Musterarbeit im Fachbereich Kunstgeschichte für Ihre Bachelorarbeit schreiben lassen möchten, stehen Ihnen Ghostwriter zur Verfügung.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lm4rb7tn
+    columns_replicator:
+      -
+        id: lm4rb9sr
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lm4rahud
+    remove_spacing: false
+    is_full: false
     border: false
     type: add_section
     enabled: true
