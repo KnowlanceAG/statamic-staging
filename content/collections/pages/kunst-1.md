@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693904235
+updated_at: 1693904592
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -367,6 +367,15 @@ replicator:
             id: lm629mxg
             bard:
               -
+                type: set
+                attrs:
+                  id: lm631vs3
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: paragraph
+              -
                 type: bullet_list
                 content:
                   -
@@ -501,7 +510,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#prüfungsleistungen'
+                                          href: '#pruefungsleistungen'
                                           target: null
                                           rel: null
                                     text: 'Prüfungsleistungen: Kunst vs. Kunstgeschichte'
@@ -1633,7 +1642,7 @@ replicator:
                   id: lm61oeci
                   values:
                     type: anchor_target
-                    anchor_name: studieninha
+                    anchor_name: studieninhalte
               -
                 type: heading
                 attrs:
@@ -2633,7 +2642,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Studienrichtung im Kunststudium'
+                    text: 'Richtungsarten im Kunststudium'
               -
                 type: paragraph
                 content:
@@ -4082,7 +4091,7 @@ replicator:
                   id: lm61wjd9
                   values:
                     type: anchor_target
-                    anchor_name: prüfungsleistungen
+                    anchor_name: pruefungsleistungen
               -
                 type: heading
                 attrs:
