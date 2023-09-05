@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693901016
+updated_at: 1693902684
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -167,7 +167,203 @@ replicator:
                       <p style="font-size:18px" align="center"> Bei GWriters bieten wir kompetente Unterstützung im Bereich Kunst an. <b>In unserem Team finden Sie zu einem fairen Preis genau den akademischen Ghostwriter, der perfekt auf Ihre kunstbezogenen Aufgaben und Anforderungen zugeschnitten ist</b>. Sie möchten Ihr akademisches Projekt im Fachbereich Kunst in sichere Hände geben und aus dem Fachbereich Kunst Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Wir sind eine renommierte Ghostwriting-Agentur, die ausschließlich mit erfahrenen Experten und Spezialisten auf dem Gebiet der Kunst zusammenarbeitet.
                       </p>
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#ghostwriter-kommunikation'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter & Kommunikationswissenschaft'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#kommunikation'
+                                  target: null
+                                  rel: null
+                            text: 'Kommunikation & Wissenschaft'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#studium'
+                                  target: null
+                                  rel: null
+                            text: 'Studium der Kommunikationswissenschaften'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#unterschied'
+                                  target: null
+                                  rel: null
+                            text: 'Kommunikationsdesign und Kommunikationswissenschaften'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#Kommunikationsdesign'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter Kommunikationsdesign'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#arbeiten'
+                                  target: null
+                                  rel: null
+                            text: 'Als was arbeiten noch Ghostwriter im Kommunikationsdesign?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#aufgaben'
+                                  target: null
+                                  rel: null
+                            text: 'Aufgaben: Ghostwriter Kommunikationsdesign'
             show_as_card: false
         type: row
         enabled: true
@@ -285,6 +481,21 @@ replicator:
           -
             id: 19Be7epB
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm61jius
+                  values:
+                    type: anchor_target
+                    anchor_name: studienrichtung
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Studienrichtung Kunst '
               -
                 type: paragraph
                 content:
@@ -503,6 +714,13 @@ replicator:
                                   color: '#000!important'
                                   hex: '#000'
                             text: 'Was kann ich mit einem Kunststudium machen?'
+              -
+                type: set
+                attrs:
+                  id: lm61mrqy
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
               -
                 type: heading
                 attrs:
@@ -1068,6 +1286,13 @@ replicator:
             id: 19Be7epB
             bard:
               -
+                type: set
+                attrs:
+                  id: lm61nznu
+                  values:
+                    type: anchor_target
+                    anchor_name: voraussetzungen
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1247,6 +1472,13 @@ replicator:
             id: lm4pze24
             bard:
               -
+                type: set
+                attrs:
+                  id: lm61oeci
+                  values:
+                    type: anchor_target
+                    anchor_name: studieninha
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1324,7 +1556,12 @@ replicator:
             id: 19Be7epB
             bard:
               -
-                type: horizontal_rule
+                type: set
+                attrs:
+                  id: lm61ozy2
+                  values:
+                    type: anchor_target
+                    anchor_name: unterschied-angewandt-frei
               -
                 type: set
                 attrs:
@@ -1745,6 +1982,13 @@ replicator:
           -
             id: 19Be7epB
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm61pynt
+                  values:
+                    type: anchor_target
+                    anchor_name: studiumzeit
               -
                 type: heading
                 attrs:
@@ -2173,6 +2417,13 @@ replicator:
                           hex: '#000'
                     text: 'Im Regelfall dauert ein Bachelorstudium 6 bis 8 Semester und ein Masterstudium, was darauf aufgesetzt werden kann, 4 Semester. Hier finden sich oft Vertiefungen im Bereich Kunst und Medien. Der Abschluss für ein Bachelor wird als Bachelor of Arts bezeichnet und für Master als Master of Arts.'
               -
+                type: set
+                attrs:
+                  id: lm61s2zt
+                  values:
+                    type: anchor_target
+                    anchor_name: hochschule
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2206,13 +2457,19 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
-        id: lm4pmc0x
-        columns_per_row: 4
-        single_col: false
+        id: lm61unne
+        single_col: true
         grid:
           -
             id: 19Be7epB
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm61ssf5
+                  values:
+                    type: anchor_target
+                    anchor_name: studiengang
               -
                 type: heading
                 attrs:
@@ -2309,9 +2566,25 @@ replicator:
                     type: text
                     text: 'Neben den Freien Künsten als Studienziel steht Hochschulzugangsberechtigten auch das Studium in Kunstgeschichte sowie in Kunsterziehung zur Auswahl.'
             show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lm4pmc0x
+        columns_per_row: 3
+        single_col: false
+        grid:
           -
             id: lm4pmncd
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm61tb15
+                  values:
+                    type: anchor_target
+                    anchor_name: freie-kunst
               -
                 type: heading
                 attrs:
@@ -2343,6 +2616,13 @@ replicator:
             id: lm4pmwpo
             bard:
               -
+                type: set
+                attrs:
+                  id: lm61tm4w
+                  values:
+                    type: anchor_target
+                    anchor_name: angewandte-kunst
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2366,6 +2646,13 @@ replicator:
           -
             id: lm4pmys1
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm61tytd
+                  values:
+                    type: anchor_target
+                    anchor_name: bildende-kunst
               -
                 type: heading
                 attrs:
@@ -2407,6 +2694,13 @@ replicator:
           -
             id: 19Be7epB
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm61vq9m
+                  values:
+                    type: anchor_target
+                    anchor_name: karriere
               -
                 type: heading
                 attrs:
@@ -2538,6 +2832,13 @@ replicator:
           -
             id: 19Be7epB
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm61w1zs
+                  values:
+                    type: anchor_target
+                    anchor_name: kunstgeschichte
               -
                 type: heading
                 attrs:
@@ -2855,6 +3156,34 @@ replicator:
                                 attrs:
                                   align: start
                             text: 'Absolventen eines Kunstgeschichte-Studiums finden oft Beschäftigung in Museen, Galerien, Auktionshäusern, in der Denkmalpflege, im Kunstmarkt, im Bildungsbereich, in der Kunstvermittlung, im Journalismus und in der kulturellen Verwaltung.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Kunstgeschichte studieren'
+                  -
+                    type: text
+                    text: ' möchten, können Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.spiegel.de/start/kunstgeschichte-studieren-voraussetzungen-inhalte-berufsaussichten-a-fecbd575-80c6-4fb0-a167-712809b74f95'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: hier
+                  -
+                    type: text
+                    text: ' mehr erfahren. '
             show_as_card: false
         type: row
         enabled: true
@@ -3591,6 +3920,15 @@ replicator:
           -
             id: lm5zs27e
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm61wjd9
+                  values:
+                    type: anchor_target
+                    anchor_name: prüfungsleistungen
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -4504,6 +4842,13 @@ replicator:
           -
             id: 19Be7epB
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm61wt1d
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter-kunstgeschichte
               -
                 type: heading
                 attrs:
