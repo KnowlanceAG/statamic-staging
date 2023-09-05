@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693903040
+updated_at: 1693904235
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -166,6 +166,19 @@ replicator:
                     html: |-
                       <p style="font-size:18px" align="center"> Bei GWriters bieten wir kompetente Unterstützung im Bereich Kunst an. <b>In unserem Team finden Sie zu einem fairen Preis genau den akademischen Ghostwriter, der perfekt auf Ihre kunstbezogenen Aufgaben und Anforderungen zugeschnitten ist</b>. Sie möchten Ihr akademisches Projekt im Fachbereich Kunst in sichere Hände geben und aus dem Fachbereich Kunst Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Wir sind eine renommierte Ghostwriting-Agentur, die ausschließlich mit erfahrenen Experten und Spezialisten auf dem Gebiet der Kunst zusammenarbeitet.
                       </p>
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lm629kdm
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 19Be7epB
+            bard:
               -
                 type: heading
                 attrs:
@@ -183,7 +196,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                     text: Inhaltsverzeichnis
               -
@@ -199,21 +212,12 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: left
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
-                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#ghostwriter-kommunikation'
+                                  href: '#studienrichtung'
                                   target: null
                                   rel: null
-                            text: 'Ghostwriter & Kommunikationswissenschaft'
+                            text: 'Studienrichtung Kunst '
                   -
                     type: list_item
                     content:
@@ -226,19 +230,19 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: left
+                                  align: start
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#kommunikation'
+                                  href: '#ghostwriter'
                                   target: null
                                   rel: null
-                            text: 'Kommunikation & Wissenschaft'
+                            text: 'Wie können Kunst Ghostwriter helfen?'
                   -
                     type: list_item
                     content:
@@ -251,19 +255,187 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: left
+                                  align: start
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#studium'
+                                  href: '#voraussetzungen'
                                   target: null
                                   rel: null
-                            text: 'Studium der Kommunikationswissenschaften'
+                            text: 'Kunst studieren: Voraussetzungen'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#studieninhalte'
+                                          target: null
+                                          rel: null
+                                    text: 'Studieninhalte & Ablauf'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#unterschied-angewandt-frei'
+                                          target: null
+                                          rel: null
+                                    text: 'Unterschied zwischen angewandter und freier Kunst:'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#studiumzeit'
+                                          target: null
+                                          rel: null
+                                    text: 'Wo und wie lange wird Kunst studiert?'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#hochschule'
+                                          target: null
+                                          rel: null
+                                    text: 'Empfehlungen: Hochschularten und Studienarten'
+            show_as_card: false
+          -
+            id: lm629mxg
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schwerpunkte'
+                                  target: null
+                                  rel: null
+                            text: 'Richtungsart im Kunststudium'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#freie-kunst'
+                                          target: null
+                                          rel: null
+                                    text: 'Studienrichtung Freie Kunst'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#angewandte-kunst'
+                                          target: null
+                                          rel: null
+                                    text: 'Studienrichtung Angewandte Kunst'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#bildende-kunst'
+                                          target: null
+                                          rel: null
+                                    text: 'Studienrichtung Kunsterziehung (Bildende Kunst)'
                   -
                     type: list_item
                     content:
@@ -276,19 +448,19 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: left
+                                  align: start
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#unterschied'
+                                  href: '#karriere'
                                   target: null
                                   rel: null
-                            text: 'Kommunikationsdesign und Kommunikationswissenschaften'
+                            text: 'Karriere: Kunst'
                   -
                     type: list_item
                     content:
@@ -299,76 +471,60 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: left
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
-                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#Kommunikationsdesign'
+                                  href: '#kunstgeschichte'
                                   target: null
                                   rel: null
-                            text: 'Ghostwriter Kommunikationsdesign'
-                  -
-                    type: list_item
-                    content:
+                            text: 'Kunstgeschichte als Studium'
                       -
-                        type: paragraph
+                        type: bullet_list
                         content:
                           -
-                            type: text
-                            marks:
+                            type: list_item
+                            content:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: left
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#arbeiten'
-                                  target: null
-                                  rel: null
-                            text: 'Als was arbeiten noch Ghostwriter im Kommunikationsdesign?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#prüfungsleistungen'
+                                          target: null
+                                          rel: null
+                                    text: 'Prüfungsleistungen: Kunst vs. Kunstgeschichte'
                           -
-                            type: text
-                            marks:
+                            type: list_item
+                            content:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: left
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften#aufgaben'
-                                  target: null
-                                  rel: null
-                            text: 'Aufgaben: Ghostwriter Kommunikationsdesign'
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#ghostwriter-kunstgeschichte'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter in der Kunstgeschichte'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -2466,10 +2622,10 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: lm61ssf5
+                  id: lm628ebz
                   values:
                     type: anchor_target
-                    anchor_name: studiengang
+                    anchor_name: schwerpunkte
               -
                 type: heading
                 attrs:
@@ -2653,136 +2809,6 @@ replicator:
                   values:
                     type: anchor_target
                     anchor_name: bildende-kunst
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Studienrichtung Kunst '
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wie können Kunst Ghostwriter helfen?'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Kunst studieren: Voraussetzungen'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Studieninhalte & Ablauf'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Unterschied zwischen angewandter und freier Kunst:'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wo und wie lange wird Kunst studiert?'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Empfehlungen: Hochschularten und Studienarten'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Studienrichtung im Kunststudium'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Studienrichtung Freie Kunst'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Studienrichtung Angewandte Kunst'
               -
                 type: heading
                 attrs:
@@ -4057,8 +4083,6 @@ replicator:
                   values:
                     type: anchor_target
                     anchor_name: prüfungsleistungen
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
