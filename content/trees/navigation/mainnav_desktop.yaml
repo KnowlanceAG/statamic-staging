@@ -93,6 +93,10 @@ tree:
               -
                 id: f60dfe18-9047-49ed-b8b3-e3372d970f32
                 entry: 1de3d76b-f23a-41a8-a629-15b48a07223e
+              -
+                id: e68173e9-8149-465f-94f7-f77becbcb623
+                title: Softwarelokalisierung
+                url: '/fachrichtungen/informatik#softwarelokalisierung'
           -
             id: a31056a0-2c9b-4264-bf31-04858a0b2bc0
             title: Naturwissenschaften
@@ -100,6 +104,10 @@ tree:
               -
                 id: 28471033-6d2e-4b1c-aa53-d6f2c114a0b4
                 entry: 9232eaf7-a636-467d-9699-5e34e4a7c4a9
+              -
+                id: 1e497c27-8c2f-4b0f-9c70-26306cb16dc7
+                title: Biotechnologie
+                url: '/fachrichtungen/biologie#biotechnologie'
               -
                 id: 9c6092ac-97e5-4e37-91f7-8e992021ba9c
                 entry: a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
@@ -112,10 +120,6 @@ tree:
               -
                 id: 912093fa-ebe7-4858-8f3e-6e32c25c0c70
                 entry: 34f7528d-839e-4ef6-b735-627084dba887
-              -
-                id: 1e497c27-8c2f-4b0f-9c70-26306cb16dc7
-                title: Biotechnologie
-                url: '/fachrichtungen/biologie#biotechnologie'
           -
             id: b51d8d71-1573-4a62-aad0-e90d568ce6d7
             title: Sozialwissenschaften
@@ -138,6 +142,10 @@ tree:
               -
                 id: 36c1e40f-52e2-45b6-8a6e-6c43a49d9c44
                 entry: 390b1775-dafe-4f7a-b1c1-afe41c4efe70
+              -
+                id: eb2fc856-f556-4f45-9309-a9eae925dcdd
+                title: Kommunikationsdesign
+                url: '/fachrichtungen/kommunikationswissenschaften/#kommunikationsdesign'
           -
             id: c7e0e997-6f04-44b1-9409-46a8c7bd1f00
             title: 'Wirtschaftliche Fachbereiche'
@@ -160,6 +168,10 @@ tree:
               -
                 id: c69bb324-4d0e-48a1-9967-75ebfb1fd384
                 entry: 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+              -
+                id: fdf9baef-68f8-4cf5-b65e-9777a0e3cdc7
+                title: 'Internationale BWL'
+                url: '/fachrichtungen/bwl#internationale'
               -
                 id: 12562117-89b2-47a1-a1e6-d6a5220c0418
                 entry: 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
@@ -188,6 +200,10 @@ tree:
               -
                 id: 38c64462-25cf-475a-87a1-b21da4ecac5a
                 entry: 1d98acf0-a0bc-4e18-bb1c-cb42cb096f00
+              -
+                id: 0f15af7b-f6ea-46fa-a416-d54e7892d0f1
+                title: Kunstgeschichte
+                url: '/fachrichtungen/kunst#kunstgeschichte'
           -
             id: ecbc3f43-8690-4c01-968b-8b574c22fab0
             title: 'Medizinische Fachrichtungen'
