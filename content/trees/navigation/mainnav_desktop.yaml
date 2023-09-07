@@ -112,6 +112,10 @@ tree:
               -
                 id: 912093fa-ebe7-4858-8f3e-6e32c25c0c70
                 entry: 34f7528d-839e-4ef6-b735-627084dba887
+              -
+                id: 1e497c27-8c2f-4b0f-9c70-26306cb16dc7
+                title: Biotechnologie
+                url: '/fachrichtungen/biologie#biotechnologie'
           -
             id: b51d8d71-1573-4a62-aad0-e90d568ce6d7
             title: Sozialwissenschaften
