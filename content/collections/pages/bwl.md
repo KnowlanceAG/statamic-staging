@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692724162
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1694082550
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -166,6 +166,177 @@ replicator:
                     html: |-
                       <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Betriebswirtschaftslehre in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich mit Ihrer Arbeit an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
                       </p>
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'Unsere BWL-Ghostwriter'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ki-programm'
+                                  target: null
+                                  rel: null
+                            text: 'ChatGPT statt BWL Ghostwriter?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#grund'
+                                  target: null
+                                  rel: null
+                            text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#allgemein'
+                                  target: null
+                                  rel: null
+                            text: 'Allgemeines zur BWL'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#karriere'
+                                  target: null
+                                  rel: null
+                            text: 'Karriereaussichten nach dem BWL-Studium'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#aufbau'
+                                  target: null
+                                  rel: null
+                            text: 'Aufbau eines BWL-Studiums'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#inhalt'
+                                  target: null
+                                  rel: null
+                            text: 'Inhalte des BWL-Studiums'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#internationale'
+                                  target: null
+                                  rel: null
+                            text: 'Internationale BWL (IBWL)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#internationale-ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriter: Internationale BWL (IBWL)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#themen'
+                                  target: null
+                                  rel: null
+                            text: '5 Bachelorarbeit-Themen: Internationale Betriebswirtschaftslehre'
             show_as_card: false
         type: row
         enabled: true
@@ -449,6 +620,13 @@ replicator:
           -
             id: RY4Hwivx
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm90bjgn
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
               -
                 type: heading
                 attrs:
@@ -1451,6 +1629,13 @@ replicator:
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
               -
+                type: set
+                attrs:
+                  id: lm90c8y6
+                  values:
+                    type: anchor_target
+                    anchor_name: ki-programm
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1547,6 +1732,13 @@ replicator:
             id: x9hjjSI5
             bard:
               -
+                type: set
+                attrs:
+                  id: lm90d4uk
+                  values:
+                    type: anchor_target
+                    anchor_name: grund
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -1630,6 +1822,13 @@ replicator:
           -
             id: 4Y6hlzis
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm90dl6s
+                  values:
+                    type: anchor_target
+                    anchor_name: allgemein
               -
                 type: heading
                 attrs:
@@ -1726,6 +1925,13 @@ replicator:
                     ex_fachbereich:
                       - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
               -
+                type: set
+                attrs:
+                  id: lm90dzed
+                  values:
+                    type: anchor_target
+                    anchor_name: karriere
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -1806,6 +2012,13 @@ replicator:
           -
             id: StE9S7ZP
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm90ef5i
+                  values:
+                    type: anchor_target
+                    anchor_name: aufbau
               -
                 type: heading
                 attrs:
@@ -1943,6 +2156,13 @@ replicator:
           -
             id: OSzmY8He
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm90evtp
+                  values:
+                    type: anchor_target
+                    anchor_name: inhalt
               -
                 type: heading
                 attrs:
@@ -2104,7 +2324,7 @@ replicator:
                   id: ll2t6bkz
                   values:
                     type: anchor_target
-                    anchor_name: Internationale
+                    anchor_name: internationale
               -
                 type: heading
                 attrs:
@@ -2393,6 +2613,13 @@ replicator:
           -
             id: C8nTtel5
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm90g2c0
+                  values:
+                    type: anchor_target
+                    anchor_name: international-ghostwriter
               -
                 type: heading
                 attrs:
@@ -2916,6 +3143,13 @@ replicator:
           -
             id: WcOVwpix
             bard:
+              -
+                type: set
+                attrs:
+                  id: lm90gwux
+                  values:
+                    type: anchor_target
+                    anchor_name: themen
               -
                 type: heading
                 attrs:
