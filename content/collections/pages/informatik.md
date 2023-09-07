@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692633729
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1694080735
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -255,7 +255,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Leistungen'
+                                  href: '#leistungen'
                                   target: null
                                   rel: null
                             text: 'Unsere Leistungen im Fachbereich Informatik'
@@ -340,7 +340,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Aufbau'
+                                  href: '#aufbau'
                                   target: null
                                   rel: null
                             text: 'Aufbau des Informatikstudiums'
@@ -359,7 +359,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#Prufungsleistung'
+                                          href: '#prufungsleistung'
                                           target: null
                                           rel: null
                                     text: Prüfungsleistungen
@@ -419,7 +419,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Allgemein'
+                                  href: '#allgemein'
                                   target: null
                                   rel: null
                             text: 'Allgemeines zur Informatik'
@@ -438,7 +438,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#Disziplin'
+                                          href: '#disziplin'
                                           target: null
                                           rel: null
                                     text: 'Disziplinen der Informatik'
@@ -454,7 +454,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Ziel'
+                                  href: '#ziel'
                                   target: null
                                   rel: null
                             text: 'Ziele der Informatik'
@@ -470,7 +470,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Beruf'
+                                  href: '#beruf'
                                   target: null
                                   rel: null
                             text: 'Berufsbilder im Informatiksektor'
@@ -498,7 +498,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#Softwarelokalisierung'
+                                  href: '#softwarelokalisierung'
                                   target: null
                                   rel: null
                             text: 'Subdisziplin: Softwarelokalisierung'
@@ -718,7 +718,7 @@ replicator:
                   id: lk9xqorm
                   values:
                     type: anchor_target
-                    anchor_name: Leistungen
+                    anchor_name: leistungen
               -
                 type: paragraph
               -
@@ -2352,7 +2352,7 @@ replicator:
                   id: lk9xxso8
                   values:
                     type: anchor_target
-                    anchor_name: Aufbau
+                    anchor_name: aufbau
               -
                 type: heading
                 attrs:
@@ -2436,7 +2436,7 @@ replicator:
                   id: lk9xxhp0
                   values:
                     type: anchor_target
-                    anchor_name: Prufungsleistung
+                    anchor_name: prufungsleistung
               -
                 type: paragraph
               -
@@ -2537,7 +2537,7 @@ replicator:
                   id: lk9xx8v5
                   values:
                     type: anchor_target
-                    anchor_name: Beispielarbeit
+                    anchor_name: beispielarbeit
               -
                 type: paragraph
               -
@@ -2585,7 +2585,7 @@ replicator:
                   id: lk9xwu6g
                   values:
                     type: anchor_target
-                    anchor_name: Allgemein
+                    anchor_name: allgemein
               -
                 type: paragraph
               -
@@ -2629,7 +2629,7 @@ replicator:
                   id: lk9xwnit
                   values:
                     type: anchor_target
-                    anchor_name: Disziplin
+                    anchor_name: disziplin
               -
                 type: paragraph
               -
@@ -2920,7 +2920,7 @@ replicator:
                   id: lk9xw14p
                   values:
                     type: anchor_target
-                    anchor_name: Ziel
+                    anchor_name: ziel
               -
                 type: paragraph
               -
@@ -2995,7 +2995,7 @@ replicator:
                   id: lk9xvhvt
                   values:
                     type: anchor_target
-                    anchor_name: Beruf
+                    anchor_name: beruf
               -
                 type: heading
                 attrs:
@@ -3047,7 +3047,7 @@ replicator:
                   id: lk9xv72x
                   values:
                     type: anchor_target
-                    anchor_name: Softwarelokalisierung
+                    anchor_name: softwarelokalisierung
               -
                 type: heading
                 attrs:
