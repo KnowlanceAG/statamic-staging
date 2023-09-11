@@ -4,6 +4,7 @@ blueprint: pages
 title: 'Allgemeine Geschäftsbedingungen'
 replicator:
   -
+    id: bj8f3LxX
     bard:
       -
         type: heading
@@ -392,19 +393,46 @@ replicator:
         content:
           -
             type: text
-            text: '(1) Tritt der Kunde aus Gründen, die wir nicht zu vertreten haben, vom Vertrag zurück oder muss der Auftrag aufgrund ein Verschulden des Kunden abgebrochen werden, so gilt als vereinbart, dass wir Schadensersatz in Höhe der nachgewiesenen Aufwendungen (Stunden oder Seiten), mindestens jedoch in Höhe von 30 % der Nettoauftragssumme verlangen können, es sei denn, die Pauschale übersteigt den im normalen Geschäftsgang zu erwartenden Schaden oder den üblichen Wertminderungsaufwand oder der Kunde weist nach, dass entweder kein Schaden entstanden ist oder der entstandene Schaden wesentlich niedriger ist als die Pauschale. Ebenso werden Kosten in Abzug gebracht, die wir dadurch eingespart haben, dass die Leistungen nicht vollständig erbracht wurden oder durch anderweitigen Einsatz der entsprechenden Arbeitskräfte erzielt wurden, oder solche Erlöse, die wir nicht in böswilliger Absicht erzielen. Bei bereits begonnenen Projekten werden erbrachte Leistungen angemessen vergütet und es kommt zu einem Schadenersatz in Höhe von mindestens 30 % der noch offenen Nettoauftragssumme.'
+            text: '(1) Tritt der Kunde aus Gründen, die wir nicht zu vertreten haben, vom Vertrag zurück oder muss der Auftrag vor Leistungsbeginn aufgrund eines Verschulden des Kunden abgebrochen werden, so sind wir berechtigt, Schadensersatz in Höhe der tatsächlichen und nachgewiesenen Aufwendungen (Vertragsausarbeitung, Auswählen eines Lektors, Kommunikation mit allen Parteien usw.) sowie des entgangenen Gewinns, mindestens jedoch in Höhe von 30 % der gesamten Nettoauftragssumme verlangen können. Dies gilt nicht, soweit die Pauschale die im normalen Geschäftsgang zu erwartenden Aufwendungen oder Schäden übersteigt. Dem Kunden bleibt der Nachweis gestattet, entweder kein Schaden- oder Aufwendungsersatzanspruch entstanden ist oder der entstandene Schaden bzw. die getätigten Aufwendungen wesentlich niedriger sind als die angesetzte Pauschale. Ebenso werden Kosten in Abzug gebracht, die wir dadurch eingespart haben, dass die Leistungen nicht vollständig erbracht wurden oder durch anderweitigen Einsatz der entsprechenden Arbeitskräfte erzielt wurden, oder solche Erlöse, die wir nicht in böswilliger Absicht erzielen. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: '(2) Darüber hinaus ist der Kunde verpflichtet, die bis zum Rücktritt vom Vertrag ordnungsgemäß erbrachten Leistungen zu vergüten.'
+            text: '(2) Haben wir bereits mit der konkreten Leistungserbringung (Texterstellung usw.) begonnen, richtet sich der zu zahlende Aufwendungs- und Schadenersatz nach dem Umfang der geleisteten Arbeiten. Dabei sind erbrachte Leistungen zunächst gemäß des abgeschlossenen Vertrags vollständig zu vergüten. Der zusätzliche Aufwendungs- und Schadenersatz beträgt '
+      -
+        type: bullet_list
+        content:
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'a. bei einer Fertigstellungsquote von unter 50 %: 20 % der gesamten Nettoauftragssumme;'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'b. bei einer Fertigstellungsquote von über 50%: 10 % der gesamten Nettoauftragssumme;'
       -
         type: paragraph
         content:
           -
             type: text
-            text: '(3) Können wir keinen geeigneten Freiberufler für die vertragsgemäße Durchführung der Tätigkeit finden, sind wir berechtigt, innerhalb von zwei Wochen nach Vertragsschluss vom Vertrag zurückzutreten. Dies kann in Ausnahmefällen aus terminlichen oder personellen Gründen einmal vorkommen. Hat der Kunde zum Zeitpunkt des Widerrufs bereits eine Zahlung geleistet, erstatten wir den vollen Betrag zurück.'
+            text: 'Im Übrigen gilt Abs. 1 entsprechend mit der Maßgabe, dass dem Kunden der Nachweis gestattet bleibt, dass das Projekt zu mehr oder weniger als der Hälfte fertiggestellt ist.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '(3) Können wir keinen geeigneten Freiberufler für die vertragsgemäße Durchführung der Tätigkeit finden, sind wir berechtigt, innerhalb von zwei Wochen nach Vertragsschluss vom Vertrag zurückzutreten. Dies kann in Ausnahmefällen aus terminlichen oder personellen Gründen in Ausnahmefällen vorkommen. Hat der Kunde zum Zeitpunkt des Widerrufs bereits eine Zahlung geleistet, erstatten wir den vollen Betrag zurück.'
       -
         type: heading
         attrs:
@@ -481,7 +509,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1644415486
+updated_at: 1694444450
 page_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 template: without-teaser-with-sidebar
 meta_title: 'GWriters • Allgemeine Geschäftsbedingungen'
@@ -492,10 +520,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 og_description: 'Hier finden Sie unsere AGB. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
+sitemap_active: true
 ---
