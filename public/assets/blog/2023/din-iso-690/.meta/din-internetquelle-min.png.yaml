@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'iso 690-internetquellen'
 size: 11809
 last_modified: 1694505361
 width: 1291
