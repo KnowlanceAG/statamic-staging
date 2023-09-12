@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'iso 690-patente'
 size: 10781
 last_modified: 1694505369
 width: 1278
