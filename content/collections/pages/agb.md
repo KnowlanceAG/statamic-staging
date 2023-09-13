@@ -505,11 +505,17 @@ replicator:
           -
             type: text
             text: '(2) Sollten einzelne Bestimmungen der Vereinbarungen der Parteien ganz oder teilweise unwirksam, rechtswidrig oder undurchführbar sein oder werden, so wird hierdurch die Gültigkeit und Durchführbarkeit der übrigen Bestimmungen nicht berührt. In diesem Fall werden die Parteien die unwirksame Bestimmung durch eine Bestimmung ersetzen, die dem angestrebten Zweck nach geltendem Recht wirtschaftlich am nächsten kommt. Entsprechendes gilt für etwaige Rechtslücken in den Verträgen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Stand: 11.09.2023'
     show_as_card: false
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1694445443
+updated_at: 1694612420
 page_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 template: without-teaser-with-sidebar
 meta_title: 'GWriters • Allgemeine Geschäftsbedingungen'
