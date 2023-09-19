@@ -134,7 +134,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695154052
+updated_at: 1695154238
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -409,6 +409,8 @@ replicator:
                         hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische Übersetzungen.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -1881,29 +1883,6 @@ replicator:
     id: Vzf3o85f
     columns_replicator:
       -
-        id: AoASYIXl
-        single_col: true
-        grid:
-          -
-            id: 6IOfLEnE
-            bard:
-              -
-                type: set
-                attrs:
-                  id: EAxkykP9
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
         id: lmqqsoq8
         single_col: true
         grid:
@@ -2974,9 +2953,18 @@ replicator:
                                           rel: null
                                     text: 'Seminararbeit schreiben lassen'
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 2
+                  id: lmqr1m4p
+                  values:
+                    type: button
+                    button_link: 'entry::fb7f2840-5af4-40d9-b494-39fb8921a8d8'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
