@@ -1,7 +1,8 @@
 ---
 id: f49cc00a-bc35-4399-9772-09dc61f246d1
+published: false
 blueprint: pages
-title: 'BWL (Dupliziert)'
+title: Referat
 teaser:
   -
     type: heading
@@ -12,8 +13,6 @@ teaser:
         type: text
         marks:
           -
-            type: bold
-          -
             type: textAlign
             attrs:
               align: center
@@ -22,9 +21,11 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'BWL Ghostwriter'
+        text: 'Referat schreiben lassen'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -35,12 +36,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
-              hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Professionelle Hilfe von akademischen Ghostwritern für Ihr Referat'
   -
     type: set
     attrs:
@@ -139,7 +135,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1694082649
+updated_at: 1695151820
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3517,6 +3513,6 @@ og_description: 'Kompetente Unterstützung für Ihre wissenschaftliche Masterarb
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
-alternative_page_title: 'BWL Ghostwriter'
+alternative_page_title: 'Referat schreiben lassen'
 breadcrumbs_active: true
 ---
