@@ -1,7 +1,8 @@
 ---
 id: 89666d1a-45a3-4b5c-812d-80af3b8f3b44
+published: false
 blueprint: pages
-title: 'Präsentationen (Dupliziert)'
+title: Referat
 teaser:
   -
     type: heading
@@ -20,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Präsentationen erstellen lassen'
+        text: 'Referat schreiben lassen'
   -
     type: heading
     attrs:
@@ -35,7 +36,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Professionelle Hilfe von akademischen Ghostwritern bei Ihrer Präsentation'
+        text: 'Professionelle Hilfe von akademischen Ghostwritern für Ihr Referat'
   -
     type: set
     attrs:
@@ -2974,8 +2975,8 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692709949
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1695151112
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
