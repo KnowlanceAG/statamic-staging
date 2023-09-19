@@ -134,7 +134,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695154238
+updated_at: 1695155055
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -184,154 +184,74 @@ replicator:
                               -
                                 type: link
                                 attrs:
+                                  href: '#schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: 'Fertige Referate vs. Referat schreiben lassen?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#beispiel'
+                                  target: null
+                                  rel: null
+                            text: 'Referat schreiben: Beispiel'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#grafiken'
+                                  target: null
+                                  rel: null
+                            text: 'Übersicht: Verschiedene Arten von Grafiken für Präsentationen und Referate'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#programme'
+                                  target: null
+                                  rel: null
+                            text: 'Kostenlose Programme und Tools zur Erstellung von überzeugenden Referaten'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
                                   href: '#ghostwriter'
                                   target: null
                                   rel: null
-                            text: 'Unsere BWL-Ghostwriter'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#ki-programm'
-                                  target: null
-                                  rel: null
-                            text: 'ChatGPT statt BWL Ghostwriter?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#grund'
-                                  target: null
-                                  rel: null
-                            text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#allgemein'
-                                  target: null
-                                  rel: null
-                            text: 'Allgemeines zur BWL'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#karriere'
-                                  target: null
-                                  rel: null
-                            text: 'Karriereaussichten nach dem BWL-Studium'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#aufbau'
-                                  target: null
-                                  rel: null
-                            text: 'Aufbau eines BWL-Studiums'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#inhalt'
-                                  target: null
-                                  rel: null
-                            text: 'Inhalte des BWL-Studiums'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#internationale'
-                                  target: null
-                                  rel: null
-                            text: 'Internationale BWL (IBWL)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#international-ghostwriter'
-                                  target: null
-                                  rel: null
-                            text: 'Ghostwriter: Internationale BWL (IBWL)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#themen'
-                                  target: null
-                                  rel: null
-                            text: '5 Bachelorarbeit-Themen: Internationale Betriebswirtschaftslehre'
+                            text: 'Referat schreiben lassen: Ghostwriter'
             show_as_card: false
         type: row
         enabled: true
@@ -1890,6 +1810,13 @@ replicator:
             id: yIH9ppSS
             bard:
               -
+                type: set
+                attrs:
+                  id: lmqr8qn6
+                  values:
+                    type: anchor_target
+                    anchor_name: grafiken
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -3294,7 +3221,7 @@ replicator:
                   id: lm90ef5i
                   values:
                     type: anchor_target
-                    anchor_name: aufbau
+                    anchor_name: ghostwriter
               -
                 type: heading
                 attrs:
@@ -3731,10 +3658,10 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Kompetente Unterstützung für Ihre wissenschaftliche Masterarbeit - Masterarbeit schreiben lassen von über 3.000 akademischen Ghostwritern ✔️'
-og_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Kompetente Unterstützung für Ihre wissenschaftliche Masterarbeit - Masterarbeit schreiben lassen von über 3.000 akademischen Ghostwritern ✔️'
+meta_title: 'Professionell Referat schreiben lassen'
+meta_description: 'Referat schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_title: 'Professionell Referat schreiben lassen'
+og_description: 'Referat schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
