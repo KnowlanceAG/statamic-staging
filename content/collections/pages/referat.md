@@ -134,7 +134,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695153975
+updated_at: 1695154052
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -599,6 +599,19 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'In der akademischen Welt stehen Studierende oft vor der Entscheidung, ob sie ein Referat selbst erstellen sollen oder ob sie ein bereits fertiges Referat erwerben oder schreiben lassen möchten. Beide Optionen haben ihre Vor- und Nachteile, die es zu berücksichtigen gilt.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lmqqx5t8
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: LCBV1a6l
+            bard:
               -
                 type: heading
                 attrs:
@@ -860,6 +873,10 @@ replicator:
                                     attrs:
                                       align: start
                                 text: 'Diese Referate sind nicht einzigartig und können von vielen anderen Studierenden verwendet werden.'
+            show_as_card: false
+          -
+            id: lmqqxdnj
+            bard:
               -
                 type: heading
                 attrs:
@@ -1109,13 +1126,10 @@ replicator:
                         content:
                           -
                             type: paragraph
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
