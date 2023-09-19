@@ -134,7 +134,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695153312
+updated_at: 1695153513
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -4084,16 +4084,6 @@ replicator:
                                 type: text
                                 marks:
                                   -
-                                    type: link
-                                    attrs:
-                                      href: 'https://www.libreoffice.org/discover/impress/'
-                                      target: _blank
-                                      rel: 'noopener noreferrer nofollow'
-                                text: "\_"
-                              -
-                                type: text
-                                marks:
-                                  -
                                     type: bold
                                   -
                                     type: link
@@ -4135,9 +4125,6 @@ replicator:
                                 attrs:
                                   src: 'asset::assets::blog/2023/referat-schreiben-lassen/canva-icon-min.png'
                                   alt: null
-                              -
-                                type: text
-                                text: "\_"
                               -
                                 type: text
                                 marks:
@@ -4183,9 +4170,6 @@ replicator:
                                 attrs:
                                   src: 'asset::assets::blog/2023/referat-schreiben-lassen/google-logo-min.png'
                                   alt: null
-                              -
-                                type: text
-                                text: "\_"
                               -
                                 type: text
                                 marks:
