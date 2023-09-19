@@ -134,7 +134,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695153202
+updated_at: 1695153312
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -535,12 +535,25 @@ replicator:
                   -
                     type: text
                     text: .
+              -
+                type: set
+                attrs:
+                  id: lmqqhid9
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2023/referat-schreiben-lassen/referat-schreiben-lassen-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
