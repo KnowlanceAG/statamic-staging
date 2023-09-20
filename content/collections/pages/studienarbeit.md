@@ -2150,8 +2150,7 @@ replicator:
     id: eonZTiiF
     remove_spacing: false
     is_full: true
-    bg_toggle: true
-    bg_image_fixed: false
+    bg_toggle: false
     border: false
     type: add_section
     enabled: true
@@ -2294,7 +2293,7 @@ replicator:
         enabled: true
         single_col: false
         responsive_columns: 0
-    bg_image: seiten/arbeiten/masterabschluss.jpg
+    bg_color: '#F9F9F9'
   -
     id: BKvN8RrQ
     columns_replicator:
@@ -4779,97 +4778,6 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig gestellte Fragen zu Masterarbeit-Ghostwritern'
-              -
-                type: set
-                attrs:
-                  id: lalhlyo3
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
-                      -
-                        id: lalhm02r
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Welche Qualifikation hat mein akademischer Ghostwriter? ➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
-                        active: false
-                      -
-                        id: lalhm7pp
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Wie wird bei GWriters meine Anonymität sichergestellt? ➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
-                        active: false
-                      -
-                        id: lalhm8si
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Was kostet eine Mustervorlage für meine Masterarbeit? ➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Eine Mustervorlage für eine 50-seitige Masterarbeit erhalten Sie bereits ab 5000 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
-                        active: false
-                      -
-                        id: lalhm9y8
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Darf ich die erstellte Mustervorlage als eigene Masterarbeit abgeben? ➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Masterarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
-                        active: false
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
                     marks:
                       -
                         type: textAlign
@@ -5018,7 +4926,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695231202
+updated_at: 1695231366
 template: default
 use_meta_keywords: false
 no_index_page: false
