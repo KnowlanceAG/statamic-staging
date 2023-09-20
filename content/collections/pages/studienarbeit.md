@@ -5585,81 +5585,13 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
-                      - a26081b8-f79e-4515-8c28-31d320f1e4fd
-                      - 90c98a48-07aa-44a7-bfa5-187a2717a778
+                      - 263b4f9e-7a06-45ac-b9d2-80d221b23291
+                      - 774827ee-5840-450d-aca6-d60187adc46b
+                      - 5187b076-6402-4ce5-a509-9b507d9f773c
               -
                 type: heading
                 attrs:
                   level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Weitere Links & Referenzen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Master'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Master - Wikipedia'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fcampus%2F2010%2F03%2FStudium-Master-Empfehlungsschreiben'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'In der Bologna-Falle - FAZ'
             show_as_card: false
         type: row
         enabled: true
@@ -5672,7 +5604,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695238540
+updated_at: 1695238629
 template: default
 use_meta_keywords: false
 no_index_page: false
