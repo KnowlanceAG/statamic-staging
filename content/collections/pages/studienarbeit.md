@@ -280,7 +280,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#studienarten'
+                                          href: '#arten'
                                           target: null
                                           rel: null
                                     text: 'Unterschiede: Die Vielfalt von Studienarbeiten'
@@ -423,6 +423,15 @@ replicator:
             id: rMynGq5i
             bard:
               -
+                type: set
+                attrs:
+                  id: lms3kc4u
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -553,6 +562,15 @@ replicator:
                   -
                     type: text
                     text: 'und Qualitätskontrolle.'
+              -
+                type: set
+                attrs:
+                  id: lms3klzv
+                  values:
+                    type: anchor_target
+                    anchor_name: schreiben-lassen
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1168,6 +1186,15 @@ replicator:
             id: rMynGq5i
             bard:
               -
+                type: set
+                attrs:
+                  id: lms3l67b
+                  values:
+                    type: anchor_target
+                    anchor_name: '#beispiel'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1315,6 +1342,15 @@ replicator:
           -
             id: lmUilup5
             bard:
+              -
+                type: set
+                attrs:
+                  id: lms3lf9q
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter-beauftragen
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2627,6 +2663,15 @@ replicator:
             id: doLZ97bJ
             bard:
               -
+                type: set
+                attrs:
+                  id: lms3ls09
+                  values:
+                    type: anchor_target
+                    anchor_name: definition
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2728,6 +2773,15 @@ replicator:
             id: GkB02Mc4
             show_as_card: false
             bard:
+              -
+                type: set
+                attrs:
+                  id: lms3mbvy
+                  values:
+                    type: anchor_target
+                    anchor_name: warum
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2872,6 +2926,15 @@ replicator:
           -
             id: Fpa2kKGt
             bard:
+              -
+                type: set
+                attrs:
+                  id: lms3miex
+                  values:
+                    type: anchor_target
+                    anchor_name: arten
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -3696,6 +3759,15 @@ replicator:
             id: dIM8Y69T
             bard:
               -
+                type: set
+                attrs:
+                  id: lms3n0l2
+                  values:
+                    type: anchor_target
+                    anchor_name: schreiben
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -3718,6 +3790,15 @@ replicator:
                   -
                     type: text
                     text: '. Hier sind die Schritte, die Ihnen bei der Erstellung einer erfolgreichen Studienarbeit helfen können:'
+              -
+                type: set
+                attrs:
+                  id: lms3n7zj
+                  values:
+                    type: anchor_target
+                    anchor_name: aufbau
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -5591,7 +5672,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695235662
+updated_at: 1695235859
 template: default
 use_meta_keywords: false
 no_index_page: false
