@@ -3073,6 +3073,17 @@ replicator:
                                               hex: '#000'
                                         text: 'Umfangreiche, eigenständige Forschung'
               -
+                type: set
+                attrs:
+                  id: lms1s48s
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/studienarbeiten-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
                 type: paragraph
               -
                 type: set
@@ -3084,6 +3095,23 @@ replicator:
                     button_text: 'UNTERSTÜTZUNG BEI IHREM MASTER ANFORDERN'
                     spacing_top: false
                     color: '#FF6606'
+              -
+                type: heading
+                attrs:
+                  level: 2
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lms1r8aa
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: dIM8Y69T
+            bard:
               -
                 type: heading
                 attrs:
@@ -3120,7 +3148,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der Aufbau einer Studienarbeit'
               -
@@ -3182,6 +3210,16 @@ replicator:
                       -
                         type: italic
                     text: ' hat hier ein kleines Beispiel für Studienarbeit erstellt. '
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+            show_as_card: false
+          -
+            id: lms1rsnk
+            bard:
               -
                 type: table
                 content:
@@ -4323,17 +4361,10 @@ replicator:
                                       -
                                         type: text
                                         text: enthalten.
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
-        columns_per_row: 0
       -
         id: lalgalf9
         columns_per_row: 2
@@ -4926,7 +4957,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695231412
+updated_at: 1695232745
 template: default
 use_meta_keywords: false
 no_index_page: false
