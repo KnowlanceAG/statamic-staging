@@ -3221,1150 +3221,1146 @@ replicator:
             id: lms1rsnk
             bard:
               -
-                type: set
-                attrs:
-                  id: 1PHBB9oK
-                  values:
-                    type: table
+                type: table
+                content:
+                  -
+                    type: table_row
                     content:
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: "\_"
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: Beschreibung
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: 'Beispiel Studienarbeit'
+                                type: text
+                                text: "\_"
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: 'Titelseite und Deckblatt'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: 'Die Studienarbeit beginnt in der Regel mit einer Titelseite, die den Titel der Arbeit, den Namen des Autors, den Namen der Bildungseinrichtung und das Datum enthält. Ein Deckblatt kann zusätzliche Informationen wie den Studiengang, den Namen des Betreuers und das Institut enthalten.'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: italic
-                                      -
-                                        type: underline
-                                    text: Deckblatt
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Studiengang
-                                          -
-                                            type: text
-                                            text: ': Psychologie'
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Betreuer
-                                          -
-                                            type: text
-                                            text: ': Prof. Dr. Anna '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Beispiel
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Institut
-                                          -
-                                            type: text
-                                            text: ': Institut für Psychologische Forschung'
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: italic
-                                      -
-                                        type: underline
-                                    text: Titelbereich
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: 'Titel der Studienarbeit'
-                                          -
-                                            type: text
-                                            text: ': "'
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: italic
-                                            text: 'Der Einfluss von sozialen Medien auf das Selbstwertgefühl von Jugendlichen'
-                                          -
-                                            type: text
-                                            text: '"'
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Autor
-                                          -
-                                            type: text
-                                            text: ': Max Mustermann'
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Bildungseinrichtung
-                                          -
-                                            type: text
-                                            text: ': Universität Beispielstadt'
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Datum
-                                          -
-                                            type: text
-                                            text: ': 15. September 2023'
+                                    type: bold
+                                text: Beschreibung
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: Abstract
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: 'Die Zusammenfassung ist eine prägnante Darstellung des Inhalts der Studienarbeit. Sie sollte die Forschungsfrage, die Methodik, die Hauptergebnisse und Schlussfolgerungen in wenigen Absätzen zusammenfassen.'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Forschungsfrage
-                                          -
-                                            type: text
-                                            text: ': Welchen Einfluss haben soziale Medien auf das Selbstwertgefühl von Jugendlichen?'
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Methodik
-                                          -
-                                            type: text
-                                            text: ': Umfangreiche Umfrage unter 500 Jugendlichen im Alter von 13-18 Jahren.'
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Forschungsergebnisse
-                                          -
-                                            type: text
-                                            text: ': Signifikanter Zusammenhang zwischen der Nutzung sozialer Medien und einem niedrigeren Selbstwertgefühl.'
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Schlussfolgerungen
-                                          -
-                                            type: text
-                                            text: ': Wichtige Implikationen für die Jugendentwicklung und den Umgang mit sozialen Medien.'
+                                    type: bold
+                                text: 'Beispiel Studienarbeit'
+                  -
+                    type: table_row
+                    content:
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: Inhaltsverzeichnis
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: "\_"
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: 'Das Inhaltsverzeichnis listet die Hauptkapitel und Unterkapitel der Studienarbeit auf, zusammen mit den entsprechenden Seitenzahlen. Es bietet eine grobe Übersicht über den Aufbau der Arbeit und erleichtert die Navigation für die Leser.'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: ordered_list
-                                attrs:
-                                  order: 1
-                                content:
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: Einleitung
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: 'Theoretischer Hintergrund'
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: Methodik
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: Ergebnisse
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: Diskussion
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: Schlussfolgerungen
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: Literaturverzeichnis
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: Anhänge
+                                    type: bold
+                                text: 'Titelseite und Deckblatt'
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: Einleitung
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: "\_"
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: "\_"
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: "\_"
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: 'Die Einleitung führt in das Thema der Studienarbeit ein und legt den Kontext und die Bedeutung der Forschung dar. Sie enthält oft die Problemstellung, die Zielsetzung, die Forschungsfragen und eine kurze Übersicht über die Methodik.'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: '"'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: italic
-                                    text: 'Beschreibung der Bedeutung des Selbstwertgefühls bei Jugendlichen.'
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: italic
-                                    text: 'Relevanz des Themas in Zeiten intensiver sozialer Medien'
-                                  -
-                                    type: text
-                                    text: '."'
+                                type: text
+                                text: 'Die Studienarbeit beginnt in der Regel mit einer Titelseite, die den Titel der Arbeit, den Namen des Autors, den Namen der Bildungseinrichtung und das Datum enthält. Ein Deckblatt kann zusätzliche Informationen wie den Studiengang, den Namen des Betreuers und das Institut enthalten.'
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: 'Theoretischer Hintergrund'
+                                    type: italic
+                                  -
+                                    type: underline
+                                text: Deckblatt
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
+                            type: bullet_list
                             content:
                               -
-                                type: paragraph
+                                type: list_item
                                 content:
                                   -
-                                    type: text
-                                    text: 'In diesem Abschnitt wird der theoretische Rahmen und das relevante Hintergrundwissen dargelegt. Es werden die wichtigsten Konzepte, Theorien und Modelle erläutert, die für das Verständnis der Forschungsfrage erforderlich sind. Die Integration der Forschungsergebnisse anderer Studien kann den theoretischen Hintergrund unterstützen.'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
+                                    type: paragraph
                                     content:
                                       -
-                                        type: paragraph
-                                        content:
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            text: 'Übersicht über bestehende Forschung zur Verbindung zwischen sozialen Medien und Selbstwertgefühl.'
+                                            type: bold
+                                        text: Studiengang
+                                      -
+                                        type: text
+                                        text: ': Psychologie'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Betreuer
+                                      -
+                                        type: text
+                                        text: ': Prof. Dr. Anna '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Beispiel
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Institut
+                                      -
+                                        type: text
+                                        text: ': Institut für Psychologische Forschung'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: italic
+                                  -
+                                    type: underline
+                                text: Titelbereich
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: 'Titel der Studienarbeit'
+                                      -
+                                        type: text
+                                        text: ': "'
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: italic
+                                        text: 'Der Einfluss von sozialen Medien auf das Selbstwertgefühl von Jugendlichen'
+                                      -
+                                        type: text
+                                        text: '"'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Autor
+                                      -
+                                        type: text
+                                        text: ': Max Mustermann'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Bildungseinrichtung
+                                      -
+                                        type: text
+                                        text: ': Universität Beispielstadt'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Datum
+                                      -
+                                        type: text
+                                        text: ': 15. September 2023'
+                  -
+                    type: table_row
+                    content:
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: Methodik
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: "\_"
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: "\_"
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: 'Die Methodik beschreibt die Vorgehensweise, die bei der Durchführung der Forschung verwendet wurde. Dies umfasst Informationen zur Datenerhebung, zur Auswahl der Stichprobe, zur Datenanalyse und zur Validität der verwendeten Methoden.'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: 'Beschreibung der '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Umfragemethode
-                                          -
-                                            type: text
-                                            text: ', '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Stichprobenauswahl
-                                          -
-                                            type: text
-                                            text: ' und weitere '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Forschungsmethoden
-                                          -
-                                            type: text
-                                            text: .
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: 'Erläuterung der '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: 'statistischen Analysen'
-                                          -
-                                            type: text
-                                            text: ' zur Auswertung der Daten.'
+                                    type: bold
+                                text: Abstract
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: 'Hauptteil (Ergebnisse)'
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: "\_"
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: "\_"
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: 'Der Hauptteil der Studienarbeit besteht aus mehreren Kapiteln, in denen die Forschungsergebnisse ausführlich dargestellt werden. Hier werden Daten präsentiert, analysiert und interpretiert.'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: 'Präsentation der Forschungsergebnisse in Form von '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Abbildungen
-                                          -
-                                            type: text
-                                            text: ', '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Grafiken
-                                          -
-                                            type: text
-                                            text: ' und '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: Tabellen
-                                          -
-                                            type: text
-                                            text: .
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: 'Feststellung einer negativen Korrelation zwischen der täglichen Nutzung sozialer Medien und dem Selbstwertgefühl.'
+                                type: text
+                                text: 'Die Zusammenfassung ist eine prägnante Darstellung des Inhalts der Studienarbeit. Sie sollte die Forschungsfrage, die Methodik, die Hauptergebnisse und Schlussfolgerungen in wenigen Absätzen zusammenfassen.'
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: bullet_list
                             content:
                               -
-                                type: paragraph
+                                type: list_item
                                 content:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: justify
-                                    text: 'Diskussionsteil & Fazit'
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                    text: "\_"
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    text: 'In diesem Abschnitt werden die wichtigsten Forschungsergebnisse zusammengefasst und diskutiert. Die Schlussfolgerungen sollten auf die Forschungsfragen und die Hypothesen eingehen. Die Diskussion sollte kritische Reflexion, Ausblick auf zukünftige Forschungsperspektiven und die Bedeutung der Ergebnisse für das jeweilige Fachgebiet bieten.'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
+                                    type: paragraph
                                     content:
                                       -
-                                        type: paragraph
-                                        content:
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: 'Interpretation der Ergebnisse'
-                                          -
-                                            type: text
-                                            text: .
+                                            type: bold
+                                        text: Forschungsfrage
+                                      -
+                                        type: text
+                                        text: ': Welchen Einfluss haben soziale Medien auf das Selbstwertgefühl von Jugendlichen?'
                               -
-                                type: bullet_list
+                                type: list_item
                                 content:
                                   -
-                                    type: list_item
+                                    type: paragraph
                                     content:
                                       -
-                                        type: paragraph
-                                        content:
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            text: 'Diskussion möglicher Einflussfaktoren und alternativer Erklärungen.'
+                                            type: bold
+                                        text: Methodik
+                                      -
+                                        type: text
+                                        text: ': Umfangreiche Umfrage unter 500 Jugendlichen im Alter von 13-18 Jahren.'
                               -
-                                type: bullet_list
+                                type: list_item
                                 content:
                                   -
-                                    type: list_item
+                                    type: paragraph
                                     content:
                                       -
-                                        type: paragraph
-                                        content:
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            text: 'Implikationen für die Jugendentwicklung und die Rolle der Eltern und Pädagogen im Umgang mit sozialen Medien.'
+                                            type: bold
+                                        text: Forschungsergebnisse
+                                      -
+                                        type: text
+                                        text: ': Signifikanter Zusammenhang zwischen der Nutzung sozialer Medien und einem niedrigeren Selbstwertgefühl.'
                               -
-                                type: paragraph
-                              -
-                                type: bullet_list
+                                type: list_item
                                 content:
                                   -
-                                    type: list_item
+                                    type: paragraph
                                     content:
                                       -
-                                        type: paragraph
-                                        content:
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: 'Zusammenfassung der wichtigsten Ergebnisse'
-                                          -
-                                            type: text
-                                            text: .
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
-                                    content:
+                                            type: bold
+                                        text: Schlussfolgerungen
                                       -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: 'Ausblick auf zukünftige Forschung in diesem Bereich.'
+                                        type: text
+                                        text: ': Wichtige Implikationen für die Jugendentwicklung und den Umgang mit sozialen Medien.'
+                  -
+                    type: table_row
+                    content:
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: justify
-                                    text: Literaturverzeichnis
+                                    type: bold
+                                text: Inhaltsverzeichnis
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: text
-                                    text: 'Das Literaturverzeichnis enthält alle Quellen und Referenzen, die in der Studienarbeit zitiert wurden. Es sollte nach einem bestimmten Zitierstil wie APA, MLA oder Chicago formatiert sein und die Quellen der Forschungsergebnisse ordnungsgemäß auflisten.'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
-                                    content:
-                                      -
-                                        type: paragraph
-                                        content:
-                                          -
-                                            type: text
-                                            text: 'Das Literaturverzeichnis enthält alle in der Studienarbeit '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: 'verwendeten Quellen'
-                                          -
-                                            type: text
-                                            text: ', einschließlich '
-                                          -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: 'wissenschaftlicher Artikel, Bücher und Studien'
-                                          -
-                                            type: text
-                                            text: .
+                                    type: bold
+                                text: "\_"
                       -
-                        type: table_row
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
                         content:
                           -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: bold
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: justify
-                                    text: Anhänge
+                                type: text
+                                text: 'Das Inhaltsverzeichnis listet die Hauptkapitel und Unterkapitel der Studienarbeit auf, zusammen mit den entsprechenden Seitenzahlen. Es bietet eine grobe Übersicht über den Aufbau der Arbeit und erleichtert die Navigation für die Leser.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
                           -
-                            type: table_cell
+                            type: ordered_list
                             attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth:
-                                - 237
-                              background: null
+                              order: 1
                             content:
                               -
-                                type: paragraph
+                                type: list_item
                                 content:
                                   -
-                                    type: text
-                                    text: 'Anhänge können zusätzliche Materialien wie Umfragebögen, Grafiken, Tabellen oder Rohdaten enthalten'
-                          -
-                            type: table_cell
-                            attrs:
-                              colspan: 1
-                              rowspan: 1
-                              colwidth: null
-                              background: null
-                            content:
-                              -
-                                type: bullet_list
-                                content:
-                                  -
-                                    type: list_item
+                                    type: paragraph
                                     content:
                                       -
-                                        type: paragraph
-                                        content:
+                                        type: text
+                                        text: Einleitung
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Theoretischer Hintergrund'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Methodik
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Ergebnisse
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Diskussion
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Schlussfolgerungen
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Literaturverzeichnis
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Anhänge
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Einleitung
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: "\_"
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: "\_"
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Einleitung führt in das Thema der Studienarbeit ein und legt den Kontext und die Bedeutung der Forschung dar. Sie enthält oft die Problemstellung, die Zielsetzung, die Forschungsfragen und eine kurze Übersicht über die Methodik.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '"'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: italic
+                                text: 'Beschreibung der Bedeutung des Selbstwertgefühls bei Jugendlichen.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: italic
+                                text: 'Relevanz des Themas in Zeiten intensiver sozialer Medien'
+                              -
+                                type: text
+                                text: '."'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Theoretischer Hintergrund'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'In diesem Abschnitt wird der theoretische Rahmen und das relevante Hintergrundwissen dargelegt. Es werden die wichtigsten Konzepte, Theorien und Modelle erläutert, die für das Verständnis der Forschungsfrage erforderlich sind. Die Integration der Forschungsergebnisse anderer Studien kann den theoretischen Hintergrund unterstützen.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Übersicht über bestehende Forschung zur Verbindung zwischen sozialen Medien und Selbstwertgefühl.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Methodik
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: "\_"
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Methodik beschreibt die Vorgehensweise, die bei der Durchführung der Forschung verwendet wurde. Dies umfasst Informationen zur Datenerhebung, zur Auswahl der Stichprobe, zur Datenanalyse und zur Validität der verwendeten Methoden.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Beschreibung der '
+                                      -
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            text: 'Anhänge können Daten der '
+                                            type: bold
+                                        text: Umfragemethode
+                                      -
+                                        type: text
+                                        text: ', '
+                                      -
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: 'Umfrage, Fragebögen'
+                                            type: bold
+                                        text: Stichprobenauswahl
+                                      -
+                                        type: text
+                                        text: ' und weitere '
+                                      -
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            text: ' oder weitere unterstützende '
+                                            type: bold
+                                        text: Forschungsmethoden
+                                      -
+                                        type: text
+                                        text: .
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Erläuterung der '
+                                      -
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            marks:
-                                              -
-                                                type: bold
-                                            text: 'Analysemethoden '
+                                            type: bold
+                                        text: 'statistischen Analysen'
+                                      -
+                                        type: text
+                                        text: ' zur Auswertung der Daten.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Hauptteil (Ergebnisse)'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: "\_"
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Der Hauptteil der Studienarbeit besteht aus mehreren Kapiteln, in denen die Forschungsergebnisse ausführlich dargestellt werden. Hier werden Daten präsentiert, analysiert und interpretiert.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Präsentation der Forschungsergebnisse in Form von '
+                                      -
+                                        type: text
+                                        marks:
                                           -
-                                            type: text
-                                            text: enthalten.
+                                            type: bold
+                                        text: Abbildungen
+                                      -
+                                        type: text
+                                        text: ', '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Grafiken
+                                      -
+                                        type: text
+                                        text: ' und '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Tabellen
+                                      -
+                                        type: text
+                                        text: .
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Feststellung einer negativen Korrelation zwischen der täglichen Nutzung sozialer Medien und dem Selbstwertgefühl.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: justify
+                                text: 'Diskussionsteil & Fazit'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'In diesem Abschnitt werden die wichtigsten Forschungsergebnisse zusammengefasst und diskutiert. Die Schlussfolgerungen sollten auf die Forschungsfragen und die Hypothesen eingehen. Die Diskussion sollte kritische Reflexion, Ausblick auf zukünftige Forschungsperspektiven und die Bedeutung der Ergebnisse für das jeweilige Fachgebiet bieten.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: 'Interpretation der Ergebnisse'
+                                      -
+                                        type: text
+                                        text: .
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Diskussion möglicher Einflussfaktoren und alternativer Erklärungen.'
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Implikationen für die Jugendentwicklung und die Rolle der Eltern und Pädagogen im Umgang mit sozialen Medien.'
+                          -
+                            type: paragraph
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: 'Zusammenfassung der wichtigsten Ergebnisse'
+                                      -
+                                        type: text
+                                        text: .
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Ausblick auf zukünftige Forschung in diesem Bereich.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: justify
+                                text: Literaturverzeichnis
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Das Literaturverzeichnis enthält alle Quellen und Referenzen, die in der Studienarbeit zitiert wurden. Es sollte nach einem bestimmten Zitierstil wie APA, MLA oder Chicago formatiert sein und die Quellen der Forschungsergebnisse ordnungsgemäß auflisten.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Das Literaturverzeichnis enthält alle in der Studienarbeit '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: 'verwendeten Quellen'
+                                      -
+                                        type: text
+                                        text: ', einschließlich '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: 'wissenschaftlicher Artikel, Bücher und Studien'
+                                      -
+                                        type: text
+                                        text: .
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: justify
+                                text: Anhänge
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 237
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Anhänge können zusätzliche Materialien wie Umfragebögen, Grafiken, Tabellen oder Rohdaten enthalten'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Anhänge können Daten der '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: 'Umfrage, Fragebögen'
+                                      -
+                                        type: text
+                                        text: ' oder weitere unterstützende '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: 'Analysemethoden '
+                                      -
+                                        type: text
+                                        text: enthalten.
             show_as_card: false
         type: row
         enabled: true
@@ -4961,7 +4957,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695232844
+updated_at: 1695232913
 template: default
 use_meta_keywords: false
 no_index_page: false
