@@ -3221,6 +3221,15 @@ replicator:
             id: lms1rsnk
             bard:
               -
+                type: set
+                attrs:
+                  id: lms1zo8d
+                  values:
+                    type: anchor_target
+                    anchor_name: s
+              -
+                type: paragraph
+              -
                 type: table
                 content:
                   -
@@ -4957,7 +4966,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695232913
+updated_at: 1695233073
 template: default
 use_meta_keywords: false
 no_index_page: false
