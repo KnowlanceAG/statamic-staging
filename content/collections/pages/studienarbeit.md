@@ -271,19 +271,124 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Eine Studienarbeit im Studium spielt eine große Rolle, da sie mehrere Zwecke erfüllt. Sie ermöglichen es den Studierenden, ihr Verständnis für spezifische Forschungsthemen zu vertiefen und ihre Fähigkeiten im wissenschaftlichen Schreiben weiterzuentwickeln.'
+                    text: 'Eine Studienarbeit im Studium spielt eine große Rolle, da sie mehrere Zwecke erfüllt. Sie ermöglichen es den Studierenden, ihr Verständnis für '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'spezifische Forschungsthemen'
+                  -
+                    type: text
+                    text: ' zu vertiefen und ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Fähigkeiten im wissenschaftlichen Schreiben weiterzuentwickeln'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Hierbei suchen Studierende oft nach Hilfe bei Ghostwritern. Diese akademischen Freelancer bieten in verschiedenen Arten von Studienarbeiten Hilfe an. Sie sind akademisch ausgebildet und verfügen über die notwendigen Fachkenntnisse für wissenschaftliche Studienarbeiten. Das akademische Ghostwriting bietet eine breite Palette von Dienstleistungen in diesem Bereich an. Viele Studierende möchten eine Musterarbeit für ihre Studienarbeit erstellen lassen. '
+                    text: 'Hierbei suchen Studierende oft nach Hilfe bei '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwritern
+                  -
+                    type: text
+                    text: '. Diese akademischen Freelancer bieten in verschiedenen Arten von Studienarbeiten Hilfe an. Sie sind akademisch ausgebildet und verfügen über die notwendigen Fachkenntnisse für wissenschaftliche Studienarbeiten. Das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: 'akademische Ghostwriting'
+                  -
+                    type: text
+                    text: ' bietet eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen
+                          target: null
+                          rel: null
+                    text: 'breite Palette von Dienstleistungen'
+                  -
+                    type: text
+                    text: ' in diesem Bereich an. Viele Studierende möchten eine Musterarbeit für ihre Studienarbeit erstellen lassen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Oft müssen Studierende während ihres Studiums ein Forschungsthema bearbeiten und als Studienarbeit verfassen. Dies erfordert viel Zeit und wissenschaftliches Schreiben. In solchen Fällen können Studienarbeiten von Ghostwriter in verschiedenen Fachrichtungen eine große Hilfe sein. Wenn Sie sich für Ghostwriting entscheiden, erwartet Sie das Verfassen einer hochwertigen Musterarbeit Ihrer Studienarbeit, professionelles Lektorat und Korrektorat, einschließlich einer Plagiatsprüfung und Qualitätskontrolle.'
+                    text: 'Oft müssen Studierende während ihres Studiums ein Forschungsthema bearbeiten und als Studienarbeit verfassen. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Dies erfordert viel Zeit und wissenschaftliches Schreiben'
+                  -
+                    type: text
+                    text: '. In solchen Fällen können Studienarbeiten von Ghostwriter in verschiedenen Fachrichtungen eine große Hilfe sein. Wenn Sie sich für Ghostwriting entscheiden, erwartet Sie das Verfassen einer hochwertigen Musterarbeit Ihrer Studienarbeit, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: 'professionelles Lektorat'
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    text: ', einschließlich einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: 'Plagiatsprüfung '
+                  -
+                    type: text
+                    text: 'und Qualitätskontrolle.'
               -
                 type: heading
                 attrs:
@@ -911,13 +1016,100 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Aufbau einer Studienarbeit gilt gleichzeitig auch für Hausarbeiten, Seminararbeiten, Essays, Projektarbeiten usw. Wenn Sie beispielsweise eine Mustervorlage für Ihre Studienarbeit schreiben lassen möchten, können Sie uns gerne eine kostenlose Anfrage senden.'
+                    text: 'Der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Aufbau einer Studienarbeit'
+                  -
+                    type: text
+                    text: ' gilt gleichzeitig auch für '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeiten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeiten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/essay
+                          target: null
+                          rel: null
+                    text: Essays
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/facharbeit
+                          target: null
+                          rel: null
+                    text: Facharbeiten
+                  -
+                    type: text
+                    text: ' usw. Wenn Sie beispielsweise eine Mustervorlage für Ihre Studienarbeit schreiben lassen möchten, können Sie uns gerne eine kostenlose Anfrage senden.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Außerdem können Sie gerne unsere kostenlosen Beispiel-Studienarbeiten herunterladen. Diese wissenschaftlichen Arbeiten wurden von unseren Experten erstellt und können zur Orientierung für Ihre Studienarbeit verwendet werden. Im folgenden Beispiel sehen Sie näher den Aufbau, die Struktur und den Inhalt.'
+                    text: 'Außerdem können Sie gerne unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting-beispielarbeiten
+                          target: null
+                          rel: null
+                    text: 'kostenlosen Beispiel-Studienarbeiten'
+                  -
+                    type: text
+                    text: ' herunterladen. Diese wissenschaftlichen Arbeiten wurden von unseren Experten erstellt und können zur Orientierung für Ihre Studienarbeit verwendet werden. Aus dem Fachbereich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/sozialwissenschaften
+                          target: null
+                          rel: null
+                    text: 'Sozialwissenschaften Ghostwriter'
+                  -
+                    type: text
+                    text: ' haben im folgendem Beispiel den Aufbau, die Struktur und den Inhalt näher erläutert. '
               -
                 type: set
                 attrs:
@@ -925,14 +1117,14 @@ replicator:
                   values:
                     type: example_work
                     ex_img_right: false
-                    ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
-                    ex_title: 'Englische Masterarbeit: Globalisation and Poverty'
+                    ex_image: seiten/beispielarbeiten-4.JPG
+                    ex_title: 'Bewertung von Embryonenforschung'
                     ex_fachbereich:
-                      - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                    ex_type: 'Englische Masterarbeit'
-                    ex_pages: '50'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'entry::c62f9e16-5d49-4f22-b1c6-d705b966aa1a'
+                      - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                    ex_type: Hausarbeit
+                    ex_pages: '10'
+                    ex_zitation: 'Deutsche Zitierweise'
+                    ex_button_link: 'entry::dac985cc-a5b5-418c-8ad8-b96ec63051db'
                     ex_button_text: WEITERLESEN
                     ex_color: '#FF6606'
                     ex_button_align: justify-start
@@ -953,11 +1145,11 @@ replicator:
     id: fIXXlwmQ
     columns_replicator:
       -
-        id: lalfr5pu
-        single_col: false
+        id: qR9pvuG7
+        columns_per_row: 2
         grid:
           -
-            id: 8ElmpGzW
+            id: lmUilup5
             bard:
               -
                 type: heading
@@ -975,18 +1167,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Die Gründe für das Beauftragen von Ghostwritern für Studienarbeiten'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: qR9pvuG7
-        columns_per_row: 2
-        grid:
-          -
-            id: lmUilup5
-            bard:
               -
                 type: paragraph
                 content:
@@ -1046,7 +1226,47 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Eine der häufigsten Motivationen für das Beauftragen von Ghostwritern ist das Zeitmanagement. Studenten stehen oft vor einer Fülle von Verpflichtungen, sei es in anderen Kursen, beruflichen Tätigkeiten oder persönlichen Angelegenheiten. Das Schreiben einer qualitativ hochwertigen Studienarbeit erfordert jedoch eine erhebliche Zeiteinplanung, die nicht immer möglich ist. Kann ein Ghostwriter Studienarbeiten in kurzer Zeit verfassen? Ghostwriter können diese zeitlichen Engpässe überbrücken und den Studierenden ermöglichen, ihre Zeit effizienter zu nutzen.'
+                    text: 'Eine der häufigsten Motivationen für das Beauftragen von Ghostwritern ist das Zeitmanagement. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Studenten stehen oft vor einer Fülle von Verpflichtungen, sei es in anderen Kursen, beruflichen Tätigkeiten oder persönlichen Angelegenheite'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'n. Das Schreiben einer qualitativ hochwertigen Studienarbeit erfordert jedoch eine erhebliche Zeiteinplanung, die nicht immer möglich ist. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Kann ein Ghostwriter Studienarbeiten in kurzer Zeit verfassen?'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' Ghostwriter können diese zeitlichen Engpässe überbrücken und den Studierenden ermöglichen, ihre Zeit effizienter zu nutzen.'
               -
                 type: heading
                 attrs:
@@ -1074,7 +1294,27 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Ein weiterer Grund für die Inanspruchnahme von Ghostwritern für Studienarbeiten ist die Gewährleistung von Fachkenntnissen und Qualität. Erfahrene Ghostwriter verfügen oft über umfangreiche Kenntnisse in bestimmten Fachgebieten und können eine Studienarbeit auf einem hohen Niveau schreiben. Dies ist besonders relevant, wenn das Thema der Arbeit anspruchsvoll oder spezialisiert ist.'
+                    text: 'Ein weiterer Grund für die Inanspruchnahme von Ghostwritern für Studienarbeiten ist die Gewährleistung von Fachkenntnissen und Qualität. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Erfahrene Ghostwriter verfügen oft über umfangreiche Kenntnisse in bestimmten Fachgebieten und können eine Studienarbeit auf einem hohen Niveau schreiben'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: '. Dies ist besonders relevant, wenn das Thema der Arbeit anspruchsvoll oder spezialisiert ist.'
             show_as_card: false
           -
             id: gfuL4CzA
@@ -1106,7 +1346,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Qualität einer Studienarbeit kann einen erheblichen Einfluss auf die abschließende Bewertung und den akademischen Erfolg haben. Das Studienarbeit schreiben lassen als eine Musterarbeit kann dazu beitragen, eine herausragende Arbeit zu erstellen und die Chancen auf eine bessere Note zu erhöhen. Dies kann insbesondere für Studierende von Bedeutung sein, deren akademische Leistung von der Studienarbeit abhängt.'
+                    text: 'Die Qualität einer Studienarbeit kann einen erheblichen Einfluss auf die abschließende Bewertung und den akademischen Erfolg haben. Das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Studienarbeit schreiben lassen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'als eine Musterarbeit kann dazu beitragen, eine herausragende Arbeit zu erstellen und die Chancen auf eine bessere Note zu erhöhen. Dies kann insbesondere für Studierende von Bedeutung sein, deren akademische Leistung von der Studienarbeit abhängt.'
               -
                 type: heading
                 attrs:
@@ -1134,7 +1394,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Der Schreibprozess einer Studienarbeit kann mit erheblichem Stress und Schreibblockaden einhergehen, was sich negativ auf das Wohlbefinden der Studierenden auswirken kann. Ghostwriter können dazu beitragen, diesen Stress zu reduzieren, indem sie die Verantwortung für den Schreibprozess übernehmen und den Studierenden entlasten.'
+                    text: 'Der Schreibprozess einer Studienarbeit kann mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'erheblichem Stress '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Schreibblockaden
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' einhergehen, was sich negativ auf das Wohlbefinden der Studierenden auswirken kann. Ghostwriter können dazu beitragen, diesen Stress zu reduzieren, indem sie die Verantwortung für den Schreibprozess übernehmen und den Studierenden entlasten.'
               -
                 type: heading
                 attrs:
@@ -2196,13 +2496,65 @@ replicator:
                     text: 'Was ist eine Studienarbeit'
                   -
                     type: text
-                    text: '"? Eine Studienarbeit ist eine schriftliche wissenschaftliche Arbeit, die im Rahmen eines Studiums geschrieben wird. '
+                    text: '"? Eine Studienarbeit ist eine schriftliche '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /faq/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
+                          target: null
+                          rel: null
+                    text: 'wissenschaftliche Arbeit'
+                  -
+                    type: text
+                    text: ', die im Rahmen eines Studiums geschrieben wird. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In der Regel wird eine Studienarbeit kürzer als eine Abschlussarbeit z.B. Bachelorarbeit, Masterarbeit oder Diplomarbeit geschrieben. Es gibt verschiedene Arten von Studienarbeiten darunter sind, Essay, Hausarbeiten, Seminararbeit oder Projektarbeiten.'
+                    text: 'In der Regel wird eine Studienarbeit kürzer als eine Abschlussarbeit z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/diplomarbeit
+                          target: null
+                          rel: null
+                    text: Diplomarbeit
+                  -
+                    type: text
+                    text: ' geschrieben. Es gibt verschiedene Arten von Studienarbeiten darunter sind, Essay, Hausarbeiten, Seminararbeit oder Projektarbeiten.'
               -
                 type: heading
                 attrs:
@@ -2273,7 +2625,33 @@ replicator:
                             text: 'Vorbereitung auf Abschlussarbeiten'
                           -
                             type: text
-                            text: ': Sie dienen als Vorbereitung für umfangreichere Abschlussarbeiten wie Bachelorarbeiten, Masterarbeiten oder Diplomarbeiten. Auch hier kann unsere Ghostwriting-Agentur mit unseren Experten in den Arbeiten wie Masterarbeit oder Bachelorarbeit Hilfe anbieten.'
+                            text: ': Sie dienen als Vorbereitung für umfangreichere Abschlussarbeiten wie Bachelorarbeiten, Masterarbeiten oder Diplomarbeiten. Auch hier kann unsere '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /ghostwriting/ghostwriting-agentur
+                                  target: null
+                                  rel: null
+                            text: Ghostwriting-Agentur
+                          -
+                            type: text
+                            text: ' mit unseren Experten in den Arbeiten wie Masterarbeit oder '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-hilfe
+                                  target: null
+                                  rel: null
+                            text: 'Bachelorarbeit Hilfe'
+                          -
+                            type: text
+                            text: ' anbieten.'
                   -
                     type: list_item
                     content:
@@ -2288,7 +2666,33 @@ replicator:
                             text: 'Entwicklung von wissenschaftlichen Fähigkeiten'
                           -
                             type: text
-                            text: ': Das Schreiben von Studienarbeiten fördert die Entwicklung von Schlüsselkompetenzen wie wissenschaftliches Schreiben, wissenschaftlichem Denken, Recherchieren (z.B. Literaturrecherche) und Interpretieren.'
+                            text: ': Das Schreiben von Studienarbeiten fördert die Entwicklung von Schlüsselkompetenzen wie '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/wissenschaftlicher-schreibstil
+                                  target: null
+                                  rel: null
+                            text: 'wissenschaftliches Schreiben'
+                          -
+                            type: text
+                            text: ', wissenschaftlichem Denken, Recherchieren (z.B. '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/literaturrecherche-datenbanken-quellen
+                                  target: null
+                                  rel: null
+                            text: Literaturrecherche
+                          -
+                            type: text
+                            text: ') und Interpretieren.'
         type: row
         enabled: true
         single_col: false
@@ -2954,7 +3358,23 @@ replicator:
                                             attrs:
                                               color: 'rgb(55, 65, 81)'
                                               hex: '#000'
-                                        text: 'Tiefgehende Auseinandersetzung mit einem Thema'
+                                        text: 'Tiefgehende Auseinandersetzung mit einem Forschungsthema'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/forschungsluecke-finden
+                                              target: null
+                                              rel: null
+                                        text: 'Forschungslücke finden'
                               -
                                 type: list_item
                                 content:
@@ -3202,6 +3622,12 @@ replicator:
                         type: bold
                       -
                         type: italic
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/psychologie
+                          target: null
+                          rel: null
                     text: 'Psychologie Ghostwriter'
                   -
                     type: text
@@ -3917,6 +4343,12 @@ replicator:
                                         marks:
                                           -
                                             type: bold
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/umfrage-erstellen-tools
+                                              target: null
+                                              rel: null
                                         text: Umfragemethode
                                       -
                                         type: text
@@ -3935,7 +4367,25 @@ replicator:
                                         marks:
                                           -
                                             type: bold
-                                        text: Forschungsmethoden
+                                        text: 'Forschungsmethoden ('
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/qualitative-quantitative-methoden
+                                              target: null
+                                              rel: null
+                                        text: 'quantitative und qualitative Methoden'
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: )
                                       -
                                         type: text
                                         text: .
@@ -4234,7 +4684,33 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Das Literaturverzeichnis enthält alle Quellen und Referenzen, die in der Studienarbeit zitiert wurden. Es sollte nach einem bestimmten Zitierstil wie APA, MLA oder Chicago formatiert sein und die Quellen der Forschungsergebnisse ordnungsgemäß auflisten.'
+                                text: 'Das Literaturverzeichnis enthält alle Quellen und Referenzen, die in der Studienarbeit zitiert wurden. Es sollte nach einem bestimmten Zitierstil wie APA, '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/din-iso-690
+                                      target: null
+                                      rel: null
+                                text: 'DIN ISO 690'
+                              -
+                                type: text
+                                text: ' oder '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/chicago-zitierweise
+                                      target: null
+                                      rel: null
+                                text: Chicago
+                              -
+                                type: text
+                                text: ' formatiert sein und die Quellen der Forschungsergebnisse ordnungsgemäß auflisten.'
                       -
                         type: table_cell
                         attrs:
@@ -4951,7 +5427,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695233190
+updated_at: 1695235280
 template: default
 use_meta_keywords: false
 no_index_page: false
