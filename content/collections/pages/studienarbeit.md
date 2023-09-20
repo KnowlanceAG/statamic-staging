@@ -3106,7 +3106,6 @@ replicator:
         columns_per_row: 0
       -
         id: lms1r8aa
-        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -3210,25 +3209,6 @@ replicator:
                       -
                         type: italic
                     text: ' hat hier ein kleines Beispiel für Studienarbeit erstellt. '
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-            show_as_card: false
-          -
-            id: lms1rsnk
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lms1zo8d
-                  values:
-                    type: anchor_target
-                    anchor_name: s
-              -
-                type: paragraph
               -
                 type: table
                 content:
@@ -4370,10 +4350,15 @@ replicator:
                                       -
                                         type: text
                                         text: enthalten.
+              -
+                type: heading
+                attrs:
+                  level: 2
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
+        columns_per_row: 0
       -
         id: lalgalf9
         columns_per_row: 2
@@ -4966,7 +4951,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695233073
+updated_at: 1695233190
 template: default
 use_meta_keywords: false
 no_index_page: false
