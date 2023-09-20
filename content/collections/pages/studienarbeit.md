@@ -2,7 +2,7 @@
 id: dd6f6660-6373-41b6-9020-7a6b958766a3
 published: false
 blueprint: pages
-title: 'Masterarbeit (Dupliziert)'
+title: Studienarbeit
 teaser:
   -
     type: heading
@@ -21,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Masterarbeit schreiben lassen'
+        text: 'Studienarbeit schreiben lassen'
   -
     type: heading
     attrs:
@@ -41,7 +41,7 @@ teaser:
             attrs:
               color: '#000!important'
               hex: '#000'
-        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Masterarbeit'
+        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Studienarbeit'
   -
     type: set
     attrs:
@@ -154,10 +154,8 @@ replicator:
                   id: gJCdR1fO
                   values:
                     type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Masterarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
-                      </p>
+                    html: |
+                      Bei GWriters bieten wir Ihnen kompetente Unterstützung für Ihre wissenschaftliche Studienarbeit. Unser Team stellt sicher, dass Sie genau den passenden <b>akademischen Ghostwriter für Ihre Studienarbeit</b> finden, der Ihren individuellen Anforderungen entspricht. Sie möchten Ihr akademisches Projekt in sichere Hände geben und für eine Studienarbeit Ghostwriter beauftragen? Insbesondere wenn Sie eine qualitativ hochwertige Mustervorlage für Ihre Studienarbeit schreiben lassen möchten? Unsere Ghostwriting-Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren zusammen, um sicherzustellen, dass Ihre Studienarbeit den höchsten Qualitätsstandards entspricht. Verlassen Sie sich auf unser Expertenteam, um Ihre akademische Arbeit erfolgreich zu gestalten und Ihre Ziele zu erreichen.
             show_as_card: false
         type: row
         enabled: true
@@ -3789,7 +3787,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695216900
+updated_at: 1695217065
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3839,8 +3837,8 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
-page_title: 'Masterarbeit schreiben lassen'
-alternative_page_title: 'Masterarbeit schreiben lassen'
+page_title: 'Studienarbeit schreiben lassen'
+alternative_page_title: 'Studienarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
 teaser_bg: seiten/arbeiten/gwriters_masterarbeit_2000x512-(2).jpg
