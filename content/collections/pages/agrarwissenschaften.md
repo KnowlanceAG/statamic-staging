@@ -137,7 +137,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695358153
+updated_at: 1695358585
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -188,7 +188,7 @@ replicator:
                                   href: '#ghostwriter'
                                   target: null
                                   rel: null
-                            text: 'Unsere BWL-Ghostwriter'
+                            text: 'Unsere Ghostwriter für Agrarwissenschaften'
                   -
                     type: list_item
                     content:
@@ -201,10 +201,29 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#ki-programm'
+                                  href: '#studium'
                                   target: null
                                   rel: null
-                            text: 'ChatGPT statt BWL Ghostwriter?'
+                            text: 'Allgemeines zum Agrarwissenschaften Studium'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#job'
+                                          target: null
+                                          rel: null
+                                    text: 'Karriereaussichten nach dem Agrarwissenschaften Studium'
                   -
                     type: list_item
                     content:
@@ -217,42 +236,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#grund'
+                                  href: ghostwriter-beauftragen
                                   target: null
                                   rel: null
-                            text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#allgemein'
-                                  target: null
-                                  rel: null
-                            text: 'Allgemeines zur BWL'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#karriere'
-                                  target: null
-                                  rel: null
-                            text: 'Karriereaussichten nach dem BWL-Studium'
+                            text: 'Warum sollte man Agrarwissenschaften-Ghostwriter beauftragen?'
                   -
                     type: list_item
                     content:
@@ -268,7 +255,42 @@ replicator:
                                   href: '#aufbau'
                                   target: null
                                   rel: null
-                            text: 'Aufbau eines BWL-Studiums'
+                            text: 'Aufbau eines Agrarwissenschaften Studiums'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#studienplan'
+                                          target: null
+                                          rel: null
+                                    text: 'Studienplan: Agrarwissenschaften'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#inhalt'
+                                          target: null
+                                          rel: null
+                                    text: 'Inhalte des Agrarwissenschaften Studiums'
                   -
                     type: list_item
                     content:
@@ -281,10 +303,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#inhalt'
+                                  href: '#bachelorarbeit'
                                   target: null
                                   rel: null
-                            text: 'Inhalte des BWL-Studiums'
+                            text: 'Ghostwriter: Agrarwissenschaften'
                   -
                     type: list_item
                     content:
@@ -297,42 +319,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#internationale'
+                                  href: '#bachelorarbeitthema'
                                   target: null
                                   rel: null
-                            text: 'Internationale BWL (IBWL)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#international-ghostwriter'
-                                  target: null
-                                  rel: null
-                            text: 'Ghostwriter: Internationale BWL (IBWL)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#themen'
-                                  target: null
-                                  rel: null
-                            text: '5 Bachelorarbeit-Themen: Internationale Betriebswirtschaftslehre'
+                            text: '5 Bachelorarbeits-Themen: Agrarwissenschaften'
             show_as_card: false
         type: row
         enabled: true
@@ -443,6 +433,13 @@ replicator:
           -
             id: 4xB19Sof
             bard:
+              -
+                type: set
+                attrs:
+                  id: lmu4nhye
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
               -
                 type: heading
                 attrs:
@@ -649,7 +646,7 @@ replicator:
                   id: lm90bjgn
                   values:
                     type: anchor_target
-                    anchor_name: ghostwriter
+                    anchor_name: studium
               -
                 type: heading
                 attrs:
@@ -1664,7 +1661,7 @@ replicator:
                   id: lm90c8y6
                   values:
                     type: anchor_target
-                    anchor_name: ki-programm
+                    anchor_name: job
               -
                 type: heading
                 attrs:
@@ -1734,7 +1731,7 @@ replicator:
                   id: lm90d4uk
                   values:
                     type: anchor_target
-                    anchor_name: grund
+                    anchor_name: ghostwriter-beauftragen
               -
                 type: heading
                 attrs:
@@ -1842,7 +1839,7 @@ replicator:
                   id: lm90dl6s
                   values:
                     type: anchor_target
-                    anchor_name: allgemein
+                    anchor_name: aufbau
               -
                 type: heading
                 attrs:
@@ -2041,6 +2038,13 @@ replicator:
           -
             id: lmu3t88l
             bard:
+              -
+                type: set
+                attrs:
+                  id: lmu4ovwn
+                  values:
+                    type: anchor_target
+                    anchor_name: studienplan
               -
                 type: heading
                 attrs:
@@ -3277,11 +3281,11 @@ replicator:
                   id: lm90ef5i
                   values:
                     type: anchor_target
-                    anchor_name: aufbau
+                    anchor_name: inhalt
               -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
@@ -3345,7 +3349,7 @@ replicator:
                   id: lm90evtp
                   values:
                     type: anchor_target
-                    anchor_name: inhalt
+                    anchor_name: bachelorarbeit
               -
                 type: heading
                 attrs:
@@ -3504,9 +3508,16 @@ replicator:
             id: WcOVwpix
             bard:
               -
+                type: set
+                attrs:
+                  id: lmu4px5w
+                  values:
+                    type: anchor_target
+                    anchor_name: bachelorarbeitthema
+              -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
