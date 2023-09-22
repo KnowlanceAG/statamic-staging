@@ -13,8 +13,6 @@ teaser:
         type: text
         marks:
           -
-            type: bold
-          -
             type: textAlign
             attrs:
               align: center
@@ -23,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'BWL Ghostwriter'
+        text: 'Ghostwriter Agrarwissenschaften'
   -
     type: paragraph
     content:
@@ -41,7 +39,7 @@ teaser:
             attrs:
               color: 'rgb(68, 68, 68)'
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Agrarwissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -140,7 +138,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695354160
+updated_at: 1695357151
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -164,9 +162,7 @@ replicator:
                   id: uoivkKkL
                   values:
                     type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Betriebswirtschaftslehre in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich mit Ihrer Arbeit an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
-                      </p>
+                    html: '<p style="font-size:18px" align="center"> Unsere Ghostwriting-Agentur GWriter bietet kompetente Unterstützung im Fachbereich Agrarwissenschaften. Wir finden für Sie den exakten akademischen Ghostwriter, der Ihren individuellen Anforderungen entspricht. Sie möchte aus dem Fachgebiet <b>Agrarwissenschaften Ghostwriter beauftragen </b>und eine hochqualitative Arbeit für Ihre Masterarbeit oder Bachelorarbeit schreiben lassen? Dann senden Sie uns gerne eine kostenlose Anfrage an unsere seriöse Agentur, die ausschließlich mit erfahrenen Fachexperten und Professoren zusammenarbeitet.</p>'
               -
                 type: heading
                 attrs:
@@ -388,7 +384,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre akademische BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre akademische Agrarwissenschaften-Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -396,7 +392,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (BWL) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Agrarwissenschaften) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -412,7 +408,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (BWL) Übersetzungen.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Agrarwissenschaften) Übersetzungen.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -421,7 +417,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH AGRARWISSENSCHAFTEN'
                     color: '#FF6606'
                     spacing_top: false
               -
@@ -449,59 +445,86 @@ replicator:
             id: 4xB19Sof
             bard:
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
                     type: text
-                    text: 'BWL ist unter den Studierenden ein äußerst beliebter Studiengang und ist aus diesem Grund an vielen Hochschulen „überlaufen“. Wer auffallen will, muss immerzu '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'qualitativ hochwertige Ausarbeitungen'
-                  -
-                    type: text
-                    text: ' sowie Projektarbeiten liefern und trotz der vielen anspruchsvollen Klausuren stets einen sehr guten Notendurchschnitt erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studierenden neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu der fehlenden Erfahrung und dem Leistungsdruck ein zusätzlicher Zeitdruck hinzu. '
+                    text: 'Unsere Ghostwriter für Agrarwissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Speziell im Bereich der BWL wird aus diesem Grund in diesem Zeitrahmen oftmals die Hilfe unserer\_"
+                    text: 'Unsere versierten '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
+                    text: 'akademischen Ghostwriter für Agrarwissenschaften verfügen über fundierte Fachkenntnisse'
                   -
                     type: text
-                    text: "\_benötigt. Unsere Auftraggeber haben in ihrer Studienlaufbahn besonders Schwierigkeiten bei der "
+                    text: ' und Erfahrungen in ihrem Einsatzbereich. Sie besitzen umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten auf den unterschiedlichsten Anforderungsniveaus. Das Niveau Ihrer Arbeit kann dann entsprechend angepasst werden, denn schließlich muss eine '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /bachelorarbeit-thema
+                          href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Themenfindung
+                    text: Seminararbeit
                   -
                     type: text
-                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsarbeit & Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederungen, sodass die professionelle Unterstützung durch einen erfahrenen akademischen Ghostwriter ratsam ist. Ein Lektorat oder eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL sind zudem ebenfalls sehr zu empfehlen.'
+                    text: ' in einem anderen Stil verfasst sein als eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: Dissertation
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Agrarwissenschaften sind ein umfangreiches Fach mit vielen Teilgebieten. Besonders verfügen aus dem Fachgebiet Agrarwissenschaften Ghostwriter über die notwendigen Kenntnisse in verschiedenen Fächern. Sie arbeiten auch mit Biochemie oder aus dem Fachbereich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/biologie
+                          target: null
+                          rel: null
+                    text: 'Biologie Ghostwritern'
+                  -
+                    type: text
+                    text: ' zusammen. Auch die Unterstützung in Physik oder in Meteorologie ist möglich. Auch bei Fragen zur Volkswirtschaftslehre oder zur Mathematik und Statistik können unsere Autoren Ihnen weiterhelfen. Durch diese umfassende Fachkenntnis können wir unseren Kunden bei den verschiedenen Ausarbeitungen umfassende und individuell zugeschnittene Unterstützung anbieten. Gern können Sie eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'kostenlose und unverbindliche Anfrage'
+                  -
+                    type: text
+                    text: ' für Ihr konkretes Vorhaben stellen.'
             show_as_card: false
         type: row
         enabled: true
@@ -544,7 +567,7 @@ replicator:
                             attrs:
                               color: white
                               hex: '#fff'
-                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet BWL Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
+                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet Agrarwissenschaften Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
                       -
                         type: text
                         marks:
@@ -635,54 +658,61 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter'
+                    text: 'Allgemeines zum Agrarwissenschaften Studium'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Jeder unserer '
+                    marks:
+                      -
+                        type: bold
+                    text: 'Agrarwissenschaft ist die Lehre von der Produktion von menschlichen und tierischen Nahrungsmitteln durch die ökonomische Nutzung des Bodens'
+                  -
+                    type: text
+                    text: '. Hierfür müssen die ökonomischen Rahmenbedingungen beachtet werden, wie z.B. die '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'erfahrenen akademischen Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse'
+                    text: 'Eigentums- und Wirtschaftsverhältnisse'
                   -
                     type: text
-                    text: ' und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. Auch haben unsere Autoren hervorragend Kenntnisse in Teilgebieten der Betriebswirtschaftslehre wie dem Rechnungswesen oder in verwandten bzw. verbundenen Fachgebieten wie der Volkswirtschaftslehre, der Mathematik und sogar den Ingenieurwissenschaften. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studierenden, dem Thema der Arbeit und der notwendigen Forschungsarbeit. Schließlich hat bspw. eine Hausarbeit andere Ansprüche an den Verfasser als eine Doktorarbeit.'
+                    text: ', aber auch die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'soziale und die politische Ordnung in der jeweiligen Region'
+                  -
+                    type: text
+                    text: '. Eine weitere zentrale Bedeutung kommt den ökologischen Bedingungen zu, etwa den klimatischen Voraussetzungen, der Fruchtbarkeit des Bodens usw.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Studierende können entweder das\_"
+                    text: 'Das Agrarwissenschaften-Studium ist also sehr stark interdisziplinär angelegt. Die Inhalte kommen aus den Bereichen Naturwissenschaften, Technik, Wirtschaft sowie Politik und Sozialwissenschaften. Während des Studiums sollen Sie lernen, das Grundlagen-Wissen aus diesen verschiedenen Bereichen in einer Spezialisierungsrichtung praktisch anzuwenden. In Frage kommen bei den '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
+                    text: Pflanzenbauwissenschaften
+                  -
+                    type: text
+                    text: ' z.B. '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit"
+                    text: 'Gartenbau oder Weinbau und bei den Nutztierwissenschaften z.B. Tierhaltung und Tierzucht'
                   -
                     type: text
-                    text: ' oder verschiedener Teilbereiche als Leistungen bei einem Ghostwriter in Auftrag geben. So ist es auch üblich, dass der Ghostwriter Studierende bereits bei der Suche nach der passenden Literatur im Rahmen der Literaturrecherche unterstützt, ihnen bei der Texterstellung beratend zur Seite steht oder bereits durch die Studierenden fertig geschriebene Arbeiten lektoriert und korrigiert. Ein solches Lektorat von einem erfahrenen Ghostwriter verleiht Ihrer Arbeit zusammen mit einer Plagiatsprüfung den letzten Schliff. Auch ein Coaching und Training ist möglich, um die Studierenden auf eine Klausur vorzubereiten oder sie in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen. Und nicht zuletzt bieten unsere Ghostwriter auch Übersetzungen von akademischen Arbeiten, Klausuren und allen anderen Arten von Texten an.'
+                    text: '. Die Spezialisierung auf ein Gebiet erfolgt dann oftmals schon vor dem Schreiben der Abschlussarbeit.'
             show_as_card: false
         type: row
         enabled: true
@@ -1643,74 +1673,41 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'ChatGPT statt BWL Ghostwriter?'
+                    text: 'Karriereaussichten nach dem Agrarwissenschaften Studium'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Seit seiner Veröffentlichung wird ChatGPT in allen Lebensbereichen heiß diskutiert, auch im Bezug auf das wissenschaftliche Arbeiten. Viele Professoren fragen sich bereits, wie Sie verhindern können, dass ihre Studierenden sich Ihre Arbeiten von einer KI schreiben lassen. Und auch Anbieter von Plagiatsprüfungssoftware entwickeln schon fleißig Lösungen um KI-Texte verlässlich identifizieren zu können. Aber Fakt ist noch immer: KI kann einen menschlichen Autor und auch einen akademischen Ghostwriter nicht ersetzen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Technische Limitationen von KI'
+                    text: 'Mit einem abgeschlossenen Studium in Agrarwissenschaften haben Sie sehr gute Karriereaussichten. Der Klimawandel trägt dazu bei, dass Agrarwissenschaften Jobs immer wichtiger werden. Agrarwissenschaftler werden gebraucht, um die Folgen von extremer Trockenheit, von sintflutartigen Regenfällen, von den schnellen Veränderungen von Flora und Fauna zu bewältigen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Eine der wesentlichen technischen Limitationen von KI-Systemen in Bezug auf BWL ist ihre Fähigkeit zur Interpretation von Daten. Während KIs Daten in großem Umfang analysieren können, fehlt ihnen oft das Verständnis für die Kontextualität und die dahinter liegenden wirtschaftlichen Zusammenhänge. Die BWL ist nicht nur von harten Zahlen und Fakten geprägt, sondern auch von menschlichen Verhaltensweisen, Unternehmenskulturen und externen Markteinflüssen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Des Weiteren sind viele BWL-Konzepte und -Strategien dynamisch und entwickeln sich ständig weiter. Eine KI, die nicht laufend mit aktuellen wirtschaftlichen Entwicklungen oder Theorien aktualisiert wird, könnte veraltete oder nicht mehr relevante Informationen verwenden.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Rechtliche Aspekte'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der BWL können falsche oder irreführende Informationen erhebliche finanzielle und rechtliche Konsequenzen haben. Ein von KI verfasster Bericht könnte beispielsweise zu fehlerhaften Investitionsentscheidungen oder zu einer fehlerhaften Markteinschätzung führen, insbesondere wenn diese Inhalt Teil einer '
+                    text: 'Das '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /blog/bachelorarbeit-unternehmen
-                          target: null
-                          rel: null
-                    text: 'im Unternehmen geschriebenen Bachelorarbeit'
+                          href: 'https://www.absolventa.de/jobs/channel/agrarwissenschaften/thema/gehalt'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Einstiegsgehalt für Agrarwissenschaftler'
                   -
                     type: text
-                    text: ' werden. Dies könnte Unternehmen in rechtliche und wirtschaftliche Schwierigkeiten bringen, besonders wenn sie auf solchen Berichten basierende Entscheidungen treffen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
+                    text: ' liegt bei 40.200 Euro. Allerdings ist das eine Durchschnittsangabe. Die Bandbreite ist sehr groß: Als Agraringenieur können Sie fast '
                   -
                     type: text
-                    text: 'Vergleich zum akademischen Ghostwriting im Fach BWL'
-              -
-                type: paragraph
-                content:
+                    marks:
+                      -
+                        type: bold
+                    text: '70.000 Euro'
                   -
                     type: text
-                    text: 'Ein akademischer Ghostwriter, insbesondere ein Fachexperte in BWL, kann eine nuancierte und kontextualisierte wissenschaftliche Arbeit liefern. Er kann aktuelle Trends, kulturelle Unterschiede und menschliche Verhaltensweisen in seiner Erläuterung und Argumentationen, was eine KI nicht in gleichem Maße leisten kann. Obwohl KI-Systeme in vielen Bereichen beeindruckende Fortschritte gemacht haben, bleibt das menschliche Verständnis und die Fähigkeit zur Interpretation im Bereich der BWL von zentraler Bedeutung. Ein menschlicher Autor kann die Komplexität und Dynamik des Wirtschaftslebens besser erfassen und interpretieren als eine KI. Daher bleibt ein akademischer Experte im Fach BWL die bevorzugte Wahl für das Verfassen von wissenschaftlichen Arbeiten im Vergleich zur KI.'
+                    text: ' verdienen. Sehr groß ist auch die Auswahl an möglichen Jobs: Sie können einen Bauernhof übernehmen, in die Forschung gehen oder in die Verwaltung eines Ministeriums. Reizvoll ist auch die Tätigkeit als Fachjournalist.'
             show_as_card: false
         type: row
         enabled: true
@@ -1746,28 +1743,38 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
+                    text: 'Warum sollte man Agrarwissenschaften-Ghostwriter beauftragen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftlern, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse und Erfahrung im Umgang mit der Literaturrecherche und Forschungsarbeiten.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Warum Sie aus dem Fachbereich Agrarwissenschaften Ghostwriter beauftragen sollten? Damit Sie von deren spezialisiertem Wissen und Expertise profitieren zu können. Dies kann Zeit sparen, da sie bereits über das notwendige Fachwissen verfügen und eine hochwertige wissenschaftliche Arbeit liefern können. Unsere Experten können auch bei der Forschung und Datensammlung helfen, individuelle Anpassungen vornehmen und sicherstellen, dass die Arbeit den wissenschaftlichen Standards entspricht. Dies ist besonders nützlich bei komplexen Projekten und kann bei der Vorbereitung auf eine berufliche Karriere im Bereich Agrarwissenschaften unterstützen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'BWL-Ghostwriter erstellen für verschiedene Aufgabenstellungen im Fachbereich BWL ('
+                    text: 'Ghostwriter in Agrarwissenschaften erstellen '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Hausarbeiten, Projektarbeiten, Abschlussarbeit, Businessplan, Marketingkonzept'
+                    text: 'Musterarbeiten für unterschiedliche Studienarbeiten'
                   -
                     type: text
-                    text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevante Datenbanken wie Fachzeitschriften, Fachartikel etc. Zugriff. Den Zugriff stellen wir als Agentur unseren Autoren zur Verfügung, um diese bei ihrer Arbeit optimal zu unterstützen.'
+                    text: '. Besonders in den Abschlussarbeiten sind unsere Ghostwriter im Fachbereich Agrarwissenschaften Experten. '
             show_as_card: false
           -
             id: KifGK2jM
@@ -1775,10 +1782,16 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: 43Q9cxMl
+                  id: lmu3gqu1
                   values:
-                    type: video
-                    video: 'https://youtu.be/PmgIh10dij0'
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/agrarwissenschaften-ghostwriter.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1837,101 +1850,197 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Allgemeines zur BWL'
+                    text: 'Aufbau eines Agrarwissenschaften Studiums'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Die Betriebswirtschaftslehre (BWL), auch Betriebsökonomie genannt, ist ein Teilgebiet der\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
-                  -
-                    type: text
-                    text: "\_(WiWi). Sie ist eng verwandt mit der "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/vwl
-                          target: null
-                          rel: null
-                    text: Volkswirtschaftslehre
-                  -
-                    type: text
-                    text: ' ('
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                    text: VWL
-                  -
-                    type: text
-                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
+                    text: 'Studenten können verschiedene Hochschulen wählen, um Agrarwissenschaften zu studieren. Der Aufbau ist überall ähnlich. An der Humbolt-Universität Berlin beispielsweise ist das Bachelor-Studium Agrarwissenschaften in einen Pflicht- und einen Wahlpflichtbereich unterteilt. Sie haben zunächst einmal 20 Pflichtmodule mit jeweils fünf oder sechs Leistungspunkten. Die Bachelorarbeit ergibt noch einmal 12 Leistungspunkte. Der verpflichtende Teil sieht folgendermaßen aus:'
+              -
+                type: set
+                attrs:
+                  id: lmu3pzw2
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/agrarwissenschaften-inhalte.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Während in der Volkswirtschaftslehre ein Wirtschaftssystem als ganzes betrachtet wird, analysiert ein Betriebswirt oder eine Betriebswirtin das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft '
+                    text: 'Ergänzt wird der Pflicht- durch einen Wahlpflichtbereich. An der Humboldt-Uni werden drei Modul-Pools angeboten, aus denen Sie jeweils ein Modul mit sechs Leistungspunkten belegen müssen. Die '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Entscheidungen zur Förderung des Unternehmenserfolgs'
+                    text: 'Modul-Pools lauten im Einzelnen:'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Wahlpflichtmodul
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Anzahl Leistungspunkte'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Grundlagen der empirischen Forschung (Biometrie und '
+                              -
+                                type: text
+                                text: Ökonometrie)
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '6 LP'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Politik und Märkte ('
+                              -
+                                type: text
+                                text: 'Grundlagen der Markt- und Politikanalyse, Strukturwandel und ländlicher Raum oder Weltmärkte der Agrar- und Ernährungswirtschaft)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '6 LP'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Pflanzliche Rohstoffe und Qualität ('
+                              -
+                                type: text
+                                text: 'Grünland und Futterbau, Qualitätsdynamik und Qualitätssicherung für Obst und Gemüse sowie Pflanzenschutz)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '6 LP'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: '. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
-              -
-                type: set
-                attrs:
-                  id: nO2F1RVY
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/besipielarbeit.JPG
-                    ex_title: 'BWL Seminararbeit Beispiel jetzt KOSTENLOS herunterladen!'
-                    ex_type: Seminararbeit
-                    ex_pages: '12'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
-                    ex_button_text: Download
-                    ex_spacing_top: false
-                    ex_fachbereich:
-                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-              -
-                type: set
-                attrs:
-                  id: lm90dzed
-                  values:
-                    type: anchor_target
-                    anchor_name: karriere
+                    text: 'Weiterhin müssen Sie 18 Leistungspunkte aus dem Ergänzungsbereich belegen. Hier haben Sie an der Humboldt-Uni die Wahl aus 45 Modulen. Sie müssen drei davon belegen, um auf die geforderte Anzahl an Leistungspunkten zu kommen. Sie müssen also insgesamt 20 Pflichtmodule absolvieren.'
+            show_as_card: false
+          -
+            id: lmu3t88l
+            bard:
               -
                 type: heading
                 attrs:
@@ -1939,64 +2048,1167 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Karriereaussichten nach dem BWL-Studium'
+                    text: 'Studienplan: Agrarwissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Management eines Unternehmens'
-                  -
-                    type: text
-                    text: ' arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Karrierechancen sehr gut'
-                  -
-                    type: text
-                    text: ' sind.'
+                    text: 'Welche Module Sie in welchem Semester besuchen, liegt an Ihnen und am jeweiligen Angebot an Lehrveranstaltungen. Eine sinnvolle Aufteilung auf sechs Semester könnte folgendermaßen aussehen:'
               -
-                type: paragraph
+                type: table
                 content:
                   -
-                    type: text
-                    text: 'Um ihre Studienleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studierende der '
-                  -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: bold
-                    text: 'BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung ihrer Arbeiten durch die Erstellung von Mustervorlagen zur Seite stehen'
-                  -
-                    type: text
-                    text: '. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen. Dieses Lektorat durch einen zweiten, unabhängigen Autor ist bei GWriters immer im Preis inbegriffen, ganz gleich ob Sie sich eine Mustervorlage für eine Hausarbeit, Projektarbeit oder Doktorarbeit schreiben lassen. Wenn auch Sie Interesse an der professionellen Unterstützung durch einen erfahrenen Ghostwriter haben, dann senden Sie uns jetzt eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
+                        type: table_cell
                         attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'unverbindliche Anfrage'
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Studienfortschritt
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: white
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: Pflichtmodul
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: white
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Wahlpflichtmodul oder Ergänzungsmodul'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '1. Semester'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(247, 150, 70)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Grundlagen der Biochemie'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Agrarmeteorologie (Ergänzung)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(146, 208, 80)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: Nutztierhaltung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: yellow
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Grundlagen des Agrarmarketing'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '2. Semester'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(247, 150, 70)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Biologie der Pflanzen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Grundlagen der empirischen Forschung (Biometrie und '
+                              -
+                                type: text
+                                text: 'Ökonometrie) (Wahlpflicht)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(247, 150, 70)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Biologie der Tiere'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: red
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Grundlagen der Physik und Meteorologie'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(0, 112, 192)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: Bodenkunde
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '3. Semester'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(247, 150, 70)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Genetik und Pflanzenzüchtung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Phytomedizin-Report: Grundlagen (Ergänzung)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(247, 150, 70)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Tierzucht und -genetik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(247, 150, 70)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Phytomedizin I: Grundlagen der Phytomedizin'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '4. Semester'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(146, 208, 80)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Pflanzenernährung und Düngung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(253, 233, 217)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: Agrarpolitik
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(146, 208, 80)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Ackerbau und Pflanzenbau'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '5. Semester'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(146, 208, 80)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Tierernährung und Futtermittelkunde'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Pferdezüchtung und –ernährung (Ergänzung)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: red
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Mathematik und Statistik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(0, 112, 192)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Agrar- und Gartenbautechnik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: yellow
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Einführung in die Volkswirtschaftslehre'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '6. Semester'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: yellow
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Analyse und Planung von Agrarbetrieben'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(0, 112, 192)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: Agrarökologie
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: yellow
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'Umwelt- und Ressourcenökonomie'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '7. Semester'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: 'rgb(182, 221, 232)'
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: Bachelorarbeit
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: ' und wir senden Ihnen innerhalb kürzester Zeit ein kostenloses Angebot!'
+                    text: 'An ein Bachelorstudium Agrarwissenschaft kann sich direkt ein Master anschließen. Dieser dient dann der Spezialisierung. Die Humboldt-Uni bietet beispielsweise sechs verschiedene M.Sc.-Studiengänge an. Nur zwei der möglichen Master-Studiengänge finden in deutscher Sprache statt, die anderen auf Englisch.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "\_Prozess- und Qualitätsmanagement in Landwirtschaft und Gartenbau"
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 0
         columns_per_row: 0
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
     border: false
