@@ -137,7 +137,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695358585
+updated_at: 1695358875
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3675,142 +3675,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Einige unserer Blogartikel zum Thema BWL Ghostwriter'
-              -
-                type: set
-                attrs:
-                  id: YNZydW4Q
-                  values:
-                    type: blog_entries
-                    entries:
-                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
-                      - e74abe89-2a92-4e81-bb8f-e357cc66776a
-                      - e3607494-f5c6-43c1-833e-69ab509b9846
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Nützliche Weblinks & Referenzen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://studiengaenge.zeit.de/ranking'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'CHE Hochschulranking 2020 – Zeit Online'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Betriebswirtschaftslehre'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Grundinformationen zur BWL – Wikipedia'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.handelsblatt.com/'
-                          target: _blank
-                          rel: nofollow
-                    text: 'Wirtschaftsnachrichten – Handelsblatt'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://studiengaenge.zeit.de/studium/wirtschaft/wirtschaftswissenschaften/betriebswirtschaftslehre'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'BWL studieren – Zeit Online'
             show_as_card: false
         type: row
         enabled: true
@@ -3821,10 +3685,10 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Kompetente Unterstützung für Ihre wissenschaftliche Masterarbeit - Masterarbeit schreiben lassen von über 3.000 akademischen Ghostwritern ✔️'
-og_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Kompetente Unterstützung für Ihre wissenschaftliche Masterarbeit - Masterarbeit schreiben lassen von über 3.000 akademischen Ghostwritern ✔️'
+meta_title: 'Agrarwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Agrarwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_title: 'Agrarwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
+og_description: 'Hilfe durch Experten und akademische Ghostwriter der Agrarwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
