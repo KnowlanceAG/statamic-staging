@@ -137,7 +137,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695359009
+updated_at: 1695363206
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2033,7 +2033,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Weiterhin müssen Sie 18 Leistungspunkte aus dem Ergänzungsbereich belegen. Hier haben Sie an der Humboldt-Uni die Wahl aus 45 Modulen. Sie müssen drei davon belegen, um auf die geforderte Anzahl an Leistungspunkten zu kommen. Sie müssen also insgesamt 20 Pflichtmodule absolvieren.'
+                    text: 'Weiterhin müssen Sie 18 Leistungspunkte aus dem Ergänzungsbereich belegen. Hier haben Sie an der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /assets/downloads/blog/module-erganzungsbereich-agrarwissenschaften.docx
+                          target: null
+                          rel: null
+                    text: 'Humboldt-Uni die Wahl aus 45 Modulen'
+                  -
+                    type: text
+                    text: '. Sie müssen drei davon belegen, um auf die geforderte Anzahl an Leistungspunkten zu kommen. Sie müssen also insgesamt 20 Pflichtmodule absolvieren.'
             show_as_card: false
           -
             id: lmu3t88l
