@@ -138,7 +138,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695357151
+updated_at: 1695357981
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3199,11 +3199,58 @@ replicator:
                     type: text
                     text: 'An ein Bachelorstudium Agrarwissenschaft kann sich direkt ein Master anschließen. Dieser dient dann der Spezialisierung. Die Humboldt-Uni bietet beispielsweise sechs verschiedene M.Sc.-Studiengänge an. Nur zwei der möglichen Master-Studiengänge finden in deutscher Sprache statt, die anderen auf Englisch.'
               -
-                type: paragraph
+                type: bullet_list
                 content:
                   -
-                    type: text
-                    text: "\_Prozess- und Qualitätsmanagement in Landwirtschaft und Gartenbau"
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Prozess- und Qualitätsmanagement in Landwirtschaft und Gartenbau'
+                          -
+                            type: hard_break
+                          -
+                            type: text
+                            text: 'Integrated Natural Resource Management'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Agricultural Economics'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Fish Biology, Fisheries and Aquaculture'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'International Master in Rural Development'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'International Master in Horticultural Science'
             show_as_card: false
         type: row
         enabled: true
@@ -3219,8 +3266,7 @@ replicator:
     columns_replicator:
       -
         id: SjHtvzSx
-        columns_per_row: 2
-        single_col: false
+        single_col: true
         grid:
           -
             id: StE9S7ZP
@@ -3239,119 +3285,43 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufbau eines BWL-Studiums'
+                    text: 'Inhalte des Agrarwissenschaften Studiums'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'ein duales Studium oder durch ein Vollzeitstudium'
-                  -
-                    type: text
-                    text: ' an einer Universität oder Fachhochschule erlangen. '
+                    text: 'Wie Sie an der Beispieltabelle der HU Berlin gesehen haben, sind die Inhalte eines Agrarwissenschaften Studiums sehr vielfältig. Rein biologische Inhalte spielen eine große Rolle, aber Sie erwerben auch betriebswirtschaftliche und Marketingkenntnisse.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um '
+                    text: 'Für die Feldstudien müssen Sie auch mathematische und statistische Fertigkeiten auf höherem Niveau haben. Auch politische Aspekte spielen eine Rolle im Studiengang Agrarwissenschaft. Durch diese große Bandbreite des Faches müssen Sie selbst in vielen Bereichen Fächern fit sein. Die Anforderungen an die Studenten in Agrarwissenschaften sind also hoch.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'berufsbegleitende Fachbereiche'
-                  -
-                    type: text
-                    text: ', die sich auf ein bestimmtes Themenfeld (z.B. '
+                    text: 'Ob Sie dem Studium inhaltlich gewachsen sind, wird regelmäßig überprüft. Schon im Bachelor-Studium müssen Sie zahlreiche Modulprüfungen absolvieren. Durch Coaching mit einem Ghostwriter können Sie sich hierauf gezielt vorbereiten. Hinzu kommen Forschungsprotokolle und Praktikumsberichte, die Sie regelmäßig abgeben müssen. Bei allen schriftlichen Arbeiten können Ghostwriter Sie unterstützen. Sie können sich von unseren Experten auch '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/marketing
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Marketing
+                    text: 'Hausarbeiten schreiben lassen'
                   -
                     type: text
-                    text: ') konzentrieren.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Bachelorarbeit (Bachelor Thesis)'
-                  -
-                    type: text
-                    text: ' und die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeit (Master Thesis)'
-                  -
-                    type: text
-                    text: '. Optional kann darauf aufbauend die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotion
-                  -
-                    type: text
-                    text: ' erfolgen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studierenden der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein erfahrener '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'BWL-Ghostwriter hilft Doktoranden'
-                  -
-                    type: text
-                    text: ' durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
-            show_as_card: false
-          -
-            id: DZ7MWmhN
-            bard:
-              -
-                type: set
-                attrs:
-                  id: CI1UmfoE
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
-                    has_border: false
+                    text: .
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
@@ -3383,239 +3353,140 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Inhalte des BWL-Studiums'
+                    text: 'Ghostwriter: Agrarwissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In dem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'betriebswirtschaftlichen Studium'
-                  -
-                    type: text
-                    text: ' lernen Studierende u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Praxiseinheiten
-                  -
-                    type: text
-                    text: ' (Praktika) und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Projektarbeiten
-                  -
-                    type: text
-                    text: ' wesentliche Elemente des Studiums, die das erlernte Fachwissen und die Fähigkeit zum wissenschaftlichen Arbeiten vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studierenden eine hohe Bedeutung zugeschrieben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Fachwissens bilden Grundlagenfächer/Pflichtbereiche wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Marketing
-                  -
-                    type: text
-                    text: '. Diese Grundlagenfächer werden in höheren Semestern durch Schwerpunkte, die der Student wählt, weiter vertieft. In diesen Vertiefungsfächern machen die Studierenden dann auch die ersten Erfahrungen mit dem wissenschaftlichen Arbeiten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Planung (Businessplan, Marketingkonzept), Organisation und Analyse'
-                  -
-                    type: text
-                    text: ' sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenbereiche '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Marketing, Personal, Controlling und Finanzen oder auch Produktion'
-                  -
-                    type: text
-                    text: ' erwähnt werden. Im Studiengang Wirtschaftsingenieurwesen wird die BWL sogar mit dem Fachbereich der Ingenieurwissenschaften kombiniert.'
-              -
-                type: set
-                attrs:
-                  id: 8hIYvANs
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/fachrichtungen/BWL-Ghostwriter.png
-                    has_border: false
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jedoch bereiten gerade die Grundlagenfächer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mathe, Statistik und Recht'
-                  -
-                    type: text
-                    text: ' sehr vielen Studierenden erhebliche Probleme. Sie entscheiden sich nicht selten dazu, erfahrene Ghostwriter und andere akademische Experten zu engagieren um sich optimal auf Prüfungen und Arbeiten vorbereiten zu können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwriting-Arbeiten dürfen nicht als Prüfungsleistungen verwendet werden'
-                  -
-                    type: text
-                    text: '. Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: ll2rg26m
-    columns_replicator:
-      -
-        id: ll2rg4ce
-        columns_per_row: 2
-        single_col: false
-        grid:
-          -
-            id: WcOVwpix
-            bard:
-              -
-                type: set
-                attrs:
-                  id: ll2t6bkz
-                  values:
-                    type: anchor_target
-                    anchor_name: internationale
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Internationale BWL (IBWL)'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Internationale Betriebswirtschaftslehre (IBWL) ist ein Teilgebiet der Betriebswirtschaftslehre, das sich mit den wirtschaftlichen Aktivitäten von Unternehmen im globalen Kontext beschäftigt. Sie konzentriert sich auf die Untersuchung und Gestaltung von Geschäftsprozessen, Strategien und Entscheidungen, die grenzüberschreitend agierende Unternehmen treffen müssen, um in einer internationalen Geschäftsumgebung erfolgreich zu sein. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Studium in Internationaler Betriebswirtschaftslehre (IBWL) bereitet Sie darauf vor, in der globalisierten Geschäftswelt erfolgreich zu agieren. In den meisten Betriebswirtschaftslehre-Studiengängen wird die Internationale BWL als Modul oder Wahlfach angeboten. Hingegen wird die Internationale Betriebswirtschaftslehre als eigenständiger Bachelorstudiengang beispielsweise an der '
+                    text: 'Ghostwriter Agrarwissenschaften können Sie an verschiedenen Stellen unterstützen. Es ist möglich, das Ghostwriting einer '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: 'https://studieren.univie.ac.at/studienangebot/bachelor-und-diplomstudien/internationale-betriebswirtschaft-bachelor-mit-aufnahmeverfahren/'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Universität Wien'
+                          href: /blog/ghostwriter-abschlussarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Mustervorlage für die Abschlussarbeit'
                   -
                     type: text
-                    text: '  unterrichtet. Häufig werden in diesem Studiengang die Lehrinhalte in englischer Sprache vermittelt, was Sie umfassend auf Ihre berufliche Karriere in internationalen Unternehmen im In- oder Ausland vorbereitet.'
+                    text: ' zu beauftragen. Der erste Abschluss in Agrarwissenschaften ist die Bachelorarbeit. Sie können sich beispielsweise eine Mustervorlage für die '
                   -
-                    type: hard_break
+                    type: text
                     marks:
                       -
-                        type: textAlign
+                        type: link
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
-                    text: 'Dies geschieht oft in Form von speziellen Modulen, die sich mit Themen wie internationalen Geschäftsstrategien, grenzüberschreitendem Marketing, globalen Lieferketten, multinationalem Finanzmanagement und interkulturellem Management befassen. Die Internationale BWL umfasst verschiedene Schwerpunkte:'
-            show_as_card: false
-          -
-            id: ll2rhsv0
-            bard:
-              -
-                type: set
-                attrs:
-                  id: ll2rncf4
-                  values:
-                    type: spacer
-                    padding-y: 20
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: ll2rhxxn
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/fachrichtungen/aufbau-internationale-betriebswirtschaft.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
+                    text: '. Wenn Sie sich spezialisieren, erfolgt im zweiten Schritt das Masterstudium. An dessen Ende steht die Masterarbeit. Auch hier ist vielfältige Unterstützung möglich. Von einem Experten können Sie eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch verschiedene Teilaufgaben können an unsere Autoren ausgelagert werden. Hierzu zählt die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/literaturrecherche-datenbanken-quellen
+                          target: null
+                          rel: null
+                    text: Literaturrecherche
+                  -
+                    type: text
+                    text: ': Vor der Entscheidung für ein Thema muss zunächst einmal der Forschungsstand gesichtet werden. Ghostwriter können als Experten auf ihrem Gebiet hierbei wertvolle Dienste leisten. Sie haben Zugang zu den relevanten Datenbanken und können auch neueste Studien beschaffen und bei Bedarf Zusammenfassungen für Sie schreiben. Ghostwriter können auch fremdsprachige Literatur beschaffen und sichten. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/forschungsdesign-beispiel
+                          target: null
+                          rel: null
+                    text: 'Beratung beim Studiendesign'
+                  -
+                    type: text
+                    text: ' ist ebenfalls möglich.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie einen Teil Ihrer Arbeit oder auch den gesamten Text in einer Fremdsprache veröffentlichen wollen, bieten Ghostwriter auch Übersetzungen von akademischen Arbeiten an. Fertige Texte können Sie durch ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    text: ' überprüfen lassen. Unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    text: ' gibt Ihnen die Sicherheit, dass Sie nicht aus Versehen Teile aus anderen Arbeiten übernommen haben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter bieten außerdem Coaching und Training an. Damit können Sie sich gezielt auf Klausuren vorbereiten. Eine enge Begleitung durch einen Coach lohnt sich oft auch langfristig: wenn Sie einmal das Procedere verstanden haben, sind Sie in der Lage, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen.'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
@@ -3639,30 +3510,13 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Internationale Geschäftsstrategien'
+                    text: '5 Bachelorarbeits-Themen: Agrarwissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: 'Unternehmen müssen strategische Entscheidungen treffen, wie sie ihre Produkte oder Dienstleistungen auf verschiedenen internationalen Märkten positionieren und vermarkten möchten.'
+                    text: 'Nach sechs Semestern Studium steht die Bachelorarbeit an. Hier müssen Sie zeigen, dass Sie eine wissenschaftliche Aufgabe in Ihrem Fachgebiet selbständig bearbeiten können. Mögliche Themen für eine Bachelorarbeit in Agrarwissenschaften können sein:'
               -
                 type: set
                 attrs:
@@ -3671,22 +3525,17 @@ replicator:
                     type: insert_html
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>Beispiel:</b><br><br>
-                      Ein Unternehmen, das Elektronikprodukte herstellt, möchte seine Produkte auf internationalen Märkten einführen. Die internationale Geschäftsstrategie umfasst die Entscheidung, welche Länder für den Markteintritt ausgewählt werden sollen, wie die Produkte an die Bedürfnisse und kulturellen Vorlieben der jeweiligen Länder angepasst werden und welche Vertriebskanäle am effektivsten sind.</div>
+                        <b>
+                      Kaufentscheidungen von Landwirten bei Liegeboxenbelägen, Liegeboxenabtrennungen und Laufflächenbelägen</b><br><br>
+
+                      Hier stehen ökonomische Aspekte im Vordergrund. Aus agrarwissenschaftlicher Sicht ist die artgerechte Tierhaltung bedeutsam. Die Arbeit dient als Überprüfung, welche Aspekte Landwirte bei ihren Entscheidungen berücksichtigen.</div>
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Internationales Marketing'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dies umfasst die Anpassung von Marketingstrategien an verschiedene Kulturen und Märkte, um die Bedürfnisse und Vorlieben der Zielgruppen in verschiedenen Ländern zu berücksichtigen.'
+                  id: lmu46xea
+                  values:
+                    type: spacer
+                    padding-y: 5
               -
                 type: set
                 attrs:
@@ -3695,21 +3544,18 @@ replicator:
                     type: insert_html
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>Beispiel:</b><br><br>Ein Unternehmen, das Sportbekleidung herstellt, möchte seine Produkte global vermarkten. Es muss seine Marketingkampagnen an die kulturellen Unterschiede und sportlichen Präferenzen der verschiedenen Länder anpassen. So könnte eine Werbekampagne in Europa andere Aspekte hervorheben als eine Kampagne in Asien, um die jeweiligen Zielgruppen anzusprechen.</div>
+                        <b>
+                      Zweikultur-Nutzungssysteme für die Biogasproduktion
+                      </b><br><br>
+
+                      Es wird untersucht, inwieweit sich Möglichkeiten der Anbaumethode eines Zweinutzungssytems zur Herstellung von Biomasse für die Energieerzeugung mit ökologischen Aspekten und Fragen der Biodiversität verbinden lassen. Zweinutzung bedeutet, dass der Naturschutz und der nachhaltige Ausbau von erneuerbaren Energien verbunden werden.</div>
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Internationales Rechnungswesen und Finanzmanagement '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unternehmen müssen sich mit Währungsrisiken, Kapitalbeschaffung, Investitionen und anderen finanziellen Aspekten befassen, die sich aus grenzüberschreitenden Aktivitäten ergeben.'
+                  id: lmu47dzl
+                  values:
+                    type: spacer
+                    padding-y: 5
               -
                 type: set
                 attrs:
@@ -3718,21 +3564,17 @@ replicator:
                     type: insert_html
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>Beispiel:</b><br><br>Ein Unternehmen hat Niederlassungen in verschiedenen Ländern und muss sich mit unterschiedlichen Währungen und Wechselkursen auseinandersetzen. Bei der Budgetplanung und Finanzierung muss es Währungsrisiken berücksichtigen und geeignete Absicherungsstrategien entwickeln, um Verluste aufgrund von Währungsschwankungen zu minimieren.</div>
+                        <b>
+                      Verwendungseignung und Zielwert von Clematisarten und -sorten mit Wildcharakter</b><br><br>
+
+                      Bei dieser Arbeit handelt es sich um eine Feldstudie: Es werden verschiedene Clematisarten untersucht, die in einer Versuchsanstalt angebaut werden. Es geht darum, verschiedene Nutzungseigenschaften zu identifizieren, um optimale Standortbedingungen zu finden.</div>
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Internationale Digitalisierung und Supply Chain Management'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Effiziente Gestaltung und Verwaltung von globalen Lieferketten, um Produkte oder Dienstleistungen über verschiedene Länder hinweg zu beschaffen, zu produzieren und zu vertreiben. Der Schwerpunkt Digitalisierung und Supply Chain Management im Studiengang Internationale Betriebswirtschaftslehre bereitet Sie gezielt auf die Bewältigung der aktuellen Herausforderungen der fortschreitenden Digitalisierung vor. Hierbei stehen Themen wie Operations Management, Liefernetzwerke, Informationssysteme, E-Commerce, Innovationsmanagement und sogar Softwareentwicklung mit Python im Fokus. '
+                  id: lmu480t3
+                  values:
+                    type: spacer
+                    padding-y: 5
               -
                 type: set
                 attrs:
@@ -3741,21 +3583,17 @@ replicator:
                     type: insert_html
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>Beispiel:</b><br><br>Ein Automobilhersteller bezieht Teile von Lieferanten aus verschiedenen Ländern. Das Unternehmen muss sicherstellen, dass die Teile pünktlich geliefert werden, Zollvorschriften eingehalten werden und die Lieferkette effizient funktioniert, um die Produktionsprozesse nicht zu beeinträchtigen.</div>
+                        <b>
+                      Bedeutung und Potentiale von Waldflächen und Forstwirtschaft für ein Ländliches Regionalmanagement - am Beispiel des Landkreises Osterode am Harz</b><br><br>
+
+                      Es erfolgt eine Potenzialanalyse einer ländlichen Region. Es werden Standortfaktoren, mögliche Potentiale und Handlungsempfehlungen in Bezug auf Wald, Forstwirtschaft und ländliches Regionalmanagement beschrieben.</div>
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Internationales Personalmanagement'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unternehmen müssen geeignete Mitarbeiter aus verschiedenen Kulturen rekrutieren, schulen und führen, um effektiv in einem internationalen Umfeld zu agieren.'
+                  id: lmu4b1vb
+                  values:
+                    type: spacer
+                    padding-y: 5
               -
                 type: set
                 attrs:
@@ -3764,46 +3602,12 @@ replicator:
                     type: insert_html
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>Beispiel:</b><br><br>Ein Unternehmen eröffnet eine Filiale in einem neuen Land. Es muss sich mit den kulturellen Unterschieden in Bezug auf Arbeitskultur, Arbeitsrecht und soziale Normen auseinandersetzen. Das Personalmanagement muss sicherstellen, dass die Mitarbeiter aus verschiedenen Ländern gut integriert werden und in einer harmonischen Arbeitsumgebung arbeiten können.</div>
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Internationales Recht'
+                        <b>
+                      Zur Fischproduktion aus Kreislaufanlagen in der Aquakultur.</b><br><br>
+
+                      In dieser Arbeit wird das Potential der Kreislaufanlagen in der Fischzucht untersucht. Es soll herausgefunden werden, inwieweit diese Produktionsmethode marktwirtschaftlichen Kriterien genügt und geeignet ist, um der globalen Hungerproblematik etwas entgegenzusetzen.</div>
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unternehmen müssen sich mit unterschiedlichen rechtlichen Rahmenbedingungen auseinandersetzen, wenn sie in verschiedenen Ländern tätig sind.'
-              -
-                type: set
-                attrs:
-                  id: ll2ar8f3
-                  values:
-                    type: insert_html
-                    html: |-
-                      <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>Beispiel:</b><br><br>Ein Unternehmen möchte seine Produkte in Ländern mit unterschiedlichen Rechts- und Ethikstandards verkaufen. Es muss sicherstellen, dass seine Geschäftspraktiken den lokalen Vorschriften entsprechen, um Konflikte oder rechtliche Probleme zu vermeiden.</div>
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-body)
-                          hex: '#000'
-                    text: 'Diese Themen vermitteln den Studierenden ein tiefes Verständnis für die Komplexität und Vielfalt der internationalen Geschäftswelt. Die genaue Gewichtung der Inhalte und deren Tiefe hängen von der jeweiligen Hochschule, dem Studiengang und dem spezifischen Modul ab. '
             show_as_card: false
         type: row
         enabled: true
@@ -3816,723 +3620,6 @@ replicator:
     enabled: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-  -
-    id: ll2r3ep9
-    columns_replicator:
-      -
-        id: llbhgux7
-        single_col: false
-        grid:
-          -
-            id: C8nTtel5
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lm90g2c0
-                  values:
-                    type: anchor_target
-                    anchor_name: international-ghostwriter
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter: Internationale BWL (IBWL)'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: ll2r3gpx
-        single_col: false
-        grid:
-          -
-            id: WcOVwpix
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Ghostwriter in Internationale Betriebswirtschaftslehre (IBWL) unterstützt in erster Linie bei der Erstellung von wissenschaftlichen Arbeiten, die sich mit Themen der Internationalen BWL befassen. Hier sind einige spezifische Aufgaben und Aktivitäten, die ein Ghostwriter im Bereich Internationale BWL ausführen kann:'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wissenschaftliche Arbeit (Hausarbeit, Bachelorarbeit oder Masterarbeit)'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Ein Studierender im Fach Internationale Betriebswirtschaftslehre benötigt eine umfangreiche Bachelorarbeit über "Die Auswirkungen von Freihandelsabkommen auf internationale Handelsströme". Ein erfahrener Ghostwriter im Bereich internationale BWL kann umfassende Forschung betreiben, relevante wirtschaftliche Theorien und reale Handelsbeispiele einbeziehen und dem Studierenden eine gut strukturierte Bachelorarbeit schreiben lassen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Businessplan für internationale Expansion'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein angehender Unternehmer, der Internationale Betriebswirtschaftslehre studiert, plant die Erweiterung seines Unternehmens auf internationale Märkte. Ein Ghostwriter kann eine gründliche Marktanalyse durchführen, die Wettbewerbssituation in verschiedenen Ländern untersuchen und den '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Businessplan erstellen'
-                  -
-                    type: text
-                    text: ', der potenzielle Investoren überzeugt.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Übersetzung einer Forschungsarbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Studierender hat eine anspruchsvolle Bachelorarbeit über "Internationale Markenstrategien in aufstrebenden Märkten" geschrieben und möchte sie für eine Veröffentlichung in einer internationalen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Fachzeitschrift übersetzen lassen'
-                  -
-                    type: text
-                    text: '. Ein qualifizierter Ghostwriter kann die Arbeit sorgfältig übersetzen und sicherstellen, dass die Fachterminologie korrekt verwendet wird.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Präsentation für eine internationale Geschäftskonferenz'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Studierender wird auf einer internationalen Geschäftskonferenz sprechen und benötigt eine aussagekräftige Präsentation über "Globale Trends im Supply Chain Management". Ein erfahrener Ghostwriter im Unternehmensbereich kann die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Präsentation erstellen'
-                  -
-                    type: text
-                    text: ', relevante Statistiken und Grafiken einfügen und eine überzeugende Botschaft für das internationale Publikum vermitteln.'
-            show_as_card: false
-          -
-            id: ll2rk96s
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Verfassen eines akademischen Artikels'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Masterstudent im Bereich Internationale Betriebswirtschaftslehre möchte seine Forschungsergebnisse über "Internationale Finanzierung und Währungsrisiken" in einer angesehenen Fachzeitschrift veröffentlichen. Ein Ghostwriter kann bei der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Umwandlung der Forschungsergebnisse in einen akademischen Artikel'
-                  -
-                    type: text
-                    text: ' unterstützen, der den hohen Standards der Fachzeitschrift entspricht.'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Beispiel: Seminararbeit '
-                          -
-                            type: text
-                            text: 'Ein Studierender soll eine Seminararbeit über "Die Bedeutung interkultureller Kommunikation für internationale Geschäftsbeziehungen" verfassen. Ein Ghostwriter in der internationalen Betriebswirtschaftslehre kann relevante Theorien zur interkulturellen Kommunikation finden, aktuelle Fallbeispiele einbringen und die Arbeit professionell strukturieren. Außerdem kann ein Student eine komplette Mustervorlage für seine '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Seminararbeit schreiben lassen'
-                          -
-                            type: text
-                            text: .
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Marktanalyse für internationale Expansion'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: 'Ein Unternehmen plant die Erschließung eines neuen internationalen Marktes und benötigt eine detaillierte Marktanalyse. Ein Ghostwriter mit Fachkenntnissen in Internationale Betriebswirtschaftslehre kann die politischen, wirtschaftlichen und kulturellen Aspekte des Ziellandes analysieren und die Ergebnisse in einem umfassenden Bericht zusammenfassen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Bewerbung für ein internationales Masterprogramm'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: 'Ein Bachelorabsolvent, der sich für ein Masterstudium in Internationale Betriebswirtschaftslehre bewirbt, benötigt eine überzeugende Bewerbung. Ein erfahrener Ghostwriter kann die Bewerbung verfassen, die die Motivation, akademischen Hintergrund und zukünftige Karriereziele überzeugend darstellt.'
-            show_as_card: false
-        type: row
-        enabled: true
-        columns_per_row: 2
-        responsive_columns: 0
-      -
-        id: llbh8si0
-        single_col: true
-        grid:
-          -
-            id: C8nTtel5
-            bard:
-              -
-                type: set
-                attrs:
-                  id: llbhg7jk
-                  values:
-                    type: spacer
-                    padding-y: 30
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Benötigen Sie professionelle Unterstützung?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Lassen Sie sich jetzt von einem erfahrenen BWL-Ghostwriter bei Ihrer Hausarbeit oder jeder anderen Art von wissenschaftlichen Arbeiten unterstützen. Schicken Sie uns einfach eine unverbindliche Anfrage über unser Kontaktformular, anschließend wird sich einer unserer erfahrenen Kundenberater innerhalb kürzester Zeit für eine kostenlose Beratung mit Ihnen in Verbindung setzen.'
-              -
-                type: set
-                attrs:
-                  id: llbh9do4
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: ll2r5jdf
-    columns_replicator:
-      -
-        id: ll2r5ktx
-        single_col: true
-        grid:
-          -
-            id: ll2r8ce4
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Leistungen: Internationale Betriebswirtschaftslehre'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: underline
-                            text: Gruppenarbeiten
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: ':'
-                          -
-                            type: text
-                            text: ' Für das Thema "Internationale Lieferketten und Logistik" könnte eine Gruppenarbeit verlangt werden, bei der Sie und Ihre Teammitglieder eine Fallstudie eines Unternehmens analysieren, das globale Lieferketten betreibt. Sie könnten Empfehlungen zur Optimierung der Lieferkette unter Berücksichtigung von Logistik, Transport und Risikomanagement erarbeiten.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: underline
-                            text: 'Individuelle Aufgaben'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: ':'
-                          -
-                            type: text
-                            text: ' Im Rahmen des Themas "Internationales Finanzmanagement" könnten Sie gebeten werden, einen individuellen Aufsatz über die Auswirkungen von Währungsschwankungen auf die Finanzstrategien multinationaler Unternehmen zu verfassen.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: underline
-                            text: Präsentationen
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: ': '
-                          -
-                            type: text
-                            text: 'Im "Interkulturelle Kommunikation"-Teil könnten Sie aufgefordert werden, eine Präsentation darüber zu halten, wie sich kulturelle Unterschiede auf die Geschäftskommunikation in internationalen Teams auswirken können und wie effektive Lösungsansätze aussehen könnten.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: underline
-                            text: 'Mündliche Prüfungen'
-                          -
-                            type: text
-                            text: ': Als Teil einer mündlichen Prüfung im Bereich "Internationale Geschäftsstrategien" könnten Sie aufgefordert werden, eine reale Situation zu analysieren, in der ein Unternehmen verschiedene Markteintrittsstrategien in einem internationalen Kontext in Erwägung ziehen muss.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: underline
-                            text: 'Abschlussarbeit oder -prüfung'
-                          -
-                            type: text
-                            text: ': Als Abschlussprojekt könnten Sie aufgefordert werden, eine umfassende Analyse eines multinationalen Unternehmens durchzuführen. Dies könnte eine schriftliche Arbeit sein, in der Sie die behandelten Inhalte auf reale Geschäftssituationen anwenden.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    border: false
-    type: add_section
-    enabled: true
-    bg_color: '#F9F9F9'
-  -
-    id: ll2oirxc
-    columns_replicator:
-      -
-        id: ll2oits9
-        single_col: true
-        grid:
-          -
-            id: WcOVwpix
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lm90gwux
-                  values:
-                    type: anchor_target
-                    anchor_name: themen
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: '5 Bachelorarbeit-Themen: Internationale Betriebswirtschaftslehre'
-              -
-                type: ordered_list
-                attrs:
-                  order: 1
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Einfluss kultureller Diversität auf internationale Geschäftsstrategien:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Eine Analyse, wie Unternehmen die kulturelle Diversität in verschiedenen Ländern berücksichtigen und in ihre Geschäftsstrategien integrieren, um erfolgreich auf internationalen Märkten zu operieren.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Internationale Joint Ventures: Chancen und Herausforderungen:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Eine Bewertung der Vor- und Nachteile von internationalen Joint Ventures als Form der Markterschließung und wie Unternehmen die verschiedenen Herausforderungen in multikulturellen Partnerschaften bewältigen können.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Entwicklung nachhaltiger Lieferketten in globalen Märkten:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Eine Untersuchung, wie Unternehmen nachhaltige Lieferketten auf globaler Ebene aufbauen, um ökologische und soziale Verantwortung zu fördern, während sie effiziente Betriebsabläufe aufrechterhalten.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Analyse des Einflusses politischer Instabilität auf internationale Investitionen:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Eine Untersuchung, wie politische Unsicherheiten, Regierungswechsel und geopolitische Ereignisse das Investitionsverhalten von Unternehmen in verschiedenen Ländern beeinflussen.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'E-Commerce und internationale Märkte:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Eine Analyse der Auswirkungen des E-Commerce auf die internationalen Handelsmuster und wie Unternehmen digitale Plattformen nutzen, um grenzüberschreitend erfolgreich zu sein, einschließlich logistischer und kultureller Aspekte.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
-    border: false
-    type: add_section
-    enabled: true
   -
     id: Vb7y9im2
     columns_replicator:
