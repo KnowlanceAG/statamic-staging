@@ -2,7 +2,7 @@
 id: 4e8bb552-4039-414e-ad1d-2e70d1245726
 published: false
 blueprint: pages
-title: 'BWL (Dupliziert)'
+title: Agrarwissenschaften
 teaser:
   -
     type: heading
@@ -138,7 +138,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695357981
+updated_at: 1695358032
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3817,6 +3817,6 @@ og_description: 'Kompetente Unterstützung für Ihre wissenschaftliche Masterarb
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
-alternative_page_title: 'BWL Ghostwriter'
+alternative_page_title: 'Agrarwissenschaften Ghostwriter'
 breadcrumbs_active: true
 ---
