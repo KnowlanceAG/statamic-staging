@@ -3,7 +3,7 @@ id: a429a015-f680-4717-8b76-bf0d66ce02d4
 blueprint: pages
 title: 'Über GWriters'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1695758998
+updated_at: 1695759020
 teaser:
   -
     type: heading
