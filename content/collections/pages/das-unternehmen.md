@@ -3,7 +3,7 @@ id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 blueprint: pages
 title: 'Das Unternehmen'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1695753290
+updated_at: 1695756110
 teaser:
   -
     type: heading
@@ -460,10 +460,12 @@ replicator:
         enabled: true
         responsive_columns: 0
     remove_spacing: true
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
   -
     id: ln0nbv3h
     columns_replicator:
@@ -487,7 +489,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'GWriters hat sich als renommierte Plattform für akademisches Ghostwriting etabliert. Mit einem Netzwerk aus hochqualifizierten Freelancern aus diversen Fachgebieten hebt sich GWriters durch Professionalität, Qualität und Seriosität deutlich von der Konkurrenz ab. Im Gegensatz zu nicht spezialisierten Vermittlungsportalen für Freelancer aller Art, wie z.B. Upwork.com oder Freelancer.com, unterscheiden sich die Anforderungen an einen Online Service für akademische Experten jedoch durch die Notwendigkeiten unbedingter Anonymität aller Beteiligten, juristischer Absicherung und konsequenter Qualitätskontrolle.'
+                    text: 'GWriters hat sich als renommierte Plattform für akademisches Ghostwriting etabliert. Mit einem Netzwerk aus hochqualifizierten Ghostwritern aus diversen Fachgebieten hebt sich GWriters durch Professionalität, Qualität und Seriosität deutlich von der Konkurrenz ab. Im Gegensatz zu nicht spezialisierten Vermittlungsportalen für Experten aller Art, wie z.B. Upwork.com oder Freelancer.com, unterscheiden sich die Anforderungen an einen Online Service für akademische Experten jedoch durch die Notwendigkeiten unbedingter Anonymität aller Beteiligten, juristischer Absicherung und konsequenter Qualitätskontrolle.'
               -
                 type: paragraph
                 content:
@@ -520,7 +522,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Wahrung der Anonymität aller Beteiligten und eine umfassende juristische Absicherung sind unerlässlich im Bereich des akademischen Ghostwritings. GWriters legt großen Wert auf Diskretion und Datenschutz, um das Vertrauen der Kunden zu gewinnen und zu bewahren. Zudem werden rechtliche Rahmenbedingungen stets eingehalten, um sowohl Auftraggeber als auch Freelancer zu schützen.'
+                    text: 'Die Wahrung der Anonymität aller Beteiligten und eine umfassende juristische Absicherung sind unerlässlich im Bereich des akademischen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwritings
+                  -
+                    type: text
+                    text: '. GWriters legt großen Wert auf Diskretion und Datenschutz gemäß GDPR und dessen deutscher Umsetzung, der DSGVO, um das Vertrauen unserer Kunden zu gewinnen und zu bewahren. Zudem werden rechtliche Rahmenbedingungen stets eingehalten und durch einen individuellen Werkvertrag bei jedem Projekt festgehalten, um sowohl unsere Auftraggeber als auch Ghostwriter zu schützen.'
             show_as_card: false
           -
             id: ln0ng6ev
@@ -538,7 +553,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'GWriters setzt auf eine konsequente und mehrstufige Qualitätskontrolle, um ein hohes Niveau wissenschaftlicher Arbeiten sicherzustellen. Sämtliche Freelancer durchlaufen einen rigorosen Auswahlprozess, bei dem Diplome, Schreibproben und Lebensläufe eingehend geprüft werden. Dies gewährleistet, dass nur hochqualifizierte und erfahrene Akademiker in das Netzwerk aufgenommen werden.'
+                    text: 'GWriters setzt auf eine konsequente und mehrstufige Qualitätskontrolle, um ein hohes Niveau wissenschaftlicher Arbeiten sicherzustellen. Sämtliche Ghostwriter durchlaufen einen rigorosen Auswahlprozess, bei dem Diplome, Schreibproben und Lebensläufe eingehend geprüft werden. So gewährleisten wir, dass nur hochqualifizierte und erfahrene Akademiker in das Netzwerk aufgenommen werden. Dies ist nicht nur unser Anspruch an uns selber, sondern das zentrale Qualitätsversprechen, dass die Marke GWriters zu dem macht, was sie ist: eine neue Definition von Zuverlässigkeit und Qualität.'
             show_as_card: false
           -
             id: ln0ng9e3
@@ -556,7 +571,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mit einer Präsenz in mehreren europäischen Ländern, darunter Deutschland, Schweiz und Großbritannien, bietet GWriters eine breite Palette an Sprachoptionen an. Die Möglichkeit, wissenschaftliche Ausarbeitungen in der jeweiligen Landessprache zu verfassen, ist ein weiterer Pluspunkt, der die Plattform attraktiv für ein internationales Publikum macht.'
+                    text: 'Mit einer Präsenz in mehreren europäischen Ländern, darunter Deutschland, Schweiz und Großbritannien, bietet GWriters eine breite Palette an Sprachoptionen an. Die Möglichkeit, wissenschaftliche Ausarbeitungen in der jeweiligen Landessprache zu verfassen, ist ein weiterer Pluspunkt, der die Plattform attraktiv für ein internationales Publikum macht. für jeden fremdsprachliche Arbeit setzen wir ausschließlich muttersprachliche '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: .
             show_as_card: false
           -
             id: ln0ngang
@@ -574,7 +602,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die standardisierten Workflows und die professionelle Abwicklung aller Projekte zeugen von der Effizienz und Zuverlässigkeit von GWriters. Ein engagierter Kundenservice steht Auftraggebern und Freelancern jederzeit zur Seite, um Fragen zu klären und Unterstützung zu bieten. Dies fördert eine positive und produktive Zusammenarbeit.'
+                    text: 'Die standardisierten Workflows und die professionelle Abwicklung aller Projekte zeugen von der Effizienz und Zuverlässigkeit von GWriters. Ein engagierter Kundenservice steht unseren Auftraggebern und unseren Experten jederzeit zur Seite, um Fragen zu klären und Unterstützung zu bieten. Dies fördert eine positive und produktive Zusammenarbeit.'
             show_as_card: false
         type: row
         enabled: true
@@ -586,6 +614,14 @@ replicator:
           -
             id: 7Mk8Pm7D
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'GWriters: Ihr kompetenter Partner für akademisches Ghostwriting'
               -
                 type: paragraph
                 content:
@@ -601,7 +637,7 @@ replicator:
                         attrs:
                           color: 'rgb(209, 213, 219)'
                           hex: '#000'
-                    text: 'GWriters definiert den Markt für akademische Freelancer neu durch die Kombination aus Spezialisierung, Qualität, Anonymität und internationaler Reichweite. Die Plattform steht sowohl Auftraggebern als auch Dienstleistern als verlässlicher Partner zur Seite und setzt Maßstäbe in puncto Seriosität und Professionalität im Bereich des akademischen Ghostwritings.'
+                    text: 'GWriters definiert den Markt für akademische Ghostwriter neu durch die Kombination aus Spezialisierung, Qualität, Anonymität und internationaler Reichweite. Die Plattform steht sowohl Auftraggebern als auch Dienstleistern als verlässlicher Partner zur Seite und setzt Maßstäbe in puncto Seriosität und Professionalität im Bereich des akademischen Ghostwritings.'
             show_as_card: false
         type: row
         enabled: true
@@ -612,56 +648,6 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: sNmE30Cf
-    bard:
-      -
-        type: paragraph
-      -
-        type: paragraph
-      -
-        type: paragraph
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Zur Zeit werden durch die Dienstleistungen von GWriters Kunden in Deutschland, der Schweiz und Großbritannien professionell bei Ihren akademischen Projekten aller Art unterstützt. Da wir selbstverständlich unseren Kunden auch die Möglichkeit bieten möchten, deren wissenschaftliche Ausarbeitungen in der jeweiligen Landessprache zu verfassen, beschäftigen wir auch '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            text: ' und andere akademische Freelancer in diesen und einer Vielzahl von anderen Ländern.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die Qualifikation aller akademischen Freelancer bei der '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting/ghostwriting-agentur
-                  target: null
-                  rel: null
-            text: 'Ghostwriter Agentur GWriters'
-          -
-            type: text
-            text: ' werden durch die Verifizierung von Diplomen, Schreibproben und Lebensläufen eingehend geprüft. Unseren Kunden jederzeit die bestmögliche Qualität zu bieten, ist nicht nur unser Anspruch an uns selber, sondern das zentrale Qualitätsversprechen, dass die Marke GWriters zu dem macht, was sie ist: eine neue Definition von Zuverlässigkeit und Qualität.'
-    type: editor
-    enabled: true
-    show_as_card: false
 template: default
 use_meta_keywords: false
 no_index_page: false
