@@ -674,3 +674,11 @@ body.ch {
 .max-w-160 {
   max-width: 160px;
 }
+
+.anfrage,
+.anfrage-1 {
+  .inquiry-btn,
+  .inquiry-text {
+    display: none!important;
+  }
+}
