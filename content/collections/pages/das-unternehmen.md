@@ -3,7 +3,7 @@ id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 blueprint: pages
 title: 'Das Unternehmen'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1695756155
+updated_at: 1695756549
 teaser:
   -
     type: heading
