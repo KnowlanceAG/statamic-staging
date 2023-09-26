@@ -3,7 +3,7 @@ id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 blueprint: pages
 title: 'Das Unternehmen'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1695756110
+updated_at: 1695756155
 teaser:
   -
     type: heading
@@ -447,7 +447,7 @@ replicator:
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
-                    spacing_top: false
+                    spacing_top: true
               -
                 type: set
                 attrs:
