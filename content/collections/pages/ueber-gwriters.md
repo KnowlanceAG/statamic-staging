@@ -1,9 +1,9 @@
 ---
 id: a429a015-f680-4717-8b76-bf0d66ce02d4
 blueprint: pages
-title: 'Über Gwriters'
+title: 'Über GWriters'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1695758932
+updated_at: 1695758998
 teaser:
   -
     type: heading
@@ -554,7 +554,7 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    button_align: justify-start
+                    button_align: justify-center
                     spacing_top: true
               -
                 type: set
