@@ -142,9 +142,12 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
-          tooltip: 'Teilen Sie uns bitte den Umfang, den inhaltlichen Rahmen (das Thema), die verbleibende Bearbeitungszeit und ggf. weitere wichtige Informationen zur Ausfertigung eines individuellen Angebotes mit. Je spezifischer Ihre Angaben sind, umso besser und schneller können wir Ihnen helfen. Vielen Dank!'
+          infotext: 'Teilen Sie uns bitte den Umfang, den inhaltlichen Rahmen (das Thema), die verbleibende Bearbeitungszeit und ggf. weitere wichtige Informationen zur Ausfertigung eines individuellen Angebotes mit. Je spezifischer Ihre Angaben sind, umso besser und schneller können wir Ihnen helfen. Vielen Dank!'
           validate:
             - required
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: seitenzahl
         field:

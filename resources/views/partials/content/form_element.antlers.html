@@ -14,14 +14,16 @@
       <sup class="text-red-500">*</sup>
     {{ /if }}
   </label>
-
+  {{ if infotext }}
+    <p>{{ infotext }}</p>
+  {{ /if }}
   <div x-bind:class="{
         'border border-red-500' : errors.{{ handle }}
     }">
     {{ if tooltip }}
-      <div class="has-tooltip relative">
+      <div class="relative has-tooltip">
         <span
-          class='tooltip rounded shadow-xl px-2 py-1 ml-14 border border-gray-300 text-xs leading-5 max-w-full w-auto bg-white text-black'>
+          class='w-auto max-w-full px-2 py-1 text-xs leading-5 text-black bg-white border border-gray-300 rounded shadow-xl tooltip ml-14'>
           {{ tooltip }}
         </span>
         {{ field }}
