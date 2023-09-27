@@ -2043,7 +2043,7 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    button_align: justify-start
+                    button_align: justify-center
                     spacing_top: true
               -
                 type: set
@@ -2052,6 +2052,12 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 10
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: .
             show_as_card: true
         type: row
         enabled: true
@@ -3478,7 +3484,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692709799
+updated_at: 1695759012
 template: default
 use_meta_keywords: false
 no_index_page: false
