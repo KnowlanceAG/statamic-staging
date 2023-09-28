@@ -43,6 +43,12 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       {{ fields where="handle:lieferdatum" }}
         {{ partial:content/form_element }}
       {{ /fields }}
+      {{ fields where="handle:work_type" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:survey_progress" }}
+        {{ partial:content/form_element cls="hidden" }}
+      {{ /fields }}
       {{ fields where="handle:file" }}
         {{ partial:content/form_element }}
       {{ /fields }}
@@ -196,6 +202,18 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
   if (callbackbutton) {
     callbackbutton.addEventListener('click', enableCallback)
   }
+
+
+  const workTypeRadio = document.querySelectorAll('#work_type input[type="radio"]')
+  const surveyProgress = document.querySelector('#survey_progress')
+  const toggleSurveyProgress = (val) => {
+    surveyProgress.classList.toggle('hidden')
+  }
+  for (const radio of workTypeRadio) {
+    radio.addEventListener('change', toggleSurveyProgress)
+  }
+
+
 
   const actionUrl =
     "{{ config:cpssg:dynamic_site_url }}/!/forms/{{ form:handle }}"

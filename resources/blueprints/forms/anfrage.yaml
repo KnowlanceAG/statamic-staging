@@ -184,6 +184,39 @@ sections:
           validate:
             - 'mimetypes:image/jpeg,image/png,application/pdf,application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document'
       -
+        handle: work_type
+        field:
+          options:
+            Literaturarbeit: Literaturarbeit
+            'Empirische Arbeit': 'Empirische Arbeit'
+          inline: true
+          cast_booleans: false
+          default: literature
+          display: 'Art der Arbeit'
+          type: radio
+          icon: radio
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: survey_progress
+        field:
+          options:
+            Ja: Ja
+            Nein: Nein
+            Teilweise: Teilweise
+            'Umsetzung im Rahmen einer Beauftragung': 'Umsetzung im Rahmen einer Beauftragung'
+          inline: true
+          cast_booleans: false
+          display: 'Stand der Umfrage'
+          type: radio
+          icon: radio
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: promocode
         field:
           input_type: text

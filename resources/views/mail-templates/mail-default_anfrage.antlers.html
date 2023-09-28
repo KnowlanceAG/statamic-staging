@@ -28,6 +28,12 @@
   {{ if seitenzahl }}Seitenzahl, Wörter oder Zeichen:
     {{ seitenzahl }}<br>
   {{ /if }}
+  {{ if work_type }}Art der Arbeit:
+    {{ work_type }}<br>
+    {{ if work_type == 'Empirische Arbeit' && survey_progress }}Umfrage bereits fertig / ausgewertet:
+      {{ survey_progress }}<br>
+    {{ /if }}
+  {{ /if }}
   {{ if callback_needed }}Rückruf erwünscht am:
     {{ callback_date timezone="Europe/Berlin" format="d.m.Y" }} ({{ callback_time_from }} - {{ callback_time_to }} Uhr)<br>
   {{ /if }}
