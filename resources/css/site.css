@@ -160,7 +160,7 @@ input[type='file'] {
 }
 
 select {
-  @apply w-full p-2 py-3 text-sm bg-white border border-gray-300 focus:outline-none;
+  @apply w-full p-2 text-sm bg-white border border-gray-300 focus:outline-none;
   -moz-appearance: none;
 
   option {
