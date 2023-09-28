@@ -34,6 +34,12 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
           {{ partial:content/form_element marginTopNone="true" fullWidth="true" }}
         {{ /fields }}
       </div>
+      {{ fields where="handle:work_type" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:survey_progress" }}
+        {{ partial:content/form_element cls="hidden" }}
+      {{ /fields }}
       {{ fields where="handle:arbeitsthema_spezifikationen_usw" }}
         {{ partial:content/form_element }}
       {{ /fields }}
@@ -42,12 +48,6 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       {{ /fields }}
       {{ fields where="handle:lieferdatum" }}
         {{ partial:content/form_element }}
-      {{ /fields }}
-      {{ fields where="handle:work_type" }}
-        {{ partial:content/form_element }}
-      {{ /fields }}
-      {{ fields where="handle:survey_progress" }}
-        {{ partial:content/form_element cls="hidden" }}
       {{ /fields }}
       {{ fields where="handle:file" }}
         {{ partial:content/form_element }}

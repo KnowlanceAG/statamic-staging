@@ -206,7 +206,6 @@ sections:
             Ja: Ja
             Nein: Nein
             Teilweise: Teilweise
-            'Umsetzung im Rahmen einer Beauftragung': 'Umsetzung im Rahmen einer Beauftragung'
           inline: true
           cast_booleans: false
           display: 'Stand der Umfrage'
