@@ -144,11 +144,19 @@ a.arrow::after {
 }
 
 input,
-textarea {
-  @apply w-full p-2 text-sm bg-white border border-gray-300 focus:outline-none;
+textarea,
+select {
+  @apply w-full p-2 text-sm bg-white border border-gray-300;
+}
+
+input,
+textarea,
+select {
+  @apply focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-orange-500 !important;
 }
 
 input[type='file'] {
+  @apply focus:ring-2 !important;
 }
 
 select {
