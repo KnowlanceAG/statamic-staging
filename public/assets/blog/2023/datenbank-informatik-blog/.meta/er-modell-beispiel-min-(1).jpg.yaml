@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Er-Modell Beispiel'
 size: 41465
 last_modified: 1695937464
 width: 750
