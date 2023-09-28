@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'relationaler Datenbank: er-modell'
 size: 8865
 last_modified: 1695932994
 width: 1042
