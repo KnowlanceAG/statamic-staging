@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'dokumentation webseite erstellen mit Datenbanken'
 size: 66297
 last_modified: 1695932153
 width: 736
