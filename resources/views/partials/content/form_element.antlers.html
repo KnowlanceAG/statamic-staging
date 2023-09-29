@@ -49,14 +49,18 @@
             <p class="text-sm">Bitte wählen Sie, ob es sich um eine Empirische Arbeit oder um eine Literaturarbeit handelt.</p>
             <fieldset class="mt-4">
               <legend class="sr-only">Empirische Arbeit oder Literaturarbeit</legend>
-              <div class="space-y-4 sm:flex sm:items-center sm:space-x-10 sm:space-y-0">
+              <div class="space-y-4">
                 <div class="flex items-center">
                   <input id="work_type_literature" name="{{ handle }}" value="Literaturarbeit" type="radio" checked class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
                   <label for="work_type_literature" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Literaturarbeit</label>
                 </div>
                 <div class="flex items-center">
-                  <input id="work_type_empiric" name="{{ handle }}" value="Empirische Arbeit" type="radio" class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
-                  <label for="work_type_empiric" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Empirische Arbeit</label>
+                  <input id="work_type_empiric_qualitative" name="{{ handle }}" value="Empirische Arbeit (Qualitativ)" type="radio" class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
+                  <label for="work_type_empiric_qualitative" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Empirische Arbeit (Qualitativ; bspw. Interviews)</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="work_type_empiric_quantitative" name="{{ handle }}" value="Empirische Arbeit (Qualitativ)" type="radio" class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
+                  <label for="work_type_empiric_quantitative" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Empirische Arbeit (Quantitativ; bspw. Umfrage / Finanzdaten)</label>
                 </div>
               </div>
             </fieldset>

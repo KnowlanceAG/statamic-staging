@@ -206,14 +206,17 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
 
   const workTypeRadio = document.querySelectorAll('#work_type input[type="radio"]')
   const surveyProgress = document.querySelector('#survey_progress')
+  const empiricWork = ['work_type_empiric_qualitative', 'work_type_empiric_quantitative']
   const toggleSurveyProgress = (val) => {
-    surveyProgress.classList.toggle('hidden')
+    if (empiricWork.includes(val.target.id)) {
+      surveyProgress.classList.remove('hidden')
+    } else {
+      surveyProgress.classList.add('hidden')
+    }
   }
   for (const radio of workTypeRadio) {
     radio.addEventListener('change', toggleSurveyProgress)
   }
-
-
 
   const actionUrl =
     "{{ config:cpssg:dynamic_site_url }}/!/forms/{{ form:handle }}"

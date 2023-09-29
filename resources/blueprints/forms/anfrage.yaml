@@ -188,8 +188,9 @@ sections:
         field:
           options:
             Literaturarbeit: Literaturarbeit
-            'Empirische Arbeit': 'Empirische Arbeit'
-          inline: true
+            'Empirische_Arbeit_Qualitative': 'Empirische Arbeit (Qualitativ; bspw. Interviews)'
+            'Empirische_Arbeit_Quantitative': 'Empirische Arbeit (Quantitativ; bspw. Umfrage / Finanzdaten)'
+          inline: false
           cast_booleans: false
           default: literature
           display: 'Art der Arbeit'
