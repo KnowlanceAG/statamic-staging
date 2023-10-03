@@ -1379,10 +1379,10 @@ replicator:
                           href: 'https://www.skoobe.de/'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'Skoobe '
+                    text: Skoobe
                   -
                     type: text
-                    text: 'oder '
+                    text: ' oder '
                   -
                     type: text
                     marks:
@@ -1654,8 +1654,8 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692709994
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1696365013
 meta_title: 'eBook schreiben lassen | Hilfe vom Ghostwriter'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
