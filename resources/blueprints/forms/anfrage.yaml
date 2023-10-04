@@ -2,8 +2,7 @@ sections:
   main:
     display: Main
     fields:
-      -
-        handle: name
+      - handle: name
         field:
           input_type: text
           antlers: false
@@ -12,9 +11,8 @@ sections:
           icon: text
           listable: hidden
           width: 50
-          tooltip: 'Bitte hinterlassen Sie uns Ihren Vornamen. Ein persönlicher Kontakt ist uns wichtig!'
-      -
-        handle: nachname
+          tooltip: "Bitte hinterlassen Sie uns Ihren Vornamen. Ein persönlicher Kontakt ist uns wichtig!"
+      - handle: nachname
         field:
           input_type: text
           antlers: false
@@ -23,22 +21,20 @@ sections:
           icon: text
           listable: hidden
           width: 50
-          tooltip: 'Bitte hinterlassen Sie uns Ihren Nachnamen. Ein persönlicher Kontakt ist uns wichtig!'
-      -
-        handle: e_mail_adresse
+          tooltip: "Bitte hinterlassen Sie uns Ihren Nachnamen. Ein persönlicher Kontakt ist uns wichtig!"
+      - handle: e_mail_adresse
         field:
           input_type: email
           antlers: false
-          display: 'E-Mail Adresse'
+          display: "E-Mail Adresse"
           type: text
           icon: text
           listable: hidden
-          tooltip: 'Ihre E-Mail-Adresse dient nur der Kommunikation und wird streng vertraulich behandelt.'
+          tooltip: "Ihre E-Mail-Adresse dient nur der Kommunikation und wird streng vertraulich behandelt."
           validate:
             - required
             - austria_mail
-      -
-        handle: telefon
+      - handle: telefon
         field:
           input_type: text
           antlers: false
@@ -46,18 +42,17 @@ sections:
           type: text
           icon: text
           listable: hidden
-          tooltip: 'Wir würde Sie gern zeitnah telefonisch kontaktieren. Ihre Telefonnummer wird natürlich ebenfalls vertraulich behandelt.'
+          tooltip: "Wir würde Sie gern zeitnah telefonisch kontaktieren. Ihre Telefonnummer wird natürlich ebenfalls vertraulich behandelt."
           validate:
             - austria_phone
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: fachrichtung
+      - handle: fachrichtung
         field:
-          placeholder: 'Bitte wählen'
+          placeholder: "Bitte wählen"
           options:
-            'Agrar- & Forstwissenschaften': 'Agrar- & Forstwissenschaften'
+            "Agrar- & Forstwissenschaften": "Agrar- & Forstwissenschaften"
             Anglistik: Anglistik
             Architektur: Architektur
             Biologie: Biologie
@@ -71,26 +66,26 @@ sections:
             Geowissenschaften: Geowissenschaften
             Germanistik: Germanistik
             Geschichte: Geschichte
-            'Gesellschafts- & Sozialwissenschaften': 'Gesellschafts- &amp; Sozialwissenschaften'
+            "Gesellschafts- & Sozialwissenschaften": "Gesellschafts- &amp; Sozialwissenschaften"
             Informatik: Informatik
             Interdisziplinär: Interdisziplinär
-            'Jura & Rechtswissenschaften': 'Jura & Rechtswissenschaften'
-            'Kunst / Gestaltung': 'Kunst / Gestaltung'
+            "Jura & Rechtswissenschaften": "Jura & Rechtswissenschaften"
+            "Kunst / Gestaltung": "Kunst / Gestaltung"
             Literatur: Literatur
             Marketing: Marketing
-            'Medien & Kommunikation': 'Medien & Kommunikation'
-            'Medizin & Gesundheitswesen': 'Medizin & Gesundheitswesen'
+            "Medien & Kommunikation": "Medien & Kommunikation"
+            "Medizin & Gesundheitswesen": "Medizin & Gesundheitswesen"
             Musik: Musik
-            'Naturwissenschaften & Mathematik': 'Naturwissenschaften & Mathematik'
+            "Naturwissenschaften & Mathematik": "Naturwissenschaften & Mathematik"
             Personalmanagement: Personalmanagement
             Pflegewissenschaften: Pflegewissenschaften
             Philosophie: Philosophie
             Psychologie: Psychologie
             Sonstige: Sonstige
-            'Soziale Arbeit': 'Soziale Arbeit'
+            "Soziale Arbeit": "Soziale Arbeit"
             Sportwissenschaften: Sportwissenschaften
-            'Sprach- & Kulturwissenschaften': 'Sprach- & Kulturwissenschaften'
-            'Technik & Ingenieurwesen': 'Technik &amp; Ingenieurwesen'
+            "Sprach- & Kulturwissenschaften": "Sprach- & Kulturwissenschaften"
+            "Technik & Ingenieurwesen": "Technik &amp; Ingenieurwesen"
             VWL: VWL
             Wirtschaft: Wirtschaft
             Wirtschaftsinformatik: Wirtschaftsinformatik
@@ -110,8 +105,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: zitationsstil
+      - handle: zitationsstil
         field:
           options:
             "AMA Style": "AMA Style"
@@ -135,32 +129,29 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: true
-      -
-        handle: arbeitsthema_spezifikationen_usw
+      - handle: arbeitsthema_spezifikationen_usw
         field:
           antlers: false
-          display: 'Arbeitsthema, Spezifikationen, usw.'
+          display: "Arbeitsthema, Spezifikationen, usw."
           type: textarea
           icon: textarea
           listable: hidden
-          infotext: 'Teilen Sie uns bitte den Umfang, den inhaltlichen Rahmen (das Thema), die verbleibende Bearbeitungszeit und ggf. weitere wichtige Informationen zur Ausfertigung eines individuellen Angebotes mit. Je spezifischer Ihre Angaben sind, umso besser und schneller können wir Ihnen helfen. Vielen Dank!'
+          infotext: "Teilen Sie uns bitte den Umfang, den inhaltlichen Rahmen (das Thema), die verbleibende Bearbeitungszeit und ggf. weitere wichtige Informationen zur Ausfertigung eines individuellen Angebotes mit. Je spezifischer Ihre Angaben sind, umso besser und schneller können wir Ihnen helfen. Vielen Dank!"
           validate:
             - required
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: seitenzahl
+      - handle: seitenzahl
         field:
           input_type: text
           antlers: false
-          display: 'Seitenzahl, Wörter oder Zeichen'
+          display: "Seitenzahl, Wörter oder Zeichen"
           type: text
           icon: text
           listable: hidden
           width: 50
-      -
-        handle: lieferdatum
+      - handle: lieferdatum
         field:
           input_type: date
           antlers: false
@@ -169,8 +160,7 @@ sections:
           icon: text
           listable: hidden
           width: 50
-      -
-        handle: file
+      - handle: file
         field:
           mode: grid
           container: formular_uploads
@@ -180,29 +170,27 @@ sections:
           display: Datei-Anhang
           type: assets
           icon: assets
-          instructions: 'Falls Sie uns eine Datei (z.B. .doc, .pdf, .xls) mitsenden möchten, nutzen Sie die bitte die Upload-Funktion. Je mehr Informationen Sie uns zukommen lassen, umso besser können wir Ihnen helfen. <br>__Um mehrere Dateien hochzuladen bitten wir Sie, diese gebündelt im Auswahlfenster zu selektieren.__'
+          instructions: "Falls Sie uns eine Datei (z.B. .doc, .pdf, .xls) mitsenden möchten, nutzen Sie die bitte die Upload-Funktion. Je mehr Informationen Sie uns zukommen lassen, umso besser können wir Ihnen helfen. <br>__Um mehrere Dateien hochzuladen bitten wir Sie, diese gebündelt im Auswahlfenster zu selektieren.__"
           listable: hidden
           validate:
-            - 'mimetypes:image/jpeg,image/png,application/pdf,application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-      -
-        handle: work_type
+            - "mimetypes:image/jpeg,image/png,application/pdf,application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      - handle: work_type
         field:
           options:
             Literaturarbeit: Literaturarbeit
-            'Empirische_Arbeit_Qualitative': 'Empirische Arbeit (Qualitativ; bspw. Interviews)'
-            'Empirische_Arbeit_Quantitative': 'Empirische Arbeit (Quantitativ; bspw. Umfrage / Finanzdaten)'
+            "Empirische_Arbeit_Qualitative": "Empirische Arbeit (Qualitativ; bspw. Interviews)"
+            "Empirische_Arbeit_Quantitative": "Empirische Arbeit (Quantitativ; bspw. Umfrage / Finanzdaten)"
           inline: false
           cast_booleans: false
           default: literature
-          display: 'Art der Arbeit'
+          display: "Art der Arbeit"
           type: radio
           icon: radio
           listable: hidden
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: survey_progress
+      - handle: survey_progress
         field:
           options:
             Ja: Ja
@@ -210,15 +198,14 @@ sections:
             Teilweise: Teilweise
           inline: true
           cast_booleans: false
-          display: 'Stand der Umfrage'
+          display: "Stand der Umfrage"
           type: radio
           icon: radio
           listable: hidden
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: promocode
+      - handle: promocode
         field:
           input_type: text
           antlers: false
@@ -226,20 +213,18 @@ sections:
           type: text
           icon: text
           listable: hidden
-      -
-        handle: callback_needed
+      - handle: callback_needed
         field:
-          inline_label: 'Wünschen Sie einen Telefontermin? Wir rufen Sie gerne zurück!'
+          inline_label: "Wünschen Sie einen Telefontermin? Wir rufen Sie gerne zurück!"
           default: false
-          display: 'Rückruf erwünscht'
+          display: "Rückruf erwünscht"
           type: toggle
           icon: toggle
           listable: hidden
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: callback_date
+      - handle: callback_date
         field:
           input_type: date
           antlers: false
@@ -252,13 +237,12 @@ sections:
           visibility: visible
           always_save: false
           if:
-            callback_needed: 'equals true'
-      -
-        handle: callback_time_from
+            callback_needed: "equals true"
+      - handle: callback_time_from
         field:
           input_type: time
           antlers: false
-          display: 'Rückrufzeit von'
+          display: "Rückrufzeit von"
           type: text
           icon: text
           width: 33
@@ -267,13 +251,12 @@ sections:
           visibility: visible
           always_save: false
           if:
-            callback_needed: 'equals true'
-      -
-        handle: callback_time_to
+            callback_needed: "equals true"
+      - handle: callback_time_to
         field:
           input_type: time
           antlers: false
-          display: 'Rückrufzeit bis'
+          display: "Rückrufzeit bis"
           type: text
           icon: text
           width: 33
@@ -282,9 +265,8 @@ sections:
           visibility: visible
           always_save: false
           if:
-            callback_needed: 'equals true'
-      -
-        handle: gw_source
+            callback_needed: "equals true"
+      - handle: gw_source
         field:
           input_type: text
           antlers: false
@@ -292,18 +274,16 @@ sections:
           type: text
           icon: text
           listable: hidden
-      -
-        handle: req_ip
+      - handle: req_ip
         field:
           input_type: text
           antlers: false
           display: req_ip
           type: text
           icon: text
-          instructions: 'Request IP'
+          instructions: "Request IP"
           listable: hidden
-      -
-        handle: utm_medium
+      - handle: utm_medium
         field:
           input_type: hidden
           antlers: false
@@ -314,8 +294,7 @@ sections:
           instructions_position: above
           visibility: hidden
           always_save: false
-      -
-        handle: utm_source
+      - handle: utm_source
         field:
           input_type: hidden
           antlers: false
