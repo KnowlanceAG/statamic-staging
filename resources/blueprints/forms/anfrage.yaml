@@ -114,13 +114,14 @@ sections:
         handle: zitationsstil
         field:
           options:
-            'AMA Style': 'AMA Style'
-            'APA Style': 'APA Style'
-            'Chicago Style': 'Chicago Style'
-            'Deutscher Stil (Fußnoten)': 'Deutscher Stil (Fußnoten)'
-            'Harvard Style': 'Harvard Style'
-            'IEEE Style': 'IEEE Style'
-            'MLA Style': 'MLA Style'
+            "AMA Style": "AMA Style"
+            "APA Style": "APA Style"
+            "Chicago Style": "Chicago Style"
+            "Deutscher Stil (Fußnoten)": "Deutscher Stil (Fußnoten)"
+            "Harvard Style": "Harvard Style"
+            "IEEE Style": "IEEE Style"
+            "MLA Style": "MLA Style"
+            "Sonstige": "Sonstige"
           multiple: false
           clearable: true
           searchable: true
