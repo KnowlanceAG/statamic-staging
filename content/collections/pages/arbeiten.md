@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1696794242
+updated_at: 1696794472
 teaser:
   -
     type: heading
@@ -1650,4 +1650,47 @@ og_description: 'Wissenschaftliche Arbeit schreiben lassen - Mustervorlage vom a
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Kann ich meinen eigenen Ghostwriter für meine wissenschaftliche Arbeit wählen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, wir ermöglichen es Ihnen, einen Experten basierend auf Ihrem Fachgebiet und Ihren Vorlieben auszuwählen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie sicher sind meine Daten und Informationen bei Ihnen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wir nehmen Datenschutz ernst und garantieren absolute Vertraulichkeit. Ihre Daten werden streng nach den Vorschriften von GDPR / DSGVO geschützt."
+      }
+    },{
+      "@type": "Question",
+      "name": "In welchen Fachgebieten bieten Sie wissenschaftliche Arbeiten an?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wir decken eine breite Palette von Fachgebieten ab. Kontaktieren Sie uns mit Ihrem spezifischen Anliegen, und wir werden sicherstellen, dass ein Experte für Sie verfügbar ist."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie lange dauert es, bis meine wissenschaftliche Arbeit fertig ist?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Dauer hängt vom Umfang und der Komplexität der Arbeit ab. Wir streben jedoch danach, Ihnen so schnell wie möglich erstklassige Ergebnisse zu liefern."
+      }
+    },{
+      "@type": "Question",
+      "name": "Gibt es versteckte Kosten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein, unsere Preisstruktur ist transparent. Der angegebene Preis ist der finale, ohne versteckte Zusatzkosten."
+      }
+    }]
+  }
+  </script>
 ---
