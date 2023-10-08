@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1696785766
+updated_at: 1696787997
 teaser:
   -
     type: heading
@@ -146,7 +146,7 @@ replicator:
     columns_replicator:
       -
         id: lnhpstsw
-        single_col: false
+        single_col: true
         grid:
           -
             id: qFb3GffW
@@ -233,7 +233,7 @@ replicator:
     columns_replicator:
       -
         id: lnhphg3z
-        single_col: false
+        single_col: true
         grid:
           -
             id: qFb3GffW
@@ -245,16 +245,47 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
                     text: 'Dienstleistungen von GWriters'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Wir von GWriters bieten darüber hinaus unsere Dienstleistungen in Form zahlreicher Möglichkeiten an. Neben dem klassischen '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: "Wir von GWriters bieten darüber hinaus unsere Dienstleistungen in Form zahlreicher Möglichkeiten an. Neben dem klassischen\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -264,10 +295,24 @@ replicator:
                     text: 'Ghostwriting in Form der Erstellung wissenschaftlicher Mustervorlagen'
                   -
                     type: text
-                    text: ' sind dies das '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_sind dies das\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -277,10 +322,24 @@ replicator:
                     text: Lektorat
                   -
                     type: text
-                    text: ', die '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", die\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -290,10 +349,24 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
-                    text: ', die '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", die\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -303,10 +376,24 @@ replicator:
                     text: Übersetzung
                   -
                     type: text
-                    text: ', das '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", das\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -316,10 +403,24 @@ replicator:
                     text: Korrektorat
                   -
                     type: text
-                    text: ', die '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", die\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -329,10 +430,24 @@ replicator:
                     text: Formatierung
                   -
                     type: text
-                    text: ' und die '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und die\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -342,10 +457,24 @@ replicator:
                     text: Promotionsberatung
                   -
                     type: text
-                    text: '. Außerdem bieten wir Ihnen auch statistische Analysen oder '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ". Außerdem bieten wir Ihnen auch statistische Analysen oder\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -355,29 +484,14 @@ replicator:
                     text: MAXQDA-Auswertungen
                   -
                     type: text
-                    text: ' an.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_an."
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Diese Dienstleistungen sowie auch die unterschiedlichen Arbeiten können Sie wiederum in Kombination mit verschiedenen Fachrichtungen in Anspruch nehmen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unseren akademischen Ghostwriter bieten Ihnen hier besondere Fähigkeiten, die diese in ihrer umfassenden theoretischen Ausbildung im Fachgebiet erworben haben – in vielen Fällen sogar promoviert haben – und gleichzeitig auch im Unternehmenskontext angewendet haben. So können unsere akademischen Ghostwriter ihre theoretischen und praktischen Erfahrungen zum Beispiel bei der Erstellung von wissenschaftlichen Mustervorlage einbringen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Werden nun die einzelnen Arbeiten betrachtet, so bietet GWriters Ihnen Leistungen bei der Erstellung folgender Arbeiten an.'
-              -
-                type: heading
-                attrs:
-                  level: 2
                 content:
                   -
                     type: text
@@ -385,21 +499,58 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
-                    text: 'Übersicht aller wissenschaftlichen Arbeiten'
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Diese Dienstleistungen sowie auch die unterschiedlichen Arbeiten können Sie wiederum in Kombination mit verschiedenen Fachrichtungen in Anspruch nehmen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Unseren akademischen Ghostwriter bieten Ihnen hier besondere Fähigkeiten, die diese in ihrer umfassenden theoretischen Ausbildung im Fachgebiet erworben haben – in vielen Fällen sogar promoviert haben – und gleichzeitig auch im Unternehmenskontext angewendet haben. So können unsere akademischen Ghostwriter ihre theoretischen und praktischen Erfahrungen zum Beispiel bei der Erstellung von wissenschaftlichen Mustervorlage einbringen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Werden nun die einzelnen Arbeiten betrachtet, so bietet GWriters Ihnen Leistungen bei der Erstellung folgender Arbeiten an'
               -
                 type: set
                 attrs:
-                  id: ljoh1u6i
+                  id: lnhrakdt
                   values:
                     type: custom_link_list
                     raster:
                       -
-                        id: ljoh1weq
+                        id: lnhralzs
                         text: Arbeiten
                         eintraege:
                           -
-                            id: ljoh5n3s
+                            id: lnhranrl
                             headline: Abschlussarbeiten
                             content:
                               -
@@ -415,7 +566,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -434,7 +585,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -446,7 +597,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -465,7 +616,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -477,7 +628,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -496,7 +647,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -508,15 +659,15 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
                                         attrs:
-                                          href: '/arbeiten/bachelorarbeit-schreiben-lassen#bwl'
+                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Bachelorarbeit BWL'
+                                    text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hard_break
                                     marks:
@@ -527,7 +678,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -539,7 +690,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -558,7 +709,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -570,7 +721,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -580,7 +731,7 @@ replicator:
                                           rel: null
                                     text: 'Doktorarbeit schreiben lassen'
                           -
-                            id: ljoh8o20
+                            id: lnhrb47g
                             headline: 'Sonstige Arbeiten'
                             content:
                               -
@@ -596,7 +747,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -615,7 +766,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -627,7 +778,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -646,7 +797,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -658,7 +809,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -677,7 +828,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -689,7 +840,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -708,7 +859,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -720,7 +871,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -730,7 +881,7 @@ replicator:
                                           rel: null
                                     text: 'Exposé schreiben lassen'
                           -
-                            id: ljoh9nu0
+                            id: lnhrbhyj
                             headline: Studienarbeiten
                             content:
                               -
@@ -746,7 +897,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -765,7 +916,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -777,7 +928,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -796,7 +947,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -808,7 +959,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -827,7 +978,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -839,7 +990,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -858,7 +1009,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                   -
                                     type: text
@@ -870,7 +1021,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -879,479 +1030,6 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Studienarbeit schreiben lassen'
-                      -
-                        id: ljoh22s8
-                        text: Fachrichtungen
-                        eintraege:
-                          -
-                            id: ljoh2bsp
-                            headline: 'Technische Fachrichtungen'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/architektur
-                                          target: null
-                                          rel: null
-                                    text: 'Architektur Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/bauingenieurwesen
-                                          target: null
-                                          rel: null
-                                    text: 'Bauingenieurwesen Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/elektrotechnik
-                                          target: null
-                                          rel: null
-                                    text: 'Elektrotechnik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/maschinenbau
-                                          target: null
-                                          rel: null
-                                    text: 'Maschinenbau Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/informatik
-                                          target: null
-                                          rel: null
-                                    text: 'Informatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/fachrichtungen/informatik#Softwarelokalisierung'
-                                          target: null
-                                          rel: null
-                                    text: 'Softwarelokalisierung Ghostwriter'
-                          -
-                            id: ljoh2wxw
-                            headline: Naturwissenschaften
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/biologie
-                                          target: null
-                                          rel: null
-                                    text: 'Biologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/chemie
-                                          target: null
-                                          rel: null
-                                    text: 'Chemie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/geologie
-                                          target: null
-                                          rel: null
-                                    text: 'Geologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/geowissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Geowissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/mathematik
-                                          target: null
-                                          rel: null
-                                    text: 'Mathematik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/fachrichtungen/biologie#biotechnologie'
-                                          target: null
-                                          rel: null
-                                    text: 'Biotechnologie Ghostwriter'
-                                  -
-                                    type: text
-                                    text: ' '
-                          -
-                            id: ljoh3l91
-                            headline: Sozialwissenschaften
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/erziehungswissenschaften-ghostwriter
-                                          target: null
-                                          rel: null
-                                    text: 'Erziehungswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/kommunikationswissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Kommunikationswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/soziale-arbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Soziale Arbeit Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/sozialwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Sozialwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/soziologie
-                                          target: null
-                                          rel: null
-                                    text: 'Soziologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/sprachwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Sprachwissenschaften Ghostwriter'
-                          -
-                            id: ljoh3x4b
-                            headline: 'Wirtschaftliche Fachbereiche'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/finanzwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Finanzwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/medienwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Medienwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/bwl
-                                          target: null
-                                          rel: null
-                                    text: 'BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/marketing
-                                          target: null
-                                          rel: null
-                                    text: 'Marketing Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/wirtschaftsinformatik
-                                          target: null
-                                          rel: null
-                                    text: 'Wirtschaftsinformatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/wirtschaftswissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Wirtschaftswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/personalmanagement
-                                          target: null
-                                          rel: null
-                                    text: 'Personalmanagement Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#Internationale'
-                                          target: null
-                                          rel: null
-                                    text: 'Internationale BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: hard_break
-                          -
-                            id: ljoh4b21
-                            headline: Geisteswissenschaften
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/germanistik-ghostwriter
-                                          target: null
-                                          rel: null
-                                    text: 'Germanistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/anglistik
-                                          target: null
-                                          rel: null
-                                    text: 'Anglistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/geschichte
-                                          target: null
-                                          rel: null
-                                    text: 'Geschichte Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/kunst
-                                          target: null
-                                          rel: null
-                                    text: 'Kunst Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/literatur
-                                          target: null
-                                          rel: null
-                                    text: 'Literatur Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/philosophie
-                                          target: null
-                                          rel: null
-                                    text: 'Philosophie Ghostwriter'
-                          -
-                            id: ljoh4l6j
-                            headline: 'Medizinische Fachrichtungen'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/medizin
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Medizin'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/pflegewissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Pflegewissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/psychologie
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Psychologie'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /fachrichtungen/zahnmedizin
-                                          target: null
-                                          rel: null
-                                    text: 'Zahnmedizin Ghostwriter'
               -
                 type: heading
                 attrs:
@@ -1359,16 +1037,47 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
                     text: 'Qualifikationen von Ghostwritern'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unterschiedliche Arten akademischer oder wissenschaftlicher Arbeiten erfordern unterschiedliche Qualifikationen. Akademische '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: "Unterschiedliche Arten akademischer oder wissenschaftlicher Arbeiten erfordern unterschiedliche Qualifikationen. Akademische\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1378,16 +1087,40 @@ replicator:
                     text: 'Ghostwriter von GWriters'
                   -
                     type: text
-                    text: ' bieten ihre Leistungen dabei für die verschiedensten Arten von Arbeiten an. Je nach Ausrichtung der Arbeit offerieren wir bei GWriters Ihnen für die Erstellung Ihrer wissenschaftlichen Mustervorlage einen professionellen Ghostwriter aus ihrem persönlichen Fachbereich. Diese passen sich Ihrer individuellen Aufgabenstellung mit mit maßgeschneiderten Leistungen an.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_bieten ihre Leistungen dabei für die verschiedensten Arten von Arbeiten an. Je nach Ausrichtung der Arbeit offerieren wir bei GWriters Ihnen für die Erstellung Ihrer wissenschaftlichen Mustervorlage einen professionellen Ghostwriter aus ihrem persönlichen Fachbereich. Diese passen sich Ihrer individuellen Aufgabenstellung mit mit maßgeschneiderten Leistungen an."
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Von besonderer Bedeutung im Rahmen unseres '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: "Von besonderer Bedeutung im Rahmen unseres\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1397,7 +1130,12 @@ replicator:
                     text: Ghostwriting-Services
                   -
                     type: text
-                    text: ' sind unsere Dienstleistungen rund um die Erstellung von wissenschaftlichen Mustervorlagen. Genannt werden können hier beispielhaft  Hausarbeiten, Seminararbeiten, Bachelorarbeiten und Masterarbeiten.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_sind unsere Dienstleistungen rund um die Erstellung von wissenschaftlichen Mustervorlagen. Genannt werden können hier beispielhaft Hausarbeiten, Seminararbeiten, Bachelorarbeiten und Masterarbeiten."
             show_as_card: false
         type: row
         enabled: true
@@ -1793,11 +1531,11 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Arbeiten • GWriters.de'
-meta_description: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an. 1. Sie schreiben Mustervorlage für wissenschaftliche Arbeiten: Bachelorarbeit, Masterarbeit, Hausarbeit...2...'
-page_title: 'Arbeiten • GWriters.de'
-og_title: 'Arbeiten • GWriters.de'
-og_description: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an. 1. Sie schreiben Mustervorlage für wissenschaftliche Arbeiten: Bachelorarbeit, Masterarbeit, Hausarbeit...2...'
+meta_title: 'Wissenschaftliche Arbeit schreiben lassen | Diskretion & Qualität'
+meta_description: 'Wissenschaftliche Arbeit schreiben lassen - Mustervorlage vom akademischen Ghostwriter ✔️ über 3.000 Ghostwriter ✔️ 100% Diskretion ✔️ garantiertes Unikat!'
+page_title: 'Wissenschaftliche Arbeit schreiben lassen'
+og_title: 'Wissenschaftliche Arbeit schreiben lassen | Diskretion & Qualität'
+og_description: 'Wissenschaftliche Arbeit schreiben lassen - Mustervorlage vom akademischen Ghostwriter ✔️ über 3.000 Ghostwriter ✔️ 100% Diskretion ✔️ garantiertes Unikat!'
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true
