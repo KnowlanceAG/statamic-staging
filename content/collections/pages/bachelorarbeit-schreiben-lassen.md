@@ -2053,12 +2053,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 10
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: .
             show_as_card: true
         type: row
         enabled: true
@@ -3485,7 +3479,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1696785660
+updated_at: 1696785934
 template: default
 use_meta_keywords: false
 no_index_page: false
