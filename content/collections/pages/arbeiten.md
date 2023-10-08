@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1696793500
+updated_at: 1696794242
 teaser:
   -
     type: heading
@@ -156,7 +156,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In der akademischen Welt ist die Qualität und Präzision von Bedeutung. Deshalb bieten wir Ihnen einen erstklassigen Service an, um Ihre wissenschaftliche Arbeit von Experten schreiben zu lassen. Dies garantiert nicht nur einwandfreie Qualität, sondern gibt Ihnen auch den nötigen Vorteil, um in Ihrem Fachgebiet herauszustechen.'
+                    text: 'In der akademischen Welt ist die Qualität und Präzision von Bedeutung. Deshalb bieten wir Ihnen einen erstklassigen, qualitätsgeprüften und allem voran diskreten Service von echten akademischen Experten. Dies garantiert nicht nur einwandfreie Qualität, sondern gibt Ihnen auch den nötigen Vorteil, um in Ihrem Fachgebiet herauszustechen. Wenn Sie sich von einem unserer erfahrenen akademischen Ghostwriter eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'wissenschaftliche Arbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ' möchten, sind wir Ihr kompetenter Partner und die Experten von GWriters stehen vollumfänglich zu Ihrer Unterstützung bereit.'
             show_as_card: false
         type: row
         enabled: true
@@ -1518,6 +1527,108 @@ replicator:
                     items:
                       -
                         id: lnhq40nz
+                        active: false
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Kann ich meinen eigenen Ghostwriter für meine wissenschaftliche Arbeit wählen?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ja, wir ermöglichen es Ihnen, einen Experten basierend auf Ihrem Fachgebiet und Ihren Vorlieben auszuwählen.'
+                      -
+                        id: lnhv2mb8
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Wie sicher sind meine Daten und Informationen bei Ihnen?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Wir nehmen Datenschutz ernst und garantieren absolute Vertraulichkeit. Ihre Daten werden streng nach den Vorschriften von GDPR / DSGVO geschützt.'
+                        active: false
+                      -
+                        id: lnhv3nr3
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'In welchen Fachgebieten bieten Sie wissenschaftliche Arbeiten an?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Wir decken eine breite Palette von Fachgebieten ab. Kontaktieren Sie uns mit Ihrem spezifischen Anliegen, und wir werden sicherstellen, dass ein Experte für Sie verfügbar ist.'
+                        active: false
+                      -
+                        id: lnhv4r73
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Wie lange dauert es, bis meine wissenschaftliche Arbeit fertig ist?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Dauer hängt vom Umfang und der Komplexität der Arbeit ab. Wir streben jedoch danach, Ihnen so schnell wie möglich erstklassige Ergebnisse zu liefern.'
+                        active: false
+                      -
+                        id: lnhv5eek
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Gibt es versteckte Kosten?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Nein, unsere Preisstruktur ist transparent. Der angegebene Preis ist der finale, ohne versteckte Zusatzkosten. Detaillierte Informationen finden Sie hier: '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /preise
+                                      target: null
+                                      rel: null
+                                text: 'Ghostwriter Preise'
                         active: false
               -
                 type: paragraph
