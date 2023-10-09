@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'doi suchen zeitschrift'
 size: 77635
 last_modified: 1696850971
 width: 761
