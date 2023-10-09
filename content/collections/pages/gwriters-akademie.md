@@ -3,8 +3,8 @@ id: 1298a2b5-6e23-404b-8806-26e687fda624
 blueprint: pages
 title: 'GWriters Akademie'
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665571775
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1696867693
 page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 use_meta_keywords: false
 no_index_page: false
@@ -16,6 +16,7 @@ teaser:
   -
     type: set
     attrs:
+      id: bWTReg4B
       values:
         type: bilder
         assets:
@@ -74,6 +75,7 @@ teaser:
   -
     type: set
     attrs:
+      id: VEA3sGCl
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -84,15 +86,19 @@ teaser:
     type: paragraph
 replicator:
   -
+    id: zEZoMdE4
     columns_replicator:
       -
+        id: 25gQ87vs
         columns_per_row: 2
         grid:
           -
+            id: 025yWMQW
             bard:
               -
                 type: set
                 attrs:
+                  id: s8xmY72g
                   values:
                     type: bilder
                     assets:
@@ -102,10 +108,12 @@ replicator:
                 type: paragraph
             show_as_card: false
           -
+            id: yWteiE50
             bard:
               -
                 type: set
                 attrs:
+                  id: t3dqCAUy
                   values:
                     type: academy_entries
                     kurz_oder_langversion: false
@@ -115,6 +123,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: CCGEzDIR
                   values:
                     type: academy_entries
                     kurz_oder_langversion: false
@@ -124,6 +133,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: s1ZTZagY
                   values:
                     type: academy_entries
                     kurz_oder_langversion: false
@@ -133,6 +143,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: qumHUjO2
                   values:
                     type: academy_entries
                     kurz_oder_langversion: false
@@ -142,6 +153,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: gPIHgNDj
                   values:
                     type: academy_entries
                     kurz_oder_langversion: false
@@ -161,14 +173,18 @@ replicator:
     remove_spacing: false
     border: false
   -
+    id: 1oeAFECX
     columns_replicator:
       -
+        id: rq7KObI3
         grid:
           -
+            id: 49iVGeDH
             bard:
               -
                 type: set
                 attrs:
+                  id: lmIpCFJ8
                   values:
                     type: bilder
                     assets:
@@ -191,10 +207,12 @@ replicator:
     remove_spacing: false
     border: false
   -
+    id: QENb1yko
     bard:
       -
         type: set
         attrs:
+          id: 7p5GRTfk
           values:
             type: academy_entries
             kurz_oder_langversion: true
@@ -202,9 +220,11 @@ replicator:
               - 68703917-9254-4107-82e0-0d844a79e81a
               - b0ab57c8-c632-4082-af70-9b10b915d2b8
               - 919279ae-733d-4bd9-a759-afaa758e18fc
+              - 96924dda-67f8-40c2-9951-3ea533162992
       -
         type: set
         attrs:
+          id: jFVWu5jl
           values:
             type: academy_entries
             kurz_oder_langversion: true
@@ -221,6 +241,5 @@ og_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 og_description: 'In der GWriters Akademie finden Sie wertvolle Ratgeber zum wissenschaftlichen Arbeiten, kostenlos Vorlagen für alle Arten von Verzeichnissen  und vieles mehr! Profitieren Sie von unserer Erfahrung 🎓'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
