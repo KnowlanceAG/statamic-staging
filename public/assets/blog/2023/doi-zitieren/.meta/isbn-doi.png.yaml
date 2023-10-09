@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'doi finden mit isbn'
 size: 29384
 last_modified: 1696854656
 width: 617
