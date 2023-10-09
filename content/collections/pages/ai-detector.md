@@ -109,7 +109,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Anforderungen unseres KI Deteectors: Ihr Text muss '
+                    text: 'Anforderungen unseres KI Detectors: Ihr Text muss '
                   -
                     type: text
                     marks:
@@ -483,8 +483,8 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692709895
+updated_by: 05dc5331-6bc5-4897-a2e0-d559d0f01e29
+updated_at: 1696871049
 meta_description: 'AI Detector: deutsch & zuverlässig ✓ von KI-Experten entwickelt & trainiert ✓ für akademischen Einsatz ➤ Jetzt Content kostenlos auf AI prüfen!'
 og_title: 'AI Detector - Kostenlos für Alle! • GWriters.de'
 og_description: 'Kostenloser AI Detector - keine Anmeldung erforderlich! Testen Sie direkt unseren KI Detector und stellen Sie die Originalität Ihrer Texte sicher.'
