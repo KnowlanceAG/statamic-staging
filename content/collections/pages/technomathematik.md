@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696951789
+updated_at: 1696952278
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -513,8 +513,6 @@ replicator:
             id: kMbKV71o
             bard:
               -
-                type: paragraph
-              -
                 type: blockquote
                 content:
                   -
@@ -524,71 +522,40 @@ replicator:
                         type: text
                         marks:
                           -
-                            type: bold
-                          -
                             type: textAlign
                             attrs:
                               align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet BWL Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
+                        text: 'Senden Sie uns eine '
                       -
                         type: text
                         marks:
                           -
-                            type: bold
-                          -
                             type: textAlign
                             attrs:
                               align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
                           -
                             type: link
                             attrs:
                               href: /anfrage
                               target: null
                               rel: null
-                        text: 'unverbindliche Anfrage schicken'
+                        text: 'unverbindliche Anfrage'
                       -
                         type: text
                         marks:
                           -
-                            type: bold
-                          -
                             type: textAlign
                             attrs:
                               align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: '. '
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie zu Ihrer Arbeit eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen wie bspw. Klausuren erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                        text: ', und Sie erhalten innerhalb weniger Stunden ein kostenloses Angebot. Wenn Sie eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter wünschen, rufen Sie bitte die angegebene Telefonnummer an. Beachten Sie jedoch, dass wir keine Abschlussarbeiten oder andere Prüfungsleistungen wie Klausuren für Sie erstellen dürfen oder können. Wir bieten jedoch gerne die Erstellung einer einzigartigen, hochqualitativen Mustervorlage nach Ihren individuellen Anliegen an, die alle akademischen Standards und Anforderungen erfüllt.'
+              -
+                type: set
+                attrs:
+                  id: lnkhg9et
+                  values:
+                    type: phone_cta
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
