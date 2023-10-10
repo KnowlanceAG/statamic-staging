@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696974620
+updated_at: 1696975274
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -219,90 +219,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#ghostwriter'
+                                  href: '#ghostwriting'
                                   target: null
                                   rel: null
-                            text: 'Unsere BWL-Ghostwriter'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#ki-programm'
-                                  target: null
-                                  rel: null
-                            text: 'ChatGPT statt BWL Ghostwriter?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#grund'
-                                  target: null
-                                  rel: null
-                            text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#allgemein'
-                                  target: null
-                                  rel: null
-                            text: 'Allgemeines zur BWL'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#karriere'
-                                  target: null
-                                  rel: null
-                            text: 'Karriereaussichten nach dem BWL-Studium'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#aufbau'
-                                  target: null
-                                  rel: null
-                            text: 'Aufbau eines BWL-Studiums'
+                            text: 'Unsere Technomathematik-Ghostwriter'
                   -
                     type: list_item
                     content:
@@ -318,7 +238,26 @@ replicator:
                                   href: '#inhalt'
                                   target: null
                                   rel: null
-                            text: 'Inhalte des BWL-Studiums'
+                            text: 'Inhalt Technomathematik'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#prüfungsleistungen'
+                                          target: null
+                                          rel: null
+                                    text: 'Prüfungsleistungen Technomathematik'
                   -
                     type: list_item
                     content:
@@ -331,10 +270,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#internationale'
+                                  href: '#ghostwriter'
                                   target: null
                                   rel: null
-                            text: 'Internationale BWL (IBWL)'
+                            text: 'Warum sollte man Technomathematik-Ghostwriter beauftragen?'
                   -
                     type: list_item
                     content:
@@ -347,10 +286,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#international-ghostwriter'
+                                  href: '#studienplan'
                                   target: null
                                   rel: null
-                            text: 'Ghostwriter: Internationale BWL (IBWL)'
+                            text: 'Studienplan: Technomathematik vs. Mathematik'
                   -
                     type: list_item
                     content:
@@ -363,10 +302,26 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#themen'
+                                  href: '#aufbau'
                                   target: null
                                   rel: null
-                            text: '5 Bachelorarbeit-Themen: Internationale Betriebswirtschaftslehre'
+                            text: 'Aufbau Technomathematik '
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#karriere'
+                                  target: null
+                                  rel: null
+                            text: 'Karriereaussichten nach dem Technomathematik-Studium'
             show_as_card: false
         type: row
         enabled: true
@@ -1790,6 +1745,19 @@ replicator:
             id: wWFsGlGq
             bard:
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Mit welchen Themen oder Fragestellungen beschäftigt sich das Studium Technomathematik?'
+              -
                 type: set
                 attrs:
                   id: lnkt4wzb
@@ -2089,7 +2057,22 @@ replicator:
                                     attrs:
                                       color: '#000!important'
                                       hex: '#000'
-                                text: 'Projektarbeit, Modellierungsübungen, Präsentationen'
+                                text: 'Projektarbeit, Modellierungsübungen, '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/praesentationen
+                                      target: null
+                                      rel: null
+                                text: Präsentationen
                   -
                     type: table_row
                     content:
@@ -2219,7 +2202,22 @@ replicator:
                                     attrs:
                                       color: '#000!important'
                                       hex: '#000'
-                                text: 'Optimalitätsnachweise, Fallstudien'
+                                text: 'Optimalitätsnachweise, '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/fallstudienanalyse-nach-yin
+                                      target: null
+                                      rel: null
+                                text: Fallstudien
               -
                 type: paragraph
             show_as_card: false
@@ -2758,12 +2756,6 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/informatik
-                          target: null
-                          rel: null
                     text: Informatik
                   -
                     type: text
@@ -2867,6 +2859,63 @@ replicator:
                   -
                     type: text
                     text: )
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Beispielsweise können bei der Erstellung einer Musterarbeit ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/informatik
+                          target: null
+                          rel: null
+                    text: 'Ghostwriter in Informatik'
+                  -
+                    type: text
+                    text: ' und ein Technomathematik-Ghostwriter zusammenarbeiten, um eine qualifizierte Arbeit zu verfassen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Beispiel-Abschlussthema: Technomathematik & Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#374151'
+                          hex: '#000'
+                    text: '"Entwicklung einer Wettervorhersage-App unter Verwendung von mathematischen Modellen"'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#374151'
+                          hex: '#000'
+                    text: 'In diesem Thema könnten Sie mathematische Modelle verwenden, um Wetterdaten zu analysieren und Vorhersagen zu treffen. Sie könnten eine App entwickeln, die Benutzern aktuelle Wetterinformationen und Vorhersagen auf Grundlage dieser Modelle bietet. Dieses Thema ermöglicht es Ihnen, mathematische Konzepte auf eine praktische Anwendung in der Informatik anzuwenden und gleichzeitig die Genauigkeit von Vorhersagen zu verbessern.'
               -
                 type: paragraph
                 content:
