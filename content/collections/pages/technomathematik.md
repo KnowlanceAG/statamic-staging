@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696969094
+updated_at: 1696970960
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1583,12 +1583,34 @@ replicator:
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
               -
-                type: set
+                type: heading
                 attrs:
-                  id: lm90c8y6
-                  values:
-                    type: anchor_target
-                    anchor_name: ki-programm
+                  level: 2
+              -
+                type: heading
+                attrs:
+                  level: 3
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lnkrm9ej
+    columns_replicator:
+      -
+        id: lnkrmbcg
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: wWFsGlGq
+            bard:
               -
                 type: heading
                 attrs:
@@ -1602,26 +1624,94 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Studiengang Technomathematik zielt darauf ab, der steigenden Interdisziplinarität in der anwendungsorientierten Forschung und Entwicklung gerecht zu werden. Das Hauptziel besteht darin, eine praxisorientierte Mathematikausbildung zu bieten, bei der die mathematische Modellierung und die algorithmische Behandlung technischer Probleme im Mittelpunkt stehen. Studierende werden darauf vorbereitet, im Team mit Fachwissenschaftlern aus verschiedenen Disziplinen zu arbeiten und die verschiedenen Sprachen der Ingenieur- und Naturwissenschaften in mathematische Modelle und Auswertungsverfahren zu übersetzen.'
+                    text: 'Der Studiengang Technomathematik zielt darauf ab, der'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' steigenden Interdisziplinarität in der anwendungsorientierten Forschung und Entwicklung'
+                  -
+                    type: text
+                    text: ' gerecht zu werden. Das Hauptziel besteht darin, eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'praxisorientierte Mathematikausbildung'
+                  -
+                    type: text
+                    text: ' zu bieten, bei der die mathematische Modellierung und die algorithmische Behandlung technischer Probleme im Mittelpunkt stehen. Studierende werden darauf vorbereitet, im Team mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Fachwissenschaftlern aus verschiedenen Disziplinen'
+                  -
+                    type: text
+                    text: ' zu arbeiten und die verschiedenen Sprachen der Ingenieur- und Naturwissenschaften in mathematische Modelle und Auswertungsverfahren zu übersetzen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Das Studium umfasst neben der praxisorientierten Mathematikausbildung auch ein ingenieurwissenschaftliches Nebenfach sowie Informatik-Module. Im mathematischen Teil erlangen die Studierenden ein solides Fundament in den mathematischen Grundlagen, die für die Lösung praktischer Probleme relevant sind. Diese Ausbildung ist breit angelegt, um sich den Anforderungen zukünftiger Entwicklungen anzupassen. Die Studierenden lernen nicht nur, mathematische Methoden zur wissenschaftlichen Formulierung und Behandlung praktischer Probleme anzuwenden, sondern auch neue Ansätze zu entwickeln, ihre Anwendbarkeit zu beurteilen und bestehende Anwendungen kritisch zu analysieren.'
+                    text: 'Das Studium umfasst neben der praxisorientierten Mathematikausbildung auch ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'ingenieurwissenschaftliches Nebenfach'
+                  -
+                    type: text
+                    text: ' sowie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Informatik-Module
+                  -
+                    type: text
+                    text: '. Im mathematischen Teil erlangen die Studierenden ein solides Fundament in den mathematischen Grundlagen, die für die Lösung praktischer Probleme relevant sind. Diese Ausbildung ist breit angelegt, um sich den Anforderungen zukünftiger Entwicklungen anzupassen. Die Studierenden lernen nicht nur, mathematische Methoden zur wissenschaftlichen Formulierung und Behandlung praktischer Probleme anzuwenden, sondern auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'neue Ansätze zu entwickeln'
+                  -
+                    type: text
+                    text: ', ihre Anwendbarkeit zu beurteilen und bestehende Anwendungen kritisch zu analysieren.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Im technischen Anwendungsfach lernen die Studierenden die Methoden und Grundbegriffe so weit, dass sie naturwissenschaftliche oder technische Ansätze bis zur mathematischen Formulierung verfolgen können. Ziel ist es, die Leistungsfähigkeit eines mathematischen Modells zu beurteilen, bei der Modellbildung mitzuwirken, Einblick und Überblick über bestehende Modelle in der Technik zu erhalten, Anwendbarkeit mathematischer Theorien bei der Behandlung technischer Probleme zu verstehen und das Allgemeine und Typische der Modellbildung im Bereich der Technik zu erkennen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
+                    text: Im
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' technischen Anwendungsfach '
+                  -
+                    type: text
+                    text: 'lernen die Studierenden die Methoden und Grundbegriffe so weit, dass sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'naturwissenschaftliche oder technische Ansätze bis zur mathematischen Formulierung verfolgen'
+                  -
+                    type: text
+                    text: ' können. Ziel ist es, die Leistungsfähigkeit eines mathematischen Modells zu beurteilen, bei der Modellbildung mitzuwirken, Einblick und Überblick über bestehende Modelle in der Technik zu erhalten, Anwendbarkeit mathematischer Theorien bei der Behandlung technischer Probleme zu verstehen und das Allgemeine und Typische der Modellbildung im Bereich der Technik zu erkennen.'
             show_as_card: false
           -
-            id: lnkr6c4v
+            id: lnksnwv9
             bard:
               -
                 type: heading
@@ -1666,7 +1756,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Bereich
                       -
@@ -1692,7 +1782,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Inhalt
                       -
@@ -1718,7 +1808,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Prüfungsleistungen
                   -
@@ -1739,9 +1829,11 @@ replicator:
                                 type: text
                                 marks:
                                   -
+                                    type: bold
+                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Grundlagen der Mathematik'
                       -
@@ -1761,7 +1853,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Algebra, Analysis, Lineare Algebra, Differentialgleichungen, Wahrscheinlichkeitstheorie, Statistik'
                       -
@@ -1781,7 +1873,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Klausuren, Hausaufgaben, mündliche Prüfungen'
                   -
@@ -1802,9 +1894,11 @@ replicator:
                                 type: text
                                 marks:
                                   -
+                                    type: bold
+                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Mathematische Modellierung'
                       -
@@ -1824,7 +1918,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Umwandlung realer Probleme in mathematische Modelle, Identifikation von Variablen und Gleichungen'
                       -
@@ -1844,7 +1938,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Projektarbeit, Modellierungsübungen, Präsentationen'
                   -
@@ -1865,9 +1959,11 @@ replicator:
                                 type: text
                                 marks:
                                   -
+                                    type: bold
+                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Numerische Mathematik'
                       -
@@ -1887,7 +1983,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Entwicklung von numerischen Algorithmen zur Lösung mathematischer Probleme auf Computern'
                       -
@@ -1907,7 +2003,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Programmieraufgaben, numerische Simulationen'
                   -
@@ -1928,9 +2024,11 @@ replicator:
                                 type: text
                                 marks:
                                   -
+                                    type: bold
+                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Optimierung
                       -
@@ -1950,7 +2048,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Optimierungsmodelle und -methoden zur Lösung komplexer Probleme'
                       -
@@ -1970,7 +2068,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Optimalitätsnachweise, Fallstudien'
                   -
@@ -1991,9 +2089,11 @@ replicator:
                                 type: text
                                 marks:
                                   -
+                                    type: bold
+                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Statistik und Wahrscheinlichkeit'
                       -
@@ -2013,7 +2113,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Datenanalyse, Vorhersagemodelle, statistische Tests'
                       -
@@ -2033,7 +2133,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Statistische Analysen, Berichterstellung'
                   -
@@ -2054,9 +2154,11 @@ replicator:
                                 type: text
                                 marks:
                                   -
+                                    type: bold
+                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Informatik
                       -
@@ -2076,7 +2178,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Programmierung, mathematische Softwaretools, Implementierung mathematischer Modelle'
                       -
@@ -2096,7 +2198,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Coding-Projekte, Informatik-Prüfungen'
                   -
@@ -2117,9 +2219,11 @@ replicator:
                                 type: text
                                 marks:
                                   -
+                                    type: bold
+                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Angewandte Mathematik'
                       -
@@ -2139,7 +2243,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Anwendung mathematischer Methoden auf spezifische Disziplinen wie Physik, Chemie, Elektrotechnik'
                       -
@@ -2159,7 +2263,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Fachspezifische Prüfungen, Projektarbeit'
                   -
@@ -2180,9 +2284,11 @@ replicator:
                                 type: text
                                 marks:
                                   -
+                                    type: bold
+                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Fachspezifische Anwendungen'
                       -
@@ -2202,7 +2308,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Spezielle mathematische Techniken für bestimmte Bereiche wie Signalverarbeitung, Bildverarbeitung, Finanzmathematik'
                       -
@@ -2222,7 +2328,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Fachspezifische Projekte, Prüfungen'
                   -
@@ -2243,9 +2349,11 @@ replicator:
                                 type: text
                                 marks:
                                   -
+                                    type: bold
+                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Projekte und Praktika'
                       -
@@ -2265,7 +2373,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Praktische Erfahrungen durch Teilnahme an Forschungsprojekten oder Praktika in Unternehmen oder Forschungseinrichtungen'
                       -
@@ -2285,28 +2393,14 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Berichterstellung, Präsentation der Ergebnisse'
               -
                 type: paragraph
-                content:
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0)'
-                          hex: '#000'
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 0
         responsive_columns: 0
     remove_spacing: false
     is_full: false
@@ -2344,7 +2438,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Technomathematik-Ghostwriter sind Mathematiker und Techniker, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet Technomathematik. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. '
+                    text: 'Unsere Technomathematik-Ghostwriter sind Mathematiker und Techniker, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet Technomathematik. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Die Ghostwriter vermitteln den Studierenden nicht nur Kenntnisse in mathematischen Methoden zur wissenschaftlichen Formulierung und Behandlung praktischer Probleme, sondern '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'entwickeln neue Ansätze und analysieren bestehende Anwendungen'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
@@ -2365,7 +2468,7 @@ replicator:
                     text: 'Hausarbeiten, Projektarbeiten, Abschlussarbeit, Businessplan, Marketingkonzept'
                   -
                     type: text
-                    text: ' etc.) Musterarbeiten. Außerdem sind unsere Experten stets auf dem neuesten Stand in ihrem Wissen. Sie kennen die neuesten Trends in der Technik und Mathe und verfügen über umfangreiche Erfahrung in der Zusammenarbeit mit Experten aus anderen Fachbereichen. '
+                    text: ' etc.) Musterarbeiten. Außerdem sind unsere Experten stets auf dem neuesten Stand in ihrem Wissen. Sie kennen die neuesten Trends in der Technik und Mathe und verfügen über umfangreiche Erfahrung in der Zusammenarbeit mit Experten aus anderen Fachbereichen.  '
             show_as_card: false
           -
             id: KifGK2jM
