@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696970960
+updated_at: 1696971007
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1606,7 +1606,7 @@ replicator:
       -
         id: lnkrmbcg
         columns_per_row: 2
-        single_col: true
+        single_col: false
         grid:
           -
             id: wWFsGlGq
