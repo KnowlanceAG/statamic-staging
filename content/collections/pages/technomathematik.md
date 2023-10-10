@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696952278
+updated_at: 1696952349
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -564,7 +564,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#8A8A8A'
+    bg_color: '#D6D6D6'
     border: false
     type: add_section
     enabled: true
@@ -592,7 +592,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter'
+                    text: 'Unsere Technomathematik-Ghostwriter'
               -
                 type: paragraph
                 content:
