@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696971656
+updated_at: 1696971764
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1721,6 +1721,41 @@ replicator:
     bg_toggle: false
     bg_color: '#D6D6D6'
   -
+    id: lnkt4pxn
+    columns_replicator:
+      -
+        id: lnkt4rtz
+        single_col: false
+        grid:
+          -
+            id: wWFsGlGq
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lnkt4wzb
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/technomathmatik-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: lnkstcuf
     columns_replicator:
       -
@@ -2436,17 +2471,18 @@ replicator:
         enabled: true
         responsive_columns: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
   -
     id: Vzf3o85f
     columns_replicator:
       -
         id: UznK4RLR
-        columns_per_row: 2
-        single_col: false
+        single_col: true
         grid:
           -
             id: x9hjjSI5
@@ -2503,24 +2539,10 @@ replicator:
                     type: text
                     text: ' etc.) Musterarbeiten. Außerdem sind unsere Experten stets auf dem neuesten Stand in ihrem Wissen. Sie kennen die neuesten Trends in der Technik und Mathe und verfügen über umfangreiche Erfahrung in der Zusammenarbeit mit Experten aus anderen Fachbereichen.  '
             show_as_card: false
-          -
-            id: KifGK2jM
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lnkrj7gy
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/fachrichtungen/technomathmatik-min.jpg
-                    img_size: w-full
-              -
-                type: paragraph
-            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
+        columns_per_row: 0
       -
         id: AoASYIXl
         single_col: false
