@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696973735
+updated_at: 1696974620
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -194,7 +194,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> In unserer professionellen Agentur GWriters bieten wir kompetente Unterstützung im Fachbereich Technomathematik. Wir vermitteln Ihnen den <b>passenden Ghostwriter</b> für eine Vielzahl von Problemstellungen in Technomathematik. Abhängig von Ihren individuellen Anforderungen in diesem Bereich wählen wir einen Ghostwriter mit entsprechendem Fachwissen aus, um sicherzustellen, dass Ihre Arbeit mit vollem Verständnis und höchster Qualität erstellt wird. Wenn Sie eine Musterarbeit für Ihre Bachelorarbeit schreiben lassen möchten, insbesondere wenn sie technisches und mathematisches Wissen erfordert, sind unsere Technomathematik-Experten für Sie da.
+                      <p style="font-size:18px" align="center"> In unserer professionellen Agentur GWriters bieten wir kompetente Unterstützung im Fachbereich Technomathematik. Wir vermitteln Ihnen den <b>passenden Ghostwriter</b> für eine Vielzahl von Problemstellungen in Technomathematik. Abhängig von Ihren individuellen Anforderungen in diesem Bereich wählen wir einen Ghostwriter mit entsprechendem Fachwissen aus, um sicherzustellen, dass Ihre Arbeit mit vollem Verständnis und höchster Qualität erstellt wird. Wenn Sie eine Musterarbeit für Ihre <a href="/"style="color: #F06606;" href="/arbeiten/bachelorarbeit-schreiben-lassen">Bachelorarbeit schreiben lassen</a> möchten, insbesondere wenn sie technisches und mathematisches Wissen erfordert, sind unsere Technomathematik-Experten für Sie da.
                       </p>
               -
                 type: heading
@@ -598,13 +598,65 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter in Technomathematik verfügen über exzellentes Wissen in der Mathematik. Als Technomathematiker besitzen sie ein tiefes Verständnis der Mathematik und beherrschen vielfältige mathematische Methoden. Sie sind in der Lage, mathematische Konzepte zu entwickeln und Modelle zu erstellen. Gleichzeitig verfügen sie über gute Informatikkenntnisse und können effektive Software-Tools nutzen. Technomathematik-Ghostwriter sind herausragende Problemlöser in technischen und naturwissenschaftlichen Fragestellungen. Oft arbeiten unsere Technomathematiker mit Ghostwritern aus verschiedenen Fachgebieten zusammen, um komplexe Projektarbeiten wie Masterarbeit zu erstellen.'
+                    text: 'Unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' in Technomathematik verfügen über exzellentes Wissen in der Mathematik. Besonders hier arbeiten unsere Technomathematiker aus dem Fachbereich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/mathematik
+                          target: null
+                          rel: null
+                    text: 'Mathematik Ghostwriter'
+                  -
+                    type: text
+                    text: ' eng zusammen. Als Technomathematiker besitzen sie ein tiefes Verständnis der Mathematik und beherrschen vielfältige mathematische Methoden. Sie sind in der Lage, mathematische Konzepte zu entwickeln und Modelle zu erstellen. Gleichzeitig verfügen sie über gute Informatikkenntnisse und können effektive Software-Tools nutzen. Technomathematik-Ghostwriter sind herausragende Problemlöser in technischen und naturwissenschaftlichen Fragestellungen. Oft arbeiten unsere Technomathematiker mit Ghostwritern aus verschiedenen Fachgebieten zusammen, um komplexe Projektarbeiten wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit zu erstellen'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Sie können sich an einen professionellen Ghostwriter in diesem Fachgebiet wenden, um wissenschaftliche Arbeiten schreiben zu lassen. Falls Sie jedoch Schwierigkeiten bei der inhaltlichen Lösung technischer Probleme haben, können unsere Experten Sie hier unterstützen.'
+                    text: 'Sie können sich an einen professionellen Ghostwriter in diesem Fachgebiet wenden, um '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/studienarbeit
+                          target: null
+                          rel: null
+                    text: 'Studienarbeiten schreiben zu lassen'
+                  -
+                    type: text
+                    text: '. Falls Sie jedoch Schwierigkeiten bei der inhaltlichen Lösung technischer Probleme haben, können unsere Experten Sie hier unterstützen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1942,7 +1994,37 @@ replicator:
                                     attrs:
                                       color: '#000!important'
                                       hex: '#000'
-                                text: 'Klausuren, Hausaufgaben, mündliche Prüfungen'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/klausur-schreiben-lassen-verboten
+                                      target: null
+                                      rel: null
+                                text: Klausuren
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ', Hausaufgaben, '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/kolloquium-bachelorarbeit
+                                      target: null
+                                      rel: null
+                                text: 'mündliche Prüfungen'
                   -
                     type: table_row
                     content:
@@ -2163,7 +2245,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 189
                           background: null
                         content:
                           -
@@ -2228,7 +2311,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 189
                           background: null
                         content:
                           -
@@ -2293,7 +2377,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 189
                           background: null
                         content:
                           -
@@ -2358,7 +2443,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 189
                           background: null
                         content:
                           -
@@ -2423,7 +2509,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 189
                           background: null
                         content:
                           -
@@ -2548,10 +2635,41 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Hausarbeiten, Projektarbeiten, Abschlussarbeit, Businessplan, Marketingkonzept'
+                    text: 'Hausarbeiten, Projektarbeiten, Abschlussarbeit, '
                   -
                     type: text
-                    text: ' etc.) Musterarbeiten. Außerdem sind unsere Experten stets auf dem neuesten Stand in ihrem Wissen. Sie kennen die neuesten Trends in der Technik und Mathe und verfügen über umfangreiche Erfahrung in der Zusammenarbeit mit Experten aus anderen Fachbereichen.  '
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/businessplan-erstellen-lassen
+                          target: null
+                          rel: null
+                    text: Businessplan
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ', Marketingkonzept'
+                  -
+                    type: text
+                    text: ' etc.) '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-abschlussarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Musterarbeiten
+                  -
+                    type: text
+                    text: '. Außerdem sind unsere Experten stets auf dem neuesten Stand in ihrem Wissen. Sie kennen die neuesten Trends in der Technik und Mathe und verfügen über umfangreiche Erfahrung in der Zusammenarbeit mit Experten aus anderen Fachbereichen.  '
             show_as_card: false
         type: row
         enabled: true
@@ -2629,7 +2747,102 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' Vertiefungsfächer Informatik, Chemie, Bauingenieurwesen, Elektrotechnik und Maschinenbau zur Auswahl'
+                    text: ' Vertiefungsfächer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/informatik
+                          target: null
+                          rel: null
+                    text: Informatik
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/chemie
+                          target: null
+                          rel: null
+                    text: Chemie
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/bauingenieurwesen
+                          target: null
+                          rel: null
+                    text: Bauingenieurwesen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/elektrotechnik
+                          target: null
+                          rel: null
+                    text: Elektrotechnik
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/maschinenbau
+                          target: null
+                          rel: null
+                    text: Maschinenbau
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' zur Auswahl'
                   -
                     type: text
                     text: '. Es ist bemerkenswert, dass all diese Fachbereiche einen mathematischen und technischen Hintergrund haben. ('
@@ -2908,7 +3121,20 @@ replicator:
                             text: 'Softwareentwicklung und IT'
                           -
                             type: text
-                            text: ': Mit ihren Informatikkenntnissen können Technomathematiker in der Softwareentwicklung und im IT-Bereich tätig sein. Sie können an der Entwicklung von Softwarelösungen, Machine Learning-Systemen und Datenbanken beteiligt sein.'
+                            text: ': Mit ihren '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-thema-informatik
+                                  target: null
+                                  rel: null
+                            text: Informatikkenntnissen
+                          -
+                            type: text
+                            text: ' können Technomathematiker in der Softwareentwicklung und im IT-Bereich tätig sein. Sie können an der Entwicklung von Softwarelösungen, Machine Learning-Systemen und Datenbanken beteiligt sein.'
                   -
                     type: list_item
                     content:
