@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696971303
+updated_at: 1696971377
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2053,90 +2053,9 @@ replicator:
                                   -
                                     type: bold
                                   -
-                                    type: textAlign
-                                    attrs:
-                                      align: center
-                                  -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Bereich
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: center
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Inhalt
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: center
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Prüfungsleistungen
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: Optimierung
                       -
@@ -2156,7 +2075,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Optimierungsmodelle und -methoden zur Lösung komplexer Probleme'
                       -
@@ -2176,7 +2095,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Optimalitätsnachweise, Fallstudien'
                   -
@@ -2201,7 +2120,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Statistik und Wahrscheinlichkeit'
                       -
@@ -2221,7 +2140,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Datenanalyse, Vorhersagemodelle, statistische Tests'
                       -
@@ -2241,7 +2160,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Statistische Analysen, Berichterstellung'
                   -
@@ -2266,7 +2185,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: Informatik
                       -
@@ -2286,7 +2205,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Programmierung, mathematische Softwaretools, Implementierung mathematischer Modelle'
                       -
@@ -2306,7 +2225,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Coding-Projekte, Informatik-Prüfungen'
                   -
@@ -2331,7 +2250,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Angewandte Mathematik'
                       -
@@ -2351,7 +2270,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Anwendung mathematischer Methoden auf spezifische Disziplinen wie Physik, Chemie, Elektrotechnik'
                       -
@@ -2371,7 +2290,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Fachspezifische Prüfungen, Projektarbeit'
                   -
@@ -2396,7 +2315,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Fachspezifische Anwendungen'
                       -
@@ -2416,7 +2335,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Spezielle mathematische Techniken für bestimmte Bereiche wie Signalverarbeitung, Bildverarbeitung, Finanzmathematik'
                       -
@@ -2436,7 +2355,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Fachspezifische Projekte, Prüfungen'
                   -
@@ -2461,7 +2380,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Projekte und Praktika'
                       -
@@ -2481,7 +2400,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Praktische Erfahrungen durch Teilnahme an Forschungsprojekten oder Praktika in Unternehmen oder Forschungseinrichtungen'
                       -
@@ -2501,7 +2420,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#000!important'
+                                      color: '#374151'
                                       hex: '#000'
                                 text: 'Berichterstellung, Präsentation der Ergebnisse'
             show_as_card: false
