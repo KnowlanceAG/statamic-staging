@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696971007
+updated_at: 1696971208
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1605,8 +1605,7 @@ replicator:
     columns_replicator:
       -
         id: lnkrmbcg
-        columns_per_row: 2
-        single_col: false
+        single_col: true
         grid:
           -
             id: wWFsGlGq
@@ -1710,8 +1709,27 @@ replicator:
                     type: text
                     text: ' können. Ziel ist es, die Leistungsfähigkeit eines mathematischen Modells zu beurteilen, bei der Modellbildung mitzuwirken, Einblick und Überblick über bestehende Modelle in der Technik zu erhalten, Anwendbarkeit mathematischer Theorien bei der Behandlung technischer Probleme zu verstehen und das Allgemeine und Typische der Modellbildung im Bereich der Technik zu erkennen.'
             show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+  -
+    id: lnkstcuf
+    columns_replicator:
+      -
+        id: lnksteko
+        columns_per_row: 2
+        single_col: false
+        grid:
           -
-            id: lnksnwv9
+            id: wWFsGlGq
             bard:
               -
                 type: heading
@@ -2006,6 +2024,15 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Programmieraufgaben, numerische Simulationen'
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lnkstpv9
+            bard:
+              -
+                type: table
+                content:
                   -
                     type: table_row
                     content:
@@ -2396,8 +2423,6 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Berichterstellung, Präsentation der Ergebnisse'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
