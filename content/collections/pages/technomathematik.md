@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696971764
+updated_at: 1696973141
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -404,7 +404,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich BWL'
+                    text: 'Unsere Leistungen im Fachbereich Technomathematik'
               -
                 type: set
                 attrs:
@@ -417,7 +417,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre akademische BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre akademische Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -425,7 +425,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (BWL) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -441,7 +441,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (BWL) Übersetzungen.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische Übersetzungen.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -450,7 +450,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH TECHNOMATHEMATIK'
                     color: '#FF6606'
                     spacing_top: false
               -
@@ -564,7 +564,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#D6D6D6'
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
@@ -1719,7 +1719,7 @@ replicator:
     type: add_section
     enabled: true
     bg_toggle: false
-    bg_color: '#D6D6D6'
+    bg_color: '#F9F9F9'
   -
     id: lnkt4pxn
     columns_replicator:
@@ -1751,7 +1751,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: '#FFFFFF'
     border: false
     type: add_section
     enabled: true
@@ -2476,7 +2476,7 @@ replicator:
     type: add_section
     enabled: true
     bg_toggle: false
-    bg_color: '#D6D6D6'
+    bg_color: '#F9F9F9'
   -
     id: Vzf3o85f
     columns_replicator:
@@ -2569,7 +2569,113 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: '#FFFFFF'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lnktm7to
+    columns_replicator:
+      -
+        id: lnktm9pz
+        single_col: false
+        grid:
+          -
+            id: wWFsGlGq
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Studienplan: Technomathematik vs. Mathematik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der Unterschied zwischen Mathematik und Technomathematik liegt in den Anwendungsfächern. Selbst anhand der Grafik ist erkennbar, dass die meisten Module in beiden Studiengängen gleich sind und sogar in fast derselben Reihenfolge angeboten werden. Die beiden Studiengänge unterscheiden sich jedoch durch ihre Schwerpunkte.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zusätzlich absolvieren die Studierenden in Technomathematik ein Unternehmenspraktikum, um mathematische und technische Probleme in der Praxis zu lösen. In Technomathematik stehen als'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' Vertiefungsfächer Informatik, Chemie, Bauingenieurwesen, Elektrotechnik und Maschinenbau zur Auswahl'
+                  -
+                    type: text
+                    text: '. Es ist bemerkenswert, dass all diese Fachbereiche einen mathematischen und technischen Hintergrund haben. ('
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: 'Quelle: Duisburg Universität'
+                  -
+                    type: text
+                    text: )
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "\_"
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lnktn7nc
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: wWFsGlGq
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lnktnfgz
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/studienplan-technomathe-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lnktnh30
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lnktnlrp
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/mathematik-studienplan-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
     border: false
     type: add_section
     enabled: true
@@ -2597,77 +2703,98 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Allgemeines zur BWL'
+                    text: 'Aufbau Technomathematik '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Die Betriebswirtschaftslehre (BWL), auch Betriebsökonomie genannt, ist ein Teilgebiet der\_"
+                    text: Das
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
+                        type: bold
+                    text: ' Bachelorstudium Technomathematik '
                   -
                     type: text
-                    text: "\_(WiWi). Sie ist eng verwandt mit der "
+                    text: 'z.B. an der '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/vwl
-                          target: null
-                          rel: null
-                    text: Volkswirtschaftslehre
+                          href: 'https://www.tu.berlin/math/studienberatung/studiengaenge/bachelorstudiengaenge/technomathematik-bsc#:~:text=mehr-,'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'TU Berlin'
                   -
                     type: text
-                    text: ' ('
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                    text: VWL
-                  -
-                    type: text
-                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: '
+                    text: ' erstreckt sich über 180 Leistungspunkte und hat somit eine vorgesehene Regelstudienzeit von '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
+                    text: '6 Semestern'
+                  -
+                    type: text
+                    text: '. Es umfasst nicht nur mathematische Module, sondern auch einen technischen Bereich, ein Praktikum und einen Bereich für frei wählbare Kurse. Im technischen Bereich können Kurse wie Physikalischen Ingenieurswissenschaften, Elektrotechnik, Maschinenbau oder Verkehrswesen ausgewählt werden. Der Studiengang Technomathematik ist ohne NC.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Während in der Volkswirtschaftslehre ein Wirtschaftssystem als ganzes betrachtet wird, analysiert ein Betriebswirt oder eine Betriebswirtin das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft '
+                    text: 'Ein '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Entscheidungen zur Förderung des Unternehmenserfolgs'
+                    text: 'Masterstudium in Technomathematik '
                   -
                     type: text
-                    text: '. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
+                    text: 'dauert in der Regel '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '4 Semester. '
+                  -
+                    type: text
+                    text: 'Master bietet eine vertiefte Ausbildung und Spezialisierungsmöglichkeiten in mathematischen Disziplinen sowie erweiterte Karrierechancen in Bereichen wie Industrie, Forschung und Entwicklung. Absolventen mit einem Masterabschluss haben oft Zugang zu Forschungsmöglichkeiten und profitieren von einem höheren Einkommenspotenzial. Dieser Abschluss erleichtert die internationale Mobilität und fördert den Wissensaustausch in einem interdisziplinären Umfeld.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0)'
+                          hex: '#000'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0)'
+                          hex: '#000'
               -
                 type: set
                 attrs:
