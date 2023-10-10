@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696975429
+updated_at: 1696975528
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -254,7 +254,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#prüfungsleistungen'
+                                          href: '#pruefungsleistungen'
                                           target: null
                                           rel: null
                                     text: 'Prüfungsleistungen Technomathematik'
@@ -1801,7 +1801,7 @@ replicator:
                   id: lnkub547
                   values:
                     type: anchor_target
-                    anchor_name: prüfungsleistungen
+                    anchor_name: pruefungsleistungen
               -
                 type: heading
                 attrs:
