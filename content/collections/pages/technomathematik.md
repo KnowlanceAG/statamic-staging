@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696975274
+updated_at: 1696975429
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1745,7 +1745,9 @@ replicator:
             id: wWFsGlGq
             bard:
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 3
                 content:
                   -
                     type: text
@@ -3323,10 +3325,10 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Kompetente Unterstützung vom BWL Ghostwriter - Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit schreiben lassen ✔️ über 3.000 akademischen Ghostwritern ✔️ 100% Diskretion'
-og_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Kompetente Unterstützung vom BWL Ghostwriter - Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit schreiben lassen ✔️ über 3.000 akademischen Ghostwritern ✔️ 100% Diskretion'
+meta_title: 'Technomathematik Ghostwriter, Lektoren & Coaches • GWriters'
+meta_description: 'Kompetente Unterstützung vom Technomathematik Ghostwriter - Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit schreiben lassen ✔️ über 3.000 akademischen Ghostwritern ✔️ 100% Diskretion'
+og_title: 'Technomathematik Ghostwriter, Lektoren & Coaches • GWriters'
+og_description: 'Kompetente Unterstützung vom Technomathematik Ghostwriter - Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit schreiben lassen ✔️ über 3.000 akademischen Ghostwritern ✔️ 100% Diskretion'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
