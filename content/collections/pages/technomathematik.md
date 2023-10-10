@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696971426
+updated_at: 1696971656
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2024,23 +2024,6 @@ replicator:
                                       color: '#000!important'
                                       hex: '#000'
                                 text: 'Programmieraufgaben, numerische Simulationen'
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            id: lnkstpv9
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Prüfungsleistungen Technomathematik'
-              -
-                type: table
-                content:
                   -
                     type: table_row
                     content:
@@ -2063,7 +2046,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Optimierung
                       -
@@ -2083,7 +2066,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Optimierungsmodelle und -methoden zur Lösung komplexer Probleme'
                       -
@@ -2103,9 +2086,26 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#374151'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Optimalitätsnachweise, Fallstudien'
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lnkstpv9
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Prüfungsleistungen Technomathematik'
+              -
+                type: table
+                content:
                   -
                     type: table_row
                     content:
