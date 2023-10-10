@@ -169,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696952349
+updated_at: 1696969094
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -598,48 +598,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Jeder unserer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'erfahrenen akademischen Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse'
-                  -
-                    type: text
-                    text: ' und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. Auch haben unsere Autoren hervorragend Kenntnisse in Teilgebieten der Betriebswirtschaftslehre wie dem Rechnungswesen oder in verwandten bzw. verbundenen Fachgebieten wie der Volkswirtschaftslehre, der Mathematik und sogar den Ingenieurwissenschaften. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studierenden, dem Thema der Arbeit und der notwendigen Forschungsarbeit. Schließlich hat bspw. eine Hausarbeit andere Ansprüche an den Verfasser als eine Doktorarbeit.'
+                    text: 'Unsere Ghostwriter in Technomathematik verfügen über exzellentes Wissen in der Mathematik. Als Technomathematiker besitzen sie ein tiefes Verständnis der Mathematik und beherrschen vielfältige mathematische Methoden. Sie sind in der Lage, mathematische Konzepte zu entwickeln und Modelle zu erstellen. Gleichzeitig verfügen sie über gute Informatikkenntnisse und können effektive Software-Tools nutzen. Technomathematik-Ghostwriter sind herausragende Problemlöser in technischen und naturwissenschaftlichen Fragestellungen. Oft arbeiten unsere Technomathematiker mit Ghostwritern aus verschiedenen Fachgebieten zusammen, um komplexe Projektarbeiten wie Masterarbeit zu erstellen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Studierende können entweder das\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit"
-                  -
-                    type: text
-                    text: ' oder verschiedener Teilbereiche als Leistungen bei einem Ghostwriter in Auftrag geben. So ist es auch üblich, dass der Ghostwriter Studierende bereits bei der Suche nach der passenden Literatur im Rahmen der Literaturrecherche unterstützt, ihnen bei der Texterstellung beratend zur Seite steht oder bereits durch die Studierenden fertig geschriebene Arbeiten lektoriert und korrigiert. Ein solches Lektorat von einem erfahrenen Ghostwriter verleiht Ihrer Arbeit zusammen mit einer Plagiatsprüfung den letzten Schliff. Auch ein Coaching und Training ist möglich, um die Studierenden auf eine Klausur vorzubereiten oder sie in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen. Und nicht zuletzt bieten unsere Ghostwriter auch Übersetzungen von akademischen Arbeiten, Klausuren und allen anderen Arten von Texten an.'
+                    text: 'Sie können sich an einen professionellen Ghostwriter in diesem Fachgebiet wenden, um wissenschaftliche Arbeiten schreiben zu lassen. Falls Sie jedoch Schwierigkeiten bei der inhaltlichen Lösung technischer Probleme haben, können unsere Experten Sie hier unterstützen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1631,13 +1596,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'ChatGPT statt BWL Ghostwriter?'
+                    text: 'Inhalt Technomathematik'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Seit seiner Veröffentlichung wird ChatGPT in allen Lebensbereichen heiß diskutiert, auch im Bezug auf das wissenschaftliche Arbeiten. Viele Professoren fragen sich bereits, wie Sie verhindern können, dass ihre Studierenden sich Ihre Arbeiten von einer KI schreiben lassen. Und auch Anbieter von Plagiatsprüfungssoftware entwickeln schon fleißig Lösungen um KI-Texte verlässlich identifizieren zu können. Aber Fakt ist noch immer: KI kann einen menschlichen Autor und auch einen akademischen Ghostwriter nicht ersetzen.'
+                    text: 'Der Studiengang Technomathematik zielt darauf ab, der steigenden Interdisziplinarität in der anwendungsorientierten Forschung und Entwicklung gerecht zu werden. Das Hauptziel besteht darin, eine praxisorientierte Mathematikausbildung zu bieten, bei der die mathematische Modellierung und die algorithmische Behandlung technischer Probleme im Mittelpunkt stehen. Studierende werden darauf vorbereitet, im Team mit Fachwissenschaftlern aus verschiedenen Disziplinen zu arbeiten und die verschiedenen Sprachen der Ingenieur- und Naturwissenschaften in mathematische Modelle und Auswertungsverfahren zu übersetzen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Studium umfasst neben der praxisorientierten Mathematikausbildung auch ein ingenieurwissenschaftliches Nebenfach sowie Informatik-Module. Im mathematischen Teil erlangen die Studierenden ein solides Fundament in den mathematischen Grundlagen, die für die Lösung praktischer Probleme relevant sind. Diese Ausbildung ist breit angelegt, um sich den Anforderungen zukünftiger Entwicklungen anzupassen. Die Studierenden lernen nicht nur, mathematische Methoden zur wissenschaftlichen Formulierung und Behandlung praktischer Probleme anzuwenden, sondern auch neue Ansätze zu entwickeln, ihre Anwendbarkeit zu beurteilen und bestehende Anwendungen kritisch zu analysieren.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im technischen Anwendungsfach lernen die Studierenden die Methoden und Grundbegriffe so weit, dass sie naturwissenschaftliche oder technische Ansätze bis zur mathematischen Formulierung verfolgen können. Ziel ist es, die Leistungsfähigkeit eines mathematischen Modells zu beurteilen, bei der Modellbildung mitzuwirken, Einblick und Überblick über bestehende Modelle in der Technik zu erhalten, Anwendbarkeit mathematischer Theorien bei der Behandlung technischer Probleme zu verstehen und das Allgemeine und Typische der Modellbildung im Bereich der Technik zu erkennen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+            show_as_card: false
+          -
+            id: lnkr6c4v
+            bard:
               -
                 type: heading
                 attrs:
@@ -1645,65 +1630,684 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Technische Limitationen von KI'
+                    text: 'Prüfungsleistungen Technomathematik'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Eine der wesentlichen technischen Limitationen von KI-Systemen in Bezug auf BWL ist ihre Fähigkeit zur Interpretation von Daten. Während KIs Daten in großem Umfang analysieren können, fehlt ihnen oft das Verständnis für die Kontextualität und die dahinter liegenden wirtschaftlichen Zusammenhänge. Die BWL ist nicht nur von harten Zahlen und Fakten geprägt, sondern auch von menschlichen Verhaltensweisen, Unternehmenskulturen und externen Markteinflüssen.'
+                    text: 'Der Inhalt eines Studiengangs in Technomathematik umfasst eine breite Palette von mathematischen Themen und deren Anwendung auf technische und naturwissenschaftliche Probleme.'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: Bereich
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: Inhalt
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: Prüfungsleistungen
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Grundlagen der Mathematik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Algebra, Analysis, Lineare Algebra, Differentialgleichungen, Wahrscheinlichkeitstheorie, Statistik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Klausuren, Hausaufgaben, mündliche Prüfungen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Mathematische Modellierung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Umwandlung realer Probleme in mathematische Modelle, Identifikation von Variablen und Gleichungen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Projektarbeit, Modellierungsübungen, Präsentationen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Numerische Mathematik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Entwicklung von numerischen Algorithmen zur Lösung mathematischer Probleme auf Computern'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Programmieraufgaben, numerische Simulationen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: Optimierung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Optimierungsmodelle und -methoden zur Lösung komplexer Probleme'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Optimalitätsnachweise, Fallstudien'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Statistik und Wahrscheinlichkeit'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Datenanalyse, Vorhersagemodelle, statistische Tests'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Statistische Analysen, Berichterstellung'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: Informatik
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Programmierung, mathematische Softwaretools, Implementierung mathematischer Modelle'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Coding-Projekte, Informatik-Prüfungen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Angewandte Mathematik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Anwendung mathematischer Methoden auf spezifische Disziplinen wie Physik, Chemie, Elektrotechnik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Fachspezifische Prüfungen, Projektarbeit'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Fachspezifische Anwendungen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Spezielle mathematische Techniken für bestimmte Bereiche wie Signalverarbeitung, Bildverarbeitung, Finanzmathematik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Fachspezifische Projekte, Prüfungen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Projekte und Praktika'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Praktische Erfahrungen durch Teilnahme an Forschungsprojekten oder Praktika in Unternehmen oder Forschungseinrichtungen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#374151'
+                                      hex: '#000'
+                                text: 'Berichterstellung, Präsentation der Ergebnisse'
               -
                 type: paragraph
                 content:
                   -
-                    type: text
-                    text: 'Des Weiteren sind viele BWL-Konzepte und -Strategien dynamisch und entwickeln sich ständig weiter. Eine KI, die nicht laufend mit aktuellen wirtschaftlichen Entwicklungen oder Theorien aktualisiert wird, könnte veraltete oder nicht mehr relevante Informationen verwenden.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Rechtliche Aspekte'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der BWL können falsche oder irreführende Informationen erhebliche finanzielle und rechtliche Konsequenzen haben. Ein von KI verfasster Bericht könnte beispielsweise zu fehlerhaften Investitionsentscheidungen oder zu einer fehlerhaften Markteinschätzung führen, insbesondere wenn diese Inhalt Teil einer '
-                  -
-                    type: text
+                    type: hard_break
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /blog/bachelorarbeit-unternehmen
-                          target: null
-                          rel: null
-                    text: 'im Unternehmen geschriebenen Bachelorarbeit'
-                  -
-                    type: text
-                    text: ' werden. Dies könnte Unternehmen in rechtliche und wirtschaftliche Schwierigkeiten bringen, besonders wenn sie auf solchen Berichten basierende Entscheidungen treffen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Vergleich zum akademischen Ghostwriting im Fach BWL'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein akademischer Ghostwriter, insbesondere ein Fachexperte in BWL, kann eine nuancierte und kontextualisierte wissenschaftliche Arbeit liefern. Er kann aktuelle Trends, kulturelle Unterschiede und menschliche Verhaltensweisen in seiner Erläuterung und Argumentationen, was eine KI nicht in gleichem Maße leisten kann. Obwohl KI-Systeme in vielen Bereichen beeindruckende Fortschritte gemacht haben, bleibt das menschliche Verständnis und die Fähigkeit zur Interpretation im Bereich der BWL von zentraler Bedeutung. Ein menschlicher Autor kann die Komplexität und Dynamik des Wirtschaftslebens besser erfassen und interpretieren als eine KI. Daher bleibt ein akademischer Experte im Fach BWL die bevorzugte Wahl für das Verfassen von wissenschaftlichen Arbeiten im Vergleich zur KI.'
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0)'
+                          hex: '#000'
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 0
         columns_per_row: 0
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -1734,19 +2338,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
+                    text: 'Warum sollte man Technomathematik-Ghostwriter beauftragen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftlern, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse und Erfahrung im Umgang mit der Literaturrecherche und Forschungsarbeiten.'
+                    text: 'Unsere Technomathematik-Ghostwriter sind Mathematiker und Techniker, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet Technomathematik. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'BWL-Ghostwriter erstellen für verschiedene Aufgabenstellungen im Fachbereich BWL ('
+                    text: 'Ob bei Modellierungsübungen, Projektarbeiten, Programmierungsaufgaben oder bei der Erstellung von Berichten, können für Sie unsere Ghostwriter die Arbeit übernehmen. Besonders wenn Sie eine Abschlussarbeit verfassen möchten aber Hilfe brauchen, können unsere Ghostwriter eine große Hilfe sein.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Technomathematik-Ghostwriter erstellen für verschiedene Aufgabenstellungen oder Prüfungsleistungen ('
                   -
                     type: text
                     marks:
@@ -1755,7 +2365,7 @@ replicator:
                     text: 'Hausarbeiten, Projektarbeiten, Abschlussarbeit, Businessplan, Marketingkonzept'
                   -
                     type: text
-                    text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevante Datenbanken wie Fachzeitschriften, Fachartikel etc. Zugriff. Den Zugriff stellen wir als Agentur unseren Autoren zur Verfügung, um diese bei ihrer Arbeit optimal zu unterstützen.'
+                    text: ' etc.) Musterarbeiten. Außerdem sind unsere Experten stets auf dem neuesten Stand in ihrem Wissen. Sie kennen die neuesten Trends in der Technik und Mathe und verfügen über umfangreiche Erfahrung in der Zusammenarbeit mit Experten aus anderen Fachbereichen. '
             show_as_card: false
           -
             id: KifGK2jM
@@ -1763,10 +2373,14 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: 43Q9cxMl
+                  id: lnkrj7gy
                   values:
-                    type: video
-                    video: 'https://youtu.be/PmgIh10dij0'
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/technomathmatik-min.jpg
+                    img_size: w-full
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
