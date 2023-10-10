@@ -1,6 +1,5 @@
 ---
 id: 274572ca-1608-4345-8e5b-d51e74845491
-published: false
 blueprint: pages
 title: Technomathematik
 teaser:
@@ -170,7 +169,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696951564
+updated_at: 1696951789
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -483,55 +482,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'BWL ist unter den Studierenden ein äußerst beliebter Studiengang und ist aus diesem Grund an vielen Hochschulen „überlaufen“. Wer auffallen will, muss immerzu '
+                    text: 'Das Studium der Technomathematik ist ein interdisziplinärer Fachbereich, in dem mathematische Methoden auf technische und naturwissenschaftliche Probleme angewendet werden. Technomathematik ist eng mit dem Studiengang Mathematik verwandt, jedoch besteht der Unterschied darin, dass im Studiengang Technomathematik eine vertiefte Auseinandersetzung mit technischen Konzepten und Modellen erfolgt. Insbesondere werden hier technische Herausforderungen im mathematischen Kontext gelöst.'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'qualitativ hochwertige Ausarbeitungen'
+                    text: ' Bei der Modellierung, Entwicklung von Algorithmen, Programmierung usw. können aus dem Fachbereich Technomathematik Ghostwriter Ihnen dabei helfen, technische Probleme zu bewältigen'
                   -
                     type: text
-                    text: ' sowie Projektarbeiten liefern und trotz der vielen anspruchsvollen Klausuren stets einen sehr guten Notendurchschnitt erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studierenden neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu der fehlenden Erfahrung und dem Leistungsdruck ein zusätzlicher Zeitdruck hinzu. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Speziell im Bereich der BWL wird aus diesem Grund in diesem Zeitrahmen oftmals die Hilfe unserer\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: "\_benötigt. Unsere Auftraggeber haben in ihrer Studienlaufbahn besonders Schwierigkeiten bei der "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /bachelorarbeit-thema
-                          target: null
-                          rel: null
-                    text: Themenfindung
-                  -
-                    type: text
-                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsarbeit & Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederungen, sodass die professionelle Unterstützung durch einen erfahrenen akademischen Ghostwriter ratsam ist. Ein Lektorat oder eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL sind zudem ebenfalls sehr zu empfehlen.'
+                    text: '. Häufig arbeiten Technomathematiker mit Informatikern und Chemieingenieuren zusammen.'
             show_as_card: false
         type: row
         enabled: true
