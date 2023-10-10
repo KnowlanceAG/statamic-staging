@@ -2,7 +2,7 @@
 id: 274572ca-1608-4345-8e5b-d51e74845491
 published: false
 blueprint: pages
-title: 'BWL (Dupliziert)'
+title: Technomathematik
 teaser:
   -
     type: heading
@@ -23,7 +23,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'BWL Ghostwriter'
+        text: 'Technomathematik Ghostwriter'
   -
     type: paragraph
     content:
@@ -41,7 +41,37 @@ teaser:
             attrs:
               color: 'rgb(68, 68, 68)'
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#ff6606!important'
+              hex: '#000'
+        text: 'Technomathematik '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+              hex: '#000'
+        text: '– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -140,7 +170,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1696946158
+updated_at: 1696951564
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -165,7 +195,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Betriebswirtschaftslehre in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich mit Ihrer Arbeit an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> In unserer professionellen Agentur GWriters bieten wir kompetente Unterstützung im Fachbereich Technomathematik. Wir vermitteln Ihnen den <b>passenden Ghostwriter</b> für eine Vielzahl von Problemstellungen in Technomathematik. Abhängig von Ihren individuellen Anforderungen in diesem Bereich wählen wir einen Ghostwriter mit entsprechendem Fachwissen aus, um sicherzustellen, dass Ihre Arbeit mit vollem Verständnis und höchster Qualität erstellt wird. Wenn Sie eine Musterarbeit für Ihre Bachelorarbeit schreiben lassen möchten, insbesondere wenn sie technisches und mathematisches Wissen erfordert, sind unsere Technomathematik-Experten für Sie da.
                       </p>
               -
                 type: heading
@@ -3549,6 +3579,6 @@ og_description: 'Kompetente Unterstützung vom BWL Ghostwriter - Hausarbeit, Sem
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
-alternative_page_title: 'BWL Ghostwriter'
+alternative_page_title: 'Technomathematik Ghostwriter'
 breadcrumbs_active: true
 ---
