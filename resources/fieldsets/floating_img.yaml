@@ -11,6 +11,12 @@ fields:
       type: assets
       icon: assets
       listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      show_filename: true
+      validate:
+        - image
   -
     handle: img_size
     field:
