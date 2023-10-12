@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1697105401
+updated_at: 1697119661
 teaser:
   -
     type: heading
@@ -550,495 +550,518 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: lnhrakdt
+                  id: lnn94u6r
                   values:
-                    type: custom_link_list
-                    raster:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        id: lnhralzs
-                        text: Arbeiten
-                        eintraege:
+                        id: lnn94vbw
+                        headline:
                           -
-                            id: lnhranrl
-                            headline: Abschlussarbeiten
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/diplomarbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Diplomarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/examensarbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Examensarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/magisterarbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Magisterarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Bachelorarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Masterarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/doktorarbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Doktorarbeit schreiben lassen'
+                                type: text
+                                text: Abschlussarbeiten
+                        accordion_content:
                           -
-                            id: lnhrb47g
-                            headline: 'Sonstige Arbeiten'
+                            type: paragraph
                             content:
                               -
-                                type: paragraph
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/ebook
-                                          target: null
-                                          rel: null
-                                    text: 'eBook schreiben lassen'
+                                    type: textAlign
+                                    attrs:
+                                      align: start
                                   -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/lernskript
-                                          target: null
-                                          rel: null
-                                    text: 'Lernskript schreiben lassen'
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/diplomarbeit
+                                      target: null
+                                      rel: null
+                                text: 'Diplomarbeit schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
                                   -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                    type: textAlign
+                                    attrs:
+                                      align: start
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/praesentationen
-                                          target: null
-                                          rel: null
-                                    text: 'Präsentationen erstellen lassen'
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
                                   -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                    type: textAlign
+                                    attrs:
+                                      align: start
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/statistische-analysen
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Statistik'
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
                                   -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/examensarbeit
+                                      target: null
+                                      rel: null
+                                text: 'Examensarbeit schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /expose
-                                          target: null
-                                          rel: null
-                                    text: 'Exposé schreiben lassen'
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/magisterarbeit
+                                      target: null
+                                      rel: null
+                                text: 'Magisterarbeit schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                      target: null
+                                      rel: null
+                                text: 'Bachelorarbeit schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/masterarbeit-schreiben-lassen
+                                      target: null
+                                      rel: null
+                                text: 'Masterarbeit schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/doktorarbeit
+                                      target: null
+                                      rel: null
+                                text: 'Doktorarbeit schreiben lassen'
+                        active: true
+                      -
+                        id: lnn94yal
+                        headline:
                           -
-                            id: lnhrbhyj
-                            headline: Studienarbeiten
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
-                                type: paragraph
-                                content:
+                                type: text
+                                text: Studienarbeiten
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/essay
-                                          target: null
-                                          rel: null
-                                    text: 'Essay schreiben lassen'
+                                    type: textAlign
+                                    attrs:
+                                      align: start
                                   -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/hausarbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Hausarbeit schreiben lassen'
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/essay
+                                      target: null
+                                      rel: null
+                                text: 'Essay schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
                                   -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                    type: textAlign
+                                    attrs:
+                                      align: start
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/facharbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Facharbeit schreiben lassen'
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
                                   -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                    type: textAlign
+                                    attrs:
+                                      align: start
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/seminararbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Seminararbeit schreiben lassen'
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
                                   -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/hausarbeit-schreiben-lassen
+                                      target: null
+                                      rel: null
+                                text: 'Hausarbeit schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
                                   -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/studienarbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Studienarbeit schreiben lassen'
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/facharbeit
+                                      target: null
+                                      rel: null
+                                text: 'Facharbeit schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/seminararbeit-schreiben-lassen
+                                      target: null
+                                      rel: null
+                                text: 'Seminararbeit schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/studienarbeit
+                                      target: null
+                                      rel: null
+                                text: 'Studienarbeit schreiben lassen'
+                        active: true
+                      -
+                        id: lnn94zpr
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Sonstige Arbeiten'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/ebook
+                                      target: null
+                                      rel: null
+                                text: 'eBook schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/lernskript
+                                      target: null
+                                      rel: null
+                                text: 'Lernskript schreiben lassen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/praesentationen
+                                      target: null
+                                      rel: null
+                                text: 'Präsentationen erstellen lassen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/statistische-analysen
+                                      target: null
+                                      rel: null
+                                text: 'Ghostwriter Statistik'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /expose
+                                      target: null
+                                      rel: null
+                                text: 'Exposé schreiben lassen'
+                        active: true
               -
                 type: heading
                 attrs:
