@@ -571,159 +571,9 @@ replicator:
                     type: insert_html
                     html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen hat in den letzten Quartalen einen Umsatzrückgang verzeichnet, und die Geschäftsleitung ist besorgt über die Ursachen dieses Rückgangs. Sie möchten eine gründliche Untersuchung durchführen, um die Gründe für den Umsatzrückgang zu identifizieren und entsprechende Maßnahmen zu ergreifen. </div>'
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
-                    text: 'Fallstudie schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Möglicherweise müssen Sie eine Fallstudie in Ihrer Bachelorarbeit oder Masterarbeit verfassen, sind jedoch unsicher, da Sie nicht über ausreichende Literatur und Theorie verfügen und den aktuellen Forschungsstand zum Fallbeispiel nicht kennen. Diese wichtigen Informationen können gerne Ihnen für Ihre Fallstudie Ghostwriter herausfiltern und zusammenstellen.  '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Eine Fallstudie wird in Abschlussarbeiten und Facharbeiten oft verlangt, da sie eine Brücke zwischen theoretischem Wissen und praktischer Anwendung schafft. Sie ermöglicht ein tiefgehendes Verständnis des Themas, fördert Forschungsfähigkeiten, kritisches Denken und klare Kommunikation. Zudem bereitet sie Studierende auf berufliche Herausforderungen vor, da Fallstudien in vielen Branchen ein gängiges Instrument zur Problemlösung sind.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0)'
-                          hex: '#000'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Besonders sind in den wissenschaftlichen Studiengängen wie z.B. Sozialwissenschaften Ghostwriter eine Große Hilfe. Sie erstellen regelmäßig Fallstudien und '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Hierbei suchen Studierende oft nach Hilfe bei '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwritern
-                  -
-                    type: text
-                    text: '. Diese akademischen Freelancer bieten in verschiedenen Arten von Studienarbeiten Hilfe an. Sie sind akademisch ausgebildet und verfügen über die notwendigen Fachkenntnisse für wissenschaftliche Studienarbeiten. Das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: 'akademische Ghostwriting'
-                  -
-                    type: text
-                    text: ' bietet eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen
-                          target: null
-                          rel: null
-                    text: 'breite Palette von Dienstleistungen'
-                  -
-                    type: text
-                    text: ' in diesem Bereich an. Viele Studierende möchten eine Musterarbeit für ihre Studienarbeit erstellen lassen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Oft müssen Studierende während ihres Studiums ein Forschungsthema bearbeiten und als Studienarbeit verfassen. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Dies erfordert viel Zeit und wissenschaftliches Schreiben'
-                  -
-                    type: text
-                    text: '. In solchen Fällen können Studienarbeiten von Ghostwriter in verschiedenen Fachrichtungen eine große Hilfe sein. Wenn Sie sich für Ghostwriting entscheiden, erwartet Sie das Verfassen einer hochwertigen Musterarbeit Ihrer Studienarbeit, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: 'professionelles Lektorat'
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    text: ', einschließlich einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: 'Plagiatsprüfung '
-                  -
-                    type: text
-                    text: 'und Qualitätskontrolle.'
               -
                 type: set
                 attrs:
@@ -1363,125 +1213,165 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Professionelle Unterstützung durch akademische Experten: Beispiel-Studienarbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der '
-                  -
-                    type: text
                     marks:
                       -
                         type: bold
-                    text: 'Aufbau einer Studienarbeit'
-                  -
-                    type: text
-                    text: ' gilt gleichzeitig auch für '
-                  -
-                    type: text
-                    marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeiten
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Seminararbeiten
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/essay
-                          target: null
-                          rel: null
-                    text: Essays
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/facharbeit
-                          target: null
-                          rel: null
-                    text: Facharbeiten
-                  -
-                    type: text
-                    text: ', Projektarbeiten usw. Wenn Sie beispielsweise eine Mustervorlage für Ihre Studienarbeit schreiben lassen möchten, können Sie uns gerne eine kostenlose Anfrage senden.'
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Fallstudie schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Außerdem können Sie gerne unsere '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting-beispielarbeiten
-                          target: null
-                          rel: null
-                    text: 'kostenlosen Beispiel-Studienarbeiten'
-                  -
-                    type: text
-                    text: ' herunterladen. Diese wissenschaftlichen Arbeiten wurden von unseren Experten erstellt und können zur Orientierung für Ihre Studienarbeit verwendet werden. Aus dem Fachbereich '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/sozialwissenschaften
-                          target: null
-                          rel: null
-                    text: 'Sozialwissenschaften Ghostwriter'
-                  -
-                    type: text
-                    text: ' haben im folgendem Beispiel den Aufbau, die Struktur und den Inhalt näher erläutert. '
+                    text: 'Möglicherweise müssen Sie eine Fallstudie in Ihrer Bachelorarbeit oder Masterarbeit verfassen, sind jedoch unsicher, da Sie nicht über ausreichende Literatur und Theorie verfügen und den aktuellen Forschungsstand zum Fallbeispiel nicht kennen. Diese wichtigen Informationen können gerne Ihnen für Ihre Fallstudie Ghostwriter herausfiltern und zusammenstellen.  '
               -
-                type: set
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine Fallstudie wird in Abschlussarbeiten und Facharbeiten oft verlangt, da sie eine Brücke zwischen theoretischem Wissen und praktischer Anwendung schafft. Sie ermöglicht ein tiefgehendes Verständnis des Themas, fördert Forschungsfähigkeiten, kritisches Denken und klare Kommunikation. Zudem bereitet sie Studierende auf berufliche Herausforderungen vor, da Fallstudien in vielen Branchen ein gängiges Instrument zur Problemlösung sind.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Sie möchten eine Musterarbeit für Ihre Bachelorarbeit schreiben lassen, in der Sie eine Fallstudie schreiben sollen. Besonders das Thema die Sie ausgesucht haben, benötigt Datenerhebung und einen Lösungsansatz. Unsere Ghostwriter können Ihnen dabei helfen. '
+              -
+                type: heading
                 attrs:
-                  id: fXd4ydXK
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/beispielarbeiten-4.JPG
-                    ex_title: 'Bewertung von Embryonenforschung'
-                    ex_fachbereich:
-                      - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
-                    ex_type: Hausarbeit
-                    ex_pages: '10'
-                    ex_zitation: 'Deutsche Zitierweise'
-                    ex_button_link: 'entry::dac985cc-a5b5-418c-8ad8-b96ec63051db'
-                    ex_button_text: WEITERLESEN
-                    ex_color: '#FF6606'
-                    ex_button_align: justify-start
-                    ex_spacing_top: false
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Case-Study Beispiel:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Forschungsthema:'
+                          -
+                            type: text
+                            text: ' "Analyse der Auswirkungen von Social-Media-Marketing auf den Umsatz in der Einzelhandelsbranche."'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Studiengang:'
+                          -
+                            type: text
+                            text: ' Marketing'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Fallstudie Variante: '
+                          -
+                            type: text
+                            text: 'Untersuchungsfall (explorative Fallstudie)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Forschungsfragen:'
+                          -
+                            type: text
+                            text: ' '
+                          -
+                            type: hard_break
+                          -
+                            type: text
+                            text: 'Wie nutzen Einzelhandelsunternehmen Social-Media-Marketing? '
+                          -
+                            type: hard_break
+                          -
+                            type: text
+                            text: 'Welche Art von Inhalten und Strategien werden eingesetzt? '
+                          -
+                            type: hard_break
+                          -
+                            type: text
+                            text: 'Gibt es eine Korrelation zwischen den Social-Media-Aktivitäten und dem Umsatzwachstum? '
+                          -
+                            type: hard_break
+                          -
+                            type: text
+                            text: 'Wie reagieren Kunden auf Social-Media-Marketing-Kampagnen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Hier können aus dem Fachbereich Marketing Ghostwriter die notwendigen Social-Media-Methoden nutzen, um Antworten auf alle Forschungsfragen zu finden. In diesem Fall geht es darum, die Auswirkungen von Social-Media-Marketing auf den Umsatz zu untersuchen, Daten zu sammeln und zu analysieren, um Erkenntnisse zu gewinnen. Dies erfordert eine gründliche Analyse und Forschung des Themas, was am besten als Untersuchungsfall beschrieben wird. Durch die Untersuchung dieser Fragen können Ghostwriter Einblicke in das Thema gewinnen und Hypothesen für zukünftige Forschung entwickeln.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter können bei einer Fallstudie zur Analyse der Auswirkungen von Social-Media-Marketing auf den Umsatz in der Einzelhandelsbranche in verschiedenen Bereichen behilflich sein. Sie unterstützen bei der Literaturrecherche, der Datenerfassung, dem Fallstudien-Design, der Datenanalyse, der Berichterstellung und der Einhaltung von Schreibstil und Formatierungsrichtlinien. Ihre Expertise und Erfahrung tragen dazu bei, dass die Fallstudie professionell und fundiert durchgeführt wird, um wertvolle Erkenntnisse zu gewinnen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0)'
+                          hex: '#000'
             show_as_card: false
         type: row
         enabled: true
@@ -5766,7 +5656,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697127308
+updated_at: 1697128999
 template: default
 use_meta_keywords: false
 no_index_page: false
