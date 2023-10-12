@@ -456,7 +456,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Fallstudie, auch als Case Study bezeichnet, ist eine gängige Methode in der qualitativen Forschung und wird oft im Kontext von Bachelorarbeiten oder Masterarbeiten angewendet. Besonders in den Studiengängen wie Sozialwissenschaften, Wirtschaftswissenschaften, Politikwissenschaften und Medienwissenschaften werden Fallstudien verfasst. Eine Fallstudie ist eine detaillierte Untersuchung eines spezifischen Falls, einer Situation oder eines Phänomens.'
+                    text: 'Die Fallstudie, auch als Case Study bezeichnet, ist eine gängige Methode in der qualitativen Forschung und wird oft im Kontext von Bachelorarbeiten oder Masterarbeiten angewendet. Eine Fallstudie ist eine detaillierte Untersuchung eines spezifischen Falls, einer Situation oder eines Phänomens. Die sozialwissenschaftliche Methode eignet sich auch für das Arbeiten in anderen Fächern im Bereich der sogenannten „Humanities“, darunter Politik- oder Wirtschaftswissenschaft, Medien- und Kommunikationswissenschaften, aber auch Psychologie und Sprachwissenschaft.'
               -
                 type: paragraph
                 content:
@@ -466,35 +466,166 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Studienarbeit'
+                    text: 'Arten von Fallstudien'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Eine Studienarbeit im Studium spielt eine große Rolle, da sie mehrere Zwecke erfüllt. Sie ermöglichen es den Studierenden, ihr Verständnis für '
+                    text: 'Es gibt verschiedene Herangehensweisen und Zwecke bei der Erstellung einer Fallstudie. Unsere akademischen Ghostwriter sind mit allen Varianten von Fallstudien vertraut, verstehen den Ablauf einer Case Study und bieten Lösungen für alle Untersuchungsfälle an. Sie können Ihre gemäß Ihren individuellen Anforderungen Fallstudie schreiben lassen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Problemfindungsfall: Beispiel'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'In diesem Fall handelt es sich um eine Situation, in der Probleme und Lösungen identifiziert werden müssen.'
+              -
+                type: set
+                attrs:
+                  id: lnnck5lt
+                  values:
+                    type: insert_html
+                    html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen in der Lebensmittelbranche beobachtet einen plötzlichen Rückgang der Verkaufszahlen eines seiner Produkte, beispielsweise eines Frühstücksflockenprodukts. Das Unternehmen steht vor der Herausforderung, die Gründe für diesen Umsatzrückgang zu verstehen und Lösungen zu finden, um das Produkt wieder auf Kurs zu bringen.</div>'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Beurteilungsfall: Beispiel'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei diesem Verfahren werden die Lösungsansätze bewertet. Sie müssen die Vor- und Nachteile der Lösungsansätze abwägen und gegebenenfalls weitere Lösungsvorschläge unterbreiten.'
+              -
+                type: set
+                attrs:
+                  id: lnnct7g3
+                  values:
+                    type: insert_html
+                    html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen hat eine neue Marketingkampagne gestartet, um die Verkaufszahlen seiner Produkte zu steigern. Nach Abschluss der Kampagne stellt das Unternehmen fest, dass die Verkaufszahlen gestiegen sind. Nun muss das Unternehmen die Auswirkungen der Kampagne bewerten und entscheiden, ob die Kampagne als erfolgreich betrachtet werden kann. Aber auch negative Auswirkungen können entstehen wie Kostenüberschreitungen, Imageprobleme oder rückläufige Verkaufszahlen anderer Produkte. </div>'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Informationsfall: Beispiel '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei unvollständigen oder fehlenden Informationen wird in der Fallanalyse nach neuen Informationen gesucht. Dennoch wird in solchen Fällen eine Fallstudie auf Grundlage der verfügbaren Daten geschrieben.'
+              -
+                type: set
+                attrs:
+                  id: lnndb6ay
+                  values:
+                    type: insert_html
+                    html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen plant die Einführung eines neuen Produkts auf dem Markt. Bevor die Einführung erfolgt, möchte das Unternehmen eine umfassende Marktanalyse durchführen, um sicherzustellen, dass es den Bedürfnissen und Anforderungen der Zielgruppe gerecht wird. </div>'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Untersuchungsfall: Beispiel'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei diesem Verfahren ist das Problem bereits bekannt. Hier muss eine Datenerhebung durchgeführt werden, um mögliche Konsequenzen zu verhindern und Lösungen zu finden.'
+              -
+                type: set
+                attrs:
+                  id: lnndi1b9
+                  values:
+                    type: insert_html
+                    html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen hat in den letzten Quartalen einen Umsatzrückgang verzeichnet, und die Geschäftsleitung ist besorgt über die Ursachen dieses Rückgangs. Sie möchten eine gründliche Untersuchung durchführen, um die Gründe für den Umsatzrückgang zu identifizieren und entsprechende Maßnahmen zu ergreifen. </div>'
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'spezifische Forschungsthemen'
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Fallstudie schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: ' zu vertiefen und ihre '
+                    text: 'Möglicherweise müssen Sie eine Fallstudie in Ihrer Bachelorarbeit oder Masterarbeit verfassen, sind jedoch unsicher, da Sie nicht über ausreichende Literatur und Theorie verfügen und den aktuellen Forschungsstand zum Fallbeispiel nicht kennen. Diese wichtigen Informationen können gerne Ihnen für Ihre Fallstudie Ghostwriter herausfiltern und zusammenstellen.  '
+              -
+                type: paragraph
+                content:
                   -
                     type: text
+                    text: 'Eine Fallstudie wird in Abschlussarbeiten und Facharbeiten oft verlangt, da sie eine Brücke zwischen theoretischem Wissen und praktischer Anwendung schafft. Sie ermöglicht ein tiefgehendes Verständnis des Themas, fördert Forschungsfähigkeiten, kritisches Denken und klare Kommunikation. Zudem bereitet sie Studierende auf berufliche Herausforderungen vor, da Fallstudien in vielen Branchen ein gängiges Instrument zur Problemlösung sind.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: hard_break
                     marks:
                       -
-                        type: bold
-                    text: 'Fähigkeiten im wissenschaftlichen Schreiben weiterzuentwickeln'
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0)'
+                          hex: '#000'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: .
+                    text: 'Besonders sind in den wissenschaftlichen Studiengängen wie z.B. Sozialwissenschaften Ghostwriter eine Große Hilfe. Sie erstellen regelmäßig Fallstudien und '
               -
                 type: paragraph
                 content:
@@ -5636,7 +5767,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697118554
+updated_at: 1697127287
 template: default
 use_meta_keywords: false
 no_index_page: false
