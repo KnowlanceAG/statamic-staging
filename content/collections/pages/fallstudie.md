@@ -1,6 +1,5 @@
 ---
 id: 32176ea9-b800-4a50-a559-80e578590d8e
-published: false
 blueprint: pages
 title: 'Studienarbeit (Dupliziert)'
 teaser:
@@ -5767,7 +5766,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697127287
+updated_at: 1697127308
 template: default
 use_meta_keywords: false
 no_index_page: false
