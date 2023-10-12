@@ -154,7 +154,7 @@ replicator:
                   id: gJCdR1fO
                   values:
                     type: insert_html
-                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Lösung von Fallstudien. Unsere professionellen Projektmanager finden den passenden akademischen Ghostwriter, der Ihren individuellen Anforderungen in einer Fallstudie entspricht. Sie möchten für eine Fallstudie <b>Ghostwriter beauftragen</b>? Besonders möchten Sie eine Musterstudie für Ihre Fallstudie schreiben lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. Unsere Ghostwriting-Agentur arbeitet mit akademisch ausgebildeten, erfahrenen Ghostwritern in verschiedenen interdisziplinären Disziplinen zusammen.'
+                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Lösung von Fallstudien. Unsere professionellen Projektmanager finden den passenden akademischen Ghostwriter, der Ihren individuellen Anforderungen in einer Fallstudie entspricht. Sie möchten für eine <b>Fallstudie Ghostwriter</b> beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere eine Musterstudie für Ihre Fallstudie erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. Unsere Ghostwriting-Agentur arbeitet mit akademisch ausgebildeten, erfahrenen Ghostwritern in verschiedenen interdisziplinären Disziplinen zusammen.'
               -
                 type: heading
                 attrs:
@@ -431,6 +431,38 @@ replicator:
                     anchor_name: ghostwriter
               -
                 type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Was ist eine Fallstudie?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Fallstudie, auch als Case Study bezeichnet, ist eine gängige Methode in der qualitativen Forschung und wird oft im Kontext von Bachelorarbeiten oder Masterarbeiten angewendet. Besonders in den Studiengängen wie Sozialwissenschaften, Wirtschaftswissenschaften, Politikwissenschaften und Medienwissenschaften werden Fallstudien verfasst. Eine Fallstudie ist eine detaillierte Untersuchung eines spezifischen Falls, einer Situation oder eines Phänomens.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In einer Fallstudie wird ein aktuelles Problem oder ein konkreter Fall analysiert. Zunächst wird das Forschungsziel und die Fragestellung definiert. Anschließend wird ein Fallbeispiel ausgewählt. Für dieses Fallbeispiel werden relevante Literatur und Theorien recherchiert und mit dem aktuellen Fallbeispiel in Beziehung gesetzt. Die Analyse kann sowohl qualitative als auch quantitative Ansätze umfassen, um neue Lösungsansätze zu finden. Das Ziel besteht darin, den Fall zu erklären, zu analysieren und Antworten auf offene Fragen zu finden.'
               -
                 type: heading
                 attrs:
@@ -5604,7 +5636,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697110022
+updated_at: 1697118554
 template: default
 use_meta_keywords: false
 no_index_page: false
