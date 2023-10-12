@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1696794472
+updated_at: 1697105341
 teaser:
   -
     type: heading
@@ -1401,7 +1401,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Ghostwriter, die Mustervorlagen für Bachelorarbeiten erstellen, müssen daher tief gehendes Know-how bei der '
+                    text: 'Akademische Ghostwriter, von denen Studierende eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', müssen daher tief gehendes Know-how bei der '
                   -
                     type: text
                     marks:
@@ -1450,7 +1463,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter für die Erstellung von Mustervorlagen für Hausarbeiten und Seminararbeiten zeigen dabei vor allen Dingen ihre Stärken in dieser Literaturrecherche. Sie wissen zum einen wie die Recherchemethodik zu verstehen und anzuwenden ist – hier haben sie umfangreiche Erfahrungen – und haben zum anderen Zugriff auf die einschlägigen Datenbanken, um in diesen recherchieren zu können. Gute Englischkenntnisse sind für Hausarbeiten und Seminararbeiten ebenfalls eine wichtige Voraussetzung, da eine Vielzahl der Literatur auf Englisch ist. Zuletzt sind Ghostwriter in der Lage, die Ergebnisse aus der Literatur gegeneinander und untereinander zu spiegeln und z.B. über die Methodik der qualitativen '
+                    text: 'Ghostwriter, von denen sich Studierende eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ' und oder auch für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', zeigen dabei vor allen Dingen ihre Stärken in dieser Literaturrecherche. Sie wissen zum einen wie die Recherchemethodik zu verstehen und anzuwenden ist – hier haben sie umfangreiche Erfahrungen – und haben zum anderen Zugriff auf die einschlägigen Datenbanken, um in diesen recherchieren zu können. Gute Englischkenntnisse sind für Hausarbeiten und Seminararbeiten ebenfalls eine wichtige Voraussetzung, da eine Vielzahl der Literatur auf Englisch ist. Zuletzt sind Ghostwriter in der Lage, die Ergebnisse aus der Literatur gegeneinander und untereinander zu spiegeln und z.B. über die Methodik der qualitativen '
                   -
                     type: text
                     marks:
@@ -1486,7 +1525,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Ghostwriter müssen daher in der Lage sein – neben der Literaturrecherche – eine umfassende Praxisverprobung der Forschungserkenntnisse vorzunehmen. Hierzu gehört ein umfassendes Wissen über empirische Forschungsmethoden und statistische Verfahren. Selbst wenn dabei keine quantitative Analyse verlangt, hilft ein Statistik Know-how, Ergebnisse aus Studien zu verstehen und in den Forschungskontext einordnen zu können.'
+                    text: 'Akademische Ghostwriter, von denen sich Studierende eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', müssen daher in der Lage sein – neben der Literaturrecherche – eine umfassende Praxisverprobung der Forschungserkenntnisse vorzunehmen. Hierzu gehört ein umfassendes Wissen über empirische Forschungsmethoden und statistische Verfahren. Selbst wenn dabei keine quantitative Analyse verlangt, hilft ein Statistik Know-how, Ergebnisse aus Studien zu verstehen und in den Forschungskontext einordnen zu können.'
               -
                 type: heading
                 attrs:
@@ -1503,7 +1555,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die höchsten akademischen Weihen schließlich finden sich in der Promotion, für die Universitäten ihre Doktoranden eine Doktorarbeit schreiben lassen. Anspruch bei einer Dissertation ist es, den aktuellen Forschungsstand umfassend zu erheben, um daraus eine klare und eindeutige Forschungslücke ableiten zu können. Dabei muss die Dissertation für die Forschung zu neuen Erkenntnissen führen und den fachlichen Diskurs zu einer Thematik fortführen.'
+                    text: 'Die höchsten akademischen Weihen schließlich finden sich in der Promotion, für die Universitäten ihre Doktoranden eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Anspruch bei einer Dissertation ist es, den aktuellen Forschungsstand umfassend zu erheben, um daraus eine klare und eindeutige Forschungslücke ableiten zu können. Dabei muss die Dissertation für die Forschung zu neuen Erkenntnissen führen und den fachlichen Diskurs zu einer Thematik fortführen.'
               -
                 type: paragraph
                 content:
