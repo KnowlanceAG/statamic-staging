@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1697105341
+updated_at: 1697105401
 teaser:
   -
     type: heading
