@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692714852
+updated_at: 1697285219
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -160,14 +160,33 @@ replicator:
             id: UEJ5w0MA
             bard:
               -
-                type: set
-                attrs:
-                  id: ENTH7EvL
-                  values:
-                    type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Jura. Bei uns finden Sie für einen fairen Preis exakt den <b>akademischen Ghostwriter für Ihre Jura Aufgabenstellungen</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Jura in sichere Hände geben und bei einem Jura-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Juristen, Doktoren und Professoren arbeitet.
-                      </p>
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Jura. Bei uns finden Sie für einen fairen Preis exakt den\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'akademischen Ghostwriter für Ihre Jura Aufgabenstellungen'
+                  -
+                    type: text
+                    text: ', der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Jura in sichere Hände geben und bei einem Jura-Ghostwriter eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten
+                          target: null
+                          rel: null
+                    text: 'wissenschaftliche Arbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Juristen, Doktoren und Professoren arbeitet.'
             show_as_card: false
         type: row
         enabled: true
