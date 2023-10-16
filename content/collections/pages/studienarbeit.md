@@ -5577,7 +5577,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Einige unserer Blogartikel zum Thema "Masterarbeit schreiben lassen"'
+                    text: 'Einige unserer Blogartikel zum Thema "Studienarbeit schreiben lassen"'
               -
                 type: set
                 attrs:
@@ -5603,8 +5603,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1696784550
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1697466844
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -5612,47 +5612,11 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Masterarbeit schreiben lassen | seriöse & diskrete Ghostwriter'
-meta_description: 'Masterarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Masterarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+meta_title: 'Studienarbeit schreiben lassen | seriöse & diskrete Ghostwriter'
+meta_description: 'Studienarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Studienarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_title: 'Studienarbeit schreiben lassen • Ghostwriter von GWriters'
-og_description: 'Studienarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Masterarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+og_description: 'Studienarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Studienarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
-schema_objects: |-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "Welche Qualifikationen hat mein akademischer Ghostwriter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind."
-      }
-    },{
-      "@type": "Question",
-      "name": "Wie wird bei GWriters meine Anonymität sichergestellt?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts."
-      }
-    },{
-      "@type": "Question",
-      "name": "Was kostet eine Mustervorlage für meine Masterarbeit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Eine Mustervorlage für eine 50-seitige Masterarbeit erhalten Sie bereits ab 5000 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen."
-      }
-    },{
-      "@type": "Question",
-      "name": "Darf ich die erstellte Mustervorlage als eigene Masterarbeit abgeben?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Masterarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch."
-      }
-    }]
-  }
-  </script>
 sitemap_active: true
 page_title: 'Studienarbeit schreiben lassen'
 alternative_page_title: 'Studienarbeit schreiben lassen'
