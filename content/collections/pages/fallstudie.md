@@ -175,98 +175,24 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: link
+                                type: textAlign
                                 attrs:
-                                  href: '#ghostwriter'
-                                  target: null
-                                  rel: null
-                            text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Studienarbeit'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
+                                  align: start
                               -
-                                type: link
+                                type: textColor
                                 attrs:
-                                  href: '#schreiben-lassen'
-                                  target: null
-                                  rel: null
-                            text: 'Mustervorlage für Studienarbeit schreiben lassen – Wie funktioniert die Kooperation?'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#beispiel'
-                                          target: null
-                                          rel: null
-                                    text: 'Professionelle Unterstützung durch akademische Experten: Beispiel-Studienarbeit'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#ghostwriter-beauftragen'
-                                  target: null
-                                  rel: null
-                            text: 'Die Gründe für das Beauftragen von Ghostwritern für Studienarbeiten'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
+                                  color: '#000!important'
+                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: '#definition'
                                   target: null
                                   rel: null
-                            text: 'Was ist eine Studienarbeit?'
+                            text: 'Was ist eine Fallstudie?'
                       -
                         type: bullet_list
                         content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#warum'
-                                          target: null
-                                          rel: null
-                                    text: 'Warum sind Studienarbeiten im Studium so wichtig?'
                           -
                             type: list_item
                             content:
@@ -282,7 +208,53 @@ replicator:
                                           href: '#arten'
                                           target: null
                                           rel: null
-                                    text: 'Unterschiede: Die Vielfalt von Studienarbeiten'
+                                    text: 'Arten von Fallstudien'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'Fallstudie schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben'
+                                  target: null
+                                  rel: null
+                            text: 'Häufig gestellte Fragen: Fallstudie schreiben'
                   -
                     type: list_item
                     content:
@@ -295,29 +267,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#schreiben'
+                                  href: '#beispiel'
                                   target: null
                                   rel: null
-                            text: 'Wie schreibt man eine Studienarbeit?'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#aufbau'
-                                          target: null
-                                          rel: null
-                                    text: 'Der Aufbau einer Studienarbeit'
+                            text: 'In 5 Schritten Fallstudie schreiben: Beispiel'
             show_as_card: false
         type: row
         enabled: true
@@ -1227,7 +1180,7 @@ replicator:
                   id: lms3l67b
                   values:
                     type: anchor_target
-                    anchor_name: beispiel
+                    anchor_name: ghostwriter
               -
                 type: paragraph
               -
@@ -1435,7 +1388,7 @@ replicator:
                   id: lms3lf9q
                   values:
                     type: anchor_target
-                    anchor_name: ghostwriter-beauftragen
+                    anchor_name: schreiben
               -
                 type: heading
                 attrs:
@@ -1451,7 +1404,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Häufig gestellte Fragen: Fallstudie '
+                    text: 'Häufig gestellte Fragen: Fallstudie schreiben'
               -
                 type: set
                 attrs:
@@ -1968,6 +1921,13 @@ replicator:
           -
             id: G1z8JQfg
             bard:
+              -
+                type: set
+                attrs:
+                  id: lnszf1l0
+                  values:
+                    type: anchor_target
+                    anchor_name: beispiel
               -
                 type: heading
                 attrs:
@@ -3436,7 +3396,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697465907
+updated_at: 1697466155
 template: default
 use_meta_keywords: false
 no_index_page: false
