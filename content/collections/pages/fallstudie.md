@@ -1,7 +1,7 @@
 ---
 id: 32176ea9-b800-4a50-a559-80e578590d8e
 blueprint: pages
-title: 'Studienarbeit (Dupliziert)'
+title: Fallstudie
 teaser:
   -
     type: heading
@@ -5833,7 +5833,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697461735
+updated_at: 1697461817
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -5884,7 +5884,7 @@ schema_objects: |-
   </script>
 sitemap_active: true
 page_title: 'Fallstudie schreiben lassen'
-alternative_page_title: 'Studienarbeit schreiben lassen'
+alternative_page_title: 'Fallstudie schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
 breadcrumbs_active: true
 teaser_bg: seiten/arbeiten/gwriters_masterarbeit_2000x512-(2).jpg
