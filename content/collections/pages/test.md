@@ -3,8 +3,8 @@ id: 942c2c8b-0964-473f-bd8d-10426b828eb8
 published: false
 blueprint: pages
 title: test
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692634752
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1697463761
 replicator:
   -
     id: laieiq4o
@@ -57,6 +57,21 @@ replicator:
           -
             type: text
             text: 'Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. '
+      -
+        type: set
+        attrs:
+          id: lnsy38v9
+          values:
+            type: conversion_widget
+            cw_headline: 'Benötigen Sie Hilfe?'
+            cw_text: |-
+              Suchen Sie einen akademischen Ghostwriter? 
+              Kontaktieren Sie uns jetzt für eine kostenlose & unverbindliche Beratung.
+            cw_show_email: true
+            cw_show_phonenumber: true
+            cw_show_inquiry_button: true
+      -
+        type: paragraph
       -
         type: paragraph
         content:
