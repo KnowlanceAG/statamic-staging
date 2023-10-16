@@ -1417,11 +1417,12 @@ replicator:
     columns_replicator:
       -
         id: qR9pvuG7
-        columns_per_row: 2
         grid:
           -
             id: lmUilup5
             bard:
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -1429,8 +1430,6 @@ replicator:
                   values:
                     type: anchor_target
                     anchor_name: ghostwriter-beauftragen
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1446,654 +1445,451 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Gründe für das Beauftragen von Ghostwritern für Studienarbeiten'
+                    text: 'Häufig gestellte Fragen: Fallstudie '
+              -
+                type: set
+                attrs:
+                  id: lnsw5lo8
+                  values:
+                    type: accordion_wrapper
+                    items:
+                      -
+                        id: lnsw5n2w
+                        headline: 'Wie schreibe ich eine Fallstudie?'
+                        accordion_content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(32, 33, 36)'
+                                              hex: '#000'
+                                        text: 'Ziel Ihrer Forschung festlegen '
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(32, 33, 36)'
+                                              hex: '#000'
+                                        text: 'Fall/Problem identifizieren'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(32, 33, 36)'
+                                              hex: '#000'
+                                        text: 'Literaturrecherche (Theorie suchen & finden)'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(32, 33, 36)'
+                                              hex: '#000'
+                                        text: 'Fall erklären und beschreiben'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Fall mithilfe einer spezifischen Forschungsmethode untersuchen'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Fall Ergebnisse interpretieren und zusammenfassen '
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Entweder neue Lösungsansätze entwickeln oder vorhandene Ansätze beibehalten'
+                        active: false
+                      -
+                        id: lnswenw8
+                        headline: 'In welcher Zeitform schreibt man eine Fallstudie?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Eine Fallstudie wird in der Regel im Präsens geschrieben, insbesondere wenn Sie über die Fallstudie selbst, die Forschungsmethoden und die Ergebnisse sprechen. '
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Hier sind einige Beispiele in der richtigen Zeitform:'
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: '"Die Fallstudie konzentriert sich auf ein Unternehmen in der Einzelhandelsbranche."'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: '"Die Forscher sammeln Daten aus Interviews und Dokumentenanalysen."'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: '"Die Ergebnisse zeigen, dass Social-Media-Marketing einen signifikanten Einfluss auf den Umsatz hat."'
+                        active: false
+                      -
+                        id: lnswiubk
+                        accordion_content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Relevanz des Themas'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Klares Ziel oder Forschungsfrage'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Sorgfältige Auswahl des Fallbeispiels'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Umfangreiche Datenerhebung'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Detaillierte Untersuchung'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Einbettung in einen theoretischen Rahmen: Die Studie sollte in eine theoretische Perspektive eingebettet sein.'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Klare Struktur der Studie'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Konsistenter Schreibstil'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Klare Schlussfolgerungen und Empfehlungen'
+                        active: false
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                    text: 'Eine Checkliste für das Schreiben einer Fallstudie könnte folgende Punkte umfassen:'
-              -
-                type: ordered_list
-                attrs:
-                  order: 1
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Thema und Zielsetzung:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Klar definiertes Thema und Forschungsziel für die Fallstudie festlegen.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Fallauswahl:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Auswahl des konkreten Falls oder der Fallbeispiele.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Literaturrecherche:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Recherche relevanter Literatur und Theorien im Zusammenhang mit dem Thema.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Datenbeschaffung:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Festlegung der Methode zur Datenerfassung (z. B. Interviews, Umfragen, Dokumentenanalyse) und Durchführung.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Datenanalyse:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Auswertung der gesammelten Daten unter Anwendung geeigneter Analysemethoden.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Theoretischer Rahmen:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Einbindung der theoretischen Konzepte in die Fallstudie.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Struktur und Gliederung:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Festlegung der Struktur und Gliederung der Fallstudie.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Einleitung:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Schreiben Sie eine klare Einleitung, die das Thema und die Zielsetzung der Fallstudie erläutert.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Beschreibung des Falls:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Detaillierte Beschreibung des ausgewählten Falls oder der Fallbeispiele.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Analyse:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Durchführung der Analyse unter Verwendung der gesammelten Daten und Theorien.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Ergebnisse:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
-                                    text: 'Darstellung der Ergebnisse der Analyse.'
-            show_as_card: false
-          -
-            id: gfuL4CzA
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Akademischer Erfolg und bessere Noten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die Qualität einer Studienarbeit kann einen erheblichen Einfluss auf die abschließende Bewertung und den akademischen Erfolg haben. Das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Studienarbeit schreiben lassen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'als eine Musterarbeit kann dazu beitragen, eine herausragende Arbeit zu erstellen und die Chancen auf eine bessere Note zu erhöhen. Dies kann insbesondere für Studierende von Bedeutung sein, deren akademische Leistung von der Studienarbeit abhängt.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Reduzierung von Stress und Druck'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Der Schreibprozess einer Studienarbeit kann mit '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'erheblichem Stress '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Schreibblockaden
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' einhergehen, was sich negativ auf das Wohlbefinden der Studierenden auswirken kann. Ghostwriter können dazu beitragen, diesen Stress zu reduzieren, indem sie die Verantwortung für den Schreibprozess übernehmen und den Studierenden entlasten.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Lernmöglichkeiten und Unterstützung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Schließlich kann die Zusammenarbeit mit einem Ghostwriter eine Gelegenheit bieten, zu lernen und sich weiterzuentwickeln. Studierende können den Schreibprozess mitverfolgen, von den Fachkenntnissen des Ghostwriters profitieren und ihre eigenen Fähigkeiten im wissenschaftlichen Schreiben verbessern.'
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
@@ -6030,7 +5826,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697460072
+updated_at: 1697461391
 template: default
 use_meta_keywords: false
 no_index_page: false
