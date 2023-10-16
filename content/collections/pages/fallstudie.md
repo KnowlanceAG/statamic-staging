@@ -459,7 +459,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In einer Fallstudie wird ein aktuelles Problem oder ein konkreter Fall analysiert. Zunächst wird das Forschungsziel und die Fragestellung definiert. Anschließend wird ein Fallbeispiel ausgewählt. Für dieses Fallbeispiel werden relevante Literatur und Theorien recherchiert und mit dem aktuellen Fallbeispiel in Beziehung gesetzt. Die Analyse kann sowohl qualitative als auch quantitative Ansätze umfassen, um neue Lösungsansätze zu finden. Das Ziel besteht darin, den Fall zu erklären, zu analysieren und Antworten auf offene Fragen zu finden.'
+                    text: 'In einer Fallstudie wird ein aktuelles Problem oder ein konkreter Fall analysiert. Zunächst wird das Forschungsziel und die Fragestellung definiert. Anschließend wird ein Fallbeispiel ausgewählt. Für dieses Fallbeispiel werden relevante Literatur und Theorien recherchiert und mit dem aktuellen Fallbeispiel in Beziehung gesetzt. Die Analyse kann sowohl qualitative als auch quantitative Ansätze umfassen, um neue Lösungsansätze zu finden. Das Ziel besteht darin, den Fall zu erklären, zu analysieren und Antworten auf offene Fragen zu finden. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie eine gute Fallstudie schreiben möchten, dann schreiben Sie uns an und wir werden Ihnen eine hochwertige Fallstudie erstellen. '
               -
                 type: set
                 attrs:
@@ -5827,7 +5833,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697461457
+updated_at: 1697461735
 template: default
 use_meta_keywords: false
 no_index_page: false
