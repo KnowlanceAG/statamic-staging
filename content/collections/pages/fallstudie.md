@@ -1889,12 +1889,64 @@ replicator:
                                         text: 'Klare Schlussfolgerungen und Empfehlungen'
                         active: false
                         headline: 'Was macht eine gute Fallstudie aus?'
+                      -
+                        id: lnsx1lg4
+                        headline: 'Was ist eine Fallstudie?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Eine Fallstudie ist eine Methode zur detaillierten Untersuchung eines bestimmten Falls oder Phänomens, um Erkenntnisse zu gewinnen oder Fragestellungen zu beantworten.'
+                        active: false
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
         single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lnswz5ji
+    columns_replicator:
+      -
+        id: lnswz7g8
+        single_col: false
+        grid:
+          -
+            id: G1z8JQfg
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lnsxm3by
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/fallstudie-schreiben-min.jpg
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
@@ -5833,7 +5885,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697461817
+updated_at: 1697463051
 template: default
 use_meta_keywords: false
 no_index_page: false
