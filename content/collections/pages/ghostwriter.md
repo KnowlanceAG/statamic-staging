@@ -143,28 +143,30 @@ replicator:
             id: nmsSTmW3
             bard:
               -
-                type: set
-                attrs:
-                  id: IJDbgpjz
-                  values:
-                    type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung für wissenschaftliche Leistungen in jedem Fachgebiet. Bei unserer Ghostwriting Agentur finden Sie exakt den <b>akademischen Ghostwriter für Ihre Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und bei einem professionellen Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Doktoren und Professoren arbeitet.
-                      </p>
-              -
-                type: set
-                attrs:
-                  id: g7bhc7wb
-                  values:
-                    type: spacer
-                    padding-y: 30
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Bei GWriters erhalten Sie kompetente Unterstützung für wissenschaftliche Leistungen in jedem Fachgebiet. Bei unserer Ghostwriting Agentur finden Sie exakt den\_akademischen Ghostwriter für Ihre Aufgabenstellungen, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und bei einem professionellen Ghostwriter eine Mustervorlage für Ihre "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten
+                          target: null
+                          rel: null
+                    text: 'wissenschaftliche Arbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Doktoren und Professoren arbeitet.'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
@@ -3578,7 +3580,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692630846
+updated_at: 1697280968
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

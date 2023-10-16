@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1693906548
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1697284728
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -158,14 +158,33 @@ replicator:
             id: 19Be7epB
             bard:
               -
-                type: set
-                attrs:
-                  id: lm4ou1et
-                  values:
-                    type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters bieten wir kompetente Unterstützung im Bereich Kunst an. <b>In unserem Team finden Sie zu einem fairen Preis genau den akademischen Ghostwriter, der perfekt auf Ihre kunstbezogenen Aufgaben und Anforderungen zugeschnitten ist</b>. Sie möchten Ihr akademisches Projekt im Fachbereich Kunst in sichere Hände geben und aus dem Fachbereich Kunst Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Wir sind eine renommierte Ghostwriting-Agentur, die ausschließlich mit erfahrenen Experten und Spezialisten auf dem Gebiet der Kunst zusammenarbeitet.
-                      </p>
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei GWriters bieten wir kompetente Unterstützung im Bereich Kunst an. In unserem Team finden Sie zu einem fairen Preis genau den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'akademischen Kunst-Ghostwriter'
+                  -
+                    type: text
+                    text: ', der perfekt auf Ihre Aufgaben und Anforderungen zugeschnitten ist. Sie möchten Ihr akademisches Projekt im Fachbereich Kunst in sichere Hände geben und aus dem Fachbereich Kunst Ghostwriter eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten
+                          target: null
+                          rel: null
+                    text: 'wissenschaftliche Arbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Wir sind eine renommierte Ghostwriting-Agentur, die ausschließlich mit erfahrenen Experten und Spezialisten auf dem Gebiet der Kunst zusammenarbeitet.'
             show_as_card: false
         type: row
         enabled: true

@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1696787819
+updated_at: 1697284308
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -158,14 +158,24 @@ replicator:
             id: G3IpZQID
             bard:
               -
-                type: set
-                attrs:
-                  id: uoivkKkL
-                  values:
-                    type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Betriebswirtschaftslehre in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich mit Ihrer Arbeit an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
-                      </p>
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den\_akademischen Ghostwriter für Ihre BWL Aufgabenstellungen, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Betriebswirtschaftslehre in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten
+                          target: null
+                          rel: null
+                    text: 'wissenschaftliche Arbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Dann wenden Sie sich mit Ihrer Arbeit an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.'
               -
                 type: heading
                 attrs:

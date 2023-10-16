@@ -132,7 +132,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692633784
+updated_at: 1697284525
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -151,14 +151,33 @@ replicator:
             id: jLs8Yoz4
             bard:
               -
-                type: set
-                attrs:
-                  id: 2QngBan8
-                  values:
-                    type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Marketing. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Marketing Aufgabenstellungen</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Marketing in sichere Hände geben und bei einem Marketing-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Marketingexperten, Doktoren und Professoren arbeitet.
-                      </p>
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Marketing. Bei uns finden Sie exakt den\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'akademischen Ghostwriter für Ihre Marketing'
+                  -
+                    type: text
+                    text: ' Aufgabenstellungen, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Marketing in sichere Hände geben und bei einem Marketing-Ghostwriter eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten
+                          target: null
+                          rel: null
+                    text: 'wissenschaftliche Arbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Marketingexperten, Doktoren und Professoren arbeitet.'
             show_as_card: false
         type: row
         enabled: true

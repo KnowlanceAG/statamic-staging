@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692798091
+updated_at: 1697287852
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -158,26 +158,33 @@ replicator:
             id: G3IpZQID
             bard:
               -
-                type: set
-                attrs:
-                  id: uoivkKkL
-                  values:
-                    type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Personalmanagement. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre Personalmanagement Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Personalmanagement in sichere Hände geben und bei einem Ghostwriter im Personalmanagement eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Wir sind eine seriöse Ghostwriting-Agentur, die ausschließlich mit erfahrenen Personalmanagement-Experten, Doktoren und Professoren zusammenarbeitet. Zögern Sie nicht, uns zu kontaktieren, um Ihre akademische Arbeit professionell und effizient zu bewältigen.
-
-
-
-
-
-
-
-                      </p>
-              -
-                type: heading
-                attrs:
-                  level: 2
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Personalmanagement. Bei uns finden Sie exakt den\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'akademischen Ghostwriter für Ihre Personalmanagement Aufgabenstellungen'
+                  -
+                    type: text
+                    text: ', der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Personalmanagement in sichere Hände geben und bei einem Ghostwriter im Personalmanagement eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten
+                          target: null
+                          rel: null
+                    text: 'wissenschaftliche Arbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Wir sind eine seriöse Ghostwriting-Agentur, die ausschließlich mit erfahrenen Personalmanagement-Experten, Doktoren und Professoren zusammenarbeitet. Zögern Sie nicht, uns zu kontaktieren, um Ihre akademische Arbeit professionell und effizient zu bewältigen.'
             show_as_card: false
         type: row
         enabled: true
