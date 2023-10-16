@@ -1963,7 +1963,7 @@ replicator:
     columns_replicator:
       -
         id: lnsyn8qv
-        single_col: false
+        single_col: true
         grid:
           -
             id: G1z8JQfg
@@ -2361,10 +2361,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: fN7AsZHf
     columns_replicator:
@@ -3434,7 +3436,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697465560
+updated_at: 1697465608
 template: default
 use_meta_keywords: false
 no_index_page: false
