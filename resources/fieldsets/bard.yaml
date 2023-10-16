@@ -38,6 +38,11 @@ fields:
       icon: bard
       listable: hidden
       sets:
+        conversion_widget:
+          display: 'NEW Conversion Widget'
+          fields:
+            -
+              import: conversion_widget
         img_text_ce:
           display: 'NEU Text Bild'
           fields:
