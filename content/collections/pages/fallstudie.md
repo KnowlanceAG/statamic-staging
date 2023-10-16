@@ -1959,6 +1959,413 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: lnsyn78y
+    columns_replicator:
+      -
+        id: lnsyn8qv
+        single_col: false
+        grid:
+          -
+            id: G1z8JQfg
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'In 5 Schritten Fallstudie schreiben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Diese Schritte helfen Ihnen, eine Fallstudie zu erstellen, die ein spezifisches Thema analysiert und zu fundierten Schlussfolgerungen kommt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Schritt 1: Thema auswählen🔎  '
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Beispiel
+                          -
+                            type: text
+                            text: ': Sie möchten eine Fallstudie über den Einfluss von Social-Media-Marketing auf den Umsatz eines bestimmten Einzelhandelsunternehmens schreiben.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Schritt 2: Fallbeschreibung✍'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Beispiel
+                          -
+                            type: text
+                            text: ': Beschreiben Sie das ausgewählte Einzelhandelsunternehmen, seine Produkte, Zielgruppen und sein bestehendes Marketing.'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-body)
+                                  hex: '#000'
+                            text: 'Das ausgewählte Einzelhandelsunternehmen ist "ABC Electronics", ein Elektronikgeschäft mit Filialen in mehreren Städten. ABC Electronics ist spezialisiert auf den Verkauf von Unterhaltungselektronik und Haushaltsgeräten. Das Unternehmen hat eine breite Kundenbasis, darunter technikbegeisterte Konsumenten und Familien.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Schritt 3: Theorie und Literatur'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Beispiel
+                          -
+                            type: text
+                            text: ': Recherchieren Sie Theorien und Literatur zu Social-Media-Marketing, Umsatzsteigerung und Einzelhandelsmarketing. Sie können beispielsweise Theorien zur sozialen Interaktion in sozialen Medien und deren Einfluss auf das Kaufverhalten erkunden.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Schritt 4: Daten sammeln und analysieren'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Beispiel
+                          -
+                            type: text
+                            text: ': Sammeln Sie Umsatzdaten von ABC Electronics in den letzten fünf Jahren, einschließlich der Phasen vor und nach der Einführung von Social-Media-Marketing. Analysieren Sie diese Daten, um Trends und Veränderungen im Umsatzverlauf zu identifizieren.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Schritt 5: Ergebnisse präsentieren'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Beispiel
+                          -
+                            type: text
+                            text: ': Präsentieren Sie Ihre Ergebnisse, indem Sie den Anstieg des Umsatzes nach der Implementierung von Social-Media-Marketing-Strategien für ABC Electronics aufzeigen. Veranschaulichen Sie, wie diese Strategien dazu beigetragen haben, mehr Kunden anzuziehen und den Umsatz zu steigern. Welche Vor und Nachteile die Social-Media-Marketing gebracht hat.'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Zum Beispiel:'
+                      -
+                        type: table
+                        content:
+                          -
+                            type: table_row
+                            content:
+                              -
+                                type: table_cell
+                                attrs:
+                                  colspan: 1
+                                  rowspan: 1
+                                  colwidth:
+                                    - 318
+                                  background: null
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Vorteile
+                              -
+                                type: table_cell
+                                attrs:
+                                  colspan: 1
+                                  rowspan: 1
+                                  colwidth: null
+                                  background: null
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Nachteile
+                          -
+                            type: table_row
+                            content:
+                              -
+                                type: table_cell
+                                attrs:
+                                  colspan: 1
+                                  rowspan: 1
+                                  colwidth:
+                                    - 318
+                                  background: null
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Erhöhte Markenbekanntheit:'
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                        text: 'Durch Social-Media-Marketing kann ABC Electronics die Sichtbarkeit seiner Marke steigern und ein größeres Publikum erreichen.'
+                              -
+                                type: table_cell
+                                attrs:
+                                  colspan: 1
+                                  rowspan: 1
+                                  colwidth: null
+                                  background: null
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Negatives Feedback:'
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                        text: 'Negative Kommentare oder Bewertungen in sozialen Medien können einen negativen Einfluss auf das Image des Unternehmens haben.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Schritt 6 (falls nötig ist): neue Lösungsansätze finden'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Für die Fallstudie könnten Sie diese Vor- und Nachteile weiter untersuchen und darauf eingehen, wie sie sich auf den Umsatz und den Erfolg von ABC Electronics auswirken. Dies würde es Ihnen ermöglichen, fundierte Schlussfolgerungen und Empfehlungen '
+                  -
+                    type: text
+                    text: 'abzuleiten. In dem Beispiel mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'negativen Feedbacks'
+                  -
+                    type: text
+                    text: ' könnte das Unternehmen ein effizientes System zur Überwachung sozialer Medien einrichten, um negative Kommentare und Bewertungen frühzeitig zu erkennen. Dann kann es schnell reagieren, die Anliegen der Kunden ernst nehmen und Lösungen anbieten, um die Probleme zu beheben. Dies kann dazu beitragen, Kundenbeschwerden in positive Erfahrungen umzuwandeln.'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: fN7AsZHf
     columns_replicator:
       -
@@ -3027,7 +3434,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697464598
+updated_at: 1697465560
 template: default
 use_meta_keywords: false
 no_index_page: false
