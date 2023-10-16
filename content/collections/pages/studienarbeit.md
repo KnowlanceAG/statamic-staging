@@ -5577,7 +5577,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Einige unserer Blogartikel zum Thema "Masterarbeit schreiben lassen"'
+                    text: 'Einige unserer Blogartikel zum Thema "Studienarbeit schreiben lassen"'
               -
                 type: set
                 attrs:
@@ -5604,7 +5604,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697466404
+updated_at: 1697466844
 template: default
 use_meta_keywords: false
 no_index_page: false
