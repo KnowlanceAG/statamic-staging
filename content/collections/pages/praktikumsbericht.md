@@ -1592,6 +1592,13 @@ replicator:
             id: zvp1I4lN
             bard:
               -
+                type: set
+                attrs:
+                  id: lnyq91q7
+                  values:
+                    type: spacer
+                    padding-y: 25
+              -
                 type: paragraph
                 content:
                   -
@@ -2157,7 +2164,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697813326
+updated_at: 1697813392
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
