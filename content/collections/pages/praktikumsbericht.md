@@ -1528,11 +1528,11 @@ replicator:
     id: avAinKWJ
     columns_replicator:
       -
-        id: lnypylk2
+        id: lnyofrnh
         single_col: false
         grid:
           -
-            id: zvp1I4lN
+            id: lnypzgiw
             bard:
               -
                 type: heading
@@ -1558,15 +1558,36 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Der Aufbau eines Praktikumsberichts im Studium ist im Prinzip in jedem Praktikumsbericht gleich. Die Struktur von Praktikumsberichten im Studium ist im Wesentlichen standardisiert, ähnlich wie bei anderen wissenschaftlichen Arbeiten. Beginnend mit dem Deckblatt folgt ein klar definierter Aufbau, der Ihnen hilft, sich auf die Themen zu konzentrieren und Ihren Praktikumsbericht zu verfassen. Indem Sie sich an folgendem Schema orientieren, legen Sie die Grundstruktur für Ihren Praktikumsbericht fest, sodass Sie ohne größere Hindernisse schreiben können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Sie können die Inhalte der einzelnen Abschnitte entsprechend Ihrem eigenen Praktikum anpassen und erweitern. Denken Sie daran, die spezifischen Anforderungen Ihrer Universität oder Ihres Studiengangs zu beachten. Ein Inhaltsverzeichnis zum Praktikum könnte ungefähr so aussehen:'
+              -
+                type: set
+                attrs:
+                  id: lnypzn80
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/aufbau-praktikumsbericht.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
             show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lnyofrnh
-        single_col: false
-        grid:
           -
             id: zvp1I4lN
             bard:
@@ -2123,39 +2144,6 @@ replicator:
                           hex: '#000'
                     text: 'Der genaue Aufbau kann nters, und es ist wichtig, sich an die spezifischen Vorgaben Ihrer Universität oder Ihres Studiengangs zu halten. '
             show_as_card: false
-          -
-            id: lnypzgiw
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Sie können die Inhalte der einzelnen Abschnitte entsprechend Ihrem eigenen Praktikum anpassen und erweitern. Denken Sie daran, die spezifischen Anforderungen Ihrer Universität oder Ihres Studiengangs zu beachten. Ein Inhaltsverzeichnis zum Praktikum könnte ungefähr so aussehen:'
-              -
-                type: set
-                attrs:
-                  id: lnypzn80
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/arbeiten/aufbau-praktikumsbericht.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-            show_as_card: false
         type: row
         enabled: true
         columns_per_row: 2
@@ -2169,7 +2157,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697813245
+updated_at: 1697813326
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
