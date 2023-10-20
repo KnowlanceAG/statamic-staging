@@ -1582,7 +1582,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein Praktikumsbericht ist eine ausführliche schriftliche Zusammenfassung Ihrer Erfahrungen während eines Praktikums, das Sie im Rahmen Ihres Studiums oder Ihrer schulischen Ausbildung absolviert haben. Die inhaltlichen und formalen Anforderungen an Praktikumsberichte können je nach Bildungseinrichtung unterschiedlich sein. Oft gibt es genaue Vorgaben von Universitäten oder Schulen, wie die Berichte in Ihrer Praktikumsmappe zu gestalten sind.'
+                    text: 'Ein Praktikumsbericht ist eine ausführliche schriftliche Zusammenfassung Ihrer Erfahrungen während eines Praktikums, das Sie im Rahmen Ihres Studiums oder Ihrer schulischen Ausbildung absolviert haben. Die inhaltlichen und formalen Anforderungen an Praktikumsberichte können je nach Bildungseinrichtung unterschiedlich sein. Oft gibt es genaue Vorgaben von Universitäten oder Schulen, wie die Berichte in Ihrer Praktikumsmappe zu gestalten sind. Bitte vergessen Sie nicht, Ihr Praktikumszeugnis der Praktikumsmappe beizufügen.'
               -
                 type: heading
                 attrs:
@@ -1674,7 +1674,7 @@ replicator:
         columns_per_row: 0
       -
         id: lnyofrnh
-        single_col: false
+        single_col: true
         grid:
           -
             id: zvp1I4lN
@@ -1702,12 +1702,627 @@ replicator:
                         attrs:
                           color: 'rgb(55, 65, 81)'
                           hex: '#000'
-                    text: 'Der Aufbau eines Praktikumsberichts im Studium ist im Prinzip in jedem Praktikumsbericht gleich.'
+                    text: 'Der Aufbau eines Praktikumsberichts im Studium ist im Prinzip in jedem Praktikumsbericht gleich. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-body)
+                          hex: '#000'
+                    text: 'Die Struktur von Praktikumsberichten im Studium ist im Wesentlichen standardisiert, ähnlich wie bei anderen wissenschaftlichen Arbeiten. Beginnend mit dem Deckblatt folgt ein klar definierter Aufbau, der Ihnen hilft, sich auf die Themen zu konzentrieren und Ihren Praktikumsbericht zu verfassen. Indem Sie sich an folgendem Schema orientieren, legen Sie die Grundstruktur für Ihren Praktikumsbericht fest, sodass Sie ohne größere Hindernisse schreiben können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der Aufbau eines Praktikumsberichts im Studium kann je nach den Vorgaben Ihrer Universität oder Ihres Studiengangs unterschiedlich sein, aber hier ist ein allgemeiner Aufbau, den Sie als Richtlinie verwenden können:'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Titelseite
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Name und Matrikelnummer'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Der Name Ihrer Bildungseinrichtung'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: Fachbereich
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: Datum
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Name des Unternehmens, in dem das Praktikum stattgefunden hat'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Inhaltsverzeichnis
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Eine Liste der Hauptkapitel und Abschnitte mit Seitenzahlen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 3
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Einleitung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Eine Einführung in den Bericht, die den Zweck und den Kontext des Praktikums erklärt.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 4
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Beschreibung des Praktikums'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Details zum Praktikum, wie Dauer, Ort und eine kurze Einführung in die Organisation oder das Unternehmen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 5
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                            text: Praktikumsauswahl/Begründung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In diesem Abschnitt erklären Sie Ihre Motivation und die Gründe für die Auswahl des Praktikums, einschließlich Ihrer Erwartungen und Ziele.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 6
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                            text: 'Vorstellung des Unternehmens'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Hier geben Sie einen Überblick über das Unternehmen oder die Organisation, in der Sie Ihr Praktikum absolviert haben, und zeigen auf, wie es sich zu Ihrem Studium und Ihrer beruflichen Entwicklung verhält.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 7
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Tätigkeiten und Projekte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Eine detaillierte Beschreibung der Aufgaben, Projekte und Verantwortlichkeiten, die Sie während des Praktikums übernommen haben.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 8
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Reflexion und Analyse'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ihre persönlichen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/reflexion-schreiben
+                          target: null
+                          rel: null
+                    text: Reflexionen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und Analysen Ihrer Erfahrungen, einschließlich dessen, was Sie gelernt haben und wie das Praktikum Ihre berufliche Entwicklung beeinflusst hat.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 9
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                            text: Anhänge
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Hier können Sie zusätzliche Materialien wie Fotos, Diagramme, Tabellen oder Dokumente hinzufügen, die im Bericht erwähnt werden.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 10
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Literaturverzeichnis
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wenn Sie auf Quellen oder Literatur im Bericht verweisen, sollte ein Literaturverzeichnis diese Quellen aufführen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 11
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: underline
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Eidesstattliche Erklärung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der genaue Aufbau kann unterschiedlich sein, und es ist wichtig, sich an die spezifischen Vorgaben Ihrer Universität oder Ihres Studiengangs zu halten. '
+            show_as_card: false
+          -
+            id: lnyoy50y
+            bard:
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Sie können die Inhalte der einzelnen Abschnitte entsprechend Ihrem eigenen Praktikum anpassen und erweitern. Denken Sie daran, die spezifischen Anforderungen Ihrer Universität oder Ihres Studiengangs zu beachten. Ein Inhaltsverzeichnis zum Praktikum könnte ungefähr so aussehen: '
+              -
+                type: set
+                attrs:
+                  id: lnyowscy
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/aufbau-praktikumsbericht.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: hard_break
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0)'
+                          hex: '#000'
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 0
         columns_per_row: 0
+        responsive_columns: 0
     is_full: false
     type: add_section
     enabled: true
@@ -1715,7 +2330,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697810817
+updated_at: 1697812737
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
