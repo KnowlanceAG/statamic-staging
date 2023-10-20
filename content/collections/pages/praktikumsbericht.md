@@ -137,7 +137,7 @@ replicator:
     columns_replicator:
       -
         id: lnyq2a56
-        single_col: false
+        single_col: true
         grid:
           -
             id: JK3tWCpR
@@ -865,16 +865,17 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
   -
     id: lnyq2ehe
     columns_replicator:
       -
         id: lnyq2zhi
-        single_col: false
+        single_col: true
         grid:
           -
             id: JK3tWCpR
@@ -884,16 +885,18 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: lnyq1cl3
     columns_replicator:
       -
         id: lnyq1dmh
-        single_col: false
+        single_col: true
         grid:
           -
             id: JK3tWCpR
@@ -1517,7 +1520,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#000000'
+    bg_color: '#FFFFFF'
     border: false
     type: add_section
     enabled: true
@@ -2166,7 +2169,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697813176
+updated_at: 1697813245
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
