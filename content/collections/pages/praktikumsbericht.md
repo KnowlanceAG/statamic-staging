@@ -1,7 +1,7 @@
 ---
 id: bd3da55a-e707-4ec0-bf7c-4fcd9d8ac8b5
 blueprint: pages
-title: 'Präsentationen (Dupliziert)'
+title: Praktikumsbericht
 teaser:
   -
     type: heading
@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Präsentationen erstellen lassen'
+        text: 'Praktikumsbericht schreiben lassen'
   -
     type: heading
     attrs:
@@ -35,7 +35,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Professionelle Hilfe von akademischen Ghostwritern bei Ihrer Präsentation'
+        text: 'Professionelle Hilfe von akademischen Ghostwritern bei Ihrem Praktikumsbericht'
   -
     type: set
     attrs:
@@ -1575,19 +1575,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Was sind Präsentationen?'
+                    text: 'Was ist ein Praktikumsbericht?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Unter einer Präsentation oder Referat versteht man das Vortragen und die Visualisierung von Ergebnissen, die man aus der wissenschaftlichen Beschäftigung mit Dokumenten, Sachen, Themen und Problemfeldern gewonnen hat. Die Art der Präsentation (PowerPoint-Präsentation, Vortrag mit Handout, Folien, usw.) wählt der Präsentator selbst oder je nach Vorgabe in Abstimmung auf die Zielgruppe und Situation. Ein schriftliches Manuskript gibt dem Referenten Sicherheit beim Vortrag, hilft ihm, den Roten Faden in seinem Vortrag zu bewahren und schützt ihn davor, wesentliche Aspekte zu vergessen. Neben dem gut vorbereiteten Inhalt spielen Gestik, Mimik, Stimme und Sprache des Sprechers für das Gelingen der Präsentation eine wichtige Rolle bei den Zuhörern.'
+                    text: 'Ein Praktikumsbericht ist eine ausführliche schriftliche Zusammenfassung Ihrer Erfahrungen während eines Praktikums, das Sie im Rahmen Ihres Studiums oder Ihrer schulischen Ausbildung absolviert haben. Die inhaltlichen und formalen Anforderungen an Praktikumsberichte können je nach Bildungseinrichtung unterschiedlich sein. Oft gibt es genaue Vorgaben von Universitäten oder Schulen, wie die Berichte in Ihrer Praktikumsmappe zu gestalten sind.'
               -
                 type: heading
                 attrs:
@@ -1595,7 +1589,31 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Genau diese Fehler sollten Sie bei einer Präsentation vermeiden'
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(16, 50, 76)'
+                          hex: '#000'
+                    text: 'Der Praktikumsbericht im Studium'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Praktikumsbericht im Studium ist eine wissenschaftliche Arbeit, in der Sie über Ihre Praktikumsauswahl, persönlichen Erfahrungen und Tätigkeiten berichten. Anders als in der Schule wird der Praktikumsbericht im Studium ausführlicher geschrieben. Im Studium kann ein Praktikum, abhängig von der Fachrichtung, 1-2 Semester dauern. In der Regel findet das Praxisjahr im 5. Semester eines Bachelorstudiengangs statt. Daher variiert die Seitenanzahl eines Praktikumsberichts je nach den spezifischen Anforderungen und Vorgaben der Universität oder des Studiengangs.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zum Beispiel im Medizin Studium muss ein Praktikumsbericht 20-30 Seiten umfassen mit dem Fokus auf klinische Erfahrungen. '
               -
                 type: heading
                 attrs:
@@ -1605,1342 +1623,19 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Inhalt für PowerPoint-Präsentation:'
-              -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
+                        type: bold
                       -
-                        type: table_cell
+                        type: textAlign
                         attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Fehler
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'So sollte es sein…'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Texte eins zu eins übernehmen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Zusammenfassen und in Stichpunkten wiedergeben'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Wenige/keine Bilder oder Grafiken einfügen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Grafiken selbst erstellen, Bilder einfügen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Folien voll beschriften'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Auf andere Folien übertragen, in kurzen und verständlichen Stichpunkten wiedergeben'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Zu buntes PowerPoint Layout erstellen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Schlichtes passendes Präsentationsdesign zum ausgesuchten Thema erstellen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Zu viele Folien verwenden'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Bei 15 Minutigen Vortrag à 25 Folienanzahl ausreichend'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Folien unsystematisch anordnen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Die Struktur der Folien einhalten, '
-                              -
-                                type: hard_break
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'die Gliederung sinnvoll aufbauen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Stilmittel: inhaltliche, grammatikalische Fehler'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Gute, verständliche Formulierungen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Abgehackten Übergänge'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Fließende und passende Inhalts-Übergänge einpflegen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Langweilige Folien gestalten, Publikum nicht einbinden'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Aufmerksamkeit des Publikums erregen, kreative und abwechslungsreiche Folien gestalten (Besonders in der Einleitung),'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Zeitmangel:'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: ' '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'mehr oder weniger als die vorgegebene Zeit vortragen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Vorgegebene Zeit einhalten (nicht mehr oder weniger)'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: var(--tw-prose-bold)
                           hex: '#000'
-                    text: 'Körpersprache & Vortragsweise:'
-              -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Fehler
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'So sollte es sein…'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Häufige Handbewegungen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Stift oder Karteikarten in die Hand nehmen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Blick auf das Visualisierungstool versperren'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Still bleiben, 1-3 mal Platz wechseln,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: 'Folienübergänge mit Fernbedienung umschalten'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Füllwörter wie ehm, also, quasi etc. benutzen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Ein- und ausatmen, kurz warten und weitersprechen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Zu schnelles oder zu langsames Sprechen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Mitte finden, daher vorher oft den Vortrag proben und Feedback von einer dritten Person einholen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Inhalt stumpf auswendig lernen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Inhalt verstehen und verarbeiten,'
-                              -
-                                type: hard_break
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'wenn nötig Karteikarten oder Notizen von PowerPoint benutzen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Erst am Tag vorher auf die Präsentation vorbereiten'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Mindestens eine Woche vorher lernen vorzutragen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Zu lange und komplexe Sätze'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Kurze und verständliche Sätze bilden'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Zu durcheinander über die Inhalte sprechen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Gliederungspunkte folgen,'
-                              -
-                                type: hard_break
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'roten Faden finden'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Umgangssprache verwenden'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'In wissenschaftlicher Sprache sprechen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Zu laut oder zu leise sprechen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'An passenden Stellen den Stimmenton höher halten (Besonders am Anfang des Vortrags)'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Bilder/Grafiken zu schnell vortragen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Bilder/Grafiken mit einem Stab zeigen, '
-                              -
-                                type: hard_break
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'alle Fakten und Zahlen in einer Infografik erklären'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Fazit zu kurz formulieren'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Gute Schlussfolgerung formulieren'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Überflüssige Inhalte einpflegen'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Über wichtigen Punkte sprechen,'
-                              -
-                                type: hard_break
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Empfehlung: Handout erstellen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Inhalte auf den Folien überspringen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Auf alle Folienpunkte eingehen, auch wenn die Zeit nicht ausreicht'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Nichts ohne Präsentationen'
+                    text: Praktikumsbeispiel
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Präsentationen von Inhalten sind in keinem Bereich des gesellschaftlichen Lebens wegzudenken. Ob in Schule, Studium, Beruf oder auch in der Freizeit, Ergebnisse werden in Form von Vorträgen zielgruppenorientiert transportiert. An der Qualität der Präsentation wird die Kompetenz des Referenten gemessen. Wer in Vorträgen authentisch auftritt, sich rhetorisch geschult zeigt und inhaltlich überzeugt, kann beruflichen Erfolg verzeichnen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
                 content:
                   -
                     type: text
@@ -2948,21 +1643,65 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
-                    text: 'Einige unserer Blogartikel zum Thema '
+                          align: start
+                    text: 'Ein Medizinstudent absolviert ein klinisches Praktikum in einer Klinik, in dem er/sie Patienten betreut und an diagnostischen Verfahren teilnimmt. Der Bericht sollte Fallstudien, ärztliche Einschätzungen und Reflexionen über die klinischen Erfahrungen des Studenten enthalten.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: 'Präsentation erstellen lassen'
+                    text: 'Trotz Ihrer Notizen können Sie Schwierigkeiten beim Verfassen Ihres Praktikumsberichts haben? Hier können Sie von einem Ghostwriter in Ihrem Fachgebiet eine Mustervorlage für Ihr Praktikumsbericht schreiben lassen. Insbesondere können im Bereich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtung/medizin
+                          target: null
+                          rel: null
+                    text: 'Medizin Ghostwriter'
+                  -
+                    type: text
+                    text: ' mit ihrer umfangreichen praktischen Erfahrung und ihrem Fachwissen wertvolle Unterstützung bei der Erstellung Ihres Praktikumsberichts bieten. '
               -
-                type: set
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lnyofrnh
+        single_col: false
+        grid:
+          -
+            id: zvp1I4lN
+            bard:
+              -
+                type: heading
                 attrs:
-                  id: s5Rq2p8v
-                  values:
-                    type: blog_entries
-                    entries:
-                      - 8778439c-ea07-4542-9287-cb87e6074f6a
-                      - e67b3f8a-aa07-4834-a747-608fdf37f8be
-                      - 6bd7bc4f-12a8-43c9-8ba1-5911ca389cb7
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Aufbau: Praktikumsbericht'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Der Aufbau eines Praktikumsberichts im Studium ist im Prinzip in jedem Praktikumsbericht gleich.'
             show_as_card: false
         type: row
         enabled: true
@@ -2974,8 +1713,8 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692709949
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1697810810
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
@@ -2989,7 +1728,7 @@ og_title: 'Professionelle Präsentation erstellen lassen • GWriters'
 og_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Präsentationen erstellen lassen'
+alternative_page_title: 'Praktikumsbericht schreiben lassen'
 arbeitsgruppe: a_sonstige_arbeiten
 breadcrumbs_active: true
 ---
