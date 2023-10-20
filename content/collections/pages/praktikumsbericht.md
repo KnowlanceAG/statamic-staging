@@ -1673,7 +1673,7 @@ replicator:
         columns_per_row: 0
       -
         id: lnyofrnh
-        single_col: true
+        single_col: false
         grid:
           -
             id: zvp1I4lN
@@ -2322,14 +2322,16 @@ replicator:
         enabled: true
         columns_per_row: 2
         responsive_columns: 0
-    is_full: false
+    is_full: true
     type: add_section
     enabled: true
     remove_spacing: false
     border: false
+    bg_toggle: false
+    bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697812804
+updated_at: 1697812843
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
