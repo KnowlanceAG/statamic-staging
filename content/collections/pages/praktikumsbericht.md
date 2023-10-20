@@ -133,14 +133,14 @@ teaser:
         text: '##phone##'
 replicator:
   -
-    id: avAinKWJ
+    id: lnyq2913
     columns_replicator:
       -
-        id: JrfmXzBe
-        single_col: true
+        id: lnyq2a56
+        single_col: false
         grid:
           -
-            id: QwxHXHgK
+            id: JK3tWCpR
             bard:
               -
                 type: paragraph
@@ -864,194 +864,39 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lnyq2ehe
+    columns_replicator:
       -
-        id: fr7dmXcO
-        columns_per_row: 3
-        single_col: true
+        id: lnyq2zhi
+        single_col: false
         grid:
           -
-            id: I9JpvncE
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          target: null
-                          rel: null
-                    text: 'MAXQDA Auswertung'
-            show_as_card: false
-          -
-            id: YcbmRmx1
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/formatierung
-                          target: null
-                          rel: null
-                    text: Formatierung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
-            show_as_card: false
-          -
-            id: 8AbrNZZe
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/uebersetzung
-                          target: null
-                          rel: null
-                    text: Übersetzung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
+            id: JK3tWCpR
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lnyq1cl3
+    columns_replicator:
       -
-        id: xCGViusc
-        single_col: true
+        id: lnyq1dmh
+        single_col: false
         grid:
           -
-            id: d7ECnFrx
+            id: JK3tWCpR
             bard:
               -
                 type: heading
@@ -1599,7 +1444,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(16, 50, 76)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der Praktikumsbericht im Studium'
               -
@@ -1631,7 +1476,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: var(--tw-prose-bold)
+                          color: '#000!important'
                           hex: '#000'
                     text: Praktikumsbeispiel
               -
@@ -1664,15 +1509,23 @@ replicator:
                   -
                     type: text
                     text: ' mit ihrer umfangreichen praktischen Erfahrung und ihrem Fachwissen wertvolle Unterstützung bei der Erstellung Ihres Praktikumsberichts bieten. '
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#000000'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: avAinKWJ
+    columns_replicator:
       -
-        id: lnyofrnh
+        id: lnypylk2
         single_col: false
         grid:
           -
@@ -1699,22 +1552,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(55, 65, 81)'
+                          color: '#000!important'
                           hex: '#000'
-                    text: 'Der Aufbau eines Praktikumsberichts im Studium ist im Prinzip in jedem Praktikumsbericht gleich. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-body)
-                          hex: '#000'
-                    text: 'Die Struktur von Praktikumsberichten im Studium ist im Wesentlichen standardisiert, ähnlich wie bei anderen wissenschaftlichen Arbeiten. Beginnend mit dem Deckblatt folgt ein klar definierter Aufbau, der Ihnen hilft, sich auf die Themen zu konzentrieren und Ihren Praktikumsbericht zu verfassen. Indem Sie sich an folgendem Schema orientieren, legen Sie die Grundstruktur für Ihren Praktikumsbericht fest, sodass Sie ohne größere Hindernisse schreiben können.'
+                    text: 'Der Aufbau eines Praktikumsberichts im Studium ist im Prinzip in jedem Praktikumsbericht gleich. Die Struktur von Praktikumsberichten im Studium ist im Wesentlichen standardisiert, ähnlich wie bei anderen wissenschaftlichen Arbeiten. Beginnend mit dem Deckblatt folgt ein klar definierter Aufbau, der Ihnen hilft, sich auf die Themen zu konzentrieren und Ihren Praktikumsbericht zu verfassen. Indem Sie sich an folgendem Schema orientieren, legen Sie die Grundstruktur für Ihren Praktikumsbericht fest, sodass Sie ohne größere Hindernisse schreiben können.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lnyofrnh
+        single_col: false
+        grid:
+          -
+            id: zvp1I4lN
+            bard:
               -
                 type: paragraph
                 content:
@@ -2266,13 +2118,11 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Der genaue Aufbau kann unterschiedlich sein, und es ist wichtig, sich an die spezifischen Vorgaben Ihrer Universität oder Ihres Studiengangs zu halten. '
+                    text: 'Der genaue Aufbau kann nters, und es ist wichtig, sich an die spezifischen Vorgaben Ihrer Universität oder Ihres Studiengangs zu halten. '
             show_as_card: false
           -
-            id: lnyoy50y
+            id: lnypzgiw
             bard:
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
@@ -2286,13 +2136,13 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Sie können die Inhalte der einzelnen Abschnitte entsprechend Ihrem eigenen Praktikum anpassen und erweitern. Denken Sie daran, die spezifischen Anforderungen Ihrer Universität oder Ihres Studiengangs zu beachten. Ein Inhaltsverzeichnis zum Praktikum könnte ungefähr so aussehen: '
+                    text: 'Sie können die Inhalte der einzelnen Abschnitte entsprechend Ihrem eigenen Praktikum anpassen und erweitern. Denken Sie daran, die spezifischen Anforderungen Ihrer Universität oder Ihres Studiengangs zu beachten. Ein Inhaltsverzeichnis zum Praktikum könnte ungefähr so aussehen:'
               -
                 type: set
                 attrs:
-                  id: lnyowscy
+                  id: lnypzn80
                   values:
                     type: floating_img
                     dateien:
@@ -2302,21 +2152,6 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
-                content:
-                  -
-                    type: hard_break
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0)'
-                          hex: '#000'
             show_as_card: false
         type: row
         enabled: true
@@ -2331,7 +2166,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697812843
+updated_at: 1697813176
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
