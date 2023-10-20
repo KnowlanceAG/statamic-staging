@@ -1,6 +1,5 @@
 ---
 id: bd3da55a-e707-4ec0-bf7c-4fcd9d8ac8b5
-published: false
 blueprint: pages
 title: Praktikumsbericht
 teaser:
@@ -2330,7 +2329,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697812737
+updated_at: 1697812756
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
