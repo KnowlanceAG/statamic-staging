@@ -384,17 +384,21 @@ replicator:
             bard:
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
+              -
+                type: set
+                attrs:
+                  id: HpVEtHiI
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/security.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: XQF2ntiK
+                  values:
+                    type: spacer
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -402,68 +406,52 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
+                        type: bold
+                    text: 'Datenschutz & 100% Anonymität'
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'Unsere Agentur '
+                  -
+                    type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          target: null
-                          rel: null
-                    text: 'MAXQDA Auswertung'
+                        type: bold
+                    text: 'garantiert Diskretion & Ihre Anonymität '
+                  -
+                    type: text
+                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+              -
+                type: set
+                attrs:
+                  id: 3TjpGiRB
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
           -
             id: lnyqatcj
             bard:
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
+              -
+                type: set
+                attrs:
+                  id: 9Ej3bN7F
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: BM3tP1rh
+                  values:
+                    type: spacer
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -471,69 +459,50 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/formatierung
-                          target: null
-                          rel: null
-                    text: Formatierung
+                        type: bold
+                    text: 'Kostenlose Änderung nach Ihrem Feedback'
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                  -
+                    type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
+                        type: bold
+                    text: 'Sie zufrieden sind!'
+              -
+                type: set
+                attrs:
+                  id: budi4yes
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
             show_as_card: false
           -
             id: lnyqb41d
             bard:
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/uebersetzung
-                          target: null
-                          rel: null
-                    text: Übersetzung
+              -
+                type: set
+                attrs:
+                  id: tQfBiRIf
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/stopwatch.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: YV5zQOGW
+                  values:
+                    type: spacer
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -541,6 +510,8 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: start
@@ -549,13 +520,85 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
+                    text: 'Schnelle & pünktliche Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
                       -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
+                        type: bold
+                    text: 'garantieren die pünktliche Lieferung'
+                  -
+                    type: text
+                    text: ' Ihrer Ausarbeitung! Wir liefern Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+              -
+                type: set
+                attrs:
+                  id: OBgNDGrJ
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lo3bw0je
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  id: TpJE3MXd
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/magistrate.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: 3dMSpe4A
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Top-Qualität von Experten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademischen Experten, die sonst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' arbeiten, verfassen Ihre Mustervorlage. So garantieren wir die richtige Qualität Ihrer Ausarbeitung.'
+              -
+                type: set
+                attrs:
+                  id: ImFfLNVU
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2175,7 +2218,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698091492
+updated_at: 1698091612
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
