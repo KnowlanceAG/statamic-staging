@@ -148,33 +148,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere akademischen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ' können auf einen breiten Erfahrungsschatz beim Erstellen von Präsentationen zurückgreifen. Unsere '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting/ghostwriting-agentur
-                          target: null
-                          rel: null
-                    text: Ghostwriting-Agentur
-                  -
-                    type: text
-                    text: ' arbeitet mit qualifizierten Autoren zusammen. Sie erstellen tagtäglich Mustervorlagen für Präsentationen und Präsentationslayouts zu verschiedenen Aufgaben. Ob es um die Präsentation von Geschäftsergebnissen in Vertriebsveranstaltungen, Geschäftsideen, Forschungsergebnissen aus einer wissenschaftlichen Arbeit oder Literatur geht, die Ghostwriter von GWriters stehen Ihnen mit professioneller Unterstützung bei dem Erstellen Ihrer Präsentation zur Seite. '
+                    text: 'Unsere professionellen Ghostwriter verfügen über umfassende Erfahrung im Verfassen von Praktikumsberichten. In unserer Ghostwriting-Agentur arbeiten wir mit qualifizierten Autoren zusammen, die sich täglich mit der Erstellung von Praktikumsberichten und deren passender Formatierung für unterschiedliche Studienrichtungen und Fachbereiche beschäftigen. Ganz gleich, ob es darum geht, Ihre praktischen Erfahrungen zu präsentieren, Ihr Praktikum zu reflektieren oder Ihren Bericht zu strukturieren – unsere Ghostwriter von GWriters stehen Ihnen mit kompetenter Unterstützung bei der Verfassung Ihres Praktikumsberichts zur Seite. Wir unterstützen Sie dabei, Ihre Praktikumserfahrungen und Praktikumsnotizen in einen klar strukturierten und aussagekräftigen Bericht zu überführen, der den Anforderungen Ihrer Universität oder Ihres Studiengangs gerecht wird.'
               -
                 type: set
                 attrs:
@@ -184,46 +158,6 @@ replicator:
                     custom_sidebar_placement: 'on'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zudem können auch Präsentationsentwürfe durch eine professionelle Beratung ergänzt oder überarbeitet werden. Die Visualisierung einer wissenschaftlichen Folienpräsentation sollte verständlich sein und mit wichtigen Inhalten sowie passenden Grafikformaten versehen werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'In der heutigen Arbeits- und Studienwelt laufen die Kommunikation und wichtige Übertragungen fast nur noch über digitalen Kanäle ab. Die Visualisierung der Zusammenfassungen von Ergebnissen, Planungen oder Analysen werden kaum noch persönlich über Flipcharts oder Pinnwände übertragen, sondern über unterschiedlichen Tools wie PowerPoint, per Zoom oder andere digitale Konferenzplattformen publiziert.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Auch wenn die digitale Darstellung von zusammengefassten Daten sich einfach anhört, leiden viele Präsentationsersteller unter Zeitmangel, weil sie Schwierigkeiten bei der Zusammenführung von Daten haben. Besonders wenn eine Vielzahl wichtiger Informationen kurz und knapp zusammengefasst werden muss.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "Daher verschaffen sich einige Unternehmen oder Studenten eine umfassende Hilfe, indem sie Musterpräsentation von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre PowerPoint-Präsentation erstellen lassen."
               -
                 type: paragraph
                 content:
@@ -2341,7 +2275,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1697839092
+updated_at: 1698087472
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
