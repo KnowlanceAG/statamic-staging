@@ -905,6 +905,60 @@ replicator:
         enabled: true
         responsive_columns: 0
     remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+  -
+    id: lo3co8yu
+    columns_replicator:
+      -
+        id: lo3coak1
+        single_col: true
+        grid:
+          -
+            id: Chl1xK21
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Der Einsatz von Ghostwritern beim Erstellen von Praktikumsberichten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die wichtigste Voraussetzung für das Verfassen eines Praktikumsberichts ist, dass man über Erfahrungen im Schreiben wissenschaftlicher Arbeiten verfügt, wie beispielsweise Hausarbeiten oder Seminararbeiten. Oft folgt der Aufbau eines Praktikumsberichts ähnlichen Strukturen wie diesen Arbeiten. Wenn Sie mit diesen schriftlichen Anforderungen vertraut sind, wird es Ihnen leichter fallen, einen erfolgreichen Praktikumsbericht zu erstellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie jedoch Unterstützung beim Verfassen Ihres Praktikumsberichts benötigen und eine Mustervorlage in Betracht ziehen, können Sie uns gerne eine unverbindliche Anfrage senden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In einem Praktikumsbericht ist das Zitieren unerlässlich. Es erfordert die Verwendung wissenschaftlicher Quellen, um Ihre Aussagen zu unterstützen und Ihre Berichterstattung fundiert zu gestalten. Wenn Sie beispielsweise Situationen beschreiben, die bereits in den Medien oder in der wissenschaftlichen Literatur behandelt wurden, sollten Sie dies im Praktikumsbericht zitieren und belegen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ebenso ist es wichtig, das Unternehmen oder die Organisation vorzustellen und auf Quellen zu verweisen, um die Informationen zu verifizieren. Manchmal fordern Universitäten auch die Präsentation von Praktikumsberichten. In solchen Fällen können unsere Ghostwriter einen Entwurf für Ihre Präsentation erstellen und Sie bei der Vorbereitung auf den Präsentationsprozess unterstützen. Sie bieten Ihnen Tipps und Tricks für eine erfolgreiche Präsentation Ihrer Arbeit.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
@@ -985,11 +1039,11 @@ replicator:
     bg_toggle: false
     bg_color: '#F9F9F9'
   -
-    id: lo3clfkv
+    id: lo3cpfza
     columns_replicator:
       -
-        id: lo3cmcrd
-        single_col: true
+        id: lo3cph2a
+        single_col: false
         grid:
           -
             id: Chl1xK21
@@ -1001,31 +1055,95 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Einsatz von Ghostwritern beim Erstellen von Praktikumsberichten'
+                    text: 'Was ist ein Praktikumsbericht?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die wichtigste Voraussetzung für das Verfassen eines Praktikumsberichts ist, dass man über Erfahrungen im Schreiben wissenschaftlicher Arbeiten verfügt, wie beispielsweise Hausarbeiten oder Seminararbeiten. Oft folgt der Aufbau eines Praktikumsberichts ähnlichen Strukturen wie diesen Arbeiten. Wenn Sie mit diesen schriftlichen Anforderungen vertraut sind, wird es Ihnen leichter fallen, einen erfolgreichen Praktikumsbericht zu erstellen.'
+                    text: 'Ein Praktikumsbericht ist eine ausführliche schriftliche Zusammenfassung Ihrer Erfahrungen während eines Praktikums, das Sie im Rahmen Ihres Studiums oder Ihrer schulischen Ausbildung absolviert haben. Die inhaltlichen und formalen Anforderungen an Praktikumsberichte können je nach Bildungseinrichtung unterschiedlich sein. Oft gibt es genaue Vorgaben von Universitäten oder Schulen, wie die Berichte in Ihrer Praktikumsmappe zu gestalten sind. Bitte vergessen Sie nicht, Ihr Praktikumszeugnis der Praktikumsmappe beizufügen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der Praktikumsbericht im Studium'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Wenn Sie jedoch Unterstützung beim Verfassen Ihres Praktikumsberichts benötigen und eine Mustervorlage in Betracht ziehen, können Sie uns gerne eine unverbindliche Anfrage senden.'
+                    text: 'Ein Praktikumsbericht im Studium ist eine wissenschaftliche Arbeit, in der Sie über Ihre Praktikumsauswahl, persönlichen Erfahrungen und Tätigkeiten berichten. Anders als in der Schule wird der Praktikumsbericht im Studium ausführlicher geschrieben. Im Studium kann ein Praktikum, abhängig von der Fachrichtung, 1-2 Semester dauern. In der Regel findet das Praxisjahr im 5. Semester eines Bachelorstudiengangs statt. Daher variiert die Seitenanzahl eines Praktikumsberichts je nach den spezifischen Anforderungen und Vorgaben der Universität oder des Studiengangs.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In einem Praktikumsbericht ist das Zitieren unerlässlich. Es erfordert die Verwendung wissenschaftlicher Quellen, um Ihre Aussagen zu unterstützen und Ihre Berichterstattung fundiert zu gestalten. Wenn Sie beispielsweise Situationen beschreiben, die bereits in den Medien oder in der wissenschaftlichen Literatur behandelt wurden, sollten Sie dies im Praktikumsbericht zitieren und belegen'
+                    text: 'Zum Beispiel im Medizin Studium muss ein Praktikumsbericht 20-30 Seiten umfassen mit dem Fokus auf klinische Erfahrungen. '
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Praktikumsbeispiel
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ebenso ist es wichtig, das Unternehmen oder die Organisation vorzustellen und auf Quellen zu verweisen, um die Informationen zu verifizieren. Manchmal fordern Universitäten auch die Präsentation von Praktikumsberichten. In solchen Fällen können unsere Ghostwriter einen Entwurf für Ihre Präsentation erstellen und Sie bei der Vorbereitung auf den Präsentationsprozess unterstützen. Sie bieten Ihnen Tipps und Tricks für eine erfolgreiche Präsentation Ihrer Arbeit.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Ein Medizinstudent absolviert ein klinisches Praktikum in einer Klinik, in dem er/sie Patienten betreut und an diagnostischen Verfahren teilnimmt. Der Bericht sollte Fallstudien, ärztliche Einschätzungen und Reflexionen über die klinischen Erfahrungen des Studenten enthalten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Trotz Ihrer Notizen können Sie Schwierigkeiten beim Verfassen Ihres Praktikumsberichts haben? Hier können Sie von einem Ghostwriter in Ihrem Fachgebiet eine Mustervorlage für Ihr Praktikumsbericht schreiben lassen. Insbesondere können im Bereich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtung/medizin
+                          target: null
+                          rel: null
+                    text: 'Medizin Ghostwriter'
+                  -
+                    type: text
+                    text: ' mit ihrer umfangreichen praktischen Erfahrung und ihrem Fachwissen wertvolle Unterstützung bei der Erstellung Ihres Praktikumsberichts bieten. '
             show_as_card: false
         type: row
         enabled: true
@@ -1565,98 +1683,6 @@ replicator:
                 type: heading
                 attrs:
                   level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Was ist ein Praktikumsbericht?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Praktikumsbericht ist eine ausführliche schriftliche Zusammenfassung Ihrer Erfahrungen während eines Praktikums, das Sie im Rahmen Ihres Studiums oder Ihrer schulischen Ausbildung absolviert haben. Die inhaltlichen und formalen Anforderungen an Praktikumsberichte können je nach Bildungseinrichtung unterschiedlich sein. Oft gibt es genaue Vorgaben von Universitäten oder Schulen, wie die Berichte in Ihrer Praktikumsmappe zu gestalten sind. Bitte vergessen Sie nicht, Ihr Praktikumszeugnis der Praktikumsmappe beizufügen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Der Praktikumsbericht im Studium'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Praktikumsbericht im Studium ist eine wissenschaftliche Arbeit, in der Sie über Ihre Praktikumsauswahl, persönlichen Erfahrungen und Tätigkeiten berichten. Anders als in der Schule wird der Praktikumsbericht im Studium ausführlicher geschrieben. Im Studium kann ein Praktikum, abhängig von der Fachrichtung, 1-2 Semester dauern. In der Regel findet das Praxisjahr im 5. Semester eines Bachelorstudiengangs statt. Daher variiert die Seitenanzahl eines Praktikumsberichts je nach den spezifischen Anforderungen und Vorgaben der Universität oder des Studiengangs.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zum Beispiel im Medizin Studium muss ein Praktikumsbericht 20-30 Seiten umfassen mit dem Fokus auf klinische Erfahrungen. '
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Praktikumsbeispiel
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: 'Ein Medizinstudent absolviert ein klinisches Praktikum in einer Klinik, in dem er/sie Patienten betreut und an diagnostischen Verfahren teilnimmt. Der Bericht sollte Fallstudien, ärztliche Einschätzungen und Reflexionen über die klinischen Erfahrungen des Studenten enthalten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Trotz Ihrer Notizen können Sie Schwierigkeiten beim Verfassen Ihres Praktikumsberichts haben? Hier können Sie von einem Ghostwriter in Ihrem Fachgebiet eine Mustervorlage für Ihr Praktikumsbericht schreiben lassen. Insbesondere können im Bereich '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtung/medizin
-                          target: null
-                          rel: null
-                    text: 'Medizin Ghostwriter'
-                  -
-                    type: text
-                    text: ' mit ihrer umfangreichen praktischen Erfahrung und ihrem Fachwissen wertvolle Unterstützung bei der Erstellung Ihres Praktikumsberichts bieten. '
             show_as_card: false
         type: row
         enabled: true
@@ -1665,7 +1691,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#FFFFFF'
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
@@ -2309,7 +2335,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698092833
+updated_at: 1698092978
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
