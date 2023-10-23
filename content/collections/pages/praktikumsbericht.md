@@ -352,6 +352,27 @@ replicator:
                       -
                         type: bold
                     text: ' an unsere professionelle Agentur schicken. Unsere Experten melden sich innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+  -
+    id: lnyq2ehe
+    columns_replicator:
+      -
+        id: lo3cd1yh
+        single_col: false
+        grid:
+          -
+            id: da2j44SX
+            bard:
               -
                 type: heading
                 attrs:
@@ -368,15 +389,6 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    border: false
-    type: add_section
-    enabled: true
-    bg_toggle: false
-  -
-    id: lnyq2ehe
-    columns_replicator:
       -
         id: lnyq2zhi
         single_col: true
@@ -2302,7 +2314,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698092331
+updated_at: 1698092401
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
