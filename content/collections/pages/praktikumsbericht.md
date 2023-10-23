@@ -2573,18 +2573,18 @@ replicator:
     bg_toggle: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698094290
+updated_at: 1698094352
 template: default
-meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
-meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'Professionelles Praktikumsbericht schreiben lassen • GWriters'
+meta_description: 'Praktikumsbericht schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-og_title: 'Professionelle Präsentation erstellen lassen • GWriters'
-og_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_title: 'Professionelles Praktikumsbericht schreiben lassen • GWriters'
+og_description: 'Praktikumsbericht schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Praktikumsbericht schreiben lassen'
