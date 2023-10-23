@@ -3,7 +3,7 @@ honeypot: emails
 email:
   -
     id: 7QFEyPWd
-    to: service@gwriters.de
+    to: sarin@uscreen.de
     subject: Kundenanfrage
     html: mail-templates/mail-default_anfrage
     from: service@gwriters.de
