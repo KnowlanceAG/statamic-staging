@@ -359,7 +359,10 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen:'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ihre Vorteile im Überblick'
             show_as_card: false
         type: row
         enabled: true
@@ -935,6 +938,87 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: ' besonders wichtig für unsere Agentur ist, werden auch alle Daten vom Auftraggeber im Anschluss an den Auftrag und die Bereitstellung des wissenschaftlichen Ergebnisses gelöscht.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Leistungen:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lo3c8mug
+    columns_replicator:
+      -
+        id: lo3c8o88
+        single_col: false
+        grid:
+          -
+            id: Chl1xK21
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  id: y1UJe9nz
+                  values:
+                    type: leistungen_uebersicht_4_spaltig
+                    grid:
+                      -
+                        id: MMCrtzgW
+                        image:
+                          - logo-startseite/icon-ghostwriting.svg
+                        headline: GHOSTWRITING
+                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität &amp; Plagiate.'
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                      -
+                        id: yRAG8kQU
+                        image:
+                          - logo-startseite/icon-lektorat.svg
+                        headline: LEKTORAT
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche &amp; fachliche Korrektheit prüfen.'
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                      -
+                        id: lhyUFf1W
+                        image:
+                          - logo-startseite/icon-plagiat.svg
+                        headline: PLAGIATSPRÜFUNG
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus &amp; beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte.'
+                        link:
+                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
+                      -
+                        id: anP59cCr
+                        image:
+                          - logo-startseite/icon-uebersetzung.svg
+                        headline: ÜBERSETZUNG
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        link:
+                          - 7cad538c-ad74-4617-825e-bbac46ebf310
+              -
+                type: set
+                attrs:
+                  id: jvWnKZZT
+                  values:
+                    type: button
+                    button_text: 'ALLE LEISTUNGEN IM ÜBERBLICK'
+                    color: '#3F3F3F'
+                    button_link: 'entry::849140c8-c582-4340-a2bc-446126149c9f'
+                    spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2218,7 +2302,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698091612
+updated_at: 1698092193
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
