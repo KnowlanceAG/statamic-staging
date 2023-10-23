@@ -134,6 +134,118 @@ teaser:
         text: '##phone##'
 replicator:
   -
+    id: lo3bk478
+    columns_replicator:
+      -
+        id: lo3bk5kd
+        single_col: false
+        grid:
+          -
+            id: Chl1xK21
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lo3bkaco
+                  values:
+                    type: insert_html
+                    html: |-
+                      <p style="font-size:18px" align="center">
+                      Benötigen Sie Hilfe beim Verfassen Ihres Praktikumsberichts? Bei der Ghostwriting-Agentur GWriters finden Sie den passenden <b>akademischen Ghostwriter für Ihren Praktikumsbericht</b>, der Ihren individuellen Anforderungen gerecht wird
+                      </p>
+              -
+                type: set
+                attrs:
+                  id: lo3bknci
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lo3bp7uw
+    columns_replicator:
+      -
+        id: lo3bp9cb
+        columns_per_row: 1
+        single_col: false
+        grid:
+          -
+            id: Chl1xK21
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Bachelorarbeit Ghostwriter-Erfahrungen unserer Kunden'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+            show_as_card: false
+          -
+            id: lo3bpkve
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lo3bpp0z
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: lnyq2913
     columns_replicator:
       -
@@ -144,11 +256,57 @@ replicator:
             id: JK3tWCpR
             bard:
               -
+                type: set
+                attrs:
+                  id: lo3bqujv
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unsere professionellen Ghostwriter verfügen über umfassende Erfahrung im Verfassen von Praktikumsberichten. In unserer Ghostwriting-Agentur arbeiten wir mit qualifizierten Autoren zusammen, die sich täglich mit der Erstellung von Praktikumsberichten und deren passender Formatierung für unterschiedliche Studienrichtungen und Fachbereiche beschäftigen. Ganz gleich, ob es darum geht, Ihre praktischen Erfahrungen zu präsentieren, Ihr Praktikum zu reflektieren oder Ihren Bericht zu strukturieren – unsere Ghostwriter von GWriters stehen Ihnen mit kompetenter Unterstützung bei der Verfassung Ihres Praktikumsberichts zur Seite. Wir unterstützen Sie dabei, Ihre Praktikumserfahrungen und Praktikumsnotizen in einen klar strukturierten und aussagekräftigen Bericht zu überführen, der den Anforderungen Ihrer Universität oder Ihres Studiengangs gerecht wird.'
+                    text: 'Unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'professionellen Ghostwriter'
+                  -
+                    type: text
+                    text: ' verfügen über umfassende Erfahrung im Verfassen von Praktikumsberichten. In unserer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: Ghostwriting-Agentur
+                  -
+                    type: text
+                    text: ' arbeiten wir mit qualifizierten Autoren zusammen, die sich täglich mit der Erstellung von Praktikumsberichten und deren passender Formatierung für unterschiedliche Studienrichtungen und Fachbereiche beschäftigen. Ganz gleich, ob es darum geht, Ihre praktischen Erfahrungen zu präsentieren, Ihr Praktikum zu reflektieren oder Ihren Bericht zu strukturieren – unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          target: null
+                          rel: null
+                    text: 'Ghostwriter von GWriters'
+                  -
+                    type: text
+                    text: ' stehen Ihnen mit kompetenter Unterstützung bei der Verfassung Ihres Praktikumsberichts zur Seite. Wir unterstützen Sie dabei, Ihre Praktikumserfahrungen und Praktikumsnotizen in einen klar strukturierten und aussagekräftigen Bericht zu überführen, der den Anforderungen Ihrer Universität oder Ihres Studiengangs gerecht wird.'
               -
                 type: set
                 attrs:
@@ -158,6 +316,16 @@ replicator:
                     custom_sidebar_placement: 'on'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Viele Studierende beschränken sich während ihres Praktikums oft auf das Anfertigen von Notizen und finden es anschließend schwierig, diese Informationen in eine wissenschaftliche Arbeit umzuwandeln. Sie sind sich unsicher, ob die während des Praktikums durchgeführten Tätigkeiten den inhaltlichen Anforderungen entsprechen oder ob sie vom Studiengang anerkannt werden. Manchmal erinnern sie sich nicht mehr genau an die Details, da nur wenige oder keine ausführlichen Notizen vorhanden sind.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In solchen Situationen können professionelle Ghostwriter helfen, selbst wenn die Informationen aus dem Praktikum begrenzt sind. Unsere Ghostwriter verfügen über umfangreiche Erfahrungen in verschiedenen Fachbereichen und können selbst anhand begrenzter Informationen, beispielsweise während einer Telefonkonferenz mit unseren Projektmanagern, den Sachverhalt erkennen. Auf dieser Grundlage können sie Ihnen bei der Erstellung eines Entwurfs für Ihren Praktikumsbericht behilflich sein.'
               -
                 type: paragraph
                 content:
@@ -166,7 +334,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Präsentation Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                    text: 'Wenn Sie bei Ihrem Praktikumsbericht Unterstützung benötigen, dann können Sie uns gerne sofort eine '
                   -
                     type: text
                     marks:
@@ -184,608 +352,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' an unsere professionelle Agentur schicken. Unsere Präsentationsersteller melden sich innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Der Einsatz von Ghostwritern beim Erstellen von Präsentationen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die wichtigste Voraussetzung für das Gelingen eines Referats ist die gründliche Vorbereitung der PowerPoint-Folien. Ein ausgefeiltes Manuskript legt den Grundstein für den richtigen Transport von wissenschaftlichen Ergebnissen. Ein qualitativ hochwertiges Manuskript zu schreiben, erfordert eine intensive Recherche, die exakte Visualisierung durch den versierten Umgang mit Medien und die Nutzung fachgerechter Sprache. Oft fehlt Referenten die Zeit zu dieser gründlichen Vorbereitung auf ihren Vortrag.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Akademisches '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: ' setzt hier an, plant und verfasst Manuskripte und übernimmt die Entwicklung der Präsentation, den Vorgaben des Referenten entsprechend. Dabei hat der Ghostwriter stets die jeweilige Zielgruppe vor Augen und richtet die Präsentation der Ergebnisse auf diese aus. Damit ergänzt der Ghostwriter sinnvoll die Arbeit des Referenten im Vorfeld des Vortrages und verhilft diesem dadurch zu beruflichem Erfolg.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Diese Zielgruppen können Studenten, Schüler aber auch Mitarbeiter aus einem Unternehmen sein. Besonders Studierende wissen nicht, wie sie ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' auf wenige Folien komprimieren sollen. Häufig fordern Hochschulen von Studenten nach der Bachelorarbeit oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Masterarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', dass diese ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/kolloquium-bachelorarbeit
-                          target: null
-                          rel: null
-                    text: Kolloquium
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' vorbereiten. Dabei gelten unterschiedliche Leitfäden, je nach Hochschulvorgaben ändern sich die Richtlinien einer Präsentation.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Beim Kolloquium müssen Studierende entweder alle wichtigen Informationen der Abschlussarbeit zusammenfassen und in einer PowerPoint-Präsentation vor dem Dozenten wiedergeben oder sie werden mündlich über das Konzept der Bachelorarbeit befragt. Das Kolloquium ist eine gute Möglichkeit um die Note der Abschlussarbeit zu verbessern und die eigenen Argumente zu verteidigen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Weitere Leistungsbereiche von GWriters'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Außer der Musterpräsentationen gibt es weitere Leistungsbereiche in denen wir unsere professionelle Dienstleistung anbieten, wie das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' oder eine professionelle Beratung. Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch können Studierende den Text von einem Fachautoren lektorieren lassen, was hilft, den Textinhalt zu überprüfen. Die beiden Leistungen werden von Experten in Ihrem Fachbereich betreut, die das methodische Know-How und das Forschungsthema beherrschen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Während des Erstellungsprozesses der PowerPoint-Präsentation kann ein Ghostwriter mit Fachwissen Sie bei jeder Problemstellung begleiten. Diese Probleme können bei der Literaturrecherche, bei statistischen Analysen, mit der Verfügbarkeit kostenpflichtiger Bilder, der Erstellung von Diagrammen, Datenauswertungen, der Zitierung oder der Zusammenfassung von vielen wissenschaftlichen Ergebnissen sein.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Nicht nur inhaltliche Probleme können von einem Ghostwriter gelöst werden. Darüber hinaus kennen sie alle PowerPoint-Funktionen und geben während der Präsentationserstellung immer wieder Tricks und Tipps. Um den Folieninhalt ohne Karteikarten, fließend und ohne Füllwörter übertragen zu können, ist die Notizen-Funktion vom PowerPoint-Tool empfehlenswert.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Neben diesen Problemfeldern erhalten Sie noch weitere Verbesserungstipps von unseren Profis bezüglich der Präsentationshaltung und Aussprache. Unsere qualifizierten Präsentationsersteller geben während und nach dem Erstellungsprozess für jeden Schritt Anweisungen. Eine professionelle Checkliste für ein PowerPoint-Referat erhalten Sie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/bachelorarbeit-praesentation-powerpoint
-                          target: null
-                          rel: null
-                    text: hier
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und in unserer GWriters Akademie stellen wir Ihnen zusätzlich auch ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /gwriters-akademie/powerpoint-praesentation-vorlage
-                          target: null
-                          rel: null
-                    text: 'Vorlage für Ihre Kolloquium-Präsentation'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' bereit.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wann und wie: eine Mustervorlage für Präsentation erstellen lassen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Aufgrund eines Ghostwriters Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit zu jedem Zeitpunkt der Erstellung von Präsentation als Hilfestellung zu beauftragen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Oft entstehen Probleme zu Beginn der Präsentationserstellung bei der Zusammenfassung von Untersuchungsergebnissen, er Grafikerstellung, der Quellenrecherche und beim Designprozess.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Musterpräsentationen als PowerPoint-Datei (.pptx) sind eine gute Orientierungshilfe, besonders wenn Sie noch nie wichtige Punkte, Informationen und Analysen zusammengefasst haben. Auch bei der Erstellung von Unternehmenspräsentationen, Businesspräsentationen und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/kolloquium-bachelorarbeit
-                          target: null
-                          rel: null
-                    text: 'Kolloquium für Bachelorarbeit'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: " und Masterarbeit, möchten viele Präsentationsbeauftragte einen perfekten Mustervortrag für Ihre Präsentation erstellen lassen. Die Unterstützung ist eine gute Optimierung für Ihre Präsentation. \_"
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Ablauf: Musterpräsentation erstellen lassen'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '1. Anfrage für unsere Dienstleistung schicken'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Anfrageformular: Thema und Anforderungen, Telefonnummer, Emailadresse, Umfang der Texterstellung, Lieferdatum'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: "2.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Kostenloses Angebot erhalten'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Angebot: Passende Autoren, Kosten für die Aufgabenstellung, Planung der Teillieferungen'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: "3.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Nach der Zusage: Auftragserteilung der Dienstleistung'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Bearbeitungsprozess des Auftrags, Zwischenstand der Mustervorlage gemeinsam mit Auftraggeber analysieren um Feedbacks umsetzen zu können'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: "4.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Feinschliff der Musterpräsentation'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Lektorieren und korrigieren der Mustervorlage von einem unabhängigen Bearbeiter, Plagiatsprüfung'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: "5.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Lieferung der Musterpräsentation'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Qualitätsprüfung durch einen Supervisor, Lieferung der Musterpräsentation'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die ganze Kommunikation zwischen dem Auftraggeber und dem qualifizierten Bearbeiter bleibt Anonym. Da der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/gwriters-diskretion-kunden
-                          target: null
-                          rel: null
-                    text: Datenschutz
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' besonders wichtig für unsere Agentur ist, werden auch alle Daten vom Auftraggeber im Anschluss an den Auftrag und die Bereitstellung des wissenschaftlichen Ergebnisses gelöscht.'
+                    text: ' an unsere professionelle Agentur schicken. Unsere Experten melden sich innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
               -
                 type: heading
                 attrs:
@@ -1002,6 +569,340 @@ replicator:
     enabled: true
     bg_toggle: false
     bg_color: '#F9F9F9'
+  -
+    id: lo3bsjj4
+    columns_replicator:
+      -
+        id: lo3bskii
+        single_col: true
+        grid:
+          -
+            id: Chl1xK21
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Der Einsatz von Ghostwritern beim Erstellen von Praktikumsberichten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die wichtigste Voraussetzung für das Verfassen eines Praktikumsberichts ist, dass man über Erfahrungen im Schreiben wissenschaftlicher Arbeiten verfügt, wie beispielsweise Hausarbeiten oder Seminararbeiten. Oft folgt der Aufbau eines Praktikumsberichts ähnlichen Strukturen wie diesen Arbeiten. Wenn Sie mit diesen schriftlichen Anforderungen vertraut sind, wird es Ihnen leichter fallen, einen erfolgreichen Praktikumsbericht zu erstellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie jedoch Unterstützung beim Verfassen Ihres Praktikumsberichts benötigen und eine Mustervorlage in Betracht ziehen, können Sie uns gerne eine unverbindliche Anfrage senden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In einem Praktikumsbericht ist das Zitieren unerlässlich. Es erfordert die Verwendung wissenschaftlicher Quellen, um Ihre Aussagen zu unterstützen und Ihre Berichterstattung fundiert zu gestalten. Wenn Sie beispielsweise Situationen beschreiben, die bereits in den Medien oder in der wissenschaftlichen Literatur behandelt wurden, sollten Sie dies im Praktikumsbericht zitieren und belegen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ebenso ist es wichtig, das Unternehmen oder die Organisation vorzustellen und auf Quellen zu verweisen, um die Informationen zu verifizieren. Manchmal fordern Universitäten auch die Präsentation von Praktikumsberichten. In solchen Fällen können unsere Ghostwriter einen Entwurf für Ihre Präsentation erstellen und Sie bei der Vorbereitung auf den Präsentationsprozess unterstützen. Sie bieten Ihnen Tipps und Tricks für eine erfolgreiche Präsentation Ihrer Arbeit.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wann und wie: eine Mustervorlage für Praktikumsbericht schreiben lassen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ein erfahrener Ghostwriter, der über fundierte Fachkenntnisse in seinem jeweiligen Bereich verfügt, kann ohne zeitaufwendige Einarbeitung jederzeit in den Prozess der Praktikumsberichterstellung einbezogen werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'In der Regel treten zu Beginn der Erstellung von Präsentationen Herausforderungen auf, sei es bei der Zusammenfassung von Forschungsergebnissen, der Erstellung von Grafiken, der Recherche von Quellen oder im Designprozess.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Praktikumsberichte als Musterarbeiten bieten wertvolle Orientierungshilfen, insbesondere wenn Sie zuvor noch nie wichtige Informationen, Daten und Analysen zusammengefasst haben. Dies trifft auch auf die Erstellung von Unternehmenspräsentationen, Geschäftspräsentationen und Kolloquien im Rahmen von Bachelor- und Masterarbeiten zu, bei denen eine erstklassige Musterpräsentation angestrebt wird. Die Unterstützung eines Ghostwriters kann erheblich zur Optimierung Ihrer Präsentation beitragen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ablauf: Musterpräsentation erstellen lassen'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '1. Anfrage für unsere Dienstleistung schicken'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Anfrageformular: Thema und Anforderungen, Telefonnummer, Emailadresse, Umfang der Texterstellung, Lieferdatum'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: "2.\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Kostenloses Angebot erhalten'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Angebot: Passende Autoren, Kosten für die Aufgabenstellung, Planung der Teillieferungen'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: "3.\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Nach der Zusage: Auftragserteilung der Dienstleistung'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Bearbeitungsprozess des Auftrags, Zwischenstand der Mustervorlage gemeinsam mit Auftraggeber analysieren um Feedbacks umsetzen zu können'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: "4.\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Feinschliff der Musterpräsentation'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Lektorieren und korrigieren der Mustervorlage von einem unabhängigen Bearbeiter, Plagiatsprüfung'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: "5.\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Lieferung der Musterpräsentation'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Qualitätsprüfung durch einen Supervisor, Lieferung der Musterpräsentation'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die ganze Kommunikation zwischen dem Auftraggeber und dem qualifizierten Bearbeiter bleibt Anonym. Da der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/gwriters-diskretion-kunden
+                          target: null
+                          rel: null
+                    text: Datenschutz
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' besonders wichtig für unsere Agentur ist, werden auch alle Daten vom Auftraggeber im Anschluss an den Auftrag und die Bereitstellung des wissenschaftlichen Ergebnisses gelöscht.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
   -
     id: lnyq1cl3
     columns_replicator:
@@ -2275,7 +2176,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698087472
+updated_at: 1698091445
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
