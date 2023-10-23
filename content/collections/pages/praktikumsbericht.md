@@ -167,6 +167,149 @@ replicator:
                   -
                     type: text
                     text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#444444'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: "Mustervorlage für Praktikumsbericht schreiben\_lassen"
+                          -
+                            type: hard_break
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#444444'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben-lassen'
+                                  target: null
+                                  rel: null
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#444444'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: '– Wie funktioniert die Kooperation?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'Der Einsatz von Ghostwritern beim Erstellen von Praktikumsberichten'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#bedeutung'
+                                  target: null
+                                  rel: null
+                            text: 'Was ist ein Praktikumsbericht?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#444444'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#studium'
+                                  target: null
+                                  rel: null
+                            text: 'Der Praktikumsbericht im Studium'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#444444'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#beispiel'
+                                  target: null
+                                  rel: null
+                            text: Praktikumsbeispiel
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#aufbau'
+                                  target: null
+                                  rel: null
+                            text: 'Aufbau: Praktikumsbericht'
             show_as_card: false
         type: row
         enabled: true
@@ -637,6 +780,13 @@ replicator:
             id: Chl1xK21
             bard:
               -
+                type: set
+                attrs:
+                  id: lo3dg3tq
+                  values:
+                    type: anchor_target
+                    anchor_name: schreiben-lassen
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -886,6 +1036,13 @@ replicator:
             id: Chl1xK21
             bard:
               -
+                type: set
+                attrs:
+                  id: lo3dghcn
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1084,11 +1241,18 @@ replicator:
     columns_replicator:
       -
         id: lo3cph2a
-        single_col: false
+        single_col: true
         grid:
           -
             id: Chl1xK21
             bard:
+              -
+                type: set
+                attrs:
+                  id: lo3dgv3r
+                  values:
+                    type: anchor_target
+                    anchor_name: bedeutung
               -
                 type: heading
                 attrs:
@@ -1103,6 +1267,13 @@ replicator:
                   -
                     type: text
                     text: 'Ein Praktikumsbericht ist eine ausführliche schriftliche Zusammenfassung Ihrer Erfahrungen während eines Praktikums, das Sie im Rahmen Ihres Studiums oder Ihrer schulischen Ausbildung absolviert haben. Die inhaltlichen und formalen Anforderungen an Praktikumsberichte können je nach Bildungseinrichtung unterschiedlich sein. Oft gibt es genaue Vorgaben von Universitäten oder Schulen, wie die Berichte in Ihrer Praktikumsmappe zu gestalten sind. Bitte vergessen Sie nicht, Ihr Praktikumszeugnis der Praktikumsmappe beizufügen.'
+              -
+                type: set
+                attrs:
+                  id: lo3dgz8g
+                  values:
+                    type: anchor_target
+                    anchor_name: studium
               -
                 type: heading
                 attrs:
@@ -1135,6 +1306,13 @@ replicator:
                   -
                     type: text
                     text: 'Zum Beispiel im Medizin Studium muss ein Praktikumsbericht 20-30 Seiten umfassen mit dem Fokus auf klinische Erfahrungen. '
+              -
+                type: set
+                attrs:
+                  id: lo3dh2of
+                  values:
+                    type: anchor_target
+                    anchor_name: beispiel
               -
                 type: heading
                 attrs:
@@ -1759,6 +1937,13 @@ replicator:
           -
             id: lnypzgiw
             bard:
+              -
+                type: set
+                attrs:
+                  id: lo3dhos2
+                  values:
+                    type: anchor_target
+                    anchor_name: aufbau
               -
                 type: heading
                 attrs:
@@ -2388,7 +2573,7 @@ replicator:
     bg_toggle: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698093954
+updated_at: 1698094290
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
