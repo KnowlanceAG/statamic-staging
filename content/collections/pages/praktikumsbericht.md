@@ -605,7 +605,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 3
+        columns_per_row: 4
         responsive_columns: 0
     remove_spacing: false
     is_full: true
@@ -2302,7 +2302,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698092253
+updated_at: 1698092331
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
