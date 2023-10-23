@@ -368,7 +368,7 @@ replicator:
     columns_replicator:
       -
         id: lo3cd1yh
-        single_col: false
+        single_col: true
         grid:
           -
             id: da2j44SX
@@ -734,235 +734,212 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Praktikumsberichte als Musterarbeiten bieten wertvolle Orientierungshilfen, insbesondere wenn Sie zuvor noch nie wichtige Informationen, Daten und Analysen zusammengefasst haben. Dies trifft auch auf die Erstellung von Unternehmenspräsentationen, Geschäftspräsentationen und Kolloquien im Rahmen von Bachelor- und Masterarbeiten zu, bei denen eine erstklassige Musterpräsentation angestrebt wird. Die Unterstützung eines Ghostwriters kann erheblich zur Optimierung Ihrer Präsentation beitragen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Ablauf: Musterpräsentation erstellen lassen'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '1. Anfrage für unsere Dienstleistung schicken'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Anfrageformular: Thema und Anforderungen, Telefonnummer, Emailadresse, Umfang der Texterstellung, Lieferdatum'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: "2.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Kostenloses Angebot erhalten'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Angebot: Passende Autoren, Kosten für die Aufgabenstellung, Planung der Teillieferungen'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: "3.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Nach der Zusage: Auftragserteilung der Dienstleistung'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Bearbeitungsprozess des Auftrags, Zwischenstand der Mustervorlage gemeinsam mit Auftraggeber analysieren um Feedbacks umsetzen zu können'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: "4.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Feinschliff der Musterpräsentation'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Lektorieren und korrigieren der Mustervorlage von einem unabhängigen Bearbeiter, Plagiatsprüfung'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: "5.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Lieferung der Musterpräsentation'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Qualitätsprüfung durch einen Supervisor, Lieferung der Musterpräsentation'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die ganze Kommunikation zwischen dem Auftraggeber und dem qualifizierten Bearbeiter bleibt Anonym. Da der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/gwriters-diskretion-kunden
-                          target: null
-                          rel: null
-                    text: Datenschutz
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' besonders wichtig für unsere Agentur ist, werden auch alle Daten vom Auftraggeber im Anschluss an den Auftrag und die Bereitstellung des wissenschaftlichen Ergebnisses gelöscht.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Leistungen:'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lo3cgt6e
+    columns_replicator:
+      -
+        id: lo3cj4yp
+        single_col: false
+        grid:
+          -
+            id: Chl1xK21
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Mustervorlage für Praktikumsbericht schreiben\_lassen"
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '– Wie funktioniert die Kooperation?'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lo3cgunl
+        columns_per_row: 4
+        single_col: false
+        grid:
+          -
+            id: Chl1xK21
+            bard:
+              -
+                type: set
+                attrs:
+                  id: gpAUPzAG
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-anfrage-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Kostenlose Anfrage'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zuerst senden Sie uns eine kostenlose Anfrage über unser Anfrageformular. Anschließend kontaktieren unsere Kundenberater Sie innerhalb kürzester Zeit für ein unverbindliches Erstgespräch.'
+            show_as_card: false
+          -
+            id: lo3ch042
+            bard:
+              -
+                type: set
+                attrs:
+                  id: WWuHXJL7
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-angebot-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Unverbindliches Angebot'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im nächsten Schritt erhalten Sie ein ganz unverbindlich ein Angebot von uns, individuell zugeschnitten auf Ihre Bedürfnisse mit einem fairen Preis für Ihre Praktikumsarbeit. Dieses beinhaltet auch bereits eine vorläufige Auftragsplanung.'
+            show_as_card: false
+          -
+            id: lo3chqeu
+            bard:
+              -
+                type: set
+                attrs:
+                  id: CRFTCIG1
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Wir schreiben für Sie'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sobald wir Sie unser Angebot angenommen haben, erstellen wir die Mustervorlage für Ihr Praktikumsbericht. Sie erhalten von Ihrem persönlichen Projektmanager regelmäßig Zwischenstände zu den Ergebnissen und wir setzen Ihre Feedbacks zu diesen kostenfrei um.'
+            show_as_card: false
+          -
+            id: lo3ci9pt
+            bard:
+              -
+                type: set
+                attrs:
+                  id: XnRBnsDQ
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-lieferung-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Finale Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die finale Praktikumsberichtentwurf erhalten Sie garantiert frei von Plagiaten dank professioneller Plagiatsprüfung und durch ein Lektorat nach unserem 4-Augen-Prinzip auf Qualität geprüft. Falls Sie Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -2314,7 +2291,7 @@ replicator:
     bg_color: '#F9F9F9'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698092401
+updated_at: 1698092714
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
