@@ -134,7 +134,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1695155055
+updated_at: 1698098441
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3663,7 +3663,6 @@ meta_description: 'Referat schreiben lassen & Hilfe vom akademischen Ghostwriter
 og_title: 'Professionell Referat schreiben lassen'
 og_description: 'Referat schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Referat schreiben lassen'
 breadcrumbs_active: true
