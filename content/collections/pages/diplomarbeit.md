@@ -444,16 +444,16 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: ll2sz186
+                  id: ljoh1u6i
                   values:
                     type: custom_link_list
                     raster:
                       -
-                        id: ll2sz2uu
+                        id: ljoh22s8
                         text: Fachrichtungen
                         eintraege:
                           -
-                            id: ll2szc96
+                            id: ljoh2bsp
                             headline: 'Technische Fachrichtungen'
                             content:
                               -
@@ -529,8 +529,35 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Softwarelokalisierung Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/biologie#biotechnologie'
+                                          target: null
+                                          rel: null
+                                    text: 'Biotechnologie Ghostwriter'
+                                  -
+                                    type: text
+                                    text: ' '
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/technomathematik
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Technomathematik'
                           -
-                            id: ll2szt8d
+                            id: ljoh2wxw
                             headline: Naturwissenschaften
                             content:
                               -
@@ -602,15 +629,12 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/biologie#biotechnologie'
+                                          href: /fachrichtungen/agrarwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Biotechnologie Ghostwriter'
-                                  -
-                                    type: text
-                                    text: ' '
+                                    text: 'Ghostwriter Agrarwissenschaften'
                           -
-                            id: ll2t023o
+                            id: ljoh3l91
                             headline: Sozialwissenschaften
                             content:
                               -
@@ -686,8 +710,23 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Sprachwissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/kommunikationswissenschaften#kommunikationsdesign'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kommunikationsdesign'
+                                  -
+                                    type: text
+                                    text: ' '
                           -
-                            id: ll2t0kq4
+                            id: ljoh3x4b
                             headline: 'Wirtschaftliche Fachbereiche'
                             content:
                               -
@@ -783,12 +822,16 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/bwl#Internationale'
+                                          href: '#Internationale'
                                           target: null
                                           rel: null
                                     text: 'Internationale BWL Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: hard_break
                           -
-                            id: ll2t0xzx
+                            id: ljoh4b21
                             headline: Geisteswissenschaften
                             content:
                               -
@@ -864,8 +907,20 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Philosophie Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/kunst#kunstgeschichte'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kunstgeschichte'
                           -
-                            id: ll2t1mv8
+                            id: ljoh4l6j
                             headline: 'Medizinische Fachrichtungen'
                             content:
                               -
@@ -1723,8 +1778,8 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692744010
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1698106180
 template: default
 use_meta_keywords: false
 no_index_page: false

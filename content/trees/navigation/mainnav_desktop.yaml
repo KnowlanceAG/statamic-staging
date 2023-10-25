@@ -57,6 +57,9 @@ tree:
               -
                 id: 00ca1565-64f6-43db-a6f8-6079ccfe81ba
                 entry: 32176ea9-b800-4a50-a559-80e578590d8e
+              -
+                id: d142a251-ae88-45b6-aeba-b93012fc068c
+                entry: bd3da55a-e707-4ec0-bf7c-4fcd9d8ac8b5
           -
             id: b3ba4515-f1fe-494e-916d-f985346fde68
             title: 'Sonstige Arbeiten'
@@ -129,6 +132,9 @@ tree:
               -
                 id: 912093fa-ebe7-4858-8f3e-6e32c25c0c70
                 entry: 34f7528d-839e-4ef6-b735-627084dba887
+              -
+                id: 52a5305c-da2b-4db6-9991-483e9e17904f
+                entry: 274572ca-1608-4345-8e5b-d51e74845491
           -
             id: b51d8d71-1573-4a62-aad0-e90d568ce6d7
             title: Sozialwissenschaften

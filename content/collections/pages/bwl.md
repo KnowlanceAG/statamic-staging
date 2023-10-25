@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1697284308
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1698102082
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -624,11 +624,11 @@ replicator:
     id: KU6desbi
     columns_replicator:
       -
-        id: pJMc0wMl
+        id: VU31hpFG
         single_col: true
         grid:
           -
-            id: RY4Hwivx
+            id: 0FV3fgeV
             bard:
               -
                 type: set
@@ -674,7 +674,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -692,18 +692,6 @@ replicator:
                   -
                     type: text
                     text: ' oder verschiedener Teilbereiche als Leistungen bei einem Ghostwriter in Auftrag geben. So ist es auch üblich, dass der Ghostwriter Studierende bereits bei der Suche nach der passenden Literatur im Rahmen der Literaturrecherche unterstützt, ihnen bei der Texterstellung beratend zur Seite steht oder bereits durch die Studierenden fertig geschriebene Arbeiten lektoriert und korrigiert. Ein solches Lektorat von einem erfahrenen Ghostwriter verleiht Ihrer Arbeit zusammen mit einer Plagiatsprüfung den letzten Schliff. Auch ein Coaching und Training ist möglich, um die Studierenden auf eine Klausur vorzubereiten oder sie in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen. Und nicht zuletzt bieten unsere Ghostwriter auch Übersetzungen von akademischen Arbeiten, Klausuren und allen anderen Arten von Texten an.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: VU31hpFG
-        single_col: false
-        grid:
-          -
-            id: 0FV3fgeV
-            bard:
               -
                 type: set
                 attrs:
@@ -825,7 +813,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -1046,6 +1034,49 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Exposé schreiben lassen'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/referat
+                                          target: null
+                                          rel: null
+                                    text: 'Referat schreiben lassen'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
                           -
                             id: ljoh9nu0
                             headline: Studienarbeiten
@@ -1196,6 +1227,68 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Studienarbeit schreiben lassen'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/fallstudie
+                                          target: null
+                                          rel: null
+                                    text: 'Fallstudie schreiben lassen'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/praktikumsbericht
+                                          target: null
+                                          rel: null
+                                    text: 'Praktikumsbericht schreiben lassen'
                       -
                         id: ljoh22s8
                         text: Fachrichtungen
@@ -1277,6 +1370,33 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Softwarelokalisierung Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/biologie#biotechnologie'
+                                          target: null
+                                          rel: null
+                                    text: 'Biotechnologie Ghostwriter'
+                                  -
+                                    type: text
+                                    text: ' '
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /fachrichtungen/technomathematik
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Technomathematik'
                           -
                             id: ljoh2wxw
                             headline: Naturwissenschaften
@@ -1350,13 +1470,10 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/biologie#biotechnologie'
+                                          href: /fachrichtungen/agrarwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Biotechnologie Ghostwriter'
-                                  -
-                                    type: text
-                                    text: ' '
+                                    text: 'Ghostwriter Agrarwissenschaften'
                           -
                             id: ljoh3l91
                             headline: Sozialwissenschaften
@@ -1434,6 +1551,21 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Sprachwissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/kommunikationswissenschaften#kommunikationsdesign'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kommunikationsdesign'
+                                  -
+                                    type: text
+                                    text: ' '
                           -
                             id: ljoh3x4b
                             headline: 'Wirtschaftliche Fachbereiche'
@@ -1616,6 +1748,18 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Philosophie Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/fachrichtungen/kunst#kunstgeschichte'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kunstgeschichte'
                           -
                             id: ljoh4l6j
                             headline: 'Medizinische Fachrichtungen'
@@ -2450,6 +2594,7 @@ replicator:
     border: false
     type: add_section
     enabled: true
+    bg_color: '#F9F9F9'
   -
     id: ll25ovck
     columns_replicator:
@@ -2638,12 +2783,10 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: true
+    is_full: false
     border: false
     type: add_section
     enabled: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
   -
     id: ll2r3ep9
     columns_replicator:
@@ -3034,15 +3177,16 @@ replicator:
     border: false
     type: add_section
     enabled: true
+    bg_color: '#F9F9F9'
   -
-    id: ll2r5jdf
+    id: Vb7y9im2
     columns_replicator:
       -
-        id: ll2r5ktx
+        id: f3B843KT
         single_col: true
         grid:
           -
-            id: ll2r8ce4
+            id: xO1NZvyb
             bard:
               -
                 type: heading
@@ -3159,32 +3303,6 @@ replicator:
                             type: text
                             text: ': Als Abschlussprojekt könnten Sie aufgefordert werden, eine umfassende Analyse eines multinationalen Unternehmens durchzuführen. Dies könnte eine schriftliche Arbeit sein, in der Sie die behandelten Inhalte auf reale Geschäftssituationen anwenden.'
               -
-                type: heading
-                attrs:
-                  level: 2
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    border: false
-    type: add_section
-    enabled: true
-    bg_color: '#F9F9F9'
-  -
-    id: ll2oirxc
-    columns_replicator:
-      -
-        id: ll2oits9
-        single_col: true
-        grid:
-          -
-            id: WcOVwpix
-            bard:
-              -
                 type: set
                 attrs:
                   id: lm90gwux
@@ -3222,7 +3340,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Einfluss kultureller Diversität auf internationale Geschäftsstrategien:'
                           -
@@ -3251,7 +3369,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Internationale Joint Ventures: Chancen und Herausforderungen:'
                           -
@@ -3280,7 +3398,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Entwicklung nachhaltiger Lieferketten in globalen Märkten:'
                           -
@@ -3309,7 +3427,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Analyse des Einflusses politischer Instabilität auf internationale Investitionen:'
                           -
@@ -3338,7 +3456,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'E-Commerce und internationale Märkte:'
                           -
@@ -3349,28 +3467,13 @@ replicator:
                                 attrs:
                                   align: start
                             text: 'Eine Analyse der Auswirkungen des E-Commerce auf die internationalen Handelsmuster und wie Unternehmen digitale Plattformen nutzen, um grenzüberschreitend erfolgreich zu sein, einschließlich logistischer und kultureller Aspekte.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: Vb7y9im2
-    columns_replicator:
-      -
-        id: f3B843KT
-        single_col: true
-        grid:
-          -
-            id: xO1NZvyb
-            bard:
+              -
+                type: set
+                attrs:
+                  id: lnwxfzss
+                  values:
+                    type: spacer
+                    padding-y: 20
               -
                 type: heading
                 attrs:
