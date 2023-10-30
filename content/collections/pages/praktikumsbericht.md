@@ -429,7 +429,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriting-agentur
+                          href: /ghostwriting/ghostwriting-agentur
                           target: null
                           rel: null
                     text: Ghostwriting-Agentur
@@ -1369,7 +1369,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtung/medizin
+                          href: /fachrichtungen/medizin
                           target: null
                           rel: null
                     text: 'Medizin Ghostwriter'
@@ -3221,7 +3221,7 @@ replicator:
     bg_toggle: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698108878
+updated_at: 1698696677
 template: default
 meta_title: 'Professionelles Praktikumsbericht schreiben lassen • GWriters'
 meta_description: 'Praktikumsbericht schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
