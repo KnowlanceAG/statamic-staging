@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'word automatisch quellen zählen'
 size: 79319
 last_modified: 1698855023
 width: 603
