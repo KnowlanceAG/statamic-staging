@@ -4137,27 +4137,6 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.uni-regensburg.de/assets/wirtschaftswissenschaften/vwl-kindermann/resources/hinweise_seminararbeit.pdf'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Hinweise zum Erstellen einer Seminararbeit - Universität Regensburg'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
                           href: 'https://www.slm.uni-hamburg.de/iaa/studium/downloads/hausarbeiten-und-lektuerelisten.html'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
@@ -4194,8 +4173,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692709934
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1698849963
 template: default
 use_meta_keywords: false
 no_index_page: false
