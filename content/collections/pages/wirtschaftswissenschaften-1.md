@@ -1,6 +1,5 @@
 ---
 id: b76dc919-f8fb-400e-86bc-ddb33ec06cb8
-published: false
 blueprint: pages
 title: 'Wirtschaftswissenschaften (Dupliziert)'
 teaser:
@@ -23,7 +22,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Wirtschaftswissenschaften Ghostwriter'
+        text: 'Ghostwriter Ingenieurwissenschaften'
   -
     type: paragraph
     content:
@@ -41,7 +40,7 @@ teaser:
             attrs:
               color: 'rgb(68, 68, 68)'
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Ingenieurwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -140,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1699017048
+updated_at: 1699021437
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -289,7 +288,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Wirtschaftswissenschaften Ghostwriter-Erfahrungen unserer Kunden'
+                    text: 'Ingenieurwissenschaften Ghostwriter-Erfahrungen unserer Kunden'
               -
                 type: heading
                 attrs:
