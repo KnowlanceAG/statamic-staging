@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1699021437
+updated_at: 1699028048
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -162,44 +162,13 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "Das Studium der Wirtschaftswissenschaften ist geprägt von zahlreichen wirtschaftlichen Modellen und Ansätzen, von denen es gilt eine möglichst optimale Lösung für ein Problem zu schaffen. Um sich bei der Bewältigung der zahlreichen Abgaben und Ausarbeitungen mit Mustervorlagen helfen zu lassen, können Studierende der Wirtschaftswissenschaften\_"
+                    text: 'Unsere Ghostwriter im Bereich Ingenieurwissenschaften sind Experten in ihrem Fachgebiet. Besonders aus dem Fachgebiet Maschinenbau Ghostwriter arbeiten eng mit unseren Ingenieurwissenschaftlern zusammen. Im Fachbereich Ingenieurwissenschaften Ghostwriter verfügen über umfangreiche theoretische und praktische Kenntnisse in der Forschung, Konstruktion und Entwicklung von Maschinen und Anlagen. Diese Kenntnisse setzen unsere Experten kompetent in wissenschaftlichen Arbeiten um.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: "\_unserer akademischen Ghostwriting Agentur beauftragen."
+                    text: 'Beim Verfassen einer Bachelor- oder Masterarbeit im Bereich Ingenieurwissenschaften stoßen Studierende oft auf Schwierigkeiten, wenn es darum geht, wissenschaftliche Erkenntnisse aus den Naturwissenschaften in die Entwicklung technologisch hochwertiger Produkte zu übertragen und diese als wissenschaftliche Arbeit zu verfassen. In solchen Prozessen spielen die Entwicklung und Prüfung sicherer Verfahren sowie computergestützte Konstruktion und Simulation eine bedeutende Rolle.'
               -
                 type: set
                 attrs:
@@ -224,7 +193,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftswissenschaften Ghostwriter suchen, dann können Sie uns gerne jetzt eine\_"
+                    text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Ingenieurwissenschaften Ghostwriter suchen, dann können Sie uns gerne jetzt eine\_"
                   -
                     type: text
                     marks:
@@ -354,51 +323,28 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Wirtschaftswissenschaften-Ghostwriter'
+                    text: 'Unsere Ingenieurwissenschaften-Ghostwriter'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Unser Team von erfahrenen Akademikern aus dem Bereich der Wirtschaftswissenschaften unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, unsere Ghostwriter bieten Ihnen umfassenden individuellen Beistand bei Ihrer Forschungsarbeit. Jeder unserer Wirtschaftswissenschaften-Ghostwriter besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Mustervorlagen für wirtschaftswissenschaftliche Arbeiten vorweisen.'
+                    text: 'Unsere Ingenieurwissenschaften-Ghostwriter beschäftigen sich intensiv mit der Konstruktion, Entwicklung und Forschung von Maschinen und Systemen. Genau diese Anforderungen können unsere Ghostwriter im Bereich Ingenieurwissenschaften für Sie lösen. Sie kennen die aktuellen Trends in der Forschung und Entwicklung. Sie haben die Möglichkeit, eine Mustervorlage für Ihre Bachelor- oder Masterarbeit schreiben zu lassen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "Neben der Beratung und dem Coaching bei der gesamten Arbeit, kann der Ghostwriter auch als\_"
+                    text: 'Der Studiengang Ingenieurwissenschaften bringt komplexe technische Herausforderungen in verschiedenen Ingenieurdisziplinen mit sich. Um diese Probleme frühzeitig zu bewältigen, empfehlen wir Ihnen, einen Ghostwriter im Bereich Ingenieurwissenschaften zu beauftragen. Das Ghostwriting unterstützt Sie nicht nur bei Ihren Abschlussarbeiten, sondern auch beim Erstellen von Modellen und Konzepten im Kontext von technischen Geräten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Außerdem kann der Ingenieurwissenschaften Ghostwriter auch als\_"
                   -
                     type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -408,24 +354,10 @@ replicator:
                     text: Lektor
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
                     text: ",\_"
                   -
                     type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -435,19 +367,10 @@ replicator:
                     text: Korrektor
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
                     text: "\_und "
                   -
                     type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
                       -
                         type: link
                         attrs:
@@ -457,12 +380,9 @@ replicator:
                     text: Übersetzer
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: ' oder zur Auswertung der Im Rahmen Ihrer Forschungsarbeit erhobenen Daten beauftragt werden. Durch ein Lektorat wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt. Mit einer durch unsere Ghostwriter durchgeführten Plagiatsprüfung können Sie zudem noch sicher gehen, dass Sie bei der Bewertung Ihrer Projektarbeit oder Abschlussarbeit keine böse Überraschung erwartet.'
+                    text: ' oder zur Auswertung der Im Rahmen Ihrer Forschungsarbeit erhobenen Daten beauftragt werden. Durch ein Lektorat wird nicht nur der Studierende entlastet, sondern auch die Qualität der Arbeit gesteigert, was zu einer bestmöglichen Bewertung führt. Wenn unsere Ghostwriter eine Plagiatsprüfung durchführen, können Sie außerdem sicherstellen, dass bei der Bewertung Ihrer Projektarbeit oder Abschlussarbeit keine unangenehmen Überraschungen auftreten.'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -588,55 +508,13 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Wirtschaftswissenschaft & Ghostwriting'
+                    text: 'Ingenieurwissenschaften & Ghostwriting'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Es ist üblich, dass Professoren von Studierenden der Wirtschaftswissenschaften eine Projektarbeit, Seminararbeit oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Hausarbeit schreiben lassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und diese bewerten. Ist dies in mehreren Fächern gleichzeitig der Fall, sind Studierende oftmals nicht in der Lage, diese in der angemessenen Güte zu bearbeiten und die notwendige Forschungsarbeit aufzubringen. Daher setzen immer wieder Studierende der Wirtschaftswissenschaften Ghostwriter und akademische Experten ein. Diese Ghostwriter sind Experten auf dem jeweiligen wirtschaftswissenschaftlichen Fachgebiet und sind aufgrund ihrer Erfahrung in der Lage, dem Hilfesuchenden zur Seite zu stehen.'
+                    text: 'Ghostwriting in den Ingenieurwissenschaften bietet eine wertvolle Unterstützung für Studierende in diesem Fachbereich, da es ihnen ermöglicht, komplexe technische Themen in wissenschaftlichen Arbeiten zu behandeln. Ghostwriter mit Fachkenntnissen in den Ingenieurwissenschaften können Studierende bei der Erstellung von Abschlussarbeiten, Forschungsprojekten und der Entwicklung von Modellen unterstützen. Dies ermöglicht den Studierenden, sich auf das Verständnis und die Bewältigung technischer Herausforderungen zu konzentrieren, während sie gleichzeitig professionell verfasste Arbeiten präsentieren können.'
               -
                 type: set
                 attrs:
@@ -1760,20 +1638,6 @@ replicator:
                                     text: 'Zahnmedizin Ghostwriter'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Ghostwriter der Wirtschaftswissenschaften können nicht nur bei Hausarbeiten, Projektarbeiten oder Seminararbeiten, sondern auch durch die Auswertung von Daten und die Erstellung von Mustervorlagen eine Hilfe beim Verfassen von Examensarbeiten wie einer Bachelorarbeit oder Masterarbeit sein. Darüber hinaus können diese auch durch ein Lektorat und eine Plagiatsprüfung die Qualität eigens verfasster Arbeiten sicherstellen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1810,7 +1674,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer wissenschaftlichen Arbeiten im Fach Wirtschaftswissenschaften Unterstützung oder akademisches '
+                    text: 'Wenn Sie bei Ihrer wissenschaftlichen Arbeiten im Fach Ingenieurwissenschaften Unterstützung oder akademisches '
                   -
                     type: text
                     marks:
@@ -2010,23 +1874,19 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'ChatGPT & andere KI Module: Alternative zu Wirtschaftswissenschaften Ghostwritern?'
+                    text: 'Über Ingenieurwissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(209, 213, 219)'
-                          hex: '#000'
-                    text: 'Die rasante Entwicklung der künstlichen Intelligenz hat in zahlreichen Branchen und Fachbereichen zu tiefgreifenden Veränderungen geführt. Insbesondere im akademischen Kontext wird diskutiert, inwiefern KI beim Verfassen von wissenschaftlichen Arbeiten eingesetzt werden kann und sollte. Im Bereich der Wirtschaftswissenschaften, einem Feld, das sowohl von quantitativen Daten als auch von qualitativen Interpretationen geprägt ist, stellt sich die Frage, wie effektiv und angemessen der Einsatz von KI wirklich ist. Wegen der zahlreichen Limitationen von KI sind akademische Ghostwriter in diesem Fachbereich noch immer unverzichtbar.'
+                    text: 'Ingenieurwissenschaften ist eine Mischung von Ingenieurwesen und Wissenschaften. Er beschreibt präzise, dass Ingenieurwissenschaften ein Bereich ist, der die technische Anwendung wissenschaftlicher Prinzipien und Methoden umfasst.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Ingenieurwissenschaften-Studium basiert auf theoretischen und praktischen Grundlagen. Der Studiengang umfasst verschiedene technische Disziplinen wie Maschinenbau, Elektrotechnik, Bauingenieurwesen, Informatik, Materialwissenschaften und viele andere. Wenn Sie sich für ein Ingenieurwissenschaften-Studium entscheiden, können Sie erwarten, mathematische, naturwissenschaftliche und technische Kenntnisse zu erwerben und anzuwenden, um komplexe technische Probleme innovativ zu lösen. Dabei können aus dem Fachgebiet Ingenieurwissenschaften Ghostwriter Sie interdisziplinär im Studium begleiten und unterstützen. Sie verfügen über sehr gute Kenntnisse in Technik und Theorie.'
               -
                 type: heading
                 attrs:
@@ -2034,53 +1894,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Technische Limitationen von KI'
+                    text: 'Vertiefungsfach: Maschinenbau'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Wirtschaftswissenschaften beschäftigen sich mit der Untersuchung von Märkten, wirtschaftlichen Entscheidungen und dem Verhalten von Individuen und Organisationen. Während KI-Systeme große Mengen an Daten effizient analysieren können, fehlt ihnen oft das intuitive Verständnis für die vielen Variablen, die wirtschaftliche Phänomene beeinflussen. Diese Disziplin ist nicht nur von Zahlen und Statistiken geprägt, sondern auch von menschlichen Verhaltensweisen, sozialen Dynamiken und geopolitischen Faktoren.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dazu kommt, dass sich die wirtschaftliche Landschaft ständig verändert. Neue ökonomische Theorien, Marktveränderungen und globale Entwicklungen führen zu ständigen Anpassungen in der Branche. Eine KI, die nicht regelmäßig aktualisiert wird, könnte rasch veraltete Modelle und Annahmen verwenden.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Rechtliche Aspekte'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unpräzise oder fehlerhafte Informationen in den Wirtschaftswissenschaften können weitreichende Konsequenzen haben. Fehlinterpretationen könnten zu fehlerhaften Geschäftsentscheidungen, Investitionsfehlern oder falschen Marktprognosen führen. Dies kann Unternehmen nicht nur finanziell schaden, sondern auch rechtliche Konsequenzen nach sich ziehen, wenn Entscheidungen auf Grundlage solcher Informationen getroffen werden.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Vergleich zum akademischen Ghostwriting im Fach Wirtschaftswissenschaften'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein akademischer Ghostwriter bietet im wirtschaftswissenschaftlichen Bereich den Vorteil tiefer Einblicke und Analysen. Ein Experte in den Wirtschaftswissenschaften kann die Komplexität von Märkten, das Verhalten von Akteuren und die Feinheiten wirtschaftlicher Theorien verstehen, die eine KI möglicherweise übersehen oder nicht vollständig erfassen könnte.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Trotz der beeindruckenden Datenverarbeitungsfähigkeiten moderner KI-Systeme bleibt das menschliche Fachwissen in den Wirtschaftswissenschaften unersetzlich. Ein Experte in diesem Bereich bringt nicht nur analytische Fähigkeiten, sondern auch Intuition und Erfahrung in wissenschaftliche Arbeiten ein. Somit bleibt ein menschlicher Fachexperte die bessere Wahl für das Verfassen von wissenschaftlichen Arbeiten in den Wirtschaftswissenschaften im Vergleich zur KI.'
+                    text: 'Im Kontext des Maschinenbaustudiums ist ein Studium der Ingenieurwissenschaften von besonderer Relevanz, da es die Grundkenntnisse zur Entwicklung und Konstruktion von Maschinen und Systemen vermittelt. Studierende der Ingenieurwissenschaften lernen, wie sie Modelle und Konzepte entwickeln, um effiziente Geräte und Maschinen zu gestalten. Oft beschäftigen sie sich mit Themen wie Thermodynamik, Mechanik, Werkstoffkunde und Fluidmechanik, die alle wichtigen Bereiche im Maschinenbau abdecken.'
               -
                 type: heading
                 attrs:
@@ -2088,187 +1908,25 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Über Wirtschaftswissenschaften'
+                    text: 'Studieninhalte: Ingenieurwissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die Wirtschaftswissenschaft (auch Ökonomie genannt) beschäftigt sich mit der Frage nach dem vernünftigen Umgang mit Wirtschaftsgütern, welche nur in endlichem Maße zur Verfügung stehen.'
+                    text: 'Das Ingenieurwissenschaften-Studium besteht aus Grundlagen- und Vertiefungsfächern. In den ersten Semestern liegt der Fokus auf Grundlagen in Mathematik, Physik, Chemie, Informatik und Betriebswirtschaftslehre (BWL). Oft werden die Studieninhalte in Ingenieurwissenschaften auf Englisch präsentiert, daher sind gute Englischkenntnisse erforderlich. Allerdings sind unzureichende Englischkenntnisse kein Hindernis für das Studium, da Sie Ihre Notizen, Präsentationsfolien oder andere Unterlagen gerne bei einem Ingenieurwissenschaften-Ghostwriter übersetzen lassen können.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Der Begriff des Studiums der Wirtschaftswissenschaften kann als Oberbegriff für eine ganze Reihe von Studienfächern und Studienspezialisierungen verstanden werden. In der deutschen akademischen Landschaft wird die Wirtschaftswissenschaft in die Teilgebiete Betriebswirtschaftslehre, Volkswirtschaftslehre und Soziologie unterteilt, wobei sich die Betriebswirtschaftslehre ('
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/bwl
-                          target: null
-                          rel: null
-                    text: BWL
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: ') mit den wirtschaftlichen Belangen in einem und rund um ein Wirtschaftsunternehmen beschäftigt, während die Volkswirtschaftslehre ('
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/vwl
-                          target: null
-                          rel: null
-                    text: VWL
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: ') sich mit der Analyse wirtschaftlicher Zusammenhänge in einer Gesellschaft, meist eines Staates oder Staatenverbundes, auseinandersetzt.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Studieninhalte
+                    text: 'In den Grundlagenfächern sollte eine Verbindung zwischen naturwissenschaftlichen, wirtschaftlichen und ingenieurwissenschaftlichen Disziplinen hergestellt werden. Hierbei haben Studierende oft Schwierigkeiten, diese drei Disziplinen zu integrieren, da Hochschulen oft nur die notwendigen Informationen in den Grundlagenfächern liefern, und erst in den Vertiefungsfächern werden die drei Disziplinen zusammengeführt. Daher ist es ratsam, sich gut vorzubereiten, um diese Probleme zu vermeiden. Unsere Ghostwriter in diesen Fachbereichen sind Experten und arbeiten interdisziplinär zusammen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Das Wirtschaftswissenschaften-Studium ist ein sehr breites und umfassendes Fach. Im Grundstudium der Wirtschaftswissenschaften wird Wissen vorrangig aus dem Bereich der BWL zu Mathematik (insbesondere Wirtschaftsmathematik), Rechnungswesen, Statistik und auch Rechtswissenschaften vermittelt. In diesem Zusammenhang lernt der Student im Grundstudium insbesondere, wie Modelle entstehen und erstellt werden und wie mit Analysen umzugehen ist.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Im Hauptstudium kann dann eine Vertiefung auf weitere Studieninhalte erfolgen. Diese wären möglicherweise die Wirtschaftsmathematik, das Wirtschaftsrecht, die Wirtschaftspädagogik, die Wirtschaftspsychologie, die Wirtschaftschemie oder auch sogar die Wirtschaftssoziologie. Daher studieren häufig die Wirtschaftswissenschaften-Studierenden als Nebenfach noch andere Fächer.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Weitere Verästelungen können in diesen Studienfächern folgen oder eine Fokussierung auf die BWL (Betriebswirtschaftslehre) oder die VWL. Diese Studienfächer haben ausgeprägte Schnittstellen miteinander. Je nach Auswahl des Schwerpunktes werden verschiedene und hohe Anforderungen im Studium gestellt. Da diese hohen Anforderungen häufig zu Überforderung führen, beauftragen Studierende der Wirtschaftswissenschaften Ghostwriter häufig mit einer professionellen Unterstützung. Die erfahrenen Ghostwriter für das jeweilige Fachgebiet bringen alle notwendigen Know-Hows mit. Entweder lassen sich Studierende von Ghostwritern eine Mustervorlage für ihre wissenschaftlichen Arbeiten schreiben oder sie erhalten von einem im Fachbereich erfahrenen Ghostwriter Ratschläge zur jeweiligen Arbeit. Gerade die Studienanfänger können eine gute Unterstützung und Begleitung durch Ghostwriter im akademischen Bereich der Wirtschaftswissenschaften erhalten.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Enge Verbindungen zu anderen Fachrichtungen:'
+                    text: 'Zu den grundlegenden Fächern gehören auch Teilgebiete wie:'
               -
                 type: bullet_list
                 content:
@@ -2282,21 +1940,8 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(255, 102, 2)'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /fachrichtungen/bwl
-                                  target: null
-                                  rel: null
-                            text: BWL
+                                type: bold
+                            text: Mechanik
                   -
                     type: list_item
                     content:
@@ -2307,21 +1952,8 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(255, 102, 2)'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /fachrichtungen/vwl
-                                  target: null
-                                  rel: null
-                            text: VWL
+                                type: bold
+                            text: Thermodynamik
                   -
                     type: list_item
                     content:
@@ -2332,21 +1964,8 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(255, 102, 2)'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /fachrichtungen/mathematik
-                                  target: null
-                                  rel: null
-                            text: Mathematik
+                                type: bold
+                            text: Werkstoffkunde
                   -
                     type: list_item
                     content:
@@ -2357,21 +1976,8 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(255, 102, 2)'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /fachrichtungen/chemie
-                                  target: null
-                                  rel: null
-                            text: Chemie
+                                type: bold
+                            text: Fertigungstechnik
                   -
                     type: list_item
                     content:
@@ -2382,21 +1988,8 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(255, 102, 2)'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /fachrichtungen/soziologie
-                                  target: null
-                                  rel: null
-                            text: Soziologie
+                                type: bold
+                            text: 'Technische Optik'
                   -
                     type: list_item
                     content:
@@ -2407,21 +2000,341 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
+                                type: bold
+                            text: Elektrotechnik
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Vertiefungsmodule
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im späteren Studienverlauf haben Sie die Möglichkeit, in Ihrem Interessengebiet das passende Vertiefungsmodul zu wählen. Je nach Hochschule und Universität können die Wahlpflichtfächer unterschiedlich sein. Mögliche Vertiefungsmodule sind beispielsweise Produktionstechnik, Umweltschutz, Energie- und Sicherheitstechnik, Luft- und Raumfahrttechnik oder erneuerbare Energien. Oftmals ist der Begriff "Ingenieurwesen" ein Oberbegriff für verschiedene Ingenieurstudiengänge. Zum Beispiel bietet die Hochschule Darmstadt eine breite Auswahl an Studiengängen im Bereich des Ingenieurwesens:'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
                               -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(255, 102, 2)'
-                                  hex: '#000'
+                                type: text
+                                text: 'Allgemeiner Maschinenbau (B.Eng.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
                               -
-                                type: link
-                                attrs:
-                                  href: /fachrichtungen/psychologie
-                                  target: null
-                                  rel: null
-                            text: Psychologie
+                                type: text
+                                text: 'Maschinenbau (M.Sc.)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Bauingenieurwesen (B.Eng.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Mechatronik (B.Sc.)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Automobilentwicklung (M.Sc.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Mechatronik (M.Sc.)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Bauingenieurwesen (M.Eng.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Optotechnik & Bildverarbeitung (B.Sc.)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Elektrotechnik und Informationstechnik (B. Eng.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Optotechnik & Bildverarbeitung (M.Sc.)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Electrical Engineering - International (M.Sc.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Umweltingenieurwesen (B.Eng.)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Elektrotechnik – weiterbildend (M.Sc.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Umweltingenieurwesen (M.Eng.)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Gebäudesystemtechnik (B.Eng.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Wirtschaftsingenieurwesen (B.Sc.)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Kunststofftechnik (B.Eng.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Wirtschaftsingenieurwesen (M.Sc.)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Kunststofftechnik (M.Sc.)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Zuverlässigkeitsingenieurwesen (M.Eng.)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'An der Hochschule Hof wird der Bachelorstudiengang Ingenieurwissenschaften angeboten, der ein guter Ausgangspunkt ist, wenn Sie Interesse an Elektrotechnik, Maschinenbau, Umwelttechnik, Werkstofftechnik und/oder Wirtschaftsingenieurwesen haben. Sie haben die Möglichkeit, Ihre Schwerpunkte in einem anschließenden Masterstudium weiter zu vertiefen. In vielen Fällen ist es möglich, nach einem abgeschlossenen Bachelorstudium in Ingenieurwissenschaften oder einem verwandten technischen Bereich einen Masterstudiengang, beispielsweise im Maschinenbau, zu absolvieren. Die genaue Zulassung hängt von den spezifischen Anforderungen der jeweiligen Hochschule ab, aber oft werden Studierende mit einem Bachelor in Ingenieurwissenschaften oder einem verwandten Bereich für einen Masterstudiengang im Maschinenbau zugelassen, sofern sie die erforderlichen Voraussetzungen erfüllen.'
               -
                 type: heading
                 attrs:
@@ -2429,215 +2342,99 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Aufbau des Wirtschaftswissenschaften Studiums'
+                    text: 'Aubau: Ingenieurwissenschaften Bachelor'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Das Studium der Wirtschaftswissenschaften besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die Bachelorarbeit (Bachelor Thesis) und die Masterarbeit (Master Thesis). Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Das Studium der Wirtschaftswissenschaften kann an Universitäten und Fachhochschulen aufgenommen werden. Es kann in Vollzeit, Teilzeit, dual oder auch berufsbegleitend betrieben werden.'
+                    text: 'Der Bachelorstudiengang Ingenieurwissenschaften hat eine Regelstudienzeit von 7 Semestern und wird auf Deutsch und Englisch unterrichtet. Der Abschluss, den die Studierenden nach erfolgreichem Abschluss des Programms erhalten, ist der Bachelor of Engineering. Das Studium schließt im siebten Semester mit einer Praxis- und Bachelorarbeit ab, die in Zusammenarbeit mit einem Unternehmen oder einem Forschungsinstitut absolviert werden kann. Die Voraussetzungen für die Zulassung zum Studiengang sind die allgemeine oder fachgebundene Hochschulreife, die Fachhochschulreife oder gegebenenfalls eine berufliche Qualifikation.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Des Weiteren wird ein Praktikum von Universitäten und Fachhochschulen während der Studienzeit verlangt. Hier können '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Studierende
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: ' Einblick in das Unternehmen schaffen, in dem Erfahrungen gesammelt und neue Kontakte geknüpft werden können. Häufig werden Kontakte zu einem Unternehmen aufgebaut, um dort später die Abschlussarbeit zu schreiben. Das Wirtschaftswissenschaften-Studium ist besonders im Bereich der BWL ein sehr stark praxisorientiertes Studium. Daher sollte der Kontakt zur Industrie aufrecht erhalten werden, um später in der Karriere auf diese Kontakte aufbauen zu können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Zum Empfehlen ist es zusätzlich, einen Auslandsaufenthalt während des Studiums wahrzunehmen. Denn hier besteht die Möglichkeit zusätzliche Erfahrungen und fremdsprachliche Kenntnisse zu sammeln. Das Auslandssemester ermöglicht den Kontakt zu Personen oder auch zu anderen Unternehmen. Diese Phase ist zudem für den Berufseinstieg vorteilhaft, da besonders die erworbenen sozialen Fähigkeiten und interkulturelle Kompetenzen in der Wirtschaft einem Berufseinsteiger neue Türen öffnen'
+                    text: 'Wenn Sie in diesen Zusammenhängen eine Musterarbeit für eine Bachelorarbeit schreiben lassen möchten, dann schicken Sie uns eine kostenlose Anfrage.'
               -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Was erwartet mich nach dem Wirtschaftswissenschaften-Studium?'
+                    text: Masterstudium
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: "Es gibt viele verschiedene Tätigkeitsmöglichkeiten, die sich hier für einen Wirtschaftswissenschaftler anbieten. Ob es jetzt am Ende eine Tätigkeit bei einer Bank, in der Dienstleistungsbranche, in der Industrie, im Marktforschungsbereich, in den Medien, in der Unternehmensberatung, \_im Management oder als Ghostwriter für Wirtschaftswissenschaften ist. Dies zeigt, dass das Wirtschaftswissenschaften-Studium ein sehr umfangreiches Feld ist. Umso wichtiger sind natürlich a) gute Noten und b) die Kontakte, die man im Rahmen eines Studiums bereits bilden konnte."
-              -
-                type: heading
-                attrs:
-                  level: 5
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Was verdienen Wirtschaftswissenschaften-Absolventen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Die Einstiegsgehälter bei Wirtschaftswissenschaftlern liegen um die 30.000 bis 40.000 Euro pro Jahr. Mit mehr Berufserfahrung sind die Jahresendgehälter über 100.000 Euro möglich und denkbar. Ähnlich sehen die Gehaltserwartungen für Wirtschaftswissenschaften Ghostwriter aus, denn entsprechend der hohen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Studierenden
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'zahlen ist auch der Unterstützungsbedarf im Bereich der Wirtschaftswissenschaften sehr groß.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: Geschichte
+                    text: 'In Deutschland dauert ein Masterstudium in Ingenieurwissenschaften in der Regel 3 bis 4 Semester. Dies entspricht einer Studiendauer von etwa 1,5 bis 2 Jahren, nachdem Sie bereits einen Bachelorabschluss erworben haben. Ein Masterstudiengang in Ingenieurwissenschaften umfasst in der Regel Pflichtmodule, in denen fortgeschrittene Konzepte der Ingenieurwissenschaften behandelt werden. Studierende haben die Möglichkeit, Wahlmodule aus spezialisierten Ingenieurbereichen zu wählen, um ihren Interessen gerecht zu werden. Forschungsarbeit und praktische Erfahrungen, einschließlich Praktika, sind wichtige Bestandteile des Programms. Die Studierenden arbeiten an eigenen Forschungsprojekten und schließen das Studium mit einer Masterarbeit ab. Wenn Sie im Verlauf Ihres Masterstudiums Unterstützung bei Ihren Forschungsprojekten benötigen, können aus dem Bereich Ingenieurwissenschaften Ghostwriter besonders hilfreich sein, um diese zu entwickeln.'
+            show_as_card: false
+        type: row
+        enabled: true
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
+    is_full: false
+    type: add_section
+    enabled: true
+    remove_spacing: false
+    border: false
+  -
+    id: loit2763
+    columns_replicator:
+      -
+        id: loit28ha
+        single_col: false
+        grid:
+          -
+            id: 7w2Cnh5h
+            bard:
               -
                 type: set
                 attrs:
-                  id: 1zBigDcZ
+                  id: loitc5wf
                   values:
                     type: floating_img
                     dateien:
-                      - seiten/fachrichtungen/wirtschaftswissenschaften.jpg
-                    img_size: w-1/2
-                    float: float-left
-                    image_options:
-                      - no_upscale
+                      - seiten/fachrichtungen/tatigkeitsfelder-ingenieurwissenschaften-min.JPG
+                    img_size: w-full
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: loit2bk7
+    columns_replicator:
+      -
+        id: loit2ib5
+        single_col: true
+        grid:
+          -
+            id: 7w2Cnh5h
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Tätigkeitsbereiche im Ingenieurberufe'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Studium der Ingenieurwissenschaften eröffnet eine breite Palette von Berufsfeldern und Karrieremöglichkeiten. Hier sind einige Beispiele für Berufsfelder, in denen Absolventen eines Ingenieurwissenschaften-Studiums arbeiten können:'
               -
                 type: paragraph
                 content:
@@ -2645,15 +2442,119 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
+                        type: bold
+                    text: Maschinenbau
+                  -
+                    type: text
+                    text: ': Dieses Berufsfeld umfasst die Entwicklung, Konstruktion und Forschung von Maschinen, Geräten und Anlagen. Ingenieure im Maschinenbau arbeiten auch im Vertrieb, in der Produktion und in Leitungs- und Stabstellenfunktionen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Als Geburtsstunde der Wirtschaftswissenschaft gilt das Jahr 1758, damals veröffentlichte der französische Gelehrte Francois Quesnay sein Werk „Tableau économique”. Er formulierte in diesem das erste Mal die Abhängigkeit von Finanz- und Güterströmen als einen Kreislauf. Bereits vorher gab es Ansätze, die Wirtschaft zu verstehen und Gesetzmäßigkeiten zu entwickeln. So machten sich bereits die Gelehrten und Philosophen der Antike und des Mittelalters daran, die ökonomischen Zusammenhänge aufzudecken. Die absolutistischen Herrscher versuchten den Wohlstand ihrer Staaten zu steigern, indem sie Exporte förderten und Importe erschwerten. Diese Art des Wirtschaftens begründete der Merkantilismus. Erst Adam Smith aber gilt als Vater der modernen Wirtschaftswissenschaft. In seinem Hauptwerk „An Inquiry into the Nature and Causes of the Wealth of Nations” formulierte er erstmals die Idee der „unsichtbaren Hand”, welche die Geschicke des Marktes steuerte. So wurde erstmals der Zusammenhang zwischen Angebot und Nachfrage deutlich. Die klassische Nationalökonomie gilt mittlerweile als überholt, als prägend für die Folgezeit und bis heute aktuell gilt die neoklassische Theorie. Der bedeutendste Wirtschaftswissenschaftler des 20. Jahrhunderts ist wohl John Maynard Keynes, der Begründer des Keynesianismus. Er bestimmte die wirtschaftliche Diskussion bis in die 70er Jahre desselben Jahrhunderts.'
+                        type: bold
+                    text: Elektrotechnik
+                  -
+                    type: text
+                    text: ': Elektroingenieure sind in der Entwicklung und Konstruktion elektronischer Geräte und Systeme tätig. Sie können auch in der Außenmontage, der Verwaltung und der Erbringung von Dienstleistungen arbeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Umwelttechnik
+                  -
+                    type: text
+                    text: ': Ingenieure für Umwelttechnik sind darauf spezialisiert, Lösungen zur Reduzierung von Umweltauswirkungen zu entwickeln und die nachhaltige Nutzung von Ressourcen zu fördern. Sie arbeiten in der Umweltschutzbranche sowie in anderen Tätigkeitsfeldern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Bauwesen
+                  -
+                    type: text
+                    text: ': Bauingenieure sind in der Planung, Konstruktion und Wartung von Gebäuden, Straßen, Brücken und anderen Infrastrukturprojekten tätig. Dies umfasst auch den Bereich der Außenmontage.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Wirtschaftsingenieurwesen
+                  -
+                    type: text
+                    text: ': Ingenieure für Wirtschaftsingenieurwesen kombinieren technisches Wissen mit betriebswirtschaftlichen Fähigkeiten und sind in Aufgaben des Projektmanagements, der Logistik, der Qualitätskontrolle und der Produktionsplanung aktiv. Sie arbeiten auch in Vertrieb und Dienstleistungen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Werkstofftechnik
+                  -
+                    type: text
+                    text: ': Werkstoffingenieure entwickeln und analysieren Materialien für verschiedene Anwendungen, darunter Metallurgie, Kunststoffe, Keramik und Verbundwerkstoffe. Dies kann auch die Entwicklung von Dienstleistungen und den Vertrieb von Materialien umfassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Energie- und Sicherheitstechnik'
+                  -
+                    type: text
+                    text: ': In diesem Bereich liegt der Fokus auf der Energieerzeugung, -verteilung und -sicherheit, insbesondere in den Bereichen erneuerbare Energie und Sicherheitstechnik. Ingenieure sind in der Forschung und Entwicklung von Technologien und Produkten tätig.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Luft- und Raumfahrttechnik'
+                  -
+                    type: text
+                    text: ': Luft- und Raumfahrtingenieure sind in der Entwicklung und Konstruktion von Flugzeugen, Raumfahrzeugen und deren Komponenten beschäftigt. Dies kann auch den Vertrieb von Luft- und Raumfahrtprodukten und -dienstleistungen umfassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Forschung und Entwicklung'
+                  -
+                    type: text
+                    text: ': Ingenieure können in Forschungs- und Entwicklungslabors in verschiedenen Branchen arbeiten, um neue Produkte und Technologien zu entwickeln. Dies umfasst auch die Zusammenarbeit mit externen Dienstleistern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Beratung und Projektmanagement'
+                  -
+                    type: text
+                    text: ': Ingenieure können in Beratungsunternehmen oder als Projektmanager in verschiedenen Branchen tätig sein, um technische Projekte zu leiten und Lösungen zu entwickeln.'
               -
                 type: heading
                 attrs:
@@ -2688,135 +2589,16 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von unseren Ghostwriter erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme des durch den Ghostwriter erstellten Texts als eigene Leistungen.\_"
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Nützliche Weblinks'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Wirtschaftswissenschaft'
-                          target: _blank
-                          rel: nofollow
-                    text: 'Informationen zu Wirtschaftswissenschaften mit Linksammlung – Wikipedia'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.wiwi.uni-frankfurt.de/startseite.html'
-                          target: _blank
-                          rel: nofollow
-                    text: 'Fachbereich Wirtschaftswissenschaften – Universität Frankfurt'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.fernuni-hagen.de/wirtschaftswissenschaft/'
-                          target: _blank
-                          rel: nofollow
-                    text: 'Fakultät für Wirtschaftswissenschaft – FernUniversität Hagen'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://studiengaenge.zeit.de/studium/wirtschaft/wirtschaftswissenschaften/wirtschaftswissenschaften-oekonomie'
-                          target: _blank
-                          rel: nofollow
-                    text: 'Wirtschaftswissenschaften studieren – Zeit Online'
             show_as_card: false
         type: row
         enabled: true
-        single_col: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
     is_full: false
+    border: false
     type: add_section
     enabled: true
-    remove_spacing: false
-    border: false
 meta_title: 'Wirtschaftswissenschaften Ghostwriter & mehr • GWriters.de'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_title: 'Wirtschaftswissenschaften Ghostwriter & mehr • GWriters.de'
