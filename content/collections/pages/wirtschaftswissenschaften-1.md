@@ -1,5 +1,6 @@
 ---
 id: b76dc919-f8fb-400e-86bc-ddb33ec06cb8
+published: false
 blueprint: pages
 title: 'Wirtschaftswissenschaften (Dupliziert)'
 teaser:
@@ -139,7 +140,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1699028101
+updated_at: 1699032016
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -162,13 +163,61 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter im Bereich Ingenieurwissenschaften sind Experten in ihrem Fachgebiet. Besonders aus dem Fachgebiet Maschinenbau Ghostwriter arbeiten eng mit unseren Ingenieurwissenschaftlern zusammen. Im Fachbereich Ingenieurwissenschaften Ghostwriter verfügen über umfangreiche theoretische und praktische Kenntnisse in der Forschung, Konstruktion und Entwicklung von Maschinen und Anlagen. Diese Kenntnisse setzen unsere Experten kompetent in wissenschaftlichen Arbeiten um.'
+                    text: 'Unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' im Bereich Ingenieurwissenschaften sind Experten in ihrem Fachgebiet. Besonders aus dem Fachgebiet '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/maschinenbau
+                          target: null
+                          rel: null
+                    text: 'Maschinenbau Ghostwriter'
+                  -
+                    type: text
+                    text: ' arbeiten eng mit unseren Ingenieurwissenschaftlern zusammen. Im Fachbereich Ingenieurwissenschaften Ghostwriter verfügen über umfangreiche theoretische und praktische Kenntnisse in der Forschung, Konstruktion und Entwicklung von Maschinen und Anlagen. Diese Kenntnisse setzen unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: Experten
+                  -
+                    type: text
+                    text: ' kompetent in wissenschaftlichen Arbeiten um.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Beim Verfassen einer Bachelor- oder Masterarbeit im Bereich Ingenieurwissenschaften stoßen Studierende oft auf Schwierigkeiten, wenn es darum geht, wissenschaftliche Erkenntnisse aus den Naturwissenschaften in die Entwicklung technologisch hochwertiger Produkte zu übertragen und diese als wissenschaftliche Arbeit zu verfassen. In solchen Prozessen spielen die Entwicklung und Prüfung sicherer Verfahren sowie computergestützte Konstruktion und Simulation eine bedeutende Rolle.'
+                    text: 'Beim Verfassen einer Bachelor- oder Masterarbeit im Bereich Ingenieurwissenschaften stoßen Studierende oft auf Schwierigkeiten, wenn es darum geht, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'wissenschaftliche Erkenntnisse aus den Naturwissenschaften in die Entwicklung technologisch hochwertiger Produkte zu übertragen'
+                  -
+                    type: text
+                    text: ' und diese als wissenschaftliche Arbeit zu verfassen. In solchen Prozessen spielen die Entwicklung und Prüfung sicherer Verfahren sowie computergestützte Konstruktion und Simulation eine bedeutende Rolle.'
               -
                 type: set
                 attrs:
@@ -329,7 +378,47 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ingenieurwissenschaften-Ghostwriter beschäftigen sich intensiv mit der Konstruktion, Entwicklung und Forschung von Maschinen und Systemen. Genau diese Anforderungen können unsere Ghostwriter im Bereich Ingenieurwissenschaften für Sie lösen. Sie kennen die aktuellen Trends in der Forschung und Entwicklung. Sie haben die Möglichkeit, eine Mustervorlage für Ihre Bachelor- oder Masterarbeit schreiben zu lassen.'
+                    text: 'Unsere Ingenieurwissenschaften-Ghostwriter beschäftigen sich intensiv mit der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Konstruktion
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Entwicklung
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'und Forschung von Maschinen und Systemen'
+                  -
+                    type: text
+                    text: '. Genau diese Anforderungen können unsere Ghostwriter im Bereich Ingenieurwissenschaften für Sie lösen. Sie kennen die aktuellen Trends in der Forschung und Entwicklung. Sie haben die Möglichkeit, eine Mustervorlage für Ihre Bachelor- oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit schreiben zu lassen'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
