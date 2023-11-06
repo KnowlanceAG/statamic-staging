@@ -1,9 +1,10 @@
 ---
 id: 942c2c8b-0964-473f-bd8d-10426b828eb8
+published: false
 blueprint: pages
-title: test!
+title: test123
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1699265835
+updated_at: 1699266289
 replicator:
   -
     id: laieiq4o
@@ -529,21 +530,6 @@ replicator:
                   -
                     type: text
                     text: 'Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort "und" und das Blindtextchen solle umkehren und wieder in sein eigenes, sicheres Land zurückkehren.'
-              -
-                type: set
-                attrs:
-                  id: lomqzun4
-                  values:
-                    type: conversion_widget
-                    cw_headline: 'Benötigen Sie Hilfe?'
-                    cw_text: |-
-                      Suchen Sie einen akademischen Ghostwriter? 
-                      Kontaktieren Sie uns jetzt für eine kostenlose & unverbindliche Beratung.
-                    cw_show_email: true
-                    cw_show_phonenumber: true
-                    cw_show_inquiry_button: true
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
