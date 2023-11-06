@@ -140,7 +140,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1699271319
+updated_at: 1699271383
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2699,8 +2699,8 @@ og_title: 'Wirtschaftswissenschaften Ghostwriter & mehr • GWriters.de'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Wirtschaftswissenschaften Ghostwriter'
-fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
+alternative_page_title: 'Ingenieurwissenschaften Ghostwriter'
+fachrichtungsgruppe: g_technische_fachrichtungen
 breadcrumbs_active: true
 jumpmark: mutlu@gwriters.net
 ---
