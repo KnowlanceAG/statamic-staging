@@ -140,7 +140,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1699271396
+updated_at: 1699271442
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2693,10 +2693,10 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Wirtschaftswissenschaften Ghostwriter & mehr • GWriters.de'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'Wirtschaftswissenschaften Ghostwriter & mehr • GWriters.de'
-og_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'Ingenieurwissenschaften Ghostwriter & mehr • GWriters.de'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Ingenieurwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_title: 'Ingenieurwissenschaften Ghostwriter & mehr • GWriters.de'
+og_description: 'Hilfe durch Experten und akademische Ghostwriter der Ingenieurwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Ingenieurwissenschaften Ghostwriter'
