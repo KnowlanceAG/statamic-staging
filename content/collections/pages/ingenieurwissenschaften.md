@@ -2,7 +2,7 @@
 id: b76dc919-f8fb-400e-86bc-ddb33ec06cb8
 published: false
 blueprint: pages
-title: 'Wirtschaftswissenschaften (Dupliziert)'
+title: Ingenieurwissenschaften
 teaser:
   -
     type: heading
@@ -140,7 +140,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1699032016
+updated_at: 1699271442
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -509,7 +509,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich Wirtschaftswissenschaften'
+                    text: 'Unsere Leistungen im Fachbereich Ingenieurwissenschaften'
               -
                 type: set
                 attrs:
@@ -522,7 +522,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre akademische Arbeit in den Wirtschaftswissenschaften von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre akademische Arbeit in den Ingenieurwissenschaften von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -530,7 +530,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Wirtschaftswissenschaften) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Ingenieurwissenschaften) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -546,7 +546,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, wirtschaftswissenschaftlichen Übersetzungen.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, ingenieurwissenschaftliche Übersetzungen.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -2693,13 +2693,14 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Wirtschaftswissenschaften Ghostwriter & mehr • GWriters.de'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'Wirtschaftswissenschaften Ghostwriter & mehr • GWriters.de'
-og_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'Ingenieurwissenschaften Ghostwriter & mehr • GWriters.de'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Ingenieurwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_title: 'Ingenieurwissenschaften Ghostwriter & mehr • GWriters.de'
+og_description: 'Hilfe durch Experten und akademische Ghostwriter der Ingenieurwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Wirtschaftswissenschaften Ghostwriter'
-fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
+alternative_page_title: 'Ingenieurwissenschaften Ghostwriter'
+fachrichtungsgruppe: g_technische_fachrichtungen
 breadcrumbs_active: true
+jumpmark: mutlu@gwriters.net
 ---
