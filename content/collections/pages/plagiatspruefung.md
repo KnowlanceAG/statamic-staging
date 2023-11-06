@@ -213,12 +213,6 @@ replicator:
                     type: text
                     text: 'Wichtige akademische Fachbereiche & Arbeiten'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bewältigung technischer Herausforderungen zu konzentrieren, während sie gleichzeitig professionell verfasste Arbeiten präsentieren können.'
-              -
                 type: set
                 attrs:
                   id: ljoh1u6i
@@ -1353,7 +1347,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1699271743
+updated_at: 1699271842
 template: with-side-bar
 meta_title: 'Plagiatsprüfung - Mehr Sicherheit für Ihre Abschlussarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Plagiatsprüfung: Leistungen, Ablauf, Kosten & Preise.'
