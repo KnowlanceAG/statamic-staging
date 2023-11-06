@@ -140,7 +140,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1699278647
+updated_at: 1699279125
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -581,7 +581,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH WIRTSCHAFTSWISSENSCHAFTEN'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH INGENIEURWISSENSCHAFTEN'
                     color: '#FF6606'
                     spacing_top: false
             show_as_card: false
@@ -2281,7 +2281,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 334
                           background: null
                         content:
                           -
@@ -2289,13 +2290,24 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Allgemeiner Maschinenbau (B.Eng.)'
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /fachrichtungen/maschinenbau
+                                      target: null
+                                      rel: null
+                                text: 'Allgemeiner Maschinenbau'
+                              -
+                                type: text
+                                text: ' (B.Eng.) (M.Eng.)'
                       -
                         type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 333
                           background: null
                         content:
                           -
@@ -2303,7 +2315,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Maschinenbau (M.Sc.)'
+                                text: 'Mechatronik (B.Sc.) (M.Sc.)'
                   -
                     type: table_row
                     content:
@@ -2312,7 +2324,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 334
                           background: null
                         content:
                           -
@@ -2320,13 +2333,24 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Bauingenieurwesen (B.Eng.)'
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /fachrichtungen/bauingenieurwesen
+                                      target: null
+                                      rel: null
+                                text: Bauingenieurwesen
+                              -
+                                type: text
+                                text: ' (B.Eng.) (M.Eng.)'
                       -
                         type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 333
                           background: null
                         content:
                           -
@@ -2334,7 +2358,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Mechatronik (B.Sc.)'
+                                text: 'Optotechnik & Bildverarbeitung (B.Sc.) (M.Sc.)'
                   -
                     type: table_row
                     content:
@@ -2343,7 +2367,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 334
                           background: null
                         content:
                           -
@@ -2357,7 +2382,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 333
                           background: null
                         content:
                           -
@@ -2365,7 +2391,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Mechatronik (M.Sc.)'
+                                text: 'Umweltingenieurwesen (B.Eng.) (M.Eng.)'
                   -
                     type: table_row
                     content:
@@ -2374,7 +2400,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 334
                           background: null
                         content:
                           -
@@ -2382,13 +2409,14 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Bauingenieurwesen (M.Eng.)'
+                                text: 'Elektrotechnik und Informationstechnik (B. Eng.) (M.Eng.)'
                       -
                         type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 333
                           background: null
                         content:
                           -
@@ -2396,7 +2424,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Optotechnik & Bildverarbeitung (B.Sc.)'
+                                text: 'Wirtschaftsingenieurwesen (B.Sc.) (M.Sc.)'
                   -
                     type: table_row
                     content:
@@ -2405,38 +2433,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Elektrotechnik und Informationstechnik (B. Eng.)'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Optotechnik & Bildverarbeitung (M.Sc.)'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 334
                           background: null
                         content:
                           -
@@ -2450,7 +2448,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 333
                           background: null
                         content:
                           -
@@ -2458,7 +2457,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Umweltingenieurwesen (B.Eng.)'
+                                text: 'Zuverlässigkeitsingenieurwesen (M.Eng.)'
                   -
                     type: table_row
                     content:
@@ -2467,38 +2466,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Elektrotechnik – weiterbildend (M.Sc.)'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Umweltingenieurwesen (M.Eng.)'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 334
                           background: null
                         content:
                           -
@@ -2512,7 +2481,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 333
                           background: null
                         content:
                           -
@@ -2520,69 +2490,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wirtschaftsingenieurwesen (B.Sc.)'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Kunststofftechnik (B.Eng.)'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Wirtschaftsingenieurwesen (M.Sc.)'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Kunststofftechnik (M.Sc.)'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Zuverlässigkeitsingenieurwesen (M.Eng.)'
+                                text: 'Kunststofftechnik (B.Eng.) (M.Eng.)'
               -
                 type: paragraph
                 content:
