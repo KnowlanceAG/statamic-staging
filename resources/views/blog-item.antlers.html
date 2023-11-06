@@ -133,10 +133,11 @@
           },
           "datePublished": "{{ date timezone="Europe/Berlin" format="Y-m-d" }}",
           "dateModified": "{{ last_modified timezone="Europe/Berlin" format="Y-m-d" }}",
-          "author": {
+          "author": [{
             "@type": "Person",
-            "name": "{{ author }}{{ name }}{{ /author }}"
-          },
+            "name": "{{ author }}{{ name }}{{ /author }}",
+            "url": "{{ author }}{{ config:cpssg:static_site_url }}author/{{ slug }}{{ /author }}"
+          }],
           "description": "{{ meta_description }}"
         }
         </script>
