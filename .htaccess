@@ -60,7 +60,7 @@ Redirect 301 /blog/ghostwriter-jobs-als-copywriter-webtexte-und-blogbeitraege-sc
 Redirect 301 /blog/ghostwriter-ratschlaege /blog/ghostwriter-tipps
 Redirect 301 /blog/ghostwriting-ratschlaege /leistungen/ghostwriting
 Redirect 301 /blog/igor-lorenz /blog/milena-fischer
-Redirect 301 /blog/jura-hausarbeit-seminararbeit-schreiben /fachrichtungen/jura
+Redirect 301 /blog/jura-hausarbeit-seminararbeit-schreiben /ghostwriter/jura
 Redirect 301 /blog/online-befragung-teilnehmer-finden /blog/umfrage-teilnehmer-finden
 Redirect 301 /blog/seminararbeit+schreiben /blog/erste-seminararbeit-schreiben
 Redirect 301 /blog/seminararbeit-schreiben /blog/erste-seminararbeit-schreiben
@@ -72,7 +72,7 @@ Redirect 301 /category/akademisches-ghostwriting-gwakademie /gwriters-akademie/a
 Redirect 301 /category/ghostwriter-und-agenturen-gwakademie /gwriters-akademie/ghostwriter-und-agenturen
 Redirect 301 /category/wissenschaftliches-arbeiten-anfeanger-gwakademie /gwriters-akademie/wissenschaftliches-arbeiten-anfeanger
 Redirect 301 /category/wissenschaftliches-arbeiten-fortgeschrittene-gwakademie /gwriters-akademie/wissenschaftliches-arbeiten-fortgeschrittene
-Redirect 301 /category/zahnmedizin /fachrichtungen/zahnmedizin
+Redirect 301 /category/zahnmedizin /ghostwriter/zahnmedizin
 Redirect 301 /comments/feed /
 Redirect 301 /express-ghostwriting-im-notfall /blog/express-ghostwriting-im-notfall
 Redirect 301 /feed /
@@ -83,7 +83,7 @@ Redirect 301 /gwriters-bibliotek-2-2-2-2-2 /gwriters-akademie
 
 Redirect 301 /startseite-2-3-2-2 /preise-2
 Redirect 301 /startseite-2-3-2/projekte /projekte
-Redirect 301 /studenten-columbia-universitaet-aufstand /fachrichtungen/informatik
+Redirect 301 /studenten-columbia-universitaet-aufstand /ghostwriter/informatik
 Redirect 301 /themenauswahltool /bachelorarbeit-thema
 Redirect 301 /verschiedenes/promotionsberatung /promotionsberatung
 Redirect 301 /video-ghostwriter-werden-aber-wie /blog/video-ghostwriter-werden-aber-wie
@@ -92,7 +92,7 @@ Redirect 301 /wiki/verschiedenes /wiki
 Redirect 301 /2013-09-10-ksta-turbo-master-in-vier-semestern /presse/2013-09-10-ksta-turbo-master-in-vier-semestern
 Redirect 301 /presse/2015-12-03/business-punk-ein-ghostwriter-stellt-sich-vor /presse/2015-12-03-business-punk-ein-ghostwriter-stellt-sich-vor
 Redirect 301 /ghostwriting/ghostwriter-gesucht /ghostwriting/suche-ghostwriter
-Redirect 301 /fachrichtungen/mathematik/aegyptische-papyri /fachrichtungen/mathematik
+Redirect 301 /fachrichtungen/mathematik/aegyptische-papyri /ghostwriter/mathematik
 
 Redirect 301 /verschiedenes/diplom-kaufen /wiki/diplom-kaufen
 
@@ -117,8 +117,8 @@ Redirect 301 /blog/masterarbeit-ghostwriter-hintergrund /arbeiten/masterarbeit-s
 Redirect 301 /blog/abstract-schreiben /blog/bachelorarbeit-abstract
 Redirect 301 /blog/ghostwriter-werden-aber-wie /blog/ghostwriter-werden-voraussetzungen
 Redirect 301 /blog/formatierung-wissenschaftlicher-arbeiten-studenten /blog/word-formatierung
-Redirect 301 /blog/fachbereiche-gwriters /fachrichtungen
-Redirect 301 /blog/ghostwriter-gwriters-kommunikation /fachrichtungen/kommunikationswissenschaften
+Redirect 301 /blog/fachbereiche-gwriters /ghostwriter
+Redirect 301 /blog/ghostwriter-gwriters-kommunikation /ghostwriter/kommunikationswissenschaften
 Redirect 301 /blog/fuenf-schluesselkompetenzen-ghostwriter-finden /ghostwriter-gesucht
 Redirect 301 /blog/akademisches-ghostwriting-alternativen /ghostwriting
 Redirect 301 /blog/nicht-akademisches-ghostwriting /ghostwriting
@@ -136,8 +136,8 @@ Redirect 301 /blog/doktorarbeit-schreiben-ablauf /blog/dissertation-schreiben-mo
 Redirect 301 /blog/akademischer-ghostwriter-werden /blog/ghostwriter-werden-voraussetzungen
 Redirect 301 /blog/ghostwriter-werden-karriere /blog/ghostwriter-werden-voraussetzungen
 Redirect 301 /blog/gebote-wissenschaflicher-arbeiten /blog/wissenschaftliche-arbeiten
-Redirect 301 /blog/informatik-studiengang /fachrichtungen/informatik
-Redirect 301 /blog/zahnmedizin-ghostwriter /fachrichtungen/zahnmedizin
+Redirect 301 /blog/informatik-studiengang /ghostwriter/informatik
+Redirect 301 /blog/zahnmedizin-ghostwriter /ghostwriter/zahnmedizin
 Redirect 301 /blog/gwriters-akademische-ghostwriter-ethik /ghostwriter
 Redirect 301 /blog/akademische-ghostwriter-vorteile /ghostwriter-job
 Redirect 301 /blog/korrektur-lesen /korrektorat/korrekturlesen
@@ -175,21 +175,21 @@ Redirect 301 /blog/akademisches-ghostwriting-gwriters /ghostwriting
 Redirect 301 /blog/ghostwriter-preise /preise
 
 #13898
-Redirect 301 /blog/ghostwriter-medizin-doktorarbeit /fachrichtungen/medizin
-Redirect 301 /blog/ghostwriter-fachbereiche-besonderheiten /fachrichtungen/vwl
-Redirect 301 /blog/medienwissenschaften-studiengang /fachrichtungen/medienwissenschaften
+Redirect 301 /blog/ghostwriter-medizin-doktorarbeit /ghostwriter/medizin
+Redirect 301 /blog/ghostwriter-fachbereiche-besonderheiten /ghostwriter/vwl
+Redirect 301 /blog/medienwissenschaften-studiengang /ghostwriter/medienwissenschaften
 Redirect 301 /blog/wissenschaftliches-bloggen /blog/blogartikel-schreiben-lassen
 Redirect 301 /blog/gwriters-coaching /so-funktioniert-es
 Redirect 301 /blog/literaturrecherche-wissenschaftliche-quellen /blog/literaturrecherche-datenbanken-quellen
 Redirect 301 /blog/kosten-ghostwriter /preise
 Redirect 301 /blog/fragen-akademischer-ghostwriter-gwriters /faq
-Redirect 301 /blog/kunst-studiengang /fachrichtungen/kunst
+Redirect 301 /blog/kunst-studiengang /ghostwriter/kunst
 
 #13915
 Redirect 301 /blog/vorgehensweise-qualitativen-inhaltsanalyse /blog/qualitative-inhaltsanalyse-voraussetzungen
 Redirect 301 /blog/empirische-bachelorarbeit-schreiben /blog/empirische-theoretische-bachelorarbeit
 Redirect 301 /blog/die-10-wichtigsten-tipps-zur-literaturrecherche /blog/literaturrecherche-datenbanken-quellen
-Redirect 301 /blog/geschichte-studiengang /fachrichtungen/geschichte
+Redirect 301 /blog/geschichte-studiengang /ghostwriter/geschichte
 Redirect 301 /blog/schreiben-lassen-ghostwriting-universitaeten  /ghostwriting
 Redirect 301 /blog/thesis-vermeidbare-fehler /blog/fehler-in-der-bachelorarbeit
 Redirect 301 /blog/ghostwriter-agentur /ghostwriting/ghostwriting-agentur
@@ -209,7 +209,7 @@ Redirect 301 /faq/motivation-akademische-ghostwriter /ghostwriter
 Redirect 301 /faq/ghostwriting-strafbar /blog/plagiate-ghostwriting-legal
 Redirect 301 /faq/warum-gwriters /faq
 Redirect 301 /faq/preise-ghostwriting /preise
-Redirect 301 /faq/fachrichtungen-ghostwriting /fachrichtungen
+Redirect 301 /faq/fachrichtungen-ghostwriting /ghostwriter
 Redirect 301 /faq/qualitaet-ghostwriter /faq
 Redirect 301 /faq/kontakt-ghostwriter /so-funktioniert-es
 Redirect 301 /faq/ghostwriter-englisch /blog/hausarbeit-auf-englisch-schreiben
@@ -226,3 +226,44 @@ Redirect 301 /faq/formatvorgaben /faq
 Redirect 301 /wiki /faq
 Redirect 301 /wiki/ghostwriter-oesterreich /faq/ghostwriter-oesterreich
 Redirect 301 /wiki/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben /faq/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
+
+#14604
+Redirect 301 /fachrichtungen /ghostwriter
+Redirect 301 /fachrichtungen/elektrotechnik /ghostwriter/elektrotechnik
+Redirect 301 /fachrichtungen/anglistik /ghostwriter/anglistik
+Redirect 301 /fachrichtungen/psychologie /ghostwriter/psychologie
+Redirect 301 /fachrichtungen/sozialwissenschaften /ghostwriter/sozialwissenschaften
+Redirect 301 /fachrichtungen/sprachwissenschaften /ghostwriter/sprachwissenschaften
+Redirect 301 /fachrichtungen/chemie /ghostwriter/chemie
+Redirect 301 /fachrichtungen/medienwissenschaften /ghostwriter/medienwissenschaften
+Redirect 301 /fachrichtungen/literatur /ghostwriter/literatur
+Redirect 301 /fachrichtungen/germanistik-ghostwriter /ghostwriter/germanistik
+Redirect 301 /fachrichtungen/kunst /ghostwriter/kunst
+Redirect 301 /fachrichtungen/bauingenieurwesen /ghostwriter/bauingenieurwesen
+Redirect 301 /fachrichtungen/mathematik /ghostwriter/mathematik
+Redirect 301 /fachrichtungen/technomathematik /ghostwriter/technomathematik
+Redirect 301 /fachrichtungen/zahnmedizin /ghostwriter/zahnmedizin
+Redirect 301 /fachrichtungen/soziale-arbeit /ghostwriter/soziale
+Redirect 301 /fachrichtungen/biologie /ghostwriter/biologie
+Redirect 301 /fachrichtungen/marketing /ghostwriter/marketing
+Redirect 301 /fachrichtungen/maschinenbau /ghostwriter/maschinenbau
+Redirect 301 /fachrichtungen/philosophie /ghostwriter/philosophie
+Redirect 301 /fachrichtungen/erziehungswissenschaften-ghostwriter /ghostwriter/erziehungswissenschaften
+Redirect 301 /fachrichtungen/vwl /ghostwriter/vwl
+Redirect 301 /fachrichtungen/jura /ghostwriter/jura
+Redirect 301 /fachrichtungen/wirtschaftsinformatik /ghostwriter/wirtschaftsinformatik
+Redirect 301 /fachrichtungen/architektur /ghostwriter/architektur
+Redirect 301 /fachrichtungen/wirtschaftswissenschaften /ghostwriter/wirtschaftswissenschaften
+Redirect 301 /fachrichtungen/finanzwissenschaften /ghostwriter/finanzwissenschaften
+Redirect 301 /fachrichtungen /ghostwriter//ghostwriter
+Redirect 301 /fachrichtungen/soziologie /ghostwriter/soziologie
+Redirect 301 /fachrichtungen/medizin /ghostwriter/medizin
+Redirect 301 /fachrichtungen/geowissenschaften /ghostwriter/geowissenschaften
+Redirect 301 /fachrichtungen/geologie /ghostwriter/geologie
+Redirect 301 /fachrichtungen/informatik /ghostwriter/informatik
+Redirect 301 /fachrichtungen/agrarwissenschaften /ghostwriter/agrarwissenschaften
+Redirect 301 /fachrichtungen/pflegewissenschaften /ghostwriter/pflegewissenschaften
+Redirect 301 /fachrichtungen/personalmanagement /ghostwriter/personalmanagement
+Redirect 301 /fachrichtungen/bwl /ghostwriter/bwl
+Redirect 301 /fachrichtungen/kommunikationswissenschaften /ghostwriter/kommunikationswissenschaften
+Redirect 301 /fachrichtungen/geschichte /ghostwriter/geschichte
