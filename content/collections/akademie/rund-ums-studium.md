@@ -139,7 +139,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/bwl
+                  href: /ghostwriter/bwl
                   target: null
                   rel: null
             text: Betriebswirtschaftslehre
@@ -152,7 +152,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/psychologie
+                  href: /ghostwriter/psychologie
                   target: null
                   rel: null
             text: Psychologie

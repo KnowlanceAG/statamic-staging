@@ -717,7 +717,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/medienwissenschaften
+                          href: /ghostwriter/medienwissenschaften
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -749,7 +749,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/sprachwissenschaften
+                          href: /ghostwriter/sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften

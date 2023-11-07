@@ -255,7 +255,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/medizin
+                          href: /ghostwriter/medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -669,7 +669,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
+                          href: /ghostwriter/wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften

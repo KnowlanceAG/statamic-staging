@@ -19,7 +19,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/wirtschaftswissenschaften
+              href: /ghostwriter/wirtschaftswissenschaften
               target: _blank
               rel: null
         text: Wirtschaftswissenschaften

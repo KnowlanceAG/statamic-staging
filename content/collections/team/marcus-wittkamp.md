@@ -35,7 +35,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/vwl
+                      href: /ghostwriter/vwl
                       target: null
                       rel: null
                 text: VWL
@@ -57,7 +57,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/finanzwissenschaften
+                      href: /ghostwriter/finanzwissenschaften
                       target: null
                       rel: null
                 text: Finanzen

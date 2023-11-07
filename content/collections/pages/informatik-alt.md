@@ -889,7 +889,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/wirtschaftsinformatik
+                          href: /ghostwriter/wirtschaftsinformatik
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
@@ -959,7 +959,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/bwl
+                                  href: /ghostwriter/bwl
                                   target: null
                                   rel: null
                             text: BWL
@@ -984,7 +984,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/chemie
+                                  href: /ghostwriter/chemie
                                   target: null
                                   rel: null
                             text: Chemie
@@ -1009,7 +1009,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/mathematik
+                                  href: /ghostwriter/mathematik
                                   target: null
                                   rel: null
                             text: Mathematik
@@ -1034,7 +1034,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/medizin
+                                  href: /ghostwriter/medizin
                                   target: null
                                   rel: null
                             text: Medizin
@@ -1059,7 +1059,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/wirtschaftsinformatik
+                                  href: /ghostwriter/wirtschaftsinformatik
                                   target: null
                                   rel: null
                             text: Wirtschaftsinformatik
@@ -1303,7 +1303,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/wirtschaftsinformatik
+                          href: /ghostwriter/wirtschaftsinformatik
                           target: null
                           rel: null
                     text: 'Wirtschaftsinformatik '
@@ -1459,7 +1459,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/elektrotechnik
+                          href: /ghostwriter/elektrotechnik
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -1484,7 +1484,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/medizin
+                          href: /ghostwriter/medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -1497,7 +1497,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/mathematik
+                          href: /ghostwriter/mathematik
                           target: null
                           rel: null
                     text: Mathematik

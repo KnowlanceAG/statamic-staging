@@ -261,7 +261,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/soziologie
+                          href: /ghostwriter/soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -341,7 +341,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/bwl
+                          href: /ghostwriter/bwl
                           target: null
                           rel: null
                     text: 'Ghostwriter BWL'
@@ -401,7 +401,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/marketing
+                          href: /ghostwriter/marketing
                           target: null
                           rel: null
                     text: Marketing

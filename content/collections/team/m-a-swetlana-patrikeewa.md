@@ -36,7 +36,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/medienwissenschaften
+                      href: /ghostwriter/medienwissenschaften
                       target: null
                       rel: null
                 text: Medienwissenschaften
@@ -58,7 +58,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/literatur
+                      href: /ghostwriter/literatur
                       target: null
                       rel: null
                 text: Literatur
@@ -80,7 +80,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/sprachwissenschaften
+                      href: /ghostwriter/sprachwissenschaften
                       target: null
                       rel: null
                 text: Sprachwissenschaften
@@ -102,7 +102,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/psychologie
+                      href: /ghostwriter/psychologie
                       target: null
                       rel: null
                 text: 'Psychologie Ghostwriter'

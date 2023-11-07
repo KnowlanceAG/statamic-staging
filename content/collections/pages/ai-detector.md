@@ -232,7 +232,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/jura
+                                  href: /ghostwriter/jura
                                   target: null
                                   rel: null
                             text: Jura
@@ -245,7 +245,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/maschinenbau
+                                  href: /ghostwriter/maschinenbau
                                   target: null
                                   rel: null
                             text: Maschinenbau
@@ -258,7 +258,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/informatik
+                                  href: /ghostwriter/informatik
                                   target: null
                                   rel: null
                             text: Informatik

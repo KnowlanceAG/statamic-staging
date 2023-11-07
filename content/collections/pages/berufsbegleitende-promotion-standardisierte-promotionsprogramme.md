@@ -905,7 +905,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/bwl
+                                  href: /ghostwriter/bwl
                                   target: null
                                   rel: null
                             text: BWL
@@ -932,7 +932,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/vwl
+                                  href: /ghostwriter/vwl
                                   target: null
                                   rel: null
                             text: VWL
@@ -1050,7 +1050,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
+                          href: /ghostwriter/wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften

@@ -1,81 +1,85 @@
 <!-- desktop main nav -->
 {{ cache scope="site" }}
-  <nav
-    class="hidden menu-desktop prelg:flex prelg:static prelg:h-auto prelg:self-center prelg:items-center prelg:justify-end">
-    {{ nav handle="mainnav_desktop" }}
-      {{ if depth == 1 }}
-        {{ if last }}
-          <a href="{{ url }}"
-            class="px-3 py-2 ml-4 text-sm text-white uppercase bg-gray-700 rounded-sm xl:ml-6 md:px-5 md:py-3 font-300 hover:bg-black hover:transition-colors hover:duration-200 inquiry-btn">
-            {{ title }}
-          </a>
-        {{ else }}
-          {{ if children }}
-            <p
-              {{ if is_current || is_parent }} class="my-0 ml-4 xl:ml-6 current text-sm font-normal hover:text-orange-500 {{ if children }}dropdown cursor-pointer{{ /if }}" {{ else }} class="my-0 ml-4 xl:ml-6 text-sm font-normal text-gray-600 hover:text-orange-500 {{ if children }}dropdown cursor-pointer{{ /if }}" {{ /if }}>
-              {{ title }}
-            </p>
-            <div class="fixed left-0 hidden w-screen h-screen bg-white top-36 bg-opacity-95 megamenu">
-              <section class="px-4 lg:py-8 max-w-screen">
-                <div class="container clear-both max-w-screen-xl mx-auto content">
-                  <div class="flex justify-end w-full mb-6">
-                    <button
-                      class="text-black transition-all duration-150 ease-in-out bg-transparent border-0 closesub hover:scale-110 transform-gpu">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
-                  </div>
-                  <div class="relative flex flex-wrap gap-4">
-                    <!-- linke spalte lvl 1 -->
-                    <div class="flex flex-col w-1/4">
-                      {{ children }}
-                        <p data-target-tab="tab-{{ count }}"
-                          class="subitemtoggle mb-2 font-black {{ if first }}active{{ /if }} hover:text-orange-500 cursor-pointer w-max">
-                          {{ title }}</p>
-                      {{ /children }}
-                    </div>
-                    {{ children }}
-                      <div id="tab-{{ count }}"
-                        class="w-3/4 grid grid-cols-3 gap-x-4 gap-y-12 subitem {{ if first }}active {{ else }}{{ /if }} transition-all duration-200">
-                        {{ *recursive children* }}
-                        {{ if title == 'Fachrichtungen'}}
-                          <a href="/fachrichtungen" class="font-black leading-tight underline hover:text-orange-500">Alle {{ title }}</a>
-                        {{ elseif title == 'Arbeiten' }}
-                          <a href="/arbeiten" class="font-black leading-tight underline hover:text-orange-500">Alle {{ title }}</a>
-                        {{ /if }}
-                      </div>
-                    {{ /children }}
-                  </div>
-                </div>
-              </section>
-            </div>
-          {{ else }}
-            <a href="{{ url }}"
-              {{ if is_current || is_parent }} class="my-0 ml-4 xl:ml-6 current text-sm font-normal text-orange-500 {{ if children }}dropdown{{ /if }}" {{ else }} class="my-0 ml-4 xl:ml-6 text-sm font-normal text-gray-600 hover:text-orange-500 {{ if children }}dropdown{{ /if }}" {{ /if }}>
-              {{ title }}
-            </a>
-          {{ /if }}
-        {{ /if }}
-      {{ elseif depth == 2 }}
-        {{ if children }}
-          <!-- rechte spalte lvl 2 -->
-          {{ *recursive children* }}
-        {{ /if }}
-      {{ elseif depth == 3 }}
-        <div class="flex flex-col">
-          <p class="w-3/4 mt-0 mb-2 font-black leading-tight">{{ title }}</p>
-          {{ if children }}
-            {{ *recursive children* }}
-          {{ /if }}
+<nav
+  class="hidden menu-desktop prelg:flex prelg:static prelg:h-auto prelg:self-center prelg:items-center prelg:justify-end">
+  {{ nav handle="mainnav_desktop" }}
+  {{ if depth == 1 }}
+  {{ if last }}
+  <a href="{{ url }}"
+    class="px-3 py-2 ml-4 text-sm text-white uppercase bg-gray-700 rounded-sm xl:ml-6 md:px-5 md:py-3 font-300 hover:bg-black hover:transition-colors hover:duration-200 inquiry-btn">
+    {{ title }}
+  </a>
+  {{ else }}
+  {{ if children }}
+  <p {{ if is_current || is_parent }}
+    class="my-0 ml-4 xl:ml-6 current text-sm font-normal hover:text-orange-500 {{ if children }}dropdown cursor-pointer{{ /if }}"
+    {{ else }}
+    class="my-0 ml-4 xl:ml-6 text-sm font-normal text-gray-600 hover:text-orange-500 {{ if children }}dropdown cursor-pointer{{ /if }}"
+    {{ /if }}>
+    {{ title }}
+  </p>
+  <div class="fixed left-0 hidden w-screen h-screen bg-white top-36 bg-opacity-95 megamenu">
+    <section class="px-4 lg:py-8 max-w-screen">
+      <div class="container clear-both max-w-screen-xl mx-auto content">
+        <div class="flex justify-end w-full mb-6">
+          <button
+            class="text-black transition-all duration-150 ease-in-out bg-transparent border-0 closesub hover:scale-110 transform-gpu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
         </div>
-      {{ elseif depth == 4 }}
-        <a href="{{ url }}" class="hover:text-orange-500 w-max">{{ title }}</a>
-      {{ /if }}
-    {{ /nav }}
-  </nav>
+        <div class="relative flex flex-wrap gap-4">
+          <!-- linke spalte lvl 1 -->
+          <div class="flex flex-col w-1/4">
+            {{ children }}
+            <p data-target-tab="tab-{{ count }}"
+              class="subitemtoggle mb-2 font-black {{ if first }}active{{ /if }} hover:text-orange-500 cursor-pointer w-max">
+              {{ title }}</p>
+            {{ /children }}
+          </div>
+          {{ children }}
+          <div id="tab-{{ count }}"
+            class="w-3/4 grid grid-cols-3 gap-x-4 gap-y-12 subitem {{ if first }}active {{ else }}{{ /if }} transition-all duration-200">
+            {{ *recursive children* }}
+            {{ if title == 'Fachrichtungen'}}
+            <a href="/ghostwriter" class="font-black leading-tight underline hover:text-orange-500">Alle {{ title }}</a>
+            {{ elseif title == 'Arbeiten' }}
+            <a href="/arbeiten" class="font-black leading-tight underline hover:text-orange-500">Alle {{ title }}</a>
+            {{ /if }}
+          </div>
+          {{ /children }}
+        </div>
+      </div>
+    </section>
+  </div>
+  {{ else }}
+  <a href="{{ url }}" {{ if is_current || is_parent }}
+    class="my-0 ml-4 xl:ml-6 current text-sm font-normal text-orange-500 {{ if children }}dropdown{{ /if }}" {{ else }}
+    class="my-0 ml-4 xl:ml-6 text-sm font-normal text-gray-600 hover:text-orange-500 {{ if children }}dropdown{{ /if }}"
+    {{ /if }}>
+    {{ title }}
+  </a>
+  {{ /if }}
+  {{ /if }}
+  {{ elseif depth == 2 }}
+  {{ if children }}
+  <!-- rechte spalte lvl 2 -->
+  {{ *recursive children* }}
+  {{ /if }}
+  {{ elseif depth == 3 }}
+  <div class="flex flex-col">
+    <p class="w-3/4 mt-0 mb-2 font-black leading-tight">{{ title }}</p>
+    {{ if children }}
+    {{ *recursive children* }}
+    {{ /if }}
+  </div>
+  {{ elseif depth == 4 }}
+  <a href="{{ url }}" class="hover:text-orange-500 w-max">{{ title }}</a>
+  {{ /if }}
+  {{ /nav }}
+</nav>
 {{ /cache }}
 <!-- /desktop main nav -->
 
@@ -89,118 +93,126 @@
   </svg>
 </button>
 {{ cache scope="site" }}
-  <nav
-    class="absolute top-0 bottom-0 right-0 z-10 hidden w-auto h-screen pb-24 overflow-y-scroll bg-white shadow-2xl menu-mobile prelg:hidden scrollbar-hide">
-    <button
-      class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 menu-closer hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200">
-      <svg x-state:on="Menu open" x-state:off="Menu closed" class="w-6 h-6"
-        :class="{ 'block': open, 'hidden': !(open) }" x-description="Heroicon name: outline/x"
-        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+<nav
+  class="absolute top-0 bottom-0 right-0 z-10 hidden w-auto h-screen pb-24 overflow-y-scroll bg-white shadow-2xl menu-mobile prelg:hidden scrollbar-hide">
+  <button
+    class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 menu-closer hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200">
+    <svg x-state:on="Menu open" x-state:off="Menu closed" class="w-6 h-6" :class="{ 'block': open, 'hidden': !(open) }"
+      x-description="Heroicon name: outline/x" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+      stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+    </svg>
+  </button>
+  {{ nav handle="hauptnavigation_mobile" }}
+  {{ if depth == 1 }}
+  {{ if last }}
+  <a href="{{ url }}"
+    class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200">
+    {{ title }}
+  </a>
+  {{ else }}
+  {{ if children }}
+  {{ if url }}
+  <a href="{{ url }}" {{ if is_current || is_parent }}
+    class="flex items-center w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200"
+    {{ else }}
+    class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200"
+    {{ /if }}>
+    <span>
+      {{ title }}
+      <button class="p-1 mx-2 transition-all duration-200 border border-white rounded-sm nextlvl-toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5t" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
+    </span>
+  </a>
+  <div class="px-4 bg-gray-100 border-b border-gray-300 lvl megamenu">
+    <div class="my-4">
+      {{ children }}
+      {{ title }}
+      {{ *recursive children* }}
+      {{ /children }}
+    </div>
+  </div>
+  {{ else }}
+  <p
+    class="flex items-center w-full px-6 py-4 pr-24 mb-0 text-orange-500 border-gray-300 nextlvl-toggle hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200">
+    {{ title }}
+    <button class="p-1 mx-2 border border-white rounded-sm">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          clip-rule="evenodd" />
       </svg>
     </button>
-    {{ nav handle="hauptnavigation_mobile" }}
-      {{ if depth == 1 }}
-        {{ if last }}
-          <a href="{{ url }}"
-            class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200">
-            {{ title }}
-          </a>
-        {{ else }}
-          {{ if children }}
-            {{ if url }}
-              <a href="{{ url }}"
-                {{ if is_current || is_parent }} class="flex items-center w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200" {{ else }} class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200" {{ /if }}>
-                <span>
-                  {{ title }}
-                  <button class="p-1 mx-2 transition-all duration-200 border border-white rounded-sm nextlvl-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5t" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd" />
-                    </svg>
-                  </button>
-                </span>
-              </a>
-              <div class="px-4 bg-gray-100 border-b border-gray-300 lvl megamenu">
-                <div class="my-4">
-                  {{ children }}
-                    {{ title }}
-                    {{ *recursive children* }}
-                  {{ /children }}
-                </div>
-              </div>
-            {{ else }}
-              <p
-                class="flex items-center w-full px-6 py-4 pr-24 mb-0 text-orange-500 border-gray-300 nextlvl-toggle hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200">
-                {{ title }}
-                <button class="p-1 mx-2 border border-white rounded-sm">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd"
-                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                      clip-rule="evenodd" />
-                  </svg>
-                </button>
-              </p>
-              <div class="px-6 bg-gray-100 border-b border-gray-300 lvl megamenu">
-                <div class="my-4">
-                  {{ children }}
-                    <p class="flex items-center w-auto text-orange-500 nextlvl-toggle">
-                      {{ title }}
-                      <button class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                          <path fill-rule="evenodd"
-                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                            clip-rule="evenodd" />
-                        </svg>
-                      </button>
-                    </p>
-                    <div class="lvl">
-                      {{ *recursive children* }}
-                      {{ if title == 'Fachrichtungen'}}
-                          <a href="/fachrichtungen" class="block mt-2 mb-4 ml-2 font-black leading-tight underline hover:text-orange-500">Alle {{ title }}</a>
-                      {{ elseif title == 'Arbeiten' }}
-                          <a href="/arbeiten" class="block mt-2 mb-4 ml-2 font-black leading-tight underline hover:text-orange-500">Alle {{ title }}</a>
-                      {{ /if }}
-                    </div>
-                  {{ /children }}
-                </div>
-              </div>
-            {{ /if }}
-          {{ else }}
-            <a href="{{ url }}"
-              {{ if is_current || is_parent }} class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200" {{ else }} class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200" {{ /if }}>
-              {{ title }}
-            </a>
-          {{ /if }}
-        {{ /if }}
-      {{ elseif depth == 2 }}
+  </p>
+  <div class="px-6 bg-gray-100 border-b border-gray-300 lvl megamenu">
+    <div class="my-4">
+      {{ children }}
+      <p class="flex items-center w-auto text-orange-500 nextlvl-toggle">
+        {{ title }}
+        <button class="">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd" />
+          </svg>
+        </button>
+      </p>
+      <div class="lvl">
         {{ *recursive children* }}
-      {{ elseif depth == 3 }}
-        <p class="flex items-center mt-0 mb-2 ml-2 nextlvl-toggle">
-          {{ title }}
-          <button class="ml-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd"
-                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                clip-rule="evenodd" />
-            </svg>
-          </button>
-        </p>
-        <div class="ml-6 lvl">
-          {{ if children }}
-            {{ *recursive children* }}
-          {{ /if }}
-        </div>
-      {{ elseif depth == 4 }}
-        {{ if last }}
-          <a href="{{ url }}" class="block w-full mb-8 text-orange-500">{{ title }}</a>
-        {{ else }}
-          <a href="{{ url }}" class="block w-full mb-2 text-orange-500">{{ title }}</a>
+        {{ if title == 'Fachrichtungen'}}
+        <a href="/ghostwriter"
+          class="block mt-2 mb-4 ml-2 font-black leading-tight underline hover:text-orange-500">Alle {{ title }}</a>
+        {{ elseif title == 'Arbeiten' }}
+        <a href="/arbeiten" class="block mt-2 mb-4 ml-2 font-black leading-tight underline hover:text-orange-500">Alle
+          {{ title }}</a>
         {{ /if }}
-      {{ /if }}
-    {{ /nav }}
-  </nav>
+      </div>
+      {{ /children }}
+    </div>
+  </div>
+  {{ /if }}
+  {{ else }}
+  <a href="{{ url }}" {{ if is_current || is_parent }}
+    class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200"
+    {{ else }}
+    class="block w-full px-6 py-4 pr-24 text-orange-500 border-b border-gray-300 hover:text-white hover:bg-orange-500 hover:transition-colors hover:duration-200"
+    {{ /if }}>
+    {{ title }}
+  </a>
+  {{ /if }}
+  {{ /if }}
+  {{ elseif depth == 2 }}
+  {{ *recursive children* }}
+  {{ elseif depth == 3 }}
+  <p class="flex items-center mt-0 mb-2 ml-2 nextlvl-toggle">
+    {{ title }}
+    <button class="ml-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          clip-rule="evenodd" />
+      </svg>
+    </button>
+  </p>
+  <div class="ml-6 lvl">
+    {{ if children }}
+    {{ *recursive children* }}
+    {{ /if }}
+  </div>
+  {{ elseif depth == 4 }}
+  {{ if last }}
+  <a href="{{ url }}" class="block w-full mb-8 text-orange-500">{{ title }}</a>
+  {{ else }}
+  <a href="{{ url }}" class="block w-full mb-2 text-orange-500">{{ title }}</a>
+  {{ /if }}
+  {{ /if }}
+  {{ /nav }}
+</nav>
 {{ /cache }}
 <div
   class="fixed top-0 bottom-0 left-0 right-0 z-0 hidden w-screen h-screen bg-gray-900 menu-overlayer lg:hidden opacity-80">

@@ -494,7 +494,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /fachrichtungen/bwl
+                                          href: /ghostwriter/bwl
                                           target: null
                                           rel: null
                                     text: BWL
@@ -967,7 +967,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /fachrichtungen
+                                          href: /ghostwriter
                                           target: null
                                           rel: null
                                     text: Fachbereichen
@@ -993,7 +993,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /fachrichtungen/jura
+                                          href: /ghostwriter/jura
                                           target: null
                                           rel: null
                                     text: Jura
@@ -1019,7 +1019,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /fachrichtungen/wirtschaftswissenschaften
+                                          href: /ghostwriter/wirtschaftswissenschaften
                                           target: null
                                           rel: null
                                     text: Wirtschaftswissenschaften
@@ -1045,7 +1045,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /fachrichtungen/bwl
+                                          href: /ghostwriter/bwl
                                           target: null
                                           rel: null
                                     text: BWL
@@ -1071,7 +1071,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /fachrichtungen/medizin
+                                          href: /ghostwriter/medizin
                                           target: null
                                           rel: null
                                     text: Medizin
@@ -1097,7 +1097,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /fachrichtungen/psychologie
+                                          href: /ghostwriter/psychologie
                                           target: null
                                           rel: null
                                     text: Psychologie
@@ -1123,7 +1123,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /fachrichtungen/sozialwissenschaften
+                                          href: /ghostwriter/sozialwissenschaften
                                           target: null
                                           rel: null
                                     text: Sozialwissenschaften
@@ -1534,7 +1534,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /fachrichtungen/kommunikationswissenschaften
+                                          href: /ghostwriter/kommunikationswissenschaften
                                           target: null
                                           rel: null
                                     text: Kommunikation

@@ -36,7 +36,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/medizin
+                      href: /ghostwriter/medizin
                       target: null
                       rel: null
                 text: 'Medizin Ghostwriter'
@@ -58,7 +58,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/biologie
+                      href: /ghostwriter/biologie
                       target: null
                       rel: null
                 text: Biologie
@@ -80,7 +80,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/chemie
+                      href: /ghostwriter/chemie
                       target: null
                       rel: null
                 text: Biochemie

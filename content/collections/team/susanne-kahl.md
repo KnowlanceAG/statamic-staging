@@ -34,7 +34,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/soziologie
+                      href: /ghostwriter/soziologie
                       target: null
                       rel: null
                 text: Sozialwissenschaften
@@ -56,7 +56,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: /fachrichtungen/wirtschaftswissenschaften
+                      href: /ghostwriter/wirtschaftswissenschaften
                       target: null
                       rel: null
                 text: Wirtschaftswissenschaften

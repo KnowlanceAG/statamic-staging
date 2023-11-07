@@ -1247,7 +1247,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/bwl
+                  href: /ghostwriter/bwl
                   target: null
                   rel: null
             text: BWL
@@ -1404,7 +1404,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/literatur
+                  href: /ghostwriter/literatur
                   target: null
                   rel: null
             text: Literatur

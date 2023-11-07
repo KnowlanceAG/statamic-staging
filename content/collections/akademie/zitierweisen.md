@@ -176,7 +176,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Fachbereich

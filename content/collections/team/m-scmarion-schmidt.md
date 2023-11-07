@@ -19,7 +19,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/finanzwissenschaften
+              href: /ghostwriter/finanzwissenschaften
               target: null
               rel: null
         text: Finance

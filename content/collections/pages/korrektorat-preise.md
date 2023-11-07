@@ -240,7 +240,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/jura
+                  href: /ghostwriter/jura
                   target: null
                   rel: null
             text: Jura

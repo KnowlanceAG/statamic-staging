@@ -1301,7 +1301,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/bwl
+                          href: /ghostwriter/bwl
                           target: null
                           rel: null
                     text: Betriebswirtschaftslehre
@@ -1319,7 +1319,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/vwl
+                          href: /ghostwriter/vwl
                           target: null
                           rel: null
                     text: Volkswirtschaftslehre
@@ -1337,7 +1337,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/jura
+                          href: /ghostwriter/jura
                           target: null
                           rel: null
                     text: Jura
@@ -1453,7 +1453,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/erziehungswissenschaften-ghostwriter
+                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -1471,7 +1471,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/soziologie
+                          href: /ghostwriter/soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -1501,7 +1501,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/kommunikationswissenschaften
+                          href: /ghostwriter/kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikationswissenschaften
@@ -1519,7 +1519,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/marketing
+                          href: /ghostwriter/marketing
                           target: null
                           rel: null
                     text: Marketing

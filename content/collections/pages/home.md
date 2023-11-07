@@ -1003,7 +1003,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/jura
+                          href: /ghostwriter/jura
                           target: null
                           rel: null
                     text: 'Jura Ghostwriter'
@@ -1085,7 +1085,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/bwl
+                          href: /ghostwriter/bwl
                           target: null
                           rel: null
                     text: 'BWL Ghostwriter'
@@ -1167,7 +1167,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/medizin
+                          href: /ghostwriter/medizin
                           target: null
                           rel: null
                     text: 'Medizin Ghostwriter'
@@ -1257,7 +1257,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/sozialwissenschaften
+                          href: /ghostwriter/sozialwissenschaften
                           target: null
                           rel: null
                     text: 'Sozialwissenschaften Ghostwriter'
@@ -1339,7 +1339,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/psychologie
+                          href: /ghostwriter/psychologie
                           target: null
                           rel: null
                     text: 'Psychologie Ghostwriter'
@@ -1421,7 +1421,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/zahnmedizin
+                          href: /ghostwriter/zahnmedizin
                           target: null
                           rel: null
                     text: 'Zahnmedizin Ghostwriter'

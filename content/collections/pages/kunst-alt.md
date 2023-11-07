@@ -188,7 +188,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/architektur
+                          href: /ghostwriter/architektur
                           target: null
                           rel: null
                     text: Architektur

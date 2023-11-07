@@ -233,7 +233,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/literatur
+                  href: /ghostwriter/literatur
                   target: null
                   rel: null
             text: Literatur

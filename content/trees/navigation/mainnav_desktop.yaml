@@ -108,7 +108,7 @@ tree:
               -
                 id: e68173e9-8149-465f-94f7-f77becbcb623
                 title: Softwarelokalisierung
-                url: '/fachrichtungen/informatik#softwarelokalisierung'
+                url: '/ghostwriter/informatik#softwarelokalisierung'
               -
                 id: 79c6b52c-a5f1-4512-bfa1-67e0c384795a
                 entry: b76dc919-f8fb-400e-86bc-ddb33ec06cb8
@@ -122,7 +122,7 @@ tree:
               -
                 id: 1e497c27-8c2f-4b0f-9c70-26306cb16dc7
                 title: Biotechnologie
-                url: '/fachrichtungen/biologie#biotechnologie'
+                url: '/ghostwriter/biologie#biotechnologie'
               -
                 id: 9c6092ac-97e5-4e37-91f7-8e992021ba9c
                 entry: a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
@@ -163,7 +163,7 @@ tree:
               -
                 id: eb2fc856-f556-4f45-9309-a9eae925dcdd
                 title: Kommunikationsdesign
-                url: '/fachrichtungen/kommunikationswissenschaften/#kommunikationsdesign'
+                url: '/ghostwriter/kommunikationswissenschaften/#kommunikationsdesign'
           -
             id: c7e0e997-6f04-44b1-9409-46a8c7bd1f00
             title: 'Wirtschaftliche Fachbereiche'
@@ -189,7 +189,7 @@ tree:
               -
                 id: fdf9baef-68f8-4cf5-b65e-9777a0e3cdc7
                 title: 'Internationale BWL'
-                url: '/fachrichtungen/bwl#internationale'
+                url: '/ghostwriter/bwl#internationale'
               -
                 id: 12562117-89b2-47a1-a1e6-d6a5220c0418
                 entry: 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
@@ -221,7 +221,7 @@ tree:
               -
                 id: 0f15af7b-f6ea-46fa-a416-d54e7892d0f1
                 title: Kunstgeschichte
-                url: '/fachrichtungen/kunst#kunstgeschichte'
+                url: '/ghostwriter/kunst#kunstgeschichte'
           -
             id: ecbc3f43-8690-4c01-968b-8b574c22fab0
             title: 'Medizinische Fachrichtungen'

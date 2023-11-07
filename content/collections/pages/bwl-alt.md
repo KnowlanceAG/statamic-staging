@@ -762,7 +762,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
+                          href: /ghostwriter/wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -789,7 +789,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/vwl
+                          href: /ghostwriter/vwl
                           target: null
                           rel: null
                     text: VWL
@@ -947,7 +947,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/marketing
+                          href: /ghostwriter/marketing
                           target: null
                           rel: null
                     text: Marketing

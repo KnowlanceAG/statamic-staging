@@ -187,7 +187,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/soziologie
+                  href: /ghostwriter/soziologie
                   target: null
                   rel: null
             text: 'Ghostwriter für Sozialwissenschaften'

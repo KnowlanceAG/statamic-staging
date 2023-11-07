@@ -130,7 +130,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/geschichte
+                  href: /ghostwriter/geschichte
                   target: null
                   rel: null
             text: Geschichte

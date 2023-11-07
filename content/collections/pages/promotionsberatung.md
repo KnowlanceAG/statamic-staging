@@ -154,7 +154,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/medizin
+                          href: /ghostwriter/medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -538,7 +538,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/kommunikationswissenschaften
+                                  href: /ghostwriter/kommunikationswissenschaften
                                   target: null
                                   rel: null
                             text: Kommunikation

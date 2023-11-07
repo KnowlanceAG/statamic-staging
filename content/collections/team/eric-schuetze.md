@@ -19,7 +19,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/bwl
+              href: /ghostwriter/bwl
               target: null
               rel: null
         text: Business
@@ -32,7 +32,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/informatik
+              href: /ghostwriter/informatik
               target: null
               rel: null
         text: IT
@@ -45,7 +45,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/wirtschaftsinformatik
+              href: /ghostwriter/wirtschaftsinformatik
               target: null
               rel: null
         text: Wirtschaftsinformatik

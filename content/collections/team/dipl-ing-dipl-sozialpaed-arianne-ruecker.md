@@ -19,7 +19,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/maschinenbau
+              href: /ghostwriter/maschinenbau
               target: null
               rel: null
         text: Feinwerktechnik
@@ -32,7 +32,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/soziale-arbeit
+              href: /ghostwriter/soziale-arbeit
               target: null
               rel: null
         text: Sozialarbeit

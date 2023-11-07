@@ -19,7 +19,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/biologie
+              href: /ghostwriter/biologie
               target: _blank
               rel: null
         text: Biologie
@@ -32,7 +32,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/medizin
+              href: /ghostwriter/medizin
               target: null
               rel: null
         text: Medizin
@@ -45,7 +45,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/psychologie
+              href: /ghostwriter/psychologie
               target: null
               rel: null
         text: Psychologie

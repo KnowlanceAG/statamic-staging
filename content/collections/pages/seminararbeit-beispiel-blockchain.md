@@ -128,7 +128,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/bwl
+                  href: /ghostwriter/bwl
                   target: null
                   rel: null
             text: 'BWL Ghostwriter'

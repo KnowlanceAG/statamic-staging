@@ -861,7 +861,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/informatik
+                                  href: /ghostwriter/informatik
                                   target: _blank
                                   rel: null
                             text: Informatik
@@ -874,7 +874,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/maschinenbau
+                                  href: /ghostwriter/maschinenbau
                                   target: null
                                   rel: null
                             text: Ingenieurwissenschaften
@@ -887,7 +887,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/medizin
+                                  href: /ghostwriter/medizin
                                   target: _blank
                                   rel: null
                             text: Medizin
@@ -919,7 +919,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/finanzwissenschaften
+                                  href: /ghostwriter/finanzwissenschaften
                                   target: null
                                   rel: null
                             text: 'finanzwissenschaftliche Masterarbeit schreiben lassen'
@@ -932,7 +932,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/soziologie
+                                  href: /ghostwriter/soziologie
                                   target: null
                                   rel: null
                             text: 'sozialwissenschaftlichen Literaturarbeit'

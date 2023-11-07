@@ -903,7 +903,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/chemie
+                          href: /ghostwriter/chemie
                           target: null
                           rel: null
                     text: Chemie

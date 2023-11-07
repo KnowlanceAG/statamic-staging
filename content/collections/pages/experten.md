@@ -218,7 +218,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/bwl
+                                  href: /ghostwriter/bwl
                                   target: null
                                   rel: null
                             text: 'Ghostwritern aus der BWL'
@@ -231,7 +231,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/jura
+                                  href: /ghostwriter/jura
                                   target: null
                                   rel: null
                             text: Jura
@@ -337,7 +337,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/informatik
+                                  href: /ghostwriter/informatik
                                   target: null
                                   rel: null
                             text: Informatik
@@ -350,7 +350,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/psychologie
+                                  href: /ghostwriter/psychologie
                                   target: null
                                   rel: null
                             text: 'Psychologie '
@@ -363,7 +363,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/mathematik
+                                  href: /ghostwriter/mathematik
                                   target: null
                                   rel: null
                             text: 'Mathematik '
@@ -376,7 +376,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /fachrichtungen/medizin
+                                  href: /ghostwriter/medizin
                                   target: null
                                   rel: null
                             text: 'Medizin Ghostwriter'
@@ -637,7 +637,7 @@ content:
           -
             type: link
             attrs:
-              href: /fachrichtungen/bwl
+              href: /ghostwriter/bwl
               target: null
               rel: null
         text: 'Ghostwritern aus der BWL'
@@ -650,7 +650,7 @@ content:
           -
             type: link
             attrs:
-              href: /fachrichtungen/jura
+              href: /ghostwriter/jura
               target: null
               rel: null
         text: Jura

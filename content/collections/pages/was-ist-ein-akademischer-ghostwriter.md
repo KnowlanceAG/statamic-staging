@@ -146,7 +146,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/wirtschaftswissenschaften
+                  href: /ghostwriter/wirtschaftswissenschaften
                   target: null
                   rel: null
             text: Wirtschaftswissenschaften

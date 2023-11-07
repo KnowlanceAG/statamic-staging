@@ -1285,7 +1285,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/medizin
+                          href: /ghostwriter/medizin
                           target: null
                           rel: null
                     text: medizinisches
@@ -1298,7 +1298,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/jura
+                          href: /ghostwriter/jura
                           target: null
                           rel: null
                     text: Jura
@@ -1311,7 +1311,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/bwl
+                          href: /ghostwriter/bwl
                           target: null
                           rel: null
                     text: BWL-Ghostwriting

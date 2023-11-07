@@ -19,7 +19,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/finanzwissenschaften
+              href: /ghostwriter/finanzwissenschaften
               target: null
               rel: null
         text: Finanzierung
@@ -32,7 +32,7 @@ bard:
           -
             type: link
             attrs:
-              href: /fachrichtungen/marketing
+              href: /ghostwriter/marketing
               target: null
               rel: null
         text: Marketing

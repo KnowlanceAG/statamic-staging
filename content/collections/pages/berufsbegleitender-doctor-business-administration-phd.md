@@ -501,7 +501,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/marketing
+                          href: /ghostwriter/marketing
                           target: null
                           rel: null
                     text: Marketing

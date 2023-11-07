@@ -312,7 +312,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/bwl
+                  href: /ghostwriter/bwl
                   target: null
                   rel: null
             text: BWL
@@ -325,7 +325,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/jura
+                  href: /ghostwriter/jura
                   target: null
                   rel: null
             text: 'Jura '

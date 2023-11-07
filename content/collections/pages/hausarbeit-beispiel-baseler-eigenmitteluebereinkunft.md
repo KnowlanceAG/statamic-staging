@@ -195,7 +195,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/vwl
+                  href: /ghostwriter/vwl
                   target: null
                   rel: null
             text: 'VWL Ghostwriter'
