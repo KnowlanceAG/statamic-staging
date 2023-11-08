@@ -906,7 +906,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/jura#hausarbeit'
+                                  href: '/ghostwriter/jura#hausarbeit'
                                   target: _blank
                                   rel: null
                             text: 'juristische Hausarbeit schreiben'

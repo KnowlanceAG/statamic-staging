@@ -1238,7 +1238,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/informatik#Softwarelokalisierung'
+                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
                                           target: null
                                           rel: null
                                     text: 'Softwarelokalisierung Ghostwriter'
@@ -1250,7 +1250,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/biologie#biotechnologie'
+                                          href: '/ghostwriter/biologie#biotechnologie'
                                           target: null
                                           rel: null
                                     text: 'Biotechnologie Ghostwriter'
@@ -1431,7 +1431,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/kommunikationswissenschaften#kommunikationsdesign'
+                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kommunikationsdesign'
@@ -1628,7 +1628,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/kunst#kunstgeschichte'
+                                          href: '/ghostwriter/kunst#kunstgeschichte'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kunstgeschichte'

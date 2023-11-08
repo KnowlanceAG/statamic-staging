@@ -1222,7 +1222,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/informatik#Softwarelokalisierung'
+                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
                                           target: null
                                           rel: null
                                     text: 'Softwarelokalisierung Ghostwriter'
@@ -1299,7 +1299,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/biologie#biotechnologie'
+                                          href: '/ghostwriter/biologie#biotechnologie'
                                           target: null
                                           rel: null
                                     text: 'Biotechnologie Ghostwriter'
@@ -1480,7 +1480,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/fachrichtungen/bwl#Internationale'
+                                          href: '/ghostwriter/bwl#Internationale'
                                           target: null
                                           rel: null
                                     text: 'Internationale BWL Ghostwriter'
