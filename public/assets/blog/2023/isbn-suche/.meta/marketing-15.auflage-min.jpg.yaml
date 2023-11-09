@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'isbn suche buch'
 size: 30860
 last_modified: 1699544572
 width: 443
