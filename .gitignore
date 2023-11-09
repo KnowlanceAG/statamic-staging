@@ -21,3 +21,4 @@ ssg-lockfile
 /.antlers.json
 /storage/antlers-language-server
 /public/img
+/Requests
