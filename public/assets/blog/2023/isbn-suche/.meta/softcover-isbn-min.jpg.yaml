@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'unterschiedliche isbn'
 size: 41873
 last_modified: 1699543247
 width: 565
