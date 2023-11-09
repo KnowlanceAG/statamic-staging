@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'isbn bibliografische daten'
 size: 28149
 last_modified: 1699542968
 width: 564
