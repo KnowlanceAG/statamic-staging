@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'isbn nummer auflage'
 size: 20478
 last_modified: 1699544568
 width: 336
