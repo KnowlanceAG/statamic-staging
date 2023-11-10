@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Literaturarbeit beispiel'
 size: 18737
 last_modified: 1699622574
 width: 765
