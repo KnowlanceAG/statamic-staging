@@ -22,6 +22,20 @@ sections:
           visibility: visible
           input_type: text
           antlers: false
+          width: 50
+      -
+        handle: mail_subject_de_DE
+        field:
+          input_type: text
+          antlers: false
+          display: 'E-Mail-Betreff DE'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: whatsapp_de_DE
         field:
@@ -54,6 +68,20 @@ sections:
           visibility: visible
           input_type: text
           antlers: false
+          width: 50
+      -
+        handle: mail_subject_de_CH
+        field:
+          input_type: text
+          antlers: false
+          display: 'E-Mail-Betreff CH'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: whatsapp_de_CH
         field:
