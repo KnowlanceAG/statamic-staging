@@ -1861,12 +1861,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: 'Zu den Leistungen eines Ghostwriters bzw. einer Ghostwriter-Agentur zählt in erster Linie das Erstellen von akademischen Texten. Diese werden von erfahrenen Textern in ihren Fachdisziplinen verfasst. Da es viele Anbieter von solchen Leistungen gibt, ist allerdings Vorsicht geboten, denn nicht immer stimmt die Qualität. Zu achten ist darauf, dass der verfasste Text bereits vom Ghostwriter bzw. der Agentur selbst auf Qualität und somit auf Plagiate geprüft wird, dass alle Ghostwriter vor Beginn Ihrer Tätigkeit bei der '
+            text: 'Zu den Leistungen eines Ghostwriters bzw. einer Ghostwriter-Agentur zählt in erster Linie das Erstellen von akademischen Texten. Diese werden von erfahrenen Textern in ihren Fachdisziplinen verfasst. Da es viele Anbieter von solchen Leistungen gibt, ist allerdings Vorsicht geboten, denn nicht immer stimmt die Qualität. Zu achten ist darauf, dass der verfasste Text bereits vom Ghostwriter bzw. der Agentur selbst auf Qualität und somit auf Plagiate geprüft wird, dass alle Ghostwriter vor Beginn ihrer Tätigkeit bei der '
           -
             type: text
             marks:
@@ -1877,7 +1872,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: 'rgb(68, 68, 68)'
+                  color: 'rgb(0, 0, 0) !important'
                   hex: '#000'
               -
                 type: link
@@ -1893,11 +1888,6 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
             text: ' einen tief gehenden Auswahlprozess durchlaufen müssen und, dass auch die Hintergründe der Agentur offen einsehbar sind.'
       -
         type: paragraph
@@ -1914,7 +1904,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Abgesehen von der Erstellung einer ganzen Bachelorarbeit, kann der Ghostwriter Ihnen auch in Teilbereichen des Schreibprozesses behilflich sein. Zum Beispiel, kann er im Zuge der Erstellung einer z.B. Bachelorarbeit dabei helfen, das Thema zu finden und auszuformulieren oder er kann Tipps zum Inhalt geben. Des Weiteren ist es möglich, dass der Ghostwriter mit Ihnen gemeinsam Forschungsideen entwickelt, was für viele Kunden eine große Hilfe darstellt, da sich der Ghostwriter in seinem Fachgebiet bestens auskennt und somit auch den aktuellen Stand der Forschung beherrscht. Von der Themenfindung zur kompletten '
+            text: 'Abgesehen von der Erstellung einer ganzen Bachelorarbeit, kann der Ghostwriter Ihnen auch in Teilbereichen des Schreibprozesses behilflich sein. Zum Beispiel kann er im Zuge der Erstellung einer Bachelorarbeit dabei helfen, das Thema zu finden und auszuformulieren oder er kann Tipps zum Inhalt geben. Des Weiteren ist es möglich, dass der Ghostwriter mit Ihnen gemeinsam Forschungsideen entwickelt, was für viele Kunden eine große Hilfe darstellt, da sich der Ghostwriter in seinem Fachgebiet bestens auskennt und somit auch den aktuellen Stand der Forschung beherrscht. Von der Themenfindung zur kompletten '
           -
             type: text
             marks:
@@ -2120,7 +2110,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_und die Plagiatsprüfung. Das Korrektorat bezeichnet die Verbesserung von sprachlichen und formalen Fehlern in einer akademischen Arbeit. Diese Leistung ist zu empfehlen, wenn Sie sich des Inhalts Ihrer Arbeit sicher sind, es aber an der Rechtschreibung, Grammatik oder Interpunktion hapert. Die Formatierung bereitet vielen Studenten Schwierigkeiten, gleich ob im ersten oder im letzten Semester. Die häufig wechselnden Vorgaben seitens der Prüfer lösen vor allem bei wenig Computer-affinen Studenten Verwirrung aus. Ein erfahrener Ghostwriter hingegen, kann die Anpassung des Textes an die äußere Form schnell und günstig durchführen. Wenn Sie nur darauf aus sind, ihren Text, mit dem sie zufrieden sind, auf falsch bzw. schlecht zitierte Passagen zu überprüfen,\_"
+            text: "\_und die Plagiatsprüfung. Das Korrektorat bezeichnet die Verbesserung von sprachlichen und formalen Fehlern in einer akademischen Arbeit. Diese Leistung ist zu empfehlen, wenn Sie sich des Inhalts Ihrer Arbeit sicher sind, es aber an der Rechtschreibung, Grammatik oder Interpunktion hapert. Die Formatierung bereitet vielen Studenten Schwierigkeiten, gleich ob im ersten oder im letzten Semester. Die häufig wechselnden Vorgaben seitens der Prüfer lösen vor allem bei wenig Computer-affinen Studenten Verwirrung aus. Ein erfahrener Ghostwriter hingegen, kann die Anpassung des Textes an die äußere Form schnell und günstig durchführen. Wenn Sie nur darauf aus sind, Ihren Text, mit dem sie zufrieden sind, auf falsch bzw. schlecht zitierte Passagen zu überprüfen,\_"
           -
             type: text
             marks:
@@ -2207,7 +2197,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Nach der Lektüre des obigen Textes sollten Sie nun wissen was ein Ghostwriter eigentlich ist, was er zu leisten vermag, welche Qualifikationen er mitbringen muss und welche Aufgaben er hat. Das Ghostwriting ist keine alltägliche Arbeit, aber es ist vielfältig und entsprechend qualifizierten Akademikern einen hervorragenden Verdienst ermöglichen, sofern diese gewissenhaft und eigenverantwortlich arbeiten. Folgendes sollte ein Ghostwriter unbedingt mit sich bringen.\_Sind diese Voraussetzungen gegeben, kann ein Ghostwriter so ziemlich jede Aufgabe erledigen, die Sie zur Optimierung Ihres wissenschaftlichen Textes benötigen. Um sicherzugehen, dass es sich um einen erfahrenen Ghostwriter handelt, ist es stets ratsam, sich an eine seriöse und renommierte Agentur zu wenden. Die Unterschiede zwischen einem Ghostwriter und einer seriösen Ghostwriter-Agentur haben wir in der folgenden Abbildungen für Sie auch noch einmal veranschaulicht.\_"
+            text: "Nach der Lektüre des obigen Textes sollten Sie nun wissen was ein Ghostwriter eigentlich ist, was er zu leisten vermag, welche Qualifikationen er mitbringen muss und welche Aufgaben er hat. Das Ghostwriting ist keine alltägliche Arbeit, aber es ist vielfältig und entsprechend qualifizierte Akademiker ermöglichen einen hervorragenden Verdienst, sofern diese gewissenhaft und eigenverantwortlich arbeiten. Folgendes sollte ein Ghostwriter unbedingt mit sich bringen.\_Sind diese Voraussetzungen gegeben, kann ein Ghostwriter so ziemlich jede Aufgabe erledigen, die Sie zur Optimierung Ihres wissenschaftlichen Textes benötigen. Um sicherzugehen, dass es sich um einen erfahrenen Ghostwriter handelt, ist es stets ratsam, sich an eine seriöse und renommierte Agentur zu wenden. Die Unterschiede zwischen einem Ghostwriter und einer seriösen Ghostwriter-Agentur haben wir in der folgenden Abbildungen für Sie auch noch einmal veranschaulicht.\_"
       -
         type: paragraph
         content:
@@ -2243,8 +2233,8 @@ replicator:
     type: editor
     enabled: true
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1687456741
+updated_by: 05dc5331-6bc5-4897-a2e0-d559d0f01e29
+updated_at: 1699966085
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'
