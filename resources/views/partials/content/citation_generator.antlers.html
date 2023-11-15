@@ -1,0 +1,15 @@
+<div id="root"></div>>
+<script>
+  async function loadFrontend() {
+    const prefix = '/apps/citation/client'
+    const style = document.createElement('link')
+    style.rel = 'stylesheet'
+    style.href = `${prefix}/embedded/main.css`
+    const script = document.createElement('script')
+    script.src = `${prefix}/embedded/main.js`
+    script.defer = 'defer'
+    document.head.appendChild(style);
+    document.body.appendChild(script)
+  }
+  document.addEventListener('DOMContentLoaded', loadFrontend);
+</script>

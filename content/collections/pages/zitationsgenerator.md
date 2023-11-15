@@ -12,7 +12,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1699977288
+updated_at: 1700054561
 template: default
 teaser:
   -
@@ -47,5 +47,9 @@ replicator:
     is_full: false
     border: false
     type: add_section
+    enabled: true
+  -
+    id: lozsl11n
+    type: citation_generator
     enabled: true
 ---

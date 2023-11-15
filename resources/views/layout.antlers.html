@@ -44,9 +44,6 @@
     </title>
   {{ /if }}
   <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
-  {{ if segment_1 == 'zitationsgenerator'}}
-    <link rel="stylesheet" href="/apps/citation/client/embedded/main.css">
-  {{ /if }}
   <link rel="icon" href="/assets/webseite/gwriters-logo-32x32.png" sizes="32x32">
   <link rel="shortcut icon" href="/assets/webseite/gwriters-logo-32x32.png">
   <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-57x57.png" sizes="57x57">
@@ -120,10 +117,6 @@
   {{ aardvark-seo:body }}
   {{ partial src="partials/header" }}
   {{ template_content }}
-  {{ if segment_1 == 'zitationsgenerator'}}
-    <div id="root"></div>
-    <script defer="defer" src="/apps/citation/client/embedded/main.js"></script>
-  {{ /if }}
   {{ partial src="partials/footer" }}
   <script src="{{ mix src='/js/site.js' }}"></script>
   <script src="{{ mix src='/js/app.js' }}"></script>

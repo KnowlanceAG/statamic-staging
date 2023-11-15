@@ -33,6 +33,11 @@ fields:
         breadcrumbs_element:
           display: 'Breadcrumbs Element'
           fields: {  }
+        citation_generator:
+          display: Zitationsgenerator
+          fields:
+            -
+              import: citation_generator
       display: Replicator
       type: replicator
       icon: replicator
