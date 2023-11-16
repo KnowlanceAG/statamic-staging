@@ -149,7 +149,7 @@ replicator:
                   id: gJCdR1fO
                   values:
                     type: insert_html
-                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Lösung von Fallstudien. Unsere professionellen Projektmanager finden den passenden akademischen Ghostwriter, der Ihren individuellen Anforderungen in einer Fallstudie entspricht. Sie möchten für eine <b>Fallstudie Ghostwriter</b> beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere eine Musterstudie für Ihre Fallstudie erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. Unsere Ghostwriting-Agentur arbeitet mit akademisch ausgebildeten, erfahrenen Ghostwritern in verschiedenen interdisziplinären Disziplinen zusammen.'
+                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Optimierung von Summaries für Ihre Abschlussarbeit. Unsere professionellen Projektmanager finden den geeigneten akademischen Ghostwriter, der Ihren individuellen Anforderungen in einem Summary für Ihre Abschlussarbeit entspricht. Sie möchten für ein <b>Bachelorarbeit-Summary Ghostwriter</b> beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere ein Muster-Summary für Ihre wissenschatliche Arbeit erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. In unserer Ghostwriting-Agentur kooperieren wir mit akademisch qualifizierten und erfahrenen Ghostwritern aus diversen interdisziplinären Fachbereichen.'
               -
                 type: heading
                 attrs:
@@ -3803,7 +3803,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700156438
+updated_at: 1700156811
 template: default
 use_meta_keywords: false
 no_index_page: false
