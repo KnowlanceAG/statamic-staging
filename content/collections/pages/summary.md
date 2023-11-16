@@ -398,7 +398,20 @@ replicator:
                     text: Summary
                   -
                     type: text
-                    text: '" handelt es sich um eine Zusammenfassung eines Textes, einer Rede, eines Artikels oder einer anderen schriftlichen oder gesprochenen Information. Im Kontext von Abschlussarbeiten wie der Bachelorarbeit bezieht sich ein Summary auf die Zusammenfassung der gesamten Abschlussarbeit. Ziel eines Summarys ist es, die wichtigsten Erkenntnisse des Inhalts kompakt und prägnant darzustellen. Es gibt verschiedene Arten von Zusammenfassungen (Summary), darunter Executive Summaries von Geschäftsberichten, Abstracts wissenschaftlicher Texte und kurze Zusammenfassungen von Texten in Medien.'
+                    text: '" handelt es sich um eine Zusammenfassung eines Textes, einer Rede, eines Artikels oder einer anderen schriftlichen oder gesprochenen Information. Im Kontext von Abschlussarbeiten wie der Bachelorarbeit bezieht sich ein Summary auf die Zusammenfassung der gesamten Abschlussarbeit. Ziel eines Summarys ist es, die wichtigsten Erkenntnisse des Inhalts kompakt und prägnant darzustellen. Es gibt verschiedene Arten von Zusammenfassungen (Summary), darunter Executive Summaries von Geschäftsberichten, Abstracts wissenschaftlicher Texte und kurze '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/text-verkuerzen
+                          target: null
+                          rel: null
+                    text: 'Verkürzungen von Texten'
+                  -
+                    type: text
+                    text: ' in Medien.'
               -
                 type: set
                 attrs:
@@ -695,7 +708,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sie möchten Ihr Muster-Summary schreiben lassen, dann schicken uns eine kostenlose Anfrage über das Kontaktformular und Sie erhalten in kürzester Zeit ein unverbindliches Angebot.'
+                    text: 'Sie möchten Ihr Muster-Summary schreiben lassen, dann schicken uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'kostenlose Anfrage'
+                  -
+                    type: text
+                    text: ' über das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /kontakt
+                          target: null
+                          rel: null
+                    text: Kontaktformular
+                  -
+                    type: text
+                    text: ' und Sie erhalten in kürzester Zeit ein unverbindliches Angebot.'
             show_as_card: false
           -
             id: lalg3xcf
@@ -1234,7 +1273,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sie möchten ein Bachelorarbeit-Summary schreiben und wissen nicht wie ein Summary geschrieben wird. Unsere Experten zeigen Ihnen anhand den Punkten wie Sie am schnellsten ein Summary schreiben. Alternativ können Sie auch einen Ghostwriter beauftragen, ein Muster-Summary für Ihr Summary schreiben lassen , oder Sie lassen Ihr selbstgeschriebenes Summary von unseren Fachexperten überprüfen. '
+                    text: 'Sie möchten ein Bachelorarbeit-Summary schreiben und wissen nicht wie ein Summary geschrieben wird. Unsere Experten zeigen Ihnen anhand den Punkten wie Sie am schnellsten ein Summary schreiben. Alternativ können Sie auch einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'Ghostwriter beauftragen'
+                  -
+                    type: text
+                    text: ', ein Muster-Summary für Ihr Summary schreiben lassen , oder Sie lassen Ihr selbstgeschriebenes Summary von unseren '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: Fachexperten
+                  -
+                    type: text
+                    text: ' überprüfen. '
               -
                 type: ordered_list
                 attrs:
@@ -1257,7 +1322,46 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Identifizieren Sie die Hauptthemen, Forschungsfragen, Methoden und Ergebnisse Ihrer Bacheloarbeit oder Masterarbeit. Konzentrieren Sie sich auf die Schlüsselpunkte, die den Kern Ihrer Arbeit ausmachen.'
+                    text: 'Identifizieren Sie die Hauptthemen, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/hypothese-forschungsfrage
+                          target: null
+                          rel: null
+                    text: Forschungsfragen
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/qualitative-quantitative-methoden
+                          target: null
+                          rel: null
+                    text: Methoden
+                  -
+                    type: text
+                    text: ' und Ergebnisse Ihrer Bachelorarbeit oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+                  -
+                    type: text
+                    text: '. Konzentrieren Sie sich auf die Schlüsselpunkte, die den Kern Ihrer Arbeit ausmachen.'
               -
                 type: ordered_list
                 attrs:
@@ -3232,7 +3336,112 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Sie möchten eine Musterarbeit für Ihre Hausarbeit oder Bachelorarbeit schreiben lassen, in der Sie ein Summary schreiben sollen. Sie können gerne bei einem Ghostwriter Ihr Summary schreiben.'
+                    text: 'Sie möchten eine Musterarbeit für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', in der Sie ein Summary schreiben sollen. Sie können gerne bei einem Ghostwriter Ihr Summary schreiben.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Mit AI-Tools Summary schreiben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ob Sie mit AI-Tools wie ChatGPT für Ihre Bachelorarbeit Summary schreiben können, das Leider ist dies nicht möglich, da ChatGPT eine maximale Eingabebegrenzung für eine Anfrage hat. Das bedeutet, dass Sie maximal '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '4096 Token '
+                  -
+                    type: text
+                    text: 'als Anfrage eingeben dürfen. Ein Token kann ein einzelnes Zeichen, eine Buchstabenkombination oder sogar ein Wort sein, abhängig von der Textstruktur. Im Gegensatz dazu hat eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '40-seitige Bachelorarbeit'
+                  -
+                    type: text
+                    text: ' etwa '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '10.000 Wörter oder 72.000 Zeichen'
+                  -
+                    type: text
+                    text: '. Es wäre daher äußerst komplex, alle Abschnitte in ihrer Gesamtheit einzufügen, während der Zusammenhang und der rote Faden aufrechterhalten werden. Zusätzlich besteht das Risiko, dass KI-Tools den Originalinhalt falsch interpretieren und möglicherweise falsche Ergebnisse ausgeben, insbesondere wenn Studierende sich nicht mehr genau an den Inhalt ihrer Bachelorarbeit erinnern. Darüber hinaus besteht die Gefahr, dass der ausgegebene Text von KI-Tools als Plagiat erkannt wird.'
               -
                 type: heading
                 attrs:
@@ -3320,7 +3529,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700167217
+updated_at: 1700168605
 template: default
 use_meta_keywords: false
 no_index_page: false
