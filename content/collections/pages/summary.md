@@ -170,9 +170,25 @@ replicator:
                             type: text
                             marks:
                               -
+                                type: link
+                                attrs:
+                                  href: '#definition'
+                                  target: null
+                                  rel: null
+                            text: 'Definition Summary'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
                                 type: textAlign
                                 attrs:
-                                  align: start
+                                  align: left
                               -
                                 type: textColor
                                 attrs:
@@ -181,29 +197,95 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#definition'
+                                  href: '#schreiben-lassen'
                                   target: null
                                   rel: null
-                            text: 'Was ist eine Fallstudie?'
+                            text: "Mustervorlage für Summary schreiben\_lassen"
+                          -
+                            type: hard_break
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben-lassen'
+                                  target: null
+                                  rel: null
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: '– Wie funktioniert die Kooperation?'
+                  -
+                    type: list_item
+                    content:
                       -
-                        type: bullet_list
+                        type: paragraph
                         content:
                           -
-                            type: list_item
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#arten'
-                                          target: null
-                                          rel: null
-                                    text: 'Arten von Fallstudien'
+                                type: link
+                                attrs:
+                                  href: '#schreiben'
+                                  target: null
+                                  rel: null
+                            text: 'So können Sie Ihr Summary schreiben'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#executive-summary'
+                                  target: null
+                                  rel: null
+                            text: 'Summary vs. Executive Summary'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#beispiel'
+                                  target: null
+                                  rel: null
+                            text: 'Summary schreiben: Beispiel'
                   -
                     type: list_item
                     content:
@@ -228,44 +310,26 @@ replicator:
                                   href: '#ghostwriter'
                                   target: null
                                   rel: null
-                            text: 'Fallstudie schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
-                  -
-                    type: list_item
-                    content:
+                            text: 'Summary schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
                       -
-                        type: paragraph
+                        type: bullet_list
                         content:
                           -
-                            type: text
-                            marks:
+                            type: list_item
+                            content:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: '#schreiben'
-                                  target: null
-                                  rel: null
-                            text: 'Häufig gestellte Fragen: Fallstudie schreiben'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#beispiel'
-                                  target: null
-                                  rel: null
-                            text: 'In 5 Schritten Fallstudie schreiben: Beispiel'
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Ai-tools'
+                                          target: null
+                                          rel: null
+                                    text: 'Mit AI-Tools Summary schreiben'
             show_as_card: false
         type: row
         enabled: true
@@ -616,7 +680,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -2686,6 +2750,13 @@ replicator:
             id: 8FDzQgpo
             bard:
               -
+                type: set
+                attrs:
+                  id: lp1qv8cr
+                  values:
+                    type: anchor_target
+                    anchor_name: executive-summary
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2708,7 +2779,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Sowohl "Summary" als auch "Executive Summary" sind Begriffe, die in verschiedenen Kontexten verwendet werden und unterschiedliche Konnotationen haben. Beide dienen dazu, Lesern einen schnellen Überblick zu verschaffen, aber der Begriff "Executive Summary" betont oft den geschäftlichen Kontext und die spezifische Zielgruppe von Führungskräften.'
+                    text: 'Sowohl "Summary" als auch "Executive Summary" sind Begriffe, die in verschiedenen Kontexten verwendet werden. Beide dienen dazu, Lesern einen schnellen Überblick zu verschaffen, aber der Begriff "Executive Summary" betont oft den geschäftlichen Kontext und die spezifische Zielgruppe von Führungskräften.'
               -
                 type: table
                 content:
@@ -3068,6 +3139,13 @@ replicator:
                                           color: '#000!important'
                                           hex: '#000'
                                     text: 'Wenn zutreffend, können auch Empfehlungen oder Implikationen für zukünftige Forschung oder Praxis aufgeführt werden.'
+              -
+                type: set
+                attrs:
+                  id: lp1qvlsi
+                  values:
+                    type: anchor_target
+                    anchor_name: beispiel
               -
                 type: heading
                 attrs:
@@ -3470,6 +3548,13 @@ replicator:
                           hex: '#000'
                     text: ', in der Sie ein Summary schreiben sollen. Sie können gerne bei einem Ghostwriter Ihr Summary schreiben.'
               -
+                type: set
+                attrs:
+                  id: lp1qw0cn
+                  values:
+                    type: anchor_target
+                    anchor_name: ai-tools
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -3570,7 +3655,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Einige unserer Blogartikel zum Thema "Fallstudie schreiben lassen"'
+                    text: 'Einige unserer Blogartikel zum Thema "Summary schreiben lassen"'
               -
                 type: set
                 attrs:
@@ -3597,7 +3682,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700170028
+updated_at: 1700172820
 template: default
 use_meta_keywords: false
 no_index_page: false
