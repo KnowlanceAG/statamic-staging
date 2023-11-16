@@ -210,6 +210,8 @@ admin:
     - 'delete other authors blog entries'
     - 'delete other authors pages entries'
     - 'delete other authors team entries'
+    - 'assign user groups'
+    - 'assign roles'
 super_admin:
   title: 'Super Admin'
   permissions:

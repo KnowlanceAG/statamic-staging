@@ -20,7 +20,7 @@
     "samdark/sitemap": "^2.2",
     "spatie/fork": "^1.1",
     "spatie/statamic-responsive-images": "2.14.4",
-    "statamic/cms": "3.3.54",
+    "statamic/cms": "3.3.68",
     "statamic/ssg": "1.2.0",
     "uscreen/better-statamic-bard-text-color": "*",
     "uscreen/cpssg": "1.5.15",
