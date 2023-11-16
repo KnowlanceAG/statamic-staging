@@ -870,7 +870,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mit einer kostenlosen Anfrage über das Kontaktformular erhalten Sie in kürzester Zeit ein unverbindliches Angebot.'
+                    text: 'Sie möchten Ihr Muster-Summary schreiben lassen, dann schicken uns eine kostenlose Anfrage über das Kontaktformular und Sie erhalten in kürzester Zeit ein unverbindliches Angebot.'
             show_as_card: false
           -
             id: lalg3xcf
@@ -901,7 +901,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In einem unverbindlichen Angebot erhalten Sie Informationen zu Ihrem Anliegen. Das Angebot ist besonders auf Ihre Bedürfnisse zugeschnitten und beinhaltet einen fairen Preis für Ihre Fallstudie. Zudem wird eine vorläufige Planung für Ihren Auftrag im Angebot erstellt.'
+                    text: 'In einem unverbindlichen Angebot erhalten Sie sämtliche Informationen zu Ihrem Projekt. Das Angebot ist speziell auf Ihre Anforderungen zugeschnitten und enthält einen fairen Preis für die Erstellung Ihres Summaries. Zusätzlich wird eine vorläufige Planung für die Umsetzung Ihres Auftrags im Angebot erstellt.'
             show_as_card: false
           -
             id: lalg3yqv
@@ -932,7 +932,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nachdem Sie dem Angebot, schreibt unser ausgewählter Ghostwriter die Mustervorlage für Ihre Fallstudie. Die Zwischenlieferungen Ihrer Arbeit erhalten Sie kontinuierlich von Ihrem verantwortlichen Projektmanager. Die Feedbackschleifen werden kostenlos umgesetzt und regelmäßig durchgeführt.'
+                    text: 'Nachdem Sie dem Angebot, schreibt unser ausgewählter Ghostwriter Summary als Mustervorlage. Die kostenlosen Zwischenlieferungen Ihrer Musterarbeit erhalten Sie regelmäßig von Ihrem verantwortlichen Projektmanager. Die gewünschten Änderungen werden kostenfrei von unseren Fachexperten umgesetzt. '
             show_as_card: false
           -
             id: lalg3zn6
@@ -963,7 +963,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Abschlusslieferung wird mit einem professionellen Plagiatscanner auf Plagiate überprüft. Anschließend wird die Arbeit durch ein Lektorat auf Qualität überprüft. Wenn weitere Änderungsvorschläge vom Auftraggeber erwünscht sind, setzen wir diese kostenfrei um.'
+                    text: 'Die finale Lieferung wird gründlich auf Plagiate überprüft. Im Anschluss erfolgt eine sorgfältige Qualitätskontrolle durch ein Lektorat. Sollte der Auftraggeber weitere Änderungswünsche haben, werden diese kostenfrei umgesetzt.'
             show_as_card: false
         type: row
         enabled: true
@@ -999,7 +999,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Fallstudie Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                    text: 'Wenn Sie bei Ihr Summary Unterstützung benötigen, dann können Sie uns gerne sofort eine '
                   -
                     type: text
                     marks:
@@ -1417,19 +1417,13 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Fallstudie schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
+                    text: 'Summary schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Möglicherweise müssen Sie eine Fallstudie in Ihrer Bachelorarbeit oder Masterarbeit verfassen, sind jedoch unsicher, da Sie nicht über ausreichende Literatur und Theorie verfügen und den aktuellen Forschungsstand zum Fallbeispiel nicht kennen. Diese wichtigen Informationen können gerne Ihnen für Ihre Fallstudie Ghostwriter herausfiltern und zusammenstellen.  '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Eine Fallstudie wird in Abschlussarbeiten und Facharbeiten oft verlangt, da sie eine Brücke zwischen theoretischem Wissen und praktischer Anwendung schafft. Sie ermöglicht ein tiefgehendes Verständnis des Themas, fördert Forschungsfähigkeiten, kritisches Denken und klare Kommunikation. Zudem bereitet sie Studierende auf berufliche Herausforderungen vor, da Fallstudien in vielen Branchen ein gängiges Instrument zur Problemlösung sind.'
+                    text: 'Sie benötigen ein Bachelorarbeit-Summary, haben jedoch Schwierigkeiten, eine 60-seitige Bachelorarbeit zusammenzufassen und die wichtigsten Ereignisse herauszufiltern. Genau hier können Ihnen unsere Ghostwriter helfen, denn Sie verfügen über umfassende Kenntnisse im Schreiben wissenschaftlicher Texte. Besonders sind in den Fachgebieten Geisteswissenschaften, Sozialwissenschaften, Wirtschaft, Naturwissenschaften, Kommunikationswissenschaften und Psychologie Ghostwriter Experten beim Schreiben von Summaries. Unsere Experten sind versiert im Umschreiben, Zusammenfassen und Überarbeiten von Texten. Durch ihre tägliche Arbeit mit wissenschaftlichen Texten zu verschiedenen Themen bringen sie umfangreiche Erfahrungen mit. Auch können Ghostwriter Mustertexte für Forschungsartikeln, Fallstudien oder anderen Inhalten zu erstellen.'
               -
                 type: paragraph
                 content:
@@ -1445,125 +1439,20 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Sie möchten eine Musterarbeit für Ihre Bachelorarbeit schreiben lassen, in der Sie eine Fallstudie schreiben sollen. Besonders das Thema die Sie ausgesucht haben, benötigt Datenerhebung und einen Lösungsansatz. Unsere Ghostwriter können Ihnen dabei helfen. '
+                    text: 'Sie möchten eine Musterarbeit für Ihre Hausarbeit oder Bachelorarbeit schreiben lassen, in der Sie ein Summary schreiben sollen. Sie können gerne bei einem Ghostwriter Ihr Summary schreiben.'
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
-                    text: 'Case Study Beispiel:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Forschungsthema:'
-                          -
-                            type: text
-                            text: ' "Analyse der Auswirkungen von Social-Media-Marketing auf den Umsatz in der Einzelhandelsbranche."'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Studiengang:'
-                          -
-                            type: text
-                            text: ' Marketing'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Fallstudie Variante: '
-                          -
-                            type: text
-                            text: 'Untersuchungsfall (explorative Fallstudie)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Forschungsfragen:'
-                          -
-                            type: text
-                            text: ' '
-                          -
-                            type: hard_break
-                          -
-                            type: text
-                            text: 'Wie nutzen Einzelhandelsunternehmen Social-Media-Marketing? '
-                          -
-                            type: hard_break
-                          -
-                            type: text
-                            text: 'Welche Art von Inhalten und Strategien werden eingesetzt? '
-                          -
-                            type: hard_break
-                          -
-                            type: text
-                            text: 'Gibt es eine Korrelation zwischen den Social-Media-Aktivitäten und dem Umsatzwachstum? '
-                          -
-                            type: hard_break
-                          -
-                            type: text
-                            text: 'Wie reagieren Kunden auf Social-Media-Marketing-Kampagnen?'
+                    text: 'Summary vs. Executive Summary'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Hier können aus dem Fachbereich Marketing Ghostwriter die notwendigen Social-Media-Methoden nutzen, um Antworten auf alle Forschungsfragen zu finden. In diesem Fall geht es darum, die Auswirkungen von Social-Media-Marketing auf den Umsatz zu untersuchen, Daten zu sammeln und zu analysieren, um Erkenntnisse zu gewinnen. Dies erfordert eine gründliche Analyse und Forschung des Themas, was am besten als Untersuchungsfall beschrieben wird. Durch die Untersuchung dieser Fragen können Ghostwriter Einblicke in das Thema gewinnen und Hypothesen für zukünftige Forschung entwickeln.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter können bei einer Fallstudie zur Analyse der Auswirkungen von Social-Media-Marketing auf den Umsatz in der Einzelhandelsbranche in verschiedenen Bereichen behilflich sein. Sie unterstützen bei der Literaturrecherche, der Datenerfassung, dem Fallstudien-Design, der Datenanalyse, der Berichterstellung und der Einhaltung von Schreibstil und Formatierungsrichtlinien. Ihre Expertise und Erfahrung tragen dazu bei, dass die Fallstudie professionell und fundiert durchgeführt wird, um wertvolle Erkenntnisse zu gewinnen. Lesen Sie gerne dazu unseren Beitrag über '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/case-study-loesung
-                          target: null
-                          rel: null
-                    text: 'Case Study Übungen mit Lösungen'
-                  -
-                    type: text
-                    text: '. Hier finden Sie konkrete Beispiele und wichtige Informationen für Ihre wissenschaftliche Arbeit, wie beispielsweise Hausarbeiten.'
-                  -
-                    type: hard_break
                     marks:
                       -
                         type: textAlign
@@ -1572,8 +1461,605 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(0, 0, 0)'
+                          color: var(--text-primary)
                           hex: '#000'
+                    text: 'Sowohl "Summary" als auch "Executive Summary" sind Begriffe, die in verschiedenen Kontexten verwendet werden und unterschiedliche Konnotationen haben. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Beide dienen dazu, Lesern einen schnellen Überblick zu verschaffen, aber der Begriff "Executive Summary" betont oft den geschäftlichen Kontext und die spezifische Zielgruppe von Führungskräften.'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Summary
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Executive Summary'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'allg. kurze Zusammenfassung für wissenschaftliche Texte'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'spezielle Zusammenfassung für Geschäftsdokumenten und Berichten'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Studenten, Wissenschaftler,..'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Führungskräfte, Manager, Entscheidungsträger,...'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'wichtigste Erkenntnisse'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'wichtige Erkenntnisse'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--text-primary)
+                          hex: '#000'
+                    text: 'Ein Bachelorarbeit-Executive Summary ist eine kurze Zusammenfassung bzw. eine Übersicht des gesamten Forschungsprojekts. Es ist eine spezielle Form der Zusammenfassung, die sich an Leser richtet, die möglicherweise nicht die Zeit haben, die gesamte Arbeit im Detail zu lesen. In einem Bachelorarbeit-'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Executive-Summary
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--text-primary)
+                          hex: '#000'
+                    text: ' sollten folgende Elemente enthalten sein:'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Hintergrund und Zielsetzung:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: var(--text-primary)
+                                          hex: '#000'
+                                    text: 'Eine kurze Einführung in das Forschungsthema und die Hauptziele der Arbeit.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Forschungsfragen oder Hypothesen:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: var(--text-primary)
+                                          hex: '#000'
+                                    text: 'Eine klare Darstellung der Forschungsfragen oder Hypothesen, die in der Arbeit behandelt werden.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Methodik:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: var(--text-primary)
+                                          hex: '#000'
+                                    text: 'Eine knappe Beschreibung der Forschungsmethoden, die für die Datenerhebung und Analyse verwendet wurden.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Hauptergebnisse:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: var(--text-primary)
+                                          hex: '#000'
+                                    text: 'Die wichtigsten Ergebnisse der Forschung, einschließlich der Schlussfolgerungen oder Hauptbefunde.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Empfehlungen oder Implikationen:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: var(--text-primary)
+                                          hex: '#000'
+                                    text: 'Wenn zutreffend, können auch Empfehlungen oder Implikationen für zukünftige Forschung oder Praxis aufgeführt werden.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Summary schreiben: Beispiel'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In dem folgenden fiktiven Beispiel finden Sie ein Summary einer Bachelorarbeit im Bereich Wirtschaft. Durch die Markierungen erkennen Sie auch, welche wichtigen Ereignisse aus der Bachelorarbeit entnommen wurden.'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                          -
+                            type: textColor
+                            attrs:
+                              color: var(--text-primary)
+                              hex: '#000'
+                        text: 'Titel der Bachelorarbeit:'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                        text: ' '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: italic
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                          -
+                            type: textColor
+                            attrs:
+                              color: var(--text-primary)
+                              hex: '#000'
+                        text: '"Einfluss von Social Media Marketing auf das Kaufverhalten von Millennials: Eine empirische Analyse in der Einzelhandelsbranche"'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '"Diese Bachelorarbeit untersucht den Einfluss von Social Media Marketing auf das Kaufverhalten von Millennials im Einzelhandel. Die Studie kombiniert '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'quantitative Umfragedaten'
+                  -
+                    type: text
+                    text: ' mit einer umfassenden Analyse von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Social-Media-Aktivitäten
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Einkaufsgewohnheiten
+                  -
+                    type: text
+                    text: '. Die Ergebnisse zeigen, dass '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Social Media Marketing einen signifikanten Einfluss'
+                  -
+                    type: text
+                    text: ' auf die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Produktpräferenzen
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Kaufentscheidungen
+                  -
+                    type: text
+                    text: ' der Millennials hat. Insbesondere Plattformen wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Instagram
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: TikTok
+                  -
+                    type: text
+                    text: ' beeinflussen die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Markenwahrnehmung
+                  -
+                    type: text
+                    text: ' und den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Kaufprozess
+                  -
+                    type: text
+                    text: '. Die Studie hebt auch hervor, dass '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Authentizität
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'soziale Verantwortung'
+                  -
+                    type: text
+                    text: ' in den Marketingbemühungen besonders wichtig sind. Diese Erkenntnisse haben weitreichende Implikationen für Unternehmen, die ihre Marketingstrategien an die Bedürfnisse der Millennials anpassen möchten."'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--text-primary)
+                          hex: '#000'
+                    text: 'Die Länge eines Summary kann je nach den Anforderungen Ihrer Hochschule und den spezifischen Richtlinien Ihrer Bachelorarbeit unterschiedlich sein. In der Regel sollte ein Summary jedoch relativ kurz und präzise sein. Ein üblicher Richtwert für ein Bachelorarbeit-Summary liegt oft zwischen 150 und 300 Wörtern.'
             show_as_card: false
         type: row
         enabled: true
@@ -1588,504 +2074,6 @@ replicator:
     enabled: true
   -
     id: fIXXlwmQ
-    columns_replicator:
-      -
-        id: qR9pvuG7
-        grid:
-          -
-            id: lmUilup5
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: lms3lf9q
-                  values:
-                    type: anchor_target
-                    anchor_name: schreiben
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Häufig gestellte Fragen: Fallstudie schreiben'
-              -
-                type: set
-                attrs:
-                  id: lnsw5lo8
-                  values:
-                    type: accordion_wrapper
-                    items:
-                      -
-                        id: lnsw5n2w
-                        headline: 'Wie schreibe ich eine Fallstudie?'
-                        accordion_content:
-                          -
-                            type: ordered_list
-                            attrs:
-                              order: 1
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(32, 33, 36)'
-                                              hex: '#000'
-                                        text: 'Ziel Ihrer Forschung festlegen '
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(32, 33, 36)'
-                                              hex: '#000'
-                                        text: 'Fall/Problem identifizieren'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(32, 33, 36)'
-                                              hex: '#000'
-                                        text: 'Literaturrecherche (Theorie suchen & finden)'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(32, 33, 36)'
-                                              hex: '#000'
-                                        text: 'Fall erklären und beschreiben'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Fall mithilfe einer spezifischen Forschungsmethode untersuchen'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Fall Ergebnisse interpretieren und zusammenfassen '
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Entweder neue Lösungsansätze entwickeln oder vorhandene Ansätze beibehalten'
-                        active: false
-                      -
-                        id: lnswenw8
-                        headline: 'In welcher Zeitform schreibt man eine Fallstudie?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: 'Eine Fallstudie wird in der Regel im Präsens geschrieben, insbesondere wenn Sie über die Fallstudie selbst, die Forschungsmethoden und die Ergebnisse sprechen. '
-                              -
-                                type: hard_break
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                              -
-                                type: hard_break
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: 'Hier sind einige Beispiele in der richtigen Zeitform:'
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: '"Die Fallstudie konzentriert sich auf ein Unternehmen in der Einzelhandelsbranche."'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: '"Die Forscher sammeln Daten aus Interviews und Dokumentenanalysen."'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: '"Die Ergebnisse zeigen, dass Social-Media-Marketing einen signifikanten Einfluss auf den Umsatz hat."'
-                        active: false
-                      -
-                        id: lnswiubk
-                        accordion_content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Relevanz des Themas'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Klares Ziel oder Forschungsfrage'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Sorgfältige Auswahl des Fallbeispiels'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Umfangreiche Datenerhebung'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Detaillierte Untersuchung'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Einbettung in einen theoretischen Rahmen: Die Studie sollte in eine theoretische Perspektive eingebettet sein.'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Klare Struktur der Studie'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Konsistenter Schreibstil'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Klare Schlussfolgerungen und Empfehlungen'
-                        active: false
-                        headline: 'Was macht eine gute Fallstudie aus?'
-                      -
-                        id: lnsx1lg4
-                        headline: 'Was ist eine Fallstudie?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: 'Eine Fallstudie ist eine Methode zur detaillierten Untersuchung eines bestimmten Falls oder Phänomens, um Erkenntnisse zu gewinnen oder Fragestellungen zu beantworten.'
-                        active: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: true
-        responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
@@ -2094,32 +2082,6 @@ replicator:
     enabled: true
   -
     id: lnswz5ji
-    columns_replicator:
-      -
-        id: lnswz7g8
-        single_col: false
-        grid:
-          -
-            id: G1z8JQfg
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lnsxm3by
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/arbeiten/fallstudie-schreiben-min.jpg
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
@@ -2137,397 +2099,9 @@ replicator:
             id: G1z8JQfg
             bard:
               -
-                type: set
-                attrs:
-                  id: lnszf1l0
-                  values:
-                    type: anchor_target
-                    anchor_name: beispiel
-              -
                 type: heading
                 attrs:
                   level: 2
-                content:
-                  -
-                    type: text
-                    text: 'In 5 Schritten Fallstudie schreiben: Beispiel'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Diese Schritte helfen Ihnen, eine Fallstudie zu erstellen, die ein spezifisches Thema analysiert und zu fundierten Schlussfolgerungen kommt.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Schritt 1: Thema auswählen🔎  '
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: Beispiel
-                          -
-                            type: text
-                            text: ': Sie möchten eine Fallstudie über den Einfluss von Social-Media-Marketing auf den Umsatz eines bestimmten Einzelhandelsunternehmens schreiben.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Schritt 2: Fallbeschreibung✍'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: Beispiel
-                          -
-                            type: text
-                            text: ': Beschreiben Sie das ausgewählte Einzelhandelsunternehmen, seine Produkte, Zielgruppen und sein bestehendes Marketing.'
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-body)
-                                  hex: '#000'
-                            text: 'Das ausgewählte Einzelhandelsunternehmen ist "ABC Electronics", ein Elektronikgeschäft mit Filialen in mehreren Städten. ABC Electronics ist spezialisiert auf den Verkauf von Unterhaltungselektronik und Haushaltsgeräten. Das Unternehmen hat eine breite Kundenbasis, darunter technikbegeisterte Konsumenten und Familien.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Schritt 3: Theorie und Literatur'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: Beispiel
-                          -
-                            type: text
-                            text: ': Recherchieren Sie Theorien und Literatur zu Social-Media-Marketing, Umsatzsteigerung und Einzelhandelsmarketing. Sie können beispielsweise Theorien zur sozialen Interaktion in sozialen Medien und deren Einfluss auf das Kaufverhalten erkunden.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Schritt 4: Daten sammeln und analysieren'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: Beispiel
-                          -
-                            type: text
-                            text: ': Sammeln Sie Umsatzdaten von ABC Electronics in den letzten fünf Jahren, einschließlich der Phasen vor und nach der Einführung von Social-Media-Marketing. Analysieren Sie diese Daten, um Trends und Veränderungen im Umsatzverlauf zu identifizieren.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Schritt 5: Ergebnisse präsentieren'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: Beispiel
-                          -
-                            type: text
-                            text: ': Präsentieren Sie Ihre Ergebnisse, indem Sie den Anstieg des Umsatzes nach der Implementierung von Social-Media-Marketing-Strategien für ABC Electronics aufzeigen. Veranschaulichen Sie, wie diese Strategien dazu beigetragen haben, mehr Kunden anzuziehen und den Umsatz zu steigern. Welche Vor und Nachteile die Social-Media-Marketing gebracht hat.'
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Zum Beispiel:'
-                      -
-                        type: table
-                        content:
-                          -
-                            type: table_row
-                            content:
-                              -
-                                type: table_cell
-                                attrs:
-                                  colspan: 1
-                                  rowspan: 1
-                                  colwidth:
-                                    - 318
-                                  background: null
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Vorteile
-                              -
-                                type: table_cell
-                                attrs:
-                                  colspan: 1
-                                  rowspan: 1
-                                  colwidth: null
-                                  background: null
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Nachteile
-                          -
-                            type: table_row
-                            content:
-                              -
-                                type: table_cell
-                                attrs:
-                                  colspan: 1
-                                  rowspan: 1
-                                  colwidth:
-                                    - 318
-                                  background: null
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: 'Erhöhte Markenbekanntheit:'
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                        text: 'Durch Social-Media-Marketing kann ABC Electronics die Sichtbarkeit seiner Marke steigern und ein größeres Publikum erreichen.'
-                              -
-                                type: table_cell
-                                attrs:
-                                  colspan: 1
-                                  rowspan: 1
-                                  colwidth: null
-                                  background: null
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: 'Negatives Feedback:'
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                        text: 'Negative Kommentare oder Bewertungen in sozialen Medien können einen negativen Einfluss auf das Image des Unternehmens haben.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Schritt 6 (falls nötig ist): neue Lösungsansätze finden'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Für die Fallstudie könnten Sie diese Vor- und Nachteile weiter untersuchen und darauf eingehen, wie sie sich auf den Umsatz und den Erfolg von ABC Electronics auswirken. Dies würde es Ihnen ermöglichen, fundierte Schlussfolgerungen und Empfehlungen '
-                  -
-                    type: text
-                    text: 'abzuleiten. In dem Beispiel mit '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'negativen Feedbacks'
-                  -
-                    type: text
-                    text: ' könnte das Unternehmen ein effizientes System zur Überwachung sozialer Medien einrichten, um negative Kommentare und Bewertungen frühzeitig zu erkennen. Dann kann es schnell reagieren, die Anliegen der Kunden ernst nehmen und Lösungen anbieten, um die Probleme zu beheben. Dies kann dazu beitragen, Kundenbeschwerden in positive Erfahrungen umzuwandeln.'
               -
                 type: paragraph
             show_as_card: false
@@ -3802,7 +3376,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700156830
+updated_at: 1700162396
 template: default
 use_meta_keywords: false
 no_index_page: false
