@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1698344890
+updated_at: 1700145088
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3374,6 +3374,5 @@ og_description: 'Jura Ghostwriter unterstützen Sie bei Ihren Rechtfachprüfunge
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Jura Ghostwriter'
-fachrichtungsgruppe: g_geisteswissenschaften
 breadcrumbs_active: true
 ---
