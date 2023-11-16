@@ -406,7 +406,7 @@ replicator:
                   values:
                     type: floating_img
                     dateien:
-                      - seiten/arbeiten/summary-defintion-min.jpg
+                      - seiten/arbeiten/summary-defintion-min-(1).jpg
                     img_size: w-full
                     image_options:
                       - no_upscale
@@ -592,181 +592,6 @@ replicator:
                     type: text
                     text: 'Mit Summaries erhält jeder einen schnellen Überblick über den Inhalt Ihrer Abschlussarbeit oder Ihres Textes, ohne dass der Dozent den gesamten Text lesen muss.'
               -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'So können Sie Ihr Summary schreiben'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie möchten ein Bachelorarbeit-Summary schreiben und wissen nicht wie ein Summary geschrieben wird. Unsere Experten zeigen Ihnen anhand den Punkten wie Sie am schnellsten ein Summary schreiben. Alternativ können Sie auch einen Ghostwriter beauftragen, ein Muster-Summary für Ihr Summary schreiben lassen , oder Sie lassen Ihr selbstgeschriebenes Summary von unseren Fachexperten überprüfen. '
-              -
-                type: ordered_list
-                attrs:
-                  order: 1
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Identifizieren Sie die Schlüsselpunkte'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Identifizieren Sie die Hauptthemen, Forschungsfragen, Methoden und Ergebnisse Ihrer Bacheloarbeit oder Masterarbeit. Konzentrieren Sie sich auf die Schlüsselpunkte, die den Kern Ihrer Arbeit ausmachen.'
-              -
-                type: ordered_list
-                attrs:
-                  order: 2
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Kürzen Sie den Text'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Fassen Sie jeden Abschnitt Ihres Textes prägnant zusammen. Vermeiden Sie unnötige Informationen und konzentrieren Sie sich auf das Wesentliche.'
-              -
-                type: ordered_list
-                attrs:
-                  order: 3
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Beibehaltung der Struktur'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bewahren Sie die Struktur und Reihenfolge Ihrer Bachelorarbeit im Summary. Verlieren Sie dabei nicht den roten Faden.'
-              -
-                type: ordered_list
-                attrs:
-                  order: 4
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Verwendung klarer Sprache'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Drücken Sie Ihren Inhalt verständlich aus, am besten verwenden Sie klare Formulierungen. Vermeiden Sie überflüssige und komplexe Ausdrucksweisen.'
-              -
-                type: ordered_list
-                attrs:
-                  order: 5
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Forschungsergebnisse darstellen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Betonen Sie die Bedeutung Ihrer Forschung und die erzielten Ergebnisse. Klären Sie, wie Ihre Arbeit zur bestehenden Literatur oder Forschung beiträgt.'
-              -
-                type: ordered_list
-                attrs:
-                  order: 6
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Überprüfung auf Vollständigkeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Lassen Sie Ihr Bachelorarbeit-Summary von einem Ghostwriter überprüfen, um sicherzustellen, dass es alle wichtigen Aspekte Ihrer Arbeit abdeckt, einschließlich der Forschungsfrage, Methoden, Ergebnisse und Schlussfolgerungen.'
-              -
-                type: blockquote
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textAlign
-                            attrs:
-                              align: start
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Denken Sie daran, dass das Summary als kurze, aber präzise Darstellung Ihrer Abschlussarbeit dienen soll. Es sollte Lesern genügend Informationen geben, um den Inhalt zu verstehen, ohne den gesamten Text lesen zu müssen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-              -
                 type: set
                 attrs:
                   id: lms3klzv
@@ -794,7 +619,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Mustervorlage für Fallstudie schreiben\_lassen"
+                    text: "Mustervorlage für Summary schreiben\_lassen"
                   -
                     type: hard_break
                     marks:
@@ -1380,24 +1205,22 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: lalfm5os
+    id: lp1n45hr
     columns_replicator:
       -
-        id: lalfmhxz
+        id: lp1n46ts
         single_col: true
         grid:
           -
-            id: rMynGq5i
+            id: 8FDzQgpo
             bard:
               -
                 type: set
                 attrs:
-                  id: lms3l67b
+                  id: lp1n4ce8
                   values:
                     type: anchor_target
-                    anchor_name: ghostwriter
-              -
-                type: paragraph
+                    anchor_name: schreiben
               -
                 type: heading
                 attrs:
@@ -1405,253 +1228,13 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Summary schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
+                    text: 'So können Sie Ihr Summary schreiben'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Sie benötigen ein Bachelorarbeit-Summary, haben jedoch Schwierigkeiten, eine 60-seitige Bachelorarbeit zusammenzufassen und die wichtigsten Ereignisse herauszufiltern. Genau hier können Ihnen unsere Ghostwriter helfen, denn Sie verfügen über umfassende Kenntnisse im Schreiben wissenschaftlicher Texte. Besonders sind in den Fachgebieten Geisteswissenschaften, Sozialwissenschaften, Wirtschaft, Naturwissenschaften, Kommunikationswissenschaften und Psychologie Ghostwriter Experten beim Schreiben von Summaries. Unsere Experten sind versiert im Umschreiben, Zusammenfassen und Überarbeiten von Texten. Durch ihre tägliche Arbeit mit wissenschaftlichen Texten zu verschiedenen Themen bringen sie umfangreiche Erfahrungen mit. Auch können Ghostwriter Mustertexte für Forschungsartikeln, Fallstudien oder anderen Inhalten zu erstellen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Sie möchten eine Musterarbeit für Ihre Hausarbeit oder Bachelorarbeit schreiben lassen, in der Sie ein Summary schreiben sollen. Sie können gerne bei einem Ghostwriter Ihr Summary schreiben.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Summary vs. Executive Summary'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                    text: 'Sowohl "Summary" als auch "Executive Summary" sind Begriffe, die in verschiedenen Kontexten verwendet werden und unterschiedliche Konnotationen haben. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Beide dienen dazu, Lesern einen schnellen Überblick zu verschaffen, aber der Begriff "Executive Summary" betont oft den geschäftlichen Kontext und die spezifische Zielgruppe von Führungskräften.'
-              -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Summary
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Executive Summary'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'allg. kurze Zusammenfassung für wissenschaftliche Texte'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'spezielle Zusammenfassung für Geschäftsdokumenten und Berichten'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Studenten, Wissenschaftler,..'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Führungskräfte, Manager, Entscheidungsträger,...'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'wichtigste Erkenntnisse'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'wichtige Erkenntnisse'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                    text: 'Ein Bachelorarbeit-Executive Summary ist eine kurze Zusammenfassung bzw. eine Übersicht des gesamten Forschungsprojekts. Es ist eine spezielle Form der Zusammenfassung, die sich an Leser richtet, die möglicherweise nicht die Zeit haben, die gesamte Arbeit im Detail zu lesen. In einem Bachelorarbeit-'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Executive-Summary
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                    text: ' sollten folgende Elemente enthalten sein:'
+                    text: 'Sie möchten ein Bachelorarbeit-Summary schreiben und wissen nicht wie ein Summary geschrieben wird. Unsere Experten zeigen Ihnen anhand den Punkten wie Sie am schnellsten ein Summary schreiben. Alternativ können Sie auch einen Ghostwriter beauftragen, ein Muster-Summary für Ihr Summary schreiben lassen , oder Sie lassen Ihr selbstgeschriebenes Summary von unseren Fachexperten überprüfen. '
               -
                 type: ordered_list
                 attrs:
@@ -1668,224 +1251,128 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Hintergrund und Zielsetzung:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: var(--text-primary)
-                                          hex: '#000'
-                                    text: 'Eine kurze Einführung in das Forschungsthema und die Hauptziele der Arbeit.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Forschungsfragen oder Hypothesen:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: var(--text-primary)
-                                          hex: '#000'
-                                    text: 'Eine klare Darstellung der Forschungsfragen oder Hypothesen, die in der Arbeit behandelt werden.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Methodik:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: var(--text-primary)
-                                          hex: '#000'
-                                    text: 'Eine knappe Beschreibung der Forschungsmethoden, die für die Datenerhebung und Analyse verwendet wurden.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Hauptergebnisse:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: var(--text-primary)
-                                          hex: '#000'
-                                    text: 'Die wichtigsten Ergebnisse der Forschung, einschließlich der Schlussfolgerungen oder Hauptbefunde.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Empfehlungen oder Implikationen:'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: var(--text-primary)
-                                          hex: '#000'
-                                    text: 'Wenn zutreffend, können auch Empfehlungen oder Implikationen für zukünftige Forschung oder Praxis aufgeführt werden.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Summary schreiben: Beispiel'
+                            text: 'Identifizieren Sie die Schlüsselpunkte'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In dem folgenden fiktiven Beispiel finden Sie ein Summary einer Bachelorarbeit im Bereich Wirtschaft. Durch die Markierungen erkennen Sie auch, welche wichtigen Ereignisse aus der Bachelorarbeit entnommen wurden.'
+                    text: 'Identifizieren Sie die Hauptthemen, Forschungsfragen, Methoden und Ergebnisse Ihrer Bacheloarbeit oder Masterarbeit. Konzentrieren Sie sich auf die Schlüsselpunkte, die den Kern Ihrer Arbeit ausmachen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 2
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Kürzen Sie den Text'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fassen Sie jeden Abschnitt Ihres Textes prägnant zusammen. Vermeiden Sie unnötige Informationen und konzentrieren Sie sich auf das Wesentliche.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 3
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Beibehaltung der Struktur'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bewahren Sie die Struktur und Reihenfolge Ihrer Bachelorarbeit im Summary. Verlieren Sie dabei nicht den roten Faden.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 4
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Verwendung klarer Sprache'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Drücken Sie Ihren Inhalt verständlich aus, am besten verwenden Sie klare Formulierungen. Vermeiden Sie überflüssige und komplexe Ausdrucksweisen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 5
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Forschungsergebnisse darstellen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Betonen Sie die Bedeutung Ihrer Forschung und die erzielten Ergebnisse. Klären Sie, wie Ihre Arbeit zur bestehenden Literatur oder Forschung beiträgt.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 6
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Überprüfung auf Vollständigkeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Lassen Sie Ihr Bachelorarbeit-Summary von einem Ghostwriter überprüfen, um sicherzustellen, dass es alle wichtigen Aspekte Ihrer Arbeit abdeckt, einschließlich der Forschungsfrage, Methoden, Ergebnisse und Schlussfolgerungen.'
               -
                 type: blockquote
                 content:
@@ -1896,170 +1383,19 @@ replicator:
                         type: text
                         marks:
                           -
-                            type: bold
-                          -
                             type: textAlign
                             attrs:
                               align: start
                           -
                             type: textColor
                             attrs:
-                              color: var(--text-primary)
+                              color: '#000!important'
                               hex: '#000'
-                        text: 'Titel der Bachelorarbeit:'
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textAlign
-                            attrs:
-                              align: start
-                        text: ' '
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: italic
-                          -
-                            type: textAlign
-                            attrs:
-                              align: start
-                          -
-                            type: textColor
-                            attrs:
-                              color: var(--text-primary)
-                              hex: '#000'
-                        text: '"Einfluss von Social Media Marketing auf das Kaufverhalten von Millennials: Eine empirische Analyse in der Einzelhandelsbranche"'
+                        text: 'Denken Sie daran, dass das Summary als kurze, aber präzise Darstellung Ihrer Abschlussarbeit dienen soll. Es sollte Lesern genügend Informationen geben, um den Inhalt zu verstehen, ohne den gesamten Text lesen zu müssen.'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '"Diese Bachelorarbeit untersucht den Einfluss von Social Media Marketing auf das Kaufverhalten von Millennials im Einzelhandel. Die Studie kombiniert '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'quantitative Umfragedaten'
-                  -
-                    type: text
-                    text: ' mit einer umfassenden Analyse von '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Social-Media-Aktivitäten
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Einkaufsgewohnheiten
-                  -
-                    type: text
-                    text: '. Die Ergebnisse zeigen, dass '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Social Media Marketing einen signifikanten Einfluss'
-                  -
-                    type: text
-                    text: ' auf die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Produktpräferenzen
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Kaufentscheidungen
-                  -
-                    type: text
-                    text: ' der Millennials hat. Insbesondere Plattformen wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Instagram
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: TikTok
-                  -
-                    type: text
-                    text: ' beeinflussen die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Markenwahrnehmung
-                  -
-                    type: text
-                    text: ' und den '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Kaufprozess
-                  -
-                    type: text
-                    text: '. Die Studie hebt auch hervor, dass '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Authentizität
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'soziale Verantwortung'
-                  -
-                    type: text
-                    text: ' in den Marketingbemühungen besonders wichtig sind. Diese Erkenntnisse haben weitreichende Implikationen für Unternehmen, die ihre Marketingstrategien an die Bedürfnisse der Millennials anpassen möchten."'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                    text: 'Die Länge eines Summary kann je nach den Anforderungen Ihrer Hochschule und den spezifischen Richtlinien Ihrer Bachelorarbeit unterschiedlich sein. In der Regel sollte ein Summary jedoch relativ kurz und präzise sein. Ein üblicher Richtwert für ein Bachelorarbeit-Summary liegt oft zwischen 150 und 300 Wörtern.'
+                type: heading
+                attrs:
+                  level: 3
             show_as_card: false
         type: row
         enabled: true
@@ -2068,7 +1404,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F7F7F7'
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
@@ -3236,6 +2572,609 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: lp1n6xq6
+    columns_replicator:
+      -
+        id: lp1n6za9
+        single_col: true
+        grid:
+          -
+            id: 8FDzQgpo
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Summary vs. Executive Summary'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Sowohl "Summary" als auch "Executive Summary" sind Begriffe, die in verschiedenen Kontexten verwendet werden und unterschiedliche Konnotationen haben. Beide dienen dazu, Lesern einen schnellen Überblick zu verschaffen, aber der Begriff "Executive Summary" betont oft den geschäftlichen Kontext und die spezifische Zielgruppe von Führungskräften.'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Summary
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Executive Summary'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'allg. kurze Zusammenfassung für wissenschaftliche Texte'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'spezielle Zusammenfassung für Geschäftsdokumenten und Berichten'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Studenten, Wissenschaftler,..'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Führungskräfte, Manager, Entscheidungsträger,...'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'wichtigste Erkenntnisse'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'wichtige Erkenntnisse'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ein Bachelorarbeit-Executive Summary ist eine kurze Zusammenfassung bzw. eine Übersicht des gesamten Forschungsprojekts. Es ist eine spezielle Form der Zusammenfassung, die sich an Leser richtet, die möglicherweise nicht die Zeit haben, die gesamte Arbeit im Detail zu lesen. In einem Bachelorarbeit-Executive-Summary sollten folgende Elemente enthalten sein:'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Hintergrund und Zielsetzung:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Eine kurze Einführung in das Forschungsthema und die Hauptziele der Arbeit.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Forschungsfragen oder Hypothesen:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Eine klare Darstellung der Forschungsfragen oder Hypothesen, die in der Arbeit behandelt werden.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Methodik:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Eine knappe Beschreibung der Forschungsmethoden, die für die Datenerhebung und Analyse verwendet wurden.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Hauptergebnisse:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Die wichtigsten Ergebnisse der Forschung, einschließlich der Schlussfolgerungen oder Hauptbefunde.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Empfehlungen oder Implikationen:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Wenn zutreffend, können auch Empfehlungen oder Implikationen für zukünftige Forschung oder Praxis aufgeführt werden.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Summary schreiben: Beispiel'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In dem folgenden fiktiven Beispiel finden Sie ein Summary einer Bachelorarbeit im Bereich Wirtschaft. Durch die Markierungen erkennen Sie auch, welche wichtigen Ereignisse aus der Bachelorarbeit entnommen wurden.'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'Titel der Bachelorarbeit:'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                        text: ' '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: italic
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: '"Einfluss von Social Media Marketing auf das Kaufverhalten von Millennials: Eine empirische Analyse in der Einzelhandelsbranche"'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '"Diese Bachelorarbeit untersucht den Einfluss von Social Media Marketing auf das Kaufverhalten von Millennials im Einzelhandel. Die Studie kombiniert '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'quantitative Umfragedaten'
+                  -
+                    type: text
+                    text: ' mit einer umfassenden Analyse von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Social-Media-Aktivitäten
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Einkaufsgewohnheiten
+                  -
+                    type: text
+                    text: '. Die Ergebnisse zeigen, dass '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Social Media Marketing einen signifikanten Einfluss'
+                  -
+                    type: text
+                    text: ' auf die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Produktpräferenzen
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Kaufentscheidungen
+                  -
+                    type: text
+                    text: ' der Millennials hat. Insbesondere Plattformen wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Instagram
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: TikTok
+                  -
+                    type: text
+                    text: ' beeinflussen die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Markenwahrnehmung
+                  -
+                    type: text
+                    text: ' und den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Kaufprozess
+                  -
+                    type: text
+                    text: '. Die Studie hebt auch hervor, dass '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Authentizität
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'soziale Verantwortung'
+                  -
+                    type: text
+                    text: ' in den Marketingbemühungen besonders wichtig sind. Diese Erkenntnisse haben weitreichende Implikationen für Unternehmen, die ihre Marketingstrategien an die Bedürfnisse der Millennials anpassen möchten."'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Länge eines Summary kann je nach den Anforderungen Ihrer Hochschule und den spezifischen Richtlinien Ihrer Bachelorarbeit unterschiedlich sein. In der Regel sollte ein Summary jedoch relativ kurz und präzise sein. Ein üblicher Richtwert für ein Bachelorarbeit-Summary liegt oft zwischen 150 und 300 Wörtern.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: BKvN8RrQ
     columns_replicator:
       -
@@ -3245,6 +3184,55 @@ replicator:
           -
             id: K8GiAu4i
             bard:
+              -
+                type: set
+                attrs:
+                  id: lp1n656n
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Summary schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie benötigen ein Bachelorarbeit-Summary, haben jedoch Schwierigkeiten, eine 60-seitige Bachelorarbeit zusammenzufassen und die wichtigsten Ereignisse herauszufiltern. Genau hier können Ihnen unsere Ghostwriter helfen, denn Sie verfügen über umfassende Kenntnisse im Schreiben wissenschaftlicher Texte. Besonders sind in den Fachgebieten Geisteswissenschaften, Sozialwissenschaften, Wirtschaft, Naturwissenschaften, Kommunikationswissenschaften und Psychologie Ghostwriter Experten beim Schreiben von Summaries. Unsere Experten sind versiert im Umschreiben, Zusammenfassen und Überarbeiten von Texten. Durch ihre tägliche Arbeit mit wissenschaftlichen Texten zu verschiedenen Themen bringen sie umfangreiche Erfahrungen mit. Auch können Ghostwriter Mustertexte für Forschungsartikeln, Fallstudien oder anderen Inhalten zu erstellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Sie möchten eine Musterarbeit für Ihre Hausarbeit oder Bachelorarbeit schreiben lassen, in der Sie ein Summary schreiben sollen. Sie können gerne bei einem Ghostwriter Ihr Summary schreiben.'
               -
                 type: heading
                 attrs:
@@ -3332,7 +3320,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700165592
+updated_at: 1700166900
 template: default
 use_meta_keywords: false
 no_index_page: false
