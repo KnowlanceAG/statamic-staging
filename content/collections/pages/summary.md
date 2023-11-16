@@ -3310,7 +3310,85 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sie benötigen ein Bachelorarbeit-Summary, haben jedoch Schwierigkeiten, eine 60-seitige Bachelorarbeit zusammenzufassen und die wichtigsten Ereignisse herauszufiltern. Genau hier können Ihnen unsere Ghostwriter helfen, denn Sie verfügen über umfassende Kenntnisse im Schreiben wissenschaftlicher Texte. Besonders sind in den Fachgebieten Geisteswissenschaften, Sozialwissenschaften, Wirtschaft, Naturwissenschaften, Kommunikationswissenschaften und Psychologie Ghostwriter Experten beim Schreiben von Summaries. Unsere Experten sind versiert im Umschreiben, Zusammenfassen und Überarbeiten von Texten. Durch ihre tägliche Arbeit mit wissenschaftlichen Texten zu verschiedenen Themen bringen sie umfangreiche Erfahrungen mit. Auch können Ghostwriter Mustertexte für Forschungsartikeln, Fallstudien oder anderen Inhalten zu erstellen.'
+                    text: 'Sie benötigen ein Bachelorarbeit-Summary, haben jedoch Schwierigkeiten, eine 60-seitige Bachelorarbeit zusammenzufassen und die wichtigsten Ereignisse herauszufiltern. Genau hier können Ihnen unsere Ghostwriter helfen, denn Sie verfügen über umfassende Kenntnisse im Schreiben wissenschaftlicher Texte. Besonders sind in den Fachgebieten Geisteswissenschaften (z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/germanistik-ghostwriter
+                          target: null
+                          rel: null
+                    text: Germanistik
+                  -
+                    type: text
+                    text: '), '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/sozialwissenschaften
+                          target: null
+                          rel: null
+                    text: Sozialwissenschaften
+                  -
+                    type: text
+                    text: ', Wirtschaft (z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/bwl
+                          target: null
+                          rel: null
+                    text: BWL
+                  -
+                    type: text
+                    text: '), Naturwissenschaften (z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/biologie
+                          target: null
+                          rel: null
+                    text: Biologie
+                  -
+                    type: text
+                    text: '), '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/kommunikationswissenschaften
+                          target: null
+                          rel: null
+                    text: Kommunikationswissenschaften
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/psychologie
+                          target: null
+                          rel: null
+                    text: 'Psychologie Ghostwriter'
+                  -
+                    type: text
+                    text: ' Experten beim Schreiben von Summaries. Unsere Experten sind versiert im Umschreiben, Zusammenfassen und Überarbeiten von Texten. Durch ihre tägliche Arbeit mit wissenschaftlichen Texten zu verschiedenen Themen bringen sie umfangreiche Erfahrungen mit. Auch können Ghostwriter Mustertexte für Forschungsartikeln, Fallstudien oder anderen Inhalten zu erstellen.'
               -
                 type: paragraph
                 content:
@@ -3519,7 +3597,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700169272
+updated_at: 1700170028
 template: default
 use_meta_keywords: false
 no_index_page: false
