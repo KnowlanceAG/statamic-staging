@@ -3500,9 +3500,9 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - a9b8fb84-8c91-4cce-a43a-5657a5676793
-                      - c01117b0-8d6b-4998-95ea-d82c139e895b
-                      - 789f5fdb-4730-4258-a660-fdd5194129af
+                      - a5c068ff-db40-47e9-8aa9-ac6c47178686
+                      - 8d0d751b-54ea-4b94-a1b7-9fe5c7850427
+                      - f7c8ca12-a411-459d-80f2-1103124f761b
               -
                 type: heading
                 attrs:
@@ -3519,7 +3519,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700169202
+updated_at: 1700169272
 template: default
 use_meta_keywords: false
 no_index_page: false
