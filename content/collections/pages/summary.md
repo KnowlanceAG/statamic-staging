@@ -2765,7 +2765,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'allg. kurze Zusammenfassung für wissenschaftliche Texte'
+                                text: 'Allgemeine kurze Zusammenfassung für wissenschaftliche Texte'
                       -
                         type: table_cell
                         attrs:
@@ -2779,7 +2779,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'spezielle Zusammenfassung für Geschäftsdokumenten und Berichten'
+                                text: 'Spezielle Zusammenfassung für Geschäftsdokumente und Berichte'
                   -
                     type: table_row
                     content:
@@ -2847,17 +2847,7 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Ein Bachelorarbeit-Executive Summary ist eine kurze Zusammenfassung bzw. eine Übersicht des gesamten Forschungsprojekts. Es ist eine spezielle Form der Zusammenfassung, die sich an Leser richtet, die möglicherweise nicht die Zeit haben, die gesamte Arbeit im Detail zu lesen. In einem Bachelorarbeit-Executive-Summary sollten folgende Elemente enthalten sein:'
+                    text: 'Ein Bachelorarbeit-Executive-Summary ist eine kurze Zusammenfassung bzw. Übersicht des gesamten Forschungsprojekts. Es handelt sich dabei um eine spezielle Form der Zusammenfassung, die an Leser gerichtet ist, welche möglicherweise nicht die Zeit haben, die gesamte Arbeit im Detail zu lesen. In einem Bachelorarbeit-Executive-Summary sollten die folgenden Elemente enthalten sein:'
               -
                 type: ordered_list
                 attrs:
@@ -3529,7 +3519,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700168960
+updated_at: 1700169202
 template: default
 use_meta_keywords: false
 no_index_page: false
