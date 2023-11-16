@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'summary schreiben lassen'
 size: 31806
 last_modified: 1700166201
 width: 596
