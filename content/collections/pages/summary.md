@@ -2073,50 +2073,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: fIXXlwmQ
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: lnswz5ji
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: lnsyn78y
-    columns_replicator:
-      -
-        id: lnsyn8qv
-        single_col: true
-        grid:
-          -
-            id: G1z8JQfg
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    border: false
-    type: add_section
-    enabled: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-  -
     id: fN7AsZHf
     columns_replicator:
       -
@@ -3376,7 +3332,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700162396
+updated_at: 1700165592
 template: default
 use_meta_keywords: false
 no_index_page: false
