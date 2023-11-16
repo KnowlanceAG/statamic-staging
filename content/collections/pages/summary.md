@@ -1,7 +1,8 @@
 ---
 id: ce456fd4-a1ad-4508-aa2e-4d0d89b6f4a4
+published: false
 blueprint: pages
-title: 'Essay (Dupliziert)'
+title: Summary
 teaser:
   -
     type: heading
@@ -20,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Essay schreiben lassen'
+        text: 'Summary schreiben lassen'
   -
     type: heading
     attrs:
@@ -35,7 +36,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Mustervorlage für Ihr Essay von akademischen Ghostwritern'
+        text: 'Mustervorlage für Ihr Summary von akademischen Ghostwritern'
   -
     type: set
     attrs:
@@ -1024,13 +1025,262 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Definition Essay'
+                    text: 'Definition Summary'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei einem Essay handelt es sich um eine geistreiche Abhandlung zu den verschiedenen Bereichen des gesellschaftlichen, kulturellen, politischen und wissenschaftlichen Lebens. Anders als bei einer Dokumentation stehen bei einem Essay die subjektive Sichtweise des Autors und seine persönliche Auseinandersetzung mit der Sache im Mittelpunkt des Interesses. Streng wissenschaftliche Arbeitsweisen sind beim Verfassen eines Essays weniger relevant als die Verarbeitung humoristischer, satirischer oder einfallsreicher Aphorismen in einer bestimmten Systematik.'
+                    text: 'Bei einem "'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Summary
+                  -
+                    type: text
+                    text: '" handelt es sich um eine Zusammenfassung eines Textes, einer Rede, eines Artikels oder einer anderen schriftlichen oder gesprochenen Information. Im Kontext von Abschlussarbeiten wie der Bachelorarbeit bezieht sich ein Summary auf die Zusammenfassung der gesamten Abschlussarbeit. Ziel eines Summarys ist es, die wichtigsten Erkenntnisse des Inhalts kompakt und prägnant darzustellen. Es gibt verschiedene Arten von Zusammenfassungen (Summary), darunter Executive Summaries von Geschäftsberichten, Abstracts wissenschaftlicher Texte und kurze Zusammenfassungen von Texten in Medien.'
+              -
+                type: set
+                attrs:
+                  id: lp1fdw09
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/summary-defintion-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--text-primary)
+                          hex: '#000'
+                    text: 'Ein erfolgreiches Summary enthält:'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Kernaussagen
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Wichtigsten Fakten, Thesen oder Ereignisse'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Kürze
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Deutlich kürzer als der Originaltext'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Klarheit
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Klar formulierte Sätze und präzise Ausdrücke'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Objektivität '
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Objektiv bleiben und keine persönlichen Meinungen oder Bewertungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Mit Summaries erhält jeder einen schnellen Überblick über den Inhalt Ihrer Abschlussarbeit oder Ihres Textes, ohne dass der Dozent den gesamten Text lesen muss.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'summary schreiben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'summary schreiben beispiel'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'wie schreibe ich eine summary'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'summary schreiben übungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'summary schreiben lassen 40'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'eine summary schreiben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'executive summary bachelorarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'summary bachelorarbeit'
               -
                 type: heading
                 attrs:
@@ -1038,19 +1288,170 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Relevanz von Essays heute'
+                    text: 'So können Sie Ihr Summary schreiben'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ob als Leitartikel in namhaften Zeitungen, ob als Kolumnen oder Glossen, Essays sind aus der Schreib- und Lesewelt des toleranten, freiheitlich denkenden, gebildeten Menschen unserer Zeit nicht mehr wegzudenken. Sie geben Einblick in das Denken anderer, eröffnen neue, manchmal erstaunliche Zugänge und Blickweisen und bewegen den interessierten Leser zu Umorientierung und neuen Denk- und Handlungsweisen.'
+                    text: 'Sie möchten ein Bachelorarbeit-Summary schreiben und wissen nicht wie ein Summary geschrieben wird. Unsere Experten zeigen Ihnen anhand den Punkten wie Sie am schnellsten ein Summary schreiben. Alternativ können Sie auch einen Ghostwriter beauftragen, ein Muster-Summary für Ihr Summary schreiben lassen , oder Sie lassen Ihr selbstgeschriebenes Summary von unseren Fachexperten überprüfen. '
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Identifizieren Sie die Schlüsselpunkte'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Seit einigen Jahren spielt das Essay auch bei der MBA-Bewerbung (Master of Business Administration) eine wichtige Rolle. Da Business Schools oft daran interessiert sind, mehr über die Persönlichkeit des Bewerbers zu erfahren, der möglichst viele Managementfunktionen abdecken soll, beauftragen sie diesen mit der Stellungnahme (Essay) zu einem bestimmten Problemfeld. So wird die Fähigkeit des Bewerbers getestet, seine Gedanken problembezogen zu strukturieren und darzustellen.'
+                    text: 'Identifizieren Sie die Hauptthemen, Forschungsfragen, Methoden und Ergebnisse Ihrer Bacheloarbeit oder Masterarbeit. Konzentrieren Sie sich auf die Schlüsselpunkte, die den Kern Ihrer Arbeit ausmachen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 2
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Kürzen Sie den Text'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fassen Sie jeden Abschnitt Ihres Textes prägnant zusammen. Vermeiden Sie unnötige Informationen und konzentrieren Sie sich auf das Wesentliche.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 3
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Beibehaltung der Struktur'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bewahren Sie die Struktur und Reihenfolge Ihrer Bachelorarbeit im Summary. Verlieren Sie dabei nicht den roten Faden.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 4
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Verwendung klarer Sprache'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Drücken Sie Ihren Inhalt verständlich aus, am besten verwenden Sie klare Formulierungen. Vermeiden Sie überflüssige und komplexe Ausdrucksweisen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 5
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Forschungsergebnisse darstellen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Betonen Sie die Bedeutung Ihrer Forschung und die erzielten Ergebnisse. Klären Sie, wie Ihre Arbeit zur bestehenden Literatur oder Forschung beiträgt.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 6
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Überprüfung auf Vollständigkeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Lassen Sie Ihr Bachelorarbeit-Summary von einem Ghostwriter überprüfen, um sicherzustellen, dass es alle wichtigen Aspekte Ihrer Arbeit abdeckt, einschließlich der Forschungsfrage, Methoden, Ergebnisse und Schlussfolgerungen.'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                          -
+                            type: textColor
+                            attrs:
+                              color: var(--text-primary)
+                              hex: '#000'
+                        text: 'Denken Sie daran, dass das Summary als kurze, aber präzise Darstellung Ihrer Abschlussarbeit dienen soll. Es sollte Lesern genügend Informationen geben, um den Inhalt zu verstehen, ohne den gesamten Text lesen zu müssen.'
               -
                 type: heading
                 attrs:
@@ -1096,7 +1497,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698106876
+updated_at: 1700156341
 meta_title: 'Essay schreiben lassen | Aufsatz vom Ghostwriter'
 meta_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
@@ -1109,9 +1510,9 @@ og_title: 'Essay schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Essay schreiben lassen'
+alternative_page_title: 'Summary schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
 breadcrumbs_active: true
-page_title: 'Essay schreiben lassen'
+page_title: 'Summary schreiben lassen'
 teaser_bg: seiten/arbeiten/gwriters_essay_2000x512.jpg
 ---
