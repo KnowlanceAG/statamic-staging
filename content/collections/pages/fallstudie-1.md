@@ -1,5 +1,6 @@
 ---
 id: 7666c317-a6d9-43f1-be2e-367b4e33e946
+published: false
 blueprint: pages
 title: 'Fallstudie (Dupliziert)'
 teaser:
@@ -388,79 +389,33 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Was ist eine Fallstudie?'
+                    text: 'Definition Summary'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Fallstudie, auch als Case Study bezeichnet, ist eine gängige Methode in der qualitativen Forschung und wird oft im Kontext von Bachelorarbeiten oder Masterarbeiten angewendet. Eine Fallstudie ist eine detaillierte Untersuchung eines spezifischen Falls, einer Situation oder eines Phänomens. Die sozialwissenschaftliche Methode eignet sich auch für das Arbeiten in anderen Fächern im Bereich der sogenannten „Humanities“, darunter Politik- oder Wirtschaftswissenschaft, Medien- und Kommunikationswissenschaften, aber auch Psychologie und Sprachwissenschaft.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In einer Fallstudie wird ein aktuelles Problem oder ein konkreter Fall analysiert. Zunächst wird das Forschungsziel und die Fragestellung definiert. Anschließend wird ein Fallbeispiel ausgewählt. Für dieses Fallbeispiel werden relevante Literatur und Theorien recherchiert und mit dem aktuellen Fallbeispiel in Beziehung gesetzt. Die Analyse kann sowohl qualitative als auch quantitative Ansätze umfassen, um neue Lösungsansätze zu finden. Das Ziel besteht darin, den Fall zu erklären, zu analysieren und Antworten auf offene Fragen zu finden. '
+                    text: 'Bei einem "'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie eine gute Fallstudie schreiben möchten, dann schreiben Sie uns an und wir werden Ihnen eine hochwertige Fallstudie erstellen. '
+                    text: Summary
+                  -
+                    type: text
+                    text: '" handelt es sich um eine Zusammenfassung eines Textes, einer Rede, eines Artikels oder einer anderen schriftlichen oder gesprochenen Information. Im Kontext von Abschlussarbeiten wie der Bachelorarbeit bezieht sich ein Summary auf die Zusammenfassung der gesamten Abschlussarbeit. Ziel eines Summarys ist es, die wichtigsten Erkenntnisse des Inhalts kompakt und prägnant darzustellen. Es gibt verschiedene Arten von Zusammenfassungen (Summary), darunter Executive Summaries von Geschäftsberichten, Abstracts wissenschaftlicher Texte und kurze Zusammenfassungen von Texten in Medien.'
               -
                 type: set
                 attrs:
-                  id: lnnf3fir
+                  id: lp1fdw09
                   values:
-                    type: anchor_target
-                    anchor_name: arten
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Arten von Fallstudien'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Es gibt verschiedene Herangehensweisen und Zwecke bei der Erstellung einer Fallstudie. Unsere akademischen Ghostwriter sind mit allen Varianten von Fallstudien vertraut, verstehen den Ablauf einer Case Study und bieten Lösungen für alle Untersuchungsfälle an. Sie können Ihre gemäß Ihren individuellen Anforderungen Fallstudie schreiben lassen. Zusätzlich sind diese Methodenansätze für Unternehmen von großer Bedeutung. Lesen Sie dazu gerne unser Beispiel über eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/case-study-erstellen
-                          target: null
-                          rel: null
-                    text: 'Case Study im Unternehmenskontext'
-                  -
-                    type: text
-                    text: .
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Problemfindungsfall: Beispiel'
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/summary-defintion-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
                 content:
@@ -474,83 +429,349 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(55, 65, 81)'
+                          color: '#000!important'
                           hex: '#000'
-                    text: 'In diesem Fall handelt es sich um eine Situation, in der Probleme und Lösungen identifiziert werden müssen.'
+                    text: 'Ein erfolgreiches Summary enthält:'
               -
-                type: set
-                attrs:
-                  id: lnnck5lt
-                  values:
-                    type: insert_html
-                    html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen in der Lebensmittelbranche beobachtet einen plötzlichen Rückgang der Verkaufszahlen eines seiner Produkte, beispielsweise eines Frühstücksflockenprodukts. Das Unternehmen steht vor der Herausforderung, die Gründe für diesen Umsatzrückgang zu verstehen und Lösungen zu finden, um das Produkt wieder auf Kurs zu bringen.</div>'
-              -
-                type: heading
-                attrs:
-                  level: 3
+                type: table
                 content:
                   -
-                    type: text
-                    text: 'Beurteilungsfall: Beispiel'
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Kernaussagen
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Wichtigsten Fakten, Thesen oder Ereignisse'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Kürze
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Deutlich kürzer als der Originaltext'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Klarheit
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Klar formulierte Sätze und präzise Ausdrücke'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Objektivität '
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Objektiv bleiben und keine persönlichen Meinungen oder Bewertungen'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei diesem Verfahren werden die Lösungsansätze bewertet. Sie müssen die Vor- und Nachteile der Lösungsansätze abwägen und gegebenenfalls weitere Lösungsvorschläge unterbreiten.'
-              -
-                type: set
-                attrs:
-                  id: lnnct7g3
-                  values:
-                    type: insert_html
-                    html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen hat eine neue Marketingkampagne gestartet, um die Verkaufszahlen seiner Produkte zu steigern. Nach Abschluss der Kampagne stellt das Unternehmen fest, dass die Verkaufszahlen gestiegen sind. Nun muss das Unternehmen die Auswirkungen der Kampagne bewerten und entscheiden, ob die Kampagne als erfolgreich betrachtet werden kann. Aber auch negative Auswirkungen können entstehen wie Kostenüberschreitungen, Imageprobleme oder rückläufige Verkaufszahlen anderer Produkte. </div>'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Informationsfall: Beispiel '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei unvollständigen oder fehlenden Informationen wird in der Fallanalyse nach neuen Informationen gesucht. Dennoch wird in solchen Fällen eine Fallstudie auf Grundlage der verfügbaren Daten geschrieben.'
-              -
-                type: set
-                attrs:
-                  id: lnndb6ay
-                  values:
-                    type: insert_html
-                    html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen plant die Einführung eines neuen Produkts auf dem Markt. Bevor die Einführung erfolgt, möchte das Unternehmen eine umfassende Marktanalyse durchführen, um sicherzustellen, dass es den Bedürfnissen und Anforderungen der Zielgruppe gerecht wird. </div>'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Untersuchungsfall: Beispiel'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei diesem Verfahren ist das Problem bereits bekannt. Hier muss eine Datenerhebung durchgeführt werden, um mögliche Konsequenzen zu verhindern und Lösungen zu finden.'
-              -
-                type: set
-                attrs:
-                  id: lnndi1b9
-                  values:
-                    type: insert_html
-                    html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen hat in den letzten Quartalen einen Umsatzrückgang verzeichnet, und die Geschäftsleitung ist besorgt über die Ursachen dieses Rückgangs. Sie möchten eine gründliche Untersuchung durchführen, um die Gründe für den Umsatzrückgang zu identifizieren und entsprechende Maßnahmen zu ergreifen. </div>'
+                    text: 'Mit Summaries erhält jeder einen schnellen Überblick über den Inhalt Ihrer Abschlussarbeit oder Ihres Textes, ohne dass der Dozent den gesamten Text lesen muss.'
               -
                 type: heading
                 attrs:
                   level: 2
+                content:
+                  -
+                    type: text
+                    text: 'So können Sie Ihr Summary schreiben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie möchten ein Bachelorarbeit-Summary schreiben und wissen nicht wie ein Summary geschrieben wird. Unsere Experten zeigen Ihnen anhand den Punkten wie Sie am schnellsten ein Summary schreiben. Alternativ können Sie auch einen Ghostwriter beauftragen, ein Muster-Summary für Ihr Summary schreiben lassen , oder Sie lassen Ihr selbstgeschriebenes Summary von unseren Fachexperten überprüfen. '
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Identifizieren Sie die Schlüsselpunkte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Identifizieren Sie die Hauptthemen, Forschungsfragen, Methoden und Ergebnisse Ihrer Bacheloarbeit oder Masterarbeit. Konzentrieren Sie sich auf die Schlüsselpunkte, die den Kern Ihrer Arbeit ausmachen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 2
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Kürzen Sie den Text'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fassen Sie jeden Abschnitt Ihres Textes prägnant zusammen. Vermeiden Sie unnötige Informationen und konzentrieren Sie sich auf das Wesentliche.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 3
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Beibehaltung der Struktur'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bewahren Sie die Struktur und Reihenfolge Ihrer Bachelorarbeit im Summary. Verlieren Sie dabei nicht den roten Faden.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 4
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Verwendung klarer Sprache'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Drücken Sie Ihren Inhalt verständlich aus, am besten verwenden Sie klare Formulierungen. Vermeiden Sie überflüssige und komplexe Ausdrucksweisen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 5
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Forschungsergebnisse darstellen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Betonen Sie die Bedeutung Ihrer Forschung und die erzielten Ergebnisse. Klären Sie, wie Ihre Arbeit zur bestehenden Literatur oder Forschung beiträgt.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 6
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Überprüfung auf Vollständigkeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Lassen Sie Ihr Bachelorarbeit-Summary von einem Ghostwriter überprüfen, um sicherzustellen, dass es alle wichtigen Aspekte Ihrer Arbeit abdeckt, einschließlich der Forschungsfrage, Methoden, Ergebnisse und Schlussfolgerungen.'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'Denken Sie daran, dass das Summary als kurze, aber präzise Darstellung Ihrer Abschlussarbeit dienen soll. Es sollte Lesern genügend Informationen geben, um den Inhalt zu verstehen, ohne den gesamten Text lesen zu müssen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
               -
                 type: set
                 attrs:
@@ -3587,7 +3808,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698108785
+updated_at: 1700156333
 template: default
 use_meta_keywords: false
 no_index_page: false
