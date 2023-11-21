@@ -1,5 +1,6 @@
 ---
 id: 5ab261b5-d6ed-4e2d-815c-ab44cae7059c
+published: false
 blueprint: pages
 title: 'Videos zitieren | Expertenguide & Generator'
 teaser:
@@ -604,5 +605,5 @@ og_title: 'Videos zitieren | Expertenguide & Generator'
 og_description: 'Anleitung zum richtigen Zitieren von Videos in wissenschaftlichen Arbeiten & Beispiele. Welche Videos in einer wissenschaftlichen Arbeit zitiert werden dürfen und wie die Zitierweise aussehen soll, erfährst Du hier!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700585349
+updated_at: 1700585921
 ---
