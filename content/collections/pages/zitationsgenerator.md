@@ -189,6 +189,16 @@ replicator:
           -
             id: WsmHIfNp
             show_as_card: false
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lp8finkz
+                  values:
+                    type: spacer
+                    padding-y: 100
+              -
+                type: paragraph
         type: row
         enabled: true
         responsive_columns: 0
@@ -742,6 +752,7 @@ og_title: 'Kostenloser Zitationsgenerator für akademische Arbeiten'
 og_description: 'Kostenloser Zitationsgenerator | Schnelle & einfache Quellenangaben und Literaturverzeichnisse in den Zitierstilen APA, Harvard, Chicago, IEEE, MIT & mehr!'
 override_twitter_settings: false
 schema_objects: |-
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -812,6 +823,7 @@ schema_objects: |-
       }
     ]
   }
+  </script>
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700576709
+updated_at: 1700576812
 ---
