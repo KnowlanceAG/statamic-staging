@@ -1,5 +1,6 @@
 ---
 id: 48a57188-3db1-41bd-bb07-a5b511a4b92d
+published: false
 blueprint: pages
 title: 'Die Chicago Zitierweise richtig verwenden – Beispiele & Generator'
 teaser:
@@ -2791,5 +2792,5 @@ og_title: 'Gesetze zitieren: so machen Sie ALLES richtig! + Generator'
 og_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700585808
+updated_at: 1700585886
 ---
