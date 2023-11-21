@@ -2,7 +2,7 @@
 id: 702e6617-d335-471d-ab91-29392f168115
 published: false
 blueprint: pages
-title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
+title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 teaser:
   -
     type: heading
@@ -1934,21 +1934,21 @@ replicator:
     border: false
     type: add_section
     enabled: true
-page_title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
+page_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 sitemap_active: true
 breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
-meta_title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
+meta_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 meta_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
+og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700582048
+updated_at: 1700585963
 ---
