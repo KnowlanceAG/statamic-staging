@@ -2,7 +2,7 @@
 id: 48a57188-3db1-41bd-bb07-a5b511a4b92d
 published: false
 blueprint: pages
-title: 'Die Chicago Zitierweise richtig verwenden – Beispiele & Generator'
+title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 teaser:
   -
     type: heading
@@ -2776,21 +2776,21 @@ replicator:
     border: false
     type: add_section
     enabled: true
-page_title: 'Die Chicago Zitierweise richtig verwenden – Beispiele & Generator'
+page_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 sitemap_active: true
 breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
-meta_title: 'Die Chicago Zitierweise richtig verwenden – Beispiele & Generator'
+meta_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 meta_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Gesetze zitieren: so machen Sie ALLES richtig! + Generator'
+og_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 og_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700585886
+updated_at: 1700586010
 ---
