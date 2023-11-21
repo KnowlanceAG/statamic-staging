@@ -207,6 +207,111 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Wie funktioniert der Zitationsgenerator?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unser Zitationsgenerator ist benutzerfreundlich und intuitiv. Geben Sie einfach die notwendigen Informationen ein, und der Generator erstellt die korrekte Zitation für Sie.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Der Zitationsgenerator: Ihre Lösung für genaue Quellenangaben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unser Zitationsgenerator unterstützt eine Vielzahl von Zitierstilen, darunter APA, Harvard, Chicago, IEEE, MIT und die deutsche Zitierweise. Mit nur wenigen Klicks generieren Sie präzise Quellenangaben und komplette Literaturverzeichnisse.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'APA-Stil: Perfekt für Sozial- und Verhaltenswissenschaften'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der APA-Stil ist einer der am häufigsten verwendeten Zitierstile. Unser Generator erstellt APA-konforme Zitationen, ideal für Psychologie, Bildungswissenschaften und andere sozialwissenschaftliche Disziplinen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Harvard-Zitierweise: Flexibilität und Einfachheit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Harvard-Zitierweise ist bekannt für ihre Flexibilität und Einfachheit. Unser Generator unterstützt Sie dabei, schnell und effizient Harvard-konforme Zitationen zu erstellen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Chicago-Stil: Ideal für Geistes- und Geschichtswissenschaften'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der Chicago-Stil ist vor allem in den Geistes- und Geschichtswissenschaften beliebt. Er bietet verschiedene Formate, die unser Generator mühelos handhaben kann.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'IEEE- und MIT-Stile: Für technische und wissenschaftliche Arbeiten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Diese Stile sind in technischen und naturwissenschaftlichen Disziplinen weit verbreitet. Unser Generator erleichtert die Erstellung von Zitationen in diesen spezifischen Formaten.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Deutsche Zitierweise: Für Arbeiten im deutschsprachigen Raum'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Für wissenschaftliche Arbeiten im deutschsprachigen Raum ist die deutsche Zitierweise unerlässlich. Unser Generator stellt sicher, dass Ihre Zitationen den lokalen Standards entsprechen.'
+              -
+                type: set
+                attrs:
+                  id: lp8f5ler
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     text: 'Benötigen Sie weitere Unterstützung?'
               -
                 type: paragraph
@@ -414,29 +519,23 @@ replicator:
                     type: text
                     text: '. Kontaktieren Sie uns jetzt - wir beraten Sie gerne & kostenlos!'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '{"id":"lp8egg9z","enabled":true,"values":{"type":"button","btn'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                    text: 'icon":[],"button'
-                  -
-                    type: text
-                    text: 'link":null,"button'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                    text: 'text":"JETZT KOSTENLOS ANFRAGEN","color":"#FF6606","button'
-                  -
-                    type: text
-                    text: 'align":"justify-center","spacing_top":false}}'
+                type: set
+                attrs:
+                  id: lp8f447r
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: set
+                attrs:
+                  id: lp8f50tj
+                  values:
+                    type: spacer
+                    padding-y: 40
             show_as_card: false
         type: row
         enabled: true
@@ -444,109 +543,11 @@ replicator:
         columns_per_row: 0
       -
         id: lp8dgm6u
-        single_col: false
+        single_col: true
         grid:
           -
             id: WsmHIfNp
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wie funktioniert der Zitationsgenerator?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unser Zitationsgenerator ist benutzerfreundlich und intuitiv. Geben Sie einfach die notwendigen Informationen ein, und der Generator erstellt die korrekte Zitation für Sie.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Der Zitationsgenerator: Ihre Lösung für genaue Quellenangaben'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unser Zitationsgenerator unterstützt eine Vielzahl von Zitierstilen, darunter APA, Harvard, Chicago, IEEE, MIT und die deutsche Zitierweise. Mit nur wenigen Klicks generieren Sie präzise Quellenangaben und komplette Literaturverzeichnisse.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'APA-Stil: Perfekt für Sozial- und Verhaltenswissenschaften'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der APA-Stil ist einer der am häufigsten verwendeten Zitierstile. Unser Generator erstellt APA-konforme Zitationen, ideal für Psychologie, Bildungswissenschaften und andere sozialwissenschaftliche Disziplinen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Harvard-Zitierweise: Flexibilität und Einfachheit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Harvard-Zitierweise ist bekannt für ihre Flexibilität und Einfachheit. Unser Generator unterstützt Sie dabei, schnell und effizient Harvard-konforme Zitationen zu erstellen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Chicago-Stil: Ideal für Geistes- und Geschichtswissenschaften'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der Chicago-Stil ist vor allem in den Geistes- und Geschichtswissenschaften beliebt. Er bietet verschiedene Formate, die unser Generator mühelos handhaben kann.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'IEEE- und MIT-Stile: Für technische und wissenschaftliche Arbeiten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Diese Stile sind in technischen und naturwissenschaftlichen Disziplinen weit verbreitet. Unser Generator erleichtert die Erstellung von Zitationen in diesen spezifischen Formaten.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Deutsche Zitierweise: Für Arbeiten im deutschsprachigen Raum'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Für wissenschaftliche Arbeiten im deutschsprachigen Raum ist die deutsche Zitierweise unerlässlich. Unser Generator stellt sicher, dass Ihre Zitationen den lokalen Standards entsprechen.'
               -
                 type: heading
                 attrs:
@@ -812,5 +813,5 @@ schema_objects: |-
     ]
   }
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700575965
+updated_at: 1700576709
 ---
