@@ -1,7 +1,8 @@
 ---
 id: 1af8c9ae-2fb6-4f46-b8c1-515284f090c2
+published: false
 blueprint: pages
-title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑 (Dupliziert) (2)'
+title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 teaser:
   -
     type: heading
@@ -20,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele & Generator'
+        text: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
   -
     type: set
     attrs:
@@ -1933,12 +1934,12 @@ replicator:
     border: false
     type: add_section
     enabled: true
-page_title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
+page_title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 sitemap_active: true
 breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
-meta_title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
+meta_title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 meta_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 use_meta_keywords: false
 no_index_page: false
@@ -1949,5 +1950,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700582048
+updated_at: 1700583399
 ---
