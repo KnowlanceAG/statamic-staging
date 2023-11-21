@@ -317,7 +317,9 @@ replicator:
                         id: lp8drhv6
                         headline:
                           -
-                            type: paragraph
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
                                 type: text
@@ -328,13 +330,15 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ein Zitationsgenerator ist ein Online-Tool, das dabei hilft, Quellenangaben und Literaturverzeichnisse für wissenschaftliche Arbeiten automatisch und gemäß verschiedenen Zitierstilen wie APA, Harvard, Chicago, IEEE, MIT und der deutschen Zitierweise zu erstellen.'
+                                text: 'Ein Zitationsgenerator ist ein Online-Tool, das dabei hilft, Quellenangaben und Literaturverzeichnisse für wissenschaftliche Arbeiten automatisch und gemäß verschiedenen Zitierstilen wie APA, Harvard, Chicago, IEEE, MIT, der deutschen Zitierweise in Fußnoten & mehr zu erstellen.'
                         active: false
                       -
                         id: lp8drip7
                         headline:
                           -
-                            type: paragraph
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
                                 type: text
@@ -351,7 +355,9 @@ replicator:
                         id: lp8drk2n
                         headline:
                           -
-                            type: paragraph
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
                                 type: text
@@ -362,13 +368,15 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Der Zitationsgenerator unterstützt mehrere Zitierstile, darunter APA, Harvard, Chicago, IEEE, MIT und die deutsche Zitierweise.'
+                                text: 'Der Zitationsgenerator unterstützt mehrere Zitierstile, darunter APA, Harvard, Chicago, IEEE, MIT, die deutsche Zitierweise in Fußnoten & weitere.'
                         active: false
                       -
                         id: lp8drl7r
                         headline:
                           -
-                            type: paragraph
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
                                 type: text
@@ -385,7 +393,9 @@ replicator:
                         id: lp8drmoj
                         headline:
                           -
-                            type: paragraph
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
                                 type: text
@@ -402,7 +412,9 @@ replicator:
                         id: lp8drnt3
                         headline:
                           -
-                            type: paragraph
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
                                 type: text
@@ -419,7 +431,9 @@ replicator:
                         id: lp8drp4w
                         headline:
                           -
-                            type: paragraph
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
                                 type: text
@@ -430,13 +444,15 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Sollten Sie Fehler in den generierten Zitationen feststellen, können Sie diese manuell bearbeiten und korrigieren, bevor Sie Ihr Literaturverzeichnis vervollständigen.'
+                                text: 'Sollten Sie Fehler in den generierten Zitationen feststellen, können Sie diese manuell bearbeiten und korrigieren, bevor Sie Ihr Literaturverzeichnis vervollständigen. Klicken Sie dazu einfach auf "Editieren" in den Optionen zur jeweiligen Quellenangabe.'
                         active: false
                       -
                         id: lp8drqog
                         headline:
                           -
-                            type: paragraph
+                            type: heading
+                            attrs:
+                              level: 3
                             content:
                               -
                                 type: text
@@ -447,7 +463,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Der Zitationsgenerator ist für alle gedacht, die wissenschaftliche Arbeiten verfassen, einschließlich Studenten, wissenschaftliche Mitarbeiter, Professoren und andere Forscher.'
+                                text: 'Der Zitationsgenerator ist für alle gedacht, die wissenschaftliche Arbeiten verfassen, einschließlich Studierende, wissenschaftliche Mitarbeiter, Professoren und andere Forscher.'
                         active: false
               -
                 type: paragraph
@@ -547,5 +563,5 @@ schema_objects: |-
     ]
   }
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700574122
+updated_at: 1700575707
 ---
