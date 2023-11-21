@@ -55,17 +55,17 @@ teaser:
           -
             id: wNkymqh9
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp;amp; 100% Anonymität'
+            headline: 'Datenschutz & 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp; garantieren Ihre Anonymität zu 100%.'
           -
             id: Awfm0X4k
             icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp;amp; kostenlose Änderungen'
+            headline: 'Teillieferungen & kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
             id: 0f6BxR0G
             icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp;amp; pünktliche Lieferung'
+            headline: 'Schnelle & pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp; finaler Form.'
           -
             id: GQNX6eXT
@@ -85,8 +85,8 @@ teaser:
       id: 2V4ZjCGH
       values:
         type: button
-        button_link: /anfrage
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
   -
@@ -137,12 +137,16 @@ page_title: 'Zitationsgenerator für akademische Arbeiten • GWriters'
 sitemap_active: true
 breadcrumbs_active: true
 template: default
+meta_title: 'Kostenloser Zitationsgenerator für akademische Arbeiten'
+meta_description: 'Kostenloser Zitationsgenerator | Schnelle & einfache Quellenangaben und Literaturverzeichnisse in den Zitierstilen APA, Harvard, Chicago, IEEE, MIT & mehr!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
+og_title: 'Kostenloser Zitationsgenerator für akademische Arbeiten'
+og_description: 'Kostenloser Zitationsgenerator | Schnelle & einfache Quellenangaben und Literaturverzeichnisse in den Zitierstilen APA, Harvard, Chicago, IEEE, MIT & mehr!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700570643
+updated_at: 1700573035
 ---
