@@ -38,7 +38,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Kostenloser Generator für das Zitieren inAPA, Harvard, Chicago, IEEE, MIT & mehr!'
+        text: 'Kostenloser Generator für das Zitieren in APA, Harvard, Chicago, IEEE, MIT & mehr!'
   -
     type: set
     attrs:
@@ -188,6 +188,255 @@ replicator:
         grid:
           -
             id: WsmHIfNp
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lp8eypom
+        single_col: true
+        grid:
+          -
+            id: HQ7DAGFn
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Benötigen Sie weitere Unterstützung?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unsere akademische Ghostwriter sind Experten des wissenschaftlichen Arbeitens. Jeder unserer Ghostwriter verfügt über viele Jahre methodische Erfahrung sowie herausragende fachliche Expertise in seinem entsprechenden Fachbereich. Gerne unterstützen wir Sie professionell & diskret bei Ihrem akademischen Projekt. Unter anderem können Sie sich bei uns:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lp8eyp5r
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: HQ7DAGFn
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/facharbeit
+                                  target: null
+                                  rel: null
+                            text: 'Facharbeit schreiben lassen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/studienarbeit
+                                  target: null
+                                  rel: null
+                            text: 'Studienarbeit schreiben lassen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/hausarbeit-schreiben-lassen
+                                  target: null
+                                  rel: null
+                            text: 'Hausarbeit schreiben lassen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/seminararbeit-schreiben-lassen
+                                  target: null
+                                  rel: null
+                            text: 'Seminararbeit schreiben lassen'
+            show_as_card: false
+          -
+            id: lp8eyyaz
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                  target: null
+                                  rel: null
+                            text: 'Bachelorarbeit schreiben lassen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/masterarbeit-schreiben-lassen
+                                  target: null
+                                  rel: null
+                            text: 'Masterarbeit schreiben lassen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/doktorarbeit
+                                  target: null
+                                  rel: null
+                            text: 'Doktorarbeit schreiben lassen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/diplomarbeit
+                                  target: null
+                                  rel: null
+                            text: 'Diplomarbeit schreiben lassen'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: lp8eyode
+        single_col: true
+        grid:
+          -
+            id: HQ7DAGFn
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Doch nicht nur für diese Arbeiten finden Sie Unterstützung bei GWriters - von unserer Ghostwriting Agentur können Sie sich Mustervorlage für jede Art von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten
+                          target: null
+                          rel: null
+                    text: 'wissenschaftlichen Arbeiten schreiben lassen'
+                  -
+                    type: text
+                    text: '. Kontaktieren Sie uns jetzt - wir beraten Sie gerne & kostenlos!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '{"id":"lp8egg9z","enabled":true,"values":{"type":"button","btn'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: 'icon":[],"button'
+                  -
+                    type: text
+                    text: 'link":null,"button'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: 'text":"JETZT KOSTENLOS ANFRAGEN","color":"#FF6606","button'
+                  -
+                    type: text
+                    text: 'align":"justify-center","spacing_top":false}}'
             show_as_card: false
         type: row
         enabled: true
@@ -563,5 +812,5 @@ schema_objects: |-
     ]
   }
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700575707
+updated_at: 1700575932
 ---
