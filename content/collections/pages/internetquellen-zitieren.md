@@ -133,7 +133,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Du möchtest wissen, wie Du konkrete, knackige und seriöse Internetquellen für Deine wissenschaftliche Arbeit findest - und sie richtig einbauen kannst? Dann richtet sich dieser Artikel an Dich!'
+                    text: 'Sie möchten wissen, wie Sie konkrete, hochwertige und seriöse Internetquellen für Ihre wissenschaftliche Arbeit finden & diese richtig einbauen können? Dann richtet sich dieser Artikel an Sie!'
                   -
                     type: hard_break
                   -
@@ -205,7 +205,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Diese Fragen solltet Ihr beim Bewerten von Quellen aus dem Internet mit JA beantworten können:'
+                    text: 'Diese Fragen sollten Sie beim Bewerten von Quellen aus dem Internet mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: JA
+                  -
+                    type: text
+                    text: ' beantworten können:'
               -
                 type: bullet_list
                 content:
@@ -266,7 +275,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Und nicht zuletzt: Hat die Seite ein ordentliches Impressum? Handelt es sich um einen seriösen Domainnamen? Bei einem Sitz auf den Cayman Ilands und der Endung „.to“ oder „.nu“ solltet Ihr lieber vorsichtig sein.'
+                            text: 'Und nicht zuletzt: Hat die Seite ein ordentliches Impressum? Handelt es sich um einen seriösen Domainnamen? Bei einem Sitz auf den Cayman Islands und der Endung „.to“ oder „.nu“ sollten Sie vorsichtig sein.'
               -
                 type: paragraph
                 content:
@@ -469,7 +478,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wichtig bei Internetquellen ist immer, dass sie identifizierbar sind. Allerdings ist das nicht ganz einfach, denn sie können jederzeit verändert werden. Deshalb ist es wichtig das Datum des Abrufs anzugeben, teilweise sogar die Uhrzeit.'
+                    text: 'Wichtig bei Internetquellen ist immer, dass sie identifizierbar sind. Allerdings ist das nicht ganz einfach, denn sie können jederzeit verändert werden. Deshalb ist es wichtig, das Datum des Abrufs anzugeben, teilweise sogar die Uhrzeit.'
               -
                 type: paragraph
                 content:
@@ -505,7 +514,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ganz wichtig ist immer die Bezeichnung der Internetseite zu nennen. Diese findet Ihr im Tab-Symbol der jeweiligen Seite. Ergänzt werden muss das dann immer um die '
+                    text: 'Ganz wichtig ist es, immer die Bezeichnung der Internetseite zu nennen. Diese findet Ihr im Tab-Symbol der jeweiligen Seite. Ergänzt werden muss das dann immer um die '
                   -
                     type: text
                     marks:
@@ -514,7 +523,7 @@ replicator:
                     text: 'komplette URL'
                   -
                     type: text
-                    text: '. Sollte es kein Veröffentlichungsdatum des Beitrages geben, könnt ihr "o.J" (ohne Jahresangabe) dazuschreiben.'
+                    text: '. Sollte es kein Veröffentlichungsdatum des Beitrages geben, können Sie "o.J" (ohne Jahresangabe) dazuschreiben.'
               -
                 type: paragraph
                 content:
@@ -565,7 +574,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Was sollte ich sonst noch beim Internetquellen zitieren beachten?'
+                    text: 'Was sollte ich sonst noch beim Zitieren von Internetquellen beachten?'
               -
                 type: bullet_list
                 content:
@@ -577,7 +586,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Auch wenn eine URL sehr lang ist und Eure '
+                            text: 'Auch wenn eine URL sehr lang ist und Ihre '
                           -
                             type: text
                             marks:
@@ -590,7 +599,7 @@ replicator:
                             text: Formatierung
                           -
                             type: text
-                            text: ' nicht hübsch aussehen lässt, solltet Ihr sie trotzdem nicht mit Umbrüchen verändern. Die Gefahr ist sonst zu groß, dass bei einer maschinellen Plagiatsprüfung die Links nicht richtig erkannt werden und Eure Arbeit fälschlicherweise durch die Software als Plagiat angezeigt wird.'
+                            text: ' nicht hübsch aussehen lässt, sollten Sie diese trotzdem nicht mit Umbrüchen verändern. Die Gefahr ist sonst zu groß, dass bei einer maschinellen Plagiatsprüfung die Links nicht richtig erkannt werden und Ihre Arbeit fälschlicherweise durch die Software als Plagiat gekennzeichnet wird.'
                   -
                     type: list_item
                     content:
@@ -599,7 +608,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Achtet nach Möglichkeit immer darauf, Hyperlinks zu deaktivieren. Warum? Sonst erscheinen diese in der gedruckten Form unterstrichen – und das sieht nicht „schön“ aus. Aber auch hier gilt: Ein Blick in die Formatvorgabe der Uni hilft weiter!'
+                            text: 'Achten Sie nach Möglichkeit immer darauf, Hyperlinks zu deaktivieren. Warum? Sonst erscheinen diese in der gedruckten Form unterstrichen – und das sieht nicht „schön“ aus. Aber auch hier gilt: Ein Blick in die Formatvorgabe der Uni hilft weiter!'
                   -
                     type: list_item
                     content:
@@ -608,7 +617,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Und was mache ich in der Fußnote bzw. bei Harvard- oder APA-Stil im Text mit Internetseiten? Eine Angabe von Seitenzahlen erfolgt im Regelfall nur dann, wenn es sich um eine PDF-Quelle handelt. Sonst zitiert Ihr im Text mit „o.S.“, d.h. „ohne Seitenangabe“. Unüblich ist es dabei, bei den Zitaten im Texten die gesamte Internetseite wiederzugeben – es sei denn Eure Uni verlangt das von Euch. Aber auch hier solltet Ihr den Autor und Herausgeber nennen.'
+                            text: 'Und was mache ich in der Fußnote bzw. beim Harvard- oder APA-Stil im Text mit Internetseiten? Eine Angabe von Seitenzahlen erfolgt im Regelfall nur dann, wenn es sich um eine PDF-Quelle handelt. Sonst zitiert Ihr im Text mit „o.S.“, d.h. „ohne Seitenangabe“. Unüblich ist es, bei den Zitaten im Texten die gesamte Internetseite wiederzugeben – es sei denn, Ihre Uni verlangt dies von ihnen. Aber auch hier sollten Sie den Autor und Herausgeber nennen.'
                   -
                     type: list_item
                     content:
@@ -617,7 +626,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Wenn Du Probleme bei der Zitation von Internetquellen hast, lohnt es sich auch, einen akademischen Ghostwriter um Rat zu Fragen. Dieser kann Dich bei Deiner wissenschaftlichen Arbeit vollumfänglich unterstützen. Außerdem kannst Du Dir von diesem auch eine Mustervorlage, bspw. für deine '
+                            text: 'Wenn Sie Probleme bei der Zitation von Internetquellen haben, lohnt es sich auch, einen akademischen Ghostwriter um Rat zu Fragen. Dieser kann Sie bei Ihrer wissenschaftlichen Arbeit vollumfänglich unterstützen. Außerdem können Sie Sich von diesem auch eine Mustervorlage, bspw. für deine '
                           -
                             type: text
                             marks:
@@ -644,7 +653,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Oft verlangen Unis, dass die Webseite als elektronisches Dokument zur Arbeit mitgeliefert wird. Damit Ihr kurz vor Abgabe nicht in Hektik geratet und z.B. eine Seite nicht mehr verfügbar ist, solltet Ihr am besten immer gleich die Seite bei Abruf in einem extra Verzeichnis zu Eurer Arbeit speichern.'
+                    text: 'Oft verlangen Unis, dass die Webseite als elektronisches Dokument zur Arbeit mitgeliefert wird. Damit Sie kurz vor Abgabe nicht in Hektik geraten und z.B. eine Seite nicht mehr verfügbar ist, sollten Sie am besten immer gleich die Seite bei Abruf in einem extra Verzeichnis zu Ihrer Arbeit speichern.'
               -
                 type: paragraph
                 content:
@@ -684,7 +693,7 @@ replicator:
                     text: 'Und noch ein Tipp:'
                   -
                     type: text
-                    text: ' Schon mal was von DOI gehört? Hierbei handelt es sich um eine wissenschaftliche anerkannte Lösung, um das Problem des „flüchtigen Internet“ zu lösen. Ein DOI ist ein „Digital Objekt Identifier“, d.h. eine permanente Internetquelle/-link („Persistent Link“). Hat Eure Quelle einen solchen DOI: im Literaturverzeichnis mit angeben, da sie sich nie verändert! '
+                    text: ' Schon mal was von DOI gehört? Hierbei handelt es sich um eine wissenschaftliche anerkannte Lösung, um das Problem des „flüchtigen Internet“ zu lösen. Ein DOI ist ein „Digital Objekt Identifier“, d.h. eine permanente Internetquelle/-link („Persistent Link“). Hat Ihre Quelle einen solchen DOI, sollten Sie diese im Literaturverzeichnis mit angeben, da sie sich nie verändert! '
                   -
                     type: text
                     marks:
@@ -694,13 +703,13 @@ replicator:
                           href: 'https://www.doi.org/'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'Probiert es hier aus!'
+                    text: 'Probieren Sie es hier aus!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Hier seht Ihr mal ein Beispiel für eine wissenschaftliche Quelle aus der Online Library von Wiley, die einen DOI wiedergibt:'
+                    text: 'Hier sehen Sie ein Beispiel für eine wissenschaftliche Quelle aus der Online Library von Wiley, die einen DOI wiedergibt:'
               -
                 type: set
                 attrs:
@@ -718,7 +727,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Ich wünsche Euch ein gutes Gelingen bei Eurer wissenschaftlichen Arbeit! Wenn Ihr noch offene Fragen habt, '
+                    text: 'Ich wünsche Ihnen ein gutes Gelingen bei Ihrer wissenschaftlichen Arbeit! Wenn Sie noch offene Fragen haben, '
                   -
                     type: text
                     marks:
@@ -727,16 +736,16 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /
+                          href: /arbeiten
                           target: null
                           rel: null
-                    text: 'Unterstützung bei Eurer wissenschaftlichen Arbeit'
+                    text: 'Unterstützung bei Ihrer wissenschaftlichen Arbeit'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: ' benötigt oder etwas anmerken möchtet, könnt Ihr gerne unser '
+                    text: ' benötigen oder etwas anmerken möchten, können Sie gerne unser '
                   -
                     type: text
                     marks:
@@ -745,7 +754,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /kontakt
+                          href: /anfrage
                           target: _blank
                           rel: 'noopener noreferrer'
                     text: Kontaktformular
@@ -754,7 +763,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' nutzen oder ein Kommentar hinterlassen!'
+                    text: ' nutzen.'
               -
                 type: set
                 attrs:
@@ -794,5 +803,5 @@ og_title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
 og_description: 'Sie möchten wissen, wie Sie konkrete, hochwertige und seriöse Internetquellen für Ihre wissenschaftliche Arbeit finden & diese richtig einbauen können? Dann richtet sich dieser Artikel an Sie!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700676492
+updated_at: 1700677688
 ---
