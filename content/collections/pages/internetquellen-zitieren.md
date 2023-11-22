@@ -2,7 +2,7 @@
 id: 92fa0579-edee-4a61-a02c-f781a24d2bb3
 published: false
 blueprint: pages
-title: 'Internetquellen zitieren | Alles, was Du wissen musst + Generator'
+title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
 teaser:
   -
     type: heading
@@ -21,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Internetquellen zitieren – Alles, was Du wissen musst + Generator'
+        text: 'Internetquellen zitieren – Alles, was Sie wissen müssen + Generator'
   -
     type: set
     attrs:
@@ -778,21 +778,21 @@ replicator:
     border: false
     type: add_section
     enabled: true
-page_title: 'Internetquellen zitieren | Alles, was Du wissen musst + Generator'
+page_title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
 sitemap_active: true
 breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
-meta_title: 'Internetquellen zitieren | Alles, was Du wissen musst + Generator'
-meta_description: 'Du möchtest wissen, wie Du konkrete, knackige und seriöse Internetquellen für Deine wissenschaftliche Arbeit findest - und sie richtig einbauen kannst? Dann richtet sich dieser Artikel an Dich!'
+meta_title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
+meta_description: 'Sie möchten wissen, wie Sie konkrete, hochwertige und seriöse Internetquellen für Ihre wissenschaftliche Arbeit finden & diese richtig einbauen können? Dann richtet sich dieser Artikel an Sie!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Internetquellen zitieren | Alles, was Du wissen musst + Generator'
-og_description: 'Du möchtest wissen, wie Du konkrete, knackige und seriöse Internetquellen für Deine wissenschaftliche Arbeit findest - und sie richtig einbauen kannst? Dann richtet sich dieser Artikel an Dich!'
+og_title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
+og_description: 'Sie möchten wissen, wie Sie konkrete, hochwertige und seriöse Internetquellen für Ihre wissenschaftliche Arbeit finden & diese richtig einbauen können? Dann richtet sich dieser Artikel an Sie!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700585984
+updated_at: 1700676492
 ---
