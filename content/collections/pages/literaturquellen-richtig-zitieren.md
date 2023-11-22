@@ -133,7 +133,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig haben Studenten Schwierigkeiten mit dem richtigen Zitieren einer wissenschaftlichen Quelle. Schnell kommt man zur Frage: „Wie kann ich eine Literaturquelle in '
+                    text: 'Häufig haben Studierende Schwierigkeiten mit dem richtigen Zitieren einer wissenschaftlichen Quelle. Schnell kommt man zur Frage: „Wie kann ich eine Literaturquelle in '
                   -
                     type: text
                     marks:
@@ -152,7 +152,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nachdem sie das Forschungsthema für ihre Abschlussarbeit und ihre Gliederung grob festgelegt haben, kommt die Freude am Schreiben. Genau hier verlieren viele Studenten den roten Faden, während sie ihre '
+                    text: 'Nachdem sie das Forschungsthema für ihre Abschlussarbeit und ihre Gliederung grob festgelegt haben, kommt die Freude am Schreiben. Genau hier verlieren viele Studierende den roten Faden, während sie ihre '
                   -
                     type: text
                     marks:
@@ -165,7 +165,7 @@ replicator:
                     text: Hausarbeit
                   -
                     type: text
-                    text: " oder Abschlussarbeit schreiben. Bedauerlicherweise passieren solche Fehler bei vielen Studenten. Da diese ungern beim Schreiben unterbrochen werden möchten, vernachlässigen sie das richtige Zitieren in Fußnoten und auch im Text. Jedoch vergessen viele Studierende auch, dass das richtig Zitieren, das A und O in einer wissenschaftlichen Arbeit ist. Auch das\_"
+                    text: " oder Abschlussarbeit schreiben. Bedauerlicherweise passieren solche Fehler bei vielen Studierenden. Da diese ungern beim Schreiben unterbrochen werden möchten, vernachlässigen sie das richtige Zitieren in Fußnoten und auch im Text. Jedoch vergessen viele Studierende auch, dass das richtig Zitieren, das A und O in einer wissenschaftlichen Arbeit ist. Auch das\_"
                   -
                     type: text
                     marks:
@@ -205,7 +205,7 @@ replicator:
                     text: 'wissenschaftlichen Literaturquellen'
                   -
                     type: text
-                    text: ", müssen diese Quellen\_ gekennzeichnet werden. Bei einer wissenschaftlichen Arbeit wird das richtige Zitieren vorausgesetzt. In vielen Universitäten wird ungenügendes Wissen zum Thema Zitieren an Studenten vermittelt, sodass die Studierenden selber als externe Hilfe das Internet benutzen müssen, damit sie die Literaturquellen korrekt und fehlerfrei zitieren können. In den Suchergebnissen werden viele „Zitieren Beispiele“ aufgelistet, allerdings sind diese nicht immer korrekt. Daher ist es wichtig, die Ergebnisse aus einer qualitativen und vertrauenswürdigen Webseite zu entnehmen. Sonst wird die Abschlussarbeit durch falsche Zitierung schlecht bewertet. Sogar das Durchfallen bei der Abschlussarbeit ist in einem solchen Fall möglich."
+                    text: ", müssen diese Quellen\_ gekennzeichnet werden. Bei einer wissenschaftlichen Arbeit wird das richtige Zitieren vorausgesetzt. In vielen Universitäten wird ungenügendes Wissen zum Thema Zitieren an Studierende vermittelt, sodass die Studierenden selber als externe Hilfe das Internet benutzen müssen, damit sie die Literaturquellen korrekt und fehlerfrei zitieren können. In den Suchergebnissen werden viele „Zitieren Beispiele“ aufgelistet, allerdings sind diese nicht immer korrekt. Daher ist es wichtig, die Ergebnisse aus einer qualitativen und vertrauenswürdigen Webseite zu entnehmen. Sonst wird die Abschlussarbeit durch falsche Zitierung schlecht bewertet. Sogar das Durchfallen bei der Abschlussarbeit ist in einem solchen Fall möglich."
               -
                 type: paragraph
                 content:
@@ -803,5 +803,5 @@ og_title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 og_description: 'Literaturquellen richtig zitieren | Wie zitiere ich richtig? Welche Zitierweisen gilt es zu beachten? Kostenlose Beispiele zum richtigen Zitieren!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700583526
+updated_at: 1700673878
 ---
