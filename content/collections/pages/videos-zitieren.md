@@ -531,7 +531,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wenn Ihr alle fünf Fragen zufriedenstellend beantworten könnt, sollte einer Zitierung nichts im Wege stehen.'
+                    text: 'Wenn Sie alle fünf Fragen zufriedenstellend beantworten können, sollte einer Zitierung nichts im Wege stehen.'
               -
                 type: horizontal_rule
               -
@@ -539,33 +539,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wenn Ihr noch offene Fragen habt, '
+                    text: 'Wenn Sie noch offene Fragen haben, '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /leistungen
+                          href: /arbeiten
                           target: _blank
                           rel: 'noopener noreferrer'
-                    text: 'Unterstützung bei Eurer wissenschaftlichen Arbeit'
+                    text: 'Unterstützung bei Ihrer wissenschaftlichen Arbeit'
                   -
                     type: text
-                    text: ' benötigt oder etwas anmerken möchtet, könnt Ihr gerne unser '
+                    text: ' benötigen oder etwas anmerken möchten, können Sie gerne unser '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /kontakt
+                          href: /anfrage
                           target: null
                           rel: null
                     text: Kontaktformular
                   -
                     type: text
-                    text: ' nutzen oder ein Kommentar hinterlassen! Von einem akademischen Ghostwriter könnt ihr euch beispielsweise eine Mustervorlage für eure '
+                    text: ' nutzen! Von einem akademischen Ghostwriter können Sie Sich beispielsweise eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -595,15 +595,15 @@ breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
 meta_title: 'Videos zitieren | Expertenguide & Generator'
-meta_description: 'Anleitung zum richtigen Zitieren von Videos in wissenschaftlichen Arbeiten & Beispiele. Welche Videos in einer wissenschaftlichen Arbeit zitiert werden dürfen und wie die Zitierweise aussehen soll, erfährst Du hier!'
+meta_description: 'Anleitung zum richtigen Zitieren von Videos in wissenschaftlichen Arbeiten & Beispiele. Welche Videos in einer wissenschaftlichen Arbeit zitiert werden dürfen & wie die Zitierweise aussehen soll, erfahren Sie hier!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 og_title: 'Videos zitieren | Expertenguide & Generator'
-og_description: 'Anleitung zum richtigen Zitieren von Videos in wissenschaftlichen Arbeiten & Beispiele. Welche Videos in einer wissenschaftlichen Arbeit zitiert werden dürfen und wie die Zitierweise aussehen soll, erfährst Du hier!'
+og_description: 'Anleitung zum richtigen Zitieren von Videos in wissenschaftlichen Arbeiten & Beispiele. Welche Videos in einer wissenschaftlichen Arbeit zitiert werden dürfen & wie die Zitierweise aussehen soll, erfahren Sie hier!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700585921
+updated_at: 1700678272
 ---
