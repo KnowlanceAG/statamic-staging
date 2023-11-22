@@ -178,7 +178,7 @@ replicator:
                     text: 'richtige Zitieren von Tabellen und Abbildungen'
                   -
                     type: text
-                    text: ' ist ein wichtiger Teil einer wissenschaftliche Arbeit. Nach dem Schreiben eines Textes wissen viele Studierende auch nicht mehr, aus welcher Quelle ein bestimmter Satz oder der Absatz stammt und verlieren somit mehr Zeit an der Arbeit.'
+                    text: ' ist ein wichtiger Teil einer wissenschaftlichen Arbeit. Nach dem Schreiben eines Textes wissen viele Studierende auch nicht mehr, aus welcher Quelle ein bestimmter Satz oder der Absatz stammt und verlieren somit mehr Zeit an der Arbeit.'
               -
                 type: heading
                 attrs:
@@ -192,7 +192,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Da Ihr in Eurer wissenschaftlichen Arbeit nicht alle Ideen, Sätze oder Absätze aus Euren eigenen Gedanken stammen, sondern aus '
+                    text: 'Da in Ihrer wissenschaftlichen Arbeit nicht alle Ideen, Sätze oder Absätze aus Ihren eigenen Gedanken stammen, sondern aus '
                   -
                     type: text
                     marks:
@@ -205,13 +205,13 @@ replicator:
                     text: 'wissenschaftlichen Literaturquellen'
                   -
                     type: text
-                    text: ", müssen diese Quellen\_ gekennzeichnet werden. Bei einer wissenschaftlichen Arbeit wird das richtige Zitieren vorausgesetzt. In vielen Universitäten wird ungenügendes Wissen zum Thema Zitieren an Studierende vermittelt, sodass die Studierenden selber als externe Hilfe das Internet benutzen müssen, damit sie die Literaturquellen korrekt und fehlerfrei zitieren können. In den Suchergebnissen werden viele „Zitieren Beispiele“ aufgelistet, allerdings sind diese nicht immer korrekt. Daher ist es wichtig, die Ergebnisse aus einer qualitativen und vertrauenswürdigen Webseite zu entnehmen. Sonst wird die Abschlussarbeit durch falsche Zitierung schlecht bewertet. Sogar das Durchfallen bei der Abschlussarbeit ist in einem solchen Fall möglich."
+                    text: ', müssen diese Quellen gekennzeichnet werden. Bei einer wissenschaftlichen Arbeit wird das richtige Zitieren vorausgesetzt. In vielen Universitäten wird ungenügendes Wissen zum Thema Zitieren an Studierende vermittelt, sodass die Studierenden selber als externe Hilfe das Internet benutzen müssen, damit sie die Literaturquellen korrekt und fehlerfrei zitieren können. In den Suchergebnissen werden viele „Zitieren Beispiele“ aufgelistet, allerdings sind diese nicht immer korrekt. Daher ist es wichtig, die Ergebnisse aus einer qualitativen und vertrauenswürdigen Webseite zu entnehmen. Sonst wird die Abschlussarbeit durch falsche Zitation schlecht bewertet. Sogar das Durchfallen bei der Abschlussarbeit ist in einem solchen Fall möglich.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Je nachdem, welche Zitiervorgabe Euer Dozent Euch vermittelt hat, unterscheidet sich dementsprechend auch der Zitierstil einer Literaturquelle. Zudem werden die Quellen einer wissenschaftlichen Arbeit auch deswegen zitiert, damit die Quellen später einfacher im '
+                    text: 'Je nachdem, welche Zitiervorgabe Ihr Dozent Ihnen vermittelt hat, unterscheidet sich dementsprechend auch der Zitierstil einer Literaturquelle. Zudem werden die Quellen einer wissenschaftlichen Arbeit auch deswegen zitiert, damit die Quellen später einfacher im '
                   -
                     type: text
                     marks:
@@ -243,7 +243,7 @@ replicator:
                     text: 'Ghostwriter Agentur'
                   -
                     type: text
-                    text: ' mit dem Schwerpunkt auf die Erstellung wissenschaftliche Texte sind. Auch, wie es an unseren Musterarbeiten zu erkennen ist, gehen wir mit der Zitierung einer Arbeit mühsam und professionell um. Denn ein '
+                    text: ' mit dem Schwerpunkt auf der Erstellung wissenschaftlicher Texte sind. Auch, wie es an unseren Musterarbeiten zu erkennen ist, gehen wir mit der Zitierung einer Arbeit gewissenhaft und professionell um. Denn ein '
                   -
                     type: text
                     marks:
@@ -256,20 +256,7 @@ replicator:
                     text: Plagiatsvorwurf
                   -
                     type: text
-                    text: "\_kann dazu führen, dass Ihr am Ende Eure Bachelorarbeit oder Abschlussarbeit nicht besteht. Daher möchten wir heute in unserem Video Euch das Thema „"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/wissenschaftliches-arbeiten-regeln
-                          target: null
-                          rel: null
-                    text: 'Literaturquellen in wissenschaftlichen Arbeiten'
-                  -
-                    type: text
-                    text: ' richtig zitieren“ vorstellen.'
+                    text: "\_kann dazu führen, dass Sie am Ende Ihre Bachelorarbeit oder Abschlussarbeit nicht bestehen. Daher möchten wir Ihnen heute in unserem Video das Thema „Literaturquellen in wissenschaftlichen Arbeiten richtig zitieren“ vorstellen."
               -
                 type: set
                 attrs:
@@ -322,7 +309,7 @@ replicator:
                     text: 'direkten Zitat'
                   -
                     type: text
-                    text: ' handelt es sich um eine direkte Übernahme einer Textstelle. Das Ganze passiert in Anführungszeichen. Es wird das wortwörtliche Zitat mit übernommen inklusive aller möglichen Rechtschreibfehler, die vielleicht sogar schon vorher enthalten waren. Diese werden nicht korrigiert, sondern direkt mit übernommen. Allerdings werdet Ihr gelegentlich direkte Zitate grammatikalisch anpassen müssen. Hierzu zeigen wir Euch ein direktes Zitat Beispiel aus einem eBook:'
+                    text: ' handelt es sich um eine direkte Übernahme einer Textstelle. Das Ganze passiert in Anführungszeichen. Es wird das wortwörtliche Zitat mit übernommen inklusive aller möglichen Rechtschreibfehler, die vielleicht sogar schon vorher enthalten waren. Diese werden nicht korrigiert, sondern direkt mit übernommen. Allerdings werden Sie gelegentlich direkte Zitate grammatikalisch anpassen müssen. Hierzu zeigen wir Ihnen ein direktes Zitat-Beispiel aus einem eBook:'
               -
                 type: set
                 attrs:
@@ -346,7 +333,7 @@ replicator:
                     text: 'indirekten Zitat'
                   -
                     type: text
-                    text: ' handelt es sich um die Ideen anderer, allerdings in den eigenen Worten geschrieben. Das heißt, Ihr zitiert nicht mit Anführungszeichen, sondern Ihr zitiert mit Euren eigenen Worten und macht dies danach im Text kenntlich. Was ist ein indirektes Zitat? Anhand eines eBooks werden wir Euch ein indirektes Zitat Beispiel demonstrieren:'
+                    text: ' handelt es sich um die Ideen anderer, allerdings in den eigenen Worten geschrieben. Das heißt, Sie zitieren nicht mit Anführungszeichen, sondern Sie zitieren mit Ihren eigenen Worten und machen dies danach im Text kenntlich. Was ist ein indirektes Zitat? Anhand eines eBooks werden wir Ihnen ein indirektes Zitat-Beispiel demonstrieren:'
               -
                 type: set
                 attrs:
@@ -362,7 +349,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Allerdings wurden zum direkten und indirekten Zitat noch kein Verfasser mit erwähnt. Wann, wo und wie werden Textstellen mit Quellenangaben zitiert?\_ Zunächst werden wir die gängigste deutsche Zitierweise für Euch vorstellen."
+                    text: "Allerdings wurden zum direkten und indirekten Zitat noch kein Verfasser erwähnt. Wann, wo und wie werden Textstellen mit Quellenangaben zitiert?\_Zunächst werden wir die gängigste deutsche Zitierweise vorstellen."
               -
                 type: heading
                 attrs:
@@ -385,10 +372,10 @@ replicator:
                             marks:
                               -
                                 type: bold
-                            text: 'Wann erfolgt richtig zitieren nach deutschem Stil?'
+                            text: 'Wann sollte man richtig zitieren nach deutschem Stil?'
                           -
                             type: text
-                            text: ' Sobald Ihr Eure wissenschaftliche Arbeit aus Fremden Gedanken schreibt.'
+                            text: ' Sobald Sie in Ihrer wissenschaftlichen Arbeit aus fremden Gedanken schreibt.'
                   -
                     type: list_item
                     content:
@@ -400,7 +387,7 @@ replicator:
                             marks:
                               -
                                 type: bold
-                            text: 'Wo erfolgt richtig zitieren nach deutschem Stil im Text?'
+                            text: 'Wo sollte man richtig zitieren nach deutschem Stil im Text?'
                           -
                             type: text
                             text: ' Entweder hinter dem geschriebenen Absatz oder in der Fußnote.'
@@ -470,7 +457,7 @@ replicator:
                     text: 'indirekte Zitate'
                   -
                     type: text
-                    text: ' nach dem deutschen Zitierstil in wissenschaftlichen Arbeiten zu kennzeichnen, wird die Abkürzung „Vgl.“ verwendet. Dieser Abkürzung steht für Vergleich und verweist die jeweilige Quelle. Achtung: kein Vergleich (Vgl.) beim direkten Zitat angeben, sondern nur beim indirekten Zitat. Beim indirekten Zitat starten wir mit '
+                    text: ' nach dem deutschen Zitierstil in wissenschaftlichen Arbeiten zu kennzeichnen, wird die Abkürzung „Vgl.“ verwendet. Dieser Abkürzung steht für Vergleich und verweist die jeweilige Quelle. Achtung: kein Vergleich (Vgl.) beim direkten Zitat angeben, sondern nur beim indirekten Zitat. Beim indirekten Zitat beginnen Sie mit '
                   -
                     type: text
                     marks:
@@ -531,7 +518,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Seid vorsichtig bei wörtlichen Übernahmen, denn ansonsten kann ein Zitat als Plagiat interpretiert werden, was natürlich für Eure Arbeit Fatal wäre. Falls Ihr Euch unsicher seid, ob Ihr richtig zitiert habt, dann lasst vielleicht eine Plagiatsprüfung durchführen oder nochmal eine andere Person eure wissenschaftliche Arbeit prüfen, beispielsweise in einem Lektorat. Auch wenn Ihr Euch unsicher seid, ob Ihr das Ganze richtig zitiert habt, dann habt Ihr auch in der Regel einen Leitfaden von eurer Hochschule zum richtigen Zitieren zur Hand und könnt da eben noch einmal nachschlagen.'
+                    text: 'Sein Sie vorsichtig bei wörtlichen Übernahmen, denn ohne korrekte Quellenangaben kann ein Zitat als Plagiat interpretiert werden, was natürlich für Ihre Arbeit fatal wäre. Falls Sie sich unsicher sind, ob Sie richtig zitiert haben, dann lassen Sie eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatsoruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    text: ' durchführen oder eine andere Person Ihre wissenschaftliche Arbeit prüfen, beispielsweise in einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: '. Auch wenn Sie Sich unsicher sind, ob Sie richtig zitiert haben, dann haben Sie in der Regel einen Leitfaden von Ihrer Hochschule zum richtigen Zitieren zur Hand und können dort noch einmal nachschlagen.'
               -
                 type: heading
                 attrs:
@@ -563,7 +576,7 @@ replicator:
                     text: 'im Text'
                   -
                     type: text
-                    text: ' direkt zitiert. Das bedeutet, dass die Literaturnachweise im Text direkt nach der zitierten Information angegeben werden. Bei der direkten oder indirekten amerikanischen Zitierweise erfolgt also keine Zitierung in der Fußnote, sondern direkt im Text. Ein direktes Harvard Zitat folgt nach einer Textübernahme, dabei wird der übernommene Abschnitt auch mit doppelten Anführungszeichen, wie in der direkten deutschen Zitierweise hervorgehoben. Der Verfasser, das Jahr und die Seitenanzahl werden in Klammern gesetzt. Die Seitenzahl wird nach einem Doppelpunktzeichen angegeben. Hierzu veranschaulichen wir ein direktes Harvard Zitat Beispiel:'
+                    text: ' direkt zitiert. Das bedeutet, dass die Literaturnachweise im Text direkt nach der zitierten Information angegeben werden. Bei der direkten oder indirekten amerikanischen Zitierweise erfolgt also keine Zitierung in der Fußnote, sondern direkt im Text. Ein direktes Harvard Zitat folgt nach einer Textübernahme, dabei wird der übernommene Abschnitt auch mit doppelten Anführungszeichen, wie in der direkten deutschen Zitierweise hervorgehoben. Der Verfasser, das Jahr und die Seitenanzahl werden in Klammern gesetzt. Die Seitenzahl wird nach einem Doppelpunktzeichen angegeben. Hierzu veranschaulichen wir ein direktes Harvard-Zitat-Beispiel:'
               -
                 type: paragraph
                 content:
@@ -645,7 +658,7 @@ replicator:
                     text: 'APA Stil'
                   -
                     type: text
-                    text: ' in der Haus-, Bachelor- oder Masterarbeit ähnlich aus, nur mit dem Unterschied, dass man hier nicht den Doppelpunkt benutzt, sondern alles mit Kommata getrennt wird. Beim American Psychological Assosication (APA) Zitierstil werden Literaturbelege ebenfalls im Text direkt eingefügt, denn dieser funktioniert ganz ohne Fußnote. Wie richtig zitieren ohne Fußnote funktioniert? Wird bei einem direkten APA Zitat Beispiel im Folgenden gezeigt:'
+                    text: ' in der Haus-, Bachelor- oder Masterarbeit ähnlich aus, nur mit dem Unterschied, dass man hier nicht den Doppelpunkt benutzt, sondern alles mit Kommata getrennt wird. Beim American Psychological Assosication (APA) Zitierstil werden Literaturbelege ebenfalls im Text direkt eingefügt, denn dieser funktioniert ganz ohne Fußnote. Wie richtig zitieren ohne Fußnote funktioniert? Dies wird bei einem direkten APA-Zitat-Beispiel im Folgenden gezeigt:'
               -
                 type: paragraph
                 content:
@@ -679,10 +692,10 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'indirekten APA Zitierstil'
+                    text: 'indirekten APA-Zitierstil'
                   -
                     type: text
-                    text: ' Beispiel sieht das Ganze ähnlich wie bei der Harvard Zitierweise aus:'
+                    text: '-Beispiel sieht das Ganze ähnlich wie bei der Harvard Zitierweise aus:'
               -
                 type: paragraph
                 content:
@@ -710,7 +723,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Falls Ihr Euch bei eurer wissenschaftlichen Hausarbeit unsicher sein solltet, ob jetzt mit Doppelpunkt, mit Kommata oder generell, wie richtig zitiert werden muss, schaut unbedingt noch einmal im Leitfaden Eurer Hochschule nach. Grundsätzlich kann Euch bei all dem GWriters weiterhelfen, denn ein akademischer '
+                    text: 'Falls Sie Sich bei Ihrer wissenschaftlichen Hausarbeit unsicher sein sollten, ob jetzt mit Doppelpunkt, mit Kommata oder generell, wie richtig zitiert werden muss, prüfen Sie unbedingt noch einmal den Leitfaden Ihrer Hochschule. GWriters können Sie in allen Bereichen rund um das richtige Zitieren vollumfänglich unterstützen, denn unsere akademischen '
                   -
                     type: text
                     marks:
@@ -723,7 +736,7 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' ist ein Experte auch eben für die richtige Zitierweise. Dementsprechend können wir Euch in Form von '
+                    text: ' sind nicht nur fachliche, sondern auch methodische Experten und beherrschen das Zitieren wissenschaftlicher Quellen perfekt. Dementsprechend können wir Sie in Form von '
                   -
                     type: text
                     marks:
@@ -736,7 +749,7 @@ replicator:
                     text: Korrekturen
                   -
                     type: text
-                    text: ' von '
+                    text: ', von '
                   -
                     type: text
                     marks:
@@ -749,7 +762,7 @@ replicator:
                     text: Lektoraten
                   -
                     type: text
-                    text: ' oder eben in Form von einem Coaching durch einen Experten beim richtigen Zitieren in Eurer wissenschaftlichen Arbeit unterstützen.'
+                    text: ' oder eben in Form von einem Coaching durch einen Experten beim richtigen Zitieren in Ihrer wissenschaftlichen Arbeit unterstützen.'
               -
                 type: heading
                 attrs:
@@ -803,5 +816,5 @@ og_title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 og_description: 'Literaturquellen richtig zitieren | Wie zitiere ich richtig? Welche Zitierweisen gilt es zu beachten? Kostenlose Beispiele zum richtigen Zitieren!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700673878
+updated_at: 1700676134
 ---
