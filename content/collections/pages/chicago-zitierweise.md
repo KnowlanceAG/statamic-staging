@@ -318,7 +318,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Chicago Zitierweise ist eine der ältesten und vielseitigsten Zitierweisen, die in der akademischen Welt verwendet wird. Sie wurde ursprünglich von der '
+                    text: 'Die Chicago Zitierweise ist eine der ältesten und vielseitigsten Zitierweisen, die in der akademischen Welt verwendet werden. Sie wurde ursprünglich von der '
                   -
                     type: text
                     marks:
@@ -2792,5 +2792,5 @@ og_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 og_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700586010
+updated_at: 1700678620
 ---
