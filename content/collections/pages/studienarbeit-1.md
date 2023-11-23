@@ -1,5 +1,6 @@
 ---
 id: 949c6959-cee4-4c89-be43-27ec9b420df3
+published: false
 blueprint: pages
 title: 'Studienarbeit (Dupliziert)'
 teaser:
@@ -20,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Studienarbeit schreiben lassen'
+        text: 'Projektarbeit schreiben lassen'
   -
     type: heading
     attrs:
@@ -40,7 +41,7 @@ teaser:
             attrs:
               color: '#000!important'
               hex: '#000'
-        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Studienarbeit'
+        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Projektarbeit'
   -
     type: set
     attrs:
@@ -154,7 +155,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |
-                      Bei GWriters bieten wir Ihnen kompetente Unterstützung für Ihre wissenschaftliche Studienarbeit. Unser Team stellt sicher, dass Sie genau den passenden <b>akademischen Ghostwriter für Ihre Studienarbeit</b> finden, der Ihren individuellen Anforderungen entspricht. Sie möchten Ihr akademisches Projekt in sichere Hände geben und für eine Studienarbeit Ghostwriter beauftragen? Insbesondere wenn Sie eine qualitativ hochwertige Mustervorlage für Ihre Studienarbeit schreiben lassen möchten? Unsere Ghostwriting-Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren zusammen, um sicherzustellen, dass Ihre Studienarbeit den höchsten Qualitätsstandards entspricht. Verlassen Sie sich auf unser Expertenteam, um Ihre akademische Arbeit erfolgreich zu gestalten und Ihre Ziele zu erreichen.
+                      GWriters bietet Ihnen kompetente Hilfe für Ihre wissenschaftlichen Projektarbeiten. Unsere Experten finden für Ihre Projektarbeit genau den passenden <b>akademischen Ghostwriter</b>, der Ihren individuellen Anforderungen entspricht. Sie möchten Ihr akademisches Projekt in sichere Hände geben und für eine Projektarbeit Ghostwriter beauftragen? Möchten Sie eine qualitativ hochwertige Mustervorlage für Ihre Projektarbeit erstellen lassen? Unsere Ghostwriting-Agentur arbeitet mit renommierten Experten, Doktoren und Professoren zusammen. Verlassen Sie sich auf unser Expertenteam, um Ihre akademische Projektarbeit erfolgreich zu gestalten und Ihre Ziele zu erreichen.
               -
                 type: heading
                 attrs:
@@ -438,130 +439,31 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Studienarbeit'
+                    text: 'Wie unterstützen Sie Ghostwriter bei Ihrer Projektarbeit?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Eine Studienarbeit im Studium spielt eine große Rolle, da sie mehrere Zwecke erfüllt. Sie ermöglichen es den Studierenden, ihr Verständnis für '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'spezifische Forschungsthemen'
-                  -
-                    type: text
-                    text: ' zu vertiefen und ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Fähigkeiten im wissenschaftlichen Schreiben weiterzuentwickeln'
-                  -
-                    type: text
-                    text: .
+                    text: 'Ghostwriter können bei der Anfertigung Ihrer Projektarbeit im Studium unterstützen, indem sie Recherchen durchführen, die Arbeit strukturieren, beim Schreiben helfen, die Formatierung übernehmen und das Korrekturlesen übernehmen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Hierbei suchen Studierende oft nach Hilfe bei '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwritern
-                  -
-                    type: text
-                    text: '. Diese akademischen Freelancer bieten in verschiedenen Arten von Studienarbeiten Hilfe an. Sie sind akademisch ausgebildet und verfügen über die notwendigen Fachkenntnisse für wissenschaftliche Studienarbeiten. Das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: 'akademische Ghostwriting'
-                  -
-                    type: text
-                    text: ' bietet eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen
-                          target: null
-                          rel: null
-                    text: 'breite Palette von Dienstleistungen'
-                  -
-                    type: text
-                    text: ' in diesem Bereich an. Viele Studierende möchten eine Musterarbeit für ihre Studienarbeit erstellen lassen. '
+                    text: 'Insbesondere können Ghostwriter umfassende Literaturrecherche zu Ihrem Projektthema durchführen, um relevante Literatur und Forschungsergebnisse zu identifizieren. Sie sind mit dem aktuellen Forschungsstand vertraut und haben oft Zugang zu kostenpflichtigen wissenschaftlichen Datenbanken. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Oft müssen Studierende während ihres Studiums ein Forschungsthema bearbeiten und als Studienarbeit verfassen. '
+                    text: 'Häufig beauftragen Studierende Ghostwriter, um ihre Hausarbeit oder Seminararbeit als Muster für ihre Projektarbeit schreiben zu lassen. Unsere qualifizierten Ghostwriter verfügen über umfangreiche Erfahrung im Schreiben von Projektarbeiten. Sie erstellen eine komplette Muster-Projektarbeit nach individuellen Anforderungen und Fachgebiet für Sie. Wenn Sie sich dazu entschließen, eine Musterarbeit für Ihre Projektarbeit schreiben zu lassen, befinden Sie sich auf der sicheren Seite. '
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Dies erfordert viel Zeit und wissenschaftliches Schreiben'
-                  -
-                    type: text
-                    text: '. In solchen Fällen können Studienarbeiten von Ghostwriter in verschiedenen Fachrichtungen eine große Hilfe sein. Wenn Sie sich für Ghostwriting entscheiden, erwartet Sie das Verfassen einer hochwertigen Musterarbeit Ihrer Studienarbeit, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: 'professionelles Lektorat'
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    text: ', einschließlich einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: 'Plagiatsprüfung '
-                  -
-                    type: text
-                    text: 'und Qualitätskontrolle.'
+                    text: 'Von der Themenrecherche bis zur professionellen Plagiatsprüfung wird Ihre Arbeit kostenlos durchgeführt. Am Ende erhalten Sie eine fertige Musterarbeit für Ihre Projektarbeit, die allen relevanten Richtlinien entspricht. Das bedeutet, dass Ihre Arbeit einheitlich mit wissenschaftlichen Quellen zitiert wird, alle Verzeichnisse eingefügt werden (z.B. Inhaltsverzeichnis, Abkürzungsverzeichnis, Literaturverzeichnis etc.), Grafiken erstellt werden, eine klare Struktur eingebaut wird, und die Arbeit abschließend von einem unabhängigen Lektorat und Korrektorat überprüft sowie auf Plagiate geprüft wird.'
               -
                 type: set
                 attrs:
@@ -590,7 +492,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Mustervorlage für Studienarbeit schreiben\_lassen"
+                    text: "Mustervorlage für Projektarbeit schreiben\_lassen"
                   -
                     type: hard_break
                     marks:
@@ -666,7 +568,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mit einer kostenlosen Anfrage über das Kontaktformular erhalten Sie in kürzester Zeit ein unverbindliches Angebot.'
+                    text: 'Mit einer kostenlosen Anfrage für Ihre Projektarbeit über das Kontaktformular erhalten Sie in kürzester Zeit ein unverbindliches Angebot.'
             show_as_card: false
           -
             id: lalg3xcf
@@ -697,7 +599,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In einem unverbindlichen Angebot erhalten Sie Informationen zu Ihrem Anliegen. Das Angebot ist besonders auf Ihre Bedürfnisse zugeschnitten und beinhaltet einen fairen Preis für Ihre Studienarbeit. Zudem wird eine vorläufige Planung für Ihren Auftrag im Angebot erstellt.'
+                    text: 'In einem unverbindlichen Angebot von Ghostwritern für Ihre Projektarbeit erhalten Sie detaillierte Informationen zu Ihrem Anliegen. Das Angebot ist speziell auf Ihre Bedürfnisse zugeschnitten und beinhaltet einen fairen Preis für die Unterstützung bei Ihrer Studienarbeit. Zusätzlich wird eine vorläufige Planung für Ihren Auftrag im Angebot erstellt.'
             show_as_card: false
           -
             id: lalg3yqv
@@ -728,7 +630,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nachdem Sie dem Angebot zugestimmt haben, schreibt unser ausgewählter Experte die Mustervorlage für Ihre Studienarbeit. Die Zwischenlieferungen Ihrer Arbeit erhalten Sie kontinuierlich von Ihrem verantwortlichen Projektmanager. Die Feedbackschleifen werden kostenlos und regelmäßig durchgeführt.'
+                    text: 'Sobald Sie das Angebot angenommen haben, startet der Schreibprozess mit dem ausgewählten Ghostwriter für Ihre Projektarbeit. In der Regel werden bei kurzen Projektarbeiten 2-3 kostenlose Zwischenlieferungen durchgeführt, die von unseren Projektmanagern koordiniert werden.'
             show_as_card: false
           -
             id: lalg3zn6
@@ -759,7 +661,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Abschlusslieferung wird mit einem professionellen Plagiatscanner auf Plagiate überprüft. Anschließend wird die Studienarbeit durch ein Lektorat auf Qualität überprüft. Wenn weitere Änderungsvorschläge vom Auftraggeber erwünscht sind, setzen wir diese kostenfrei um.'
+                    text: 'Nachdem alle Zwischenlieferungen abgeschlossen sind und keine weiteren Änderungswünsche des Kunden erforderlich sind, wird die finale Version der Arbeit professionell auf Plagiate geprüft und durch ein Lektorat auf Qualität überprüft. Gerne setzen wir auch nach der Abschlusslieferung weitere Änderungsvorschläge kostenfrei um.'
             show_as_card: false
         type: row
         enabled: true
@@ -795,7 +697,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Studienarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                    text: 'Wenn Sie bei Ihrer Projektarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
                   -
                     type: text
                     marks:
@@ -5793,7 +5695,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698108294
+updated_at: 1700779215
 template: default
 use_meta_keywords: false
 no_index_page: false
