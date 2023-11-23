@@ -2,7 +2,7 @@
 id: 949c6959-cee4-4c89-be43-27ec9b420df3
 published: false
 blueprint: pages
-title: 'Studienarbeit (Dupliziert)'
+title: Projektarbeit
 teaser:
   -
     type: heading
@@ -5695,7 +5695,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700779215
+updated_at: 1700779299
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -5703,14 +5703,14 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Studienarbeit schreiben lassen | seriöse & diskrete Ghostwriter'
-meta_description: 'Studienarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Studienarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
-og_title: 'Studienarbeit schreiben lassen • Ghostwriter von GWriters'
-og_description: 'Studienarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Studienarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+meta_title: 'Projektarbeit schreiben lassen | seriöse & diskrete Ghostwriter'
+meta_description: 'Projektarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Projektarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+og_title: 'Projektarbeit schreiben lassen • Ghostwriter von GWriters'
+og_description: 'Projektarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Projektarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-page_title: 'Studienarbeit schreiben lassen'
-alternative_page_title: 'Studienarbeit schreiben lassen'
+page_title: 'Projektarbeit schreiben lassen'
+alternative_page_title: 'Projektarbeit schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
 breadcrumbs_active: true
 teaser_bg: seiten/arbeiten/gwriters_masterarbeit_2000x512-(2).jpg
