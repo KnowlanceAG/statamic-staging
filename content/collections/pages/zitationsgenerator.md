@@ -187,19 +187,19 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: lp8deqdz
+    id: lpbav9hf
     columns_replicator:
       -
-        id: lpb6aa4m
+        id: lpbavb5i
         single_col: true
         grid:
           -
-            id: WuIZW7vj
+            id: nNMCM4hh
             bard:
               -
                 type: set
                 attrs:
-                  id: lpb6afz8
+                  id: lpbavevv
                   values:
                     type: citation_generator
               -
@@ -209,6 +209,14 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lp8deqdz
+    columns_replicator:
       -
         id: lp8eypom
         single_col: true
@@ -830,6 +838,6 @@ schema_objects: |-
     ]
   }
   </script>
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1700744094
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1700750440
 ---
