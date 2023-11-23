@@ -136,15 +136,15 @@ teaser:
         text: '##phone##'
 replicator:
   -
-    id: lp8deqdz
+    id: lpb3zyqr
     columns_replicator:
       -
-        id: lp8des33
+        id: lpb407gk
         columns_per_row: 2
         single_col: true
         grid:
           -
-            id: WsmHIfNp
+            id: kiCXdrW5
             bard:
               -
                 type: heading
@@ -162,7 +162,7 @@ replicator:
                     text: 'Das korrekte Zitieren von Quellen ist ein wesentlicher Bestandteil akademischer Arbeit. Es gewährleistet die Anerkennung der Urheberrechte und verstärkt die Glaubwürdigkeit Ihrer Forschung. Unser Zitationsgenerator hilft Ihnen dabei, Ihre Quellen schnell und präzise zu zitieren.'
             show_as_card: false
           -
-            id: lp8df4bt
+            id: lpb409p7
             bard:
               -
                 type: heading
@@ -182,27 +182,18 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
-      -
-        id: lp8dgeca
-        single_col: false
-        grid:
-          -
-            id: WsmHIfNp
-            show_as_card: false
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lp8finkz
-                  values:
-                    type: spacer
-                    padding-y: 100
-              -
-                type: paragraph
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lpb402hc
+    type: citation_generator
+    enabled: true
+  -
+    id: lp8deqdz
+    columns_replicator:
       -
         id: lp8eypom
         single_col: true
@@ -825,5 +816,5 @@ schema_objects: |-
   }
   </script>
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700576832
+updated_at: 1700738926
 ---
