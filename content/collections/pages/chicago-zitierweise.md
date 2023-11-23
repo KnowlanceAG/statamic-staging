@@ -1,62 +1,145 @@
 ---
-id: bf1d3b0c-9b09-4864-a1ff-d6b66cfbb88c
-blueprint: blog
-title: 'Die Chicago Zitierweise richtig verwenden – Anleitung und Beispiele'
-short_text: |-
-  **Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓**
-
-  Die korrekte Zitierweise ist ein wesentlicher Bestandteil wissenschaftlicher Arbeiten, um die Quellenangaben von Informationen und Ideen anderer Forschenden ordnungsgemäß zu kennzeichnen. Eine der gängigsten Zitierstile ist die Zitierweise Chicago. Sie hat sich als äußerst präzise und vielseitig erwiesen und findet in verschiedenen Disziplinen, insbesondere in den Geisteswissenschaften und den Sozialwissenschaften, häufig Verwendung...
-author:
-  - 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-hide_author_details: false
-blog_categories:
-  - bachelorarbeit
-  - hausarbeit
-  - seminararbeit-schreiben
-  - wissenschaftliche-arbeiten
-  - masterarbeit
+id: 48a57188-3db1-41bd-bb07-a5b511a4b92d
+published: false
+blueprint: pages
+title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+        text: 'Die Chicago Zitierweise richtig verwenden – Beispiele & Generator'
+  -
+    type: set
+    attrs:
+      id: zwnaYou3
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: 2FC4RyrC
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: wNkymqh9
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp;amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: Awfm0X4k
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: 0f6BxR0G
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp;amp; finaler Form.'
+          -
+            id: GQNX6eXT
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: 3kZE4d3D
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: 2V4ZjCGH
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: set
+    attrs:
+      id: WyfqrGif
+      values:
+        type: spacer
+        padding-y: 20
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 replicator:
   -
-    id: qkB39jc7
+    id: lp8ijf6u
     columns_replicator:
       -
-        id: lixbg2o5
-        single_col: false
+        id: lp8ijh4a
+        single_col: true
         grid:
           -
-            id: IkfdlGWv
+            id: Bv9XTlai
             bard:
               -
-                type: set
-                attrs:
-                  id: lixbgbxj
-                  values:
-                    type: insert_html
-                    html: |-
-                      <font size="4"> <center>
-                      Die korrekte Zitierweise ist ein wesentlicher Bestandteil wissenschaftlicher Arbeiten, um die Quellenangaben von Informationen und Ideen anderer Forschenden ordnungsgemäß zu kennzeichnen. Eine der gängigsten Zitierstile ist die Zitierweise Chicago. Sie hat sich als äußerst präzise und vielseitig erwiesen und findet in verschiedenen Disziplinen, insbesondere in den Geisteswissenschaften und den Sozialwissenschaften, häufig Verwendung. <br><br>
-                      In diesem Artikel werden wir uns in die Tiefen dieser Zitierweise begeben, um zu verstehen, warum sie in vielen wissenschaftlichen Kreisen so geschätzt wird. Wir werden Ihnen eine umfassende Anleitung zur Chicago Zitierweise bieten und ihre Anwendung anhand von Beispielen veranschaulichen. Außerdem werden wir kurz auf die Unterschiede zwischen dem Zitieren Chicago Style und anderen gängigen Zitierweisen eingehen.
-                      <br><br>Lesen Sie weiter, um herauszufinden, Sie das Zitieren Chicago Style angehen, welche Varianten es hier zu beachten gibt und wie Sie diese erfolgreich beim Schreiben Ihrer Bachelorarbeit einsetzen können. Unsere erfahrenen Ghostwriter können Sie hierbei unterstützen.
-
-
-                      </center></font>
-                      <svg xmlns='http://www.w3.org/2000/svg' viewBox='-6 0 12 4'><text x='0' y='2' text-anchor='middle' font-family='Georgia' font-size='3' fill='hsl(227, 0%, 0%)'>„</text><g stroke-width='0.1' stroke='hsl(224, 0%, 0%)'><line x1='6' x2='1.5' y1='2' y2='2'/><line x1='-6' x2='-1.5' y1='2' y2='2'/></g></svg>
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die korrekte Zitierweise ist ein wesentlicher Bestandteil wissenschaftlicher Arbeiten, um die Quellenangaben von Informationen und Ideen anderer Forschenden ordnungsgemäß zu kennzeichnen. Eine der gängigsten Zitierstile ist die Zitierweise Chicago. Sie hat sich als äußerst präzise und vielseitig erwiesen und findet in verschiedenen Disziplinen, insbesondere in den Geisteswissenschaften und den Sozialwissenschaften, häufig Verwendung. In diesem Artikel werden wir uns in die Tiefen dieser Zitierweise begeben, um zu verstehen, warum sie in vielen wissenschaftlichen Kreisen so geschätzt wird.'
               -
                 type: paragraph
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lixg77u5
-        single_col: false
-        grid:
-          -
-            id: IkfdlGWv
-            bard:
+                content:
+                  -
+                    type: text
+                    text: 'Wir werden Ihnen eine umfassende Anleitung zur Chicago Zitierweise bieten und ihre Anwendung anhand von Beispielen veranschaulichen. Außerdem werden wir kurz auf die Unterschiede zwischen dem Zitieren Chicago Style und anderen gängigen Zitierweisen eingehen. Lesen Sie weiter, um herauszufinden, Sie das Zitieren Chicago Style angehen, welche Varianten es hier zu beachten gibt und wie Sie diese erfolgreich beim Schreiben Ihrer Bachelorarbeit einsetzen können. Unsere erfahrenen Ghostwriter können Sie hierbei unterstützen.'
               -
                 type: heading
                 attrs:
@@ -65,18 +148,6 @@ replicator:
                   -
                     type: text
                     text: Inhaltsverzeichnis
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lixbgikh
-        single_col: false
-        grid:
-          -
-            id: IkfdlGWv
-            bard:
               -
                 type: bullet_list
                 content:
@@ -227,18 +298,6 @@ replicator:
                                   target: null
                                   rel: null
                             text: Zusammenfassung
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: pl4PrWVJ
-        single_col: false
-        grid:
-          -
-            id: YfGxqxir
-            bard:
               -
                 type: set
                 attrs:
@@ -259,7 +318,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Chicago Zitierweise ist eine der ältesten und vielseitigsten Zitierweisen, die in der akademischen Welt verwendet wird. Sie wurde ursprünglich von der '
+                    text: 'Die Chicago Zitierweise ist eine der ältesten und vielseitigsten Zitierweisen, die in der akademischen Welt verwendet werden. Sie wurde ursprünglich von der '
                   -
                     type: text
                     marks:
@@ -332,7 +391,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago Zitierweise (A)'
                               -
@@ -347,7 +406,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -361,7 +420,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Im Text und/oder Fußnote, kurz'
                       -
@@ -387,7 +446,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago Zitierweise (B) '
                               -
@@ -402,7 +461,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -416,7 +475,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'In Fußnote'
                   -
@@ -445,7 +504,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'In-Text Zitierweise:'
                               -
@@ -460,7 +519,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -472,7 +531,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '(Nachname Jahr)'
                       -
@@ -498,7 +557,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'In-Text Zitierweise:'
                               -
@@ -513,7 +572,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -527,7 +586,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'In Fußnote'
                   -
@@ -556,7 +615,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Literaturverzeichnis:'
                               -
@@ -571,7 +630,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -583,7 +642,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. '
                               -
@@ -596,7 +655,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -608,7 +667,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Jahr. Titel. Verlag'
                       -
@@ -634,7 +693,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Literaturverzeichnis:'
                               -
@@ -649,7 +708,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -661,7 +720,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. '
                               -
@@ -674,7 +733,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -686,7 +745,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Jahr. Titel. Verlagsort:'
                               -
@@ -699,7 +758,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -711,7 +770,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Verlag, Jahr'
               -
@@ -941,7 +1000,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Quellenart
                       -
@@ -963,7 +1022,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Buchzitat
                       -
@@ -985,7 +1044,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Zeitschriftenartikel
                       -
@@ -1007,7 +1066,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Onlinequelle
                   -
@@ -1036,7 +1095,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Syntax
                       -
@@ -1062,7 +1121,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Fußnote: '
                               -
@@ -1075,7 +1134,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. Titel des Buches. Verlagsort: Verlag, Jahr, Seite.'
                           -
@@ -1093,7 +1152,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Literaturverzeichnis: '
                               -
@@ -1106,7 +1165,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. Titel des Buches. Verlagsort: Verlag, Jahr.'
                       -
@@ -1132,7 +1191,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Fußnote: '
                               -
@@ -1145,7 +1204,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. „Titel des Artikels.“ Titel der Zeitschrift Volume, Ausgabe (Jahr): Seiten.'
                           -
@@ -1163,7 +1222,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Literaturverzeichnis: '
                               -
@@ -1176,7 +1235,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. „Titel des Artikels.“ Titel der Zeitschrift Volume, Ausgabe (Jahr): Seiten.'
                       -
@@ -1202,7 +1261,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Fußnote: '
                               -
@@ -1215,7 +1274,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. „Titel der Webseite.“ Veröffentlicht am/in: Datum. URL.'
                           -
@@ -1233,7 +1292,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Literaturverzeichnis: '
                               -
@@ -1246,7 +1305,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. "Titel der Webseite." Veröffentlicht am/in: Datum. URL.'
                   -
@@ -1275,7 +1334,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Beispiel
                       -
@@ -1301,7 +1360,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Text:'
                               -
@@ -1314,7 +1373,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' „Hemingway''s Roman'
                               -
@@ -1329,7 +1388,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '[Fußnote]'
                               -
@@ -1342,7 +1401,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' veranschaulicht den Verlust der Unschuld in der Nachkriegszeit.“'
                           -
@@ -1360,7 +1419,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Fußnote:'
                           -
@@ -1378,7 +1437,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago Style A: '
                               -
@@ -1391,7 +1450,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '(Hemingway 1929)'
                           -
@@ -1409,7 +1468,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago Style B: '
                               -
@@ -1422,7 +1481,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Hemingway, Ernest. A Farewell to Arms. New York: Scribner, 1929, 65.'
                           -
@@ -1440,7 +1499,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Literaturverzeichnis:'
                               -
@@ -1453,7 +1512,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' Hemingway, Ernest. A Farewell to Arms. New York: Scribner, 1929.'
                       -
@@ -1479,7 +1538,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Text:'
                               -
@@ -1492,7 +1551,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' „Die Studie von Johnson'
                               -
@@ -1507,7 +1566,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '[Fußnote]'
                               -
@@ -1520,7 +1579,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' zeigt...“'
                           -
@@ -1538,7 +1597,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Fußnote:'
                           -
@@ -1556,7 +1615,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago Style A:'
                               -
@@ -1569,7 +1628,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' (Johnson 2018)'
                           -
@@ -1587,7 +1646,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago Style B: '
                               -
@@ -1600,7 +1659,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Johnson, Mary. “The Impact of Climate Change.” Environmental Science Journal 25, Nr. 2 (2018): 45-58.'
                           -
@@ -1618,7 +1677,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Literaturverzeichnis:'
                               -
@@ -1631,7 +1690,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' Johnson, Mary. "The Impact of Climate Change." Environmental Science Journal 25, Nr. 2 (2018): 45-58.'
                       -
@@ -1657,7 +1716,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Text:'
                               -
@@ -1670,7 +1729,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' „Die Online-Ressource'
                               -
@@ -1685,7 +1744,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '[Fußnote]'
                               -
@@ -1698,7 +1757,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' betont...“'
                           -
@@ -1716,7 +1775,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Fußnote:'
                           -
@@ -1734,7 +1793,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago Style A: '
                               -
@@ -1747,7 +1806,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '(Smith 2022)'
                           -
@@ -1765,7 +1824,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago Style B:'
                               -
@@ -1778,7 +1837,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' Smith, Jane. „Digital Revolution.“ Website, veröffentlicht am 15. Mai 2022, URL.'
                           -
@@ -1796,7 +1855,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Literaturverzeichnis:'
                               -
@@ -1809,7 +1868,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ' Smith, Jane. „Digital Revolution.“ Website, veröffentlicht am 15. Mai 2022, URL.'
               -
@@ -2011,7 +2070,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Zitierstil
                       -
@@ -2033,7 +2092,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Verwendungsbereich
                       -
@@ -2055,7 +2114,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: In-Text-Zitierweise
                       -
@@ -2077,7 +2136,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Literaturverzeichnis
                   -
@@ -2100,7 +2159,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: APA-Stil
                       -
@@ -2120,7 +2179,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Sozialwissenschaften
                       -
@@ -2140,7 +2199,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '(Nachname, Jahr)'
                       -
@@ -2160,7 +2219,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. (Jahr). Titel. Verlag.'
                   -
@@ -2183,7 +2242,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: MLA-Stil
                       -
@@ -2203,7 +2262,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Geisteswissenschaften
                       -
@@ -2223,7 +2282,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '(Nachname Seite)'
                       -
@@ -2243,7 +2302,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. Titel. Verlag, Jahr.'
                   -
@@ -2266,7 +2325,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago-Stil (A)'
                       -
@@ -2286,7 +2345,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Verschiedene Disziplinen'
                       -
@@ -2306,7 +2365,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '(Nachname Jahr)'
                       -
@@ -2326,7 +2385,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. Jahr. Titel. Verlag.'
                   -
@@ -2349,7 +2408,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Chicago-Stil (B)'
                       -
@@ -2369,7 +2428,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Geisteswissenschaften
                       -
@@ -2391,7 +2450,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'In Fußnote'
                       -
@@ -2411,7 +2470,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. '
                               -
@@ -2422,7 +2481,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Titel
                               -
@@ -2431,7 +2490,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '. Verlagsort: Verlag, Jahr.'
                   -
@@ -2454,7 +2513,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Harvard-Stil
                       -
@@ -2474,7 +2533,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Verschiedene Disziplinen'
                       -
@@ -2494,7 +2553,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '(Nachname Jahr)'
                       -
@@ -2514,7 +2573,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Nachname, Vorname. (Jahr). Titel. Verlag.'
                   -
@@ -2537,7 +2596,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'IEEE-Stil*'
                       -
@@ -2557,7 +2616,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Ingenieurwissenschaften
                       -
@@ -2577,7 +2636,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '[Nummer]'
                       -
@@ -2597,7 +2656,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '[1]'
               -
@@ -2697,18 +2756,6 @@ replicator:
                   -
                     type: text
                     text: ' stellen.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: le8lpa29
-        single_col: false
-        grid:
-          -
-            id: K7mZRP8N
-            bard:
               -
                 type: set
                 attrs:
@@ -2719,12 +2766,6 @@ replicator:
                       - a5587fe0-77b7-40b6-b5b5-a69b4c51ef5e
                       - 884b09f8-2dce-4e99-9860-dd1a3c39f5bc
                       - 23a3cd20-097d-414c-8f15-d744ae288576
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -2735,24 +2776,21 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Die Chicago Zitierweise richtig verwenden – Anleitung und Beispiele'
+page_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
+sitemap_active: true
+breadcrumbs_active: true
+template: default
+parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
+meta_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 meta_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Die Chicago Zitierweise richtig verwenden – Anleitung und Beispiele'
+og_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 og_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700585866
-category:
-  - zitierweisen
-breadcrumbs_active: true
-post_image:
-  - blog/2023/chicago-zitierstil/die-chicago--zitierweise-richtig-verwenden--anleitung-und-beispiele-min.jpg
-teaser_image:
-  - blog/2023/chicago-zitierstil/die-chicago--zitierweise-richtig-verwenden--anleitung-und-beispiele-min.jpg
-og_image: blog/2023/chicago-zitierstil/die-chicago--zitierweise-richtig-verwenden--anleitung-und-beispiele-min.jpg
+updated_at: 1700678620
 ---

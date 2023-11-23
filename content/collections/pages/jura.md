@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1698344890
+updated_at: 1700145830
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -548,7 +548,7 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: "\_oder Freelancer schafft neue Freiräume für den Studenten, um sich für wichtige Rechtfachprüfungen oder ein Praktikum genügend vorzubereiten zu können. Darüber hinaus steht der "
+                    text: ' schafft neue Freiräume für Studierende. Durch die enorme Zeitersparnis beim Schreiben der wissenschaftlichen Arbeiten können diese sich für wichtige Rechtfachprüfungen oder ein Praktikum optimal vorbereiten. Darüber hinaus steht der '
                   -
                     type: text
                     marks:
@@ -3374,6 +3374,5 @@ og_description: 'Jura Ghostwriter unterstützen Sie bei Ihren Rechtfachprüfunge
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Jura Ghostwriter'
-fachrichtungsgruppe: g_geisteswissenschaften
 breadcrumbs_active: true
 ---

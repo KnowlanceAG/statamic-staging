@@ -1,63 +1,139 @@
 ---
-id: edc9ea0b-bdf2-473d-bac6-d4bdbda3b9b0
-blueprint: blog
-title: 'Wie funktioniert der IEEE-Zitierstil in Bachelorarbeiten?'
-short_text: |-
-  **IEEE-Zitierstil in Bachelorarbeiten: Unsere Schritt-für-Schritt Anleitung bietet praxisnahe Beispiele und Tipps, um Ihnen das Verständnis und die Anwendung dieses Zitierstils zu erleichtern 📚**
-
-  Mit der Bachelorarbeit schließen Sie die erste Stufe der akademischen Ausbildung ab. Dabei zeigen Sie, dass Sie wissenschaftlich arbeiten können. Ganz wichtig ist der korrekte Zitierstil. Wie Sie die Quellen angeben müssen, ist je nach Fachrichtung geregelt. Beim IEEE-Zitierstil handelt es sich um eine numerische Zitierweise: Jeder Quelle wird eine Zahl zugeordnet, die dann an Stelle des Autornamens im Text verwendet wird...
-author:
-  - 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-hide_author_details: false
-blog_categories:
-  - allgemein
-  - ghostwriting
-  - bachelorarbeit
-  - hausarbeit
-  - masterarbeit
-  - essay
-  - seminararbeit-schreiben
-  - wissenschaftliche-arbeiten
-  - doktorarbeit
-  - diplomarbeit
+id: e97504f7-ef7a-46d1-8005-96543f275b47
+published: false
+blueprint: pages
+title: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+        text: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
+  -
+    type: set
+    attrs:
+      id: zwnaYou3
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: 2FC4RyrC
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: wNkymqh9
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp;amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: Awfm0X4k
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: 0f6BxR0G
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp;amp; finaler Form.'
+          -
+            id: GQNX6eXT
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: 3kZE4d3D
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: 2V4ZjCGH
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: set
+    attrs:
+      id: WyfqrGif
+      values:
+        type: spacer
+        padding-y: 20
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 replicator:
   -
-    id: qkB39jc7
+    id: lp8ijf6u
     columns_replicator:
       -
-        id: lixbg2o5
-        single_col: false
+        id: lp8ijh4a
+        single_col: true
         grid:
           -
-            id: IkfdlGWv
+            id: Bv9XTlai
             bard:
-              -
-                type: set
-                attrs:
-                  id: lixbgbxj
-                  values:
-                    type: insert_html
-                    html: |-
-                      <font size="4"> <center>
-                      Mit der Bachelorarbeit schließen Sie die erste Stufe der akademischen Ausbildung ab. Dabei zeigen Sie, dass Sie wissenschaftlich arbeiten können. Ganz wichtig ist der <b><a href="/"style="color: #F06606;" href="/blog/literaturquellen-richtig-zitieren">korrekte Zitierstil</a></b>. Wie Sie die Quellen angeben müssen, ist je nach Fachrichtung geregelt. Beim IEEE-Zitierstil handelt es sich um eine numerische Zitierweise: Jeder Quelle wird eine Zahl zugeordnet, die dann an Stelle des Autornamens im Text verwendet wird. <br><br>Entwickelt wurde diese Zitierart am <b><a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer nofollow">Institute of Electrical and Electronics Engineers</a></b> (daher leitet sich auch die Abkürzung IEEE ab). Das Institut hat seinen Sitz in New York und agiert als weltweiter Berufsverband von Ingenieuren, Technikern und Wissenschaftlern aus den Gebieten Elektrotechnik und Informationstechnik. Wir zeigen Ihnen in diesem Beitrag, worauf Sie beim IEEE-Zitationstil achten müssen.
-
-
-                      </center></font>
-                      <svg xmlns='http://www.w3.org/2000/svg' viewBox='-6 0 12 4'><text x='0' y='2' text-anchor='middle' font-family='Georgia' font-size='3' fill='hsl(227, 0%, 0%)'>„</text><g stroke-width='0.1' stroke='hsl(224, 0%, 0%)'><line x1='6' x2='1.5' y1='2' y2='2'/><line x1='-6' x2='-1.5' y1='2' y2='2'/></g></svg>
               -
                 type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lixg77u5
-        single_col: false
-        grid:
-          -
-            id: IkfdlGWv
-            bard:
+                content:
+                  -
+                    type: text
+                    text: 'Mit der Bachelorarbeit schließen Sie die erste Stufe der akademischen Ausbildung ab. Dabei zeigen Sie, dass Sie wissenschaftlich arbeiten können. Ganz wichtig ist der korrekte Zitierstil. Wie Sie die Quellen angeben müssen, ist je nach Fachrichtung geregelt. Beim IEEE-Zitierstil handelt es sich um eine numerische Zitierweise: Jeder Quelle wird eine Zahl zugeordnet, die dann an Stelle des Autornamens im Text verwendet wird. Entwickelt wurde diese Zitierart am Institute of Electrical and Electronics Engineers (daher leitet sich auch die Abkürzung IEEE ab). Das Institut hat seinen Sitz in New York und agiert als weltweiter Berufsverband von Ingenieuren, Technikern und Wissenschaftlern aus den Gebieten Elektrotechnik und Informationstechnik. Wir zeigen Ihnen in diesem Beitrag, worauf Sie beim IEEE-Zitationstil achten müssen.'
               -
                 type: heading
                 attrs:
@@ -66,18 +142,6 @@ replicator:
                   -
                     type: text
                     text: Inhaltsverzeichnis
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lixbgikh
-        single_col: false
-        grid:
-          -
-            id: IkfdlGWv
-            bard:
               -
                 type: bullet_list
                 content:
@@ -290,11 +354,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
-        id: pl4PrWVJ
-        single_col: false
+        id: lp8j9luc
+        single_col: true
         grid:
           -
-            id: YfGxqxir
+            id: stE3sqAh
             bard:
               -
                 type: set
@@ -323,7 +387,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nach IEEE zitieren üblicherweise eher technische Fachrichtungen: Informat'
                   -
@@ -422,7 +486,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: windowtext
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Einführung in die Computer Unified Device Architecture-Programmierung'
                   -
@@ -460,7 +524,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: windowtext
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Wie müssen Datenbanken gestaltet sein, um aus wirtschaftlicher und technologischer Perspektive hochverfügbar zu gelten? (Beispiel Oracle Data Guard)'
                   -
@@ -483,7 +547,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: windowtext
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Konzeption, Einordnung und Wirtschaftlichkeit von Model-Driven Architecture'
                   -
@@ -521,7 +585,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: windowtext
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Konzept eines Cyber-Physischen Logistiksystems in einer Lean Produktion.'
                   -
@@ -544,7 +608,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: windowtext
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Funktionsweise und Erweiterungsmöglichkeiten des Kalman Filters'
               -
@@ -652,8 +716,6 @@ replicator:
                   values:
                     type: anchor_target
                     anchor_name: text
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -969,8 +1031,8 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: orange-500
-                                      hex: '#ff6606'
+                                      color: '#ff6606!important'
+                                      hex: '#000'
                                 text: Gemeinsamkeiten
                   -
                     type: table_row
@@ -1101,8 +1163,8 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: orange-500
-                                      hex: '#ff6606'
+                                      color: '#ff6606!important'
+                                      hex: '#000'
                                 text: Unterschiede
                   -
                     type: table_row
@@ -1240,16 +1302,12 @@ replicator:
                                 type: text
                                 text: 'Initialen der Vornamen, Name'
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   id: lk8k7txb
                   values:
                     type: anchor_target
                     anchor_name: word
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1277,8 +1335,6 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
                   -
                     type: text
@@ -1294,8 +1350,6 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
@@ -1315,8 +1369,6 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
                   -
                     type: text
@@ -1332,8 +1384,6 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
@@ -1353,8 +1403,6 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
                   -
                     type: text
@@ -1366,8 +1414,6 @@ replicator:
                   values:
                     type: anchor_target
                     anchor_name: programm
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1473,8 +1519,6 @@ replicator:
                     type: anchor_target
                     anchor_name: checkliste
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1485,7 +1529,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Checkliste: Korrekt nach IEEE zitieren'
               -
@@ -1559,40 +1603,6 @@ replicator:
                                 text: 'Die Initialen der Autoren stehen vor ihren Nachnamen.'
                         active: true
               -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "\_"
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: le8lpa29
-        single_col: false
-        grid:
-          -
-            id: K7mZRP8N
-            bard:
-              -
                 type: set
                 attrs:
                   id: le8ja1pz
@@ -1612,24 +1622,21 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Wie funktioniert der IEEE-Zitierstil in Bachelorarbeiten?'
+page_title: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
+sitemap_active: true
+breadcrumbs_active: true
+template: default
+parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
+meta_title: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
 meta_description: 'IEEE-Zitierstil in Bachelorarbeiten: Unsere Schritt-für-Schritt Anleitung bietet praxisnahe Beispiele und Tipps, um Ihnen das Verständnis und die Anwendung dieses Zitierstils zu erleichtern 📚'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Wie funktioniert der IEEE-Zitierstil in Bachelorarbeiten?'
+og_title: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
 og_description: 'IEEE-Zitierstil in Bachelorarbeiten: Unsere Schritt-für-Schritt Anleitung bietet praxisnahe Beispiele und Tipps, um Ihnen das Verständnis und die Anwendung dieses Zitierstils zu erleichtern 📚'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700583174
-category:
-  - zitierweisen
-og_image: blog/2023/ieee-zitierstil/wie-funktioniert-der-ieee-zitierstil-in-einer-bachelorarbeit-min.jpg
-breadcrumbs_active: true
-post_image:
-  - blog/2023/ieee-zitierstil/wie-funktioniert-der-ieee-zitierstil-in-einer-bachelorarbeit-min.jpg
-teaser_image:
-  - blog/2023/ieee-zitierstil/wie-funktioniert-der-ieee-zitierstil-in-einer-bachelorarbeit-min.jpg
+updated_at: 1700584397
 ---

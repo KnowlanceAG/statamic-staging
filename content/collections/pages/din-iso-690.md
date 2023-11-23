@@ -1,60 +1,139 @@
 ---
-id: aa94fb95-e348-4b8a-8e8d-9dfa1f891364
-blueprint: blog
-title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
-short_text: |-
-  **In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅**
-
-  Die Abgabe der Bachelorarbeit ist für viele mit Zeitdruck verbunden. Häufige Fragen zu dem Thema beziehen sich daher auf das mögliche Verlängern der Abgabefrist. Allerdings ist es auch möglich, die Bachelorarbeit früher abzugeben. Sie können die Arbeit beispielsweise schon verfassen, bevor sie sie offiziell im Prüfungsamt anmelden. Daraus können Vorteile entstehen, weil sich z.B. kein Zeitdruck aufbauen kann. Wir zeigen Ihnen in diesem Beitrag, worauf Sie achten müssen, wenn Sie Ihre Bachelorarbeit früher abgeben wollen...
-author:
-  - 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-hide_author_details: false
-blog_categories:
-  - bachelorarbeit
-  - hausarbeit
-  - seminararbeit-schreiben
-  - wissenschaftliche-arbeiten
-  - masterarbeit
+id: 702e6617-d335-471d-ab91-29392f168115
+published: false
+blueprint: pages
+title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+        text: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele & Generator'
+  -
+    type: set
+    attrs:
+      id: zwnaYou3
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: 2FC4RyrC
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: wNkymqh9
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp;amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: Awfm0X4k
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: 0f6BxR0G
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp;amp; finaler Form.'
+          -
+            id: GQNX6eXT
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: 3kZE4d3D
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: 2V4ZjCGH
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: set
+    attrs:
+      id: WyfqrGif
+      values:
+        type: spacer
+        padding-y: 20
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 replicator:
   -
-    id: qkB39jc7
+    id: lp8ijf6u
     columns_replicator:
       -
-        id: lixbg2o5
-        single_col: false
+        id: lp8ijh4a
+        single_col: true
         grid:
           -
-            id: IkfdlGWv
+            id: Bv9XTlai
             bard:
               -
-                type: set
-                attrs:
-                  id: lixbgbxj
-                  values:
-                    type: insert_html
-                    html: |-
-                      <font size="4"> <center>
-                        In der Vorschrift <b>DIN ISO 690</b> sind verschiedene Zitierregeln zusammengefasst, die Sie in Ihrer Bachelor- oder Masterarbeit verwenden können. Im Fließtext haben Sie drei verschiedene Möglichkeiten, jede Quelle mit einem Kurzbeleg zu erwähnen: mit Referenznummern, Endnoten oder Kurzbelegen. Die vollständigen Titelangaben kommen ins Literaturverzeichnis. Die Richtilinien von DIN ISO 690 können Sie fast in jedem Studienfach anwenden, besonders verbreitet ist der Stil jedoch in den <b>technischen Fächern</b>.
-
-
-                      </center></font>
-                      <svg xmlns='http://www.w3.org/2000/svg' viewBox='-6 0 12 4'><text x='0' y='2' text-anchor='middle' font-family='Georgia' font-size='3' fill='hsl(227, 0%, 0%)'>„</text><g stroke-width='0.1' stroke='hsl(224, 0%, 0%)'><line x1='6' x2='1.5' y1='2' y2='2'/><line x1='-6' x2='-1.5' y1='2' y2='2'/></g></svg>
-              -
                 type: paragraph
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lixg77u5
-        single_col: false
-        grid:
-          -
-            id: IkfdlGWv
-            bard:
+                content:
+                  -
+                    type: text
+                    text: 'In der Vorschrift DIN ISO 690 sind verschiedene Zitierregeln zusammengefasst, die Sie in Ihrer Bachelor- oder Masterarbeit verwenden können. Im Fließtext haben Sie drei verschiedene Möglichkeiten, jede Quelle mit einem Kurzbeleg zu erwähnen: mit Referenznummern, Endnoten oder Kurzbelegen. Die vollständigen Titelangaben kommen ins Literaturverzeichnis. Die Richtilinien von DIN ISO 690 können Sie fast in jedem Studienfach anwenden, besonders verbreitet ist der Stil jedoch in den technischen Fächern.'
               -
                 type: heading
                 attrs:
@@ -63,6 +142,19 @@ replicator:
                   -
                     type: text
                     text: Inhaltsverzeichnis
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lp8ikadq
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: Bv9XTlai
+            bard:
               -
                 type: bullet_list
                 content:
@@ -186,15 +278,8 @@ replicator:
                                     text: '4. Variante: Alphanumerisch'
             show_as_card: false
           -
-            id: lmg0ci1o
+            id: lp8ikco1
             bard:
-              -
-                type: set
-                attrs:
-                  id: lmg1ltp1
-                  values:
-                    type: spacer
-                    padding-y: 20
               -
                 type: bullet_list
                 content:
@@ -348,14 +433,13 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 2
         responsive_columns: 0
       -
-        id: pl4PrWVJ
-        single_col: false
+        id: lp8ilhe9
+        single_col: true
         grid:
           -
-            id: YfGxqxir
+            id: Bv9XTlai
             bard:
               -
                 type: set
@@ -1229,7 +1313,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Aburdene
                               -
@@ -1297,7 +1381,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: P
                               -
@@ -1306,7 +1390,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#F79646'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: .
                               -
@@ -1374,7 +1458,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ULLMANN
                               -
@@ -1383,7 +1467,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#F79646'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: ', '
                               -
@@ -1394,7 +1478,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Eike
                               -
@@ -1469,7 +1553,7 @@ replicator:
                                   -
                                     type: link
                                     attrs:
-                                      href: 'https://www.bjoerk.de/werben/was-ist-ein-trend/'
+                                      href: 'http://www.bjoerk.de/was-ist-ein-trend'
                                       target: null
                                       rel: null
                                 text: 'http://www.bjoerk.de/was-ist-ein-trend'
@@ -1479,8 +1563,8 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: green-500
-                                      hex: '#468847'
+                                      color: '#468847!important'
+                                      hex: '#000'
                                 text: ' '
                               -
                                 type: text
@@ -1490,7 +1574,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '[letzter Zugriff am 06.09.2023]'
                               -
@@ -1570,7 +1654,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: black
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: (
                               -
@@ -1584,7 +1668,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#F79646'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: )
                               -
@@ -1661,7 +1745,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#F79646'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '***'
                               -
@@ -1729,7 +1813,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: '#F79646'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '***'
               -
@@ -1830,18 +1914,6 @@ replicator:
                   -
                     type: text
                     text: ' verwenden, das es für alle gängigen Betriebssysteme gibt.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: le8lpa29
-        single_col: false
-        grid:
-          -
-            id: K7mZRP8N
-            bard:
               -
                 type: set
                 attrs:
@@ -1862,24 +1934,21 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
+page_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
+sitemap_active: true
+breadcrumbs_active: true
+template: default
+parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
+meta_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 meta_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele 📑'
+og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700582707
-category:
-  - zitierweisen
-breadcrumbs_active: true
-post_image:
-  - blog/2023/din-iso-690/zitierregeln-nach-din-iso-690---praktische-beispiele-min.jpg
-teaser_image:
-  - blog/2023/din-iso-690/zitierregeln-nach-din-iso-690---praktische-beispiele-min.jpg
-og_image: blog/2023/din-iso-690/zitierregeln-nach-din-iso-690---praktische-beispiele-min.jpg
+updated_at: 1700585963
 ---

@@ -1,7 +1,7 @@
 ---
-id: 52f5092f-800b-4742-8636-a840b9ab1ddb
+id: 7666c317-a6d9-43f1-be2e-367b4e33e946
 blueprint: pages
-title: Masterarbeit
+title: Summary
 teaser:
   -
     type: heading
@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Masterarbeit schreiben lassen'
+        text: 'Summary schreiben lassen'
   -
     type: heading
     attrs:
@@ -35,12 +35,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-          -
-            type: textColor
-            attrs:
-              color: '#000!important'
-              hex: '#000'
-        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Masterarbeit'
+        text: 'Mustervorlage für Ihr Summary von akademischen Ghostwritern'
   -
     type: set
     attrs:
@@ -153,10 +148,188 @@ replicator:
                   id: gJCdR1fO
                   values:
                     type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Masterarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
-                      </p>
+                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Optimierung von Summaries für Ihre Abschlussarbeit. Unsere professionellen Projektmanager finden den geeigneten akademischen Ghostwriter, der Ihren individuellen Anforderungen in einem Summary für Ihre Abschlussarbeit entspricht. Sie möchten für ein <b>Bachelorarbeit-Summary Ghostwriter</b> beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere ein Muster-Summary für Ihre wissenschatliche Arbeit erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. In unserer Ghostwriting-Agentur kooperieren wir mit akademisch qualifizierten und erfahrenen Ghostwritern aus diversen interdisziplinären Fachbereichen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#definition'
+                                  target: null
+                                  rel: null
+                            text: 'Definition Summary'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: "Mustervorlage für Summary schreiben\_lassen"
+                          -
+                            type: hard_break
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben-lassen'
+                                  target: null
+                                  rel: null
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: '– Wie funktioniert die Kooperation?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schreiben'
+                                  target: null
+                                  rel: null
+                            text: 'So können Sie Ihr Summary schreiben'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#executive-summary'
+                                  target: null
+                                  rel: null
+                            text: 'Summary vs. Executive Summary'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#beispiel'
+                                  target: null
+                                  rel: null
+                            text: 'Summary schreiben: Beispiel'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'Summary schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#ai-tools'
+                                          target: null
+                                          rel: null
+                                    text: 'Mit AI-Tools Summary schreiben'
             show_as_card: false
         type: row
         enabled: true
@@ -261,13 +434,59 @@ replicator:
             id: rMynGq5i
             bard:
               -
+                type: set
+                attrs:
+                  id: lms3kc4u
+                  values:
+                    type: anchor_target
+                    anchor_name: definition
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Masterarbeit'
+                    text: 'Definition Summary'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei einem "'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Summary
+                  -
+                    type: text
+                    text: '" handelt es sich um eine Zusammenfassung eines Textes, einer Rede, eines Artikels oder einer anderen schriftlichen oder gesprochenen Information. Im Kontext von Abschlussarbeiten wie der Bachelorarbeit bezieht sich ein Summary auf die Zusammenfassung der gesamten Abschlussarbeit. Ziel eines Summarys ist es, die wichtigsten Erkenntnisse des Inhalts kompakt und prägnant darzustellen. Es gibt verschiedene Arten von Zusammenfassungen (Summary), darunter Executive Summaries von Geschäftsberichten, Abstracts wissenschaftlicher Texte und kurze '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/text-verkuerzen
+                          target: null
+                          rel: null
+                    text: 'Verkürzungen von Texten'
+                  -
+                    type: text
+                    text: ' in Medien.'
+              -
+                type: set
+                attrs:
+                  id: lp1fdw09
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/summary-defintion-min-(1).jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
                 content:
@@ -275,132 +494,193 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die '
+                    text: 'Ein erfolgreiches Summary enthält:'
+              -
+                type: table
+                content:
                   -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: bold
-                      -
-                        type: textColor
+                        type: table_cell
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Masterarbeit ist die letzte anzufertigende Examensarbeit'
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Kernaussagen
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Wichtigsten Fakten, Thesen oder Ereignisse'
                   -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: textColor
+                        type: table_cell
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' im akademischen Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in attraktiven Firmen Arbeit zu finden und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht nach dem Abschluss auch an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, '
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Kürze
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Deutlich kürzer als der Originaltext'
                   -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: bold
-                      -
-                        type: textColor
+                        type: table_cell
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'die Hürde der Masterthesis schnell und ohne Probleme zu überwinden'
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Klarheit
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Klar formulierte Sätze und präzise Ausdrücke'
                   -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: textColor
+                        type: table_cell
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: .
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Objektivität '
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                text: 'Objektiv bleiben und keine persönlichen Meinungen oder Bewertungen'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Dabei können Sie als Student auf die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hilfe von akademischen Freelancern und Ghostwritern'
-                  -
-                    type: text
-                    text: ' zurückgreifen, die tiefgründige Kenntnisse in dem Ihrem persönlichen Fachbereich aufweisen und umfassende Erfahrung mit wissenschaftlichen Arbeiten und dem Erstellen einer Thesis haben.'
+                    text: 'Mit Summaries erhält jeder einen schnellen Überblick über den Inhalt Ihrer Abschlussarbeit oder Ihres Textes, ohne dass der Dozent den gesamten Text lesen muss.'
+              -
+                type: set
+                attrs:
+                  id: lms3klzv
+                  values:
+                    type: anchor_target
+                    anchor_name: schreiben-lassen
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Diese entlasten Sie durch akademisches'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: ', durch Coachings in der Rolle eines Betreuers bei der Strukturierung Ihrer Thesis und übernehmen Ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/textkorrektur
-                          target: null
-                          rel: null
-                    text: Textkorrektur
-                  -
-                    type: text
-                    text: ', das Lektorat sowie die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: 'Überprüfung auf Plagiate'
-                  -
-                    type: text
-                    text: '. Auch ein Korrekturlesen mit dem Fokus auf der Formatierung oder dem Literaturverzeichnis ist möglich. Durch diese Dienstleistung können Sie sich auf die wesentlichen Dinge in ihrem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ',,Wie schreibe ich eine Masterarbeit?“'
-                  -
-                    type: text
-                    text: '. '
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -416,7 +696,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Mustervorlage für Masterarbeit schreiben\_lassen"
+                    text: "Mustervorlage für Summary schreiben\_lassen"
                   -
                     type: hard_break
                     marks:
@@ -492,7 +772,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zuerst senden Sie uns eine kostenlose Anfrage über unser Anfrageformular. Anschließend kontaktieren unsere Kundenberater Sie innerhalb kürzester Zeit für ein unverbindliches Erstgespräch.'
+                    text: 'Sie möchten Ihr Muster-Summary schreiben lassen, dann schicken uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'kostenlose Anfrage'
+                  -
+                    type: text
+                    text: ' über das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /kontakt
+                          target: null
+                          rel: null
+                    text: Kontaktformular
+                  -
+                    type: text
+                    text: ' und Sie erhalten in kürzester Zeit ein unverbindliches Angebot.'
             show_as_card: false
           -
             id: lalg3xcf
@@ -523,7 +829,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im nächsten Schritt erhalten Sie ein ganz unverbindlich ein Angebot von uns, individuell zugeschnitten auf Ihre Bedürfnisse mit einem fairen Preis für Ihre Projektarbeit. Dieses beinhaltet auch bereits eine vorläufige Auftragsplanung.'
+                    text: 'In einem unverbindlichen Angebot erhalten Sie sämtliche Informationen zu Ihrem Projekt. Das Angebot ist speziell auf Ihre Anforderungen zugeschnitten und enthält einen fairen Preis für die Erstellung Ihres Summaries. Zusätzlich wird eine vorläufige Planung für die Umsetzung Ihres Auftrags im Angebot erstellt.'
             show_as_card: false
           -
             id: lalg3yqv
@@ -554,7 +860,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sobald wir Sie unser Angebot angenommen haben, erstellen wir die Mustervorlage für Ihre Masterarbeit. Sie erhalten von Ihrem persönlichen Projektmanager regelmäßig Zwischenstände zu den Ergebnissen und wir setzen Ihre Feedbacks zu diesen kostenfrei um.'
+                    text: 'Nachdem Sie dem Angebot, schreibt unser ausgewählter Ghostwriter Summary als Mustervorlage. Die kostenlosen Zwischenlieferungen Ihrer Musterarbeit erhalten Sie regelmäßig von Ihrem verantwortlichen Projektmanager. Die gewünschten Änderungen werden kostenfrei von unseren Fachexperten umgesetzt. '
             show_as_card: false
           -
             id: lalg3zn6
@@ -585,7 +891,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die finale Lieferung erhalten Sie garantiert frei von Plagiaten dank professioneller Plagiatsprüfung und durch ein Lektorat nach unserem 4-Augen-Prinzip auf Qualität geprüft. Falls Sie Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.'
+                    text: 'Die finale Lieferung wird gründlich auf Plagiate überprüft. Im Anschluss erfolgt eine sorgfältige Qualitätskontrolle durch ein Lektorat. Sollte der Auftraggeber weitere Änderungswünsche haben, werden diese kostenfrei umgesetzt.'
             show_as_card: false
         type: row
         enabled: true
@@ -621,7 +927,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Masterarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                    text: 'Wenn Sie bei Ihr Summary Unterstützung benötigen, dann können Sie uns gerne sofort eine '
                   -
                     type: text
                     marks:
@@ -639,7 +945,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Unsere Schreibagentur melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot mit fairen Preisen für Ihre Thesis bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung durch einen unserer akademischen Betreuer wünschen.'
+                    text: '. Unsere Ghostwriting-Agentur melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot mit fairen Preisen. Wir rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung durch einen unserer akademischen Betreuer wünschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1002,135 +1308,22 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: lalfm5os
+    id: lp1n45hr
     columns_replicator:
       -
-        id: lalfmhxz
+        id: lp1n46ts
         single_col: true
         grid:
           -
-            id: rMynGq5i
+            id: 8FDzQgpo
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Professionelle Unterstützung durch akademische Experten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unsere akademische Agentur arbeitet ausschließlich mit '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwritern mit umfassender Erfahrung in der Anwendung wissenschaftlicher methodischer Ansätze'
-                  -
-                    type: text
-                    text: '. Sowohl in der Theorie als auch in der Praxis verfügen diese über viele Jahre Erfahrung und wissen bspw. exakt, wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/leitfadengestuetztes-experteninterview
-                          target: null
-                          rel: null
-                    text: Experten-Befragungen
-                  -
-                    type: text
-                    text: ' oder Studienumfragen erstellt und deren Ergebnisse in einer Thesis verschriftlicht werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Agentur begleitet Sie zu angemessenen Preisen in jeder Form während des vollen Umfangs Ihrer akademischen Laufbahn bei jeder Art von Projektarbeit bis hin zum Abschluss. Denn bei unseren Ghostwritern handelt es sich häufig um '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Doktoren und Professoren'
-                  -
-                    type: text
-                    text: ', die Sie in jedem Aspekt des wissenschaftlichen Arbeitens unterstützen können. Auch die Plagiatsprüfung, das Korrekturlesen oder ein akademisches Lektorat  Ihrer eigenen Ergebnisse übernehmen unsere Experten für Sie.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Überzeugen Sie sich gerne am folgenden '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Beispiel für eine englische Masterarbeit'
-                  -
-                    type: text
-                    text: ' von den Kompetenzen unserer Experten. Dieses Beispiel im vollen Umfang einer Masterarbeit wurde von einem unserer erfahrensten '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: 'Wirtschaftswissenschaften Ghostwriter'
-                  -
-                    type: text
-                    text: ' verfasst.'
               -
                 type: set
                 attrs:
-                  id: fXd4ydXK
+                  id: lp1n4ce8
                   values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
-                    ex_title: 'Englische Masterarbeit: Globalisation and Poverty'
-                    ex_fachbereich:
-                      - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                    ex_type: 'Englische Masterarbeit'
-                    ex_pages: '50'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'entry::c62f9e16-5d49-4f22-b1c6-d705b966aa1a'
-                    ex_button_text: WEITERLESEN
-                    ex_color: '#FF6606'
-                    ex_button_align: justify-start
-                    ex_spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F7F7F7'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: fIXXlwmQ
-    columns_replicator:
-      -
-        id: lalfr5pu
-        single_col: false
-        grid:
-          -
-            id: 8ElmpGzW
-            bard:
+                    type: anchor_target
+                    anchor_name: schreiben
               -
                 type: heading
                 attrs:
@@ -1138,119 +1331,248 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter Masterarbeit: Warum sollte man sich helfen lassen?'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: qR9pvuG7
-        columns_per_row: 2
-        grid:
-          -
-            id: lmUilup5
-            bard:
+                    text: 'So können Sie Ihr Summary schreiben'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei GWriters unterstützen unsere Ghostwriter Studenten, die sich eine Mustervorlage für die eigene '
+                    text: 'Sie möchten ein Bachelorarbeit-Summary schreiben und wissen nicht wie ein Summary geschrieben wird. Unsere Experten zeigen Ihnen anhand den Punkten wie Sie am schnellsten ein Summary schreiben. Alternativ können Sie auch einen '
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeit schreiben lassen '
-                  -
-                    type: text
-                    text: 'möchten. Oft steigen unsere Experten direkt zu Beginn einer Texterstellung, bei der eigentlichen Themenfindung, der Literaturrecherche und dem Aufbau einer Masterarbeit ein. Aufgrund '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'seiner Erfahrungen und fachlichen Kenntnisse kann ein akademischer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
                       -
                         type: link
                         attrs:
                           href: /ghostwriter
                           target: null
                           rel: null
-                    text: Ghostwriter
+                    text: 'Ghostwriter beauftragen'
                   -
                     type: text
-                    text: ' wissenschaftliche Texterstellungen im vollen Umfang einer akademischen Arbeit problemlos zu jedem Zeitpunkt übernehmen. '
+                    text: ', ein Muster-Summary für Ihr Summary schreiben lassen , oder Sie lassen Ihr selbstgeschriebenes Summary von unseren '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: Fachexperten
+                  -
+                    type: text
+                    text: ' überprüfen. '
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Identifizieren Sie die Schlüsselpunkte'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Sie können unsere Hilfe für einen fairen Preis während des gesamten Schreibprozesses in Anspruch nehmen oder sich bei Teilbereichen helfen lassen. Wir bieten Ihnen darüber hinaus auch Leistungen wie das gründliche Korrekturlesen in Form eines Korrektorats oder das '
+                    text: 'Identifizieren Sie die Hauptthemen, '
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
                       -
                         type: link
                         attrs:
-                          href: /lektorat
+                          href: /blog/hypothese-forschungsfrage
                           target: null
                           rel: null
-                    text: Lektorat
+                    text: Forschungsfragen
+                  -
+                    type: text
+                    text: ', '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: ' '
+                        type: link
+                        attrs:
+                          href: /blog/qualitative-quantitative-methoden
+                          target: null
+                          rel: null
+                    text: Methoden
                   -
                     type: text
-                    text: 'zur tief gehenden Überprüfung und Verbesserung'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' '
-                  -
-                    type: text
-                    text: 'der Ergebnisse Ihrer'
+                    text: ' und Ergebnisse Ihrer Bachelorarbeit oder '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: ' Masterarbeit'
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
                   -
                     type: text
-                    text: ', wenn Sie diese bereits selbständige fertiggestellt haben. So können Sie sich einen hervorragenden Abschluss sichern!'
-            show_as_card: false
-          -
-            id: gfuL4CzA
-            bard:
+                    text: '. Konzentrieren Sie sich auf die Schlüsselpunkte, die den Kern Ihrer Arbeit ausmachen.'
               -
-                type: set
+                type: ordered_list
                 attrs:
-                  id: aDAJTXIZ
-                  values:
-                    type: video
-                    video: 'https://www.youtube.com/watch?v=AQafSBlzdRE'
+                  order: 2
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Kürzen Sie den Text'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fassen Sie jeden Abschnitt Ihres Textes prägnant zusammen. Vermeiden Sie unnötige Informationen und konzentrieren Sie sich auf das Wesentliche.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 3
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Beibehaltung der Struktur'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bewahren Sie die Struktur und Reihenfolge Ihrer Bachelorarbeit im Summary. Verlieren Sie dabei nicht den roten Faden.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 4
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Verwendung klarer Sprache'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Drücken Sie Ihren Inhalt verständlich aus, am besten verwenden Sie klare Formulierungen. Vermeiden Sie überflüssige und komplexe Ausdrucksweisen.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 5
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Forschungsergebnisse darstellen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Betonen Sie die Bedeutung Ihrer Forschung und die erzielten Ergebnisse. Klären Sie, wie Ihre Arbeit zur bestehenden Literatur oder Forschung beiträgt.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 6
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Überprüfung auf Vollständigkeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Lassen Sie Ihr Bachelorarbeit-Summary von einem Ghostwriter überprüfen, um sicherzustellen, dass es alle wichtigen Aspekte Ihrer Arbeit abdeckt, einschließlich der Forschungsfrage, Methoden, Ergebnisse und Schlussfolgerungen.'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'Denken Sie daran, dass das Summary als kurze, aber präzise Darstellung Ihrer Abschlussarbeit dienen soll. Es sollte Lesern genügend Informationen geben, um den Inhalt zu verstehen, ohne den gesamten Text lesen zu müssen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
         responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
@@ -2399,6 +2721,8 @@ replicator:
                                           rel: null
                                     text: 'Praktikumsbericht schreiben lassen'
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   id: GF1CySh8
@@ -2416,461 +2740,22 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: eonZTiiF
-    remove_spacing: false
-    is_full: true
-    bg_toggle: true
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
+    id: lp1n6xq6
     columns_replicator:
       -
-        id: w3IdW0cz
-        columns_per_row: 2
-        grid:
-          -
-            id: doLZ97bJ
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Zum Master'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Masterabschluss folgt dem Bachelorgrad'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: ' und ist somit der zweite akademische Grad, welcher bei einem Studium innerhalb der EU und in den meisten englischsprachigen Ländern erreicht werden kann. Der erste akademische Grad ist der Bachelor, bei dem Universitäten und Hochschulen von ihren Studenten eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Bachelorarbeit schreiben lassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: '. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Die Prüfung zum Masterabschluss besteht aus einem studienbegleitenden Teil, der Examens- oder Masterarbeit (auch Masterthesis) und der mündlichen Abschlussprüfung. Für das Vollenden des Masterstudiums ist vorgesehen, dass Lehrinstitute von ihren Studenten eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Masterarbeit schreiben lassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: '. Dadurch soll geprüft werden, ob Sie als Student in der Lage sind, ordnungsgemäß zu einer speziellen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Fragestellung zu recherchieren, diese wissenschaftlich zu erarbeiten'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: ' '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'und eine Masterthesis zu erstellen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Die damit verbundene Thesis ist sehr zeitintensiv und umfangreich. Trotz dem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'deutlich höheren Anspruch der Masterthesis im Vergleich zu einer Hausarbeit'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: ' oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/textkorrektur
-                          target: null
-                          rel: null
-                    text: Textkorrektur
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: ', sondern auch '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Unterstützung beim Aufbau und Verfassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: ' der Arbeit.'
-            show_as_card: true
-          -
-            id: GkB02Mc4
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: false
-        responsive_columns: 0
-    bg_image: seiten/arbeiten/masterabschluss.jpg
-  -
-    id: BKvN8RrQ
-    columns_replicator:
-      -
-        id: Ocsh6FN4
+        id: lp1n6za9
         single_col: true
         grid:
           -
-            id: Fpa2kKGt
+            id: 8FDzQgpo
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Unterschiede zum Magister- und Diplomgrad'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Um die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Wettbewerbsfähigkeit
-                  -
-                    type: text
-                    text: ' zu erhöhen, eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Vergleichbarkeit
-                  -
-                    type: text
-                    text: ' von Studiengängen zu erreichen und die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mobilität und Flexibilität im Studium'
-                  -
-                    type: text
-                    text: ' zu gewährleisten, wurde 1999 von 29 EU-Bildungsministern die Bologna-Erklärung unterzeichnet. Mit der Umsetzung der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Bologna-Reform
-                  -
-                    type: text
-                    text: ' wurden in Deutschland die alten Magisterstudiengänge- und Diplomstudiengänge, abgeschlossen mit der Magisterarbeit und Diplomarbeit, zunehmend durch Bachelor- und Masterstudiengänge ersetzt. Hierbei ist der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mastergrad mit dem Magister- und Diplomgrad vergleichbar'
-                  -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der Bachelor ist lediglich eine Art Vorabschluss, welcher früher nicht vorgesehen war. Für die Zulassung zu einem Masterstudiengang muss man im Regelfall einen Bachelorabschluss vorweisen können. Eine Masterarbeit ist per se nicht obligatorisch, die jeweiligen Hochschulen können entscheiden, ob sie von den Studenten eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: ', welche am Ende bewertet wird. Die Kultusministerkonferenz hat sich im Zuge der Qualitätssicherung allerdings dafür ausgesprochen und empfiehlt, dass Lehrinstitute zum Ende des Studiums von Studenten eine Masterarbeit schreiben lassen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Unterstützung durch eine Ghostwriter-Masterarbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit, das weit über eine einfaches Korrekturlesen hinausgeht. Wenn Sie für Ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Masterarbeit Ghostwriter'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' beauftragen, erstellten diese Ihnen eine hochqualitative Mustervorlage. Diese "Ghostwriting-Masterarbeit" können Sie anschließend als Orientierungshilfe nutzen. Unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Doktoren und Professoren'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', die sich täglich mit wissenschaftlichen Texten und deren Erstellung beschäftigen und zu angemessenen Preisen ihre Expertise anbieten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Unsere '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'seriösen Ghostwriter'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/wie-schreibe-ich-einen-forschungsstand
-                          target: null
-                          rel: null
-                    text: Forschungsstand
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit können wir für Sie eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Forschungslücke finden und eine wissenschaftliche Forschungsfrage erstellen.'
               -
                 type: set
                 attrs:
-                  id: pYxHdNTw
+                  id: lp1qv8cr
                   values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'UNTERSTÜTZUNG BEI IHREM MASTER ANFORDERN'
-                    spacing_top: false
-                    color: '#FF6606'
+                    type: anchor_target
+                    anchor_name: executive-summary
               -
                 type: heading
                 attrs:
@@ -2878,171 +2763,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wie schreibt man eine Masterarbeit?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Je nach Fachbereich und Institution umfasst die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Masterarbeit inklusive Exposé 60-100 Seiten'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. Sie muss alle Kriterien einer akademischen Arbeit innerhalb von 5 bis 6 Monaten erfüllen und wird mit 15-30 ECTS-Punkten bewertet. Somit ist diese Leistung grundlegend für den '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Erfolg des Studiums'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und nicht einfach abzuhandeln. Höchste wissenschaftliche Standards werden angelegt um ihre Qualität zu beurteilen. Im Bereich der Medizin, beispielsweise, dient die Masterarbeit oft als Fundament der Dissertation.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Neben Themenfindung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Ansprechpartners zur '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Betreuung der Masterarbeit'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', sind auch zahlreiche formale Richtlinien zu beachten. Bei einigen Fächern, wie der BWL oder VWL sind oftmals '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'statistische Untersuchungen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' anzufertigen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Oft wird durch das Lehrinstitut eine Muster-Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, können Sie sich Hilfe holen, indem Sie einen Ghostwriter ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Masterarbeit schreiben lassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für Ihre Masterarbeit. Die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Ghostwriting-Masterarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' können Sie dann als Mustervorlage nutzen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Masterarbeit schreiben lassen - von einer KI?'
+                    text: 'Summary vs. Executive Summary'
               -
                 type: paragraph
                 content:
@@ -3056,9 +2777,148 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(209, 213, 219)'
+                          color: '#000!important'
                           hex: '#000'
-                    text: 'Die Anwendung von KI-Technologien, obwohl in vielen Domänen wirkungsvoll, sollte in der akademischen Welt mit Bedacht erfolgen. KI-Systeme können die Einsichten, Kreativität und das kritische Denken, welches ein akademischer Ghostwriter mitbringt, nicht im vollen Umfang replizieren. Der Gebrauch von KI zum Verfassen von Masterarbeiten ist mit bestimmten technischen und juristischen Hürden verbunden.'
+                    text: 'Sowohl "Summary" als auch "Executive Summary" sind Begriffe, die in verschiedenen Kontexten verwendet werden. Beide dienen dazu, Lesern einen schnellen Überblick zu verschaffen, aber der Begriff "Executive Summary" betont oft den geschäftlichen Kontext und die spezifische Zielgruppe von Führungskräften.'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Summary
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Executive Summary'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Allgemeine kurze Zusammenfassung für wissenschaftliche Texte'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Spezielle Zusammenfassung für Geschäftsdokumente und Berichte'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Studenten, Wissenschaftler,..'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Führungskräfte, Manager, Entscheidungsträger,...'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'wichtigste Erkenntnisse'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'wichtige Erkenntnisse'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Bachelorarbeit-Executive-Summary ist eine kurze Zusammenfassung bzw. Übersicht des gesamten Forschungsprojekts. Es handelt sich dabei um eine spezielle Form der Zusammenfassung, die an Leser gerichtet ist, welche möglicherweise nicht die Zeit haben, die gesamte Arbeit im Detail zu lesen. In einem Bachelorarbeit-Executive-Summary sollten die folgenden Elemente enthalten sein:'
               -
                 type: ordered_list
                 attrs:
@@ -3082,17 +2942,31 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
-                            text: 'Quellenverwendung & Urheberrechtliche Problematik:'
+                            text: 'Hintergrund und Zielsetzung:'
+                      -
+                        type: bullet_list
+                        content:
                           -
-                            type: text
-                            marks:
+                            type: list_item
+                            content:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Obwohl Inhalte, die von KI generiert werden, nicht unbedingt als eigenständige Werke gelten, können sie dennoch aus urheberrechtlich geschützten Materialien stammen. Dies kann zu rechtlichen Schwierigkeiten führen, insbesondere wenn eine KI urheberrechtlich geschützte Abschnitte übernimmt, ohne korrekt zu zitieren. Im Gegensatz dazu sorgt ein akademischer Ghostwriter dafür, dass alle Quellen korrekt zitiert sind und die Arbeit den hohen akademischen Standards entspricht. Hinzu kommt, dass es Fälle gibt, in denen KI-Modelle tendenziell Quellen oder Studien erfinden, um ihre Argumentation zu stärken.'
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Eine kurze Einführung in das Forschungsthema und die Hauptziele der Arbeit.'
                   -
                     type: list_item
                     content:
@@ -3111,39 +2985,31 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
-                            text: 'Verständnis- und Interpretationsgrenzen von KI:'
+                            text: 'Forschungsfragen oder Hypothesen:'
+                      -
+                        type: bullet_list
+                        content:
                           -
-                            type: text
-                            marks:
+                            type: list_item
+                            content:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Während KI-Modelle Informationen replizieren können, die ihnen vorgegeben wurden, mangelt es ihnen an echtem Verständnis für tiefgehende wissenschaftliche Themen. Sie könnten leicht zu Fehlinterpretationen neigen oder den Kontext von Daten falsch darstellen. Auf der anderen Seite verfügt ein akademischer Ghostwriter nicht nur über fundiertes Fachwissen, sondern auch über eine tiefe Intuition für sein Gebiet. Das ist besonders relevant in Disziplinen wie der '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: link
-                                attrs:
-                                  href: /ghostwriter/soziologie
-                                  target: _blank
-                                  rel: null
-                            text: Soziologie
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: ', wo menschliche Erfahrungen und Kultur eine zentrale Rolle spielen.'
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Eine klare Darstellung der Forschungsfragen oder Hypothesen, die in der Arbeit behandelt werden.'
                   -
                     type: list_item
                     content:
@@ -3162,17 +3028,31 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
-                            text: 'Eingeschränkte Originalität von KI:'
+                            text: 'Methodik:'
+                      -
+                        type: bullet_list
+                        content:
                           -
-                            type: text
-                            marks:
+                            type: list_item
+                            content:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Das Hauptziel einer wissenschaftlichen Arbeit besteht darin, frische und unverbrauchte Erkenntnisse zu teilen. Da KI-Modelle auf existierenden Daten beruhen und lediglich diese Daten replizieren, ist es schwierig für sie, wirklich revolutionäre Gedanken in wissenschaftlichen Arbeiten hervorzubringen. Im Gegenteil dazu sind menschliche Forscher in der Lage, bahnbrechende Ideen zu entwickeln, die einen wesentlichen Einfluss auf ihr Fachgebiet haben können.'
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Eine knappe Beschreibung der Forschungsmethoden, die für die Datenerhebung und Analyse verwendet wurden.'
                   -
                     type: list_item
                     content:
@@ -3191,17 +3071,31 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
-                            text: 'Überbewertung der KI-Fähigkeiten:'
+                            text: 'Hauptergebnisse:'
+                      -
+                        type: bullet_list
+                        content:
                           -
-                            type: text
-                            marks:
+                            type: list_item
+                            content:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'KIs arbeiten innerhalb ihrer programmierten Datenbanken und können diese oft als unfehlbare Wahrheiten betrachten. Ihnen fehlt die Fähigkeit, Daten kritisch zu hinterfragen oder sich von vorgefertigten Schlussfolgerungen zu lösen. Akademische Ghostwriter, hingegen, haben das Talent, Informationen gründlich zu analysieren, alternative Ansichten zu berücksichtigen und ihre eigenen Hypothesen zu überdenken.'
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Die wichtigsten Ergebnisse der Forschung, einschließlich der Schlussfolgerungen oder Hauptbefunde.'
                   -
                     type: list_item
                     content:
@@ -3220,39 +3114,210 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: var(--tw-prose-bold)
+                                  color: '#000!important'
                                   hex: '#000'
-                            text: 'Fokus auf KI in akademischen Institutionen:'
+                            text: 'Empfehlungen oder Implikationen:'
+                      -
+                        type: bullet_list
+                        content:
                           -
-                            type: text
-                            marks:
+                            type: list_item
+                            content:
                               -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: 'Angesichts der steigenden Aufmerksamkeit für KI werden ihre Anwendungen im akademischen Bereich intensiv beleuchtet. Es könnte in naher Zukunft zu Anforderungen kommen, dass Organisationen den Einsatz von KI transparent machen müssen. Dies könnte durch den Aufbau von Datenbanken mit allen von KI erstellten Texten geschehen. Ein Beispiel für die Erkennung von KI-Texten ist unser '
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                    text: 'Wenn zutreffend, können auch Empfehlungen oder Implikationen für zukünftige Forschung oder Praxis aufgeführt werden.'
+              -
+                type: set
+                attrs:
+                  id: lp1qvlsi
+                  values:
+                    type: anchor_target
+                    anchor_name: beispiel
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Summary schreiben: Beispiel'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In dem folgenden fiktiven Beispiel finden Sie ein Summary einer Bachelorarbeit im Bereich Wirtschaft. Durch die Markierungen erkennen Sie auch, welche wichtigen Ereignisse aus der Bachelorarbeit entnommen wurden.'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
                           -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: link
-                                attrs:
-                                  href: /ai-detector
-                                  target: _blank
-                                  rel: null
-                            text: 'AI Detector'
+                            type: bold
                           -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: ', den Sie gerne ausprobieren können.'
+                            type: textAlign
+                            attrs:
+                              align: start
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'Titel der Bachelorarbeit:'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                        text: ' '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: italic
+                          -
+                            type: textAlign
+                            attrs:
+                              align: start
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: '"Einfluss von Social Media Marketing auf das Kaufverhalten von Millennials: Eine empirische Analyse in der Einzelhandelsbranche"'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '"Diese Bachelorarbeit untersucht den Einfluss von Social Media Marketing auf das Kaufverhalten von Millennials im Einzelhandel. Die Studie kombiniert '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'quantitative Umfragedaten'
+                  -
+                    type: text
+                    text: ' mit einer umfassenden Analyse von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Social-Media-Aktivitäten
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Einkaufsgewohnheiten
+                  -
+                    type: text
+                    text: '. Die Ergebnisse zeigen, dass '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Social Media Marketing einen signifikanten Einfluss'
+                  -
+                    type: text
+                    text: ' auf die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Produktpräferenzen
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Kaufentscheidungen
+                  -
+                    type: text
+                    text: ' der Millennials hat. Insbesondere Plattformen wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Instagram
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: TikTok
+                  -
+                    type: text
+                    text: ' beeinflussen die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Markenwahrnehmung
+                  -
+                    type: text
+                    text: ' und den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Kaufprozess
+                  -
+                    type: text
+                    text: '. Die Studie hebt auch hervor, dass '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Authentizität
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'soziale Verantwortung'
+                  -
+                    type: text
+                    text: ' in den Marketingbemühungen besonders wichtig sind. Diese Erkenntnisse haben weitreichende Implikationen für Unternehmen, die ihre Marketingstrategien an die Bedürfnisse der Millennials anpassen möchten."'
               -
                 type: paragraph
                 content:
@@ -3266,464 +3331,24 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(209, 213, 219)'
-                          hex: '#000'
-                    text: 'In vielen Szenarien mag KI nützlich sein, aber bei der Erstellung von Masterarbeiten sollten wir menschliche Expertise bevorzugen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Gliederung und Formalien einer Masterarbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'einige Formalien als gängig'
-                  -
-                    type: text
-                    text: ' erwiesen. Diese werden von unseren akademischen Experten standardmäßig verwendet und bei Textkorrekturen überprüft. Wenn Sie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'individuelle Vorgaben'
-                  -
-                    type: text
-                    text: ' haben, setzen wir diese selbstverständlich auch gerne um. Schicken Sie uns einfach eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'kostenlose Anfrage'
-                  -
-                    type: text
-                    text: '!'
+                    text: 'Die Länge eines Summary kann je nach den Anforderungen Ihrer Hochschule und den spezifischen Richtlinien Ihrer Bachelorarbeit unterschiedlich sein. In der Regel sollte ein Summary jedoch relativ kurz und präzise sein. Ein üblicher Richtwert für ein Bachelorarbeit-Summary liegt oft zwischen 150 und 300 Wörtern.'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: lalgalf9
-        columns_per_row: 2
-        single_col: true
-        grid:
-          -
-            id: K8GiAu4i
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lalgaum3
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
-                      -
-                        id: lalgaxcv
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Gliederung einer Masterarbeit ➞'
-                        accordion_content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/deckblatt-vorlage
-                                              target: null
-                                              rel: null
-                                        text: Deckblatt
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/bachelorarbeit-abstract
-                                              target: null
-                                              rel: null
-                                        text: Abstract
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: Vorwort
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/inhaltsverzeichnis-vorlage
-                                              target: null
-                                              rel: null
-                                        text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/abbildungsverzeichnis
-                                              target: null
-                                              rel: null
-                                        text: Abbildungs
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: '- und '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/tabellenverzeichnis-beispiel
-                                              target: null
-                                              rel: null
-                                        text: Tabellenverzeichnis
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/abkuerzungsverzeichnis
-                                              target: null
-                                              rel: null
-                                        text: Abkürzungsverzeichnis
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/bachelorarbeit-einleitung
-                                              target: null
-                                              rel: null
-                                        text: Einleitung
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: Hauptteil
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: Schlussteil/Fazit
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/literaturverzeichnis-beispiel
-                                              target: null
-                                              rel: null
-                                        text: Literaturverzeichnis
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/anhangsverzeichnis
-                                              target: null
-                                              rel: null
-                                        text: Anhang
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/eidesstattliche-erklaerung-muster
-                                              target: null
-                                              rel: null
-                                        text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
-                        active: false
-            show_as_card: false
-          -
-            id: lalgan0h
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lalgbccv
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
-                      -
-                        id: lalgbden
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Formatierung einer Masterarbeit ➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Wichtig: Vor der Abgabe müssen Sie alle Formatierungsrichtlinien beachten'
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Seitenzahlen: unten zentriert/rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Schriftgröße und –Art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Zeilenabstand: 1,5-zeilig'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
-                        active: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: BKvN8RrQ
+    columns_replicator:
       -
         id: lalgfgcc
         single_col: true
@@ -3732,96 +3357,244 @@ replicator:
             id: K8GiAu4i
             bard:
               -
+                type: set
+                attrs:
+                  id: lp1n656n
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Häufig gestellte Fragen zu Masterarbeit-Ghostwritern'
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Summary schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie benötigen ein Bachelorarbeit-Summary, haben jedoch Schwierigkeiten, eine 60-seitige Bachelorarbeit zusammenzufassen und die wichtigsten Ereignisse herauszufiltern. Genau hier können Ihnen unsere Ghostwriter helfen, denn Sie verfügen über umfassende Kenntnisse im Schreiben wissenschaftlicher Texte. Besonders sind in den Fachgebieten Geisteswissenschaften (z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/germanistik-ghostwriter
+                          target: null
+                          rel: null
+                    text: Germanistik
+                  -
+                    type: text
+                    text: '), '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/sozialwissenschaften
+                          target: null
+                          rel: null
+                    text: Sozialwissenschaften
+                  -
+                    type: text
+                    text: ', Wirtschaft (z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/bwl
+                          target: null
+                          rel: null
+                    text: BWL
+                  -
+                    type: text
+                    text: '), Naturwissenschaften (z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/biologie
+                          target: null
+                          rel: null
+                    text: Biologie
+                  -
+                    type: text
+                    text: '), '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/kommunikationswissenschaften
+                          target: null
+                          rel: null
+                    text: Kommunikationswissenschaften
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/psychologie
+                          target: null
+                          rel: null
+                    text: 'Psychologie Ghostwriter'
+                  -
+                    type: text
+                    text: ' Experten beim Schreiben von Summaries. Unsere Experten sind versiert im Umschreiben, Zusammenfassen und Überarbeiten von Texten. Durch ihre tägliche Arbeit mit wissenschaftlichen Texten zu verschiedenen Themen bringen sie umfangreiche Erfahrungen mit. Auch können Ghostwriter Mustertexte für Forschungsartikeln, Fallstudien oder anderen Inhalten zu erstellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Sie möchten eine Musterarbeit für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', in der Sie ein Summary schreiben sollen. Sie können gerne bei einem Ghostwriter Ihr Summary schreiben.'
               -
                 type: set
                 attrs:
-                  id: lalhlyo3
+                  id: lp1qw0cn
                   values:
-                    type: accordion_custom_wrapper
-                    items:
+                    type: anchor_target
+                    anchor_name: ai-tools
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Mit AI-Tools Summary schreiben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ob Sie mit AI-Tools wie ChatGPT für Ihre Bachelorarbeit Summary schreiben können, das Leider ist dies nicht möglich, da ChatGPT eine maximale Eingabebegrenzung für eine Anfrage hat. Das bedeutet, dass Sie maximal '
+                  -
+                    type: text
+                    marks:
                       -
-                        id: lalhm02r
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Welche Qualifikation hat mein akademischer Ghostwriter? ➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
-                        active: false
+                        type: bold
+                    text: '4096 Token '
+                  -
+                    type: text
+                    text: 'als Anfrage eingeben dürfen. Ein Token kann ein einzelnes Zeichen, eine Buchstabenkombination oder sogar ein Wort sein, abhängig von der Textstruktur. Im Gegensatz dazu hat eine '
+                  -
+                    type: text
+                    marks:
                       -
-                        id: lalhm7pp
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Wie wird bei GWriters meine Anonymität sichergestellt? ➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
-                        active: false
+                        type: bold
+                    text: '40-seitige Bachelorarbeit'
+                  -
+                    type: text
+                    text: ' etwa '
+                  -
+                    type: text
+                    marks:
                       -
-                        id: lalhm8si
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Was kostet eine Mustervorlage für meine Masterarbeit? ➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Eine Mustervorlage für eine 50-seitige Masterarbeit erhalten Sie bereits ab 5000 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
-                        active: false
-                      -
-                        id: lalhm9y8
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Darf ich die erstellte Mustervorlage als eigene Masterarbeit abgeben? ➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Masterarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
-                        active: false
+                        type: bold
+                    text: '10.000 Wörter oder 72.000 Zeichen'
+                  -
+                    type: text
+                    text: '. Es wäre daher äußerst komplex, alle Abschnitte in ihrer Gesamtheit einzufügen, während der Zusammenhang und der rote Faden aufrechterhalten werden. Zusätzlich besteht das Risiko, dass KI-Tools den Originalinhalt falsch interpretieren und möglicherweise falsche Ergebnisse ausgeben, insbesondere wenn Studierende sich nicht mehr genau an den Inhalt ihrer Bachelorarbeit erinnern. Darüber hinaus besteht die Gefahr, dass der ausgegebene Text von KI-Tools als Plagiat erkannt wird.'
               -
                 type: heading
                 attrs:
@@ -3882,7 +3655,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Einige unserer Blogartikel zum Thema "Masterarbeit schreiben lassen"'
+                    text: 'Einige unserer Blogartikel zum Thema "Summary schreiben lassen"'
               -
                 type: set
                 attrs:
@@ -3890,81 +3663,13 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
-                      - a26081b8-f79e-4515-8c28-31d320f1e4fd
-                      - 90c98a48-07aa-44a7-bfa5-187a2717a778
+                      - a5c068ff-db40-47e9-8aa9-ac6c47178686
+                      - 8d0d751b-54ea-4b94-a1b7-9fe5c7850427
+                      - f7c8ca12-a411-459d-80f2-1103124f761b
               -
                 type: heading
                 attrs:
                   level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Weitere Links & Referenzen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Master'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Master - Wikipedia'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fcampus%2F2010%2F03%2FStudium-Master-Empfehlungsschreiben'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'In der Bologna-Falle - FAZ'
             show_as_card: false
         type: row
         enabled: true
@@ -3976,8 +3681,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700146560
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1700172862
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3985,50 +3690,14 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Masterarbeit schreiben lassen | seriöse & diskrete Ghostwriter'
-meta_description: 'Masterarbeit schreiben lassen | Ghostwriter Masterarbeit | kompetente wissenschaftliche Unterstützung | 100% diskret & geprüft auf Qualität & Plagiate ✔️'
-og_title: 'Masterarbeit schreiben lassen • Ghostwriter von GWriters'
-og_description: 'Masterarbeit schreiben lassen | Ghostwriter Masterarbeit | kompetente wissenschaftliche Unterstützung | 100% diskret & geprüft auf Qualität & Plagiate ✔️'
+meta_title: 'Summary schreiben lassen | seriöse & diskrete Ghostwriter'
+meta_description: 'Summary schreiben lassen – Akademisches Ghostwriting für Ihre Abschlussarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+og_title: 'Summary schreiben lassen • Ghostwriter von GWriters'
+og_description: 'Summary schreiben lassen – Akademisches Ghostwriting für Ihre Abschlussarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
-schema_objects: |-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "Welche Qualifikationen hat mein akademischer Ghostwriter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind."
-      }
-    },{
-      "@type": "Question",
-      "name": "Wie wird bei GWriters meine Anonymität sichergestellt?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts."
-      }
-    },{
-      "@type": "Question",
-      "name": "Was kostet eine Mustervorlage für meine Masterarbeit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Eine Mustervorlage für eine 50-seitige Masterarbeit erhalten Sie bereits ab 5000 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen."
-      }
-    },{
-      "@type": "Question",
-      "name": "Darf ich die erstellte Mustervorlage als eigene Masterarbeit abgeben?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Masterarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch."
-      }
-    }]
-  }
-  </script>
 sitemap_active: true
-page_title: 'Masterarbeit schreiben lassen'
-alternative_page_title: 'Masterarbeit schreiben lassen'
+page_title: 'Summary schreiben lassen'
+alternative_page_title: 'Summary schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
 teaser_bg: seiten/arbeiten/gwriters_masterarbeit_2000x512-(2).jpg

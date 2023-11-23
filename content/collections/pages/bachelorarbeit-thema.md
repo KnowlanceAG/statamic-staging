@@ -224,7 +224,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Eine gründliche Vorbereitung ist das A und O bei der Wahl Ihres Themas. Gerade weil das Ende Ihrer mehrjährigen Bachelor-Studienzeit in Sicht ist, sollten Sie Ihrer Bachelorarbeit Ihre volle Konzentration widmen, da diese Arbeit einen wesentlichen Einfluss auf Ihre Gesamtnote hat. Fangen Sie also nicht zu spät damit an, Sich Gedanken über die Wahl Ihres Bachelorarbeit-Themas zu machen. Im Folgenden finden Sie dazu alle wichtigen Informationen.'
+            text: 'Eine gründliche Vorbereitung ist das A und O bei der Wahl Ihres Themas. Gerade weil das Ende Ihrer mehrjährigen Bachelor-Studienzeit in Sicht ist, sollten Sie Ihrer Bachelorarbeit Ihre volle Konzentration widmen, da diese Arbeit einen wesentlichen Einfluss auf Ihre Gesamtnote hat. Fangen Sie also nicht zu spät damit an, sich Gedanken über die Wahl Ihres Bachelorarbeit-Themas zu machen. Im Folgenden finden Sie dazu alle wichtigen Informationen.'
       -
         type: horizontal_rule
       -
@@ -399,7 +399,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: ' erstellen etc. Hier hat jede Hochschule eindeutige Vorgaben, über die Sie Sich vorab erkundigen sollten. Ihr Betreuer wird Ihnen für gewöhnlich von sich auf zu Beginn der Bearbeitung eine Liste mit allen Formatvorgaben aushändigen.'
+            text: ' erstellen etc. Hier hat jede Hochschule eindeutige Vorgaben, über die Sie Sich vorab erkundigen sollten. Ihr Betreuer wird Ihnen für gewöhnlich von sich aus zu Beginn der Bearbeitung eine Liste mit allen Formatvorgaben aushändigen.'
       -
         type: heading
         attrs:
@@ -1054,7 +1054,7 @@ replicator:
             text: "\_nicht nur individuell und persönlich bei dem Bachelorarbeit-Thema Finden, sondern auch bei jeder Form von akademischen Arbeiten. Wenden "
           -
             type: text
-            text: "Sie Sich schnell und einfach mit einer\_"
+            text: "Sie sich schnell und einfach mit einer\_"
           -
             type: text
             marks:
@@ -2888,7 +2888,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: '4. Die Bedeutung des Social Media für die Neukundengewinnung'
+            text: '4. Die Bedeutung von Social Media für die Neukundengewinnung'
       -
         type: paragraph
         content:
@@ -3986,8 +3986,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1697105955
+updated_by: 05dc5331-6bc5-4897-a2e0-d559d0f01e29
+updated_at: 1700080181
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
