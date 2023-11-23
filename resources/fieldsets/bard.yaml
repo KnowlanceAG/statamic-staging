@@ -213,6 +213,11 @@ fields:
           fields:
             -
               import: ai_detect_element
+        citation_generator:
+          display: Zitationsgenerator
+          fields:
+            -
+              import: citation_generator
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
