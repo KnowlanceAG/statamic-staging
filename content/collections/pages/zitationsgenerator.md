@@ -1,6 +1,5 @@
 ---
 id: 533158ef-db5d-4fdb-aa49-570d84cac9c7
-published: false
 blueprint: pages
 title: Zitationsgenerator
 teaser:
@@ -832,5 +831,5 @@ schema_objects: |-
   }
   </script>
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1700743735
+updated_at: 1700744094
 ---
