@@ -251,7 +251,59 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unser Zitationsgenerator unterstützt eine Vielzahl von Zitierstilen, darunter APA, Harvard, Chicago, IEEE, MIT und die deutsche Zitierweise. Mit nur wenigen Klicks generieren Sie präzise Quellenangaben und komplette Literaturverzeichnisse.'
+                    text: 'Unser Zitationsgenerator unterstützt eine Vielzahl von Zitierstilen, darunter APA, Harvard, Chicago, IEEE, MIT, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/din-iso-690
+                          target: null
+                          rel: null
+                    text: 'DIN ISO 690'
+                  -
+                    type: text
+                    text: ' und die deutsche Zitierweise. Mit nur wenigen Klicks generieren Sie präzise Quellenangaben und komplette Literaturverzeichnisse. Auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/videos-zitieren
+                          target: null
+                          rel: null
+                    text: 'Videos zitieren'
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/chicago-zitierweise
+                          target: null
+                          rel: null
+                    text: 'Internetquellen zitieren'
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/gesetze-zitieren
+                          target: null
+                          rel: null
+                    text: 'Gesetze zitieren'
+                  -
+                    type: text
+                    text: ' können Sie mit unserem kostenlosen Zitationsgenerator im Handumdrehen.'
               -
                 type: heading
                 attrs:
@@ -265,7 +317,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der APA-Stil ist einer der am häufigsten verwendeten Zitierstile. Unser Generator erstellt APA-konforme Zitationen, ideal für Psychologie, Bildungswissenschaften und andere sozialwissenschaftliche Disziplinen.'
+                    text: 'Der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#apa'
+                          target: null
+                          rel: null
+                    text: APA-Zitationsstil
+                  -
+                    type: text
+                    text: ' ist einer der am häufigsten verwendeten Zitierstile. Unser Generator erstellt APA-konforme Zitationen, ideal für Psychologie, Bildungswissenschaften und andere sozialwissenschaftliche Disziplinen.'
               -
                 type: heading
                 attrs:
@@ -279,7 +344,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Harvard-Zitierweise ist bekannt für ihre Flexibilität und Einfachheit. Unser Generator unterstützt Sie dabei, schnell und effizient Harvard-konforme Zitationen zu erstellen.'
+                    text: 'Die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#harvard'
+                          target: null
+                          rel: null
+                    text: Harvard-Zitierweise
+                  -
+                    type: text
+                    text: ' ist bekannt für ihre Flexibilität und Einfachheit. Unser Generator unterstützt Sie dabei, schnell und effizient Harvard-konforme Zitationen zu erstellen.'
               -
                 type: heading
                 attrs:
@@ -293,7 +371,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Chicago-Stil ist vor allem in den Geistes- und Geschichtswissenschaften beliebt. Er bietet verschiedene Formate, die unser Generator mühelos handhaben kann.'
+                    text: 'Der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/chicago-zitierweise
+                          target: null
+                          rel: null
+                    text: Chicago-Zitationsstil
+                  -
+                    type: text
+                    text: ' ist vor allem in den Geistes- und Geschichtswissenschaften beliebt. Er bietet verschiedene Formate, die unser Generator mühelos handhaben kann.'
               -
                 type: heading
                 attrs:
@@ -307,7 +398,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Diese Stile sind in technischen und naturwissenschaftlichen Disziplinen weit verbreitet. Unser Generator erleichtert die Erstellung von Zitationen in diesen spezifischen Formaten.'
+                    text: 'Der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/ieee-zitierstil
+                          target: null
+                          rel: null
+                    text: IEEE-Zitierstil
+                  -
+                    type: text
+                    text: ' und die MIT-Zitierweise sind in technischen und naturwissenschaftlichen Disziplinen weit verbreitet. Unser Generator erleichtert die Erstellung von Zitationen in diesen spezifischen Formaten.'
               -
                 type: heading
                 attrs:
@@ -321,7 +425,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Für wissenschaftliche Arbeiten im deutschsprachigen Raum ist die deutsche Zitierweise unerlässlich. Unser Generator stellt sicher, dass Ihre Zitationen den lokalen Standards entsprechen.'
+                    text: 'Für wissenschaftliche Arbeiten im deutschsprachigen Raum ist die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#deutsch'
+                          target: null
+                          rel: null
+                    text: 'deutsche Zitierweise'
+                  -
+                    type: text
+                    text: ' unerlässlich. Unser Generator stellt sicher, dass Ihre Zitationen den lokalen Standards entsprechen.'
               -
                 type: set
                 attrs:
@@ -839,5 +956,5 @@ schema_objects: |-
   }
   </script>
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700806895
+updated_at: 1700838028
 ---
