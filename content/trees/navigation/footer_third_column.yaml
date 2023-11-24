@@ -6,6 +6,11 @@ tree:
   -
     id: f951d558-5eb6-4a1a-8732-fa11639cb1c3
     entry: 046e5eb8-8a16-431a-abdf-c079ed2d95d0
+    title: 'Kostenloser AI Detector'
+  -
+    id: 42da2717-b58e-4508-9cee-3f6606af7ac8
+    entry: 533158ef-db5d-4fdb-aa49-570d84cac9c7
+    title: 'Kostenloser Zitationsgenerator'
   -
     id: b725f15d-6949-43b7-b274-03a40b4c1e07
     entry: 1298a2b5-6e23-404b-8806-26e687fda624
