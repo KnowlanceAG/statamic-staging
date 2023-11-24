@@ -1,6 +1,5 @@
 ---
 id: e97504f7-ef7a-46d1-8005-96543f275b47
-published: false
 blueprint: pages
 title: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
 teaser:
@@ -1638,5 +1637,5 @@ og_title: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
 og_description: 'IEEE-Zitierstil in Bachelorarbeiten: Unsere Schritt-für-Schritt Anleitung bietet praxisnahe Beispiele und Tipps, um Ihnen das Verständnis und die Anwendung dieses Zitierstils zu erleichtern 📚'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700584397
+updated_at: 1700835452
 ---
