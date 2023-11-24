@@ -239,6 +239,90 @@ replicator:
                     type: text
                     text: 'Unser Zitationsgenerator ist benutzerfreundlich und intuitiv. Geben Sie einfach die notwendigen Informationen ein, und der Generator erstellt die korrekte Zitation für Sie.'
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Suchfeld:'
+                  -
+                    type: text
+                    text: ' Hier können Sie Anhand von Stichworten, Titeln, Autoren, ISBN, DOI oder URL nach Quellen suchen und die korrekte Quelle direkt aus den angezeigten Vorschlägen auswählen. Die Zitation wird dann entsprechend des ausgewählten Zitationsstil automatisch erstellt und in Ihre Literaturliste eingefügt.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Auswahl des Zitationsstil:'
+                  -
+                    type: text
+                    text: ' Durch einen Klick auf den aktuellen Zitationsstil gelangen Sie zum Auswahlfenster, in dem Sie aus alle verfügbaren Zitationsstilen und auch die gewünschte Sprache wählen können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Manuelles Zitieren:'
+                  -
+                    type: text
+                    text: ' Wenn Sie die gewünschte Quelle ausnahmsweise einmal nicht finden über unsere automatische Suchfunktion finden konnten, dann können Sie einfach die relevanten Informationen in die entsprechenden Felder eintragen und unser kostenloser Zitationsgenerator erstellt dann für Sie die Quellenangabe im gewünschten Zitationsstil.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sortierung:'
+                  -
+                    type: text
+                    text: ' Verschiedene Universitäten haben für die Reihenfolge der Quellenangaben im Literaturverzeichnis unterschiedliche Vorgaben. Mit einem Klick auf "Sortieren nach" können Sie zwischen allen gängigen Formaten auswählen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Filtern nach Medientyp: '
+                  -
+                    type: text
+                    text: 'Sie benötigen schnell eine Übersicht aber alle wissenschaftlichen Artikel in Ihrem Literaturverzeichnis? Kein Problem, wählen Sie einfach den entsprechenden Medientyp aus und schon erhalten Sie eine gefilterte Ansicht.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Editieren:'
+                  -
+                    type: text
+                    text: ' In den Optionen zu jedem Eintrag in Ihrem Literaturverzeichnis haben Sie die Möglichkeit, jede Quellenangaben nach Wunsch zu bearbeiten. Auch der Medientyp lässt sich hier ändern, falls Sie bspw. ein Video lieber als Film klassifizieren und spezifischere Angaben zur Produktion machen möchten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Übernahme in Ihre Arbeit:'
+                  -
+                    type: text
+                    text: ' Wenn Sie das von unserem Zitationsgenerator kostenlos erstellte Literaturverzeichnis in Ihre Arbeit übernehmen möchten, klicken Sie einfach auf "Bibliographie kopieren", anschließend können Sie diese einfach einfach in Ihr Word Dokument einfügen. Auch einzelne Einträge können Sie in den Optionen zur jeweiligen Quellenangabe gesondert kopieren.'
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -956,5 +1040,5 @@ schema_objects: |-
   }
   </script>
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700838613
+updated_at: 1700860935
 ---
