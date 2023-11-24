@@ -323,6 +323,18 @@ replicator:
                     type: text
                     text: ' Wenn Sie das von unserem Zitationsgenerator kostenlos erstellte Literaturverzeichnis in Ihre Arbeit übernehmen möchten, klicken Sie einfach auf "Bibliographie kopieren", anschließend können Sie diese einfach einfach in Ihr Word Dokument einfügen. Auch einzelne Einträge können Sie in den Optionen zur jeweiligen Quellenangabe gesondert kopieren.'
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Speicherung Ihres Literaturverzeichnis:'
+                  -
+                    type: text
+                    text: ' Ihr erstelltes Quellenverzeichnis wird nicht in unserem System, sondern in Ihrem eigenen Browser lokal auf Ihrem Computer gespeichert. Solange Sie Ihre Browserdaten nicht löschen, können Sie also jederzeit das Fenster schließen oder Ihre Computer ausschalten, ohne dass das von unserem Zitationsgenerator erstellte Literaturverzeichnis verloren geht. Öffnen Sie einfach das Tool erneut auf unserer Webseite und Sie können sofort nahtlos weiterarbeiten.'
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1040,5 +1052,5 @@ schema_objects: |-
   }
   </script>
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700860935
+updated_at: 1700861660
 ---
