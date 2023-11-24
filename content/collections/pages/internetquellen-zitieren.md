@@ -1,6 +1,5 @@
 ---
 id: 92fa0579-edee-4a61-a02c-f781a24d2bb3
-published: false
 blueprint: pages
 title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
 teaser:
@@ -803,5 +802,5 @@ og_title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
 og_description: 'Sie möchten wissen, wie Sie konkrete, hochwertige und seriöse Internetquellen für Ihre wissenschaftliche Arbeit finden & diese richtig einbauen können? Dann richtet sich dieser Artikel an Sie!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700677688
+updated_at: 1700835458
 ---
