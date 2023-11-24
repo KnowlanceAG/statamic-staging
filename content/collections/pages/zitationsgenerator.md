@@ -380,7 +380,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/chicago-zitierweise
+                          href: /zitationsgenerator/internetquellen-zitieren
                           target: null
                           rel: null
                     text: 'Internetquellen zitieren'
@@ -1052,5 +1052,5 @@ schema_objects: |-
   }
   </script>
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700861679
+updated_at: 1700863790
 ---
