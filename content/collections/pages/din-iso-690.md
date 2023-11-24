@@ -1,6 +1,5 @@
 ---
 id: 702e6617-d335-471d-ab91-29392f168115
-published: false
 blueprint: pages
 title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 teaser:
@@ -1950,5 +1949,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700585963
+updated_at: 1700835449
 ---
