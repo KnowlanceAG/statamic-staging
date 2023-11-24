@@ -2799,89 +2799,233 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Was ist eine Studienarbeit?'
+                    text: 'Warum sind Projektarbeiten im Studium so wichtig?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Studienarbeiten sind ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'zentraler Bestandteil des Hochschulstudiums '
-                  -
-                    type: text
-                    text: 'und spielen eine wichtige Rolle bei der akademischen Entwicklung von Studierenden. Doch was genau verbirgt sich hinter der Fragestellung "'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Was ist eine Studienarbeit'
-                  -
-                    type: text
-                    text: '"? Eine Studienarbeit ist eine schriftliche '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /faq/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
-                          target: null
-                          rel: null
-                    text: 'wissenschaftliche Arbeit'
-                  -
-                    type: text
-                    text: ', die im Rahmen eines Studiums geschrieben wird. '
+                    text: 'Projektarbeiten im Studium können aus verschiedenen Gründen wichtig sein. Studierende erwerben nicht nur fachliches Wissen, sondern entwickeln auch Fähigkeiten, die sie in ihrem zukünftigen Berufsleben erfolgreich einsetzen können.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In der Regel wird eine Studienarbeit kürzer als eine Abschlussarbeit z.B. '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--text-primary)
+                          hex: '#000'
+                    text: ' '
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: bold
+                      -
+                        type: textAlign
                         attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-                  -
-                    type: text
-                    text: ', '
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Praxisnahe Anwendung:'
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Masterarbeit
+                          align: start
+                    text: ' Projektarbeiten ermöglichen es Studierenden, ihre theoretischen Kenntnisse in der Praxis anzuwenden. Dies fördert die praktische Umsetzung des Gelernten und stärkt die Verbindung zwischen Theorie und Praxis.'
+              -
+                type: ordered_list
+                attrs:
+                  order: 1
+                content:
                   -
-                    type: text
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: /arbeiten/diplomarbeit
-                          target: null
-                          rel: null
-                    text: Diplomarbeit
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Problemlösungskompetenz:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ' Durch die eigenständige Bearbeitung von Projektaufgaben entwickeln Studierende Problemlösungskompetenzen. Sie lernen, komplexe Probleme zu analysieren, geeignete Lösungen zu finden und ihre Entscheidungen zu begründen.'
                   -
-                    type: text
-                    text: ' geschrieben. Es gibt verschiedene Arten von Studienarbeiten darunter sind, Essay, Hausarbeiten, Seminararbeit oder Projektarbeiten.'
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Teamarbeit:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ' Viele Projektarbeiten werden in Gruppen durchgeführt, was die Entwicklung von Teamarbeit und Kommunikationsfähigkeiten fördert. Studierende lernen, effektiv im Team zu arbeiten, verschiedene Perspektiven zu berücksichtigen und gemeinsam Ziele zu erreichen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Selbstständigkeit:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ' Projektarbeiten erfordern oft selbstständiges Arbeiten. Studierende lernen, Verantwortung für ihre Aufgaben zu übernehmen, ihre Zeit effektiv zu organisieren und eigenständig Entscheidungen zu treffen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Forschungskompetenz:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ' In vielen Projektarbeiten ist die Durchführung von Forschung ein integraler Bestandteil. Studierende entwickeln Forschungskompetenzen, lernen, relevante Literatur zu identifizieren, Daten zu sammeln und wissenschaftliche Methoden anzuwenden.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Vorbereitung auf den Berufseinstieg:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ' Projektarbeiten bieten eine praxisnahe Vorbereitung auf die Anforderungen im späteren Berufsleben. Die Fähigkeiten, die während der Projektarbeit entwickelt werden, sind oft in verschiedenen beruflichen Kontexten von großem Nutzen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Ganzheitliches Verständnis:'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                            text: ' Durch die Bearbeitung von Projektaufgaben entwickeln Studierende ein ganzheitliches Verständnis für komplexe Zusammenhänge in ihrem Fachbereich. Dies fördert eine integrative Sichtweise auf das erlernte Wissen.'
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2904,131 +3048,6 @@ replicator:
                 type: heading
                 attrs:
                   level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Warum sind Studienarbeiten im Studium so wichtig?'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Vertiefung des Wissens'
-                          -
-                            type: text
-                            text: ': Sie bieten die Möglichkeit, sich eingehender mit einem Fachgebiet auseinanderzusetzen und wichtige Fähigkeiten und Wissen für die berufliche Zukunft zu entwickeln. In einigen Fällen können Studienarbeiten zur Forschung beitragen und neue Erkenntnisse generieren.'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Akademische Bewertung'
-                          -
-                            type: text
-                            text: ': Studienarbeiten sind oft Teil der akademischen Bewertung und haben einen direkten Einfluss auf die Endnote.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Vorbereitung auf Abschlussarbeiten'
-                          -
-                            type: text
-                            text: ': Sie dienen als Vorbereitung für umfangreichere Abschlussarbeiten wie Bachelorarbeiten, Masterarbeiten oder Diplomarbeiten. Auch hier kann unsere '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /ghostwriting/ghostwriting-agentur
-                                  target: null
-                                  rel: null
-                            text: Ghostwriting-Agentur
-                          -
-                            type: text
-                            text: ' mit unseren Experten in den Arbeiten wie Masterarbeit oder '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/bachelorarbeit-hilfe
-                                  target: null
-                                  rel: null
-                            text: 'Bachelorarbeit Hilfe'
-                          -
-                            type: text
-                            text: ' anbieten.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Entwicklung von wissenschaftlichen Fähigkeiten'
-                          -
-                            type: text
-                            text: ': Das Schreiben von Studienarbeiten fördert die Entwicklung von Schlüsselkompetenzen wie '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/wissenschaftlicher-schreibstil
-                                  target: null
-                                  rel: null
-                            text: 'wissenschaftliches Schreiben'
-                          -
-                            type: text
-                            text: ', wissenschaftlichem Denken, Recherchieren (z.B. '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/literaturrecherche-datenbanken-quellen
-                                  target: null
-                                  rel: null
-                            text: Literaturrecherche
-                          -
-                            type: text
-                            text: ') und Interpretieren.'
         type: row
         enabled: true
         single_col: false
@@ -5722,7 +5741,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700781639
+updated_at: 1700784132
 template: default
 use_meta_keywords: false
 no_index_page: false
