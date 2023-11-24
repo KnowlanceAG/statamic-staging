@@ -269,3 +269,12 @@ Redirect 301 /fachrichtungen/personalmanagement /ghostwriter/personalmanagement
 Redirect 301 /fachrichtungen/bwl /ghostwriter/bwl
 Redirect 301 /fachrichtungen/kommunikationswissenschaften /ghostwriter/kommunikationswissenschaften
 Redirect 301 /fachrichtungen/geschichte /ghostwriter/geschichte
+
+#14632
+Redirect 301 /blog/din-iso-690 /zitationsgenerator/din-iso-690
+Redirect 301 /blog/ieee-zitierstil /zitationsgenerator/ieee-zitierstil
+Redirect 301 /blog/literaturquellen-richtig-zitieren /zitationsgenerator/literaturquellen-richtig-zitieren
+Redirect 301 /blog/internetquellen-zitieren /zitationsgenerator/internetquellen-zitieren
+Redirect 301 /blog/videos-zitieren /zitationsgenerator/videos-zitieren
+Redirect 301 /blog/gesetze-zitieren /zitationsgenerator/gesetze-zitieren
+Redirect 301 /blog/chicago-zitierweise /zitationsgenerator/chicago-zitierweise
