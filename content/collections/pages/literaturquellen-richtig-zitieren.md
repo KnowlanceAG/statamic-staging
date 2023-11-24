@@ -1,6 +1,5 @@
 ---
 id: 1af8c9ae-2fb6-4f46-b8c1-515284f090c2
-published: false
 blueprint: pages
 title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 teaser:
@@ -816,5 +815,5 @@ og_title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 og_description: 'Literaturquellen richtig zitieren | Wie zitiere ich richtig? Welche Zitierweisen gilt es zu beachten? Kostenlose Beispiele zum richtigen Zitieren!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700676134
+updated_at: 1700835455
 ---
