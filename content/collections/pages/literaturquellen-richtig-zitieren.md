@@ -350,6 +350,13 @@ replicator:
                     type: text
                     text: "Allerdings wurden zum direkten und indirekten Zitat noch kein Verfasser erwähnt. Wann, wo und wie werden Textstellen mit Quellenangaben zitiert?\_Zunächst werden wir die gängigste deutsche Zitierweise vorstellen."
               -
+                type: set
+                attrs:
+                  id: lpcql5da
+                  values:
+                    type: anchor_target
+                    anchor_name: deutsch
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -545,6 +552,13 @@ replicator:
                     type: text
                     text: '. Auch wenn Sie Sich unsicher sind, ob Sie richtig zitiert haben, dann haben Sie in der Regel einen Leitfaden von Ihrer Hochschule zum richtigen Zitieren zur Hand und können dort noch einmal nachschlagen.'
               -
+                type: set
+                attrs:
+                  id: lpcqli78
+                  values:
+                    type: anchor_target
+                    anchor_name: harvard
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -635,6 +649,13 @@ replicator:
                     assets:
                       - blog/2021/literaturquellen-richtig-zitieren/Harvard-Zitierung-indirektes-Zitat.png
                     has_border: false
+              -
+                type: set
+                attrs:
+                  id: lpcqlsb5
+                  values:
+                    type: anchor_target
+                    anchor_name: apa
               -
                 type: heading
                 attrs:
@@ -815,5 +836,5 @@ og_title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 og_description: 'Literaturquellen richtig zitieren | Wie zitiere ich richtig? Welche Zitierweisen gilt es zu beachten? Kostenlose Beispiele zum richtigen Zitieren!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700835455
+updated_at: 1700837294
 ---
