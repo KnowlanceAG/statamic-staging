@@ -181,23 +181,7 @@ replicator:
                                   href: '#ghostwriter'
                                   target: null
                                   rel: null
-                            text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Studienarbeit'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#schreiben-lassen'
-                                  target: null
-                                  rel: null
-                            text: 'Mustervorlage für Studienarbeit schreiben lassen – Wie funktioniert die Kooperation?'
+                            text: 'Wie unterstützen Sie Ghostwriter bei Ihrer Projektarbeit?'
                       -
                         type: bullet_list
                         content:
@@ -211,28 +195,58 @@ replicator:
                                     type: text
                                     marks:
                                       -
+                                        type: textAlign
+                                        attrs:
+                                          align: left
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
                                         type: link
                                         attrs:
-                                          href: '#beispiel'
+                                          href: '#schreiben-lassen'
                                           target: null
                                           rel: null
-                                    text: 'Professionelle Unterstützung durch akademische Experten: Beispiel-Studienarbeit'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#ghostwriter-beauftragen'
-                                  target: null
-                                  rel: null
-                            text: 'Die Gründe für das Beauftragen von Ghostwritern für Studienarbeiten'
+                                    text: "Mustervorlage für Projektarbeit schreiben\_lassen"
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: left
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#schreiben-lassen'
+                                          target: null
+                                          rel: null
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: left
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#schreiben-lassen'
+                                          target: null
+                                          rel: null
+                                    text: '– Wie funktioniert die Kooperation?'
                   -
                     type: list_item
                     content:
@@ -248,42 +262,28 @@ replicator:
                                   href: '#definition'
                                   target: null
                                   rel: null
-                            text: 'Was ist eine Studienarbeit?'
+                            text: 'Was ist eine Projektarbeit?'
+                  -
+                    type: list_item
+                    content:
                       -
-                        type: bullet_list
+                        type: paragraph
                         content:
                           -
-                            type: list_item
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#warum'
-                                          target: null
-                                          rel: null
-                                    text: 'Warum sind Studienarbeiten im Studium so wichtig?'
-                          -
-                            type: list_item
-                            content:
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#arten'
-                                          target: null
-                                          rel: null
-                                    text: 'Unterschiede: Die Vielfalt von Studienarbeiten'
+                                type: link
+                                attrs:
+                                  href: '#erstellen'
+                                  target: null
+                                  rel: null
+                            text: 'Wann wird eine Projektarbeit erstellt?'
                   -
                     type: list_item
                     content:
@@ -296,29 +296,26 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#schreiben'
+                                  href: '#erstellen-lassen'
                                   target: null
                                   rel: null
-                            text: 'Wie schreibt man eine Studienarbeit?'
+                            text: 'Warum sind Projektarbeiten im Studium so wichtig?'
+                  -
+                    type: list_item
+                    content:
                       -
-                        type: bullet_list
+                        type: paragraph
                         content:
                           -
-                            type: list_item
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#aufbau'
-                                          target: null
-                                          rel: null
-                                    text: 'Der Aufbau einer Studienarbeit'
+                                type: link
+                                attrs:
+                                  href: '#wichtigkeit'
+                                  target: null
+                                  rel: null
+                            text: 'Warum sollte man bei Projektarbeiten Ghostwriter beauftragen?'
             show_as_card: false
         type: row
         enabled: true
@@ -444,25 +441,126 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter können bei der Anfertigung Ihrer Projektarbeit im Studium unterstützen, indem sie Recherchen durchführen, die Arbeit strukturieren, beim Schreiben helfen, die Formatierung übernehmen und das Korrekturlesen übernehmen. '
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' können bei der Anfertigung Ihrer Projektarbeit im Studium unterstützen, indem sie Recherchen durchführen, die Arbeit strukturieren, beim Schreiben helfen, die Formatierung übernehmen und das Korrekturlesen übernehmen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Insbesondere können Ghostwriter umfassende Literaturrecherche zu Ihrem Projektthema durchführen, um relevante Literatur und Forschungsergebnisse zu identifizieren. Sie sind mit dem aktuellen Forschungsstand vertraut und haben oft Zugang zu kostenpflichtigen wissenschaftlichen Datenbanken. '
+                    text: 'Insbesondere können Ghostwriter '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/literaturrecherche-datenbanken-quellen
+                          target: null
+                          rel: null
+                    text: 'umfassende Literaturrecherche'
+                  -
+                    type: text
+                    text: ' zu Ihrem Projektthema durchführen, um relevante Literatur und Forschungsergebnisse zu identifizieren. Sie sind mit dem aktuellen Forschungsstand vertraut und haben oft Zugang zu kostenpflichtigen wissenschaftlichen Datenbanken. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Häufig beauftragen Studierende Ghostwriter, um ihre Hausarbeit oder Seminararbeit als Muster für ihre Projektarbeit schreiben zu lassen. Unsere qualifizierten Ghostwriter verfügen über umfangreiche Erfahrung im Schreiben von Projektarbeiten. Sie erstellen eine komplette Muster-Projektarbeit nach individuellen Anforderungen und Fachgebiet für Sie. Wenn Sie sich dazu entschließen, eine Musterarbeit für Ihre Projektarbeit schreiben zu lassen, befinden Sie sich auf der sicheren Seite. '
+                    text: 'Häufig beauftragen Studierende Ghostwriter, um ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+                  -
+                    type: text
+                    text: ' als Muster für ihre Projektarbeit schreiben zu lassen. Unsere qualifizierten Ghostwriter verfügen über umfangreiche Erfahrung im Schreiben von Projektarbeiten. Sie erstellen eine komplette Muster-Projektarbeit nach individuellen Anforderungen und Fachgebiet für Sie. Wenn Sie sich dazu entschließen, eine Musterarbeit für Ihre Projektarbeit schreiben zu lassen, befinden Sie sich auf der sicheren Seite. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Von der Themenrecherche bis zur professionellen Plagiatsprüfung wird Ihre Arbeit kostenlos durchgeführt. Am Ende erhalten Sie eine fertige Musterarbeit für Ihre Projektarbeit, die allen relevanten Richtlinien entspricht. Das bedeutet, dass Ihre Arbeit einheitlich mit wissenschaftlichen Quellen zitiert wird, alle Verzeichnisse eingefügt werden (z.B. Inhaltsverzeichnis, Abkürzungsverzeichnis, Literaturverzeichnis etc.), Grafiken erstellt werden, eine klare Struktur eingebaut wird, und die Arbeit abschließend von einem unabhängigen Lektorat und Korrektorat überprüft sowie auf Plagiate geprüft wird. '
+                    text: 'Von der Themenrecherche bis zur professionellen Plagiatsprüfung wird Ihre Arbeit kostenlos durchgeführt. Am Ende erhalten Sie eine fertige Musterarbeit für Ihre Projektarbeit, die allen relevanten Richtlinien entspricht. Das bedeutet, dass Ihre Arbeit einheitlich mit wissenschaftlichen Quellen zitiert wird, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie
+                          target: null
+                          rel: null
+                    text: 'alle Verzeichnisse'
+                  -
+                    type: text
+                    text: ' eingefügt werden (z.B. Inhaltsverzeichnis, Abkürzungsverzeichnis, Literaturverzeichnis etc.), Grafiken erstellt werden, eine klare Struktur eingebaut wird, und die Arbeit abschließend von einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: 'unabhängigen Lektorat'
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    text: ' überprüft sowie auf '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: 'Plagiate geprüft'
+                  -
+                    type: text
+                    text: ' wird. '
               -
                 type: paragraph
                 content:
@@ -478,7 +576,71 @@ replicator:
                         attrs:
                           color: 'rgb(15, 15, 15)'
                           hex: '#000'
-                    text: 'Wenn Sie Ihre Projektarbeit als Präsentation erstellen müssen, können unsere Ghostwriter Sie dabei unterstützen. Unsere akademischen Ghostwriter bereiten Sie auf Ihre Präsentation vor und erstellen eine PowerPoint-Präsentation zu Ihrem Projektthema.'
+                    text: 'Wenn Sie Ihre Projektarbeit als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/praesentationen
+                          target: null
+                          rel: null
+                    text: Präsentation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: ' erstellen müssen, können unsere Ghostwriter Sie dabei unterstützen. Unsere akademischen Ghostwriter bereiten Sie auf Ihre Präsentation vor und erstellen eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-praesentation-powerpoint
+                          target: null
+                          rel: null
+                    text: PowerPoint-Präsentation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: ' zu Ihrem Projektthema.'
               -
                 type: paragraph
               -
@@ -1110,7 +1272,7 @@ replicator:
                   id: lms3l67b
                   values:
                     type: anchor_target
-                    anchor_name: beispiel
+                    anchor_name: definition
               -
                 type: heading
                 attrs:
@@ -1325,7 +1487,26 @@ replicator:
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                        text: 'Qualitative oder quantitative Forschungsmethoden, abhängig von der Fachrichtung.'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/qualitative-quantitative-methoden
+                                              target: null
+                                              rel: null
+                                        text: 'Qualitative oder quantitative Forschungsmethoden'
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                        text: ', abhängig von der Fachrichtung.'
                               -
                                 type: list_item
                                 content:
@@ -1344,7 +1525,103 @@ replicator:
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                        text: 'Mögliche Methoden: Umfragen, Interviews, Experimente, Datenanalyse.'
+                                        text: 'Mögliche Methoden: '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/umfrage-erstellen-tools
+                                              target: null
+                                              rel: null
+                                        text: Umfragen
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                        text: ', '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/leitfadengestuetztes-experteninterview
+                                              target: null
+                                              rel: null
+                                        text: Interviews
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                        text: ', Experimente, '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/gruppendiskussion-methode
+                                              target: null
+                                              rel: null
+                                        text: Datenanalyse
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                        text: .
                   -
                     type: table_row
                     content:
@@ -1455,7 +1732,20 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        text: 'In einigen Fällen mündliche Präsentation der Arbeit.'
+                                        text: 'In einigen Fällen mündliche Präsentation oder '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/kolloquium-bachelorarbeit
+                                              target: null
+                                              rel: null
+                                        text: Kolloquium
+                                      -
+                                        type: text
+                                        text: ' der Arbeit.'
                           -
                             type: bullet_list
                             content:
@@ -1511,7 +1801,39 @@ replicator:
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
-                    text: 'Es ist wichtig anzumerken, dass Projektarbeiten im Studium verschiedene Formen annehmen können und in unterschiedlichen Fachrichtungen unterschiedliche Anforderungen haben können. Diese können von Forschungsprojekten und Fallstudien bis hin zu praktischen Anwendungen und kreativen Projekten reichen.'
+                    text: 'Es ist wichtig anzumerken, dass Projektarbeiten im Studium verschiedene Formen annehmen können und in unterschiedlichen Fachrichtungen unterschiedliche Anforderungen haben können. Diese können von Forschungsprojekten und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--text-primary)
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/fallstudie
+                          target: null
+                          rel: null
+                    text: Fallstudien
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--text-primary)
+                          hex: '#000'
+                    text: ' bis hin zu praktischen Anwendungen und kreativen Projekten reichen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1539,7 +1861,7 @@ replicator:
                   id: lms3lf9q
                   values:
                     type: anchor_target
-                    anchor_name: ghostwriter-beauftragen
+                    anchor_name: wann
               -
                 type: heading
                 attrs:
@@ -1571,9 +1893,39 @@ replicator:
                         attrs:
                           color: 'rgb(15, 15, 15)'
                           hex: '#000'
-                    text: 'Projektarbeiten sind gängige Bestandteile des Studiums und entstehen im Rahmen von Projekten, Seminaren, Praktika oder Forschungsprojekten. Die Anforderungen und Zeitpunkte für Projektarbeiten variieren je nach Hochschule, Studiengang und Fachrichtung. Sie können Teil des Studienverlaufs, spezieller Projektseminare oder Abschlussarbeiten wie Bachelor- oder Masterarbeiten sein. Auch in der Berufspraxis können Studierende Projektarbeiten verfassen, um ihre praktischen Fähigkeiten zu zeigen. Unabhängig von Zeit und Ort können unsere Experten Sie unterstützen. Besonders bei anspruchsvollen Projektarbeiten wie Bachelor- oder Masterarbeiten haben Studierende oft Schwierigkeiten, Forschungsergebnisse zu finden und diese in Form einer Projektarbeit zu verfassen. '
-              -
-                type: paragraph
+                    text: 'Projektarbeiten sind gängige Bestandteile des Studiums und entstehen im Rahmen von Projekten, Seminaren, Praktika oder Forschungsprojekten. Die Anforderungen und Zeitpunkte für Projektarbeiten variieren je nach Hochschule, Studiengang und Fachrichtung. Sie können Teil des Studienverlaufs, spezieller Projektseminare oder Abschlussarbeiten wie Bachelor- oder Masterarbeiten sein. Auch in der Berufspraxis können Studierende Projektarbeiten verfassen, um ihre praktischen Fähigkeiten zu zeigen. Unabhängig von Zeit und Ort können unsere Experten Sie unterstützen. Besonders bei anspruchsvollen Projektarbeiten wie Bachelor- oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeiten
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: ' haben Studierende oft Schwierigkeiten, Forschungsergebnisse zu finden und diese in Form einer Projektarbeit zu verfassen. '
               -
                 type: paragraph
                 content:
@@ -1589,7 +1941,71 @@ replicator:
                         attrs:
                           color: 'rgb(15, 15, 15)'
                           hex: '#000'
-                    text: 'Insbesondere in den Studiengängen Naturwissenschaften, Ingenieurwissenschaften, Informatik, Sozialwissenschaften und in der Medizin werden komplexe Projekte als Abschlussarbeiten durchgeführt, da in diesen Studiengängen häufig umfangreiche Forschungen stattfinden. Es ist nicht ungewöhnlich, dass Studenten im Fachbereich Medizin Ghostwriter für komplexe und umfangreiche Forschungsarbeiten beauftragen. Viele möchten sich sogar eine komplette Projektarbeit als Bachelorarbeit schreiben lassen.'
+                    text: 'Insbesondere in den Studiengängen Naturwissenschaften, Ingenieurwissenschaften, Informatik, Sozialwissenschaften und in der Medizin werden komplexe Projekte als Abschlussarbeiten durchgeführt, da in diesen Studiengängen häufig umfangreiche Forschungen stattfinden. Es ist nicht ungewöhnlich, dass Studenten im Fachbereich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/medizin
+                          target: null
+                          rel: null
+                    text: 'Medizin Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: ' für komplexe und umfangreiche Forschungsarbeiten beauftragen. Viele möchten sich sogar eine komplette Projektarbeit als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -2784,7 +3200,7 @@ replicator:
                   id: lms3ls09
                   values:
                     type: anchor_target
-                    anchor_name: definition
+                    anchor_name: wichtigkeit
               -
                 type: paragraph
               -
@@ -2950,6 +3366,13 @@ replicator:
           -
             id: b6OFM3rb
             bard:
+              -
+                type: set
+                attrs:
+                  id: lph7rptf
+                  values:
+                    type: anchor_target
+                    anchor_name: erstellen-lassen
               -
                 type: heading
                 attrs:
@@ -3132,7 +3555,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701102642
+updated_at: 1701108244
 template: default
 use_meta_keywords: false
 no_index_page: false
