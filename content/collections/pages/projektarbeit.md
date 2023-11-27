@@ -280,7 +280,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#erstellen'
+                                  href: '#wann'
                                   target: null
                                   rel: null
                             text: 'Wann wird eine Projektarbeit erstellt?'
@@ -3555,7 +3555,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701108348
+updated_at: 1701108415
 template: default
 use_meta_keywords: false
 no_index_page: false
