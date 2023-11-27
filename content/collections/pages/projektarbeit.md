@@ -2774,7 +2774,6 @@ replicator:
     columns_replicator:
       -
         id: w3IdW0cz
-        columns_per_row: 2
         grid:
           -
             id: doLZ97bJ
@@ -2935,17 +2934,22 @@ replicator:
                 attrs:
                   level: 3
             show_as_card: false
+        type: row
+        enabled: true
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
+    bg_color: '#F9F9F9'
+  -
+    id: lph4ko3u
+    columns_replicator:
+      -
+        id: lph4kt8u
+        single_col: true
+        grid:
           -
-            id: GkB02Mc4
-            show_as_card: false
+            id: b6OFM3rb
             bard:
-              -
-                type: set
-                attrs:
-                  id: lms3mbvy
-                  values:
-                    type: anchor_target
-                    anchor_name: warum
               -
                 type: heading
                 attrs:
@@ -2967,7 +2971,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Es gibt viele Gründe, einen Ghostwriter zu beauftragen. Je nach Ihrem Anliegen und den Herausforderungen im akademischen Bereich stehen Ihnen unsere professionellen Experten zur Verfügung.'
               -
@@ -3097,7 +3101,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -3113,17 +3117,22 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+            show_as_card: false
         type: row
         enabled: true
-        single_col: false
         responsive_columns: 0
-    bg_color: '#F9F9F9'
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701102520
+updated_at: 1701102642
 template: default
 use_meta_keywords: false
 no_index_page: false
