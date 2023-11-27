@@ -108,7 +108,7 @@ teaser:
         text: '##phone##'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692555213
+updated_at: 1701077570
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1867,7 +1867,7 @@ replicator:
                     text: inklusive
                   -
                     type: text
-                    text: '. Jeder Auftrag wird von einem erfahrenen Supervisor überwacht und die gesamte Zusammenarbeit wir von Ihrem persönlichen, jederzeit ansprechbaren Projektkoordinator betreut.'
+                    text: '. Jeder Auftrag wird von einem erfahrenen Supervisor überwacht und die gesamte Zusammenarbeit wird von Ihrem persönlichen, jederzeit ansprechbaren Projektkoordinator betreut.'
               -
                 type: paragraph
               -
