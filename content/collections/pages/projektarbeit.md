@@ -296,7 +296,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#erstellen-lassen'
+                                  href: '#wichtigkeit'
                                   target: null
                                   rel: null
                             text: 'Warum sind Projektarbeiten im Studium so wichtig?'
@@ -312,7 +312,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#wichtigkeit'
+                                  href: '#erstellen-lassen'
                                   target: null
                                   rel: null
                             text: 'Warum sollte man bei Projektarbeiten Ghostwriter beauftragen?'
@@ -3555,7 +3555,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701108244
+updated_at: 1701108348
 template: default
 use_meta_keywords: false
 no_index_page: false
