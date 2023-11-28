@@ -1,7 +1,7 @@
 ---
 id: ff31aab0-28c4-4293-b3dd-df88d7c95e84
 blueprint: pages
-title: 'In der Abschlussarbeit mit Harvard zitieren - einfach erklärt!'
+title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
 teaser:
   -
     type: heading
@@ -704,20 +704,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Grundsätzlich ist beim Harvard Zitieren Unterstützung durch Programme möglich. Es gibt einen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.grafiati.com/de/blogs/harvard-referencing-generator/'
-                          target: null
-                          rel: null
-                    text: 'Harvard Zitiergenerator'
-                  -
-                    type: text
-                    text: ', mit dem Sie korrekte Zitatangaben erstellen können. In Word können Sie die Harvard-Zitierweise einstellen. Dazu wählen Sie im Reiter „Verweise“ die '
+                    text: 'Grundsätzlich ist beim Harvard Zitieren Unterstützung durch Programme z.B. Harvard Zitiergenerator möglich, mit dem Sie korrekte Zitatangaben erstellen können. In Word können Sie die Harvard-Zitierweise einstellen. Dazu wählen Sie im Reiter „Verweise“ die '
                   -
                     type: text
                     marks:
@@ -748,7 +735,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/ebenda-zitieren'
+                          href: /blog/ebenda-zitieren
                           target: null
                           rel: null
                     text: ebd.-Zitieren
@@ -761,7 +748,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                          href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: 'Masterarbeit erstellen lassen'
@@ -804,13 +791,26 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
-                    text: ', können Sie sicher sein, dass alle Vorgaben korrekt umgesetzt werden. Unser Zitiergenerator hilft Ihnen ebenfalls beim Einhalten der korrekten Zitierweise.'
+                    text: ', können Sie sicher sein, dass alle Vorgaben korrekt umgesetzt werden. Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: Zitiergenerator
+                  -
+                    type: text
+                    text: ' hilft Ihnen ebenfalls beim Einhalten der korrekten Zitierweise.'
               -
                 type: set
                 attrs:
@@ -856,6 +856,18 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Haben Sie schon unseren professionellen Zitationsgenerator entdeckt? Hier können Sie überprüfen, ob Sie Ihre Quelle korrekt zitiert haben. Zusätzlich dazu können Sie die gesuchte Ressource direkt angeben, und Ihnen wird die richtige Zitierweise direkt generiert.'
+              -
+                type: set
+                attrs:
+                  id: lpiu638d
+                  values:
+                    type: citation_generator
               -
                 type: paragraph
               -
@@ -931,7 +943,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/ghostwriter/soziologie'
+                          href: /ghostwriter/soziologie
                           target: null
                           rel: null
                     text: 'Soziologie einen Ghostwriter'
@@ -976,7 +988,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/literaturquellen-richtig-zitieren'
+                          href: /zitationsgenerator/literaturquellen-richtig-zitieren
                           target: null
                           rel: null
                     text: 'Literaturquellen richtig zitieren'
@@ -989,7 +1001,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/gesetze-zitieren'
+                          href: /zitationsgenerator/gesetze-zitieren
                           target: null
                           rel: null
                     text: 'Gesetze zitieren'
@@ -1037,25 +1049,13 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/ghostwriter/jura'
+                          href: /ghostwriter/jura
                           target: null
                           rel: null
                     text: 'Jura ein Ghostwriter'
                   -
                     type: text
                     text: ' Sie unterstützen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "\_"
               -
                 type: set
                 attrs:
@@ -1170,9 +1170,9 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - 1d153b9b-b107-4f93-a2a3-7b52fb81408b
+                      - 7da80f7c-3cf3-4c93-b61e-7b1ebe9eff5b
                       - 85952363-75e0-4471-951d-63fb7d4b2f01
-                      - 23a3cd20-097d-414c-8f15-d744ae288576
+                      - 9a117a53-9616-4d75-9405-a17e779f00b8
             show_as_card: false
         type: row
         enabled: true
@@ -1188,16 +1188,16 @@ sitemap_active: true
 breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
-meta_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
-meta_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
+meta_title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
+meta_description: 'Richtig nach der Harvard-Methode zitieren? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
-og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
+og_title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
+og_description: 'Richtig nach der Harvard-Methode zitieren? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701200598
+updated_at: 1701208200
 ---
