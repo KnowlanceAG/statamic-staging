@@ -1,6 +1,6 @@
 {
   "resources/css/tailwind.css": {
-    "file": "assets/tailwind-e3279a99.css",
+    "file": "assets/tailwind-98d211ef.css",
     "isEntry": true,
     "src": "resources/css/tailwind.css"
   },
@@ -25,14 +25,15 @@
     "src": "resources/img/favicon.ico"
   },
   "resources/js/app.css": {
-    "file": "assets/app-566807c9.css",
+    "file": "assets/app-3738c943.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
     "css": [
-      "assets/app-566807c9.css"
+      "assets/app-3738c943.css"
     ],
     "dynamicImports": [
+      "resources/svg/icons/regular/image.svg",
       "resources/svg/icons/light/add-circle.svg",
       "resources/svg/icons/light/add.svg",
       "resources/svg/icons/light/addons.svg",
@@ -69,7 +70,6 @@
       "resources/svg/icons/light/drag-dots.svg",
       "resources/svg/icons/light/drawer-file.svg",
       "resources/svg/icons/light/duplicate-ids.svg",
-      "resources/svg/icons/light/duplicate.svg",
       "resources/svg/icons/light/earth.svg",
       "resources/svg/icons/light/email-utility.svg",
       "resources/svg/icons/light/entries.svg",
@@ -462,7 +462,6 @@
       "resources/svg/icons/light/drag-dots.svg",
       "resources/svg/icons/light/drawer-file.svg",
       "resources/svg/icons/light/duplicate-ids.svg",
-      "resources/svg/icons/light/duplicate.svg",
       "resources/svg/icons/light/earth.svg",
       "resources/svg/icons/light/email-utility.svg",
       "resources/svg/icons/light/entries.svg",
@@ -819,7 +818,6 @@
       "resources/svg/icons/regular/trash.svg",
       "resources/svg/icons/regular/upload-cloud.svg",
       "resources/svg/icons/regular/upload.svg",
-      "resources/svg/icons/regular/image.svg",
       "resources/svg/filetypes/archive.svg",
       "resources/svg/filetypes/audio.svg",
       "resources/svg/filetypes/doc.svg",
@@ -835,7 +833,7 @@
       "resources/svg/filetypes/video.svg",
       "resources/svg/filetypes/xml.svg"
     ],
-    "file": "assets/app-32b8bb12.js",
+    "file": "assets/app-cab144cb.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -1088,11 +1086,6 @@
     "file": "assets/duplicate-ids-f25f735e.js",
     "isDynamicEntry": true,
     "src": "resources/svg/icons/light/duplicate-ids.svg"
-  },
-  "resources/svg/icons/light/duplicate.svg": {
-    "file": "assets/duplicate-e06d08d8.js",
-    "isDynamicEntry": true,
-    "src": "resources/svg/icons/light/duplicate.svg"
   },
   "resources/svg/icons/light/earth.svg": {
     "file": "assets/earth-bf12bee8.js",
