@@ -707,107 +707,19 @@ replicator:
 
                       <span style="background-color: #91C6E8;">Drexler, K.</span><span style="background-color: #C891E8;">(2018):</span><span style="background-color: #CAE891;">Ererbte Wunden heilen. Therapie der transgenerationalen Traumatisierung,</span><span style="background-color: #E87667;">3. Aufl.,</span><span style="background-color: #F29141;">Stuttgart:</span><span style="background-color: #F261DD;">Klett-Cotta.</span>
                       <br><br>
-                      <span style="background-color: #91C6E8;">Nachname, Vorname</span><span style="background-color: #C891E8;">(Jahr):</span><span style="background-color: #CAE891;">Titel des Artikels,</span><span style="background-color: #E87667;">Auflage,</span><span style="background-color: #F29141;">Ort:</span><span style="background-color: #F261DD;">Verlag.</span> </div>
+                      <span style="background-color: #91C6E8;">Nachname, Vorname</span><span style="background-color: #C891E8;">(Jahr):</span><span style="background-color: #CAE891;">Titel,</span><span style="background-color: #E87667;">Auflage,</span><span style="background-color: #F29141;">Ort:</span><span style="background-color: #F261DD;">Verlag.</span> <br><br>
+                      bei zwei Autoren setzen Sie ein & zwischen die Namen, der Rest verändert sich nicht, also so: <br><br>
+                        Bakó, T., & Zana, K. (2020). Transgenerational trauma and therapy. The transgenerational atmosphere. Milton Park: Routledge.
+                        
+                      </div>
               -
                 type: paragraph
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '[Nachname], [erster Buchstabe Vorname/n] [(Jahr)]: ['
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                    text: 'Titel kursiv'
-                  -
-                    type: text
-                    text: '], [Auflage], [Ort]: [Verlag].'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Beispiel:'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Drexler, K. (2018): '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                    text: 'Ererbte Wunden heilen. Therapie der transgenerationalen Traumatisierung'
-                  -
-                    type: text
-                    text: ', 3. Aufl., Stuttgart: Klett-Cotta.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'bei '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'zwei Autoren setzen Sie ein & zwischen die Namen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: italic
-                    text: ', '
-                  -
-                    type: text
-                    text: 'der Rest verändert sich nicht, also so:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bakó, T., & Zana, K. (2020). '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                    text: 'Transgenerational trauma and therapy. The transgenerational atmosphere'
-                  -
-                    type: text
-                    text: '. Milton Park: Routledge.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: red
-                          hex: '#000'
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: red
-                          hex: '#000'
-                    text: 'Machen Sie das auch bei indirekte Zitate und im Literaturverzeichnis'
               -
                 type: set
                 attrs:
@@ -2196,5 +2108,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701195215
+updated_at: 1701195409
 ---
