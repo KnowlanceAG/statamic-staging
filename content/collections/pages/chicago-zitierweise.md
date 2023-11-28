@@ -2670,7 +2670,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/ieee-zitierstil
+                          href: /zitationsgenerator/ieee-zitierstil
                           target: null
                           rel: null
                     text: 'IEEE Zitierstil'
@@ -2791,5 +2791,5 @@ og_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 og_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701210901
+updated_at: 1701213956
 ---
