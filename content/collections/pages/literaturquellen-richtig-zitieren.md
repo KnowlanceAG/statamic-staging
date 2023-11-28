@@ -531,7 +531,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /leistungen/plagiatsoruefung
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
                     text: Plagiatsprüfung
@@ -836,5 +836,5 @@ og_title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 og_description: 'Literaturquellen richtig zitieren | Wie zitiere ich richtig? Welche Zitierweisen gilt es zu beachten? Kostenlose Beispiele zum richtigen Zitieren!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701209992
+updated_at: 1701214957
 ---
