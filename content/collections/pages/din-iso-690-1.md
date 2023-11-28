@@ -734,13 +734,40 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nach DIN Norm zitieren: Vier Möglichkeiten'
+                    text: 'Harvard zitieren: Keine Verweise in den Fußnoten!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'ISO 690 erlaubt vier unterschiedliche Methoden des Zitierens im Fließtext. Für alle vier Varianten gilt: Die Referenzen erscheinen direkt nach den Zitaten, egal ob direkt oder indirekt.'
+                    text: 'Die wichtigste Regel beim Harvard zitieren ist, dass keine Quellenangaben in den Fußnoten gemacht werden. Sie machen alle Verweise im laufenden Text. Diese Vorschrift ist verpflichtend, anders als bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/chicago-zitierweise
+                          target: null
+                          rel: null
+                    text: Chicago-Zitierweise
+                  -
+                    type: text
+                    text: ', wo Sie zwischen Text- und Fußnotenreferenzen wählen können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Beim Harvard Zitieren kommen lediglich weiterführende Erklärungen in die Fußnoten. Literaturbelege hingegen werden immer im Fließtext gemacht. Für die verschiedenen Quellenarten gelten unterschiedliche Richtlinien, für die Sie in diesem Beitrag jeweils Beispiele sehen. Im folgenden Bild wird in der Fußnote eine weiterführende Erklärung gegeben, die den Fließtext ergänzt.'
+              -
+                type: set
+                attrs:
+                  id: lpinwzpk
+                  values:
+                    type: floating_img
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -755,43 +782,111 @@ replicator:
                 content:
                   -
                     type: text
-                    text: '1. Variante: DIN Norm im Fließtext'
+                    text: 'Direktes Zitieren Harvard'
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'In der Harvard Zitierweise wird bei direkten Zitaten '
+                  -
+                    type: text
                     marks:
                       -
                         type: bold
-                    text: 'Sie können mit Referenznummern arbeiten'
+                    text: 'immer die Seitenzahl'
                   -
                     type: text
-                    text: ': Ähnlich wie beim '
+                    text: ' angegeben, von der das konkrete Zitat stammt. Sie geben also den Autor, das Jahr des Erscheinens und die Seitenzahl in einer Klammer direkt hinter den Anführungszeichen an.'
+              -
+                type: set
+                attrs:
+                  id: lpinxd1b
+                  values:
+                    type: floating_img
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ieee-zitierstil
-                          target: null
-                          rel: null
-                    text: IEEE-Zitierstil
-                  -
-                    type: text
-                    text: ' geben Sie die Quelle im laufenden Text als Nummer an. Die Nummern ergeben sich aus der Reihenfolge, in der die Quellen im Text erscheinen: Das zuerst im Text zitierte Werk bekommt die Nummer 1 zugeordnet usw. Im Literaturverzeichnis geben Sie die Quellen dann nicht in alphabetischer Reihenfolge, sondern nach den Nummern aus dem Fließtext an.'
+                    text: 'Es gibt auch die Möglichkeit, die Quelle im direkten Zitat aufzuteilen. Sie geben dann zunächst einleitend den Autornamen und das Jahr an. Die Seitenzahl folgt erst nach dem direkten Zitat. Das erhöht die Lesbarkeit.'
               -
                 type: set
                 attrs:
                   id: lmfyec0g
                   values:
                     type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/nummer-fliesstext-din-min.png
                     img_size: w-full
                     image_options:
                       - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Grundsätzlich ist beim Harvard Zitieren Unterstützung durch Programme möglich. Es gibt einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.grafiati.com/de/blogs/harvard-referencing-generator/'
+                          target: null
+                          rel: null
+                    text: 'Harvard Zitiergenerator'
+                  -
+                    type: text
+                    text: ', mit dem Sie korrekte Zitatangaben erstellen können. In Word können Sie die Harvard-Zitierweise einstellen. Dazu wählen Sie im Reiter „Verweise“ die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Formatvorlage Harvard'
+                  -
+                    type: text
+                    text: .
+              -
+                type: set
+                attrs:
+                  id: lpiorbdt
+                  values:
+                    type: floating_img
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Verweisen Sie mehrfach hintereinander auf die gleiche Quelle, dann können Sie auch „ebd.“ benutzen. Es besteht allerdings keine Pflicht zum '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/ebenda-zitieren'
+                          target: null
+                          rel: null
+                    text: ebd.-Zitieren
+                  -
+                    type: text
+                    text: '. Bei Unsicherheiten kann Ihnen ein Ghostwriter helfen. Sie können sich eine Vorlage für eine Bachelorarbeit oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit erstellen lassen'
+                  -
+                    type: text
+                    text: ', bei der korrekt nach dem Harvard-Stil zitiert wird.'
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -799,24 +894,70 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Literaturverzeichnis: DIN ISO 690'
+                    text: 'Indirekte Zitate'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Das Literaturverzeichnis für den Referenzstil sieht so aus:'
+                    text: 'Wenn Sie indirekt zitieren, dann können Sie das durch ein „vgl.“ kennzeichnen. Die Angabe des „vgl.“ ist in diesem Falle optional. Es sind beide Varianten möglich. Auch hier sollten Sie sich die Vorgaben Ihrer Hochschule genau durchlesen. In jedem Falle gehören auch indirekte Verweise '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'nicht in die Fußnoten, sondern in den Fließtext.'
+                  -
+                    type: text
+                    text: ' Wenn Sie sich eine Vorlage für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', können Sie sicher sein, dass alle Vorgaben korrekt umgesetzt werden. Unser Zitiergenerator hilft Ihnen ebenfalls beim Einhalten der korrekten Zitierweise.'
               -
                 type: set
                 attrs:
                   id: lmfyf750
                   values:
                     type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/reihenfolge-literaturverzeichnis-din-iso-min.png
                     img_size: w-full
                     image_options:
                       - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Diese Regel gilt nicht nur, wenn Sie ein Buch zitieren nach Harvard. Auch wenn Sie Studien zitieren nach Harvard, geben Sie die Quelle nach diesem Muster an. Bei mehreren Autoren gilt: Bei bis zu zwei Autoren werden alle Namen angegeben.'
+              -
+                type: set
+                attrs:
+                  id: lpioub4e
+                  values:
+                    type: floating_img
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Haben mehr als zwei Autoren eine Studie verfasst, dann geben Sie nur den Hauptautor an und kürzen die restlichen Autoren mit „et al.“ ab. Ins Literaturverzeichnis gehören dann wieder alle Namen. Dazu und auch, wie Sie einen Sammelband zitieren nach Harvard, erfahren Sie weiter unten im Beitrag noch mehr.'
+              -
+                type: set
+                attrs:
+                  id: lpiov77i
+                  values:
+                    type: floating_img
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -831,39 +972,30 @@ replicator:
                 content:
                   -
                     type: text
-                    text: '2. Variante: Zitieren in der Fußnote'
+                    text: 'Internetquelle zitieren im Harvard-Stil'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Außerdem haben Sie die Möglichkeit, die Quellen '
+                    text: 'Wenn Sie Texte verwenden, die nur im Netz abrufbar sind, dann behandeln Sie diese nach der Harvard-Zitierweise im Fließtext wie eine Buchquelle oder eine Studie: Sie zitieren bei bis zu zwei Autoren alle Namen und bei drei und mehr Autoren schreiben Sie „Autor 1 et al.“. Hinzu kommt in jedem Falle das Jahr des Erscheinens der Internetquelle.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'als Kurzbelege in den Fußnoten'
-                  -
-                    type: text
-                    text: ' anzugeben. Das sieht dann im Fließtext folgendermaßen aus:'
+                    text: 'Ins Literaturverzeichnis gehören dann die URL und das Datum des letzten Abrufs. Das kann dann etwa so aussehen:'
               -
                 type: set
                 attrs:
                   id: lmfygfti
                   values:
                     type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/fussnote-din-min.png
                     img_size: w-full
                     image_options:
                       - no_upscale
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Das Literaturverzeichnis für den Fußnotenstil ist alphabetisch geordnet. ISO 690 schreibt sehr strikte Regeln für die unterschiedlichen Arten von Quellen vor. Wir zeigen Ihnen diese ausführlich weiter unten in diesem Beitrag.'
               -
                 type: set
                 attrs:
@@ -878,36 +1010,38 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "3. Variante:\_Endnote"
+                    text: 'Abbildungen zitieren nach Harvard-Zitierweise'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Weiterhin können Sie '
+                    text: 'Tabellen und Abbildungen werden nach Harvard-Vorgaben nummeriert und mit einem kurzen Titel versehen. In unserem Beispiel wurde eine eigene Abbildung erstellt. Die Daten stammen von einem Statistikportal. Dieses müssen Sie als Quelle angeben. Sie setzen also Autor, Jahreszahl und gegebenenfalls auch die Seitenzahl als Quellenverweis hinter den Kurztitel der Abbildung.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Text selbst verweisen Sie dann jeweils auf die Nummer der Abbildung, wenn Sie noch genauere Ausführungen dazu machen. Beim Erstellen von Abbildungen kann ein Ghostwriter Sie unterstützen. Wenn Sie beispielsweise in '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: Endnoten
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/ghostwriter/soziologie'
+                          target: null
+                          rel: null
+                    text: 'Soziologie einen Ghostwriter'
                   -
                     type: text
-                    text: ' verwenden. Dabei geben Sie die Quellen im laufenden Text als Zahl in Klammern an. Welche Quelle sich hinter welcher Zahl verbirgt, ergibt sich aus dem Endnoten-Verzeichnis. Hierin werden die vollständigen Quellen angegeben. Das Endnotenverzeichnis steht am Ende der Arbeit und ist numerisch sortiert, ähnlich wie beim IEEE-Zitierstil.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Fließtext sieht die Endnummernvariante genauso aus wie die erste Variante. Sie vergeben Nummern für die Quellen. Auch das Literaturverzeichnis sieht genauso aus wie ein gewöhnliches Verzeichnis mit alphabetischer Sortierung. Anders ist in dieser Variante lediglich das Endnotenverzeichnis. Dieses sieht folgendermaßen aus:'
+                    text: ' beauftragen, dann hat dieser Zugang zu den wichtigsten Datenbanken und kann an Hand statistischer Daten Abbildungen für Ihr Thema erstellen.'
               -
                 type: set
                 attrs:
                   id: lmfyis7i
                   values:
                     type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/din-endnoten-min.png
                     img_size: w-full
                     image_options:
                       - no_upscale
@@ -925,27 +1059,45 @@ replicator:
                 content:
                   -
                     type: text
-                    text: '4. Variante: Alphanumerisch'
+                    text: 'Gesetze zitieren Harvard'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Als vierte Variante können Sie wie bei der Harvard-Methode im Text Autorenname und Erscheinungsjahr angeben. Das Literaturverzeichnis ist alphanumerisch sortiert.'
-              -
-                type: paragraph
-                content:
+                    text: 'In jeder wissenschaftlichen Arbeit ist es wichtig, dass Sie die '
                   -
                     type: text
-                    text: 'Im Fließtext sieht das dann so aus:'
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/literaturquellen-richtig-zitieren'
+                          target: null
+                          rel: null
+                    text: 'Literaturquellen richtig zitieren'
+                  -
+                    type: text
+                    text: '. Bei juristischen Arbeiten müssen Sie auf Gesetzestexte verweisen. Hierzu müssen Sie Paragraph, Absatz, Satz und Kurztitel des Gesetzbuches anführen. Dies geschieht nach der Harvard-Methode direkt im Fließtext. Wenn Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/gesetze-zitieren'
+                          target: null
+                          rel: null
+                    text: 'Gesetze zitieren'
+                  -
+                    type: text
+                    text: ', wird die Quellenangabe also unmittelbar nach dem Gesetz gemacht, auf das Sie verweisen.'
               -
                 type: set
                 attrs:
                   id: lmfymbly
                   values:
                     type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/alphabetisch-din-iso-min.png
                     img_size: w-full
                     image_options:
                       - no_upscale
@@ -954,13 +1106,38 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wie das Literaturverzeichnis für diese Form der Zitation aussieht, zeigen wir Ihnen weiter unten in diesem Beitrag. ISO 690 schreibt nämlich für die verschiedenen Quellen sehr detaillierte Regeln vor.'
-              -
-                type: paragraph
-                content:
+                    text: 'Wichtig ist, dass bei juristischen Arbeiten die '
                   -
                     type: text
-                    text: 'Die Varianten 2 bis 4 werden durch Citavi und durch Word unterstützt, die Referenznummern-Variante nicht.'
+                    marks:
+                      -
+                        type: bold
+                    text: Gesetze
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'nicht im Literaturverzeichnis '
+                  -
+                    type: text
+                    text: 'aufgeführt werden. Bei solchen Arbeiten ist also höchste Sorgfalt geboten. Dabei kann in '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/ghostwriter/jura'
+                          target: null
+                          rel: null
+                    text: 'Jura ein Ghostwriter'
+                  -
+                    type: text
+                    text: ' Sie unterstützen.'
               -
                 type: paragraph
                 content:
@@ -987,1091 +1164,94 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wie ist DIN ISO 690 aufgebaut?'
+                    text: 'Wie sieht ein Literaturverzeichnis im Harvard-Stil aus?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Zitationsnorm ISO 690 liegt in '
+                    text: 'Ein korrektes Literaturverzeichnis nach Harvard erstellen Sie im folgenden Format: Autorname (Erscheinungsjahr des Werkes): '
                   -
                     type: text
                     marks:
                       -
-                        type: link
-                        attrs:
-                          href: 'https://www.beuth.de/de/norm/din-iso-690/190805484'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'gedruckter Form'
+                        type: italic
+                    text: Titel
                   -
                     type: text
-                    text: ' vor, allerdings muss sie kostenpflichtig erworben werden. In der Norm ist aufgeführt, wie sie verschiedene Quellen im Text und im Literaturverzeichnis angeben müssen. In unseren Beispielen für die ISO 690-Zitierweise verwenden wir die Harvard-Methode. Wir beziehen uns auf eine Bachelorarbeit in BWL, Thema ist die Bedeutung von Trends für die Wirtschaft.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Hat ein von Ihnen zitiertes Buch einen Verfasser, dann geben Sie im Fließtext den Namen und das Jahr an. Das geschieht in Klammern und direkt hinter der zu belegenden Stelle.'
-              -
-                type: set
-                attrs:
-                  id: lkh3kubg
-                  values:
-                    type: anchor_target
-                    anchor_name: literaturverzeichnis
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Angabe der Quelle im Literaturverzeichnis'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die vollständigen Angaben werden im Literaturverzeichnis aufgeführt. Bei einer Quelle mit einem Autor sieht das so aus:'
-              -
-                type: set
-                attrs:
-                  id: lmfynwad
-                  values:
-                    type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/din-iso-literaturverzeichnis-min.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Anders als bei anderen Zitierstilen setzen Sie nur zwischen Namen, Vornamen und Jahreszahl ein Komma. Anschließend kommt zwischen den Angaben jeweils ein Punkt. Der Nachname des Autors wird groß geschrieben. Der Vorname des Autors wird ausgeschrieben. Außerdem muss zwingend die Auflage angegeben werden, auch wenn es sich um die Originalausgabe handelt. Weiterhin benötigen Sie die ISBN. Die Reihenfolge ist alphabetisch'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Um sich die Arbeit zu erleichtern, sollten Sie alle diese Angaben bereits während des Schreibprozesses sammeln. Bei Unsicherheiten und Fragen kann Ihnen ein professionelles Lektorat weiterhelfen. Ghostwriter wissen, worauf sie bei den verschiedenen Zitierstilen achten müssen und wo sie die nötigen Angaben beschaffen können.'
-              -
-                type: set
-                attrs:
-                  id: lmfz6wfq
-                  values:
-                    type: anchor_target
-                    anchor_name: autoren
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Mehrere Autoren: DIN ISO 690'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei zwei Autoren erscheint beim zweiten Autor der Vorname vor dem Nachnamen.'
-              -
-                type: set
-                attrs:
-                  id: lmfyojm5
-                  values:
-                    type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/autoren-din-min.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: lkh3ka2b
-                  values:
-                    type: anchor_target
-                    anchor_name: sammelwerk
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Sammelwerke nach DIN ISO 690 zitieren'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wenn eine Informationsquelle mehrere Herausgeber hat, zitieren Sie folgendermaßen:'
-              -
-                type: set
-                attrs:
-                  id: lmfypf3l
-                  values:
-                    type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/sammelwerk-din-min.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Namen der Herausgeber werden jeweils durch ein Komma getrennt. Ab dem zweiten Herausgeber steht der Vorname vor dem Nachnamen. Nachnamen werden groß geschrieben. Auch hier darf die ISBN nicht fehlen.'
-              -
-                type: set
-                attrs:
-                  id: lm0u776f
-                  values:
-                    type: anchor_target
-                    anchor_name: internetquellen
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Zitieren von Internetquellen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei Internetquellen müssen Sie beachten, dass Sie das Datum des letzten Zugriffs vor der URL nennen. In anderen Zitierstilen ist es umgekehrt, da wird bei einer '
+                    text: ' '
                   -
                     type: text
                     marks:
                       -
-                        type: link
-                        attrs:
-                          href: /blog/internetquellen-zitieren
-                          target: null
-                          rel: null
-                    text: Internetquelle
+                        type: italic
+                    text: 'in Kursivschreibung'
                   -
                     type: text
-                    text: ' zum Schluss das Datum des letzten Zugriffs angegeben.'
+                    text: ', Auflage, Ort: Verlag. Beim Autornamen wird der Nachname ausgeschrieben, der Vorname wird nach dem ersten Buchstaben abgekürzt. Je nach Dokumententyp sind noch weitere Angaben nötig. Hier sehen Sie die wichtigsten Beispiele:'
               -
                 type: set
                 attrs:
-                  id: lm0vf0pi
+                  id: lpiozrqn
                   values:
                     type: floating_img
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-                    dateien:
-                      - blog/2023/din-iso-690/din-internetquelle-min.png
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
-                  id: lm0u8fez
+                  id: lpip0f13
                   values:
                     type: anchor_target
-                    anchor_name: patent
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Angabe von Patenten nach ISO 690'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Die Zitiernorm schreibt auch vor, wie Sie z.B. ein Patent angeben müssen. So etwas kann in einer Bachelorarbeit in einem technischen Fach notwendig werden. Bei einem Patent ist es wichtig, dass Sie die offizielle Patentnummer und das Datum der Anmeldung kennen. Wenn Sie hierbei Schwierigkeiten haben, kann Ihnen z.B. aus dem Fach\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter/bauingenieurwesen
-                          target: null
-                          rel: null
-                    text: 'Bauingenieurwesen Ghostwriter'
-                  -
-                    type: text
-                    text: ' oder aus dem Bereich '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter/maschinenbau
-                          target: null
-                          rel: null
-                    text: 'Maschinenbau Ghostwriter'
-                  -
-                    type: text
-                    text: ' helfen. Diese Experten haben Zugriff auf Datenbanken und Informationsressourcen, in denen sie die notwendigen Angaben für Sie recherchieren können.'
+                    anchor_name: wichtige-fragen
               -
                 type: set
                 attrs:
-                  id: lm0vfq26
+                  id: lpip0rdx
                   values:
-                    type: floating_img
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-                    dateien:
-                      - blog/2023/din-iso-690/din-patent-min.png
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: lm0uaaq3
-                  values:
-                    type: anchor_target
-                    anchor_name: zeitschriften
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'ISO 690: Artikel aus Zeitschriften angeben'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zeitschriftenbeiträge zitieren Sie nach dem folgenden Schema. Auch hier werden die Nachnamen groß- und die Vornamen ausgeschrieben. Wie bei Monographien kommt bei zwei Autoren der Vorname des zweiten Autors vor dem Nachnamen. Der Titel der Zeitschrift wird kursiv gesetzt, der jeweilige Jahrgang in Fettdruck. Am Beispiel sieht das so aus:'
-              -
-                type: set
-                attrs:
-                  id: lmfyssce
-                  values:
-                    type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/din-zeitschrift-min.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Zitierrichtlinien schreiben für Zeitschriften vor, dass Sie auch die ISSN angeben. Das unterscheidet ISO 690 von anderen Stilen, wo diese Standardnummer nicht angegeben werden muss. Vor allem, wenn Sie mit Sekundärzitaten arbeiten, müssen Sie die ISSN dann für das Literaturverzeichnis extra heraussuchen. Das kann ein echter Zeitfresser sein. Unterstützung kann hier ein '
-                  -
-                    type: text
-                    marks:
+                    type: faq_section
+                    faq_tabs:
                       -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: 'professionelles Lektorat'
-                  -
-                    type: text
-                    text: ' bieten. Unsere Ghostwriter haben Zugang zu wissenschaftlichen Datenbanken und können dadurch schnell für Sie fehlende Angaben ergänzen.'
-              -
-                type: set
-                attrs:
-                  id: lmfyt1tw
-                  values:
-                    type: anchor_target
-                    anchor_name: norm
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'DIN Norm zitieren'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'ISO 690 macht auch Angaben dazu, wie Sie DIN Normen zitieren müssen. Hierfür benötigen Sie zahlreiche Angaben: Sie brauchen den Namen des Normungsinstitutes. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Für deutsche Normen ist das DIN zuständig, in Großbritannien die British Standard Institution, in Frankreich die Association française de normalisation'
-                  -
-                    type: text
-                    text: '. Außerdem benötigen Sie den kompletten Titel der Norm und müssen den Tag wissen, an dem diese von dem jeweiligen Institut ausgegeben wurde. Das sieht dann konkret so aus:'
-              -
-                type: set
-                attrs:
-                  id: lmfytnrg
-                  values:
-                    type: floating_img
-                    dateien:
-                      - blog/2023/din-iso-690/din-norm-min.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei Normen müssen Sie beachten, dass Nummer und Name kursiv gesetzt werden. Das Ausgabedatum muss in der Form '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'TT.MM.JJJJ '
-                  -
-                    type: text
-                    text: 'angegeben werden. Allerdings erfahren Sie von den Instituten nur den Monat der Ausgabe. Deswegen geben Sie den Tag mit „00“ an.'
-              -
-                type: set
-                attrs:
-                  id: lmfyuat9
-                  values:
-                    type: anchor_target
-                    anchor_name: fehler
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Die häufigsten Fehler beim Zitieren nach DIN ISO 690'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'ISO 690 ähnelt in vielen Punkten den anderen bekannten Zitierstilen. Es gibt jedoch einige Unterschiede – und genau die machen die Sache so kompliziert. Zu den häufigsten Fehlern gehören Kleinigkeiten, in denen DIN ISO 690 von anderen Zitiernormen abweicht:'
-              -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                        id: lpip0swp
+                        tab_headline: 'FAQ: Harvard Zitierweise'
+                        items:
                           -
-                            type: paragraph
-                            content:
+                            id: lpip12si
+                            headline: 'An welcher Stelle werden in der Harvard Zitierweise die Quellenangaben gemacht?'
+                            accordion_content:
                               -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Vorgabe DIN ISO 690'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Häufige Fehler'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Beispiel
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Nachnamen der Autoren werden immer in Großbuchstaben gesetzt'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Nachnamen werden in normaler Schreibweise geschrieben'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Aburdene
-                              -
-                                type: text
-                                text: ', Patricia, 2008. '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: 'Megatrends 2020. Sieben Trends, die unser Leben und Arbeiten verändern werden'
-                              -
-                                type: text
-                                text: ". 1. Auflage. Bielefeld: J. Kamphausen. ISBN: \_9783899011623."
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Vornamen der Autoren werden ausgeschrieben'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Vornamen werden abgekürzt'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ABURDENE, '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: P
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: .
-                              -
-                                type: text
-                                text: ', 2008. '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: 'Megatrends 2020. Sieben Trends, die unser Leben und Arbeiten verändern werden'
-                              -
-                                type: text
-                                text: ". 1. Auflage. Bielefeld: J. Kamphausen. ISBN: \_9783899011623."
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ab dem zweiten Autoren kommt der Vorname vor dem Nachnamen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Vornamen werden komplett nach dem Nachnamen geschrieben'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'NIRK, Rudolf und '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: ULLMANN
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: ', '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Eike
-                              -
-                                type: text
-                                text: ', 1999. '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: 'Gewerblicher Rechtsschutz'
-                              -
-                                type: text
-                                text: ', Band I: Patent-, Gebrauchsmuster- und Sortenschutzrecht. 1. Auflage. Heidelberg: C. F. Müller Verlag, ISBN: 3811486993'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'bei Internetquellen: Datum des letzten Zugriffs vor der URL nennen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Datum des letzten Zugriffs wird nach der URL genannt'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'BJÖRK, Anders, 2013, '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: 'Was ist ein Trend?'
-                              -
-                                type: text
-                                text: ', 29.11.2013, Verfügbar unter: '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: 'http://www.bjoerk.de/was-ist-ein-trend'
-                                      target: null
-                                      rel: null
-                                text: 'http://www.bjoerk.de/was-ist-ein-trend'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#468847!important'
-                                      hex: '#000'
-                                text: ' '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: '[letzter Zugriff am 06.09.2023]'
-                              -
-                                type: text
-                                text: .
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Zeichen im Literaturverzeichnis:'
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
+                                type: paragraph
                                 content:
                                   -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Komma zwischen Namen, Vornamen und Jahreszahl'
+                                    type: text
+                                    text: 'Alle Quellen werden im Fließtext direkt hinter der zu belegenden Stelle gemacht. Sie setzen die Quelle in Klammern.'
+                            active: false
+                          -
+                            id: lpip2127
+                            headline: 'Gibt es in der Harvard-Zitierweise auch Fußnoten?'
+                            accordion_content:
                               -
-                                type: list_item
+                                type: paragraph
                                 content:
                                   -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Punkte zwischen allen weiteren Angaben'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                                    type: text
+                                    text: 'Ja, Sie können Fußnoten machen. Allerdings gehören dort nur weiterführende Informationen hinein. Quellenbelege haben in den Fußnoten nichts zu suchen.'
+                            active: false
                           -
-                            type: paragraph
-                            content:
+                            id: lpip2iue
+                            headline: 'Gibt es Unterschiede bei Harvard Zitierweise zwischen direkten und indirekten Zitaten?'
+                            accordion_content:
                               -
-                                type: text
-                                text: 'Falsche Interpunktion im Literaturverzeichnis, z.B. Verwendung von Klammern und Doppelpunkten'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ABURDENE, P. '
-                              -
-                                type: text
-                                marks:
+                                type: paragraph
+                                content:
                                   -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: (
-                              -
-                                type: text
-                                text: '2008'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: )
-                              -
-                                type: text
-                                text: ': '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: 'Megatrends 2020. Sieben Trends, die unser Leben und Arbeiten verändern werden'
-                              -
-                                type: text
-                                text: ". 1. Auflage. Bielefeld: J. Kamphausen. ISBN: \_9783899011623."
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Auflage des jeweiligen Buches muss genannt werden'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Angabe der Auflage wird vergessen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ABURDENE, P., 2008. '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: 'Megatrends 2020. Sieben Trends, die unser Leben und Arbeiten verändern werden'
-                              -
-                                type: text
-                                text: '. '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: '***'
-                              -
-                                type: text
-                                text: " Bielefeld: J. Kamphausen. ISBN: \_9783899011623."
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ISBN und ISSN müssen angeben werden'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ISBN und ISSN werden vergessen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ABURDENE, P., 2008. '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: 'Megatrends 2020. Sieben Trends, die unser Leben und Arbeiten verändern werden'
-                              -
-                                type: text
-                                text: '. 1. Auflage. Bielefeld: J. Kamphausen.'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: '***'
+                                    type: text
+                                    text: 'Ja, die gibt es. Bei direkten Zitaten geben Sie immer die Seitenzahl mit an. Bei indirekten Zitaten reicht die Angabe von Autor/en und Erscheinungsjahr des Werkes. Sie können bei indirekten Zitaten auch ein „vgl.“ davor setzen. Das handhaben die Hochschulen jedoch sehr unterschiedlich.'
+                            active: false
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Es ist ein hohes Maß an Genauigkeit nötig, um diese Fehler zu vermeiden. Ein Ghostwriter kann Ihnen während des Schreibprozesses zur Seite stehen. Ein Profi kann dann die Zitierweise im Text und im Literaturverzeichnis überprüfen. Sie können sich auch eine Mustervorlage für die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Masterarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: ', bei der korrekt nach DIN ISO 690 zitiert wird.'
-              -
-                type: set
-                attrs:
-                  id: lmfyv2dq
-                  values:
-                    type: anchor_target
-                    anchor_name: zitieren-oder-nicht
               -
                 type: heading
                 attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Nach ISO 690 zitieren oder lieber nicht?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wie Sie sehen, hat das Zitieren nach ISO 690 einige Nachteile. Vor allem, wenn Sie bislang andere Zitierstile gewohnt waren, verwirren die vielen kleinen Detailunterschiede. Wenn Ihre Hochschule den Zitierstil vorschreibt, haben Sie jedoch keine Wahl.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie können die üblichen Zitierprogramme für DIN ISO 690 verwenden. In Word und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://help.citavi.com/en'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: Citavi
-                  -
-                    type: text
-                    text: ' können Sie einstellen, dass Sie nach diesen Vorgaben zitieren. In Word können Sie zwei Varianten von DIN ISO 690 einstellen: Die Referenznummern und das Harvard-System, das Endnummern-System wird nicht unterstützt. Der Online-Generator '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.grafiati.com/de/blogs/iso-690-citation-generator/'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: Grafiati
-                  -
-                    type: text
-                    text: ' kann ebenfalls nach DIN ISO 690 zitieren, genau wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.overleaf.com/learn/latex/Articles/Getting_started_with_BibLaTeX'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: BibLaTeX
-                  -
-                    type: text
-                    text: '. Für die Dokumentation aller Titelangaben und Informationsquellen können Sie auch das Tool '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.zotero.org/'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: Zotero
-                  -
-                    type: text
-                    text: ' verwenden, das es für alle gängigen Betriebssysteme gibt.'
+                  level: 3
               -
                 type: set
                 attrs:
@@ -2108,5 +1288,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701195409
+updated_at: 1701197554
 ---
