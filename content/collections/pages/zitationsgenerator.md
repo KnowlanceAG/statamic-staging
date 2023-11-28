@@ -346,7 +346,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#harvard'
+                          href: /zitationsgenerator/harvard-zitieren
                           target: null
                           rel: null
                     text: Harvard-Zitierweise
@@ -950,6 +950,6 @@ schema_objects: |-
     ]
   }
   </script>
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701081678
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1701208404
 ---
