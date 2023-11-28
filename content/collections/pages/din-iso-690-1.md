@@ -645,7 +645,7 @@ replicator:
                           <b>Harvard Zitierstil Beispiel:</b><br><br>Drexler (2018) schlägt vor, dass „xx yy zz“ (S. 145).
 
                       <br><br><span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">(Jahr)</span>
-                        <span style="background-color: #93C6E8;">Text</span>
+                        <span style="background-color: #EFA052;">Text</span>
                         <span style="background-color: #CAE891;">(Seitenanzahl).</span>
                       </div>
               -
@@ -2109,5 +2109,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701194246
+updated_at: 1701194307
 ---
