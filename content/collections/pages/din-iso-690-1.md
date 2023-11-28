@@ -707,9 +707,9 @@ replicator:
                     html: |-
                       <div style="border: 4px solid #FF660A; padding: 20px;"><b>Harvard-Style: Literaturverzeichnis Beispiel</b><br><br>
 
-                      <span style="background-color: #91C6E8;">Drexler, K.</span><span style="background-color: #C891E8;">(2018):</span><span style="background-color: #CAE891;">Ererbte Wunden heilen. Therapie der transgenerationalen Traumatisierung,</span><span style="background-color: #E87667;">3. Aufl.,</span><span style="background-color: #E9777A;">Stuttgart:</span><span style="background-color: #F261DD;">Klett-Cotta.</span>
+                      <span style="background-color: #91C6E8;">Drexler, K.</span><span style="background-color: #C891E8;">(2018):</span><span style="background-color: #CAE891;">Ererbte Wunden heilen. Therapie der transgenerationalen Traumatisierung,</span><span style="background-color: #E87667;">3. Aufl.,</span><span style="background-color: #F29141;">Stuttgart:</span><span style="background-color: #F261DD;">Klett-Cotta.</span>
                       <br><br>
-                      <span style="background-color: #91C6E8;">Nachname, Vorname</span><span style="background-color: #C891E8;">(Jahr):</span><span style="background-color: #CAE891;">Titel des Artikels,</span><span style="background-color: #E87667;">Auflage,</span><span style="background-color: #E9777A;">Ort:</span><span style="background-color: #F261DD;">Verlag.</span> </div>
+                      <span style="background-color: #91C6E8;">Nachname, Vorname</span><span style="background-color: #C891E8;">(Jahr):</span><span style="background-color: #CAE891;">Titel des Artikels,</span><span style="background-color: #E87667;">Auflage,</span><span style="background-color: #F29141;">Ort:</span><span style="background-color: #F261DD;">Verlag.</span> </div>
               -
                 type: paragraph
               -
@@ -2198,5 +2198,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701194809
+updated_at: 1701195132
 ---
