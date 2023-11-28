@@ -17,7 +17,7 @@
         <div
           class="w-auto h-auto block md:{{ img_size }} md:{{ float }} my-5 {{ if float == 'float-right' }}md:inline-block md:ml-5{{ elseif float == 'float-left' }} md:inline-block md:mr-5 {{ else }} md:block{{ /if }}">
           {{ if ( image_options | raw | in_array:no_upscale ) }}
-            {{ responsive:dateien alt="{alt}" class="block mx-auto h-auto" glide:width="width" }}
+            {{ responsive:dateien alt="{alt}" class="block mx-auto h-auto" glide:width="{ width }" }}
           {{ else }}
             {{ responsive:dateien alt="{alt}" class="block w-full md:w-full h-auto" }}
           {{ /if }}

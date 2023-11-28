@@ -9,17 +9,14 @@
   ],
   "type": "project",
   "require": {
-    "php": "^8.1",
+    "php": "^8.3",
     "guzzlehttp/guzzle": "^7.3",
-    "laravel/framework": "^10.0",
+    "laravel/framework": "^10.8",
     "laravel/tinker": "^2.0",
     "samdark/sitemap": "^2.2",
     "spatie/fork": "^1.1",
     "spatie/statamic-responsive-images": "4.1.1",
-    "statamic/cms": "4.36.0",
-    "statamic/ssg": "2.2.0",
-    "uscreen/cpssg": "1.5.12",
-    "uscreen/link-extended": "*",
+    "statamic/cms": "4.31.0",
     "withcandour/aardvark-seo": "3.0.0"
   },
   "require-dev": {

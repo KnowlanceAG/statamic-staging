@@ -5,7 +5,7 @@
               {{ if extension == 'svg' || extension == 'gif' }}
                 <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ bild:alt }}" {{ /if }}>
               {{ else }}
-                  {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="width" }}
+                  {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="{ width }" }}
               {{ /if }}
           {{ /bild }}
         {{ /if }}
