@@ -1,6 +1,5 @@
 ---
 id: ff31aab0-28c4-4293-b3dd-df88d7c95e84
-published: false
 blueprint: pages
 title: 'In der Abschlussarbeit mit Harvard zitieren - einfach erklärt!'
 teaser:
@@ -589,41 +588,118 @@ replicator:
                             type: text
                             text: 'im Fließtext nach dem Schema [Autor] [(Jahr)], beispielsweise so:'
               -
-                type: paragraph
+                type: set
+                attrs:
+                  id: lpilrl7z
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>Bakó und Zana (2020) halten fest, …
+
+                      <br><br><span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">(Jahr)</span>
+                      </div>
+              -
+                type: set
+                attrs:
+                  id: lpimpsf0
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>…kann konstatiert werden (Bakó & Zana 2020).
+
+                      <br><br>(<span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">Jahr</span>)
+                      </div>
+              -
+                type: heading
+                attrs:
+                  level: 3
                 content:
                   -
                     type: text
-                    text: '„Bakó und Zana (2020) halten fest, …“'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Sie können die Angaben auch in einer Klammer anführen, dann nach dem Schema ([Autor] [Jahr]), also zum Beispiel auf diese Weise:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '„…kann konstatiert werden (Bakó & Zana 2020).“'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '(2) Direkte Zitate:'
+                    text: 'Direkte Zitate'
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     text: 'Bei direkten Zitaten bleibt das Schema gleich. Sie müssen allerdings jeweils noch die Seitenzahl dazuschreiben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "-\_\_\_\_\_\_\_\_\_ \_im Fließtext sieht das dann so aus: [Autor] [(Jahr)] [Text] [(Seitenzahl)]. Konkret:\_"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '„Drexler (2018) schlägt vor, dass „xx yy zz“ (S. 145).“'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "-\_\_\_\_\_\_\_\_\_ in der Klammer kommen alle Angaben direkt hintereinander: ([Autor] [Jahr] [Seitenzahl], beispielsweise so:"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "(Drexler 2018, S. 145).\_ "
+              -
+                type: horizontal_rule
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: '#_msoanchor_1'
+                          target: null
+                          rel: null
+                    text: '[PM1]'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: red
+                          hex: '#000'
+                    text: 'Schreiben Sie dazu die Beschriftung im Aufbau ein, wie ich Ihnen oben als Beispiel gezeigt habe zum Beispiel: (Autorname (Jahr), Seiten)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: red
+                          hex: '#000'
+                    text: "\_"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: red
+                          hex: '#000'
+                    text: 'Machen Sie das auch bei indirekte Zitate und im Literaturverzeichnis'
               -
                 type: set
                 attrs:
@@ -2012,5 +2088,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701188803
+updated_at: 1701193682
 ---
