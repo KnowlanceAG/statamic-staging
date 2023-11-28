@@ -766,6 +766,11 @@ replicator:
                   id: lpinwzpk
                   values:
                     type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-fussnote-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
               -
@@ -804,6 +809,11 @@ replicator:
                   id: lpinxd1b
                   values:
                     type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/direktes-zitat-harvard-min-1701197826.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
                 content:
@@ -819,6 +829,8 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/direktes-zitat-im-text.jpg
               -
                 type: paragraph
                 content:
@@ -853,6 +865,9 @@ replicator:
                   id: lpiorbdt
                   values:
                     type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-word-min.jpg
+                    img_size: w-full
               -
                 type: paragraph
                 content:
@@ -932,6 +947,8 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/indirektes-zitat-harvard-min.jpg
               -
                 type: paragraph
                 content:
@@ -944,6 +961,11 @@ replicator:
                   id: lpioub4e
                   values:
                     type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/indirektes-zitat-harvard-im-text-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
                 content:
@@ -956,6 +978,11 @@ replicator:
                   id: lpiov77i
                   values:
                     type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/zitieren-et-al-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
               -
@@ -994,6 +1021,8 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/internetquelle-harvard.jpg
               -
                 type: paragraph
               -
@@ -1045,6 +1074,8 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-beispiel-min.jpg
               -
                 type: set
                 attrs:
@@ -1101,6 +1132,8 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-gesetze-zitieren-min.jpg
               -
                 type: paragraph
                 content:
@@ -1195,6 +1228,11 @@ replicator:
                   id: lpiozrqn
                   values:
                     type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-literaturverzeichnis-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: set
                 attrs:
@@ -1272,7 +1310,7 @@ replicator:
     border: false
     type: add_section
     enabled: true
-page_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
+page_title: 'In der Abschlussarbeit mit Harvard zitieren - einfach erklärt!'
 sitemap_active: true
 breadcrumbs_active: true
 template: default
@@ -1288,5 +1326,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701197554
+updated_at: 1701199818
 ---
