@@ -55,15 +55,6 @@ tree:
                 id: 598b7b65-ef48-4f08-8ca1-768ad154123e
                 entry: dd6f6660-6373-41b6-9020-7a6b958766a3
               -
-                id: 00ca1565-64f6-43db-a6f8-6079ccfe81ba
-                entry: 32176ea9-b800-4a50-a559-80e578590d8e
-              -
-                id: d142a251-ae88-45b6-aeba-b93012fc068c
-                entry: bd3da55a-e707-4ec0-bf7c-4fcd9d8ac8b5
-              -
-                id: c216b1dd-026b-4a07-9dd2-f83c535146f9
-                entry: 7666c317-a6d9-43f1-be2e-367b4e33e946
-              -
                 id: 49d9b2c3-0b0c-4fa9-8442-df1730c11ad8
                 entry: 949c6959-cee4-4c89-be43-27ec9b420df3
           -
@@ -76,6 +67,15 @@ tree:
               -
                 id: 31fc6138-9180-4742-b1de-386e65e822fe
                 entry: f49cc00a-bc35-4399-9772-09dc61f246d1
+              -
+                id: c216b1dd-026b-4a07-9dd2-f83c535146f9
+                entry: 7666c317-a6d9-43f1-be2e-367b4e33e946
+              -
+                id: d142a251-ae88-45b6-aeba-b93012fc068c
+                entry: bd3da55a-e707-4ec0-bf7c-4fcd9d8ac8b5
+              -
+                id: 00ca1565-64f6-43db-a6f8-6079ccfe81ba
+                entry: 32176ea9-b800-4a50-a559-80e578590d8e
               -
                 id: 13631b7e-3dc9-444e-bc08-c1c953a474a6
                 entry: 134ba799-3362-4166-86f7-bba4e992d7d7
@@ -109,6 +109,9 @@ tree:
                 id: 78b16d4e-0c7e-4a36-b3c5-dd265f764208
                 entry: 84a37239-87ee-45fb-b2d1-058a86fecfbb
               -
+                id: 52a5305c-da2b-4db6-9991-483e9e17904f
+                entry: 274572ca-1608-4345-8e5b-d51e74845491
+              -
                 id: f60dfe18-9047-49ed-b8b3-e3372d970f32
                 entry: 1de3d76b-f23a-41a8-a629-15b48a07223e
               -
@@ -141,9 +144,6 @@ tree:
               -
                 id: 912093fa-ebe7-4858-8f3e-6e32c25c0c70
                 entry: 34f7528d-839e-4ef6-b735-627084dba887
-              -
-                id: 52a5305c-da2b-4db6-9991-483e9e17904f
-                entry: 274572ca-1608-4345-8e5b-d51e74845491
           -
             id: b51d8d71-1573-4a62-aad0-e90d568ce6d7
             title: Sozialwissenschaften
