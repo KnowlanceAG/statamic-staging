@@ -1,7 +1,8 @@
 ---
 id: ff31aab0-28c4-4293-b3dd-df88d7c95e84
+published: false
 blueprint: pages
-title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑 (Dupliziert)'
+title: 'In der Abschlussarbeit mit Harvard zitieren - einfach erklärt!'
 teaser:
   -
     type: heading
@@ -20,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele & Generator'
+        text: 'Zitierregeln nach HARVARD - praktische Beispiele & Generator'
   -
     type: set
     attrs:
@@ -132,7 +133,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In der Vorschrift DIN ISO 690 sind verschiedene Zitierregeln zusammengefasst, die Sie in Ihrer Bachelor- oder Masterarbeit verwenden können. Im Fließtext haben Sie drei verschiedene Möglichkeiten, jede Quelle mit einem Kurzbeleg zu erwähnen: mit Referenznummern, Endnoten oder Kurzbelegen. Die vollständigen Titelangaben kommen ins Literaturverzeichnis. Die Richtilinien von DIN ISO 690 können Sie fast in jedem Studienfach anwenden, besonders verbreitet ist der Stil jedoch in den technischen Fächern.'
+                    text: 'In sozial- und geisteswissenschaftlichen Fächern werden Quellenangaben üblicherweise nach der Harvard-Methode gemacht. Diese Methode gehört mit APA zu den häufigsten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/zitierweisen
+                          target: null
+                          rel: null
+                    text: Zitierweisen
+                  -
+                    type: text
+                    text: ' weltweit. Anders als im APA-Stil sind die Vorgaben weniger streng, wenn Sie nach Harvard zitieren. Klar ist lediglich, dass alle Quellenangaben im Fließtext erfolgen. Die weiteren Details regeln die Hochschulen. Weil die Regeln nicht so eindeutig sind, haben Sie einen größeren Spielraum. Dennoch müssen Sie natürlich einen Rahmen beachten beim Zitieren nach Harvard. In diesem Beitrag zeigen wir Ihnen, worauf Sie achten müssen. Die Beispiele aus unserem Beitrag orientieren sich an den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://home.uni-leipzig.de/schreibportal/zitationsregeln/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Harvard-Regeln der Universität Leipzig'
+                  -
+                    type: text
+                    text: .
               -
                 type: heading
                 attrs:
@@ -454,45 +481,72 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wofür steht die Bezeichnung DIN ISO 690?'
+                    text: 'Zitieren nach Harvard'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'DIN ist die Abkürzung für „'
+                    text: 'Die Harvard-Zitierweise wurde an der US-amerikanischen Elitehochschule Harvard entwickelt. Deswegen wird sie auch als '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Deutsche Industrienorm'
+                    text: 'amerikanische Zitierweise '
                   -
                     type: text
-                    text: '“. Die ISO wiederum ist eine internationale Vereinigung von Normungsorganisationen, also eine Überorganisation über dem DIN-Institut. Eine Norm mit der Bezeichnung DIN ISO ist demnach eine internationale Norm. Manchmal wird sie daher auch nur ISO 690 genannt.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Norm ISO 690 oder DIN ISO 690 schreibt vor, wie die unterschiedlichsten wissenschaftlichen Quellen im Literaturverzeichnis angegeben werden. Die Vorschrift gilt seit 1975 und wurde seitdem mehrfach aktualisiert. Vorläufer dieser internationalen Norm war die deutsche Vorschrift DIN 1505, die sich an den damals üblichen Katalogisierungsregeln von Bibliotheken orientierte.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Aktuell gilt die '
+                    text: 'bezeichnet. Wegen der Art und Weise, in der die Quellen angegeben werden, wird auch von der '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'DIN ISO 690:2013-10'
+                    text: 'Autor-Jahr-Zitationsmethode '
                   -
                     type: text
-                    text: ' mit dem Titel „Information und Dokumentation – Richtlinien für Titelangaben und Zitierung von Informationsressourcen (ISO 690:2010)“. Sie regelt detailliert, in welcher Form die einzelnen Dokumentenarten in einer wissenschaftlichen Arbeit belegt werden müssen.'
+                    text: 'gesprochen. Wenn Sie ein Buch zitieren nach Harvard, dann schreiben Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'im Fließtext'
+                  -
+                    type: text
+                    text: ' in Klammern zuerst den Nachnamen des Autors, anschließend geben Sie das Jahr an, in dem das Buch erschienen ist.'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Regeln sind beim Harvard-Stil nicht so streng wie bei anderen Varianten der Zitation, etwa dem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/ieee-zitierstil
+                          target: null
+                          rel: null
+                    text: IEEE-Zitierstil
+                  -
+                    type: text
+                    text: '. Wichtig ist jedoch, dass die Angaben in Ihrer eigenen Arbeit konsistent sind. Wenn Sie bei Ihrer Abschlussarbeit auf Nummer sicher gehen wollen, können Sie ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: 'professionelles Lektorat'
+                  -
+                    type: text
+                    text: ' in Auftrag geben. Dann sind Sie sicher, dass die Vorgaben zur Zitation korrekt umgesetzt werden.'
               -
                 type: set
                 attrs:
@@ -507,60 +561,69 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wer zitiert nach ISO?'
+                    text: "Harvard Zitierweise in der Übersicht\_"
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die ISO 690-Regularien schreiben vor, dass dieser Zitierstil für '
+                    text: 'Verweise im Text können Sie folgendermaßen machen:'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
                   -
                     type: text
-                    marks:
+                    text: 'Indirekte Zitate'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: /blog/gesetze-zitieren
-                          target: null
-                          rel: null
-                    text: 'Gesetzestexte und Urteile'
-                  -
-                    type: text
-                    text: ' ausdrücklich nicht angewendet wird. Ansonsten können Sie ISO 690 in jedem Fach anwenden. Diese Zitierweise hat sich v.a. in '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'technischen Fächern'
-                  -
-                    type: text
-                    text: ' durchgesetzt, aber auch bei '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeiten in Betriebswirtschaftslehre'
-                  -
-                    type: text
-                    text: ' kommt sie z.B. zur Anwendung. Das hat mit der großen Bedeutung von Normen in technischen Fächern insgesamt zu tun.'
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'im Fließtext nach dem Schema [Autor] [(Jahr)], beispielsweise so:'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
+                    text: '„Bakó und Zana (2020) halten fest, …“'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: 'https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/solte-gresser/Dokumente/Allgemein/Zitieren_nach_DIN_ISO_690.pdf'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Manche Hochschulen'
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Sie können die Angaben auch in einer Klammer anführen, dann nach dem Schema ([Autor] [Jahr]), also zum Beispiel auf diese Weise:'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: ' schreiben sogar vor, dass in Abschlussarbeiten nach ISO 690 zitiert werden muss. In diesem Falle sollten Sie die Regeln kennen und schon während des Schreibprozesses eine genaue Dokumentation aller Titelangaben machen. Wir zeigen Ihnen an Hand von Beispielen, worauf Sie achten müssen.'
+                    text: '„…kann konstatiert werden (Bakó & Zana 2020).“'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '(2) Direkte Zitate:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei direkten Zitaten bleibt das Schema gleich. Sie müssen allerdings jeweils noch die Seitenzahl dazuschreiben.'
               -
                 type: set
                 attrs:
@@ -1948,6 +2011,6 @@ sitemap_changefreq: daily
 og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700835449
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1701188803
 ---
