@@ -602,6 +602,15 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lpimtsaj
+                  values:
+                    type: spacer
+                    padding-y: 12
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
                   id: lpimpsf0
                   values:
                     type: insert_html
@@ -2088,5 +2097,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701193682
+updated_at: 1701193744
 ---
