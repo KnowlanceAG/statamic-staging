@@ -174,7 +174,6 @@ replicator:
         columns_per_row: 0
       -
         id: lp8ikadq
-        columns_per_row: 2
         single_col: true
         grid:
           -
@@ -195,64 +194,13 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#bedeutung'
+                                  href: '#definition'
                                   target: null
                                   rel: null
-                            text: 'Wofür steht die Bezeichnung DIN ISO 690?'
+                            text: 'Zitieren nach Harvard'
                       -
                         type: bullet_list
                         content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#wer'
-                                          target: null
-                                          rel: null
-                                    text: 'Wer zitiert nach ISO?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#vier-moeglichkeiten'
-                                  target: null
-                                  rel: null
-                            text: 'Nach DIN Norm zitieren: Vier Möglichkeiten'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#fliesstext'
-                                          target: null
-                                          rel: null
-                                    text: '1. Variante: DIN Norm im Fließtext'
                           -
                             type: list_item
                             content:
@@ -268,7 +216,7 @@ replicator:
                                           href: '#fussnote'
                                           target: null
                                           rel: null
-                                    text: '2. Variante: Zitieren in der Fußnote'
+                                    text: 'Harvard zitieren: Keine Verweise in den Fußnoten!'
                           -
                             type: list_item
                             content:
@@ -281,10 +229,10 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#endnote'
+                                          href: '#direktes-zitat'
                                           target: null
                                           rel: null
-                                    text: "3. Variante:\_Endnote"
+                                    text: 'Direktes Zitieren '
                           -
                             type: list_item
                             content:
@@ -297,17 +245,10 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#alphanumerisch'
+                                          href: '#indirektes-zitat'
                                           target: null
                                           rel: null
-                                    text: '4. Variante: Alphanumerisch'
-            show_as_card: false
-          -
-            id: lp8ikco1
-            bard:
-              -
-                type: bullet_list
-                content:
+                                    text: 'Indirektes Zitieren'
                   -
                     type: list_item
                     content:
@@ -320,109 +261,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#aufbau'
+                                  href: '#internetquellen'
                                   target: null
                                   rel: null
-                            text: 'Wie ist DIN ISO 690 aufgebaut?'
-                      -
-                        type: bullet_list
-                        content:
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#literaturverzeichnis'
-                                          target: null
-                                          rel: null
-                                    text: 'Angabe der Quelle im Literaturverzeichnis'
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#autoren'
-                                          target: null
-                                          rel: null
-                                    text: 'Mehrere Autoren: DIN ISO 690'
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#sammelwerk'
-                                          target: null
-                                          rel: null
-                                    text: 'Sammelwerke nach DIN ISO 690 zitieren'
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#internetquellen'
-                                          target: null
-                                          rel: null
-                                    text: 'Zitieren von Internetquellen'
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#patent'
-                                          target: null
-                                          rel: null
-                                    text: 'Angabe von Patenten nach ISO 690'
-                          -
-                            type: list_item
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#zeitschriften'
-                                          target: null
-                                          rel: null
-                                    text: 'ISO 690: Artikel aus Zeitschriften angeben'
+                            text: 'Internetquelle zitieren im Harvard-Stil'
                   -
                     type: list_item
                     content:
@@ -435,10 +277,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#norm'
+                                  href: '#abbildungen'
                                   target: null
                                   rel: null
-                            text: 'DIN Norm zitieren'
+                            text: 'Abbildungen zitieren nach Harvard-Regeln'
                   -
                     type: list_item
                     content:
@@ -451,14 +293,47 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#fehler'
+                                  href: '#gesetze'
                                   target: null
                                   rel: null
-                            text: 'Die häufigsten Fehler beim Zitieren nach DIN ISO 690'
+                            text: 'Gesetze zitieren Harvard'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#literaturverzeichnis'
+                                  target: null
+                                  rel: null
+                            text: 'Wie sieht ein Literaturverzeichnis im Harvard-Stil aus?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#wichtige-fragen'
+                                  target: null
+                                  rel: null
+                            text: 'Häufige Fragen und Antworten'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
+        columns_per_row: 0
       -
         id: lp8ilhe9
         single_col: true
@@ -472,7 +347,7 @@ replicator:
                   id: lixf5ptf
                   values:
                     type: anchor_target
-                    anchor_name: bedeutung
+                    anchor_name: definition
               -
                 type: heading
                 attrs:
@@ -546,13 +421,6 @@ replicator:
                   -
                     type: text
                     text: ' in Auftrag geben. Dann sind Sie sicher, dass die Vorgaben zur Zitation korrekt umgesetzt werden.'
-              -
-                type: set
-                attrs:
-                  id: lkh3n8bc
-                  values:
-                    type: anchor_target
-                    anchor_name: wer
               -
                 type: heading
                 attrs:
@@ -726,7 +594,7 @@ replicator:
                   id: lkh3mjn8
                   values:
                     type: anchor_target
-                    anchor_name: vier-moeglichkeiten
+                    anchor_name: fussnote
               -
                 type: heading
                 attrs:
@@ -779,7 +647,7 @@ replicator:
                   id: lmfzgs7u
                   values:
                     type: anchor_target
-                    anchor_name: fliesstext
+                    anchor_name: direktes-zitat
               -
                 type: heading
                 attrs:
@@ -901,7 +769,12 @@ replicator:
                     type: text
                     text: ', bei der korrekt nach dem Harvard-Stil zitiert wird.'
               -
-                type: paragraph
+                type: set
+                attrs:
+                  id: lpiqqg1n
+                  values:
+                    type: anchor_target
+                    anchor_name: indirektes-zitat
               -
                 type: heading
                 attrs:
@@ -909,7 +782,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Indirekte Zitate'
+                    text: 'Indirektes Zitieren'
               -
                 type: paragraph
                 content:
@@ -991,7 +864,7 @@ replicator:
                   id: lmfzhmae
                   values:
                     type: anchor_target
-                    anchor_name: fussnote
+                    anchor_name: internetquellen
               -
                 type: heading
                 attrs:
@@ -1031,7 +904,7 @@ replicator:
                   id: lmfzi8x6
                   values:
                     type: anchor_target
-                    anchor_name: endnote
+                    anchor_name: abbildungen
               -
                 type: heading
                 attrs:
@@ -1082,7 +955,7 @@ replicator:
                   id: lmfzky9l
                   values:
                     type: anchor_target
-                    anchor_name: alphanumerisch
+                    anchor_name: gesetze
               -
                 type: heading
                 attrs:
@@ -1189,7 +1062,7 @@ replicator:
                   id: lkh3m7f0
                   values:
                     type: anchor_target
-                    anchor_name: aufbau
+                    anchor_name: literaturverzeichnis
               -
                 type: heading
                 attrs:
@@ -1326,5 +1199,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701199818
+updated_at: 1701200598
 ---
