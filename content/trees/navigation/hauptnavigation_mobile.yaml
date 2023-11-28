@@ -166,6 +166,13 @@ tree:
               -
                 id: aad3e4d1-8944-4fbe-b854-23b65b8addab
                 entry: 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+              -
+                id: bd2e8f01-cd2f-40b4-898a-25a6f0b9676a
+                entry: 390b1775-dafe-4f7a-b1c1-afe41c4efe70
+              -
+                id: a1c401c8-61aa-4149-93b9-0c363d6ea0d0
+                title: Kommunikationsdesign
+                url: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
           -
             id: 4370439e-daf6-48a6-9194-a84f5a92ded8
             title: 'Wirtschaftliche Fachbereiche'
@@ -191,6 +198,13 @@ tree:
               -
                 id: c69bb324-4d0e-48a1-9967-75ebfb1fd384
                 entry: 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+              -
+                id: 18145e73-6cc1-4abe-bbcf-be5a23d1db5d
+                title: 'Internationale BWL'
+                url: '/ghostwriter/bwl#internationale'
+              -
+                id: e22f9b8d-a9cb-4e93-b9fe-7ce3d3a2cd42
+                entry: 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
           -
             id: 71e0df8b-439d-459d-bf80-e3c72c5d71a8
             title: Geisteswissenschaften
@@ -213,6 +227,13 @@ tree:
               -
                 id: 6385cd39-6f79-4ade-a343-4733ea167246
                 entry: 24308319-8d41-41a9-ad35-e9cf2ceba726
+              -
+                id: e2c7f5b2-5cd0-4958-8a4b-f6208a387ff8
+                entry: 1d98acf0-a0bc-4e18-bb1c-cb42cb096f00
+              -
+                id: 10fe73b3-3247-42c4-a59c-5a1263b0080d
+                title: Kunstgeschichte
+                url: '/ghostwriter/kunst#kunstgeschichte'
           -
             id: e4c7273b-beef-4142-89f5-f19c8d291450
             title: 'Medizinische Fachrichtungen'
