@@ -1,5 +1,5 @@
 <div
-  class="{{ if single_col }}md:max-w-screen-md single-col {{ else }}max-w-1144 {{ /if }}mx-auto {{ if bg_image!==null && bard!==null }}px-4{{ /if }} xl:px-0 lg:grid lg:gap-8 {{ if columns_per_row!=1 }}{{ if responsive_columns!=1 }}lg:grid-cols-{{ responsive_columns }}{{ else }}lg:grid-cols-1{{ /if }} lg:grid-cols-{{ columns_per_row }}{{ /if }}">
+  class="{{ if single_col }}md:max-w-screen-md single-col {{ else }}max-w-1144 {{ /if }}mx-auto {{ if bg_image!==null && bard!==null }}px-4{{ /if }} xl:px-0 lg:grid lg:gap-8 {{ if columns_per_row!==1 }}{{ if responsive_columns!==1 }}lg:grid-cols-{{ responsive_columns }}{{ else }}lg:grid-cols-1{{ /if }} lg:grid-cols-{{ columns_per_row }}{{ /if }}">
   {{ grid }}
     <div
       class="column{{ if bg_image!==null && bard!==null }} p-4 bg-opacity-80 md:bg-transparent md:bg-opacity-100{{ /if }}">
