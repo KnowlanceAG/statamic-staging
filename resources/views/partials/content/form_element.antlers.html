@@ -10,7 +10,7 @@
   <label class="block uppercase tracking-wide text-black text-xs {{ marginTopNone ? 'mt-0' : 'mt-4' }} mb-1"
     for="{{ handle }}">
     {{ trans key="{display}" }}
-    {{ if validate | contains:required }}
+    {{ if validate | contains('required') }}
       <sup class="text-red-500">*</sup>
     {{ /if }}
   </label>

@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="{{ site:locale replace="_|-" lower="true" }}" class="overflow-x-hidden max-w-screen">
+<html lang="{{ site:locale | replace('_', '-') | lower }}" class="overflow-x-hidden max-w-screen">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="content-language" content="{{ site:locale replace="_|-" lower="true" }}">
+  <meta http-equiv="content-language" content="{{ site:locale | replace('_', '-') | lower }}">
   {{ if
     current_template == 'errors/404' ||
-    current_uri | contains:blog/page ||
-    current_uri | contains:presse/page ||
-    ( current_uri | containsAll:/author:/page )
+    current_uri | contains('blog/page') ||
+    current_uri | contains('presse/page') ||
+    ( current_uri | contains_all('/author', '/page') )
   }}
     <meta name="robots" content="noindex, follow">
     {{ else }}
@@ -65,7 +65,7 @@
       {{ if canonical_url }}
         <link rel="canonical" href="{{ canonical_url }}">
         <meta property="og:url" content="{{ canonical_url }}">
-      {{ elseif current_uri | starts_with:/presse || current_uri | starts_with:/blog }}
+      {{ elseif current_uri | starts_with('/presse') || current_uri | starts_with('/blog') }}
         <meta property="og:url" content="{{ current_url }}">
         {{ if current_uri | not_paginated_page }}
           <link rel="canonical" href="{{ current_url }}">
@@ -99,7 +99,7 @@
         {{ aardvark-seo:graph }}
       {{ /if }}
     {{ /seo_data }}
-    {{ elseif author_slug && current_uri | starts_with:/author  }}
+    {{ elseif author_slug && current_uri | starts_with('/author')  }}
       <meta property="og:url" content="{{ current_url }}">
       <meta property="og:type" content="website">
       <meta property="og:locale" content="{{ site:locale | lower }}">

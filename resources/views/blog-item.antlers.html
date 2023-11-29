@@ -103,19 +103,19 @@
           "headline": "{{ detail_title ? detail_title | shortcode : title | shortcode }}",
           "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "{{ config:cpssg:static_site_url | substr:0:-1 }}{{ current_uri }}"
+            "@id": "{{ config:cpssg:static_site_url | substr(0,-1) }}{{ current_uri }}"
           },
           "image": {
             "@type": "ImageObject",
 {{ if teaser_image }}
 {{ glide:teaser_image width="843" }}
-            "url": "{{ config:cpssg:static_site_url | substr:0:-1 }}{{ url }}",
+            "url": "{{ config:cpssg:static_site_url | substr(0,-1) }}{{ url }}",
             "width": "{{ width }}",
             "height": "{{ height }}"
 {{ /glide:teaser_image }}
 {{ else }}
 {{ glide:post_image width="843" }}
-            "url": "{{ config:cpssg:static_site_url | substr:0:-1 }}{{ url }}",
+            "url": "{{ config:cpssg:static_site_url | substr(0,-1) }}{{ url }}",
             "width": "{{ width }}",
             "height": "{{ height }}"
 {{ /glide:post_image }}
