@@ -319,7 +319,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#apa'
+                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#apa?citationStyle=apa_6th_edition'
                           target: null
                           rel: null
                     text: APA-Zitationsstil
@@ -346,7 +346,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/harvard-zitieren
+                          href: '/zitationsgenerator/harvard-zitieren?citationStyle=harvard_12th_edition'
                           target: null
                           rel: null
                     text: Harvard-Zitierweise
@@ -373,7 +373,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/chicago-zitierweise
+                          href: '/zitationsgenerator/chicago-zitierweise?citationStyle=chicago_17th_edition'
                           target: null
                           rel: null
                     text: Chicago-Zitationsstil
@@ -400,7 +400,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/ieee-zitierstil
+                          href: '/zitationsgenerator/ieee-zitierstil?citationStyle=ieee'
                           target: null
                           rel: null
                     text: IEEE-Zitierstil
@@ -427,7 +427,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#deutsch'
+                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#deutsch?citationStyle=din-1505'
                           target: null
                           rel: null
                     text: 'deutsche Zitierweise'
@@ -950,6 +950,6 @@ schema_objects: |-
     ]
   }
   </script>
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701208404
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1701352879
 ---
