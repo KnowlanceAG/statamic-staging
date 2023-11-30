@@ -1795,5 +1795,5 @@ og_title: 'Gesetze zitieren: so machen Sie ALLES richtig! + Generator'
 og_description: 'Gesetze zitieren: Im Text oder in der Fußnote? Unsere Jura Experten erklären Ihnen mit wissenschaftlichen Beispielen wie Gesetze richtig zitiert werden! ⚖📃'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701352041
+updated_at: 1701352050
 ---
