@@ -23,7 +23,7 @@
     "statamic/cms": "3.3.54",
     "statamic/ssg": "1.2.0",
     "uscreen/better-statamic-bard-text-color": "*",
-    "uscreen/cpssg": "1.5.12",
+    "uscreen/cpssg": "1.5.14",
     "uscreen/link-extended": "*",
     "withcandour/aardvark-seo": "2.0.30"
   },
