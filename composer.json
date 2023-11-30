@@ -17,7 +17,9 @@
     "spatie/fork": "^1.1",
     "spatie/statamic-responsive-images": "4.1.1",
     "statamic/cms": "4.31.0",
-    "withcandour/aardvark-seo": "3.0.0"
+    "withcandour/aardvark-seo": "3.0.0",
+    "statamic/ssg": "2.0.0",
+    "uscreen/cpssg": "1.5.12"
   },
   "require-dev": {
     "barryvdh/laravel-debugbar": "^3.5",
