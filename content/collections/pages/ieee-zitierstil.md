@@ -118,6 +118,86 @@ teaser:
         text: '##phone##'
 replicator:
   -
+    id: lpl8qkcq
+    columns_replicator:
+      -
+        id: lpl8qlig
+        single_col: true
+        grid:
+          -
+            id: B2lmoIJy
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Der IEEE-Zitierstil ein maßgebliches Format, das insbesondere in technischen und ingenieurwissenschaftlichen Disziplinen weit verbreitet ist. Der IEEE-Stil, entwickelt vom Institute of Electrical and Electronics Engineers, ist für seine präzisen und klaren Richtlinien zur Zitierung von technischen und wissenschaftlichen Arbeiten bekannt. Diese Einzigartigkeit macht ihn zum bevorzugten Zitierstil für Forscher, Studenten und Fachleute in technischen Feldern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Um Ihnen den Umgang mit diesem spezifischen Zitierstil zu erleichtern, bieten wir einen spezialisierten Zitationsgenerator an. Dieses Tool ist darauf ausgerichtet, Ihnen eine schnelle, genaue und benutzerfreundliche Methode zur Erstellung Ihrer Quellenangaben im IEEE-Format zu bieten. Mit unserem Zitationsgenerator können Sie sich darauf verlassen, dass jede Quellenangabe präzise nach den neuesten IEEE-Richtlinien erstellt wird. So können Sie sich mehr auf den Inhalt Ihrer Forschungsarbeit konzentrieren und sicher sein, dass Ihre bibliografischen Angaben professionell und korrekt sind. Entdecken Sie, wie unser Zitationsgenerator Ihre wissenschaftliche Arbeit im Bereich der Technik und Ingenieurwissenschaften unterstützen kann.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lpl8qikw
+    columns_replicator:
+      -
+        id: lpl8r37q
+        single_col: true
+        grid:
+          -
+            id: B2lmoIJy
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lpl8r88b
+                  values:
+                    type: citation_generator
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: lp8ijf6u
     columns_replicator:
       -
@@ -1637,5 +1717,5 @@ og_title: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
 og_description: 'IEEE-Zitierstil in Bachelorarbeiten: Unsere Schritt-für-Schritt Anleitung bietet praxisnahe Beispiele und Tipps, um Ihnen das Verständnis und die Anwendung dieses Zitierstils zu erleichtern 📚'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700835452
+updated_at: 1701351508
 ---
