@@ -2790,5 +2790,5 @@ og_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 og_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701352188
+updated_at: 1701352195
 ---
