@@ -1717,5 +1717,5 @@ og_title: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
 og_description: 'IEEE-Zitierstil in Bachelorarbeiten: Unsere Schritt-für-Schritt Anleitung bietet praxisnahe Beispiele und Tipps, um Ihnen das Verständnis und die Anwendung dieses Zitierstils zu erleichtern 📚'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701351508
+updated_at: 1701351525
 ---
