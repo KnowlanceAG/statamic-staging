@@ -520,7 +520,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/gesetze-zitieren
+                          href: /zitationsgenerator/gesetze-zitieren
                           target: null
                           rel: null
                     text: 'Gesetzestexte und Urteile'
@@ -615,7 +615,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/ieee-zitierstil
+                          href: /zitationsgenerator/ieee-zitierstil
                           target: null
                           rel: null
                     text: IEEE-Zitierstil
@@ -997,9 +997,9 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/internetquellen-zitieren
+                          href: /zitationsgenerator/internetquellen-zitieren
                           target: null
-                          rel: null
+                          rel: 'noopener noreferrer'
                     text: Internetquelle
                   -
                     type: text
@@ -1948,6 +1948,6 @@ sitemap_changefreq: daily
 og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700835449
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1701214726
 ---

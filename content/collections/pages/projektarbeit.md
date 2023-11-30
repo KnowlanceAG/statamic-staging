@@ -1,6 +1,5 @@
 ---
 id: 949c6959-cee4-4c89-be43-27ec9b420df3
-published: false
 blueprint: pages
 title: Projektarbeit
 teaser:
@@ -182,23 +181,7 @@ replicator:
                                   href: '#ghostwriter'
                                   target: null
                                   rel: null
-                            text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Studienarbeit'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#schreiben-lassen'
-                                  target: null
-                                  rel: null
-                            text: 'Mustervorlage für Studienarbeit schreiben lassen – Wie funktioniert die Kooperation?'
+                            text: 'Wie unterstützen Sie Ghostwriter bei Ihrer Projektarbeit?'
                       -
                         type: bullet_list
                         content:
@@ -212,28 +195,58 @@ replicator:
                                     type: text
                                     marks:
                                       -
+                                        type: textAlign
+                                        attrs:
+                                          align: left
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
                                         type: link
                                         attrs:
-                                          href: '#beispiel'
+                                          href: '#schreiben-lassen'
                                           target: null
                                           rel: null
-                                    text: 'Professionelle Unterstützung durch akademische Experten: Beispiel-Studienarbeit'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '#ghostwriter-beauftragen'
-                                  target: null
-                                  rel: null
-                            text: 'Die Gründe für das Beauftragen von Ghostwritern für Studienarbeiten'
+                                    text: "Mustervorlage für Projektarbeit schreiben\_lassen"
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: left
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#schreiben-lassen'
+                                          target: null
+                                          rel: null
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: left
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#schreiben-lassen'
+                                          target: null
+                                          rel: null
+                                    text: '– Wie funktioniert die Kooperation?'
                   -
                     type: list_item
                     content:
@@ -249,42 +262,28 @@ replicator:
                                   href: '#definition'
                                   target: null
                                   rel: null
-                            text: 'Was ist eine Studienarbeit?'
+                            text: 'Was ist eine Projektarbeit?'
+                  -
+                    type: list_item
+                    content:
                       -
-                        type: bullet_list
+                        type: paragraph
                         content:
                           -
-                            type: list_item
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#warum'
-                                          target: null
-                                          rel: null
-                                    text: 'Warum sind Studienarbeiten im Studium so wichtig?'
-                          -
-                            type: list_item
-                            content:
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#arten'
-                                          target: null
-                                          rel: null
-                                    text: 'Unterschiede: Die Vielfalt von Studienarbeiten'
+                                type: link
+                                attrs:
+                                  href: '#wann'
+                                  target: null
+                                  rel: null
+                            text: 'Wann wird eine Projektarbeit erstellt?'
                   -
                     type: list_item
                     content:
@@ -297,29 +296,26 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#schreiben'
+                                  href: '#wichtigkeit'
                                   target: null
                                   rel: null
-                            text: 'Wie schreibt man eine Studienarbeit?'
+                            text: 'Warum sind Projektarbeiten im Studium so wichtig?'
+                  -
+                    type: list_item
+                    content:
                       -
-                        type: bullet_list
+                        type: paragraph
                         content:
                           -
-                            type: list_item
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#aufbau'
-                                          target: null
-                                          rel: null
-                                    text: 'Der Aufbau einer Studienarbeit'
+                                type: link
+                                attrs:
+                                  href: '#erstellen-lassen'
+                                  target: null
+                                  rel: null
+                            text: 'Warum sollte man bei Projektarbeiten Ghostwriter beauftragen?'
             show_as_card: false
         type: row
         enabled: true
@@ -445,25 +441,126 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter können bei der Anfertigung Ihrer Projektarbeit im Studium unterstützen, indem sie Recherchen durchführen, die Arbeit strukturieren, beim Schreiben helfen, die Formatierung übernehmen und das Korrekturlesen übernehmen. '
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' können bei der Anfertigung Ihrer Projektarbeit im Studium unterstützen, indem sie Recherchen durchführen, die Arbeit strukturieren, beim Schreiben helfen, die Formatierung übernehmen und das Korrekturlesen übernehmen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Insbesondere können Ghostwriter umfassende Literaturrecherche zu Ihrem Projektthema durchführen, um relevante Literatur und Forschungsergebnisse zu identifizieren. Sie sind mit dem aktuellen Forschungsstand vertraut und haben oft Zugang zu kostenpflichtigen wissenschaftlichen Datenbanken. '
+                    text: 'Insbesondere können Ghostwriter '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/literaturrecherche-datenbanken-quellen
+                          target: null
+                          rel: null
+                    text: 'umfassende Literaturrecherche'
+                  -
+                    type: text
+                    text: ' zu Ihrem Projektthema durchführen, um relevante Literatur und Forschungsergebnisse zu identifizieren. Sie sind mit dem aktuellen Forschungsstand vertraut und haben oft Zugang zu kostenpflichtigen wissenschaftlichen Datenbanken. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Häufig beauftragen Studierende Ghostwriter, um ihre Hausarbeit oder Seminararbeit als Muster für ihre Projektarbeit schreiben zu lassen. Unsere qualifizierten Ghostwriter verfügen über umfangreiche Erfahrung im Schreiben von Projektarbeiten. Sie erstellen eine komplette Muster-Projektarbeit nach individuellen Anforderungen und Fachgebiet für Sie. Wenn Sie sich dazu entschließen, eine Musterarbeit für Ihre Projektarbeit schreiben zu lassen, befinden Sie sich auf der sicheren Seite. '
+                    text: 'Häufig beauftragen Studierende Ghostwriter, um ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+                  -
+                    type: text
+                    text: ' als Muster für ihre Projektarbeit schreiben zu lassen. Unsere qualifizierten Ghostwriter verfügen über umfangreiche Erfahrung im Schreiben von Projektarbeiten. Sie erstellen eine komplette Muster-Projektarbeit nach individuellen Anforderungen und Fachgebiet für Sie. Wenn Sie sich dazu entschließen, eine Musterarbeit für Ihre Projektarbeit schreiben zu lassen, befinden Sie sich auf der sicheren Seite. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Von der Themenrecherche bis zur professionellen Plagiatsprüfung wird Ihre Arbeit kostenlos durchgeführt. Am Ende erhalten Sie eine fertige Musterarbeit für Ihre Projektarbeit, die allen relevanten Richtlinien entspricht. Das bedeutet, dass Ihre Arbeit einheitlich mit wissenschaftlichen Quellen zitiert wird, alle Verzeichnisse eingefügt werden (z.B. Inhaltsverzeichnis, Abkürzungsverzeichnis, Literaturverzeichnis etc.), Grafiken erstellt werden, eine klare Struktur eingebaut wird, und die Arbeit abschließend von einem unabhängigen Lektorat und Korrektorat überprüft sowie auf Plagiate geprüft wird. '
+                    text: 'Von der Themenrecherche bis zur professionellen Plagiatsprüfung wird Ihre Arbeit kostenlos durchgeführt. Am Ende erhalten Sie eine fertige Musterarbeit für Ihre Projektarbeit, die allen relevanten Richtlinien entspricht. Das bedeutet, dass Ihre Arbeit einheitlich mit wissenschaftlichen Quellen zitiert wird, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie
+                          target: null
+                          rel: null
+                    text: 'alle Verzeichnisse'
+                  -
+                    type: text
+                    text: ' eingefügt werden (z.B. Inhaltsverzeichnis, Abkürzungsverzeichnis, Literaturverzeichnis etc.), Grafiken erstellt werden, eine klare Struktur eingebaut wird, und die Arbeit abschließend von einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: 'unabhängigen Lektorat'
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    text: ' überprüft sowie auf '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: 'Plagiate geprüft'
+                  -
+                    type: text
+                    text: ' wird. '
               -
                 type: paragraph
                 content:
@@ -479,7 +576,71 @@ replicator:
                         attrs:
                           color: 'rgb(15, 15, 15)'
                           hex: '#000'
-                    text: 'Wenn Sie Ihre Projektarbeit als Präsentation erstellen müssen, können unsere Ghostwriter Sie dabei unterstützen. Unsere akademischen Ghostwriter bereiten Sie auf Ihre Präsentation vor und erstellen eine PowerPoint-Präsentation zu Ihrem Projektthema.'
+                    text: 'Wenn Sie Ihre Projektarbeit als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/praesentationen
+                          target: null
+                          rel: null
+                    text: Präsentation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: ' erstellen müssen, können unsere Ghostwriter Sie dabei unterstützen. Unsere akademischen Ghostwriter bereiten Sie auf Ihre Präsentation vor und erstellen eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-praesentation-powerpoint
+                          target: null
+                          rel: null
+                    text: PowerPoint-Präsentation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: ' zu Ihrem Projektthema.'
               -
                 type: paragraph
               -
@@ -1111,7 +1272,7 @@ replicator:
                   id: lms3l67b
                   values:
                     type: anchor_target
-                    anchor_name: beispiel
+                    anchor_name: definition
               -
                 type: heading
                 attrs:
@@ -1326,7 +1487,26 @@ replicator:
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                        text: 'Qualitative oder quantitative Forschungsmethoden, abhängig von der Fachrichtung.'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/qualitative-quantitative-methoden
+                                              target: null
+                                              rel: null
+                                        text: 'Qualitative oder quantitative Forschungsmethoden'
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                        text: ', abhängig von der Fachrichtung.'
                               -
                                 type: list_item
                                 content:
@@ -1345,7 +1525,103 @@ replicator:
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                        text: 'Mögliche Methoden: Umfragen, Interviews, Experimente, Datenanalyse.'
+                                        text: 'Mögliche Methoden: '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/umfrage-erstellen-tools
+                                              target: null
+                                              rel: null
+                                        text: Umfragen
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                        text: ', '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/leitfadengestuetztes-experteninterview
+                                              target: null
+                                              rel: null
+                                        text: Interviews
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                        text: ', Experimente, '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/gruppendiskussion-methode
+                                              target: null
+                                              rel: null
+                                        text: Datenanalyse
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: var(--text-primary)
+                                              hex: '#000'
+                                        text: .
                   -
                     type: table_row
                     content:
@@ -1456,7 +1732,20 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        text: 'In einigen Fällen mündliche Präsentation der Arbeit.'
+                                        text: 'In einigen Fällen mündliche Präsentation oder '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/kolloquium-bachelorarbeit
+                                              target: null
+                                              rel: null
+                                        text: Kolloquium
+                                      -
+                                        type: text
+                                        text: ' der Arbeit.'
                           -
                             type: bullet_list
                             content:
@@ -1512,7 +1801,39 @@ replicator:
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
-                    text: 'Es ist wichtig anzumerken, dass Projektarbeiten im Studium verschiedene Formen annehmen können und in unterschiedlichen Fachrichtungen unterschiedliche Anforderungen haben können. Diese können von Forschungsprojekten und Fallstudien bis hin zu praktischen Anwendungen und kreativen Projekten reichen.'
+                    text: 'Es ist wichtig anzumerken, dass Projektarbeiten im Studium verschiedene Formen annehmen können und in unterschiedlichen Fachrichtungen unterschiedliche Anforderungen haben können. Diese können von Forschungsprojekten und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--text-primary)
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/fallstudie
+                          target: null
+                          rel: null
+                    text: Fallstudien
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--text-primary)
+                          hex: '#000'
+                    text: ' bis hin zu praktischen Anwendungen und kreativen Projekten reichen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1540,7 +1861,7 @@ replicator:
                   id: lms3lf9q
                   values:
                     type: anchor_target
-                    anchor_name: ghostwriter-beauftragen
+                    anchor_name: wann
               -
                 type: heading
                 attrs:
@@ -1572,9 +1893,39 @@ replicator:
                         attrs:
                           color: 'rgb(15, 15, 15)'
                           hex: '#000'
-                    text: 'Projektarbeiten sind gängige Bestandteile des Studiums und entstehen im Rahmen von Projekten, Seminaren, Praktika oder Forschungsprojekten. Die Anforderungen und Zeitpunkte für Projektarbeiten variieren je nach Hochschule, Studiengang und Fachrichtung. Sie können Teil des Studienverlaufs, spezieller Projektseminare oder Abschlussarbeiten wie Bachelor- oder Masterarbeiten sein. Auch in der Berufspraxis können Studierende Projektarbeiten verfassen, um ihre praktischen Fähigkeiten zu zeigen. Unabhängig von Zeit und Ort können unsere Experten Sie unterstützen. Besonders bei anspruchsvollen Projektarbeiten wie Bachelor- oder Masterarbeiten haben Studierende oft Schwierigkeiten, Forschungsergebnisse zu finden und diese in Form einer Projektarbeit zu verfassen. '
-              -
-                type: paragraph
+                    text: 'Projektarbeiten sind gängige Bestandteile des Studiums und entstehen im Rahmen von Projekten, Seminaren, Praktika oder Forschungsprojekten. Die Anforderungen und Zeitpunkte für Projektarbeiten variieren je nach Hochschule, Studiengang und Fachrichtung. Sie können Teil des Studienverlaufs, spezieller Projektseminare oder Abschlussarbeiten wie Bachelor- oder Masterarbeiten sein. Auch in der Berufspraxis können Studierende Projektarbeiten verfassen, um ihre praktischen Fähigkeiten zu zeigen. Unabhängig von Zeit und Ort können unsere Experten Sie unterstützen. Besonders bei anspruchsvollen Projektarbeiten wie Bachelor- oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeiten
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: ' haben Studierende oft Schwierigkeiten, Forschungsergebnisse zu finden und diese in Form einer Projektarbeit zu verfassen. '
               -
                 type: paragraph
                 content:
@@ -1590,7 +1941,71 @@ replicator:
                         attrs:
                           color: 'rgb(15, 15, 15)'
                           hex: '#000'
-                    text: 'Insbesondere in den Studiengängen Naturwissenschaften, Ingenieurwissenschaften, Informatik, Sozialwissenschaften und in der Medizin werden komplexe Projekte als Abschlussarbeiten durchgeführt, da in diesen Studiengängen häufig umfangreiche Forschungen stattfinden. Es ist nicht ungewöhnlich, dass Studenten im Fachbereich Medizin Ghostwriter für komplexe und umfangreiche Forschungsarbeiten beauftragen. Viele möchten sich sogar eine komplette Projektarbeit als Bachelorarbeit schreiben lassen.'
+                    text: 'Insbesondere in den Studiengängen Naturwissenschaften, Ingenieurwissenschaften, Informatik, Sozialwissenschaften und in der Medizin werden komplexe Projekte als Abschlussarbeiten durchgeführt, da in diesen Studiengängen häufig umfangreiche Forschungen stattfinden. Es ist nicht ungewöhnlich, dass Studenten im Fachbereich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/medizin
+                          target: null
+                          rel: null
+                    text: 'Medizin Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: ' für komplexe und umfangreiche Forschungsarbeiten beauftragen. Viele möchten sich sogar eine komplette Projektarbeit als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(15, 15, 15)'
+                          hex: '#000'
+                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -2775,7 +3190,6 @@ replicator:
     columns_replicator:
       -
         id: w3IdW0cz
-        columns_per_row: 2
         grid:
           -
             id: doLZ97bJ
@@ -2786,7 +3200,7 @@ replicator:
                   id: lms3ls09
                   values:
                     type: anchor_target
-                    anchor_name: definition
+                    anchor_name: wichtigkeit
               -
                 type: paragraph
               -
@@ -2813,20 +3227,9 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                    text: ' '
-                  -
-                    type: text
-                    marks:
-                      -
                         type: bold
+                      -
+                        type: underline
                       -
                         type: textAlign
                         attrs:
@@ -2836,7 +3239,7 @@ replicator:
                         attrs:
                           color: var(--tw-prose-bold)
                           hex: '#000'
-                    text: 'Praxisnahe Anwendung:'
+                    text: 'Praxisnahe Anwendung'
                   -
                     type: text
                     marks:
@@ -2844,2820 +3247,142 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: ' Projektarbeiten ermöglichen es Studierenden, ihre theoretischen Kenntnisse in der Praxis anzuwenden. Dies fördert die praktische Umsetzung des Gelernten und stärkt die Verbindung zwischen Theorie und Praxis.'
-              -
-                type: ordered_list
-                attrs:
-                  order: 1
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Problemlösungskompetenz:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: ' Durch die eigenständige Bearbeitung von Projektaufgaben entwickeln Studierende Problemlösungskompetenzen. Sie lernen, komplexe Probleme zu analysieren, geeignete Lösungen zu finden und ihre Entscheidungen zu begründen.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Teamarbeit:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: ' Viele Projektarbeiten werden in Gruppen durchgeführt, was die Entwicklung von Teamarbeit und Kommunikationsfähigkeiten fördert. Studierende lernen, effektiv im Team zu arbeiten, verschiedene Perspektiven zu berücksichtigen und gemeinsam Ziele zu erreichen.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Selbstständigkeit:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: ' Projektarbeiten erfordern oft selbstständiges Arbeiten. Studierende lernen, Verantwortung für ihre Aufgaben zu übernehmen, ihre Zeit effektiv zu organisieren und eigenständig Entscheidungen zu treffen.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Forschungskompetenz:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: ' In vielen Projektarbeiten ist die Durchführung von Forschung ein integraler Bestandteil. Studierende entwickeln Forschungskompetenzen, lernen, relevante Literatur zu identifizieren, Daten zu sammeln und wissenschaftliche Methoden anzuwenden.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Vorbereitung auf den Berufseinstieg:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: ' Projektarbeiten bieten eine praxisnahe Vorbereitung auf die Anforderungen im späteren Berufsleben. Die Fähigkeiten, die während der Projektarbeit entwickelt werden, sind oft in verschiedenen beruflichen Kontexten von großem Nutzen.'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Ganzheitliches Verständnis:'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                            text: ' Durch die Bearbeitung von Projektaufgaben entwickeln Studierende ein ganzheitliches Verständnis für komplexe Zusammenhänge in ihrem Fachbereich. Dies fördert eine integrative Sichtweise auf das erlernte Wissen.'
+                    text: 'Mit Projektarbeiten können Studierende theoretisches Wissen in der Praxis anwenden. '
               -
                 type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 3
-            show_as_card: false
-          -
-            id: GkB02Mc4
-            show_as_card: false
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lms3mbvy
-                  values:
-                    type: anchor_target
-                    anchor_name: warum
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 3
-        type: row
-        enabled: true
-        single_col: false
-        responsive_columns: 0
-    bg_color: '#F9F9F9'
-  -
-    id: BKvN8RrQ
-    columns_replicator:
-      -
-        id: Ocsh6FN4
-        single_col: true
-        grid:
-          -
-            id: Fpa2kKGt
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lms3miex
-                  values:
-                    type: anchor_target
-                    anchor_name: arten
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Unterschiede: Die Vielfalt von Studienarbeiten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der Welt der wissenschaftlichen Arbeiten gibt es eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'breite Vielfalt von Studienarbeiten'
-                  -
-                    type: text
-                    text: ', die in verschiedenen akademischen Kontexten eingesetzt werden. Die folgende Tabelle bietet einen Überblick über die verschiedenen Arten von wissenschaftlichen Arbeiten. Je nach akademischem Kontext und Studienstufe können die Anforderungen und Ziele unterschiedlich sein.'
-              -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_header
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 265
-                          background: 'rgba(236, 236, 241, 0.2)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: var(--tw-prose-headings)
-                                      hex: '#000'
-                                text: 'Art der Studienarbeit'
-                      -
-                        type: table_header
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgba(236, 236, 241, 0.2)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: var(--tw-prose-headings)
-                                      hex: '#000'
-                                text: Hauptmerkmale
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 265
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: Hausarbeit
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Untersuchung eines Themas auf Grundlage vorhandener Literatur'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Breite Themenvielfalt'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Keine eigene empirische Forschung erforderlich'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 265
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: Seminararbeit
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Enge Verbindung mit Seminarmodul'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Vertiefte Auseinandersetzung mit im Seminar behandeltem Thema'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Analyse von Seminarmaterialien und Diskussionen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 265
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: Essay
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Kurze wissenschaftliche Arbeit'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Klare Argumentation und präzise Darstellung von Ideen'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Verschiedene Themendisziplinen'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Keine umfangreiche Literaturrecherche erforderlich'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 265
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: Projektarbeit
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Forschungs- oder praxisorientierte Arbeit'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Eigene empirische Studie oder praktisches Projekt'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Häufig in Natur- und Ingenieurwissenschaften'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 265
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: Bachelorarbeit
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Abschlussarbeit im Bachelorstudium'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Eigenständige Forschung erforderlich'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Erster Schritt in die akademische Forschung'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 265
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: 'Masterarbeit (Masterthesis)'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Tiefgehende Auseinandersetzung mit einem Forschungsthema'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/forschungsluecke-finden
-                                              target: null
-                                              rel: null
-                                        text: 'Forschungslücke finden'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Häufig empirische Forschung erforderlich'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 265
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
-                                text: 'Doktorarbeit (Dissertation)'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Anspruchsvollste Studienarbeit'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Voraussetzung für die Promotion'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Umfangreiche, eigenständige Forschung'
-              -
-                type: set
-                attrs:
-                  id: lms1s48s
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/arbeiten/studienarbeiten-min.jpg
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: pYxHdNTw
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'UNTERSTÜTZUNG BEI IHREM MASTER ANFORDERN'
-                    spacing_top: false
-                    color: '#FF6606'
-              -
-                type: heading
-                attrs:
-                  level: 2
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lms1r8aa
-        single_col: false
-        grid:
-          -
-            id: dIM8Y69T
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lms3n0l2
-                  values:
-                    type: anchor_target
-                    anchor_name: schreiben
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wie schreibt man eine Studienarbeit?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Das Schreiben einer Studienarbeit erfordert eine strukturierte Herangehensweise und sorgfältige Planung. Die Länge einer Studienarbeit kann je nach Arbeitart, Fachbereich und den spezifischen Anforderungen unterschiedlich sein. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Zum Beispiel für eine Hausarbeit benötigt man in der Regel 10-20 Seiten und für eine Seminararbeit etwa 15-25 Seiten'
-                  -
-                    type: text
-                    text: '. Hier sind die Schritte, die Ihnen bei der Erstellung einer erfolgreichen Studienarbeit helfen können:'
-              -
-                type: set
-                attrs:
-                  id: lms3n7zj
-                  values:
-                    type: anchor_target
-                    anchor_name: aufbau
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                      -
+                        type: underline
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                       -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: var(--tw-prose-bold)
                           hex: '#000'
-                    text: 'Der Aufbau einer Studienarbeit'
+                    text: Problemlösungskompetenz
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Durch die eigenständige Bearbeitung von Projektaufgaben entwickeln Studierende Problemlösungskompetenzen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Der Aufbau einer Studienarbeit ist von entscheidender Bedeutung, um eine klare und überzeugende wissenschaftliche Arbeit z.B. für '
-                  -
-                    type: text
                     marks:
                       -
                         type: bold
-                    text: Seminararbeit
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
                       -
-                        type: bold
-                    text: Essay
-                  -
-                    type: text
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
+                        type: underline
                       -
-                        type: bold
-                    text: Hausarbeit
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: Teamarbeit
                   -
                     type: text
-                    text: ' zu erstellen. In diesem Abschnitt werden wir eine eingehende Analyse der typischen Struktur einer Studienarbeit präsentieren, die Forscher und Studierenden dabei hilft, effektive und gut organisierte Arbeiten zu verfassen. '
+                    text: 'Eine Gruppenarbeit als Projektarbeit wird oft in verschiedenen Studiengängen durchgeführt. Gruppenarbeiten als Projektarbeit fördern die Teamarbeit und die Kommunikationsfähigkeiten der Studierenden. Sie lernen, effektiv im Team zu arbeiten, verschiedene Perspektiven zu berücksichtigen und gemeinsam Ziele zu erreichen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Dabei werden wir auch die Einbeziehung der Forschungsergebnisse in die Struktur berücksichtigen. In diesem Beispiel aus dem Fachbereich der Psychologie werden wir eine Analyse von einer Studienarbeit präsentieren und dabei auf den Aufbau und die Einbeziehung von Forschungsergebnissen eingehen. '
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: underline
+                    text: Forschungskompetenz
                   -
                     type: text
                     marks:
                       -
-                        type: italic
-                    text: 'Aus dem Fachbereich '
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ' In vielen Projektarbeiten ist die Durchführung von Forschung ein integraler Bestandteil. Studierende entwickeln Forschungskompetenzen, lernen, relevante Literatur zu identifizieren, Daten zu sammeln und wissenschaftliche Methoden anzuwenden.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
                       -
-                        type: italic
+                        type: underline
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /ghostwriter/psychologie
-                          target: null
-                          rel: null
-                    text: 'Psychologie Ghostwriter'
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-bold)
+                          hex: '#000'
+                    text: 'Vorbereitung auf den Berufseinstieg'
                   -
                     type: text
-                    marks:
-                      -
-                        type: italic
-                    text: ' hat hier ein kleines Beispiel für Studienarbeit erstellt. '
+                    text: 'Projektarbeiten sind praxisnahe Vorbereitungen auf die Anforderungen im späteren Berufsleben.'
               -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Beschreibung
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Beispiel Studienarbeit'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Titelseite und Deckblatt'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Studienarbeit beginnt in der Regel mit einer Titelseite, die den Titel der Arbeit, den Namen des Autors, den Namen der Bildungseinrichtung und das Datum enthält. Ein Deckblatt kann zusätzliche Informationen wie den Studiengang, den Namen des Betreuers und das Institut enthalten.'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                  -
-                                    type: underline
-                                text: Deckblatt
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Studiengang
-                                      -
-                                        type: text
-                                        text: ': Psychologie'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Betreuer
-                                      -
-                                        type: text
-                                        text: ': Prof. Dr. Anna '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Beispiel
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Institut
-                                      -
-                                        type: text
-                                        text: ': Institut für Psychologische Forschung'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                  -
-                                    type: underline
-                                text: Titelbereich
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: 'Titel der Studienarbeit'
-                                      -
-                                        type: text
-                                        text: ': "'
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: italic
-                                        text: 'Der Einfluss von sozialen Medien auf das Selbstwertgefühl von Jugendlichen'
-                                      -
-                                        type: text
-                                        text: '"'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Autor
-                                      -
-                                        type: text
-                                        text: ': Max Mustermann'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Bildungseinrichtung
-                                      -
-                                        type: text
-                                        text: ': Universität Beispielstadt'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Datum
-                                      -
-                                        type: text
-                                        text: ': 15. September 2023'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Abstract
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Zusammenfassung ist eine prägnante Darstellung des Inhalts der Studienarbeit. Sie sollte die Forschungsfrage, die Methodik, die Hauptergebnisse und Schlussfolgerungen in wenigen Absätzen zusammenfassen.'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Forschungsfrage
-                                      -
-                                        type: text
-                                        text: ': Welchen Einfluss haben soziale Medien auf das Selbstwertgefühl von Jugendlichen?'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Methodik
-                                      -
-                                        type: text
-                                        text: ': Umfangreiche Umfrage unter 500 Jugendlichen im Alter von 13-18 Jahren.'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Forschungsergebnisse
-                                      -
-                                        type: text
-                                        text: ': Signifikanter Zusammenhang zwischen der Nutzung sozialer Medien und einem niedrigeren Selbstwertgefühl.'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Schlussfolgerungen
-                                      -
-                                        type: text
-                                        text: ': Wichtige Implikationen für die Jugendentwicklung und den Umgang mit sozialen Medien.'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Inhaltsverzeichnis
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Das Inhaltsverzeichnis listet die Hauptkapitel und Unterkapitel der Studienarbeit auf, zusammen mit den entsprechenden Seitenzahlen. Es bietet eine grobe Übersicht über den Aufbau der Arbeit und erleichtert die Navigation für die Leser.'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: ordered_list
-                            attrs:
-                              order: 1
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Einleitung
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Theoretischer Hintergrund'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Methodik
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Ergebnisse
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Diskussion
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Schlussfolgerungen
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Literaturverzeichnis
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Anhänge
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Einleitung
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "\_"
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "\_"
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Einleitung führt in das Thema der Studienarbeit ein und legt den Kontext und die Bedeutung der Forschung dar. Sie enthält oft die Problemstellung, die Zielsetzung, die Forschungsfragen und eine kurze Übersicht über die Methodik.'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '"'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: 'Beschreibung der Bedeutung des Selbstwertgefühls bei Jugendlichen.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: 'Relevanz des Themas in Zeiten intensiver sozialer Medien'
-                              -
-                                type: text
-                                text: '."'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Theoretischer Hintergrund'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'In diesem Abschnitt wird der theoretische Rahmen und das relevante Hintergrundwissen dargelegt. Es werden die wichtigsten Konzepte, Theorien und Modelle erläutert, die für das Verständnis der Forschungsfrage erforderlich sind. Die Integration der Forschungsergebnisse anderer Studien kann den theoretischen Hintergrund unterstützen.'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Übersicht über bestehende Forschung zur Verbindung zwischen sozialen Medien und Selbstwertgefühl.'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Methodik
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "\_"
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Methodik beschreibt die Vorgehensweise, die bei der Durchführung der Forschung verwendet wurde. Dies umfasst Informationen zur Datenerhebung, zur Auswahl der Stichprobe, zur Datenanalyse und zur Validität der verwendeten Methoden.'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Beschreibung der '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/umfrage-erstellen-tools
-                                              target: null
-                                              rel: null
-                                        text: Umfragemethode
-                                      -
-                                        type: text
-                                        text: ', '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Stichprobenauswahl
-                                      -
-                                        type: text
-                                        text: ' und weitere '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: 'Forschungsmethoden ('
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/qualitative-quantitative-methoden
-                                              target: null
-                                              rel: null
-                                        text: 'quantitative und qualitative Methoden'
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: )
-                                      -
-                                        type: text
-                                        text: .
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Erläuterung der '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: 'statistischen Analysen'
-                                      -
-                                        type: text
-                                        text: ' zur Auswertung der Daten.'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Hauptteil (Ergebnisse)'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "\_"
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Der Hauptteil der Studienarbeit besteht aus mehreren Kapiteln, in denen die Forschungsergebnisse ausführlich dargestellt werden. Hier werden Daten präsentiert, analysiert und interpretiert.'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Präsentation der Forschungsergebnisse in Form von '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Abbildungen
-                                      -
-                                        type: text
-                                        text: ', '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Grafiken
-                                      -
-                                        type: text
-                                        text: ' und '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Tabellen
-                                      -
-                                        type: text
-                                        text: .
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Feststellung einer negativen Korrelation zwischen der täglichen Nutzung sozialer Medien und dem Selbstwertgefühl.'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: justify
-                                text: 'Diskussionsteil & Fazit'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'In diesem Abschnitt werden die wichtigsten Forschungsergebnisse zusammengefasst und diskutiert. Die Schlussfolgerungen sollten auf die Forschungsfragen und die Hypothesen eingehen. Die Diskussion sollte kritische Reflexion, Ausblick auf zukünftige Forschungsperspektiven und die Bedeutung der Ergebnisse für das jeweilige Fachgebiet bieten.'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: 'Interpretation der Ergebnisse'
-                                      -
-                                        type: text
-                                        text: .
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Diskussion möglicher Einflussfaktoren und alternativer Erklärungen.'
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Implikationen für die Jugendentwicklung und die Rolle der Eltern und Pädagogen im Umgang mit sozialen Medien.'
-                          -
-                            type: paragraph
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: 'Zusammenfassung der wichtigsten Ergebnisse'
-                                      -
-                                        type: text
-                                        text: .
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Ausblick auf zukünftige Forschung in diesem Bereich.'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: justify
-                                text: Literaturverzeichnis
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Das Literaturverzeichnis enthält alle Quellen und Referenzen, die in der Studienarbeit zitiert wurden. Es sollte nach einem bestimmten Zitierstil wie APA, '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /blog/din-iso-690
-                                      target: null
-                                      rel: null
-                                text: 'DIN ISO 690'
-                              -
-                                type: text
-                                text: ' oder '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /blog/chicago-zitierweise
-                                      target: null
-                                      rel: null
-                                text: Chicago
-                              -
-                                type: text
-                                text: ' formatiert sein und die Quellen der Forschungsergebnisse ordnungsgemäß auflisten.'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Das Literaturverzeichnis enthält alle in der Studienarbeit '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: 'verwendeten Quellen'
-                                      -
-                                        type: text
-                                        text: ', einschließlich '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: 'wissenschaftlicher Artikel, Bücher und Studien'
-                                      -
-                                        type: text
-                                        text: .
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: justify
-                                text: Anhänge
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 237
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Anhänge können zusätzliche Materialien wie Umfragebögen, Grafiken, Tabellen oder Rohdaten enthalten'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Anhänge können Daten der '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: 'Umfrage, Fragebögen'
-                                      -
-                                        type: text
-                                        text: ' oder weitere unterstützende '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: 'Analysemethoden '
-                                      -
-                                        type: text
-                                        text: enthalten.
+                type: paragraph
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 3
             show_as_card: false
         type: row
         enabled: true
+        single_col: true
         responsive_columns: 0
         columns_per_row: 0
+    bg_color: '#F9F9F9'
+  -
+    id: lph4ko3u
+    columns_replicator:
       -
-        id: lalgalf9
-        columns_per_row: 2
+        id: lph4kt8u
         single_col: true
         grid:
           -
-            id: K8GiAu4i
+            id: b6OFM3rb
             bard:
               -
                 type: set
                 attrs:
-                  id: lalgaum3
+                  id: lph7rptf
                   values:
-                    type: accordion_custom_wrapper
-                    items:
-                      -
-                        id: lalgaxcv
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Gliederung einer Studienarbeit ➞'
-                        accordion_content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/deckblatt-vorlage
-                                              target: null
-                                              rel: null
-                                        text: Deckblatt
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/bachelorarbeit-abstract
-                                              target: null
-                                              rel: null
-                                        text: Abstract
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: Vorwort
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/inhaltsverzeichnis-vorlage
-                                              target: null
-                                              rel: null
-                                        text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/abbildungsverzeichnis
-                                              target: null
-                                              rel: null
-                                        text: Abbildungs
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: '- und '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/tabellenverzeichnis-beispiel
-                                              target: null
-                                              rel: null
-                                        text: Tabellenverzeichnis
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/abkuerzungsverzeichnis
-                                              target: null
-                                              rel: null
-                                        text: Abkürzungsverzeichnis
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/bachelorarbeit-einleitung
-                                              target: null
-                                              rel: null
-                                        text: Einleitung
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: Hauptteil
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: Schlussteil/Fazit
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/literaturverzeichnis-beispiel
-                                              target: null
-                                              rel: null
-                                        text: Literaturverzeichnis
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/anhangsverzeichnis
-                                              target: null
-                                              rel: null
-                                        text: Anhang
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /gwriters-akademie/eidesstattliche-erklaerung-muster
-                                              target: null
-                                              rel: null
-                                        text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
-                        active: false
-            show_as_card: false
-          -
-            id: lalgan0h
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lalgbccv
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
-                      -
-                        id: lalgbden
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Formatierung einer Studienarbeit➞'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Wichtig: Vor der Abgabe müssen Sie alle Formatierungsrichtlinien beachten'
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                        text: 'Die Seitenränder sollten in der Regel 2,5 cm betragen (oben, unten, links und rechts)'
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Seitenzahlen: unten zentriert/rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Gängige Schriftarten sind Times New Roman, Arial oder Calibri'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
-                                        text: 'Die Schriftgröße beträgt normalerweise 12-Punkt'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
-                        active: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-      -
-        id: lalgfgcc
-        single_col: true
-        grid:
-          -
-            id: K8GiAu4i
-            bard:
+                    type: anchor_target
+                    anchor_name: erstellen-lassen
               -
                 type: heading
                 attrs:
                   level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Warum sollte man bei Projektarbeiten Ghostwriter beauftragen?'
+              -
+                type: paragraph
                 content:
                   -
                     type: text
@@ -5665,7 +3390,142 @@ replicator:
                       -
                         type: textAlign
                         attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Es gibt viele Gründe, einen Ghostwriter zu beauftragen. Je nach Ihrem Anliegen und den Herausforderungen im akademischen Bereich stehen Ihnen unsere professionellen Experten zur Verfügung.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Zeitmangel
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei wissenschaftlichen Abgaben wird eine Abgabefrist festgelegt. Oft leiden Studierende unter Zeitdruck, da sie häufig noch Privatleben, Job und andere Studienarbeiten bewältigen müssen. Viele greifen in solchen Situationen auf Ghostwriting zurück, um sich etwas Last abnehmen zu lassen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Komplexität der Aufgabe'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Oft sind Projektarbeiten sehr anspruchsvoll, besonders wenn sie umfangreiche Forschung, komplexe Analysen oder spezifische Fachkenntnisse erfordern. Ein erfahrener Ghostwriter kann bei der Bewältigung dieser Herausforderungen helfen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Schwierigkeiten beim Schreiben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Viele Studierende haben Schwierigkeiten beim Verfassen von Projektarbeiten. Ghostwriter, die auf diesem Gebiet erfahren sind, können professionelle Unterstützung bieten, indem sie eine Musterarbeit für Ihre Projektarbeit schreiben lassen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Qualitätsansprüche
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Studierende möchten möglicherweise sicherstellen, dass ihre Projektarbeit höchsten Qualitätsstandards entspricht. Akademische Ghostwriter mit Fachkenntnissen kann dazu beitragen, eine qualitativ hochwertige Arbeit zu erstellen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Sprachbarrieren
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Für Studierende, deren Muttersprache nicht Deutsch ist und die ihre Arbeit in dieser Sprache verfassen müssen, kann ein Ghostwriter helfen. Unsere Ghostwriter beherrschen die deutsche und englische Sprache als Muttersprache und sind mit dem Schreibstil für Projektarbeiten vertraut.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Literaturrecherche & Zitieren'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein weiterer Grund ist eine professionelle Literaturrecherche und eine korrekte Zitierweise. Unsere Experten können umfassende Literaturrecherchen durchführen und alles mit der richtigen Zitierweise belegen. Ein Teil der Projektarbeit erfordert einen erheblichen zeitlichen Aufwand für die Literaturrecherche.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Inhalt, Rechtschreibung & Grammatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch hier kann die Beauftragung eines Ghostwriters sinnvoll sein: für die Erstellung von Inhalten sowie die Gewährleistung von korrekter Rechtschreibung und Grammatik. Unsere erfahrenen Experten können nicht nur hochwertige Inhalte erstellen, sondern auch lektorieren, sicherstellen, dass Ihre Arbeit sprachlich einwandfrei und korrekt ist. '
+              -
+                type: set
+                attrs:
+                  id: pYxHdNTw
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'UNTERSTÜTZUNG BEI IHRER PROJEKTARBEIT ANFORDERN'
+                    spacing_top: false
+                    color: '#FF6606'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
                           align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                     text: Disclaimer
               -
                 type: paragraph
@@ -5688,52 +3548,6 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: lalgfn1f
-        single_col: false
-        grid:
-          -
-            id: K8GiAu4i
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Einige unserer Blogartikel zum Thema "Projektarbeit schreiben lassen"'
-              -
-                type: set
-                attrs:
-                  id: cRYchAa8
-                  values:
-                    type: blog_entries
-                    entries:
-                      - 1620fed6-ff97-4a46-9f72-9688293248ee
-                      - 774827ee-5840-450d-aca6-d60187adc46b
-                      - 09c34137-dd35-4c1b-a0a5-16a946830ad0
-              -
-                type: heading
-                attrs:
-                  level: 2
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -5741,7 +3555,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1700784132
+updated_at: 1701115399
 template: default
 use_meta_keywords: false
 no_index_page: false

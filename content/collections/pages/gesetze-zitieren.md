@@ -392,7 +392,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/literaturquellen-richtig-zitieren
+                          href: /zitationsgenerator/literaturquellen-richtig-zitieren
                           target: null
                           rel: null
                     text: 'Harvard- oder den APA-Regeln'
@@ -1795,6 +1795,6 @@ sitemap_changefreq: daily
 og_title: 'Gesetze zitieren: so machen Sie ALLES richtig! + Generator'
 og_description: 'Gesetze zitieren: Im Text oder in der Fußnote? Unsere Jura Experten erklären Ihnen mit wissenschaftlichen Beispielen wie Gesetze richtig zitiert werden! ⚖📃'
 override_twitter_settings: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700835464
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1701210828
 ---

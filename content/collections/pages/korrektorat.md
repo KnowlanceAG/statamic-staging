@@ -1506,7 +1506,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/literaturquellen-richtig-zitieren
+                          href: /zitationsgenerator/literaturquellen-richtig-zitieren
                           target: null
                           rel: null
                     text: 'richtig zitiert'
@@ -1596,7 +1596,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1699273238
+updated_at: 1701212590
 template: with-side-bar
 meta_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden & Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'

@@ -2037,7 +2037,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/literaturquellen-richtig-zitieren
+                          href: /zitationsgenerator/literaturquellen-richtig-zitieren
                           target: null
                           rel: null
                     text: 'richtigen Zitieren von Literaturquellen'
@@ -2670,7 +2670,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/ieee-zitierstil
+                          href: /zitationsgenerator/ieee-zitierstil
                           target: null
                           rel: null
                     text: 'IEEE Zitierstil'
@@ -2790,6 +2790,6 @@ sitemap_changefreq: daily
 og_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 og_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 override_twitter_settings: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700835467
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1701213956
 ---

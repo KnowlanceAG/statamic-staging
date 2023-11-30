@@ -5125,7 +5125,7 @@ replicator:
                                   -
                                     type: link
                                     attrs:
-                                      href: /blog/din-iso-690
+                                      href: /zitationsgenerator/din-iso-690
                                       target: null
                                       rel: null
                                 text: 'DIN ISO 690'
@@ -5138,7 +5138,7 @@ replicator:
                                   -
                                     type: link
                                     attrs:
-                                      href: /blog/chicago-zitierweise
+                                      href: /zitationsgenerator/chicago-zitierweise
                                       target: null
                                       rel: null
                                 text: Chicago
@@ -5793,7 +5793,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698108294
+updated_at: 1701214470
 template: default
 use_meta_keywords: false
 no_index_page: false

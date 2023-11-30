@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698103020
+updated_at: 1701212008
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -288,7 +288,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/literaturquellen-richtig-zitieren
+                          href: /zitationsgenerator/literaturquellen-richtig-zitieren
                           target: null
                           rel: null
                     text: Literatur
@@ -3666,7 +3666,6 @@ meta_description: 'Germanistik studieren? Abschluss und Unterstützung durch Exp
 og_title: 'Germanistik Ghostwriter • GWriters.de'
 og_description: 'Germanistik studieren? Abschluss und Unterstützung durch Experten und akademische Ghostwriter in Germanistik ✅🎓'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Germanistik Ghostwriter'
 breadcrumbs_active: true

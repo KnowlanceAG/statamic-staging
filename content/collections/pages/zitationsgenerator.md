@@ -39,153 +39,8 @@ teaser:
               align: center
         text: 'Kostenloser Generator für das Zitieren in APA, Harvard, Chicago, IEEE, MIT & mehr!'
   -
-    type: set
-    attrs:
-      id: zwnaYou3
-      values:
-        type: spacer
-        padding-y: 10
-  -
-    type: set
-    attrs:
-      id: 2FC4RyrC
-      values:
-        type: teaser_icon_columns
-        columns:
-          -
-            id: wNkymqh9
-            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz & 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: Awfm0X4k
-            icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen & kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: 0f6BxR0G
-            icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle & pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp; finaler Form.'
-          -
-            id: GQNX6eXT
-            icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
-    attrs:
-      id: 3kZE4d3D
-      values:
-        type: spacer
-        padding-y: 15
-  -
-    type: set
-    attrs:
-      id: 2V4ZjCGH
-      values:
-        type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
-        color: '#FF6606'
-        spacing_top: false
-  -
-    type: set
-    attrs:
-      id: WyfqrGif
-      values:
-        type: spacer
-        padding-y: 20
-  -
     type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: '#ff6606!important'
-              hex: '#000'
-          -
-            type: link
-            attrs:
-              href: 'tel:##phone##'
-              target: null
-              rel: null
-        text: '##phone##'
 replicator:
-  -
-    id: lpb3zyqr
-    columns_replicator:
-      -
-        id: lpb407gk
-        columns_per_row: 2
-        single_col: true
-        grid:
-          -
-            id: kiCXdrW5
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Die Bedeutung des korrekten Zitierens'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Das korrekte Zitieren von Quellen ist ein wesentlicher Bestandteil akademischer Arbeit. Es gewährleistet die Anerkennung der Urheberrechte und verstärkt die Glaubwürdigkeit Ihrer Forschung. Unser Zitationsgenerator hilft Ihnen dabei, Ihre Quellen schnell und präzise zu zitieren.'
-            show_as_card: false
-          -
-            id: lpb409p7
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Warum ein Zitationsgenerator unverzichtbar ist'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der heutigen schnelllebigen akademischen Welt ist Zeit ein kostbares Gut. Ein Zitationsgenerator automatisiert den Prozess der Quellenangabe, spart Zeit und vermeidet Fehler. Er ist ein unverzichtbares Werkzeug für jeden, der wissenschaftlich arbeitet.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
   -
     id: lpbav9hf
     columns_replicator:
@@ -218,6 +73,50 @@ replicator:
     id: lp8deqdz
     columns_replicator:
       -
+        id: lpgs29vv
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: WZfp6RCV
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Die Bedeutung des korrekten Zitierens'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das korrekte Zitieren von Quellen ist ein wesentlicher Bestandteil akademischer Arbeit. Es gewährleistet die Anerkennung der Urheberrechte und verstärkt die Glaubwürdigkeit Ihrer Forschung. Unser Zitationsgenerator hilft Ihnen dabei, Ihre Quellen schnell und präzise zu zitieren.'
+            show_as_card: false
+          -
+            id: lpgs2bum
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Warum ein Zitationsgenerator unverzichtbar ist'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In der heutigen schnelllebigen akademischen Welt ist Zeit ein kostbares Gut. Ein Zitationsgenerator automatisiert den Prozess der Quellenangabe, spart Zeit und vermeidet Fehler. Er ist ein unverzichtbares Werkzeug für jeden, der wissenschaftlich arbeitet.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
         id: lp8eypom
         single_col: true
         grid:
@@ -238,6 +137,102 @@ replicator:
                   -
                     type: text
                     text: 'Unser Zitationsgenerator ist benutzerfreundlich und intuitiv. Geben Sie einfach die notwendigen Informationen ein, und der Generator erstellt die korrekte Zitation für Sie.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Suchfeld:'
+                  -
+                    type: text
+                    text: ' Hier können Sie Anhand von Stichworten, Titeln, Autoren, ISBN, DOI oder URL nach Quellen suchen und die korrekte Quelle direkt aus den angezeigten Vorschlägen auswählen. Die Zitation wird dann entsprechend des ausgewählten Zitationsstil automatisch erstellt und in Ihre Literaturliste eingefügt.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Auswahl des Zitationsstil:'
+                  -
+                    type: text
+                    text: ' Durch einen Klick auf den aktuellen Zitationsstil gelangen Sie zum Auswahlfenster, in dem Sie aus alle verfügbaren Zitationsstilen und auch die gewünschte Sprache wählen können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Manuelles Zitieren:'
+                  -
+                    type: text
+                    text: ' Wenn Sie die gewünschte Quelle ausnahmsweise einmal nicht finden über unsere automatische Suchfunktion finden konnten, dann können Sie einfach die relevanten Informationen in die entsprechenden Felder eintragen und unser kostenloser Zitationsgenerator erstellt dann für Sie die Quellenangabe im gewünschten Zitationsstil.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sortierung:'
+                  -
+                    type: text
+                    text: ' Verschiedene Universitäten haben für die Reihenfolge der Quellenangaben im Literaturverzeichnis unterschiedliche Vorgaben. Mit einem Klick auf "Sortieren nach" können Sie zwischen allen gängigen Formaten auswählen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Filtern nach Medientyp: '
+                  -
+                    type: text
+                    text: 'Sie benötigen schnell eine Übersicht aber alle wissenschaftlichen Artikel in Ihrem Literaturverzeichnis? Kein Problem, wählen Sie einfach den entsprechenden Medientyp aus und schon erhalten Sie eine gefilterte Ansicht.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Editieren:'
+                  -
+                    type: text
+                    text: ' In den Optionen zu jedem Eintrag in Ihrem Literaturverzeichnis haben Sie die Möglichkeit, jede Quellenangaben nach Wunsch zu bearbeiten. Auch der Medientyp lässt sich hier ändern, falls Sie bspw. ein Video lieber als Film klassifizieren und spezifischere Angaben zur Produktion machen möchten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Übernahme in Ihre Arbeit:'
+                  -
+                    type: text
+                    text: ' Wenn Sie das von unserem Zitationsgenerator kostenlos erstellte Literaturverzeichnis in Ihre Arbeit übernehmen möchten, klicken Sie einfach auf "Bibliographie kopieren", anschließend können Sie diese einfach einfach in Ihr Word Dokument einfügen. Auch einzelne Einträge können Sie in den Optionen zur jeweiligen Quellenangabe gesondert kopieren.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Speicherung Ihres Literaturverzeichnis:'
+                  -
+                    type: text
+                    text: ' Ihr erstelltes Quellenverzeichnis wird nicht in unserem System, sondern in Ihrem eigenen Browser lokal auf Ihrem Computer gespeichert. Solange Sie Ihre Browserdaten nicht löschen, können Sie also jederzeit das Fenster schließen oder Ihre Computer ausschalten, ohne dass das von unserem Zitationsgenerator erstellte Literaturverzeichnis verloren geht. Öffnen Sie einfach das Tool erneut auf unserer Webseite und Sie können sofort nahtlos weiterarbeiten.'
               -
                 type: heading
                 attrs:
@@ -284,7 +279,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/chicago-zitierweise
+                          href: /zitationsgenerator/internetquellen-zitieren
                           target: null
                           rel: null
                     text: 'Internetquellen zitieren'
@@ -351,7 +346,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#harvard'
+                          href: /zitationsgenerator/harvard-zitieren
                           target: null
                           rel: null
                     text: Harvard-Zitierweise
@@ -955,6 +950,6 @@ schema_objects: |-
     ]
   }
   </script>
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700838613
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1701208404
 ---
