@@ -1,35 +1,28 @@
 <!doctype html>
 <html lang="{{ site:locale | replace('_', '-') | lower }}" class="overflow-x-hidden max-w-screen">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-language" content="{{ site:locale | replace('_', '-') | lower }}">
-  {{ if
-    current_template == 'errors/404' ||
-    current_uri | contains('blog/page') ||
-    current_uri | contains('presse/page') ||
-    ( current_uri | contains_all('/author', '/page') )
-  }}
+  {{ if current_template == 'errors/404' || current_uri | contains('blog/page') || current_uri | contains('presse/page') || (current_uri | contains_all('/author', '/page')) }}
     <meta name="robots" content="noindex, follow">
-    {{ else }}
-      {{ if no_index_page }}
-        {{ if no_follow_links }}
-          <meta name="robots" content="noindex, nofollow">
-          {{ else }}
-          <meta name="robots" content="noindex, follow">
-        {{ /if }}
+  {{ else }}
+    {{ if no_index_page }}
+      {{ if no_follow_links }}
+        <meta name="robots" content="noindex, nofollow">
+      {{ else }}
+        <meta name="robots" content="noindex, follow">
       {{ /if }}
+    {{ /if }}
   {{ /if }}
-
   <link rel="alternate" hreflang="de-de" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
   <link rel="alternate" hreflang="de-ch" href="https://gwriters.ch{{ current_uri == '/' ? '' : current_uri }}" />
   <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
   {{ if meta_title }}
   {{ elseif page_title }}
     <title>
-      {{ page_title | shortcode  }}
+      {{ page_title | shortcode }}
     </title>
   {{ elseif author_slug }}
     {{ users slug:is="{author_slug}" }}
@@ -70,7 +63,6 @@
         {{ if current_uri | not_paginated_page }}
           <link rel="canonical" href="{{ current_url }}">
         {{ /if }}
-
       {{ else }}
         <!-- purely generated -->
         <link rel="canonical" href="{{ aardvark-seo:generated_canonical }}">
@@ -99,10 +91,10 @@
         {{ aardvark-seo:graph }}
       {{ /if }}
     {{ /seo_data }}
-    {{ elseif author_slug && current_uri | starts_with('/author')  }}
-      <meta property="og:url" content="{{ current_url }}">
-      <meta property="og:type" content="website">
-      <meta property="og:locale" content="{{ site:locale | lower }}">
+  {{ elseif author_slug && current_uri | starts_with('/author') }}
+    <meta property="og:url" content="{{ current_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="{{ site:locale | lower }}">
     {{ if current_uri | not_paginated_page }}
       <link rel="canonical" href="{{ current_url }}">
     {{ /if }}
@@ -123,12 +115,10 @@
 
   {{ cookie_notice }}
   {{ aardvark-seo:footer }}
-
   {{ if rating_widget_footer && current_uri | not_article_page }}
     {{ rating_widget_footer }}
       {{ widget_code_html }}
     {{ /rating_widget_footer }}
   {{ /if }}
 </body>
-
 </html>
