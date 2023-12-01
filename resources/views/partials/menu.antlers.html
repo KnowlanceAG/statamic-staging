@@ -43,7 +43,15 @@
                   {{ children }}
                     <div id="tab-{{ count }}"
                       class="w-3/4 grid grid-cols-3 gap-x-4 gap-y-12 subitem {{ if first }}active {{ else }}{{ /if }} transition-all duration-200">
-                      {{ *recursive children* }}
+                          {{ children }}
+                          <div class="flex flex-col">
+                            <p class="w-3/4 mt-0 mb-2 font-black leading-tight">{{ title }}</p>
+                            {{ children }}
+                              <a href="{{ url }}" class="hover:text-orange-500 w-max">{{ title }}</a>
+                            {{ /children }}
+                          </div>
+                          {{ /children }}
+                      
                       {{ if title == 'Arbeiten'}}
                       <a href="/arbeiten" class="font-black leading-tight underline hover:text-orange-500">Alle {{ title }}</a>
                       {{ else }}
