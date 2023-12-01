@@ -175,7 +175,21 @@
         </button>
       </p>
       <div class="lvl">
-        {{ *recursive children* }}
+        {{ children }}
+          <p class="flex items-center mt-0 mb-2 ml-2 nextlvl-toggle">
+            {{ title }}
+            <button class="ml-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </p>
+          <div class="ml-6 lvl">
+            {{ children }}
+              <a href="{{ url }}" class="block w-full mb-2 text-orange-500">{{ title }}</a>
+            {{ /children }}
+          </div>
+        {{ /children }}
         {{ if title == 'Fachrichtungen'}}
         <a href="/ghostwriter"
           class="block mt-2 mb-4 ml-2 font-black leading-tight underline hover:text-orange-500">Alle {{ title }}</a>
