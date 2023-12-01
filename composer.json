@@ -18,8 +18,8 @@
     "spatie/statamic-responsive-images": "4.1.1",
     "statamic/cms": "4.31.0",
     "withcandour/aardvark-seo": "3.0.0",
-    "uscreen/cpssg": "1.5.14"
-    "statamic/ssg": "2.2.0",
+    "uscreen/cpssg": "*",
+    "statamic/ssg": "2.2.0"
   },
   "require-dev": {
     "barryvdh/laravel-debugbar": "^3.5",
@@ -77,8 +77,8 @@
       "url": "addons/uscreen/link-extended"
     },
     {
-      "type": "vcs",
-      "url": "https://gitlab.uscreen.net/uscreen/statamic-addons/cpssg"
+      "type": "path",
+      "url": "addons/uscreen/cpssg"
     },
     {
       "type": "path",

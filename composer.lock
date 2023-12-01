@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85bcfd571702bd486563ed8acd8bc45f",
+    "content-hash": "8a4bd50c6ad6665ac67b579742679e21",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -5116,16 +5116,16 @@
         },
         {
             "name": "spatie/fork",
-            "version": "1.2.1",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/fork.git",
-                "reference": "b18a3103038e4cc0c2bba32edb69a633c3fb357c"
+                "reference": "a7b5b3c6d8bbacfa490898c09520c7fa48d2e6dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/fork/zipball/b18a3103038e4cc0c2bba32edb69a633c3fb357c",
-                "reference": "b18a3103038e4cc0c2bba32edb69a633c3fb357c",
+                "url": "https://api.github.com/repos/spatie/fork/zipball/a7b5b3c6d8bbacfa490898c09520c7fa48d2e6dc",
+                "reference": "a7b5b3c6d8bbacfa490898c09520c7fa48d2e6dc",
                 "shasum": ""
             },
             "require": {
@@ -5169,7 +5169,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/fork/issues",
-                "source": "https://github.com/spatie/fork/tree/1.2.1"
+                "source": "https://github.com/spatie/fork/tree/1.1.3"
             },
             "funding": [
                 {
@@ -5177,7 +5177,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-23T15:12:48+00:00"
+            "time": "2023-05-16T15:42:46+00:00"
         },
         {
             "name": "spatie/schema-org",
@@ -5469,16 +5469,16 @@
         },
         {
             "name": "statamic/ssg",
-            "version": "2.0.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/ssg.git",
-                "reference": "ac12caf264b225fbd6caad7bfb980130b639bc53"
+                "reference": "4412cd7162a5f4a1c64726507df4ab3a3c1fa774"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/ssg/zipball/ac12caf264b225fbd6caad7bfb980130b639bc53",
-                "reference": "ac12caf264b225fbd6caad7bfb980130b639bc53",
+                "url": "https://api.github.com/repos/statamic/ssg/zipball/4412cd7162a5f4a1c64726507df4ab3a3c1fa774",
+                "reference": "4412cd7162a5f4a1c64726507df4ab3a3c1fa774",
                 "shasum": ""
             },
             "require": {
@@ -5511,9 +5511,9 @@
             "description": "Static site generator for Statamic 3.",
             "support": {
                 "issues": "https://github.com/statamic/ssg/issues",
-                "source": "https://github.com/statamic/ssg/tree/2.0.0"
+                "source": "https://github.com/statamic/ssg/tree/2.2.0"
             },
-            "time": "2023-05-08T19:28:57+00:00"
+            "time": "2023-08-22T20:53:31+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -8550,11 +8550,11 @@
         },
         {
             "name": "uscreen/cpssg",
-            "version": "1.5.14",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.uscreen.net/uscreen/statamic-addons/cpssg",
-                "reference": "9b1e44b0634e03017dfbb0f85dcd880b4d59e7fe"
+            "version": "dev-feature/next",
+            "dist": {
+                "type": "path",
+                "url": "addons/uscreen/cpssg",
+                "reference": "150663b722966e2b2a5d7d908b396c18fc86cbd3"
             },
             "type": "library",
             "extra": {
@@ -8582,7 +8582,9 @@
             "support": {
                 "email": "info@uscreen.de"
             },
-            "time": "2023-11-30T11:10:20+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "vlucas/phpdotenv",
@@ -10057,16 +10059,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.13",
+            "version": "9.6.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f3d767f7f9e191eab4189abe41ab37797e30b1be"
+                "reference": "43653e6ad7adc22e7b667dd561bf8fcb74c10cf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f3d767f7f9e191eab4189abe41ab37797e30b1be",
-                "reference": "f3d767f7f9e191eab4189abe41ab37797e30b1be",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/43653e6ad7adc22e7b667dd561bf8fcb74c10cf0",
+                "reference": "43653e6ad7adc22e7b667dd561bf8fcb74c10cf0",
                 "shasum": ""
             },
             "require": {
@@ -10140,7 +10142,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.13"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.14"
             },
             "funding": [
                 {
@@ -10156,7 +10158,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-09-19T05:39:22+00:00"
+            "time": "2023-12-01T06:10:48+00:00"
         },
         {
             "name": "sebastian/cli-parser",
