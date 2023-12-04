@@ -1714,5 +1714,5 @@ og_title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
 og_description: 'Richtig nach der Harvard-Methode zitieren? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701717295
+updated_at: 1701717322
 ---
