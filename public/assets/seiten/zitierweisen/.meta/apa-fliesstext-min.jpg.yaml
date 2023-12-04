@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'apa zitierweise im text'
 size: 38371
 last_modified: 1701716320
 width: 1021
