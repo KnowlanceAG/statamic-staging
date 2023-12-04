@@ -1467,7 +1467,7 @@ replicator:
                   id: lprcxdcw
                   values:
                     type: anchor_target
-                    anchor_name: Internet
+                    anchor_name: internet
               -
                 type: heading
                 attrs:
@@ -1947,7 +1947,7 @@ og_title: 'APA Zitierweise in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Richtig Zitieren nach APA? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701721481
+updated_at: 1701721568
 schema_objects: |-
   <script type="application/ld+json">
   {
