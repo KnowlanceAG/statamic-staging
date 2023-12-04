@@ -1,8 +1,7 @@
 ---
 id: 45751fcd-ae2b-4ffc-90f0-a1dc44fedbf3
-published: false
 blueprint: pages
-title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator (Dupliziert)'
+title: 'APA Zitierweise in Abschlussarbeiten | Beispiele & Generator'
 teaser:
   -
     type: heading
@@ -21,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Zitierregeln nach Harvard - praktische Beispiele & Generator'
+        text: 'APA Zitierweise - praktische Beispiele & Generator'
 replicator:
   -
     id: lpl97bt5
@@ -1698,21 +1697,21 @@ replicator:
     border: false
     type: add_section
     enabled: true
-page_title: 'In der Abschlussarbeit mit Harvard zitieren - einfach erklärt!'
+page_title: 'In der Abschlussarbeit mit APA zitieren - einfach erklärt!'
 sitemap_active: true
 breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
-meta_title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
-meta_description: 'Richtig nach der Harvard-Methode zitieren? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+meta_title: 'APA Zitierweise in Abschlussarbeiten | Beispiele & Generator'
+meta_description: 'Richtig Zitieren nach APA? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
-og_description: 'Richtig nach der Harvard-Methode zitieren? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+og_title: 'APA Zitierweise in Abschlussarbeiten | Beispiele & Generator'
+og_description: 'Richtig Zitieren nach APA? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701717322
+updated_at: 1701717500
 ---
