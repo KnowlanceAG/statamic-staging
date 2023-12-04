@@ -1713,5 +1713,34 @@ og_title: 'APA Zitierweise in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Richtig Zitieren nach APA? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701720155
+updated_at: 1701720276
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Wo erfolgt die Quellenangabe im APA-Stil?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Quellenangabe erfolgt direkt im Fließtext. Jeweils nach der zu belegenden Stelle geben Sie in Klammern nach dem Autor-Jahr-Schema die Quelle an. Bei direkten Zitaten geben Sie auch noch die Seitenzahl an."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie viele Autoren muss ich bei der APA-Zitierung angeben?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wenn ein Beitrag einen oder zwei Autoren hat, nennen Sie im Fließtext alle Namen. Ab drei Autoren nennen Sie nur noch den ersten und fassen alle weiteren mit „et al.“ zusammen. Im Literaturverzeichnis müssen Sie alle Autoren nennen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Was bedeutet DOI in einem APA-Literaturverzeichnis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DOI ist der Digital Object Identifier (deutsch: Digitaler Objektbezeichner). Durch diese Angabe werden Dokumente eindeutig identifizierbar und sind damit auch im Internet leicht auffindbar. Sie sollten versuchen, im APA-Literaturverzeichnis den DOI zu jedem Artikel anzugeben"
+      }
+    }]
+  }
+  </script>
 ---
