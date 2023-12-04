@@ -1713,7 +1713,7 @@ og_title: 'APA Zitierweise in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Richtig Zitieren nach APA? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701720276
+updated_at: 1701720505
 schema_objects: |-
   <script type="application/ld+json">
   {
@@ -1738,7 +1738,7 @@ schema_objects: |-
       "name": "Was bedeutet DOI in einem APA-Literaturverzeichnis?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "DOI ist der Digital Object Identifier (deutsch: Digitaler Objektbezeichner). Durch diese Angabe werden Dokumente eindeutig identifizierbar und sind damit auch im Internet leicht auffindbar. Sie sollten versuchen, im APA-Literaturverzeichnis den DOI zu jedem Artikel anzugeben"
+        "text": "DOI ist der Digital Object Identifier (deutsch: Digitaler Objektbezeichner). Durch diese Angabe werden Dokumente eindeutig identifizierbar und sind damit auch im Internet leicht auffindbar. Sie sollten versuchen, im APA-Literaturverzeichnis den DOI zu jedem Artikel anzugeben."
       }
     }]
   }
