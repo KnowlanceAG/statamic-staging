@@ -112,95 +112,235 @@ replicator:
                     type: text
                     text: Inhaltsverzeichnis
               -
-                type: paragraph
+                type: bullet_list
                 content:
                   -
-                    type: text
-                    text: 'APA Zitierung: Woher kommt sie?'
-              -
-                type: paragraph
-                content:
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#definition'
+                                  target: null
+                                  rel: null
+                            text: 'APA Zitierung: Woher kommt sie?'
                   -
-                    type: text
-                    text: 'APA-Zitierung: Häufige Fachbereiche'
-              -
-                type: paragraph
-                content:
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#im-text'
+                                  target: null
+                                  rel: null
+                            text: 'Richtig zitieren: APA-Kurzbeleg im Text'
                   -
-                    type: text
-                    text: 'Richtig zitieren: APA-Kurzbeleg im Text'
-              -
-                type: paragraph
-                content:
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#literaturverzeichnis'
+                                  target: null
+                                  rel: null
+                            text: 'Besonders knifflig: korrektes APA-Literaturverzeichnis'
                   -
-                    type: text
-                    text: 'Besonders knifflig: korrektes APA-Literaturverzeichnis'
-              -
-                type: paragraph
-                content:
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#beispiel'
+                                  target: null
+                                  rel: null
+                            text: 'Literaturverzeichnis APA Zitierstil: Beispiele für alle Varianten'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#autor'
+                                          target: null
+                                          rel: null
+                                    text: 'Beitrag mit einem Autor'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#autoren'
+                                          target: null
+                                          rel: null
+                                    text: 'Beitrag mit mehreren Autoren'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#buch'
+                                          target: null
+                                          rel: null
+                                    text: 'Beitrag aus einem Sammelband'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#zeitschrift'
+                                          target: null
+                                          rel: null
+                                    text: Zeitschriftenbeitrag
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#zeitung'
+                                          target: null
+                                          rel: null
+                                    text: Zeitungsartikel
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#internet'
+                                          target: null
+                                          rel: null
+                                    text: Internetquelle
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#studie'
+                                          target: null
+                                          rel: null
+                                    text: 'Verwendete Studie'
                   -
-                    type: text
-                    text: 'Literaturverzeichnis APA Zitierstil: Beispiele für alle Varianten'
-              -
-                type: paragraph
-                content:
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'APA-Zitierstil mit professioneller Unterstützung'
                   -
-                    type: text
-                    text: 'Beitrag mit einem Autor'
-              -
-                type: paragraph
-                content:
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#richtlinien'
+                                  target: null
+                                  rel: null
+                            text: 'APA-Richtlinien: Das Wichtigste im Überblick'
                   -
-                    type: text
-                    text: 'Beitrag mit mehreren Autoren'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Beitrag aus einem Sammelband'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: Zeitschriftenbeitrag
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: Zeitungsartikel
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: Internetquelle
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Verwendete Studie'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'APA-Zitierstil mit professioneller Unterstützung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'APA-Richtlinien: Das Wichtigste im Überblick'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Häufig gestellte Fragen'
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#faq'
+                                  target: null
+                                  rel: null
+                            text: 'Häufig gestellte Fragen'
             show_as_card: false
         type: row
         enabled: true
@@ -338,6 +478,13 @@ replicator:
                   -
                     type: text
                     text: ', dann bekommen Sie Zitierweise und Literaturverzeichnis nach den gewünschten Vorgaben.'
+              -
+                type: set
+                attrs:
+                  id: lprctbfo
+                  values:
+                    type: anchor_target
+                    anchor_name: im-text
               -
                 type: heading
                 attrs:
@@ -877,6 +1024,15 @@ replicator:
                                       rel: null
                                 text: 'https://doi.org/10.1016/j.jesp.2005.10.007'
               -
+                type: set
+                attrs:
+                  id: lprctzgo
+                  values:
+                    type: anchor_target
+                    anchor_name: literaturverzeichnis
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1016,6 +1172,13 @@ replicator:
                     type: text
                     text: ' weiterhelfen.'
               -
+                type: set
+                attrs:
+                  id: lprcvbr5
+                  values:
+                    type: anchor_target
+                    anchor_name: beispiel
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1029,6 +1192,13 @@ replicator:
                   -
                     type: text
                     text: 'Im Folgenden zeigen wir Ihnen alle Varianten, die im Literaturverzeichnis vorkommen können.'
+              -
+                type: set
+                attrs:
+                  id: lprcvv89
+                  values:
+                    type: anchor_target
+                    anchor_name: autor
               -
                 type: heading
                 attrs:
@@ -1063,6 +1233,13 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+              -
+                type: set
+                attrs:
+                  id: lprcw55l
+                  values:
+                    type: anchor_target
+                    anchor_name: autoren
               -
                 type: heading
                 attrs:
@@ -1101,6 +1278,13 @@ replicator:
                     image_options:
                       - no_upscale
               -
+                type: set
+                attrs:
+                  id: lprcwgjr
+                  values:
+                    type: anchor_target
+                    anchor_name: buch
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -1135,6 +1319,13 @@ replicator:
                     dateien:
                       - seiten/zitierweisen/apa-sammelband-min.jpg
                     img_size: w-full
+              -
+                type: set
+                attrs:
+                  id: lprcwqkz
+                  values:
+                    type: anchor_target
+                    anchor_name: zeitschrift
               -
                 type: heading
                 attrs:
@@ -1203,6 +1394,13 @@ replicator:
                     image_options:
                       - no_upscale
               -
+                type: set
+                attrs:
+                  id: lprcx4i0
+                  values:
+                    type: anchor_target
+                    anchor_name: zeitung
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -1264,6 +1462,13 @@ replicator:
                     image_options:
                       - no_upscale
               -
+                type: set
+                attrs:
+                  id: lprcxdcw
+                  values:
+                    type: anchor_target
+                    anchor_name: Internet
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -1300,6 +1505,13 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
+              -
+                type: set
+                attrs:
+                  id: lprcxpq8
+                  values:
+                    type: anchor_target
+                    anchor_name: studie
               -
                 type: heading
                 attrs:
@@ -1368,6 +1580,13 @@ replicator:
                     image_options:
                       - no_upscale
               -
+                type: set
+                attrs:
+                  id: lprcy040
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1387,7 +1606,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/zitationsgenerator/literaturquellen-richtig-zitieren'
+                          href: /zitationsgenerator/literaturquellen-richtig-zitieren
                           target: null
                           rel: null
                     text: 'Literaturquellen richtig zitiert'
@@ -1400,7 +1619,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/gwriters-akademie/zitierweisen'
+                          href: /gwriters-akademie/zitierweisen
                           target: null
                           rel: null
                     text: 'Zitierweisen für Studenten'
@@ -1419,7 +1638,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: 'Hausarbeit schreiben lassen'
@@ -1432,13 +1651,28 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/lektorat/lektor'
+                          href: /lektorat/lektor
                           target: null
                           rel: null
                     text: Lektorat
                   -
                     type: text
-                    text: ' sicherstellen, dass alles richtig belegt wurde.APA-Richtlinien: Das Wichtigste im Überblick'
+                    text: ' sicherstellen, dass alles richtig belegt wurde. '
+              -
+                type: set
+                attrs:
+                  id: lprd0wk0
+                  values:
+                    type: anchor_target
+                    anchor_name: richtlinien
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'APA-Richtlinien: Das Wichtigste im Überblick'
               -
                 type: table
                 content:
@@ -1599,7 +1833,7 @@ replicator:
                   id: lpip0f13
                   values:
                     type: anchor_target
-                    anchor_name: wichtige-fragen
+                    anchor_name: faq
               -
                 type: set
                 attrs:
@@ -1713,7 +1947,7 @@ og_title: 'APA Zitierweise in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Richtig Zitieren nach APA? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701720505
+updated_at: 1701721481
 schema_objects: |-
   <script type="application/ld+json">
   {
