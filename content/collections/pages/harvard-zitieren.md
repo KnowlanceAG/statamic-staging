@@ -1197,6 +1197,35 @@ sitemap_changefreq: daily
 og_title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
 og_description: 'Richtig nach der Harvard-Methode zitieren? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701352323
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1701720430
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "An welcher Stelle werden in der Harvard Zitierweise die Quellenangaben gemacht?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alle Quellen werden im Fließtext direkt hinter der zu belegenden Stelle gemacht. Sie setzen die Quelle in Klammern."
+      }
+    },{
+      "@type": "Question",
+      "name": "Gibt es in der Harvard-Zitierweise auch Fußnoten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Sie können Fußnoten machen. Allerdings gehören dort nur weiterführende Informationen hinein. Quellenbelege haben in den Fußnoten nichts zu suchen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Gibt es Unterschiede bei Harvard Zitierweise zwischen direkten und indirekten Zitaten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, die gibt es. Bei direkten Zitaten geben Sie immer die Seitenzahl mit an. Bei indirekten Zitaten reicht die Angabe von Autor/en und Erscheinungsjahr des Werkes. Sie können bei indirekten Zitaten auch ein „vgl.“ davor setzen. Das handhaben die Hochschulen jedoch sehr unterschiedlich."
+      }
+    }]
+  }
+  </script>
 ---
