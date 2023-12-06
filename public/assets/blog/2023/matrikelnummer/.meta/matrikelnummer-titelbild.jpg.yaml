@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: matrikelnummer
 size: 58732
 last_modified: 1701895265
 width: 886
