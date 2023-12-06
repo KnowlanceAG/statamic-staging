@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'matrikelnummer rub'
 size: 26464
 last_modified: 1701895314
 width: 530
