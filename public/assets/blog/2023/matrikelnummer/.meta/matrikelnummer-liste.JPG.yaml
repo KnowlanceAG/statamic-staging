@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'was ist eine matrikelnummer'
 size: 81152
 last_modified: 1701896723
 width: 613
