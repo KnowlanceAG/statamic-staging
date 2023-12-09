@@ -39,6 +39,7 @@ teaser:
   -
     type: set
     attrs:
+      id: QkCU4SJ8
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -49,13 +50,14 @@ teaser:
     type: paragraph
 replicator:
   -
+    id: h0A21agp
     bard:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Auch wenn der erste Eindruck des Lesers auf das Deckblatt zurückfällt, nehmen die Kritikpunkte oder positiven Aspekte erst beim Inhaltsverzeichnis gewisse Formen an. Dieser Bereich vermittelt weitere Details über die Qualität der wissenschaftlichen Arbeit und gewährt einen ersten Einblick in das analysierte Fachthema und die Struktur der Arbeit. Es ist quasi die Regel, mit Word erstellte Inhaltsverzeichnis stets automatisch zu aktualisieren und zu pflegen. Unsere Vorlagen basieren daher auf der automatischen Word Funktion und auch von unseren'
+            text: 'Auch wenn der erste Eindruck des Lesers auf das Deckblatt zurückfällt, nehmen die Kritikpunkte oder positiven Aspekte erst beim Inhaltsverzeichnis gewisse Formen an. Dieser Bereich vermittelt weitere Details über die Qualität der wissenschaftlichen Arbeit und gewährt einen ersten Einblick in das analysierte Fachthema und die Struktur der Arbeit. Es ist quasi die Regel, ein mit Word erstelltes Inhaltsverzeichnis stets automatisch zu aktualisieren und zu pflegen. Unsere Vorlagen basieren daher auf der automatischen Word Funktion und auch von unseren'
           -
             type: text
             marks:
@@ -78,7 +80,7 @@ replicator:
                   href: /blog/ghostwriter-mustervorlage
                   target: null
                   rel: null
-            text: Mustervorlage
+            text: Mustervorlagen
           -
             type: text
             text: ', die sich Studenten beispielsweise für die '
@@ -98,6 +100,7 @@ replicator:
       -
         type: set
         attrs:
+          id: ez65SUzW
           values:
             type: bilder
             assets:
@@ -162,8 +165,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1651193885
+updated_by: 05dc5331-6bc5-4897-a2e0-d559d0f01e29
+updated_at: 1702123933
 academy_short_text_headline: 'Inhaltsverzeichnis Vorlage'
 academy_short_text: 'Nutzen Sie unsere Inhaltsverzeichnis Vorlage mit automatischer Formatierung für Ihre Abschlussarbeit.'
 use_meta_keywords: false
@@ -172,8 +175,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 more_templates:
   - 8778439c-ea07-4542-9287-cb87e6074f6a
   - b609ef85-dc84-4405-93d0-1b92d92ca1a4
