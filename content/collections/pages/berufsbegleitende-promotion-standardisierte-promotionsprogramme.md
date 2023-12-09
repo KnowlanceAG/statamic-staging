@@ -255,7 +255,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "In den meisten standardisierten Promotionsprogramme der Unis durchläuft der Promovend ein strukturiertes Verfahren in der Gruppe. Die persönliche Betreuung ist ein Schwerpunkt in diesen kostenpflichtigen Programmen – im Unterschied zur internen Promotion gilt der Promovend als Kunde. Die üblicherweise schwierige Suche nach einem Doktorvater wird insbesondere an den Unis erleichtert, die sich verpflichten, dem Doktoranden einen passenden Betreuer zuzuteilen oder das Thema passend zum Forschungsschwerpunkt eines Professoren auszurichten. Unabhängig davon sind Promotionsinteressenten immer gut beraten, sich über die Forschungsschwerpunkte potenzieller ‚Betreuer-Profs‘ an der jeweiligen Fakultät frühzeitig ein Bild zu machen und besonders bei einer berufsbegleitenden Promotion auch an eine\_"
+                    text: "In den meisten standardisierten Promotionsprogrammen der Unis durchläuft der Promovend ein strukturiertes Verfahren in der Gruppe. Die persönliche Betreuung ist ein Schwerpunkt in diesen kostenpflichtigen Programmen – im Unterschied zur internen Promotion gilt der Promovend als Kunde. Die üblicherweise schwierige Suche nach einem Doktorvater wird insbesondere an den Unis erleichtert, die sich verpflichten, dem Doktoranden einen passenden Betreuer zuzuteilen oder das Thema passend zum Forschungsschwerpunkt eines Professoren auszurichten. Unabhängig davon sind Promotionsinteressenten immer gut beraten, sich über die Forschungsschwerpunkte potenzieller ‚Betreuer-Profs‘ an der jeweiligen Fakultät frühzeitig ein Bild zu machen und besonders bei einer berufsbegleitenden Promotion auch an eine\_"
                   -
                     type: text
                     marks:
@@ -282,7 +282,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_wenden. Auch können sich diese eine Mustervorlage für Ihre "
+                    text: "\_wenden. Auch können diese Ihnen eine Mustervorlage für Ihre "
                   -
                     type: text
                     marks:
@@ -1034,7 +1034,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Das Promotionsprogram, der Düsseldorfer Privatuniversität Otto-Beisheim-School of Management richtet sich an Wirtschaftswissenschaftler, die den Grad eines Doktors der\_"
+                    text: "Das Promotionsprogramm der Düsseldorfer Privatuniversität Otto-Beisheim-School of Management richtet sich an Wirtschaftswissenschaftler, die den Grad eines Doktors der\_"
                   -
                     type: text
                     marks:
@@ -1716,8 +1716,8 @@ replicator:
 page_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1687188036
+updated_by: 05dc5331-6bc5-4897-a2e0-d559d0f01e29
+updated_at: 1702127124
 meta_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 meta_description: 'Finden Sie jetzt das passende standardisierte Promotionsprogramm für Ihre nebenberufliche Promotion und profitieren Sie von unserer Promotionsberatung!'
 use_meta_keywords: false
