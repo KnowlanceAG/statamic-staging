@@ -22,77 +22,6 @@ teaser:
               hex: '#ff6606'
         text: 'Protokoll schreiben lassen'
   -
-    type: table
-    content:
-      -
-        type: table_row
-        content:
-          -
-            type: table_cell
-            attrs:
-              colspan: 1
-              rowspan: 1
-              colwidth: null
-              background: null
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'protokoll schreiben lassen'
-      -
-        type: table_row
-        content:
-          -
-            type: table_cell
-            attrs:
-              colspan: 1
-              rowspan: 1
-              colwidth: null
-              background: null
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'protokoll schreiben beispiel'
-      -
-        type: table_row
-        content:
-          -
-            type: table_cell
-            attrs:
-              colspan: 1
-              rowspan: 1
-              colwidth: null
-              background: null
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'protokoll schreiben formulierungen'
-      -
-        type: table_row
-        content:
-          -
-            type: table_cell
-            attrs:
-              colspan: 1
-              rowspan: 1
-              colwidth: null
-              background: null
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'wie schreibt man protokoll'
-  -
     type: heading
     attrs:
       level: 2
@@ -223,7 +152,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |
-                      Benötigen Sie Hilfe beim Schreiben Ihres Protokolls? Sie müssen Ihre Notizen oder Unterrichtsinhalte in Form eines Protokolls schreiben? Unsere Agentur GWriters bietet Ihnen kompetente Unterstützung für Ihr Protokoll! Unsere Ghostwriter sind Profis in wissenschaftlichen Arbeiten und finden für Ihr Protokollarbeit genau den passenden <b>akademischen Ghostwriter</b>, der Ihren individuellen Anforderungen entspricht. Möchten Sie für Ihr <b>Protokoll Ghostwriter beauftragen</b>? Möchten Sie eine qualitativ hochwertige Mustervorlage für Ihr Protokoll schreiben lassen? Unsere Ghostwriting-Agentur arbeitet mit akademischen Experten, Doktoren und Professoren zusammen. Schicken Sie uns gerne eine <a href="/anfrage">kostenlose Anfrage</a> und erhalten Sie innerhalb weniger Stunden ein unverbindliches Angebot von uns!
+                      Benötigen Sie Hilfe beim Schreiben Ihres Protokolls? Sie müssen Ihre Notizen oder Unterrichtsinhalte in Form eines Protokolls schreiben? Unsere Agentur GWriters bietet Ihnen kompetente Unterstützung für Ihr Protokoll! Unsere Ghostwriter sind Profis in wissenschaftlichen Arbeiten und finden für Ihr Protokollarbeit genau den passenden <b>akademischen Ghostwriter</b>, der Ihren individuellen Anforderungen entspricht. Möchten Sie für Ihr <b>Protokoll Ghostwriter beauftragen</b>? Möchten Sie eine qualitativ hochwertige Mustervorlage für Ihr Protokoll schreiben lassen? Unsere Ghostwriting-Agentur arbeitet mit akademischen Experten, Doktoren und Professoren zusammen. Schicken Sie uns gerne eine <a href="/anfrage"style="color: #F06606;">kostenlose Anfrage</a> und erhalten Sie innerhalb weniger Stunden ein unverbindliches Angebot von uns!
               -
                 type: heading
                 attrs:
@@ -385,6 +314,84 @@ replicator:
                                   target: null
                                   rel: null
                             text: 'Warum sollte man bei Projektarbeiten Ghostwriter beauftragen?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                      -
+                        type: table
+                        content:
+                          -
+                            type: table_row
+                            content:
+                              -
+                                type: table_cell
+                                attrs:
+                                  colspan: 1
+                                  rowspan: 1
+                                  colwidth: null
+                                  background: null
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'protokoll schreiben lassen'
+                          -
+                            type: table_row
+                            content:
+                              -
+                                type: table_cell
+                                attrs:
+                                  colspan: 1
+                                  rowspan: 1
+                                  colwidth: null
+                                  background: null
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'protokoll schreiben beispiel'
+                          -
+                            type: table_row
+                            content:
+                              -
+                                type: table_cell
+                                attrs:
+                                  colspan: 1
+                                  rowspan: 1
+                                  colwidth: null
+                                  background: null
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'protokoll schreiben formulierungen'
+                          -
+                            type: table_row
+                            content:
+                              -
+                                type: table_cell
+                                attrs:
+                                  colspan: 1
+                                  rowspan: 1
+                                  colwidth: null
+                                  background: null
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'wie schreibt man protokoll'
+                      -
+                        type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -496,69 +503,49 @@ replicator:
                     type: anchor_target
                     anchor_name: ghostwriter
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Wie unterstützen Sie Ghostwriter bei Ihrer Projektarbeit?'
+                    text: 'Was ist ein Protokoll?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
+                    text: 'Ein Protokoll ist eine '
                   -
                     type: text
-                    text: ' können bei der Anfertigung Ihrer Projektarbeit im Studium unterstützen, indem sie Recherchen durchführen, die Arbeit strukturieren, beim Schreiben helfen, die Formatierung übernehmen und das Korrekturlesen übernehmen. '
+                    marks:
+                      -
+                        type: bold
+                    text: 'schriftliche Zusammenfassung oder Aufzeichnung von Ereignissen, Diskussionen, Unterrichtsinhalten, Beschlüssen oder Ergebnissen'
+                  -
+                    type: text
+                    text: '. Es dient dazu, relevante Informationen festzuhalten und strukturiert zu dokumentieren. Protokolle werden in verschiedenen Kontexten verwendet, darunter in '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Meetings, Veranstaltungen, Seminare, wissenschaftlichen Experimenten, Vorlesungen oder geschäftlichen Besprechungen'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Insbesondere können Ghostwriter '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/literaturrecherche-datenbanken-quellen
-                          target: null
-                          rel: null
-                    text: 'umfassende Literaturrecherche'
-                  -
-                    type: text
-                    text: ' zu Ihrem Projektthema durchführen, um relevante Literatur und Forschungsergebnisse zu identifizieren. Sie sind mit dem aktuellen Forschungsstand vertraut und haben oft Zugang zu kostenpflichtigen wissenschaftlichen Datenbanken. '
+                    text: 'Grundsätzlich enthält ein Protokoll die wichtigsten Punkte, Diskussionen und Entscheidungen, die während eines Ereignisses stattgefunden haben. Außerdem werden Details zu Anwesenheit, Datum, Uhrzeit und Ort festgehalten. Je nach Kontext und Zweck können Protokolle unterschiedliche Formen annehmen, von informellen schriftlichen Notizen bis zu formal strukturierten Dokumenten.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Häufig beauftragen Studierende Ghostwriter, um ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-                  -
-                    type: text
-                    text: ' oder '
+                    text: 'In akademischen Kontexten werden oft Protokolle von Experimenten oder Laborarbeiten verlangt, um den Fortschritt und die Ergebnisse der Forschung zu dokumentieren. Auch verfassen Studenten häufig Protokolle über Seminare. Wenn Sie ein Protokoll als Seminararbeit schreiben müssen, können Sie gerne bei uns eine '
                   -
                     type: text
                     marks:
@@ -571,65 +558,24 @@ replicator:
                     text: Seminararbeit
                   -
                     type: text
-                    text: ' als Muster für ihre Projektarbeit schreiben zu lassen. Unsere qualifizierten Ghostwriter verfügen über umfangreiche Erfahrung im Schreiben von Projektarbeiten. Sie erstellen eine komplette Muster-Projektarbeit nach individuellen Anforderungen und Fachgebiet für Sie. Wenn Sie sich dazu entschließen, eine Musterarbeit für Ihre Projektarbeit schreiben zu lassen, befinden Sie sich auf der sicheren Seite. '
+                    text: ' als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Protokoll schreiben lassen'
+                  -
+                    type: text
+                    text: '. Besonders sind beim Schreiben von Protokollen Ghostwriter Experten. In geschäftlichen oder organisatorischen Kontexten werden ebenfalls Protokolle erstellt, um Entscheidungen, Aktionen und Verantwortlichkeiten festzuhalten.'
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
                     type: text
-                    text: 'Von der Themenrecherche bis zur professionellen Plagiatsprüfung wird Ihre Arbeit kostenlos durchgeführt. Am Ende erhalten Sie eine fertige Musterarbeit für Ihre Projektarbeit, die allen relevanten Richtlinien entspricht. Das bedeutet, dass Ihre Arbeit einheitlich mit wissenschaftlichen Quellen zitiert wird, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /gwriters-akademie
-                          target: null
-                          rel: null
-                    text: 'alle Verzeichnisse'
-                  -
-                    type: text
-                    text: ' eingefügt werden (z.B. Inhaltsverzeichnis, Abkürzungsverzeichnis, Literaturverzeichnis etc.), Grafiken erstellt werden, eine klare Struktur eingebaut wird, und die Arbeit abschließend von einem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: 'unabhängigen Lektorat'
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    text: ' überprüft sowie auf '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: 'Plagiate geprüft'
-                  -
-                    type: text
-                    text: ' wird. '
+                    text: 'Wie Sie in Ihr Protokoll Ghostwriter gebrauchen können?'
               -
                 type: paragraph
                 content:
@@ -639,79 +585,250 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                    text: 'Wenn Sie Ihre Projektarbeit als '
+                          align: justify
+                    text: "Sie können gerne bei einem professionellen Ghostwriter ein Protokoll schreiben lassen. Warum Sie bei einem Ghostwriter Protokolls verfassen lassen sollten? Unsere Experten verfügen über einen erfolgreichen Studienabschluss und umfassende Erfahrungen in wissenschaftlichen Arbeiten. \_Sie können bei der Erstellung eines Protokolls auf verschiedene Weisen behilflich sein:"
+              -
+                type: table
+                content:
                   -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: textAlign
+                        type: table_cell
                         attrs:
-                          align: start
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: justify
+                                text: 'Professionelles Schreiben:'
                       -
-                        type: textColor
+                        type: table_cell
                         attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/praesentationen
-                          target: null
-                          rel: null
-                    text: Präsentation
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ghostwriter sind erfahrene Schreiber mit einer Fähigkeit zur klaren und präzisen Formulierung. Sie können Ihnen helfen, Ihre Gedanken und Informationen in einem gut strukturierten Protokoll auszudrücken.'
                   -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: textAlign
+                        type: table_cell
                         attrs:
-                          align: start
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: justify
+                                text: 'Formatierung und Struktur:'
                       -
-                        type: textColor
+                        type: table_cell
                         attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                    text: ' erstellen müssen, können unsere Ghostwriter Sie dabei unterstützen. Unsere akademischen Ghostwriter bereiten Sie auf Ihre Präsentation vor und erstellen eine '
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ghostwriter verstehen die Anforderungen an die Formatierung und Struktur von Protokollen. Sie können sicherstellen, dass Ihr Protokoll den gängigen Standards entspricht und übersichtlich aufgebaut ist.'
                   -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: textAlign
+                        type: table_cell
                         attrs:
-                          align: start
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: justify
+                                text: 'Rechercheunterstützung:'
                       -
-                        type: textColor
+                        type: table_cell
                         attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/bachelorarbeit-praesentation-powerpoint
-                          target: null
-                          rel: null
-                    text: PowerPoint-Präsentation
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Falls Ihr Protokoll Forschungsinhalte erfordert, können Ghostwriter Ihnen bei der Recherche helfen, sogar Forschungen für Sie durchführen. Sie haben Zugang zu verschiedenen kostenpflichtigen Datenbanken und können relevante Informationen für Ihr Protokoll finden und dokumentieren.'
                   -
-                    type: text
-                    marks:
+                    type: table_row
+                    content:
                       -
-                        type: textAlign
+                        type: table_cell
                         attrs:
-                          align: start
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: justify
+                                text: 'Anpassung an Anforderungen:'
                       -
-                        type: textColor
+                        type: table_cell
                         attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                    text: ' zu Ihrem Projektthema.'
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ghostwriter können Ihr Protokoll an spezifische Anforderungen anpassen, sei es für den akademischen, geschäftlichen oder organisatorischen Kontext. Sie berücksichtigen dabei die vorgegebenen Kriterien und Richtlinien.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: justify
+                                text: 'Zeitersparnis:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Unterstützung durch einen Ghostwriter ermöglicht es Ihnen, Zeit zu sparen. Das ist besonders nützlich, wenn Sie unter Zeitdruck stehen oder andere Verpflichtungen im Studium haben.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: justify
+                                text: 'Qualitätssicherung:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Im Bereich Lektorat wird Ihr Protokoll von einem professionellen Ghostwriter auf Qualität geprüft. Dieser sorgt für eine qualitativ hochwertige schriftliche Arbeit und kann sicherstellen, dass Ihr Protokoll frei von Rechtschreibfehlern, Grammatikproblemen und anderen sprachlichen Ungenauigkeiten ist.'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                    text: "\_"
               -
                 type: set
                 attrs:
@@ -740,7 +857,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Mustervorlage für Projektarbeit schreiben\_lassen"
+                    text: "Mustervorlage für Protokoll schreiben\_lassen"
                   -
                     type: hard_break
                     marks:
@@ -816,7 +933,17 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mit einer kostenlosen Anfrage für Ihre Projektarbeit über das Kontaktformular erhalten Sie in kürzester Zeit ein unverbindliches Angebot.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Einfach unser Kontaktformular in wenigen Schritten ausfüllen, und wir wissen schon, was Sie möchten! Schicken Sie uns gerne eine kostenlose Anfrage.'
             show_as_card: false
           -
             id: lalg3xcf
@@ -847,7 +974,17 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In einem unverbindlichen Angebot von Ghostwritern für Ihre Projektarbeit erhalten Sie detaillierte Informationen zu Ihrem Anliegen. Das Angebot ist speziell auf Ihre Bedürfnisse zugeschnitten und beinhaltet einen fairen Preis für die Unterstützung bei Ihrer Studienarbeit. Zusätzlich wird eine vorläufige Planung für Ihren Auftrag im Angebot erstellt.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'In kurzer Zeit erhalten Sie ein unverbindliches Angebot für Ihr Protokoll, in dem alle detaillierten Informationen zu Ihrer Anfrage enthalten sind.'
             show_as_card: false
           -
             id: lalg3yqv
@@ -878,7 +1015,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sobald Sie das Angebot angenommen haben, startet der Schreibprozess mit dem ausgewählten Ghostwriter für Ihre Projektarbeit. In der Regel werden bei kurzen Projektarbeiten 2-3 kostenlose Zwischenlieferungen durchgeführt, die von unseren Projektmanagern koordiniert werden.'
+                    text: 'Sobald Sie das Angebot angenommen haben, startet der Schreibprozess mit dem ausgewählten Ghostwriter für Ihr Protokoll. In der Regel werden bei Protokollen keine  kostenfreie Zwischenlieferungen benötigt. Ausschließlich vor der Abschlusslieferung kann eventuell eine Zwischenlieferung durchgeführt werden, bei der Sie die Ergebnisse einmal analysieren und Änderungswünsche äußern können.'
             show_as_card: false
           -
             id: lalg3zn6
@@ -909,7 +1046,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nachdem alle Zwischenlieferungen abgeschlossen sind und keine weiteren Änderungswünsche des Kunden erforderlich sind, wird die finale Version der Arbeit professionell auf Plagiate geprüft und durch ein Lektorat auf Qualität überprüft. Gerne setzen wir auch nach der Abschlusslieferung weitere Änderungsvorschläge kostenfrei um.'
+                    text: 'Wenn keine weiteren Änderungswünsche des Kunden erforderlich sind, wird die finale Version der Arbeit professionell auf Plagiate geprüft und durch ein Lektorat auf Qualität überprüft. Gerne setzen wir auch nach der Abschlusslieferung weitere Änderungsvorschläge kostenfrei um.'
             show_as_card: false
         type: row
         enabled: true
@@ -945,7 +1082,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Projektarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                    text: 'Wenn Sie bei Ihr Protokoll Unterstützung benötigen, dann können Sie uns gerne sofort eine '
                   -
                     type: text
                     marks:
@@ -1349,7 +1486,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Was ist eine Projektarbeit?'
+                    text: 'Wie schreibt man ein Protokoll?'
               -
                 type: paragraph
                 content:
@@ -1365,7 +1502,7 @@ replicator:
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
-                    text: 'Eine Projektarbeit ist eine schriftliche wissenschaftliche Arbeit, die im Rahmen eines bestimmten Projekts oder Seminars verfasst wird. Diese Art von wissenschaftlicher Arbeit wird in vielen Fachrichtungen und an zahlreichen Hochschulen von Studierenden verfasst. Projektarbeiten ermöglichen es den Studierenden, ihre theoretischen Kenntnisse in der Praxis anzuwenden und zeigen, dass sie in der Lage sind, ein wissenschaftliches Problem zu analysieren und zu lösen.'
+                    text: 'Ein ist eine schriftliche wissenschaftliche Arbeit, die im Rahmen eines bestimmten Projekts oder Seminars verfasst wird. Diese Art von wissenschaftlicher Arbeit wird in vielen Fachrichtungen und an zahlreichen Hochschulen von Studierenden verfasst. Projektarbeiten ermöglichen es den Studierenden, ihre theoretischen Kenntnisse in der Praxis anzuwenden und zeigen, dass sie in der Lage sind, ein wissenschaftliches Problem zu analysieren und zu lösen.'
               -
                 type: paragraph
                 content:
@@ -3624,7 +3761,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702207852
+updated_at: 1702214212
 template: default
 use_meta_keywords: false
 no_index_page: false
