@@ -3,7 +3,7 @@ id: 942c2c8b-0964-473f-bd8d-10426b828eb8
 blueprint: pages
 title: test123
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1702302475
+updated_at: 1702302620
 replicator:
   -
     id: laieiq4o
@@ -857,8 +857,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-700
-              hex: '#c14c00'
+              color: orange-500
+              hex: '#ff6606'
         text: Test
   -
     type: paragraph
