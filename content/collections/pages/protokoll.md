@@ -1500,9 +1500,17 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: var(--text-primary)
+                          color: 'rgb(55, 65, 81)'
                           hex: '#000'
-                    text: 'Ein ist eine schriftliche wissenschaftliche Arbeit, die im Rahmen eines bestimmten Projekts oder Seminars verfasst wird. Diese Art von wissenschaftlicher Arbeit wird in vielen Fachrichtungen und an zahlreichen Hochschulen von Studierenden verfasst. Projektarbeiten ermöglichen es den Studierenden, ihre theoretischen Kenntnisse in der Praxis anzuwenden und zeigen, dass sie in der Lage sind, ein wissenschaftliches Problem zu analysieren und zu lösen.'
+                    text: 'Das Schreiben eines Protokolls erfordert eine klare Struktur und bestimmte Elemente. '
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Protokoll schreiben: Beispiel'
               -
                 type: paragraph
                 content:
@@ -1516,9 +1524,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: var(--text-primary)
+                          color: 'rgb(55, 65, 81)'
                           hex: '#000'
-                    text: 'Die wichtigsten Merkmale einer Projektarbeit sind das festgelegte Projektthema, wissenschaftliche Recherche, methodisches Vorgehen, Dokumentation und die darauf aufbauende Präsentation.'
+                    text: 'Hier sind allgemeine Schritte mit Beispielen, die Ihnen helfen können, ein Protokoll zu verfassen:'
               -
                 type: table
                 content:
@@ -1531,7 +1539,104 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth:
-                            - 334
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Schritte
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Beschreibung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Protokoll-Beispiel
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Kopfzeile
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Versehen Sie das Protokoll mit einer Kopfzeile, die Informationen wie den Veranstaltungsnamen, das Datum, den Ort und den Verfasser enthält.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
                           background: null
                         content:
                           -
@@ -1542,7 +1647,103 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                text: Thema
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: 'Protokoll der Vorlesung '
+                              -
+                                type: text
+                                text: '"Einführung in die Informatik" '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Datum:'
+                              -
+                                type: text
+                                text: ' 10. Mai 2023 Ort: '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Fachrichtung: '
+                              -
+                                type: text
+                                text: Informatik
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Name & Matrikelnummer:'
+                              -
+                                type: text
+                                text: ' Anna  Max'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 2
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: Einleitung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Geben Sie eine kurze Einleitung, die den Anlass des Protokolls erläutert. Nennen Sie das Ziel der Veranstaltung oder des Experiments.'
                       -
                         type: table_cell
                         attrs:
@@ -1551,6 +1752,481 @@ replicator:
                           colwidth: null
                           background: null
                         content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: 'Die Vorlesung '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(0, 166, 125)'
+                                      hex: '#000'
+                                text: '"Einführung in die Informatik"'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: ' fand am '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(223, 48, 121)'
+                                      hex: '#000'
+                                text: '10.'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: ' Mai '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(223, 48, 121)'
+                                      hex: '#000'
+                                text: '2023'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: ' im Hörsaal '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(223, 48, 121)'
+                                      hex: '#000'
+                                text: '101'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: ' statt. Das Ziel war, den Studierenden grundlegende Konzepte der Informatik näherzubringen.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 3
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Teilnehmer und Anwesenheit:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Listen Sie die Teilnehmer auf und geben Sie an, wer anwesend war und wer nicht.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(242, 44, 61)'
+                                      hex: '#000'
+                                text: '1.'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: ' Prof. Dr. Müller (Dozent) '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(242, 44, 61)'
+                                      hex: '#000'
+                                text: '2.'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: ' Anna Max (Studierende, anwesend) '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(242, 44, 61)'
+                                      hex: '#000'
+                                text: '3.'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: ' Max Muster (Studierende, abwesend)...'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 4
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Tagesordnung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(55, 65, 81)'
+                                      hex: '#000'
+                                text: 'Strukturieren Sie das Protokoll nach den verschiedenen Tagesordnungspunkten oder Abschnitten des Experiments.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Punkt 1: Überblick'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: 'Prof. Dr. Müller gab einen Überblick über die Definition und Ziele der Informatik. - Diskussion über die verschiedenen Anwendungen der Informatik in verschiedenen Branchen.'
+                          -
+                            type: paragraph
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Punkt 2: Grundlagen der Programmierung - '
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: bold
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: 'Einführung in grundlegende Konzepte der Programmierung wie Variablen, Datentypen und Schleifen. - Demonstration von einfachen Codebeispielen.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 5
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Details und Ereignisse festhalten:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Notieren Sie während der Veranstaltung oder des Experiments relevante Details, Entscheidungen, Diskussionen und Ereignisse. Achten Sie darauf, objektiv und präzise zu sein.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: var(--tw-prose-bold)
+                                      hex: '#000'
+                                text: 'Einführung in Programmiersprachen:'
                           -
                             type: bullet_list
                             content:
@@ -1570,9 +2246,47 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: 'rgb(15, 15, 15)'
+                                              color: 'rgb(55, 65, 81)'
                                               hex: '#000'
-                                        text: 'Bezug zu einem bestimmten Thema im Kontext eines Projekts oder Seminars.'
+                                        text: 'Diskussion über die Grundlagen von Programmiersprachen wie Python und Java.'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Entscheidung, exemplarische Codebeispiele zur Veranschaulichung zu verwenden.'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Teilnehmer erhielten die Aufgabe, einfache Programme zu schreiben.'
                   -
                     type: table_row
                     content:
@@ -1582,7 +2296,66 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth:
-                            - 334
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 6
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Zeitliche Abfolge:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Halten Sie die zeitliche Abfolge der Ereignisse fest, um den Verlauf klar nachvollziehbar zu machen.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
                           background: null
                         content:
                           -
@@ -1593,15 +2366,16 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                text: Recherche
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: var(--tw-prose-bold)
+                                      hex: '#000'
+                                text: '09:00 - 10:30 Uhr: Einführung in Programmiersprachen'
                           -
                             type: bullet_list
                             content:
@@ -1621,9 +2395,9 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: var(--text-primary)
+                                              color: 'rgb(55, 65, 81)'
                                               hex: '#000'
-                                        text: 'Umfassende Recherche zum Thema.'
+                                        text: 'Präsentation der Grundlagen von Python und Java.'
                               -
                                 type: list_item
                                 content:
@@ -1640,9 +2414,87 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: var(--text-primary)
+                                              color: 'rgb(55, 65, 81)'
                                               hex: '#000'
-                                        text: 'Identifizierung relevanter Forschungsergebnisse.'
+                                        text: 'Live-Codierung von einfachen Beispielen.'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Diskussion und Beantwortung von Fragen.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: var(--tw-prose-bold)
+                                      hex: '#000'
+                                text: '11:00 - 12:30 Uhr: Datenbankmanagement'
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Theoretische Erläuterung von DBMS-Konzepten.'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(55, 65, 81)'
+                                              hex: '#000'
+                                        text: 'Vorstellung verschiedener Datenbanktypen.'
                   -
                     type: table_row
                     content:
@@ -1652,7 +2504,42 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth:
-                            - 334
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 7
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Beschlüsse und Ergebnisse:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
                           background: null
                         content:
                           -
@@ -1662,8 +2549,15 @@ replicator:
                                 type: text
                                 marks:
                                   -
-                                    type: bold
-                                text: Methodik
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Fassen Sie am Ende jedes Abschnitts die getroffenen Beschlüsse und die erzielten Ergebnisse zusammen.'
                       -
                         type: table_cell
                         attrs:
@@ -1673,161 +2567,21 @@ replicator:
                           background: null
                         content:
                           -
-                            type: bullet_list
+                            type: paragraph
                             content:
                               -
-                                type: list_item
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/qualitative-quantitative-methoden
-                                              target: null
-                                              rel: null
-                                        text: 'Qualitative oder quantitative Forschungsmethoden'
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                        text: ', abhängig von der Fachrichtung.'
-                              -
-                                type: list_item
-                                content:
+                                    type: textAlign
+                                    attrs:
+                                      align: left
                                   -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                        text: 'Mögliche Methoden: '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/umfrage-erstellen-tools
-                                              target: null
-                                              rel: null
-                                        text: Umfragen
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                        text: ', '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/leitfadengestuetztes-experteninterview
-                                              target: null
-                                              rel: null
-                                        text: Interviews
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                        text: ', Experimente, '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /blog/gruppendiskussion-methode
-                                              target: null
-                                              rel: null
-                                        text: Datenanalyse
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                        text: .
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: 'Verständnis für den Anwendungsbereich der Informatik in verschiedenen Bereichen. - Einführung in grundlegende Konzepte der Programmierung.'
                   -
                     type: table_row
                     content:
@@ -1837,7 +2591,42 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth:
-                            - 334
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 8
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Aufgaben und Verantwortlichkeiten:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
                           background: null
                         content:
                           -
@@ -1847,8 +2636,15 @@ replicator:
                                 type: text
                                 marks:
                                   -
-                                    type: bold
-                                text: Dokumentation
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Falls relevant, notieren Sie Aufgaben, die nach der Sitzung oder dem Experiment erledigt werden müssen, sowie die zugehörigen Verantwortlichkeiten.'
                       -
                         type: table_cell
                         attrs:
@@ -1858,46 +2654,21 @@ replicator:
                           background: null
                         content:
                           -
-                            type: bullet_list
+                            type: paragraph
                             content:
                               -
-                                type: list_item
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                        text: 'Schriftliche Dokumentation der Projektergebnisse.'
-                              -
-                                type: list_item
-                                content:
+                                    type: textAlign
+                                    attrs:
+                                      align: left
                                   -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: var(--text-primary)
-                                              hex: '#000'
-                                        text: 'Umfasst Einleitung, Methodik, Ergebnisse, Diskussion und Schlussfolgerungen.'
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: 'Studierende sollen das vermittelte Wissen vertiefen und einfache Programmieraufgaben lösen.'
                   -
                     type: table_row
                     content:
@@ -1907,7 +2678,42 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth:
-                            - 334
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 9
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Schlussbemerkungen:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
                           background: null
                         content:
                           -
@@ -1917,8 +2723,15 @@ replicator:
                                 type: text
                                 marks:
                                   -
-                                    type: bold
-                                text: Präsentation
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Schließen Sie das Protokoll mit Schlussbemerkungen oder einem Fazit ab. Geben Sie gegebenenfalls einen Ausblick auf künftige Schritte.'
                       -
                         type: table_cell
                         attrs:
@@ -1928,7 +2741,37 @@ replicator:
                           background: null
                         content:
                           -
-                            type: bullet_list
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 255, 255)'
+                                      hex: '#000'
+                                text: 'Die Vorlesung endete um 16:30 Uhr. Der nächste Unterricht wird sich auf vertiefende Themen der Programmierung konzentrieren.'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 10
                             content:
                               -
                                 type: list_item
@@ -1936,110 +2779,98 @@ replicator:
                                   -
                                     type: paragraph
                                     content:
-                                      -
-                                        type: text
-                                        text: 'In einigen Fällen mündliche Präsentation oder '
                                       -
                                         type: text
                                         marks:
                                           -
-                                            type: link
+                                            type: bold
+                                          -
+                                            type: textAlign
                                             attrs:
-                                              href: /blog/kolloquium-bachelorarbeit
-                                              target: null
-                                              rel: null
-                                        text: Kolloquium
-                                      -
-                                        type: text
-                                        text: ' der Arbeit.'
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: 'Unterschriften:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth:
+                            - 222
+                          background: null
+                        content:
                           -
-                            type: bullet_list
+                            type: paragraph
                             content:
                               -
-                                type: list_item
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Ziel: Verteidigung oder Erklärung der Ergebnisse und Erkenntnisse.'
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Lassen Sie das Protokoll von den Teilnehmern unterschreiben, um die Richtigkeit und Zustimmung zu bestätigen.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '_____________________ Prof. Dr. Müller (Datum, Unterschrift)  _____________________ Anna Max, Matrikelnummer(Datum, Unterschrift)'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Protokoll Beispiel: Studium'
               -
                 type: paragraph
                 content:
                   -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                  -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                    text: 'Ein Projekt hat immer einen Anfang und ein Ende, ebenso ist es bei einer Projektarbeit im Studium. Alles, was im Studium als Leistung abgeschlossen wird, kann als Projektarbeit betrachtet werden. Im Grunde genommen kann man eine Bachelorarbeit als Projektarbeit bezeichnen. Unter Projektarbeit versteht man das eigenständige Lösen einer Aufgabenstellung oder eines Problems durch eine Projektgruppe. Oft sind Gruppenarbeiten sehr komplex und zeitlich eingegrenzt.'
+                    text: 'Sie müssen für eine Vorlesung oder ein Seminar ein Protokoll schreiben, wissen aber nicht, wie ein Protokoll aussehen sollte? Hier erhalten Sie ein kostenloses Protokoll-Beispiel, das Sie gerne als Vorlage verwenden können.'
+              -
+                type: set
+                attrs:
+                  id: lq1ca66o
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/protokoll-beispiel.jpg
+                    img_size: w-3/4
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: set
+                attrs:
+                  id: lq1ch77j
+                  values:
+                    type: button
+                    button_link: /assets/downloads/blog/beispiel-protokoll-studium.pdf
+                    button_text: 'Kostenlos Protokoll Beispiel'
+                    button_align: justify-center
+                    spacing_top: false
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                    text: 'Es ist wichtig anzumerken, dass Projektarbeiten im Studium verschiedene Formen annehmen können und in unterschiedlichen Fachrichtungen unterschiedliche Anforderungen haben können. Diese können von Forschungsprojekten und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/fallstudie
-                          target: null
-                          rel: null
-                    text: Fallstudien
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text-primary)
-                          hex: '#000'
-                    text: ' bis hin zu praktischen Anwendungen und kreativen Projekten reichen.'
             show_as_card: false
         type: row
         enabled: true
@@ -2069,149 +2900,94 @@ replicator:
                     type: anchor_target
                     anchor_name: wann
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
+                  id: lq1bi7wp
+                  values:
+                    type: faq_section
+                    faq_tabs:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wann wird eine Projektarbeit erstellt?'
+                        id: lq1bi94l
+                        tab_headline: 'FAQ Protokoll schreiben'
+                        items:
+                          -
+                            id: lq1biepc
+                            headline: 'In welcher Zeitform wird ein Protokoll geschrieben?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'Das Protokoll wird in der Gegenwart verfasst, und alle relevanten Aspekte werden prägnant in Stichpunkten und in einer logischen Reihenfolge zusammengefasst. '
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(77, 81, 86)'
+                                          hex: '#000'
+                                    text: 'Ein Protokoll soll möglichst sachlich und neutral sein. Lassen Sie bitte persönliche Meinungen weg. '
+                            active: false
+                          -
+                            id: lq1bx5er
+                            headline: 'Muss man ein Protokoll unterschreiben?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'Ja, man muss immer den Protokoll unterschreiben lassen. Zur Bestätigung der Richtigkeit und Vollständigkeit des Protokolls empfiehlt es sich, die Unterschriften sowohl des Protokollführers als auch des Besprechungsleiters anzufügen.'
+                            active: false
+                          -
+                            id: lq1byzc5
+                            headline: 'Wie ist ein Protokoll aufgebaut?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'Ein Protokoll ist kurz und prägnant aufgebaut. Es umfasst eine Kopfzeile mit Informationen zur Veranstaltung, eine Liste der Teilnehmer und deren Anwesenheit, nummerierte Tagesordnungspunkte, Details zu diskutierten Inhalten sowie Beschlüsse und Ergebnisse. Das Protokoll schließt mit Aufgaben, Verantwortlichkeiten, Schlussbemerkungen und den Unterschriften des Protokollführers und des Besprechungsleiters zur Bestätigung der Richtigkeit und Vollständigkeit.'
+                            active: false
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                    text: 'Projektarbeiten sind gängige Bestandteile des Studiums und entstehen im Rahmen von Projekten, Seminaren, Praktika oder Forschungsprojekten. Die Anforderungen und Zeitpunkte für Projektarbeiten variieren je nach Hochschule, Studiengang und Fachrichtung. Sie können Teil des Studienverlaufs, spezieller Projektseminare oder Abschlussarbeiten wie Bachelor- oder Masterarbeiten sein. Auch in der Berufspraxis können Studierende Projektarbeiten verfassen, um ihre praktischen Fähigkeiten zu zeigen. Unabhängig von Zeit und Ort können unsere Experten Sie unterstützen. Besonders bei anspruchsvollen Projektarbeiten wie Bachelor- oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Masterarbeiten
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                    text: ' haben Studierende oft Schwierigkeiten, Forschungsergebnisse zu finden und diese in Form einer Projektarbeit zu verfassen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                    text: 'Insbesondere in den Studiengängen Naturwissenschaften, Ingenieurwissenschaften, Informatik, Sozialwissenschaften und in der Medizin werden komplexe Projekte als Abschlussarbeiten durchgeführt, da in diesen Studiengängen häufig umfangreiche Forschungen stattfinden. Es ist nicht ungewöhnlich, dass Studenten im Fachbereich '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter/medizin
-                          target: null
-                          rel: null
-                    text: 'Medizin Ghostwriter'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                    text: ' für komplexe und umfangreiche Forschungsarbeiten beauftragen. Viele möchten sich sogar eine komplette Projektarbeit als '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Bachelorarbeit schreiben lassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
-                          hex: '#000'
-                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -3419,142 +4195,325 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Warum sind Projektarbeiten im Studium so wichtig?'
+                    text: 'Warum sind Protokoll-Arbeiten im Studium so wichtig?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Projektarbeiten im Studium können aus verschiedenen Gründen wichtig sein. Studierende erwerben nicht nur fachliches Wissen, sondern entwickeln auch Fähigkeiten, die sie in ihrem zukünftigen Berufsleben erfolgreich einsetzen können.'
+                    text: 'Protokoll schreiben unterstützt im Studium die akademische Entwicklung, fördert die Selbstreflexion und verbessert die schriftlichen Fähigkeiten der Studierenden. Protokoll-Arbeiten im Studium sind aus mehreren Gründen wichtig:'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Praxisnahe Anwendung'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: 'Mit Projektarbeiten können Studierende theoretisches Wissen in der Praxis anwenden. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: Problemlösungskompetenz
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: 'Durch die eigenständige Bearbeitung von Projektaufgaben entwickeln Studierende Problemlösungskompetenzen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: Teamarbeit
-                  -
-                    type: text
-                    text: 'Eine Gruppenarbeit als Projektarbeit wird oft in verschiedenen Studiengängen durchgeführt. Gruppenarbeiten als Projektarbeit fördern die Teamarbeit und die Kommunikationsfähigkeiten der Studierenden. Sie lernen, effektiv im Team zu arbeiten, verschiedene Perspektiven zu berücksichtigen und gemeinsam Ziele zu erreichen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
-                    text: Forschungskompetenz
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: ' In vielen Projektarbeiten ist die Durchführung von Forschung ein integraler Bestandteil. Studierende entwickeln Forschungskompetenzen, lernen, relevante Literatur zu identifizieren, Daten zu sammeln und wissenschaftliche Methoden anzuwenden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Vorbereitung auf den Berufseinstieg'
-                  -
-                    type: text
-                    text: 'Projektarbeiten sind praxisnahe Vorbereitungen auf die Anforderungen im späteren Berufsleben.'
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: heading
+                type: ordered_list
                 attrs:
-                  level: 3
+                  order: 1
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Dokumentation von Veranstaltungen/Vorlesungen:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'Protokolle dienen dazu, wichtige Informationen, Diskussionen und Entscheidungen während Veranstaltungen, Seminaren oder Vorlesungen festzuhalten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Lernhilfe:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'Das Verfassen von Protokollen fördert das aktive Zuhören und Verständnis des behandelten Stoffs. Das Schreiben der Zusammenfassung erleichtert das Lernen und Vertiefen des Gelernten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Vorbereitung auf Prüfungen:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'Protokolle bieten eine kompakte Zusammenfassung des Lehrstoffes und können als effektive Studienhilfe für Prüfungen dienen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Kommunikation und Klarheit:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'Durch das Verfassen von Protokollen wird die Fähigkeit zur klaren und prägnanten Kommunikation entwickelt, da wichtige Informationen in strukturierter Form präsentiert werden müssen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Festhalten von Beschlüssen:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'In Sitzungen oder Gruppenarbeiten dienen Protokolle dazu, Beschlüsse und Vereinbarungen festzuhalten. Dies trägt zur Transparenz und Verantwortlichkeit bei.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Praktische Erfahrung:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'Das Schreiben von Protokollen ermöglicht es Studierenden, praktische Fertigkeiten wie das strukturierte Formulieren, das Organisieren von Informationen und das Arbeiten mit formalen Dokumenten zu entwickeln.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: var(--tw-prose-bold)
+                                  hex: '#000'
+                            text: 'Bewertung und Feedback:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgb(55, 65, 81)'
+                                          hex: '#000'
+                                    text: 'In einigen Fällen werden Protokolle von Dozenten bewertet, wodurch Studierende konstruktives Feedback zu ihren schriftlichen Fähigkeiten erhalten können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ob Sie eine Lernveranstaltung als Vorbereitung für eine Prüfung protokollieren müssen oder ein Protokoll für ein Seminar anfertigen müssen – das spielt keine Rolle. Unsere professionellen Ghostwriter erstellen für Sie ein Protokoll nach Ihren Wünschen und Anforderungen.'
             show_as_card: false
         type: row
         enabled: true
@@ -3572,135 +4531,6 @@ replicator:
           -
             id: b6OFM3rb
             bard:
-              -
-                type: set
-                attrs:
-                  id: lph7rptf
-                  values:
-                    type: anchor_target
-                    anchor_name: erstellen-lassen
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Warum sollte man bei Projektarbeiten Ghostwriter beauftragen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Es gibt viele Gründe, einen Ghostwriter zu beauftragen. Je nach Ihrem Anliegen und den Herausforderungen im akademischen Bereich stehen Ihnen unsere professionellen Experten zur Verfügung.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: Zeitmangel
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei wissenschaftlichen Abgaben wird eine Abgabefrist festgelegt. Oft leiden Studierende unter Zeitdruck, da sie häufig noch Privatleben, Job und andere Studienarbeiten bewältigen müssen. Viele greifen in solchen Situationen auf Ghostwriting zurück, um sich etwas Last abnehmen zu lassen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Komplexität der Aufgabe'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Oft sind Projektarbeiten sehr anspruchsvoll, besonders wenn sie umfangreiche Forschung, komplexe Analysen oder spezifische Fachkenntnisse erfordern. Ein erfahrener Ghostwriter kann bei der Bewältigung dieser Herausforderungen helfen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Schwierigkeiten beim Schreiben'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Viele Studierende haben Schwierigkeiten beim Verfassen von Projektarbeiten. Ghostwriter, die auf diesem Gebiet erfahren sind, können professionelle Unterstützung bieten, indem sie eine Musterarbeit für Ihre Projektarbeit schreiben lassen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: Qualitätsansprüche
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Studierende möchten möglicherweise sicherstellen, dass ihre Projektarbeit höchsten Qualitätsstandards entspricht. Akademische Ghostwriter mit Fachkenntnissen kann dazu beitragen, eine qualitativ hochwertige Arbeit zu erstellen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: Sprachbarrieren
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Für Studierende, deren Muttersprache nicht Deutsch ist und die ihre Arbeit in dieser Sprache verfassen müssen, kann ein Ghostwriter helfen. Unsere Ghostwriter beherrschen die deutsche und englische Sprache als Muttersprache und sind mit dem Schreibstil für Projektarbeiten vertraut.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Literaturrecherche & Zitieren'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein weiterer Grund ist eine professionelle Literaturrecherche und eine korrekte Zitierweise. Unsere Experten können umfassende Literaturrecherchen durchführen und alles mit der richtigen Zitierweise belegen. Ein Teil der Projektarbeit erfordert einen erheblichen zeitlichen Aufwand für die Literaturrecherche.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Inhalt, Rechtschreibung & Grammatik'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Auch hier kann die Beauftragung eines Ghostwriters sinnvoll sein: für die Erstellung von Inhalten sowie die Gewährleistung von korrekter Rechtschreibung und Grammatik. Unsere erfahrenen Experten können nicht nur hochwertige Inhalte erstellen, sondern auch lektorieren, sicherstellen, dass Ihre Arbeit sprachlich einwandfrei und korrekt ist. '
               -
                 type: set
                 attrs:
@@ -3761,7 +4591,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702214212
+updated_at: 1702325460
 template: default
 use_meta_keywords: false
 no_index_page: false
