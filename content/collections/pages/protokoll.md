@@ -2833,48 +2833,6 @@ replicator:
                               -
                                 type: text
                                 text: '_____________________ Prof. Dr. Müller (Datum, Unterschrift)  _____________________ Anna Max, Matrikelnummer(Datum, Unterschrift)'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Protokoll Beispiel: Studium'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie müssen für eine Vorlesung oder ein Seminar ein Protokoll schreiben, wissen aber nicht, wie ein Protokoll aussehen sollte? Hier erhalten Sie ein kostenloses Protokoll-Beispiel, das Sie gerne als Vorlage verwenden können.'
-              -
-                type: set
-                attrs:
-                  id: lq1ca66o
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/arbeiten/protokoll-beispiel.jpg
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: set
-                attrs:
-                  id: lq1ch77j
-                  values:
-                    type: button
-                    button_link: /assets/downloads/blog/beispiel-protokoll-studium.pdf
-                    button_text: 'Kostenlos Protokoll Beispiel'
-                    button_align: justify-center
-                    spacing_top: false
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: s
             show_as_card: false
         type: row
         enabled: true
@@ -4615,83 +4573,9 @@ replicator:
         single_col: true
         responsive_columns: 0
         columns_per_row: 0
-  -
-    id: lph4ko3u
-    columns_replicator:
-      -
-        id: lph4kt8u
-        single_col: true
-        grid:
-          -
-            id: b6OFM3rb
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: s
-              -
-                type: set
-                attrs:
-                  id: pYxHdNTw
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'UNTERSTÜTZUNG BEI IHRER PROJEKTARBEIT ANFORDERN'
-                    spacing_top: false
-                    color: '#FF6606'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Disclaimer
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702325664
+updated_at: 1702325723
 template: default
 use_meta_keywords: false
 no_index_page: false
