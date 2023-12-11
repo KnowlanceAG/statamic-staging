@@ -174,12 +174,36 @@ replicator:
                             type: text
                             marks:
                               -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
+                                type: link
+                                attrs:
+                                  href: '#definition'
+                                  target: null
+                                  rel: null
+                            text: 'Was ist ein Protokoll?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
                                 type: link
                                 attrs:
                                   href: '#ghostwriter'
                                   target: null
                                   rel: null
-                            text: 'Wie unterstützen Sie Ghostwriter bei Ihrer Projektarbeit?'
+                            text: 'Wie Sie in Ihr Protokoll Ghostwriter gebrauchen können?'
                       -
                         type: bullet_list
                         content:
@@ -207,7 +231,7 @@ replicator:
                                           href: '#schreiben-lassen'
                                           target: null
                                           rel: null
-                                    text: "Mustervorlage für Projektarbeit schreiben\_lassen"
+                                    text: "Mustervorlage für Protokoll schreiben\_lassen"
                                   -
                                     type: hard_break
                                     marks:
@@ -255,12 +279,16 @@ replicator:
                             type: text
                             marks:
                               -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
                                 type: link
                                 attrs:
-                                  href: '#definition'
+                                  href: '#schreiben'
                                   target: null
                                   rel: null
-                            text: 'Was ist eine Projektarbeit?'
+                            text: 'Wie schreibt man ein Protokoll?'
                   -
                     type: list_item
                     content:
@@ -271,17 +299,16 @@ replicator:
                             type: text
                             marks:
                               -
-                                type: textColor
+                                type: textAlign
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  align: left
                               -
                                 type: link
                                 attrs:
-                                  href: '#wann'
+                                  href: '#beispiel'
                                   target: null
                                   rel: null
-                            text: 'Wann wird eine Projektarbeit erstellt?'
+                            text: 'Protokoll Beispiel: Studium'
                   -
                     type: list_item
                     content:
@@ -292,12 +319,16 @@ replicator:
                             type: text
                             marks:
                               -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
                                 type: link
                                 attrs:
-                                  href: '#wichtigkeit'
+                                  href: '#zeitform'
                                   target: null
                                   rel: null
-                            text: 'Warum sind Projektarbeiten im Studium so wichtig?'
+                            text: 'In welcher Zeitform wird ein Protokoll geschrieben?'
                   -
                     type: list_item
                     content:
@@ -308,88 +339,36 @@ replicator:
                             type: text
                             marks:
                               -
+                                type: textAlign
+                                attrs:
+                                  align: left
+                              -
                                 type: link
                                 attrs:
-                                  href: '#erstellen-lassen'
+                                  href: '#unterschrift'
                                   target: null
                                   rel: null
-                            text: 'Warum sollte man bei Projektarbeiten Ghostwriter beauftragen?'
+                            text: 'Muss man ein Protokoll unterschreiben?'
                   -
                     type: list_item
                     content:
                       -
                         type: paragraph
-                      -
-                        type: table
                         content:
                           -
-                            type: table_row
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: table_cell
+                                type: textAlign
                                 attrs:
-                                  colspan: 1
-                                  rowspan: 1
-                                  colwidth: null
-                                  background: null
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'protokoll schreiben lassen'
-                          -
-                            type: table_row
-                            content:
+                                  align: left
                               -
-                                type: table_cell
+                                type: link
                                 attrs:
-                                  colspan: 1
-                                  rowspan: 1
-                                  colwidth: null
-                                  background: null
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'protokoll schreiben beispiel'
-                          -
-                            type: table_row
-                            content:
-                              -
-                                type: table_cell
-                                attrs:
-                                  colspan: 1
-                                  rowspan: 1
-                                  colwidth: null
-                                  background: null
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'protokoll schreiben formulierungen'
-                          -
-                            type: table_row
-                            content:
-                              -
-                                type: table_cell
-                                attrs:
-                                  colspan: 1
-                                  rowspan: 1
-                                  colwidth: null
-                                  background: null
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'wie schreibt man protokoll'
+                                  href: '#aufbau'
+                                  target: null
+                                  rel: null
+                            text: 'Wie ist ein Protokoll aufgebaut?'
                       -
                         type: paragraph
             show_as_card: false
@@ -501,7 +480,7 @@ replicator:
                   id: lms3kc4u
                   values:
                     type: anchor_target
-                    anchor_name: ghostwriter
+                    anchor_name: definition
               -
                 type: heading
                 attrs:
@@ -568,6 +547,13 @@ replicator:
                   -
                     type: text
                     text: '. Besonders sind beim Schreiben von Protokollen Ghostwriter Experten. In geschäftlichen oder organisatorischen Kontexten werden ebenfalls Protokolle erstellt, um Entscheidungen, Aktionen und Verantwortlichkeiten festzuhalten.'
+              -
+                type: set
+                attrs:
+                  id: lq1d3tw7
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
               -
                 type: heading
                 attrs:
@@ -836,8 +822,6 @@ replicator:
                   values:
                     type: anchor_target
                     anchor_name: schreiben-lassen
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1478,7 +1462,7 @@ replicator:
                   id: lms3l67b
                   values:
                     type: anchor_target
-                    anchor_name: definition
+                    anchor_name: schreiben
               -
                 type: heading
                 attrs:
@@ -2860,7 +2844,7 @@ replicator:
                   id: lms3lf9q
                   values:
                     type: anchor_target
-                    anchor_name: wann
+                    anchor_name: beispiel
               -
                 type: heading
                 attrs:
@@ -2898,12 +2882,6 @@ replicator:
                     button_align: justify-center
                     spacing_top: false
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: s
-              -
                 type: set
                 attrs:
                   id: lq1bi7wp
@@ -2918,6 +2896,13 @@ replicator:
                             id: lq1biepc
                             headline: 'In welcher Zeitform wird ein Protokoll geschrieben?'
                             accordion_content:
+                              -
+                                type: set
+                                attrs:
+                                  id: lq1d6hd1
+                                  values:
+                                    type: anchor_target
+                                    anchor_name: zeitform
                               -
                                 type: paragraph
                                 content:
@@ -2953,6 +2938,13 @@ replicator:
                             headline: 'Muss man ein Protokoll unterschreiben?'
                             accordion_content:
                               -
+                                type: set
+                                attrs:
+                                  id: lq1d7o0k
+                                  values:
+                                    type: anchor_target
+                                    anchor_name: unterschrift
+                              -
                                 type: paragraph
                                 content:
                                   -
@@ -2973,6 +2965,13 @@ replicator:
                             id: lq1byzc5
                             headline: 'Wie ist ein Protokoll aufgebaut?'
                             accordion_content:
+                              -
+                                type: set
+                                attrs:
+                                  id: lq1d8101
+                                  values:
+                                    type: anchor_target
+                                    anchor_name: aufbau
                               -
                                 type: paragraph
                                 content:
@@ -4528,7 +4527,7 @@ replicator:
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'UNTERSTÜTZUNG BEI IHRER PROJEKTARBEIT ANFORDERN'
+                    button_text: 'UNTERSTÜTZUNG BEI IHREM PROTOKOLL ANFORDERN'
                     spacing_top: false
                     color: '#FF6606'
               -
@@ -4575,7 +4574,7 @@ replicator:
         columns_per_row: 0
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702326045
+updated_at: 1702326645
 template: default
 use_meta_keywords: false
 no_index_page: false
