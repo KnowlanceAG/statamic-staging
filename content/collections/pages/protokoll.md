@@ -2855,7 +2855,7 @@ replicator:
                     type: floating_img
                     dateien:
                       - seiten/arbeiten/protokoll-beispiel.jpg
-                    img_size: w-3/4
+                    img_size: w-1/2
                     float: mx-auto
                     image_options:
                       - no_upscale
@@ -2871,6 +2871,10 @@ replicator:
                     spacing_top: false
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: s
             show_as_card: false
         type: row
         enabled: true
@@ -2899,6 +2903,48 @@ replicator:
                   values:
                     type: anchor_target
                     anchor_name: wann
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Protokoll Beispiel: Studium'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie müssen für eine Vorlesung oder ein Seminar ein Protokoll schreiben, wissen aber nicht, wie ein Protokoll aussehen sollte? Hier erhalten Sie ein kostenloses Protokoll-Beispiel, das Sie gerne als Vorlage verwenden können.'
+              -
+                type: set
+                attrs:
+                  id: lq1ca66o
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/protokoll-beispiel.jpg
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: set
+                attrs:
+                  id: lq1ch77j
+                  values:
+                    type: button
+                    button_link: /assets/downloads/blog/beispiel-protokoll-studium.pdf
+                    button_text: 'Kostenlos Protokoll Beispiel'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: s
               -
                 type: set
                 attrs:
@@ -4157,10 +4203,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: true
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: eonZTiiF
     remove_spacing: false
@@ -4520,7 +4568,6 @@ replicator:
         single_col: true
         responsive_columns: 0
         columns_per_row: 0
-    bg_color: '#F9F9F9'
   -
     id: lph4ko3u
     columns_replicator:
@@ -4591,7 +4638,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702325460
+updated_at: 1702325560
 template: default
 use_meta_keywords: false
 no_index_page: false
