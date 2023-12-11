@@ -4232,8 +4232,6 @@ replicator:
                     type: anchor_target
                     anchor_name: wichtigkeit
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -4557,11 +4555,60 @@ replicator:
                                           hex: '#000'
                                     text: 'In einigen Fällen werden Protokolle von Dozenten bewertet, wodurch Studierende konstruktives Feedback zu ihren schriftlichen Fähigkeiten erhalten können.'
               -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Ob Sie eine Lernveranstaltung als Vorbereitung für eine Prüfung protokollieren müssen oder ein Protokoll für ein Seminar anfertigen müssen – das spielt keine Rolle. Unsere professionellen Ghostwriter erstellen für Sie ein Protokoll nach Ihren Wünschen und Anforderungen.'
+              -
+                type: set
+                attrs:
+                  id: pYxHdNTw
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'UNTERSTÜTZUNG BEI IHRER PROJEKTARBEIT ANFORDERN'
+                    spacing_top: false
+                    color: '#FF6606'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Disclaimer
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ob Sie eine Lernveranstaltung als Vorbereitung für eine Prüfung protokollieren müssen oder ein Protokoll für ein Seminar anfertigen müssen – das spielt keine Rolle. Unsere professionellen Ghostwriter erstellen für Sie ein Protokoll nach Ihren Wünschen und Anforderungen.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
             show_as_card: false
         type: row
         enabled: true
@@ -4578,6 +4625,12 @@ replicator:
           -
             id: b6OFM3rb
             bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: s
               -
                 type: set
                 attrs:
@@ -4638,7 +4691,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702325560
+updated_at: 1702325664
 template: default
 use_meta_keywords: false
 no_index_page: false
