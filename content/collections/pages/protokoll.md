@@ -465,14 +465,14 @@ replicator:
     enabled: true
     bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
-    id: lalfm2mr
+    id: lq1deayd
     columns_replicator:
       -
-        id: lalfm7o5
+        id: lq1dep7z
         single_col: true
         grid:
           -
-            id: rMynGq5i
+            id: MMX130BP
             bard:
               -
                 type: set
@@ -546,7 +546,27 @@ replicator:
                     text: 'Protokoll schreiben lassen'
                   -
                     type: text
-                    text: '. Besonders sind beim Schreiben von Protokollen Ghostwriter Experten. In geschäftlichen oder organisatorischen Kontexten werden ebenfalls Protokolle erstellt, um Entscheidungen, Aktionen und Verantwortlichkeiten festzuhalten.'
+                    text: '. Besonders sind beim Schreiben von Protokollen Ghostwriter Experten. In geschäftlichen oder organisatorischen Kontexten werden ebenfalls Protokolle erstellt, um Entscheidungen, Aktionen und Verantwortlichkeiten festzuhalten:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lq1dfjwe
+    columns_replicator:
+      -
+        id: lq1dflfs
+        single_col: true
+        grid:
+          -
+            id: MMX130BP
+            bard:
               -
                 type: set
                 attrs:
@@ -806,15 +826,28 @@ replicator:
                                 text: 'Im Bereich Lektorat wird Ihr Protokoll von einem professionellen Ghostwriter auf Qualität geprüft. Dieser sorgt für eine qualitativ hochwertige schriftliche Arbeit und kann sicherstellen, dass Ihr Protokoll frei von Rechtschreibfehlern, Grammatikproblemen und anderen sprachlichen Ungenauigkeiten ist.'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: justify
-                    text: "\_"
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lalfm2mr
+    columns_replicator:
+      -
+        id: lalfm7o5
+        single_col: true
+        grid:
+          -
+            id: rMynGq5i
+            bard:
               -
                 type: set
                 attrs:
@@ -4574,7 +4607,7 @@ replicator:
         columns_per_row: 0
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702326645
+updated_at: 1702326860
 template: default
 use_meta_keywords: false
 no_index_page: false
