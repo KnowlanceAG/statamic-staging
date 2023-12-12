@@ -3807,7 +3807,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /kontakt
+                  href: /anfrage
                   target: null
                   rel: null
             text: Kontaktformular
@@ -3820,7 +3820,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: justify
-            text: "\_nutzen oder einen Kommentar hinterlassen!"
+            text: ', wir beraten Sie gerne!'
       -
         type: heading
         attrs:
@@ -3986,8 +3986,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 05dc5331-6bc5-4897-a2e0-d559d0f01e29
-updated_at: 1700080181
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702386731
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
