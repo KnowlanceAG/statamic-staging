@@ -138,8 +138,8 @@ teaser:
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698105332
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702392365
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2884,7 +2884,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /kontakt
+                          href: /anfrage
                           target: null
                           rel: null
                     text: Kontaktaufnahme
@@ -3087,7 +3087,6 @@ meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Personal
 og_title: 'Personalmanagement Ghostwriter, Lektoren & Coaches • GWriters'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Personalmanagement – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Ghostwriter Personalmanagement'
 breadcrumbs_active: true
