@@ -25,6 +25,10 @@ fields:
         - codeblock
         - horizontalrule
         - anchor
+        - alignleft
+        - aligncenter
+        - alignright
+        - alignjustify
       save_html: true
       toolbar_mode: floating
       link_noopener: false
@@ -38,186 +42,261 @@ fields:
       icon: bard
       listable: hidden
       sets:
-        conversion_widget:
-          display: 'NEW Conversion Widget'
-          fields:
-            -
-              import: conversion_widget
-        img_text_ce:
-          display: 'NEU Text Bild'
-          fields:
-            -
-              import: img_text_ce
-        bilder:
-          display: Bilder
-          fields:
-            -
-              import: ce_image
-        button:
-          display: Button
-          fields:
-            -
-              import: ce_button
-        headline:
-          display: Headline
-          fields:
-            -
-              import: ce_headlines
-        leistungen_uebersicht_4_spaltig:
-          display: 'Leistungen Übersicht 4-Spaltig'
-          fields:
-            -
-              import: ce_services_overview_four_columns
-        insert_html:
-          display: 'Insert HTML'
-          fields:
-            -
-              import: ce_html
-        link_liste:
-          display: 'Link Liste'
-          fields:
-            -
-              import: ce_toggle_services
-        custom_link_list:
-          display: 'Custom Link Liste'
-          fields:
-            -
-              import: ce_custom_toggle_services
-        video:
-          display: Video
-          fields:
-            -
-              import: video
-        form:
-          display: Form
-          fields:
-            -
-              handle: form
-              field:
-                max_items: 1
-                display: Form
-                type: form
-                icon: form
-                listable: hidden
-        simple_link_list:
-          display: 'Einfache Linkliste'
-          fields:
-            -
-              import: simple_link_list
-        academy_entries:
-          display: 'Akademie Beiträge'
-          fields:
-            -
-              import: academy_short
-        blog_entries:
-          display: 'Blog Beträge auswählen'
-          fields:
-            -
-              import: selected_blog_posts
-        experts_list:
-          display: 'Experten Liste'
-          fields:
-            -
-              import: experts_list
-        spacer:
-          display: Abstandshalter
-          fields:
-            -
-              import: spacer
-        team_liste:
-          display: 'Team Liste'
-          fields:
-            -
-              import: team_liste
-        numbers_home:
-          display: 'Zahlen auf der Startseite - Spalten'
-          fields:
-            -
-              import: number_home
-        bild_und_text:
-          display: 'Bild und Text'
-          fields:
-            -
-              import: bild_text
-        floating_img:
-          display: 'Floating Bild'
-          fields:
-            -
-              import: floating_img
-        text_box_alignment:
-          display: 'Text Box mit Textausrichtung'
-          fields:
-            -
-              import: textbox_aligned
-        table:
-          display: Tabelle
-          fields:
-            -
-              import: table
-        phone_cta:
-          display: 'Telefon CTA'
-          fields:
-            -
-              import: phone_cta
-        accordion_wrapper:
-          display: Accordion
-          fields:
-            -
-              import: accordion
-        accordion_custom_wrapper:
-          display: 'Accordion Custom'
-          fields:
-            -
-              import: accordion_custom
-        example_work:
-          display: Beispielarbeiten
-          fields:
-            -
-              import: example_work
-              prefix: ex_
-        logo_list:
-          display: 'Logo Liste'
-          fields:
-            -
-              import: logo_list
-        custom_svg_width:
-          display: 'SVG mit Breite'
-          fields:
-            -
-              import: custom_svg
-        show_sidebar_mobile:
-          display: 'Sidebar mobil hier darstellen'
-          fields:
-            -
-              import: sidebar_element
-        experten_slider:
-          display: 'Experten Liste Slider'
-          fields:
-            -
-              import: experten_slider
-        breadcrumbs_element:
-          display: 'Breadcrumbs Element'
-          fields: {  }
-        faq_section:
-          display: 'FAQ Bereich'
-          fields:
-            -
-              import: faq_section
-        anchor_target:
-          display: 'Anker Ziel'
-          fields:
-            -
-              import: anchor_target
-        ai_detect:
-          display: 'AI Detect'
-          fields:
-            -
-              import: ai_detect_element
-        citation_generator:
-          display: Zitationsgenerator
-          fields:
-            -
-              import: citation_generator
+        main:
+          display: Hauptteil
+          instructions: null
+          icon: null
+          sets:
+            conversion_widget:
+              display: 'NEW Conversion Widget'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: conversion_widget
+            img_text_ce:
+              display: 'NEU Text Bild'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: img_text_ce
+            bilder:
+              display: Bilder
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: ce_image
+            button:
+              display: Button
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: ce_button
+            headline:
+              display: Headline
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: ce_headlines
+            leistungen_uebersicht_4_spaltig:
+              display: 'Leistungen Übersicht 4-Spaltig'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: ce_services_overview_four_columns
+            insert_html:
+              display: 'Insert HTML'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: ce_html
+            link_liste:
+              display: 'Link Liste'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: ce_toggle_services
+            custom_link_list:
+              display: 'Custom Link Liste'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: ce_custom_toggle_services
+            video:
+              display: Video
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: video
+            form:
+              display: Form
+              instructions: null
+              icon: null
+              fields:
+                -
+                  handle: form
+                  field:
+                    max_items: 1
+                    display: Form
+                    type: form
+                    icon: form
+                    listable: hidden
+            simple_link_list:
+              display: 'Einfache Linkliste'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: simple_link_list
+            academy_entries:
+              display: 'Akademie Beiträge'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: academy_short
+            blog_entries:
+              display: 'Blog Beträge auswählen'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: selected_blog_posts
+            experts_list:
+              display: 'Experten Liste'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: experts_list
+            spacer:
+              display: Abstandshalter
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: spacer
+            team_liste:
+              display: 'Team Liste'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: team_liste
+            numbers_home:
+              display: 'Zahlen auf der Startseite - Spalten'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: number_home
+            bild_und_text:
+              display: 'Bild und Text'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: bild_text
+            floating_img:
+              display: 'Floating Bild'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: floating_img
+            text_box_alignment:
+              display: 'Text Box mit Textausrichtung'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: textbox_aligned
+            table:
+              display: Tabelle
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: table
+            phone_cta:
+              display: 'Telefon CTA'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: phone_cta
+            accordion_wrapper:
+              display: Accordion
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion
+            accordion_custom_wrapper:
+              display: 'Accordion Custom'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: accordion_custom
+            example_work:
+              display: Beispielarbeiten
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: example_work
+                  prefix: ex_
+            logo_list:
+              display: 'Logo Liste'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: logo_list
+            custom_svg_width:
+              display: 'SVG mit Breite'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: custom_svg
+            show_sidebar_mobile:
+              display: 'Sidebar mobil hier darstellen'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: sidebar_element
+            experten_slider:
+              display: 'Experten Liste Slider'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: experten_slider
+            breadcrumbs_element:
+              display: 'Breadcrumbs Element'
+              instructions: null
+              icon: null
+              fields: {  }
+            faq_section:
+              display: 'FAQ Bereich'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: faq_section
+            anchor_target:
+              display: 'Anker Ziel'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: anchor_target
+            ai_detect:
+              display: 'AI Detect'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: ai_detect_element
+            citation_generator:
+              display: Zitationsgenerator
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: citation_generator
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
@@ -228,6 +307,11 @@ fields:
       remove_empty_nodes: false
       always_save: false
       collapse: false
+      replicator_preview: true
+      smart_typography: false
+      inline: false
+      word_count: false
+      hide_display: false
   -
     handle: show_as_card
     field:
