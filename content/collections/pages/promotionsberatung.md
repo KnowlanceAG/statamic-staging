@@ -509,20 +509,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Promotionsberater, die ihre Tätigkeiten illegal ausüben, wollen das Risiko aufzufallen möglichst gering halten. Aus diesem Grund minimieren sie den schriftlichen '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /kontakt
-                                  target: null
-                                  rel: null
-                            text: Kontakt
-                          -
-                            type: text
-                            text: .
+                            text: 'Promotionsberater, die ihre Tätigkeiten illegal ausüben, wollen das Risiko aufzufallen möglichst gering halten. Aus diesem Grund minimieren sie den schriftlichen Kontakt.'
                   -
                     type: list_item
                     content:
@@ -640,7 +627,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692634308
+updated_at: 1702386941
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false
