@@ -35,7 +35,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Mustervorlage für Ihr Summary von akademischen Ghostwritern'
+        text: 'Mustervorlage für Ihre Summary von akademischen Ghostwritern'
   -
     type: set
     attrs:
@@ -3682,7 +3682,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1702387539
+updated_at: 1702387552
 template: default
 use_meta_keywords: false
 no_index_page: false
