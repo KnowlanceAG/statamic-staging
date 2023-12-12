@@ -1,1 +1,6813 @@
-!function(t){var n={};function e(r){if(n[r])return n[r].exports;var o=n[r]={i:r,l:!1,exports:{}};return t[r].call(o.exports,o,o.exports,e),o.l=!0,o.exports}e.m=t,e.c=n,e.d=function(t,n,r){e.o(t,n)||Object.defineProperty(t,n,{enumerable:!0,get:r})},e.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},e.t=function(t,n){if(1&n&&(t=e(t)),8&n)return t;if(4&n&&"object"==typeof t&&t&&t.__esModule)return t;var r=Object.create(null);if(e.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:t}),2&n&&"string"!=typeof t)for(var o in t)e.d(r,o,function(n){return t[n]}.bind(null,o));return r},e.n=function(t){var n=t&&t.__esModule?function(){return t.default}:function(){return t};return e.d(n,"a",n),n},e.o=function(t,n){return Object.prototype.hasOwnProperty.call(t,n)},e.p="/",e(e.s=2)}([function(t,n,e){var r=e(4);"string"==typeof r&&(r=[[t.i,r,""]]);var o={hmr:!0,transform:void 0,insertInto:void 0};e(6)(r,o);r.locals&&(t.exports=r.locals)},function(t,n){t.exports={purge:{content:["./resources/**/*.antlers.html","./resources/**/*.blade.php","./content/**/*.md"],options:{safelist:["lg:grid-cols-1","lg:grid-cols-2","lg:grid-cols-3","lg:grid-cols-4","lg:grid-cols-5","lg:grid-cols-6","lg:grid-cols-7","lg:grid-cols-8","lg:grid-cols-9","lg:grid-cols-10","lg:grid-cols-11","lg:grid-cols-12","md:w-1/2","md:w-1/4","md:w-3/4","md:float-right","md:float-left","md:mx-auto","object-scale-down"]}},important:!0,theme:{extend:{colors:{transparent:"transparent",black:"#000",blacklight:"#444",white:"#fff",orange:{500:"#ff6606",700:"#c14c00"},gray:{100:"#f2f2f2",200:"#F7F7F7",300:"#eaeaea",400:"#e0e0e0",500:"#d6d6d6",550:"#444",600:"#555",700:"#999"},green:{300:"#dff0d8",400:"#d6e9c6",500:"#468847"}},fontFamily:{Montserrat:["Montserrat","sans-serif"],sans:["Montserrat","sans-serif"]},fontSize:{"2xl":"1.65rem","5xl":"2.75rem",xs:["13px","26px"],sm:["15px","28px"],base:["16px","28px"],md:["18px","25px"],lg:["22px","36px"],xl:["24px","32px"]},lineHeight:{14:"4.5rem"},padding:{"py-22":"5.5rem"}}},variants:{},plugins:[]}},function(t,n,e){t.exports=e(8)},function(t,n,e){"use strict";e(0)},function(t,n,e){(t.exports=e(5)(!1)).push([t.i,"\n.overflow-y-scroll {\n  overflow-y: scroll;\n}\n.max-h-300px {\n  max-height: 300px;\n}\n.max-h-320px {\n  max-height: 300px;\n}\n.px-1 {\n  padding-left: 0.25rem;\n  padding-right: 0.25rem;\n}\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n.cursor-pointer {\n  cursor: pointer;\n}\n.hover\\:bg-gray-300:hover {\n  background-color: rgba(209, 213, 219, 1);\n}\n.z-10 {\n  z-index:10;\n}\n.text-center {\n  text-align: center;\n}\n.mx-1 {\n  margin-left: 0.25rem;\n  margin-right: 0.25rem;\n}\n.mx-2 {\n  margin-left: 0.5rem;\n  margin-right: 0.5rem;\n}\n.mr-2 {\n  margin-right: 0.5rem;\n}\n.mt-2 {\n  margin-top: 0.5rem;\n}\n.my-1 {\n  margin-top:.25rem;\n  margin-bottom:.25rem;\n}\n.rounded-xl {\n  border-radius: 0.75rem;\n}\n.bg-gray-50 {\n  background-color: rgba(249, 250, 251, 1);\n}\n.bg-gray-200 {\n  background-color: rgba(229, 231, 235, 1);\n}\n.flex {\n  display: flex;\n}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.items-center {\n  align-items: center;\n}\n.flex-row {\n  flex-direction: row;\n}\n.flex-col {\n  flex-direction: column;\n}\n.justify-center {\n  justify-content: center;\n}\n.justify-start {\n  justify-content: start;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.h-6 {\n  height: 1.5rem;\n}\n@media (min-width: 0px) {\n.w-full {\n    width: 100%;\n}\n.w-1\\/4 {\n    width: 25%;\n}\n.w-1\\/2 {\n    width: 50%;\n}\n.min-w-250 {\n    min-width:250px;\n}\n.min-w-500 {\n    min-width:500px;\n}\n}\n@media (min-width: 640px) {\n.sm\\:text-xl {\n    font-size: 1.25rem;\n    line-height: 1.75rem;\n}\n.sm\\:w-full {\n    width: 100%;\n}\n.sm\\:w-1\\/4 {\n    width: 25%;\n}\n.sm\\:w-1\\/2 {\n    width: 50%;\n}\n}\n@media (min-width: 768px) {\n.md\\:w-full {\n    width: 100%;\n}\n.md\\:w-1\\/4 {\n    width: 25%;\n}\n.md\\:w-1\\/2 {\n    width: 50%;\n}\n}\n@media (min-width: 1280px) {\n.lg\\:w-full {\n    width: 100%;\n}\n.lg\\:w-1\\/4 {\n    width: 25%;\n}\n.lg\\:w-1\\/2 {\n    width: 50%;\n}\n.lg\\:min-w-250 {\n    min-width:250px;\n}\n.lg\\:min-w-500 {\n    min-width:500px;\n}\n}\n",""])},function(t,n){t.exports=function(t){var n=[];return n.toString=function(){return this.map((function(n){var e=function(t,n){var e=t[1]||"",r=t[3];if(!r)return e;if(n&&"function"==typeof btoa){var o=(a=r,"/*# sourceMappingURL=data:application/json;charset=utf-8;base64,"+btoa(unescape(encodeURIComponent(JSON.stringify(a))))+" */"),i=r.sources.map((function(t){return"/*# sourceURL="+r.sourceRoot+t+" */"}));return[e].concat(i).concat([o]).join("\n")}var a;return[e].join("\n")}(n,t);return n[2]?"@media "+n[2]+"{"+e+"}":e})).join("")},n.i=function(t,e){"string"==typeof t&&(t=[[null,t,""]]);for(var r={},o=0;o<this.length;o++){var i=this[o][0];"number"==typeof i&&(r[i]=!0)}for(o=0;o<t.length;o++){var a=t[o];"number"==typeof a[0]&&r[a[0]]||(e&&!a[2]?a[2]=e:e&&(a[2]="("+a[2]+") and ("+e+")"),n.push(a))}},n}},function(t,n,e){var r,o,i={},a=(r=function(){return window&&document&&document.all&&!window.atob},function(){return void 0===o&&(o=r.apply(this,arguments)),o}),s=function(t,n){return n?n.querySelector(t):document.querySelector(t)},l=function(t){var n={};return function(t,e){if("function"==typeof t)return t();if(void 0===n[t]){var r=s.call(this,t,e);if(window.HTMLIFrameElement&&r instanceof window.HTMLIFrameElement)try{r=r.contentDocument.head}catch(t){r=null}n[t]=r}return n[t]}}(),c=null,u=0,f=[],d=e(7);function p(t,n){for(var e=0;e<t.length;e++){var r=t[e],o=i[r.id];if(o){o.refs++;for(var a=0;a<o.parts.length;a++)o.parts[a](r.parts[a]);for(;a<r.parts.length;a++)o.parts.push(b(r.parts[a],n))}else{var s=[];for(a=0;a<r.parts.length;a++)s.push(b(r.parts[a],n));i[r.id]={id:r.id,refs:1,parts:s}}}}function m(t,n){for(var e=[],r={},o=0;o<t.length;o++){var i=t[o],a=n.base?i[0]+n.base:i[0],s={css:i[1],media:i[2],sourceMap:i[3]};r[a]?r[a].parts.push(s):e.push(r[a]={id:a,parts:[s]})}return e}function h(t,n){var e=l(t.insertInto);if(!e)throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");var r=f[f.length-1];if("top"===t.insertAt)r?r.nextSibling?e.insertBefore(n,r.nextSibling):e.appendChild(n):e.insertBefore(n,e.firstChild),f.push(n);else if("bottom"===t.insertAt)e.appendChild(n);else{if("object"!=typeof t.insertAt||!t.insertAt.before)throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");var o=l(t.insertAt.before,e);e.insertBefore(n,o)}}function g(t){if(null===t.parentNode)return!1;t.parentNode.removeChild(t);var n=f.indexOf(t);n>=0&&f.splice(n,1)}function v(t){var n=document.createElement("style");if(void 0===t.attrs.type&&(t.attrs.type="text/css"),void 0===t.attrs.nonce){var r=function(){0;return e.nc}();r&&(t.attrs.nonce=r)}return x(n,t.attrs),h(t,n),n}function x(t,n){Object.keys(n).forEach((function(e){t.setAttribute(e,n[e])}))}function b(t,n){var e,r,o,i;if(n.transform&&t.css){if(!(i="function"==typeof n.transform?n.transform(t.css):n.transform.default(t.css)))return function(){};t.css=i}if(n.singleton){var a=u++;e=c||(c=v(n)),r=C.bind(null,e,a,!1),o=C.bind(null,e,a,!0)}else t.sourceMap&&"function"==typeof URL&&"function"==typeof URL.createObjectURL&&"function"==typeof URL.revokeObjectURL&&"function"==typeof Blob&&"function"==typeof btoa?(e=function(t){var n=document.createElement("link");return void 0===t.attrs.type&&(t.attrs.type="text/css"),t.attrs.rel="stylesheet",x(n,t.attrs),h(t,n),n}(n),r=j.bind(null,e,n),o=function(){g(e),e.href&&URL.revokeObjectURL(e.href)}):(e=v(n),r=_.bind(null,e),o=function(){g(e)});return r(t),function(n){if(n){if(n.css===t.css&&n.media===t.media&&n.sourceMap===t.sourceMap)return;r(t=n)}else o()}}t.exports=function(t,n){if("undefined"!=typeof DEBUG&&DEBUG&&"object"!=typeof document)throw new Error("The style-loader cannot be used in a non-browser environment");(n=n||{}).attrs="object"==typeof n.attrs?n.attrs:{},n.singleton||"boolean"==typeof n.singleton||(n.singleton=a()),n.insertInto||(n.insertInto="head"),n.insertAt||(n.insertAt="bottom");var e=m(t,n);return p(e,n),function(t){for(var r=[],o=0;o<e.length;o++){var a=e[o];(s=i[a.id]).refs--,r.push(s)}t&&p(m(t,n),n);for(o=0;o<r.length;o++){var s;if(0===(s=r[o]).refs){for(var l=0;l<s.parts.length;l++)s.parts[l]();delete i[s.id]}}}};var y,w=(y=[],function(t,n){return y[t]=n,y.filter(Boolean).join("\n")});function C(t,n,e,r){var o=e?"":r.css;if(t.styleSheet)t.styleSheet.cssText=w(n,o);else{var i=document.createTextNode(o),a=t.childNodes;a[n]&&t.removeChild(a[n]),a.length?t.insertBefore(i,a[n]):t.appendChild(i)}}function _(t,n){var e=n.css,r=n.media;if(r&&t.setAttribute("media",r),t.styleSheet)t.styleSheet.cssText=e;else{for(;t.firstChild;)t.removeChild(t.firstChild);t.appendChild(document.createTextNode(e))}}function j(t,n,e){var r=e.css,o=e.sourceMap,i=void 0===n.convertToAbsoluteUrls&&o;(n.convertToAbsoluteUrls||i)&&(r=d(r)),o&&(r+="\n/*# sourceMappingURL=data:application/json;base64,"+btoa(unescape(encodeURIComponent(JSON.stringify(o))))+" */");var a=new Blob([r],{type:"text/css"}),s=t.href;t.href=URL.createObjectURL(a),s&&URL.revokeObjectURL(s)}},function(t,n){t.exports=function(t){var n="undefined"!=typeof window&&window.location;if(!n)throw new Error("fixUrls requires window.location");if(!t||"string"!=typeof t)return t;var e=n.protocol+"//"+n.host,r=e+n.pathname.replace(/\/[^\/]*$/,"/");return t.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi,(function(t,n){var o,i=n.trim().replace(/^"(.*)"$/,(function(t,n){return n})).replace(/^'(.*)'$/,(function(t,n){return n}));return/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(i)?t:(o=0===i.indexOf("//")?i:0===i.indexOf("/")?e+i:r+i.replace(/^\.\//,""),"url("+JSON.stringify(o)+")")}))}},function(t,n,e){"use strict";function r(t,n){for(var e=0;e<n.length;e++){var r=n[e];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,r.key,r)}}e.r(n);var o=Statamic.$bard.tiptap.core.markInputRule,i=function(){function t(){!function(t,n){if(!(t instanceof n))throw new TypeError("Cannot call a class as a function")}(this,t)}var n,e,i;return n=t,(e=[{key:"name",value:function(){return"textColor"}},{key:"schema",value:function(){return{attrs:{color:{default:"#000"},hex:{default:"#000"}},parseDOM:[{style:"color",getAttrs:function(t){return{color:t}}}],toDOM:function(t){return["span",{style:"color: ".concat(t.attrs.hex,"!important;")},0]}}}},{key:"commands",value:function(t){var n=t.type,e=t.updateMark;return function(t){return e(n,t)}}},{key:"inputRules",value:function(t){var n=t.type;return[o(/(?:\*\*|__)([^*_]+)(?:\*\*|__)$/,n)]}},{key:"pasteRules",value:function(t){return t.type,[]}},{key:"plugins",value:function(){return[]}}])&&r(n.prototype,e),i&&r(n,i),t}(),a=e(1),s={mixins:[BardToolbarButton],data:function(){return{showColorMenu:!1,availableColors:a.theme.extend.colors,getMarkAttrs:this.editor.getMarkAttrs.bind(this.editor)}},methods:{setColor:function(t,n){this.editor.commands.textColor({color:t,hex:n}),this.showColorMenu=!1}},mounted:function(){}};e(3);var l=function(t,n,e,r,o,i,a,s){var l,c="function"==typeof t?t.options:t;if(n&&(c.render=n,c.staticRenderFns=e,c._compiled=!0),r&&(c.functional=!0),i&&(c._scopeId="data-v-"+i),a?(l=function(t){(t=t||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext)||"undefined"==typeof __VUE_SSR_CONTEXT__||(t=__VUE_SSR_CONTEXT__),o&&o.call(this,t),t&&t._registeredComponents&&t._registeredComponents.add(a)},c._ssrRegister=l):o&&(l=s?function(){o.call(this,(c.functional?this.parent:this).$root.$options.shadowRoot)}:o),l)if(c.functional){c._injectStyles=l;var u=c.render;c.render=function(t,n){return l.call(n),u(t,n)}}else{var f=c.beforeCreate;c.beforeCreate=f?[].concat(f,l):[l]}return{exports:t,options:c}}(s,(function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("div",{staticClass:"inline-block relative"},[e("button",{directives:[{name:"tooltip",rawName:"v-tooltip",value:t.button.text,expression:"button.text"}],staticClass:"bard-toolbar-button",class:{active:t.showColorMenu},domProps:{innerHTML:t._s(t.button.html)},on:{click:function(n){t.showColorMenu=!t.showColorMenu}}}),t._v(" "),e("div",{staticClass:"absolute left-10 bg-gray-200 px-1 rounded-sm flex flex-wrap min-w-250 lg:min-w-500 z-10 max-h-300px overflow-y-scroll",class:{hidden:!t.showColorMenu}},[t._l(t.availableColors,(function(n,r){return["string"==typeof n&&"transparent"!=r&&"current"!=r?e("div",{key:r,staticClass:"py-1 hover:bg-gray-300 w-full sm:w-1/2 xl:w-1/4 flex flex-row justify-start cursor-pointer items-center my-1",on:{click:function(e){return t.setColor(r,n)}}},[e("div",{staticClass:"w-6 h-6 mx-1",staticStyle:{border:"1px solid #000"},style:"background-color:"+n+";"}),t._v(" "),e("p",{staticClass:"text-center",staticStyle:{"font-size":"0.75rem!important"}},[t._v(t._s(r))])]):t._e(),t._v(" "),"object"==typeof n?t._l(n,(function(n,o){return e("div",{key:r+"-"+o,staticClass:"py-1 hover:bg-gray-300 w-full sm:w-1/2 xl:w-1/4 flex flex-row justify-start cursor-pointer items-center my-1",on:{click:function(e){return t.setColor(r+"-"+o,n)}}},[e("div",{staticClass:"w-6 h-6 mx-1",staticStyle:{border:"1px solid #000"},style:"background-color:"+n+";"}),t._v(" "),e("p",{staticClass:"text-center px-1",staticStyle:{"font-size":"0.75rem!important"}},[t._v(t._s(r+"-"+o))])])})):t._e()]}))],2)])}),[],!1,null,null,null).exports;Statamic.$bard.extend((function(t){return(0,t.mark)(new i)})),Statamic.$bard.buttons((function(t){var n=_.findIndex(t,{command:"bold"});t.splice(n,0,{name:"color",text:"Text Color",command:"textColor",args:{color:"#fff"},icon:"paint-brush",component:l})}))}]);
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=script&lang=js":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=script&lang=js ***!
+  \********************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var vue_click_outside__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-click-outside */ "./node_modules/vue-click-outside/index.js");
+/* harmony import */ var vue_click_outside__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_click_outside__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _tailwind_config_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../tailwind.config.js */ "../../../tailwind.config.js");
+/* harmony import */ var _tailwind_config_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tailwind_config_js__WEBPACK_IMPORTED_MODULE_1__);
+// const defaultTheme = require('tailwindcss/defaultTheme')
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  mixins: [BardToolbarButton],
+  data: function data() {
+    return {
+      showColorMenu: false,
+      availableColors: _tailwind_config_js__WEBPACK_IMPORTED_MODULE_1__.theme.extend.colors,
+      availableCustomColors: null,
+      selectedColors: _tailwind_config_js__WEBPACK_IMPORTED_MODULE_1__.theme.extend.colors,
+      selectedGroup: 'default',
+      enabled: false
+    };
+  },
+  directives: {
+    ClickOutside: (vue_click_outside__WEBPACK_IMPORTED_MODULE_0___default())
+  },
+  methods: {
+    onClickOutside: function onClickOutside() {
+      this.showColorMenu = false;
+    },
+    toggleColorMenu: function toggleColorMenu() {
+      this.showColorMenu = !this.showColorMenu;
+    },
+    setColor: function setColor(color, hex) {
+      this.editor.commands.changeTextColor({
+        color: color,
+        hex: hex
+      });
+    },
+    switchColors: function switchColors(group) {
+      switch (group) {
+        case 'default':
+          this.selectedGroup = 'default';
+          this.selectedColors = this.availableColors;
+          break;
+        case 'custom':
+          this.selectedGroup = 'custom';
+          this.selectedColors = this.availableCustomColors;
+          break;
+      }
+    }
+  },
+  mounted: function mounted() {
+    if (this.config && this.config.buttons.includes('color')) {
+      this.enabled = true;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=template&id=57133487":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=template&id=57133487 ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+var render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _vm.enabled ? _c("div", {
+    directives: [{
+      name: "click-outside",
+      rawName: "v-click-outside",
+      value: _vm.onClickOutside,
+      expression: "onClickOutside"
+    }],
+    staticClass: "inline-block relative"
+  }, [_c("button", {
+    directives: [{
+      name: "tooltip",
+      rawName: "v-tooltip",
+      value: _vm.button.text,
+      expression: "button.text"
+    }],
+    staticClass: "bard-toolbar-button",
+    "class": {
+      active: _vm.showColorMenu
+    },
+    domProps: {
+      innerHTML: _vm._s(_vm.button.html)
+    },
+    on: {
+      click: _vm.toggleColorMenu
+    }
+  }), _vm._v(" "), _c("div", {
+    staticClass: "absolute left-10 bg-gray-200 px-1 rounded-sm flex flex-wrap min-w-250 z-100 max-h-300px overflow-y-scroll",
+    "class": {
+      hidden: !_vm.showColorMenu
+    }
+  }, [_vm._l(_vm.availableColors, function (color, index) {
+    return [typeof color == "string" && index != "transparent" && index != "current" ? _c("div", {
+      key: index,
+      staticClass: "py-1 hover:bg-gray-300 w-full sm:w-1/2 xl:w-1/4 flex flex-row justify-start cursor-pointer items-center my-1",
+      on: {
+        click: function click($event) {
+          return _vm.setColor(index, color);
+        }
+      }
+    }, [_c("div", {
+      staticClass: "w-6 h-6 mx-1",
+      staticStyle: {
+        border: "1px solid #000"
+      },
+      style: "background-color:" + color + ";"
+    }), _vm._v(" "), _c("p", {
+      staticClass: "text-center",
+      staticStyle: {
+        "font-size": "0.75rem!important"
+      }
+    }, [_vm._v(_vm._s(index))])]) : _vm._e(), _vm._v(" "), _typeof(color) == "object" ? _vm._l(color, function (hex, intensity) {
+      return _c("div", {
+        key: index + "-" + intensity,
+        staticClass: "py-1 hover:bg-gray-300 w-full sm:w-1/2 xl:w-1/4 flex flex-row justify-start cursor-pointer items-center my-1",
+        on: {
+          click: function click($event) {
+            return _vm.setColor("".concat(index, "-").concat(intensity), hex);
+          }
+        }
+      }, [_c("div", {
+        staticClass: "w-6 h-6 mx-1",
+        staticStyle: {
+          border: "1px solid #000"
+        },
+        style: "background-color:" + hex + ";"
+      }), _vm._v(" "), _c("p", {
+        staticClass: "text-center px-1",
+        staticStyle: {
+          "font-size": "0.75rem!important"
+        }
+      }, [_vm._v(_vm._s(index + "-" + intensity))])]);
+    }) : _vm._e()];
+  })], 2)]) : _vm._e();
+};
+var staticRenderFns = [];
+render._withStripped = true;
+
+
+/***/ }),
+
+/***/ "./resources/js/TextColor.js":
+/*!***********************************!*\
+  !*** ./resources/js/TextColor.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   TextColor: () => (/* binding */ TextColor)
+/* harmony export */ });
+/* harmony import */ var _tailwind_config_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../tailwind.config.js */ "../../../tailwind.config.js");
+/* harmony import */ var _tailwind_config_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_tailwind_config_js__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+
+var Mark = Statamic.$bard.tiptap.core.Mark;
+var color2hex = function color2hex(color) {
+  if (!color) return '#000';
+  if (color.startsWith('#')) return color;
+  if (color.startsWith('rgb')) {
+    var values = color.substring(4, color.length - 1).split(',');
+    var r = parseInt(values[0]);
+    var g = parseInt(values[1]);
+    var b = parseInt(values[2]);
+    return '#' + [r, g, b].map(function (x) {
+      var hex = x.toString(16);
+      return hex.length === 1 ? "0".concat(hex) : hex;
+    }).join('');
+  }
+  var split = color.split('-');
+  if (!split.length || !_tailwind_config_js__WEBPACK_IMPORTED_MODULE_0__.theme.extend.colors[split[0]]) return '#000';
+  return _tailwind_config_js__WEBPACK_IMPORTED_MODULE_0__.theme.extend.colors[split[0]][split[1]] || '#000';
+};
+var findTailwindColor = function findTailwindColor(hex) {
+  var colors = Object.keys(_tailwind_config_js__WEBPACK_IMPORTED_MODULE_0__.theme.extend.colors);
+  for (var _i = 0, _colors = colors; _i < _colors.length; _i++) {
+    var color = _colors[_i];
+    var shades = Object.keys(_tailwind_config_js__WEBPACK_IMPORTED_MODULE_0__.theme.extend.colors[color]);
+    for (var _i2 = 0, _shades = shades; _i2 < _shades.length; _i2++) {
+      var shade = _shades[_i2];
+      if (_tailwind_config_js__WEBPACK_IMPORTED_MODULE_0__.theme.extend.colors[color][shade] === hex) {
+        return "".concat(color, "-").concat(shade);
+      }
+    }
+  }
+  return null;
+};
+var TextColor = Mark.create({
+  name: 'textColor',
+  addAttributes: function addAttributes() {
+    return {
+      color: {
+        "default": '',
+        parseHTML: function parseHTML(element) {
+          var _element$querySelecto;
+          (_element$querySelecto = element.querySelector('span.text-color')) === null || _element$querySelecto === void 0 || _element$querySelecto.getAttribute('data-class');
+        }
+      }
+    };
+  },
+  parseHtml: function parseHtml() {
+    return [{
+      tag: 'span.text-color'
+    }];
+  },
+  renderHTML: function renderHTML(data) {
+    console.log('data', data);
+    var HTMLAttributes = data.HTMLAttributes;
+    var color = HTMLAttributes.color || 'black';
+    var hex = HTMLAttributes.hex || color2hex(color) || '#000';
+    // let twColor = null
+    // if (color.startsWith('rgb(') || color.startsWith('#')) {
+    //   twColor = findTailwindColor(hex)
+    // }
+    // const tailwindColor = twColor || color || 'black'
+    var tailwindColor = color;
+    var style = "color: ".concat(hex, ";");
+    return ['span', _objectSpread(_objectSpread({}, HTMLAttributes), {}, {
+      "class": "text-color",
+      'data-class': tailwindColor,
+      'style': style
+    }), 0];
+  },
+  addCommands: function addCommands() {
+    var _this = this;
+    return {
+      changeTextColor: function changeTextColor(attributes) {
+        return function (_ref) {
+          var chain = _ref.chain;
+          if (!attributes) return false;
+          if (attributes.color) {
+            return chain().setMark(_this.name, attributes).run();
+          }
+          return chain().unsetMark(_this.name, {
+            extendEmptyMarkRange: true
+          }).run();
+        };
+      }
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "../../../tailwind.config.js":
+/*!***********************************!*\
+  !*** ../../../tailwind.config.js ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = {
+  purge: {
+    layers: ['components', 'utilities'],
+    content: ['./resources/**/*.antlers.html', './resources/**/*.blade.php', './content/**/*.md', './resources/js/**/*.vue'],
+    preserveHtmlElements: true,
+    options: {
+      safelist: ['grid-cols-1', 'grid-cols-2', 'grid-cols-3', 'grid-cols-4', 'grid-cols-5', 'grid-cols-6', 'md:grid-cols-8', 'lg:grid-cols-1', 'lg:grid-cols-2', 'lg:grid-cols-3', 'lg:grid-cols-4', 'lg:grid-cols-5', 'lg:grid-cols-6', 'lg:grid-cols-7', 'lg:grid-cols-8', 'lg:grid-cols-9', 'lg:grid-cols-10', 'lg:grid-cols-11', 'lg:grid-cols-12', 'md:w-1/2', 'md:w-1/4', 'md:w-3/4', 'md:float-right', 'md:float-left', 'md:max-w-none', 'md:mx-auto', 'content-center', 'bg-green-300', 'bg-green-400', 'cursor-pointer', 'px-24', 'sm:px-4', 'sm:px-32', 'md:px-40', 'lg:px-24', '2xl:px-32', 'rotate-180', 'lg:block', 'whitespace-nowrap', 'overflow-ellipsis', 'max-w-150px']
+    }
+  },
+  important: true,
+  theme: {
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px'
+    },
+    extend: {
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-out'
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': {
+            opacity: '0'
+          },
+          '100%': {
+            opacity: '1'
+          }
+        }
+      },
+      screens: {
+        'prelg': '1142px'
+      },
+      colors: {
+        transparent: 'transparent',
+        black: '#000',
+        blacklight: '#444',
+        white: '#fff',
+        orange: {
+          500: '#ff6606',
+          700: '#c14c00'
+        },
+        gray: {
+          100: '#f2f2f2',
+          200: '#F7F7F7',
+          250: '#F9F9F9',
+          300: '#eaeaea',
+          400: '#e0e0e0',
+          500: '#d6d6d6',
+          550: '#444',
+          600: '#555',
+          700: '#999'
+        },
+        green: {
+          300: '#dff0d8',
+          400: '#d6e9c6',
+          500: '#468847'
+        }
+      },
+      fontFamily: {
+        Montserrat: ['Montserrat', 'sans-serif'],
+        sans: ['Montserrat', 'sans-serif']
+      },
+      fontSize: {
+        '2xl': '1.65rem',
+        '5xl': '2.75rem',
+        tiny: ['9px', '18px'],
+        xxs: ['11px', '22px'],
+        xs: ['13px', '26px'],
+        sm: ['15px', '28px'],
+        base: ['16px', '28px'],
+        md: ['18px', '25px'],
+        lg: ['22px', '36px'],
+        xl: ['24px', '32px']
+      },
+      lineHeight: {
+        '14': '4.5rem'
+      },
+      padding: {
+        'py-22': '5.5rem'
+      },
+      margin: {
+        '.1': '0.1rem',
+        '.2': '0.2rem'
+      },
+      transitionProperty: {
+        height: 'height'
+      },
+      maxWidth: {
+        'max-w-screen': '100vw',
+        '150px': '150px'
+      },
+      zIndex: {
+        '55': '55',
+        '60': '60'
+      }
+    }
+  },
+  variants: {
+    extend: {
+      visibility: ['group-hover', 'group-focus'],
+      pointerEvents: ['group-hover', 'group-focus'],
+      borderRadius: ['last'],
+      opacity: ['disabled'],
+      cursor: ['disabled']
+    }
+  },
+  plugins: [__webpack_require__(/*! tailwind-scrollbar-hide */ "../../../node_modules/tailwind-scrollbar-hide/src/index.js"), __webpack_require__(/*! @tailwindcss/forms */ "../../../node_modules/@tailwindcss/forms/src/index.js")]
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-8.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-8.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-8.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-8.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.overflow-y-scroll {\n  overflow-y: scroll;\n}\n.max-h-300px {\n  max-height: 300px;\n}\n.max-h-320px {\n  max-height: 300px;\n}\n.px-1 {\n  padding-left: 0.25rem;\n  padding-right: 0.25rem;\n}\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n.cursor-pointer {\n  cursor: pointer;\n}\n.hover\\:bg-gray-300:hover {\n  background-color: rgba(209, 213, 219, 1);\n}\n.z-10 {\n  z-index:10;\n}\n.text-center {\n  text-align: center;\n}\n.mx-1 {\n  margin-left: 0.25rem;\n  margin-right: 0.25rem;\n}\n.mx-2 {\n  margin-left: 0.5rem;\n  margin-right: 0.5rem;\n}\n.mr-2 {\n  margin-right: 0.5rem;\n}\n.mt-2 {\n  margin-top: 0.5rem;\n}\n.my-1 {\n  margin-top:.25rem;\n  margin-bottom:.25rem;\n}\n.rounded-xl {\n  border-radius: 0.75rem;\n}\n.bg-gray-50 {\n  background-color: rgba(249, 250, 251, 1);\n}\n.bg-gray-200 {\n  background-color: rgba(229, 231, 235, 1);\n}\n.flex {\n  display: flex;\n}\n.flex-wrap {\n  flex-wrap: wrap;\n}\n.items-center {\n  align-items: center;\n}\n.flex-row {\n  flex-direction: row;\n}\n.flex-col {\n  flex-direction: column;\n}\n.justify-center {\n  justify-content: center;\n}\n.justify-start {\n  justify-content: start;\n}\n.w-6 {\n  width: 1.5rem;\n}\n.h-6 {\n  height: 1.5rem;\n}\n@media (min-width: 0px) {\n.w-full {\n    width: 100%;\n}\n.w-1\\/4 {\n    width: 25%;\n}\n.w-1\\/2 {\n    width: 50%;\n}\n.min-w-250 {\n    min-width:250px;\n}\n.min-w-500 {\n    min-width:500px;\n}\n}\n@media (min-width: 640px) {\n.sm\\:text-xl {\n    font-size: 1.25rem;\n    line-height: 1.75rem;\n}\n.sm\\:w-full {\n    width: 100%;\n}\n.sm\\:w-1\\/4 {\n    width: 25%;\n}\n.sm\\:w-1\\/2 {\n    width: 50%;\n}\n}\n@media (min-width: 768px) {\n.md\\:w-full {\n    width: 100%;\n}\n.md\\:w-1\\/4 {\n    width: 25%;\n}\n.md\\:w-1\\/2 {\n    width: 50%;\n}\n}\n@media (min-width: 1280px) {\n.lg\\:w-full {\n    width: 100%;\n}\n.lg\\:w-1\\/4 {\n    width: 25%;\n}\n.lg\\:w-1\\/2 {\n    width: 50%;\n}\n.lg\\:min-w-250 {\n    min-width:250px;\n}\n.lg\\:min-w-500 {\n    min-width:500px;\n}\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (cssWithMappingToString) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], " {").concat(content, "}");
+      }
+
+      return content;
+    }).join("");
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery, dedupe) {
+    if (typeof modules === "string") {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, ""]];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var i = 0; i < this.length; i++) {
+        // eslint-disable-next-line prefer-destructuring
+        var id = this[i][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = [].concat(modules[_i]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
+
+      if (mediaQuery) {
+        if (!item[2]) {
+          item[2] = mediaQuery;
+        } else {
+          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-8.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-8.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-8.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-8.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_8_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_8_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TextColorMenu_vue_vue_type_style_index_0_id_57133487_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-8.use[1]!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-8.use[2]!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-8.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-8.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_8_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_8_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TextColorMenu_vue_vue_type_style_index_0_id_57133487_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_8_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_8_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TextColorMenu_vue_vue_type_style_index_0_id_57133487_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDom.length; i++) {
+    if (stylesInDom[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var index = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3]
+    };
+
+    if (index !== -1) {
+      stylesInDom[index].references++;
+      stylesInDom[index].updater(obj);
+    } else {
+      stylesInDom.push({
+        identifier: identifier,
+        updater: addStyle(obj, options),
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : 0;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && typeof btoa !== 'undefined') {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDom[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDom[_index].references === 0) {
+        stylesInDom[_index].updater();
+
+        stylesInDom.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ }),
+
+/***/ "./node_modules/vue-click-outside/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/vue-click-outside/index.js ***!
+  \*************************************************/
+/***/ ((module, exports) => {
+
+function validate(binding) {
+  if (typeof binding.value !== 'function') {
+    console.warn('[Vue-click-outside:] provided expression', binding.expression, 'is not a function.')
+    return false
+  }
+
+  return true
+}
+
+function isPopup(popupItem, elements) {
+  if (!popupItem || !elements)
+    return false
+
+  for (var i = 0, len = elements.length; i < len; i++) {
+    try {
+      if (popupItem.contains(elements[i])) {
+        return true
+      }
+      if (elements[i].contains(popupItem)) {
+        return false
+      }
+    } catch(e) {
+      return false
+    }
+  }
+
+  return false
+}
+
+function isServer(vNode) {
+  return typeof vNode.componentInstance !== 'undefined' && vNode.componentInstance.$isServer
+}
+
+exports = module.exports = {
+  bind: function (el, binding, vNode) {
+    if (!validate(binding)) return
+
+    // Define Handler and cache it on the element
+    function handler(e) {
+      if (!vNode.context) return
+
+      // some components may have related popup item, on which we shall prevent the click outside event handler.
+      var elements = e.path || (e.composedPath && e.composedPath())
+      elements && elements.length > 0 && elements.unshift(e.target)
+
+      if (el.contains(e.target) || isPopup(vNode.context.popupItem, elements)) return
+
+      el.__vueClickOutside__.callback(e)
+    }
+
+    // add Event Listeners
+    el.__vueClickOutside__ = {
+      handler: handler,
+      callback: binding.value
+    }
+    const clickHandler = 'ontouchstart' in document.documentElement ? 'touchstart' : 'click';
+    !isServer(vNode) && document.addEventListener(clickHandler, handler)
+  },
+
+  update: function (el, binding) {
+    if (validate(binding)) el.__vueClickOutside__.callback = binding.value
+  },
+
+  unbind: function (el, binding, vNode) {
+    // Remove Event Listeners
+    const clickHandler = 'ontouchstart' in document.documentElement ? 'touchstart' : 'click';
+    !isServer(vNode) && el.__vueClickOutside__ && document.removeEventListener(clickHandler, el.__vueClickOutside__.handler)
+    delete el.__vueClickOutside__
+  }
+}
+
+
+/***/ }),
+
+/***/ "./resources/js/TextColorMenu.vue":
+/*!****************************************!*\
+  !*** ./resources/js/TextColorMenu.vue ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _TextColorMenu_vue_vue_type_template_id_57133487__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TextColorMenu.vue?vue&type=template&id=57133487 */ "./resources/js/TextColorMenu.vue?vue&type=template&id=57133487");
+/* harmony import */ var _TextColorMenu_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TextColorMenu.vue?vue&type=script&lang=js */ "./resources/js/TextColorMenu.vue?vue&type=script&lang=js");
+/* harmony import */ var _TextColorMenu_vue_vue_type_style_index_0_id_57133487_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css */ "./resources/js/TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _TextColorMenu_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TextColorMenu_vue_vue_type_template_id_57133487__WEBPACK_IMPORTED_MODULE_0__.render,
+  _TextColorMenu_vue_vue_type_template_id_57133487__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/TextColorMenu.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/TextColorMenu.vue?vue&type=script&lang=js":
+/*!****************************************************************!*\
+  !*** ./resources/js/TextColorMenu.vue?vue&type=script&lang=js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TextColorMenu_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./TextColorMenu.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TextColorMenu_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/TextColorMenu.vue?vue&type=template&id=57133487":
+/*!**********************************************************************!*\
+  !*** ./resources/js/TextColorMenu.vue?vue&type=template&id=57133487 ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TextColorMenu_vue_vue_type_template_id_57133487__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TextColorMenu_vue_vue_type_template_id_57133487__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TextColorMenu_vue_vue_type_template_id_57133487__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./TextColorMenu.vue?vue&type=template&id=57133487 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=template&id=57133487");
+
+
+/***/ }),
+
+/***/ "./resources/js/TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css":
+/*!************************************************************************************!*\
+  !*** ./resources/js/TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_8_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_laravel_mix_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_8_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_TextColorMenu_vue_vue_type_style_index_0_id_57133487_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/style-loader/dist/cjs.js!../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-8.use[1]!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-8.use[2]!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-8.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/laravel-mix/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-8.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/TextColorMenu.vue?vue&type=style&index=0&id=57133487&lang=css");
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ normalizeComponent)
+/* harmony export */ });
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent(
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier /* server only */,
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options =
+    typeof scriptExports === 'function' ? scriptExports.options : scriptExports
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) {
+    // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () {
+          injectStyles.call(
+            this,
+            (options.functional ? this.parent : this).$root.$options.shadowRoot
+          )
+        }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functional component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection(h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing ? [].concat(existing, hook) : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+
+/***/ }),
+
+/***/ "../../../node_modules/@tailwindcss/forms/src/index.js":
+/*!*************************************************************!*\
+  !*** ../../../node_modules/@tailwindcss/forms/src/index.js ***!
+  \*************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+const svgToDataUri = __webpack_require__(/*! mini-svg-data-uri */ "../../../node_modules/mini-svg-data-uri/index.js")
+const plugin = __webpack_require__(/*! tailwindcss/plugin */ "../../../node_modules/tailwindcss/plugin.js")
+const defaultTheme = __webpack_require__(/*! tailwindcss/defaultTheme */ "../../../node_modules/tailwindcss/defaultTheme.js")
+const colors = __webpack_require__(/*! tailwindcss/colors */ "../../../node_modules/tailwindcss/colors.js")
+const [baseFontSize, { lineHeight: baseLineHeight }] = defaultTheme.fontSize.base
+const { spacing, borderWidth, borderRadius } = defaultTheme
+
+function resolveColor(color, opacityVariableName) {
+  return color.replace('<alpha-value>', `var(${opacityVariableName}, 1)`)
+}
+
+const forms = plugin.withOptions(function (options = { strategy: undefined }) {
+  return function ({ addBase, addComponents, theme }) {
+    const strategy = options.strategy === undefined ? ['base', 'class'] : [options.strategy]
+
+    const rules = [
+      {
+        base: [
+          "[type='text']",
+          'input:where(:not([type]))',
+          "[type='email']",
+          "[type='url']",
+          "[type='password']",
+          "[type='number']",
+          "[type='date']",
+          "[type='datetime-local']",
+          "[type='month']",
+          "[type='search']",
+          "[type='tel']",
+          "[type='time']",
+          "[type='week']",
+          '[multiple]',
+          'textarea',
+          'select',
+        ],
+        class: ['.form-input', '.form-textarea', '.form-select', '.form-multiselect'],
+        styles: {
+          appearance: 'none',
+          'background-color': '#fff',
+          'border-color': resolveColor(
+            theme('colors.gray.500', colors.gray[500]),
+            '--tw-border-opacity'
+          ),
+          'border-width': borderWidth['DEFAULT'],
+          'border-radius': borderRadius.none,
+          'padding-top': spacing[2],
+          'padding-right': spacing[3],
+          'padding-bottom': spacing[2],
+          'padding-left': spacing[3],
+          'font-size': baseFontSize,
+          'line-height': baseLineHeight,
+          '--tw-shadow': '0 0 #0000',
+          '&:focus': {
+            outline: '2px solid transparent',
+            'outline-offset': '2px',
+            '--tw-ring-inset': 'var(--tw-empty,/*!*/ /*!*/)',
+            '--tw-ring-offset-width': '0px',
+            '--tw-ring-offset-color': '#fff',
+            '--tw-ring-color': resolveColor(
+              theme('colors.blue.600', colors.blue[600]),
+              '--tw-ring-opacity'
+            ),
+            '--tw-ring-offset-shadow': `var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)`,
+            '--tw-ring-shadow': `var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color)`,
+            'box-shadow': `var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)`,
+            'border-color': resolveColor(
+              theme('colors.blue.600', colors.blue[600]),
+              '--tw-border-opacity'
+            ),
+          },
+        },
+      },
+      {
+        base: ['input::placeholder', 'textarea::placeholder'],
+        class: ['.form-input::placeholder', '.form-textarea::placeholder'],
+        styles: {
+          color: resolveColor(theme('colors.gray.500', colors.gray[500]), '--tw-text-opacity'),
+          opacity: '1',
+        },
+      },
+      {
+        base: ['::-webkit-datetime-edit-fields-wrapper'],
+        class: ['.form-input::-webkit-datetime-edit-fields-wrapper'],
+        styles: {
+          padding: '0',
+        },
+      },
+      {
+        // Unfortunate hack until https://bugs.webkit.org/show_bug.cgi?id=198959 is fixed.
+        // This sucks because users can't change line-height with a utility on date inputs now.
+        // Reference: https://github.com/twbs/bootstrap/pull/31993
+        base: ['::-webkit-date-and-time-value'],
+        class: ['.form-input::-webkit-date-and-time-value'],
+        styles: {
+          'min-height': '1.5em',
+        },
+      },
+      {
+        // In Safari on iOS date and time inputs are centered instead of left-aligned and can't be
+        // changed with `text-align` utilities on the input by default. Resetting this to `inherit`
+        // makes them left-aligned by default and makes it possible to override the alignment with
+        // utility classes without using an arbitrary variant to target the pseudo-elements.
+        base: ['::-webkit-date-and-time-value'],
+        class: ['.form-input::-webkit-date-and-time-value'],
+        styles: {
+          'text-align': 'inherit',
+        },
+      },
+      {
+        // In Safari on macOS date time inputs that are set to `display: block` have unexpected
+        // extra bottom spacing. This can be corrected by setting the `::-webkit-datetime-edit`
+        // pseudo-element to `display: inline-flex`, instead of the browser default of
+        // `display: inline-block`.
+        base: ['::-webkit-datetime-edit'],
+        class: ['.form-input::-webkit-datetime-edit'],
+        styles: {
+          display: 'inline-flex',
+        },
+      },
+      {
+        // In Safari on macOS date time inputs are 4px taller than normal inputs
+        // This is because there is extra padding on the datetime-edit and datetime-edit-{part}-field pseudo elements
+        // See https://github.com/tailwindlabs/tailwindcss-forms/issues/95
+        base: [
+          '::-webkit-datetime-edit',
+          '::-webkit-datetime-edit-year-field',
+          '::-webkit-datetime-edit-month-field',
+          '::-webkit-datetime-edit-day-field',
+          '::-webkit-datetime-edit-hour-field',
+          '::-webkit-datetime-edit-minute-field',
+          '::-webkit-datetime-edit-second-field',
+          '::-webkit-datetime-edit-millisecond-field',
+          '::-webkit-datetime-edit-meridiem-field',
+        ],
+        class: [
+          '.form-input::-webkit-datetime-edit',
+          '.form-input::-webkit-datetime-edit-year-field',
+          '.form-input::-webkit-datetime-edit-month-field',
+          '.form-input::-webkit-datetime-edit-day-field',
+          '.form-input::-webkit-datetime-edit-hour-field',
+          '.form-input::-webkit-datetime-edit-minute-field',
+          '.form-input::-webkit-datetime-edit-second-field',
+          '.form-input::-webkit-datetime-edit-millisecond-field',
+          '.form-input::-webkit-datetime-edit-meridiem-field',
+        ],
+        styles: {
+          'padding-top': 0,
+          'padding-bottom': 0,
+        },
+      },
+      {
+        base: ['select'],
+        class: ['.form-select'],
+        styles: {
+          'background-image': `url("${svgToDataUri(
+            `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20"><path stroke="${resolveColor(
+              theme('colors.gray.500', colors.gray[500]),
+              '--tw-stroke-opacity'
+            )}" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 8l4 4 4-4"/></svg>`
+          )}")`,
+          'background-position': `right ${spacing[2]} center`,
+          'background-repeat': `no-repeat`,
+          'background-size': `1.5em 1.5em`,
+          'padding-right': spacing[10],
+          'print-color-adjust': `exact`,
+        },
+      },
+      {
+        base: ['[multiple]', '[size]:where(select:not([size="1"]))'],
+        class: ['.form-select:where([size]:not([size="1"]))'],
+        styles: {
+          'background-image': 'initial',
+          'background-position': 'initial',
+          'background-repeat': 'unset',
+          'background-size': 'initial',
+          'padding-right': spacing[3],
+          'print-color-adjust': 'unset',
+        },
+      },
+      {
+        base: [`[type='checkbox']`, `[type='radio']`],
+        class: ['.form-checkbox', '.form-radio'],
+        styles: {
+          appearance: 'none',
+          padding: '0',
+          'print-color-adjust': 'exact',
+          display: 'inline-block',
+          'vertical-align': 'middle',
+          'background-origin': 'border-box',
+          'user-select': 'none',
+          'flex-shrink': '0',
+          height: spacing[4],
+          width: spacing[4],
+          color: resolveColor(theme('colors.blue.600', colors.blue[600]), '--tw-text-opacity'),
+          'background-color': '#fff',
+          'border-color': resolveColor(
+            theme('colors.gray.500', colors.gray[500]),
+            '--tw-border-opacity'
+          ),
+          'border-width': borderWidth['DEFAULT'],
+          '--tw-shadow': '0 0 #0000',
+        },
+      },
+      {
+        base: [`[type='checkbox']`],
+        class: ['.form-checkbox'],
+        styles: {
+          'border-radius': borderRadius['none'],
+        },
+      },
+      {
+        base: [`[type='radio']`],
+        class: ['.form-radio'],
+        styles: {
+          'border-radius': '100%',
+        },
+      },
+      {
+        base: [`[type='checkbox']:focus`, `[type='radio']:focus`],
+        class: ['.form-checkbox:focus', '.form-radio:focus'],
+        styles: {
+          outline: '2px solid transparent',
+          'outline-offset': '2px',
+          '--tw-ring-inset': 'var(--tw-empty,/*!*/ /*!*/)',
+          '--tw-ring-offset-width': '2px',
+          '--tw-ring-offset-color': '#fff',
+          '--tw-ring-color': resolveColor(
+            theme('colors.blue.600', colors.blue[600]),
+            '--tw-ring-opacity'
+          ),
+          '--tw-ring-offset-shadow': `var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color)`,
+          '--tw-ring-shadow': `var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)`,
+          'box-shadow': `var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)`,
+        },
+      },
+      {
+        base: [`[type='checkbox']:checked`, `[type='radio']:checked`],
+        class: ['.form-checkbox:checked', '.form-radio:checked'],
+        styles: {
+          'border-color': `transparent`,
+          'background-color': `currentColor`,
+          'background-size': `100% 100%`,
+          'background-position': `center`,
+          'background-repeat': `no-repeat`,
+        },
+      },
+      {
+        base: [`[type='checkbox']:checked`],
+        class: ['.form-checkbox:checked'],
+        styles: {
+          'background-image': `url("${svgToDataUri(
+            `<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>`
+          )}")`,
+        },
+      },
+      {
+        base: [`[type='radio']:checked`],
+        class: ['.form-radio:checked'],
+        styles: {
+          'background-image': `url("${svgToDataUri(
+            `<svg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>`
+          )}")`,
+        },
+      },
+      {
+        base: [
+          `[type='checkbox']:checked:hover`,
+          `[type='checkbox']:checked:focus`,
+          `[type='radio']:checked:hover`,
+          `[type='radio']:checked:focus`,
+        ],
+        class: [
+          '.form-checkbox:checked:hover',
+          '.form-checkbox:checked:focus',
+          '.form-radio:checked:hover',
+          '.form-radio:checked:focus',
+        ],
+        styles: {
+          'border-color': 'transparent',
+          'background-color': 'currentColor',
+        },
+      },
+      {
+        base: [`[type='checkbox']:indeterminate`],
+        class: ['.form-checkbox:indeterminate'],
+        styles: {
+          'background-image': `url("${svgToDataUri(
+            `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h8"/></svg>`
+          )}")`,
+          'border-color': `transparent`,
+          'background-color': `currentColor`,
+          'background-size': `100% 100%`,
+          'background-position': `center`,
+          'background-repeat': `no-repeat`,
+        },
+      },
+      {
+        base: [`[type='checkbox']:indeterminate:hover`, `[type='checkbox']:indeterminate:focus`],
+        class: ['.form-checkbox:indeterminate:hover', '.form-checkbox:indeterminate:focus'],
+        styles: {
+          'border-color': 'transparent',
+          'background-color': 'currentColor',
+        },
+      },
+      {
+        base: [`[type='file']`],
+        class: null,
+        styles: {
+          background: 'unset',
+          'border-color': 'inherit',
+          'border-width': '0',
+          'border-radius': '0',
+          padding: '0',
+          'font-size': 'unset',
+          'line-height': 'inherit',
+        },
+      },
+      {
+        base: [`[type='file']:focus`],
+        class: null,
+        styles: {
+          outline: [`1px solid ButtonText`, `1px auto -webkit-focus-ring-color`],
+        },
+      },
+    ]
+
+    const getStrategyRules = (strategy) =>
+      rules
+        .map((rule) => {
+          if (rule[strategy] === null) return null
+
+          return { [rule[strategy]]: rule.styles }
+        })
+        .filter(Boolean)
+
+    if (strategy.includes('base')) {
+      addBase(getStrategyRules('base'))
+    }
+
+    if (strategy.includes('class')) {
+      addComponents(getStrategyRules('class'))
+    }
+  }
+})
+
+module.exports = forms
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_DataView.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_DataView.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getNative = __webpack_require__(/*! ./_getNative */ "../../../node_modules/lodash/_getNative.js"),
+    root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js");
+
+/* Built-in method references that are verified to be native. */
+var DataView = getNative(root, 'DataView');
+
+module.exports = DataView;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_Hash.js":
+/*!*********************************************!*\
+  !*** ../../../node_modules/lodash/_Hash.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var hashClear = __webpack_require__(/*! ./_hashClear */ "../../../node_modules/lodash/_hashClear.js"),
+    hashDelete = __webpack_require__(/*! ./_hashDelete */ "../../../node_modules/lodash/_hashDelete.js"),
+    hashGet = __webpack_require__(/*! ./_hashGet */ "../../../node_modules/lodash/_hashGet.js"),
+    hashHas = __webpack_require__(/*! ./_hashHas */ "../../../node_modules/lodash/_hashHas.js"),
+    hashSet = __webpack_require__(/*! ./_hashSet */ "../../../node_modules/lodash/_hashSet.js");
+
+/**
+ * Creates a hash object.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function Hash(entries) {
+  var index = -1,
+      length = entries == null ? 0 : entries.length;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+// Add methods to `Hash`.
+Hash.prototype.clear = hashClear;
+Hash.prototype['delete'] = hashDelete;
+Hash.prototype.get = hashGet;
+Hash.prototype.has = hashHas;
+Hash.prototype.set = hashSet;
+
+module.exports = Hash;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_ListCache.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_ListCache.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var listCacheClear = __webpack_require__(/*! ./_listCacheClear */ "../../../node_modules/lodash/_listCacheClear.js"),
+    listCacheDelete = __webpack_require__(/*! ./_listCacheDelete */ "../../../node_modules/lodash/_listCacheDelete.js"),
+    listCacheGet = __webpack_require__(/*! ./_listCacheGet */ "../../../node_modules/lodash/_listCacheGet.js"),
+    listCacheHas = __webpack_require__(/*! ./_listCacheHas */ "../../../node_modules/lodash/_listCacheHas.js"),
+    listCacheSet = __webpack_require__(/*! ./_listCacheSet */ "../../../node_modules/lodash/_listCacheSet.js");
+
+/**
+ * Creates an list cache object.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function ListCache(entries) {
+  var index = -1,
+      length = entries == null ? 0 : entries.length;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+// Add methods to `ListCache`.
+ListCache.prototype.clear = listCacheClear;
+ListCache.prototype['delete'] = listCacheDelete;
+ListCache.prototype.get = listCacheGet;
+ListCache.prototype.has = listCacheHas;
+ListCache.prototype.set = listCacheSet;
+
+module.exports = ListCache;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_Map.js":
+/*!********************************************!*\
+  !*** ../../../node_modules/lodash/_Map.js ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getNative = __webpack_require__(/*! ./_getNative */ "../../../node_modules/lodash/_getNative.js"),
+    root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js");
+
+/* Built-in method references that are verified to be native. */
+var Map = getNative(root, 'Map');
+
+module.exports = Map;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_MapCache.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_MapCache.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var mapCacheClear = __webpack_require__(/*! ./_mapCacheClear */ "../../../node_modules/lodash/_mapCacheClear.js"),
+    mapCacheDelete = __webpack_require__(/*! ./_mapCacheDelete */ "../../../node_modules/lodash/_mapCacheDelete.js"),
+    mapCacheGet = __webpack_require__(/*! ./_mapCacheGet */ "../../../node_modules/lodash/_mapCacheGet.js"),
+    mapCacheHas = __webpack_require__(/*! ./_mapCacheHas */ "../../../node_modules/lodash/_mapCacheHas.js"),
+    mapCacheSet = __webpack_require__(/*! ./_mapCacheSet */ "../../../node_modules/lodash/_mapCacheSet.js");
+
+/**
+ * Creates a map cache object to store key-value pairs.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function MapCache(entries) {
+  var index = -1,
+      length = entries == null ? 0 : entries.length;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+// Add methods to `MapCache`.
+MapCache.prototype.clear = mapCacheClear;
+MapCache.prototype['delete'] = mapCacheDelete;
+MapCache.prototype.get = mapCacheGet;
+MapCache.prototype.has = mapCacheHas;
+MapCache.prototype.set = mapCacheSet;
+
+module.exports = MapCache;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_Promise.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/_Promise.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getNative = __webpack_require__(/*! ./_getNative */ "../../../node_modules/lodash/_getNative.js"),
+    root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js");
+
+/* Built-in method references that are verified to be native. */
+var Promise = getNative(root, 'Promise');
+
+module.exports = Promise;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_Set.js":
+/*!********************************************!*\
+  !*** ../../../node_modules/lodash/_Set.js ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getNative = __webpack_require__(/*! ./_getNative */ "../../../node_modules/lodash/_getNative.js"),
+    root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js");
+
+/* Built-in method references that are verified to be native. */
+var Set = getNative(root, 'Set');
+
+module.exports = Set;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_Stack.js":
+/*!**********************************************!*\
+  !*** ../../../node_modules/lodash/_Stack.js ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var ListCache = __webpack_require__(/*! ./_ListCache */ "../../../node_modules/lodash/_ListCache.js"),
+    stackClear = __webpack_require__(/*! ./_stackClear */ "../../../node_modules/lodash/_stackClear.js"),
+    stackDelete = __webpack_require__(/*! ./_stackDelete */ "../../../node_modules/lodash/_stackDelete.js"),
+    stackGet = __webpack_require__(/*! ./_stackGet */ "../../../node_modules/lodash/_stackGet.js"),
+    stackHas = __webpack_require__(/*! ./_stackHas */ "../../../node_modules/lodash/_stackHas.js"),
+    stackSet = __webpack_require__(/*! ./_stackSet */ "../../../node_modules/lodash/_stackSet.js");
+
+/**
+ * Creates a stack cache object to store key-value pairs.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function Stack(entries) {
+  var data = this.__data__ = new ListCache(entries);
+  this.size = data.size;
+}
+
+// Add methods to `Stack`.
+Stack.prototype.clear = stackClear;
+Stack.prototype['delete'] = stackDelete;
+Stack.prototype.get = stackGet;
+Stack.prototype.has = stackHas;
+Stack.prototype.set = stackSet;
+
+module.exports = Stack;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_Symbol.js":
+/*!***********************************************!*\
+  !*** ../../../node_modules/lodash/_Symbol.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js");
+
+/** Built-in value references. */
+var Symbol = root.Symbol;
+
+module.exports = Symbol;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_Uint8Array.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_Uint8Array.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js");
+
+/** Built-in value references. */
+var Uint8Array = root.Uint8Array;
+
+module.exports = Uint8Array;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_WeakMap.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/_WeakMap.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getNative = __webpack_require__(/*! ./_getNative */ "../../../node_modules/lodash/_getNative.js"),
+    root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js");
+
+/* Built-in method references that are verified to be native. */
+var WeakMap = getNative(root, 'WeakMap');
+
+module.exports = WeakMap;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_arrayEach.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_arrayEach.js ***!
+  \**************************************************/
+/***/ ((module) => {
+
+/**
+ * A specialized version of `_.forEach` for arrays without support for
+ * iteratee shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns `array`.
+ */
+function arrayEach(array, iteratee) {
+  var index = -1,
+      length = array == null ? 0 : array.length;
+
+  while (++index < length) {
+    if (iteratee(array[index], index, array) === false) {
+      break;
+    }
+  }
+  return array;
+}
+
+module.exports = arrayEach;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_arrayFilter.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_arrayFilter.js ***!
+  \****************************************************/
+/***/ ((module) => {
+
+/**
+ * A specialized version of `_.filter` for arrays without support for
+ * iteratee shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} predicate The function invoked per iteration.
+ * @returns {Array} Returns the new filtered array.
+ */
+function arrayFilter(array, predicate) {
+  var index = -1,
+      length = array == null ? 0 : array.length,
+      resIndex = 0,
+      result = [];
+
+  while (++index < length) {
+    var value = array[index];
+    if (predicate(value, index, array)) {
+      result[resIndex++] = value;
+    }
+  }
+  return result;
+}
+
+module.exports = arrayFilter;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_arrayLikeKeys.js":
+/*!******************************************************!*\
+  !*** ../../../node_modules/lodash/_arrayLikeKeys.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseTimes = __webpack_require__(/*! ./_baseTimes */ "../../../node_modules/lodash/_baseTimes.js"),
+    isArguments = __webpack_require__(/*! ./isArguments */ "../../../node_modules/lodash/isArguments.js"),
+    isArray = __webpack_require__(/*! ./isArray */ "../../../node_modules/lodash/isArray.js"),
+    isBuffer = __webpack_require__(/*! ./isBuffer */ "../../../node_modules/lodash/isBuffer.js"),
+    isIndex = __webpack_require__(/*! ./_isIndex */ "../../../node_modules/lodash/_isIndex.js"),
+    isTypedArray = __webpack_require__(/*! ./isTypedArray */ "../../../node_modules/lodash/isTypedArray.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Creates an array of the enumerable property names of the array-like `value`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @param {boolean} inherited Specify returning inherited property names.
+ * @returns {Array} Returns the array of property names.
+ */
+function arrayLikeKeys(value, inherited) {
+  var isArr = isArray(value),
+      isArg = !isArr && isArguments(value),
+      isBuff = !isArr && !isArg && isBuffer(value),
+      isType = !isArr && !isArg && !isBuff && isTypedArray(value),
+      skipIndexes = isArr || isArg || isBuff || isType,
+      result = skipIndexes ? baseTimes(value.length, String) : [],
+      length = result.length;
+
+  for (var key in value) {
+    if ((inherited || hasOwnProperty.call(value, key)) &&
+        !(skipIndexes && (
+           // Safari 9 has enumerable `arguments.length` in strict mode.
+           key == 'length' ||
+           // Node.js 0.10 has enumerable non-index properties on buffers.
+           (isBuff && (key == 'offset' || key == 'parent')) ||
+           // PhantomJS 2 has enumerable non-index properties on typed arrays.
+           (isType && (key == 'buffer' || key == 'byteLength' || key == 'byteOffset')) ||
+           // Skip index properties.
+           isIndex(key, length)
+        ))) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+module.exports = arrayLikeKeys;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_arrayPush.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_arrayPush.js ***!
+  \**************************************************/
+/***/ ((module) => {
+
+/**
+ * Appends the elements of `values` to `array`.
+ *
+ * @private
+ * @param {Array} array The array to modify.
+ * @param {Array} values The values to append.
+ * @returns {Array} Returns `array`.
+ */
+function arrayPush(array, values) {
+  var index = -1,
+      length = values.length,
+      offset = array.length;
+
+  while (++index < length) {
+    array[offset + index] = values[index];
+  }
+  return array;
+}
+
+module.exports = arrayPush;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_assignValue.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_assignValue.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseAssignValue = __webpack_require__(/*! ./_baseAssignValue */ "../../../node_modules/lodash/_baseAssignValue.js"),
+    eq = __webpack_require__(/*! ./eq */ "../../../node_modules/lodash/eq.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Assigns `value` to `key` of `object` if the existing value is not equivalent
+ * using [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+ * for equality comparisons.
+ *
+ * @private
+ * @param {Object} object The object to modify.
+ * @param {string} key The key of the property to assign.
+ * @param {*} value The value to assign.
+ */
+function assignValue(object, key, value) {
+  var objValue = object[key];
+  if (!(hasOwnProperty.call(object, key) && eq(objValue, value)) ||
+      (value === undefined && !(key in object))) {
+    baseAssignValue(object, key, value);
+  }
+}
+
+module.exports = assignValue;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_assocIndexOf.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_assocIndexOf.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var eq = __webpack_require__(/*! ./eq */ "../../../node_modules/lodash/eq.js");
+
+/**
+ * Gets the index at which the `key` is found in `array` of key-value pairs.
+ *
+ * @private
+ * @param {Array} array The array to inspect.
+ * @param {*} key The key to search for.
+ * @returns {number} Returns the index of the matched value, else `-1`.
+ */
+function assocIndexOf(array, key) {
+  var length = array.length;
+  while (length--) {
+    if (eq(array[length][0], key)) {
+      return length;
+    }
+  }
+  return -1;
+}
+
+module.exports = assocIndexOf;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseAssign.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_baseAssign.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var copyObject = __webpack_require__(/*! ./_copyObject */ "../../../node_modules/lodash/_copyObject.js"),
+    keys = __webpack_require__(/*! ./keys */ "../../../node_modules/lodash/keys.js");
+
+/**
+ * The base implementation of `_.assign` without support for multiple sources
+ * or `customizer` functions.
+ *
+ * @private
+ * @param {Object} object The destination object.
+ * @param {Object} source The source object.
+ * @returns {Object} Returns `object`.
+ */
+function baseAssign(object, source) {
+  return object && copyObject(source, keys(source), object);
+}
+
+module.exports = baseAssign;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseAssignIn.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_baseAssignIn.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var copyObject = __webpack_require__(/*! ./_copyObject */ "../../../node_modules/lodash/_copyObject.js"),
+    keysIn = __webpack_require__(/*! ./keysIn */ "../../../node_modules/lodash/keysIn.js");
+
+/**
+ * The base implementation of `_.assignIn` without support for multiple sources
+ * or `customizer` functions.
+ *
+ * @private
+ * @param {Object} object The destination object.
+ * @param {Object} source The source object.
+ * @returns {Object} Returns `object`.
+ */
+function baseAssignIn(object, source) {
+  return object && copyObject(source, keysIn(source), object);
+}
+
+module.exports = baseAssignIn;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseAssignValue.js":
+/*!********************************************************!*\
+  !*** ../../../node_modules/lodash/_baseAssignValue.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var defineProperty = __webpack_require__(/*! ./_defineProperty */ "../../../node_modules/lodash/_defineProperty.js");
+
+/**
+ * The base implementation of `assignValue` and `assignMergeValue` without
+ * value checks.
+ *
+ * @private
+ * @param {Object} object The object to modify.
+ * @param {string} key The key of the property to assign.
+ * @param {*} value The value to assign.
+ */
+function baseAssignValue(object, key, value) {
+  if (key == '__proto__' && defineProperty) {
+    defineProperty(object, key, {
+      'configurable': true,
+      'enumerable': true,
+      'value': value,
+      'writable': true
+    });
+  } else {
+    object[key] = value;
+  }
+}
+
+module.exports = baseAssignValue;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseClone.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_baseClone.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var Stack = __webpack_require__(/*! ./_Stack */ "../../../node_modules/lodash/_Stack.js"),
+    arrayEach = __webpack_require__(/*! ./_arrayEach */ "../../../node_modules/lodash/_arrayEach.js"),
+    assignValue = __webpack_require__(/*! ./_assignValue */ "../../../node_modules/lodash/_assignValue.js"),
+    baseAssign = __webpack_require__(/*! ./_baseAssign */ "../../../node_modules/lodash/_baseAssign.js"),
+    baseAssignIn = __webpack_require__(/*! ./_baseAssignIn */ "../../../node_modules/lodash/_baseAssignIn.js"),
+    cloneBuffer = __webpack_require__(/*! ./_cloneBuffer */ "../../../node_modules/lodash/_cloneBuffer.js"),
+    copyArray = __webpack_require__(/*! ./_copyArray */ "../../../node_modules/lodash/_copyArray.js"),
+    copySymbols = __webpack_require__(/*! ./_copySymbols */ "../../../node_modules/lodash/_copySymbols.js"),
+    copySymbolsIn = __webpack_require__(/*! ./_copySymbolsIn */ "../../../node_modules/lodash/_copySymbolsIn.js"),
+    getAllKeys = __webpack_require__(/*! ./_getAllKeys */ "../../../node_modules/lodash/_getAllKeys.js"),
+    getAllKeysIn = __webpack_require__(/*! ./_getAllKeysIn */ "../../../node_modules/lodash/_getAllKeysIn.js"),
+    getTag = __webpack_require__(/*! ./_getTag */ "../../../node_modules/lodash/_getTag.js"),
+    initCloneArray = __webpack_require__(/*! ./_initCloneArray */ "../../../node_modules/lodash/_initCloneArray.js"),
+    initCloneByTag = __webpack_require__(/*! ./_initCloneByTag */ "../../../node_modules/lodash/_initCloneByTag.js"),
+    initCloneObject = __webpack_require__(/*! ./_initCloneObject */ "../../../node_modules/lodash/_initCloneObject.js"),
+    isArray = __webpack_require__(/*! ./isArray */ "../../../node_modules/lodash/isArray.js"),
+    isBuffer = __webpack_require__(/*! ./isBuffer */ "../../../node_modules/lodash/isBuffer.js"),
+    isMap = __webpack_require__(/*! ./isMap */ "../../../node_modules/lodash/isMap.js"),
+    isObject = __webpack_require__(/*! ./isObject */ "../../../node_modules/lodash/isObject.js"),
+    isSet = __webpack_require__(/*! ./isSet */ "../../../node_modules/lodash/isSet.js"),
+    keys = __webpack_require__(/*! ./keys */ "../../../node_modules/lodash/keys.js"),
+    keysIn = __webpack_require__(/*! ./keysIn */ "../../../node_modules/lodash/keysIn.js");
+
+/** Used to compose bitmasks for cloning. */
+var CLONE_DEEP_FLAG = 1,
+    CLONE_FLAT_FLAG = 2,
+    CLONE_SYMBOLS_FLAG = 4;
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    errorTag = '[object Error]',
+    funcTag = '[object Function]',
+    genTag = '[object GeneratorFunction]',
+    mapTag = '[object Map]',
+    numberTag = '[object Number]',
+    objectTag = '[object Object]',
+    regexpTag = '[object RegExp]',
+    setTag = '[object Set]',
+    stringTag = '[object String]',
+    symbolTag = '[object Symbol]',
+    weakMapTag = '[object WeakMap]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    dataViewTag = '[object DataView]',
+    float32Tag = '[object Float32Array]',
+    float64Tag = '[object Float64Array]',
+    int8Tag = '[object Int8Array]',
+    int16Tag = '[object Int16Array]',
+    int32Tag = '[object Int32Array]',
+    uint8Tag = '[object Uint8Array]',
+    uint8ClampedTag = '[object Uint8ClampedArray]',
+    uint16Tag = '[object Uint16Array]',
+    uint32Tag = '[object Uint32Array]';
+
+/** Used to identify `toStringTag` values supported by `_.clone`. */
+var cloneableTags = {};
+cloneableTags[argsTag] = cloneableTags[arrayTag] =
+cloneableTags[arrayBufferTag] = cloneableTags[dataViewTag] =
+cloneableTags[boolTag] = cloneableTags[dateTag] =
+cloneableTags[float32Tag] = cloneableTags[float64Tag] =
+cloneableTags[int8Tag] = cloneableTags[int16Tag] =
+cloneableTags[int32Tag] = cloneableTags[mapTag] =
+cloneableTags[numberTag] = cloneableTags[objectTag] =
+cloneableTags[regexpTag] = cloneableTags[setTag] =
+cloneableTags[stringTag] = cloneableTags[symbolTag] =
+cloneableTags[uint8Tag] = cloneableTags[uint8ClampedTag] =
+cloneableTags[uint16Tag] = cloneableTags[uint32Tag] = true;
+cloneableTags[errorTag] = cloneableTags[funcTag] =
+cloneableTags[weakMapTag] = false;
+
+/**
+ * The base implementation of `_.clone` and `_.cloneDeep` which tracks
+ * traversed objects.
+ *
+ * @private
+ * @param {*} value The value to clone.
+ * @param {boolean} bitmask The bitmask flags.
+ *  1 - Deep clone
+ *  2 - Flatten inherited properties
+ *  4 - Clone symbols
+ * @param {Function} [customizer] The function to customize cloning.
+ * @param {string} [key] The key of `value`.
+ * @param {Object} [object] The parent object of `value`.
+ * @param {Object} [stack] Tracks traversed objects and their clone counterparts.
+ * @returns {*} Returns the cloned value.
+ */
+function baseClone(value, bitmask, customizer, key, object, stack) {
+  var result,
+      isDeep = bitmask & CLONE_DEEP_FLAG,
+      isFlat = bitmask & CLONE_FLAT_FLAG,
+      isFull = bitmask & CLONE_SYMBOLS_FLAG;
+
+  if (customizer) {
+    result = object ? customizer(value, key, object, stack) : customizer(value);
+  }
+  if (result !== undefined) {
+    return result;
+  }
+  if (!isObject(value)) {
+    return value;
+  }
+  var isArr = isArray(value);
+  if (isArr) {
+    result = initCloneArray(value);
+    if (!isDeep) {
+      return copyArray(value, result);
+    }
+  } else {
+    var tag = getTag(value),
+        isFunc = tag == funcTag || tag == genTag;
+
+    if (isBuffer(value)) {
+      return cloneBuffer(value, isDeep);
+    }
+    if (tag == objectTag || tag == argsTag || (isFunc && !object)) {
+      result = (isFlat || isFunc) ? {} : initCloneObject(value);
+      if (!isDeep) {
+        return isFlat
+          ? copySymbolsIn(value, baseAssignIn(result, value))
+          : copySymbols(value, baseAssign(result, value));
+      }
+    } else {
+      if (!cloneableTags[tag]) {
+        return object ? value : {};
+      }
+      result = initCloneByTag(value, tag, isDeep);
+    }
+  }
+  // Check for circular references and return its corresponding clone.
+  stack || (stack = new Stack);
+  var stacked = stack.get(value);
+  if (stacked) {
+    return stacked;
+  }
+  stack.set(value, result);
+
+  if (isSet(value)) {
+    value.forEach(function(subValue) {
+      result.add(baseClone(subValue, bitmask, customizer, subValue, value, stack));
+    });
+  } else if (isMap(value)) {
+    value.forEach(function(subValue, key) {
+      result.set(key, baseClone(subValue, bitmask, customizer, key, value, stack));
+    });
+  }
+
+  var keysFunc = isFull
+    ? (isFlat ? getAllKeysIn : getAllKeys)
+    : (isFlat ? keysIn : keys);
+
+  var props = isArr ? undefined : keysFunc(value);
+  arrayEach(props || value, function(subValue, key) {
+    if (props) {
+      key = subValue;
+      subValue = value[key];
+    }
+    // Recursively populate clone (susceptible to call stack limits).
+    assignValue(result, key, baseClone(subValue, bitmask, customizer, key, value, stack));
+  });
+  return result;
+}
+
+module.exports = baseClone;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseCreate.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_baseCreate.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var isObject = __webpack_require__(/*! ./isObject */ "../../../node_modules/lodash/isObject.js");
+
+/** Built-in value references. */
+var objectCreate = Object.create;
+
+/**
+ * The base implementation of `_.create` without support for assigning
+ * properties to the created object.
+ *
+ * @private
+ * @param {Object} proto The object to inherit from.
+ * @returns {Object} Returns the new object.
+ */
+var baseCreate = (function() {
+  function object() {}
+  return function(proto) {
+    if (!isObject(proto)) {
+      return {};
+    }
+    if (objectCreate) {
+      return objectCreate(proto);
+    }
+    object.prototype = proto;
+    var result = new object;
+    object.prototype = undefined;
+    return result;
+  };
+}());
+
+module.exports = baseCreate;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseGetAllKeys.js":
+/*!*******************************************************!*\
+  !*** ../../../node_modules/lodash/_baseGetAllKeys.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var arrayPush = __webpack_require__(/*! ./_arrayPush */ "../../../node_modules/lodash/_arrayPush.js"),
+    isArray = __webpack_require__(/*! ./isArray */ "../../../node_modules/lodash/isArray.js");
+
+/**
+ * The base implementation of `getAllKeys` and `getAllKeysIn` which uses
+ * `keysFunc` and `symbolsFunc` to get the enumerable property names and
+ * symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {Function} keysFunc The function to get the keys of `object`.
+ * @param {Function} symbolsFunc The function to get the symbols of `object`.
+ * @returns {Array} Returns the array of property names and symbols.
+ */
+function baseGetAllKeys(object, keysFunc, symbolsFunc) {
+  var result = keysFunc(object);
+  return isArray(object) ? result : arrayPush(result, symbolsFunc(object));
+}
+
+module.exports = baseGetAllKeys;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseGetTag.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_baseGetTag.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var Symbol = __webpack_require__(/*! ./_Symbol */ "../../../node_modules/lodash/_Symbol.js"),
+    getRawTag = __webpack_require__(/*! ./_getRawTag */ "../../../node_modules/lodash/_getRawTag.js"),
+    objectToString = __webpack_require__(/*! ./_objectToString */ "../../../node_modules/lodash/_objectToString.js");
+
+/** `Object#toString` result references. */
+var nullTag = '[object Null]',
+    undefinedTag = '[object Undefined]';
+
+/** Built-in value references. */
+var symToStringTag = Symbol ? Symbol.toStringTag : undefined;
+
+/**
+ * The base implementation of `getTag` without fallbacks for buggy environments.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+function baseGetTag(value) {
+  if (value == null) {
+    return value === undefined ? undefinedTag : nullTag;
+  }
+  return (symToStringTag && symToStringTag in Object(value))
+    ? getRawTag(value)
+    : objectToString(value);
+}
+
+module.exports = baseGetTag;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseIsArguments.js":
+/*!********************************************************!*\
+  !*** ../../../node_modules/lodash/_baseIsArguments.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "../../../node_modules/lodash/_baseGetTag.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "../../../node_modules/lodash/isObjectLike.js");
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]';
+
+/**
+ * The base implementation of `_.isArguments`.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+ */
+function baseIsArguments(value) {
+  return isObjectLike(value) && baseGetTag(value) == argsTag;
+}
+
+module.exports = baseIsArguments;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseIsMap.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_baseIsMap.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getTag = __webpack_require__(/*! ./_getTag */ "../../../node_modules/lodash/_getTag.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "../../../node_modules/lodash/isObjectLike.js");
+
+/** `Object#toString` result references. */
+var mapTag = '[object Map]';
+
+/**
+ * The base implementation of `_.isMap` without Node.js optimizations.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a map, else `false`.
+ */
+function baseIsMap(value) {
+  return isObjectLike(value) && getTag(value) == mapTag;
+}
+
+module.exports = baseIsMap;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseIsNative.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_baseIsNative.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var isFunction = __webpack_require__(/*! ./isFunction */ "../../../node_modules/lodash/isFunction.js"),
+    isMasked = __webpack_require__(/*! ./_isMasked */ "../../../node_modules/lodash/_isMasked.js"),
+    isObject = __webpack_require__(/*! ./isObject */ "../../../node_modules/lodash/isObject.js"),
+    toSource = __webpack_require__(/*! ./_toSource */ "../../../node_modules/lodash/_toSource.js");
+
+/**
+ * Used to match `RegExp`
+ * [syntax characters](http://ecma-international.org/ecma-262/7.0/#sec-patterns).
+ */
+var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+
+/** Used to detect host constructors (Safari). */
+var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+/** Used for built-in method references. */
+var funcProto = Function.prototype,
+    objectProto = Object.prototype;
+
+/** Used to resolve the decompiled source of functions. */
+var funcToString = funcProto.toString;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/** Used to detect if a method is native. */
+var reIsNative = RegExp('^' +
+  funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&')
+  .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
+);
+
+/**
+ * The base implementation of `_.isNative` without bad shim checks.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a native function,
+ *  else `false`.
+ */
+function baseIsNative(value) {
+  if (!isObject(value) || isMasked(value)) {
+    return false;
+  }
+  var pattern = isFunction(value) ? reIsNative : reIsHostCtor;
+  return pattern.test(toSource(value));
+}
+
+module.exports = baseIsNative;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseIsSet.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_baseIsSet.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getTag = __webpack_require__(/*! ./_getTag */ "../../../node_modules/lodash/_getTag.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "../../../node_modules/lodash/isObjectLike.js");
+
+/** `Object#toString` result references. */
+var setTag = '[object Set]';
+
+/**
+ * The base implementation of `_.isSet` without Node.js optimizations.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a set, else `false`.
+ */
+function baseIsSet(value) {
+  return isObjectLike(value) && getTag(value) == setTag;
+}
+
+module.exports = baseIsSet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseIsTypedArray.js":
+/*!*********************************************************!*\
+  !*** ../../../node_modules/lodash/_baseIsTypedArray.js ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "../../../node_modules/lodash/_baseGetTag.js"),
+    isLength = __webpack_require__(/*! ./isLength */ "../../../node_modules/lodash/isLength.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "../../../node_modules/lodash/isObjectLike.js");
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    errorTag = '[object Error]',
+    funcTag = '[object Function]',
+    mapTag = '[object Map]',
+    numberTag = '[object Number]',
+    objectTag = '[object Object]',
+    regexpTag = '[object RegExp]',
+    setTag = '[object Set]',
+    stringTag = '[object String]',
+    weakMapTag = '[object WeakMap]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    dataViewTag = '[object DataView]',
+    float32Tag = '[object Float32Array]',
+    float64Tag = '[object Float64Array]',
+    int8Tag = '[object Int8Array]',
+    int16Tag = '[object Int16Array]',
+    int32Tag = '[object Int32Array]',
+    uint8Tag = '[object Uint8Array]',
+    uint8ClampedTag = '[object Uint8ClampedArray]',
+    uint16Tag = '[object Uint16Array]',
+    uint32Tag = '[object Uint32Array]';
+
+/** Used to identify `toStringTag` values of typed arrays. */
+var typedArrayTags = {};
+typedArrayTags[float32Tag] = typedArrayTags[float64Tag] =
+typedArrayTags[int8Tag] = typedArrayTags[int16Tag] =
+typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =
+typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =
+typedArrayTags[uint32Tag] = true;
+typedArrayTags[argsTag] = typedArrayTags[arrayTag] =
+typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =
+typedArrayTags[dataViewTag] = typedArrayTags[dateTag] =
+typedArrayTags[errorTag] = typedArrayTags[funcTag] =
+typedArrayTags[mapTag] = typedArrayTags[numberTag] =
+typedArrayTags[objectTag] = typedArrayTags[regexpTag] =
+typedArrayTags[setTag] = typedArrayTags[stringTag] =
+typedArrayTags[weakMapTag] = false;
+
+/**
+ * The base implementation of `_.isTypedArray` without Node.js optimizations.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+ */
+function baseIsTypedArray(value) {
+  return isObjectLike(value) &&
+    isLength(value.length) && !!typedArrayTags[baseGetTag(value)];
+}
+
+module.exports = baseIsTypedArray;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseKeys.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_baseKeys.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var isPrototype = __webpack_require__(/*! ./_isPrototype */ "../../../node_modules/lodash/_isPrototype.js"),
+    nativeKeys = __webpack_require__(/*! ./_nativeKeys */ "../../../node_modules/lodash/_nativeKeys.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * The base implementation of `_.keys` which doesn't treat sparse arrays as dense.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ */
+function baseKeys(object) {
+  if (!isPrototype(object)) {
+    return nativeKeys(object);
+  }
+  var result = [];
+  for (var key in Object(object)) {
+    if (hasOwnProperty.call(object, key) && key != 'constructor') {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+module.exports = baseKeys;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseKeysIn.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_baseKeysIn.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var isObject = __webpack_require__(/*! ./isObject */ "../../../node_modules/lodash/isObject.js"),
+    isPrototype = __webpack_require__(/*! ./_isPrototype */ "../../../node_modules/lodash/_isPrototype.js"),
+    nativeKeysIn = __webpack_require__(/*! ./_nativeKeysIn */ "../../../node_modules/lodash/_nativeKeysIn.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * The base implementation of `_.keysIn` which doesn't treat sparse arrays as dense.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ */
+function baseKeysIn(object) {
+  if (!isObject(object)) {
+    return nativeKeysIn(object);
+  }
+  var isProto = isPrototype(object),
+      result = [];
+
+  for (var key in object) {
+    if (!(key == 'constructor' && (isProto || !hasOwnProperty.call(object, key)))) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+module.exports = baseKeysIn;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseTimes.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_baseTimes.js ***!
+  \**************************************************/
+/***/ ((module) => {
+
+/**
+ * The base implementation of `_.times` without support for iteratee shorthands
+ * or max array length checks.
+ *
+ * @private
+ * @param {number} n The number of times to invoke `iteratee`.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns the array of results.
+ */
+function baseTimes(n, iteratee) {
+  var index = -1,
+      result = Array(n);
+
+  while (++index < n) {
+    result[index] = iteratee(index);
+  }
+  return result;
+}
+
+module.exports = baseTimes;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_baseUnary.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_baseUnary.js ***!
+  \**************************************************/
+/***/ ((module) => {
+
+/**
+ * The base implementation of `_.unary` without support for storing metadata.
+ *
+ * @private
+ * @param {Function} func The function to cap arguments for.
+ * @returns {Function} Returns the new capped function.
+ */
+function baseUnary(func) {
+  return function(value) {
+    return func(value);
+  };
+}
+
+module.exports = baseUnary;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_cloneArrayBuffer.js":
+/*!*********************************************************!*\
+  !*** ../../../node_modules/lodash/_cloneArrayBuffer.js ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var Uint8Array = __webpack_require__(/*! ./_Uint8Array */ "../../../node_modules/lodash/_Uint8Array.js");
+
+/**
+ * Creates a clone of `arrayBuffer`.
+ *
+ * @private
+ * @param {ArrayBuffer} arrayBuffer The array buffer to clone.
+ * @returns {ArrayBuffer} Returns the cloned array buffer.
+ */
+function cloneArrayBuffer(arrayBuffer) {
+  var result = new arrayBuffer.constructor(arrayBuffer.byteLength);
+  new Uint8Array(result).set(new Uint8Array(arrayBuffer));
+  return result;
+}
+
+module.exports = cloneArrayBuffer;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_cloneBuffer.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_cloneBuffer.js ***!
+  \****************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+/* module decorator */ module = __webpack_require__.nmd(module);
+var root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js");
+
+/** Detect free variable `exports`. */
+var freeExports =  true && exports && !exports.nodeType && exports;
+
+/** Detect free variable `module`. */
+var freeModule = freeExports && "object" == 'object' && module && !module.nodeType && module;
+
+/** Detect the popular CommonJS extension `module.exports`. */
+var moduleExports = freeModule && freeModule.exports === freeExports;
+
+/** Built-in value references. */
+var Buffer = moduleExports ? root.Buffer : undefined,
+    allocUnsafe = Buffer ? Buffer.allocUnsafe : undefined;
+
+/**
+ * Creates a clone of  `buffer`.
+ *
+ * @private
+ * @param {Buffer} buffer The buffer to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Buffer} Returns the cloned buffer.
+ */
+function cloneBuffer(buffer, isDeep) {
+  if (isDeep) {
+    return buffer.slice();
+  }
+  var length = buffer.length,
+      result = allocUnsafe ? allocUnsafe(length) : new buffer.constructor(length);
+
+  buffer.copy(result);
+  return result;
+}
+
+module.exports = cloneBuffer;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_cloneDataView.js":
+/*!******************************************************!*\
+  !*** ../../../node_modules/lodash/_cloneDataView.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var cloneArrayBuffer = __webpack_require__(/*! ./_cloneArrayBuffer */ "../../../node_modules/lodash/_cloneArrayBuffer.js");
+
+/**
+ * Creates a clone of `dataView`.
+ *
+ * @private
+ * @param {Object} dataView The data view to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Object} Returns the cloned data view.
+ */
+function cloneDataView(dataView, isDeep) {
+  var buffer = isDeep ? cloneArrayBuffer(dataView.buffer) : dataView.buffer;
+  return new dataView.constructor(buffer, dataView.byteOffset, dataView.byteLength);
+}
+
+module.exports = cloneDataView;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_cloneRegExp.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_cloneRegExp.js ***!
+  \****************************************************/
+/***/ ((module) => {
+
+/** Used to match `RegExp` flags from their coerced string values. */
+var reFlags = /\w*$/;
+
+/**
+ * Creates a clone of `regexp`.
+ *
+ * @private
+ * @param {Object} regexp The regexp to clone.
+ * @returns {Object} Returns the cloned regexp.
+ */
+function cloneRegExp(regexp) {
+  var result = new regexp.constructor(regexp.source, reFlags.exec(regexp));
+  result.lastIndex = regexp.lastIndex;
+  return result;
+}
+
+module.exports = cloneRegExp;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_cloneSymbol.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_cloneSymbol.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var Symbol = __webpack_require__(/*! ./_Symbol */ "../../../node_modules/lodash/_Symbol.js");
+
+/** Used to convert symbols to primitives and strings. */
+var symbolProto = Symbol ? Symbol.prototype : undefined,
+    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined;
+
+/**
+ * Creates a clone of the `symbol` object.
+ *
+ * @private
+ * @param {Object} symbol The symbol object to clone.
+ * @returns {Object} Returns the cloned symbol object.
+ */
+function cloneSymbol(symbol) {
+  return symbolValueOf ? Object(symbolValueOf.call(symbol)) : {};
+}
+
+module.exports = cloneSymbol;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_cloneTypedArray.js":
+/*!********************************************************!*\
+  !*** ../../../node_modules/lodash/_cloneTypedArray.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var cloneArrayBuffer = __webpack_require__(/*! ./_cloneArrayBuffer */ "../../../node_modules/lodash/_cloneArrayBuffer.js");
+
+/**
+ * Creates a clone of `typedArray`.
+ *
+ * @private
+ * @param {Object} typedArray The typed array to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Object} Returns the cloned typed array.
+ */
+function cloneTypedArray(typedArray, isDeep) {
+  var buffer = isDeep ? cloneArrayBuffer(typedArray.buffer) : typedArray.buffer;
+  return new typedArray.constructor(buffer, typedArray.byteOffset, typedArray.length);
+}
+
+module.exports = cloneTypedArray;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_copyArray.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_copyArray.js ***!
+  \**************************************************/
+/***/ ((module) => {
+
+/**
+ * Copies the values of `source` to `array`.
+ *
+ * @private
+ * @param {Array} source The array to copy values from.
+ * @param {Array} [array=[]] The array to copy values to.
+ * @returns {Array} Returns `array`.
+ */
+function copyArray(source, array) {
+  var index = -1,
+      length = source.length;
+
+  array || (array = Array(length));
+  while (++index < length) {
+    array[index] = source[index];
+  }
+  return array;
+}
+
+module.exports = copyArray;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_copyObject.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_copyObject.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var assignValue = __webpack_require__(/*! ./_assignValue */ "../../../node_modules/lodash/_assignValue.js"),
+    baseAssignValue = __webpack_require__(/*! ./_baseAssignValue */ "../../../node_modules/lodash/_baseAssignValue.js");
+
+/**
+ * Copies properties of `source` to `object`.
+ *
+ * @private
+ * @param {Object} source The object to copy properties from.
+ * @param {Array} props The property identifiers to copy.
+ * @param {Object} [object={}] The object to copy properties to.
+ * @param {Function} [customizer] The function to customize copied values.
+ * @returns {Object} Returns `object`.
+ */
+function copyObject(source, props, object, customizer) {
+  var isNew = !object;
+  object || (object = {});
+
+  var index = -1,
+      length = props.length;
+
+  while (++index < length) {
+    var key = props[index];
+
+    var newValue = customizer
+      ? customizer(object[key], source[key], key, object, source)
+      : undefined;
+
+    if (newValue === undefined) {
+      newValue = source[key];
+    }
+    if (isNew) {
+      baseAssignValue(object, key, newValue);
+    } else {
+      assignValue(object, key, newValue);
+    }
+  }
+  return object;
+}
+
+module.exports = copyObject;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_copySymbols.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_copySymbols.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var copyObject = __webpack_require__(/*! ./_copyObject */ "../../../node_modules/lodash/_copyObject.js"),
+    getSymbols = __webpack_require__(/*! ./_getSymbols */ "../../../node_modules/lodash/_getSymbols.js");
+
+/**
+ * Copies own symbols of `source` to `object`.
+ *
+ * @private
+ * @param {Object} source The object to copy symbols from.
+ * @param {Object} [object={}] The object to copy symbols to.
+ * @returns {Object} Returns `object`.
+ */
+function copySymbols(source, object) {
+  return copyObject(source, getSymbols(source), object);
+}
+
+module.exports = copySymbols;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_copySymbolsIn.js":
+/*!******************************************************!*\
+  !*** ../../../node_modules/lodash/_copySymbolsIn.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var copyObject = __webpack_require__(/*! ./_copyObject */ "../../../node_modules/lodash/_copyObject.js"),
+    getSymbolsIn = __webpack_require__(/*! ./_getSymbolsIn */ "../../../node_modules/lodash/_getSymbolsIn.js");
+
+/**
+ * Copies own and inherited symbols of `source` to `object`.
+ *
+ * @private
+ * @param {Object} source The object to copy symbols from.
+ * @param {Object} [object={}] The object to copy symbols to.
+ * @returns {Object} Returns `object`.
+ */
+function copySymbolsIn(source, object) {
+  return copyObject(source, getSymbolsIn(source), object);
+}
+
+module.exports = copySymbolsIn;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_coreJsData.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_coreJsData.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js");
+
+/** Used to detect overreaching core-js shims. */
+var coreJsData = root['__core-js_shared__'];
+
+module.exports = coreJsData;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_defineProperty.js":
+/*!*******************************************************!*\
+  !*** ../../../node_modules/lodash/_defineProperty.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getNative = __webpack_require__(/*! ./_getNative */ "../../../node_modules/lodash/_getNative.js");
+
+var defineProperty = (function() {
+  try {
+    var func = getNative(Object, 'defineProperty');
+    func({}, '', {});
+    return func;
+  } catch (e) {}
+}());
+
+module.exports = defineProperty;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_freeGlobal.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_freeGlobal.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof __webpack_require__.g == 'object' && __webpack_require__.g && __webpack_require__.g.Object === Object && __webpack_require__.g;
+
+module.exports = freeGlobal;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getAllKeys.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_getAllKeys.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseGetAllKeys = __webpack_require__(/*! ./_baseGetAllKeys */ "../../../node_modules/lodash/_baseGetAllKeys.js"),
+    getSymbols = __webpack_require__(/*! ./_getSymbols */ "../../../node_modules/lodash/_getSymbols.js"),
+    keys = __webpack_require__(/*! ./keys */ "../../../node_modules/lodash/keys.js");
+
+/**
+ * Creates an array of own enumerable property names and symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names and symbols.
+ */
+function getAllKeys(object) {
+  return baseGetAllKeys(object, keys, getSymbols);
+}
+
+module.exports = getAllKeys;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getAllKeysIn.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_getAllKeysIn.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseGetAllKeys = __webpack_require__(/*! ./_baseGetAllKeys */ "../../../node_modules/lodash/_baseGetAllKeys.js"),
+    getSymbolsIn = __webpack_require__(/*! ./_getSymbolsIn */ "../../../node_modules/lodash/_getSymbolsIn.js"),
+    keysIn = __webpack_require__(/*! ./keysIn */ "../../../node_modules/lodash/keysIn.js");
+
+/**
+ * Creates an array of own and inherited enumerable property names and
+ * symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names and symbols.
+ */
+function getAllKeysIn(object) {
+  return baseGetAllKeys(object, keysIn, getSymbolsIn);
+}
+
+module.exports = getAllKeysIn;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getMapData.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_getMapData.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var isKeyable = __webpack_require__(/*! ./_isKeyable */ "../../../node_modules/lodash/_isKeyable.js");
+
+/**
+ * Gets the data for `map`.
+ *
+ * @private
+ * @param {Object} map The map to query.
+ * @param {string} key The reference key.
+ * @returns {*} Returns the map data.
+ */
+function getMapData(map, key) {
+  var data = map.__data__;
+  return isKeyable(key)
+    ? data[typeof key == 'string' ? 'string' : 'hash']
+    : data.map;
+}
+
+module.exports = getMapData;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getNative.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_getNative.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseIsNative = __webpack_require__(/*! ./_baseIsNative */ "../../../node_modules/lodash/_baseIsNative.js"),
+    getValue = __webpack_require__(/*! ./_getValue */ "../../../node_modules/lodash/_getValue.js");
+
+/**
+ * Gets the native function at `key` of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {string} key The key of the method to get.
+ * @returns {*} Returns the function if it's native, else `undefined`.
+ */
+function getNative(object, key) {
+  var value = getValue(object, key);
+  return baseIsNative(value) ? value : undefined;
+}
+
+module.exports = getNative;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getPrototype.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_getPrototype.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var overArg = __webpack_require__(/*! ./_overArg */ "../../../node_modules/lodash/_overArg.js");
+
+/** Built-in value references. */
+var getPrototype = overArg(Object.getPrototypeOf, Object);
+
+module.exports = getPrototype;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getRawTag.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_getRawTag.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var Symbol = __webpack_require__(/*! ./_Symbol */ "../../../node_modules/lodash/_Symbol.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var nativeObjectToString = objectProto.toString;
+
+/** Built-in value references. */
+var symToStringTag = Symbol ? Symbol.toStringTag : undefined;
+
+/**
+ * A specialized version of `baseGetTag` which ignores `Symbol.toStringTag` values.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the raw `toStringTag`.
+ */
+function getRawTag(value) {
+  var isOwn = hasOwnProperty.call(value, symToStringTag),
+      tag = value[symToStringTag];
+
+  try {
+    value[symToStringTag] = undefined;
+    var unmasked = true;
+  } catch (e) {}
+
+  var result = nativeObjectToString.call(value);
+  if (unmasked) {
+    if (isOwn) {
+      value[symToStringTag] = tag;
+    } else {
+      delete value[symToStringTag];
+    }
+  }
+  return result;
+}
+
+module.exports = getRawTag;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getSymbols.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_getSymbols.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var arrayFilter = __webpack_require__(/*! ./_arrayFilter */ "../../../node_modules/lodash/_arrayFilter.js"),
+    stubArray = __webpack_require__(/*! ./stubArray */ "../../../node_modules/lodash/stubArray.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Built-in value references. */
+var propertyIsEnumerable = objectProto.propertyIsEnumerable;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeGetSymbols = Object.getOwnPropertySymbols;
+
+/**
+ * Creates an array of the own enumerable symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of symbols.
+ */
+var getSymbols = !nativeGetSymbols ? stubArray : function(object) {
+  if (object == null) {
+    return [];
+  }
+  object = Object(object);
+  return arrayFilter(nativeGetSymbols(object), function(symbol) {
+    return propertyIsEnumerable.call(object, symbol);
+  });
+};
+
+module.exports = getSymbols;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getSymbolsIn.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_getSymbolsIn.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var arrayPush = __webpack_require__(/*! ./_arrayPush */ "../../../node_modules/lodash/_arrayPush.js"),
+    getPrototype = __webpack_require__(/*! ./_getPrototype */ "../../../node_modules/lodash/_getPrototype.js"),
+    getSymbols = __webpack_require__(/*! ./_getSymbols */ "../../../node_modules/lodash/_getSymbols.js"),
+    stubArray = __webpack_require__(/*! ./stubArray */ "../../../node_modules/lodash/stubArray.js");
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeGetSymbols = Object.getOwnPropertySymbols;
+
+/**
+ * Creates an array of the own and inherited enumerable symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of symbols.
+ */
+var getSymbolsIn = !nativeGetSymbols ? stubArray : function(object) {
+  var result = [];
+  while (object) {
+    arrayPush(result, getSymbols(object));
+    object = getPrototype(object);
+  }
+  return result;
+};
+
+module.exports = getSymbolsIn;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getTag.js":
+/*!***********************************************!*\
+  !*** ../../../node_modules/lodash/_getTag.js ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var DataView = __webpack_require__(/*! ./_DataView */ "../../../node_modules/lodash/_DataView.js"),
+    Map = __webpack_require__(/*! ./_Map */ "../../../node_modules/lodash/_Map.js"),
+    Promise = __webpack_require__(/*! ./_Promise */ "../../../node_modules/lodash/_Promise.js"),
+    Set = __webpack_require__(/*! ./_Set */ "../../../node_modules/lodash/_Set.js"),
+    WeakMap = __webpack_require__(/*! ./_WeakMap */ "../../../node_modules/lodash/_WeakMap.js"),
+    baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "../../../node_modules/lodash/_baseGetTag.js"),
+    toSource = __webpack_require__(/*! ./_toSource */ "../../../node_modules/lodash/_toSource.js");
+
+/** `Object#toString` result references. */
+var mapTag = '[object Map]',
+    objectTag = '[object Object]',
+    promiseTag = '[object Promise]',
+    setTag = '[object Set]',
+    weakMapTag = '[object WeakMap]';
+
+var dataViewTag = '[object DataView]';
+
+/** Used to detect maps, sets, and weakmaps. */
+var dataViewCtorString = toSource(DataView),
+    mapCtorString = toSource(Map),
+    promiseCtorString = toSource(Promise),
+    setCtorString = toSource(Set),
+    weakMapCtorString = toSource(WeakMap);
+
+/**
+ * Gets the `toStringTag` of `value`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+var getTag = baseGetTag;
+
+// Fallback for data views, maps, sets, and weak maps in IE 11 and promises in Node.js < 6.
+if ((DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag) ||
+    (Map && getTag(new Map) != mapTag) ||
+    (Promise && getTag(Promise.resolve()) != promiseTag) ||
+    (Set && getTag(new Set) != setTag) ||
+    (WeakMap && getTag(new WeakMap) != weakMapTag)) {
+  getTag = function(value) {
+    var result = baseGetTag(value),
+        Ctor = result == objectTag ? value.constructor : undefined,
+        ctorString = Ctor ? toSource(Ctor) : '';
+
+    if (ctorString) {
+      switch (ctorString) {
+        case dataViewCtorString: return dataViewTag;
+        case mapCtorString: return mapTag;
+        case promiseCtorString: return promiseTag;
+        case setCtorString: return setTag;
+        case weakMapCtorString: return weakMapTag;
+      }
+    }
+    return result;
+  };
+}
+
+module.exports = getTag;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_getValue.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_getValue.js ***!
+  \*************************************************/
+/***/ ((module) => {
+
+/**
+ * Gets the value at `key` of `object`.
+ *
+ * @private
+ * @param {Object} [object] The object to query.
+ * @param {string} key The key of the property to get.
+ * @returns {*} Returns the property value.
+ */
+function getValue(object, key) {
+  return object == null ? undefined : object[key];
+}
+
+module.exports = getValue;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_hashClear.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_hashClear.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var nativeCreate = __webpack_require__(/*! ./_nativeCreate */ "../../../node_modules/lodash/_nativeCreate.js");
+
+/**
+ * Removes all key-value entries from the hash.
+ *
+ * @private
+ * @name clear
+ * @memberOf Hash
+ */
+function hashClear() {
+  this.__data__ = nativeCreate ? nativeCreate(null) : {};
+  this.size = 0;
+}
+
+module.exports = hashClear;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_hashDelete.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_hashDelete.js ***!
+  \***************************************************/
+/***/ ((module) => {
+
+/**
+ * Removes `key` and its value from the hash.
+ *
+ * @private
+ * @name delete
+ * @memberOf Hash
+ * @param {Object} hash The hash to modify.
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function hashDelete(key) {
+  var result = this.has(key) && delete this.__data__[key];
+  this.size -= result ? 1 : 0;
+  return result;
+}
+
+module.exports = hashDelete;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_hashGet.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/_hashGet.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var nativeCreate = __webpack_require__(/*! ./_nativeCreate */ "../../../node_modules/lodash/_nativeCreate.js");
+
+/** Used to stand-in for `undefined` hash values. */
+var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Gets the hash value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf Hash
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function hashGet(key) {
+  var data = this.__data__;
+  if (nativeCreate) {
+    var result = data[key];
+    return result === HASH_UNDEFINED ? undefined : result;
+  }
+  return hasOwnProperty.call(data, key) ? data[key] : undefined;
+}
+
+module.exports = hashGet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_hashHas.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/_hashHas.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var nativeCreate = __webpack_require__(/*! ./_nativeCreate */ "../../../node_modules/lodash/_nativeCreate.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Checks if a hash value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf Hash
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function hashHas(key) {
+  var data = this.__data__;
+  return nativeCreate ? (data[key] !== undefined) : hasOwnProperty.call(data, key);
+}
+
+module.exports = hashHas;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_hashSet.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/_hashSet.js ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var nativeCreate = __webpack_require__(/*! ./_nativeCreate */ "../../../node_modules/lodash/_nativeCreate.js");
+
+/** Used to stand-in for `undefined` hash values. */
+var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+/**
+ * Sets the hash `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf Hash
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the hash instance.
+ */
+function hashSet(key, value) {
+  var data = this.__data__;
+  this.size += this.has(key) ? 0 : 1;
+  data[key] = (nativeCreate && value === undefined) ? HASH_UNDEFINED : value;
+  return this;
+}
+
+module.exports = hashSet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_initCloneArray.js":
+/*!*******************************************************!*\
+  !*** ../../../node_modules/lodash/_initCloneArray.js ***!
+  \*******************************************************/
+/***/ ((module) => {
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/**
+ * Initializes an array clone.
+ *
+ * @private
+ * @param {Array} array The array to clone.
+ * @returns {Array} Returns the initialized clone.
+ */
+function initCloneArray(array) {
+  var length = array.length,
+      result = new array.constructor(length);
+
+  // Add properties assigned by `RegExp#exec`.
+  if (length && typeof array[0] == 'string' && hasOwnProperty.call(array, 'index')) {
+    result.index = array.index;
+    result.input = array.input;
+  }
+  return result;
+}
+
+module.exports = initCloneArray;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_initCloneByTag.js":
+/*!*******************************************************!*\
+  !*** ../../../node_modules/lodash/_initCloneByTag.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var cloneArrayBuffer = __webpack_require__(/*! ./_cloneArrayBuffer */ "../../../node_modules/lodash/_cloneArrayBuffer.js"),
+    cloneDataView = __webpack_require__(/*! ./_cloneDataView */ "../../../node_modules/lodash/_cloneDataView.js"),
+    cloneRegExp = __webpack_require__(/*! ./_cloneRegExp */ "../../../node_modules/lodash/_cloneRegExp.js"),
+    cloneSymbol = __webpack_require__(/*! ./_cloneSymbol */ "../../../node_modules/lodash/_cloneSymbol.js"),
+    cloneTypedArray = __webpack_require__(/*! ./_cloneTypedArray */ "../../../node_modules/lodash/_cloneTypedArray.js");
+
+/** `Object#toString` result references. */
+var boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    mapTag = '[object Map]',
+    numberTag = '[object Number]',
+    regexpTag = '[object RegExp]',
+    setTag = '[object Set]',
+    stringTag = '[object String]',
+    symbolTag = '[object Symbol]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    dataViewTag = '[object DataView]',
+    float32Tag = '[object Float32Array]',
+    float64Tag = '[object Float64Array]',
+    int8Tag = '[object Int8Array]',
+    int16Tag = '[object Int16Array]',
+    int32Tag = '[object Int32Array]',
+    uint8Tag = '[object Uint8Array]',
+    uint8ClampedTag = '[object Uint8ClampedArray]',
+    uint16Tag = '[object Uint16Array]',
+    uint32Tag = '[object Uint32Array]';
+
+/**
+ * Initializes an object clone based on its `toStringTag`.
+ *
+ * **Note:** This function only supports cloning values with tags of
+ * `Boolean`, `Date`, `Error`, `Map`, `Number`, `RegExp`, `Set`, or `String`.
+ *
+ * @private
+ * @param {Object} object The object to clone.
+ * @param {string} tag The `toStringTag` of the object to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Object} Returns the initialized clone.
+ */
+function initCloneByTag(object, tag, isDeep) {
+  var Ctor = object.constructor;
+  switch (tag) {
+    case arrayBufferTag:
+      return cloneArrayBuffer(object);
+
+    case boolTag:
+    case dateTag:
+      return new Ctor(+object);
+
+    case dataViewTag:
+      return cloneDataView(object, isDeep);
+
+    case float32Tag: case float64Tag:
+    case int8Tag: case int16Tag: case int32Tag:
+    case uint8Tag: case uint8ClampedTag: case uint16Tag: case uint32Tag:
+      return cloneTypedArray(object, isDeep);
+
+    case mapTag:
+      return new Ctor;
+
+    case numberTag:
+    case stringTag:
+      return new Ctor(object);
+
+    case regexpTag:
+      return cloneRegExp(object);
+
+    case setTag:
+      return new Ctor;
+
+    case symbolTag:
+      return cloneSymbol(object);
+  }
+}
+
+module.exports = initCloneByTag;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_initCloneObject.js":
+/*!********************************************************!*\
+  !*** ../../../node_modules/lodash/_initCloneObject.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseCreate = __webpack_require__(/*! ./_baseCreate */ "../../../node_modules/lodash/_baseCreate.js"),
+    getPrototype = __webpack_require__(/*! ./_getPrototype */ "../../../node_modules/lodash/_getPrototype.js"),
+    isPrototype = __webpack_require__(/*! ./_isPrototype */ "../../../node_modules/lodash/_isPrototype.js");
+
+/**
+ * Initializes an object clone.
+ *
+ * @private
+ * @param {Object} object The object to clone.
+ * @returns {Object} Returns the initialized clone.
+ */
+function initCloneObject(object) {
+  return (typeof object.constructor == 'function' && !isPrototype(object))
+    ? baseCreate(getPrototype(object))
+    : {};
+}
+
+module.exports = initCloneObject;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_isIndex.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/_isIndex.js ***!
+  \************************************************/
+/***/ ((module) => {
+
+/** Used as references for various `Number` constants. */
+var MAX_SAFE_INTEGER = 9007199254740991;
+
+/** Used to detect unsigned integer values. */
+var reIsUint = /^(?:0|[1-9]\d*)$/;
+
+/**
+ * Checks if `value` is a valid array-like index.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+ * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+ */
+function isIndex(value, length) {
+  var type = typeof value;
+  length = length == null ? MAX_SAFE_INTEGER : length;
+
+  return !!length &&
+    (type == 'number' ||
+      (type != 'symbol' && reIsUint.test(value))) &&
+        (value > -1 && value % 1 == 0 && value < length);
+}
+
+module.exports = isIndex;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_isKeyable.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/_isKeyable.js ***!
+  \**************************************************/
+/***/ ((module) => {
+
+/**
+ * Checks if `value` is suitable for use as unique object key.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+ */
+function isKeyable(value) {
+  var type = typeof value;
+  return (type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean')
+    ? (value !== '__proto__')
+    : (value === null);
+}
+
+module.exports = isKeyable;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_isMasked.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_isMasked.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var coreJsData = __webpack_require__(/*! ./_coreJsData */ "../../../node_modules/lodash/_coreJsData.js");
+
+/** Used to detect methods masquerading as native. */
+var maskSrcKey = (function() {
+  var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || '');
+  return uid ? ('Symbol(src)_1.' + uid) : '';
+}());
+
+/**
+ * Checks if `func` has its source masked.
+ *
+ * @private
+ * @param {Function} func The function to check.
+ * @returns {boolean} Returns `true` if `func` is masked, else `false`.
+ */
+function isMasked(func) {
+  return !!maskSrcKey && (maskSrcKey in func);
+}
+
+module.exports = isMasked;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_isPrototype.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_isPrototype.js ***!
+  \****************************************************/
+/***/ ((module) => {
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Checks if `value` is likely a prototype object.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a prototype, else `false`.
+ */
+function isPrototype(value) {
+  var Ctor = value && value.constructor,
+      proto = (typeof Ctor == 'function' && Ctor.prototype) || objectProto;
+
+  return value === proto;
+}
+
+module.exports = isPrototype;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_listCacheClear.js":
+/*!*******************************************************!*\
+  !*** ../../../node_modules/lodash/_listCacheClear.js ***!
+  \*******************************************************/
+/***/ ((module) => {
+
+/**
+ * Removes all key-value entries from the list cache.
+ *
+ * @private
+ * @name clear
+ * @memberOf ListCache
+ */
+function listCacheClear() {
+  this.__data__ = [];
+  this.size = 0;
+}
+
+module.exports = listCacheClear;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_listCacheDelete.js":
+/*!********************************************************!*\
+  !*** ../../../node_modules/lodash/_listCacheDelete.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var assocIndexOf = __webpack_require__(/*! ./_assocIndexOf */ "../../../node_modules/lodash/_assocIndexOf.js");
+
+/** Used for built-in method references. */
+var arrayProto = Array.prototype;
+
+/** Built-in value references. */
+var splice = arrayProto.splice;
+
+/**
+ * Removes `key` and its value from the list cache.
+ *
+ * @private
+ * @name delete
+ * @memberOf ListCache
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function listCacheDelete(key) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  if (index < 0) {
+    return false;
+  }
+  var lastIndex = data.length - 1;
+  if (index == lastIndex) {
+    data.pop();
+  } else {
+    splice.call(data, index, 1);
+  }
+  --this.size;
+  return true;
+}
+
+module.exports = listCacheDelete;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_listCacheGet.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_listCacheGet.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var assocIndexOf = __webpack_require__(/*! ./_assocIndexOf */ "../../../node_modules/lodash/_assocIndexOf.js");
+
+/**
+ * Gets the list cache value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf ListCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function listCacheGet(key) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  return index < 0 ? undefined : data[index][1];
+}
+
+module.exports = listCacheGet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_listCacheHas.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_listCacheHas.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var assocIndexOf = __webpack_require__(/*! ./_assocIndexOf */ "../../../node_modules/lodash/_assocIndexOf.js");
+
+/**
+ * Checks if a list cache value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf ListCache
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function listCacheHas(key) {
+  return assocIndexOf(this.__data__, key) > -1;
+}
+
+module.exports = listCacheHas;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_listCacheSet.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_listCacheSet.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var assocIndexOf = __webpack_require__(/*! ./_assocIndexOf */ "../../../node_modules/lodash/_assocIndexOf.js");
+
+/**
+ * Sets the list cache `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf ListCache
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the list cache instance.
+ */
+function listCacheSet(key, value) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  if (index < 0) {
+    ++this.size;
+    data.push([key, value]);
+  } else {
+    data[index][1] = value;
+  }
+  return this;
+}
+
+module.exports = listCacheSet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_mapCacheClear.js":
+/*!******************************************************!*\
+  !*** ../../../node_modules/lodash/_mapCacheClear.js ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var Hash = __webpack_require__(/*! ./_Hash */ "../../../node_modules/lodash/_Hash.js"),
+    ListCache = __webpack_require__(/*! ./_ListCache */ "../../../node_modules/lodash/_ListCache.js"),
+    Map = __webpack_require__(/*! ./_Map */ "../../../node_modules/lodash/_Map.js");
+
+/**
+ * Removes all key-value entries from the map.
+ *
+ * @private
+ * @name clear
+ * @memberOf MapCache
+ */
+function mapCacheClear() {
+  this.size = 0;
+  this.__data__ = {
+    'hash': new Hash,
+    'map': new (Map || ListCache),
+    'string': new Hash
+  };
+}
+
+module.exports = mapCacheClear;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_mapCacheDelete.js":
+/*!*******************************************************!*\
+  !*** ../../../node_modules/lodash/_mapCacheDelete.js ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getMapData = __webpack_require__(/*! ./_getMapData */ "../../../node_modules/lodash/_getMapData.js");
+
+/**
+ * Removes `key` and its value from the map.
+ *
+ * @private
+ * @name delete
+ * @memberOf MapCache
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function mapCacheDelete(key) {
+  var result = getMapData(this, key)['delete'](key);
+  this.size -= result ? 1 : 0;
+  return result;
+}
+
+module.exports = mapCacheDelete;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_mapCacheGet.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_mapCacheGet.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getMapData = __webpack_require__(/*! ./_getMapData */ "../../../node_modules/lodash/_getMapData.js");
+
+/**
+ * Gets the map value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf MapCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function mapCacheGet(key) {
+  return getMapData(this, key).get(key);
+}
+
+module.exports = mapCacheGet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_mapCacheHas.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_mapCacheHas.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getMapData = __webpack_require__(/*! ./_getMapData */ "../../../node_modules/lodash/_getMapData.js");
+
+/**
+ * Checks if a map value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf MapCache
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function mapCacheHas(key) {
+  return getMapData(this, key).has(key);
+}
+
+module.exports = mapCacheHas;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_mapCacheSet.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_mapCacheSet.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getMapData = __webpack_require__(/*! ./_getMapData */ "../../../node_modules/lodash/_getMapData.js");
+
+/**
+ * Sets the map `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf MapCache
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the map cache instance.
+ */
+function mapCacheSet(key, value) {
+  var data = getMapData(this, key),
+      size = data.size;
+
+  data.set(key, value);
+  this.size += data.size == size ? 0 : 1;
+  return this;
+}
+
+module.exports = mapCacheSet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_nativeCreate.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_nativeCreate.js ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var getNative = __webpack_require__(/*! ./_getNative */ "../../../node_modules/lodash/_getNative.js");
+
+/* Built-in method references that are verified to be native. */
+var nativeCreate = getNative(Object, 'create');
+
+module.exports = nativeCreate;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_nativeKeys.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_nativeKeys.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var overArg = __webpack_require__(/*! ./_overArg */ "../../../node_modules/lodash/_overArg.js");
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeKeys = overArg(Object.keys, Object);
+
+module.exports = nativeKeys;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_nativeKeysIn.js":
+/*!*****************************************************!*\
+  !*** ../../../node_modules/lodash/_nativeKeysIn.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+/**
+ * This function is like
+ * [`Object.keys`](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
+ * except that it includes inherited enumerable properties.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ */
+function nativeKeysIn(object) {
+  var result = [];
+  if (object != null) {
+    for (var key in Object(object)) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+module.exports = nativeKeysIn;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_nodeUtil.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_nodeUtil.js ***!
+  \*************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+/* module decorator */ module = __webpack_require__.nmd(module);
+var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "../../../node_modules/lodash/_freeGlobal.js");
+
+/** Detect free variable `exports`. */
+var freeExports =  true && exports && !exports.nodeType && exports;
+
+/** Detect free variable `module`. */
+var freeModule = freeExports && "object" == 'object' && module && !module.nodeType && module;
+
+/** Detect the popular CommonJS extension `module.exports`. */
+var moduleExports = freeModule && freeModule.exports === freeExports;
+
+/** Detect free variable `process` from Node.js. */
+var freeProcess = moduleExports && freeGlobal.process;
+
+/** Used to access faster Node.js helpers. */
+var nodeUtil = (function() {
+  try {
+    // Use `util.types` for Node.js 10+.
+    var types = freeModule && freeModule.require && freeModule.require('util').types;
+
+    if (types) {
+      return types;
+    }
+
+    // Legacy `process.binding('util')` for Node.js < 10.
+    return freeProcess && freeProcess.binding && freeProcess.binding('util');
+  } catch (e) {}
+}());
+
+module.exports = nodeUtil;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_objectToString.js":
+/*!*******************************************************!*\
+  !*** ../../../node_modules/lodash/_objectToString.js ***!
+  \*******************************************************/
+/***/ ((module) => {
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var nativeObjectToString = objectProto.toString;
+
+/**
+ * Converts `value` to a string using `Object.prototype.toString`.
+ *
+ * @private
+ * @param {*} value The value to convert.
+ * @returns {string} Returns the converted string.
+ */
+function objectToString(value) {
+  return nativeObjectToString.call(value);
+}
+
+module.exports = objectToString;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_overArg.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/_overArg.js ***!
+  \************************************************/
+/***/ ((module) => {
+
+/**
+ * Creates a unary function that invokes `func` with its argument transformed.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {Function} transform The argument transform.
+ * @returns {Function} Returns the new function.
+ */
+function overArg(func, transform) {
+  return function(arg) {
+    return func(transform(arg));
+  };
+}
+
+module.exports = overArg;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_root.js":
+/*!*********************************************!*\
+  !*** ../../../node_modules/lodash/_root.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "../../../node_modules/lodash/_freeGlobal.js");
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+module.exports = root;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_stackClear.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/_stackClear.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var ListCache = __webpack_require__(/*! ./_ListCache */ "../../../node_modules/lodash/_ListCache.js");
+
+/**
+ * Removes all key-value entries from the stack.
+ *
+ * @private
+ * @name clear
+ * @memberOf Stack
+ */
+function stackClear() {
+  this.__data__ = new ListCache;
+  this.size = 0;
+}
+
+module.exports = stackClear;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_stackDelete.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/_stackDelete.js ***!
+  \****************************************************/
+/***/ ((module) => {
+
+/**
+ * Removes `key` and its value from the stack.
+ *
+ * @private
+ * @name delete
+ * @memberOf Stack
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function stackDelete(key) {
+  var data = this.__data__,
+      result = data['delete'](key);
+
+  this.size = data.size;
+  return result;
+}
+
+module.exports = stackDelete;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_stackGet.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_stackGet.js ***!
+  \*************************************************/
+/***/ ((module) => {
+
+/**
+ * Gets the stack value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf Stack
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function stackGet(key) {
+  return this.__data__.get(key);
+}
+
+module.exports = stackGet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_stackHas.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_stackHas.js ***!
+  \*************************************************/
+/***/ ((module) => {
+
+/**
+ * Checks if a stack value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf Stack
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function stackHas(key) {
+  return this.__data__.has(key);
+}
+
+module.exports = stackHas;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_stackSet.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_stackSet.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var ListCache = __webpack_require__(/*! ./_ListCache */ "../../../node_modules/lodash/_ListCache.js"),
+    Map = __webpack_require__(/*! ./_Map */ "../../../node_modules/lodash/_Map.js"),
+    MapCache = __webpack_require__(/*! ./_MapCache */ "../../../node_modules/lodash/_MapCache.js");
+
+/** Used as the size to enable large array optimizations. */
+var LARGE_ARRAY_SIZE = 200;
+
+/**
+ * Sets the stack `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf Stack
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the stack cache instance.
+ */
+function stackSet(key, value) {
+  var data = this.__data__;
+  if (data instanceof ListCache) {
+    var pairs = data.__data__;
+    if (!Map || (pairs.length < LARGE_ARRAY_SIZE - 1)) {
+      pairs.push([key, value]);
+      this.size = ++data.size;
+      return this;
+    }
+    data = this.__data__ = new MapCache(pairs);
+  }
+  data.set(key, value);
+  this.size = data.size;
+  return this;
+}
+
+module.exports = stackSet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/_toSource.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/_toSource.js ***!
+  \*************************************************/
+/***/ ((module) => {
+
+/** Used for built-in method references. */
+var funcProto = Function.prototype;
+
+/** Used to resolve the decompiled source of functions. */
+var funcToString = funcProto.toString;
+
+/**
+ * Converts `func` to its source code.
+ *
+ * @private
+ * @param {Function} func The function to convert.
+ * @returns {string} Returns the source code.
+ */
+function toSource(func) {
+  if (func != null) {
+    try {
+      return funcToString.call(func);
+    } catch (e) {}
+    try {
+      return (func + '');
+    } catch (e) {}
+  }
+  return '';
+}
+
+module.exports = toSource;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/cloneDeep.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/cloneDeep.js ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseClone = __webpack_require__(/*! ./_baseClone */ "../../../node_modules/lodash/_baseClone.js");
+
+/** Used to compose bitmasks for cloning. */
+var CLONE_DEEP_FLAG = 1,
+    CLONE_SYMBOLS_FLAG = 4;
+
+/**
+ * This method is like `_.clone` except that it recursively clones `value`.
+ *
+ * @static
+ * @memberOf _
+ * @since 1.0.0
+ * @category Lang
+ * @param {*} value The value to recursively clone.
+ * @returns {*} Returns the deep cloned value.
+ * @see _.clone
+ * @example
+ *
+ * var objects = [{ 'a': 1 }, { 'b': 2 }];
+ *
+ * var deep = _.cloneDeep(objects);
+ * console.log(deep[0] === objects[0]);
+ * // => false
+ */
+function cloneDeep(value) {
+  return baseClone(value, CLONE_DEEP_FLAG | CLONE_SYMBOLS_FLAG);
+}
+
+module.exports = cloneDeep;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/eq.js":
+/*!******************************************!*\
+  !*** ../../../node_modules/lodash/eq.js ***!
+  \******************************************/
+/***/ ((module) => {
+
+/**
+ * Performs a
+ * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+ * comparison between two values to determine if they are equivalent.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ * @example
+ *
+ * var object = { 'a': 1 };
+ * var other = { 'a': 1 };
+ *
+ * _.eq(object, object);
+ * // => true
+ *
+ * _.eq(object, other);
+ * // => false
+ *
+ * _.eq('a', 'a');
+ * // => true
+ *
+ * _.eq('a', Object('a'));
+ * // => false
+ *
+ * _.eq(NaN, NaN);
+ * // => true
+ */
+function eq(value, other) {
+  return value === other || (value !== value && other !== other);
+}
+
+module.exports = eq;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isArguments.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/isArguments.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseIsArguments = __webpack_require__(/*! ./_baseIsArguments */ "../../../node_modules/lodash/_baseIsArguments.js"),
+    isObjectLike = __webpack_require__(/*! ./isObjectLike */ "../../../node_modules/lodash/isObjectLike.js");
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/** Built-in value references. */
+var propertyIsEnumerable = objectProto.propertyIsEnumerable;
+
+/**
+ * Checks if `value` is likely an `arguments` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+ *  else `false`.
+ * @example
+ *
+ * _.isArguments(function() { return arguments; }());
+ * // => true
+ *
+ * _.isArguments([1, 2, 3]);
+ * // => false
+ */
+var isArguments = baseIsArguments(function() { return arguments; }()) ? baseIsArguments : function(value) {
+  return isObjectLike(value) && hasOwnProperty.call(value, 'callee') &&
+    !propertyIsEnumerable.call(value, 'callee');
+};
+
+module.exports = isArguments;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isArray.js":
+/*!***********************************************!*\
+  !*** ../../../node_modules/lodash/isArray.js ***!
+  \***********************************************/
+/***/ ((module) => {
+
+/**
+ * Checks if `value` is classified as an `Array` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an array, else `false`.
+ * @example
+ *
+ * _.isArray([1, 2, 3]);
+ * // => true
+ *
+ * _.isArray(document.body.children);
+ * // => false
+ *
+ * _.isArray('abc');
+ * // => false
+ *
+ * _.isArray(_.noop);
+ * // => false
+ */
+var isArray = Array.isArray;
+
+module.exports = isArray;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isArrayLike.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/lodash/isArrayLike.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var isFunction = __webpack_require__(/*! ./isFunction */ "../../../node_modules/lodash/isFunction.js"),
+    isLength = __webpack_require__(/*! ./isLength */ "../../../node_modules/lodash/isLength.js");
+
+/**
+ * Checks if `value` is array-like. A value is considered array-like if it's
+ * not a function and has a `value.length` that's an integer greater than or
+ * equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+ * @example
+ *
+ * _.isArrayLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isArrayLike(document.body.children);
+ * // => true
+ *
+ * _.isArrayLike('abc');
+ * // => true
+ *
+ * _.isArrayLike(_.noop);
+ * // => false
+ */
+function isArrayLike(value) {
+  return value != null && isLength(value.length) && !isFunction(value);
+}
+
+module.exports = isArrayLike;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isBuffer.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/isBuffer.js ***!
+  \************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+/* module decorator */ module = __webpack_require__.nmd(module);
+var root = __webpack_require__(/*! ./_root */ "../../../node_modules/lodash/_root.js"),
+    stubFalse = __webpack_require__(/*! ./stubFalse */ "../../../node_modules/lodash/stubFalse.js");
+
+/** Detect free variable `exports`. */
+var freeExports =  true && exports && !exports.nodeType && exports;
+
+/** Detect free variable `module`. */
+var freeModule = freeExports && "object" == 'object' && module && !module.nodeType && module;
+
+/** Detect the popular CommonJS extension `module.exports`. */
+var moduleExports = freeModule && freeModule.exports === freeExports;
+
+/** Built-in value references. */
+var Buffer = moduleExports ? root.Buffer : undefined;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeIsBuffer = Buffer ? Buffer.isBuffer : undefined;
+
+/**
+ * Checks if `value` is a buffer.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.3.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a buffer, else `false`.
+ * @example
+ *
+ * _.isBuffer(new Buffer(2));
+ * // => true
+ *
+ * _.isBuffer(new Uint8Array(2));
+ * // => false
+ */
+var isBuffer = nativeIsBuffer || stubFalse;
+
+module.exports = isBuffer;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isFunction.js":
+/*!**************************************************!*\
+  !*** ../../../node_modules/lodash/isFunction.js ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "../../../node_modules/lodash/_baseGetTag.js"),
+    isObject = __webpack_require__(/*! ./isObject */ "../../../node_modules/lodash/isObject.js");
+
+/** `Object#toString` result references. */
+var asyncTag = '[object AsyncFunction]',
+    funcTag = '[object Function]',
+    genTag = '[object GeneratorFunction]',
+    proxyTag = '[object Proxy]';
+
+/**
+ * Checks if `value` is classified as a `Function` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a function, else `false`.
+ * @example
+ *
+ * _.isFunction(_);
+ * // => true
+ *
+ * _.isFunction(/abc/);
+ * // => false
+ */
+function isFunction(value) {
+  if (!isObject(value)) {
+    return false;
+  }
+  // The use of `Object#toString` avoids issues with the `typeof` operator
+  // in Safari 9 which returns 'object' for typed arrays and other constructors.
+  var tag = baseGetTag(value);
+  return tag == funcTag || tag == genTag || tag == asyncTag || tag == proxyTag;
+}
+
+module.exports = isFunction;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isLength.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/isLength.js ***!
+  \************************************************/
+/***/ ((module) => {
+
+/** Used as references for various `Number` constants. */
+var MAX_SAFE_INTEGER = 9007199254740991;
+
+/**
+ * Checks if `value` is a valid array-like length.
+ *
+ * **Note:** This method is loosely based on
+ * [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+ * @example
+ *
+ * _.isLength(3);
+ * // => true
+ *
+ * _.isLength(Number.MIN_VALUE);
+ * // => false
+ *
+ * _.isLength(Infinity);
+ * // => false
+ *
+ * _.isLength('3');
+ * // => false
+ */
+function isLength(value) {
+  return typeof value == 'number' &&
+    value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+}
+
+module.exports = isLength;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isMap.js":
+/*!*********************************************!*\
+  !*** ../../../node_modules/lodash/isMap.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseIsMap = __webpack_require__(/*! ./_baseIsMap */ "../../../node_modules/lodash/_baseIsMap.js"),
+    baseUnary = __webpack_require__(/*! ./_baseUnary */ "../../../node_modules/lodash/_baseUnary.js"),
+    nodeUtil = __webpack_require__(/*! ./_nodeUtil */ "../../../node_modules/lodash/_nodeUtil.js");
+
+/* Node.js helper references. */
+var nodeIsMap = nodeUtil && nodeUtil.isMap;
+
+/**
+ * Checks if `value` is classified as a `Map` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.3.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a map, else `false`.
+ * @example
+ *
+ * _.isMap(new Map);
+ * // => true
+ *
+ * _.isMap(new WeakMap);
+ * // => false
+ */
+var isMap = nodeIsMap ? baseUnary(nodeIsMap) : baseIsMap;
+
+module.exports = isMap;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isObject.js":
+/*!************************************************!*\
+  !*** ../../../node_modules/lodash/isObject.js ***!
+  \************************************************/
+/***/ ((module) => {
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return value != null && (type == 'object' || type == 'function');
+}
+
+module.exports = isObject;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isObjectLike.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/isObjectLike.js ***!
+  \****************************************************/
+/***/ ((module) => {
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return value != null && typeof value == 'object';
+}
+
+module.exports = isObjectLike;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isSet.js":
+/*!*********************************************!*\
+  !*** ../../../node_modules/lodash/isSet.js ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseIsSet = __webpack_require__(/*! ./_baseIsSet */ "../../../node_modules/lodash/_baseIsSet.js"),
+    baseUnary = __webpack_require__(/*! ./_baseUnary */ "../../../node_modules/lodash/_baseUnary.js"),
+    nodeUtil = __webpack_require__(/*! ./_nodeUtil */ "../../../node_modules/lodash/_nodeUtil.js");
+
+/* Node.js helper references. */
+var nodeIsSet = nodeUtil && nodeUtil.isSet;
+
+/**
+ * Checks if `value` is classified as a `Set` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.3.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a set, else `false`.
+ * @example
+ *
+ * _.isSet(new Set);
+ * // => true
+ *
+ * _.isSet(new WeakSet);
+ * // => false
+ */
+var isSet = nodeIsSet ? baseUnary(nodeIsSet) : baseIsSet;
+
+module.exports = isSet;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/isTypedArray.js":
+/*!****************************************************!*\
+  !*** ../../../node_modules/lodash/isTypedArray.js ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var baseIsTypedArray = __webpack_require__(/*! ./_baseIsTypedArray */ "../../../node_modules/lodash/_baseIsTypedArray.js"),
+    baseUnary = __webpack_require__(/*! ./_baseUnary */ "../../../node_modules/lodash/_baseUnary.js"),
+    nodeUtil = __webpack_require__(/*! ./_nodeUtil */ "../../../node_modules/lodash/_nodeUtil.js");
+
+/* Node.js helper references. */
+var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
+
+/**
+ * Checks if `value` is classified as a typed array.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+ * @example
+ *
+ * _.isTypedArray(new Uint8Array);
+ * // => true
+ *
+ * _.isTypedArray([]);
+ * // => false
+ */
+var isTypedArray = nodeIsTypedArray ? baseUnary(nodeIsTypedArray) : baseIsTypedArray;
+
+module.exports = isTypedArray;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/keys.js":
+/*!********************************************!*\
+  !*** ../../../node_modules/lodash/keys.js ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var arrayLikeKeys = __webpack_require__(/*! ./_arrayLikeKeys */ "../../../node_modules/lodash/_arrayLikeKeys.js"),
+    baseKeys = __webpack_require__(/*! ./_baseKeys */ "../../../node_modules/lodash/_baseKeys.js"),
+    isArrayLike = __webpack_require__(/*! ./isArrayLike */ "../../../node_modules/lodash/isArrayLike.js");
+
+/**
+ * Creates an array of the own enumerable property names of `object`.
+ *
+ * **Note:** Non-object values are coerced to objects. See the
+ * [ES spec](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
+ * for more details.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.keys(new Foo);
+ * // => ['a', 'b'] (iteration order is not guaranteed)
+ *
+ * _.keys('hi');
+ * // => ['0', '1']
+ */
+function keys(object) {
+  return isArrayLike(object) ? arrayLikeKeys(object) : baseKeys(object);
+}
+
+module.exports = keys;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/keysIn.js":
+/*!**********************************************!*\
+  !*** ../../../node_modules/lodash/keysIn.js ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var arrayLikeKeys = __webpack_require__(/*! ./_arrayLikeKeys */ "../../../node_modules/lodash/_arrayLikeKeys.js"),
+    baseKeysIn = __webpack_require__(/*! ./_baseKeysIn */ "../../../node_modules/lodash/_baseKeysIn.js"),
+    isArrayLike = __webpack_require__(/*! ./isArrayLike */ "../../../node_modules/lodash/isArrayLike.js");
+
+/**
+ * Creates an array of the own and inherited enumerable property names of `object`.
+ *
+ * **Note:** Non-object values are coerced to objects.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.0.0
+ * @category Object
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.keysIn(new Foo);
+ * // => ['a', 'b', 'c'] (iteration order is not guaranteed)
+ */
+function keysIn(object) {
+  return isArrayLike(object) ? arrayLikeKeys(object, true) : baseKeysIn(object);
+}
+
+module.exports = keysIn;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/stubArray.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/stubArray.js ***!
+  \*************************************************/
+/***/ ((module) => {
+
+/**
+ * This method returns a new empty array.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.13.0
+ * @category Util
+ * @returns {Array} Returns the new empty array.
+ * @example
+ *
+ * var arrays = _.times(2, _.stubArray);
+ *
+ * console.log(arrays);
+ * // => [[], []]
+ *
+ * console.log(arrays[0] === arrays[1]);
+ * // => false
+ */
+function stubArray() {
+  return [];
+}
+
+module.exports = stubArray;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/lodash/stubFalse.js":
+/*!*************************************************!*\
+  !*** ../../../node_modules/lodash/stubFalse.js ***!
+  \*************************************************/
+/***/ ((module) => {
+
+/**
+ * This method returns `false`.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.13.0
+ * @category Util
+ * @returns {boolean} Returns `false`.
+ * @example
+ *
+ * _.times(2, _.stubFalse);
+ * // => [false, false]
+ */
+function stubFalse() {
+  return false;
+}
+
+module.exports = stubFalse;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/mini-svg-data-uri/index.js":
+/*!********************************************************!*\
+  !*** ../../../node_modules/mini-svg-data-uri/index.js ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var shorterNames = __webpack_require__(/*! ./shorter-css-color-names */ "../../../node_modules/mini-svg-data-uri/shorter-css-color-names.js");
+var REGEX = {
+  whitespace: /\s+/g,
+  urlHexPairs: /%[\dA-F]{2}/g,
+  quotes: /"/g,
+}
+
+function collapseWhitespace(str) {
+  return str.trim().replace(REGEX.whitespace, ' ');
+}
+
+function dataURIPayload(string) {
+  return encodeURIComponent(string)
+    .replace(REGEX.urlHexPairs, specialHexEncode);
+}
+
+// `#` gets converted to `%23`, so quite a few CSS named colors are shorter than
+// their equivalent URL-encoded hex codes.
+function colorCodeToShorterNames(string) {
+  Object.keys(shorterNames).forEach(function(key) {
+    if (shorterNames[key].test(string)) {
+      string = string.replace(shorterNames[key], key);
+    }
+  });
+
+  return string;
+}
+
+function specialHexEncode(match) {
+  switch (match) { // Browsers tolerate these characters, and they're frequent
+    case '%20': return ' ';
+    case '%3D': return '=';
+    case '%3A': return ':';
+    case '%2F': return '/';
+    default: return match.toLowerCase(); // compresses better
+  }
+}
+
+function svgToTinyDataUri(svgString) {
+  if (typeof svgString !== 'string') {
+    throw new TypeError('Expected a string, but received ' + typeof svgString);
+  }
+  // Strip the Byte-Order Mark if the SVG has one
+  if (svgString.charCodeAt(0) === 0xfeff) { svgString = svgString.slice(1) }
+
+  var body = colorCodeToShorterNames(collapseWhitespace(svgString))
+    .replace(REGEX.quotes, "'");
+  return 'data:image/svg+xml,' + dataURIPayload(body);
+}
+
+svgToTinyDataUri.toSrcset = function toSrcset(svgString) {
+  return svgToTinyDataUri(svgString).replace(/ /g, '%20');
+}
+
+module.exports = svgToTinyDataUri;
+
+
+/***/ }),
+
+/***/ "../../../node_modules/mini-svg-data-uri/shorter-css-color-names.js":
+/*!**************************************************************************!*\
+  !*** ../../../node_modules/mini-svg-data-uri/shorter-css-color-names.js ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = {
+  aqua: /#00ffff(ff)?(?!\w)|#0ff(f)?(?!\w)/gi,
+  azure: /#f0ffff(ff)?(?!\w)/gi,
+  beige: /#f5f5dc(ff)?(?!\w)/gi,
+  bisque: /#ffe4c4(ff)?(?!\w)/gi,
+  black: /#000000(ff)?(?!\w)|#000(f)?(?!\w)/gi,
+  blue: /#0000ff(ff)?(?!\w)|#00f(f)?(?!\w)/gi,
+  brown: /#a52a2a(ff)?(?!\w)/gi,
+  coral: /#ff7f50(ff)?(?!\w)/gi,
+  cornsilk: /#fff8dc(ff)?(?!\w)/gi,
+  crimson: /#dc143c(ff)?(?!\w)/gi,
+  cyan: /#00ffff(ff)?(?!\w)|#0ff(f)?(?!\w)/gi,
+  darkblue: /#00008b(ff)?(?!\w)/gi,
+  darkcyan: /#008b8b(ff)?(?!\w)/gi,
+  darkgrey: /#a9a9a9(ff)?(?!\w)/gi,
+  darkred: /#8b0000(ff)?(?!\w)/gi,
+  deeppink: /#ff1493(ff)?(?!\w)/gi,
+  dimgrey: /#696969(ff)?(?!\w)/gi,
+  gold: /#ffd700(ff)?(?!\w)/gi,
+  green: /#008000(ff)?(?!\w)/gi,
+  grey: /#808080(ff)?(?!\w)/gi,
+  honeydew: /#f0fff0(ff)?(?!\w)/gi,
+  hotpink: /#ff69b4(ff)?(?!\w)/gi,
+  indigo: /#4b0082(ff)?(?!\w)/gi,
+  ivory: /#fffff0(ff)?(?!\w)/gi,
+  khaki: /#f0e68c(ff)?(?!\w)/gi,
+  lavender: /#e6e6fa(ff)?(?!\w)/gi,
+  lime: /#00ff00(ff)?(?!\w)|#0f0(f)?(?!\w)/gi,
+  linen: /#faf0e6(ff)?(?!\w)/gi,
+  maroon: /#800000(ff)?(?!\w)/gi,
+  moccasin: /#ffe4b5(ff)?(?!\w)/gi,
+  navy: /#000080(ff)?(?!\w)/gi,
+  oldlace: /#fdf5e6(ff)?(?!\w)/gi,
+  olive: /#808000(ff)?(?!\w)/gi,
+  orange: /#ffa500(ff)?(?!\w)/gi,
+  orchid: /#da70d6(ff)?(?!\w)/gi,
+  peru: /#cd853f(ff)?(?!\w)/gi,
+  pink: /#ffc0cb(ff)?(?!\w)/gi,
+  plum: /#dda0dd(ff)?(?!\w)/gi,
+  purple: /#800080(ff)?(?!\w)/gi,
+  red: /#ff0000(ff)?(?!\w)|#f00(f)?(?!\w)/gi,
+  salmon: /#fa8072(ff)?(?!\w)/gi,
+  seagreen: /#2e8b57(ff)?(?!\w)/gi,
+  seashell: /#fff5ee(ff)?(?!\w)/gi,
+  sienna: /#a0522d(ff)?(?!\w)/gi,
+  silver: /#c0c0c0(ff)?(?!\w)/gi,
+  skyblue: /#87ceeb(ff)?(?!\w)/gi,
+  snow: /#fffafa(ff)?(?!\w)/gi,
+  tan: /#d2b48c(ff)?(?!\w)/gi,
+  teal: /#008080(ff)?(?!\w)/gi,
+  thistle: /#d8bfd8(ff)?(?!\w)/gi,
+  tomato: /#ff6347(ff)?(?!\w)/gi,
+  violet: /#ee82ee(ff)?(?!\w)/gi,
+  wheat: /#f5deb3(ff)?(?!\w)/gi,
+  white: /#ffffff(ff)?(?!\w)|#fff(f)?(?!\w)/gi,
+};
+
+
+/***/ }),
+
+/***/ "../../../node_modules/tailwind-scrollbar-hide/src/index.js":
+/*!******************************************************************!*\
+  !*** ../../../node_modules/tailwind-scrollbar-hide/src/index.js ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+const plugin = __webpack_require__(/*! tailwindcss/plugin */ "../../../node_modules/tailwindcss/plugin.js")
+
+const scrollbarHide = plugin(function ({ addUtilities }) {
+  addUtilities({
+    '.scrollbar-hide': {
+      /* IE and Edge */
+      '-ms-overflow-style': 'none',
+
+      /* Firefox */
+      'scrollbar-width': 'none',
+
+      /* Safari and Chrome */
+      '&::-webkit-scrollbar': {
+        display: 'none'
+      }
+    },
+    
+    '.scrollbar-default': {
+      /* IE and Edge */
+      '-ms-overflow-style': 'auto',
+
+      /* Firefox */
+      'scrollbar-width': 'auto',
+
+      /* Safari and Chrome */
+      '&::-webkit-scrollbar': {
+        display: 'block'
+      }
+    }
+  }, ['responsive'])
+})
+
+module.exports = scrollbarHide
+
+
+/***/ }),
+
+/***/ "../../../node_modules/tailwindcss/colors.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/tailwindcss/colors.js ***!
+  \***************************************************/
+/***/ ((module) => {
+
+let warned = false
+
+module.exports = {
+  black: '#000',
+  white: '#fff',
+  rose: {
+    50: '#fff1f2',
+    100: '#ffe4e6',
+    200: '#fecdd3',
+    300: '#fda4af',
+    400: '#fb7185',
+    500: '#f43f5e',
+    600: '#e11d48',
+    700: '#be123c',
+    800: '#9f1239',
+    900: '#881337',
+  },
+  pink: {
+    50: '#fdf2f8',
+    100: '#fce7f3',
+    200: '#fbcfe8',
+    300: '#f9a8d4',
+    400: '#f472b6',
+    500: '#ec4899',
+    600: '#db2777',
+    700: '#be185d',
+    800: '#9d174d',
+    900: '#831843',
+  },
+  fuchsia: {
+    50: '#fdf4ff',
+    100: '#fae8ff',
+    200: '#f5d0fe',
+    300: '#f0abfc',
+    400: '#e879f9',
+    500: '#d946ef',
+    600: '#c026d3',
+    700: '#a21caf',
+    800: '#86198f',
+    900: '#701a75',
+  },
+  purple: {
+    50: '#faf5ff',
+    100: '#f3e8ff',
+    200: '#e9d5ff',
+    300: '#d8b4fe',
+    400: '#c084fc',
+    500: '#a855f7',
+    600: '#9333ea',
+    700: '#7e22ce',
+    800: '#6b21a8',
+    900: '#581c87',
+  },
+  violet: {
+    50: '#f5f3ff',
+    100: '#ede9fe',
+    200: '#ddd6fe',
+    300: '#c4b5fd',
+    400: '#a78bfa',
+    500: '#8b5cf6',
+    600: '#7c3aed',
+    700: '#6d28d9',
+    800: '#5b21b6',
+    900: '#4c1d95',
+  },
+  indigo: {
+    50: '#eef2ff',
+    100: '#e0e7ff',
+    200: '#c7d2fe',
+    300: '#a5b4fc',
+    400: '#818cf8',
+    500: '#6366f1',
+    600: '#4f46e5',
+    700: '#4338ca',
+    800: '#3730a3',
+    900: '#312e81',
+  },
+  blue: {
+    50: '#eff6ff',
+    100: '#dbeafe',
+    200: '#bfdbfe',
+    300: '#93c5fd',
+    400: '#60a5fa',
+    500: '#3b82f6',
+    600: '#2563eb',
+    700: '#1d4ed8',
+    800: '#1e40af',
+    900: '#1e3a8a',
+  },
+  get lightBlue() {
+    if (!warned) {
+      console.log('warn - As of Tailwind CSS v2.2, `lightBlue` has been renamed to `sky`.')
+      console.log('warn - Please update your color palette to eliminate this warning.')
+      warned = true
+    }
+    return {
+      50: '#f0f9ff',
+      100: '#e0f2fe',
+      200: '#bae6fd',
+      300: '#7dd3fc',
+      400: '#38bdf8',
+      500: '#0ea5e9',
+      600: '#0284c7',
+      700: '#0369a1',
+      800: '#075985',
+      900: '#0c4a6e',
+    }
+  },
+  sky: {
+    50: '#f0f9ff',
+    100: '#e0f2fe',
+    200: '#bae6fd',
+    300: '#7dd3fc',
+    400: '#38bdf8',
+    500: '#0ea5e9',
+    600: '#0284c7',
+    700: '#0369a1',
+    800: '#075985',
+    900: '#0c4a6e',
+  },
+  cyan: {
+    50: '#ecfeff',
+    100: '#cffafe',
+    200: '#a5f3fc',
+    300: '#67e8f9',
+    400: '#22d3ee',
+    500: '#06b6d4',
+    600: '#0891b2',
+    700: '#0e7490',
+    800: '#155e75',
+    900: '#164e63',
+  },
+  teal: {
+    50: '#f0fdfa',
+    100: '#ccfbf1',
+    200: '#99f6e4',
+    300: '#5eead4',
+    400: '#2dd4bf',
+    500: '#14b8a6',
+    600: '#0d9488',
+    700: '#0f766e',
+    800: '#115e59',
+    900: '#134e4a',
+  },
+  emerald: {
+    50: '#ecfdf5',
+    100: '#d1fae5',
+    200: '#a7f3d0',
+    300: '#6ee7b7',
+    400: '#34d399',
+    500: '#10b981',
+    600: '#059669',
+    700: '#047857',
+    800: '#065f46',
+    900: '#064e3b',
+  },
+  green: {
+    50: '#f0fdf4',
+    100: '#dcfce7',
+    200: '#bbf7d0',
+    300: '#86efac',
+    400: '#4ade80',
+    500: '#22c55e',
+    600: '#16a34a',
+    700: '#15803d',
+    800: '#166534',
+    900: '#14532d',
+  },
+  lime: {
+    50: '#f7fee7',
+    100: '#ecfccb',
+    200: '#d9f99d',
+    300: '#bef264',
+    400: '#a3e635',
+    500: '#84cc16',
+    600: '#65a30d',
+    700: '#4d7c0f',
+    800: '#3f6212',
+    900: '#365314',
+  },
+  yellow: {
+    50: '#fefce8',
+    100: '#fef9c3',
+    200: '#fef08a',
+    300: '#fde047',
+    400: '#facc15',
+    500: '#eab308',
+    600: '#ca8a04',
+    700: '#a16207',
+    800: '#854d0e',
+    900: '#713f12',
+  },
+  amber: {
+    50: '#fffbeb',
+    100: '#fef3c7',
+    200: '#fde68a',
+    300: '#fcd34d',
+    400: '#fbbf24',
+    500: '#f59e0b',
+    600: '#d97706',
+    700: '#b45309',
+    800: '#92400e',
+    900: '#78350f',
+  },
+  orange: {
+    50: '#fff7ed',
+    100: '#ffedd5',
+    200: '#fed7aa',
+    300: '#fdba74',
+    400: '#fb923c',
+    500: '#f97316',
+    600: '#ea580c',
+    700: '#c2410c',
+    800: '#9a3412',
+    900: '#7c2d12',
+  },
+  red: {
+    50: '#fef2f2',
+    100: '#fee2e2',
+    200: '#fecaca',
+    300: '#fca5a5',
+    400: '#f87171',
+    500: '#ef4444',
+    600: '#dc2626',
+    700: '#b91c1c',
+    800: '#991b1b',
+    900: '#7f1d1d',
+  },
+  warmGray: {
+    50: '#fafaf9',
+    100: '#f5f5f4',
+    200: '#e7e5e4',
+    300: '#d6d3d1',
+    400: '#a8a29e',
+    500: '#78716c',
+    600: '#57534e',
+    700: '#44403c',
+    800: '#292524',
+    900: '#1c1917',
+  },
+  trueGray: {
+    50: '#fafafa',
+    100: '#f5f5f5',
+    200: '#e5e5e5',
+    300: '#d4d4d4',
+    400: '#a3a3a3',
+    500: '#737373',
+    600: '#525252',
+    700: '#404040',
+    800: '#262626',
+    900: '#171717',
+  },
+  gray: {
+    50: '#fafafa',
+    100: '#f4f4f5',
+    200: '#e4e4e7',
+    300: '#d4d4d8',
+    400: '#a1a1aa',
+    500: '#71717a',
+    600: '#52525b',
+    700: '#3f3f46',
+    800: '#27272a',
+    900: '#18181b',
+  },
+  coolGray: {
+    50: '#f9fafb',
+    100: '#f3f4f6',
+    200: '#e5e7eb',
+    300: '#d1d5db',
+    400: '#9ca3af',
+    500: '#6b7280',
+    600: '#4b5563',
+    700: '#374151',
+    800: '#1f2937',
+    900: '#111827',
+  },
+  blueGray: {
+    50: '#f8fafc',
+    100: '#f1f5f9',
+    200: '#e2e8f0',
+    300: '#cbd5e1',
+    400: '#94a3b8',
+    500: '#64748b',
+    600: '#475569',
+    700: '#334155',
+    800: '#1e293b',
+    900: '#0f172a',
+  },
+}
+
+
+/***/ }),
+
+/***/ "../../../node_modules/tailwindcss/defaultTheme.js":
+/*!*********************************************************!*\
+  !*** ../../../node_modules/tailwindcss/defaultTheme.js ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+const cloneDeep = __webpack_require__(/*! lodash/cloneDeep */ "../../../node_modules/lodash/cloneDeep.js")
+const defaultConfig = __webpack_require__(/*! ./stubs/defaultConfig.stub.js */ "../../../node_modules/tailwindcss/stubs/defaultConfig.stub.js")
+
+module.exports = cloneDeep(defaultConfig.theme)
+
+
+/***/ }),
+
+/***/ "../../../node_modules/tailwindcss/lib/util/createPlugin.js":
+/*!******************************************************************!*\
+  !*** ../../../node_modules/tailwindcss/lib/util/createPlugin.js ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+exports["default"] = void 0;
+
+function createPlugin(plugin, config) {
+  return {
+    handler: plugin,
+    config
+  };
+}
+
+createPlugin.withOptions = function (pluginFunction, configFunction = () => ({})) {
+  const optionsFunction = function (options) {
+    return {
+      __options: options,
+      handler: pluginFunction(options),
+      config: configFunction(options)
+    };
+  };
+
+  optionsFunction.__isOptionsFunction = true; // Expose plugin dependencies so that `object-hash` returns a different
+  // value if anything here changes, to ensure a rebuild is triggered.
+
+  optionsFunction.__pluginFunction = pluginFunction;
+  optionsFunction.__configFunction = configFunction;
+  return optionsFunction;
+};
+
+var _default = createPlugin;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "../../../node_modules/tailwindcss/plugin.js":
+/*!***************************************************!*\
+  !*** ../../../node_modules/tailwindcss/plugin.js ***!
+  \***************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+const createPlugin = __webpack_require__(/*! ./lib/util/createPlugin */ "../../../node_modules/tailwindcss/lib/util/createPlugin.js")
+
+module.exports = (createPlugin.__esModule ? createPlugin : { default: createPlugin }).default
+
+
+/***/ }),
+
+/***/ "../../../node_modules/tailwindcss/stubs/defaultConfig.stub.js":
+/*!*********************************************************************!*\
+  !*** ../../../node_modules/tailwindcss/stubs/defaultConfig.stub.js ***!
+  \*********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+const colors = __webpack_require__(/*! ../colors */ "../../../node_modules/tailwindcss/colors.js")
+
+module.exports = {
+  purge: [],
+  presets: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+
+      black: colors.black,
+      white: colors.white,
+      gray: colors.coolGray,
+      red: colors.red,
+      yellow: colors.amber,
+      green: colors.emerald,
+      blue: colors.blue,
+      indigo: colors.indigo,
+      purple: colors.violet,
+      pink: colors.pink,
+    },
+    spacing: {
+      px: '1px',
+      0: '0px',
+      0.5: '0.125rem',
+      1: '0.25rem',
+      1.5: '0.375rem',
+      2: '0.5rem',
+      2.5: '0.625rem',
+      3: '0.75rem',
+      3.5: '0.875rem',
+      4: '1rem',
+      5: '1.25rem',
+      6: '1.5rem',
+      7: '1.75rem',
+      8: '2rem',
+      9: '2.25rem',
+      10: '2.5rem',
+      11: '2.75rem',
+      12: '3rem',
+      14: '3.5rem',
+      16: '4rem',
+      20: '5rem',
+      24: '6rem',
+      28: '7rem',
+      32: '8rem',
+      36: '9rem',
+      40: '10rem',
+      44: '11rem',
+      48: '12rem',
+      52: '13rem',
+      56: '14rem',
+      60: '15rem',
+      64: '16rem',
+      72: '18rem',
+      80: '20rem',
+      96: '24rem',
+    },
+    animation: {
+      none: 'none',
+      spin: 'spin 1s linear infinite',
+      ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
+      pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      bounce: 'bounce 1s infinite',
+    },
+    backdropBlur: (theme) => theme('blur'),
+    backdropBrightness: (theme) => theme('brightness'),
+    backdropContrast: (theme) => theme('contrast'),
+    backdropGrayscale: (theme) => theme('grayscale'),
+    backdropHueRotate: (theme) => theme('hueRotate'),
+    backdropInvert: (theme) => theme('invert'),
+    backdropOpacity: (theme) => theme('opacity'),
+    backdropSaturate: (theme) => theme('saturate'),
+    backdropSepia: (theme) => theme('sepia'),
+    backgroundColor: (theme) => theme('colors'),
+    backgroundImage: {
+      none: 'none',
+      'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
+      'gradient-to-tr': 'linear-gradient(to top right, var(--tw-gradient-stops))',
+      'gradient-to-r': 'linear-gradient(to right, var(--tw-gradient-stops))',
+      'gradient-to-br': 'linear-gradient(to bottom right, var(--tw-gradient-stops))',
+      'gradient-to-b': 'linear-gradient(to bottom, var(--tw-gradient-stops))',
+      'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
+      'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
+      'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
+    },
+    backgroundOpacity: (theme) => theme('opacity'),
+    backgroundPosition: {
+      bottom: 'bottom',
+      center: 'center',
+      left: 'left',
+      'left-bottom': 'left bottom',
+      'left-top': 'left top',
+      right: 'right',
+      'right-bottom': 'right bottom',
+      'right-top': 'right top',
+      top: 'top',
+    },
+    backgroundSize: {
+      auto: 'auto',
+      cover: 'cover',
+      contain: 'contain',
+    },
+    blur: {
+      0: '0',
+      none: '0',
+      sm: '4px',
+      DEFAULT: '8px',
+      md: '12px',
+      lg: '16px',
+      xl: '24px',
+      '2xl': '40px',
+      '3xl': '64px',
+    },
+    brightness: {
+      0: '0',
+      50: '.5',
+      75: '.75',
+      90: '.9',
+      95: '.95',
+      100: '1',
+      105: '1.05',
+      110: '1.1',
+      125: '1.25',
+      150: '1.5',
+      200: '2',
+    },
+    borderColor: (theme) => ({
+      ...theme('colors'),
+      DEFAULT: theme('colors.gray.200', 'currentColor'),
+    }),
+    borderOpacity: (theme) => theme('opacity'),
+    borderRadius: {
+      none: '0px',
+      sm: '0.125rem',
+      DEFAULT: '0.25rem',
+      md: '0.375rem',
+      lg: '0.5rem',
+      xl: '0.75rem',
+      '2xl': '1rem',
+      '3xl': '1.5rem',
+      full: '9999px',
+    },
+    borderWidth: {
+      DEFAULT: '1px',
+      0: '0px',
+      2: '2px',
+      4: '4px',
+      8: '8px',
+    },
+    boxShadow: {
+      sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
+      DEFAULT: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
+      md: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+      lg: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+      xl: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
+      '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+      inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
+      none: 'none',
+    },
+    caretColor: (theme) => theme('colors'),
+    contrast: {
+      0: '0',
+      50: '.5',
+      75: '.75',
+      100: '1',
+      125: '1.25',
+      150: '1.5',
+      200: '2',
+    },
+    container: {},
+    content: {
+      none: 'none',
+    },
+    cursor: {
+      auto: 'auto',
+      default: 'default',
+      pointer: 'pointer',
+      wait: 'wait',
+      text: 'text',
+      move: 'move',
+      help: 'help',
+      'not-allowed': 'not-allowed',
+    },
+    divideColor: (theme) => theme('borderColor'),
+    divideOpacity: (theme) => theme('borderOpacity'),
+    divideWidth: (theme) => theme('borderWidth'),
+    dropShadow: {
+      sm: '0 1px 1px rgba(0,0,0,0.05)',
+      DEFAULT: ['0 1px 2px rgba(0, 0, 0, 0.1)', '0 1px 1px rgba(0, 0, 0, 0.06)'],
+      md: ['0 4px 3px rgba(0, 0, 0, 0.07)', '0 2px 2px rgba(0, 0, 0, 0.06)'],
+      lg: ['0 10px 8px rgba(0, 0, 0, 0.04)', '0 4px 3px rgba(0, 0, 0, 0.1)'],
+      xl: ['0 20px 13px rgba(0, 0, 0, 0.03)', '0 8px 5px rgba(0, 0, 0, 0.08)'],
+      '2xl': '0 25px 25px rgba(0, 0, 0, 0.15)',
+      none: '0 0 #0000',
+    },
+    fill: { current: 'currentColor' },
+    grayscale: {
+      0: '0',
+      DEFAULT: '100%',
+    },
+    hueRotate: {
+      '-180': '-180deg',
+      '-90': '-90deg',
+      '-60': '-60deg',
+      '-30': '-30deg',
+      '-15': '-15deg',
+      0: '0deg',
+      15: '15deg',
+      30: '30deg',
+      60: '60deg',
+      90: '90deg',
+      180: '180deg',
+    },
+    invert: {
+      0: '0',
+      DEFAULT: '100%',
+    },
+    flex: {
+      1: '1 1 0%',
+      auto: '1 1 auto',
+      initial: '0 1 auto',
+      none: 'none',
+    },
+    flexGrow: {
+      0: '0',
+      DEFAULT: '1',
+    },
+    flexShrink: {
+      0: '0',
+      DEFAULT: '1',
+    },
+    fontFamily: {
+      sans: [
+        'ui-sans-serif',
+        'system-ui',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        'Roboto',
+        '"Helvetica Neue"',
+        'Arial',
+        '"Noto Sans"',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"',
+      ],
+      serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      mono: [
+        'ui-monospace',
+        'SFMono-Regular',
+        'Menlo',
+        'Monaco',
+        'Consolas',
+        '"Liberation Mono"',
+        '"Courier New"',
+        'monospace',
+      ],
+    },
+    fontSize: {
+      xs: ['0.75rem', { lineHeight: '1rem' }],
+      sm: ['0.875rem', { lineHeight: '1.25rem' }],
+      base: ['1rem', { lineHeight: '1.5rem' }],
+      lg: ['1.125rem', { lineHeight: '1.75rem' }],
+      xl: ['1.25rem', { lineHeight: '1.75rem' }],
+      '2xl': ['1.5rem', { lineHeight: '2rem' }],
+      '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
+      '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
+      '5xl': ['3rem', { lineHeight: '1' }],
+      '6xl': ['3.75rem', { lineHeight: '1' }],
+      '7xl': ['4.5rem', { lineHeight: '1' }],
+      '8xl': ['6rem', { lineHeight: '1' }],
+      '9xl': ['8rem', { lineHeight: '1' }],
+    },
+    fontWeight: {
+      thin: '100',
+      extralight: '200',
+      light: '300',
+      normal: '400',
+      medium: '500',
+      semibold: '600',
+      bold: '700',
+      extrabold: '800',
+      black: '900',
+    },
+    gap: (theme) => theme('spacing'),
+    gradientColorStops: (theme) => theme('colors'),
+    gridAutoColumns: {
+      auto: 'auto',
+      min: 'min-content',
+      max: 'max-content',
+      fr: 'minmax(0, 1fr)',
+    },
+    gridAutoRows: {
+      auto: 'auto',
+      min: 'min-content',
+      max: 'max-content',
+      fr: 'minmax(0, 1fr)',
+    },
+    gridColumn: {
+      auto: 'auto',
+      'span-1': 'span 1 / span 1',
+      'span-2': 'span 2 / span 2',
+      'span-3': 'span 3 / span 3',
+      'span-4': 'span 4 / span 4',
+      'span-5': 'span 5 / span 5',
+      'span-6': 'span 6 / span 6',
+      'span-7': 'span 7 / span 7',
+      'span-8': 'span 8 / span 8',
+      'span-9': 'span 9 / span 9',
+      'span-10': 'span 10 / span 10',
+      'span-11': 'span 11 / span 11',
+      'span-12': 'span 12 / span 12',
+      'span-full': '1 / -1',
+    },
+    gridColumnEnd: {
+      auto: 'auto',
+      1: '1',
+      2: '2',
+      3: '3',
+      4: '4',
+      5: '5',
+      6: '6',
+      7: '7',
+      8: '8',
+      9: '9',
+      10: '10',
+      11: '11',
+      12: '12',
+      13: '13',
+    },
+    gridColumnStart: {
+      auto: 'auto',
+      1: '1',
+      2: '2',
+      3: '3',
+      4: '4',
+      5: '5',
+      6: '6',
+      7: '7',
+      8: '8',
+      9: '9',
+      10: '10',
+      11: '11',
+      12: '12',
+      13: '13',
+    },
+    gridRow: {
+      auto: 'auto',
+      'span-1': 'span 1 / span 1',
+      'span-2': 'span 2 / span 2',
+      'span-3': 'span 3 / span 3',
+      'span-4': 'span 4 / span 4',
+      'span-5': 'span 5 / span 5',
+      'span-6': 'span 6 / span 6',
+      'span-full': '1 / -1',
+    },
+    gridRowStart: {
+      auto: 'auto',
+      1: '1',
+      2: '2',
+      3: '3',
+      4: '4',
+      5: '5',
+      6: '6',
+      7: '7',
+    },
+    gridRowEnd: {
+      auto: 'auto',
+      1: '1',
+      2: '2',
+      3: '3',
+      4: '4',
+      5: '5',
+      6: '6',
+      7: '7',
+    },
+    gridTemplateColumns: {
+      none: 'none',
+      1: 'repeat(1, minmax(0, 1fr))',
+      2: 'repeat(2, minmax(0, 1fr))',
+      3: 'repeat(3, minmax(0, 1fr))',
+      4: 'repeat(4, minmax(0, 1fr))',
+      5: 'repeat(5, minmax(0, 1fr))',
+      6: 'repeat(6, minmax(0, 1fr))',
+      7: 'repeat(7, minmax(0, 1fr))',
+      8: 'repeat(8, minmax(0, 1fr))',
+      9: 'repeat(9, minmax(0, 1fr))',
+      10: 'repeat(10, minmax(0, 1fr))',
+      11: 'repeat(11, minmax(0, 1fr))',
+      12: 'repeat(12, minmax(0, 1fr))',
+    },
+    gridTemplateRows: {
+      none: 'none',
+      1: 'repeat(1, minmax(0, 1fr))',
+      2: 'repeat(2, minmax(0, 1fr))',
+      3: 'repeat(3, minmax(0, 1fr))',
+      4: 'repeat(4, minmax(0, 1fr))',
+      5: 'repeat(5, minmax(0, 1fr))',
+      6: 'repeat(6, minmax(0, 1fr))',
+    },
+    height: (theme) => ({
+      auto: 'auto',
+      ...theme('spacing'),
+      '1/2': '50%',
+      '1/3': '33.333333%',
+      '2/3': '66.666667%',
+      '1/4': '25%',
+      '2/4': '50%',
+      '3/4': '75%',
+      '1/5': '20%',
+      '2/5': '40%',
+      '3/5': '60%',
+      '4/5': '80%',
+      '1/6': '16.666667%',
+      '2/6': '33.333333%',
+      '3/6': '50%',
+      '4/6': '66.666667%',
+      '5/6': '83.333333%',
+      full: '100%',
+      screen: '100vh',
+    }),
+    inset: (theme, { negative }) => ({
+      auto: 'auto',
+      ...theme('spacing'),
+      ...negative(theme('spacing')),
+      '1/2': '50%',
+      '1/3': '33.333333%',
+      '2/3': '66.666667%',
+      '1/4': '25%',
+      '2/4': '50%',
+      '3/4': '75%',
+      full: '100%',
+      '-1/2': '-50%',
+      '-1/3': '-33.333333%',
+      '-2/3': '-66.666667%',
+      '-1/4': '-25%',
+      '-2/4': '-50%',
+      '-3/4': '-75%',
+      '-full': '-100%',
+    }),
+    keyframes: {
+      spin: {
+        to: {
+          transform: 'rotate(360deg)',
+        },
+      },
+      ping: {
+        '75%, 100%': {
+          transform: 'scale(2)',
+          opacity: '0',
+        },
+      },
+      pulse: {
+        '50%': {
+          opacity: '.5',
+        },
+      },
+      bounce: {
+        '0%, 100%': {
+          transform: 'translateY(-25%)',
+          animationTimingFunction: 'cubic-bezier(0.8,0,1,1)',
+        },
+        '50%': {
+          transform: 'none',
+          animationTimingFunction: 'cubic-bezier(0,0,0.2,1)',
+        },
+      },
+    },
+    letterSpacing: {
+      tighter: '-0.05em',
+      tight: '-0.025em',
+      normal: '0em',
+      wide: '0.025em',
+      wider: '0.05em',
+      widest: '0.1em',
+    },
+    lineHeight: {
+      none: '1',
+      tight: '1.25',
+      snug: '1.375',
+      normal: '1.5',
+      relaxed: '1.625',
+      loose: '2',
+      3: '.75rem',
+      4: '1rem',
+      5: '1.25rem',
+      6: '1.5rem',
+      7: '1.75rem',
+      8: '2rem',
+      9: '2.25rem',
+      10: '2.5rem',
+    },
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+    },
+    margin: (theme, { negative }) => ({
+      auto: 'auto',
+      ...theme('spacing'),
+      ...negative(theme('spacing')),
+    }),
+    maxHeight: (theme) => ({
+      ...theme('spacing'),
+      full: '100%',
+      screen: '100vh',
+    }),
+    maxWidth: (theme, { breakpoints }) => ({
+      none: 'none',
+      0: '0rem',
+      xs: '20rem',
+      sm: '24rem',
+      md: '28rem',
+      lg: '32rem',
+      xl: '36rem',
+      '2xl': '42rem',
+      '3xl': '48rem',
+      '4xl': '56rem',
+      '5xl': '64rem',
+      '6xl': '72rem',
+      '7xl': '80rem',
+      full: '100%',
+      min: 'min-content',
+      max: 'max-content',
+      prose: '65ch',
+      ...breakpoints(theme('screens')),
+    }),
+    minHeight: {
+      0: '0px',
+      full: '100%',
+      screen: '100vh',
+    },
+    minWidth: {
+      0: '0px',
+      full: '100%',
+      min: 'min-content',
+      max: 'max-content',
+    },
+    objectPosition: {
+      bottom: 'bottom',
+      center: 'center',
+      left: 'left',
+      'left-bottom': 'left bottom',
+      'left-top': 'left top',
+      right: 'right',
+      'right-bottom': 'right bottom',
+      'right-top': 'right top',
+      top: 'top',
+    },
+    opacity: {
+      0: '0',
+      5: '0.05',
+      10: '0.1',
+      20: '0.2',
+      25: '0.25',
+      30: '0.3',
+      40: '0.4',
+      50: '0.5',
+      60: '0.6',
+      70: '0.7',
+      75: '0.75',
+      80: '0.8',
+      90: '0.9',
+      95: '0.95',
+      100: '1',
+    },
+    order: {
+      first: '-9999',
+      last: '9999',
+      none: '0',
+      1: '1',
+      2: '2',
+      3: '3',
+      4: '4',
+      5: '5',
+      6: '6',
+      7: '7',
+      8: '8',
+      9: '9',
+      10: '10',
+      11: '11',
+      12: '12',
+    },
+    outline: {
+      none: ['2px solid transparent', '2px'],
+      white: ['2px dotted white', '2px'],
+      black: ['2px dotted black', '2px'],
+    },
+    padding: (theme) => theme('spacing'),
+    placeholderColor: (theme) => theme('colors'),
+    placeholderOpacity: (theme) => theme('opacity'),
+    ringColor: (theme) => ({
+      DEFAULT: theme('colors.blue.500', '#3b82f6'),
+      ...theme('colors'),
+    }),
+    ringOffsetColor: (theme) => theme('colors'),
+    ringOffsetWidth: {
+      0: '0px',
+      1: '1px',
+      2: '2px',
+      4: '4px',
+      8: '8px',
+    },
+    ringOpacity: (theme) => ({
+      DEFAULT: '0.5',
+      ...theme('opacity'),
+    }),
+    ringWidth: {
+      DEFAULT: '3px',
+      0: '0px',
+      1: '1px',
+      2: '2px',
+      4: '4px',
+      8: '8px',
+    },
+    rotate: {
+      '-180': '-180deg',
+      '-90': '-90deg',
+      '-45': '-45deg',
+      '-12': '-12deg',
+      '-6': '-6deg',
+      '-3': '-3deg',
+      '-2': '-2deg',
+      '-1': '-1deg',
+      0: '0deg',
+      1: '1deg',
+      2: '2deg',
+      3: '3deg',
+      6: '6deg',
+      12: '12deg',
+      45: '45deg',
+      90: '90deg',
+      180: '180deg',
+    },
+    saturate: {
+      0: '0',
+      50: '.5',
+      100: '1',
+      150: '1.5',
+      200: '2',
+    },
+    scale: {
+      0: '0',
+      50: '.5',
+      75: '.75',
+      90: '.9',
+      95: '.95',
+      100: '1',
+      105: '1.05',
+      110: '1.1',
+      125: '1.25',
+      150: '1.5',
+    },
+    sepia: {
+      0: '0',
+      DEFAULT: '100%',
+    },
+    skew: {
+      '-12': '-12deg',
+      '-6': '-6deg',
+      '-3': '-3deg',
+      '-2': '-2deg',
+      '-1': '-1deg',
+      0: '0deg',
+      1: '1deg',
+      2: '2deg',
+      3: '3deg',
+      6: '6deg',
+      12: '12deg',
+    },
+    space: (theme, { negative }) => ({
+      ...theme('spacing'),
+      ...negative(theme('spacing')),
+    }),
+    stroke: {
+      current: 'currentColor',
+    },
+    strokeWidth: {
+      0: '0',
+      1: '1',
+      2: '2',
+    },
+    textColor: (theme) => theme('colors'),
+    textOpacity: (theme) => theme('opacity'),
+    transformOrigin: {
+      center: 'center',
+      top: 'top',
+      'top-right': 'top right',
+      right: 'right',
+      'bottom-right': 'bottom right',
+      bottom: 'bottom',
+      'bottom-left': 'bottom left',
+      left: 'left',
+      'top-left': 'top left',
+    },
+    transitionDelay: {
+      75: '75ms',
+      100: '100ms',
+      150: '150ms',
+      200: '200ms',
+      300: '300ms',
+      500: '500ms',
+      700: '700ms',
+      1000: '1000ms',
+    },
+    transitionDuration: {
+      DEFAULT: '150ms',
+      75: '75ms',
+      100: '100ms',
+      150: '150ms',
+      200: '200ms',
+      300: '300ms',
+      500: '500ms',
+      700: '700ms',
+      1000: '1000ms',
+    },
+    transitionProperty: {
+      none: 'none',
+      all: 'all',
+      DEFAULT:
+        'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter',
+      colors: 'background-color, border-color, color, fill, stroke',
+      opacity: 'opacity',
+      shadow: 'box-shadow',
+      transform: 'transform',
+    },
+    transitionTimingFunction: {
+      DEFAULT: 'cubic-bezier(0.4, 0, 0.2, 1)',
+      linear: 'linear',
+      in: 'cubic-bezier(0.4, 0, 1, 1)',
+      out: 'cubic-bezier(0, 0, 0.2, 1)',
+      'in-out': 'cubic-bezier(0.4, 0, 0.2, 1)',
+    },
+    translate: (theme, { negative }) => ({
+      ...theme('spacing'),
+      ...negative(theme('spacing')),
+      '1/2': '50%',
+      '1/3': '33.333333%',
+      '2/3': '66.666667%',
+      '1/4': '25%',
+      '2/4': '50%',
+      '3/4': '75%',
+      full: '100%',
+      '-1/2': '-50%',
+      '-1/3': '-33.333333%',
+      '-2/3': '-66.666667%',
+      '-1/4': '-25%',
+      '-2/4': '-50%',
+      '-3/4': '-75%',
+      '-full': '-100%',
+    }),
+    width: (theme) => ({
+      auto: 'auto',
+      ...theme('spacing'),
+      '1/2': '50%',
+      '1/3': '33.333333%',
+      '2/3': '66.666667%',
+      '1/4': '25%',
+      '2/4': '50%',
+      '3/4': '75%',
+      '1/5': '20%',
+      '2/5': '40%',
+      '3/5': '60%',
+      '4/5': '80%',
+      '1/6': '16.666667%',
+      '2/6': '33.333333%',
+      '3/6': '50%',
+      '4/6': '66.666667%',
+      '5/6': '83.333333%',
+      '1/12': '8.333333%',
+      '2/12': '16.666667%',
+      '3/12': '25%',
+      '4/12': '33.333333%',
+      '5/12': '41.666667%',
+      '6/12': '50%',
+      '7/12': '58.333333%',
+      '8/12': '66.666667%',
+      '9/12': '75%',
+      '10/12': '83.333333%',
+      '11/12': '91.666667%',
+      full: '100%',
+      screen: '100vw',
+      min: 'min-content',
+      max: 'max-content',
+    }),
+    zIndex: {
+      auto: 'auto',
+      0: '0',
+      10: '10',
+      20: '20',
+      30: '30',
+      40: '40',
+      50: '50',
+    },
+  },
+  variantOrder: [
+    'first',
+    'last',
+    'odd',
+    'even',
+    'visited',
+    'checked',
+    'empty',
+    'read-only',
+    'group-hover',
+    'group-focus',
+    'focus-within',
+    'hover',
+    'focus',
+    'focus-visible',
+    'active',
+    'disabled',
+  ],
+  variants: {
+    accessibility: ['responsive', 'focus-within', 'focus'],
+    alignContent: ['responsive'],
+    alignItems: ['responsive'],
+    alignSelf: ['responsive'],
+    animation: ['responsive'],
+    appearance: ['responsive'],
+    backdropBlur: ['responsive'],
+    backdropBrightness: ['responsive'],
+    backdropContrast: ['responsive'],
+    backdropFilter: ['responsive'],
+    backdropGrayscale: ['responsive'],
+    backdropHueRotate: ['responsive'],
+    backdropInvert: ['responsive'],
+    backdropOpacity: ['responsive'],
+    backdropSaturate: ['responsive'],
+    backdropSepia: ['responsive'],
+    backgroundAttachment: ['responsive'],
+    backgroundBlendMode: ['responsive'],
+    backgroundClip: ['responsive'],
+    backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    backgroundImage: ['responsive'],
+    backgroundOpacity: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    backgroundPosition: ['responsive'],
+    backgroundRepeat: ['responsive'],
+    backgroundSize: ['responsive'],
+    backgroundOrigin: ['responsive'],
+    blur: ['responsive'],
+    borderCollapse: ['responsive'],
+    borderColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    borderOpacity: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    borderRadius: ['responsive'],
+    borderStyle: ['responsive'],
+    borderWidth: ['responsive'],
+    boxDecorationBreak: ['responsive'],
+    boxShadow: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus'],
+    boxSizing: ['responsive'],
+    brightness: ['responsive'],
+    clear: ['responsive'],
+    container: ['responsive'],
+    contrast: ['responsive'],
+    cursor: ['responsive'],
+    display: ['responsive'],
+    divideColor: ['responsive', 'dark'],
+    divideOpacity: ['responsive', 'dark'],
+    divideStyle: ['responsive'],
+    divideWidth: ['responsive'],
+    dropShadow: ['responsive'],
+    fill: ['responsive'],
+    filter: ['responsive'],
+    flex: ['responsive'],
+    flexDirection: ['responsive'],
+    flexGrow: ['responsive'],
+    flexShrink: ['responsive'],
+    flexWrap: ['responsive'],
+    float: ['responsive'],
+    fontFamily: ['responsive'],
+    fontSize: ['responsive'],
+    fontSmoothing: ['responsive'],
+    fontStyle: ['responsive'],
+    fontVariantNumeric: ['responsive'],
+    fontWeight: ['responsive'],
+    gap: ['responsive'],
+    gradientColorStops: ['responsive', 'dark', 'hover', 'focus'],
+    grayscale: ['responsive'],
+    gridAutoColumns: ['responsive'],
+    gridAutoFlow: ['responsive'],
+    gridAutoRows: ['responsive'],
+    gridColumn: ['responsive'],
+    gridColumnEnd: ['responsive'],
+    gridColumnStart: ['responsive'],
+    gridRow: ['responsive'],
+    gridRowEnd: ['responsive'],
+    gridRowStart: ['responsive'],
+    gridTemplateColumns: ['responsive'],
+    gridTemplateRows: ['responsive'],
+    height: ['responsive'],
+    hueRotate: ['responsive'],
+    inset: ['responsive'],
+    invert: ['responsive'],
+    isolation: ['responsive'],
+    justifyContent: ['responsive'],
+    justifyItems: ['responsive'],
+    justifySelf: ['responsive'],
+    letterSpacing: ['responsive'],
+    lineHeight: ['responsive'],
+    listStylePosition: ['responsive'],
+    listStyleType: ['responsive'],
+    margin: ['responsive'],
+    maxHeight: ['responsive'],
+    maxWidth: ['responsive'],
+    minHeight: ['responsive'],
+    minWidth: ['responsive'],
+    mixBlendMode: ['responsive'],
+    objectFit: ['responsive'],
+    objectPosition: ['responsive'],
+    opacity: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus'],
+    order: ['responsive'],
+    outline: ['responsive', 'focus-within', 'focus'],
+    overflow: ['responsive'],
+    overscrollBehavior: ['responsive'],
+    padding: ['responsive'],
+    placeContent: ['responsive'],
+    placeItems: ['responsive'],
+    placeSelf: ['responsive'],
+    placeholderColor: ['responsive', 'dark', 'focus'],
+    placeholderOpacity: ['responsive', 'dark', 'focus'],
+    pointerEvents: ['responsive'],
+    position: ['responsive'],
+    resize: ['responsive'],
+    ringColor: ['responsive', 'dark', 'focus-within', 'focus'],
+    ringOffsetColor: ['responsive', 'dark', 'focus-within', 'focus'],
+    ringOffsetWidth: ['responsive', 'focus-within', 'focus'],
+    ringOpacity: ['responsive', 'dark', 'focus-within', 'focus'],
+    ringWidth: ['responsive', 'focus-within', 'focus'],
+    rotate: ['responsive', 'hover', 'focus'],
+    saturate: ['responsive'],
+    scale: ['responsive', 'hover', 'focus'],
+    sepia: ['responsive'],
+    skew: ['responsive', 'hover', 'focus'],
+    space: ['responsive'],
+    stroke: ['responsive'],
+    strokeWidth: ['responsive'],
+    tableLayout: ['responsive'],
+    textAlign: ['responsive'],
+    textColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    textDecoration: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus'],
+    textOpacity: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    textOverflow: ['responsive'],
+    textTransform: ['responsive'],
+    transform: ['responsive'],
+    transformOrigin: ['responsive'],
+    transitionDelay: ['responsive'],
+    transitionDuration: ['responsive'],
+    transitionProperty: ['responsive'],
+    transitionTimingFunction: ['responsive'],
+    translate: ['responsive', 'hover', 'focus'],
+    userSelect: ['responsive'],
+    verticalAlign: ['responsive'],
+    visibility: ['responsive'],
+    whitespace: ['responsive'],
+    width: ['responsive'],
+    wordBreak: ['responsive'],
+    zIndex: ['responsive', 'focus-within', 'focus'],
+  },
+  plugins: [],
+}
+
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			id: moduleId,
+/******/ 			loaded: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/node module decorator */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nmd = (module) => {
+/******/ 			module.paths = [];
+/******/ 			if (!module.children) module.children = [];
+/******/ 			return module;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+(() => {
+"use strict";
+/*!******************************!*\
+  !*** ./resources/js/bard.js ***!
+  \******************************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TextColor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TextColor */ "./resources/js/TextColor.js");
+/* harmony import */ var _TextColorMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TextColorMenu */ "./resources/js/TextColorMenu.vue");
+
+
+Statamic.booting(function () {
+  Statamic.$bard.addExtension(function () {
+    return _TextColor__WEBPACK_IMPORTED_MODULE_0__.TextColor;
+  });
+  Statamic.$bard.buttons(function () {
+    return {
+      name: "color",
+      text: "Text Color",
+      command: function command(editor) {
+        return editor.commands.changeTextColor();
+      },
+      args: {
+        color: "#fff"
+      },
+      html: '<svg fill="currentColor" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve"><g><path d="M29,27H3c-0.6,0-1,0.4-1,1s0.4,1,1,1h26c0.6,0,1-0.4,1-1S29.6,27,29,27z"/><path d="M5,24h4c0.6,0,1-0.4,1-1s-0.4-1-1-1H8.6l1.9-4h11.1l1.9,4H23c-0.6,0-1,0.4-1,1s0.4,1,1,1h4c0.6,0,1-0.4,1-1s-0.4-1-1-1 h-1.4L16.9,3.6C16.7,3.2,16.4,3,16,3s-0.7,0.2-0.9,0.6L6.4,22H5c-0.6,0-1,0.4-1,1S4.4,24,5,24z M16,6.3l4.6,9.7h-9.2L16,6.3z"/></g></svg>',
+      component: _TextColorMenu__WEBPACK_IMPORTED_MODULE_1__["default"]
+    };
+  });
+});
+})();
+
+/******/ })()
+;
