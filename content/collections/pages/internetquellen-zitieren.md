@@ -63,7 +63,39 @@ replicator:
                         attrs:
                           color: 'rgb(209, 213, 219)'
                           hex: '#000'
-                    text: 'Unser Zitationsgenerator ist darauf ausgelegt, Ihnen bei dieser Aufgabe zu helfen. Er unterstützt Sie dabei, Internetquellen gemäß den neuesten Standards akademischer Zitierstile korrekt zu zitieren. Mit nur wenigen Klicks können Sie präzise und verlässliche Zitationen für jede Art von Online-Quelle erstellen, was sowohl die Glaubwürdigkeit Ihrer Arbeit erhöht als auch das akademische Schreiben vereinfacht.'
+                    text: 'Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ' ist darauf ausgelegt, Ihnen bei dieser Aufgabe zu helfen. Er unterstützt Sie dabei, Internetquellen gemäß den neuesten Standards akademischer Zitierstile korrekt zu zitieren. Mit nur wenigen Klicks können Sie präzise und verlässliche Zitationen für jede Art von Online-Quelle erstellen, was sowohl die Glaubwürdigkeit Ihrer Arbeit erhöht als auch das akademische Schreiben vereinfacht.'
               -
                 type: paragraph
                 content:
@@ -801,5 +833,5 @@ og_title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
 og_description: 'Sie möchten wissen, wie Sie konkrete, hochwertige und seriöse Internetquellen für Ihre wissenschaftliche Arbeit finden & diese richtig einbauen können? Dann richtet sich dieser Artikel an Sie!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701351864
+updated_at: 1702474487
 ---
