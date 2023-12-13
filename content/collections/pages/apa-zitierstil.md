@@ -56,7 +56,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wir zeigen Ihnen in diesem Beitrag zur APA Zitierweise Beispiele und Anleitungen. So können Sie sicher sein, dass Sie stets alle Verweise korrekt nach den APA-Richtlinien machen.'
+                    text: 'Neben unserem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenlosen Zitationsgenerator'
+                  -
+                    type: text
+                    text: ' finden Sie in diesem Beitrag zur APA Zitierweise Beispiele und Anleitungen. So können Sie sicher sein, dass Sie stets alle Verweise korrekt nach den APA-Richtlinien machen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1946,8 +1959,8 @@ sitemap_changefreq: daily
 og_title: 'APA Zitierweise in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Richtig Zitieren nach APA? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701721568
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702474781
 schema_objects: |-
   <script type="application/ld+json">
   {
