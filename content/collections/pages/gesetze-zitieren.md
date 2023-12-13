@@ -63,7 +63,39 @@ replicator:
                         attrs:
                           color: 'rgb(209, 213, 219)'
                           hex: '#000'
-                    text: 'Unser Zitationsgenerator ist ein wertvolles Werkzeug, das Ihnen dabei hilft, Gesetze und juristische Dokumente gemäß den akademischen Standards zu zitieren. Mit seiner benutzerfreundlichen Oberfläche können Sie schnell und einfach exakte Zitate erstellen, die den formalen Anforderungen Ihres Fachbereichs entsprechen. Egal, ob es um nationale oder internationale Rechtsquellen geht, unser Generator unterstützt Sie dabei, Ihre Quellen korrekt und effizient zu referenzieren.'
+                    text: 'Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ' ist ein wertvolles Werkzeug, das Ihnen dabei hilft, Gesetze und juristische Dokumente gemäß den akademischen Standards zu zitieren. Mit seiner benutzerfreundlichen Oberfläche können Sie schnell und einfach exakte Zitate erstellen, die den formalen Anforderungen Ihres Fachbereichs entsprechen. Egal, ob es um nationale oder internationale Rechtsquellen geht, unser Generator unterstützt Sie dabei, Ihre Quellen korrekt und effizient zu referenzieren.'
               -
                 type: paragraph
                 content:
@@ -1795,5 +1827,5 @@ og_title: 'Gesetze zitieren: so machen Sie ALLES richtig! + Generator'
 og_description: 'Gesetze zitieren: Im Text oder in der Fußnote? Unsere Jura Experten erklären Ihnen mit wissenschaftlichen Beispielen wie Gesetze richtig zitiert werden! ⚖📃'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701352050
+updated_at: 1702474593
 ---
