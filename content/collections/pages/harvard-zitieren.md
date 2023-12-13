@@ -63,7 +63,39 @@ replicator:
                         attrs:
                           color: 'rgb(209, 213, 219)'
                           hex: '#000'
-                    text: 'Unser Zitationsgenerator ist ein maßgeschneidertes Tool, das speziell entwickelt wurde, um Ihnen die korrekte Anwendung der Harvard Zitierweise zu erleichtern. Mit diesem Tool können Sie mühelos präzise und konsistente Zitate und Literaturverzeichnisse erstellen, die den Anforderungen des Harvard-Stils gerecht werden. Unser Generator ist benutzerfreundlich und zeitsparend, was ihn zu einem unverzichtbaren Hilfsmittel für Studierende, Akademiker und Forscher macht, die sich auf diesen Zitierstil verlassen.'
+                    text: 'Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ' ist ein maßgeschneidertes Tool, das speziell entwickelt wurde, um Ihnen die korrekte Anwendung der Harvard Zitierweise zu erleichtern. Mit diesem Tool können Sie mühelos präzise und konsistente Zitate und Literaturverzeichnisse erstellen, die den Anforderungen des Harvard-Stils gerecht werden. Unser Generator ist benutzerfreundlich und zeitsparend, was ihn zu einem unverzichtbaren Hilfsmittel für Studierende, Akademiker und Forscher macht, die sich auf diesen Zitierstil verlassen.'
               -
                 type: paragraph
                 content:
@@ -1197,8 +1229,8 @@ sitemap_changefreq: daily
 og_title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
 og_description: 'Richtig nach der Harvard-Methode zitieren? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701720430
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702474675
 schema_objects: |-
   <script type="application/ld+json">
   {
