@@ -107,8 +107,8 @@ teaser:
               rel: null
         text: '##phone##'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701077570
+updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
+updated_at: 1702458957
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1913,7 +1913,7 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'GWriters • Akademische Ghostwriter Agentur'
+meta_title: 'GWriters • Akademische Ghostwriter aus allen Fachbereichen'
 meta_description: 'Akademische Ghostwriter von der seriösen Ghostwriting Agentur unterstützen Sie professionell ✔︎ 100% anonym ✔︎ 18.000 zufriedene Kunden ✔︎ seit 2012!'
 image_field: seiten/home/gwrites-headervisual-1.jpg
 image_field_xs: seiten/home/gwrites-headervisual-mobile.jpg
