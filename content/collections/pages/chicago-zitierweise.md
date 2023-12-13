@@ -63,7 +63,39 @@ replicator:
                         attrs:
                           color: var(--tw-prose-body)
                           hex: '#000'
-                    text: 'Unser Zitationsgenerator ist speziell dafür konzipiert, Ihnen die Anwendung des Chicago-Stils zu erleichtern. Mit seiner Hilfe können Sie schnell und präzise Zitate und Literaturverzeichnisse erstellen, die den spezifischen Richtlinien dieses Stils entsprechen. Unser Tool ist benutzerfreundlich und effizient, was es zu einem unverzichtbaren Helfer für Studierende, Akademiker und Forscher macht, die mit der Chicago Zitierweise arbeiten.'
+                    text: 'Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-body)
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: var(--tw-prose-body)
+                          hex: '#000'
+                    text: ' ist speziell dafür konzipiert, Ihnen die Anwendung des Chicago-Stils zu erleichtern. Mit seiner Hilfe können Sie schnell und präzise Zitate und Literaturverzeichnisse erstellen, die den spezifischen Richtlinien dieses Stils entsprechen. Unser Tool ist benutzerfreundlich und effizient, was es zu einem unverzichtbaren Helfer für Studierende, Akademiker und Forscher macht, die mit der Chicago Zitierweise arbeiten.'
               -
                 type: paragraph
                 content:
@@ -2790,5 +2822,5 @@ og_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 og_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701352195
+updated_at: 1702474636
 ---
