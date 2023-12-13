@@ -63,7 +63,39 @@ replicator:
                         attrs:
                           color: 'rgb(209, 213, 219)'
                           hex: '#000'
-                    text: 'Um Ihnen diesen essenziellen Prozess zu erleichtern, stellen wir Ihnen unseren Zitationsgenerator zur Verfügung. Dieses Tool ist speziell dafür entwickelt worden, Sie bei der korrekten und effizienten Erstellung von Zitationen in verschiedenen akademischen Zitierstilen zu unterstützen. Mit unserem Generator können Sie schnell und einfach Zitate für alle Arten von Literaturquellen erstellen – von Büchern über Zeitschriftenartikel bis hin zu Online-Quellen.'
+                    text: 'Um Ihnen diesen essenziellen Prozess zu erleichtern, stellen wir Ihnen unseren '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenlosen Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ' zur Verfügung. Dieses Tool ist speziell dafür entwickelt worden, Sie bei der korrekten und effizienten Erstellung von Zitationen in verschiedenen akademischen Zitierstilen zu unterstützen. Mit unserem Generator können Sie schnell und einfach Zitate für alle Arten von Literaturquellen erstellen – von Büchern über Zeitschriftenartikel bis hin zu Online-Quellen.'
               -
                 type: paragraph
                 content:
@@ -835,5 +867,5 @@ og_title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 og_description: 'Literaturquellen richtig zitieren | Wie zitiere ich richtig? Welche Zitierweisen gilt es zu beachten? Kostenlose Beispiele zum richtigen Zitieren!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701351643
+updated_at: 1702474448
 ---
