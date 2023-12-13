@@ -319,7 +319,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/apa-zitierstil
+                          href: '/zitationsgenerator/apa-zitierstil?citationStyle=apa_6th_edition'
                           target: null
                           rel: null
                     text: APA-Zitationsstil
@@ -950,6 +950,6 @@ schema_objects: |-
     ]
   }
   </script>
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701721858
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702480568
 ---
