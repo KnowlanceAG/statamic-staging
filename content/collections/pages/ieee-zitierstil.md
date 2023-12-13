@@ -63,7 +63,39 @@ replicator:
                         attrs:
                           color: 'rgb(209, 213, 219)'
                           hex: '#000'
-                    text: 'Um Ihnen den Umgang mit diesem spezifischen Zitierstil zu erleichtern, bieten wir einen spezialisierten Zitationsgenerator an. Dieses Tool ist darauf ausgerichtet, Ihnen eine schnelle, genaue und benutzerfreundliche Methode zur Erstellung Ihrer Quellenangaben im IEEE-Format zu bieten. Mit unserem Zitationsgenerator können Sie sich darauf verlassen, dass jede Quellenangabe präzise nach den neuesten IEEE-Richtlinien erstellt wird. So können Sie sich mehr auf den Inhalt Ihrer Forschungsarbeit konzentrieren und sicher sein, dass Ihre bibliografischen Angaben professionell und korrekt sind. Entdecken Sie, wie unser Zitationsgenerator Ihre wissenschaftliche Arbeit im Bereich der Technik und Ingenieurwissenschaften unterstützen kann.'
+                    text: 'Um Ihnen den Umgang mit diesem spezifischen Zitierstil zu erleichtern, bieten wir einen spezialisierten Zitationsgenerator an. Dieses Tool ist darauf ausgerichtet, Ihnen eine schnelle, genaue und benutzerfreundliche Methode zur Erstellung Ihrer Quellenangaben im IEEE-Format zu bieten. Mit unserem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenlosen Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ' können Sie sich darauf verlassen, dass jede Quellenangabe präzise nach den neuesten IEEE-Richtlinien erstellt wird. So können Sie sich mehr auf den Inhalt Ihrer Forschungsarbeit konzentrieren und sicher sein, dass Ihre bibliografischen Angaben professionell und korrekt sind. Entdecken Sie, wie unser Zitationsgenerator Ihre wissenschaftliche Arbeit im Bereich der Technik und Ingenieurwissenschaften unterstützen kann.'
             show_as_card: false
         type: row
         enabled: true
@@ -1622,5 +1654,5 @@ og_title: 'Wie funktioniert der IEEE-Zitierstil? Erklärung & Generator'
 og_description: 'IEEE-Zitierstil in Bachelorarbeiten: Unsere Schritt-für-Schritt Anleitung bietet praxisnahe Beispiele und Tipps, um Ihnen das Verständnis und die Anwendung dieses Zitierstils zu erleichtern 📚'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701351676
+updated_at: 1702474409
 ---
