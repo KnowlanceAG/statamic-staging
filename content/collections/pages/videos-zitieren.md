@@ -63,7 +63,39 @@ replicator:
                         attrs:
                           color: 'rgb(209, 213, 219)'
                           hex: '#000'
-                    text: 'Unser Zitationsgenerator ist darauf ausgerichtet, Ihnen bei der präzisen und richtlinienkonformen Zitierung von Videoquellen zu helfen. Mit einfachen Schritten ermöglicht unser Tool die Erstellung von korrekten und konsistenten Zitaten, die den Anforderungen verschiedener akademischer Zitierstile gerecht werden. Dies erleichtert nicht nur den Prozess des Zitierens, sondern stellt auch sicher, dass Ihre Arbeit eine hohe Glaubwürdigkeit und Professionalität aufweist.'
+                    text: 'Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ' ist darauf ausgerichtet, Ihnen bei der präzisen und richtlinienkonformen Zitierung von Videoquellen zu helfen. Mit einfachen Schritten ermöglicht unser Tool die Erstellung von korrekten und konsistenten Zitaten, die den Anforderungen verschiedener akademischer Zitierstile gerecht werden. Dies erleichtert nicht nur den Prozess des Zitierens, sondern stellt auch sicher, dass Ihre Arbeit eine hohe Glaubwürdigkeit und Professionalität aufweist.'
               -
                 type: paragraph
                 content:
@@ -603,5 +635,5 @@ og_title: 'Videos zitieren | Expertenguide & Generator'
 og_description: 'Anleitung zum richtigen Zitieren von Videos in wissenschaftlichen Arbeiten & Beispiele. Welche Videos in einer wissenschaftlichen Arbeit zitiert werden dürfen & wie die Zitierweise aussehen soll, erfahren Sie hier!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701351965
+updated_at: 1702474554
 ---
