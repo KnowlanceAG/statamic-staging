@@ -63,7 +63,39 @@ replicator:
                         attrs:
                           color: 'rgb(209, 213, 219)'
                           hex: '#000'
-                    text: 'Ob Sie Studierender, Forscher oder Akademiker sind, unser Zitationsgenerator, der unter anderem speziell für den DIN ISO 690 Zitierstil entwickelt wurde, ist hier, um Ihnen das Leben zu erleichtern. Mit wenigen Klicks können Sie Ihre Quellenangaben korrekt und effizient erstellen, sodass Sie sich mehr auf den Inhalt Ihrer Arbeit konzentrieren können. Wir bieten Ihnen ein intuitives Tool, das sich nahtlos in Ihren Schreibprozess einfügt und sicherstellt, dass Ihre Zitationen den Richtlinien des DIN ISO 690 entsprechen. Tauchen Sie ein in die Welt des präzisen Zitierens und erleben Sie, wie unser Zitationsgenerator Ihre akademische Arbeit vereinfacht.'
+                    text: 'Ob Sie Studierender, Forscher oder Akademiker sind, unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ', der unter anderem speziell für den DIN ISO 690 Zitierstil entwickelt wurde, ist hier, um Ihnen das Leben zu erleichtern. Mit wenigen Klicks können Sie Ihre Quellenangaben korrekt und effizient erstellen, sodass Sie sich mehr auf den Inhalt Ihrer Arbeit konzentrieren können. Wir bieten Ihnen ein intuitives Tool, das sich nahtlos in Ihren Schreibprozess einfügt und sicherstellt, dass Ihre Zitationen den Richtlinien des DIN ISO 690 entsprechen. Tauchen Sie ein in die Welt des präzisen Zitierens und erleben Sie, wie unser Zitationsgenerator Ihre akademische Arbeit vereinfacht.'
             show_as_card: false
         type: row
         enabled: true
@@ -1932,5 +1964,5 @@ og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1701351386
+updated_at: 1702474368
 ---
