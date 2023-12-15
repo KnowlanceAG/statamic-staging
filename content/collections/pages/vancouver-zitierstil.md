@@ -685,12 +685,12 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;&lt;b&gt;Zeitschriftenartikel Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;"><b>Zeitschriftenartikel Beispiel:</b><br><br>
 
-                      &lt;span style="background-color: #91C6E8;"&gt;20.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Piippo-Savolainen E, Korppi M&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;(2007)&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Birth season, respiratory viruses and asthma in children.&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Pediatr Pulmonol&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;42:&lt;/span&gt;&lt;span style="background-color: #E8677A;"&gt;477-478; 479 &lt;/span&gt; 
-                      &lt;br&gt;&lt;br&gt;
-                      &lt;b&gt;Format:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-                      &lt;span style="background-color: #91C6E8;"&gt;Nummer.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Nachname Der/Des Verfassenden, Initial(en)&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;(Jahr)&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Titel des Artikels.&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Titel der Fachzeitschrift&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;Band:&lt;/span&gt;&lt;span style="background-color: #E8677A;"&gt;Seiten, Seitenanzahl &lt;/span&gt; &lt;/div&gt;
+                      <span style="background-color: #91C6E8;">20.</span><span style="background-color: #C891E8;">Piippo-Savolainen E, Korppi M</span><span style="background-color: #CAE891;">(2007)</span><span style="background-color: #EFA052;">Birth season, respiratory viruses and asthma in children.</span><span style="background-color: #E87667;">Pediatr Pulmonol</span><span style="background-color: #67E2E8;">42:</span><span style="background-color: #E8677A;">477-478; 479 </span> 
+                      <br><br>
+                      <b>Format:</b><br><br>
+                      <span style="background-color: #91C6E8;">Nummer.</span><span style="background-color: #C891E8;">Nachname Der/Des Verfassenden, Initial(en)</span><span style="background-color: #CAE891;">(Jahr)</span><span style="background-color: #EFA052;">Titel des Artikels.</span><span style="background-color: #E87667;">Titel der Fachzeitschrift</span><span style="background-color: #67E2E8;">Band:</span><span style="background-color: #E8677A;">Seiten, Seitenanzahl </span> </div>
               -
                 type: paragraph
                 content:
@@ -704,16 +704,16 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid gggg#FF660A; padding: 20px;"&gt;
+                      <div style="border: 4px solid gggg#FF660A; padding: 20px;">
 
-                      &lt;ul&gt;&lt;li&gt;Vor- und Nachnamen der Autoren werden durch Kommas getrennt&lt;br&gt;
+                      <ul><li>Vor- und Nachnamen der Autoren werden durch Kommas getrennt<br>
 
-                      &lt;li&gt;die Initialen der Vornamen werden durch Punkte abgekürzt&lt;br&gt;
+                      <li>die Initialen der Vornamen werden durch Punkte abgekürzt<br>
 
-                      &lt;li&gt;nach der Jahresangabe und am Ende wird ein Punkt gesetzt&lt;br&gt;
+                      <li>nach der Jahresangabe und am Ende wird ein Punkt gesetzt<br>
 
-                        &lt;li&gt;Zeitschriftenartikel werden kursiv gesetzt&lt;/li&gt;&lt;/ul&gt;
-                      &lt;/div&gt;
+                        <li>Zeitschriftenartikel werden kursiv gesetzt</li></ul>
+                      </div>
               -
                 type: heading
                 attrs:
@@ -735,12 +735,12 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;&lt;b&gt;Monographie Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;"><b>Monographie Beispiel:</b><br><br>
 
-                      &lt;span style="background-color: #91C6E8;"&gt;17.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Steinberg H, Angermeyer MC.&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;200 Jahre Psychiatrie an der Universität Leipzip: Personen und Konzepte.&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Heidelberg:&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;Springer;&lt;/span&gt;&lt;span style="background-color: #E8677A;"&gt;2005&lt;/span&gt; 
-                      &lt;br&gt;&lt;br&gt;
-                      &lt;b&gt;Format:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-                      &lt;span style="background-color: #91C6E8;"&gt;Nummer.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Nachname Der/Des Verfassenden, Initial(en).&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Titel.&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Ort:&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;Verlag;&lt;/span&gt;&lt;span style="background-color: #E8677A;"&gt;Jahr&lt;/span&gt; &lt;/div&gt;
+                      <span style="background-color: #91C6E8;">17.</span><span style="background-color: #C891E8;">Steinberg H, Angermeyer MC.</span><span style="background-color: #EFA052;">200 Jahre Psychiatrie an der Universität Leipzip: Personen und Konzepte.</span><span style="background-color: #E87667;">Heidelberg:</span><span style="background-color: #67E2E8;">Springer;</span><span style="background-color: #E8677A;">2005</span> 
+                      <br><br>
+                      <b>Format:</b><br><br>
+                      <span style="background-color: #91C6E8;">Nummer.</span><span style="background-color: #C891E8;">Nachname Der/Des Verfassenden, Initial(en).</span><span style="background-color: #EFA052;">Titel.</span><span style="background-color: #E87667;">Ort:</span><span style="background-color: #67E2E8;">Verlag;</span><span style="background-color: #E8677A;">Jahr</span> </div>
               -
                 type: paragraph
                 content:
@@ -762,12 +762,12 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;&lt;b&gt;Internetquellen Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;"><b>Internetquellen Beispiel:</b><br><br>
 
-                      &lt;span style="background-color: #91C6E8;"&gt;24.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Deutsche Gesellschaft für Sozialmedizin und Prävention:&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Salomon-Neumann-Medaille [Internet].&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;2021 [zitiert 6. Oktober 2023]&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;Verfügbar unter: https://www.dgsmp.de/die-gesellschaft/salomon-neumann-medaille/&lt;/span&gt;
-                      &lt;br&gt;&lt;br&gt;
-                      &lt;b&gt;Format:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-                      &lt;span style="background-color: #91C6E8;"&gt;Nummer.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Name der Internetseite:&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Titel [Internet].&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Jahr [Aufrufdatum]&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;Verfügbar unter: [URL]&lt;/span&gt; &lt;/div&gt;
+                      <span style="background-color: #91C6E8;">24.</span><span style="background-color: #C891E8;">Deutsche Gesellschaft für Sozialmedizin und Prävention:</span><span style="background-color: #EFA052;">Salomon-Neumann-Medaille [Internet].</span><span style="background-color: #E87667;">2021 [zitiert 6. Oktober 2023]</span><span style="background-color: #67E2E8;">Verfügbar unter: https://www.dgsmp.de/die-gesellschaft/salomon-neumann-medaille/</span>
+                      <br><br>
+                      <b>Format:</b><br><br>
+                      <span style="background-color: #91C6E8;">Nummer.</span><span style="background-color: #C891E8;">Name der Internetseite:</span><span style="background-color: #EFA052;">Titel [Internet].</span><span style="background-color: #E87667;">Jahr [Aufrufdatum]</span><span style="background-color: #67E2E8;">Verfügbar unter: [URL]</span> </div>
               -
                 type: paragraph
                 content:
@@ -1514,8 +1514,8 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - 0cad5973-f644-493d-965f-e9717b932af4
-                      - 884b09f8-2dce-4e99-9860-dd1a3c39f5bc
+                      - e3163c74-e233-4b21-880a-059b9bc428de
+                      - 85952363-75e0-4471-951d-63fb7d4b2f01
                       - 9a117a53-9616-4d75-9405-a17e779f00b8
             show_as_card: false
         type: row
@@ -1543,7 +1543,7 @@ og_title: 'Vancouver Zitierstil in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Vancouver Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702655126
+updated_at: 1702655282
 schema_objects: |-
   <script type="application/ld+json">
   {
