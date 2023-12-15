@@ -1,7 +1,7 @@
 ---
 id: a11e7110-0fd5-4257-b8c2-4df17db9d9dc
 blueprint: pages
-title: 'Vancouver Zitierstil in Abschlussarbeiten | Beispiele & Generator'
+title: 'Vancouver-Zitierstil in Abschlussarbeiten | Beispiele & Generator'
 teaser:
   -
     type: heading
@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Vancouver Zitierstil - praktische Beispiele & Generator'
+        text: 'Vancouver-Zitierstil - praktische Beispiele & Generator'
 replicator:
   -
     id: lpl97bt5
@@ -37,13 +37,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Vancouver Zitierstil gehört zu den numerischen Arten des Zitierens. Hier wird jeder Quelle nach der Reihenfolge ihres ersten Erscheinens im Text eine Nummer zugewiesen. Diese steht im Fließtext in Klammern direkt hinter der zu belegenden Stelle. Die Zuweisung der jeweiligen Nummer zur vollständigen Quelle wird dann im Literaturverzeichnis vorgenommen.'
+                    text: 'Der Vancouver-Zitierstil gehört zu den numerischen Arten des Zitierens. Hier wird jeder Quelle nach der Reihenfolge ihres ersten Erscheinens im Text eine Nummer zugewiesen. Diese steht im Fließtext in Klammern direkt hinter der zu belegenden Stelle. Die Zuweisung der jeweiligen Nummer zur vollständigen Quelle wird dann im Literaturverzeichnis vorgenommen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ursprünglich wurden die Regeln für medizinische Fachartikel beschlossen. Deswegen ist der Vancouver Zitierstil in der Medizin und in den Naturwissenschaften besonders verbreitet. Wenn Sie selbst im Vancouver Style zitieren wollen, müssen Sie einige Besonderheiten beachten. Ein '
+                    text: 'Ursprünglich wurden die Regeln für medizinische Fachartikel beschlossen. Deswegen ist der Vancouver-Zitierstil in der Medizin und in den Naturwissenschaften besonders verbreitet. Wenn Sie selbst im Vancouver Style zitieren wollen, müssen Sie einige Besonderheiten beachten. Ein '
                   -
                     type: text
                     marks:
@@ -56,7 +56,7 @@ replicator:
                     text: 'Ghostwriter in Medizin'
                   -
                     type: text
-                    text: ' kann Sie dabei unterstützen, auch in den Naturwissenschaften kennen Ghostwriter die entsprechenden Regeln. Wir zeigen Ihnen in diesem Beitrag das Wichtigste zum Vancouver Zitierstil.'
+                    text: ' kann Sie dabei unterstützen, auch in den Naturwissenschaften kennen Ghostwriter die entsprechenden Regeln. Wir zeigen Ihnen in diesem Beitrag das Wichtigste zum Vancouver-Zitierstil.'
               -
                 type: paragraph
                 content:
@@ -75,7 +75,7 @@ replicator:
                     text: 'kostenlosen Zitationsgenerator'
                   -
                     type: text
-                    text: ' finden Sie in diesem Beitrag zur Vancouver Zitierweise Beispiele und Anleitungen. So können Sie sicher sein, dass Sie stets alle Verweise korrekt nach den Vancouver-Richtlinien machen.'
+                    text: ' finden Sie in diesem Beitrag zur Vancouver-Zitierweise Beispiele und Anleitungen. So können Sie sicher sein, dass Sie stets alle Verweise korrekt nach den Vancouver-Richtlinien machen.'
             show_as_card: false
         type: row
         enabled: true
@@ -148,7 +148,7 @@ replicator:
                                   href: '#definition'
                                   target: null
                                   rel: null
-                            text: 'Seit wann gibt es den Vancouver Zitierstil?'
+                            text: 'Seit wann gibt es den Vancouver-Zitierstil?'
                       -
                         type: bullet_list
                         content:
@@ -215,7 +215,7 @@ replicator:
                                   href: '#literaturverzeichnis'
                                   target: null
                                   rel: null
-                            text: 'Literaturverzeichnis im Vancouver Zitierstil'
+                            text: 'Literaturverzeichnis im Vancouver-Zitierstil'
                   -
                     type: list_item
                     content:
@@ -258,7 +258,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Seit wann gibt es den Vancouver Zitierstil?'
+                    text: 'Seit wann gibt es den Vancouver-Zitierstil?'
               -
                 type: paragraph
                 content:
@@ -318,7 +318,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Richtlinien des Vancouver Zitierstils (engl. ICMJE Recommendations) werden vom ICJME immer mal wieder aktualisiert. Die '
+                    text: 'Die Richtlinien des Vancouver-Zitierstils (engl. ICMJE Recommendations) werden vom ICJME immer mal wieder aktualisiert. Die '
                   -
                     type: text
                     marks:
@@ -333,7 +333,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die eigentlichen Vorgaben zur Gestaltung von Artikeln und zur konkreten Angabe von Zitaten und Quellen in der Vancouver Zitierweise sind kurz gehalten. Es werden keine konkreten Anwendungsbeispiele genannt. Erschwerend kommt hinzu, dass nur das Nominalsystem vorgegeben wird. Sie müssen also jeder Quelle eine Nummer zuordnen und diese direkt im Text angeben. Wenn Sie beispielsweise eine Vorlage für eine '
+                    text: 'Die eigentlichen Vorgaben zur Gestaltung von Artikeln und zur konkreten Angabe von Zitaten und Quellen in der Vancouver-Zitierweise sind kurz gehalten. Es werden keine konkreten Anwendungsbeispiele genannt. Erschwerend kommt hinzu, dass nur das Nominalsystem vorgegeben wird. Sie müssen also jeder Quelle eine Nummer zuordnen und diese direkt im Text angeben. Wenn Sie beispielsweise eine Vorlage für eine '
                   -
                     type: text
                     marks:
@@ -376,7 +376,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/ieee-zitierstil
+                          href: '/zitationsgenerator/ieee-zitierstil?citationStyle=ieee'
                           target: null
                           rel: null
                     text: IEEE-Zitierstil
@@ -461,7 +461,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Problematisch ist, dass die relative Offenheit des Vancouver Zitierstils auch von den Verlagen übernommen wurde. Der Nominalstil ist fest vorgegeben: Sie belegen alle Quellen direkt im Text, Fußnoten sind nicht üblich. Wie die Zahlen hinter den Zitaten angegeben werden, regeln verschiedene Verlage auf unterschiedliche Weise. Drei Varianten sind üblich:'
+                    text: 'Problematisch ist, dass die relative Offenheit des Vancouver-Zitierstils auch von den Verlagen übernommen wurde. Der Nominalstil ist fest vorgegeben: Sie belegen alle Quellen direkt im Text, Fußnoten sind nicht üblich. Wie die Zahlen hinter den Zitaten angegeben werden, regeln verschiedene Verlage auf unterschiedliche Weise. Drei Varianten sind üblich:'
               -
                 type: paragraph
                 content:
@@ -583,7 +583,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Literaturverzeichnis im Vancouver Zitierstil'
+                    text: 'Literaturverzeichnis im Vancouver-Zitierstil'
               -
                 type: paragraph
                 content:
@@ -663,7 +663,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nach diesen Vorgaben müssen Sie bei Publikationen mit bis zu sechs Autoren alle sechs Namen angeben. Bei mehr als sechs Autoren werden nur die ersten drei genannt und alle weiteren durch „et al“ abgekürzt. Anders als z.B. bei APA schreiben Sie „et al“ ohne Punkt (bei APA „et al.“). Auch am Ende der jeweiligen Angabe wird kein Punkt gesetzt.'
+                    text: 'Nach diesen Vorgaben müssen Sie bei Publikationen mit bis zu sechs Autoren alle sechs Namen angeben. Bei mehr als sechs Autoren werden nur die ersten drei genannt und alle weiteren durch „et al“ abgekürzt. Anders als z.B. bei '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: '/zitationsgenerator/apa-zitierstil?citationStyle=apa_6th_edition'
+                          target: null
+                          rel: null
+                    text: APA
+                  -
+                    type: text
+                    text: ' schreiben Sie „et al“ ohne Punkt (bei APA „et al.“). Auch am Ende der jeweiligen Angabe wird kein Punkt gesetzt.'
               -
                 type: heading
                 attrs:
@@ -671,13 +684,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Vancouver Zitierstil: Beispiel Zeitschriftenartikel'
+                    text: 'Vancouver-Zitierstil: Beispiel Zeitschriftenartikel'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Einen Artikel aus einer Fachzeitschrift müssen Sie im Literaturverzeichnis nach dem Vancouver Zitierstil folgendermaßen angeben:'
+                    text: 'Einen Artikel aus einer Fachzeitschrift müssen Sie im Literaturverzeichnis nach dem Vancouver-Zitierstil folgendermaßen angeben:'
               -
                 type: set
                 attrs:
@@ -698,22 +711,84 @@ replicator:
                     type: text
                     text: 'Im APA-Style würde das gleiche Literaturverzeichnis deutlich anders aussehen:'
               -
-                type: set
-                attrs:
-                  id: lnew8wkt
-                  values:
-                    type: insert_html
-                    html: |-
-                      <div style="border: 4px solid gggg#FF660A; padding: 20px;">
-
-                      <ul><li>Vor- und Nachnamen der Autoren werden durch Kommas getrennt<br>
-
-                      <li>die Initialen der Vornamen werden durch Punkte abgekürzt<br>
-
-                      <li>nach der Jahresangabe und am Ende wird ein Punkt gesetzt<br>
-
-                        <li>Zeitschriftenartikel werden kursiv gesetzt</li></ul>
-                      </div>
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Vor- und Nachnamen der Autoren werden durch Kommas getrennt'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'die Initialen der Vornamen werden durch Punkte abgekürzt'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'nach der Jahresangabe und am Ende wird ein Punkt gesetzt'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Zeitschriftenartikel werden kursiv gesetzt'
               -
                 type: heading
                 attrs:
@@ -727,7 +802,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das Muster, nach dem Quellen zitiert werden, ist im Vancouver Stil immer gleich: Am Anfang steht die Nummer, dann folgt die Quelle. Wenn Sie die JAMA-Regeln für den Vancouver Zitierstil anwenden, wird eine Monographie folgendermaßen angegeben:'
+                    text: 'Das Muster, nach dem Quellen zitiert werden, ist im Vancouver-Stil immer gleich: Am Anfang steht die Nummer, dann folgt die Quelle. Wenn Sie die JAMA-Regeln für den Vancouver-Zitierstil anwenden, wird eine Monographie folgendermaßen angegeben:'
               -
                 type: set
                 attrs:
@@ -754,7 +829,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Vancouver Zitierstil: Beispiel Internetquelle'
+                    text: 'Vancouver-Zitierstil: Beispiel Internetquelle'
               -
                 type: set
                 attrs:
@@ -787,7 +862,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Unterschiede des Vancouver Zitierstils zu anderen Stilen liegen vor allem im Detail. Deswegen ist ein hohes Maß an Fachkompetenz nötig, um hier alles richtig zu machen. Die Zusammenarbeit mit einem Ghostwriter kann helfen, Ungenauigkeiten zu vermeiden. '
+                    text: 'Die Unterschiede des Vancouver-Zitierstils zu anderen Stilen liegen vor allem im Detail. Deswegen ist ein hohes Maß an Fachkompetenz nötig, um hier alles richtig zu machen. Die Zusammenarbeit mit einem Ghostwriter kann helfen, Ungenauigkeiten zu vermeiden. '
                   -
                     type: text
                     marks:
@@ -1506,7 +1581,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wenn Sie nach dem Vancouver Stil zitieren, sollten Sie vorab also klären, auf welches Regelwerk Sie achten müssen. In Zweifelsfällen kann es ratsam sein, einen Experten hinzuzuziehen.'
+                    text: 'Wenn Sie nach dem Vancouver-Stil zitieren, sollten Sie vorab also klären, auf welches Regelwerk Sie achten müssen. In Zweifelsfällen kann es ratsam sein, einen Experten hinzuzuziehen.'
               -
                 type: set
                 attrs:
@@ -1532,18 +1607,18 @@ sitemap_active: true
 breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
-meta_title: 'Vancouver Zitierstil in Abschlussarbeiten | Beispiele & Generator'
-meta_description: 'Vancouver Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+meta_title: 'Vancouver-Zitierstil in Abschlussarbeiten | Beispiele & Generator'
+meta_description: 'Vancouver-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Vancouver Zitierstil in Abschlussarbeiten | Beispiele & Generator'
-og_description: 'Vancouver Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+og_title: 'Vancouver-Zitierstil in Abschlussarbeiten | Beispiele & Generator'
+og_description: 'Vancouver-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702655282
+updated_at: 1702656289
 schema_objects: |-
   <script type="application/ld+json">
   {
