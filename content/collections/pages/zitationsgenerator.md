@@ -473,7 +473,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/ieee-zitierstil?citationStyle=vancouver'
+                          href: '/zitationsgenerator/vancouver-zitierstil?citationStyle=vancouver'
                           target: null
                           rel: null
                     text: Vancouver-Zitierstil
@@ -1007,5 +1007,5 @@ schema_objects: |-
   }
   </script>
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702656163
+updated_at: 1702656481
 ---
