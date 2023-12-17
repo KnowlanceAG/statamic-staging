@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1692803665
+updated_at: 1702831531
 replicator:
   -
     id: VvunKODE
@@ -3169,9 +3169,9 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
 meta_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
-meta_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
+meta_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Akademische Ghostwriter unterstützen Sie bei jeder Fragestellung - zu fairen Preisen!'
 og_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
-og_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
+og_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Akademische Ghostwriter unterstützen Sie bei jeder Fragestellung - zu fairen Preisen!'
 og_image: GWriters-Logo.png
 sitemap_active: true
 schema_objects: |-
