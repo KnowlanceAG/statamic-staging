@@ -826,7 +826,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700150390
+updated_at: 1702831686
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -835,9 +835,9 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 meta_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
-meta_description: 'Ghostwriting Service von erfahrenen Autoren | Ghostwriter Service als Hilfestellung bei der Erstellung Ihrer wissenschaftlichen Arbeit ✔️'
+meta_description: 'Ghostwriting Service | Erfahrene Autoren unterstützen Sie bei der Erstellung Ihrer wissenschaftlichen Arbeit | diskret & geprüft auf Plagiate ✔️'
 og_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
-og_description: 'Ghostwriting Service von erfahrenen Autoren | Ghostwriter Service als Hilfestellung bei der Erstellung Ihrer wissenschaftlichen Arbeit ✔️'
+og_description: 'Ghostwriting Service | Erfahrene Autoren unterstützen Sie bei der Erstellung Ihrer wissenschaftlichen Arbeit | diskret & geprüft auf Plagiate ✔️'
 og_image: GWriters-Logo.png
 sitemap_active: true
 page_title: 'Ghostwriting Service'
