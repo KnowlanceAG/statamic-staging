@@ -3976,8 +3976,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 05dc5331-6bc5-4897-a2e0-d559d0f01e29
-updated_at: 1702392555
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702831189
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3986,7 +3986,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 meta_title: 'Masterarbeit schreiben lassen | seriöse & diskrete Ghostwriter'
-meta_description: 'Masterarbeit schreiben lassen | Ghostwriter Masterarbeit | kompetente wissenschaftliche Unterstützung | 100% diskret & geprüft auf Qualität & Plagiate ✔️'
+meta_description: 'Masterarbeit schreiben lassen | Ghostwriter für Masterarbeiten unterstützen Studenten kompetent | 100% diskret & geprüft auf Qualität & Plagiate ✔️'
 og_title: 'Masterarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Masterarbeit schreiben lassen | Ghostwriter Masterarbeit | kompetente wissenschaftliche Unterstützung | 100% diskret & geprüft auf Qualität & Plagiate ✔️'
 og_image: GWriters-Logo.png
