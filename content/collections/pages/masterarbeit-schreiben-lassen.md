@@ -3725,384 +3725,6 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
-        id: lqdr001o
-        single_col: false
-        grid:
-          -
-            id: ODGlTW5Z
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Masterthesis schreiben lassen '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wenn es um das Schreiben einer Masterthesis geht, ist der Ausdruck "'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterthesis schreiben lassen'
-                  -
-                    type: text
-                    text: '" eher im englischen Sprachgebrauch üblich. Im Kontext einer englischen Masterthesis gibt es einige Besonderheiten zu beachten. Von der strikten Strukturierung bis zur präzisen wissenschaftlichen Formulierung können unsere Ghostwriter Ihnen dabei helfen, die spezifischen Anforderungen einer englischsprachigen Masterthesis zu erfüllen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Englische Masterthesis: Wichtige Aspekte im Überblick'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                    text: 'Die Besonderheiten einer englischen Masterthesis umfassen verschiedene Aspekte, die sich von deutschen wissenschaftlichen Arbeiten unterscheiden können. Hier sind einige wichtige Merkmale:'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Englische Sprache beherrschen'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Die gesamte Masterthesis wird auf Englisch geschrieben. Dies gilt nicht nur für die Einleitung, den Hauptteil, sondern auch für die Zusammenfassung/Fazit, die Kapitelüberschriften, Zitate und Anmerkungen. '
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Struktur und Formatierung'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Die Struktur folgt den wissenschaftlichen Standards. Üblicherweise umfasst sie Titelseite, Abstract, Inhaltsverzeichnis, Einleitung, Literaturüberblick, Methodik, Ergebnisse, Diskussion, Schlussfolgerungen, Literaturverzeichnis und Anhänge.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Zitierweise in Masterthesis'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'In englischen Masterthesen wird oft die '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '/zitationsgenerator/harvard-zitieren?citationStyle=harvard_12th_edition'
-                                  target: null
-                                  rel: null
-                            text: Harvard-Zitierweise
-                          -
-                            type: text
-                            text: ' oder andere gängige Zitierstile wie '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '/zitationsgenerator/apa-zitierstil?citationStyle=apa_6th_edition'
-                                  target: null
-                                  rel: null
-                            text: APA
-                          -
-                            type: text
-                            text: ', MLA oder '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: '/zitationsgenerator/chicago-zitierweise?citationStyle=chicago_17th_edition'
-                                  target: null
-                                  rel: null
-                            text: Chicago
-                          -
-                            type: text
-                            text: ' verwendet. Mit unserem '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /zitationsgenerator
-                                  target: null
-                                  rel: null
-                            text: 'kostenlosen Zitationsgenerator'
-                          -
-                            type: text
-                            text: ' können Sie die erforderlichen Informationen eingeben, und der Generator erstellt die korrekte Zitation für Sie. '
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Sprachliche Präzision und Formulierung'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Es wird eine hohe sprachliche Präzision erwartet, sowohl in der Formulierung als auch in der wissenschaftlichen Terminologie im Englischen. Die Verwendung von englischen Fachbegriffen sowie eine klare, prägnante Ausdrucksweise sind entscheidend. Unsere Ghostwriter sind Experten im Verfassen wissenschaftlicher englischer Masterarbeiten und können Sie dabei erfolgreich unterstützen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Originalität und Forschungsbeitrag'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Eine englische Masterthesis legt oft einen besonderen Schwerpunkt auf Originalität und das Leisten eines Beitrags zum bestehenden Wissen in einem Fachgebiet. Die Forschungsfrage sollte klar definiert und die Forschungsmethodik sorgfältig ausgearbeitet sein. Auch hier sind unsere Ghostwriter mit dem aktuellen Forschungsstand vertraut und wissen, welche Methodik zum Thema der Masterthesis passt.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Peer Review'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'In einigen Fällen kann die Arbeit einer Peer-Review-Prüfung unterzogen werden, bei der unsere anderen Experten auf dem Fachgebiet die Qualität und Originalität der Arbeit überprüfen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
-                    text: 'Internationaler Kontext'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(55, 65, 81)'
-                                  hex: '#000'
-                            text: 'Englische Masterthesen werden oft vor dem Hintergrund eines internationalen wissenschaftlichen Kontexts geschrieben. Dies kann sich auf die Auswahl der Literatur, die Perspektive der Forschung und die Relevanz der Ergebnisse auswirken.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei allen Punkten können Ihnen unsere Experten helfen, sowohl bei der Literaturrecherche als auch beim Verfassen einer Masterthesis. Wenn Sie eine engagierte Musterarbeit für Ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterthesis schreiben lassen'
-                  -
-                    type: text
-                    text: ' möchten, senden Sie uns einfach eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'kostenlose Anfrage'
-                  -
-                    type: text
-                    text: '!'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Englische Masterthesis-Beispiel'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie suchen nach einem Beispiel für eine englische Masterarbeit? Unsere '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: 'Ghostwriter in  Wirtschaftswissenschaften'
-                  -
-                    type: text
-                    text: ' haben für Sie ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'kostenloses Masterthesis-Beispiel'
-                  -
-                    type: text
-                    text: ' erstellt. Nicht nur im Bereich Wirtschaftswissenschaften verfassen wir englische Masterarbeiten, sondern auch in'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' vielen anderen Fachrichtungen'
-                  -
-                    type: text
-                    text: ' haben wir Experten für wissenschaftliches Englisch!'
-              -
-                type: set
-                attrs:
-                  id: lqdvjjo8
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
-                    ex_title: 'Englische Masterarbeit: Globalisation and Poverty'
-                    ex_fachbereich:
-                      - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                    ex_type: Masterthesis
-                    ex_pages: '50'
-                    ex_zitation: 'Harvard Style'
-                    ex_btn_icon: downloads/ghostwriting-beispielarbeiten/masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.pdf
-                    ex_button_text: 'Kostenlos herrunterladen'
-                    ex_button_align: justify-center
-                    ex_spacing_top: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
         id: lalgfgcc
         single_col: true
         grid:
@@ -4348,6 +3970,628 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+      -
+        id: lqdw2zj4
+        single_col: true
+        grid:
+          -
+            id: ODGlTW5Z
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Masterthesis schreiben lassen '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn es um das Schreiben einer Masterthesis geht, ist der Ausdruck "'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Masterthesis schreiben lassen'
+                  -
+                    type: text
+                    text: '" eher im englischen Sprachgebrauch üblich. Im Kontext einer englischen Masterthesis gibt es einige Besonderheiten zu beachten. Von der strikten Strukturierung bis zur präzisen wissenschaftlichen Formulierung können unsere Ghostwriter Ihnen dabei helfen, die spezifischen Anforderungen einer englischsprachigen Masterthesis zu erfüllen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Englische Masterthesis: Wichtige Aspekte im Überblick'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Besonderheiten einer englischen Masterthesis umfassen verschiedene Aspekte, die sich von deutschen wissenschaftlichen Arbeiten unterscheiden können. Hier sind einige wichtige Merkmale:'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Englische Sprache beherrschen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Die gesamte Masterthesis wird auf Englisch geschrieben. Dies gilt nicht nur für die Einleitung, den Hauptteil, sondern auch für die Zusammenfassung/Fazit, die Kapitelüberschriften, Zitate und Anmerkungen. '
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Struktur und Formatierung'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Die Struktur folgt den wissenschaftlichen Standards. Üblicherweise umfasst sie Titelseite, Abstract, Inhaltsverzeichnis, Einleitung, Literaturüberblick, Methodik, Ergebnisse, Diskussion, Schlussfolgerungen, Literaturverzeichnis und Anhänge.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Zitierweise in Masterthesis'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'In englischen Masterthesen wird oft die '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '/zitationsgenerator/harvard-zitieren?citationStyle=harvard_12th_edition'
+                                  target: null
+                                  rel: null
+                            text: Harvard-Zitierweise
+                          -
+                            type: text
+                            text: ' oder andere gängige Zitierstile wie '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '/zitationsgenerator/apa-zitierstil?citationStyle=apa_6th_edition'
+                                  target: null
+                                  rel: null
+                            text: APA
+                          -
+                            type: text
+                            text: ', MLA oder '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '/zitationsgenerator/chicago-zitierweise?citationStyle=chicago_17th_edition'
+                                  target: null
+                                  rel: null
+                            text: Chicago
+                          -
+                            type: text
+                            text: ' verwendet. Mit unserem '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /zitationsgenerator
+                                  target: null
+                                  rel: null
+                            text: 'kostenlosen Zitationsgenerator'
+                          -
+                            type: text
+                            text: ' können Sie die erforderlichen Informationen eingeben, und der Generator erstellt die korrekte Zitation für Sie. '
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Sprachliche Präzision und Formulierung'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Es wird eine hohe sprachliche Präzision erwartet, sowohl in der Formulierung als auch in der wissenschaftlichen Terminologie im Englischen. Die Verwendung von englischen Fachbegriffen sowie eine klare, prägnante Ausdrucksweise sind entscheidend. Unsere Ghostwriter sind Experten im Verfassen wissenschaftlicher englischer Masterarbeiten und können Sie dabei erfolgreich unterstützen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Originalität und Forschungsbeitrag'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Eine englische Masterthesis legt oft einen besonderen Schwerpunkt auf Originalität und das Leisten eines Beitrags zum bestehenden Wissen in einem Fachgebiet. Die Forschungsfrage sollte klar definiert und die Forschungsmethodik sorgfältig ausgearbeitet sein. Auch hier sind unsere Ghostwriter mit dem aktuellen Forschungsstand vertraut und wissen, welche Methodik zum Thema der Masterthesis passt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Peer Review'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'In einigen Fällen kann die Arbeit einer Peer-Review-Prüfung unterzogen werden, bei der unsere anderen Experten auf dem Fachgebiet die Qualität und Originalität der Arbeit überprüfen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Internationaler Kontext'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Englische Masterthesen werden oft vor dem Hintergrund eines internationalen wissenschaftlichen Kontexts geschrieben. Dies kann sich auf die Auswahl der Literatur, die Perspektive der Forschung und die Relevanz der Ergebnisse auswirken.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei allen Punkten können Ihnen unsere Experten helfen, sowohl bei der Literaturrecherche als auch beim Verfassen einer Masterthesis. Wenn Sie eine engagierte Musterarbeit für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Masterthesis schreiben lassen'
+                  -
+                    type: text
+                    text: ' möchten, senden Sie uns einfach eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'kostenlose Anfrage'
+                  -
+                    type: text
+                    text: '!'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Englische Masterthesis-Beispiel'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie suchen nach einem Beispiel für eine englische Masterarbeit? Unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/wirtschaftswissenschaften
+                          target: null
+                          rel: null
+                    text: 'Ghostwriter in  Wirtschaftswissenschaften'
+                  -
+                    type: text
+                    text: ' haben für Sie ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'kostenloses Masterthesis-Beispiel'
+                  -
+                    type: text
+                    text: ' erstellt. Nicht nur im Bereich Wirtschaftswissenschaften verfassen wir englische Masterarbeiten, sondern auch in'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' vielen anderen Fachrichtungen'
+                  -
+                    type: text
+                    text: ' haben wir Experten für wissenschaftliches Englisch!'
+              -
+                type: set
+                attrs:
+                  id: lqdvjjo8
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
+                    ex_title: 'Englische Masterarbeit: Globalisation and Poverty'
+                    ex_fachbereich:
+                      - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                    ex_type: Masterthesis
+                    ex_pages: '50'
+                    ex_zitation: 'Harvard Style'
+                    ex_btn_icon: downloads/ghostwriting-beispielarbeiten/masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.pdf
+                    ex_button_text: 'Kostenlos herrunterladen'
+                    ex_button_align: justify-center
+                    ex_spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+  -
+    id: lqdw3koe
+    columns_replicator:
+      -
+        id: lqdw3mo8
+        single_col: false
+        grid:
+          -
+            id: 9UihMIxF
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Häufig gestellte Fragen zu Masterarbeit-Ghostwritern'
+              -
+                type: set
+                attrs:
+                  id: lalhlyo3
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
+                      -
+                        id: lalhm02r
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Welche Qualifikation hat mein akademischer Ghostwriter? ➞'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
+                        active: false
+                      -
+                        id: lalhm7pp
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Wie wird bei GWriters meine Anonymität sichergestellt? ➞'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
+                        active: false
+                      -
+                        id: lalhm8si
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Was kostet eine Mustervorlage für meine Masterarbeit? ➞'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Eine Mustervorlage für eine 50-seitige Masterarbeit erhalten Sie bereits ab 5000 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
+                        active: false
+                      -
+                        id: lalhm9y8
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Darf ich die erstellte Mustervorlage als eigene Masterarbeit abgeben? ➞'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Masterarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
+                        active: false
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Einige unserer Blogartikel zum Thema "Masterarbeit schreiben lassen"'
+              -
+                type: set
+                attrs:
+                  id: cRYchAa8
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
+                      - a26081b8-f79e-4515-8c28-31d320f1e4fd
+                      - 90c98a48-07aa-44a7-bfa5-187a2717a778
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Weitere Links & Referenzen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Master'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Master - Wikipedia'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fcampus%2F2010%2F03%2FStudium-Master-Empfehlungsschreiben'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'In der Bologna-Falle - FAZ'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -4355,7 +4599,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703083660
+updated_at: 1703083814
 template: default
 use_meta_keywords: false
 no_index_page: false
