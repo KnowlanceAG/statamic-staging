@@ -4100,10 +4100,10 @@ replicator:
                     ex_type: Masterthesis
                     ex_pages: '50'
                     ex_zitation: 'Harvard Style'
-                    ex_btn_icon: downloads/ghostwriting-beispielarbeiten/masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.pdf
                     ex_button_text: 'Kostenlos herrunterladen'
                     ex_button_align: justify-center
                     ex_spacing_top: false
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.pdf
             show_as_card: false
         type: row
         enabled: true
@@ -4121,7 +4121,7 @@ replicator:
     columns_replicator:
       -
         id: lqdw3mo8
-        single_col: true
+        single_col: false
         grid:
           -
             id: 9UihMIxF
@@ -4360,7 +4360,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703084046
+updated_at: 1703084334
 template: default
 use_meta_keywords: false
 no_index_page: false
