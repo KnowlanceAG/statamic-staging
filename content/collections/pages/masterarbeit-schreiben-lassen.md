@@ -3724,12 +3724,21 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+  -
+    id: lqdw7k8p
+    columns_replicator:
       -
-        id: lqdw2zj4
-        single_col: true
+        id: lqdw7tq1
+        single_col: false
         grid:
           -
-            id: ODGlTW5Z
+            id: 9UihMIxF
             bard:
               -
                 type: heading
@@ -4095,8 +4104,6 @@ replicator:
                     ex_button_text: 'Kostenlos herrunterladen'
                     ex_button_align: justify-center
                     ex_spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -4104,11 +4111,11 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
   -
     id: lqdw3koe
     columns_replicator:
@@ -4353,7 +4360,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703083903
+updated_at: 1703084009
 template: default
 use_meta_keywords: false
 no_index_page: false
