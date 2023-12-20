@@ -3735,7 +3735,7 @@ replicator:
     columns_replicator:
       -
         id: lqdw7tq1
-        single_col: false
+        single_col: true
         grid:
           -
             id: 9UihMIxF
@@ -4360,7 +4360,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703084009
+updated_at: 1703084046
 template: default
 use_meta_keywords: false
 no_index_page: false
