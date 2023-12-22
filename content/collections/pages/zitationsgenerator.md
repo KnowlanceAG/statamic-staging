@@ -319,7 +319,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#apa'
+                          href: '/zitationsgenerator/apa-zitierstil?citationStyle=apa_6th_edition'
                           target: null
                           rel: null
                     text: APA-Zitationsstil
@@ -346,7 +346,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/harvard-zitieren
+                          href: '/zitationsgenerator/harvard-zitieren?citationStyle=harvard_12th_edition'
                           target: null
                           rel: null
                     text: Harvard-Zitierweise
@@ -373,7 +373,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/chicago-zitierweise
+                          href: '/zitationsgenerator/chicago-zitierweise?citationStyle=chicago_17th_edition'
                           target: null
                           rel: null
                     text: Chicago-Zitationsstil
@@ -400,7 +400,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/ieee-zitierstil
+                          href: '/zitationsgenerator/ieee-zitierstil?citationStyle=ieee'
                           target: null
                           rel: null
                     text: IEEE-Zitierstil
@@ -427,13 +427,69 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#deutsch'
+                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#deutsch?citationStyle=din-1505'
                           target: null
                           rel: null
                     text: 'deutsche Zitierweise'
                   -
                     type: text
                     text: ' unerlässlich. Unser Generator stellt sicher, dass Ihre Zitationen den lokalen Standards entsprechen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Vancouver-Zitierstil: Praktisch für Facharbeiten in der Medizin und Naturwissenschaften '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: 'Der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: '/zitationsgenerator/vancouver-zitierstil?citationStyle=vancouver'
+                          target: null
+                          rel: null
+                    text: Vancouver-Zitierstil
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(55, 65, 81)'
+                          hex: '#000'
+                    text: ' ist besonders weit verbreitet in den Bereichen Medizin und Naturwissenschaften. Wenn Sie im Vancouver-Stil zitieren möchten, sollten Sie einige spezifische Besonderheiten beachten.'
               -
                 type: set
                 attrs:
@@ -951,5 +1007,5 @@ schema_objects: |-
   }
   </script>
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701208404
+updated_at: 1702657924
 ---

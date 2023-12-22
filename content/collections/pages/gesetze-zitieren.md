@@ -21,102 +21,133 @@ teaser:
               color: orange-500
               hex: '#ff6606'
         text: 'Gesetze zitieren: so machen Sie ALLES richtig! + Generator'
-  -
-    type: set
-    attrs:
-      id: zwnaYou3
-      values:
-        type: spacer
-        padding-y: 10
-  -
-    type: set
-    attrs:
-      id: 2FC4RyrC
-      values:
-        type: teaser_icon_columns
-        columns:
-          -
-            id: wNkymqh9
-            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp;amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: Awfm0X4k
-            icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: 0f6BxR0G
-            icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp;amp; finaler Form.'
-          -
-            id: GQNX6eXT
-            icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
-    attrs:
-      id: 3kZE4d3D
-      values:
-        type: spacer
-        padding-y: 15
-  -
-    type: set
-    attrs:
-      id: 2V4ZjCGH
-      values:
-        type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
-        color: '#FF6606'
-        spacing_top: false
-  -
-    type: set
-    attrs:
-      id: WyfqrGif
-      values:
-        type: spacer
-        padding-y: 20
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: '#000!important'
-              hex: '#000'
-          -
-            type: link
-            attrs:
-              href: 'tel:##phone##'
-              target: null
-              rel: null
-        text: '##phone##'
 replicator:
+  -
+    id: lpl925gu
+    columns_replicator:
+      -
+        id: lpl926i2
+        single_col: true
+        grid:
+          -
+            id: czfAcRct
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'In juristischen, politikwissenschaftlichen und vielen anderen akademischen Disziplinen ist das präzise Zitieren von Gesetzestexten von entscheidender Bedeutung. Die korrekte Angabe von Gesetzen, Verordnungen und Urteilen verleiht Ihrer Arbeit nicht nur Glaubwürdigkeit, sondern ist auch essentiell für die nachvollziehbare Argumentation und Diskussion rechtlicher Sachverhalte.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ' ist ein wertvolles Werkzeug, das Ihnen dabei hilft, Gesetze und juristische Dokumente gemäß den akademischen Standards zu zitieren. Mit seiner benutzerfreundlichen Oberfläche können Sie schnell und einfach exakte Zitate erstellen, die den formalen Anforderungen Ihres Fachbereichs entsprechen. Egal, ob es um nationale oder internationale Rechtsquellen geht, unser Generator unterstützt Sie dabei, Ihre Quellen korrekt und effizient zu referenzieren.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Nutzen Sie unseren Zitationsgenerator, um die juristischen Aspekte Ihrer akademischen Arbeit mit Präzision und Vertrauen anzugehen. Erleben Sie, wie er Ihnen hilft, Gesetze und rechtliche Dokumente fachgerecht in Ihre Forschung einzubinden.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lpl924ej
+    columns_replicator:
+      -
+        id: lpl928q1
+        single_col: true
+        grid:
+          -
+            id: czfAcRct
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lpl92djg
+                  values:
+                    type: citation_generator
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
   -
     id: lp8ijf6u
     columns_replicator:
@@ -1795,6 +1826,6 @@ sitemap_changefreq: daily
 og_title: 'Gesetze zitieren: so machen Sie ALLES richtig! + Generator'
 og_description: 'Gesetze zitieren: Im Text oder in der Fußnote? Unsere Jura Experten erklären Ihnen mit wissenschaftlichen Beispielen wie Gesetze richtig zitiert werden! ⚖📃'
 override_twitter_settings: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701210828
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702474593
 ---

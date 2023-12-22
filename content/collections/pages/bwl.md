@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700137904
+updated_at: 1702829528
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3655,9 +3655,9 @@ replicator:
     type: add_section
     enabled: true
 meta_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'BWL Ghostwriter für Ihren Erfolg - Wissenschaftler, Professoren & andere Experten der Betriebswissenschaften und auch VWL schreiben für Sie ✔️'
+meta_description: 'BWL Ghostwriter - Fachexperten liefern wissenschaftliche Arbeiten - Wissenschaftler & Professoren der Betriebswissenschaften und VWL schreiben für Sie ✔️'
 og_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'BWL Ghostwriter für Ihren Erfolg - Wissenschaftler, Professoren & andere Experten der Betriebswissenschaften und auch VWL schreiben für Sie ✔️'
+og_description: 'BWL Ghostwriter - Fachexperten liefern wissenschaftliche Arbeiten - Wissenschaftler & Professoren der Betriebswissenschaften und VWL schreiben für Sie ✔️'
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'BWL Ghostwriter'

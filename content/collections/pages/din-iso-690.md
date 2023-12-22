@@ -21,102 +21,117 @@ teaser:
               color: orange-500
               hex: '#ff6606'
         text: 'Zitierregeln nach DIN ISO 690 - praktische Beispiele & Generator'
-  -
-    type: set
-    attrs:
-      id: zwnaYou3
-      values:
-        type: spacer
-        padding-y: 10
-  -
-    type: set
-    attrs:
-      id: 2FC4RyrC
-      values:
-        type: teaser_icon_columns
-        columns:
-          -
-            id: wNkymqh9
-            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp;amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: Awfm0X4k
-            icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: 0f6BxR0G
-            icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp;amp; finaler Form.'
-          -
-            id: GQNX6eXT
-            icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
-    attrs:
-      id: 3kZE4d3D
-      values:
-        type: spacer
-        padding-y: 15
-  -
-    type: set
-    attrs:
-      id: 2V4ZjCGH
-      values:
-        type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
-        color: '#FF6606'
-        spacing_top: false
-  -
-    type: set
-    attrs:
-      id: WyfqrGif
-      values:
-        type: spacer
-        padding-y: 20
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: '#000!important'
-              hex: '#000'
-          -
-            type: link
-            attrs:
-              href: 'tel:##phone##'
-              target: null
-              rel: null
-        text: '##phone##'
 replicator:
+  -
+    id: lpl8i1dx
+    columns_replicator:
+      -
+        id: lpl8i3by
+        single_col: true
+        grid:
+          -
+            id: 1GQb552i
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Der DIN ISO 690 Zitierstil ist einer der zentralen Standards für wissenschaftliches Zitieren. In der Welt der akademischen Forschung ist die präzise und konsistente Zitierung von Quellen unerlässlich. Der DIN ISO 690 Zitierstil bietet eine klare und strukturierte Methode, um Quellenangaben in wissenschaftlichen Arbeiten zu gestalten, was für die Integrität und Glaubwürdigkeit Ihrer Forschung von größter Bedeutung ist.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Ob Sie Studierender, Forscher oder Akademiker sind, unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ', der unter anderem speziell für den DIN ISO 690 Zitierstil entwickelt wurde, ist hier, um Ihnen das Leben zu erleichtern. Mit wenigen Klicks können Sie Ihre Quellenangaben korrekt und effizient erstellen, sodass Sie sich mehr auf den Inhalt Ihrer Arbeit konzentrieren können. Wir bieten Ihnen ein intuitives Tool, das sich nahtlos in Ihren Schreibprozess einfügt und sicherstellt, dass Ihre Zitationen den Richtlinien des DIN ISO 690 entsprechen. Tauchen Sie ein in die Welt des präzisen Zitierens und erleben Sie, wie unser Zitationsgenerator Ihre akademische Arbeit vereinfacht.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lpl8hrq2
+    columns_replicator:
+      -
+        id: lpl8i79g
+        single_col: true
+        grid:
+          -
+            id: 1GQb552i
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lpl8ich0
+                  values:
+                    type: citation_generator
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
   -
     id: lp8ijf6u
     columns_replicator:
@@ -1948,6 +1963,6 @@ sitemap_changefreq: daily
 og_title: 'Zitierregeln nach DIN ISO 690 | praktische Beispiele 📑'
 og_description: 'In welchen Studienfächern wird nach DIN ISO 690 zitiert und welche Regeln müssen beachtet werden? Alles über Zitieren nach DIN ISO 690 erfahren und Fehler vermeiden ✅'
 override_twitter_settings: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701214726
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702474368
 ---

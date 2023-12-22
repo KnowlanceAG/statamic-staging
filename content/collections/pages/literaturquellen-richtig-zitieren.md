@@ -21,102 +21,133 @@ teaser:
               color: orange-500
               hex: '#ff6606'
         text: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
-  -
-    type: set
-    attrs:
-      id: zwnaYou3
-      values:
-        type: spacer
-        padding-y: 10
-  -
-    type: set
-    attrs:
-      id: 2FC4RyrC
-      values:
-        type: teaser_icon_columns
-        columns:
-          -
-            id: wNkymqh9
-            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp;amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: Awfm0X4k
-            icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: 0f6BxR0G
-            icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp;amp; finaler Form.'
-          -
-            id: GQNX6eXT
-            icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
-    attrs:
-      id: 3kZE4d3D
-      values:
-        type: spacer
-        padding-y: 15
-  -
-    type: set
-    attrs:
-      id: 2V4ZjCGH
-      values:
-        type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
-        color: '#FF6606'
-        spacing_top: false
-  -
-    type: set
-    attrs:
-      id: WyfqrGif
-      values:
-        type: spacer
-        padding-y: 20
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: '#000!important'
-              hex: '#000'
-          -
-            type: link
-            attrs:
-              href: 'tel:##phone##'
-              target: null
-              rel: null
-        text: '##phone##'
 replicator:
+  -
+    id: lpl8tdoi
+    columns_replicator:
+      -
+        id: lpl8tevu
+        single_col: true
+        grid:
+          -
+            id: kGPSPBT6
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'In der akademischen Welt ist die korrekte Zitierung von Quellen ein fundamentaler Aspekt, der sowohl die Glaubwürdigkeit als auch die Qualität wissenschaftlicher Arbeiten maßgeblich beeinflusst. Egal, ob Sie Student, Forscher oder Lehrkraft sind, das richtige Zitieren von Literaturquellen ist entscheidend, um die Integrität Ihrer Arbeit zu wahren und Plagiat zu vermeiden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Um Ihnen diesen essenziellen Prozess zu erleichtern, stellen wir Ihnen unseren '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenlosen Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ' zur Verfügung. Dieses Tool ist speziell dafür entwickelt worden, Sie bei der korrekten und effizienten Erstellung von Zitationen in verschiedenen akademischen Zitierstilen zu unterstützen. Mit unserem Generator können Sie schnell und einfach Zitate für alle Arten von Literaturquellen erstellen – von Büchern über Zeitschriftenartikel bis hin zu Online-Quellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Entdecken Sie die Leichtigkeit, mit der unser Zitationsgenerator Ihnen hilft, Ihre Quellen nach den höchsten akademischen Standards zu zitieren. Beginnen Sie jetzt, Ihre wissenschaftliche Arbeit mit Präzision und Vertrauen zu bereichern.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lpl8tc6m
+    columns_replicator:
+      -
+        id: lpl8thmq
+        single_col: true
+        grid:
+          -
+            id: kGPSPBT6
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lpl8tm63
+                  values:
+                    type: citation_generator
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
   -
     id: lp8ijf6u
     columns_replicator:
@@ -835,6 +866,6 @@ sitemap_changefreq: daily
 og_title: 'Literaturquellen richtig zitieren | Expertenguide & Zitiergenerator'
 og_description: 'Literaturquellen richtig zitieren | Wie zitiere ich richtig? Welche Zitierweisen gilt es zu beachten? Kostenlose Beispiele zum richtigen Zitieren!'
 override_twitter_settings: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1701214957
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702474448
 ---

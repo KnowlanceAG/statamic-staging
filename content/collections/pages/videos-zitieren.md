@@ -21,102 +21,133 @@ teaser:
               color: orange-500
               hex: '#ff6606'
         text: 'Videos zitieren - Expertenguide & Generator'
-  -
-    type: set
-    attrs:
-      id: zwnaYou3
-      values:
-        type: spacer
-        padding-y: 10
-  -
-    type: set
-    attrs:
-      id: 2FC4RyrC
-      values:
-        type: teaser_icon_columns
-        columns:
-          -
-            id: wNkymqh9
-            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp;amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: Awfm0X4k
-            icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: 0f6BxR0G
-            icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp;amp; finaler Form.'
-          -
-            id: GQNX6eXT
-            icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
-    attrs:
-      id: 3kZE4d3D
-      values:
-        type: spacer
-        padding-y: 15
-  -
-    type: set
-    attrs:
-      id: 2V4ZjCGH
-      values:
-        type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
-        color: '#FF6606'
-        spacing_top: false
-  -
-    type: set
-    attrs:
-      id: WyfqrGif
-      values:
-        type: spacer
-        padding-y: 20
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: '#000!important'
-              hex: '#000'
-          -
-            type: link
-            attrs:
-              href: 'tel:##phone##'
-              target: null
-              rel: null
-        text: '##phone##'
 replicator:
+  -
+    id: lpl9063i
+    columns_replicator:
+      -
+        id: lpl906ve
+        single_col: true
+        grid:
+          -
+            id: skuAlJ1i
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'In der modernen Wissenschafts- und Forschungswelt spielen multimediale Quellen, insbesondere Videos, eine immer größere Rolle. Sie bieten einzigartige Einblicke und ergänzen traditionelle Textquellen auf dynamische Weise. Ob es sich um Dokumentarfilme, Vorträge, Interviews oder Online-Videos handelt, die korrekte Zitierung dieser visuellen Medien ist unerlässlich, um die Integrität und Authentizität akademischer Arbeiten zu wahren.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          target: null
+                          rel: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: ' ist darauf ausgerichtet, Ihnen bei der präzisen und richtlinienkonformen Zitierung von Videoquellen zu helfen. Mit einfachen Schritten ermöglicht unser Tool die Erstellung von korrekten und konsistenten Zitaten, die den Anforderungen verschiedener akademischer Zitierstile gerecht werden. Dies erleichtert nicht nur den Prozess des Zitierens, sondern stellt auch sicher, dass Ihre Arbeit eine hohe Glaubwürdigkeit und Professionalität aufweist.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(209, 213, 219)'
+                          hex: '#000'
+                    text: 'Entdecken Sie die einfache Handhabung unseres Zitationsgenerators und wie er Ihnen hilft, Videos in Ihrer akademischen Arbeit effektiv und korrekt zu zitieren.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lpl90567
+    columns_replicator:
+      -
+        id: lpl9094g
+        single_col: true
+        grid:
+          -
+            id: skuAlJ1i
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lpl90uz9
+                  values:
+                    type: citation_generator
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
   -
     id: lp8ijf6u
     columns_replicator:
@@ -604,5 +635,5 @@ og_title: 'Videos zitieren | Expertenguide & Generator'
 og_description: 'Anleitung zum richtigen Zitieren von Videos in wissenschaftlichen Arbeiten & Beispiele. Welche Videos in einer wissenschaftlichen Arbeit zitiert werden dürfen & wie die Zitierweise aussehen soll, erfahren Sie hier!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1700835461
+updated_at: 1702474554
 ---

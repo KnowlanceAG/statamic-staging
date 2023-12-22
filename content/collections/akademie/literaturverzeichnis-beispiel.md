@@ -1,5 +1,6 @@
 ---
 id: 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
+blueprint: akademie
 title: 'Literaturverzeichnis Beispiel'
 teaser:
   -
@@ -38,6 +39,7 @@ teaser:
   -
     type: set
     attrs:
+      id: 0UWnLe6Z
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -49,6 +51,7 @@ teaser:
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
   -
+    id: sxdgpAz2
     bard:
       -
         type: paragraph
@@ -85,6 +88,7 @@ replicator:
       -
         type: set
         attrs:
+          id: GNtFfKaI
           values:
             type: bilder
             assets:
@@ -95,13 +99,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Zunächst sind die Hinweise der Fakultät zu beachten, nach denen das Literaturverzeichnis erstellt werden soll. Ferner wird das Literaturverzeichnis nicht einheitlich dargestellt, sondern umfasst einen bestimmten Zitierstil.'
-      -
-        type: paragraph
-        content:
+            text: 'Zunächst sind die Hinweise der Fakultät zu beachten, nach denen das Literaturverzeichnis erstellt werden soll. Ferner wird das Literaturverzeichnis nicht einheitlich dargestellt, sondern umfasst einen bestimmten Zitierstil. Nutzen Sie unser Literaturverzeichnis Beispiel und stellen Sie eine professionelle Darstellung Ihrer Literaturquellen sicher. Auch unser '
           -
             type: text
-            text: 'Wir gehen auf die Unterschiede des Harvard oder Vancouver Stils ein und erklären Ihnen die Eigenschaften der deutschen Zitierweise oder des OSCOLA Stils. Nutzen Sie unser Literaturverzeichnis Beispiel und stellen Sie eine professionelle Darstellung Ihrer Literaturquellen sicher.'
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /zitationsgenerator
+                  target: null
+                  rel: null
+            text: 'kostenloser Zitationsgenerator'
+          -
+            type: text
+            text: ' bietet Ihnen eine wertvolle Hilfestellung bei der Erstellung der Quellenangaben für Ihre wissenschaftliche Arbeit.'
       -
         type: paragraph
         content:
@@ -187,8 +198,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623867420
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1702474951
 downloads:
   - akademie/Literaturverzeichnis.docx
 from_the_blog:
@@ -206,8 +217,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 academy_short_text_headline: 'Literaturverzeichnis Beispiel'
 academy_short_text: 'Keine Citavi-Lizenz? Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters.'
 more_templates:
