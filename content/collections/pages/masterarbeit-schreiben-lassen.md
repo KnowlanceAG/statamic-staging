@@ -157,6 +157,223 @@ replicator:
                       <p style="font-size:18px" align="center">
                       Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Masterarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Masterarbeit'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: left
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#schreiben-lassen'
+                                          target: null
+                                          rel: null
+                                    text: "Mustervorlage für Masterarbeit schreiben\_lassen"
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: left
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#schreiben-lassen'
+                                          target: null
+                                          rel: null
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: left
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#schreiben-lassen'
+                                          target: null
+                                          rel: null
+                                    text: '– Wie funktioniert die Kooperation?'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#beispiel'
+                                          target: null
+                                          rel: null
+                                    text: 'Kostenlos: Beispiel-Masterarbeit '
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#grund'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Masterarbeit: Warum sollte man sich helfen lassen?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#studium'
+                                  target: null
+                                  rel: null
+                            text: 'Mehr zum Master-Studium'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: ablauf
+                                          target: null
+                                          rel: null
+                                    text: 'Wie schreibt man eine Masterarbeit?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#formatierung'
+                                  target: null
+                                  rel: null
+                            text: 'Gliederung und Formalien einer Masterarbeit'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ki'
+                                  target: null
+                                  rel: null
+                            text: 'Masterarbeit schreiben lassen - von einer KI?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#masterthesis-schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: 'Masterthesis schreiben lassen - von einem Ghostwriter'
             show_as_card: false
         type: row
         enabled: true
@@ -260,6 +477,13 @@ replicator:
           -
             id: rMynGq5i
             bard:
+              -
+                type: set
+                attrs:
+                  id: lqp0rcsx
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
               -
                 type: heading
                 attrs:
@@ -397,6 +621,13 @@ replicator:
                   -
                     type: text
                     text: '. '
+              -
+                type: set
+                attrs:
+                  id: lqp0sg0m
+                  values:
+                    type: anchor_target
+                    anchor_name: schreiben-lassen
               -
                 type: heading
                 attrs:
@@ -1063,6 +1294,13 @@ replicator:
                     type: text
                     text: ', die Sie in jedem Aspekt des wissenschaftlichen Arbeitens unterstützen können. Auch die Plagiatsprüfung, das Korrekturlesen oder ein akademisches Lektorat  Ihrer eigenen Ergebnisse übernehmen unsere Experten für Sie.'
               -
+                type: set
+                attrs:
+                  id: lqp0ux74
+                  values:
+                    type: anchor_target
+                    anchor_name: beispiel
+              -
                 type: paragraph
                 content:
                   -
@@ -1131,6 +1369,13 @@ replicator:
           -
             id: 8ElmpGzW
             bard:
+              -
+                type: set
+                attrs:
+                  id: lqp0x6zh
+                  values:
+                    type: anchor_target
+                    anchor_name: grund
               -
                 type: heading
                 attrs:
@@ -2432,6 +2677,13 @@ replicator:
           -
             id: doLZ97bJ
             bard:
+              -
+                type: set
+                attrs:
+                  id: lqp0xnsl
+                  values:
+                    type: anchor_target
+                    anchor_name: studium
               -
                 type: heading
                 attrs:
@@ -4073,6 +4325,12 @@ replicator:
                     marks:
                       -
                         type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: '/masterarbeit-schreiben-lassen#beispiel'
+                          target: null
+                          rel: null
                     text: 'kostenloses Masterthesis-Beispiel'
                   -
                     type: text
@@ -4086,24 +4344,6 @@ replicator:
                   -
                     type: text
                     text: ' haben wir Experten für wissenschaftliches Englisch!'
-              -
-                type: set
-                attrs:
-                  id: lqdvjjo8
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
-                    ex_title: 'Englische Masterarbeit: Globalisation and Poverty'
-                    ex_fachbereich:
-                      - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                    ex_type: Masterthesis
-                    ex_pages: '50'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_text: 'Kostenlos herrunterladen'
-                    ex_button_align: justify-center
-                    ex_spacing_top: false
-                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.pdf
             show_as_card: false
         type: row
         enabled: true
@@ -4360,7 +4600,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703084560
+updated_at: 1703757509
 template: default
 use_meta_keywords: false
 no_index_page: false
