@@ -317,7 +317,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: ablauf
+                                          href: '#ablauf'
                                           target: null
                                           rel: null
                                     text: 'Wie schreibt man eine Masterarbeit?'
@@ -3295,6 +3295,13 @@ replicator:
                           hex: '#000'
                     text: ' können Sie dann als Mustervorlage nutzen.'
               -
+                type: set
+                attrs:
+                  id: lqp1cq3f
+                  values:
+                    type: anchor_target
+                    anchor_name: ki
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -4349,7 +4356,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/masterarbeit-schreiben-lassen#beispiel'
+                          href: '#beispiel'
                           target: null
                           rel: null
                     text: 'kostenloses Masterthesis-Beispiel'
@@ -4621,7 +4628,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703757638
+updated_at: 1703757765
 template: default
 use_meta_keywords: false
 no_index_page: false
