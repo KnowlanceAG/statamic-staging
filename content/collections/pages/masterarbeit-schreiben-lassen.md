@@ -3124,6 +3124,13 @@ replicator:
                     spacing_top: false
                     color: '#FF6606'
               -
+                type: set
+                attrs:
+                  id: lqp19t70
+                  values:
+                    type: anchor_target
+                    anchor_name: ablauf
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -3521,6 +3528,13 @@ replicator:
                           color: 'rgb(209, 213, 219)'
                           hex: '#000'
                     text: 'In vielen Szenarien mag KI nützlich sein, aber bei der Erstellung von Masterarbeiten sollten wir menschliche Expertise bevorzugen.'
+              -
+                type: set
+                attrs:
+                  id: lqp1a2g5
+                  values:
+                    type: anchor_target
+                    anchor_name: formatierung
               -
                 type: heading
                 attrs:
@@ -3992,6 +4006,13 @@ replicator:
           -
             id: 9UihMIxF
             bard:
+              -
+                type: set
+                attrs:
+                  id: lqp1aeqy
+                  values:
+                    type: anchor_target
+                    anchor_name: masterthesis-schreiben-lassen
               -
                 type: heading
                 attrs:
@@ -4600,7 +4621,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703757509
+updated_at: 1703757638
 template: default
 use_meta_keywords: false
 no_index_page: false
