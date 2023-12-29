@@ -1178,7 +1178,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '#masterthesis-schreiben-lassen'
+                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
                                           target: null
                                           rel: null
                                     text: 'Masterthesis schreiben lassen'
@@ -2518,7 +2518,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703847561
+updated_at: 1703847667
 template: default
 use_meta_keywords: false
 no_index_page: false
