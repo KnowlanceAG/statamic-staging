@@ -1712,6 +1712,13 @@ replicator:
                                           rel: null
                                     text: 'Protokoll schreiben lassen'
               -
+                type: set
+                attrs:
+                  id: lqqiy4ow
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
                 type: paragraph
                 content:
                   -
@@ -2518,7 +2525,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703847667
+updated_at: 1703847754
 template: default
 use_meta_keywords: false
 no_index_page: false
