@@ -751,54 +751,37 @@ replicator:
                           hex: '#000'
                     text: 'Bei indirekten Zitaten setzen Sie ein „vgl.“ davor und geben ebenfalls die Seitenzahl an, also zum Beispiel so:'
               -
-                type: table
+                type: blockquote
                 content:
                   -
-                    type: table_row
+                    type: paragraph
                     content:
                       -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                        type: text
+                        text: 'In einigen Publikationen wird davon abgeraten, Fußnoten zu verwenden '
+                      -
+                        type: text
+                        marks:
                           -
-                            type: blockquote
-                            content:
-                              -
-                                type: blockquote
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'In einigen Publikationen wird davon abgeraten, Fußnoten zu verwenden '
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: (
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: black
-                                              hex: '#000'
-                                        text: 'vgl. Müller: 131'
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: ).
+                            type: bold
+                        text: (
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'vgl. Müller: 131'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: ).
               -
                 type: set
                 attrs:
@@ -1177,51 +1160,40 @@ replicator:
                           hex: '#000'
                     text: ' wandeln die MLA-Zitierweise daher ab und verlangen zusätzlich die Angabe der Jahreszahl. Das angepasste Zitierschema sieht bei einem direkten Zitat dann folgendermaßen aus:'
               -
-                type: table
+                type: blockquote
                 content:
                   -
-                    type: table_row
+                    type: paragraph
                     content:
                       -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                        type: text
+                        text: '„Fußnoten sind nicht üblich“ '
+                      -
+                        type: text
+                        marks:
                           -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '„Fußnoten sind nicht üblich“ '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: (
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Müller 2002: 131'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: )
-                              -
-                                type: text
-                                text: .
+                            type: bold
+                        text: (
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'Müller 2002: 131'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: )
+                      -
+                        type: text
+                        text: .
               -
                 type: paragraph
                 content:
@@ -1235,53 +1207,40 @@ replicator:
                           hex: '#000'
                     text: 'Bei indirekten Zitaten sieht es entsprechend so aus:'
               -
-                type: table
+                type: blockquote
                 content:
                   -
-                    type: table_row
+                    type: paragraph
                     content:
                       -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                        type: text
+                        text: 'In einigen Publikationen wird davon abgeraten, Fußnoten zu verwenden '
+                      -
+                        type: text
+                        marks:
                           -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'In einigen Publikationen wird davon abgeraten, Fußnoten zu verwenden '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: (
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'vgl. Müller 2002: 131'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: )
-                              -
-                                type: text
-                                text: .
-              -
-                type: paragraph
+                            type: bold
+                        text: (
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'vgl. Müller 2002: 131'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: )
+                      -
+                        type: text
+                        text: .
               -
                 type: set
                 attrs:
@@ -1429,109 +1388,18 @@ replicator:
                           hex: '#000'
                     text: ' verwenden. In solchen Fällen nennen sie zur Unterscheidung in Anführungsstrichen noch den Anfang des Werktitels oder ein wichtiges Wort aus dem Titel. Dabei ist es egal, ob es sich um Monografien oder um Beiträge aus Zeitschriften handelt. Wenn Sie beispielsweise aus den folgenden zwei verschiedenen Titeln von Kuhl zitieren, dann geht der konkrete Titel nicht aus dem Namen des Autors hervor. Wenn sie also im MLA-Literaturverzeichnis die folgenden zwei Titel haben:'
               -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Müller, J. '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: italic
-                                text: Motivation
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: ', Konflikt und Handlungskontrolle'
-                              -
-                                type: text
-                                text: ', Berlin: Springer, '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: '1983'
-                              -
-                                type: text
-                                text: .
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Müller, J. '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: W
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: italic
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: ille
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: italic
-                                text: ' und Freiheitserleben: Formen der Selbststeuerung,'
-                              -
-                                type: text
-                                text: ' Göttingen: Hogrefe, '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: '1994'
-                              -
-                                type: text
-                                text: .
+                type: set
+                attrs:
+                  id: lqwlf84x
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                        Müller, J. <b>Motivation</b>, Konflikt und Handlungskontrolle, Berlin: Springer, 1983.<br><br>
+
+                        Müller, J. <b>Wille</b> und Freiheitserleben: Formen der Selbststeuerung, Göttingen: Hogrefe, 1994.
+
+                      </div>
               -
                 type: paragraph
                 content:
@@ -1565,43 +1433,32 @@ replicator:
                           hex: '#000'
                     text: ' aus. Dieses Wort geben Sie zusätzlich zum Autornamen an (in Anführungsstrichen). Das Werk von 1994 könnten Sie dann beispielsweise so angeben:'
               -
-                type: table
+                type: blockquote
                 content:
                   -
-                    type: table_row
+                    type: paragraph
                     content:
                       -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                        type: text
+                        text: 'Es handelt sich beim '
+                      -
+                        type: text
+                        marks:
                           -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Es handelt sich beim '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Willen '
-                              -
-                                type: text
-                                text: 'um „eine Kategorie kooperierender psychischer Funktionen, welche bei Vorliegen von näher zu bestimmenden Realisierungsschwierigkeiten die zeitliche, räumliche, inhaltliche und stilistische Koordination einer großen Zahl einzelner Teilfunktionen innerhalb und zwischen verschiedenen Subsystemen und -funktionen wie Wahrnehmung, Aufmerksamkeit, Kognition, Emotion, Motivation, Aktivierung (‚Temperament‘) und Bewegungssteuerung (Motorik) aufgrund eines einheitlichen Steuerungsprinzips vermittelt, das wir als ‚Absicht‘ oder ‚Ziel‘ bezeichnen“ (Müller, „'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Wille
-                              -
-                                type: text
-                                text: '“, 12 f.).'
+                            type: bold
+                        text: 'Willen '
+                      -
+                        type: text
+                        text: 'um „eine Kategorie kooperierender psychischer Funktionen, welche bei Vorliegen von näher zu bestimmenden Realisierungsschwierigkeiten die zeitliche, räumliche, inhaltliche und stilistische Koordination einer großen Zahl einzelner Teilfunktionen innerhalb und zwischen verschiedenen Subsystemen und -funktionen wie Wahrnehmung, Aufmerksamkeit, Kognition, Emotion, Motivation, Aktivierung (‚Temperament‘) und Bewegungssteuerung (Motorik) aufgrund eines einheitlichen Steuerungsprinzips vermittelt, das wir als ‚Absicht‘ oder ‚Ziel‘ bezeichnen“ (Müller, „'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: Wille
+                      -
+                        type: text
+                        text: '“, 12 f.).'
               -
                 type: paragraph
                 content:
@@ -1615,57 +1472,46 @@ replicator:
                           hex: '#000'
                     text: 'Das Werk von 1983 würden Sie dann entsprechend durch ein anderes Schlagwort kennzeichnen, ebenfalls wieder in Anführungszeichen:'
               -
-                type: table
+                type: blockquote
                 content:
                   -
-                    type: table_row
+                    type: paragraph
                     content:
                       -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                        type: text
+                        text: 'Es wurde ein Modell der Handlungskontrolle entwickelt, das erklärt, wie Menschen bestimmte Handlungsziele durchhalten und gegenüber störenden und ablenkenden Einflüssen durchsetzen ('
+                      -
+                        type: text
+                        marks:
                           -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Es wurde ein Modell der Handlungskontrolle entwickelt, das erklärt, wie Menschen bestimmte Handlungsziele durchhalten und gegenüber störenden und ablenkenden Einflüssen durchsetzen ('
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'vgl. Müller, „'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: Motivation
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: '“, 183 f.'
-                              -
-                                type: text
-                                text: ).
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'vgl. Müller, „'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: Motivation
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: '“, 183 f.'
+                      -
+                        type: text
+                        text: ).
               -
                 type: set
                 attrs:
@@ -1720,57 +1566,46 @@ replicator:
                           hex: '#000'
                     text: '“ würde dann folgendermaßen aussehen:'
               -
-                type: table
+                type: blockquote
                 content:
                   -
-                    type: table_row
+                    type: paragraph
                     content:
                       -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                        type: text
+                        text: 'Die automatisierte Sprache führt in der Dichtkunst zu neuen Formen ('
+                      -
+                        type: text
+                        marks:
                           -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die automatisierte Sprache führt in der Dichtkunst zu neuen Formen ('
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'vgl. „'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: Robotersprache
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: '“, 12'
-                              -
-                                type: text
-                                text: ).
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'vgl. „'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: Robotersprache
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: '“, 12'
+                      -
+                        type: text
+                        text: ).
               -
                 type: set
                 attrs:
@@ -1805,34 +1640,23 @@ replicator:
                           hex: '#000'
                     text: 'Wenn es keine Seitenzahlen gibt, wird diese Angabe weggelassen. Dies ist häufig bei Online-Dokumenten der Fall. Wenn Sie nach MLA zitieren und eine Website als Quelle haben, sieht das im Fließtext so aus. Sie geben lediglich den Autornamen an, der den Online-Text verfasst hat. Eine Seitenzahl gibt es nicht, also können Sie auch keine angeben:'
               -
-                type: table
+                type: blockquote
                 content:
                   -
-                    type: table_row
+                    type: paragraph
                     content:
                       -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                        type: text
+                        text: 'Laut Umfragеn dеr „Equal Rights Coalition“, еinеr Organisation, diе wiеdеr vеrsucht, das ERA in diе Vеrfassung aufzunеhmеn, glaubеn 96% Prozеnt dеr US-amеrikanischen Bevölkerung, еin solchеs Gеsеtz sеi bеrеits in Kraft ('
+                      -
+                        type: text
+                        marks:
                           -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Laut Umfragеn dеr „Equal Rights Coalition“, еinеr Organisation, diе wiеdеr vеrsucht, das ERA in diе Vеrfassung aufzunеhmеn, glaubеn 96% Prozеnt dеr US-amеrikanischen Bevölkerung, еin solchеs Gеsеtz sеi bеrеits in Kraft ('
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Biddle
-                              -
-                                type: text
-                                text: ).
+                            type: bold
+                        text: Biddle
+                      -
+                        type: text
+                        text: ).
               -
                 type: paragraph
                 content:
@@ -3349,7 +3173,7 @@ og_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
 og_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704214358
+updated_at: 1704214891
 schema_objects: |-
   <script type="application/ld+json">
   {
