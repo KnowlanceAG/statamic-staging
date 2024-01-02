@@ -1680,6 +1680,111 @@ replicator:
                   id: lqwh7qeu
                   values:
                     type: anchor_target
+                    anchor_name: ohne-autor
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'MLA-Zitierweise: Texte ohne Autor'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Ähnlich verfahren Sie, wenn Texte keinen Autor oder Herausgeber haben. Das ist zwar selten, aber es kann zum Beispiel passieren, dass Sie einen anonymen Aufruf zitieren. In solchen Fällen geben Sie nur ein prägnantes Wort aus dem Titel sowie die Seitenzahl an. Ein Zitat aus dem Werk „'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Robotersprache in der Lyrik'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: '“ würde dann folgendermaßen aussehen:'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die automatisierte Sprache führt in der Dichtkunst zu neuen Formen ('
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: 'vgl. „'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: Robotersprache
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: black
+                                      hex: '#000'
+                                text: '“, 12'
+                              -
+                                type: text
+                                text: ).
+              -
+                type: set
+                attrs:
+                  id: lqwkzirs
+                  values:
+                    type: anchor_target
                     anchor_name: ohne-seitenzahl
               -
                 type: heading
@@ -3252,7 +3357,7 @@ og_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
 og_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704213816
+updated_at: 1704213971
 schema_objects: |-
   <script type="application/ld+json">
   {
