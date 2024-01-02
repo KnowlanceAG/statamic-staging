@@ -1,7 +1,7 @@
 ---
 id: a2561773-bf59-471c-8de4-118a2bb0d8fc
 blueprint: pages
-title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator (Dupliziert)'
+title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
 teaser:
   -
     type: heading
@@ -556,10 +556,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/medienwissenschaften
+                          href: /ghostwriter/sprachwissenschaften
                           target: null
                           rel: null
-                    text: 'Medienwissenschaften Ghostwriter'
+                    text: 'Sprachwissenschaften Ghostwriter'
                   -
                     type: text
                     marks:
@@ -580,10 +580,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/germanistik-ghostwriter
+                          href: /ghostwriter/geschichte
                           target: null
                           rel: null
-                    text: 'Germanistik wissen Ghostwriter'
+                    text: 'Geschichte wissen Ghostwriter'
                   -
                     type: text
                     marks:
@@ -3173,7 +3173,7 @@ og_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
 og_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704214891
+updated_at: 1704215367
 schema_objects: |-
   <script type="application/ld+json">
   {
