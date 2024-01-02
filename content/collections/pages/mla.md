@@ -143,23 +143,29 @@ replicator:
                     type: text
                     text: Inhaltsverzeichnis
               -
-                type: paragraph
+                type: bullet_list
                 content:
                   -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: '#fachgebiet'
-                          target: null
-                          rel: null
-                    text: 'Nach MLA zitieren in der Abschlussarbeit: Häufige Fachgebiete'
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: black
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#fachgebiet'
+                                  target: null
+                                  rel: null
+                            text: 'Nach MLA zitieren in der Abschlussarbeit: Häufige Fachgebiete'
               -
                 type: bullet_list
                 content:
@@ -225,7 +231,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: ohne-jahreszahl
+                                          href: '#ohne-jahreszahl'
                                           target: null
                                           rel: null
                                     text: 'MLA-Style: Zitieren ohne Jahreszahl'
@@ -3246,7 +3252,7 @@ og_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
 og_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704212536
+updated_at: 1704213816
 schema_objects: |-
   <script type="application/ld+json">
   {
