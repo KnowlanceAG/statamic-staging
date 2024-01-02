@@ -143,6 +143,24 @@ replicator:
                     type: text
                     text: Inhaltsverzeichnis
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: '#fachgebiet'
+                          target: null
+                          rel: null
+                    text: 'Nach MLA zitieren in der Abschlussarbeit: Häufige Fachgebiete'
+              -
                 type: bullet_list
                 content:
                   -
@@ -159,22 +177,58 @@ replicator:
                                 attrs:
                                   color: black
                                   hex: '#000'
-                            text: 'Nach MLA zitieren in der Abschlussarbeit: Häufige Fachgebiete'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
                               -
-                                type: textColor
+                                type: link
                                 attrs:
-                                  color: black
-                                  hex: '#000'
+                                  href: '#regeln'
+                                  target: null
+                                  rel: null
                             text: 'MLA zitieren: Was müssen Sie beachten?'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: black
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#autoren'
+                                          target: null
+                                          rel: null
+                                    text: 'Autorenanzahl im Fließtext'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: black
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: ohne-jahreszahl
+                                          target: null
+                                          rel: null
+                                    text: 'MLA-Style: Zitieren ohne Jahreszahl'
                   -
                     type: list_item
                     content:
@@ -189,36 +243,12 @@ replicator:
                                 attrs:
                                   color: black
                                   hex: '#000'
-                            text: 'Wie viele Autoren werden genannt?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
                               -
-                                type: textColor
+                                type: link
                                 attrs:
-                                  color: black
-                                  hex: '#000'
-                            text: 'MLA-Style: Zitieren ohne Jahreszahl'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: black
-                                  hex: '#000'
+                                  href: '#hochschule'
+                                  target: null
+                                  rel: null
                             text: 'Zitieren nach MLA: Was erwarten die Hochschulen?'
                   -
                     type: list_item
@@ -234,6 +264,12 @@ replicator:
                                 attrs:
                                   color: black
                                   hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#fliesstext'
+                                  target: null
+                                  rel: null
                             text: 'Kurzbelege im Fließtext: Mehrere Quellen von einem Autor'
                   -
                     type: list_item
@@ -249,6 +285,12 @@ replicator:
                                 attrs:
                                   color: black
                                   hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ohne-autor'
+                                  target: null
+                                  rel: null
                             text: 'MLA-Zitierweise: Texte ohne Autor'
                   -
                     type: list_item
@@ -264,6 +306,12 @@ replicator:
                                 attrs:
                                   color: black
                                   hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ohne-seitenzahl'
+                                  target: null
+                                  rel: null
                             text: 'MLA-Style zitieren ohne Seitenzahl'
                   -
                     type: list_item
@@ -279,7 +327,164 @@ replicator:
                                 attrs:
                                   color: black
                                   hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: '#literaturverzeichnis'
+                                  target: null
+                                  rel: null
                             text: MLA-Literaturverzeichnis
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: L
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#literaturverzeichnis-einem-autor'
+                                          target: null
+                                          rel: null
+                                    text: 'iteraturverzeichnis von einem Autor'
+                              -
+                                type: bullet_list
+                                content:
+                                  -
+                                    type: list_item
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: '#000!important'
+                                                  hex: '#000'
+                                              -
+                                                type: link
+                                                attrs:
+                                                  href: '#monografie'
+                                                  target: null
+                                                  rel: null
+                                            text: 'Monografie von einem Autor'
+                                  -
+                                    type: list_item
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: '#000!important'
+                                                  hex: '#000'
+                                              -
+                                                type: link
+                                                attrs:
+                                                  href: '#sammelband'
+                                                  target: null
+                                                  rel: null
+                                            text: 'Beitrag in einem Sammelband'
+                                  -
+                                    type: list_item
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: '#000!important'
+                                                  hex: '#000'
+                                              -
+                                                type: link
+                                                attrs:
+                                                  href: '#fachzeitschriften'
+                                                  target: null
+                                                  rel: null
+                                            text: 'Artikel aus Fachzeitschriften'
+                                  -
+                                    type: list_item
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: '#000!important'
+                                                  hex: '#000'
+                                              -
+                                                type: link
+                                                attrs:
+                                                  href: '#internetquellen'
+                                                  target: null
+                                                  rel: null
+                                            text: Webseite/Internetquelle
+                                  -
+                                    type: list_item
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: '#000!important'
+                                                  hex: '#000'
+                                              -
+                                                type: link
+                                                attrs:
+                                                  href: '#mehrere-beitraege'
+                                                  target: null
+                                                  rel: null
+                                            text: 'Mehrere Beiträge von einem Autor'
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: '#000!important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#literaturverzeichnis-mehreren-autoren'
+                                          target: null
+                                          rel: null
+                                    text: 'Beiträge von mehreren Autoren'
             show_as_card: false
         type: row
         enabled: true
@@ -298,7 +503,7 @@ replicator:
                   id: lixf5ptf
                   values:
                     type: anchor_target
-                    anchor_name: definition
+                    anchor_name: fachgebiet
               -
                 type: heading
                 attrs:
@@ -348,7 +553,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/ghostwriter/medienwissenschaften'
+                          href: /ghostwriter/medienwissenschaften
                           target: null
                           rel: null
                     text: 'Medienwissenschaften Ghostwriter'
@@ -372,7 +577,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/ghostwriter/germanistik-ghostwriter'
+                          href: /ghostwriter/germanistik-ghostwriter
                           target: null
                           rel: null
                     text: 'Germanistik wissen Ghostwriter'
@@ -602,7 +807,7 @@ replicator:
                   id: ln2buudd
                   values:
                     type: anchor_target
-                    anchor_name: vorgaben
+                    anchor_name: autoren
               -
                 type: heading
                 attrs:
@@ -818,7 +1023,7 @@ replicator:
                   id: ln2by56o
                   values:
                     type: anchor_target
-                    anchor_name: im-text
+                    anchor_name: ohne-jahreszahl
               -
                 type: heading
                 attrs:
@@ -856,7 +1061,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/zitationsgenerator/apa-zitierstil'
+                          href: /zitationsgenerator/apa-zitierstil
                           target: null
                           rel: null
                     text: 'APA Zitierweise'
@@ -880,7 +1085,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/zitationsgenerator/harvard-zitieren'
+                          href: /zitationsgenerator/harvard-zitieren
                           target: null
                           rel: null
                     text: Harvard-Stil
@@ -904,7 +1109,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/zitationsgenerator/chicago-zitierweise'
+                          href: /chicago-zitierweise
                           target: null
                           rel: null
                     text: 'Chicago Zitierweise'
@@ -961,8 +1166,8 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.tu-chemnitz.de/phil/imf/studium/richtlinien/Zitierrichtlinien-MLA.pdf'
-                          target: null
-                          rel: null
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Manche deutsche Hochschulen'
                   -
                     type: text
@@ -1085,7 +1290,7 @@ replicator:
                   id: ln2bujpp
                   values:
                     type: anchor_target
-                    anchor_name: literaturverzeichnis
+                    anchor_name: hochschule
               -
                 type: heading
                 attrs:
@@ -1178,7 +1383,7 @@ replicator:
                   id: lqwh4z84
                   values:
                     type: anchor_target
-                    anchor_name: s
+                    anchor_name: fliesstext
               -
                 type: heading
                 attrs:
@@ -1469,7 +1674,7 @@ replicator:
                   id: lqwh7qeu
                   values:
                     type: anchor_target
-                    anchor_name: s
+                    anchor_name: ohne-seitenzahl
               -
                 type: heading
                 attrs:
@@ -1543,7 +1748,7 @@ replicator:
                   id: lqwhd43x
                   values:
                     type: anchor_target
-                    anchor_name: k
+                    anchor_name: literaturverzeichnis
               -
                 type: heading
                 attrs:
@@ -1591,9 +1796,16 @@ replicator:
                     html: |-
                       <div style="border: 4px solid #FF660A; padding: 20px;"><b>MLA Literaturverzeichnis Beispiel:</b><br><br>
                       <span style="background-color: #91C6E8;">Müller,</span><span style="background-color: #C891E8;">J.</span><span style="background-color: #CAE891;">Motivation, Konflikt und Handlungskontrolle.</span><span style="background-color: #EFA052;">Berlin: Springer,</span><span style="background-color: #E87667;">2002.</span>
-                      <b>Format:</b><br><br>
+                      <br><br><b>Format:</b><br><br>
                       <span style="background-color: #91C6E8;">Nachname, </span><span style="background-color: #C891E8;">Vorname.</span><span style="background-color: #CAE891;">Titel.</span><span style="background-color: #EFA052;">Verlagsort: Verlag,</span><span style="background-color: #E87667;">Veröffentlichungsjahr.</span>
                       </div>
+              -
+                type: set
+                attrs:
+                  id: lqwk21rn
+                  values:
+                    type: anchor_target
+                    anchor_name: literaturverzeichnis-einem-autor
               -
                 type: heading
                 attrs:
@@ -1602,6 +1814,8 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -1620,6 +1834,13 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Im Fließtext geben Sie Nachname und Seitenzahl in Klammern an: (Müller: 131). Aus dem Literaturverzeichnis geht dann hervor, um welche Quelle genau es sich handelt. Möglich sind folgende Varianten:'
+              -
+                type: set
+                attrs:
+                  id: lqwjsoez
+                  values:
+                    type: anchor_target
+                    anchor_name: monografie
               -
                 type: heading
                 attrs:
@@ -1847,6 +2068,13 @@ replicator:
                           hex: '#000'
                     text: 'Unterschiedliche Auflagen werden nicht genannt.'
               -
+                type: set
+                attrs:
+                  id: lqwjt02z
+                  values:
+                    type: anchor_target
+                    anchor_name: buch
+              -
                 type: heading
                 attrs:
                   level: 4
@@ -2069,6 +2297,13 @@ replicator:
                           hex: '#000'
                     text: ' angeben.'
               -
+                type: set
+                attrs:
+                  id: lqwjtaea
+                  values:
+                    type: anchor_target
+                    anchor_name: fachzeitschrift
+              -
                 type: heading
                 attrs:
                   level: 4
@@ -2259,6 +2494,13 @@ replicator:
                           color: black
                           hex: '#000'
                     text: .
+              -
+                type: set
+                attrs:
+                  id: lqwjtm4p
+                  values:
+                    type: anchor_target
+                    anchor_name: internetquelle
               -
                 type: heading
                 attrs:
@@ -2454,9 +2696,16 @@ replicator:
                                 type: text
                                 text: ', http://www.huffingtonpost.com/tabby-biddlе/wait-womеn-dont-havе-еquab6098120.html.'
               -
+                type: set
+                attrs:
+                  id: lqwjuspn
+                  values:
+                    type: anchor_target
+                    anchor_name: mehrere-beitraege
+              -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 4
                 content:
                   -
                     type: text
@@ -2642,13 +2891,17 @@ replicator:
                                 type: text
                                 text: .
               -
+                type: set
+                attrs:
+                  id: lqwjvbaa
+                  values:
+                    type: anchor_target
+                    anchor_name: literaturverzeichnis-mehreren-autoren
+              -
                 type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
-                    text: "\_"
                   -
                     type: text
                     marks:
@@ -2866,9 +3119,6 @@ replicator:
                           color: black
                           hex: '#000'
                     text: 'nur den ersten Namen und ansonsten „et al.“.'
-              -
-                type: paragraph
-                content:
                   -
                     type: text
                     text: "\_"
@@ -2985,18 +3235,18 @@ sitemap_active: true
 breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
-meta_title: 'Vancouver-Zitierstil in Abschlussarbeiten | Beispiele & Generator'
-meta_description: 'Vancouver-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+meta_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
+meta_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Vancouver-Zitierstil in Abschlussarbeiten | Beispiele & Generator'
-og_description: 'Vancouver-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+og_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
+og_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704210925
+updated_at: 1704212536
 schema_objects: |-
   <script type="application/ld+json">
   {
