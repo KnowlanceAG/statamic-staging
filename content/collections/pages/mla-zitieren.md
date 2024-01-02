@@ -3163,17 +3163,17 @@ breadcrumbs_active: true
 template: default
 parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
 meta_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
-meta_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+meta_description: 'MLA-Zitierweise richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 og_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
-og_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+og_description: 'MLA-Zitierweise richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704216265
+updated_at: 1704216305
 schema_objects: |-
   <script type="application/ld+json">
   {
