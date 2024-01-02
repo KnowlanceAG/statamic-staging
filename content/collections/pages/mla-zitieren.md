@@ -707,48 +707,37 @@ replicator:
                           hex: '#000'
                     text: '. Hier ein Beispiel:'
               -
-                type: table
+                type: blockquote
                 content:
                   -
-                    type: table_row
+                    type: paragraph
                     content:
                       -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
+                        type: text
+                        text: '„Fußnoten sind nicht üblich“ '
+                      -
+                        type: text
+                        marks:
                           -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '„Fußnoten sind nicht üblich“ '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: (
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Müller: 131'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: ).
+                            type: bold
+                        text: (
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'Müller: 131'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: ).
               -
                 type: paragraph
                 content:
@@ -776,34 +765,40 @@ replicator:
                           background: null
                         content:
                           -
-                            type: paragraph
+                            type: blockquote
                             content:
                               -
-                                type: text
-                                text: 'In einigen Publikationen wird davon abgeraten, Fußnoten zu verwenden '
-                              -
-                                type: text
-                                marks:
+                                type: blockquote
+                                content:
                                   -
-                                    type: bold
-                                text: (
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'vgl. Müller: 131'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: ).
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'In einigen Publikationen wird davon abgeraten, Fußnoten zu verwenden '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: (
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: black
+                                              hex: '#000'
+                                        text: 'vgl. Müller: 131'
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: bold
+                                        text: ).
               -
                 type: set
                 attrs:
@@ -3354,7 +3349,7 @@ og_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
 og_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704214193
+updated_at: 1704214358
 schema_objects: |-
   <script type="application/ld+json">
   {
