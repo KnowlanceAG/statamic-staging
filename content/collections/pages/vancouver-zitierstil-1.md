@@ -1,5 +1,6 @@
 ---
 id: a2561773-bf59-471c-8de4-118a2bb0d8fc
+published: false
 blueprint: pages
 title: 'Vancouver-Zitierstil in Abschlussarbeiten | Beispiele & Generator (Dupliziert)'
 teaser:
@@ -1618,7 +1619,7 @@ og_title: 'Vancouver-Zitierstil in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Vancouver-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702656289
+updated_at: 1704206874
 schema_objects: |-
   <script type="application/ld+json">
   {
