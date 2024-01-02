@@ -532,7 +532,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Zitieren nach MLA-Style ist hauptsächlich im Bereich der Sprach-, Sozial- und Kulturwissenschaften üblich. Das liegt daran, dass die Modern Language Association ein Berufsverband von Sprachwissenschaftlern ist. Dementsprechend gelten die MLA-Richtlinien besonders für Texte aus diesen Fachgebieten. Welche Zitationsweise Sie in Ihren Belegarbeiten verwenden müssen, regelt jeweils Ihr Institut. Erkundigen Sie sich also unbedingt rechtzeitig, welche Regeln gelten.'
+                    text: 'Zitieren nach MLA-Style ist hauptsächlich im Bereich der Sprach-, Sozial- und Kulturwissenschaften üblich. Das liegt daran, dass die Modern Language Association ein Berufsverband von Sprachwissenschaftlern ist. Dementsprechend gelten die MLA-Richtlinien besonders für Texte aus diesen Fachgebieten. Welche Zitationsweise Sie in Ihren wissenschaftlichen Arbeiten verwenden müssen, regelt jeweils Ihr Institut. Erkundigen Sie sich also unbedingt rechtzeitig, welche Regeln gelten.'
               -
                 type: paragraph
                 content:
@@ -1042,7 +1042,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/apa-zitierstil
+                          href: '/zitationsgenerator/apa-zitierstil?citationStyle=apa_6th_edition'
                           target: null
                           rel: null
                     text: 'APA Zitierweise'
@@ -1066,7 +1066,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/harvard-zitieren
+                          href: '/zitationsgenerator/harvard-zitieren?citationStyle=harvard_12th_edition'
                           target: null
                           rel: null
                     text: Harvard-Stil
@@ -1090,7 +1090,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /chicago-zitierweise
+                          href: '/zitationsgenerator/chicago-zitierweise?citationStyle=chicago_17th_edition'
                           target: null
                           rel: null
                     text: 'Chicago Zitierweise'
@@ -3173,7 +3173,7 @@ og_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
 og_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704215367
+updated_at: 1704216248
 schema_objects: |-
   <script type="application/ld+json">
   {
