@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'MLA-Zitierstil - praktische Beispiele & Generator'
+        text: 'MLA-Zitierweise - praktische Beispiele & Generator'
 replicator:
   -
     id: lpl97bt5
@@ -3173,7 +3173,7 @@ og_title: 'Nach MLA zitieren in der Abschlussarbeit | Beispiele & Generator'
 og_description: 'MLA-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704216248
+updated_at: 1704216265
 schema_objects: |-
   <script type="application/ld+json">
   {
