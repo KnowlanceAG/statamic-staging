@@ -108,7 +108,7 @@ teaser:
         text: '##phone##'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704320838
+updated_at: 1704321237
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1455,7 +1455,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Weitere wichtigen Arbeiten & Fachbereiche'
+                    text: 'Weitere wichtigen Fachbereiche & Arbeiten'
               -
                 type: set
                 attrs:
@@ -1709,18 +1709,6 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/sozialwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Sozialwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
                                           href: /ghostwriter/soziologie
                                           target: null
                                           rel: null
@@ -1781,18 +1769,6 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Medienwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/bwl
-                                          target: null
-                                          rel: null
-                                    text: 'BWL Ghostwriter'
                                   -
                                     type: hard_break
                                   -
@@ -1959,46 +1935,10 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/medizin
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Medizin'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
                                           href: /ghostwriter/pflegewissenschaften
                                           target: null
                                           rel: null
                                     text: 'Pflegewissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/psychologie
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Psychologie'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/zahnmedizin
-                                          target: null
-                                          rel: null
-                                    text: 'Zahnmedizin Ghostwriter'
                       -
                         id: ljoh1weq
                         text: Arbeiten
@@ -2113,68 +2053,6 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Bachelorarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Masterarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                           hex: '#000'
                                       -
@@ -2184,37 +2062,6 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Masterthesis schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/doktorarbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Doktorarbeit schreiben lassen'
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -2434,99 +2281,6 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Essay schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/hausarbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Hausarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/facharbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Facharbeit schreiben lassen'
-                                  -
-                                    type: hard_break
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/seminararbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Seminararbeit schreiben lassen'
                                   -
                                     type: hard_break
                                     marks:
