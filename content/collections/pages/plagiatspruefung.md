@@ -1495,7 +1495,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704321667
+updated_at: 1704321676
 template: with-side-bar
 meta_title: 'Plagiatsprüfung - Mehr Sicherheit für Ihre Abschlussarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Plagiatsprüfung: Leistungen, Ablauf, Kosten & Preise.'
