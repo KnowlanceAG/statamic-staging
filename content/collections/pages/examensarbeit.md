@@ -1040,6 +1040,18 @@ replicator:
                                       -
                                         type: link
                                         attrs:
+                                          href: /ghostwriter/jura
+                                          target: null
+                                          rel: null
+                                    text: 'Jura Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
                                           href: /ghostwriter/philosophie
                                           target: null
                                           rel: null
@@ -2813,7 +2825,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703848154
+updated_at: 1704408395
 meta_title: 'Examensarbeit schreiben lassen | Hilfe vom Ghostwriter'
 meta_description: 'Examensarbeit Ghostwriter | Examensarbeit schreiben lassen ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012!'
 use_meta_keywords: false
