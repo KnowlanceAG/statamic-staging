@@ -928,6 +928,18 @@ replicator:
                                       -
                                         type: link
                                         attrs:
+                                          href: /ghostwriter/jura
+                                          target: null
+                                          rel: null
+                                    text: 'Jura Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
                                           href: /ghostwriter/philosophie
                                           target: null
                                           rel: null
@@ -1711,6 +1723,8 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Protokoll schreiben lassen'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -2525,7 +2539,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703847777
+updated_at: 1704406599
 template: default
 use_meta_keywords: false
 no_index_page: false
