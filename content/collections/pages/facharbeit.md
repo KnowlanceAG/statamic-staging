@@ -2416,8 +2416,6 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Protokoll schreiben lassen'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -4113,7 +4111,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704321296
+updated_at: 1704403360
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -4167,4 +4165,5 @@ sitemap_active: true
 alternative_page_title: 'Facharbeit schreiben lassen'
 breadcrumbs_active: true
 page_title: 'Facharbeit schreiben lassen'
+jumpmark: mutlu@gwriters.net
 ---
