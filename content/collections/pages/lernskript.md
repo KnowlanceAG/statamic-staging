@@ -980,6 +980,18 @@ replicator:
                                       -
                                         type: link
                                         attrs:
+                                          href: /ghostwriter/jura
+                                          target: null
+                                          rel: null
+                                    text: 'Jura Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
                                           href: /ghostwriter/philosophie
                                           target: null
                                           rel: null
@@ -1764,6 +1776,8 @@ replicator:
                                           rel: null
                                     text: 'Protokoll schreiben lassen'
               -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1801,7 +1815,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1703848599
+updated_at: 1704408739
 template: default
 meta_title: 'Lernskript erstellen? Jetzt vom Ghostwriter helfen lassen!'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
