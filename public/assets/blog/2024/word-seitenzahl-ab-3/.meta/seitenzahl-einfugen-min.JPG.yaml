@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'word seitennummerierung'
 size: 23660
 last_modified: 1704457887
 width: 878
