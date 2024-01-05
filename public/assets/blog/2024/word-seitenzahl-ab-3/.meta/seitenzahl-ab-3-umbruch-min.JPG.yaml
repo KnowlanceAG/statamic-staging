@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'word seitenzahl ab seite 3'
 size: 50076
 last_modified: 1704459276
 width: 888
