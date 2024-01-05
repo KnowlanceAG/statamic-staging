@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'word seitenzahlen einfügen'
 size: 36217
 last_modified: 1704457890
 width: 896
