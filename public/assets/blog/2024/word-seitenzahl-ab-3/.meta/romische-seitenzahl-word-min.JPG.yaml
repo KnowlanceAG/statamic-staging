@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'word seitenzahlen nicht fortlaufend'
 size: 25468
 last_modified: 1704459712
 width: 445
