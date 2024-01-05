@@ -141,7 +141,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698101074
+updated_at: 1704413105
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -589,12 +589,573 @@ replicator:
             id: eGIeRfvX
             bard:
               -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
+              -
                 type: set
                 attrs:
                   id: ljoh1u6i
                   values:
                     type: custom_link_list
                     raster:
+                      -
+                        id: ljoh22s8
+                        text: Fachrichtungen
+                        eintraege:
+                          -
+                            id: ljoh2bsp
+                            headline: 'Technische Fachrichtungen'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/architektur
+                                          target: null
+                                          rel: null
+                                    text: 'Architektur Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/bauingenieurwesen
+                                          target: null
+                                          rel: null
+                                    text: 'Bauingenieurwesen Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/elektrotechnik
+                                          target: null
+                                          rel: null
+                                    text: 'Elektrotechnik Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/maschinenbau
+                                          target: null
+                                          rel: null
+                                    text: 'Maschinenbau Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/informatik
+                                          target: null
+                                          rel: null
+                                    text: 'Informatik Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          target: null
+                                          rel: null
+                                    text: 'Softwarelokalisierung Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          target: null
+                                          rel: null
+                                    text: 'Biotechnologie Ghostwriter'
+                                  -
+                                    type: text
+                                    text: ' '
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/technomathematik
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Technomathematik'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/ingenieurwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Ingenieurwissenschaften'
+                          -
+                            id: ljoh2wxw
+                            headline: Naturwissenschaften
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/biologie
+                                          target: null
+                                          rel: null
+                                    text: 'Biologie Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/chemie
+                                          target: null
+                                          rel: null
+                                    text: 'Chemie Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/geologie
+                                          target: null
+                                          rel: null
+                                    text: 'Geologie Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/geowissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Geowissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/mathematik
+                                          target: null
+                                          rel: null
+                                    text: 'Mathematik Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/agrarwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Agrarwissenschaften'
+                          -
+                            id: ljoh3l91
+                            headline: Sozialwissenschaften
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          target: null
+                                          rel: null
+                                    text: 'Erziehungswissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/kommunikationswissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Kommunikationswissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/soziale-arbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Soziale Arbeit Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/sozialwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Sozialwissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/soziologie
+                                          target: null
+                                          rel: null
+                                    text: 'Soziologie Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/sprachwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Sprachwissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kommunikationsdesign'
+                                  -
+                                    type: text
+                                    text: ' '
+                          -
+                            id: ljoh3x4b
+                            headline: 'Wirtschaftliche Fachbereiche'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/finanzwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Finanzwissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/medienwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Medienwissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/bwl
+                                          target: null
+                                          rel: null
+                                    text: 'BWL Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/marketing
+                                          target: null
+                                          rel: null
+                                    text: 'Marketing Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/wirtschaftsinformatik
+                                          target: null
+                                          rel: null
+                                    text: 'Wirtschaftsinformatik Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/wirtschaftswissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Wirtschaftswissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/personalmanagement
+                                          target: null
+                                          rel: null
+                                    text: 'Personalmanagement Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Internationale'
+                                          target: null
+                                          rel: null
+                                    text: 'Internationale BWL Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: hard_break
+                          -
+                            id: ljoh4b21
+                            headline: Geisteswissenschaften
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/germanistik-ghostwriter
+                                          target: null
+                                          rel: null
+                                    text: 'Germanistik Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/anglistik
+                                          target: null
+                                          rel: null
+                                    text: 'Anglistik Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/geschichte
+                                          target: null
+                                          rel: null
+                                    text: 'Geschichte Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/kunst
+                                          target: null
+                                          rel: null
+                                    text: 'Kunst Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/literatur
+                                          target: null
+                                          rel: null
+                                    text: 'Literatur Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/jura
+                                          target: null
+                                          rel: null
+                                    text: 'Jura Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/philosophie
+                                          target: null
+                                          rel: null
+                                    text: 'Philosophie Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kunstgeschichte'
+                          -
+                            id: ljoh4l6j
+                            headline: 'Medizinische Fachrichtungen'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/medizin
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Medizin'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/pflegewissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Pflegewissenschaften Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/psychologie
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Psychologie'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/zahnmedizin
+                                          target: null
+                                          rel: null
+                                    text: 'Zahnmedizin Ghostwriter'
                       -
                         id: ljoh1weq
                         text: Arbeiten
@@ -709,7 +1270,7 @@ replicator:
                                       -
                                         type: textColor
                                         attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: '#000!important'
                                           hex: '#000'
                                       -
                                         type: link
@@ -749,6 +1310,37 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Masterarbeit schreiben lassen'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
+                                          target: null
+                                          rel: null
+                                    text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hard_break
                                     marks:
@@ -1185,530 +1777,99 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Praktikumsbericht schreiben lassen'
-                      -
-                        id: ljoh22s8
-                        text: Fachrichtungen
-                        eintraege:
-                          -
-                            id: ljoh2bsp
-                            headline: 'Technische Fachrichtungen'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/architektur
-                                          target: null
-                                          rel: null
-                                    text: 'Architektur Ghostwriter'
                                   -
                                     type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/bauingenieurwesen
+                                          href: /arbeiten/projektarbeit
                                           target: null
                                           rel: null
-                                    text: 'Bauingenieurwesen Ghostwriter'
+                                    text: 'Projektarbeit schreiben lassen'
                                   -
                                     type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/elektrotechnik
+                                          href: /arbeiten/summary
                                           target: null
                                           rel: null
-                                    text: 'Elektrotechnik Ghostwriter'
+                                    text: 'Summary schreiben lassen'
                                   -
                                     type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: link
+                                        type: textAlign
                                         attrs:
-                                          href: /ghostwriter/maschinenbau
-                                          target: null
-                                          rel: null
-                                    text: 'Maschinenbau Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/informatik
+                                          href: /arbeiten/protokoll
                                           target: null
                                           rel: null
-                                    text: 'Informatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
-                                          target: null
-                                          rel: null
-                                    text: 'Softwarelokalisierung Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/ghostwriter/biologie#biotechnologie'
-                                          target: null
-                                          rel: null
-                                    text: 'Biotechnologie Ghostwriter'
-                                  -
-                                    type: text
-                                    text: ' '
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/technomathematik
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Technomathematik'
-                          -
-                            id: ljoh2wxw
-                            headline: Naturwissenschaften
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/biologie
-                                          target: null
-                                          rel: null
-                                    text: 'Biologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/chemie
-                                          target: null
-                                          rel: null
-                                    text: 'Chemie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/geologie
-                                          target: null
-                                          rel: null
-                                    text: 'Geologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/geowissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Geowissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/mathematik
-                                          target: null
-                                          rel: null
-                                    text: 'Mathematik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/agrarwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Agrarwissenschaften'
-                          -
-                            id: ljoh3l91
-                            headline: Sozialwissenschaften
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
-                                          target: null
-                                          rel: null
-                                    text: 'Erziehungswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/kommunikationswissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Kommunikationswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/soziale-arbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Soziale Arbeit Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/sozialwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Sozialwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/soziologie
-                                          target: null
-                                          rel: null
-                                    text: 'Soziologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/sprachwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Sprachwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Kommunikationsdesign'
-                                  -
-                                    type: text
-                                    text: ' '
-                          -
-                            id: ljoh3x4b
-                            headline: 'Wirtschaftliche Fachbereiche'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/finanzwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Finanzwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/medienwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Medienwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/bwl
-                                          target: null
-                                          rel: null
-                                    text: 'BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/marketing
-                                          target: null
-                                          rel: null
-                                    text: 'Marketing Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/wirtschaftsinformatik
-                                          target: null
-                                          rel: null
-                                    text: 'Wirtschaftsinformatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/wirtschaftswissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Wirtschaftswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/personalmanagement
-                                          target: null
-                                          rel: null
-                                    text: 'Personalmanagement Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#Internationale'
-                                          target: null
-                                          rel: null
-                                    text: 'Internationale BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: hard_break
-                          -
-                            id: ljoh4b21
-                            headline: Geisteswissenschaften
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/germanistik-ghostwriter
-                                          target: null
-                                          rel: null
-                                    text: 'Germanistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/anglistik
-                                          target: null
-                                          rel: null
-                                    text: 'Anglistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/geschichte
-                                          target: null
-                                          rel: null
-                                    text: 'Geschichte Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/kunst
-                                          target: null
-                                          rel: null
-                                    text: 'Kunst Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/literatur
-                                          target: null
-                                          rel: null
-                                    text: 'Literatur Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/philosophie
-                                          target: null
-                                          rel: null
-                                    text: 'Philosophie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/ghostwriter/kunst#kunstgeschichte'
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Kunstgeschichte'
-                          -
-                            id: ljoh4l6j
-                            headline: 'Medizinische Fachrichtungen'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/medizin
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Medizin'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/pflegewissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Pflegewissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/psychologie
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Psychologie'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/zahnmedizin
-                                          target: null
-                                          rel: null
-                                    text: 'Zahnmedizin Ghostwriter'
+                                    text: 'Protokoll schreiben lassen'
               -
                 type: heading
                 attrs:
@@ -3383,6 +3544,5 @@ og_description: 'Anglistik Ghostwriter – Hilfe durch akademische Experten aus 
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Anglistik Ghostwriter'
-fachrichtungsgruppe: g_geisteswissenschaften
 breadcrumbs_active: true
 ---
