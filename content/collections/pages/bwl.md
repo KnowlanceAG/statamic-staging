@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704413492
+updated_at: 1704414050
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -692,19 +692,6 @@ replicator:
                   -
                     type: text
                     text: ' oder verschiedener Teilbereiche als Leistungen bei einem Ghostwriter in Auftrag geben. So ist es auch üblich, dass der Ghostwriter Studierende bereits bei der Suche nach der passenden Literatur im Rahmen der Literaturrecherche unterstützt, ihnen bei der Texterstellung beratend zur Seite steht oder bereits durch die Studierenden fertig geschriebene Arbeiten lektoriert und korrigiert. Ein solches Lektorat von einem erfahrenen Ghostwriter verleiht Ihrer Arbeit zusammen mit einer Plagiatsprüfung den letzten Schliff. Auch ein Coaching und Training ist möglich, um die Studierenden auf eine Klausur vorzubereiten oder sie in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen. Und nicht zuletzt bieten unsere Ghostwriter auch Übersetzungen von akademischen Arbeiten, Klausuren und allen anderen Arten von Texten an.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
                 attrs:
