@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'word seitenzahl römisch und arabisch formatierung'
 size: 25333
 last_modified: 1704459717
 width: 440
