@@ -1,0 +1,19 @@
+{
+  "name": "yaml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "traverse": "^0.6.8",
+    "@uscreen.de/eslint-config-prettystandard-node": "^0.2.11"
+  }
+}
