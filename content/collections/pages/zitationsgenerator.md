@@ -491,6 +491,50 @@ replicator:
                           hex: '#000'
                     text: ' ist besonders weit verbreitet in den Bereichen Medizin und Naturwissenschaften. Wenn Sie im Vancouver-Stil zitieren möchten, sollten Sie einige spezifische Besonderheiten beachten.'
               -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'MLA-Zitierweise: Geeignet für Arbeiten in geisteswissenschaftlichen Studiengängen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: '/zitationsgenerator/mla-zitieren?citationStyle=mla'
+                          target: null
+                          rel: null
+                    text: MLA-Zitierweise
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' ist hauptsächlich im Bereich der Sprach-, Sozial- und Kulturwissenschaften üblich. Das liegt daran, dass die Modern Language Association ein Berufsverband von Sprachwissenschaftlern ist.'
+              -
                 type: set
                 attrs:
                   id: lp8f5ler
@@ -1007,5 +1051,5 @@ schema_objects: |-
   }
   </script>
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1702657924
+updated_at: 1704216328
 ---

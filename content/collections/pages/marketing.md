@@ -132,7 +132,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1698103981
+updated_at: 1704414908
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1117,6 +1117,37 @@ replicator:
                                       -
                                         type: link
                                         attrs:
+                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
+                                          target: null
+                                          rel: null
+                                    text: 'Masterthesis schreiben lassen'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
                                           href: /arbeiten/doktorarbeit
                                           target: null
                                           rel: null
@@ -1526,6 +1557,99 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Praktikumsbericht schreiben lassen'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/projektarbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Projektarbeit schreiben lassen'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/summary
+                                          target: null
+                                          rel: null
+                                    text: 'Summary schreiben lassen'
+                                  -
+                                    type: hard_break
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textAlign
+                                        attrs:
+                                          align: start
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/protokoll
+                                          target: null
+                                          rel: null
+                                    text: 'Protokoll schreiben lassen'
                       -
                         id: ljoh22s8
                         text: Fachrichtungen
@@ -1634,6 +1758,18 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Technomathematik'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/ingenieurwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Ingenieurwissenschaften'
                           -
                             id: ljoh2wxw
                             headline: Naturwissenschaften
@@ -1981,6 +2117,18 @@ replicator:
                                       -
                                         type: link
                                         attrs:
+                                          href: /ghostwriter/jura
+                                          target: null
+                                          rel: null
+                                    text: 'Jura Ghostwriter'
+                                  -
+                                    type: hard_break
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
                                           href: /ghostwriter/philosophie
                                           target: null
                                           rel: null
@@ -2050,6 +2198,8 @@ replicator:
                                           target: null
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2537,7 +2687,6 @@ meta_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketing
 og_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Marketing Ghostwriter'
 breadcrumbs_active: true
