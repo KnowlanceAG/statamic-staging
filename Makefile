@@ -1,6 +1,6 @@
 start:
-	yarn
-	yarn watch
+	pnpm i
+	pnpm watch
 
 build:
-	yarn prod
+	pnpm prod
