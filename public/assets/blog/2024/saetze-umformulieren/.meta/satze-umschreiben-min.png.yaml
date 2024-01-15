@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'sätze umschreiben'
 size: 81213
 last_modified: 1705341863
 width: 1536
