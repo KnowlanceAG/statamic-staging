@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'sätze umformulieren'
 size: 60659
 last_modified: 1705355264
 width: 886
