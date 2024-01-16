@@ -10,15 +10,7 @@ teaser:
     content:
       -
         type: text
-        marks:
-          -
-            type: textColor
-            attrs:
-              color: orange-500
-        text: Dies
-      -
-        type: text
-        text: ' ist ein '
+        text: 'Dies ist ein '
       -
         type: text
         marks:
@@ -32,6 +24,28 @@ teaser:
       -
         type: text
         text: ' Text.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Dies ist ein '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://uscreen.de'
+              rel: noopener
+              target: _blank
+              title: 'Link zu uscreen'
+        text: Link
+      -
+        type: text
+        text: .
 sitemap_active: true
 breadcrumbs_active: true
 use_meta_keywords: false
@@ -41,7 +55,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1702372489
+updated_at: 1705399600
 replicator:
   -
     id: lq16ufkr
