@@ -1,11 +1,11 @@
 ---
 id: 1298a2b5-6e23-404b-8806-26e687fda624
 blueprint: pages
-title: 'GWriters Akademie'
+title: GWriters Akademie
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
 updated_at: 1696867693
-page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
+page_title: Die GWriters Akademie für wissenschaftliches Arbeiten
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -13,8 +13,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 teaser:
-  -
-    type: set
+  - type: set
     attrs:
       id: bWTReg4B
       values:
@@ -22,81 +21,56 @@ teaser:
         assets:
           - seiten/gwriters-akademie/GWAkademie_Logo_Color-1.png
         has_border: false
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Willkommen in der GWriters Akademie!'
-  -
-    type: paragraph
+        text: Willkommen in der GWriters Akademie!
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Führen Sie Ihre wissenschaftliche Arbeit mit den Vorlagen unserer akademischen Ghostwriter zum Erfolg!'
-      -
-        type: hard_break
+          - type: bold
+        text: >-
+          Führen Sie Ihre wissenschaftliche Arbeit mit den Vorlagen unserer
+          akademischen Ghostwriter zum Erfolg!
+      - type: hard_break
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-      -
-        type: text
+          - type: bold
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Benötigen Sie weitere Unterstützung? Dann freuen wir uns über Ihre Anfrage:'
-  -
-    type: set
+          - type: bold
+        text: >-
+          Benötigen Sie weitere Unterstützung? Dann freuen wir uns über Ihre
+          Anfrage:
+    attrs:
+      textAlign: center
+  - type: set
     attrs:
       id: VEA3sGCl
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'Jetzt kostenlos Anfragen'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: Jetzt kostenlos Anfragen
         color: '#FF6606'
         spacing_top: false
-  -
-    type: paragraph
+  - type: paragraph
 replicator:
-  -
-    id: zEZoMdE4
+  - id: zEZoMdE4
     columns_replicator:
-      -
-        id: 25gQ87vs
+      - id: 25gQ87vs
         columns_per_row: 2
         grid:
-          -
-            id: 025yWMQW
+          - id: 025yWMQW
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: s8xmY72g
                   values:
@@ -104,14 +78,11 @@ replicator:
                     assets:
                       - seiten/gwriters-akademie/GWakademie-Bild-roadplan.jpg
                     has_border: false
-              -
-                type: paragraph
+              - type: paragraph
             show_as_card: false
-          -
-            id: yWteiE50
+          - id: yWteiE50
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: t3dqCAUy
                   values:
@@ -120,8 +91,7 @@ replicator:
                     entries:
                       - b609ef85-dc84-4405-93d0-1b92d92ca1a4
                       - 8a46d375-fe18-42c5-ab50-a1682b5664de
-              -
-                type: set
+              - type: set
                 attrs:
                   id: CCGEzDIR
                   values:
@@ -130,8 +100,7 @@ replicator:
                     entries:
                       - e1eeb52b-af75-4803-a498-6678be9b695d
                       - 6a4a507c-f04f-4ceb-9942-3c34d896faad
-              -
-                type: set
+              - type: set
                 attrs:
                   id: s1ZTZagY
                   values:
@@ -140,8 +109,7 @@ replicator:
                     entries:
                       - 92638305-5538-4e5c-9f2a-eaed57856af6
                       - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
-              -
-                type: set
+              - type: set
                 attrs:
                   id: qumHUjO2
                   values:
@@ -150,8 +118,7 @@ replicator:
                     entries:
                       - 47857fec-2594-4e17-9331-52e3a93020d5
                       - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
-              -
-                type: set
+              - type: set
                 attrs:
                   id: gPIHgNDj
                   values:
@@ -160,8 +127,7 @@ replicator:
                     entries:
                       - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
                       - 8778439c-ea07-4542-9287-cb87e6074f6a
-              -
-                type: paragraph
+              - type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -172,17 +138,13 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-  -
-    id: 1oeAFECX
+  - id: 1oeAFECX
     columns_replicator:
-      -
-        id: rq7KObI3
+      - id: rq7KObI3
         grid:
-          -
-            id: 49iVGeDH
+          - id: 49iVGeDH
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: lmIpCFJ8
                   values:
@@ -190,8 +152,7 @@ replicator:
                     assets:
                       - seiten/gwriters-akademie/GWAkademie_Logo_Color-1.png
                     has_border: false
-              -
-                type: paragraph
+              - type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -206,11 +167,9 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-  -
-    id: QENb1yko
+  - id: QENb1yko
     bard:
-      -
-        type: set
+      - type: set
         attrs:
           id: 7p5GRTfk
           values:
@@ -221,8 +180,7 @@ replicator:
               - b0ab57c8-c632-4082-af70-9b10b915d2b8
               - 919279ae-733d-4bd9-a759-afaa758e18fc
               - 96924dda-67f8-40c2-9951-3ea533162992
-      -
-        type: set
+      - type: set
         attrs:
           id: jFVWu5jl
           values:
@@ -235,10 +193,16 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-meta_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
-meta_description: 'In der GWriters Akademie finden Sie wertvolle Ratgeber zum wissenschaftlichen Arbeiten, kostenlos Vorlagen für alle Arten von Verzeichnissen  und vieles mehr! Profitieren Sie von unserer Erfahrung 🎓'
-og_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
-og_description: 'In der GWriters Akademie finden Sie wertvolle Ratgeber zum wissenschaftlichen Arbeiten, kostenlos Vorlagen für alle Arten von Verzeichnissen  und vieles mehr! Profitieren Sie von unserer Erfahrung 🎓'
+meta_title: Die GWriters Akademie für wissenschaftliches Arbeiten
+meta_description: >-
+  In der GWriters Akademie finden Sie wertvolle Ratgeber zum wissenschaftlichen
+  Arbeiten, kostenlos Vorlagen für alle Arten von Verzeichnissen  und vieles
+  mehr! Profitieren Sie von unserer Erfahrung 🎓
+og_title: Die GWriters Akademie für wissenschaftliches Arbeiten
+og_description: >-
+  In der GWriters Akademie finden Sie wertvolle Ratgeber zum wissenschaftlichen
+  Arbeiten, kostenlos Vorlagen für alle Arten von Verzeichnissen  und vieles
+  mehr! Profitieren Sie von unserer Erfahrung 🎓
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true

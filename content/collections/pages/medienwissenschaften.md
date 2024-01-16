@@ -3,134 +3,115 @@ id: 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
 blueprint: pages
 title: Medienwissenschaften
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Medienwissenschaften Ghostwriter'
-  -
-    type: paragraph
+        text: Medienwissenschaften Ghostwriter
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
+          - type: bold
+          - type: textColor
             attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
+              color: rgb(68, 68, 68)
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der Medienwissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-  -
-    type: set
+        text: >-
+          Hilfe durch Experten und akademische Ghostwriter der
+          Medienwissenschaften – schnell, diskret und mehrfach geprüft auf
+          Qualität & Plagiate.
+    attrs:
+      textAlign: center
+  - type: set
     attrs:
       id: XHzfH2Ba
       values:
         type: spacer
         padding-y: 10
-  -
-    type: set
+  - type: set
     attrs:
       id: E2vM1x6j
       values:
         type: teaser_icon_columns
         columns:
-          -
-            id: nOjOhaK8
+          - id: nOjOhaK8
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: pdI1rYsB
+            headline: Datenschutz &amp; 100% Anonymität
+            tooltip_infotext: >-
+              Wir schützen Ihre Daten streng gemäß der Vorschriften von
+              DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.
+          - id: pdI1rYsB
             icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: 0hFrTM7S
+            headline: Teillieferungen &amp; kostenlose Änderungen
+            tooltip_infotext: >-
+              Sie erhalten von uns regelmäßig Teillieferungen und wir setzen
+              Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf
+              Ihr Projekt nehmen.
+          - id: 0hFrTM7S
             icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
-          -
-            id: J92vOZs9
+            headline: Schnelle &amp; pünktliche Lieferung
+            tooltip_infotext: >-
+              Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte
+              Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler
+              Form.
+          - id: J92vOZs9
             icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
+            headline: Top-Qualität von akademischen Experten
+            tooltip_infotext: >-
+              Ihre Mustervorlage wird von akademischen Experten auf höchstem
+              Niveau erstellt, die oft selbst als Doktoren oder Professoren
+              beschäftigt sind.
+  - type: set
     attrs:
       id: l68q5OM9
       values:
         type: spacer
         padding-y: 15
-  -
-    type: set
+  - type: set
     attrs:
       id: 1M2bmX1k
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: JETZT KOSTENLOS ANFRAGEN
         color: '#FF6606'
         spacing_top: false
-  -
-    type: set
+  - type: set
     attrs:
       id: ddsYV6UN
       values:
         type: spacer
         padding-y: 20
-  -
-    type: paragraph
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
+          - type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
+    attrs:
+      textAlign: center
+  - type: heading
     attrs:
       level: 2
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-          -
-            type: link
+          - type: link
             attrs:
-              href: 'tel:##phone##'
+              href: tel:##phone##
               target: null
               rel: null
         text: '##phone##'
@@ -145,1755 +126,1271 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
-  -
-    id: IsWT8tVD
+  - id: IsWT8tVD
     columns_replicator:
-      -
-        id: GaIIlp2b
+      - id: GaIIlp2b
         grid:
-          -
-            id: 9LzdIQik
+          - id: 9LzdIQik
             bard:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: "In einem medienwissenschaftlichen Studium lernt der Student, wie Medien unsere Wahrnehmung prägen und wie man sie effizient einsetzen kann. Trotz erfolgreich absolviertem Studiums schaffen jedoch lediglich 70% der Absolventen einen Berufseinstieg. Wer auffallen will, muss stets exzellente Arbeiten vorweisen. Dies zu leisten ist jedoch nicht leicht, betrachtet man die Anzahl der parallel verlaufenden Projekte. Um sich bei diesen Unterstützung zu verschaffen, können Studenten der Medienwissenschaften\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter
                           target: null
                           rel: null
                     text: Ghostwriter
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: ', Lektoren und Coaches engagieren.'
-              -
-                type: set
+                attrs:
+                  textAlign: start
+              - type: set
                 attrs:
                   id: yLbICxNe
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
+                      - type: bold
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Medienwissenschaften Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
+                      - type: bold
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /anfrage
                           target: null
                           rel: null
-                    text: 'unverbindliche Anfrage schicken'
-                  -
-                    type: text
+                    text: unverbindliche Anfrage schicken
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-              -
-                type: heading
+                      - type: bold
+                    text: >-
+                      . Wir melden uns innerhalb weniger Stunden mit einem
+                      kostenlosen Angebot bei Ihnen zurück und rufen Sie auch
+                      gerne an, falls Sie eine kostenlose telefonische Beratung
+                      wünschen. Vorab: Selbstverständlich können und dürfen wir
+                      Ihnen keine Abschlussarbeiten oder andere Arten von
+                      Prüfungsleistungen erstellen, gerne erstellen wir Ihnen
+                      aber eine hochqualitative Mustervorlage nach Ihren
+                      individuellen Vorgaben, die alle akademischen Standards
+                      und Anforderungen erfüllt.
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Medienwissenschaften & Ghostwriter'
-              -
-                type: paragraph
+                    text: Medienwissenschaften & Ghostwriter
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: "Unser Team von erfahrenen Akademikern aus der Medienwissenschaft unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder unserer Freelancer und Ghostwriter der Medienwissenschaften besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von medienbezogenen Arbeiten vorweisen. Neben der Beratung und dem Coaching bei der gesamten Arbeit oder Unterstützung durch eine hochqualitative Mustervorlage, kann der Ghostwriter auch lediglich als\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /lektorat/lektor
                           target: null
                           rel: null
                     text: Lektor
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: ",\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /korrektorat/korrektor
                           target: null
                           rel: null
                     text: Korrektor
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: "\_und Übersetzer beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt."
-              -
-                type: heading
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Unsere Leistungen'
+                    text: Unsere Leistungen
             show_as_card: false
         type: row
         enabled: true
         single_col: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: 5e7XyS14
+      - id: 5e7XyS14
         columns_per_row: 3
         grid:
-          -
-            id: MMI88oDT
+          - id: MMI88oDT
             bard:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: underline
-                      -
-                        type: textAlign
+                      - type: underline
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(193, 76, 0)'
-                      -
-                        type: link
+                          color: rgb(193, 76, 0)
+                      - type: link
                         attrs:
                           href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
-              -
-                type: paragraph
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
+                          color: rgb(255, 102, 2)
+                      - type: link
                         attrs:
                           href: /lektorat
                           target: null
                           rel: null
                     text: Lektorat
-              -
-                type: paragraph
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
+                          color: rgb(255, 102, 2)
+                      - type: link
                         attrs:
                           href: /leistungen/uebersetzung
                           target: null
                           rel: null
                     text: Übersetzung
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                     text: "\_"
-              -
-                type: paragraph
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: hard_break
+                  - type: hard_break
             show_as_card: false
-          -
-            id: xiKpiAyT
+          - id: xiKpiAyT
             bard:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
+                          color: rgb(255, 102, 2)!important
+                      - type: link
                         attrs:
                           href: /korrektorat
                           target: null
                           rel: null
                     text: Korrektorat
-              -
-                type: paragraph
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
+                          color: rgb(255, 102, 2)!important
+                      - type: link
                         attrs:
                           href: /leistungen/formatierung
                           target: null
                           rel: null
                     text: Formatierung
-              -
-                type: paragraph
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
+                          color: rgb(255, 102, 2)!important
+                      - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
+                attrs:
+                  textAlign: start
+              - type: paragraph
             show_as_card: false
-          -
-            id: v5FJo1I8
+          - id: v5FJo1I8
             bard:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
-                        type: link
+                          color: rgb(255, 102, 2)!important!important
+                      - type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
                           target: null
                           rel: null
-                    text: 'MAXQDA Auswertung'
-              -
-                type: paragraph
+                    text: MAXQDA Auswertung
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
-                        type: link
+                          color: rgb(255, 102, 2)!important!important
+                      - type: link
                         attrs:
                           href: /promotionsberatung
                           target: null
                           rel: null
                     text: Promotionsberatung
+                attrs:
+                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
         single_col: true
         responsive_columns: 0
-      -
-        id: bgPUihdD
+      - id: bgPUihdD
         single_col: true
         grid:
-          -
-            id: KlvEj1CM
+          - id: KlvEj1CM
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Wichtige Akademische Arbeiten & Fachrichtungen'
-              -
-                type: set
+                  - type: text
+                    text: Wichtige Akademische Arbeiten & Fachrichtungen
+              - type: set
                 attrs:
                   id: ljoh1u6i
                   values:
                     type: custom_link_list
                     raster:
-                      -
-                        id: ljoh1weq
+                      - id: ljoh1weq
                         text: Arbeiten
                         eintraege:
-                          -
-                            id: ljoh5n3s
+                          - id: ljoh5n3s
                             headline: Abschlussarbeiten
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
                                           target: null
                                           rel: null
-                                    text: 'Diplomarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Diplomarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
                                           target: null
                                           rel: null
-                                    text: 'Examensarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Examensarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
                                           target: null
                                           rel: null
-                                    text: 'Magisterarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Magisterarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
+                                      - type: textColor
                                         attrs:
                                           color: '#000!important'
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                          href: >-
+                                            /arbeiten/bachelorarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Bachelorarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Bachelorarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Masterarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Masterarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
+                                          href: >-
+                                            /arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Masterthesis schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Masterthesis schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
                                           target: null
                                           rel: null
-                                    text: 'Doktorarbeit schreiben lassen'
-                          -
-                            id: ljoh8o20
-                            headline: 'Sonstige Arbeiten'
+                                    text: Doktorarbeit schreiben lassen
+                                attrs:
+                                  textAlign: start
+                          - id: ljoh8o20
+                            headline: Sonstige Arbeiten
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/ebook
                                           target: null
                                           rel: null
-                                    text: 'eBook schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: eBook schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/lernskript
                                           target: null
                                           rel: null
-                                    text: 'Lernskript schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Lernskript schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/praesentationen
                                           target: null
                                           rel: null
-                                    text: 'Präsentationen erstellen lassen'
-                                  -
-                                    type: hard_break
+                                    text: Präsentationen erstellen lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/statistische-analysen
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Statistik'
-                                  -
-                                    type: hard_break
+                                    text: Ghostwriter Statistik
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /expose
                                           target: null
                                           rel: null
-                                    text: 'Exposé schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Exposé schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/referat
                                           target: null
                                           rel: null
-                                    text: 'Referat schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Referat schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                          -
-                            id: ljoh9nu0
+                                attrs:
+                                  textAlign: start
+                          - id: ljoh9nu0
                             headline: Studienarbeiten
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/essay
                                           target: null
                                           rel: null
-                                    text: 'Essay schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Essay schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/hausarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Hausarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Hausarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/facharbeit
                                           target: null
                                           rel: null
-                                    text: 'Facharbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Facharbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/seminararbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Seminararbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Seminararbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/studienarbeit
                                           target: null
                                           rel: null
-                                    text: 'Studienarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Studienarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/fallstudie
                                           target: null
                                           rel: null
-                                    text: 'Fallstudie schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Fallstudie schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/praktikumsbericht
                                           target: null
                                           rel: null
-                                    text: 'Praktikumsbericht schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Praktikumsbericht schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/projektarbeit
                                           target: null
                                           rel: null
-                                    text: 'Projektarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Projektarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/summary
                                           target: null
                                           rel: null
-                                    text: 'Summary schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Summary schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/protokoll
                                           target: null
                                           rel: null
-                                    text: 'Protokoll schreiben lassen'
-                      -
-                        id: ljoh22s8
+                                    text: Protokoll schreiben lassen
+                                attrs:
+                                  textAlign: start
+                      - id: ljoh22s8
                         text: Fachrichtungen
                         eintraege:
-                          -
-                            id: ljoh2bsp
-                            headline: 'Technische Fachrichtungen'
+                          - id: ljoh2bsp
+                            headline: Technische Fachrichtungen
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/architektur
                                           target: null
                                           rel: null
-                                    text: 'Architektur Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Architektur Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/bauingenieurwesen
                                           target: null
                                           rel: null
-                                    text: 'Bauingenieurwesen Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Bauingenieurwesen Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/elektrotechnik
                                           target: null
                                           rel: null
-                                    text: 'Elektrotechnik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Elektrotechnik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/maschinenbau
                                           target: null
                                           rel: null
-                                    text: 'Maschinenbau Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Maschinenbau Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/informatik
                                           target: null
                                           rel: null
-                                    text: 'Informatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Informatik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          href: >-
+                                            /ghostwriter/informatik#Softwarelokalisierung
                                           target: null
                                           rel: null
-                                    text: 'Softwarelokalisierung Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Softwarelokalisierung Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          href: /ghostwriter/biologie#biotechnologie
                                           target: null
                                           rel: null
-                                    text: 'Biotechnologie Ghostwriter'
-                                  -
-                                    type: text
+                                    text: Biotechnologie Ghostwriter
+                                  - type: text
                                     text: ' '
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/technomathematik
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Technomathematik'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Ghostwriter Technomathematik
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/ingenieurwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Ingenieurwissenschaften'
-                          -
-                            id: ljoh2wxw
+                                    text: Ghostwriter Ingenieurwissenschaften
+                          - id: ljoh2wxw
                             headline: Naturwissenschaften
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/biologie
                                           target: null
                                           rel: null
-                                    text: 'Biologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Biologie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/chemie
                                           target: null
                                           rel: null
-                                    text: 'Chemie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Chemie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/geologie
                                           target: null
                                           rel: null
-                                    text: 'Geologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Geologie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/geowissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Geowissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Geowissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/mathematik
                                           target: null
                                           rel: null
-                                    text: 'Mathematik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Mathematik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/agrarwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Agrarwissenschaften'
-                          -
-                            id: ljoh3l91
+                                    text: Ghostwriter Agrarwissenschaften
+                          - id: ljoh3l91
                             headline: Sozialwissenschaften
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          href: >-
+                                            /ghostwriter/erziehungswissenschaften-ghostwriter
                                           target: null
                                           rel: null
-                                    text: 'Erziehungswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Erziehungswissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: /ghostwriter/kommunikationswissenschaften
+                                          href: >-
+                                            /ghostwriter/kommunikationswissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Kommunikationswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Kommunikationswissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/soziale-arbeit
                                           target: null
                                           rel: null
-                                    text: 'Soziale Arbeit Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Soziale Arbeit Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/sozialwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Sozialwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Sozialwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/soziologie
                                           target: null
                                           rel: null
-                                    text: 'Soziologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Soziologie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/sprachwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Sprachwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Sprachwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          href: >-
+                                            /ghostwriter/kommunikationswissenschaften#kommunikationsdesign
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Kommunikationsdesign'
-                                  -
-                                    type: text
+                                    text: Ghostwriter Kommunikationsdesign
+                                  - type: text
                                     text: ' '
-                          -
-                            id: ljoh3x4b
-                            headline: 'Wirtschaftliche Fachbereiche'
+                          - id: ljoh3x4b
+                            headline: Wirtschaftliche Fachbereiche
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/finanzwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Finanzwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Finanzwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/medienwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Medienwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Medienwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/bwl
                                           target: null
                                           rel: null
-                                    text: 'BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: BWL Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/marketing
                                           target: null
                                           rel: null
-                                    text: 'Marketing Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Marketing Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftsinformatik
                                           target: null
                                           rel: null
-                                    text: 'Wirtschaftsinformatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Wirtschaftsinformatik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftswissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Wirtschaftswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Wirtschaftswissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/personalmanagement
                                           target: null
                                           rel: null
-                                    text: 'Personalmanagement Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Personalmanagement Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: '#Internationale'
                                           target: null
                                           rel: null
-                                    text: 'Internationale BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: hard_break
-                          -
-                            id: ljoh4b21
+                                    text: Internationale BWL Ghostwriter
+                                  - type: hard_break
+                                  - type: hard_break
+                          - id: ljoh4b21
                             headline: Geisteswissenschaften
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/germanistik-ghostwriter
                                           target: null
                                           rel: null
-                                    text: 'Germanistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Germanistik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/anglistik
                                           target: null
                                           rel: null
-                                    text: 'Anglistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Anglistik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/geschichte
                                           target: null
                                           rel: null
-                                    text: 'Geschichte Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Geschichte Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/kunst
                                           target: null
                                           rel: null
-                                    text: 'Kunst Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Kunst Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/literatur
                                           target: null
                                           rel: null
-                                    text: 'Literatur Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Literatur Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/jura
                                           target: null
                                           rel: null
-                                    text: 'Jura Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Jura Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/philosophie
                                           target: null
                                           rel: null
-                                    text: 'Philosophie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Philosophie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          href: /ghostwriter/kunst#kunstgeschichte
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Kunstgeschichte'
-                          -
-                            id: ljoh4l6j
-                            headline: 'Medizinische Fachrichtungen'
+                                    text: Ghostwriter Kunstgeschichte
+                          - id: ljoh4l6j
+                            headline: Medizinische Fachrichtungen
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/medizin
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Medizin'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Ghostwriter Medizin
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/pflegewissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Pflegewissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Pflegewissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/psychologie
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Psychologie'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Ghostwriter Psychologie
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/zahnmedizin
                                           target: null
                                           rel: null
-                                    text: 'Zahnmedizin Ghostwriter'
-              -
-                type: paragraph
-              -
-                type: horizontal_rule
-              -
-                type: set
+                                    text: Zahnmedizin Ghostwriter
+              - type: paragraph
+              - type: horizontal_rule
+              - type: set
                 attrs:
                   id: SUgqkz9J
                   values:
                     type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+                    button_text: JETZT KOSTENLOS ANFRAGEN
                     color: '#FF6606'
                     spacing_top: false
-              -
-                type: horizontal_rule
-              -
-                type: heading
+              - type: horizontal_rule
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Entstehung der Medienwissenschaften'
-              -
-                type: set
+                    text: Entstehung der Medienwissenschaften
+              - type: set
                 attrs:
                   id: qkFiywac
                   values:
@@ -1902,545 +1399,524 @@ replicator:
                       - seiten/fachrichtungen/medienwissenschaften.gif
                     img_size: w-1/4
                     float: float-right
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Ihren Anfang hat die Medienwissenschaft in der Entstehung des Zeitungs- und Zeitschriftswesen. Die Etablierung der weiteren Medien, wie dem Hörfunk, Fernsehen und zuletzt den Online-Medien folgte auf die der Printmedien. Erst 1916 wurde für letztere ein Institut eingerichtet. In den folgenden Jahren wurden auch die anderen Arten der Medien populärer und werden heute in jeglicher Form mehr und mehr als öffentliches Kommunikationswerkzeug genutzt.'
-              -
-                type: heading
+                    text: >-
+                      Ihren Anfang hat die Medienwissenschaft in der Entstehung
+                      des Zeitungs- und Zeitschriftswesen. Die Etablierung der
+                      weiteren Medien, wie dem Hörfunk, Fernsehen und zuletzt
+                      den Online-Medien folgte auf die der Printmedien. Erst
+                      1916 wurde für letztere ein Institut eingerichtet. In den
+                      folgenden Jahren wurden auch die anderen Arten der Medien
+                      populärer und werden heute in jeglicher Form mehr und mehr
+                      als öffentliches Kommunikationswerkzeug genutzt.
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Studium der Medienwissenschaften'
-              -
-                type: paragraph
+                    text: Studium der Medienwissenschaften
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Das Studium im Fachbereich der Medienwissenschaften ist neben Fachhochschulen, oftmals nur an Hochschulen möglich. Da es sich bei dem Studiengang Medienwissenschaften nicht um einen betriebswirtschaftlichen Studiengang handelt, findet man diesen Studiengang häufig an philosophischen oder sozialwissenschaftlichen Hochschulen. In Deutschland dauern ein Bachelorstudiengang in der Regelzeit sechs und ein Masterstudiengang vier Semester.'
-              -
-                type: paragraph
+                    text: >-
+                      Das Studium im Fachbereich der Medienwissenschaften ist
+                      neben Fachhochschulen, oftmals nur an Hochschulen möglich.
+                      Da es sich bei dem Studiengang Medienwissenschaften nicht
+                      um einen betriebswirtschaftlichen Studiengang handelt,
+                      findet man diesen Studiengang häufig an philosophischen
+                      oder sozialwissenschaftlichen Hochschulen. In Deutschland
+                      dauern ein Bachelorstudiengang in der Regelzeit sechs und
+                      ein Masterstudiengang vier Semester.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Sie werden mit der Bachelorarbeit (Bachelor Thesis) und der Masterarbeit (Master Thesis), ehemals mit der Magisterarbeit oder einer Diplomarbeit abgeschlossen. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Besonders hier ist im Fachbereich Medienwissenschaften Ghostwriting'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                    text: >-
+                      Sie werden mit der Bachelorarbeit (Bachelor Thesis) und
+                      der Masterarbeit (Master Thesis), ehemals mit der
+                      Magisterarbeit oder einer Diplomarbeit abgeschlossen.
+                      Optional kann darauf die Promotion, das Erlangen des
+                      Doktortitels durch eine Dissertation oder Doktorarbeit,
+                      erfolgen. Besonders hier ist im Fachbereich
+                      Medienwissenschaften Ghostwriting
+                  - type: text
+                    marks: []
                     text: "\_verbreitet. Studenten lassen sich gerne helfen, indem sie eine Mustervorlage für ihre Arbeit von einem Medienwissenschaften-Ghostwriter schreiben lassen und dieses als Orientierungshilfe nutzen."
-              -
-                type: heading
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Inhalte des Studiums'
-              -
-                type: paragraph
+                    text: Inhalte des Studiums
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Grundlagen des Studiums der Medienwissenschaften ist die Geschichte, Theorie und Ästhetik einzelner Medien. Dazu werden in Praxisübungen Techniken zur Analyse von Medien erlernt. Fächer, die in den ersten Semestern die Basis des Wissens bilden, sind Medienrecht, Medienwirtschaft und einige Kurse zur Anwendung von wissenschaftlichen Methoden. Dazu gehören beispielsweise unterschiedliche Programme zur Verarbeitung von Daten und statistische Analysemethoden. Absolventen sind nach ihrem Studium meist in der Filmproduktion, der Organisation von Festivals und in der Kulturarbeit tätig.'
-              -
-                type: paragraph
+                    text: >-
+                      Die Grundlagen des Studiums der Medienwissenschaften ist
+                      die Geschichte, Theorie und Ästhetik einzelner Medien.
+                      Dazu werden in Praxisübungen Techniken zur Analyse von
+                      Medien erlernt. Fächer, die in den ersten Semestern die
+                      Basis des Wissens bilden, sind Medienrecht,
+                      Medienwirtschaft und einige Kurse zur Anwendung von
+                      wissenschaftlichen Methoden. Dazu gehören beispielsweise
+                      unterschiedliche Programme zur Verarbeitung von Daten und
+                      statistische Analysemethoden. Absolventen sind nach ihrem
+                      Studium meist in der Filmproduktion, der Organisation von
+                      Festivals und in der Kulturarbeit tätig.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Im Fach Medienwissenschaft sind die Medienanalyse, Mediengeschichte und Medientheorie die strukturbildenden Bereiche des Studiums im Bachelor- und im Masterstudiengang. Diese Bereiche sind Kernbestandteil der im Studiengang vermittelten Inhalte zu den kulturwissenschaftlichen, sprach- und sozialwissenschaftlichen Perspektiven auf Medienkommunikation. Sie befähigen zu vielfältigen methodischen und medienpraktischen Kompetenzen und eröffnen ein breites Spektrum an beruflichen Tätigkeiten zwischen Medienpraxis, Medientheorie und öffentlichem Kulturbetrieb.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Im Fach Medienwissenschaft sind die Medienanalyse,
+                      Mediengeschichte und Medientheorie die strukturbildenden
+                      Bereiche des Studiums im Bachelor- und im
+                      Masterstudiengang. Diese Bereiche sind Kernbestandteil der
+                      im Studiengang vermittelten Inhalte zu den
+                      kulturwissenschaftlichen, sprach- und
+                      sozialwissenschaftlichen Perspektiven auf
+                      Medienkommunikation. Sie befähigen zu vielfältigen
+                      methodischen und medienpraktischen Kompetenzen und
+                      eröffnen ein breites Spektrum an beruflichen Tätigkeiten
+                      zwischen Medienpraxis, Medientheorie und öffentlichem
+                      Kulturbetrieb.
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Medienwissenschaft sind traditionell in den Geistes- und Kulturwissenschaftlichen Fakultäten von Hochschulen angesiedelt und können sowohl im Hauptfach als auch im Nebenfach studiert werden. Eine Vielzahl hochschulspezifischer und fachlich spezialisierter Angebote ist charakteristisch für das interdisziplinäre Studienfach Medienwissenschaft und erlaubt vielfältige Vertiefungs- und Kombinationsmöglichkeiten.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Medienwissenschaft sind traditionell in den Geistes- und
+                      Kulturwissenschaftlichen Fakultäten von Hochschulen
+                      angesiedelt und können sowohl im Hauptfach als auch im
+                      Nebenfach studiert werden. Eine Vielzahl
+                      hochschulspezifischer und fachlich spezialisierter
+                      Angebote ist charakteristisch für das interdisziplinäre
+                      Studienfach Medienwissenschaft und erlaubt vielfältige
+                      Vertiefungs- und Kombinationsmöglichkeiten.
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Anforderungen im Studium'
-              -
-                type: paragraph
+                  - type: text
+                    text: Anforderungen im Studium
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'An europäischen Hochschulen (Universitäten, staatliche und privaten Fachhochschulen), lässt sich der Studiengang Medienwissenschaft regulär im Hauptfach Medienwissenschaft studieren. Häufig bieten Hochschulen mit medienwissenschaftlichen Studienangeboten aber auch Kombinationen mit der Kommunikationswissenschaft, der Theaterwissenschaft oder der Literaturwissenschaft im Haupt- oder im Nebenfach an.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      An europäischen Hochschulen (Universitäten, staatliche und
+                      privaten Fachhochschulen), lässt sich der Studiengang
+                      Medienwissenschaft regulär im Hauptfach Medienwissenschaft
+                      studieren. Häufig bieten Hochschulen mit
+                      medienwissenschaftlichen Studienangeboten aber auch
+                      Kombinationen mit der Kommunikationswissenschaft, der
+                      Theaterwissenschaft oder der Literaturwissenschaft im
+                      Haupt- oder im Nebenfach an.
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Das medienwissenschaftliche Studium verlangt medienpraktische Kompetenzen, die Bereitschaft zur Reflexion medientheoretischer Problemstellungen und die Offenheit für die Vielfalt medialer Wandlungsprozesse. Die Analyse der Medienlandschaft ist an deutschen Hochschulen (Universitäten und Fachhochschulen) grundsätzlich auf den internationalen Kontext ausgerichtet. Die im Studiengang obligatorischen Bestandteile der Medienanalyse, der Mediengeschichte und Medientheorie dienen dem Erwerb fundierter wissenschaftlicher und ergänzender praktischer Medienkompetenz.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Das medienwissenschaftliche Studium verlangt
+                      medienpraktische Kompetenzen, die Bereitschaft zur
+                      Reflexion medientheoretischer Problemstellungen und die
+                      Offenheit für die Vielfalt medialer Wandlungsprozesse. Die
+                      Analyse der Medienlandschaft ist an deutschen Hochschulen
+                      (Universitäten und Fachhochschulen) grundsätzlich auf den
+                      internationalen Kontext ausgerichtet. Die im Studiengang
+                      obligatorischen Bestandteile der Medienanalyse, der
+                      Mediengeschichte und Medientheorie dienen dem Erwerb
+                      fundierter wissenschaftlicher und ergänzender praktischer
+                      Medienkompetenz.
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Gegenstand der Medienwissenschaft'
-              -
-                type: paragraph
+                  - type: text
+                    text: Gegenstand der Medienwissenschaft
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Die Vielfalt der an Medien gebundenen Formen von Realitätsdarstellung bildet den zentralen Themenhorizont medienwissenschaftlicher Reflexion. Medienwissenschaft fragen im Rückgriff auf geistesgeschichtliche, literaturwissenschaftlich, sprachwissenschaftliche und spezifisch medienwissenschaftliche Analysemethoden nach den Zusammenhängen von medialer Technik und medialen Bedarfen des Medienpublikums in der Massengesellschaft.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Die Vielfalt der an Medien gebundenen Formen von
+                      Realitätsdarstellung bildet den zentralen Themenhorizont
+                      medienwissenschaftlicher Reflexion. Medienwissenschaft
+                      fragen im Rückgriff auf geistesgeschichtliche,
+                      literaturwissenschaftlich, sprachwissenschaftliche und
+                      spezifisch medienwissenschaftliche Analysemethoden nach
+                      den Zusammenhängen von medialer Technik und medialen
+                      Bedarfen des Medienpublikums in der Massengesellschaft.
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'An der Schnittstelle von Medienpraxis und Medienkultur werden insbesondere auch die Einflüsse der Technik (Medientechnologie) und ihrer Potenziale thematisiert. Das unterscheidet die reinen Medienwissenschaft im Kern von den fachlich verwandten Kommunikationswissenschaften, deren Untersuchungsschwerpunkt die sozial- und geisteswissenschaftlichen Zusammenhänge der Kommunikationsprozesse als solcher bildet.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      An der Schnittstelle von Medienpraxis und Medienkultur
+                      werden insbesondere auch die Einflüsse der Technik
+                      (Medientechnologie) und ihrer Potenziale thematisiert. Das
+                      unterscheidet die reinen Medienwissenschaft im Kern von
+                      den fachlich verwandten Kommunikationswissenschaften,
+                      deren Untersuchungsschwerpunkt die sozial- und
+                      geisteswissenschaftlichen Zusammenhänge der
+                      Kommunikationsprozesse als solcher bildet.
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Bachelor Medienwissenschaft'
-              -
-                type: paragraph
+                  - type: text
+                    text: Bachelor Medienwissenschaft
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Der Bachelor-Studiengang Medienwissenschaft wird von Hochschulen je nach Standort und Profil entweder als Teilgebiet der Kommunikationswissenschaft oder als eigenständiger Studiengang Medienwissenschaft angeboten. Das Absolvieren des grundständigen, in der Regel auf sechs Fachsemester angelegten Bachelor-Studiums Medienwissenschaft sichert in der Kombination von Pflicht- und Wahlpflichtbereichen den Erwerb von Schlüsselkompetenzen, die für medienaffine Berufsfelder vom Printbereich bis hin zu Film und Hörfunk qualifizieren.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Der Bachelor-Studiengang Medienwissenschaft wird von
+                      Hochschulen je nach Standort und Profil entweder als
+                      Teilgebiet der Kommunikationswissenschaft oder als
+                      eigenständiger Studiengang Medienwissenschaft angeboten.
+                      Das Absolvieren des grundständigen, in der Regel auf sechs
+                      Fachsemester angelegten Bachelor-Studiums
+                      Medienwissenschaft sichert in der Kombination von Pflicht-
+                      und Wahlpflichtbereichen den Erwerb von
+                      Schlüsselkompetenzen, die für medienaffine Berufsfelder
+                      vom Printbereich bis hin zu Film und Hörfunk
+                      qualifizieren.
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Zum Pflichtbereich gehören in der Regel folgende Themenmodule:'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Seminare zum Theorieverständnis von Medien und Gesellschaft einschließlich Methodenentwicklung für alle medienaffinen Analyseverfahren'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Seminare zu Film- und Fernsehwissenschaft'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Seminare zu Medienkultur'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Praktikumsbereich'
-                  -
-                    type: hard_break
-                  -
-                    type: text
+                      - type: bold
+                    text: >-
+                      Zum Pflichtbereich gehören in der Regel folgende
+                      Themenmodule:
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      • Seminare zum Theorieverständnis von Medien und
+                      Gesellschaft einschließlich Methodenentwicklung für alle
+                      medienaffinen Analyseverfahren
+                  - type: hard_break
+                  - type: text
+                    text: • Seminare zu Film- und Fernsehwissenschaft
+                  - type: hard_break
+                  - type: text
+                    text: • Seminare zu Medienkultur
+                  - type: hard_break
+                  - type: text
+                    text: • Praktikumsbereich
+                  - type: hard_break
+                  - type: text
                     marks:
-                      -
-                        type: bold
+                      - type: bold
                     text: 'Zum Wahlpflichtbereich werden üblicherweise gerechnet:'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Seminare zur Medienpraxis Audio / Radio'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Seminare zur Medienpraxis Multimedia / Online'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Seminare zur Medienpraxis Video'
-              -
-                type: paragraph
+                  - type: hard_break
+                  - type: text
+                    text: • Seminare zur Medienpraxis Audio / Radio
+                  - type: hard_break
+                  - type: text
+                    text: • Seminare zur Medienpraxis Multimedia / Online
+                  - type: hard_break
+                  - type: text
+                    text: • Seminare zur Medienpraxis Video
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Einige Hochschulen bietet im Bachelor-Studiengang bereits Vertiefungen zu Bereichen wie Medienrecht, Medienpsychologie und Medienpädagogik an.'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: 'Der Abschluss des Studiengangs erfolgt durch das Anfertigen '
-                  -
-                    type: text
+                  - type: text
+                    text: >-
+                      Einige Hochschulen bietet im Bachelor-Studiengang bereits
+                      Vertiefungen zu Bereichen wie Medienrecht,
+                      Medienpsychologie und Medienpädagogik an.
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      Der Abschluss des Studiengangs erfolgt durch das
+                      Anfertigen 
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Bachelorarbeit
-                  -
-                    type: text
+                  - type: text
                     text: ' und führt zum akademischen Grad Bachelor of Arts.'
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Master Medienwissenschaft'
-              -
-                type: paragraph
+                  - type: text
+                    text: Master Medienwissenschaft
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Auch der Master-Studiengang Medienwissenschaft wird von Hochschulen je nach Standort und Profil entweder als Teilgebiet der Kommunikationswissenschaft oder als eigenständiger Studiengang Medienwissenschaft angeboten. Nach dem erfolgreichen Absolvieren des grundständigen Studiums im Bachelorstudiengang bietet der Master Medienwissenschaft Studierenden hochschulübergreifend ein breites Spektrum an Vertiefungs- und Spezialisierungsoptionen mit vielfältigen beruflichen Perspektiven. Schwerpunktmäßig wird der Studiengang von den Fächern Medienwissenschaft, '
-                  -
-                    type: text
+                  - type: text
+                    text: >-
+                      Auch der Master-Studiengang Medienwissenschaft wird von
+                      Hochschulen je nach Standort und Profil entweder als
+                      Teilgebiet der Kommunikationswissenschaft oder als
+                      eigenständiger Studiengang Medienwissenschaft angeboten.
+                      Nach dem erfolgreichen Absolvieren des grundständigen
+                      Studiums im Bachelorstudiengang bietet der Master
+                      Medienwissenschaft Studierenden hochschulübergreifend ein
+                      breites Spektrum an Vertiefungs- und
+                      Spezialisierungsoptionen mit vielfältigen beruflichen
+                      Perspektiven. Schwerpunktmäßig wird der Studiengang von
+                      den Fächern Medienwissenschaft, 
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter/soziologie
                           target: null
                           rel: null
                     text: 'Soziologie '
-                  -
-                    type: text
-                    text: '(Mediensoziologie), je nach Hochschulprofil zusätzlich von den Fächern Anglistik, Kunstgeschichte, Wirtschaftswissenschaft und weiteren medienaffinen Disziplinen getragen. Anschließend wird das Studium mit der Anfertigung der '
-                  -
-                    type: text
+                  - type: text
+                    text: >-
+                      (Mediensoziologie), je nach Hochschulprofil zusätzlich von
+                      den Fächern Anglistik, Kunstgeschichte,
+                      Wirtschaftswissenschaft und weiteren medienaffinen
+                      Disziplinen getragen. Anschließend wird das Studium mit
+                      der Anfertigung der 
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Masterarbeit
-                  -
-                    type: text
+                  - type: text
                     text: ' abgeschlossen.'
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Hochschulübergreifend sind Staffelungen des konsekutiven, in der Regel viersemestrigen Masterstudiengangs in folgende Bereiche gebräuchlich:'
-              -
-                type: paragraph
+                      - type: bold
+                    text: >-
+                      Hochschulübergreifend sind Staffelungen des konsekutiven,
+                      in der Regel viersemestrigen Masterstudiengangs in
+                      folgende Bereiche gebräuchlich:
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: '• Einführungsphase (1. Fachsemester Master)'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Vertiefungsphase (2. und 3. Fachsemester Master)'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Abschlussphase (wissenschaftliche Abschlussarbeit, Master of Arts)'
-              -
-                type: paragraph
+                  - type: text
+                    text: • Einführungsphase (1. Fachsemester Master)
+                  - type: hard_break
+                  - type: text
+                    text: • Vertiefungsphase (2. und 3. Fachsemester Master)
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      • Abschlussphase (wissenschaftliche Abschlussarbeit,
+                      Master of Arts)
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Die Gegenstandsbereiche des Masterstudiums verteilen sich über verschiedene Module in diese Studienphasen auf. Je nach Hochschulprofil und Schwerpunkten werden üblicherweise folgende Bereiche der Medienwissenschaft vermittelt:'
-              -
-                type: paragraph
+                      - type: bold
+                    text: >-
+                      Die Gegenstandsbereiche des Masterstudiums verteilen sich
+                      über verschiedene Module in diese Studienphasen auf. Je
+                      nach Hochschulprofil und Schwerpunkten werden
+                      üblicherweise folgende Bereiche der Medienwissenschaft
+                      vermittelt:
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: '• Medienkommunikation und ihre Kontexte'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Empirische und angewandte Medienforschung'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• publizistische und historische Medien- und Kommunikationsforschung'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Mediensoziologie und Medienästhetik'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• interdisziplinäre Medienkommunikation'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• medienpraktische Schlüsselqualifikationen (Medienpragmatik)'
-              -
-                type: heading
+                  - type: text
+                    text: • Medienkommunikation und ihre Kontexte
+                  - type: hard_break
+                  - type: text
+                    text: • Empirische und angewandte Medienforschung
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      • publizistische und historische Medien- und
+                      Kommunikationsforschung
+                  - type: hard_break
+                  - type: text
+                    text: • Mediensoziologie und Medienästhetik
+                  - type: hard_break
+                  - type: text
+                    text: • interdisziplinäre Medienkommunikation
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      • medienpraktische Schlüsselqualifikationen
+                      (Medienpragmatik)
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Berufsperspektive Medienwissenschaftler'
-              -
-                type: paragraph
+                  - type: text
+                    text: Berufsperspektive Medienwissenschaftler
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Das interdisziplinär ausgerichtete Studium der Medienwissenschaft erlaubt eine Vielzahl beruflicher Perspektiven im Bereich medien- und kommunikationswissenschaftlich geprägter Berufsfelder. Die von den Hochschulen angebotenen medienwissenschaftlichen Studiengänge ermöglichen Studienabschlüsse mit berufspraktischen Qualifikationen. Sie erlauben ebenso die Orientierung an der wissenschaftlichen Laufbahn im Bereich der Medienforschung sowie in der Medienpädagogik.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Das interdisziplinär ausgerichtete Studium der
+                      Medienwissenschaft erlaubt eine Vielzahl beruflicher
+                      Perspektiven im Bereich medien- und
+                      kommunikationswissenschaftlich geprägter Berufsfelder. Die
+                      von den Hochschulen angebotenen medienwissenschaftlichen
+                      Studiengänge ermöglichen Studienabschlüsse mit
+                      berufspraktischen Qualifikationen. Sie erlauben ebenso die
+                      Orientierung an der wissenschaftlichen Laufbahn im Bereich
+                      der Medienforschung sowie in der Medienpädagogik.
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Bachelor- und Masterstudiengänge für Medienwissenschaft qualifizieren im Einzelnen für folgende Tätigkeitsfelder:'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Medienwissenschaftler als Redakteur in Zeitungsredaktionen, Fernseh- und Hörfunkabteilungen, Onlineredaktionen'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Medienwissenschaftler in Agenturen, Verlagen'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Medienwissenschaftler in Museen und öffentlichkeitsbezogenen Fachabteilungen'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Medienwissenschaftler im Bereich der Public Relation und der Unternehmenskommunikation'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Medienwissenschaftler im Bereich Medien- und Kulturmanagement von Institutionen und Stiftungen'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Medienwissenschaftler im Bereich Medien- und Kommunikationsforschung an Universitäten, Fachhochschulen, öffentlichen und privaten Forschungseinrichtungen'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Medienpädagoge im Bereich der Aus- und Weiterbildung'
-              -
-                type: heading
+                      - type: bold
+                    text: >-
+                      Bachelor- und Masterstudiengänge für Medienwissenschaft
+                      qualifizieren im Einzelnen für folgende Tätigkeitsfelder:
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      • Medienwissenschaftler als Redakteur in
+                      Zeitungsredaktionen, Fernseh- und Hörfunkabteilungen,
+                      Onlineredaktionen
+                  - type: hard_break
+                  - type: text
+                    text: • Medienwissenschaftler in Agenturen, Verlagen
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      • Medienwissenschaftler in Museen und
+                      öffentlichkeitsbezogenen Fachabteilungen
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      • Medienwissenschaftler im Bereich der Public Relation und
+                      der Unternehmenskommunikation
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      • Medienwissenschaftler im Bereich Medien- und
+                      Kulturmanagement von Institutionen und Stiftungen
+                  - type: hard_break
+                  - type: text
+                    text: >-
+                      • Medienwissenschaftler im Bereich Medien- und
+                      Kommunikationsforschung an Universitäten, Fachhochschulen,
+                      öffentlichen und privaten Forschungseinrichtungen
+                  - type: hard_break
+                  - type: text
+                    text: • Medienpädagoge im Bereich der Aus- und Weiterbildung
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-              -
-                type: heading
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Nützliche Weblinks'
-              -
-                type: paragraph
+                    text: Nützliche Weblinks
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'http://ifm.rub.de/'
+                          href: http://ifm.rub.de/
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Institut für Medienwissenschaften – Ruhr-Uni Bochum'
-                  -
-                    type: hard_break
+                          rel: noopener noreferrer nofollow
+                    text: Institut für Medienwissenschaften – Ruhr-Uni Bochum
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://kw.uni-paderborn.de/institut-fuer-medienwissenschaften/'
+                          href: >-
+                            https://kw.uni-paderborn.de/institut-fuer-medienwissenschaften/
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Institut für Medienwissenschaften – Uni Paderborn'
-                  -
-                    type: hard_break
+                          rel: noopener noreferrer nofollow
+                    text: Institut für Medienwissenschaften – Uni Paderborn
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Portal:Medienwissenschaft'
+                          href: >-
+                            https://de.wikipedia.org/wiki/Portal:Medienwissenschaft
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          rel: noopener noreferrer nofollow
                     text: 'Portal: Medienwissenschaft – Wikipedia'
+                attrs:
+                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -2451,12 +1927,16 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'Medienwissenschaft Ghostwriter & Lektoren • GWriters.de'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Medienwissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'Medienwissenschaft Ghostwriter & Lektoren • GWriters.de'
-og_description: 'Hilfe durch Experten und akademische Ghostwriter der Medienwissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: Medienwissenschaft Ghostwriter & Lektoren • GWriters.de
+meta_description: >-
+  Hilfe durch Experten und akademische Ghostwriter der Medienwissenschaften –
+  schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.
+og_title: Medienwissenschaft Ghostwriter & Lektoren • GWriters.de
+og_description: >-
+  Hilfe durch Experten und akademische Ghostwriter der Medienwissenschaften –
+  schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Medienwissenschaften Ghostwriter'
+alternative_page_title: Medienwissenschaften Ghostwriter
 breadcrumbs_active: true
 ---

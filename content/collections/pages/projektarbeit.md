@@ -3,319 +3,262 @@ id: 949c6959-cee4-4c89-be43-27ec9b420df3
 blueprint: pages
 title: Projektarbeit
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Projektarbeit schreiben lassen'
-  -
-    type: heading
+        text: Projektarbeit schreiben lassen
+  - type: heading
     attrs:
       level: 2
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: bold
+          - type: textColor
             attrs:
               color: '#000!important'
               hex: '#000'
-        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Projektarbeit'
-  -
-    type: set
+        text: Mustervorlagen von akademischen Ghostwritern für Ihre Projektarbeit
+  - type: set
     attrs:
       id: JRpSkxEC
       values:
         type: spacer
         padding-y: 10
-  -
-    type: set
+  - type: set
     attrs:
       id: CWWa73hB
       values:
         type: teaser_icon_columns
         columns:
-          -
-            id: etwaDW64
+          - id: etwaDW64
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: wYyPzT2I
+            headline: Datenschutz &amp; 100% Anonymität
+            tooltip_infotext: >-
+              Wir schützen Ihre Daten streng gemäß der Vorschriften von
+              DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.
+          - id: wYyPzT2I
             icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: owkEITze
+            headline: Teillieferungen &amp; kostenlose Änderungen
+            tooltip_infotext: >-
+              Sie erhalten von uns regelmäßig Teillieferungen und wir setzen
+              Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf
+              Ihr Projekt nehmen.
+          - id: owkEITze
             icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
-          -
-            id: EQgocU50
+            headline: Schnelle &amp; pünktliche Lieferung
+            tooltip_infotext: >-
+              Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte
+              Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler
+              Form.
+          - id: EQgocU50
             icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
+            headline: Top-Qualität von akademischen Experten
+            tooltip_infotext: >-
+              Ihre Mustervorlage wird von akademischen Experten auf höchstem
+              Niveau erstellt, die oft selbst als Doktoren oder Professoren
+              beschäftigt sind.
+  - type: set
     attrs:
       id: 0hhXoox8
       values:
         type: spacer
         padding-y: 15
-  -
-    type: set
+  - type: set
     attrs:
       id: bhM4GBJy
       values:
         type: button
         button_link: /anfrage
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_text: JETZT KOSTENLOS ANFRAGEN
         color: '#FF6606'
         spacing_top: false
-  -
-    type: set
+  - type: set
     attrs:
       id: ZgmG96zN
       values:
         type: spacer
         padding-y: 20
-  -
-    type: paragraph
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
+          - type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
+    attrs:
+      textAlign: center
+  - type: heading
     attrs:
       level: 2
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-          -
-            type: link
+          - type: link
             attrs:
-              href: 'tel:##phone##'
+              href: tel:##phone##
               target: null
               rel: null
         text: '##phone##'
 replicator:
-  -
-    id: 9dx3oCQT
+  - id: 9dx3oCQT
     columns_replicator:
-      -
-        id: PYoObu9x
+      - id: PYoObu9x
         single_col: true
         grid:
-          -
-            id: Tp57qGwH
+          - id: Tp57qGwH
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: gJCdR1fO
                   values:
                     type: insert_html
-                    html: |
-                      GWriters bietet Ihnen kompetente Hilfe für Ihre wissenschaftlichen Projektarbeiten. Unsere Experten finden für Ihre Projektarbeit genau den passenden <b>akademischen Ghostwriter</b>, der Ihren individuellen Anforderungen entspricht. Sie möchten Ihr akademisches Projekt in sichere Hände geben und für eine Projektarbeit Ghostwriter beauftragen? Möchten Sie eine qualitativ hochwertige Mustervorlage für Ihre Projektarbeit erstellen lassen? Unsere Ghostwriting-Agentur arbeitet mit renommierten Experten, Doktoren und Professoren zusammen. Verlassen Sie sich auf unser Expertenteam, um Ihre akademische Projektarbeit erfolgreich zu gestalten und Ihre Ziele zu erreichen.
-              -
-                type: heading
+                    html: >
+                      GWriters bietet Ihnen kompetente Hilfe für Ihre
+                      wissenschaftlichen Projektarbeiten. Unsere Experten finden
+                      für Ihre Projektarbeit genau den passenden <b>akademischen
+                      Ghostwriter</b>, der Ihren individuellen Anforderungen
+                      entspricht. Sie möchten Ihr akademisches Projekt in
+                      sichere Hände geben und für eine Projektarbeit Ghostwriter
+                      beauftragen? Möchten Sie eine qualitativ hochwertige
+                      Mustervorlage für Ihre Projektarbeit erstellen lassen?
+                      Unsere Ghostwriting-Agentur arbeitet mit renommierten
+                      Experten, Doktoren und Professoren zusammen. Verlassen Sie
+                      sich auf unser Expertenteam, um Ihre akademische
+                      Projektarbeit erfolgreich zu gestalten und Ihre Ziele zu
+                      erreichen.
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: Inhaltsverzeichnis
-              -
-                type: bullet_list
+              - type: bullet_list
                 content:
-                  -
-                    type: list_item
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: link
+                              - type: link
                                 attrs:
                                   href: '#ghostwriter'
                                   target: null
                                   rel: null
-                            text: 'Wie unterstützen Sie Ghostwriter bei Ihrer Projektarbeit?'
-                      -
-                        type: bullet_list
+                            text: >-
+                              Wie unterstützen Sie Ghostwriter bei Ihrer
+                              Projektarbeit?
+                      - type: bullet_list
                         content:
-                          -
-                            type: list_item
+                          - type: list_item
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: left
-                                      -
-                                        type: textColor
+                                      - type: textColor
                                         attrs:
                                           color: '#000!important'
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: '#schreiben-lassen'
                                           target: null
                                           rel: null
                                     text: "Mustervorlage für Projektarbeit schreiben\_lassen"
-                                  -
-                                    type: hard_break
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: left
-                                      -
-                                        type: textColor
+                                      - type: textColor
                                         attrs:
                                           color: '#000!important'
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: '#schreiben-lassen'
                                           target: null
                                           rel: null
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: left
-                                      -
-                                        type: textColor
+                                      - type: textColor
                                         attrs:
                                           color: '#000!important'
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: '#schreiben-lassen'
                                           target: null
                                           rel: null
-                                    text: '– Wie funktioniert die Kooperation?'
-                  -
-                    type: list_item
+                                    text: – Wie funktioniert die Kooperation?
+                                attrs:
+                                  textAlign: left
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: link
+                              - type: link
                                 attrs:
                                   href: '#definition'
                                   target: null
                                   rel: null
-                            text: 'Was ist eine Projektarbeit?'
-                  -
-                    type: list_item
+                            text: Was ist eine Projektarbeit?
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: textColor
+                              - type: textColor
                                 attrs:
                                   color: '#000!important'
                                   hex: '#000'
-                              -
-                                type: link
+                              - type: link
                                 attrs:
                                   href: '#wann'
                                   target: null
                                   rel: null
-                            text: 'Wann wird eine Projektarbeit erstellt?'
-                  -
-                    type: list_item
+                            text: Wann wird eine Projektarbeit erstellt?
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: link
+                              - type: link
                                 attrs:
                                   href: '#wichtigkeit'
                                   target: null
                                   rel: null
-                            text: 'Warum sind Projektarbeiten im Studium so wichtig?'
-                  -
-                    type: list_item
+                            text: Warum sind Projektarbeiten im Studium so wichtig?
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: link
+                              - type: link
                                 attrs:
                                   href: '#erstellen-lassen'
                                   target: null
                                   rel: null
-                            text: 'Warum sollte man bei Projektarbeiten Ghostwriter beauftragen?'
+                            text: >-
+                              Warum sollte man bei Projektarbeiten Ghostwriter
+                              beauftragen?
             show_as_card: false
         type: row
         enabled: true
@@ -326,75 +269,59 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: vypBHrjM
+  - id: vypBHrjM
     columns_replicator:
-      -
-        id: y2Quu7ns
+      - id: y2Quu7ns
         single_col: false
         grid:
-          -
-            id: adp3Lh8J
+          - id: adp3Lh8J
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: center
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Services anhand unserer Kundenstimmen'
-              -
-                type: heading
+                  - type: text
+                    marks: []
+                    text: Überzeugen Sie sich von der Qualität unseres Ghostwriter
+                  - type: hard_break
+                    marks: []
+                  - type: text
+                    marks: []
+                    text: Services anhand unserer Kundenstimmen
+              - type: heading
                 attrs:
                   level: 4
+                  textAlign: center
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
-              -
-                type: set
+                    text: >-
+                      Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie
+                      hier eine Auswahl:
+              - type: set
                 attrs:
                   id: FU8K0oH7
                   values:
                     type: insert_html
-                    html: |-
+                    html: >-
                       <!-- ProvenExpert Bewertungssiegel -->
+
                       <div id="pewl"></div>
-                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
-                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+
+                      <script type="text/javascript"
+                      src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white"
+                      async></script>
+
+                      <link rel="stylesheet" type="text/css"
+                      href="https://www.provenexpert.com/css/widget_landing.css"
+                      media="screen,print">
+
                       <!-- ProvenExpert Bewertungssiegel Ende -->
             show_as_card: false
         type: row
@@ -409,300 +336,212 @@ replicator:
     type: add_section
     enabled: true
     bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
-  -
-    id: lalfm2mr
+  - id: lalfm2mr
     columns_replicator:
-      -
-        id: lalfm7o5
+      - id: lalfm7o5
         single_col: true
         grid:
-          -
-            id: rMynGq5i
+          - id: rMynGq5i
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: lms3kc4u
                   values:
                     type: anchor_target
                     anchor_name: ghostwriter
-              -
-                type: paragraph
-              -
-                type: heading
+              - type: paragraph
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Wie unterstützen Sie Ghostwriter bei Ihrer Projektarbeit?'
-              -
-                type: paragraph
+                  - type: text
+                    text: Wie unterstützen Sie Ghostwriter bei Ihrer Projektarbeit?
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter
                           target: null
                           rel: null
                     text: Ghostwriter
-                  -
-                    type: text
+                  - type: text
                     text: ' können bei der Anfertigung Ihrer Projektarbeit im Studium unterstützen, indem sie Recherchen durchführen, die Arbeit strukturieren, beim Schreiben helfen, die Formatierung übernehmen und das Korrekturlesen übernehmen. '
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: 'Insbesondere können Ghostwriter '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /blog/literaturrecherche-datenbanken-quellen
                           target: null
                           rel: null
-                    text: 'umfassende Literaturrecherche'
-                  -
-                    type: text
+                    text: umfassende Literaturrecherche
+                  - type: text
                     text: ' zu Ihrem Projektthema durchführen, um relevante Literatur und Forschungsergebnisse zu identifizieren. Sie sind mit dem aktuellen Forschungsstand vertraut und haben oft Zugang zu kostenpflichtigen wissenschaftlichen Datenbanken. '
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: 'Häufig beauftragen Studierende Ghostwriter, um ihre '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Hausarbeit
-                  -
-                    type: text
+                  - type: text
                     text: ' oder '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Seminararbeit
-                  -
-                    type: text
+                  - type: text
                     text: ' als Muster für ihre Projektarbeit schreiben zu lassen. Unsere qualifizierten Ghostwriter verfügen über umfangreiche Erfahrung im Schreiben von Projektarbeiten. Sie erstellen eine komplette Muster-Projektarbeit nach individuellen Anforderungen und Fachgebiet für Sie. Wenn Sie sich dazu entschließen, eine Musterarbeit für Ihre Projektarbeit schreiben zu lassen, befinden Sie sich auf der sicheren Seite. '
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Von der Themenrecherche bis zur professionellen Plagiatsprüfung wird Ihre Arbeit kostenlos durchgeführt. Am Ende erhalten Sie eine fertige Musterarbeit für Ihre Projektarbeit, die allen relevanten Richtlinien entspricht. Das bedeutet, dass Ihre Arbeit einheitlich mit wissenschaftlichen Quellen zitiert wird, '
-                  -
-                    type: text
+                  - type: text
+                    text: >-
+                      Von der Themenrecherche bis zur professionellen
+                      Plagiatsprüfung wird Ihre Arbeit kostenlos durchgeführt.
+                      Am Ende erhalten Sie eine fertige Musterarbeit für Ihre
+                      Projektarbeit, die allen relevanten Richtlinien
+                      entspricht. Das bedeutet, dass Ihre Arbeit einheitlich mit
+                      wissenschaftlichen Quellen zitiert wird, 
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /gwriters-akademie
                           target: null
                           rel: null
-                    text: 'alle Verzeichnisse'
-                  -
-                    type: text
+                    text: alle Verzeichnisse
+                  - type: text
                     text: ' eingefügt werden (z.B. Inhaltsverzeichnis, Abkürzungsverzeichnis, Literaturverzeichnis etc.), Grafiken erstellt werden, eine klare Struktur eingebaut wird, und die Arbeit abschließend von einem '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /lektorat
                           target: null
                           rel: null
-                    text: 'unabhängigen Lektorat'
-                  -
-                    type: text
+                    text: unabhängigen Lektorat
+                  - type: text
                     text: ' und '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /korrektorat
                           target: null
                           rel: null
                     text: Korrektorat
-                  -
-                    type: text
+                  - type: text
                     text: ' überprüft sowie auf '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
-                    text: 'Plagiate geprüft'
-                  -
-                    type: text
+                    text: Plagiate geprüft
+                  - type: text
                     text: ' wird. '
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
                     text: 'Wenn Sie Ihre Projektarbeit als '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/praesentationen
                           target: null
                           rel: null
                     text: Präsentation
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
                     text: ' erstellen müssen, können unsere Ghostwriter Sie dabei unterstützen. Unsere akademischen Ghostwriter bereiten Sie auf Ihre Präsentation vor und erstellen eine '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /blog/bachelorarbeit-praesentation-powerpoint
                           target: null
                           rel: null
                     text: PowerPoint-Präsentation
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
                     text: ' zu Ihrem Projektthema.'
-              -
-                type: paragraph
-              -
-                type: set
+                attrs:
+                  textAlign: start
+              - type: paragraph
+              - type: set
                 attrs:
                   id: lms3klzv
                   values:
                     type: anchor_target
                     anchor_name: schreiben-lassen
-              -
-                type: paragraph
-              -
-                type: heading
+              - type: paragraph
+              - type: heading
                 attrs:
                   level: 3
+                  textAlign: left
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: "Mustervorlage für Projektarbeit schreiben\_lassen"
-                  -
-                    type: hard_break
+                  - type: hard_break
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '– Wie funktioniert die Kooperation?'
-              -
-                type: set
+                    text: – Wie funktioniert die Kooperation?
+              - type: set
                 attrs:
                   id: lalg3r3a
                   values:
@@ -713,134 +552,120 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: lalg3vtx
+      - id: lalg3vtx
         columns_per_row: 4
         single_col: true
         grid:
-          -
-            id: rMynGq5i
+          - id: rMynGq5i
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: gpAUPzAG
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-anfrage-orange.svg
                     custom_svg_width: 120
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 3
+                  textAlign: center
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Kostenlose Anfrage'
-              -
-                type: paragraph
+                  - type: text
+                    marks: []
+                    text: Kostenlose Anfrage
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Mit einer kostenlosen Anfrage für Ihre Projektarbeit über das Kontaktformular erhalten Sie in kürzester Zeit ein unverbindliches Angebot.'
+                  - type: text
+                    text: >-
+                      Mit einer kostenlosen Anfrage für Ihre Projektarbeit über
+                      das Kontaktformular erhalten Sie in kürzester Zeit ein
+                      unverbindliches Angebot.
             show_as_card: false
-          -
-            id: lalg3xcf
+          - id: lalg3xcf
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: WWuHXJL7
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-angebot-orange.svg
                     custom_svg_width: 120
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 3
+                  textAlign: center
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Unverbindliches Angebot'
-              -
-                type: paragraph
+                  - type: text
+                    marks: []
+                    text: Unverbindliches Angebot
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'In einem unverbindlichen Angebot von Ghostwritern für Ihre Projektarbeit erhalten Sie detaillierte Informationen zu Ihrem Anliegen. Das Angebot ist speziell auf Ihre Bedürfnisse zugeschnitten und beinhaltet einen fairen Preis für die Unterstützung bei Ihrer Studienarbeit. Zusätzlich wird eine vorläufige Planung für Ihren Auftrag im Angebot erstellt.'
+                  - type: text
+                    text: >-
+                      In einem unverbindlichen Angebot von Ghostwritern für Ihre
+                      Projektarbeit erhalten Sie detaillierte Informationen zu
+                      Ihrem Anliegen. Das Angebot ist speziell auf Ihre
+                      Bedürfnisse zugeschnitten und beinhaltet einen fairen
+                      Preis für die Unterstützung bei Ihrer Studienarbeit.
+                      Zusätzlich wird eine vorläufige Planung für Ihren Auftrag
+                      im Angebot erstellt.
             show_as_card: false
-          -
-            id: lalg3yqv
+          - id: lalg3yqv
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: CRFTCIG1
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
                     custom_svg_width: 120
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 3
+                  textAlign: center
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Wir schreiben für Sie'
-              -
-                type: paragraph
+                  - type: text
+                    marks: []
+                    text: Wir schreiben für Sie
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Sobald Sie das Angebot angenommen haben, startet der Schreibprozess mit dem ausgewählten Ghostwriter für Ihre Projektarbeit. In der Regel werden bei kurzen Projektarbeiten 2-3 kostenlose Zwischenlieferungen durchgeführt, die von unseren Projektmanagern koordiniert werden.'
+                  - type: text
+                    text: >-
+                      Sobald Sie das Angebot angenommen haben, startet der
+                      Schreibprozess mit dem ausgewählten Ghostwriter für Ihre
+                      Projektarbeit. In der Regel werden bei kurzen
+                      Projektarbeiten 2-3 kostenlose Zwischenlieferungen
+                      durchgeführt, die von unseren Projektmanagern koordiniert
+                      werden.
             show_as_card: false
-          -
-            id: lalg3zn6
+          - id: lalg3zn6
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: XnRBnsDQ
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-lieferung-orange.svg
                     custom_svg_width: 120
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 3
+                  textAlign: center
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Finale Lieferung'
-              -
-                type: paragraph
+                  - type: text
+                    marks: []
+                    text: Finale Lieferung
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Nachdem alle Zwischenlieferungen abgeschlossen sind und keine weiteren Änderungswünsche des Kunden erforderlich sind, wird die finale Version der Arbeit professionell auf Plagiate geprüft und durch ein Lektorat auf Qualität überprüft. Gerne setzen wir auch nach der Abschlusslieferung weitere Änderungsvorschläge kostenfrei um.'
+                  - type: text
+                    text: >-
+                      Nachdem alle Zwischenlieferungen abgeschlossen sind und
+                      keine weiteren Änderungswünsche des Kunden erforderlich
+                      sind, wird die finale Version der Arbeit professionell auf
+                      Plagiate geprüft und durch ein Lektorat auf Qualität
+                      überprüft. Gerne setzen wir auch nach der
+                      Abschlusslieferung weitere Änderungsvorschläge kostenfrei
+                      um.
             show_as_card: false
         type: row
         enabled: true
@@ -850,106 +675,91 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: BHv3PVgM
+  - id: BHv3PVgM
     columns_replicator:
-      -
-        id: qDfBM14f
+      - id: qDfBM14f
         single_col: false
         grid:
-          -
-            id: 9vfNOJN2
+          - id: 9vfNOJN2
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot
+                      an!
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Wenn Sie bei Ihrer Projektarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
-                  -
-                    type: text
+                      - type: bold
+                    text: >-
+                      Wenn Sie bei Ihrer Projektarbeit Unterstützung benötigen,
+                      dann können Sie uns gerne sofort eine 
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: link
+                      - type: bold
+                      - type: link
                         attrs:
                           href: /anfrage
                           target: null
                           rel: null
-                    text: 'unverbindliche Anfrage schicken'
-                  -
-                    type: text
+                    text: unverbindliche Anfrage schicken
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: '. Unsere Ghostwriting-Agentur melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot mit fairen Preisen. Wir rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung durch einen unserer akademischen Betreuer wünschen.'
+                      - type: bold
+                    text: >-
+                      . Unsere Ghostwriting-Agentur melden uns innerhalb weniger
+                      Stunden mit einem kostenlosen Leistungsangebot mit fairen
+                      Preisen. Wir rufen Sie auch gerne an, falls Sie eine
+                      kostenlose telefonische Beratung durch einen unserer
+                      akademischen Betreuer wünschen.
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: 7IYV6l5w
+      - id: 7IYV6l5w
         columns_per_row: 2
         grid:
-          -
-            id: 97BVKIj8
+          - id: 97BVKIj8
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: MzhgHqUT
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-20:00'
+                    open: Mo.-Fr. 9:00-20:00
             show_as_card: true
-          -
-            id: HgBrJMPv
+          - id: HgBrJMPv
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: muzcwequ
                   values:
                     type: spacer
                     padding-y: 12
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere akademische Fachbereiche beginnen ab\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: '100,- € pro Normseite.'
-              -
-                type: set
+                      - type: bold
+                    text: 100,- € pro Normseite.
+              - type: set
                 attrs:
                   id: lxZl0Ohl
                   values:
                     type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+                    button_text: JETZT KOSTENLOS ANFRAGEN
                     button_align: justify-start
                     spacing_top: true
-              -
-                type: set
+              - type: set
                 attrs:
                   id: c35zUgjk
                   values:
@@ -960,23 +770,18 @@ replicator:
         enabled: true
         single_col: false
         responsive_columns: 0
-      -
-        id: lalg8bc3
+      - id: lalg8bc3
         single_col: false
         grid:
-          -
-            id: uCecAGLH
+          - id: uCecAGLH
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Ihre Ansprechpartner bei GWriters'
-              -
-                type: set
+                  - type: text
+                    text: Ihre Ansprechpartner bei GWriters
+              - type: set
                 attrs:
                   id: laif3jj1
                   values:
@@ -999,26 +804,20 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: 5myvGzLj
+  - id: 5myvGzLj
     columns_replicator:
-      -
-        id: 3KMdxTHS
+      - id: 3KMdxTHS
         single_col: true
         grid:
-          -
-            id: doaYOIy2
+          - id: doaYOIy2
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Unsere Garantien für Sie'
-              -
-                type: set
+                  - type: text
+                    text: Unsere Garantien für Sie
+              - type: set
                 attrs:
                   id: PhS751Ja
                   values:
@@ -1029,218 +828,169 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: Lqus8Zof
+      - id: Lqus8Zof
         columns_per_row: 4
         grid:
-          -
-            id: OVygIfhl
+          - id: OVygIfhl
             bard:
-              -
-                type: paragraph
-              -
-                type: set
+              - type: paragraph
+              - type: set
                 attrs:
                   id: k0dP0vG7
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
                     custom_svg_width: 65
-              -
-                type: set
+              - type: set
                 attrs:
                   id: 5rvHdoS6
                   values:
                     type: spacer
                     padding-y: 10
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Datenschutz & 100% Anonymität'
-              -
-                type: paragraph
+                      - type: bold
+                    text: Datenschutz & 100% Anonymität
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: 'Wir '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
+                      - type: bold
                     text: 'garantieren Ihre Anonymität '
-                  -
-                    type: text
-                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
-              -
-                type: set
+                  - type: text
+                    text: >-
+                      zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch
+                      eine anonyme Zahlung über Freunde oder Verwandte ist
+                      möglich.
+              - type: set
                 attrs:
                   id: U31buXSt
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
-          -
-            id: RtaZ2dno
+          - id: RtaZ2dno
             bard:
-              -
-                type: paragraph
-              -
-                type: set
+              - type: paragraph
+              - type: set
                 attrs:
                   id: 62RxzmwG
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
                     custom_svg_width: 65
-              -
-                type: set
+              - type: set
                 attrs:
                   id: cbfiQHwy
                   values:
                     type: spacer
                     padding-y: 10
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Kostenlose Änderung nach Ihrem Feedback im Preis enthalten'
-              -
-                type: paragraph
+                      - type: bold
+                    text: Kostenlose Änderung nach Ihrem Feedback im Preis enthalten
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
-                  -
-                    type: text
+                  - type: text
+                    text: >-
+                      Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und
+                      Anmerkungen ohne lange Diskussionen an - und zwar
+                      unbegrenzt, bis 
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Sie zufrieden sind!'
-              -
-                type: set
+                      - type: bold
+                    text: Sie zufrieden sind!
+              - type: set
                 attrs:
                   id: C72MQmHY
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
-          -
-            id: gPkmiz9r
+          - id: gPkmiz9r
             bard:
-              -
-                type: paragraph
-              -
-                type: set
+              - type: paragraph
+              - type: set
                 attrs:
                   id: I5NWpECK
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
                     custom_svg_width: 65
-              -
-                type: set
+              - type: set
                 attrs:
                   id: LiJXQKfa
                   values:
                     type: spacer
                     padding-y: 10
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Schnelle & pünktliche Lieferung'
-              -
-                type: paragraph
+                    text: Schnelle & pünktliche Lieferung
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: 'Wir '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'garantieren die pünktliche Lieferung'
-                  -
-                    type: text
+                      - type: bold
+                    text: garantieren die pünktliche Lieferung
+                  - type: text
                     text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage und alle Ergebnisse zum vereinbarten Datum in lektorierter & finaler Form.'
-              -
-                type: set
+              - type: set
                 attrs:
                   id: HUqmUZZe
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
-          -
-            id: QyVt7cph
+          - id: QyVt7cph
             bard:
-              -
-                type: paragraph
-              -
-                type: set
+              - type: paragraph
+              - type: set
                 attrs:
                   id: Iojek3V5
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
                     custom_svg_width: 65
-              -
-                type: set
+              - type: set
                 attrs:
                   id: GDZ9itXz
                   values:
                     type: spacer
                     padding-y: 10
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Top-Qualität von Experten'
-              -
-                type: paragraph
+                      - type: bold
+                    text: Top-Qualität von Experten
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: 'Akademischen Experten die sonst als '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Doktoren & Professoren'
-                  -
-                    type: text
+                      - type: bold
+                    text: Doktoren & Professoren
+                  - type: text
                     text: ' arbeiten, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung.'
-              -
-                type: set
+              - type: set
                 attrs:
                   id: X2CExsez
                   values:
@@ -1256,71 +1006,65 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: lalfm5os
+  - id: lalfm5os
     columns_replicator:
-      -
-        id: lalfmhxz
+      - id: lalfmhxz
         single_col: true
         grid:
-          -
-            id: rMynGq5i
+          - id: rMynGq5i
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: lms3l67b
                   values:
                     type: anchor_target
                     anchor_name: definition
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Was ist eine Projektarbeit?'
-              -
-                type: paragraph
+                  - type: text
+                    text: Was ist eine Projektarbeit?
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
-                    text: 'Eine Projektarbeit ist eine schriftliche wissenschaftliche Arbeit, die im Rahmen eines bestimmten Projekts oder Seminars verfasst wird. Diese Art von wissenschaftlicher Arbeit wird in vielen Fachrichtungen und an zahlreichen Hochschulen von Studierenden verfasst. Projektarbeiten ermöglichen es den Studierenden, ihre theoretischen Kenntnisse in der Praxis anzuwenden und zeigen, dass sie in der Lage sind, ein wissenschaftliches Problem zu analysieren und zu lösen.'
-              -
-                type: paragraph
+                    text: >-
+                      Eine Projektarbeit ist eine schriftliche wissenschaftliche
+                      Arbeit, die im Rahmen eines bestimmten Projekts oder
+                      Seminars verfasst wird. Diese Art von wissenschaftlicher
+                      Arbeit wird in vielen Fachrichtungen und an zahlreichen
+                      Hochschulen von Studierenden verfasst. Projektarbeiten
+                      ermöglichen es den Studierenden, ihre theoretischen
+                      Kenntnisse in der Praxis anzuwenden und zeigen, dass sie
+                      in der Lage sind, ein wissenschaftliches Problem zu
+                      analysieren und zu lösen.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
-                    text: 'Die wichtigsten Merkmale einer Projektarbeit sind das festgelegte Projektthema, wissenschaftliche Recherche, methodisches Vorgehen, Dokumentation und die darauf aufbauende Präsentation.'
-              -
-                type: table
+                    text: >-
+                      Die wichtigsten Merkmale einer Projektarbeit sind das
+                      festgelegte Projektthema, wissenschaftliche Recherche,
+                      methodisches Vorgehen, Dokumentation und die darauf
+                      aufbauende Präsentation.
+                attrs:
+                  textAlign: start
+              - type: table
                 content:
-                  -
-                    type: table_row
+                  - type: table_row
                     content:
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
@@ -1328,50 +1072,39 @@ replicator:
                             - 334
                           background: null
                         content:
-                          -
-                            type: paragraph
+                          - type: paragraph
                             content:
-                              -
-                                type: text
+                              - type: text
                                 marks:
-                                  -
-                                    type: bold
+                                  - type: bold
                                 text: Thema
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
                           background: null
                         content:
-                          -
-                            type: bullet_list
+                          - type: bullet_list
                             content:
-                              -
-                                type: list_item
+                              - type: list_item
                                 content:
-                                  -
-                                    type: paragraph
+                                  - type: paragraph
                                     content:
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
+                                          - type: textColor
                                             attrs:
-                                              align: left
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(15, 15, 15)'
+                                              color: rgb(15, 15, 15)
                                               hex: '#000'
-                                        text: 'Bezug zu einem bestimmten Thema im Kontext eines Projekts oder Seminars.'
-                  -
-                    type: table_row
+                                        text: >-
+                                          Bezug zu einem bestimmten Thema im
+                                          Kontext eines Projekts oder Seminars.
+                                    attrs:
+                                      textAlign: left
+                  - type: table_row
                     content:
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
@@ -1379,69 +1112,52 @@ replicator:
                             - 334
                           background: null
                         content:
-                          -
-                            type: paragraph
+                          - type: paragraph
                             content:
-                              -
-                                type: text
+                              - type: text
                                 marks:
-                                  -
-                                    type: bold
+                                  - type: bold
                                 text: Recherche
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
                           background: null
                         content:
-                          -
-                            type: bullet_list
+                          - type: bullet_list
                             content:
-                              -
-                                type: list_item
+                              - type: list_item
                                 content:
-                                  -
-                                    type: paragraph
+                                  - type: paragraph
                                     content:
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                        text: 'Umfassende Recherche zum Thema.'
-                              -
-                                type: list_item
+                                        text: Umfassende Recherche zum Thema.
+                                    attrs:
+                                      textAlign: start
+                              - type: list_item
                                 content:
-                                  -
-                                    type: paragraph
+                                  - type: paragraph
                                     content:
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                        text: 'Identifizierung relevanter Forschungsergebnisse.'
-                  -
-                    type: table_row
+                                        text: >-
+                                          Identifizierung relevanter
+                                          Forschungsergebnisse.
+                                    attrs:
+                                      textAlign: start
+                  - type: table_row
                     content:
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
@@ -1449,184 +1165,122 @@ replicator:
                             - 334
                           background: null
                         content:
-                          -
-                            type: paragraph
+                          - type: paragraph
                             content:
-                              -
-                                type: text
+                              - type: text
                                 marks:
-                                  -
-                                    type: bold
+                                  - type: bold
                                 text: Methodik
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
                           background: null
                         content:
-                          -
-                            type: bullet_list
+                          - type: bullet_list
                             content:
-                              -
-                                type: list_item
+                              - type: list_item
                                 content:
-                                  -
-                                    type: paragraph
+                                  - type: paragraph
                                     content:
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                          -
-                                            type: link
+                                          - type: link
                                             attrs:
                                               href: /blog/qualitative-quantitative-methoden
                                               target: null
                                               rel: null
-                                        text: 'Qualitative oder quantitative Forschungsmethoden'
-                                      -
-                                        type: text
+                                        text: >-
+                                          Qualitative oder quantitative
+                                          Forschungsmethoden
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
                                         text: ', abhängig von der Fachrichtung.'
-                              -
-                                type: list_item
+                                    attrs:
+                                      textAlign: start
+                              - type: list_item
                                 content:
-                                  -
-                                    type: paragraph
+                                  - type: paragraph
                                     content:
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
                                         text: 'Mögliche Methoden: '
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                          -
-                                            type: link
+                                          - type: link
                                             attrs:
                                               href: /blog/umfrage-erstellen-tools
                                               target: null
                                               rel: null
                                         text: Umfragen
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
                                         text: ', '
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                          -
-                                            type: link
+                                          - type: link
                                             attrs:
-                                              href: /blog/leitfadengestuetztes-experteninterview
+                                              href: >-
+                                                /blog/leitfadengestuetztes-experteninterview
                                               target: null
                                               rel: null
                                         text: Interviews
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
                                         text: ', Experimente, '
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                          -
-                                            type: link
+                                          - type: link
                                             attrs:
                                               href: /blog/gruppendiskussion-methode
                                               target: null
                                               rel: null
                                         text: Datenanalyse
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
                                         text: .
-                  -
-                    type: table_row
+                                    attrs:
+                                      textAlign: start
+                  - type: table_row
                     content:
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
@@ -1634,69 +1288,55 @@ replicator:
                             - 334
                           background: null
                         content:
-                          -
-                            type: paragraph
+                          - type: paragraph
                             content:
-                              -
-                                type: text
+                              - type: text
                                 marks:
-                                  -
-                                    type: bold
+                                  - type: bold
                                 text: Dokumentation
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
                           background: null
                         content:
-                          -
-                            type: bullet_list
+                          - type: bullet_list
                             content:
-                              -
-                                type: list_item
+                              - type: list_item
                                 content:
-                                  -
-                                    type: paragraph
+                                  - type: paragraph
                                     content:
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                        text: 'Schriftliche Dokumentation der Projektergebnisse.'
-                              -
-                                type: list_item
+                                        text: >-
+                                          Schriftliche Dokumentation der
+                                          Projektergebnisse.
+                                    attrs:
+                                      textAlign: start
+                              - type: list_item
                                 content:
-                                  -
-                                    type: paragraph
+                                  - type: paragraph
                                     content:
-                                      -
-                                        type: text
+                                      - type: text
                                         marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
+                                          - type: textColor
                                             attrs:
                                               color: var(--text-primary)
                                               hex: '#000'
-                                        text: 'Umfasst Einleitung, Methodik, Ergebnisse, Diskussion und Schlussfolgerungen.'
-                  -
-                    type: table_row
+                                        text: >-
+                                          Umfasst Einleitung, Methodik,
+                                          Ergebnisse, Diskussion und
+                                          Schlussfolgerungen.
+                                    attrs:
+                                      textAlign: start
+                  - type: table_row
                     content:
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
@@ -1704,136 +1344,110 @@ replicator:
                             - 334
                           background: null
                         content:
-                          -
-                            type: paragraph
+                          - type: paragraph
                             content:
-                              -
-                                type: text
+                              - type: text
                                 marks:
-                                  -
-                                    type: bold
+                                  - type: bold
                                 text: Präsentation
-                      -
-                        type: table_cell
+                      - type: table_cell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
                           background: null
                         content:
-                          -
-                            type: bullet_list
+                          - type: bullet_list
                             content:
-                              -
-                                type: list_item
+                              - type: list_item
                                 content:
-                                  -
-                                    type: paragraph
+                                  - type: paragraph
                                     content:
-                                      -
-                                        type: text
-                                        text: 'In einigen Fällen mündliche Präsentation oder '
-                                      -
-                                        type: text
+                                      - type: text
+                                        text: >-
+                                          In einigen Fällen mündliche Präsentation
+                                          oder 
+                                      - type: text
                                         marks:
-                                          -
-                                            type: link
+                                          - type: link
                                             attrs:
                                               href: /blog/kolloquium-bachelorarbeit
                                               target: null
                                               rel: null
                                         text: Kolloquium
-                                      -
-                                        type: text
+                                      - type: text
                                         text: ' der Arbeit.'
-                          -
-                            type: bullet_list
+                          - type: bullet_list
                             content:
-                              -
-                                type: list_item
+                              - type: list_item
                                 content:
-                                  -
-                                    type: paragraph
+                                  - type: paragraph
                                     content:
-                                      -
-                                        type: text
-                                        text: 'Ziel: Verteidigung oder Erklärung der Ergebnisse und Erkenntnisse.'
-              -
-                type: paragraph
+                                      - type: text
+                                        text: >-
+                                          Ziel: Verteidigung oder Erklärung der
+                                          Ergebnisse und Erkenntnisse.
+              - type: paragraph
                 content:
-                  -
-                    type: hard_break
+                  - type: hard_break
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
-                    text: 'Ein Projekt hat immer einen Anfang und ein Ende, ebenso ist es bei einer Projektarbeit im Studium. Alles, was im Studium als Leistung abgeschlossen wird, kann als Projektarbeit betrachtet werden. Im Grunde genommen kann man eine Bachelorarbeit als Projektarbeit bezeichnen. Unter Projektarbeit versteht man das eigenständige Lösen einer Aufgabenstellung oder eines Problems durch eine Projektgruppe. Oft sind Gruppenarbeiten sehr komplex und zeitlich eingegrenzt.'
-              -
-                type: paragraph
+                    text: >-
+                      Ein Projekt hat immer einen Anfang und ein Ende, ebenso
+                      ist es bei einer Projektarbeit im Studium. Alles, was im
+                      Studium als Leistung abgeschlossen wird, kann als
+                      Projektarbeit betrachtet werden. Im Grunde genommen kann
+                      man eine Bachelorarbeit als Projektarbeit bezeichnen.
+                      Unter Projektarbeit versteht man das eigenständige Lösen
+                      einer Aufgabenstellung oder eines Problems durch eine
+                      Projektgruppe. Oft sind Gruppenarbeiten sehr komplex und
+                      zeitlich eingegrenzt.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
-                    text: 'Es ist wichtig anzumerken, dass Projektarbeiten im Studium verschiedene Formen annehmen können und in unterschiedlichen Fachrichtungen unterschiedliche Anforderungen haben können. Diese können von Forschungsprojekten und '
-                  -
-                    type: text
+                    text: >-
+                      Es ist wichtig anzumerken, dass Projektarbeiten im Studium
+                      verschiedene Formen annehmen können und in
+                      unterschiedlichen Fachrichtungen unterschiedliche
+                      Anforderungen haben können. Diese können von
+                      Forschungsprojekten und 
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/fallstudie
                           target: null
                           rel: null
                     text: Fallstudien
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: var(--text-primary)
                           hex: '#000'
                     text: ' bis hin zu praktischen Anwendungen und kreativen Projekten reichen.'
+                attrs:
+                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -1846,166 +1460,127 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: fIXXlwmQ
+  - id: fIXXlwmQ
     columns_replicator:
-      -
-        id: qR9pvuG7
+      - id: qR9pvuG7
         grid:
-          -
-            id: lmUilup5
+          - id: lmUilup5
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: lms3lf9q
                   values:
                     type: anchor_target
                     anchor_name: wann
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Wann wird eine Projektarbeit erstellt?'
-              -
-                type: paragraph
+                    text: Wann wird eine Projektarbeit erstellt?
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
-                    text: 'Projektarbeiten sind gängige Bestandteile des Studiums und entstehen im Rahmen von Projekten, Seminaren, Praktika oder Forschungsprojekten. Die Anforderungen und Zeitpunkte für Projektarbeiten variieren je nach Hochschule, Studiengang und Fachrichtung. Sie können Teil des Studienverlaufs, spezieller Projektseminare oder Abschlussarbeiten wie Bachelor- oder Masterarbeiten sein. Auch in der Berufspraxis können Studierende Projektarbeiten verfassen, um ihre praktischen Fähigkeiten zu zeigen. Unabhängig von Zeit und Ort können unsere Experten Sie unterstützen. Besonders bei anspruchsvollen Projektarbeiten wie Bachelor- oder '
-                  -
-                    type: text
+                    text: >-
+                      Projektarbeiten sind gängige Bestandteile des Studiums und
+                      entstehen im Rahmen von Projekten, Seminaren, Praktika
+                      oder Forschungsprojekten. Die Anforderungen und Zeitpunkte
+                      für Projektarbeiten variieren je nach Hochschule,
+                      Studiengang und Fachrichtung. Sie können Teil des
+                      Studienverlaufs, spezieller Projektseminare oder
+                      Abschlussarbeiten wie Bachelor- oder Masterarbeiten sein.
+                      Auch in der Berufspraxis können Studierende
+                      Projektarbeiten verfassen, um ihre praktischen Fähigkeiten
+                      zu zeigen. Unabhängig von Zeit und Ort können unsere
+                      Experten Sie unterstützen. Besonders bei anspruchsvollen
+                      Projektarbeiten wie Bachelor- oder 
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Masterarbeiten
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
                     text: ' haben Studierende oft Schwierigkeiten, Forschungsergebnisse zu finden und diese in Form einer Projektarbeit zu verfassen. '
-              -
-                type: paragraph
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
-                    text: 'Insbesondere in den Studiengängen Naturwissenschaften, Ingenieurwissenschaften, Informatik, Sozialwissenschaften und in der Medizin werden komplexe Projekte als Abschlussarbeiten durchgeführt, da in diesen Studiengängen häufig umfangreiche Forschungen stattfinden. Es ist nicht ungewöhnlich, dass Studenten im Fachbereich '
-                  -
-                    type: text
+                    text: >-
+                      Insbesondere in den Studiengängen Naturwissenschaften,
+                      Ingenieurwissenschaften, Informatik, Sozialwissenschaften
+                      und in der Medizin werden komplexe Projekte als
+                      Abschlussarbeiten durchgeführt, da in diesen Studiengängen
+                      häufig umfangreiche Forschungen stattfinden. Es ist nicht
+                      ungewöhnlich, dass Studenten im Fachbereich 
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter/medizin
                           target: null
                           rel: null
-                    text: 'Medizin Ghostwriter'
-                  -
-                    type: text
+                    text: Medizin Ghostwriter
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
                     text: ' für komplexe und umfangreiche Forschungsarbeiten beauftragen. Viele möchten sich sogar eine komplette Projektarbeit als '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: 'Bachelorarbeit schreiben lassen'
-                  -
-                    type: text
+                    text: Bachelorarbeit schreiben lassen
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(15, 15, 15)'
+                          color: rgb(15, 15, 15)
                           hex: '#000'
                     text: .
+                attrs:
+                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -2018,1300 +1593,959 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: fN7AsZHf
+  - id: fN7AsZHf
     columns_replicator:
-      -
-        id: qUXoNyE9
+      - id: qUXoNyE9
         single_col: true
         grid:
-          -
-            id: GhadNIQp
+          - id: GhadNIQp
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: center
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
-              -
-                type: set
+                  - type: text
+                    marks: []
+                    text: >-
+                      Wir unterstützen Sie bei nahezu allen akademischen
+                      Fachbereichen & Arbeiten!
+              - type: set
                 attrs:
                   id: ljoh1u6i
                   values:
                     type: custom_link_list
                     raster:
-                      -
-                        id: ljoh22s8
+                      - id: ljoh22s8
                         text: Fachrichtungen
                         eintraege:
-                          -
-                            id: ljoh2bsp
-                            headline: 'Technische Fachrichtungen'
+                          - id: ljoh2bsp
+                            headline: Technische Fachrichtungen
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/architektur
                                           target: null
                                           rel: null
-                                    text: 'Architektur Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Architektur Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/bauingenieurwesen
                                           target: null
                                           rel: null
-                                    text: 'Bauingenieurwesen Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Bauingenieurwesen Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/elektrotechnik
                                           target: null
                                           rel: null
-                                    text: 'Elektrotechnik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Elektrotechnik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/maschinenbau
                                           target: null
                                           rel: null
-                                    text: 'Maschinenbau Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Maschinenbau Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/informatik
                                           target: null
                                           rel: null
-                                    text: 'Informatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Informatik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          href: >-
+                                            /ghostwriter/informatik#Softwarelokalisierung
                                           target: null
                                           rel: null
-                                    text: 'Softwarelokalisierung Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Softwarelokalisierung Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          href: /ghostwriter/biologie#biotechnologie
                                           target: null
                                           rel: null
-                                    text: 'Biotechnologie Ghostwriter'
-                                  -
-                                    type: text
+                                    text: Biotechnologie Ghostwriter
+                                  - type: text
                                     text: ' '
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/technomathematik
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Technomathematik'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Ghostwriter Technomathematik
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/ingenieurwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Ingenieurwissenschaften'
-                          -
-                            id: ljoh2wxw
+                                    text: Ghostwriter Ingenieurwissenschaften
+                          - id: ljoh2wxw
                             headline: Naturwissenschaften
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/biologie
                                           target: null
                                           rel: null
-                                    text: 'Biologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Biologie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/chemie
                                           target: null
                                           rel: null
-                                    text: 'Chemie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Chemie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/geologie
                                           target: null
                                           rel: null
-                                    text: 'Geologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Geologie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/geowissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Geowissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Geowissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/mathematik
                                           target: null
                                           rel: null
-                                    text: 'Mathematik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Mathematik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/agrarwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Agrarwissenschaften'
-                          -
-                            id: ljoh3l91
+                                    text: Ghostwriter Agrarwissenschaften
+                          - id: ljoh3l91
                             headline: Sozialwissenschaften
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          href: >-
+                                            /ghostwriter/erziehungswissenschaften-ghostwriter
                                           target: null
                                           rel: null
-                                    text: 'Erziehungswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Erziehungswissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: /ghostwriter/kommunikationswissenschaften
+                                          href: >-
+                                            /ghostwriter/kommunikationswissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Kommunikationswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Kommunikationswissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/soziale-arbeit
                                           target: null
                                           rel: null
-                                    text: 'Soziale Arbeit Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Soziale Arbeit Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/sozialwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Sozialwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Sozialwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/soziologie
                                           target: null
                                           rel: null
-                                    text: 'Soziologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Soziologie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/sprachwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Sprachwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Sprachwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          href: >-
+                                            /ghostwriter/kommunikationswissenschaften#kommunikationsdesign
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Kommunikationsdesign'
-                                  -
-                                    type: text
+                                    text: Ghostwriter Kommunikationsdesign
+                                  - type: text
                                     text: ' '
-                          -
-                            id: ljoh3x4b
-                            headline: 'Wirtschaftliche Fachbereiche'
+                          - id: ljoh3x4b
+                            headline: Wirtschaftliche Fachbereiche
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/finanzwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Finanzwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Finanzwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/medienwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Medienwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Medienwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/bwl
                                           target: null
                                           rel: null
-                                    text: 'BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: BWL Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/marketing
                                           target: null
                                           rel: null
-                                    text: 'Marketing Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Marketing Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftsinformatik
                                           target: null
                                           rel: null
-                                    text: 'Wirtschaftsinformatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Wirtschaftsinformatik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftswissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Wirtschaftswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Wirtschaftswissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/personalmanagement
                                           target: null
                                           rel: null
-                                    text: 'Personalmanagement Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Personalmanagement Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: '#Internationale'
                                           target: null
                                           rel: null
-                                    text: 'Internationale BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: hard_break
-                          -
-                            id: ljoh4b21
+                                    text: Internationale BWL Ghostwriter
+                                  - type: hard_break
+                                  - type: hard_break
+                          - id: ljoh4b21
                             headline: Geisteswissenschaften
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/germanistik-ghostwriter
                                           target: null
                                           rel: null
-                                    text: 'Germanistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Germanistik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/anglistik
                                           target: null
                                           rel: null
-                                    text: 'Anglistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Anglistik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/geschichte
                                           target: null
                                           rel: null
-                                    text: 'Geschichte Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Geschichte Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/kunst
                                           target: null
                                           rel: null
-                                    text: 'Kunst Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Kunst Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/literatur
                                           target: null
                                           rel: null
-                                    text: 'Literatur Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Literatur Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/jura
                                           target: null
                                           rel: null
-                                    text: 'Jura Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Jura Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/philosophie
                                           target: null
                                           rel: null
-                                    text: 'Philosophie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Philosophie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          href: /ghostwriter/kunst#kunstgeschichte
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Kunstgeschichte'
-                          -
-                            id: ljoh4l6j
-                            headline: 'Medizinische Fachrichtungen'
+                                    text: Ghostwriter Kunstgeschichte
+                          - id: ljoh4l6j
+                            headline: Medizinische Fachrichtungen
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/medizin
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Medizin'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Ghostwriter Medizin
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/pflegewissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Pflegewissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Pflegewissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/psychologie
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Psychologie'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Ghostwriter Psychologie
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/zahnmedizin
                                           target: null
                                           rel: null
-                                    text: 'Zahnmedizin Ghostwriter'
-                      -
-                        id: ljoh1weq
+                                    text: Zahnmedizin Ghostwriter
+                      - id: ljoh1weq
                         text: Arbeiten
                         eintraege:
-                          -
-                            id: ljoh5n3s
+                          - id: ljoh5n3s
                             headline: Abschlussarbeiten
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
                                           target: null
                                           rel: null
-                                    text: 'Diplomarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Diplomarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
                                           target: null
                                           rel: null
-                                    text: 'Examensarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Examensarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
                                           target: null
                                           rel: null
-                                    text: 'Magisterarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Magisterarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
+                                      - type: textColor
                                         attrs:
                                           color: '#000!important'
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                          href: >-
+                                            /arbeiten/bachelorarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Bachelorarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Bachelorarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Masterarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Masterarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
+                                          href: >-
+                                            /arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Masterthesis schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Masterthesis schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
                                           target: null
                                           rel: null
-                                    text: 'Doktorarbeit schreiben lassen'
-                          -
-                            id: ljoh8o20
-                            headline: 'Sonstige Arbeiten'
+                                    text: Doktorarbeit schreiben lassen
+                                attrs:
+                                  textAlign: start
+                          - id: ljoh8o20
+                            headline: Sonstige Arbeiten
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/ebook
                                           target: null
                                           rel: null
-                                    text: 'eBook schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: eBook schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/lernskript
                                           target: null
                                           rel: null
-                                    text: 'Lernskript schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Lernskript schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/praesentationen
                                           target: null
                                           rel: null
-                                    text: 'Präsentationen erstellen lassen'
-                                  -
-                                    type: hard_break
+                                    text: Präsentationen erstellen lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/statistische-analysen
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Statistik'
-                                  -
-                                    type: hard_break
+                                    text: Ghostwriter Statistik
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /expose
                                           target: null
                                           rel: null
-                                    text: 'Exposé schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Exposé schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/referat
                                           target: null
                                           rel: null
-                                    text: 'Referat schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Referat schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                          -
-                            id: ljoh9nu0
+                                attrs:
+                                  textAlign: start
+                          - id: ljoh9nu0
                             headline: Studienarbeiten
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/essay
                                           target: null
                                           rel: null
-                                    text: 'Essay schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Essay schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/hausarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Hausarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Hausarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/facharbeit
                                           target: null
                                           rel: null
-                                    text: 'Facharbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Facharbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/seminararbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Seminararbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Seminararbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/studienarbeit
                                           target: null
                                           rel: null
-                                    text: 'Studienarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Studienarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/fallstudie
                                           target: null
                                           rel: null
-                                    text: 'Fallstudie schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Fallstudie schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/praktikumsbericht
                                           target: null
                                           rel: null
-                                    text: 'Praktikumsbericht schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Praktikumsbericht schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/projektarbeit
                                           target: null
                                           rel: null
-                                    text: 'Projektarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Projektarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/summary
                                           target: null
                                           rel: null
-                                    text: 'Summary schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Summary schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/protokoll
                                           target: null
                                           rel: null
-                                    text: 'Protokoll schreiben lassen'
-              -
-                type: set
+                                    text: Protokoll schreiben lassen
+                                attrs:
+                                  textAlign: start
+              - type: set
                 attrs:
                   id: GF1CySh8
                   values:
@@ -3327,8 +2561,7 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: eonZTiiF
+  - id: eonZTiiF
     remove_spacing: false
     is_full: true
     bg_toggle: false
@@ -3336,165 +2569,123 @@ replicator:
     type: add_section
     enabled: true
     columns_replicator:
-      -
-        id: w3IdW0cz
+      - id: w3IdW0cz
         grid:
-          -
-            id: doLZ97bJ
+          - id: doLZ97bJ
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: lms3ls09
                   values:
                     type: anchor_target
                     anchor_name: wichtigkeit
-              -
-                type: paragraph
-              -
-                type: heading
+              - type: paragraph
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Warum sind Projektarbeiten im Studium so wichtig?'
-              -
-                type: paragraph
+                      - type: bold
+                    text: Warum sind Projektarbeiten im Studium so wichtig?
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Projektarbeiten im Studium können aus verschiedenen Gründen wichtig sein. Studierende erwerben nicht nur fachliches Wissen, sondern entwickeln auch Fähigkeiten, die sie in ihrem zukünftigen Berufsleben erfolgreich einsetzen können.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Projektarbeiten im Studium können aus verschiedenen
+                      Gründen wichtig sein. Studierende erwerben nicht nur
+                      fachliches Wissen, sondern entwickeln auch Fähigkeiten,
+                      die sie in ihrem zukünftigen Berufsleben erfolgreich
+                      einsetzen können.
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: underline
+                      - type: textColor
                         attrs:
                           color: var(--tw-prose-bold)
                           hex: '#000'
-                    text: 'Praxisnahe Anwendung'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: 'Mit Projektarbeiten können Studierende theoretisches Wissen in der Praxis anwenden. '
-              -
-                type: paragraph
+                    text: Praxisnahe Anwendung
+                  - type: text
+                    marks: []
+                    text: >-
+                      Mit Projektarbeiten können Studierende theoretisches
+                      Wissen in der Praxis anwenden. 
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: underline
+                      - type: textColor
                         attrs:
                           color: var(--tw-prose-bold)
                           hex: '#000'
                     text: Problemlösungskompetenz
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: 'Durch die eigenständige Bearbeitung von Projektaufgaben entwickeln Studierende Problemlösungskompetenzen.'
-              -
-                type: paragraph
+                  - type: text
+                    marks: []
+                    text: >-
+                      Durch die eigenständige Bearbeitung von Projektaufgaben
+                      entwickeln Studierende Problemlösungskompetenzen.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: underline
+                      - type: textColor
                         attrs:
                           color: var(--tw-prose-bold)
                           hex: '#000'
                     text: Teamarbeit
-                  -
-                    type: text
-                    text: 'Eine Gruppenarbeit als Projektarbeit wird oft in verschiedenen Studiengängen durchgeführt. Gruppenarbeiten als Projektarbeit fördern die Teamarbeit und die Kommunikationsfähigkeiten der Studierenden. Sie lernen, effektiv im Team zu arbeiten, verschiedene Perspektiven zu berücksichtigen und gemeinsam Ziele zu erreichen.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Eine Gruppenarbeit als Projektarbeit wird oft in
+                      verschiedenen Studiengängen durchgeführt. Gruppenarbeiten
+                      als Projektarbeit fördern die Teamarbeit und die
+                      Kommunikationsfähigkeiten der Studierenden. Sie lernen,
+                      effektiv im Team zu arbeiten, verschiedene Perspektiven zu
+                      berücksichtigen und gemeinsam Ziele zu erreichen.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
+                      - type: bold
+                      - type: underline
                     text: Forschungskompetenz
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: ' In vielen Projektarbeiten ist die Durchführung von Forschung ein integraler Bestandteil. Studierende entwickeln Forschungskompetenzen, lernen, relevante Literatur zu identifizieren, Daten zu sammeln und wissenschaftliche Methoden anzuwenden.'
-              -
-                type: paragraph
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: underline
+                      - type: textColor
                         attrs:
                           color: var(--tw-prose-bold)
                           hex: '#000'
-                    text: 'Vorbereitung auf den Berufseinstieg'
-                  -
-                    type: text
-                    text: 'Projektarbeiten sind praxisnahe Vorbereitungen auf die Anforderungen im späteren Berufsleben.'
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: heading
+                    text: Vorbereitung auf den Berufseinstieg
+                  - type: text
+                    text: >-
+                      Projektarbeiten sind praxisnahe Vorbereitungen auf die
+                      Anforderungen im späteren Berufsleben.
+                attrs:
+                  textAlign: start
+              - type: paragraph
+              - type: paragraph
+              - type: heading
                 attrs:
                   level: 3
             show_as_card: false
@@ -3504,193 +2695,185 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     bg_color: '#F9F9F9'
-  -
-    id: lph4ko3u
+  - id: lph4ko3u
     columns_replicator:
-      -
-        id: lph4kt8u
+      - id: lph4kt8u
         single_col: true
         grid:
-          -
-            id: b6OFM3rb
+          - id: b6OFM3rb
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: lph7rptf
                   values:
                     type: anchor_target
                     anchor_name: erstellen-lassen
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Warum sollte man bei Projektarbeiten Ghostwriter beauftragen?'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Warum sollte man bei Projektarbeiten Ghostwriter
+                      beauftragen?
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Es gibt viele Gründe, einen Ghostwriter zu beauftragen. Je nach Ihrem Anliegen und den Herausforderungen im akademischen Bereich stehen Ihnen unsere professionellen Experten zur Verfügung.'
-              -
-                type: heading
+                    text: >-
+                      Es gibt viele Gründe, einen Ghostwriter zu beauftragen. Je
+                      nach Ihrem Anliegen und den Herausforderungen im
+                      akademischen Bereich stehen Ihnen unsere professionellen
+                      Experten zur Verfügung.
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: Zeitmangel
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Bei wissenschaftlichen Abgaben wird eine Abgabefrist festgelegt. Oft leiden Studierende unter Zeitdruck, da sie häufig noch Privatleben, Job und andere Studienarbeiten bewältigen müssen. Viele greifen in solchen Situationen auf Ghostwriting zurück, um sich etwas Last abnehmen zu lassen.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Bei wissenschaftlichen Abgaben wird eine Abgabefrist
+                      festgelegt. Oft leiden Studierende unter Zeitdruck, da sie
+                      häufig noch Privatleben, Job und andere Studienarbeiten
+                      bewältigen müssen. Viele greifen in solchen Situationen
+                      auf Ghostwriting zurück, um sich etwas Last abnehmen zu
+                      lassen.
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
-                    text: 'Komplexität der Aufgabe'
-              -
-                type: paragraph
+                  - type: text
+                    text: Komplexität der Aufgabe
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Oft sind Projektarbeiten sehr anspruchsvoll, besonders wenn sie umfangreiche Forschung, komplexe Analysen oder spezifische Fachkenntnisse erfordern. Ein erfahrener Ghostwriter kann bei der Bewältigung dieser Herausforderungen helfen.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Oft sind Projektarbeiten sehr anspruchsvoll, besonders
+                      wenn sie umfangreiche Forschung, komplexe Analysen oder
+                      spezifische Fachkenntnisse erfordern. Ein erfahrener
+                      Ghostwriter kann bei der Bewältigung dieser
+                      Herausforderungen helfen.
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
-                    text: 'Schwierigkeiten beim Schreiben'
-              -
-                type: paragraph
+                  - type: text
+                    text: Schwierigkeiten beim Schreiben
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Viele Studierende haben Schwierigkeiten beim Verfassen von Projektarbeiten. Ghostwriter, die auf diesem Gebiet erfahren sind, können professionelle Unterstützung bieten, indem sie eine Musterarbeit für Ihre Projektarbeit schreiben lassen.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Viele Studierende haben Schwierigkeiten beim Verfassen von
+                      Projektarbeiten. Ghostwriter, die auf diesem Gebiet
+                      erfahren sind, können professionelle Unterstützung bieten,
+                      indem sie eine Musterarbeit für Ihre Projektarbeit
+                      schreiben lassen.
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: Qualitätsansprüche
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Studierende möchten möglicherweise sicherstellen, dass ihre Projektarbeit höchsten Qualitätsstandards entspricht. Akademische Ghostwriter mit Fachkenntnissen kann dazu beitragen, eine qualitativ hochwertige Arbeit zu erstellen.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Studierende möchten möglicherweise sicherstellen, dass
+                      ihre Projektarbeit höchsten Qualitätsstandards entspricht.
+                      Akademische Ghostwriter mit Fachkenntnissen kann dazu
+                      beitragen, eine qualitativ hochwertige Arbeit zu
+                      erstellen.
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: Sprachbarrieren
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Für Studierende, deren Muttersprache nicht Deutsch ist und die ihre Arbeit in dieser Sprache verfassen müssen, kann ein Ghostwriter helfen. Unsere Ghostwriter beherrschen die deutsche und englische Sprache als Muttersprache und sind mit dem Schreibstil für Projektarbeiten vertraut.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Für Studierende, deren Muttersprache nicht Deutsch ist und
+                      die ihre Arbeit in dieser Sprache verfassen müssen, kann
+                      ein Ghostwriter helfen. Unsere Ghostwriter beherrschen die
+                      deutsche und englische Sprache als Muttersprache und sind
+                      mit dem Schreibstil für Projektarbeiten vertraut.
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
-                    text: 'Literaturrecherche & Zitieren'
-              -
-                type: paragraph
+                  - type: text
+                    text: Literaturrecherche & Zitieren
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Ein weiterer Grund ist eine professionelle Literaturrecherche und eine korrekte Zitierweise. Unsere Experten können umfassende Literaturrecherchen durchführen und alles mit der richtigen Zitierweise belegen. Ein Teil der Projektarbeit erfordert einen erheblichen zeitlichen Aufwand für die Literaturrecherche.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Ein weiterer Grund ist eine professionelle
+                      Literaturrecherche und eine korrekte Zitierweise. Unsere
+                      Experten können umfassende Literaturrecherchen durchführen
+                      und alles mit der richtigen Zitierweise belegen. Ein Teil
+                      der Projektarbeit erfordert einen erheblichen zeitlichen
+                      Aufwand für die Literaturrecherche.
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
-                    text: 'Inhalt, Rechtschreibung & Grammatik'
-              -
-                type: paragraph
+                  - type: text
+                    text: Inhalt, Rechtschreibung & Grammatik
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Auch hier kann die Beauftragung eines Ghostwriters sinnvoll sein: für die Erstellung von Inhalten sowie die Gewährleistung von korrekter Rechtschreibung und Grammatik. Unsere erfahrenen Experten können nicht nur hochwertige Inhalte erstellen, sondern auch lektorieren, sicherstellen, dass Ihre Arbeit sprachlich einwandfrei und korrekt ist. '
-              -
-                type: set
+                  - type: text
+                    text: >-
+                      Auch hier kann die Beauftragung eines Ghostwriters
+                      sinnvoll sein: für die Erstellung von Inhalten sowie die
+                      Gewährleistung von korrekter Rechtschreibung und
+                      Grammatik. Unsere erfahrenen Experten können nicht nur
+                      hochwertige Inhalte erstellen, sondern auch lektorieren,
+                      sicherstellen, dass Ihre Arbeit sprachlich einwandfrei und
+                      korrekt ist. 
+              - type: set
                 attrs:
                   id: pYxHdNTw
                   values:
                     type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'UNTERSTÜTZUNG BEI IHRER PROJEKTARBEIT ANFORDERN'
+                    button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+                    button_text: UNTERSTÜTZUNG BEI IHRER PROJEKTARBEIT ANFORDERN
                     spacing_top: false
                     color: '#FF6606'
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: left
                 content:
-                  -
-                    type: hard_break
-                  -
-                    type: text
+                  - type: hard_break
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+                attrs:
+                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -3711,14 +2894,20 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Projektarbeit schreiben lassen | seriöse & diskrete Ghostwriter'
-meta_description: 'Projektarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Projektarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
-og_title: 'Projektarbeit schreiben lassen • Ghostwriter von GWriters'
-og_description: 'Projektarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Projektarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+meta_title: Projektarbeit schreiben lassen | seriöse & diskrete Ghostwriter
+meta_description: >-
+  Projektarbeit schreiben lassen – Akademisches Ghostwriting für Ihre
+  Projektarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit
+  2012.
+og_title: Projektarbeit schreiben lassen • Ghostwriter von GWriters
+og_description: >-
+  Projektarbeit schreiben lassen – Akademisches Ghostwriting für Ihre
+  Projektarbeit✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit
+  2012.
 og_image: GWriters-Logo.png
 sitemap_active: true
-page_title: 'Projektarbeit schreiben lassen'
-alternative_page_title: 'Projektarbeit schreiben lassen'
+page_title: Projektarbeit schreiben lassen
+alternative_page_title: Projektarbeit schreiben lassen
 arbeitsgruppe: a_studienarbeiten
 breadcrumbs_active: true
 teaser_bg: seiten/arbeiten/gwriters_masterarbeit_2000x512-(2).jpg

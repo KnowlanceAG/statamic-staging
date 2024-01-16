@@ -2,132 +2,113 @@
 id: 8a222d0b-d27c-4481-8310-2a4bf1326e76
 published: false
 blueprint: pages
-title: 'Wirtschaftsinformatik (Dupliziert)'
+title: Wirtschaftsinformatik (Dupliziert)
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriter Wirtschaftsinformatik'
-  -
-    type: paragraph
+        text: Ghostwriter Wirtschaftsinformatik
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: bold
+          - type: textColor
             attrs:
               color: '#000!important'
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftsinformatik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-  -
-    type: set
+        text: >-
+          Hilfe durch Experten und akademische Ghostwriter der
+          Wirtschaftsinformatik – schnell, diskret und mehrfach geprüft auf
+          Qualität & Plagiate.
+    attrs:
+      textAlign: center
+  - type: set
     attrs:
       values:
         type: spacer
         padding-y: 10
-  -
-    type: set
+  - type: set
     attrs:
       values:
         type: teaser_icon_columns
         columns:
-          -
-            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
-          -
-            icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
-          -
-            icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
+          - icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: Datenschutz &amp; 100% Anonymität
+            tooltip_infotext: >-
+              Wir schützen Ihre Daten streng gemäß der Vorschriften von
+              DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.
+          - icon: logo-startseite/icon-teillieferung.svg
+            headline: Teillieferungen &amp; kostenlose Änderungen
+            tooltip_infotext: >-
+              Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre
+              Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den
+              Prozess nehmen.
+          - icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: Schnelle &amp; pünktliche Lieferung
+            tooltip_infotext: >-
+              Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte
+              Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler
+              Form.
+          - icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: Top-Qualität von akademischen Experten
+            tooltip_infotext: >-
+              Ihre Mustervorlage wird von akademischen Experten auf höchstem
+              Niveau erstellt, die oft selbst als Doktoren oder Professoren
+              beschäftigt sind.
+  - type: set
     attrs:
       values:
         type: spacer
         padding-y: 15
-  -
-    type: set
+  - type: set
     attrs:
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: JETZT KOSTENLOS ANFRAGEN
         color: '#FF6606'
         spacing_top: false
-  -
-    type: set
+  - type: set
     attrs:
       values:
         type: spacer
         padding-y: 20
-  -
-    type: paragraph
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
+          - type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
+    attrs:
+      textAlign: center
+  - type: heading
     attrs:
       level: 2
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-          -
-            type: link
+          - type: link
             attrs:
-              href: 'tel:##phone##'
+              href: tel:##phone##
               target: null
               rel: null
         text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'Wirtschaftsinformatik Ghostwriter & Lektoren • GWriters'
+page_title: Wirtschaftsinformatik Ghostwriter & Lektoren • GWriters
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
@@ -139,22 +120,15 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
-  -
-    columns_replicator:
-      -
-        single_col: true
+  - columns_replicator:
+      - single_col: true
         grid:
-          -
-            bard:
-              -
-                type: set
+          - bard:
+              - type: set
                 attrs:
                   values:
                     type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Wirtschaftsinformatik. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre Aufgabenstellungen aus der Wirtschaftsinformatik</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Wirschaftsinformatik in sichere Hände geben und bei einem Wirschaftsinformatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann ist GWriters Ihre seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatikern, Doktoren und Professoren aus dem Fachbereich der Wirtschaftsinformatik arbeitet.
-                      </p>
+                    html: "<p style=\"font-size:18px\" align=\"center\"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Wirtschaftsinformatik. Bei uns finden Sie exakt den\_\n<b>akademischen Ghostwriter für Ihre Aufgabenstellungen aus der Wirtschaftsinformatik</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Wirschaftsinformatik in sichere Hände geben und bei einem Wirschaftsinformatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann ist GWriters Ihre seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatikern, Doktoren und Professoren aus dem Fachbereich der Wirtschaftsinformatik arbeitet.\n</p>"
             show_as_card: false
         type: row
         enabled: true
@@ -165,75 +139,73 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
+  - columns_replicator:
+      - single_col: true
         grid:
-          -
-            bard:
-              -
-                type: heading
+          - bard:
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: left
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich Wirtschaftsinformatik'
-              -
-                type: set
+                    text: Unsere Leistungen im Fachbereich Wirtschaftsinformatik
+              - type: set
                 attrs:
                   values:
                     type: leistungen_uebersicht_4_spaltig
                     grid:
-                      -
-                        image:
+                      - image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre Wirtschaftsinformatik Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: >-
+                          Lassen Sie Ihre Wirtschaftsinformatik Arbeit von
+                          erfahrenen Autoren erstellen - schnell, diskret und
+                          mehrfach geprüft auf Qualität & Plagiate.
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
-                      -
-                        image:
+                      - image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
+                        hover_content: >-
+                          Lassen Sie Ihre Arbeit nicht nur auf sprachliche
+                          Fehler korrigieren, sondern auch auf wissenschaftliche
+                          & fachliche Korrektheit prüfen.
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
-                      -
-                        image:
+                      - image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schließen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Wirtschaftsinformatik.'
+                        hover_content: >-
+                          Schließen Sie Flüchtigkeitsfehler bei der Zitation
+                          oder andere böse Überraschungen aus & beauftragen Sie
+                          eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im
+                          Fachbereich Wirtschaftsinformatik.
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
-                      -
-                        image:
+                      - image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Wirtschaftsinformatik) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        hover_content: >-
+                          Überwinden Sie sprachliche Barrieren: Unser Team
+                          erstellt hochwertige, fachspezifische
+                          (Wirtschaftsinformatik) Übersetzungen von akademischen
+                          Texten, Arbeiten, usw.
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
-              -
-                type: set
+              - type: set
                 attrs:
                   values:
                     type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+                    button_text: JETZT KOSTENLOS ANFRAGEN
                     spacing_top: false
-              -
-                type: paragraph
+              - type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -246,399 +218,312 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
+  - columns_replicator:
+      - single_col: true
         grid:
-          -
-            bard:
-              -
-                type: paragraph
+          - bard:
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'In der modernen, vernetzten und globalisierten Welt steigt der Bedarf an'
-                  -
-                    type: text
+                    text: >-
+                      In der modernen, vernetzten und globalisierten Welt steigt
+                      der Bedarf an
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: ' Informatikern aus dem Fachbereich Wirtschaft'
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: ' täglich. Das Studium setzt sich meist aus einem wirtschaftlichen (betriebswirtschaftlichen) und einem informationstechnischen Teil zusammen. '
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Diese Interdisziplinarität birgt allerdings auch Herausforderungen. So darf ein Wirtschaftsinformatiker keine groben Wissenslücken in der Wirtschaftswissenschaft haben und muss ebenfalls die nötigen Informatikkenntnisse vorweisen können. Dies zu leisten, ist eine Schwierigkeit, mit der sich Studierenden zunehmend konfrontiert sehen, zumal in beiden Fächern ein hohes Pensum an schriftlichen Ausarbeitungen und '
-                  -
-                    type: text
+                    text: >-
+                      Diese Interdisziplinarität birgt allerdings auch
+                      Herausforderungen. So darf ein Wirtschaftsinformatiker
+                      keine groben Wissenslücken in der Wirtschaftswissenschaft
+                      haben und muss ebenfalls die nötigen Informatikkenntnisse
+                      vorweisen können. Dies zu leisten, ist eine Schwierigkeit,
+                      mit der sich Studierenden zunehmend konfrontiert sehen,
+                      zumal in beiden Fächern ein hohes Pensum an schriftlichen
+                      Ausarbeitungen und 
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Hausarbeiten
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: ' oder '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Seminararbeiten
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: " vorausgesetzt wird. So werden besonders in der Wirtschaftsinformatik\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter
                           target: null
                           rel: null
                     text: Ghostwriter
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: "\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'und akademische Autoren zur Unterstützung in Form von Mustervorlagen als Orientierungshilfe beauftragt.'
-              -
-                type: blockquote
+                    text: >-
+                      und akademische Autoren zur Unterstützung in Form von
+                      Mustervorlagen als Orientierungshilfe beauftragt.
+              - type: blockquote
                 content:
-                  -
-                    type: paragraph
+                  - type: paragraph
                     content:
-                      -
-                        type: text
+                      - type: text
                         marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: left
-                          -
-                            type: textColor
+                          - type: bold
+                          - type: textColor
                             attrs:
                               color: '#000!important'
                               hex: '#000'
                         text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftsinformatik Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
-                      -
-                        type: text
+                      - type: text
                         marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: left
-                          -
-                            type: textColor
+                          - type: bold
+                          - type: textColor
                             attrs:
                               color: '#000!important'
                               hex: '#000'
-                          -
-                            type: link
+                          - type: link
                             attrs:
                               href: /anfrage
                               target: null
                               rel: null
-                        text: 'unverbindliche Anfrage schicken'
-                      -
-                        type: text
+                        text: unverbindliche Anfrage schicken
+                      - type: text
                         marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: left
-                          -
-                            type: textColor
+                          - type: bold
+                          - type: textColor
                             attrs:
                               color: '#000!important'
                               hex: '#000'
-                        text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten ('
-                      -
-                        type: text
+                        text: >-
+                          . Wir melden uns innerhalb weniger Stunden mit einem
+                          kostenlosen Angebot bei Ihnen zurück und rufen Sie
+                          auch gerne an, falls Sie eine kostenlose telefonische
+                          Beratung wünschen. Vorab: Selbstverständlich können
+                          und dürfen wir Ihnen keine Abschlussarbeiten (
+                      - type: text
                         marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: left
-                          -
-                            type: textColor
+                          - type: bold
+                          - type: textColor
                             attrs:
                               color: '#000!important'
                               hex: '#000'
-                          -
-                            type: link
+                          - type: link
                             attrs:
                               href: /arbeiten/bachelorarbeit-schreiben-lassen
                               target: null
                               rel: null
                         text: Bachelorarbeit
-                      -
-                        type: text
+                      - type: text
                         marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: left
-                          -
-                            type: textColor
+                          - type: bold
+                          - type: textColor
                             attrs:
                               color: '#000!important'
                               hex: '#000'
                         text: ', '
-                      -
-                        type: text
+                      - type: text
                         marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: left
-                          -
-                            type: textColor
+                          - type: bold
+                          - type: textColor
                             attrs:
                               color: '#000!important'
                               hex: '#000'
-                          -
-                            type: link
+                          - type: link
                             attrs:
                               href: /arbeiten/masterarbeit-schreiben-lassen
                               target: null
                               rel: null
                         text: Masterarbeit
-                      -
-                        type: text
+                      - type: text
                         marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: left
-                          -
-                            type: textColor
+                          - type: bold
+                          - type: textColor
                             attrs:
                               color: '#000!important'
                               hex: '#000'
-                        text: ') oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-              -
-                type: heading
+                        text: >-
+                          ) oder andere Arten von Prüfungsleistungen erstellen,
+                          gerne erstellen wir Ihnen aber eine hochqualitative
+                          Mustervorlage nach Ihren individuellen Vorgaben, die
+                          alle akademischen Standards und Anforderungen erfüllt.
+                    attrs:
+                      textAlign: left
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Unsere Wirtschaftsinformatik-Ghostwriter'
-              -
-                type: paragraph
+                    text: Unsere Wirtschaftsinformatik-Ghostwriter
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
                     text: 'Unser Team von '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
                     text: 'erfahrenen Wirtschaftsinformatik Ghostwritern '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'unterstützt Sie bei der effektiven und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit (z.B. Masterarbeit) oder jede andere Form einer akademischen Ausarbeitung (Hausarbeit, Seminararbeit) handelt, wir bieten Ihnen umfassenden individuellen Beistand. '
-              -
-                type: paragraph
+                    text: >-
+                      unterstützt Sie bei der effektiven und qualitativ
+                      hochwertigen Umsetzung von akademischen Arbeiten, Texten
+                      und Veröffentlichungen. Ob es sich bei Ihrem Projekt um
+                      eine Präsentation, eine Abschlussarbeit (z.B.
+                      Masterarbeit) oder jede andere Form einer akademischen
+                      Ausarbeitung (Hausarbeit, Seminararbeit) handelt, wir
+                      bieten Ihnen umfassenden individuellen Beistand. 
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
                     text: "Jeder unserer Freelancer und Ghostwriter der Wirtschaftsinformatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Mustervorlagen für architektonische Arbeiten vorweisen. Neben der Beratung und der Unterstützung bei dem gesamten Arbeitsprozess durch die Erstellung einer Mustervorlage, kann ein Ghostwriter für Wirtschaftsinformatik auch lediglich als\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: blue
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /lektorat/lektor
                           target: null
                           rel: null
                     text: Lektor
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
                     text: ",\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: blue
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /korrektorat/korrektor
                           target: null
                           rel: null
                     text: Korrektor
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
                     text: "\_und "
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /leistungen/uebersetzung
                           target: null
                           rel: null
                     text: Übersetzer
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
@@ -648,19 +533,15 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        single_col: false
+      - single_col: false
         grid:
-          -
-            bard:
-              -
-                type: set
+          - bard:
+              - type: set
                 attrs:
                   values:
                     type: link_liste
                     raster:
-                      -
-                        text: Arbeiten
+                      - text: Arbeiten
                         eintraege:
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
@@ -676,8 +557,7 @@ replicator:
                           - 2b55bfe7-06df-4e71-86da-152e256904ec
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
-                      -
-                        text: Fachrichtungen
+                      - text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
                           - 9944d809-005e-4651-bf9b-5555f0229245
@@ -721,54 +601,47 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: false
+  - columns_replicator:
+      - single_col: false
         grid:
-          -
-            bard:
-              -
-                type: heading
+          - bard:
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Zur Wirtschaftsinformatik'
+                    text: Zur Wirtschaftsinformatik
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        columns_per_row: 2
+      - columns_per_row: 2
         single_col: false
         grid:
-          -
-            bard:
-              -
-                type: paragraph
+          - bard:
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Die Kombination aus Wirtschaft und Informatik entwickelte sich, um den immer komplexer werdenden Anwendungsgebieten für informationstechnische Aufgaben in Wirtschaftsunternehmen gerecht werden zu können. Eine Spezialisierung auf dieses Kerngebiet stellt die einzig logische Konsequenz dar.'
-              -
-                type: set
+                    text: >-
+                      Die Kombination aus Wirtschaft und Informatik entwickelte
+                      sich, um den immer komplexer werdenden Anwendungsgebieten
+                      für informationstechnische Aufgaben in
+                      Wirtschaftsunternehmen gerecht werden zu können. Eine
+                      Spezialisierung auf dieses Kerngebiet stellt die einzig
+                      logische Konsequenz dar.
+              - type: set
                 attrs:
                   values:
                     type: bilder
@@ -776,39 +649,38 @@ replicator:
                       - seiten/fachrichtungen/Wirtschaftsinformatik.png
                     has_border: false
             show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
+          - bard:
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Ohne ausfallfrei funktionierende Datenverarbeitung und konsistent arbeitende Kommunikationssysteme wären heutige Unternehmen nicht wettbewerbsfähig, handelt es sich um kleine Betriebe mit wenigen Mitarbeitern oder um Global Player mit internationaler Struktur. Logisch ist, dass die Systeme für große Firmen komplexer sind und andere Anforderungen an den Informatiker stellen, als dies Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. '
-              -
-                type: paragraph
+                    text: >-
+                      Ohne ausfallfrei funktionierende Datenverarbeitung und
+                      konsistent arbeitende Kommunikationssysteme wären heutige
+                      Unternehmen nicht wettbewerbsfähig, handelt es sich um
+                      kleine Betriebe mit wenigen Mitarbeitern oder um Global
+                      Player mit internationaler Struktur. Logisch ist, dass die
+                      Systeme für große Firmen komplexer sind und andere
+                      Anforderungen an den Informatiker stellen, als dies
+                      Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber
+                      jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. 
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Das Ziel der Wirtschaftsinformatik'
-                  -
-                    type: text
+                    text: Das Ziel der Wirtschaftsinformatik
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
@@ -817,18 +689,15 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
-      -
-        single_col: false
+      - single_col: false
         grid:
-          -
-            bard:
-              -
-                type: set
+          - bard:
+              - type: set
                 attrs:
                   values:
                     type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
+                    button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+                    button_text: KOSTENLOS UNTERSTÜTZUNG ANFRAGEN
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
@@ -844,380 +713,286 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
+  - columns_replicator:
+      - single_col: true
         grid:
-          -
-            bard:
-              -
-                type: heading
+          - bard:
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Studium der Wirtschaftsinformatik'
-              -
-                type: paragraph
+                    text: Studium der Wirtschaftsinformatik
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Fachkenntnisse des Studienganges kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, ein duales Studium oder durch ein Vollzeitstudium an einer Universität oder Hochschule erlangen. In diesem Studiengang nutzen Studierende IT-Kenntnisse, um wirtschaftliche Prozesse in Unternehmen zu optimieren, analysieren und Probleme zu lösen. '
-                  -
-                    type: text
+                    text: >-
+                      Fachkenntnisse des Studienganges kann man durch eine Lehre
+                      im kaufmännischen Bereich, ein berufsbegleitendes Studium,
+                      ein duales Studium oder durch ein Vollzeitstudium an einer
+                      Universität oder Hochschule erlangen. In diesem
+                      Studiengang nutzen Studierende IT-Kenntnisse, um
+                      wirtschaftliche Prozesse in Unternehmen zu optimieren,
+                      analysieren und Probleme zu lösen. 
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Der Studiengang Wirtschaftsinformatik bildet Studierenden zum Vermittler zwischen '
-                  -
-                    type: text
+                    text: >-
+                      Der Studiengang Wirtschaftsinformatik bildet Studierenden
+                      zum Vermittler zwischen 
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter/informatik
                           target: null
                           rel: null
                     text: Informatik
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
                     text: ' und '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter/bwl
                           target: null
                           rel: null
                     text: BWL
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
                     text: ' (Betriebswirtschaftslehre) aus. '
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
                     text: "Daher ist es besonders wichtig, in den Fächern Mathematik und Betriebswirtschaft gute Vorkenntnisse zu haben. Das Studium der Wirtschaftsinformatik besteht an einer Hochschule beim Bachelorstudium aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: blue
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/diplomarbeit
                           target: null
                           rel: null
                     text: Diplomarbeit
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
-                    text: ', nach der Bologna-Reform jedoch die Bachelorarbeit (Bachelor Thesis) und die Masterarbeit (Master Thesis). Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. '
-              -
-                type: paragraph
+                    text: >-
+                      , nach der Bologna-Reform jedoch die Bachelorarbeit
+                      (Bachelor Thesis) und die Masterarbeit (Master Thesis).
+                      Optional kann darauf die Promotion, das Erlangen des
+                      Doktortitels durch eine Dissertation oder Doktorarbeit,
+                      erfolgen. 
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: black
                           hex: '#000'
                     text: "Besonders hier ist im Studiengang der Wirtschaftsinformatik\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: blue
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
-                  -
-                    type: text
+                  - type: text
                     text: "\_verbreitet. Die Erstellung einer Dissertation oder Doktorarbeit stellt für Doktoranden einen immensen Aufwand dar, wodurch sie nicht selten von einem Wirtschaftsinformatik-Ghostwriter eine Mustervorlage für ihre "
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
-                    text: 'Doktorarbeit schreiben lassen'
-                  -
-                    type: text
+                    text: Doktorarbeit schreiben lassen
+                  - type: text
                     text: .
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-                  -
-                    type: text
+                  - type: text
                     text: "\_"
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: left
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Einige unserer Blogartikel zum Thema Wirtschaftsinformatik Ghostwriter'
-              -
-                type: set
+                  - type: text
+                    marks: []
+                    text: >-
+                      Einige unserer Blogartikel zum Thema Wirtschaftsinformatik
+                      Ghostwriter
+              - type: set
                 attrs:
                   values:
                     type: blog_entries
                     entries:
                       - 7311f5d2-ac4e-4e73-9d84-bc59a9883a9f
                       - cd5a1617-505a-495b-986b-6f5ceb18b880
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Nützliche Weblinks'
-              -
-                type: paragraph
+                    text: Nützliche Weblinks
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Wirtschaftsinformatik'
+                          href: https://de.wikipedia.org/wiki/Wirtschaftsinformatik
                           target: _blank
                           rel: nofollow
-                    text: 'Allgemeine Informationen zur Wirtschaftsinformatik mit Linksammlung – Wikipedia'
-                  -
-                    type: hard_break
+                    text: >-
+                      Allgemeine Informationen zur Wirtschaftsinformatik mit
+                      Linksammlung – Wikipedia
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://informatikbibliothek.uni-koeln.de/'
+                          href: https://informatikbibliothek.uni-koeln.de/
                           target: _blank
                           rel: nofollow
-                    text: 'Bibliothek für Informatik & Wirtschaftsinformatik – Universität zu Köln'
-                  -
-                    type: hard_break
+                    text: >-
+                      Bibliothek für Informatik & Wirtschaftsinformatik –
+                      Universität zu Köln
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://studiengaenge.zeit.de/studium/mathematik-und-informatik/informatik/wirtschaftsinformatik'
+                          href: >-
+                            https://studiengaenge.zeit.de/studium/mathematik-und-informatik/informatik/wirtschaftsinformatik
                           target: _blank
                           rel: nofollow
-                    text: 'Wirtschaftsinformatik studieren – Zeit Online'
-                  -
-                    type: hard_break
+                    text: Wirtschaftsinformatik studieren – Zeit Online
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://gi.de/'
+                          href: https://gi.de/
                           target: _blank
                           rel: nofollow
-                    text: 'Gesellschaft für Informatik'
-                  -
-                    type: text
+                    text: Gesellschaft für Informatik
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://gwriters.de/wiki'
+                          href: https://gwriters.de/wiki
                           target: null
                           rel: null
-                    text: '< zurück zur Wiki Übersicht'
+                    text: < zurück zur Wiki Übersicht
+                attrs:
+                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -1228,13 +1003,17 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'GWriters • Wirtschaftsinformatik - Ghostwriter & Lektoren'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftsinformatik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'GWriters • Wirtschaftsinformatik - Ghostwriter & Lektoren'
-og_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftsinformatik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: GWriters • Wirtschaftsinformatik - Ghostwriter & Lektoren
+meta_description: >-
+  Hilfe durch Experten und akademische Ghostwriter der Wirtschaftsinformatik –
+  schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.
+og_title: GWriters • Wirtschaftsinformatik - Ghostwriter & Lektoren
+og_description: >-
+  Hilfe durch Experten und akademische Ghostwriter der Wirtschaftsinformatik –
+  schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
-alternative_page_title: 'Wirtschaftsinformatik Ghostwriter'
+alternative_page_title: Wirtschaftsinformatik Ghostwriter
 breadcrumbs_active: true
 ---

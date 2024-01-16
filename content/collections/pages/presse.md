@@ -1,35 +1,27 @@
 ---
 id: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 blueprint: pages
-title: 'GWriters & Team in der Presse'
+title: GWriters & Team in der Presse
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
 updated_at: 1624434331
 replicator:
-  -
-    bard:
-      -
-        type: heading
+  - bard:
+      - type: heading
         attrs:
           level: 1
+          textAlign: left
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: textAlign
-                attrs:
-                  align: left
-              -
-                type: textColor
+              - type: textColor
                 attrs:
                   color: orange-500
                   hex: '#ff6606'
-            text: 'GWriters & Team in der Presse'
+            text: GWriters & Team in der Presse
     type: editor
     enabled: true
     show_as_card: false
-  -
-    collections:
+  - collections:
       - presse
     type: presse_listing
     enabled: true
@@ -42,10 +34,14 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: without-teaser-with-sidebar
-meta_title: 'GWriters.de & Team in der Presse • GWriters'
-meta_description: 'Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und seriöse Ghostwriter Agenturen.'
-og_title: 'GWriters.de & Team in der Presse • GWriters'
-og_description: 'Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und seriöse Ghostwriter Agenturen.'
+meta_title: GWriters.de & Team in der Presse • GWriters
+meta_description: >-
+  Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und
+  seriöse Ghostwriter Agenturen.
+og_title: GWriters.de & Team in der Presse • GWriters
+og_description: >-
+  Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und
+  seriöse Ghostwriter Agenturen.
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
 ---

@@ -1,199 +1,167 @@
 ---
 id: b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
 blueprint: akademie
-title: 'Rund ums Studium'
+title: Rund ums Studium
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Rund ums Studium'
-  -
-    type: paragraph
+        text: Rund ums Studium
+  - type: paragraph
     content:
-      -
-        type: text
-        marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen Sie weitere Unterstützung?'
-  -
-    type: set
+      - type: text
+        marks: []
+        text: >-
+          Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen
+          Sie weitere Unterstützung?
+    attrs:
+      textAlign: center
+  - type: set
     attrs:
       id: ed1BsNNA
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: JETZT KOSTENLOS ANFRAGEN
         spacing_top: false
-  -
-    type: paragraph
+  - type: paragraph
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
-  -
-    id: WNxISiQI
+  - id: WNxISiQI
     bard:
-      -
-        type: heading
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
-            text: 'Mit GWriters erfolgreich in Ihrem Studium'
-      -
-        type: paragraph
+          - type: text
+            text: Mit GWriters erfolgreich in Ihrem Studium
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Jedes Studium stellt ganz eigene Anforderungen an den Studenten und daher hat jeder Fachbereich unterschiedliche Besonderheiten hinsichtlich des Studiums, der Lehre und der Forschung. Und genau so hat auch jede '
-          -
-            type: text
+          - type: text
+            text: >-
+              Jedes Studium stellt ganz eigene Anforderungen an den Studenten
+              und daher hat jeder Fachbereich unterschiedliche Besonderheiten
+              hinsichtlich des Studiums, der Lehre und der Forschung. Und genau
+              so hat auch jede 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Hausarbeit
-          -
-            type: text
+          - type: text
             text: ', '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/seminararbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Seminararbeit
-          -
-            type: text
+          - type: text
             text: ' oder Abschlussarbeit ihr ganz individuellen Anforderungen. Wir erklären Ihnen zum Beispiel, wie Sie sich optimal '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/erste-juristische-pruefung
                   target: null
                   rel: null
-            text: 'auf Ihre erste juristische Prüfung'
-          -
-            type: text
+            text: auf Ihre erste juristische Prüfung
+          - type: text
             text: ' vorbereiten, wie Sie das '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/dissertation-ausland
                   target: null
                   rel: null
-            text: 'Schreiben Ihrer Dissertation im Ausland'
-          -
-            type: text
+            text: Schreiben Ihrer Dissertation im Ausland
+          - type: text
             text: ' angehen oder was zu tun ist, wenn Sie einmal '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/bachelorarbeit-betreuer
                   target: null
                   rel: null
-            text: 'Probleme mit Ihrem Bachelorarbeit Betreuer'
-          -
-            type: text
+            text: Probleme mit Ihrem Bachelorarbeit Betreuer
+          - type: text
             text: ' haben.'
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Es lässt sich grundsätzlich keine Aussage machen, die auf jede Abschlussarbeit in jedem Fachbereich anwendbar ist, denn der Aufbau einer Abschlussarbeit hängt unmittelbar mit dem Fachbereich zusammen. In dieser Kategorie möchten wir Ihnen ebenfalls Hinweise zu Ihrem Studium in den verschiedenen Fachbereichen geben, denn das Studium der '
-          -
-            type: text
+          - type: text
+            text: >-
+              Es lässt sich grundsätzlich keine Aussage machen, die auf jede
+              Abschlussarbeit in jedem Fachbereich anwendbar ist, denn der
+              Aufbau einer Abschlussarbeit hängt unmittelbar mit dem Fachbereich
+              zusammen. In dieser Kategorie möchten wir Ihnen ebenfalls Hinweise
+              zu Ihrem Studium in den verschiedenen Fachbereichen geben, denn
+              das Studium der 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/bwl
                   target: null
                   rel: null
             text: Betriebswirtschaftslehre
-          -
-            type: text
+          - type: text
             text: ' unterscheidet sich grundlegend von dem Studium der '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/psychologie
                   target: null
                   rel: null
             text: Psychologie
-          -
-            type: text
+          - type: text
             text: .
-      -
-        type: heading
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
-            text: 'Wertvolle Informationen für alle Studenten und Studieninteressierte'
-      -
-        type: paragraph
+          - type: text
+            text: >-
+              Wertvolle Informationen für alle Studenten und
+              Studieninteressierte
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Auch wenn Sie vorhaben, eine akademische Karriere anzustreben, halten wir von GWriters die notwendigen Informationen für Sie bereit. Beispielsweise haben wir einen Guide für Sie zusammengestellt, der Ihnen aufzeigt, welche Punkt Sie bei der '
-          -
-            type: text
+          - type: text
+            text: >-
+              Auch wenn Sie vorhaben, eine akademische Karriere anzustreben,
+              halten wir von GWriters die notwendigen Informationen für Sie
+              bereit. Beispielsweise haben wir einen Guide für Sie
+              zusammengestellt, der Ihnen aufzeigt, welche Punkt Sie bei der 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/dissertation-veroeffentlichen
                   target: null
                   rel: null
-            text: 'Veröffentlichung Ihrer Dissertation'
-          -
-            type: text
+            text: Veröffentlichung Ihrer Dissertation
+          - type: text
             text: ' beachten müssen und welche die einzelnen Schritte sind. Mit der Veröffentlichung Ihrer Dissertation legen Sie den Grundstein, auf dem schlussendlich Ihre wissenschaftliche Karriere aufbaut. Eine hervorragende Vorbereitung ist daher essentiell.'
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "Unsere Informationssammlungen sind ebenso für Schüler und angehende Studenten passend, die sich erste Informationen einholen möchten. Auch wenn Sie Ihr Studium erst in Zukunft angehen möchten, dann helfen Ihnen unsere Informationen, bereits einen Schritt voraus zu sein. Gerne geben wir Ihnen allgemeine Informationen über akademische Studiengänge, die für\_ jeden Fachbereich hilfreich sind."
-      -
-        type: set
+      - type: set
         attrs:
           id: uo9JHUqd
           values:
@@ -201,8 +169,7 @@ replicator:
             assets:
               - seiten/gwriters-akademie/Banner_GWAkademie_1.jpeg
             has_border: false
-      -
-        type: set
+      - type: set
         attrs:
           id: f5a1ARBv
           values:
@@ -237,8 +204,7 @@ replicator:
               - 7d024a47-6d2b-4f8e-b6a8-387124ec41eb
               - 56aa7035-50e2-4e3c-b340-67c136dad294
               - 93e1a5bd-9b19-4e68-b483-7dbeb26462ea
-      -
-        type: paragraph
+      - type: paragraph
     show_as_card: false
     type: editor
     enabled: true
@@ -251,13 +217,25 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-page_title: 'GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service'
-academy_short_text_headline: 'Rund ums Studium von Gwriters'
-academy_short_text: 'Jedes Studium stellt ganz eigene Anforderungen an die Studierenden. Auch besitzt jeder Fachbereich eigene Vorgaben und Anforderung, auch hinsichtlich der Abschlussarbeit. Beispielsweise erklären wir Ihnen, wie Sie sich auf die mündliche Prüfung, die Veröffentlichung Ihrer Dissertation oder ein Auslandsstudium vorbereiten.'
-meta_title: 'GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service'
-meta_description: 'Ob Jura, BWL, Medizin oder etwas anderes - Unsere Ghostwriting Agentur steht Ihnen in jedem Fachbereich professionell zur Seite!'
-academy_teaser_headline: 'Rund ums Studium von Gwriters'
-academy_teaser_text: 'Jedes Studium stellt ganz eigene Anforderungen an die Studierenden. Auch besitzt jeder Fachbereich eigene Vorgaben und Anforderung, auch hinsichtlich der Abschlussarbeit. Beispielsweise erklären wir Ihnen, wie Sie sich auf die mündliche Prüfung, die Veröffentlichung Ihrer Dissertation oder ein Auslandsstudium vorbereiten.'
+page_title: GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service
+academy_short_text_headline: Rund ums Studium von Gwriters
+academy_short_text: >-
+  Jedes Studium stellt ganz eigene Anforderungen an die Studierenden. Auch
+  besitzt jeder Fachbereich eigene Vorgaben und Anforderung, auch hinsichtlich
+  der Abschlussarbeit. Beispielsweise erklären wir Ihnen, wie Sie sich auf die
+  mündliche Prüfung, die Veröffentlichung Ihrer Dissertation oder ein
+  Auslandsstudium vorbereiten.
+meta_title: GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service
+meta_description: >-
+  Ob Jura, BWL, Medizin oder etwas anderes - Unsere Ghostwriting Agentur steht
+  Ihnen in jedem Fachbereich professionell zur Seite!
+academy_teaser_headline: Rund ums Studium von Gwriters
+academy_teaser_text: >-
+  Jedes Studium stellt ganz eigene Anforderungen an die Studierenden. Auch
+  besitzt jeder Fachbereich eigene Vorgaben und Anforderung, auch hinsichtlich
+  der Abschlussarbeit. Beispielsweise erklären wir Ihnen, wie Sie sich auf die
+  mündliche Prüfung, die Veröffentlichung Ihrer Dissertation oder ein
+  Auslandsstudium vorbereiten.
 more_templates:
   - 68703917-9254-4107-82e0-0d844a79e81a
   - b0ab57c8-c632-4082-af70-9b10b915d2b8
@@ -265,8 +243,10 @@ more_templates:
   - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
   - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
   - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
-og_title: 'GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service'
-og_description: 'Ob Jura, BWL, Medizin oder etwas anderes - Unsere Ghostwriting Agentur steht Ihnen in jedem Fachbereich professionell zur Seite!'
+og_title: GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service
+og_description: >-
+  Ob Jura, BWL, Medizin oder etwas anderes - Unsere Ghostwriting Agentur steht
+  Ihnen in jedem Fachbereich professionell zur Seite!
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
 ---

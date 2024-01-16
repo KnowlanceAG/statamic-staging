@@ -1,406 +1,338 @@
 ---
 id: a016335c-333e-432d-838d-460350d21052
 blueprint: pages
-title: 'Das GWriters Stipendium'
+title: Das GWriters Stipendium
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
 updated_at: 1674127527
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Das GWriters Stipendium'
-  -
-    type: set
+        text: Das GWriters Stipendium
+  - type: set
     attrs:
       id: I4bTCyZ0
       values:
         type: text_box_alignment
         bard:
-          -
-            type: paragraph
+          - type: paragraph
             content:
-              -
-                type: text
+              - type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: 'Ihr Talent verdient Förderung! Unsere '
-              -
-                type: text
+              - type: text
                 marks:
-                  -
-                    type: bold
-                  -
-                    type: link
+                  - type: bold
+                  - type: link
                     attrs:
                       href: /ghostwriting/ghostwriting-agentur
                       target: null
                       rel: null
-                text: 'Ghostwriter Agentur'
-              -
-                type: text
+                text: Ghostwriter Agentur
+              - type: text
                 marks:
-                  -
-                    type: bold
+                  - type: bold
                 text: ' unterstützt begabte und'
-              -
-                type: hard_break
+              - type: hard_break
                 marks:
-                  -
-                    type: bold
-              -
-                type: text
+                  - type: bold
+              - type: text
                 marks:
-                  -
-                    type: bold
-                text: 'innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
+                  - type: bold
+                text: >-
+                  innovativ denkende Studierende mit unserem neuen GWriters
+                  Stipendium.
         text_ausrichtung: text-center
         column_count: false
-  -
-    type: set
+  - type: set
     attrs:
       id: riFKdkTS
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: JETZT KOSTENLOS ANFRAGEN
         color: '#FF6606'
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
-  -
-    id: SMHcpE0S
+  - id: SMHcpE0S
     bard:
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Für das Studienjahr 2024 (Sommersemester 2024 und Wintersemester 2024/2025) vergibt GWriters erneut ein Stipendium für Studierende in Deutschland und in der Schweiz. Dieses private Stipendium hat zum Ziel, besonders begabte und engagierte Studierende bei dem Erreichen ihrer Ziele finanziell zu unterstützen, denn wir vertreten die Philosophie, dass jeder, unabhängig von seinen privaten, finanziellen oder gesellschaftlichen Hintergründen, die Chance auf Bildung verdient.'
-      -
-        type: paragraph
+          - type: text
+            text: >-
+              Für das Studienjahr 2024 (Sommersemester 2024 und Wintersemester
+              2024/2025) vergibt GWriters erneut ein Stipendium für Studierende
+              in Deutschland und in der Schweiz. Dieses private Stipendium hat
+              zum Ziel, besonders begabte und engagierte Studierende bei dem
+              Erreichen ihrer Ziele finanziell zu unterstützen, denn wir
+              vertreten die Philosophie, dass jeder, unabhängig von seinen
+              privaten, finanziellen oder gesellschaftlichen Hintergründen, die
+              Chance auf Bildung verdient.
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Mit dem Stipendium möchten wir unter anderem auch besonders internationale Vorhaben wie Auslandsaufenthalte fördern, indem wir durch das Stipendium bspw. Kosten wie Reisekosten, Lebenshaltungskosten, Studiengebühren decken.'
-      -
-        type: heading
+          - type: text
+            text: >-
+              Mit dem Stipendium möchten wir unter anderem auch besonders
+              internationale Vorhaben wie Auslandsaufenthalte fördern, indem wir
+              durch das Stipendium bspw. Kosten wie Reisekosten,
+              Lebenshaltungskosten, Studiengebühren decken.
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
-            text: 'Art und Umfang der Förderung'
-      -
-        type: paragraph
+          - type: text
+            text: Art und Umfang der Förderung
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Die Förderung wird in monatlichen Raten von 500 Euro über einen Zeitraum von 12 Monaten ausgezahlt und ist für die Deckung der Studiengebühren/Semesterbeiträge und Lebenshaltungskosten gedacht. Eine Verlängerung des Förderungszeitraums ist durch erneute Bewerbung im Folgejahr möglich. Beendet wird die Förderung jedoch in jedem Falle mit dem Abschluss des Studiums.'
-      -
-        type: heading
+          - type: text
+            text: >-
+              Die Förderung wird in monatlichen Raten von 500 Euro über einen
+              Zeitraum von 12 Monaten ausgezahlt und ist für die Deckung der
+              Studiengebühren/Semesterbeiträge und Lebenshaltungskosten gedacht.
+              Eine Verlängerung des Förderungszeitraums ist durch erneute
+              Bewerbung im Folgejahr möglich. Beendet wird die Förderung jedoch
+              in jedem Falle mit dem Abschluss des Studiums.
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
-            text: 'Voraussetzungen für den Erhalt des GWriters Stipendiums'
-      -
-        type: paragraph
+          - type: text
+            text: Voraussetzungen für den Erhalt des GWriters Stipendiums
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
-            text: 'Wer erhält das Stipendium?'
-          -
-            type: text
+              - type: bold
+            text: Wer erhält das Stipendium?
+          - type: text
             text: ' Studierende, die hervorragende Leistungen in ihrem Studium erbringen, ein großes Interesse an Forschung und Entwicklung von Innovationen in ihrem Fachbereich zeigen und Herausragendes leisten möchten. Unabhängig vom aktuellen Studienfortschritt sind alle aktuell an einer deutschen oder schweizerischen Hochschule immatrikulierten Personen und auch Doktorandinnen und Doktoranden für das GWriters Stipendium zugelassen. Die Auswahl der Stipendiatinnen und Stipendiaten erfolgt durch den Vorstand unseres Unternehmens.'
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
-            text: 'Voraussetzungen / Auswahlkriterien'
-      -
-        type: bullet_list
+              - type: bold
+            text: Voraussetzungen / Auswahlkriterien
+      - type: bullet_list
         content:
-          -
-            type: list_item
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Bestehende Immatrikulation an einer deutschen oder schweizerischen Hochschule'
-          -
-            type: list_item
+                  - type: text
+                    text: >-
+                      Bestehende Immatrikulation an einer deutschen oder
+                      schweizerischen Hochschule
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Gute bis sehr gute Leistungen (Schule, Ausbildung, Studium)'
-          -
-            type: list_item
+                  - type: text
+                    text: >-
+                      Gute bis sehr gute Leistungen (Schule, Ausbildung,
+                      Studium)
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Intellektuelle Offenheit und Innovationsgeist'
-          -
-            type: list_item
+                  - type: text
+                    text: Intellektuelle Offenheit und Innovationsgeist
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Berücksichtigung des demografischen Hintergrunds: Erstes Studium in der Familie, Migrationshintergrund, körperliche Einschränkungen'
-          -
-            type: list_item
+                  - type: text
+                    text: >-
+                      Berücksichtigung des demografischen Hintergrunds: Erstes
+                      Studium in der Familie, Migrationshintergrund, körperliche
+                      Einschränkungen
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Bei Stipendienantritt müssen Sie noch mindestens zwei Semester innerhalb der Regelstudienzeit vor sich haben'
-          -
-            type: list_item
+                  - type: text
+                    text: >-
+                      Bei Stipendienantritt müssen Sie noch mindestens zwei
+                      Semester innerhalb der Regelstudienzeit vor sich haben
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Vorteilhaft: geplantes Auslandsstudium und internationale Ambitionen'
-      -
-        type: heading
+                  - type: text
+                    text: >-
+                      Vorteilhaft: geplantes Auslandsstudium und internationale
+                      Ambitionen
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
+          - type: text
             text: Bewerbung
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
-            text: 'Einzureichende Bewerbungsunterlagen'
-      -
-        type: bullet_list
+              - type: bold
+            text: Einzureichende Bewerbungsunterlagen
+      - type: bullet_list
         content:
-          -
-            type: list_item
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Alle Bewerbungsunterlagen sind elektronisch per E-Mail einzureichen'
-          -
-            type: list_item
+                  - type: text
+                    text: >-
+                      Alle Bewerbungsunterlagen sind elektronisch per E-Mail
+                      einzureichen
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Tabellarischer Lebenslauf (ohne Foto)'
-          -
-            type: list_item
+                  - type: text
+                    text: Tabellarischer Lebenslauf (ohne Foto)
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Alle Zeugnisse ab Hochschulzugangsberechtigung (Kopie)'
-          -
-            type: list_item
+                  - type: text
+                    text: Alle Zeugnisse ab Hochschulzugangsberechtigung (Kopie)
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: 'Falls vorhanden: Arbeitszeugnisse'
-          -
-            type: list_item
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Falls bereits vorhanden: aktuelle Leistungsübersicht (ECTS)'
-          -
-            type: list_item
+                  - type: text
+                    text: >-
+                      Falls bereits vorhanden: aktuelle Leistungsübersicht
+                      (ECTS)
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Aktuelle Immatrikulationsbescheinigung'
-          -
-            type: list_item
+                  - type: text
+                    text: Aktuelle Immatrikulationsbescheinigung
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Motivationsschreiben (max. 2 DIN A4 Seiten, nicht handschriftlich) → Erläutern Sie Ihre Motivation! Warum bewerben Sie sich für das GWriters Stipendium? Warum sind genau Sie der richtige Kandidat / die richtige Kandidatin?'
-          -
-            type: list_item
+                  - type: text
+                    text: >-
+                      Motivationsschreiben (max. 2 DIN A4 Seiten, nicht
+                      handschriftlich) → Erläutern Sie Ihre Motivation! Warum
+                      bewerben Sie sich für das GWriters Stipendium? Warum sind
+                      genau Sie der richtige Kandidat / die richtige Kandidatin?
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Darlegung Ihrer besonderen Interessen, Forschungs- und Innovationstätigkeiten. Ggf. Darlegung Ihrer biographischen Hürden.'
-          -
-            type: list_item
+                  - type: text
+                    text: >-
+                      Darlegung Ihrer besonderen Interessen, Forschungs- und
+                      Innovationstätigkeiten. Ggf. Darlegung Ihrer
+                      biographischen Hürden.
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Angaben zu Ihrer Bankverbindung'
-          -
-            type: list_item
+                  - type: text
+                    text: Angaben zu Ihrer Bankverbindung
+          - type: list_item
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Falls vorhanden: Angaben zum zuständigen Finanzamt mit Steuernummer (privates Stipendium ist ggf. als sonstige Einkünfte steuerpflichtig)'
-      -
-        type: paragraph
+                  - type: text
+                    text: >-
+                      Falls vorhanden: Angaben zum zuständigen Finanzamt mit
+                      Steuernummer (privates Stipendium ist ggf. als sonstige
+                      Einkünfte steuerpflichtig)
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: 'Bewerbungsfrist:'
-          -
-            type: text
+          - type: text
             text: ' '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: 31.12.2023
-      -
-        type: paragraph
-      -
-        type: heading
+      - type: paragraph
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
+          - type: text
             text: Kontakt
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: "GWriters |\_"
-          -
-            type: text
+          - type: text
             text: 'Milena Fischer '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: '|'
-          -
-            type: text
+          - type: text
             text: ' E-Mail: '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
-                  href: 'mailto:##email##'
+                  href: mailto:##email##
                   target: null
                   rel: null
             text: '##email##'
-          -
-            type: text
+          - type: text
             text: ' '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: '|'
-          -
-            type: text
+          - type: text
             text: "\_Telefon: "
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
-                  href: 'tel:##phone##'
+                  href: tel:##phone##
                   target: null
                   rel: null
             text: '##phone##'
     type: editor
     enabled: true
     show_as_card: false
-meta_title: 'Das GWriters Stipendium • GWriters.de'
-meta_description: 'Ihr Talent verdient Förderung! Unsere Ghostwriting Agentur unterstützt begabte und innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
+meta_title: Das GWriters Stipendium • GWriters.de
+meta_description: >-
+  Ihr Talent verdient Förderung! Unsere Ghostwriting Agentur unterstützt begabte
+  und innovativ denkende Studierende mit unserem neuen GWriters Stipendium.
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-og_title: 'Das GWriters Stipendium • GWriters.de'
-og_description: 'Ihr Talent verdient Förderung! Unsere Ghostwriting Agentur unterstützt begabte und innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
+og_title: Das GWriters Stipendium • GWriters.de
+og_description: >-
+  Ihr Talent verdient Förderung! Unsere Ghostwriting Agentur unterstützt begabte
+  und innovativ denkende Studierende mit unserem neuen GWriters Stipendium.
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true

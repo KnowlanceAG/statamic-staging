@@ -1,50 +1,45 @@
 ---
 id: 68703917-9254-4107-82e0-0d844a79e81a
 blueprint: akademie
-title: 'Akademisches Ghostwriting'
-academy_teaser_headline: 'Akademisches Ghostwriting von GWriters'
-academy_teaser_text: 'Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis hin zu interessanten und wissenswerten Informationen über unsere akademischen Ghostwriter und Ghostwriting Erfahrungen.'
+title: Akademisches Ghostwriting
+academy_teaser_headline: Akademisches Ghostwriting von GWriters
+academy_teaser_text: >-
+  Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen
+  von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf
+  und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis
+  hin zu interessanten und wissenswerten Informationen über unsere akademischen
+  Ghostwriter und Ghostwriting Erfahrungen.
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
 updated_at: 1670882816
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: bold
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Akademisches Ghostwriting'
-  -
-    type: paragraph
+        text: Akademisches Ghostwriting
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
+          - type: bold
+          - type: textColor
             attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
+              color: rgb(68, 68, 68)
               hex: '#000'
-        text: 'Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen Sie weitere Unterstützung von einem professionellen akademischen Ghostwriter, Lektor oder Coach? Schicken Sie uns jetzt eine Anfrage!'
+        text: >-
+          Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen
+          Sie weitere Unterstützung von einem professionellen akademischen
+          Ghostwriter, Lektor oder Coach? Schicken Sie uns jetzt eine Anfrage!
+    attrs:
+      textAlign: center
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 use_meta_keywords: false
 no_index_page: false
@@ -54,129 +49,109 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 template: academy-item-long
 replicator:
-  -
-    id: c3H3vBrv
+  - id: c3H3vBrv
     bard:
-      -
-        type: heading
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
-            text: 'Unsere Wissenssammlung zum akademischen Ghostwriting'
-      -
-        type: paragraph
+          - type: text
+            text: Unsere Wissenssammlung zum akademischen Ghostwriting
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'In dieser Kategorie möchten wir Ihnen einen Überblick über unsere gesamte Wissenssammlung zum '
-          -
-            type: text
+          - type: text
+            text: >-
+              In dieser Kategorie möchten wir Ihnen einen Überblick über unsere
+              gesamte Wissenssammlung zum 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriting
                   target: null
                   rel: null
-            text: 'akademischen Ghostwriting'
-          -
-            type: text
+            text: akademischen Ghostwriting
+          - type: text
             text: ' in Form von Blogartikeln, Tutorial-Videos und mehr geben. Unsere Artikel und Videos werden von echten Akademikern aus unserem eigenen Expertenteam erstellt, die sowohl mit den gängigen wissenschaftlichen Arbeitstechniken und dem eigenen Fachbereich bestens vertraut sind, als auch über langjährige '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /gwriters-erfahrung
                   target: null
                   rel: null
-            text: 'Ghostwriting Erfahrung'
-          -
-            type: text
+            text: Ghostwriting Erfahrung
+          - type: text
             text: ' verfügen.'
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: 'Ein '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
-          -
-            type: text
+          - type: text
             text: ' betrachtet eine wissenschaftliche Fragestellung aus einer anderen, neutraleren und differenzierteren Perspektive als viele Studenten selber und weiß aus Erfahrung, wie im Bezug auf eine akademische Fragestellung die bestmöglichen Ergebnisse erzielt werden können. Doch dafür ist es absolut notwendig, dass Ghostwriter und Forschungsthema auch zu einander passen. Durch unsere langjährige Erfahrung bei GWriters wissen wir genau, welcher unserer akademischen Ghostwriter am besten zu ihrem individuellen Vorhaben passt, und machen diesen zu Ihrem persönlichen Ansprechpartner.'
-      -
-        type: heading
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
-            text: 'Was Sie über akademisches Ghostwriting wissen müssen'
-      -
-        type: paragraph
+          - type: text
+            text: Was Sie über akademisches Ghostwriting wissen müssen
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Ghostwriting kann besonders in akuten Situation ausgesprochen hilfreich, wie unser '
-          -
-            type: text
+          - type: text
+            text: >-
+              Ghostwriting kann besonders in akuten Situation ausgesprochen
+              hilfreich, wie unser 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/express-ghostwriting-im-notfall
                   target: null
                   rel: null
-            text: 'Video "3 Tage bis zur Abgabe - Ghostwriting im Notfall"'
-          -
-            type: text
+            text: Video "3 Tage bis zur Abgabe - Ghostwriting im Notfall"
+          - type: text
             text: ' zeigt. Auch wenn der Zeitrahmen knapp ist, schaffen wir es bei GWriters Ihnen jederzeit ein qualitatives Werk zu liefern, das allen akademischen Ansprüchen gerecht wird. Sollten Sie nicht erst zum Ende, sondern bereits zu Beginn Ihres Projekts Unterstützung suchen, dann kann Ihnen einer unserer akademischen Ghostwriter bereits ab der Themenfindung als professioneller Coach zur Seite stehen.'
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Akademische Ghostwriter setzten sich für Ihren Erfolg und das Erlangen Ihres akademischen Grades ein. Aber worauf gilt es bei der Auswahl der richtigen '
-          -
-            type: text
+          - type: text
+            text: >-
+              Akademische Ghostwriter setzten sich für Ihren Erfolg und das
+              Erlangen Ihres akademischen Grades ein. Aber worauf gilt es bei
+              der Auswahl der richtigen 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriting/ghostwriting-agentur
                   target: null
                   rel: null
             text: Ghostwriting-Agentur
-          -
-            type: text
+          - type: text
             text: ' zu achten und was sind mögliche '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /achtung-ghostwriter-betrug
                   target: null
                   rel: null
-            text: 'Alarmzeichen bei der Suche nach Ghostwriter'
-          -
-            type: text
-            text: '? Wie wählt meine Agentur meinen akademischen Ghostwriter aus, wie läuft dann der Auftrag ab und überhaupt, was darf mich ein akademisches Ghostwriting kosten? Antworten auf Fragen wie diese und weitere interessante Informationen finden Sie jetzt hier in den Beiträgen aus unserer GWriters Akademie.'
-      -
-        type: set
+            text: Alarmzeichen bei der Suche nach Ghostwriter
+          - type: text
+            text: >-
+              ? Wie wählt meine Agentur meinen akademischen Ghostwriter aus, wie
+              läuft dann der Auftrag ab und überhaupt, was darf mich ein
+              akademisches Ghostwriting kosten? Antworten auf Fragen wie diese
+              und weitere interessante Informationen finden Sie jetzt hier in
+              den Beiträgen aus unserer GWriters Akademie.
+      - type: set
         attrs:
           id: 7csgvW9w
           values:
@@ -184,8 +159,7 @@ replicator:
             assets:
               - seiten/gwriters-akademie/Banner_GWAkademie_1.jpeg
             has_border: false
-      -
-        type: set
+      - type: set
         attrs:
           id: VXDCi8f9
           values:
@@ -216,16 +190,23 @@ replicator:
               - 015f5635-7e60-442a-bafd-504b0bca87c4
               - 90c98a48-07aa-44a7-bfa5-187a2717a778
               - 8f956f01-0057-4727-86bd-227150d4d7c9
-      -
-        type: paragraph
+      - type: paragraph
     type: editor
     enabled: true
     show_as_card: false
-page_title: 'GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting'
-academy_short_text_headline: 'Akademisches Ghostwritingvon GWriters'
-academy_short_text: 'Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis hin zu interessanten und wissenswerten Informationen über unsere akademischen Ghostwriter und Ghostwriting Erfahrungen.'
-meta_title: 'GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting'
-meta_description: 'Alles rund um das Thema akademisches Ghostwriting finden Sie jetzt verständlich zusammengefasst in den Beiträgen von unseren akademischen Ghostwritern.'
+page_title: GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting
+academy_short_text_headline: Akademisches Ghostwritingvon GWriters
+academy_short_text: >-
+  Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen
+  von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf
+  und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis
+  hin zu interessanten und wissenswerten Informationen über unsere akademischen
+  Ghostwriter und Ghostwriting Erfahrungen.
+meta_title: GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting
+meta_description: >-
+  Alles rund um das Thema akademisches Ghostwriting finden Sie jetzt
+  verständlich zusammengefasst in den Beiträgen von unseren akademischen
+  Ghostwritern.
 more_templates:
   - 68703917-9254-4107-82e0-0d844a79e81a
   - b0ab57c8-c632-4082-af70-9b10b915d2b8
@@ -233,8 +214,11 @@ more_templates:
   - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
   - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
   - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
-og_title: 'GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting'
-og_description: 'Alles rund um das Thema akademisches Ghostwriting finden Sie jetzt verständlich zusammengefasst in den Beiträgen von unseren akademischen Ghostwritern.'
+og_title: GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting
+og_description: >-
+  Alles rund um das Thema akademisches Ghostwriting finden Sie jetzt
+  verständlich zusammengefasst in den Beiträgen von unseren akademischen
+  Ghostwritern.
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
 ---

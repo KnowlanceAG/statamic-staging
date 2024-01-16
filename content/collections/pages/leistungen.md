@@ -13,311 +13,238 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: bold
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Unsere Leistungen'
-  -
-    type: paragraph
+        text: Unsere Leistungen
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Wir bieten Ihnen akademisches Ghostwriting, Schreibunterstützung, Lektorat, Korrektorate und Coachings von erfahrenen & geprüften Ghostwritern. Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor.'
-  -
-    type: set
+          - type: bold
+        text: >-
+          Wir bieten Ihnen akademisches Ghostwriting, Schreibunterstützung,
+          Lektorat, Korrektorate und Coachings von erfahrenen & geprüften
+          Ghostwritern. Alle durch uns vermittelten Leistungen unterliegen einer
+          strengen Qualitätskontrolle durch unser Team und unsere Supervisor.
+    attrs:
+      textAlign: center
+  - type: set
     attrs:
       id: s6imfVtE
       values:
         type: spacer
         padding-y: 10
-  -
-    type: set
+  - type: set
     attrs:
       id: xRnNlgjL
       values:
         type: teaser_icon_columns
         columns:
-          -
-            id: XWholOdJ
+          - id: XWholOdJ
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: Svth5IvQ
+            headline: Datenschutz &amp; 100% Anonymität
+            tooltip_infotext: >-
+              Wir schützen Ihre Daten streng gemäß der Vorschriften von
+              DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.
+          - id: Svth5IvQ
             icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: LHTJ28Nu
+            headline: Teillieferungen &amp; kostenlose Änderungen
+            tooltip_infotext: >-
+              Sie erhalten von uns regelmäßig Teillieferungen und wir setzen
+              Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf
+              Ihr Projekt nehmen.
+          - id: LHTJ28Nu
             icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
-          -
-            id: 0Xcp9bsC
+            headline: Schnelle &amp; pünktliche Lieferung
+            tooltip_infotext: >-
+              Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte
+              Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler
+              Form.
+          - id: 0Xcp9bsC
             icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
+            headline: Top-Qualität von akademischen Experten
+            tooltip_infotext: >-
+              Ihre Mustervorlage wird von akademischen Experten auf höchstem
+              Niveau erstellt, die oft selbst als Doktoren oder Professoren
+              beschäftigt sind.
+  - type: set
     attrs:
       id: fH7AqTQz
       values:
         type: spacer
         padding-y: 15
-  -
-    type: set
+  - type: set
     attrs:
       id: Sj9jNG43
       values:
         type: button
         button_link: /anfrage
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_text: JETZT KOSTENLOS ANFRAGEN
         color: '#FF6606'
         spacing_top: false
-  -
-    type: set
+  - type: set
     attrs:
       id: RDswvf8D
       values:
         type: spacer
         padding-y: 20
-  -
-    type: paragraph
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
+          - type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
+    attrs:
+      textAlign: center
+  - type: heading
     attrs:
       level: 2
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-          -
-            type: link
+          - type: link
             attrs:
-              href: 'tel:##phone##'
+              href: tel:##phone##
               target: null
               rel: null
         text: '##phone##'
 replicator:
-  -
-    id: 4l4pjmOB
+  - id: 4l4pjmOB
     bard:
-      -
-        type: heading
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
-            text: 'Alle Leistungen von GWriters'
-          -
-            type: hard_break
-          -
-            type: text
+          - type: text
+            text: Alle Leistungen von GWriters
+          - type: hard_break
+          - type: text
             marks:
-              -
-                type: bold
-            text: 'Zuverlässigkeit und Qualität neu definiert!'
-      -
-        type: set
+              - type: bold
+            text: Zuverlässigkeit und Qualität neu definiert!
+      - type: set
         attrs:
           id: gRxVC1RT
           values:
             type: text_box_alignment
             bard:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
+                    marks: []
+                    text: >-
+                      Häufig erkundigen sich Kunden nach der Sicherheit unserer
+                      Dienstleistung. Hierfür haben wir selbstverständlich
+                      vollstes Verständnis, denn wenige Themen sind sensibler
+                      als die eigene akademische Karriere. Wir garantieren, dass
+                      wenn Sie bei uns für unseren akademischen 
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Häufig erkundigen sich Kunden nach der Sicherheit unserer Dienstleistung. Hierfür haben wir selbstverständlich vollstes Verständnis, denn wenige Themen sind sensibler als die eigene akademische Karriere. Wir garantieren, dass wenn Sie bei uns für unseren akademischen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting-Service
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
+                  - type: text
+                    marks: []
                     text: ' bezahlen, dass Sie dafür auch wirklich eine hochwertige '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /blog/ghostwriter-mustervorlage
                           target: null
                           rel: null
                     text: Mustervorlage
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
+                  - type: text
+                    marks: []
                     text: ' erhalten. Wir haben das Problem der Risikoverteilung zwischen unserem Unternehmen, dem Kunden und dem '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter
                           target: null
                           rel: null
                     text: Ghostwriter
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
+                  - type: text
+                    marks: []
                     text: ' effektiv gelöst, indem wir Teillieferungen anbieten. Das bedeutet, dass Sie als Kunde wirklich erst dann zahlen, wenn Sie eine Lieferung von uns erhalten. Der Ghostwriter kann indes sicher sein, dass er auch für seine Leistungen entlohnt wird. Somit sind beide Parteien abgesichert und das Risiko ist auf allen Seiten minimiert. Wir garantieren sowohl unseren Ghostwritern als auch unseren Kunden vollste Anonymität. Bei der Auftragserteilung wird Ihnen ein Mitarbeiter von uns als persönlicher Projektmanager zugeteilt und dieser übernimmt für Sie die gesamte Kommunikation mit Ihrem Ghostwriter. So ist Ihr persönlicher Projektmanager auch die einzige Person, die Ihren echten Namen und den echten Namen des Ghostwriters kennt. Des Weiteren erhalten alle Parteien ausschließlich anonymisierte Dateien. Das bedeutet, dass jegliche persönlichen Informationen werden entfernt und es keine Namen in den Unterlagen sichtbar sind. Natürlich berücksichtigt Ihr Ghostwriter auch Ihre spezifischen Formatvorgaben, Literaturanforderungen oder vorgeschriebene Inhalte. Bestenfalls senden Sie uns diese gleich am Anfang der Texterstellung zu. Am Ende wird Ihre Arbeit von einem internen Supervisor lektoriert, der auch gern Ihre spezifischen Formatvorgaben noch einmal berücksichtigt.'
-              -
-                type: paragraph
+                attrs:
+                  textAlign: left
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
+                    marks: []
+                    text: >-
+                      Viele Kunden möchten natürlich wissen "Wer schreibt
+                      überhaupt meine Arbeit?" Das hängt sehr von Ihrem
+                      individuellen Auftrag ab. Wir garantieren dafür, immer den
+                      qualifiziertesten Ghostwriter für Ihr Projekt einzusetzen.
+                      Es ist klar, dass kein Master-Absolvent oder
+                      Diplom-Absolvent eine Mustervorlage für eine 
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Viele Kunden möchten natürlich wissen "Wer schreibt überhaupt meine Arbeit?" Das hängt sehr von Ihrem individuellen Auftrag ab. Wir garantieren dafür, immer den qualifiziertesten Ghostwriter für Ihr Projekt einzusetzen. Es ist klar, dass kein Master-Absolvent oder Diplom-Absolvent eine Mustervorlage für eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
-                    text: 'Doktorarbeit schreibt'
-                  -
-                    type: text
+                    text: Doktorarbeit schreibt
+                  - type: text
+                    marks: []
+                    text: >-
+                      , sondern dass wir in solchen Fällen auch wirklich darauf
+                      achten, entweder Doktoren oder habilitierte Professoren zu
+                      verpflichten, die umfangreiche Erfahrung mit dem
+                      spezifischen Thema haben und absolute Experten auf ihrem
+                      Gebiet sind. Wir selbst sind daran interessiert immer die
+                      höchste Qualität zu liefern, da dies auch unser Anspruch
+                      an uns selber ist und wir unserem Ruf als professionelle
+                      und hochwertige 
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: ', sondern dass wir in solchen Fällen auch wirklich darauf achten, entweder Doktoren oder habilitierte Professoren zu verpflichten, die umfangreiche Erfahrung mit dem spezifischen Thema haben und absolute Experten auf ihrem Gebiet sind. Wir selbst sind daran interessiert immer die höchste Qualität zu liefern, da dies auch unser Anspruch an uns selber ist und wir unserem Ruf als professionelle und hochwertige '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriting/ghostwriting-agentur
                           target: null
                           rel: null
-                    text: 'Ghostwriter Agentur'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
+                    text: Ghostwriter Agentur
+                  - type: text
+                    marks: []
                     text: ' bei jedem Auftrag gerecht werden möchten. Dementsprechend sind wir immer daran interessiert Ihnen die bestmögliche Qualität zu liefern. Jede Arbeit, die von unseren akademischen Ghostwritern erstellt wird, wird von einem internen Supervisor lektoriert und einer Plagiatsprüfung unterzogen. So garantieren wir Ihre Zufriedenheit und stellen sicher, dass unsere Kunden hochwertige wissenschaftliche Unikate erhalten.'
+                attrs:
+                  textAlign: left
             text_ausrichtung: text-left
             column_count: true
     type: editor
     enabled: true
     show_as_card: false
-  -
-    id: BOy70T1A
+  - id: BOy70T1A
     columns_replicator:
-      -
-        id: YGuCa50W
+      - id: YGuCa50W
         columns_per_row: 3
         single_col: false
         grid:
-          -
-            id: UfYKqIB9
+          - id: UfYKqIB9
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: kxUcm0mA
                   values:
@@ -325,566 +252,431 @@ replicator:
                     assets:
                       - leistung/icons/pencil.svg
                     img_alignment: justify-center
-                    link: 'entry::0328a685-5f37-4f91-bd4b-79c53adaea8d'
+                    link: entry::0328a685-5f37-4f91-bd4b-79c53adaea8d
                     has_border: false
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 4
+                  textAlign: center
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
+                      - type: bold
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: Ghostwriting
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#999999'
                           hex: '#000'
-                    text: 'Erfahrene Autoren erstellen eine Mustervorlage für Ihre wissenschaftliche Arbeit - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-              -
-                type: paragraph
+                    text: >-
+                      Erfahrene Autoren erstellen eine Mustervorlage für Ihre
+                      wissenschaftliche Arbeit - schnell, diskret und mehrfach
+                      geprüft auf Qualität & Plagiate.
+                attrs:
+                  textAlign: center
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriting
                           target: null
                           rel: null
-                    text: 'Mehr zum Ghostwriting'
+                    text: Mehr zum Ghostwriting
+                attrs:
+                  textAlign: center
             show_as_card: false
-          -
-            id: tokp1Jw1
+          - id: tokp1Jw1
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: MN1yTnOK
                   values:
                     type: bilder
                     assets:
                       - leistung/icons/Glasses-new.svg
-                    link: 'entry::659e7e81-6d07-4eea-9ef2-325e72618036'
+                    link: entry::659e7e81-6d07-4eea-9ef2-325e72618036
                     img_alignment: justify-center
                     has_border: false
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 4
+                  textAlign: center
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
+                      - type: bold
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: Lektorat
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#999999'
                           hex: '#000'
                     text: "Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch wissenschaftlich lektorieren.\_\_"
-              -
-                type: paragraph
+                attrs:
+                  textAlign: center
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /lektorat
                           target: null
                           rel: null
-                    text: 'Mehr zum Lektorat'
+                    text: Mehr zum Lektorat
+                attrs:
+                  textAlign: center
             show_as_card: false
-          -
-            id: R3wFFUOF
+          - id: R3wFFUOF
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: QNFR9lTx
                   values:
                     type: bilder
                     assets:
                       - leistung/icons/eraser_1.svg
-                    link: 'entry::e36a16aa-f4fc-4352-8466-36266c196de4'
+                    link: entry::e36a16aa-f4fc-4352-8466-36266c196de4
                     img_alignment: justify-center
                     has_border: false
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 4
+                  textAlign: center
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
+                      - type: bold
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: Korrektorat
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#999999'
                           hex: '#000'
-                    text: 'Vier Augen sehen mehr als zwei. Ein professionelles Korrektorat überarbeitet sprachliche Fehler Ihrer wissenschaftlichen Arbeit.'
-              -
-                type: paragraph
+                    text: >-
+                      Vier Augen sehen mehr als zwei. Ein professionelles
+                      Korrektorat überarbeitet sprachliche Fehler Ihrer
+                      wissenschaftlichen Arbeit.
+                attrs:
+                  textAlign: center
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /korrektorat
                           target: null
                           rel: null
-                    text: 'Mehr zum Korrektorat'
+                    text: Mehr zum Korrektorat
+                attrs:
+                  textAlign: center
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
-      -
-        id: CULEnw5Q
+      - id: CULEnw5Q
         columns_per_row: 3
         single_col: false
         grid:
-          -
-            id: 2Xnw0Nfy
+          - id: 2Xnw0Nfy
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: 90Vw07T7
                   values:
                     type: bilder
                     assets:
                       - leistung/icons/search-book.png
-                    link: 'entry::dafbcd3b-fd08-4c5b-94be-f2a80c140953'
+                    link: entry::dafbcd3b-fd08-4c5b-94be-f2a80c140953
                     img_alignment: justify-center
                     has_border: false
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 4
+                  textAlign: center
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
+                      - type: bold
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'MAXQDA Auswertung'
-              -
-                type: paragraph
+                    text: MAXQDA Auswertung
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
+                          color: rgb(153, 153, 153)
                           hex: '#000'
-                    text: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
-              -
-                type: paragraph
+                    text: >-
+                      Unsere erfahrenen Experten führen Ihre qualitative
+                      Inhaltsanalyse mittels einer professionellen MAXQDA
+                      Auswertung durch.
+                attrs:
+                  textAlign: center
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
                           target: null
                           rel: null
-                    text: 'Mehr zur MAXQDA Auswertung'
+                    text: Mehr zur MAXQDA Auswertung
+                attrs:
+                  textAlign: center
             show_as_card: false
-          -
-            id: 3qplLunn
+          - id: 3qplLunn
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: j96sx3YJ
                   values:
                     type: bilder
                     assets:
                       - leistung/icons/certificate_1.svg
-                    link: 'entry::e12620a8-faf9-4f3e-82af-5586f4a85db2'
+                    link: entry::e12620a8-faf9-4f3e-82af-5586f4a85db2
                     img_alignment: justify-center
                     has_border: false
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 4
+                  textAlign: center
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
+                      - type: bold
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: Formatierung
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
+                          color: rgb(153, 153, 153)
                           hex: '#000'
-                    text: 'Über den Erfolg einer akademischen Arbeit entscheidet neben inhaltlicher Qualität auch die korrekte äussere Form.'
-              -
-                type: paragraph
+                    text: >-
+                      Über den Erfolg einer akademischen Arbeit entscheidet
+                      neben inhaltlicher Qualität auch die korrekte äussere
+                      Form.
+                attrs:
+                  textAlign: center
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /leistungen/formatierung
                           target: null
                           rel: null
-                    text: 'Mehr zur Formatierung'
+                    text: Mehr zur Formatierung
+                attrs:
+                  textAlign: center
             show_as_card: false
-          -
-            id: 7ZeTMht5
+          - id: 7ZeTMht5
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: xHxZ39Rw
                   values:
                     type: bilder
                     assets:
                       - leistung/icons/secure.svg
-                    link: 'entry::fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8'
+                    link: entry::fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                     img_alignment: justify-center
                     has_border: false
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 4
+                  textAlign: center
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
+                  - type: text
+                    marks: []
                     text: Plagiatsprüfung
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#999999'
                           hex: '#000'
-                    text: 'Jede wissenschaftliche Arbeit sollte einer Plagiatsprüfung unterzogen werden um böse Überraschungen auszuschließen.'
-              -
-                type: paragraph
+                    text: >-
+                      Jede wissenschaftliche Arbeit sollte einer Plagiatsprüfung
+                      unterzogen werden um böse Überraschungen auszuschließen.
+                attrs:
+                  textAlign: center
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
-                    text: 'Mehr zur Plagiatsprüfung'
+                    text: Mehr zur Plagiatsprüfung
+                attrs:
+                  textAlign: center
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
-      -
-        id: pj7WPxl3
+      - id: pj7WPxl3
         columns_per_row: 2
         single_col: true
         grid:
-          -
-            id: o9lhudR3
+          - id: o9lhudR3
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: FFalHb6v
                   values:
                     type: bilder
                     assets:
                       - leistung/icons/reload.svg
-                    link: 'entry::7cad538c-ad74-4617-825e-bbac46ebf310'
+                    link: entry::7cad538c-ad74-4617-825e-bbac46ebf310
                     img_alignment: justify-center
                     has_border: false
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 4
+                  textAlign: center
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
+                      - type: bold
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: Übersetzung
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
+                          color: rgb(153, 153, 153)
                           hex: '#000'
-                    text: 'Sprachliche Barrieren überwinden: Unser Team erstellt hochwertige Übersetzungen von akademischen Texten.'
-              -
-                type: paragraph
+                    text: >-
+                      Sprachliche Barrieren überwinden: Unser Team erstellt
+                      hochwertige Übersetzungen von akademischen Texten.
+                attrs:
+                  textAlign: center
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /leistungen/uebersetzung
                           target: null
                           rel: null
-                    text: 'Mehr zur Übersetzung'
+                    text: Mehr zur Übersetzung
+                attrs:
+                  textAlign: center
             show_as_card: false
-          -
-            id: Gmhy6j4W
+          - id: Gmhy6j4W
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: e4jcqTrj
                   values:
                     type: bilder
                     assets:
                       - leistung/icons/hat.svg
-                    link: 'entry::6dd15231-c8e7-43fe-949e-af68de19ab1b'
+                    link: entry::6dd15231-c8e7-43fe-949e-af68de19ab1b
                     img_alignment: justify-center
                     has_border: false
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 4
+                  textAlign: center
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
+                      - type: bold
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: Promotionsberatung
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
+                          color: rgb(153, 153, 153)
                           hex: '#000'
-                    text: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
-              -
-                type: paragraph
+                    text: >-
+                      Verlassen Sie sich auf unsere umfassende und seriöse
+                      Promotionsberatung und führen Sie Ihre Promotion zum
+                      Erfolg.
+                attrs:
+                  textAlign: center
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /promotionsberatung
                           target: null
                           rel: null
-                    text: 'Mehr zur Promotionsberatung'
+                    text: Mehr zur Promotionsberatung
+                attrs:
+                  textAlign: center
             show_as_card: false
         type: row
         enabled: true
@@ -894,79 +686,69 @@ replicator:
     enabled: true
     remove_spacing: true
     border: false
-  -
-    id: 5UJ0z0Pg
+  - id: 5UJ0z0Pg
     columns_replicator:
-      -
-        id: 6Iuv1pP1
+      - id: 6Iuv1pP1
         single_col: true
         grid:
-          -
-            id: L04bfvi6
+          - id: L04bfvi6
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: FyfjBdfT
                   values:
                     type: text_box_alignment
                     bard:
-                      -
-                        type: heading
+                      - type: heading
                         attrs:
                           level: 2
+                          textAlign: center
                         content:
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: textColor
+                              - type: textColor
                                 attrs:
                                   color: '#000!important'
                                   hex: '#000'
-                            text: 'Das macht uns so besonders'
-                      -
-                        type: paragraph
+                            text: Das macht uns so besonders
+                      - type: paragraph
                         content:
-                          -
-                            type: text
-                            text: 'Die durch GWriters vermittelten akademischen Freelancer bieten Ihnen eine breite Leistungspalette rund um die speziellen Bedürfnisse im akademischen Umfeld. Dies umfasst die Redaktion, Erstellung & '
-                          -
-                            type: text
+                          - type: text
+                            text: >-
+                              Die durch GWriters vermittelten akademischen
+                              Freelancer bieten Ihnen eine breite
+                              Leistungspalette rund um die speziellen
+                              Bedürfnisse im akademischen Umfeld. Dies umfasst
+                              die Redaktion, Erstellung & 
+                          - type: text
                             marks:
-                              -
-                                type: link
+                              - type: link
                                 attrs:
                                   href: /leistungen/uebersetzung
                                   target: null
                                   rel: null
                             text: Übersetzung
-                          -
-                            type: text
+                          - type: text
                             text: ' von hochwertigen Texten, genauso wie die Vorbereitung, Bearbeitung & Korrektur von wissenschaftlichen Arbeiten & Veröffentlichungen. Darüber hinaus unterstützen Sie unsere freiberuflichen Mitarbeiter durch Recherchen, '
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: link
+                              - type: link
                                 attrs:
                                   href: /leistungen/plagiatspruefung
                                   target: null
                                   rel: null
                             text: Plagiatsprüfungen
-                          -
-                            type: text
+                          - type: text
                             text: ', Coaching und verschiedene Beratungsleistungen.'
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
-                            text: 'Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
+                          - type: text
+                            text: >-
+                              Alle durch uns vermittelten Leistungen unterliegen
+                              einer strengen Qualitätskontrolle durch unser Team
+                              und unsere Supervisor. Die Betreuung Ihres
+                              Auftrages erfolgt durch einen festen, jederzeit
+                              erreichbaren Ansprechpartner.
                     text_ausrichtung: text-center
                     column_count: false
             show_as_card: false
@@ -979,11 +761,15 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'GWriters • Unsere Leistungen und Services'
-meta_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer & viele andere Experten - Einfach, schnell & sicher!'
-page_title: 'GWriters • Unsere Leistungen und Services'
-og_title: 'GWriters • Unsere Leistungen und Services'
-og_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer & viele andere Experten - Einfach, schnell & sicher!'
+meta_title: GWriters • Unsere Leistungen und Services
+meta_description: >-
+  Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren,
+  Übersetzer & viele andere Experten - Einfach, schnell & sicher!
+page_title: GWriters • Unsere Leistungen und Services
+og_title: GWriters • Unsere Leistungen und Services
+og_description: >-
+  Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren,
+  Übersetzer & viele andere Experten - Einfach, schnell & sicher!
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true

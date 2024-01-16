@@ -1,731 +1,557 @@
 ---
 id: 25799f6e-c620-4386-8c1d-bc1efefdb651
 blueprint: pages
-title: 'Promotionsberatung zum berufsbegleitenden Doctor of Philosophy (Ph.D.)'
+title: Promotionsberatung zum berufsbegleitenden Doctor of Philosophy (Ph.D.)
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: bold
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Promotionsberatung zum berufsbegleitenden'
-      -
-        type: hard_break
+        text: Promotionsberatung zum berufsbegleitenden
+      - type: hard_break
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: bold
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: bold
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Doctor of Philosophy (Ph.D.)'
-  -
-    type: heading
+        text: Doctor of Philosophy (Ph.D.)
+  - type: heading
     attrs:
       level: 2
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
+          - type: bold
+          - type: textColor
             attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
+              color: rgb(68, 68, 68)
               hex: '#000'
-        text: 'Sie benötigen professionelle Unterstützung bei Ihrem berufsbegleitenden Ph.D.? Verlassen Sie sich auf unsere seriöse Promotionsberatung!'
-  -
-    type: set
+        text: >-
+          Sie benötigen professionelle Unterstützung bei Ihrem
+          berufsbegleitenden Ph.D.? Verlassen Sie sich auf unsere seriöse
+          Promotionsberatung!
+  - type: set
     attrs:
       id: 0ZrEXe3R
       values:
         type: spacer
         padding-y: 10
-  -
-    type: set
+  - type: set
     attrs:
       id: wXQ21c9c
       values:
         type: teaser_icon_columns
         columns:
-          -
-            id: CnTk0aMV
+          - id: CnTk0aMV
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: oQidXnpt
+            headline: Datenschutz &amp; 100% Anonymität
+            tooltip_infotext: >-
+              Wir schützen Ihre Daten streng gemäß der Vorschriften von
+              DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.
+          - id: oQidXnpt
             icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: OZwXA58l
+            headline: Teillieferungen &amp; kostenlose Änderungen
+            tooltip_infotext: >-
+              Sie erhalten von uns regelmäßig Teillieferungen und wir setzen
+              Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf
+              Ihr Projekt nehmen.
+          - id: OZwXA58l
             icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
-          -
-            id: MzUyWcml
+            headline: Schnelle &amp; pünktliche Lieferung
+            tooltip_infotext: >-
+              Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte
+              Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler
+              Form.
+          - id: MzUyWcml
             icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
+            headline: Top-Qualität von akademischen Experten
+            tooltip_infotext: >-
+              Ihre Mustervorlage wird von akademischen Experten auf höchstem
+              Niveau erstellt, die oft selbst als Doktoren oder Professoren
+              beschäftigt sind.
+  - type: set
     attrs:
       id: XCXeCuXY
       values:
         type: spacer
         padding-y: 15
-  -
-    type: set
+  - type: set
     attrs:
       id: JZGJRKxP
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: JETZT KOSTENLOS ANFRAGEN
         color: '#FF6606'
         spacing_top: false
-  -
-    type: set
+  - type: set
     attrs:
       id: sNBMxrao
       values:
         type: spacer
         padding-y: 20
-  -
-    type: paragraph
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
+          - type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
+    attrs:
+      textAlign: center
+  - type: heading
     attrs:
       level: 2
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-          -
-            type: link
+          - type: link
             attrs:
-              href: 'tel:##phone##'
+              href: tel:##phone##
               target: null
               rel: null
         text: '##phone##'
 replicator:
-  -
-    id: gJTbhaSX
+  - id: gJTbhaSX
     columns_replicator:
-      -
-        id: IYNwThIa
+      - id: IYNwThIa
         single_col: false
         grid:
-          -
-            id: wGuKrgDm
+          - id: wGuKrgDm
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Allgemeines zur Einordnung und Bedeutung'
-              -
-                type: paragraph
+                    text: Allgemeines zur Einordnung und Bedeutung
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: "Der Doctor of Philosophy (abgekürzt „Ph.D.“, „PhD“ oder „PHD“) ist ein traditioneller akademischer Abschluss in englischsprachigen Ländern. Er wird hinter dem Namen geführt (z.B. „Alfred Aufsteiger, Ph.D.“), hat den Status eines Doktorgrades und setzt in der Regel ein 3-5jähriges Promotionsstudium oder Forschungsdoktorat voraus. Entgegen seiner Bezeichnung ist sein Erwerb keineswegs auf philosophische Fakultäten beschränkt, vielmehr kann der Ph.D. in nahezu allen Hochschulfächern erworben werden. Als wissenschaftliches Doktorat ist er jedoch nicht mit berufspraktischen Abschlüssen wie etwa dem angelsächsischen\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: italic
-                      -
-                        type: textAlign
+                      - type: italic
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Medical Doctor (MD)'
-                  -
-                    type: text
+                    text: Medical Doctor (MD)
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: "\_aus dem Fachbereich der\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter/medizin
                           target: null
                           rel: null
                     text: Medizin
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: "\_gleichzusetzen. Maßgeblich für seine Anerkennung in Deutschland ist die Konformität mit der dritten Stufe der Bologna-Klassifikation, die ein Promotionsstudium mit selbst erarbeiteter Forschungsgrundlage voraussetzt. Im Unterschied zur klassischen Promotion zwecks Erlangung des Doktortitels (Dr.) bieten auch deutsche Universitäten zunehmend die Möglichkeit an, den Ph.D. online abzuschließen."
-              -
-                type: set
+                attrs:
+                  textAlign: start
+              - type: set
                 attrs:
                   id: GRwT0iM2
                   values:
                     type: video
-                    video: 'https://www.youtube.com/embed/S_leiw2OJK0'
-              -
-                type: heading
+                    video: https://www.youtube.com/embed/S_leiw2OJK0
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Abgrenzung zum deutschen Doktortitel (Dr.)'
-              -
-                type: paragraph
+                    text: Abgrenzung zum deutschen Doktortitel (Dr.)
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Entsprechend seiner Verkettung mit den stark modularisierten Bachelor- und Master-Studiengängen des Bologna-Modells wirkt der Ph.D.-Erwerb mit seinen integrierten Vorlesungen und Seminaren verschulter im Vergleich zum deutschen Promotionsstudium. Abgesehen von den medizinischen Crash-Promotionen innerhalb weniger Monate ist zudem die zeitliche Investition in den Ph.D. mit durchschnittlich drei bis vier Jahren wesentlich geringer als jene in einen herkömmlichen Doktortitel, dessen Erlangung insbesondere in geisteswissenschaftlichen Fächern nach den jeweils geltenden Prüfungsordnungen bis zu sechs Jahre in Anspruch nehmen kann.'
-              -
-                type: paragraph
+                    text: >-
+                      Entsprechend seiner Verkettung mit den stark
+                      modularisierten Bachelor- und Master-Studiengängen des
+                      Bologna-Modells wirkt der Ph.D.-Erwerb mit seinen
+                      integrierten Vorlesungen und Seminaren verschulter im
+                      Vergleich zum deutschen Promotionsstudium. Abgesehen von
+                      den medizinischen Crash-Promotionen innerhalb weniger
+                      Monate ist zudem die zeitliche Investition in den Ph.D.
+                      mit durchschnittlich drei bis vier Jahren wesentlich
+                      geringer als jene in einen herkömmlichen Doktortitel,
+                      dessen Erlangung insbesondere in geisteswissenschaftlichen
+                      Fächern nach den jeweils geltenden Prüfungsordnungen bis
+                      zu sechs Jahre in Anspruch nehmen kann.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Darüber hinaus geht das zum Doktortitel führende herkömmliche universitäre Promotionsstudium in der Regel mit einer starken Bindung an den Lehrstuhl des Doktorvaters einher, während der Ph.D. oftmals die kollektive Arbeit mit mehreren Professoren an einem bestimmten Projekt besiegelt.'
-              -
-                type: heading
+                    text: >-
+                      Darüber hinaus geht das zum Doktortitel führende
+                      herkömmliche universitäre Promotionsstudium in der Regel
+                      mit einer starken Bindung an den Lehrstuhl des
+                      Doktorvaters einher, während der Ph.D. oftmals die
+                      kollektive Arbeit mit mehreren Professoren an einem
+                      bestimmten Projekt besiegelt.
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Anerkennung und Umwandelbarkeit ausländischer Ph.D.-Titel'
-              -
-                type: paragraph
+                    text: Anerkennung und Umwandelbarkeit ausländischer Ph.D.-Titel
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Ob im Ausland erworbene Doktortitel in Deutschland geführt oder in entsprechende deutsche Titel umgewandelt werden dürfen, richtet sich nach den Hochschulgesetzen der Länder. Danach können ausländische akademische Grade ohne behördliche Genehmigung mit der ausländischen Bezeichnung in Deutschland geführt werden, sofern sie'
-              -
-                type: bullet_list
+                    text: >-
+                      Ob im Ausland erworbene Doktortitel in Deutschland geführt
+                      oder in entsprechende deutsche Titel umgewandelt werden
+                      dürfen, richtet sich nach den Hochschulgesetzen der
+                      Länder. Danach können ausländische akademische Grade ohne
+                      behördliche Genehmigung mit der ausländischen Bezeichnung
+                      in Deutschland geführt werden, sofern sie
+                attrs:
+                  textAlign: start
+              - type: bullet_list
                 content:
-                  -
-                    type: list_item
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
-                            text: 'nicht gekauft'
-                          -
-                            type: text
+                              - type: bold
+                            text: nicht gekauft
+                          - type: text
                             text: "\_wurden,"
-                  -
-                    type: list_item
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             text: "eine\_"
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: Verleihungsurkunde
-                          -
-                            type: text
+                          - type: text
                             text: "\_der ausländischen Hochschule vorliegt und"
-                  -
-                    type: list_item
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             text: "sie bei einer Bildungseinrichtung erworben wurden, die zur Verleihung des Grades\_"
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: berechtigt
-                          -
-                            type: text
+                          - type: text
                             text: "\_ist (also nicht etwa bei kirchlichen oder privaten Instituten ohne staatliche Anerkennung)."
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Hingegen ist die Führung ausländischer Grade'
-                  -
-                    type: text
+                  - type: text
+                    text: Hingegen ist die Führung ausländischer Grade
+                  - type: text
                     marks:
-                      -
-                        type: bold
+                      - type: bold
                     text: "\_in der entsprechenden deutschen Form"
-                  -
-                    type: text
+                  - type: text
                     text: "\_grundsätzlich\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
+                      - type: bold
                     text: ausgeschlossen
-                  -
-                    type: text
-                    text: ', und zwar auch dann, wenn die Voraussetzungen ihres Erwerbs mit den deutschen übereinstimmen!'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      , und zwar auch dann, wenn die Voraussetzungen ihres
+                      Erwerbs mit den deutschen übereinstimmen!
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
                     text: "Ausnahmen sind nur aufgrund von Beschlüssen der Kultusministerkonferenz oder sogenannter Äquivalenzabkommen (bilateraler Vereinbarungen über die gegenseitige Anerkennung von Hochschulabschlüssen, z.B. dem\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: rgb(255, 102, 2)
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://www.kmk.org/fileadmin/pdf/ZAB/Aequivalenzabkommen/Ungarn.pdf'
+                          href: >-
+                            https://www.kmk.org/fileadmin/pdf/ZAB/Aequivalenzabkommen/Ungarn.pdf
                           target: _blank
                           rel: nofollow
-                    text: 'deutsch-ungarischen Abkommen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                    text: deutsch-ungarischen Abkommen
+                  - type: text
+                    marks: []
                     text: "\_über die Anerkennung von Gleichwertigkeiten im Hochschulbereich) möglich. Orientierungshilfe bietet insoweit die Datenbank\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: italic
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                      - type: italic
                     text: Anabin
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: "\_der Zentralstelle für ausländisches Bildungswesen (ZAB), rechtsverbindliche Auskünfte erteilt das Wissenschaftsministerium des jeweiligen Bundeslandes"
-              -
-                type: paragraph
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Prinzipiell gilt, dass'
-              -
-                type: bullet_list
+                      - type: bold
+                    text: Prinzipiell gilt, dass
+              - type: bullet_list
                 content:
-                  -
-                    type: list_item
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             text: "D.-Grade, die in einem Mitgliedsstaat der\_"
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: EU
-                          -
-                            type: text
+                          - type: text
                             text: "\_oder des Europäischen Wirtschaftsraumes ("
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: EWR
-                          -
-                            type: text
+                          - type: text
                             text: "), in\_"
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: Israel
-                          -
-                            type: text
+                          - type: text
                             text: ",\_"
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: Australien
-                          -
-                            type: text
+                          - type: text
                             text: ",\_"
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: Kanada
-                          -
-                            type: text
+                          - type: text
                             text: "\_oder\_"
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: Japan
-                          -
-                            type: text
+                          - type: text
                             text: "\_erworben wurden, in "
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: Deutschland
-                          -
-                            type: text
+                          - type: text
                             text: ' ohne weitere Zusätze oder Angaben zur Herkunft als „Dr.“ geführt werden dürfen,'
-                  -
-                    type: list_item
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
+                              - type: bold
                             text: US-amerikanische
-                          -
-                            type: text
+                          - type: text
                             text: " D.-Grade nur dann zur Führung eines deutschen Doktortitels berechtigen, wenn die verleihende Hochschule von der\_Carnegie Foundation for the Advancement of Teaching\_als Forschungsuniversität mit den Prädikaten „high research activity“ oder „very high research activity“ eingestuft ist,"
-                  -
-                    type: list_item
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             text: "sogenannte\_„"
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: bold
-                            text: 'kleine Doktortitel'
-                          -
-                            type: text
-                            text: '“, die zwar ähnliche Bezeichnungen haben, deren akademisches Niveau jedoch nur der zweiten Ebene des Bologna-Modells entspricht, also dem Master oder dem deutschen Magister, in Deutschland nicht anerkennungsfähig sind. Hierzu zählen etwa der tschechische und der slowakische („Doktor filozofie“).'
-              -
-                type: paragraph
+                              - type: bold
+                            text: kleine Doktortitel
+                          - type: text
+                            text: >-
+                              “, die zwar ähnliche Bezeichnungen haben, deren
+                              akademisches Niveau jedoch nur der zweiten Ebene
+                              des Bologna-Modells entspricht, also dem Master
+                              oder dem deutschen Magister, in Deutschland nicht
+                              anerkennungsfähig sind. Hierzu zählen etwa der
+                              tschechische und der slowakische („Doktor
+                              filozofie“).
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Die Umwandlung eines in Deutschland erworbenen Ph.D. in einen Dr. ist möglich, nicht jedoch umgekehrt! Ferner darf der in Deutschland erworbene akademische Grad auch nur unter seiner in der Verleihungsurkunde angegebenen Bezeichnung in amtliche Ausweispapiere eingetragen werden; man kann also nicht seinem Namen im Reisepass einfach ein „Ph.D.“ hinzufügen, wenn man einen deutschen Doktortitel („Dr.“) erworben hat.'
-              -
-                type: heading
+                    text: >-
+                      Die Umwandlung eines in Deutschland erworbenen Ph.D. in
+                      einen Dr. ist möglich, nicht jedoch umgekehrt! Ferner darf
+                      der in Deutschland erworbene akademische Grad auch nur
+                      unter seiner in der Verleihungsurkunde angegebenen
+                      Bezeichnung in amtliche Ausweispapiere eingetragen werden;
+                      man kann also nicht seinem Namen im Reisepass einfach ein
+                      „Ph.D.“ hinzufügen, wenn man einen deutschen Doktortitel
+                      („Dr.“) erworben hat.
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Führbarkeit eines Ph.D. in der Schweiz'
-              -
-                type: paragraph
+                    text: Führbarkeit eines Ph.D. in der Schweiz
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: "In der\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
+                      - type: bold
                     text: Schweiz
-                  -
-                    type: text
+                  - type: text
                     text: "\_gelten keine wesentlich von Deutschland abweichenden Regelungen zum Erwerb des Ph.D. Das Doktorat setzt einen geeigneten Studienabschluss (Diplom, Magister, Staatsexamen oder Master) voraus; die konkreten Zulassungsbedingungen regelt jede Hochschule in Eigenregie. Ein Doktortitel kann nur von einer der 12 Schweizer Universitäten verliehen werden. Fachspezifisch variiert die Doktoratsdauer zwischen 2 und 7 Jahren, wobei (im Unterschied zu Deutschland) ein Abschluss in Rechts- oder\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter/wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
-                  -
-                    type: text
+                  - type: text
                     text: "\_bereits nach 2 Jahren möglich ist."
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Im Ausland verliehene Ph.D.-Titel dürfen in der Schweiz durch einen dem Namen vorangestellten „Dr.“ ersetzt werden. Es ist lediglich untersagt, sowohl „Dr.“ als auch „Ph.D.“ für denselben akademischen Titel im Namen zu führen. Im Übrigen regeln Abkommen der Schweiz mit Deutschland, Italien und Frankreich die gegenseitige Anerkennung von akademischen Abschlüssen.'
-              -
-                type: heading
+                    text: >-
+                      Im Ausland verliehene Ph.D.-Titel dürfen in der Schweiz
+                      durch einen dem Namen vorangestellten „Dr.“ ersetzt
+                      werden. Es ist lediglich untersagt, sowohl „Dr.“ als auch
+                      „Ph.D.“ für denselben akademischen Titel im Namen zu
+                      führen. Im Übrigen regeln Abkommen der Schweiz mit
+                      Deutschland, Italien und Frankreich die gegenseitige
+                      Anerkennung von akademischen Abschlüssen.
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Wann ist der Ph.D. dem deutschen Doktorgrad vorzuziehen?'
-              -
-                type: paragraph
+                    text: Wann ist der Ph.D. dem deutschen Doktorgrad vorzuziehen?
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
+                      - type: textColor
                         attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: rgb(68, 68, 68)
                           hex: '#000'
-                    text: 'Die internationale Verbreitung des Ph.D.-Titels und seine besondere Forschungsorientierung machen ihn für jene Doktoranden attraktiv, die eine Auslandskarriere und/oder eine Tätigkeit im Bereich Forschung und Entwicklung anstreben. Für eine unternehmens- oder institutsgebundene Laufbahn eignet sich eher der klassische, am Lehrstuhl erworbene Doktortitel.'
+                    text: >-
+                      Die internationale Verbreitung des Ph.D.-Titels und seine
+                      besondere Forschungsorientierung machen ihn für jene
+                      Doktoranden attraktiv, die eine Auslandskarriere und/oder
+                      eine Tätigkeit im Bereich Forschung und Entwicklung
+                      anstreben. Für eine unternehmens- oder institutsgebundene
+                      Laufbahn eignet sich eher der klassische, am Lehrstuhl
+                      erworbene Doktortitel.
+                attrs:
+                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -736,21 +562,25 @@ replicator:
     border: false
     type: add_section
     enabled: true
-page_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
+page_title: Seriöse Promotionsberatung für Ihren Ph.D. • GWriters
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
 updated_at: 1670860629
-meta_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
-meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihr Promotion zum Ph.D. Profitieren Sie jetzt von unserem Expertenwissen!'
+meta_title: Seriöse Promotionsberatung für Ihren Ph.D. • GWriters
+meta_description: >-
+  Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihr Promotion
+  zum Ph.D. Profitieren Sie jetzt von unserem Expertenwissen!
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-og_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
-og_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihr Promotion zum Ph.D. Profitieren Sie jetzt von unserem Expertenwissen!'
+og_title: Seriöse Promotionsberatung für Ihren Ph.D. • GWriters
+og_description: >-
+  Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihr Promotion
+  zum Ph.D. Profitieren Sie jetzt von unserem Expertenwissen!
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true

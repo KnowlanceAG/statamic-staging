@@ -1,92 +1,74 @@
 ---
 id: 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
 blueprint: akademie
-title: 'Literaturverzeichnis Beispiel'
+title: Literaturverzeichnis Beispiel
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: bold
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Literaturverzeichnis Beispiel'
-  -
-    type: paragraph
+        text: Literaturverzeichnis Beispiel
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
-  -
-    type: set
+          - type: bold
+        text: >-
+          Unsere akademischen Ghostwriter unterstützen Sie mit individuellen
+          Vorlagen, persönlichen Coachings oder unserem professionellen
+          Ghostwriting-Service bei Ihrer Abschlussarbeit!
+    attrs:
+      textAlign: center
+  - type: set
     attrs:
       id: 0UWnLe6Z
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: JETZT KOSTENLOS ANFRAGEN
         color: '#FF6606'
         spacing_top: false
-  -
-    type: paragraph
+  - type: paragraph
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
-  -
-    id: sxdgpAz2
+  - id: sxdgpAz2
     bard:
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Ein vollständiges und korrekt dargestelltes Literaturverzeichnis ist in allen wissenschaftlichen Abschlussarbeiten unerlässlich. Jene Quellenangaben, die gewisse Teilbereiche einer '
-          -
-            type: text
+          - type: text
+            text: >-
+              Ein vollständiges und korrekt dargestelltes Literaturverzeichnis
+              ist in allen wissenschaftlichen Abschlussarbeiten unerlässlich.
+              Jene Quellenangaben, die gewisse Teilbereiche einer 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Bachelorarbeit '
-          -
-            type: text
+          - type: text
             text: 'oder '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeit
-          -
-            type: text
+          - type: text
             text: ' umfassen, sind in einem dafür vorgesehenen Verzeichnis zu nennen. Daher ist es für alle Studenten nicht unwesentlich, die geeignete Darstellungsform zu kennen.'
-      -
-        type: set
+      - type: set
         attrs:
           id: GNtFfKaI
           values:
@@ -94,107 +76,102 @@ replicator:
             assets:
               - akademie/Literaturverzeichnis-724x1024.jpg
             has_border: true
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Zunächst sind die Hinweise der Fakultät zu beachten, nach denen das Literaturverzeichnis erstellt werden soll. Ferner wird das Literaturverzeichnis nicht einheitlich dargestellt, sondern umfasst einen bestimmten Zitierstil. Nutzen Sie unser Literaturverzeichnis Beispiel und stellen Sie eine professionelle Darstellung Ihrer Literaturquellen sicher. Auch unser '
-          -
-            type: text
+          - type: text
+            text: >-
+              Zunächst sind die Hinweise der Fakultät zu beachten, nach denen
+              das Literaturverzeichnis erstellt werden soll. Ferner wird das
+              Literaturverzeichnis nicht einheitlich dargestellt, sondern
+              umfasst einen bestimmten Zitierstil. Nutzen Sie unser
+              Literaturverzeichnis Beispiel und stellen Sie eine professionelle
+              Darstellung Ihrer Literaturquellen sicher. Auch unser 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /zitationsgenerator
                   target: null
                   rel: null
-            text: 'kostenloser Zitationsgenerator'
-          -
-            type: text
+            text: kostenloser Zitationsgenerator
+          - type: text
             text: ' bietet Ihnen eine wertvolle Hilfestellung bei der Erstellung der Quellenangaben für Ihre wissenschaftliche Arbeit.'
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "Bereits schon bei Hausarbeiten gehört das Literaturverzeichnis zum Standard. Das Zitieren ist eine allgemein bekannte Vorgehensweise in wissenschaftlichen Arbeiten und benötigt ebenso ein Verzeichnis, in dem\_die Autoren aufgelistet sind."
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Wird eine Quelle zitiert, müssen alle beteiligten Autoren genannt werden und dieses geschieht in einem Literaturverzeichnis. Die gebündelten Quellenangaben sind darin auf einen Blick zu finden und es lässt sich direkt entnehmen, mit welchen Quellen gearbeitet wurde.'
-      -
-        type: paragraph
+          - type: text
+            text: >-
+              Wird eine Quelle zitiert, müssen alle beteiligten Autoren genannt
+              werden und dieses geschieht in einem Literaturverzeichnis. Die
+              gebündelten Quellenangaben sind darin auf einen Blick zu finden
+              und es lässt sich direkt entnehmen, mit welchen Quellen gearbeitet
+              wurde.
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Ein Literaturverzeichnis lässt sich unkompliziert in Word erstellen, jedoch nur dann, wenn der wissenschaftliche Aufbau bekannt ist. Schließlich werden Literaturverzeichnisse auch für anderweitige Schriftstücke angewendet, welche jedoch einen anderen Aufbau verlangen.'
-      -
-        type: paragraph
+          - type: text
+            text: >-
+              Ein Literaturverzeichnis lässt sich unkompliziert in Word
+              erstellen, jedoch nur dann, wenn der wissenschaftliche Aufbau
+              bekannt ist. Schließlich werden Literaturverzeichnisse auch für
+              anderweitige Schriftstücke angewendet, welche jedoch einen anderen
+              Aufbau verlangen.
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Eine Literaturverzeichnis Vorlage erlaubt Ihnen einen Einblick in ein professionelles, von akademischen '
-          -
-            type: text
+          - type: text
+            text: >-
+              Eine Literaturverzeichnis Vorlage erlaubt Ihnen einen Einblick in
+              ein professionelles, von akademischen 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter
                   target: null
                   rel: null
             text: 'Ghostwritern '
-          -
-            type: text
-            text: 'erstelltes Literaturverzeichnis für wissenschaftliche Arbeiten, an dem Sie sich in Ihrem eigenen Schreibprozess orientieren können. Aus dieser Vorlage können Sie die korrekte'
-          -
-            type: text
+          - type: text
+            text: >-
+              erstelltes Literaturverzeichnis für wissenschaftliche Arbeiten, an
+              dem Sie sich in Ihrem eigenen Schreibprozess orientieren können.
+              Aus dieser Vorlage können Sie die korrekte
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /leistungen/formatierung
                   target: null
                   rel: null
             text: ' Formatierung'
-          -
-            type: text
+          - type: text
             text: ' entnehmen und ebenso demonstrieren wir, wie Sie Ihr Literaturverzeichnis in Word erstellen können.'
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Welche Priorität den einzelnen Verzeichnissen zugemessen wird, hängt oft vom jeweiligen Fachbereich ab. In jedem Fall nimmt dieses Verzeichnis allerdings – von der ersten '
-          -
-            type: text
+          - type: text
+            text: >-
+              Welche Priorität den einzelnen Verzeichnissen zugemessen wird,
+              hängt oft vom jeweiligen Fachbereich ab. In jedem Fall nimmt
+              dieses Verzeichnis allerdings – von der ersten 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Hausarbeit '
-          -
-            type: text
-            text: 'bis hin zur Dissertation – eine wichtige Funktion ein.'
-      -
-        type: heading
+          - type: text
+            text: bis hin zur Dissertation – eine wichtige Funktion ein.
+      - type: heading
         attrs:
           level: 2
+          textAlign: center
         content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Verwenden Sie jetzt unsere kostenlose Literaturverzeichnis-Vorlage'
+          - type: text
+            marks: []
+            text: Verwenden Sie jetzt unsere kostenlose Literaturverzeichnis-Vorlage
     show_as_card: false
     type: editor
     enabled: true
@@ -208,17 +185,21 @@ from_the_blog:
   - 3b102cfd-42f9-406a-80e1-41fb5edab619
   - 6c036bf5-e67e-426b-9129-0c8ba8dd68e2
   - cf3e2042-acbe-483e-9eb1-3b7b20659a23
-page_title: 'Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen'
-meta_title: 'Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen'
-meta_description: 'Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters. Die kostenlose Vorlage spart Ihnen die fehlende Citavi-Lizenz.'
+page_title: Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen
+meta_title: Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen
+meta_description: >-
+  Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters.
+  Die kostenlose Vorlage spart Ihnen die fehlende Citavi-Lizenz.
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-academy_short_text_headline: 'Literaturverzeichnis Beispiel'
-academy_short_text: 'Keine Citavi-Lizenz? Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters.'
+academy_short_text_headline: Literaturverzeichnis Beispiel
+academy_short_text: >-
+  Keine Citavi-Lizenz? Nutzen Sie einfach und schnell das Literaturverzeichnis
+  Muster von GWriters.
 more_templates:
   - 8778439c-ea07-4542-9287-cb87e6074f6a
   - b609ef85-dc84-4405-93d0-1b92d92ca1a4
@@ -231,8 +212,10 @@ more_templates:
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
 link_title: Literaturverzeichnis
 template: academy-item
-og_title: 'Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen'
-og_description: 'Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters. Die kostenlose Vorlage spart Ihnen die fehlende Citavi-Lizenz.'
+og_title: Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen
+og_description: >-
+  Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters.
+  Die kostenlose Vorlage spart Ihnen die fehlende Citavi-Lizenz.
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
 ---

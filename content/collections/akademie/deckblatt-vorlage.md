@@ -1,102 +1,81 @@
 ---
 id: e1eeb52b-af75-4803-a498-6678be9b695d
 blueprint: akademie
-title: 'Deckblatt Vorlage'
+title: Deckblatt Vorlage
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Deckblatt Vorlage'
-  -
-    type: paragraph
+        text: Deckblatt Vorlage
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
-  -
-    type: set
+          - type: bold
+        text: >-
+          Unsere akademischen Ghostwriter unterstützen Sie mit individuellen
+          Vorlagen, persönlichen Coachings oder unserem professionellen
+          Ghostwriting-Service bei Ihrer Abschlussarbeit!
+    attrs:
+      textAlign: center
+  - type: set
     attrs:
       id: ehZLBgzc
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: JETZT KOSTENLOS ANFRAGEN
         color: '#FF6606'
         spacing_top: false
-  -
-    type: paragraph
+  - type: paragraph
 replicator:
-  -
-    id: RSkyBTLz
+  - id: RSkyBTLz
     bard:
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: 'Das Deckblatt einer '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Bachelorarbeit
-          -
-            type: text
+          - type: text
             text: ' und '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeit
-          -
-            type: text
+          - type: text
             text: ' ist unerlässlich und gibt gleichzeitig den ersten Eindruck der wissenschaftlichen Arbeit ab. Auch wenn das Deckblatt lediglich relevante Eckdaten über den Wissenschaftsbereich der Arbeit, personenbezogene Daten des Autors und Angaben der Hochschule vermittelt, sollte ein solches Titelblatt genügend Aufmerksamkeit bekommen. Insbesondere wenn Universitäten Doktoranden eine '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
-            text: 'Doktorarbeit schreiben lassen'
-          -
-            type: text
-            text: ', ist ein Deckblatt unglaublich wichtig, denn dies ist das Aushängeschild Ihrer Forschung.'
-      -
-        type: set
+            text: Doktorarbeit schreiben lassen
+          - type: text
+            text: >-
+              , ist ein Deckblatt unglaublich wichtig, denn dies ist das
+              Aushängeschild Ihrer Forschung.
+      - type: set
         attrs:
           id: qklYnIrh
           values:
@@ -104,69 +83,80 @@ replicator:
             assets:
               - akademie/Deckblatt-724x1024.jpg
             has_border: true
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Wichtig vor der Erstellung ist es, erst einmal die Wichtigkeit einer Titelseite für die wissenschaftliche Arbeit bewusst wahrzunehmen. Das Deckblatt ist das erste, was jeder von Ihrer Arbeit wahrnimmt und bestimmt maßgeblich den ersten Eindruck. Eine aufschlussreiche Deckblatt Vorlage erklärt sich zudem selbst und stellt für Sie eine sehr gute Informationsquelle dar.'
-      -
-        type: paragraph
+          - type: text
+            text: >-
+              Wichtig vor der Erstellung ist es, erst einmal die Wichtigkeit
+              einer Titelseite für die wissenschaftliche Arbeit bewusst
+              wahrzunehmen. Das Deckblatt ist das erste, was jeder von Ihrer
+              Arbeit wahrnimmt und bestimmt maßgeblich den ersten Eindruck. Eine
+              aufschlussreiche Deckblatt Vorlage erklärt sich zudem selbst und
+              stellt für Sie eine sehr gute Informationsquelle dar.
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Auf dem Deckblatt sollten keine der zentralen Informationen fehlen. Wer sich an unserer Word-Deckblatt-Vorlage orientiert, muss sich keine Sorgen machen, wichtige Angaben zu vergessen. Die übersichtliche Darstellungen unserer Musterbeispiele lassen sich effektiv für die eigene Abschlussarbeit anwenden.'
-      -
-        type: paragraph
+          - type: text
+            text: >-
+              Auf dem Deckblatt sollten keine der zentralen Informationen
+              fehlen. Wer sich an unserer Word-Deckblatt-Vorlage orientiert,
+              muss sich keine Sorgen machen, wichtige Angaben zu vergessen. Die
+              übersichtliche Darstellungen unserer Musterbeispiele lassen sich
+              effektiv für die eigene Abschlussarbeit anwenden.
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Da viele Hochschulen kein bestimmtes Layout des Deckblattes vorgeben, haben sich allgemeine Richtlinien etabliert. Die Darstellung sollte sachlich und fachspezifisch formatiert sein. Unsere Deckblatt Vorlage macht deutlich, welche Schriftarten geeignet sind und wie Sie die '
-          -
-            type: text
+          - type: text
+            text: >-
+              Da viele Hochschulen kein bestimmtes Layout des Deckblattes
+              vorgeben, haben sich allgemeine Richtlinien etabliert. Die
+              Darstellung sollte sachlich und fachspezifisch formatiert sein.
+              Unsere Deckblatt Vorlage macht deutlich, welche Schriftarten
+              geeignet sind und wie Sie die 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /leistungen/formatierung
                   target: null
                   rel: null
             text: Formatierung
-          -
-            type: text
+          - type: text
             text: ' bestens abhandeln.'
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Ein Titelblatt sollte immer das Thema und den Fachbereich wiedergeben und sich daran orientieren. Kreativität und einfallsreiche Ideen sind dabei nicht verlangt oder erwünscht. Schließlich geht es um die wissenschaftliche Kernaussage und das Deckblatt gibt vorab wichtige Infos weiter und macht publik, welcher Autor zur Wissenschaft beigetragen hat.'
-      -
-        type: paragraph
+          - type: text
+            text: >-
+              Ein Titelblatt sollte immer das Thema und den Fachbereich
+              wiedergeben und sich daran orientieren. Kreativität und
+              einfallsreiche Ideen sind dabei nicht verlangt oder erwünscht.
+              Schließlich geht es um die wissenschaftliche Kernaussage und das
+              Deckblatt gibt vorab wichtige Infos weiter und macht publik,
+              welcher Autor zur Wissenschaft beigetragen hat.
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Unsere Vorlagen lassen Sie hochwertige und fachgerechte Titelseiten für den eigenen Fachbereich erstellen. Prinzipiell kann ein Deckblatt durchaus auch als Aushängeschild einer wissenschaftlichen Arbeit verstanden werden, wodurch die Tragfähigkeit noch einmal deutlich zum Ausdruck kommt.'
-      -
-        type: heading
+          - type: text
+            text: >-
+              Unsere Vorlagen lassen Sie hochwertige und fachgerechte
+              Titelseiten für den eigenen Fachbereich erstellen. Prinzipiell
+              kann ein Deckblatt durchaus auch als Aushängeschild einer
+              wissenschaftlichen Arbeit verstanden werden, wodurch die
+              Tragfähigkeit noch einmal deutlich zum Ausdruck kommt.
+      - type: heading
         attrs:
           level: 2
+          textAlign: center
         content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Einfach herunterladen und Deckblatt-Vorlage nutzen!'
+          - type: text
+            marks: []
+            text: Einfach herunterladen und Deckblatt-Vorlage nutzen!
     type: editor
     enabled: true
     show_as_card: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
 updated_at: 1687188792
-academy_short_text_headline: 'Deckblatt Vorlage'
-academy_short_text: 'Nutzen und individualisieren Sie bequem unsere Deckblatt Vorlage für Ihre eigene Abschlussarbeit anwenden.'
+academy_short_text_headline: Deckblatt Vorlage
+academy_short_text: >-
+  Nutzen und individualisieren Sie bequem unsere Deckblatt Vorlage für Ihre
+  eigene Abschlussarbeit anwenden.
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -189,15 +179,19 @@ from_the_blog:
   - 12797e13-f9a3-427f-8c01-6e472545c086
   - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
   - b42eb586-1305-4faf-8d59-79e53ff91373
-page_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
-meta_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
+page_title: Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen
+meta_description: >-
+  ➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene
+  Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
-meta_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
+meta_title: Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen
 downloads:
   - akademie/Deckblatt.docx
 template: academy-item
-og_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
-og_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
+og_title: Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen
+og_description: >-
+  ➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene
+  Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
 ---

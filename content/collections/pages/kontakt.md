@@ -12,75 +12,64 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-page_title: 'GWriters • Nehmen Sie jetzt mit uns Kontakt auf. Wir beraten Sie gerne!'
+page_title: GWriters • Nehmen Sie jetzt mit uns Kontakt auf. Wir beraten Sie gerne!
 replicator:
-  -
-    bard:
-      -
-        type: heading
+  - bard:
+      - type: heading
         attrs:
           level: 1
+          textAlign: start
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
-              -
-                type: textAlign
+              - type: bold
+              - type: textColor
                 attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
+                  color: rgb(68, 68, 68)
             text: Kontakt
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: textAlign
+              - type: textColor
                 attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-            text: 'Gern helfen wir Ihnen mit Informationen rund um unsere Angebote. Bitte hinterlassen Sie uns Ihre Kontaktdaten und einige kurze Informationen zu Ihrem Anliegen, wir werden uns dann umgehend bei Ihnen zurückmelden.'
-      -
-        type: paragraph
+                  color: rgb(68, 68, 68)
+            text: >-
+              Gern helfen wir Ihnen mit Informationen rund um unsere Angebote.
+              Bitte hinterlassen Sie uns Ihre Kontaktdaten und einige kurze
+              Informationen zu Ihrem Anliegen, wir werden uns dann umgehend bei
+              Ihnen zurückmelden.
+        attrs:
+          textAlign: start
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             text: "Wir schützen Ihre Privatsphäre:\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /datenschutzerklaerung
                   target: null
                   rel: null
             text: Datenschutzerklärung
-      -
-        type: set
+      - type: set
         attrs:
           values:
             type: form
             form: contact-form
-      -
-        type: paragraph
+      - type: paragraph
     type: editor
     enabled: true
     show_as_card: false
-meta_title: 'Nehmen Sie jetzt mit uns Kontakt auf. Wir beraten Sie gerne!'
-meta_description: 'Falls Sie Hilfe beim Schreiben Ihrer Bachelorarbeit, Masterarbeit oder Doktorarbeit benötigen, nehmen Sie mit uns Kontakt auf. Wir beraten Sie gerne!'
-og_title: 'Nehmen Sie jetzt mit uns Kontakt auf. Wir beraten Sie gerne!'
-og_description: 'Falls Sie Hilfe beim Schreiben Ihrer Bachelorarbeit, Masterarbeit oder Doktorarbeit benötigen, nehmen Sie mit uns Kontakt auf. Wir beraten Sie gerne!'
+meta_title: Nehmen Sie jetzt mit uns Kontakt auf. Wir beraten Sie gerne!
+meta_description: >-
+  Falls Sie Hilfe beim Schreiben Ihrer Bachelorarbeit, Masterarbeit oder
+  Doktorarbeit benötigen, nehmen Sie mit uns Kontakt auf. Wir beraten Sie gerne!
+og_title: Nehmen Sie jetzt mit uns Kontakt auf. Wir beraten Sie gerne!
+og_description: >-
+  Falls Sie Hilfe beim Schreiben Ihrer Bachelorarbeit, Masterarbeit oder
+  Doktorarbeit benötigen, nehmen Sie mit uns Kontakt auf. Wir beraten Sie gerne!
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
 ---

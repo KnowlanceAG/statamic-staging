@@ -11,944 +11,730 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-page_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
+page_title: Wiki • GWriters - Informationen zum Thema Ghostwriting
 replicator:
-  -
-    id: jaMBv9a5
+  - id: jaMBv9a5
     bard:
-      -
-        type: heading
+      - type: heading
         attrs:
           level: 1
+          textAlign: left
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: textAlign
-                attrs:
-                  align: left
-              -
-                type: textColor
+              - type: textColor
                 attrs:
                   color: '#ff6602'
                   hex: '#000'
             text: Wiki
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
+              - type: textColor
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: 'GWriters bietet als Plattform für akademische Dienstleistungen auch ein Wiki als Nachschlagewerk zu allen relevanten Begriffen in diesem Bereich. So können Sie wichtige Begriffe bequem direkt auf unserer Seite nachlesen.'
-      -
-        type: paragraph
+            text: >-
+              GWriters bietet als Plattform für akademische Dienstleistungen
+              auch ein Wiki als Nachschlagewerk zu allen relevanten Begriffen in
+              diesem Bereich. So können Sie wichtige Begriffe bequem direkt auf
+              unserer Seite nachlesen.
+        attrs:
+          textAlign: start
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: 'Arbeiten:'
-          -
-            type: text
+          - type: text
             text: ' '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Bachelorarbeit
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/diplomarbeit
                   target: null
                   rel: null
             text: Diplomarbeit
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
             text: Doktorarbeit
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/ebook
                   target: null
                   rel: null
             text: eBook
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/essay
                   target: null
                   rel: null
             text: Essay
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/examensarbeit
                   target: null
                   rel: null
             text: Examensarbeit
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/facharbeit
                   target: null
                   rel: null
             text: Facharbeit
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Hausarbeit
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/lernskript
                   target: null
                   rel: null
             text: Lernskript
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/magisterarbeit
                   target: null
                   rel: null
             text: Magisterarbeit
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeit
-          -
-            type: text
+          - type: text
             text: "\_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/praesentationen
                   target: null
                   rel: null
             text: Präsentationen
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/seminararbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Seminararbeit
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /arbeiten/statistische-analysen
                   target: null
                   rel: null
-            text: 'Statistische Analysen'
-      -
-        type: paragraph
+            text: Statistische Analysen
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: 'Fachrichtungen:'
-          -
-            type: text
+          - type: text
             text: ' '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/architektur
                   target: null
                   rel: null
             text: Architektur
-          -
-            type: text
+          - type: text
             text: " \_| "
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/bauingenieurwesen
                   target: null
                   rel: null
             text: Bauingenieurwesen
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/biologie
                   target: null
                   rel: null
             text: Biologie
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/bwl
                   target: null
                   rel: null
             text: BWL
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/chemie
                   target: null
                   rel: null
             text: Chemie
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/elektrotechnik
                   target: null
                   rel: null
             text: Elektrotechnik
-          -
-            type: text
+          - type: text
             text: " |\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/erziehungswissenschaften-ghostwriter
                   target: null
                   rel: null
             text: Erziehungswissenschaften
-          -
-            type: text
+          - type: text
             text: " |\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/finanzwissenschaften
                   target: null
                   rel: null
             text: Finanzwissenschaften
-          -
-            type: text
+          - type: text
             text: " |\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/germanistik-ghostwriter
                   target: null
                   rel: null
             text: Germanistik
-          -
-            type: text
+          - type: text
             text: "\_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/geschichte
                   target: null
                   rel: null
             text: Geschichte
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/informatik
                   target: null
                   rel: null
             text: Informatik
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/jura
                   target: null
                   rel: null
             text: Jura
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/kommunikationswissenschaften
                   target: null
                   rel: null
             text: Kommunikation
-          -
-            type: text
+          - type: text
             text: " \_| "
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/kunst
                   target: null
                   rel: null
             text: Kunst
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/literatur
                   target: null
                   rel: null
             text: Literatur
-          -
-            type: text
+          - type: text
             text: "\_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/marketing
                   target: null
                   rel: null
             text: Marketing
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/mathematik
                   target: null
                   rel: null
             text: Mathematik
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/medienwissenschaften
                   target: null
                   rel: null
             text: Medienwissenschaften
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/medizin
                   target: null
                   rel: null
             text: Medizin
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/pflegewissenschaften
                   target: null
                   rel: null
             text: Pflegewissenschaften
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/philosophie
                   target: null
                   rel: null
             text: Philosophie
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/psychologie
                   target: null
                   rel: null
             text: Psychologie
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/soziale-arbeit
                   target: null
                   rel: null
-            text: 'Soziale Arbeit'
-          -
-            type: text
+            text: Soziale Arbeit
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/soziologie
                   target: null
                   rel: null
             text: Soziologie
-          -
-            type: text
+          - type: text
             text: "\_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/sprachwissenschaften
                   target: null
                   rel: null
             text: Sprachwissenschaften
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/vwl
                   target: null
                   rel: null
             text: VWL
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/wirtschaftsinformatik
                   target: null
                   rel: null
             text: Wirtschaftsinformatik
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/wirtschaftswissenschaften
                   target: null
                   rel: null
             text: Wirtschaftswissenschaften
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter/zahnmedizin
                   target: null
                   rel: null
             text: Zahnmedizin
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: 'Ghostwriting:'
-          -
-            type: text
+          - type: text
             text: ' '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /anonymous-film
                   target: null
                   rel: null
-            text: 'Anonymous (Film)'
-          -
-            type: text
+            text: Anonymous (Film)
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /der-ghostwriter-film
                   target: null
                   rel: null
-            text: 'Der Ghostwriter (Film)'
-          -
-            type: text
+            text: Der Ghostwriter (Film)
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriting/suche-ghostwriter
                   target: null
                   rel: null
-            text: 'Suche Ghostwriter'
-          -
-            type: text
+            text: Suche Ghostwriter
+          - type: text
             text: "\_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /preise
                   target: null
                   rel: null
-            text: 'Ghostwriter Preise'
-          -
-            type: text
+            text: Ghostwriter Preise
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriting/ghostwriting-agentur
                   target: null
                   rel: null
-            text: 'Ghostwriting Agentur'
-          -
-            type: text
+            text: Ghostwriting Agentur
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriting/ghostwriting-service
                   target: null
                   rel: null
-            text: 'Ghostwriting Service'
-          -
-            type: text
+            text: Ghostwriting Service
+          - type: text
             text: "\_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriting/guttenberg-ghostwriter
                   target: null
                   rel: null
-            text: 'Guttenberg Ghostwriter'
-          -
-            type: text
+            text: Guttenberg Ghostwriter
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriting/wissenschaftlicher-ghostwriter
                   target: null
                   rel: null
-            text: 'Wissenschaftlicher Ghostwriter'
-          -
-            type: text
+            text: Wissenschaftlicher Ghostwriter
+          - type: text
             text: " |\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /ghostwriter-gesucht
                   target: null
                   rel: null
-            text: 'Ghostwriter gesucht'
-      -
-        type: paragraph
+            text: Ghostwriter gesucht
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: 'Korrektorat:'
-          -
-            type: text
+          - type: text
             text: ' '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: Korrektor
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /korrektorat/korrektor-gesucht
                   target: null
                   rel: null
-            text: 'Korrektor gesucht'
-          -
-            type: text
+            text: Korrektor gesucht
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /korrektorat/korrektorat-preise
                   target: null
                   rel: null
-            text: 'Korrektorat Preise'
-          -
-            type: text
+            text: Korrektorat Preise
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /korrektorat
                   target: null
                   rel: null
             text: Korrekturlesen
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /korrektorat/textkorrektur
                   target: null
                   rel: null
             text: Textkorrektur
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: 'Lektorat:'
-          -
-            type: text
+          - type: text
             text: ' '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /lektorat/lektor
                   target: null
                   rel: null
             text: Lektor
-          -
-            type: text
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /lektorat/lektor-gesucht
                   target: null
                   rel: null
-            text: 'Lektor gesucht'
-          -
-            type: text
+            text: Lektor gesucht
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /lektorat/lektorat-preise
                   target: null
                   rel: null
-            text: 'Lektorat Preise'
-          -
-            type: text
+            text: Lektorat Preise
+          - type: text
             text: " \_|\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /lektorat
                   target: null
                   rel: null
-            text: 'Lektorat Service'
-      -
-        type: paragraph
+            text: Lektorat Service
+      - type: paragraph
         content:
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: bold
+              - type: bold
             text: 'Verschiedenes:'
-          -
-            type: text
+          - type: text
             text: "\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /promotionsberatung
                   target: null
                   rel: null
             text: Promotionsberatung
-          -
-            type: text
+          - type: text
             text: ' | '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
-                  href: /wiki/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
+                  href: >-
+                    /wiki/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
                   target: null
                   rel: null
-            text: 'Wissenschaftliche Arbeiten und Artikel lesen'
+            text: Wissenschaftliche Arbeiten und Artikel lesen
     type: editor
     enabled: true
     show_as_card: false
 template: without-teaser-with-sidebar
-meta_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
-meta_description: 'Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen und der Erstellung von akademischen Texten. Erfahren Sie hier meh'
+meta_title: Wiki • GWriters - Informationen zum Thema Ghostwriting
+meta_description: >-
+  Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen und der Erstellung
+  von akademischen Texten. Erfahren Sie hier meh
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
-og_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
-og_description: 'Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen und der Erstellung von akademischen Texten. Erfahren Sie hier meh'
+og_title: Wiki • GWriters - Informationen zum Thema Ghostwriting
+og_description: >-
+  Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen und der Erstellung
+  von akademischen Texten. Erfahren Sie hier meh
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true

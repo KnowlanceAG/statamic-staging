@@ -46,6 +46,26 @@ teaser:
       -
         type: text
         text: .
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.uscreen.de'
+              rel: null
+              target: _blank
+              title: Uscreen
+        text: 'Neuer Link'
 sitemap_active: true
 breadcrumbs_active: true
 use_meta_keywords: false
@@ -55,7 +75,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1705399600
+updated_at: 1705405081
 replicator:
   -
     id: lq16ufkr

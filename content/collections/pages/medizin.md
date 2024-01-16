@@ -3,134 +3,114 @@ id: b850974c-8d2d-4448-b168-3dccef384025
 blueprint: pages
 title: Medizin
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriter Medizin'
-  -
-    type: paragraph
+        text: Ghostwriter Medizin
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
+          - type: bold
+          - type: textColor
             attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
+              color: rgb(68, 68, 68)
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der Medizin – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-  -
-    type: set
+        text: >-
+          Hilfe durch Experten und akademische Ghostwriter der Medizin –
+          schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.
+    attrs:
+      textAlign: center
+  - type: set
     attrs:
       id: MWYisRV8
       values:
         type: spacer
         padding-y: 10
-  -
-    type: set
+  - type: set
     attrs:
       id: 77hDi8K2
       values:
         type: teaser_icon_columns
         columns:
-          -
-            id: 01PhE7Zl
+          - id: 01PhE7Zl
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp; 100% Anonymität'
-            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
-          -
-            id: aMcHtTsy
+            headline: Datenschutz &amp; 100% Anonymität
+            tooltip_infotext: >-
+              Wir schützen Ihre Daten streng gemäß der Vorschriften von
+              DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.
+          - id: aMcHtTsy
             icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
-          -
-            id: hPrv16VL
+            headline: Teillieferungen &amp; kostenlose Änderungen
+            tooltip_infotext: >-
+              Sie erhalten von uns regelmäßig Teillieferungen und wir setzen
+              Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf
+              Ihr Projekt nehmen.
+          - id: hPrv16VL
             icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
-          -
-            id: cJRmEbH5
+            headline: Schnelle &amp; pünktliche Lieferung
+            tooltip_infotext: >-
+              Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte
+              Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler
+              Form.
+          - id: cJRmEbH5
             icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
-  -
-    type: set
+            headline: Top-Qualität von akademischen Experten
+            tooltip_infotext: >-
+              Ihre Mustervorlage wird von akademischen Experten auf höchstem
+              Niveau erstellt, die oft selbst als Doktoren oder Professoren
+              beschäftigt sind.
+  - type: set
     attrs:
       id: KEHFoLMx
       values:
         type: spacer
         padding-y: 15
-  -
-    type: set
+  - type: set
     attrs:
       id: e54anmLq
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: JETZT KOSTENLOS ANFRAGEN
         color: '#FF6606'
         spacing_top: false
-  -
-    type: set
+  - type: set
     attrs:
       id: dKw0xwWN
       values:
         type: spacer
         padding-y: 20
-  -
-    type: paragraph
+  - type: paragraph
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
+          - type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-  -
-    type: heading
+    attrs:
+      textAlign: center
+  - type: heading
     attrs:
       level: 2
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-          -
-            type: link
+          - type: link
             attrs:
-              href: 'tel:##phone##'
+              href: tel:##phone##
               target: null
               rel: null
         text: '##phone##'
@@ -145,142 +125,100 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
-  -
-    id: llmkm94t
+  - id: llmkm94t
     columns_replicator:
-      -
-        id: llmkmadn
+      - id: llmkmadn
         single_col: true
         grid:
-          -
-            id: 3xksjpMR
+          - id: 3xksjpMR
             bard:
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: "Das Studium der Medizin ist äußerst anspruchsvoll und Studierende müssen höchsten akademischen und wissenschaftlichen Ansprüchen genügen, geht es doch oft um das Leben von Menschen und Tieren. Der Abschluss des facettenreichen Medizinstudiums und das gleichzeitige Erstellen einer Doktorarbeit bereiten vielen Studierenden der Medizin erhebliche Schwierigkeiten. Um Zeit für wichtige Prüfungen zu schaffen, können Studierende der Medizin\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter
                           target: null
                           rel: null
                     text: Ghostwriter
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: ",\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /lektorat/lektor
                           target: null
                           rel: null
                     text: Lektoren
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: "\_und Coaches zur Unterstützung bei wissenschaftlichen Arbeiten engagieren."
-              -
-                type: set
+                attrs:
+                  textAlign: start
+              - type: set
                 attrs:
                   id: VmArbgBj
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Medizin Ghostwriter suchen, dann können Sie uns gerne jetzt eine\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: bold
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /anfrage
                           target: null
                           rel: null
-                    text: 'unverbindliche Anfrage schicken'
-                  -
-                    type: text
+                    text: unverbindliche Anfrage schicken
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung durch einen akademischen Ghostwriter wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von akademischen Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage im vollen Umfang für Ihre wissenschaftliche Arbeit nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                      - type: bold
+                    text: >-
+                      . Wir melden uns innerhalb weniger Stunden mit einem
+                      kostenlosen Angebot bei Ihnen zurück und rufen Sie auch
+                      gerne an, falls Sie eine kostenlose telefonische Beratung
+                      durch einen akademischen Ghostwriter wünschen. Vorab:
+                      Selbstverständlich können und dürfen wir Ihnen keine
+                      Abschlussarbeiten oder andere Arten von akademischen
+                      Prüfungsleistungen erstellen, gerne erstellen wir Ihnen
+                      aber eine hochqualitative Mustervorlage im vollen Umfang
+                      für Ihre wissenschaftliche Arbeit nach Ihren individuellen
+                      Vorgaben, die alle akademischen Standards und
+                      Anforderungen erfüllt.
+                attrs:
+                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -291,65 +229,59 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: llmklbiv
+  - id: llmklbiv
     columns_replicator:
-      -
-        id: llmuj55b
+      - id: llmuj55b
         single_col: true
         grid:
-          -
-            id: u217cVUu
+          - id: u217cVUu
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: center
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Medizin Ghostwriter-Erfahrungen unserer Kunden'
-              -
-                type: heading
+                  - type: text
+                    marks: []
+                    text: Medizin Ghostwriter-Erfahrungen unserer Kunden
+              - type: heading
                 attrs:
                   level: 3
+                  textAlign: center
                 content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+                  - type: text
+                    marks: []
+                    text: >-
+                      Überzeugen Sie sich von der Qualität unserer Leistungen,
+                      basierend auf den Bewertungen bei Proven Expert:
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: llmkxfbq
+      - id: llmkxfbq
         single_col: false
         grid:
-          -
-            id: 3xksjpMR
+          - id: 3xksjpMR
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: llmky14j
                   values:
                     type: insert_html
-                    html: |-
+                    html: >-
                       <!-- ProvenExpert Bewertungssiegel -->
+
                       <div id="pewl"></div>
-                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
-                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+
+                      <script type="text/javascript"
+                      src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white"
+                      async></script>
+
+                      <link rel="stylesheet" type="text/css"
+                      href="https://www.provenexpert.com/css/widget_landing.css"
+                      media="screen,print">
+
                       <!-- ProvenExpert Bewertungssiegel Ende -->
             show_as_card: false
         type: row
@@ -364,106 +296,84 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: llmsylce
+  - id: llmsylce
     columns_replicator:
-      -
-        id: llmsymsl
+      - id: llmsymsl
         single_col: true
         grid:
-          -
-            id: MzGMkofm
+          - id: MzGMkofm
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Medizin & Ghostwriter'
-              -
-                type: paragraph
+                    text: Medizin & Ghostwriter
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: "Nicht nur im Medizinstudium, sondern auch nach dem Abschluss im Berufsleben wird besonders von Medizinern erwartet, Fachartikel zu ihrer wissenschaftlichen Forschung in Fachzeitschriften zu veröffentlichen oder andere wissenschaftliche Texte zu verfassen, um ihre berufliche Karriere voranzutreiben. Dies ist kaum zu leisten, betrachtet man die Arbeitszeiten und Belastungen im Klinikalltag. Daher ist in der Medizin\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: "\_nicht unüblich. Ein Arzt kann seine Artikel von einem Medizin-Ghostwriter schreiben lassen, kann sich so auf die wesentlichen Aufgaben konzentrieren und hat trotzdem die Möglichkeit, etwas für seinen beruflichen Werdegang und sein medizinisches Renommee zu tun."
-              -
-                type: set
+                attrs:
+                  textAlign: start
+              - type: set
                 attrs:
                   id: 6jBEcRe6
                   values:
                     type: video
-                    video: 'https://www.youtube.com/watch?v=MnCybAEPZI4'
-              -
-                type: paragraph
+                    video: https://www.youtube.com/watch?v=MnCybAEPZI4
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Ghostwriter der Medizin sind meist selbst Ärzte oder in der Humanmedizin wissenschaftlich tätig und sind im jeweiligen Fachgebiet exzellent qualifiziert. Sie werten medizinische Forschungsdaten aus, beraten und coachen den Kunden bei der Erstellung der Dissertation oder unterstützen Studierende bei einer Projektarbeit, Hausarbeit, Seminararbeit und anderen Abgaben.'
-              -
-                type: paragraph
+                    text: >-
+                      Unsere Ghostwriter der Medizin sind meist selbst Ärzte
+                      oder in der Humanmedizin wissenschaftlich tätig und sind
+                      im jeweiligen Fachgebiet exzellent qualifiziert. Sie
+                      werten medizinische Forschungsdaten aus, beraten und
+                      coachen den Kunden bei der Erstellung der Dissertation
+                      oder unterstützen Studierende bei einer Projektarbeit,
+                      Hausarbeit, Seminararbeit und anderen Abgaben.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Auch Teilleistungen können unsere akademischen Ghostwriter übernehmen. Dazu zählen bspw. die Literaturrecherche für Ihr Forschung, das Korrekturlesen Ihrer Arbeit sowie Durchführung einer Plagiatsprüfung, im Ihnen einen hervorragenden Abschluss zu garantieren.'
+                  - type: text
+                    text: >-
+                      Auch Teilleistungen können unsere akademischen Ghostwriter
+                      übernehmen. Dazu zählen bspw. die Literaturrecherche für
+                      Ihr Forschung, das Korrekturlesen Ihrer Arbeit sowie
+                      Durchführung einer Plagiatsprüfung, im Ihnen einen
+                      hervorragenden Abschluss zu garantieren.
             show_as_card: false
         type: row
         enabled: true
@@ -474,84 +384,78 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: llmkf1lk
+  - id: llmkf1lk
     columns_replicator:
-      -
-        id: llmkfifk
+      - id: llmkfifk
         single_col: true
         grid:
-          -
-            id: 3xksjpMR
+          - id: 3xksjpMR
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: center
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich Medizin'
-              -
-                type: set
+                    text: Unsere Leistungen im Fachbereich Medizin
+              - type: set
                 attrs:
                   id: FqnUsDDF
                   values:
                     type: leistungen_uebersicht_4_spaltig
                     grid:
-                      -
-                        id: UPCEBymz
+                      - id: UPCEBymz
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre akademische Arbeit in der Medizin von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: >-
+                          Lassen Sie Ihre akademische Arbeit in der Medizin von
+                          erfahrenen Autoren erstellen - schnell, diskret und
+                          mehrfach geprüft auf Qualität & Plagiate.
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
-                      -
-                        id: SwRPlYb1
+                      - id: SwRPlYb1
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Medizin) Korrektheit prüfen.'
+                        hover_content: >-
+                          Lassen Sie Ihre Arbeit nicht nur auf sprachliche
+                          Fehler korrigieren, sondern auch auf wissenschaftliche
+                          & fachliche (Medizin) Korrektheit prüfen.
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
-                      -
-                        id: zXVDf3e0
+                      - id: zXVDf3e0
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen in Ihrer Arbeit aus.'
+                        hover_content: >-
+                          Schliessen Sie Flüchtigkeitsfehler bei der Zitation
+                          oder andere böse Überraschungen in Ihrer Arbeit aus.
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
-                      -
-                        id: aVIdCunZ
+                      - id: aVIdCunZ
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, medizinische Übersetzungen.'
+                        hover_content: >-
+                          Überwinden Sie sprachliche Barrieren: Unser Team
+                          erstellt hochwertige, medizinische Übersetzungen.
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
-              -
-                type: set
+              - type: set
                 attrs:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH MEDIZIN'
+                    button_text: ALLE LEISTUNGEN IM FACHBEREICH MEDIZIN
                     color: '#FF6606'
                     spacing_top: false
-              -
-                type: paragraph
+              - type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -564,1318 +468,996 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: dLfv4taQ
+  - id: dLfv4taQ
     columns_replicator:
-      -
-        id: etteQDZh
+      - id: etteQDZh
         single_col: true
         grid:
-          -
-            id: wEn1XZ7q
+          - id: wEn1XZ7q
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Wichtige Akademische Arbeiten'
-              -
-                type: paragraph
+                  - type: text
+                    text: Wichtige Akademische Arbeiten
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Die wissenschaftlichen Ghostwriter unserer Agentur für akademisches Ghostwriting unterstützen Sie professionell und diskret während des gesamten Medizinstudiums. Sei es durch das verfassen von Mustervorlagen für wissenschaftliche Arbeiten in Kombination mit einer '
-                  -
-                    type: text
+                  - type: text
+                    text: >-
+                      Die wissenschaftlichen Ghostwriter unserer Agentur für
+                      akademisches Ghostwriting unterstützen Sie professionell
+                      und diskret während des gesamten Medizinstudiums. Sei es
+                      durch das verfassen von Mustervorlagen für
+                      wissenschaftliche Arbeiten in Kombination mit einer 
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /promotionsberatung
                           target: null
                           rel: null
                     text: Promotionsberatung
-                  -
-                    type: text
-                    text: ', die Auswertung von Experimente für eine Projektarbeit oder durch die Durchführung eines Lektorats oder einer Plagiatsprüfung - unsere Ghostwriter sind hervorragend qualifiziert und verfügen über die notwendige Erfahrung, um Sie während des gesamten Schreibprozesses Ihrer wissenschaftlichen Arbeit zu begleiten.'
-              -
-                type: set
+                  - type: text
+                    text: >-
+                      , die Auswertung von Experimente für eine Projektarbeit
+                      oder durch die Durchführung eines Lektorats oder einer
+                      Plagiatsprüfung - unsere Ghostwriter sind hervorragend
+                      qualifiziert und verfügen über die notwendige Erfahrung,
+                      um Sie während des gesamten Schreibprozesses Ihrer
+                      wissenschaftlichen Arbeit zu begleiten.
+              - type: set
                 attrs:
                   id: ljoh1u6i
                   values:
                     type: custom_link_list
                     raster:
-                      -
-                        id: ljoh1weq
+                      - id: ljoh1weq
                         text: Arbeiten
                         eintraege:
-                          -
-                            id: ljoh5n3s
+                          - id: ljoh5n3s
                             headline: Abschlussarbeiten
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
                                           target: null
                                           rel: null
-                                    text: 'Diplomarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Diplomarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
                                           target: null
                                           rel: null
-                                    text: 'Examensarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Examensarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
                                           target: null
                                           rel: null
-                                    text: 'Magisterarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Magisterarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
-                                        attrs:
-                                          align: start
-                                      -
-                                        type: textColor
+                                      - type: textColor
                                         attrs:
                                           color: '#000!important'
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                          href: >-
+                                            /arbeiten/bachelorarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Bachelorarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Bachelorarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Masterarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Masterarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
+                                          href: >-
+                                            /arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Masterthesis schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Masterthesis schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
                                           target: null
                                           rel: null
-                                    text: 'Doktorarbeit schreiben lassen'
-                          -
-                            id: ljoh8o20
-                            headline: 'Sonstige Arbeiten'
+                                    text: Doktorarbeit schreiben lassen
+                                attrs:
+                                  textAlign: start
+                          - id: ljoh8o20
+                            headline: Sonstige Arbeiten
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/ebook
                                           target: null
                                           rel: null
-                                    text: 'eBook schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: eBook schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/lernskript
                                           target: null
                                           rel: null
-                                    text: 'Lernskript schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Lernskript schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/praesentationen
                                           target: null
                                           rel: null
-                                    text: 'Präsentationen erstellen lassen'
-                                  -
-                                    type: hard_break
+                                    text: Präsentationen erstellen lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/statistische-analysen
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Statistik'
-                                  -
-                                    type: hard_break
+                                    text: Ghostwriter Statistik
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /expose
                                           target: null
                                           rel: null
-                                    text: 'Exposé schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Exposé schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/referat
                                           target: null
                                           rel: null
-                                    text: 'Referat schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Referat schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                          -
-                            id: ljoh9nu0
+                                attrs:
+                                  textAlign: start
+                          - id: ljoh9nu0
                             headline: Studienarbeiten
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/essay
                                           target: null
                                           rel: null
-                                    text: 'Essay schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Essay schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/hausarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Hausarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Hausarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/facharbeit
                                           target: null
                                           rel: null
-                                    text: 'Facharbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Facharbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/seminararbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: 'Seminararbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Seminararbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/studienarbeit
                                           target: null
                                           rel: null
-                                    text: 'Studienarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Studienarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/fallstudie
                                           target: null
                                           rel: null
-                                    text: 'Fallstudie schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Fallstudie schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/praktikumsbericht
                                           target: null
                                           rel: null
-                                    text: 'Praktikumsbericht schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Praktikumsbericht schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/projektarbeit
                                           target: null
                                           rel: null
-                                    text: 'Projektarbeit schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Projektarbeit schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/summary
                                           target: null
                                           rel: null
-                                    text: 'Summary schreiben lassen'
-                                  -
-                                    type: hard_break
+                                    text: Summary schreiben lassen
+                                  - type: hard_break
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: textAlign
+                                      - type: textColor
                                         attrs:
-                                          align: start
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          color: >-
+                                            rgba(255,102,6,var(--tw-text-opacity))
+                                            !important
                                           hex: '#000'
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /arbeiten/protokoll
                                           target: null
                                           rel: null
-                                    text: 'Protokoll schreiben lassen'
-                      -
-                        id: ljoh22s8
+                                    text: Protokoll schreiben lassen
+                                attrs:
+                                  textAlign: start
+                      - id: ljoh22s8
                         text: Fachrichtungen
                         eintraege:
-                          -
-                            id: ljoh2bsp
-                            headline: 'Technische Fachrichtungen'
+                          - id: ljoh2bsp
+                            headline: Technische Fachrichtungen
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/architektur
                                           target: null
                                           rel: null
-                                    text: 'Architektur Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Architektur Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/bauingenieurwesen
                                           target: null
                                           rel: null
-                                    text: 'Bauingenieurwesen Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Bauingenieurwesen Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/elektrotechnik
                                           target: null
                                           rel: null
-                                    text: 'Elektrotechnik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Elektrotechnik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/maschinenbau
                                           target: null
                                           rel: null
-                                    text: 'Maschinenbau Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Maschinenbau Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/informatik
                                           target: null
                                           rel: null
-                                    text: 'Informatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Informatik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          href: >-
+                                            /ghostwriter/informatik#Softwarelokalisierung
                                           target: null
                                           rel: null
-                                    text: 'Softwarelokalisierung Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Softwarelokalisierung Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          href: /ghostwriter/biologie#biotechnologie
                                           target: null
                                           rel: null
-                                    text: 'Biotechnologie Ghostwriter'
-                                  -
-                                    type: text
+                                    text: Biotechnologie Ghostwriter
+                                  - type: text
                                     text: ' '
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/technomathematik
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Technomathematik'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Ghostwriter Technomathematik
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/ingenieurwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Ingenieurwissenschaften'
-                          -
-                            id: ljoh2wxw
+                                    text: Ghostwriter Ingenieurwissenschaften
+                          - id: ljoh2wxw
                             headline: Naturwissenschaften
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/biologie
                                           target: null
                                           rel: null
-                                    text: 'Biologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Biologie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/chemie
                                           target: null
                                           rel: null
-                                    text: 'Chemie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Chemie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/geologie
                                           target: null
                                           rel: null
-                                    text: 'Geologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Geologie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/geowissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Geowissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Geowissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/mathematik
                                           target: null
                                           rel: null
-                                    text: 'Mathematik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Mathematik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/agrarwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Agrarwissenschaften'
-                          -
-                            id: ljoh3l91
+                                    text: Ghostwriter Agrarwissenschaften
+                          - id: ljoh3l91
                             headline: Sozialwissenschaften
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          href: >-
+                                            /ghostwriter/erziehungswissenschaften-ghostwriter
                                           target: null
                                           rel: null
-                                    text: 'Erziehungswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Erziehungswissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: /ghostwriter/kommunikationswissenschaften
+                                          href: >-
+                                            /ghostwriter/kommunikationswissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Kommunikationswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Kommunikationswissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/soziale-arbeit
                                           target: null
                                           rel: null
-                                    text: 'Soziale Arbeit Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Soziale Arbeit Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/sozialwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Sozialwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Sozialwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/soziologie
                                           target: null
                                           rel: null
-                                    text: 'Soziologie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Soziologie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/sprachwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Sprachwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Sprachwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          href: >-
+                                            /ghostwriter/kommunikationswissenschaften#kommunikationsdesign
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Kommunikationsdesign'
-                                  -
-                                    type: text
+                                    text: Ghostwriter Kommunikationsdesign
+                                  - type: text
                                     text: ' '
-                          -
-                            id: ljoh3x4b
-                            headline: 'Wirtschaftliche Fachbereiche'
+                          - id: ljoh3x4b
+                            headline: Wirtschaftliche Fachbereiche
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/finanzwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Finanzwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Finanzwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/medienwissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Medienwissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Medienwissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/bwl
                                           target: null
                                           rel: null
-                                    text: 'BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: BWL Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/marketing
                                           target: null
                                           rel: null
-                                    text: 'Marketing Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Marketing Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftsinformatik
                                           target: null
                                           rel: null
-                                    text: 'Wirtschaftsinformatik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Wirtschaftsinformatik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftswissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Wirtschaftswissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Wirtschaftswissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/personalmanagement
                                           target: null
                                           rel: null
-                                    text: 'Personalmanagement Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Personalmanagement Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: '#Internationale'
                                           target: null
                                           rel: null
-                                    text: 'Internationale BWL Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: hard_break
-                          -
-                            id: ljoh4b21
+                                    text: Internationale BWL Ghostwriter
+                                  - type: hard_break
+                                  - type: hard_break
+                          - id: ljoh4b21
                             headline: Geisteswissenschaften
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/germanistik-ghostwriter
                                           target: null
                                           rel: null
-                                    text: 'Germanistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Germanistik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/anglistik
                                           target: null
                                           rel: null
-                                    text: 'Anglistik Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Anglistik Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/geschichte
                                           target: null
                                           rel: null
-                                    text: 'Geschichte Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Geschichte Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/kunst
                                           target: null
                                           rel: null
-                                    text: 'Kunst Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Kunst Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/literatur
                                           target: null
                                           rel: null
-                                    text: 'Literatur Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Literatur Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/jura
                                           target: null
                                           rel: null
-                                    text: 'Jura Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Jura Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/philosophie
                                           target: null
                                           rel: null
-                                    text: 'Philosophie Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Philosophie Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
-                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          href: /ghostwriter/kunst#kunstgeschichte
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Kunstgeschichte'
-                          -
-                            id: ljoh4l6j
-                            headline: 'Medizinische Fachrichtungen'
+                                    text: Ghostwriter Kunstgeschichte
+                          - id: ljoh4l6j
+                            headline: Medizinische Fachrichtungen
                             content:
-                              -
-                                type: paragraph
+                              - type: paragraph
                                 content:
-                                  -
-                                    type: text
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/medizin
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Medizin'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Ghostwriter Medizin
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/pflegewissenschaften
                                           target: null
                                           rel: null
-                                    text: 'Pflegewissenschaften Ghostwriter'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Pflegewissenschaften Ghostwriter
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/psychologie
                                           target: null
                                           rel: null
-                                    text: 'Ghostwriter Psychologie'
-                                  -
-                                    type: hard_break
-                                  -
-                                    type: text
+                                    text: Ghostwriter Psychologie
+                                  - type: hard_break
+                                  - type: text
                                     marks:
-                                      -
-                                        type: link
+                                      - type: link
                                         attrs:
                                           href: /ghostwriter/zahnmedizin
                                           target: null
                                           rel: null
-                                    text: 'Zahnmedizin Ghostwriter'
-              -
-                type: paragraph
+                                    text: Zahnmedizin Ghostwriter
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Eine erfolgreiche medizinische Doktorarbeit anzufertigen ist eine nicht zu unterschätzende Herausforderung, vor allem, da viele Medizinstudenten ihre Doktorarbeit nebenberuflich verfassen. Ob es sich um die Planung, die Literaturrecherche, den Umfang, die Datenanalyse oder die Auswertung von humanmedizinischen Diagnosen handelt, jeder Teil der medizinischen Doktorarbeit hat wie jede andere wissenschaftliche Arbeit oder Projektarbeit seine Besonderheiten und erfordert die korrekte wissenschaftliche Vorgehensweise. Daher greifen viele Medizinstudenten auf die Unterstützung von akademischen Experten zurück, sodass viele Ghostwriter Medizin als den Fachbereich für Ihre Spezialisierung wählen.'
+                  - type: text
+                    text: >-
+                      Eine erfolgreiche medizinische Doktorarbeit anzufertigen
+                      ist eine nicht zu unterschätzende Herausforderung, vor
+                      allem, da viele Medizinstudenten ihre Doktorarbeit
+                      nebenberuflich verfassen. Ob es sich um die Planung, die
+                      Literaturrecherche, den Umfang, die Datenanalyse oder die
+                      Auswertung von humanmedizinischen Diagnosen handelt, jeder
+                      Teil der medizinischen Doktorarbeit hat wie jede andere
+                      wissenschaftliche Arbeit oder Projektarbeit seine
+                      Besonderheiten und erfordert die korrekte
+                      wissenschaftliche Vorgehensweise. Daher greifen viele
+                      Medizinstudenten auf die Unterstützung von akademischen
+                      Experten zurück, sodass viele Ghostwriter Medizin als den
+                      Fachbereich für Ihre Spezialisierung wählen.
             show_as_card: false
         type: row
         enabled: true
@@ -1886,125 +1468,106 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-  -
-    id: llmko8xu
+  - id: llmko8xu
     columns_replicator:
-      -
-        id: llmksrwo
+      - id: llmksrwo
         single_col: false
         grid:
-          -
-            id: 3xksjpMR
+          - id: 3xksjpMR
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot
+                      an!
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Wenn Sie bei Ihrer medizinischen Doktorarbeit oder jeder anderen Art wissenschaftlicher Arbeiten im Fach Medizin Unterstützung oder akademisches '
-                  -
-                    type: text
+                      - type: bold
+                    text: >-
+                      Wenn Sie bei Ihrer medizinischen Doktorarbeit oder jeder
+                      anderen Art wissenschaftlicher Arbeiten im Fach Medizin
+                      Unterstützung oder akademisches 
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: link
+                      - type: bold
+                      - type: link
                         attrs:
                           href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
+                      - type: bold
                     text: ' benötigen, dann senden Sie uns eine '
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: link
+                      - type: bold
+                      - type: link
                         attrs:
                           href: /anfrage
                           target: null
                           rel: null
-                    text: 'unverbindliche Anfrage'
-                  -
-                    type: text
+                    text: unverbindliche Anfrage
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                      - type: bold
+                    text: >-
+                      . Wir melden uns innerhalb weniger Stunden mit einem
+                      kostenlosen Leistungsangebot und allen wichtigen
+                      Informationen bei Ihnen zurück. Auch rufen wir Sie gerne
+                      an, falls Sie eine kostenlose telefonische Beratung
+                      wünschen.
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: llmkql7w
+      - id: llmkql7w
         columns_per_row: 2
         single_col: false
         grid:
-          -
-            id: 3xksjpMR
+          - id: 3xksjpMR
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: OMeALlWB
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 8 - 20 Uhr'
+                    open: Mo.-Fr. 8 - 20 Uhr
             show_as_card: true
-          -
-            id: llmkqn7q
+          - id: llmkqn7q
             bard:
-              -
-                type: set
+              - type: set
                 attrs:
                   id: S9HNcMh5
                   values:
                     type: spacer
                     padding-y: 12
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: bold
-                    text: '100,- € pro Normseite.'
-              -
-                type: set
+                      - type: bold
+                    text: 100,- € pro Normseite.
+              - type: set
                 attrs:
                   id: CvzBjDvR
                   values:
                     type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+                    button_text: JETZT KOSTENLOS ANFRAGEN
                     button_align: justify-start
                     spacing_top: true
-              -
-                type: set
+              - type: set
                 attrs:
                   id: DTOsSWP8
                   values:
@@ -2014,23 +1577,18 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
-      -
-        id: llmks7na
+      - id: llmks7na
         single_col: false
         grid:
-          -
-            id: 3xksjpMR
+          - id: 3xksjpMR
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Ihre Ansprechpartner bei GWriters'
-              -
-                type: set
+                  - type: text
+                    text: Ihre Ansprechpartner bei GWriters
+              - type: set
                 attrs:
                   id: laif3jj1
                   values:
@@ -2053,450 +1611,432 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: llmkoc5v
+  - id: llmkoc5v
     columns_replicator:
-      -
-        id: llmkos6r
+      - id: llmkos6r
         single_col: true
         grid:
-          -
-            id: 3xksjpMR
+          - id: 3xksjpMR
             bard:
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'ChatGPT oder Medizin Ghostwriter'
-              -
-                type: paragraph
+                  - type: text
+                    text: ChatGPT oder Medizin Ghostwriter
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Wie in jedem akademischen Fachbereich werden ChatGPT und andere KI Module seit ihrer Einführung häufig diskutiert. Viele Studierende denken nun den heiligen Gral für gute Noten gefunden zu haben. Doch Professoren, Plagiatsjäger und auch die eigenen Limitationen von KI machen einen Strich durch diese Rechnung. Daher kann ChatGPT einen erfahrenen akademischen Ghostwriter in der Medizin auf keinen Fall ersetzen.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Wie in jedem akademischen Fachbereich werden ChatGPT und
+                      andere KI Module seit ihrer Einführung häufig diskutiert.
+                      Viele Studierende denken nun den heiligen Gral für gute
+                      Noten gefunden zu haben. Doch Professoren, Plagiatsjäger
+                      und auch die eigenen Limitationen von KI machen einen
+                      Strich durch diese Rechnung. Daher kann ChatGPT einen
+                      erfahrenen akademischen Ghostwriter in der Medizin auf
+                      keinen Fall ersetzen.
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
-                    text: 'Technische Limitationen von KI'
-              -
-                type: paragraph
+                  - type: text
+                    text: Technische Limitationen von KI
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Innerhalb des medizinischen Bereichs sind Genauigkeit und Nuance von entscheidender Bedeutung. KI-Systeme sind zwar in der Lage, große Datenmengen zu analysieren, aber sie können Schwierigkeiten haben, die Tiefe und Komplexität menschlicher Biologie und Krankheitsverläufe zu erkennen. Die Medizin beruht nicht nur auf harten Daten, sondern auch auf jahrhundertelanger klinischer Beobachtung und individuellen Patientenerfahrungen.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Innerhalb des medizinischen Bereichs sind Genauigkeit und
+                      Nuance von entscheidender Bedeutung. KI-Systeme sind zwar
+                      in der Lage, große Datenmengen zu analysieren, aber sie
+                      können Schwierigkeiten haben, die Tiefe und Komplexität
+                      menschlicher Biologie und Krankheitsverläufe zu erkennen.
+                      Die Medizin beruht nicht nur auf harten Daten, sondern
+                      auch auf jahrhundertelanger klinischer Beobachtung und
+                      individuellen Patientenerfahrungen.
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Ein weiteres technisches Hindernis ist die ständige Weiterentwicklung der Medizin. Neue Forschungsergebnisse, Therapien und Behandlungsmethoden erscheinen täglich. Eine KI, die nicht regelmäßig mit den neuesten medizinischen Entdeckungen aktualisiert wird, könnte potenziell veraltete oder unvollständige Informationen liefern.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Ein weiteres technisches Hindernis ist die ständige
+                      Weiterentwicklung der Medizin. Neue Forschungsergebnisse,
+                      Therapien und Behandlungsmethoden erscheinen täglich. Eine
+                      KI, die nicht regelmäßig mit den neuesten medizinischen
+                      Entdeckungen aktualisiert wird, könnte potenziell
+                      veraltete oder unvollständige Informationen liefern.
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
-                    text: 'Rechtliche Aspekte'
-              -
-                type: paragraph
+                  - type: text
+                    text: Rechtliche Aspekte
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Die Verwendung von KI in der Medizin birgt erhebliche rechtliche Risiken. Falsche oder ungenaue medizinische Informationen können nicht nur zu wissenschaftlichen Fehlern, sondern auch zu klinischen Fehlentscheidungen führen. Dies kann erhebliche rechtliche Folgen haben, insbesondere wenn Patienten aufgrund fehlerhafter Informationen, die von einer KI bereitgestellt wurden, Schaden nehmen.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Die Verwendung von KI in der Medizin birgt erhebliche
+                      rechtliche Risiken. Falsche oder ungenaue medizinische
+                      Informationen können nicht nur zu wissenschaftlichen
+                      Fehlern, sondern auch zu klinischen Fehlentscheidungen
+                      führen. Dies kann erhebliche rechtliche Folgen haben,
+                      insbesondere wenn Patienten aufgrund fehlerhafter
+                      Informationen, die von einer KI bereitgestellt wurden,
+                      Schaden nehmen.
+              - type: heading
                 attrs:
                   level: 3
                 content:
-                  -
-                    type: text
-                    text: 'Vergleich von KI zum akademischen Ghostwriting im Fach Medizin'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Vergleich von KI zum akademischen Ghostwriting im Fach
+                      Medizin
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Ein Akademischer Ghostwriter bietet im medizinischen Bereich viele Vorteile gegenüber KI. Ein medizinischer Experte verfügt über klinische Erfahrung, ein tiefes Verständnis für Pathologien und ein Gespür für das Verhalten des menschlichen Körpers und seiner Reaktionen. Dieses tiefgreifende Wissen ermöglicht es, wissenschaftliche Arbeiten zu verfassen, die die Realitäten der medizinischen Praxis widerspiegeln – etwas, das eine KI nur schwerlich erreichen kann.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Ein Akademischer Ghostwriter bietet im medizinischen
+                      Bereich viele Vorteile gegenüber KI. Ein medizinischer
+                      Experte verfügt über klinische Erfahrung, ein tiefes
+                      Verständnis für Pathologien und ein Gespür für das
+                      Verhalten des menschlichen Körpers und seiner Reaktionen.
+                      Dieses tiefgreifende Wissen ermöglicht es,
+                      wissenschaftliche Arbeiten zu verfassen, die die
+                      Realitäten der medizinischen Praxis widerspiegeln – etwas,
+                      das eine KI nur schwerlich erreichen kann.
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Trotz der Fortschritte in der KI-Technologie bleibt das menschliche Fachwissen in der Medizin unersetzlich. Das Verständnis für Krankheiten, Behandlungen und den menschlichen Körper im Allgemeinen kann nicht einfach durch Algorithmen ersetzt werden. Ein medizinischer Ghostwriter bringt nicht nur Fachkenntnisse, sondern auch klinische Erfahrungen in wissenschaftliche Arbeiten ein, wodurch er im Vergleich zur KI einen unvergleichlichen Vorteil bietet.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Trotz der Fortschritte in der KI-Technologie bleibt das
+                      menschliche Fachwissen in der Medizin unersetzlich. Das
+                      Verständnis für Krankheiten, Behandlungen und den
+                      menschlichen Körper im Allgemeinen kann nicht einfach
+                      durch Algorithmen ersetzt werden. Ein medizinischer
+                      Ghostwriter bringt nicht nur Fachkenntnisse, sondern auch
+                      klinische Erfahrungen in wissenschaftliche Arbeiten ein,
+                      wodurch er im Vergleich zur KI einen unvergleichlichen
+                      Vorteil bietet.
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Experimentelle Doktorarbeit für Forschungsbegeisterte'
-              -
-                type: paragraph
+                  - type: text
+                    text: Experimentelle Doktorarbeit für Forschungsbegeisterte
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Eine experimentelle Doktorarbeit bereitet Sie als Mediziner auf Ihre '
-                  -
-                    type: text
+                  - type: text
+                    text: >-
+                      Eine experimentelle Doktorarbeit bereitet Sie als
+                      Mediziner auf Ihre 
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /blog/hypothese-forschungsfrage
                           target: null
                           rel: null
-                    text: 'zukünftige Forschungsarbeit'
-                  -
-                    type: text
+                    text: zukünftige Forschungsarbeit
+                  - type: text
                     text: ' vor, bei der Sie Daten im Labor anhand von Experimenten erheben und für die Präsentation in einer wissenschaftlichen Arbeit auswerten. Allerdings birgt diese Form der medizinischen Doktorarbeit den Nachteil, dass sie eine intensive Einarbeitung in die verschiedenen Labortechniken erfordert. Ghostwriter von GWriters unterstützen Sie in diesem Zusammenhang bei der experimentellen Planung sowie der Auswertung und Analyse von medizinischen Experimental-Daten.'
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Besonderheiten der klinischen Doktorarbeit'
-              -
-                type: paragraph
+                  - type: text
+                    text: Besonderheiten der klinischen Doktorarbeit
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Bei der sogenannten klinischen Doktorarbeit bieten sich Ihnen mehrere Möglichkeiten des wissenschaftlichen Arbeitens. Sie können mit retrospektiven Studien arbeiten, also mit bereits erhobenen Patientendaten, oder - noch spannender - eine prospektive Studie mit Patienten zusammen betreiben, in der Sie Daten selbst erheben und anschließend analysieren. Dies ist natürlich aufwändiger und mit einem hohen Zeiteinsatz verbunden, allerdings ist es auch eine hervorragende Möglichkeit, um bereits Erfahrung im klinischen und wissenschaftlichen Alltag zu sammeln. Wissenschaftliche Ghostwriter von GWriters unterstützen Sie bei der Forschungsplanung, der Darstellung von Diagnosen oder auch bei der Auswertung von Patientendaten.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Bei der sogenannten klinischen Doktorarbeit bieten sich
+                      Ihnen mehrere Möglichkeiten des wissenschaftlichen
+                      Arbeitens. Sie können mit retrospektiven Studien arbeiten,
+                      also mit bereits erhobenen Patientendaten, oder - noch
+                      spannender - eine prospektive Studie mit Patienten
+                      zusammen betreiben, in der Sie Daten selbst erheben und
+                      anschließend analysieren. Dies ist natürlich aufwändiger
+                      und mit einem hohen Zeiteinsatz verbunden, allerdings ist
+                      es auch eine hervorragende Möglichkeit, um bereits
+                      Erfahrung im klinischen und wissenschaftlichen Alltag zu
+                      sammeln. Wissenschaftliche Ghostwriter von GWriters
+                      unterstützen Sie bei der Forschungsplanung, der
+                      Darstellung von Diagnosen oder auch bei der Auswertung von
+                      Patientendaten.
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Statistik in der medizinischen Doktorarbeit - worauf müssen Sie achten?'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Statistik in der medizinischen Doktorarbeit - worauf
+                      müssen Sie achten?
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Wenn angehende Ärzte im Fachbereich der Medizin Doktorarbeiten schreib, ist zur Auswertung von Daten fast immer '
-                  -
-                    type: text
+                  - type: text
+                    text: >-
+                      Wenn angehende Ärzte im Fachbereich der Medizin
+                      Doktorarbeiten schreib, ist zur Auswertung von Daten fast
+                      immer 
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /blog/statistisch-arbeiten
                           target: null
                           rel: null
                     text: Statistik
-                  -
-                    type: text
+                  - type: text
                     text: ' involviert. Nicht immer ist eine Datenerhebung   durch den Doktoranden selbst notwendig, oft werden auch bestehende Datensätze konsolidiert und unter neuen Gesichtspunkten ausgewertet. Dies erfordert allerdings fundierte statistische Kenntnisse und auch ausreichend Erfahrung mit zumindest einem der gängigen Statistikprogramme wie SPSS, STATA oder R.'
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Regelmäßig beraten unsere medizinischen Experten von GWriters unsere Kunden bei der Planung und Umsetzung medizinischer Forschungsvorhaben mit statistischem Fokus. Nicht nur das Coaching ist eine Form, wie die Ghostwriter von GWriters Sie bei Ihrer medizinischen '
-                  -
-                    type: text
+                  - type: text
+                    text: >-
+                      Regelmäßig beraten unsere medizinischen Experten von
+                      GWriters unsere Kunden bei der Planung und Umsetzung
+                      medizinischer Forschungsvorhaben mit statistischem Fokus.
+                      Nicht nur das Coaching ist eine Form, wie die Ghostwriter
+                      von GWriters Sie bei Ihrer medizinischen 
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /blog/dissertation-schreiben-motivationstipps
                           target: null
                           rel: null
                     text: Dissertation
-                  -
-                    type: text
+                  - type: text
                     text: ' unterstützen können. Weiterhin können wir natürlich:'
-              -
-                type: bullet_list
+              - type: bullet_list
                 content:
-                  -
-                    type: list_item
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             text: 'mit Ihnen zusammen ein '
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: link
+                              - type: link
                                 attrs:
-                                  href: /blog/nadel-im-heuhaufen-bachelorarbeit-thema-finden
+                                  href: >-
+                                    /blog/nadel-im-heuhaufen-bachelorarbeit-thema-finden
                                   target: null
                                   rel: null
-                            text: 'Thema finden'
-                          -
-                            type: text
+                            text: Thema finden
+                          - type: text
                             text: ', das optimal zu bearbeiten ist'
-                  -
-                    type: list_item
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
-                            text: 'Fallzahlen mit Statistikern abklären'
-                  -
-                    type: list_item
+                          - type: text
+                            text: Fallzahlen mit Statistikern abklären
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
-                            text: 'wissenschaftlich erhobene Daten analysieren'
-                  -
-                    type: list_item
+                          - type: text
+                            text: wissenschaftlich erhobene Daten analysieren
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
-                            text: 'unsere Ghostwriter Medizin-Texte ergänzen lassen oder Mustervorlagen verfassen lassen'
-                  -
-                    type: list_item
+                          - type: text
+                            text: >-
+                              unsere Ghostwriter Medizin-Texte ergänzen lassen
+                              oder Mustervorlagen verfassen lassen
+                  - type: list_item
                     content:
-                      -
-                        type: paragraph
+                      - type: paragraph
                         content:
-                          -
-                            type: text
+                          - type: text
                             text: 'und ein '
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: link
+                              - type: link
                                 attrs:
                                   href: /lektorat
                                   target: null
                                   rel: null
                             text: Lektorat
-                          -
-                            type: text
+                          - type: text
                             text: ' oder eine '
-                          -
-                            type: text
+                          - type: text
                             marks:
-                              -
-                                type: link
+                              - type: link
                                 attrs:
                                   href: /blog/korrektorat-lektorat-textredaktion
                                   target: null
                                   rel: null
                             text: Textredaktion
-                          -
-                            type: text
+                          - type: text
                             text: ' anbieten, um Ihren vorhandenen Text zu perfektionieren'
-              -
-                type: heading
+              - type: heading
                 attrs:
                   level: 2
                 content:
-                  -
-                    type: text
-                    text: 'Vor - und Nachteile der theoretischen Doktorarbeit'
-              -
-                type: paragraph
+                  - type: text
+                    text: Vor - und Nachteile der theoretischen Doktorarbeit
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Auch rein theoretische Doktorarbeiten kommen häufig vor. Hier bietet sich der Vorteil der hohen zeitlichen Flexibilität. Des Weiteren ist die breite Themenauswahl attraktiv, diese reicht von Ethik in der Medizin über diverse andere Themenbereiche. Jedoch ist der Aufwand für eine theoretische Doktorarbeit sehr hoch, da eine Vielzahl von Literaturquellen aus diversen Bereiche und diverse Untersuchungsmethoden studiert werden müssen.'
-              -
-                type: paragraph
+                  - type: text
+                    text: >-
+                      Auch rein theoretische Doktorarbeiten kommen häufig vor.
+                      Hier bietet sich der Vorteil der hohen zeitlichen
+                      Flexibilität. Des Weiteren ist die breite Themenauswahl
+                      attraktiv, diese reicht von Ethik in der Medizin über
+                      diverse andere Themenbereiche. Jedoch ist der Aufwand für
+                      eine theoretische Doktorarbeit sehr hoch, da eine Vielzahl
+                      von Literaturquellen aus diversen Bereiche und diverse
+                      Untersuchungsmethoden studiert werden müssen.
+              - type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Ghostwriter von GWriters unterstützen Sie professionell bei der Themenwahl für Ihre medizinische Dissertation, außerdem auch durch Literaturrecherche oder die Erstellung eines Exposes. Ebenfalls können Sie sich von einem medizinischen Ghostwriter eine Mustervorlage für Ihre Doktorarbeit schreiben lassen oder eine Textredaktion oder ein Lektorat in Anspruch nehmen, um bereits Ihre bereits verfassten Texte zu perfektionieren.'
-              -
-                type: heading
+                  - type: text
+                    text: >-
+                      Ghostwriter von GWriters unterstützen Sie professionell
+                      bei der Themenwahl für Ihre medizinische Dissertation,
+                      außerdem auch durch Literaturrecherche oder die Erstellung
+                      eines Exposes. Ebenfalls können Sie sich von einem
+                      medizinischen Ghostwriter eine Mustervorlage für Ihre
+                      Doktorarbeit schreiben lassen oder eine Textredaktion oder
+                      ein Lektorat in Anspruch nehmen, um bereits Ihre bereits
+                      verfassten Texte zu perfektionieren.
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Geschichte der Medizin'
-              -
-                type: paragraph
+                    text: Geschichte der Medizin
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Geschichte der Medizin ist besonders in Europa geprägt von Religion und Irrtum. So wurden Kranke lange Zeit als besessen eingestuft oder bis ins 19. Jahrhundert nach der sogenannten „Viersäftelehre“ behandelt. Demnach vermutete man, dass eine Krankheit lediglich ein Ungleichgewicht der vier Säfte im Körper, gelber Galle, schwarzer Galle, Blut und Schleim, sei. Durch Schröpfen wollte man das Gleichgewicht wieder herstellen. Dies führte jedoch oft dazu, dass Patienten so geschwächt wurden, dass sie starben. Die moderne Medizin beginnt im 20. Jahrhundert und ist gekennzeichnet durch einen immensen Erkenntniszuwachs. Dazu gehört beispielsweise die Entdeckung des Penicillins.'
-              -
-                type: paragraph
+                    text: >-
+                      Die Geschichte der Medizin ist besonders in Europa geprägt
+                      von Religion und Irrtum. So wurden Kranke lange Zeit als
+                      besessen eingestuft oder bis ins 19. Jahrhundert nach der
+                      sogenannten „Viersäftelehre“ behandelt. Demnach vermutete
+                      man, dass eine Krankheit lediglich ein Ungleichgewicht der
+                      vier Säfte im Körper, gelber Galle, schwarzer Galle, Blut
+                      und Schleim, sei. Durch Schröpfen wollte man das
+                      Gleichgewicht wieder herstellen. Dies führte jedoch oft
+                      dazu, dass Patienten so geschwächt wurden, dass sie
+                      starben. Die moderne Medizin beginnt im 20. Jahrhundert
+                      und ist gekennzeichnet durch einen immensen
+                      Erkenntniszuwachs. Dazu gehört beispielsweise die
+                      Entdeckung des Penicillins.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Durch den hohen Wissensgewinn haben sich immer mehr fachliche Spezialisierungsmöglichkeiten entwickelt. Die Komplexität und Menge der Erkenntnisse lässt es nicht zu, den Mensch oder das Tier medizinisch ganzheitlich zu betrachten. Es entwickeln sich aus diesem Grund immer mehr fachliche Spezialisierungsmöglichkeiten, wobei seit einigen Jahren ein großes Interesse an alternativen Heilmethoden, wie der traditionellen chinesischen Medizin oder der Homöopathie, besteht. In seinem Studium an einer Universität kann sich der Mediziner in seinem gewünschten Fachbereich spezialisieren.'
-              -
-                type: heading
+                    text: >-
+                      Durch den hohen Wissensgewinn haben sich immer mehr
+                      fachliche Spezialisierungsmöglichkeiten entwickelt. Die
+                      Komplexität und Menge der Erkenntnisse lässt es nicht zu,
+                      den Mensch oder das Tier medizinisch ganzheitlich zu
+                      betrachten. Es entwickeln sich aus diesem Grund immer mehr
+                      fachliche Spezialisierungsmöglichkeiten, wobei seit
+                      einigen Jahren ein großes Interesse an alternativen
+                      Heilmethoden, wie der traditionellen chinesischen Medizin
+                      oder der Homöopathie, besteht. In seinem Studium an einer
+                      Universität kann sich der Mediziner in seinem gewünschten
+                      Fachbereich spezialisieren.
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Aufbau eines Medizinstudiums'
-              -
-                type: paragraph
+                    text: Aufbau eines Medizinstudiums
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Regelstudienzeit eines medizinischen Studiums beträgt mindestens 6 Jahre und 3 Monate. In den ersten 2 Jahren findet das Vorklinikum statt, wobei den Studenten Kenntnisse in einigen Grundlagenfächern, wie Physik, Physiologie, '
-                  -
-                    type: text
+                    text: >-
+                      Die Regelstudienzeit eines medizinischen Studiums beträgt
+                      mindestens 6 Jahre und 3 Monate. In den ersten 2 Jahren
+                      findet das Vorklinikum statt, wobei den Studenten
+                      Kenntnisse in einigen Grundlagenfächern, wie Physik,
+                      Physiologie, 
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter/chemie
                           target: null
                           rel: null
                     text: Chemie
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: ", Biochemie,\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter/biologie
                           target: null
                           rel: null
                     text: Biologie
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: ", Anatomie und\_"
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter/psychologie
                           target: null
                           rel: null
                     text: Psychologie
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+                  - type: text
+                    marks: []
                     text: "\_oder Soziologie vermittelt werden. Innerhalb des Vorklinikums muss zudem ein einmonatiges Praktikum in einem Krankenhaus absolviert und ein Erste-Hilfe-Kurs belegt werden."
-              -
-                type: set
+                attrs:
+                  textAlign: start
+              - type: set
                 attrs:
                   id: gmxOWrxF
                   values:
@@ -2505,274 +2045,190 @@ replicator:
                       - seiten/fachrichtungen/medizin.jpg
                     img_size: w-1/4
                     float: float-left
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Nach den zwei Jahren Vorklinikum muss das erste staatliche Examen, das Physikum, absolviert werden. Das dritte Studienjahr bildet das Klinikum, bestehend aus Kursen und Seminaren, die in einer Klinik stattfinden. Darauf folgt ein Praxisjahr, welches in einer Klinik in mehreren Stationen absolviert werden muss. Abgeschlossen wird das Studium durch das zweite Staatsexamen, bei dem Studenten in zahlreichen medizinischen Fachbereichen, beispielsweise der inneren Medizin, der Chirurgie und der Rechtsmedizin, mündlich und schriftlich geprüft werden. Danach kann sich der Absolvent als Arzt niederlassen. Das Erlangen des Doktortitels durch das Verfassen einer Doktorarbeit ist in zwar nicht zwingend notwendig, wird jedoch im medizinischen Bereich von der Öffentlichkeit erwartet.'
-              -
-                type: paragraph
+                    text: >-
+                      Nach den zwei Jahren Vorklinikum muss das erste staatliche
+                      Examen, das Physikum, absolviert werden. Das dritte
+                      Studienjahr bildet das Klinikum, bestehend aus Kursen und
+                      Seminaren, die in einer Klinik stattfinden. Darauf folgt
+                      ein Praxisjahr, welches in einer Klinik in mehreren
+                      Stationen absolviert werden muss. Abgeschlossen wird das
+                      Studium durch das zweite Staatsexamen, bei dem Studenten
+                      in zahlreichen medizinischen Fachbereichen, beispielsweise
+                      der inneren Medizin, der Chirurgie und der Rechtsmedizin,
+                      mündlich und schriftlich geprüft werden. Danach kann sich
+                      der Absolvent als Arzt niederlassen. Das Erlangen des
+                      Doktortitels durch das Verfassen einer Doktorarbeit ist in
+                      zwar nicht zwingend notwendig, wird jedoch im
+                      medizinischen Bereich von der Öffentlichkeit erwartet.
+                attrs:
+                  textAlign: start
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Viele Patienten bevorzugen einen Arzt, welcher über einen Doktortitel verfügt. Demnach ist nahezu jeder Mediziner nach seinem umfangreichen Studium dazu gezwungen, sich mit der Erstellung einer Doktorarbeit zu befassen. Um sich effizienter auf seinen Berufseinstieg konzentrieren zu können, beginnen viele Medizinstudenten schon während ihres Studiums mit dem Erstellen ihrer Dissertation und beanspruchen die '
-                  -
-                    type: text
+                    text: >-
+                      Viele Patienten bevorzugen einen Arzt, welcher über einen
+                      Doktortitel verfügt. Demnach ist nahezu jeder Mediziner
+                      nach seinem umfangreichen Studium dazu gezwungen, sich mit
+                      der Erstellung einer Doktorarbeit zu befassen. Um sich
+                      effizienter auf seinen Berufseinstieg konzentrieren zu
+                      können, beginnen viele Medizinstudenten schon während
+                      ihres Studiums mit dem Erstellen ihrer Dissertation und
+                      beanspruchen die 
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /leistungen
                           target: null
                           rel: null
-                    text: 'Hilfe eines akademischen Freelancers'
-                  -
-                    type: text
+                    text: Hilfe eines akademischen Freelancers
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: ' oder Medizin-Ghostwriters, der eine hochqualitative Mustervorlage zur Orientierung erstellen kann.'
-              -
-                type: heading
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
-              -
-                type: paragraph
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von unseren Ghostwritern erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme der Texte des Ghostwriters als eigene Leistungen.\_"
-              -
-                type: heading
+                attrs:
+                  textAlign: start
+              - type: heading
                 attrs:
                   level: 2
+                  textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Nützliche Weblinks'
-              -
-                type: paragraph
+                    text: Nützliche Weblinks
+              - type: paragraph
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://www.fachzeitungen.de/'
+                          href: https://www.fachzeitungen.de/
                           target: _blank
                           rel: nofollow
-                    text: 'Portal für Fachzeitschriften – Fachzeitungen.de'
-                  -
-                    type: hard_break
+                    text: Portal für Fachzeitschriften – Fachzeitungen.de
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://www.springer.com/de/medizin'
+                          href: https://www.springer.com/de/medizin
                           target: _blank
                           rel: nofollow
-                    text: 'Clinical Medicine Book Archive – Springer'
-                  -
-                    type: hard_break
+                    text: Clinical Medicine Book Archive – Springer
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://www.studycheck.de/studium/medizin'
+                          href: https://www.studycheck.de/studium/medizin
                           target: _blank
                           rel: nofollow
-                    text: 'Aufbau des Medizinstudiums'
-                  -
-                    type: hard_break
+                    text: Aufbau des Medizinstudiums
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Medizin'
+                          href: https://de.wikipedia.org/wiki/Medizin
                           target: _blank
                           rel: nofollow
-                    text: 'Allgemeines zur Medizin – Wikipedia'
-                  -
-                    type: hard_break
+                    text: Allgemeines zur Medizin – Wikipedia
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://www.bundesaerztekammer.de/'
+                          href: https://www.bundesaerztekammer.de/
                           target: _blank
                           rel: nofollow
-                    text: 'Deutsche Bundesärztekammer'
-                  -
-                    type: hard_break
+                    text: Deutsche Bundesärztekammer
+                  - type: hard_break
+                    marks: []
+                  - type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
+                      - type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Portal:Medizin'
+                          href: https://de.wikipedia.org/wiki/Portal:Medizin
                           target: _blank
                           rel: nofollow
-                    text: 'Portal Medizin – Wikipedia'
+                    text: Portal Medizin – Wikipedia
+                attrs:
+                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -2783,12 +2239,16 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Medizin Ghostwriter, Lektoren & Coaches • GWriters.de'
-meta_description: 'Medizin Ghostwriter werten Forschungsergebnissen & unterstützen Studierende bei ihrer Dissertation – schnell, diskret und geprüft auf Qualität & Plagiate!'
-og_title: 'Medizin Ghostwriter, Lektoren & Coaches • GWriters.de'
-og_description: 'Medizin Ghostwriter werten Forschungsergebnissen & unterstützen Studierende bei ihrer Dissertation – schnell, diskret und geprüft auf Qualität & Plagiate!'
+meta_title: Medizin Ghostwriter, Lektoren & Coaches • GWriters.de
+meta_description: >-
+  Medizin Ghostwriter werten Forschungsergebnissen & unterstützen Studierende
+  bei ihrer Dissertation – schnell, diskret und geprüft auf Qualität & Plagiate!
+og_title: Medizin Ghostwriter, Lektoren & Coaches • GWriters.de
+og_description: >-
+  Medizin Ghostwriter werten Forschungsergebnissen & unterstützen Studierende
+  bei ihrer Dissertation – schnell, diskret und geprüft auf Qualität & Plagiate!
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Ghostwriter Medizin'
+alternative_page_title: Ghostwriter Medizin
 breadcrumbs_active: true
 ---

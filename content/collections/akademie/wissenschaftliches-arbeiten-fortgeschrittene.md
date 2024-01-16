@@ -1,173 +1,153 @@
 ---
 id: 919279ae-733d-4bd9-a759-afaa758e18fc
 blueprint: akademie
-title: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
+title: Wissenschaftliches Arbeiten für Fortgeschrittene
 teaser:
-  -
-    type: heading
+  - type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
+          - type: textColor
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
-  -
-    type: paragraph
+        text: Wissenschaftliches Arbeiten für Fortgeschrittene
+  - type: paragraph
     content:
-      -
-        type: text
-        marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen Sie weitere Unterstützung?'
-  -
-    type: set
+      - type: text
+        marks: []
+        text: >-
+          Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen
+          Sie weitere Unterstützung?
+    attrs:
+      textAlign: center
+  - type: set
     attrs:
       id: GFzFFXfr
       values:
         type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+        button_text: JETZT KOSTENLOS ANFRAGEN
         spacing_top: false
-  -
-    type: paragraph
+  - type: paragraph
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
-  -
-    id: h4sk3DEP
+  - id: h4sk3DEP
     bard:
-      -
-        type: heading
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
-            text: 'Wissenschaftlich Arbeiten - mit GWriters Experte werden!'
-      -
-        type: paragraph
+          - type: text
+            text: Wissenschaftlich Arbeiten - mit GWriters Experte werden!
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die Antworten auf spezifische Detailfragen zu wissenschaftlichen Arbeitstechniken wie beispielsweise der '
-          -
-            type: text
+          - type: text
+            text: >-
+              Diese Kategorie richtet sich vorrangig an Studenten und
+              Doktoranden, die Antworten auf spezifische Detailfragen zu
+              wissenschaftlichen Arbeitstechniken wie beispielsweise der 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/qualitative-inhaltsanalyse-voraussetzungen
                   target: null
                   rel: null
-            text: 'qualitativen Inhaltsanalyse'
-          -
-            type: text
+            text: qualitativen Inhaltsanalyse
+          - type: text
             text: ' oder '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/leitfadengestuetztes-experteninterview
                   target: null
                   rel: null
-            text: 'leitfadengestützten Experteninterviews'
-          -
-            type: text
+            text: leitfadengestützten Experteninterviews
+          - type: text
             text: ' haben. Nach den '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /gwriters-akademie/wissenschaftliches-arbeiten-anfeanger
                   target: null
                   rel: null
-            text: 'Grundlagen des wissenschaftlichen Schreibens'
-          -
-            type: text
+            text: Grundlagen des wissenschaftlichen Schreibens
+          - type: text
             text: ' sollen Ihnen die Inhalte dieser Kategorien zur Vertiefung Ihres eignen Wissens und zur Unterstützung bei Ihrer akademischen Abschlussarbeit dienen.'
-      -
-        type: paragraph
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Das wissenschaftliche Arbeiten für Fortgeschrittene baut auf dem wissenschaftlichen Arbeiten für Einsteiger auf. So können Sie von den absoluten Grundlagen bis zu den spezialisiertesten Arbeitstechniken alle einzelnen Lektionen strukturiert durcharbeiten und Wissenslücken schließen. Ganz gleich, ob Sie mit Ihrer Abschlussarbeit noch gar nicht begonnen haben oder Ihre fertige Masterarbeit vor der Abgabe steht.'
-      -
-        type: heading
+          - type: text
+            text: >-
+              Das wissenschaftliche Arbeiten für Fortgeschrittene baut auf dem
+              wissenschaftlichen Arbeiten für Einsteiger auf. So können Sie von
+              den absoluten Grundlagen bis zu den spezialisiertesten
+              Arbeitstechniken alle einzelnen Lektionen strukturiert
+              durcharbeiten und Wissenslücken schließen. Ganz gleich, ob Sie mit
+              Ihrer Abschlussarbeit noch gar nicht begonnen haben oder Ihre
+              fertige Masterarbeit vor der Abgabe steht.
+      - type: heading
         attrs:
           level: 2
         content:
-          -
-            type: text
-            text: 'Besonderheiten und Spezialtechniken lernen und verstehen'
-      -
-        type: paragraph
+          - type: text
+            text: Besonderheiten und Spezialtechniken lernen und verstehen
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Das wissenschaftliche Schreiben lässt sich systematisch in Bereiche unterteilen. Aufgrund der Tatsache, dass die verschiedenen Fachbereiche spezifische Anforderungen stellen, müssen diese auch hinsichtlich der wissenschaftlichen Arbeitstechniken getrennt betrachtet werden. Ein häufiges Beispiel ist hier der Fachbereich Jura. Wenn Sie im Rahmen Ihrer Seminar- oder Abschlussarbeit ein '
-          -
-            type: text
+          - type: text
+            text: >-
+              Das wissenschaftliche Schreiben lässt sich systematisch in
+              Bereiche unterteilen. Aufgrund der Tatsache, dass die
+              verschiedenen Fachbereiche spezifische Anforderungen stellen,
+              müssen diese auch hinsichtlich der wissenschaftlichen
+              Arbeitstechniken getrennt betrachtet werden. Ein häufiges Beispiel
+              ist hier der Fachbereich Jura. Wenn Sie im Rahmen Ihrer Seminar-
+              oder Abschlussarbeit ein 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/gutachten-schreiben
                   target: null
                   rel: null
-            text: 'juristisches Gutachten schreiben'
-          -
-            type: text
-            text: ', gibt es hinsichtliche des Schreib- und Recherchestils eine ganze Reihe von Besonderheiten zu beachten.'
-      -
-        type: paragraph
+            text: juristisches Gutachten schreiben
+          - type: text
+            text: >-
+              , gibt es hinsichtliche des Schreib- und Recherchestils eine ganze
+              Reihe von Besonderheiten zu beachten.
+      - type: paragraph
         content:
-          -
-            type: text
-            text: 'Die Lektionen in dieser Kategorie bringen Ihnen das wissenschaftliche Schreiben in Ihrem Fachbereich und auch fortgeschrittene Methoden wie das '
-          -
-            type: text
+          - type: text
+            text: >-
+              Die Lektionen in dieser Kategorie bringen Ihnen das
+              wissenschaftliche Schreiben in Ihrem Fachbereich und auch
+              fortgeschrittene Methoden wie das 
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/statistisch-arbeiten
                   target: null
                   rel: null
-            text: 'statistische Arbeiten mit Primär- und Sekundärdaten'
-          -
-            type: text
+            text: statistische Arbeiten mit Primär- und Sekundärdaten
+          - type: text
             text: ' näher. Dadurch steht Ihnen selbst bei einer anspruchsvollen, '
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /blog/empirische-theoretische-bachelorarbeit
                   target: null
                   rel: null
-            text: 'empirischen Bachelorarbeit'
-          -
-            type: text
+            text: empirischen Bachelorarbeit
+          - type: text
             text: ' nichts mehr im Wege. Sind Sie bereits mit der Materie vertraut, dann laden wir auch Sie herzlich dazu ein, in unsere Materialien einzusteigen, um Ihr vorhandenes Wissen zu vertiefen oder sogar eventuelle Wissenslücken zu schließen. Schließlich begleitet Sie das wissenschaftliche Arbeiten vom Beginn des Studiums bis hin zur Doktorarbeit und sogar darüber hinaus.'
-      -
-        type: set
+      - type: set
         attrs:
           id: GyN1SEIg
           values:
@@ -175,8 +155,7 @@ replicator:
             assets:
               - seiten/gwriters-akademie/Banner_GWAkademie_1.jpeg
             has_border: false
-      -
-        type: set
+      - type: set
         attrs:
           id: o6NgfNjz
           values:
@@ -216,8 +195,7 @@ replicator:
               - b4766d79-74a5-49f3-8705-1f3611f86b95
               - dd125003-8750-440f-893a-a2a8a4c025eb
               - 114835fc-3795-4596-8cb8-135e84d03d2d
-      -
-        type: paragraph
+      - type: paragraph
     show_as_card: false
     type: editor
     enabled: true
@@ -230,13 +208,25 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-page_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
-academy_short_text_headline: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
-academy_short_text: 'Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die zum Beispiel Antworten auf gewisse Detailfragen zum Literaturverzeichnis oder Zitieren suchen oder einfach zur eigenen Wissensbildung beitragen möchten. Nach der Grundlage des wissenschaftlichen Schreibens sind tiefgreifendere Faktoren wichtig. Diese gehen wir im Folgenden intensiv an.'
-meta_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
-meta_description: 'Profi bei wissenschaftlichen Arbeiten, aber immer noch Detailfragen in manchen Situationen? Hier finden Sie die wichtigste Informationen auf einem Blick.'
-academy_teaser_headline: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
-academy_teaser_text: 'Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die zum Beispiel Antworten auf gewisse Detailfragen zum Literaturverzeichnis oder Zitieren suchen oder einfach zur eigenen Wissensbildung beitragen möchten. Nach der Grundlage des wissenschaftlichen Schreibens sind tiefgreifendere Faktoren wichtig. Diese gehen wir im Folgenden intensiv an.'
+page_title: Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene
+academy_short_text_headline: Wissenschaftliches Arbeiten für Fortgeschrittene
+academy_short_text: >-
+  Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die zum
+  Beispiel Antworten auf gewisse Detailfragen zum Literaturverzeichnis oder
+  Zitieren suchen oder einfach zur eigenen Wissensbildung beitragen möchten.
+  Nach der Grundlage des wissenschaftlichen Schreibens sind tiefgreifendere
+  Faktoren wichtig. Diese gehen wir im Folgenden intensiv an.
+meta_title: Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene
+meta_description: >-
+  Profi bei wissenschaftlichen Arbeiten, aber immer noch Detailfragen in manchen
+  Situationen? Hier finden Sie die wichtigste Informationen auf einem Blick.
+academy_teaser_headline: Wissenschaftliches Arbeiten für Fortgeschrittene
+academy_teaser_text: >-
+  Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die zum
+  Beispiel Antworten auf gewisse Detailfragen zum Literaturverzeichnis oder
+  Zitieren suchen oder einfach zur eigenen Wissensbildung beitragen möchten.
+  Nach der Grundlage des wissenschaftlichen Schreibens sind tiefgreifendere
+  Faktoren wichtig. Diese gehen wir im Folgenden intensiv an.
 more_templates:
   - 68703917-9254-4107-82e0-0d844a79e81a
   - b0ab57c8-c632-4082-af70-9b10b915d2b8
@@ -244,8 +234,10 @@ more_templates:
   - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
   - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
   - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
-og_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
-og_description: 'Profi bei wissenschaftlichen Arbeiten, aber immer noch Detailfragen in manchen Situationen? Hier finden Sie die wichtigste Informationen auf einem Blick.'
+og_title: Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene
+og_description: >-
+  Profi bei wissenschaftlichen Arbeiten, aber immer noch Detailfragen in manchen
+  Situationen? Hier finden Sie die wichtigste Informationen auf einem Blick.
 og_image: GWriters-Logo.png
 breadcrumbs_active: true
 ---
