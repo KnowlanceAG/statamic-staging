@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d69828dc92b40ca0de4fe23ae410956",
+    "content-hash": "5dfc625d6955107878ba83ac66931092",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -8664,11 +8664,11 @@
         },
         {
             "name": "uscreen/cpssg",
-            "version": "dev-b4efaa38f91a6eb8d269fb7a724b618f86162264",
-            "dist": {
-                "type": "path",
-                "url": "addons/uscreen/cpssg",
-                "reference": "150663b722966e2b2a5d7d908b396c18fc86cbd3"
+            "version": "dev-feature/next",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.uscreen.net/uscreen/statamic-addons/cpssg",
+                "reference": "0026cb990fac0b7ec416486102665773fa496b02"
             },
             "type": "library",
             "extra": {
@@ -8696,9 +8696,7 @@
             "support": {
                 "email": "info@uscreen.de"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2024-01-16T13:35:07+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -11597,6 +11595,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "uscreen/cpssg": 20,
         "uscreen/better-statamic-bard-text-color": 20
     },
     "prefer-stable": true,
@@ -11605,5 +11604,5 @@
         "php": "^8.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
