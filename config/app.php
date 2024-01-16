@@ -232,6 +232,5 @@ return [
 
   'google_tracking' => env('GOOGLE_TRACKING', false),
   'facebook_tracking' => env('FACEBOOK_TRACKING', false),
-  'pagination_limit' => env('PAGINATION_LIMIT', 10),
-  'turnstile_secret' => env('TURNSTILE_SECRET', false)
+  'pagination_limit' => env('PAGINATION_LIMIT', 10)
 ];
