@@ -19,7 +19,7 @@
     "statamic/cms": "4.31.0",
     "statamic/ssg": "2.2.0",
     "uscreen/cpssg": "dev-feature/next",
-    "uscreen/better-statamic-bard-text-color": "dev-next",
+    "uscreen/better-statamic-bard-text-color": "*",
     "withcandour/aardvark-seo": "3.0.0"
   },
   "require-dev": {
@@ -78,8 +78,8 @@
       "url": "https://gitlab.uscreen.net/uscreen/statamic-addons/cpssg"
     },
     {
-      "type": "vcs",
-      "url": "https://gitlab.uscreen.net/uscreen/statamic-addons/better-statamic-bard-text-color"
+      "type": "path",
+      "url": "addons/uscreen/better-statamic-bard-text-color"
     }
   ]
 }

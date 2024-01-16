@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5dfc625d6955107878ba83ac66931092",
+    "content-hash": "5259686930de644bd50fbba3c5374876",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -8628,10 +8628,10 @@
         {
             "name": "uscreen/better-statamic-bard-text-color",
             "version": "dev-next",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.uscreen.net/uscreen/statamic-addons/better-statamic-bard-text-color",
-                "reference": "9453b85253fffad30bff031806bda0f89d0069c1"
+            "dist": {
+                "type": "path",
+                "url": "addons/uscreen/better-statamic-bard-text-color",
+                "reference": "ceb427fa65ded910ee8ab256350f2c4ff1791672"
             },
             "require": {
                 "php": "^8.2 | ^8.3",
@@ -8660,7 +8660,9 @@
                 "statamic",
                 "text-color"
             ],
-            "time": "2023-12-12T09:29:40+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "uscreen/cpssg",
@@ -11595,8 +11597,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "uscreen/cpssg": 20,
-        "uscreen/better-statamic-bard-text-color": 20
+        "uscreen/cpssg": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
