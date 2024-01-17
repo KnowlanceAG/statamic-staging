@@ -1,4 +1,8 @@
 # Notes
+This is Statamic v4.
+
+### Current Requirements
+PHP v8.2
 
 ### Including CPSSG addon: an adjusted SSG plugin
 
