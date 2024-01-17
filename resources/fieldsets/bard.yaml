@@ -29,6 +29,7 @@ fields:
         - aligncenter
         - alignright
         - alignjustify
+        - color
       save_html: true
       toolbar_mode: floating
       link_noopener: false
