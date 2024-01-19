@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1705676005
+updated_at: 1705677952
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -504,7 +504,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Studierende stehen nicht nur unter dem Druck, komplexe politische Theorien und Fälle zu verstehen sowie empirische Sachverhalte zu analysieren, sondern müssen diese Analysen auch in umfangreiche schriftliche Arbeiten umsetzen – angefangen bei Hausarbeiten bis hin zu Bachelor- und Masterarbeiten. Eine schriftliche Arbeit dient als Nachweis der Fähigkeiten im Bereich politikwissenschaftlichen Arbeitens. In diesem Zusammenhang bietet Ghostwriting eine unterstützende Maßnahme, um Studierenden die Möglichkeit zu geben, qualitativ hochwertige Arbeiten abzuliefern, ohne dabei den Fokus auf das Verständnis politischer Fragestellungen zu verlieren.'
+                    text: 'Studierende stehen nicht nur unter dem Druck, komplexe politische Theorien und Fälle zu verstehen sowie empirische Sachverhalte zu analysieren, sondern müssen diese Analysen auch in umfangreiche schriftliche Arbeiten umsetzen – angefangen bei Hausarbeiten bis hin zu Bachelor- und Masterarbeiten. Eine schriftliche Arbeit dient als Nachweis der Fähigkeiten im Bereich politikwissenschaftlichen Arbeitens. In diesem Zusammenhang bietet Ghostwriting eine unterstützende Maßnahme, um Studierenden die Möglichkeit zu geben, qualitativ hochwertige Abschlussarbeiten abzuliefern, ohne dabei den Fokus auf das Verständnis politischer Fragestellungen zu verlieren.'
               -
                 type: set
                 attrs:
@@ -3002,7 +3002,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Unsere Ghostwriter verfügen über fundierte Kenntnisse und Erfahrung im Bereich der Politikwissenschaft. Ihre Fachkompetenz ermöglicht es ihnen, komplexe politische Theorien zu verstehen und aktuelle politische Entwicklungen zu analysieren.'
+                            text: 'Unsere Ghostwriter verfügen über fundierte Kenntnisse und Erfahrung im Bereich der Politik. Ihre Fachkompetenz ermöglicht es ihnen, komplexe politische Theorien zu verstehen und aktuelle politische Entwicklungen zu analysieren.'
               -
                 type: paragraph
                 content:
@@ -3086,7 +3086,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Die Ghostwriter gewährleisten die Anonymität der Studierenden, schützen deren Privatsphäre und nehmen die Einhaltung ethischer Standards ernst. Sie integrieren Plagiatsprüfungen als Standardverfahren, um die wissenschaftliche Integrität sicherzustellen.'
+                            text: 'Unsere Politikwissenschaftler gewährleisten die Anonymität der Studierenden, schützen deren Privatsphäre und nehmen die Einhaltung ethischer Standards ernst. Sie integrieren Plagiatsprüfungen als Standardverfahren, um die wissenschaftliche Integrität sicherzustellen.'
               -
                 type: paragraph
                 content:
@@ -3108,27 +3108,6 @@ replicator:
                           -
                             type: text
                             text: 'Unsere Ghostwriter bieten individuelle Betreuung und passen ihre Unterstützung an die spezifischen Bedürfnisse der Studierenden an. Diese maßgeschneiderte Herangehensweise gewährleistet eine effektive Zusammenarbeit.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '7. Transparente Kommunikation:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Eine offene und transparente Kommunikation zwischen unseren Ghostwritern und Studierenden ist essentiell. Durch diesen Dialog wird sichergestellt, dass die individuellen Anforderungen und Erwartungen klar verstanden werden.'
             show_as_card: false
         type: row
         enabled: true
