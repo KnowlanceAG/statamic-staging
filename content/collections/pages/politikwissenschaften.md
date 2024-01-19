@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1705679898
+updated_at: 1705679996
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -237,10 +237,10 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: ghostwriter-beauftragen
+                                  href: '#ghostwriter-beauftragen'
                                   target: null
                                   rel: null
-                            text: 'Warum sollte man Politikwissennschaften-Ghostwriter beauftragen?'
+                            text: 'Warum sollte man Politikwissenschaften-Ghostwriter beauftragen?'
                       -
                         type: bullet_list
                         content:
@@ -2948,7 +2948,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Warum sollte man Politikwissennschaften-Ghostwriter beauftragen?'
+                    text: 'Warum sollte man Politikwissenschaften-Ghostwriter beauftragen?'
               -
                 type: paragraph
                 content:
