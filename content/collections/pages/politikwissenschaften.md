@@ -12,6 +12,8 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
@@ -20,7 +22,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriter Agrarwissenschaften'
+        text: 'Ghostwriter Politikwissenschaften'
   -
     type: paragraph
     content:
@@ -36,9 +38,9 @@ teaser:
           -
             type: textColor
             attrs:
-              color: 'rgb(68, 68, 68)'
+              color: '#000!important'
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der Agrarwissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Politikwissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -137,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704416515
+updated_at: 1705675682
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -161,7 +163,9 @@ replicator:
                   id: uoivkKkL
                   values:
                     type: insert_html
-                    html: '<p style="font-size:18px" align="center"> Unsere Ghostwriting-Agentur GWriter bietet kompetente Unterstützung im Fachbereich Agrarwissenschaften. Wir finden für Sie den exakten akademischen Ghostwriter, der Ihren individuellen Anforderungen entspricht. Sie möchte aus dem Fachgebiet <b>Agrarwissenschaften Ghostwriter beauftragen </b>und eine hochqualitative Arbeit für Ihre Masterarbeit oder Bachelorarbeit schreiben lassen? Dann senden Sie uns gerne eine kostenlose Anfrage an unsere seriöse Agentur, die ausschließlich mit erfahrenen Fachexperten und Professoren zusammenarbeitet.</p>'
+                    html: |-
+                      <p style="font-size:18px" align="center"> 
+                      Unsere Ghostwriting-Agentur, GWriter, steht Ihnen mit kompetenter Unterstützung im Fachbereich Politikwissenschaften zur Verfügung. Wir haben das Fachwissen und die Ressourcen, um den idealen akademischen Ghostwriter für Ihre individuellen Anforderungen zu finden. Wenn Sie beabsichtigen, im Bereich <b>Politikwissenschaften Ghostwriter </b>für Ihre Masterarbeit oder Bachelorarbeit zu beauftragen, laden wir Sie herzlich dazu ein, uns eine kostenlose Anfrage zu senden. Unsere renommierte Agentur arbeitet ausschließlich mit erfahrenen Fachexperten und Professoren zusammen, um sicherzustellen, dass Ihre Anforderungen auf höchstem Niveau erfüllt werden.</p>
               -
                 type: heading
                 attrs:
@@ -360,7 +364,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich Agrarwissenschaften'
+                    text: 'Unsere Leistungen im Fachbereich Politikwissenschaften'
               -
                 type: set
                 attrs:
@@ -406,7 +410,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH AGRARWISSENSCHAFTEN'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH POLITIKWISSENSCHAFTEN'
                     color: '#FF6606'
                     spacing_top: false
               -
@@ -447,45 +451,23 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter für Agrarwissenschaften'
+                    text: 'Studium Politikwissenschaften: Ghostwriter '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unsere versierten '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'akademischen Ghostwriter für Agrarwissenschaften verfügen über fundierte Fachkenntnisse'
-                  -
-                    type: text
-                    text: ' und Erfahrungen in ihrem Einsatzbereich. Sie besitzen umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten auf den unterschiedlichsten Anforderungsniveaus. Das Niveau Ihrer Arbeit kann dann entsprechend angepasst werden, denn schließlich muss eine '
+                    text: 'In einer Welt, die von stetig steigendem Wettbewerbsdruck und hohen Ansprüchen an akademische Leistungen geprägt ist, suchen Studierende vermehrt nach professioneller Unterstützung im Bereich Ghostwriting Politikwissenschaften, um ihre Studienziele zu erreichen. Besonders unsere Ghostwriter verfügen über Erfahrungen in wissenschaftlichen Arbeiten. Sie haben die Möglichkeit, sich von unserem Ghostwriter eine Musterarbeit für Ihre Abschlussarbeit, beispielsweise die '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Seminararbeit
-                  -
-                    type: text
-                    text: ' in einem anderen Stil verfasst sein als eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/doktorarbeit
-                          target: null
-                          rel: null
-                    text: Dissertation
+                    text: 'Bachelorarbeit, schreiben zu lassen'
                   -
                     type: text
                     text: .
@@ -494,33 +476,44 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Agrarwissenschaften sind ein umfangreiches Fach mit vielen Teilgebieten. Besonders verfügen aus dem Fachgebiet Agrarwissenschaften Ghostwriter über die notwendigen Kenntnisse in verschiedenen Fächern. Sie arbeiten auch mit Biochemie oder aus dem Fachbereich '
+                    text: 'Studierende, die '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/biologie
+                          href: /ghostwriter/soziologie
                           target: null
                           rel: null
-                    text: 'Biologie Ghostwritern'
+                    text: Soziologie
                   -
                     type: text
-                    text: ' zusammen. Auch die Unterstützung in Physik oder in Meteorologie ist möglich. Auch bei Fragen zur Volkswirtschaftslehre oder zur Mathematik und Statistik können unsere Autoren Ihnen weiterhelfen. Durch diese umfassende Fachkenntnis können wir unseren Kunden bei den verschiedenen Ausarbeitungen umfassende und individuell zugeschnittene Unterstützung anbieten. Gern können Sie eine '
+                    text: ' oder Politik studieren, beauftragen aus dem Fachbereich '
                   -
                     type: text
                     marks:
                       -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'kostenlose und unverbindliche Anfrage'
+                        type: bold
+                    text: 'Politikwissenschaften Ghostwriter'
                   -
                     type: text
-                    text: ' für Ihr konkretes Vorhaben stellen.'
+                    text: ', um ihre schriftlichen wissenschaftlichen Arbeiten erfolgreich abzugeben. Insbesondere in den Politikwissenschaften stehen Studierende vor komplexen Fragestellungen, Themenstellungen und anspruchsvollen Forschungsaufgaben, die nicht selten einen erheblichen Zeitaufwand und umfassende Recherche erfordern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Studierende stehen nicht nur unter dem Druck, komplexe politische Theorien und Fälle zu verstehen sowie empirische Sachverhalte zu analysieren, sondern müssen diese Analysen auch in umfangreiche schriftliche Arbeiten umsetzen – angefangen bei Hausarbeiten bis hin zu Bachelor- und Masterarbeiten. Eine schriftliche Arbeit dient als Nachweis der Fähigkeiten im Bereich politikwissenschaftlichen Arbeitens. In diesem Zusammenhang bietet Ghostwriting eine unterstützende Maßnahme, um Studierenden die Möglichkeit zu geben, qualitativ hochwertige Arbeiten abzuliefern, ohne dabei den Fokus auf das Verständnis politischer Fragestellungen zu verlieren.'
+              -
+                type: set
+                attrs:
+                  id: GB5lFzEN
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -543,81 +536,53 @@ replicator:
             bard:
               -
                 type: paragraph
-              -
-                type: blockquote
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet Agrarwissenschaften Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
+                        type: bold
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                          -
-                            type: link
-                            attrs:
-                              href: /anfrage
-                              target: null
-                              rel: null
-                        text: 'unverbindliche Anfrage schicken'
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: '. '
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Politikwissenschaften Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie zu Ihrer Arbeit eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen wie bspw. Klausuren erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
             show_as_card: false
         type: row
         enabled: true
@@ -626,7 +591,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#8A8A8A'
+    bg_color: '#F6CAA1'
     border: false
     type: add_section
     enabled: true
@@ -654,61 +619,52 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Allgemeines zum Agrarwissenschaften Studium'
+                    text: 'Komplexe Aufgaben im Politikwissenschaften Studium'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Agrarwissenschaft ist die Lehre von der Produktion von menschlichen und tierischen Nahrungsmitteln durch die ökonomische Nutzung des Bodens'
-                  -
-                    type: text
-                    text: '. Hierfür müssen die ökonomischen Rahmenbedingungen beachtet werden, wie z.B. die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Eigentums- und Wirtschaftsverhältnisse'
-                  -
-                    type: text
-                    text: ', aber auch die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'soziale und die politische Ordnung in der jeweiligen Region'
-                  -
-                    type: text
-                    text: '. Eine weitere zentrale Bedeutung kommt den ökologischen Bedingungen zu, etwa den klimatischen Voraussetzungen, der Fruchtbarkeit des Bodens usw.'
+                    text: 'Die Herausarbeitung der spezifischen Anforderungen politikwissenschaftlicher Arbeiten ist von entscheidender Bedeutung, um die Komplexität dieses Fachbereichs im Ghostwriting-Kontext zu verstehen. Unsere Ghostwriter für politikwissenschaftliche Arbeiten verfügen nicht nur über fundierte Kenntnisse politischer Theorien, sondern auch über die Fähigkeit, komplexe politische Phänomene zu analysieren und kritisch zu bewerten. Dies beinhaltet die Identifikation und Anwendung relevanter Theorien, die Durchführung empirischer Forschung sowie die Fähigkeit zur differenzierten Interpretation politischer Zusammenhänge.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Das Agrarwissenschaften-Studium ist also sehr stark interdisziplinär angelegt. Die Inhalte kommen aus den Bereichen Naturwissenschaften, Technik, Wirtschaft sowie Politik und Sozialwissenschaften. Während des Studiums sollen Sie lernen, das Grundlagen-Wissen aus diesen verschiedenen Bereichen in einer Spezialisierungsrichtung praktisch anzuwenden. In Frage kommen bei den '
+                    text: 'Die Auseinandersetzung mit politischen Debatten und die kritische Bewertung unterschiedlicher Perspektiven sind weitere Schlüsselaspekte, die politikwissenschaftliche Arbeiten prägen. In diesem Kontext verstehen unsere Ghostwriter nicht nur die Oberfläche politischer Konzepte, sondern sind auch in der Lage, diese auf akademisch anspruchsvolle Weise zu verarbeiten. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dies kann durch die Aufarbeitung einer '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: Pflanzenbauwissenschaften
+                    text: 'politikwissenschaftlichen Kontroverse '
                   -
                     type: text
-                    text: ' z.B. '
+                    text: 'erfolgen, bei der strittige politikwissenschaftliche Fragestellungen oder Debatten detailliert analysiert und unterschiedliche Perspektiven berücksichtigt werden. Ebenso umfasst die'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Gartenbau oder Weinbau und bei den Nutztierwissenschaften z.B. Tierhaltung und Tierzucht'
+                    text: ' (Re-)Konstruktion eines politikwissenschaftlich relevanten empirischen Sachverhalts'
                   -
                     type: text
-                    text: '. Die Spezialisierung auf ein Gebiet erfolgt dann oftmals schon vor dem Schreiben der Abschlussarbeit.'
+                    text: ' den Prozess, Fakten oder Beobachtungen im politischen Kontext systematisch zu präsentieren. Dabei wird besonderes Augenmerk auf die Berücksichtigung politikwissenschaftlicher Perspektiven gelegt, um eine umfassende Sichtweise zu entwickeln. Auch der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Theorietest
+                  -
+                    type: text
+                    text: ' spielt eine große Rolle in politisch wissenschaftlichen Arbeiten, da er eine methodische Herangehensweise darstellt, politikwissenschaftliche Theorien auf ihre Fähigkeit zur Erklärung empirischer Phänomene zu überprüfen.'
             show_as_card: false
         type: row
         enabled: true
@@ -2012,41 +1968,869 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Karriereaussichten nach dem Agrarwissenschaften Studium'
+                    text: 'Karriere und Gehalt: Politikwissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Mit einem abgeschlossenen Studium in Agrarwissenschaften haben Sie sehr gute Karriereaussichten. Der Klimawandel trägt dazu bei, dass Agrarwissenschaften Jobs immer wichtiger werden. Agrarwissenschaftler werden gebraucht, um die Folgen von extremer Trockenheit, von sintflutartigen Regenfällen, von den schnellen Veränderungen von Flora und Fauna zu bewältigen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.absolventa.de/jobs/channel/agrarwissenschaften/thema/gehalt'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Einstiegsgehalt für Agrarwissenschaftler'
-                  -
-                    type: text
-                    text: ' liegt bei 40.200 Euro. Allerdings ist das eine Durchschnittsangabe. Die Bandbreite ist sehr groß: Als Agraringenieur können Sie fast '
+                    text: 'Nach einem Studium der Politikwissenschaften stehen Absolventinnen und Absolventen eine Vielzahl von beruflichen Möglichkeiten offen. Das Einstiegsgehalt nach einem Politikwissenschaften-Studium liegt bei'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: '70.000 Euro'
+                    text: ' 40.000 €'
                   -
                     type: text
-                    text: ' verdienen. Sehr groß ist auch die Auswahl an möglichen Jobs: Sie können einen Bauernhof übernehmen, in die Forschung gehen oder in die Verwaltung eines Ministeriums. Reizvoll ist auch die Tätigkeit als Fachjournalist.'
+                    text: ', wenn Sie im Bereich Medien und Journalismus arbeiten. Politikwissenschaftlerinnen und Politikwissenschaftler können in verschiedenen Branchen und Sektoren tätig sein. '
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Bereich
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Mögliche Tätigkeiten'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Öffentlicher Dienst und Verwaltung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Arbeit in nationalen oder regionalen Regierungsbehörden'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Tätigkeiten in Ministerien, Ämtern und Verwaltungen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Internationale Organisationen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Beschäftigung bei den Vereinten Nationen (UN)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Tätigkeiten in der Europäischen Union (EU)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Mitarbeit in internationalen Organisationen wie der NATO'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Diplomatie und Außenpolitik'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Tätigkeiten im diplomatischen Dienst'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Arbeit in internationalen Beziehungen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'NGOs und Non-Profit-Organisationen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Engagement in politischen NGOs für soziale Gerechtigkeit'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Politische Beratung und Lobbyarbeit'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Arbeit als politischer Berater für Unternehmen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Lobbytätigkeiten für Interessenvertretungen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Medien und Journalismus'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Karriere im politischen Journalismus'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Rundfunk- oder Fernsehjournalismus'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Forschung und Lehre'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Tätigkeit in wissenschaftlichen Forschungsinstituten'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Dozent an Hochschulen und Universitäten'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Unternehmensberatung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Beratung von Unternehmen zu politischen Fragen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Marktforschung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Analyse politischer Trends für Marktforschungsunternehmen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Sozialarbeit und Entwicklungszusammenarbeit'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Engagement in sozialen Projekten'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Mitarbeit in der Entwicklungszusammenarbeit'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Recht und Justiz'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Karriere im Bereich des Verfassungsrechts'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Menschenrechtsarbeit
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Internationale Rechtsprechung'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Bildung und Weiterbildung'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Tätigkeiten in der politischen Bildung'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Trainer für politische Themen'
             show_as_card: false
         type: row
         enabled: true
@@ -2062,7 +2846,6 @@ replicator:
     columns_replicator:
       -
         id: UznK4RLR
-        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -2082,60 +2865,59 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Warum sollte man Agrarwissenschaften-Ghostwriter beauftragen?'
+                    text: 'Warum sollte man Politikwissennschaften-Ghostwriter beauftragen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
-                    text: 'Warum Sie aus dem Fachbereich Agrarwissenschaften Ghostwriter beauftragen sollten? Damit Sie von deren spezialisiertem Wissen und Expertise profitieren zu können. Dies kann Zeit sparen, da sie bereits über das notwendige Fachwissen verfügen und eine hochwertige wissenschaftliche Arbeit liefern können. Unsere Experten können auch bei der Forschung und Datensammlung helfen, individuelle Anpassungen vornehmen und sicherstellen, dass die Arbeit den wissenschaftlichen Standards entspricht. Dies ist besonders nützlich bei komplexen Projekten und kann bei der Vorbereitung auf eine berufliche Karriere im Bereich Agrarwissenschaften unterstützen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter in Agrarwissenschaften erstellen '
+                    text: 'Die Erstellung qualitativ hochwertiger politikwissenschaftlicher Arbeiten erfordert eine tiefgehende Vertrautheit mit den verschiedenen Theorien, Methoden und aktuellen Entwicklungen innerhalb des Fachgebiets. Besonders kennen aus dem Fachgebiet '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Musterarbeiten für unterschiedliche Studienarbeiten'
+                    text: 'Politikwissenschaften Ghostwriter'
                   -
                     type: text
-                    text: '. Besonders in den Abschlussarbeiten sind unsere Ghostwriter im Fachbereich Agrarwissenschaften Experten. '
-            show_as_card: false
-          -
-            id: KifGK2jM
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lmu3gqu1
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/fachrichtungen/agrarwissenschaften-ghostwriter.jpg
-                    img_size: w-3/4
-                    image_options:
-                      - no_upscale
-                    float: mx-auto
+                    text: ' den aktuellen Forschungsstand und verfügen nicht nur über allgemeine akademische Schreibkompetenzen, sondern sind auch in der Lage, politikwissenschaftliche Konzepte fundiert zu analysieren und darzustellen. Die Integration von politikwissenschaftlichem Fachwissen ermöglicht es, die Einzigartigkeit und Tiefe politikwissenschaftlicher Arbeiten zu wahren, während gleichzeitig die individuellen Anforderungen und Perspektiven der Studierenden berücksichtigt werden.'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Politikwissenschaftliche Studierende sehen sich verschiedenen Herausforderungen gegenüber, darunter die Komplexität politikwissenschaftlicher Theorien und Fragestellungen, umfangreiche Anforderungen an kritische Analysen politischer Phänomene und die Notwendigkeit zur Teilnahme an aktuellen politischen Debatten. Arbeiten wie Hausarbeiten, Bachelorarbeiten und Masterarbeiten spielen eine entscheidende Rolle im politikwissenschaftlichen Studium. Hausarbeiten dienen als Grundlage für das akademische Verständnis, Bachelorarbeiten repräsentieren eigenständige Forschungsprojekte, und Masterarbeiten ermöglichen eine vertiefende wissenschaftliche Auseinandersetzung mit einem spezifischen Thema. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Studierende nehmen Ghostwriting von uns in Anspruch, um Herausforderungen wie zeitliche Belastungen durch umfangreiche Studienanforderungen zu bewältigen. Das Streben nach qualitativ hochwertigen Arbeiten trotz Zeitmangels ist ein weiterer Faktor, der Studierende dazu motiviert, Ghostwriting als Ressource zur fachlichen Unterstützung und Entlastung in Anspruch zu nehmen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Anonymität Ihrer Daten bei GWriters'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Wichtigkeit von Anonymität für Studierende liegt in dem Schutz vor möglichen Konsequenzen im universitären Umfeld. Die Möglichkeit, externe Unterstützung in Anspruch zu nehmen, ohne stigmatisiert zu werden, ermöglicht den Studierenden eine freie Wahl bei der Nutzung von Ghostwriting-Dienstleistungen. Zudem trägt die Anonymität dazu bei, die persönliche Privatsphäre während des gesamten Ghostwriting-Prozesses zu sichern. Die Plagiatsprüfung spielt eine zentrale Rolle im politikwissenschaftlichen Ghostwriting, da sie dazu dient, unethisches Verhalten und akademisches Fehlverhalten zu verhindern. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Durch die Sicherstellung der Integrität wissenschaftlicher Arbeiten trägt die Plagiatsprüfung dazu bei, die Reputation von Studierenden und Bildungseinrichtungen zu schützen. Unsere akademische Ghostwriting-Agentur geht verantwortungsbewusst mit Anonymität und Plagiatsprüfung um, indem sie die Vertraulichkeit ihrer Kunden betonen und umfassende Sicherheitsmaßnahmen implementieren. Die transparente Kommunikation bezüglich Datenschutzrichtlinien und -praktiken stellt sicher, dass Studierende sich der Schutzmaßnahmen bewusst sind.'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
+        columns_per_row: 0
       -
         id: AoASYIXl
         single_col: false
@@ -2190,1374 +2972,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufbau eines Agrarwissenschaften Studiums'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Die Rollen unserer Ghostwriter in Politikwissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Studenten können verschiedene Hochschulen wählen, um Agrarwissenschaften zu studieren. Der Aufbau ist überall ähnlich. An der Humbolt-Universität Berlin beispielsweise ist das Bachelor-Studium Agrarwissenschaften in einen Pflicht- und einen Wahlpflichtbereich unterteilt. Sie haben zunächst einmal 20 Pflichtmodule mit jeweils fünf oder sechs Leistungspunkten. Die Bachelorarbeit ergibt noch einmal 12 Leistungspunkte. Der verpflichtende Teil sieht folgendermaßen aus:'
-              -
-                type: set
-                attrs:
-                  id: lmu3pzw2
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/fachrichtungen/agrarwissenschaften-inhalte.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
+                    text: 'Unsere Ghostwriter übernehmen in Politikwissenschaften eine Reihe entscheidender Rollen, um Studierenden eine qualitativ hochwertige Unterstützung zu bieten.'
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Ergänzt wird der Pflicht- durch einen Wahlpflichtbereich. An der Humboldt-Uni werden drei Modul-Pools angeboten, aus denen Sie jeweils ein Modul mit sechs Leistungspunkten belegen müssen. Die '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Modul-Pools lauten im Einzelnen:'
-              -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Wahlpflichtmodul
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Anzahl Leistungspunkte'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Grundlagen der empirischen Forschung (Biometrie und '
-                              -
-                                type: text
-                                text: Ökonometrie)
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '6 LP'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Politik und Märkte ('
-                              -
-                                type: text
-                                text: 'Grundlagen der Markt- und Politikanalyse, Strukturwandel und ländlicher Raum oder Weltmärkte der Agrar- und Ernährungswirtschaft)'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '6 LP'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Pflanzliche Rohstoffe und Qualität ('
-                              -
-                                type: text
-                                text: 'Grünland und Futterbau, Qualitätsdynamik und Qualitätssicherung für Obst und Gemüse sowie Pflanzenschutz)'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '6 LP'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Weiterhin müssen Sie 18 Leistungspunkte aus dem Ergänzungsbereich belegen. Hier haben Sie an der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /assets/downloads/blog/module-erganzungsbereich-agrarwissenschaften.docx
-                          target: null
-                          rel: null
-                    text: 'Humboldt-Uni die Wahl aus 45 Modulen'
-                  -
-                    type: text
-                    text: '. Sie müssen drei davon belegen, um auf die geforderte Anzahl an Leistungspunkten zu kommen. Sie müssen also insgesamt 20 Pflichtmodule absolvieren.'
-            show_as_card: false
-          -
-            id: lmu3t88l
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lmu4ovwn
-                  values:
-                    type: anchor_target
-                    anchor_name: studienplan
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Studienplan: Agrarwissenschaften'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Welche Module Sie in welchem Semester besuchen, liegt an Ihnen und am jeweiligen Angebot an Lehrveranstaltungen. Eine sinnvolle Aufteilung auf sechs Semester könnte folgendermaßen aussehen:'
-              -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Studienfortschritt
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: white
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: Pflichtmodul
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: white
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Wahlpflichtmodul oder Ergänzungsmodul'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '1. Semester'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(247, 150, 70)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Grundlagen der Biochemie'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Agrarmeteorologie (Ergänzung)'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(146, 208, 80)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: Nutztierhaltung
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: yellow
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Grundlagen des Agrarmarketing'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '2. Semester'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(247, 150, 70)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Biologie der Pflanzen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Grundlagen der empirischen Forschung (Biometrie und '
-                              -
-                                type: text
-                                text: 'Ökonometrie) (Wahlpflicht)'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(247, 150, 70)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Biologie der Tiere'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: red
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Grundlagen der Physik und Meteorologie'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(0, 112, 192)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: Bodenkunde
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '3. Semester'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(247, 150, 70)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Genetik und Pflanzenzüchtung'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Phytomedizin-Report: Grundlagen (Ergänzung)'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(247, 150, 70)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Tierzucht und -genetik'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(247, 150, 70)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Phytomedizin I: Grundlagen der Phytomedizin'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '4. Semester'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(146, 208, 80)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Pflanzenernährung und Düngung'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(253, 233, 217)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: Agrarpolitik
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(146, 208, 80)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Ackerbau und Pflanzenbau'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '5. Semester'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(146, 208, 80)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Tierernährung und Futtermittelkunde'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Pferdezüchtung und –ernährung (Ergänzung)'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: red
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Mathematik und Statistik'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(0, 112, 192)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Agrar- und Gartenbautechnik'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: yellow
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Einführung in die Volkswirtschaftslehre'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '6. Semester'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: yellow
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Analyse und Planung von Agrarbetrieben'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(0, 112, 192)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: Agrarökologie
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: yellow
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: 'Umwelt- und Ressourcenökonomie'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '7. Semester'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgb(182, 221, 232)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
-                                text: Bachelorarbeit
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'An ein Bachelorstudium Agrarwissenschaft kann sich direkt ein Master anschließen. Dieser dient dann der Spezialisierung. Die Humboldt-Uni bietet beispielsweise sechs verschiedene M.Sc.-Studiengänge an. Nur zwei der möglichen Master-Studiengänge finden in deutscher Sprache statt, die anderen auf Englisch.'
+                    text: '1. Expertise in Politikwissenschaft:'
               -
                 type: bullet_list
                 content:
@@ -3569,12 +3002,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Prozess- und Qualitätsmanagement in Landwirtschaft und Gartenbau'
-                          -
-                            type: hard_break
-                          -
-                            type: text
-                            text: 'Integrated Natural Resource Management'
+                            text: 'Unsere Ghostwriter verfügen über fundierte Kenntnisse und Erfahrung im Bereich der Politikwissenschaft. Ihre Fachkompetenz ermöglicht es ihnen, komplexe politische Theorien zu verstehen und aktuelle politische Entwicklungen zu analysieren.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '2. Erstellung von Hochwertigen Arbeiten:'
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -3583,7 +3023,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Agricultural Economics'
+                            text: 'Die Ghostwriter erstellen akademische Arbeiten, angefangen bei Hausarbeiten bis hin zu Masterarbeiten, unter Berücksichtigung der spezifischen Anforderungen der Politikwissenschaften. Dabei legen sie großen Wert auf wissenschaftliche Präzision und Qualitätsstandards.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '3. (Re-)Konstruktion politikwissenschaftlicher Kontroversen:'
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -3592,7 +3044,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Fish Biology, Fisheries and Aquaculture'
+                            text: 'Durch die detaillierte Analyse und Aufarbeitung politikwissenschaftlicher Kontroversen tragen unsere Ghostwriter dazu bei, verschiedene Perspektiven zu verstehen und in wissenschaftlichen Arbeiten präzise darzustellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '4. Theorietests und Empirische Analysen:'
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -3601,7 +3065,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'International Master in Rural Development'
+                            text: 'Unsere Ghostwriter führen Theorietests durch, um politikwissenschaftliche Theorien auf ihre Erklärungskraft für empirische Phänomene zu überprüfen. Zudem sind sie versiert in der Durchführung empirischer Analysen im Rahmen von Bachelor- und Masterarbeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '5. Einhaltung von Anonymität und Plagiatsprüfung:'
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -3610,246 +3086,56 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'International Master in Horticultural Science'
+                            text: 'Die Ghostwriter gewährleisten die Anonymität der Studierenden, schützen deren Privatsphäre und nehmen die Einhaltung ethischer Standards ernst. Sie integrieren Plagiatsprüfungen als Standardverfahren, um die wissenschaftliche Integrität sicherzustellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '6. Individuelle Betreuung und Anpassung:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Unsere Ghostwriter bieten individuelle Betreuung und passen ihre Unterstützung an die spezifischen Bedürfnisse der Studierenden an. Diese maßgeschneiderte Herangehensweise gewährleistet eine effektive Zusammenarbeit.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '7. Transparente Kommunikation:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Eine offene und transparente Kommunikation zwischen unseren Ghostwritern und Studierenden ist essentiell. Durch diesen Dialog wird sichergestellt, dass die individuellen Anforderungen und Erwartungen klar verstanden werden.'
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 0
         responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: YWzQxnl2
-    columns_replicator:
-      -
-        id: SjHtvzSx
-        single_col: true
-        grid:
-          -
-            id: StE9S7ZP
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lm90ef5i
-                  values:
-                    type: anchor_target
-                    anchor_name: inhalt
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Inhalte des Agrarwissenschaften Studiums'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wie Sie an der Beispieltabelle der HU Berlin gesehen haben, sind die Inhalte eines Agrarwissenschaften Studiums sehr vielfältig. Rein biologische Inhalte spielen eine große Rolle, aber Sie erwerben auch betriebswirtschaftliche und Marketingkenntnisse.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Für die Feldstudien müssen Sie auch mathematische und statistische Fertigkeiten auf höherem Niveau haben. Auch politische Aspekte spielen eine Rolle im Studiengang Agrarwissenschaft. Durch diese große Bandbreite des Faches müssen Sie selbst in vielen Bereichen Fächern fit sein. Die Anforderungen an die Studenten in Agrarwissenschaften sind also hoch.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ob Sie dem Studium inhaltlich gewachsen sind, wird regelmäßig überprüft. Schon im Bachelor-Studium müssen Sie zahlreiche Modulprüfungen absolvieren. Durch Coaching mit einem Ghostwriter können Sie sich hierauf gezielt vorbereiten. Hinzu kommen Forschungsprotokolle und Praktikumsberichte, die Sie regelmäßig abgeben müssen. Bei allen schriftlichen Arbeiten können Ghostwriter Sie unterstützen. Sie können sich von unseren Experten auch '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Hausarbeiten schreiben lassen'
-                  -
-                    type: text
-                    text: .
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F0F0F0'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: I3bes69O
-    columns_replicator:
-      -
-        id: cF8chN8j
-        single_col: true
-        grid:
-          -
-            id: OSzmY8He
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lm90evtp
-                  values:
-                    type: anchor_target
-                    anchor_name: bachelorarbeit
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter: Agrarwissenschaften'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter Agrarwissenschaften können Sie an verschiedenen Stellen unterstützen. Es ist möglich, das Ghostwriting einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriter-abschlussarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Mustervorlage für die Abschlussarbeit'
-                  -
-                    type: text
-                    text: ' zu beauftragen. Der erste Abschluss in Agrarwissenschaften ist die Bachelorarbeit. Sie können sich beispielsweise eine Mustervorlage für die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Bachelorarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: '. Wenn Sie sich spezialisieren, erfolgt im zweiten Schritt das Masterstudium. An dessen Ende steht die Masterarbeit. Auch hier ist vielfältige Unterstützung möglich. Von einem Experten können Sie eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Masterarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Auch verschiedene Teilaufgaben können an unsere Autoren ausgelagert werden. Hierzu zählt die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/literaturrecherche-datenbanken-quellen
-                          target: null
-                          rel: null
-                    text: Literaturrecherche
-                  -
-                    type: text
-                    text: ': Vor der Entscheidung für ein Thema muss zunächst einmal der Forschungsstand gesichtet werden. Ghostwriter können als Experten auf ihrem Gebiet hierbei wertvolle Dienste leisten. Sie haben Zugang zu den relevanten Datenbanken und können auch neueste Studien beschaffen und bei Bedarf Zusammenfassungen für Sie schreiben. Ghostwriter können auch fremdsprachige Literatur beschaffen und sichten. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/forschungsdesign-beispiel
-                          target: null
-                          rel: null
-                    text: 'Beratung beim Studiendesign'
-                  -
-                    type: text
-                    text: ' ist ebenfalls möglich.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wenn Sie einen Teil Ihrer Arbeit oder auch den gesamten Text in einer Fremdsprache veröffentlichen wollen, bieten Ghostwriter auch Übersetzungen von akademischen Arbeiten an. Fertige Texte können Sie durch ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    text: ' überprüfen lassen. Unsere '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    text: ' gibt Ihnen die Sicherheit, dass Sie nicht aus Versehen Teile aus anderen Arbeiten übernommen haben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter bieten außerdem Coaching und Training an. Damit können Sie sich gezielt auf Klausuren vorbereiten. Eine enge Begleitung durch einen Coach lohnt sich oft auch langfristig: wenn Sie einmal das Procedere verstanden haben, sind Sie in der Lage, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
     border: false
     type: add_section
     enabled: true
@@ -3877,13 +3163,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: '5 Bachelorarbeits-Themen: Agrarwissenschaften'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Nach sechs Semestern Studium steht die Bachelorarbeit an. Hier müssen Sie zeigen, dass Sie eine wissenschaftliche Aufgabe in Ihrem Fachgebiet selbständig bearbeiten können. Mögliche Themen für eine Bachelorarbeit in Agrarwissenschaften können sein:'
+                    text: '3 Bachelorarbeits-Themen: Agrarwissenschaften'
               -
                 type: set
                 attrs:
@@ -3893,9 +3173,9 @@ replicator:
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
                         <b>
-                      Kaufentscheidungen von Landwirten bei Liegeboxenbelägen, Liegeboxenabtrennungen und Laufflächenbelägen</b><br><br>
-
-                      Hier stehen ökonomische Aspekte im Vordergrund. Aus agrarwissenschaftlicher Sicht ist die artgerechte Tierhaltung bedeutsam. Die Arbeit dient als Überprüfung, welche Aspekte Landwirte bei ihren Entscheidungen berücksichtigen.</div>
+                      Populismus und seine Auswirkungen auf die demokratischen Institutionen </b><br><br>
+                       
+                      Analyse verschiedener populistischer Bewegungen und ihrer Einflüsse auf demokratische Strukturen und Prozesse. Untersuchen Sie, wie Populismus politische Entscheidungsfindung, Parteienlandschaften und öffentliche Meinung beeinflusst.</div>
               -
                 type: set
                 attrs:
@@ -3912,10 +3192,10 @@ replicator:
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
                         <b>
-                      Zweikultur-Nutzungssysteme für die Biogasproduktion
+                      Internationale Konflikte im 21. Jahrhundert: Eine Untersuchung regionaler Konfliktherde
                       </b><br><br>
 
-                      Es wird untersucht, inwieweit sich Möglichkeiten der Anbaumethode eines Zweinutzungssytems zur Herstellung von Biomasse für die Energieerzeugung mit ökologischen Aspekten und Fragen der Biodiversität verbinden lassen. Zweinutzung bedeutet, dass der Naturschutz und der nachhaltige Ausbau von erneuerbaren Energien verbunden werden.</div>
+                      Fokussieren Sie sich auf bestimmte regionale Konflikte und analysieren Sie Ursachen, Entwicklungen und mögliche Lösungsansätze. Betrachten Sie geopolitische Einflüsse und internationale Interventionen.</div>
               -
                 type: set
                 attrs:
@@ -3932,47 +3212,9 @@ replicator:
                     html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
                         <b>
-                      Verwendungseignung und Zielwert von Clematisarten und -sorten mit Wildcharakter</b><br><br>
+                      Politische Partizipation junger Menschen: Herausforderungen und Perspektiven</b><br><br>
 
-                      Bei dieser Arbeit handelt es sich um eine Feldstudie: Es werden verschiedene Clematisarten untersucht, die in einer Versuchsanstalt angebaut werden. Es geht darum, verschiedene Nutzungseigenschaften zu identifizieren, um optimale Standortbedingungen zu finden.</div>
-              -
-                type: set
-                attrs:
-                  id: lmu480t3
-                  values:
-                    type: spacer
-                    padding-y: 5
-              -
-                type: set
-                attrs:
-                  id: ll2aoll2
-                  values:
-                    type: insert_html
-                    html: |-
-                      <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>
-                      Bedeutung und Potentiale von Waldflächen und Forstwirtschaft für ein Ländliches Regionalmanagement - am Beispiel des Landkreises Osterode am Harz</b><br><br>
-
-                      Es erfolgt eine Potenzialanalyse einer ländlichen Region. Es werden Standortfaktoren, mögliche Potentiale und Handlungsempfehlungen in Bezug auf Wald, Forstwirtschaft und ländliches Regionalmanagement beschrieben.</div>
-              -
-                type: set
-                attrs:
-                  id: lmu4b1vb
-                  values:
-                    type: spacer
-                    padding-y: 5
-              -
-                type: set
-                attrs:
-                  id: ll2aqeb4
-                  values:
-                    type: insert_html
-                    html: |-
-                      <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>
-                      Zur Fischproduktion aus Kreislaufanlagen in der Aquakultur.</b><br><br>
-
-                      In dieser Arbeit wird das Potential der Kreislaufanlagen in der Fischzucht untersucht. Es soll herausgefunden werden, inwieweit diese Produktionsmethode marktwirtschaftlichen Kriterien genügt und geeignet ist, um der globalen Hungerproblematik etwas entgegenzusetzen.</div>
+                      Untersuchen Sie die politische Beteiligung von Jugendlichen und jungen Erwachsenen. Analysieren Sie die Ursachen für politisches Desinteresse oder Engagement und diskutieren Sie potenzielle Maßnahmen zur Förderung der politischen Partizipation.</div>
               -
                 type: paragraph
             show_as_card: false
