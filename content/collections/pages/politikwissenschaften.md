@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1705675814
+updated_at: 1705676005
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -591,7 +591,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F6CAA1'
+    bg_color: '#FCD3BB'
     border: false
     type: add_section
     enabled: true
@@ -2944,7 +2944,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: '#FCD3BB'
     border: false
     type: add_section
     enabled: true
