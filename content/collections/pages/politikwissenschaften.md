@@ -1,7 +1,7 @@
 ---
 id: 17e62bd0-216b-4c73-b21e-7fd05ad8ebeb
 blueprint: pages
-title: 'Agrarwissenschaften (Dupliziert)'
+title: Politikwissenschaften
 teaser:
   -
     type: heading
@@ -139,7 +139,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1705675682
+updated_at: 1705675814
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3283,12 +3283,12 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Agrarwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Agrarwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'Agrarwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Hilfe durch Experten und akademische Ghostwriter der Agrarwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'Politikwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Politikwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_title: 'Politikwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
+og_description: 'Hilfe durch Experten und akademische Ghostwriter der Politikwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Agrarwissenschaften Ghostwriter'
+alternative_page_title: 'Politikwissenschaften Ghostwriter'
 breadcrumbs_active: true
 ---
