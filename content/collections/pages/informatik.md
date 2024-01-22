@@ -129,7 +129,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705946609
+updated_at: 1705952199
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -193,19 +193,14 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
                     text: Inhaltsverzeichnis
               -
                 type: bulletList
@@ -215,47 +210,39 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#informatik'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Definition: Informatik'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#leistungen'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Unsere Leistungen im Fachbereich Informatik'
-                        attrs:
-                          textAlign: left
               -
                 type: bulletList
                 content:
@@ -264,52 +251,46 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: '#ghostwriter'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Informatik-Ghostwriter unterstützen Sie im Informatik-Studium'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: 'rgba(255,102,6,var(--tw-text-opacity))'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#grund'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Grund für das Informatik-Studium'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -318,14 +299,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#inhalte'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Studieninhalte des Informatikstudiums'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -334,8 +318,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#aufbau'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Aufbau des Informatikstudiums'
                       -
                         type: bulletList
@@ -345,6 +330,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -353,8 +340,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#prufungsleistung'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: Prüfungsleistungen
             show_as_card: false
           -
@@ -369,6 +357,8 @@ replicator:
                     padding-y: 30
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: bulletList
                 content:
@@ -377,24 +367,20 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#Beispielarbeit'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Beispielarbeit im Fachbereich Informatik'
-                        attrs:
-                          textAlign: start
               -
                 type: bulletList
                 content:
@@ -403,6 +389,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -411,8 +399,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#allgemein'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Allgemeines zur Informatik'
                       -
                         type: bulletList
@@ -422,6 +411,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -430,14 +421,17 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#disziplin'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Disziplinen der Informatik'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -446,14 +440,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#ziel'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Ziele der Informatik'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -462,8 +459,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#beruf'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Berufsbilder im Informatiksektor'
               -
                 type: bulletList
@@ -473,24 +471,20 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#softwarelokalisierung'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Subdisziplin: Softwarelokalisierung'
-                        attrs:
-                          textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -514,36 +508,30 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
-                    marks: {  }
                     text: 'Services anhand unserer Kundenstimmen'
               -
                 type: heading
                 attrs:
-                  level: 4
                   textAlign: center
+                  level: 4
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
             show_as_card: false
         type: row
@@ -602,15 +590,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: Informatik
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -623,37 +612,26 @@ replicator:
                     text: ' mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: "Aufgrund der zahlreichen Abgaben und anspruchsvollen Anforderungen im Studium greifen einige Studenten der Informatik auf\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriter
                   -
                     type: text
-                    marks: {  }
                     text: "\_und akademische Freelancer zurück. Diese weisen Kompetenz und hinreichende Erfahrungen bei der Erstellung von wissenschaftlichen Arbeiten der Informatik auf."
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -682,12 +660,10 @@ replicator:
                     type: anchor_target
                     anchor_name: leistungen
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
@@ -696,7 +672,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Unsere Leistungen im Fachbereich Informatik'
               -
                 type: set
@@ -776,24 +751,18 @@ replicator:
                     type: anchor_target
                     anchor_name: ghostwriter
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Informatik-Ghostwriter unterstützen Sie im Informatik-Studium'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -858,6 +827,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -865,70 +835,40 @@ replicator:
                     text: 'Warum sollte man Informatik-Ghostwriter beauftragen?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    text: 'Der akademische Ghostwriter agiert oftmals'
+                    text: "Der akademische Ghostwriter agiert oftmals als\_"
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: " als\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /lektorat/lektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektor
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ",\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /korrektorat/korrektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektor
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "\_und Übersetzer, kann jedoch auch bei der Erstellung der Arbeit und der Textredaktion beratend zur Seite stehen. "
-                  -
-                    type: text
-                    text: 'Bei Problemen mit dem Verfassen der '
+                    text: "\_und Übersetzer, kann jedoch auch bei der Erstellung der Arbeit und der Textredaktion beratend zur Seite stehen. Bei Problemen mit dem Verfassen der "
                   -
                     type: text
                     marks:
@@ -936,8 +876,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Hausarbeit
                   -
                     type: text
@@ -1005,10 +946,9 @@ replicator:
                     type: anchor_target
                     anchor_name: grund
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1028,6 +968,8 @@ replicator:
                     text: 'Der Umgang mit PC und Smartphones gehört schon zum Alltag und ist aus unserer heutigen digitalisierten Welt nicht mehr wegzudenken. Mittlerweile wird die Welt über die Technik gesteuert. Der Umgang wird tagtäglich einfacher durch die rasante Systementwicklung im Rahmen von Informationstechnologien. Daher empfinden viele Schülerinnen und Schüler das Informatikstudium sehr interessant.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1062,6 +1004,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1089,157 +1032,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/bachelorarbeit-schreiben-lassen#informatik-ghostwriter'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Ghostwriter Bachelorarbeit Informatik'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -2168,6 +2045,8 @@ replicator:
                                     text: 'Zahnmedizin Ghostwriter'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2178,6 +2057,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -2198,6 +2078,8 @@ replicator:
                     ausrichtung: text_bild
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2209,8 +2091,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/diplomarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Diplomarbeit schreiben lassen'
                   -
                     type: text
@@ -2219,22 +2102,20 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/wirtschaftsinformatik
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Wirtschaftsinformatik
                   -
                     type: text
                     text: "\_und die Chemoinformatik."
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2257,6 +2138,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2270,116 +2152,96 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: /ghostwriter/bwl
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: BWL
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: /ghostwriter/chemie
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Chemie
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: /ghostwriter/mathematik
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Mathematik
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: /ghostwriter/medizin
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Medizin
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: /ghostwriter/wirtschaftsinformatik
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Wirtschaftsinformatik
-                        attrs:
-                          textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -2403,6 +2265,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -2410,6 +2273,8 @@ replicator:
                     text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2421,18 +2286,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -2532,6 +2393,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -2543,6 +2405,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2550,6 +2413,8 @@ replicator:
                     text: Studienform
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2566,6 +2431,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2573,6 +2439,8 @@ replicator:
                     text: 'Studiendauer: Informatik'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2615,9 +2483,12 @@ replicator:
                     anchor_name: prufungsleistung
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2625,6 +2496,8 @@ replicator:
                     text: Prüfungsleistungen
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2639,13 +2512,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Hausarbeit schreiben lassen'
                   -
                     type: text
@@ -2657,14 +2531,17 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/examensarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Schreiben einer Examensarbeit'
                   -
                     type: text
                     text: '. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2673,16 +2550,12 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriting
                   -
                     type: text
@@ -2763,10 +2636,9 @@ replicator:
                     type: anchor_target
                     anchor_name: allgemein
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -2774,6 +2646,8 @@ replicator:
                     text: 'Allgemeines zur Informatik'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2789,12 +2663,16 @@ replicator:
                     text: 'Die Boolesche Algebra beschäftigt sich mit den logischen Beziehungen zweier Ausdrücke, beispielsweise durch die Operatoren UND, ODER und NICHT. Weitere Grundlagen legte Alan Turing 1937 mit der Erfindung seiner Turingmaschine, welche eine Definition von Berechenbarkeit liefert. Eine Funktion heißt berechenbar, gibt es eine Turingmaschine, welche sie berechnen kann. Auf dieses Modell wird bis heute Bezug genommen, geht es um die Berechenbarkeit von Funktionen. Der Begriff „Informatik“ wurde im deutschen Sprachgebrauch nach einem internationalen Kolloquium 1968 etabliert.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Heutzutage ist die Informatik nicht mehr nur als rein technische Wissenschaft zu verstehen, sondern wird ergänzt von sozialen und individuellen Gesichtspunkten, womit sich beginnend philosophisch humanistische Züge in den Informatikgedanken drängen. Man spricht von deterministischen Prozessen, die über den technik-deterministischen Prozess hinausgehen und zu einem Evolutionsprozess in Informatikweltbild führen. Gerade in der Entwicklung auf den Gebieten „Computional Neurology“ und „Brain-Computer Interfaces“ fließen das aktuelle Menschen- und Arbeitsbild ein und erweitern den Realitätsausschnitt, der in der Informatik sonst relativ klein ist. Objektivierbarkeit und Wirklichkeit greifen mehr und mehr ineinander.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2808,9 +2686,12 @@ replicator:
                     anchor_name: disziplin
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2818,6 +2699,8 @@ replicator:
                     text: 'Disziplinen der Informatik'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2825,6 +2708,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 4
                 content:
                   -
@@ -2832,6 +2716,8 @@ replicator:
                     text: Subdisziplinen
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2850,16 +2736,12 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/wirtschaftsinformatik
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: "Wirtschaftsinformatik\_"
                   -
                     type: text
@@ -2872,6 +2754,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2879,6 +2762,8 @@ replicator:
                     text: 'Der Theoretischen Informatik unterliegen die Teilbereiche:'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2920,6 +2805,8 @@ replicator:
                     text: '• Graphentheorie.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2927,6 +2814,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2934,6 +2822,8 @@ replicator:
                     text: 'Daneben befasst sich die Praktische Informatik u.a mit:'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2955,6 +2845,8 @@ replicator:
                     text: '• dem Compilierbau'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2962,6 +2854,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2969,6 +2862,8 @@ replicator:
                     text: 'Zur Technischen Informatik gehören:'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3007,28 +2902,28 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/elektrotechnik
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Elektrotechnik
                   -
                     type: text
                     text: .
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Mittels dieser Subdisziplinen der Technischen Informatik werden neue Konzepte und Konfigurationen sowohl für Hardware als auch für Computerprogramme als Teilnehmersystem oder Verbundsystem generiert. Ergänzt durch die Produktion von Programmen, die der Steuerung elementarer Hardwarefunktionen dienen und eine Automatisierung der Hardwareeinheiten einzeln als auch als Rechenanlagen ermöglichen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3037,16 +2932,12 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/medizin
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Medizin
                   -
                     type: text
@@ -3055,16 +2946,12 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/mathematik
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Mathematik
                   -
                     type: text
@@ -3098,10 +2985,9 @@ replicator:
                     type: anchor_target
                     anchor_name: ziel
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -3109,6 +2995,8 @@ replicator:
                     text: 'Ziele der Informatik'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3121,6 +3009,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -3128,6 +3017,8 @@ replicator:
                     text: 'Daneben sind spezifische Ziele unter anderem'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3161,6 +3052,8 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
             show_as_card: true
           -
             id: o1GpioE6
@@ -3175,6 +3068,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -3185,12 +3079,16 @@ replicator:
                     text: 'Berufsbilder im Informatiksektor'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Aufgrund der Breite der Themen und der verschiedenen Teildisziplinen ergeben sich zahlreiche Berufsaussichten für Informatiker. So arbeiten Informatiker oder Informatikerinnen beispielsweise in Unternehmen der IT-Branche, an Universitäten, Unternehmen und Einrichtungen, die sich mit Informations- und Kommunikationstechnik befassen, in der Projektleitung in allen Bereichen der Industrie, der Dienstleistungen, des Handels, der öffentlichen Verwaltung, der Unternehmensberatung und der Versicherungen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3227,6 +3125,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -3234,21 +3133,16 @@ replicator:
                     text: 'Ghostwriter im Softwarelokalisierung (Subdisziplin)'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
                     text: 'Die Möglichkeit, Softwarelokalisierung zu studieren, hängt von den Bildungseinrichtungen und Hochschulen ab, die dieses Fach als Teil ihres Studienangebots führen. Softwarelokalisierung kann als eigenständiges Studium angeboten werden oder in verwandten Studiengängen wie Übersetzungswissenschaften, Informatik, Sprachwissenschaften oder Technische Redaktion integriert sein. Es kann sowohl auf Bachelor- als auch auf Master-Ebene studiert werden.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -3256,21 +3150,16 @@ replicator:
                     text: 'Was ist Softwarelokalisierung?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
                     text: 'Softwarelokalisierung bezieht sich auf den Prozess der Anpassung von Software oder digitalen Inhalten, wie Anwendungen, Websites oder Videospielen, an verschiedene kulturelle, sprachliche und regionale Bedürfnisse, um sie in verschiedenen Ländern und für verschiedene Zielgruppen erfolgreich zu vermarkten und zu nutzen.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -3278,28 +3167,24 @@ replicator:
                     text: 'Wie können Ghostwriter in Softwarelokalisierung den Studierenden helfen?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
                     text: 'Ghostwriter in Softwarelokalisierung können den Studierenden auf verschiedene Weisen helfen:'
-                attrs:
-                  textAlign: start
               -
                 type: orderedList
                 attrs:
-                  order: 1
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3315,6 +3200,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3330,6 +3217,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3345,6 +3234,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3360,6 +3251,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3393,31 +3286,28 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: Disclaimer
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-                attrs:
-                  textAlign: left
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Einige unserer Blogartikel zum Thema Informatik Ghostwriter'
               -
                 type: set
@@ -3432,157 +3322,118 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Nützliche Weblinks'
+              -
+                type: paragraph
+                attrs:
                   textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Nützliche Weblinks'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://www.informatik.kit.edu/'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Fakultät für Informatik – Karlsruher Institut für Technologie'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://studiengaenge.zeit.de/studium/mathematik-und-informatik/informatik/informatik'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Informatik studieren – Zeit Online'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Informatikstudium'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Informatikstudium – Wikipedia'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://de.wikibooks.org/wiki/Regal:EDV'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Regal EDV – Wikibooks'
-                attrs:
-                  textAlign: left
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Fachgesellschaften aus der Informatik'
+              -
+                type: paragraph
+                attrs:
                   textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'Fachgesellschaften aus der Informatik'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://gi.de/'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Gesellschaft für Informatik'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://www.acm.org/'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Association for Computing Machinery'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: 'https://www.ieee.org/'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Institute for Electrical and Electronics Engineers'
-                attrs:
-                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
