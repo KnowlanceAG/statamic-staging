@@ -122,7 +122,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705949683
+updated_at: 1705951919
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,6 +141,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -152,8 +154,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriter
                   -
                     type: text
@@ -165,8 +168,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Bachelorarbeit
                   -
                     type: text
@@ -178,14 +182,17 @@ replicator:
                         type: link
                         attrs:
                           href: /gwriters-akademie/akademisches-ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'akademischen Ghostwritern '
                   -
                     type: text
                     text: 'eine Mustervorlage schreiben lassen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -197,8 +204,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/bwl
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Betriebswirtschaftslehre
                   -
                     type: text
@@ -210,8 +218,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/vwl
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Volkswirtschaftslehre
                   -
                     type: text
@@ -226,6 +235,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -233,6 +243,8 @@ replicator:
                     text: 'Wie können im Fachbereich Geowissenschaften Ghostwriter helfen?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -244,8 +256,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/mathematik
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: ' Mathematik'
                   -
                     type: text
@@ -257,14 +270,17 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/biologie
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Biologie
                   -
                     type: text
                     text: '. Der Vorteil ist, dass solche Ghostwriter Geowissenschaften auch in ihrer täglichen Tätigkeit anwenden und daher Praktiker und Theoretiker in einer Person sind.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -276,8 +292,9 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://gwriters.de/blog/ghostwriter-abschlussarbeit-schreiben-lassen'
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Erstellen von Mustervorlagen'
                   -
                     type: text
@@ -289,8 +306,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Haus-
                   -
                     type: text
@@ -302,8 +320,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Seminar-
                   -
                     type: text
@@ -315,8 +334,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Bachelor–
                   -
                     type: text
@@ -328,8 +348,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Masterarbeiten
                   -
                     type: text
@@ -341,8 +362,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/forschungsluecke-finden
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: ' aktuellen Forschungsstand'
                   -
                     type: text
@@ -354,14 +376,17 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/literaturrecherche-datenbanken-quellen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'wissenschaftlicher Literatur'
                   -
                     type: text
                     text: .
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -373,13 +398,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -390,6 +416,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -410,172 +437,142 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: underline
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(193, 76, 0)'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: underline
                     text: Ghostwriting
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/uebersetzung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Übersetzung
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: maZHOnej
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /korrektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /leistungen/formatierung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Formatierung
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Plagiatsprüfung
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: Zq8aXTMS
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'MAXQDA Auswertung'
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
                         type: link
                         attrs:
                           href: /promotionsberatung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Promotionsberatung
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -619,157 +616,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
