@@ -3233,8 +3233,8 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
@@ -3245,10 +3245,11 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Summary schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3260,8 +3261,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/germanistik-ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Germanistik
                   -
                     type: text
@@ -3273,8 +3275,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/sozialwissenschaften
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Sozialwissenschaften
                   -
                     type: text
@@ -3286,8 +3289,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/bwl
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: BWL
                   -
                     type: text
@@ -3299,8 +3303,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/biologie
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Biologie
                   -
                     type: text
@@ -3312,8 +3317,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/kommunikationswissenschaften
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Kommunikationswissenschaften
                   -
                     type: text
@@ -3325,14 +3331,17 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/psychologie
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Psychologie Ghostwriter'
                   -
                     type: text
                     text: ' Experten beim Schreiben von Summaries. Unsere Experten sind versiert im Umschreiben, Zusammenfassen und Überarbeiten von Texten. Durch ihre tägliche Arbeit mit wissenschaftlichen Texten zu verschiedenen Themen bringen sie umfangreiche Erfahrungen mit. Auch können Ghostwriter Mustertexte für Forschungsartikeln, Fallstudien oder anderen Inhalten zu erstellen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
@@ -3341,22 +3350,21 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Sie möchten eine Musterarbeit für Ihre '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
                     text: Hausarbeit
                   -
                     type: text
@@ -3365,22 +3373,21 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: ' oder '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
@@ -3389,10 +3396,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: ', in der Sie ein Summary schreiben sollen. Sie können gerne bei einem Ghostwriter Ihr Summary schreiben.'
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -3403,6 +3407,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -3410,6 +3415,8 @@ replicator:
                     text: 'Mit AI-Tools Summary schreiben'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3444,15 +3451,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: Disclaimer
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3461,10 +3469,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
-                attrs:
-                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -3515,7 +3520,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705937556
+updated_at: 1705937580
 template: default
 use_meta_keywords: false
 no_index_page: false
