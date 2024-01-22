@@ -129,7 +129,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705947235
+updated_at: 1705951487
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -149,6 +149,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -162,98 +163,84 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: '#biologie'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Unsere Ghostwriter im Fachbereich Biologie'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: '#studium'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Das Biologie-Studium'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: '#allgemein'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Zur Biologie'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#ghostwriting'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Biologie & Ghostwriting'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -262,14 +249,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#biotechnologie'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Ghostwriter Biotechnologie'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -278,44 +268,36 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#unterschied'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Unterschiede: Biologie vs. Biotechnologie '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'Mithilfe unserer akademischen Bearbeiter können Abgabefristen für Haus- und Seminararbeiten ebenso wie für Praktikumsauswertungen und wissenschaftliche Paper eingehalten werden, so dass weder Ihre Regelstudienzeit noch Ihr Studienergebnis durch biologiefremde Kurse gefährdet werden. Denn gerade die Nebenfächer stellen ebenso hohe Anforderungen wie das Studium der Biologie selbst, wonach man den Eindruck gewinnen könnte, man studiere zwei und mehr Fächer in der Regelstudienzeit eines Faches und bei einem Tag, der auch nicht mehr als 24 Stunden zur Verfügung stellt. Unsere Biologie-'
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriter
                   -
                     type: text
-                    marks: {  }
                     text: "\_und Freelancer beraten, begleiten und unterstützen Sie mit Mustervorlagen für allen Formen wissenschaftlicher Arbeiten und helfen Ihnen, Ihr Studium in einem überschaubaren Zeitrahmen und mit gewünschten Ergebnissen abschließen zu können."
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -325,34 +307,27 @@ replicator:
                     custom_sidebar_placement: 'on'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Wenn Sie bei Ihrer akademischen Arbeit im Fachbereich Biologie Unterstützung benötigen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -360,8 +335,6 @@ replicator:
                       -
                         type: bold
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -372,65 +345,42 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: start
                   level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Ghostwriter im Fachbereich Biologie'
+              -
+                type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Unsere Ghostwriter im Fachbereich Biologie'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Seit der Entstehung von GWriters im Jahr 2011 bauen wir unsere Plattform mit Akademikern stetig aus. Aktuell zählen dazu eine Vielzahl an Ghostwritern,\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /lektorat/lektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektoren
                   -
                     type: text
-                    marks: {  }
                     text: ', Coaches, Übersetzer und andere Freelancer. Einen Großteil der akademischen Bearbeiter bilden dabei naturwissenschaftliche Ghostwriter, da insbesondere in diesen Fachgebieten Ausarbeitungen einen höchst anspruchsvollen, individuellen und oftmals aufwendigen Mix aus Theorie und Praxis aufweisen.'
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'Unsere Ghostwriter im Fachbereich Biologie sind allesamt erfahrene Akademiker mit mindestens zwei akademischen Graden, die sich neben der spezifischen wissenschaftlichen Abhandlung auch mit den Anforderungen der einzelnen studienbezogenen Arbeitenarten wie Hausarbeiten, Bachelor- und Masterarbeiten auskennen. Ghostwriter für Dissertationen verfügen zudem selbst über mindestens einen Doktortitel und forschen oder forschten in einem naturwissenschaftlichen Fachgebiet. Je nachdem welche Form von Unterstützung Sie benötigen, bieten wir Ihnen individuelle Konzepte und die Unterstützung durch einen Bearbeiter aus Ihrem biologischen Themenschwerpunkt, sodass Ihre Wünsche zeitnah und qualitativ hochwertig umgesetzt werden können. Zudem stehen wir Ihnen auch nach Fertigstellung der Arbeit zur Seite, wenn Sie Korrekturen wünschen oder Abschlussarbeiten wie Dissertationen in wissenschaftliche Veröffentlichungen umgewandelt werden sollen. So bleibt Ihnen die Zeit sich dem eigentlichen Studium und der Forschung zu widmen. Gerade wo letztere im Biologiestudium von Anfang dazu gehört und maßgeblich die spätere Karriere und den späteren Werdegang beeinflusst.'
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -441,6 +391,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -461,172 +412,142 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: underline
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(193, 76, 0)'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: underline
                     text: Ghostwriting
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/uebersetzung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Übersetzung
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: N3nZNZoI
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /korrektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /leistungen/formatierung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Formatierung
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Plagiatsprüfung
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: O6JE2uUc
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'MAXQDA Auswertung'
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
                         type: link
                         attrs:
                           href: /promotionsberatung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Promotionsberatung
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -670,157 +591,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -1387,11 +1242,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
                     text: 'Die Biotechnologie ist ein komplexes Fachgebiet, das sich mit der Anwendung von biologischen Prozessen und Organismen zur Entwicklung neuer Technologien und Produkte befasst. Im Zuge der wachsenden Bedeutung dieses innovativen Forschungsbereichs entsteht bei Studierenden und Forschenden in der Biotechnologie ein steigender Bedarf an qualitativ hochwertigen wissenschaftlichen Arbeiten.'
               -
                 type: paragraph
@@ -1447,15 +1297,7 @@ replicator:
                     text: Medizin
                   -
                     type: text
-                    text: ','
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                    text: ' '
+                    text: ', '
                   -
                     type: text
                     marks:
@@ -1494,11 +1336,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
                     text: 'Der Hauptunterschied liegt darin, dass die Biologie als Wissenschaft die Grundlagen und Zusammenhänge des Lebens erforscht, während die Biotechnologie die Anwendung dieses Wissens nutzt, um praktische Lösungen für verschiedene Bereiche zu entwickeln. Die Biotechnologie ist also eine angewandte Disziplin, die biologische Erkenntnisse in Technologien und Produkte umsetzt, während die Biologie als Forschungsfach grundlegende Erkenntnisse über lebende Organismen generiert.'
               -
                 type: table
@@ -1591,11 +1428,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
                     text: 'Die Biotechnologie bzw. Biotechnik wird in der Lebensmittelindustrie eingesetzt, um wertvolle Produkte herzustellen, die den Alltag der Menschen verbessern können. Ein bedeutendes Beispiel ist die Herstellung von Insulin mittels Gentechnik.'
               -
                 type: set
@@ -1604,8 +1436,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>Beispiel:</b> Biotechnologie in der Lebensmittelproduktion - Herstellung von Insulin durch Gentechnik</div>
+                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
+                        &lt;b&gt;Beispiel:&lt;/b&gt; Biotechnologie in der Lebensmittelproduktion - Herstellung von Insulin durch Gentechnik&lt;/div&gt;
               -
                 type: paragraph
                 attrs:
@@ -1613,11 +1445,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
                     text: 'Früher wurde Insulin zur Behandlung von Diabetes aus der Bauchspeicheldrüse von Schlachttieren gewonnen, was teuer und aufwendig war. Mit Hilfe der Biotechnologie gelang es jedoch, den genetischen Code für das Insulin-Protein zu identifizieren und in Bakterien einzuschleusen.'
               -
                 type: set
@@ -1642,11 +1469,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Wie kann ein Ghostwriter in der Biotechnologie behilflich sein?'
               -
                 type: orderedList
@@ -1666,10 +1488,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Literaturrecherche und -analyse: '
                           -
                             type: text
@@ -1687,10 +1505,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Verfassen von wissenschaftlichen Artikeln: '
                           -
                             type: text
@@ -1708,10 +1522,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Erstellung von Laborprotokollen: '
                           -
                             type: text
@@ -1729,10 +1539,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Unterstützung bei Abschlussarbeiten: '
                           -
                             type: text
@@ -1750,10 +1556,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Analyse von Forschungsdaten: '
                           -
                             type: text
@@ -1771,10 +1573,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Verfassen von Forschungsanträgen: '
                           -
                             type: text
@@ -1792,10 +1590,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Erstellung von Präsentationen: '
                           -
                             type: text
@@ -1813,10 +1607,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Fachübergreifende Projekte: '
                           -
                             type: text
@@ -1858,11 +1648,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
