@@ -1471,6 +1471,9 @@ replicator:
                             content:
                               -
                                 type: text
+                                marks:
+                                  -
+                                    type: bold
                                 text: Schritte
                       -
                         type: tableCell
@@ -1487,6 +1490,9 @@ replicator:
                             content:
                               -
                                 type: text
+                                marks:
+                                  -
+                                    type: bold
                                 text: Beschreibung
                       -
                         type: tableCell
@@ -1502,6 +1508,9 @@ replicator:
                             content:
                               -
                                 type: text
+                                marks:
+                                  -
+                                    type: bold
                                 text: Protokoll-Beispiel
                   -
                     type: tableRow
@@ -1515,24 +1524,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: left
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Kopfzeile
+                                    type: bold
+                                text: Kopfzeile
                       -
                         type: tableCell
                         attrs:
@@ -1544,15 +1545,10 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Versehen Sie das Protokoll mit einer Kopfzeile, die Informationen wie den Veranstaltungsnamen, das Datum, den Ort und den Verfasser enthält.'
                       -
                         type: tableCell
@@ -1571,37 +1567,23 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(255, 255, 255)'
-                                text: 'Protokoll der Vorlesung '
+                                text: 'Protokoll der Vorlesung: '
                               -
                                 type: text
-                                text: '"Einführung in die Informatik" '
+                                text: '"Einführung in die Informatik" Datum: 10. Mai 2023'
                               -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Datum:'
-                              -
-                                type: text
-                                text: ' 10. Mai 2023 Ort: '
+                                type: hardBreak
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                text: 'Fachrichtung: '
+                                text: 'Ort: Fachrichtung:'
                               -
                                 type: text
-                                text: Informatik
-                          -
-                            type: paragraph
-                            attrs:
-                              textAlign: left
-                            content:
+                                text: ' Informatik'
+                              -
+                                type: hardBreak
                               -
                                 type: text
                                 marks:
@@ -1623,24 +1605,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: left
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                        text: Einleitung
+                                    type: bold
+                                text: Einleitung
                       -
                         type: tableCell
                         attrs:
@@ -1652,15 +1626,10 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Geben Sie eine kurze Einleitung, die den Anlass des Protokolls erläutert. Nennen Sie das Ziel der Veranstaltung oder des Experiments.'
                       -
                         type: tableCell
@@ -1689,28 +1658,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                        text: 'Teilnehmer und Anwesenheit:'
+                                    type: bold
+                                text: 'Teilnehmer und Anwesenheit:'
                       -
                         type: tableCell
                         attrs:
@@ -1722,15 +1679,10 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Listen Sie die Teilnehmer auf und geben Sie an, wer anwesend war und wer nicht.'
                       -
                         type: tableCell
@@ -1759,28 +1711,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                        text: Tagesordnung
+                                    type: bold
+                                text: Tagesordnung
                       -
                         type: tableCell
                         attrs:
@@ -1796,11 +1736,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
                                 text: 'Strukturieren Sie das Protokoll nach den verschiedenen Tagesordnungspunkten oder Abschnitten des Experiments.'
                       -
                         type: tableCell
@@ -1842,16 +1777,8 @@ replicator:
                                 text: 'Punkt 2: Grundlagen der Programmierung - '
                               -
                                 type: hardBreak
-                                marks:
-                                  -
-                                    type: bold
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(255, 255, 255)'
                                 text: 'Einführung in grundlegende Konzepte der Programmierung wie Variablen, Datentypen und Schleifen. - Demonstration von einfachen Codebeispielen.'
                   -
                     type: tableRow
@@ -1865,28 +1792,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                        text: 'Details und Ereignisse festhalten:'
+                                    type: bold
+                                text: 'Details und Ereignisse festhalten:'
                       -
                         type: tableCell
                         attrs:
@@ -1898,15 +1813,10 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Notieren Sie während der Veranstaltung oder des Experiments relevante Details, Entscheidungen, Diskussionen und Ereignisse. Achten Sie darauf, objektiv und präzise zu sein.'
                       -
                         type: tableCell
@@ -1925,62 +1835,31 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: var(--tw-prose-bold)
                                 text: 'Einführung in Programmiersprachen:'
                           -
-                            type: bulletList
+                            type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: left
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                        text: 'Diskussion über die Grundlagen von Programmiersprachen wie Python und Java.'
+                                type: text
+                                text: 'Diskussion über die Grundlagen von Programmiersprachen wie Python und Java.'
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
                               -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: left
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                        text: 'Entscheidung, exemplarische Codebeispiele zur Veranschaulichung zu verwenden.'
+                                type: text
+                                text: 'Entscheidung, exemplarische Codebeispiele zur Veranschaulichung zu verwenden.'
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
                               -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: left
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                        text: 'Teilnehmer erhielten die Aufgabe, einfache Programme zu schreiben.'
+                                type: text
+                                text: 'Teilnehmer erhielten die Aufgabe, einfache Programme zu schreiben.'
                   -
                     type: tableRow
                     content:
@@ -1993,28 +1872,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                        text: 'Zeitliche Abfolge:'
+                                    type: bold
+                                text: 'Zeitliche Abfolge:'
                       -
                         type: tableCell
                         attrs:
@@ -2026,15 +1893,10 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Halten Sie die zeitliche Abfolge der Ereignisse fest, um den Verlauf klar nachvollziehbar zu machen.'
                       -
                         type: tableCell
@@ -2046,119 +1908,65 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: var(--tw-prose-bold)
                                 text: '09:00 - 10:30 Uhr: Einführung in Programmiersprachen'
-                          -
-                            type: bulletList
-                            content:
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                        text: 'Präsentation der Grundlagen von Python und Java.'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                        text: 'Live-Codierung von einfachen Beispielen.'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                        text: 'Diskussion und Beantwortung von Fragen.'
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Präsentation der Grundlagen von Python und Java.'
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Live-Codierung von einfachen Beispielen.'
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Diskussion und Beantwortung von Fragen.'
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: var(--tw-prose-bold)
                                 text: '11:00 - 12:30 Uhr: Datenbankmanagement'
                           -
-                            type: bulletList
+                            type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                        text: 'Theoretische Erläuterung von DBMS-Konzepten.'
+                                type: text
+                                text: 'Theoretische Erläuterung von DBMS-Konzepten.'
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
                               -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                        text: 'Vorstellung verschiedener Datenbanktypen.'
+                                type: text
+                                text: 'Vorstellung verschiedener Datenbanktypen.'
                   -
                     type: tableRow
                     content:
@@ -2171,28 +1979,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                        text: 'Beschlüsse und Ergebnisse:'
+                                    type: bold
+                                text: 'Beschlüsse und Ergebnisse:'
                       -
                         type: tableCell
                         attrs:
@@ -2204,15 +2000,10 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Fassen Sie am Ende jedes Abschnitts die getroffenen Beschlüsse und die erzielten Ergebnisse zusammen.'
                       -
                         type: tableCell
@@ -2241,28 +2032,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                        text: 'Aufgaben und Verantwortlichkeiten:'
+                                    type: bold
+                                text: 'Aufgaben und Verantwortlichkeiten:'
                       -
                         type: tableCell
                         attrs:
@@ -2274,15 +2053,10 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Falls relevant, notieren Sie Aufgaben, die nach der Sitzung oder dem Experiment erledigt werden müssen, sowie die zugehörigen Verantwortlichkeiten.'
                       -
                         type: tableCell
@@ -2311,28 +2085,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                        text: 'Schlussbemerkungen:'
+                                    type: bold
+                                text: 'Schlussbemerkungen:'
                       -
                         type: tableCell
                         attrs:
@@ -2344,15 +2106,10 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Schließen Sie das Protokoll mit Schlussbemerkungen oder einem Fazit ab. Geben Sie gegebenenfalls einen Ausblick auf künftige Schritte.'
                       -
                         type: tableCell
@@ -2381,28 +2138,16 @@ replicator:
                             - 222
                         content:
                           -
-                            type: orderedList
+                            type: paragraph
                             attrs:
-                              start: 1
+                              textAlign: left
                             content:
                               -
-                                type: listItem
-                                content:
+                                type: text
+                                marks:
                                   -
-                                    type: paragraph
-                                    attrs:
-                                      textAlign: start
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                        text: 'Unterschriften:'
+                                    type: bold
+                                text: 'Unterschriften:'
                       -
                         type: tableCell
                         attrs:
@@ -2414,15 +2159,10 @@ replicator:
                           -
                             type: paragraph
                             attrs:
-                              textAlign: start
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Lassen Sie das Protokoll von den Teilnehmern unterschreiben, um die Richtigkeit und Zustimmung zu bestätigen.'
                       -
                         type: tableCell
@@ -3778,6 +3518,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -3788,6 +3529,8 @@ replicator:
                     text: 'Warum sind Protokoll-Arbeiten im Studium so wichtig?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3795,13 +3538,15 @@ replicator:
               -
                 type: orderedList
                 attrs:
-                  order: 1
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
@@ -3812,10 +3557,7 @@ replicator:
                                 type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
                             text: 'Dokumentation von Veranstaltungen/Vorlesungen:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -3824,6 +3566,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
@@ -3832,15 +3576,14 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
                                     text: 'Protokolle dienen dazu, wichtige Informationen, Diskussionen und Entscheidungen während Veranstaltungen, Seminaren oder Vorlesungen festzuhalten.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
@@ -3851,10 +3594,7 @@ replicator:
                                 type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
                             text: 'Lernhilfe:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -3863,6 +3603,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
@@ -3871,15 +3613,14 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
                                     text: 'Das Verfassen von Protokollen fördert das aktive Zuhören und Verständnis des behandelten Stoffs. Das Schreiben der Zusammenfassung erleichtert das Lernen und Vertiefen des Gelernten.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
@@ -3890,10 +3631,7 @@ replicator:
                                 type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
                             text: 'Vorbereitung auf Prüfungen:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -3902,6 +3640,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
@@ -3910,15 +3650,14 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
                                     text: 'Protokolle bieten eine kompakte Zusammenfassung des Lehrstoffes und können als effektive Studienhilfe für Prüfungen dienen.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
@@ -3929,10 +3668,7 @@ replicator:
                                 type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
                             text: 'Kommunikation und Klarheit:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -3941,6 +3677,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
@@ -3949,15 +3687,14 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
                                     text: 'Durch das Verfassen von Protokollen wird die Fähigkeit zur klaren und prägnanten Kommunikation entwickelt, da wichtige Informationen in strukturierter Form präsentiert werden müssen.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
@@ -3968,10 +3705,7 @@ replicator:
                                 type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
                             text: 'Festhalten von Beschlüssen:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -3980,6 +3714,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
@@ -3988,15 +3724,14 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
                                     text: 'In Sitzungen oder Gruppenarbeiten dienen Protokolle dazu, Beschlüsse und Vereinbarungen festzuhalten. Dies trägt zur Transparenz und Verantwortlichkeit bei.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
@@ -4007,10 +3742,7 @@ replicator:
                                 type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
                             text: 'Praktische Erfahrung:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -4019,6 +3751,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
@@ -4027,15 +3761,14 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
                                     text: 'Das Schreiben von Protokollen ermöglicht es Studierenden, praktische Fertigkeiten wie das strukturierte Formulieren, das Organisieren von Informationen und das Arbeiten mit formalen Dokumenten zu entwickeln.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
@@ -4046,10 +3779,7 @@ replicator:
                                 type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
                             text: 'Bewertung und Feedback:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -4058,6 +3788,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
@@ -4066,15 +3798,14 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgb(55, 65, 81)'
-                                          hex: '#000'
                                     text: 'In einigen Fällen werden Protokolle von Dozenten bewertet, wodurch Studierende konstruktives Feedback zu ihren schriftlichen Fähigkeiten erhalten können.'
-                                attrs:
-                                  textAlign: start
               -
                 type: blockquote
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -4092,8 +3823,8 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
@@ -4104,10 +3835,11 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: Disclaimer
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4116,10 +3848,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
-                attrs:
-                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -4128,7 +3857,7 @@ replicator:
         columns_per_row: 0
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705937723
+updated_at: 1705937924
 template: default
 use_meta_keywords: false
 no_index_page: false
