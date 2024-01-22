@@ -1798,6 +1798,8 @@ replicator:
                     padding-y: 12
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2454,7 +2456,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705956025
+updated_at: 1705956043
 meta_title: 'Examensarbeit schreiben lassen | Hilfe vom Ghostwriter'
 meta_description: 'Examensarbeit Ghostwriter | Examensarbeit schreiben lassen ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012!'
 use_meta_keywords: false
