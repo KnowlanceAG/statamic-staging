@@ -5670,15 +5670,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: Disclaimer
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -5687,10 +5688,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
-                attrs:
-                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -5698,7 +5696,7 @@ replicator:
         columns_per_row: 0
       -
         id: lalgfn1f
-        single_col: false
+        single_col: true
         grid:
           -
             id: K8GiAu4i
@@ -5741,7 +5739,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705936939
+updated_at: 1705937001
 template: default
 use_meta_keywords: false
 no_index_page: false
