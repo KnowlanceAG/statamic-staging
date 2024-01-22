@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,24 +16,20 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Studienarbeit schreiben lassen'
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: bold
-          -
             type: textColor
             attrs:
               color: '#000!important'
-              hex: '#000'
         text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Studienarbeit'
   -
     type: set
@@ -95,6 +91,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -102,28 +100,26 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 replicator:
   -
@@ -331,36 +327,30 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
-                    marks: {  }
                     text: 'Services anhand unserer Kundenstimmen'
               -
                 type: heading
                 attrs:
-                  level: 4
                   textAlign: center
+                  level: 4
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
               -
                 type: set
@@ -405,10 +395,9 @@ replicator:
                     type: anchor_target
                     anchor_name: ghostwriter
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -416,6 +405,8 @@ replicator:
                     text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Studienarbeit'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -440,6 +431,8 @@ replicator:
                     text: .
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -451,8 +444,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwritern
                   -
                     type: text
@@ -464,8 +458,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'akademische Ghostwriting'
                   -
                     type: text
@@ -477,14 +472,17 @@ replicator:
                         type: link
                         attrs:
                           href: /leistungen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'breite Palette von Dienstleistungen'
                   -
                     type: text
                     text: ' in diesem Bereich an. Viele Studierende möchten eine Musterarbeit für ihre Studienarbeit erstellen lassen. '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -505,8 +503,9 @@ replicator:
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'professionelles Lektorat'
                   -
                     type: text
@@ -518,8 +517,9 @@ replicator:
                         type: link
                         attrs:
                           href: /korrektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektorat
                   -
                     type: text
@@ -531,8 +531,9 @@ replicator:
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Plagiatsprüfung '
                   -
                     type: text
@@ -545,44 +546,33 @@ replicator:
                     type: anchor_target
                     anchor_name: schreiben-lassen
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: left
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Mustervorlage für Studienarbeit schreiben\_lassen"
                   -
                     type: hardBreak
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: '– Wie funktioniert die Kooperation?'
               -
                 type: set
@@ -734,6 +724,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -741,6 +732,8 @@ replicator:
                     text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -752,13 +745,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -1143,10 +1137,9 @@ replicator:
                     type: anchor_target
                     anchor_name: beispiel
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1154,6 +1147,8 @@ replicator:
                     text: 'Professionelle Unterstützung durch akademische Experten: Beispiel-Studienarbeit'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1174,8 +1169,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Hausarbeiten
                   -
                     type: text
@@ -1187,8 +1183,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Seminararbeiten
                   -
                     type: text
@@ -1200,8 +1197,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/essay
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Essays
                   -
                     type: text
@@ -1213,14 +1211,17 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/facharbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Facharbeiten
                   -
                     type: text
                     text: ', Projektarbeiten usw. Wenn Sie beispielsweise eine Mustervorlage für Ihre Studienarbeit schreiben lassen möchten, können Sie uns gerne eine kostenlose Anfrage senden.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1232,8 +1233,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting-beispielarbeiten
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'kostenlosen Beispiel-Studienarbeiten'
                   -
                     type: text
@@ -1245,8 +1247,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/sozialwissenschaften
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Sozialwissenschaften Ghostwriter'
                   -
                     type: text
@@ -1300,170 +1303,91 @@ replicator:
                     type: anchor_target
                     anchor_name: ghostwriter-beauftragen
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die Gründe für das Beauftragen von Ghostwritern für Studienarbeiten'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Das '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Beauftragen von Ghostwritern '
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'zur Unterstützung beim Verfassen von Studienarbeiten ist ein kontroverses Thema in der akademischen Welt. Diese Praxis hat sowohl Befürworter als auch Kritiker, und es gibt verschiedene Gründe, warum Studenten sich dafür entscheiden, professionelle Hilfe in Anspruch zu nehmen.'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Zeitmanagement und Verpflichtungen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Eine der häufigsten Motivationen für das Beauftragen von Ghostwritern ist das Zeitmanagement. '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Studenten stehen oft vor einer Fülle von Verpflichtungen, sei es in anderen Kursen, beruflichen Tätigkeiten oder persönlichen Angelegenheite'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'n. Das Schreiben einer qualitativ hochwertigen Studienarbeit erfordert jedoch eine erhebliche Zeiteinplanung, die nicht immer möglich ist. '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Kann ein Ghostwriter Studienarbeiten in kurzer Zeit verfassen?'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: ' Ghostwriter können diese zeitlichen Engpässe überbrücken und den Studierenden ermöglichen, ihre Zeit effizienter zu nutzen.'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Fachliche Expertise und Qualität'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Ein weiterer Grund für die Inanspruchnahme von Ghostwritern für Studienarbeiten ist die Gewährleistung von Fachkenntnissen und Qualität. '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Erfahrene Ghostwriter verfügen oft über umfangreiche Kenntnisse in bestimmten Fachgebieten und können eine Studienarbeit auf einem hohen Niveau schreiben'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: '. Dies ist besonders relevant, wenn das Thema der Arbeit anspruchsvoll oder spezialisiert ist.'
             show_as_card: false
           -
@@ -1472,146 +1396,80 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Akademischer Erfolg und bessere Noten'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die Qualität einer Studienarbeit kann einen erheblichen Einfluss auf die abschließende Bewertung und den akademischen Erfolg haben. Das '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Studienarbeit schreiben lassen '
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'als eine Musterarbeit kann dazu beitragen, eine herausragende Arbeit zu erstellen und die Chancen auf eine bessere Note zu erhöhen. Dies kann insbesondere für Studierende von Bedeutung sein, deren akademische Leistung von der Studienarbeit abhängt.'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Reduzierung von Stress und Druck'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Der Schreibprozess einer Studienarbeit kann mit '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'erheblichem Stress '
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'und '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: Schreibblockaden
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' einhergehen, was sich negativ auf das Wohlbefinden der Studierenden auswirken kann. Ghostwriter können dazu beitragen, diesen Stress zu reduzieren, indem sie die Verantwortung für den Schreibprozess übernehmen und den Studierenden entlasten.'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Lernmöglichkeiten und Unterstützung'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Schließlich kann die Zusammenarbeit mit einem Ghostwriter eine Gelegenheit bieten, zu lernen und sich weiterzuentwickeln. Studierende können den Schreibprozess mitverfolgen, von den Fachkenntnissen des Ghostwriters profitieren und ihre eigenen Fähigkeiten im wissenschaftlichen Schreiben verbessern.'
             show_as_card: false
         type: row
@@ -1637,12 +1495,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
@@ -2214,157 +2071,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -2745,6 +2536,8 @@ replicator:
                                   textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2786,20 +2579,18 @@ replicator:
                     type: anchor_target
                     anchor_name: definition
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
                     text: 'Was ist eine Studienarbeit?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2829,14 +2620,17 @@ replicator:
                         type: link
                         attrs:
                           href: /faq/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'wissenschaftliche Arbeit'
                   -
                     type: text
                     text: ', die im Rahmen eines Studiums geschrieben wird. '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2848,8 +2642,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Bachelorarbeit
                   -
                     type: text
@@ -2861,8 +2656,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Masterarbeit
                   -
                     type: text
@@ -2874,16 +2670,13 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/diplomarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Diplomarbeit
                   -
                     type: text
                     text: ' geschrieben. Es gibt verschiedene Arten von Studienarbeiten darunter sind, Essay, Hausarbeiten, Seminararbeit oder Projektarbeiten.'
-              -
-                type: heading
-                attrs:
-                  level: 3
             show_as_card: false
           -
             id: GkB02Mc4
@@ -2897,17 +2690,13 @@ replicator:
                     type: anchor_target
                     anchor_name: warum
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
                     text: 'Warum sind Studienarbeiten im Studium so wichtig?'
               -
                 type: bulletList
@@ -2917,6 +2706,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2935,6 +2726,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2950,6 +2743,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2967,8 +2762,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /ghostwriting/ghostwriting-agentur
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Ghostwriting-Agentur
                           -
                             type: text
@@ -2980,8 +2776,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /blog/bachelorarbeit-hilfe
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Bachelorarbeit Hilfe'
                           -
                             type: text
@@ -2991,6 +2788,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3008,8 +2807,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /blog/wissenschaftlicher-schreibstil
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'wissenschaftliches Schreiben'
                           -
                             type: text
@@ -3021,8 +2821,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /blog/literaturrecherche-datenbanken-quellen
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Literaturrecherche
                           -
                             type: text
@@ -3050,10 +2851,9 @@ replicator:
                     type: anchor_target
                     anchor_name: arten
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -3061,6 +2861,8 @@ replicator:
                     text: 'Unterschiede: Die Vielfalt von Studienarbeiten'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3087,48 +2889,36 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 265
-                          background: 'rgba(236, 236, 241, 0.2)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: var(--tw-prose-headings)
-                                      hex: '#000'
                                 text: 'Art der Studienarbeit'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableHeader
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgba(236, 236, 241, 0.2)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: var(--tw-prose-headings)
-                                      hex: '#000'
                                 text: Hauptmerkmale
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -3139,31 +2929,24 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 265
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: Hausarbeit
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: bulletList
@@ -3173,52 +2956,34 @@ replicator:
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Untersuchung eines Themas auf Grundlage vorhandener Literatur'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Breite Themenvielfalt'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Keine eigene empirische Forschung erforderlich'
-                                    attrs:
-                                      textAlign: left
                   -
                     type: tableRow
                     content:
@@ -3229,31 +2994,24 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 265
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: Seminararbeit
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: bulletList
@@ -3263,52 +3021,34 @@ replicator:
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Enge Verbindung mit Seminarmodul'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Vertiefte Auseinandersetzung mit im Seminar behandeltem Thema'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Analyse von Seminarmaterialien und Diskussionen'
-                                    attrs:
-                                      textAlign: left
                   -
                     type: tableRow
                     content:
@@ -3319,31 +3059,24 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 265
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: Essay
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: bulletList
@@ -3353,69 +3086,45 @@ replicator:
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Kurze wissenschaftliche Arbeit'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Klare Argumentation und präzise Darstellung von Ideen'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Verschiedene Themendisziplinen'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Keine umfangreiche Literaturrecherche erforderlich'
-                                    attrs:
-                                      textAlign: left
                   -
                     type: tableRow
                     content:
@@ -3426,31 +3135,24 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 265
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: Projektarbeit
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: bulletList
@@ -3460,52 +3162,34 @@ replicator:
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Forschungs- oder praxisorientierte Arbeit'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Eigene empirische Studie oder praktisches Projekt'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Häufig in Natur- und Ingenieurwissenschaften'
-                                    attrs:
-                                      textAlign: left
                   -
                     type: tableRow
                     content:
@@ -3516,31 +3200,24 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 265
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: Bachelorarbeit
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: bulletList
@@ -3550,52 +3227,34 @@ replicator:
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Abschlussarbeit im Bachelorstudium'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Eigenständige Forschung erforderlich'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Erster Schritt in die akademische Forschung'
-                                    attrs:
-                                      textAlign: left
                   -
                     type: tableRow
                     content:
@@ -3606,31 +3265,24 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 265
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: 'Masterarbeit (Masterthesis)'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: bulletList
@@ -3640,23 +3292,19 @@ replicator:
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Tiefgehende Auseinandersetzung mit einem Forschungsthema'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -3665,26 +3313,21 @@ replicator:
                                             type: link
                                             attrs:
                                               href: /blog/forschungsluecke-finden
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: 'Forschungslücke finden'
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Häufig empirische Forschung erforderlich'
-                                    attrs:
-                                      textAlign: left
                   -
                     type: tableRow
                     content:
@@ -3695,31 +3338,24 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 265
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: 'Doktorarbeit (Dissertation)'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: bulletList
@@ -3729,52 +3365,34 @@ replicator:
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Anspruchsvollste Studienarbeit'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Voraussetzung für die Promotion'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Umfangreiche, eigenständige Forschung'
-                                    attrs:
-                                      textAlign: left
               -
                 type: set
                 attrs:
@@ -3788,6 +3406,8 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -3801,6 +3421,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
             show_as_card: false
         type: row
@@ -3862,13 +3483,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Der Aufbau einer Studienarbeit'
               -
                 type: paragraph
@@ -5226,11 +4840,6 @@ replicator:
                                       -
                                         type: text
                                         text: enthalten.
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
             show_as_card: false
         type: row
         enabled: true
@@ -5276,16 +4885,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/deckblatt-vorlage
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Deckblatt
                               -
                                 type: listItem
@@ -5297,16 +4902,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /blog/bachelorarbeit-abstract
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Abstract
                               -
                                 type: listItem
@@ -5316,12 +4917,6 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: Vorwort
                               -
                                 type: listItem
@@ -5333,16 +4928,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/inhaltsverzeichnis-vorlage
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
                               -
                                 type: listItem
@@ -5354,40 +4945,26 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/abbildungsverzeichnis
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Abbildungs
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: '- und '
                                       -
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/tabellenverzeichnis-beispiel
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Tabellenverzeichnis
                               -
                                 type: listItem
@@ -5399,16 +4976,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/abkuerzungsverzeichnis
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Abkürzungsverzeichnis
                               -
                                 type: listItem
@@ -5420,16 +4993,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /blog/bachelorarbeit-einleitung
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Einleitung
                               -
                                 type: listItem
@@ -5439,12 +5008,6 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: Hauptteil
                               -
                                 type: listItem
@@ -5454,12 +5017,6 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: Schlussteil/Fazit
                               -
                                 type: listItem
@@ -5471,16 +5028,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/literaturverzeichnis-beispiel
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Literaturverzeichnis
                               -
                                 type: listItem
@@ -5492,16 +5045,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/anhangsverzeichnis
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Anhang
                               -
                                 type: listItem
@@ -5513,16 +5062,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/eidesstattliche-erklaerung-muster
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
                         active: false
             show_as_card: false
@@ -5556,11 +5101,6 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Wichtig: Vor der Abgabe müssen Sie alle Formatierungsrichtlinien beachten'
                           -
                             type: bulletList
@@ -5573,15 +5113,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: 'Die Seitenränder sollten in der Regel 2,5 cm betragen (oben, unten, links und rechts)'
-                                    attrs:
-                                      textAlign: start
                           -
                             type: bulletList
                             content:
@@ -5611,15 +5143,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Gängige Schriftarten sind Times New Roman, Arial oder Calibri'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -5628,15 +5152,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Die Schriftgröße beträgt normalerweise 12-Punkt'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -5683,11 +5199,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
             show_as_card: false
         type: row
@@ -5709,13 +5220,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Einige unserer Blogartikel zum Thema "Studienarbeit schreiben lassen"'
               -
                 type: set
@@ -5739,7 +5243,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705937001
+updated_at: 1705957168
 template: default
 use_meta_keywords: false
 no_index_page: false
