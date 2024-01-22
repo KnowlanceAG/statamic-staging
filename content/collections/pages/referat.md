@@ -134,7 +134,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704410340
+updated_at: 1705947345
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -267,7 +267,7 @@ replicator:
     columns_replicator:
       -
         id: PNh0uwHV
-        single_col: true
+        single_col: false
         grid:
           -
             id: d92ZVWKT
@@ -457,17 +457,6 @@ replicator:
                   -
                     type: text
                     text: .
-              -
-                type: set
-                attrs:
-                  id: lmqqhid9
-                  values:
-                    type: floating_img
-                    dateien:
-                      - blog/2023/referat-schreiben-lassen/referat-schreiben-lassen-min.jpg
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
               -
                 type: paragraph
             show_as_card: false
@@ -3781,238 +3770,55 @@ replicator:
                           hex: '#000'
                     text: 'Es gibt mehrere kostenlose Programme und Tools, die zur Erstellung von Referaten verwendet werden können. Hier sind einige beliebte Optionen:'
               -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: image
-                                attrs:
-                                  src: 'asset::assets::blog/2023/referat-schreiben-lassen/powerpoint-icon-min.png'
-                                  alt: null
-                              -
-                                type: text
-                                text: "\_"
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: 'https://www.microsoft.com/de-de/microsoft-365/powerpoint'
-                                      target: _blank
-                                      rel: 'noopener noreferrer nofollow'
-                                text: 'Microsoft PowerPoint Online'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                text: 'Dies ist die Online-Version von Microsoft '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /blog/bachelorarbeit-praesentation-powerpoint
-                                      target: null
-                                      rel: null
-                                text: 'PowerPoint-Präsentation für Bachelorarbeit'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                text: '  und ermöglicht das Erstellen von Präsentationen direkt im Webbrowser. Es ist Teil von Microsoft Office Online, das kostenlos genutzt werden kann.'
-                          -
-                            type: paragraph
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: image
-                                attrs:
-                                  src: 'asset::assets::blog/2023/referat-schreiben-lassen/libre-icon-min.png'
-                                  alt: null
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: 'https://www.libreoffice.org/discover/impress/'
-                                      target: _blank
-                                      rel: 'noopener noreferrer nofollow'
-                                text: 'LibreOffice Impress '
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Dies ist ein Open-Source-Präsentationsprogramm, das kostenlos heruntergeladen und installiert werden kann. Es bietet viele Funktionen ähnlich wie Microsoft PowerPoint.'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: image
-                                attrs:
-                                  src: 'asset::assets::blog/2023/referat-schreiben-lassen/canva-icon-min.png'
-                                  alt: null
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: 'https://www.canva.com/de_de/'
-                                      target: _blank
-                                      rel: 'noopener noreferrer nofollow'
-                                text: 'Canva '
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Obwohl Canva eher für das Erstellen von Grafiken und Designs bekannt ist, bietet es auch eine Präsentationsfunktion. Es ist einfach zu bedienen und bietet eine Vielzahl von Vorlagen.'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: image
-                                attrs:
-                                  src: 'asset::assets::blog/2023/referat-schreiben-lassen/google-logo-min.png'
-                                  alt: null
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: 'https://docs.google.com/presentation'
-                                      target: _blank
-                                      rel: 'noopener noreferrer nofollow'
-                                text: 'Google Präsentationen'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Dies ist ein webbasierter Dienst von Google, der ähnlich wie PowerPoint funktioniert. Es ermöglicht die Zusammenarbeit in Echtzeit und bietet viele Vorlagen.'
-              -
-                type: heading
+                type: set
                 attrs:
-                  level: 2
+                  id: lrp7wgf6
+                  values:
+                    type: img_text_ce
+                    bild:
+                      - seiten/arbeiten/powerpoint-icon.jpg
+                    vertical_alignment_img: self-center
+                    text: 'Dies ist die Online-Version von Microsoft [PowerPoint-Präsentation für Bachelorarbeit](/blog/bachelorarbeit-praesentation-powerpoint) und ermöglicht das Erstellen von Präsentationen direkt im Webbrowser. Es ist Teil von Microsoft Office Online, das kostenlos genutzt werden kann.'
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
+              -
+                type: set
+                attrs:
+                  id: lrp7yphr
+                  values:
+                    type: img_text_ce
+                    bild:
+                      - seiten/arbeiten/libre-icon.jpg
+                    vertical_alignment_img: self-center
+                    text: '[LibreOffice Impress](https://www.libreoffice.org/discover/impress/) ist ein Open-Source-Präsentationsprogramm, das kostenlos heruntergeladen und installiert werden kann. Es bietet viele Funktionen ähnlich wie Microsoft PowerPoint.'
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
+              -
+                type: set
+                attrs:
+                  id: lrp8bs7v
+                  values:
+                    type: img_text_ce
+                    bild:
+                      - seiten/arbeiten/canva-icon-1705946802.jpg
+                    vertical_alignment_img: self-center
+                    text: 'Obwohl [Canva](https://www.canva.com/de_de/) eher für das Erstellen von Grafiken und Designs bekannt ist, bietet es auch eine Präsentationsfunktion. Es ist einfach zu bedienen und bietet eine Vielzahl von Vorlagen.'
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  id: lrp8p6dm
+                  values:
+                    type: img_text_ce
+                    bild:
+                      - seiten/arbeiten/google-icon.jpg
+                    vertical_alignment_img: self-center
+                    text: '[Google Präsentation](https://docs.google.com/presentation) ist ein webbasierter Dienst von Google, der ähnlich wie PowerPoint funktioniert. Es ermöglicht die Zusammenarbeit in Echtzeit und bietet viele Vorlagen.'
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
               -
                 type: heading
                 attrs:
