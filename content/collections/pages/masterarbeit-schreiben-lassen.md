@@ -5313,6 +5313,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -5404,15 +5405,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: Disclaimer
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -5421,15 +5423,12 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
-                attrs:
-                  textAlign: left
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
@@ -5440,7 +5439,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Einige unserer Blogartikel zum Thema "Masterarbeit schreiben lassen"'
               -
                 type: set
@@ -5455,15 +5453,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Weitere Links & Referenzen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -5472,12 +5471,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Master'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Master - Wikipedia'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -5485,12 +5484,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fcampus%2F2010%2F03%2FStudium-Master-Empfehlungsschreiben'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -5498,11 +5497,10 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'In der Bologna-Falle - FAZ'
-                attrs:
-                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -5515,7 +5513,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705935374
+updated_at: 1705935402
 template: default
 use_meta_keywords: false
 no_index_page: false
