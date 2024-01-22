@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,24 +16,20 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Masterarbeit schreiben lassen'
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: bold
-          -
             type: textColor
             attrs:
               color: '#000!important'
-              hex: '#000'
         text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Masterarbeit'
   -
     type: set
@@ -95,6 +91,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -102,28 +100,26 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 replicator:
   -
@@ -143,12 +139,13 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Masterarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
-                      </p>
+                      &lt;p style="font-size:18px" align="center"&gt;
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den &lt;b&gt;akademischen Ghostwriter für Ihre Masterarbeit&lt;/b&gt;, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Masterarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      &lt;/p&gt;
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -162,6 +159,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -170,8 +169,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#ghostwriter'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Masterarbeit'
                       -
                         type: bulletList
@@ -181,58 +181,48 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: '#zusammenarbeit'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: "Mustervorlage für Masterarbeit schreiben\_lassen"
                                   -
                                     type: hardBreak
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: '#zusammenarbeit'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: '#zusammenarbeit'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: '– Wie funktioniert die Kooperation?'
-                                attrs:
-                                  textAlign: left
                           -
                             type: listItem
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -241,14 +231,17 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#beispiel'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Kostenlos: Beispiel-Masterarbeit '
                           -
                             type: listItem
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -257,29 +250,28 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#grund'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Ghostwriter Masterarbeit: Warum sollte man sich helfen lassen?'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#studium'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Mehr zum Master-Studium'
                       -
                         type: bulletList
@@ -289,6 +281,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -297,35 +291,36 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#ablauf'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Wie schreibt man eine Masterarbeit?'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#formatierung'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Gliederung und Formalien einer Masterarbeit'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -334,14 +329,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#ki'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Masterarbeit schreiben lassen - von einer KI?'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -350,8 +348,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#masterthesis-schreiben-lassen'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Masterthesis schreiben lassen - von einem Ghostwriter'
             show_as_card: false
         type: row
@@ -376,36 +375,30 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
-                    marks: {  }
                     text: 'Services anhand unserer Kundenstimmen'
               -
                 type: heading
                 attrs:
-                  level: 4
                   textAlign: center
+                  level: 4
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
               -
                 type: set
@@ -452,6 +445,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -459,58 +453,34 @@ replicator:
                     text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Masterarbeit'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Masterarbeit ist die letzte anzufertigende Examensarbeit'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' im akademischen Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in attraktiven Firmen Arbeit zu finden und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht nach dem Abschluss auch an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'die Hürde der Masterthesis schnell und ohne Probleme zu überwinden'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: .
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -526,6 +496,8 @@ replicator:
                     text: ' zurückgreifen, die tiefgründige Kenntnisse in ihrem persönlichen Fachbereich aufweisen und umfassende Erfahrung mit wissenschaftlichen Arbeiten und dem Erstellen einer Thesis haben.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -540,13 +512,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Ghostwriting
                   -
                     type: text
@@ -558,8 +531,9 @@ replicator:
                         type: link
                         attrs:
                           href: /korrektorat/textkorrektur
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Textkorrektur
                   -
                     type: text
@@ -571,8 +545,9 @@ replicator:
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Überprüfung auf Plagiate'
                   -
                     type: text
@@ -596,40 +571,31 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: left
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Mustervorlage für Masterarbeit schreiben\_lassen"
                   -
                     type: hardBreak
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: '– Wie funktioniert die Kooperation?'
               -
                 type: set
@@ -781,6 +747,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -788,6 +755,8 @@ replicator:
                     text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -799,13 +768,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -1185,6 +1155,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1192,6 +1163,8 @@ replicator:
                     text: 'Professionelle Unterstützung durch akademische Experten'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1212,14 +1185,17 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/leitfadengestuetztes-experteninterview
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Experten-Befragungen
                   -
                     type: text
                     text: ' oder Studienumfragen erstellt und deren Ergebnisse in einer Thesis verschriftlicht werden.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1242,6 +1218,8 @@ replicator:
                     anchor_name: beispiel
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1262,8 +1240,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/wirtschaftswissenschaften
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Wirtschaftswissenschaften Ghostwriter'
                   -
                     type: text
@@ -1338,6 +1317,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1361,19 +1342,22 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Ghostwriter
                   -
                     type: text
                     text: ' wissenschaftliche Texterstellungen im vollen Umfang einer akademischen Arbeit problemlos zu jedem Zeitpunkt übernehmen. '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1382,13 +1366,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Lektorat
                   -
                     type: text
@@ -1452,12 +1437,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
@@ -2029,157 +2013,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -3116,157 +3034,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -3689,211 +3541,114 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Zum Master'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Der '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Masterabschluss folgt dem Bachelorgrad'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: ' und ist somit der zweite akademische Grad, welcher bei einem Studium innerhalb der EU und in den meisten englischsprachigen Ländern erreicht werden kann. Der erste akademische Grad ist der Bachelor, bei dem Universitäten und Hochschulen von ihren Studenten eine '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: '. '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Die Prüfung zum Masterabschluss besteht aus einem studienbegleitenden Teil, der Examens- oder Masterarbeit (auch Masterthesis) und der mündlichen Abschlussprüfung. Für das Vollenden des Masterstudiums ist vorgesehen, dass Lehrinstitute von ihren Studenten eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Masterarbeit schreiben lassen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: '. Dadurch soll geprüft werden, ob Sie als Student in der Lage sind, ordnungsgemäß zu einer speziellen '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Fragestellung zu recherchieren, diese wissenschaftlich zu erarbeiten'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: ' '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'und eine Masterthesis zu erstellen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Die damit verbundene Thesis ist sehr zeitintensiv und umfangreich. Trotz dem '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'deutlich höheren Anspruch der Masterthesis im Vergleich zu einer Hausarbeit'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: ' oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /korrektorat/textkorrektur
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Textkorrektur
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: ', sondern auch '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: 'Unterstützung beim Aufbau und Verfassen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
                     text: ' der Arbeit.'
             show_as_card: true
           -
@@ -4009,47 +3764,24 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit, das weit über eine einfaches Korrekturlesen hinausgeht. Wenn Sie für Ihre '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Masterarbeit Ghostwriter'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' beauftragen, erstellen diese Ihnen eine hochqualitative Mustervorlage. Diese "Ghostwriting-Masterarbeit" können Sie anschließend als Orientierungshilfe nutzen. Unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Doktoren und Professoren'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ', die sich täglich mit wissenschaftlichen Texten und deren Erstellung beschäftigen und zu angemessenen Preisen ihre Expertise anbieten.'
               -
                 type: paragraph
@@ -4058,29 +3790,15 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Unsere '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'seriösen Ghostwriter'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der '
                   -
                     type: text
@@ -4092,28 +3810,15 @@ replicator:
                           rel: null
                           target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: Forschungsstand
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit können wir für Sie eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Forschungslücke finden und eine wissenschaftliche Forschungsfrage erstellen.'
               -
                 type: set
@@ -4148,47 +3853,24 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Je nach Fachbereich und Institution umfasst die '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Masterarbeit inklusive Exposé 60-100 Seiten'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: '. Sie muss alle Kriterien einer akademischen Arbeit innerhalb von 5 bis 6 Monaten erfüllen und wird mit 15-30 ECTS-Punkten bewertet. Somit ist diese Leistung grundlegend für den '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Erfolg des Studiums'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' und nicht einfach abzuhandeln. Höchste wissenschaftliche Standards werden angelegt um ihre Qualität zu beurteilen. Im Bereich der Medizin, beispielsweise, dient die Masterarbeit oft als Fundament der Dissertation.'
               -
                 type: paragraph
@@ -4197,47 +3879,24 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Neben Themenfindung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Ansprechpartners zur '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Betreuung der Masterarbeit'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ', sind auch zahlreiche formale Richtlinien zu beachten. Bei einigen Fächern, wie der BWL oder VWL sind oftmals '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'statistische Untersuchungen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' anzufertigen. '
               -
                 type: paragraph
@@ -4246,47 +3905,24 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Oft wird durch das Lehrinstitut eine Muster-Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, können Sie sich Hilfe holen, indem Sie einen Ghostwriter Ihre '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Masterarbeit schreiben lassen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: '. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für Ihre Masterarbeit. Die '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: Ghostwriting-Masterarbeit
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' können Sie dann als Mustervorlage nutzen.'
               -
                 type: set
@@ -4330,10 +3966,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'Quellenverwendung & Urheberrechtliche Problematik:'
                           -
                             type: text
@@ -4351,10 +3983,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'Verständnis- und Interpretationsgrenzen von KI:'
                           -
                             type: text
@@ -4386,10 +4014,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'Eingeschränkte Originalität von KI:'
                           -
                             type: text
@@ -4407,10 +4031,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'Überbewertung der KI-Fähigkeiten:'
                           -
                             type: text
@@ -4428,10 +4048,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'Fokus auf KI in akademischen Institutionen:'
                           -
                             type: text
@@ -4473,11 +4089,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Gliederung und Formalien einer Masterarbeit'
               -
                 type: paragraph
@@ -4566,16 +4177,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/deckblatt-vorlage
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Deckblatt
                               -
                                 type: listItem
@@ -4587,16 +4194,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /blog/bachelorarbeit-abstract
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Abstract
                               -
                                 type: listItem
@@ -4606,12 +4209,6 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: Vorwort
                               -
                                 type: listItem
@@ -4623,16 +4220,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/inhaltsverzeichnis-vorlage
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
                               -
                                 type: listItem
@@ -4644,40 +4237,26 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/abbildungsverzeichnis
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Abbildungs
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: '- und '
                                       -
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/tabellenverzeichnis-beispiel
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Tabellenverzeichnis
                               -
                                 type: listItem
@@ -4689,16 +4268,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/abkuerzungsverzeichnis
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Abkürzungsverzeichnis
                               -
                                 type: listItem
@@ -4710,16 +4285,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /blog/bachelorarbeit-einleitung
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Einleitung
                               -
                                 type: listItem
@@ -4729,12 +4300,6 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: Hauptteil
                               -
                                 type: listItem
@@ -4744,12 +4309,6 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: Schlussteil/Fazit
                               -
                                 type: listItem
@@ -4761,16 +4320,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/literaturverzeichnis-beispiel
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Literaturverzeichnis
                               -
                                 type: listItem
@@ -4782,16 +4337,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/anhangsverzeichnis
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Anhang
                               -
                                 type: listItem
@@ -4803,16 +4354,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/eidesstattliche-erklaerung-muster
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
                         active: false
             show_as_card: false
@@ -4846,11 +4393,6 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Wichtig: Vor der Abgabe müssen Sie alle Formatierungsrichtlinien beachten'
                           -
                             type: bulletList
@@ -4949,6 +4491,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -4956,6 +4499,8 @@ replicator:
                     text: 'Masterthesis schreiben lassen '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4972,37 +4517,27 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Englische Masterthesis: Wichtige Aspekte im Überblick'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die Besonderheiten einer englischen Masterthesis umfassen verschiedene Aspekte, die sich von deutschen wissenschaftlichen Arbeiten unterscheiden können. Hier sind einige wichtige Merkmale:'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -5016,6 +4551,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -5023,6 +4560,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -5036,6 +4574,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -5043,6 +4583,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -5056,6 +4597,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -5067,8 +4610,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '/zitationsgenerator/harvard-zitieren?citationStyle=harvard_12th_edition'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Harvard-Zitierweise
                           -
                             type: text
@@ -5080,8 +4624,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '/zitationsgenerator/apa-zitierstil?citationStyle=apa_6th_edition'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: APA
                           -
                             type: text
@@ -5093,8 +4638,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '/zitationsgenerator/chicago-zitierweise?citationStyle=chicago_17th_edition'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Chicago
                           -
                             type: text
@@ -5106,8 +4652,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /zitationsgenerator
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'kostenlosen Zitationsgenerator'
                           -
                             type: text
@@ -5115,6 +4662,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -5128,6 +4676,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -5135,6 +4685,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -5148,6 +4699,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -5155,6 +4708,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -5168,6 +4722,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -5175,19 +4731,14 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Internationaler Kontext'
               -
                 type: bulletList
@@ -5197,20 +4748,16 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Englische Masterthesen werden oft vor dem Hintergrund eines internationalen wissenschaftlichen Kontexts geschrieben. Dies kann sich auf die Auswahl der Literatur, die Perspektive der Forschung und die Relevanz der Ergebnisse auswirken.'
-                        attrs:
-                          textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -5231,8 +4778,9 @@ replicator:
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'kostenlose Anfrage'
                   -
                     type: text
@@ -5240,6 +4788,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -5247,6 +4796,8 @@ replicator:
                     text: 'Englische Masterthesis-Beispiel'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -5258,8 +4809,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/wirtschaftswissenschaften
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Ghostwriter in  Wirtschaftswissenschaften'
                   -
                     type: text
@@ -5268,13 +4820,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: '#beispiel'
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'kostenloses Masterthesis-Beispiel'
                   -
                     type: text
@@ -5418,11 +4971,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
               -
                 type: heading
@@ -5435,10 +4983,6 @@ replicator:
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Einige unserer Blogartikel zum Thema "Masterarbeit schreiben lassen"'
               -
                 type: set
@@ -5513,7 +5057,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705935402
+updated_at: 1705956681
 template: default
 use_meta_keywords: false
 no_index_page: false
