@@ -129,7 +129,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705954196
+updated_at: 1705954211
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2360,8 +2360,8 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
@@ -2370,7 +2370,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Unterschied zwischen angewandter und freier Kunst:'
               -
                 type: table
@@ -2384,10 +2383,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(243, 243, 243)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2398,20 +2398,18 @@ replicator:
                                     type: textColor
                                     attrs:
                                       color: '#000!important'
-                                      hex: '#000'
                                 text: 'Angewandte Kunst'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(243, 243, 243)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2422,10 +2420,7 @@ replicator:
                                     type: textColor
                                     attrs:
                                       color: '#000!important'
-                                      hex: '#000'
                                 text: 'Freie Kunst'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2435,10 +2430,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: initial
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2447,20 +2443,18 @@ replicator:
                                     type: textColor
                                     attrs:
                                       color: '#000!important'
-                                      hex: '#000'
                                 text: 'Gestaltung von Bedarfs- oder Gebrauchsgegenständen'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: initial
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2469,10 +2463,7 @@ replicator:
                                     type: textColor
                                     attrs:
                                       color: '#000!important'
-                                      hex: '#000'
                                 text: 'Gestaltung von nicht Bedarfs- oder Gebrauchsgegenständen'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2482,10 +2473,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: initial
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2494,20 +2486,18 @@ replicator:
                                     type: textColor
                                     attrs:
                                       color: '#000!important'
-                                      hex: '#000'
                                 text: 'Synonym: Gebrauchskunst'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: initial
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2516,10 +2506,7 @@ replicator:
                                     type: textColor
                                     attrs:
                                       color: '#000!important'
-                                      hex: '#000'
                                 text: 'Synonym: schöne Künste'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2529,7 +2516,6 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: initial
                         content:
                           -
                             type: bulletList
@@ -2539,6 +2525,8 @@ replicator:
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2547,15 +2535,14 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
                                         text: 'Gold- und Silberschmieden'
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2564,15 +2551,14 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
                                         text: Keramik
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2581,15 +2567,14 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
                                         text: Textil
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2598,7 +2583,6 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
                                         text: Bühnenbild
                                       -
                                         type: hardBreak
@@ -2607,16 +2591,12 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
-                                    attrs:
-                                      textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: initial
                         content:
                           -
                             type: bulletList
@@ -2626,6 +2606,8 @@ replicator:
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2634,15 +2616,14 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
                                         text: Bildhauerei
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2651,15 +2632,14 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
                                         text: Malerei
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2668,15 +2648,14 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
                                         text: Grafik
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2685,15 +2664,14 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
                                         text: Fotografie
-                                    attrs:
-                                      textAlign: left
                               -
                                 type: listItem
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2702,10 +2680,7 @@ replicator:
                                             type: textColor
                                             attrs:
                                               color: '#000!important'
-                                              hex: '#000'
                                         text: Gemälde
-                                    attrs:
-                                      textAlign: left
             show_as_card: false
         type: row
         enabled: true
