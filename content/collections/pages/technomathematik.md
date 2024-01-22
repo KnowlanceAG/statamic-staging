@@ -151,7 +151,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705946449
+updated_at: 1705954465
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -319,7 +319,7 @@ replicator:
     columns_replicator:
       -
         id: PNh0uwHV
-        single_col: true
+        single_col: false
         grid:
           -
             id: d92ZVWKT
@@ -327,8 +327,8 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
@@ -337,7 +337,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Unsere Leistungen im Fachbereich Technomathematik'
               -
                 type: set
@@ -378,23 +377,12 @@ replicator:
                         hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische Übersetzungen.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
-              -
-                type: set
-                attrs:
-                  id: MrUkjvO9
-                  values:
-                    type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH TECHNOMATHEMATIK'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: false
+    remove_spacing: true
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
@@ -413,6 +401,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -447,39 +437,46 @@ replicator:
             id: kMbKV71o
             bard:
               -
-                type: blockquote
+                type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks: {  }
-                        text: 'Senden Sie uns eine '
+                        type: bold
+                    text: 'Senden Sie uns eine '
+                  -
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: link
-                            attrs:
-                              href: /anfrage
-                              target: null
-                              rel: null
-                        text: 'unverbindliche Anfrage'
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          rel: null
+                          target: null
+                          title: null
                       -
-                        type: text
-                        marks: {  }
-                        text: ', und Sie erhalten innerhalb weniger Stunden ein kostenloses Angebot. Wenn Sie eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter wünschen, rufen Sie bitte die angegebene Telefonnummer an. Beachten Sie jedoch, dass wir keine Abschlussarbeiten oder andere Prüfungsleistungen wie Klausuren für Sie erstellen dürfen oder können. Wir bieten jedoch gerne die Erstellung einer einzigartigen, hochqualitativen Mustervorlage nach Ihren individuellen Anliegen an, die alle akademischen Standards und Anforderungen erfüllt.'
-                    attrs:
-                      textAlign: center
+                        type: bold
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ', und Sie erhalten innerhalb weniger Stunden ein kostenloses Angebot. Wenn Sie eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter wünschen, rufen Sie bitte die angegebene Telefonnummer an. Beachten Sie jedoch, dass wir keine Abschlussarbeiten oder andere Prüfungsleistungen wie Klausuren für Sie erstellen dürfen oder können. Wir bieten jedoch gerne die Erstellung einer einzigartigen, hochqualitativen Mustervorlage nach Ihren individuellen Anliegen an, die alle akademischen Standards und Anforderungen erfüllt.'
               -
                 type: set
                 attrs:
-                  id: lnkhg9et
+                  id: lrpd6ewn
                   values:
-                    type: phone_cta
-              -
-                type: paragraph
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
             show_as_card: false
         type: row
         enabled: true
@@ -621,157 +618,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -1728,6 +1659,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1735,6 +1667,8 @@ replicator:
                     text: 'Inhalt Technomathematik'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1768,6 +1702,8 @@ replicator:
                     text: ' zu arbeiten und die verschiedenen Sprachen der Ingenieur- und Naturwissenschaften in mathematische Modelle und Auswertungsverfahren zu übersetzen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1801,6 +1737,8 @@ replicator:
                     text: ', ihre Anwendbarkeit zu beurteilen und bestehende Anwendungen kritisch zu analysieren.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1902,6 +1840,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -1909,6 +1848,8 @@ replicator:
                     text: 'Prüfungsleistungen Technomathematik'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1925,72 +1866,54 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: center
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Bereich
-                            attrs:
-                              textAlign: center
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: center
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Inhalt
-                            attrs:
-                              textAlign: center
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: center
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Prüfungsleistungen
-                            attrs:
-                              textAlign: center
                   -
                     type: tableRow
                     content:
@@ -2000,21 +1923,17 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Grundlagen der Mathematik'
                       -
                         type: tableCell
@@ -2022,19 +1941,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Algebra, Analysis, Lineare Algebra, Differentialgleichungen, Wahrscheinlichkeitstheorie, Statistik'
                       -
                         type: tableCell
@@ -2042,49 +1956,36 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                  -
                                     type: link
                                     attrs:
                                       href: /blog/klausur-schreiben-lassen-verboten
-                                      target: null
                                       rel: null
+                                      target: null
+                                      title: null
                                 text: Klausuren
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: ', Hausaufgaben, '
                               -
                                 type: text
                                 marks:
                                   -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                  -
                                     type: link
                                     attrs:
                                       href: /blog/kolloquium-bachelorarbeit
-                                      target: null
                                       rel: null
+                                      target: null
+                                      title: null
                                 text: 'mündliche Prüfungen'
                   -
                     type: tableRow
@@ -2095,21 +1996,17 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Mathematische Modellierung'
                       -
                         type: tableCell
@@ -2117,19 +2014,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Umwandlung realer Probleme in mathematische Modelle, Identifikation von Variablen und Gleichungen'
                       -
                         type: tableCell
@@ -2137,34 +2029,25 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Projektarbeit, Modellierungsübungen, '
                               -
                                 type: text
                                 marks:
                                   -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                  -
                                     type: link
                                     attrs:
                                       href: /arbeiten/praesentationen
-                                      target: null
                                       rel: null
+                                      target: null
+                                      title: null
                                 text: Präsentationen
                   -
                     type: tableRow
@@ -2175,21 +2058,17 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Numerische Mathematik'
                       -
                         type: tableCell
@@ -2197,19 +2076,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Entwicklung von numerischen Algorithmen zur Lösung mathematischer Probleme auf Computern'
                       -
                         type: tableCell
@@ -2217,19 +2091,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Programmieraufgaben, numerische Simulationen'
                   -
                     type: tableRow
@@ -2240,21 +2109,17 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Optimierung
                       -
                         type: tableCell
@@ -2262,19 +2127,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Optimierungsmodelle und -methoden zur Lösung komplexer Probleme'
                       -
                         type: tableCell
@@ -2282,37 +2142,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Optimalitätsnachweise, '
                               -
                                 type: text
                                 marks:
                                   -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                  -
                                     type: link
                                     attrs:
                                       href: /blog/fallstudienanalyse-nach-yin
-                                      target: null
                                       rel: null
+                                      target: null
+                                      title: null
                                 text: Fallstudien
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
             show_as_card: false
           -
             id: lnkstpv9
@@ -2320,6 +2173,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2338,21 +2192,17 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 189
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Statistik und Wahrscheinlichkeit'
                       -
                         type: tableCell
@@ -2360,19 +2210,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Datenanalyse, Vorhersagemodelle, statistische Tests'
                       -
                         type: tableCell
@@ -2380,19 +2225,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Statistische Analysen, Berichterstellung'
                   -
                     type: tableRow
@@ -2404,21 +2244,17 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 189
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: Informatik
                       -
                         type: tableCell
@@ -2426,19 +2262,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Programmierung, mathematische Softwaretools, Implementierung mathematischer Modelle'
                       -
                         type: tableCell
@@ -2446,19 +2277,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Coding-Projekte, Informatik-Prüfungen'
                   -
                     type: tableRow
@@ -2470,21 +2296,17 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 189
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Angewandte Mathematik'
                       -
                         type: tableCell
@@ -2492,19 +2314,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Anwendung mathematischer Methoden auf spezifische Disziplinen wie Physik, Chemie, Elektrotechnik'
                       -
                         type: tableCell
@@ -2512,19 +2329,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Fachspezifische Prüfungen, Projektarbeit'
                   -
                     type: tableRow
@@ -2536,21 +2348,17 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 189
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Fachspezifische Anwendungen'
                       -
                         type: tableCell
@@ -2558,19 +2366,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Spezielle mathematische Techniken für bestimmte Bereiche wie Signalverarbeitung, Bildverarbeitung, Finanzmathematik'
                       -
                         type: tableCell
@@ -2578,19 +2381,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Fachspezifische Projekte, Prüfungen'
                   -
                     type: tableRow
@@ -2602,21 +2400,17 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 189
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Projekte und Praktika'
                       -
                         type: tableCell
@@ -2624,19 +2418,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Praktische Erfahrungen durch Teilnahme an Forschungsprojekten oder Praktika in Unternehmen oder Forschungseinrichtungen'
                       -
                         type: tableCell
@@ -2644,19 +2433,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#374151'
-                                      hex: '#000'
                                 text: 'Berichterstellung, Präsentation der Ergebnisse'
             show_as_card: false
         type: row
@@ -2689,6 +2473,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2696,6 +2481,8 @@ replicator:
                     text: 'Warum sollte man Technomathematik-Ghostwriter beauftragen?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2711,12 +2498,16 @@ replicator:
                     text: .
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Ob bei Modellierungsübungen, Projektarbeiten, Programmierungsaufgaben oder bei der Erstellung von Berichten, können für Sie unsere Ghostwriter die Arbeit übernehmen. Besonders wenn Sie eine Abschlussarbeit verfassen möchten aber Hilfe brauchen, können unsere Ghostwriter eine große Hilfe sein.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2731,13 +2522,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /blog/businessplan-erstellen-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Businessplan
                   -
                     type: text
@@ -2755,8 +2547,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/ghostwriter-abschlussarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Musterarbeiten
                   -
                     type: text
@@ -2816,6 +2609,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -2823,12 +2617,16 @@ replicator:
                     text: 'Studienplan: Technomathematik vs. Mathematik'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Der Unterschied zwischen Mathematik und Technomathematik liegt in den Anwendungsfächern. Selbst anhand der Grafik ist erkennbar, dass die meisten Module in beiden Studiengängen gleich sind und sogar in fast derselben Reihenfolge angeboten werden. Die beiden Studiengänge unterscheiden sich jedoch durch ihre Schwerpunkte.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2838,35 +2636,19 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' Vertiefungsfächer '
+                    text: ' Vertiefungsfächer Informatik, '
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Informatik
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
                       -
                         type: link
                         attrs:
                           href: /ghostwriter/chemie
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Chemie
                   -
                     type: text
@@ -2878,13 +2660,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/bauingenieurwesen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Bauingenieurwesen
                   -
                     type: text
@@ -2896,13 +2679,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/elektrotechnik
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Elektrotechnik
                   -
                     type: text
@@ -2914,13 +2698,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/maschinenbau
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Maschinenbau
                   -
                     type: text
@@ -2941,19 +2726,22 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: italic
-                      -
                         type: link
                         attrs:
                           href: 'https://de.slideshare.net/TeamSchuleHochschule/mathematik-wirtschatsmathematik-und-technomathematik-bsc-232847683?from_action=save'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
+                      -
+                        type: italic
                     text: 'Duisburg Universität'
                   -
                     type: text
                     text: )
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2965,8 +2753,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/informatik
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Ghostwriter in Informatik'
                   -
                     type: text
@@ -2974,6 +2763,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2981,38 +2771,23 @@ replicator:
                     text: 'Beispiel-Abschlussthema: Technomathematik & Informatik'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#374151'
-                          hex: '#000'
                     text: '"Entwicklung einer Wettervorhersage-App unter Verwendung von mathematischen Modellen"'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#374151'
-                          hex: '#000'
-                    text: 'In diesem Thema könnten Sie mathematische Modelle verwenden, um Wetterdaten zu analysieren und Vorhersagen zu treffen. Sie könnten eine App entwickeln, die Benutzern aktuelle Wetterinformationen und Vorhersagen auf Grundlage dieser Modelle bietet. Dieses Thema ermöglicht es Ihnen, mathematische Konzepte auf eine praktische Anwendung in der Informatik anzuwenden und gleichzeitig die Genauigkeit von Vorhersagen zu verbessern.'
                 attrs:
                   textAlign: start
-              -
-                type: paragraph
                 content:
                   -
                     type: text
-                    text: "\_"
+                    text: 'In diesem Thema könnten Sie mathematische Modelle verwenden, um Wetterdaten zu analysieren und Vorhersagen zu treffen. Sie könnten eine App entwickeln, die Benutzern aktuelle Wetterinformationen und Vorhersagen auf Grundlage dieser Modelle bietet. Dieses Thema ermöglicht es Ihnen, mathematische Konzepte auf eine praktische Anwendung in der Informatik anzuwenden und gleichzeitig die Genauigkeit von Vorhersagen zu verbessern.'
             show_as_card: false
         type: row
         enabled: true
@@ -3087,6 +2862,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -3094,6 +2870,8 @@ replicator:
                     text: 'Aufbau Technomathematik '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3114,8 +2892,9 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.tu.berlin/math/studienberatung/studiengaenge/bachelorstudiengaenge/technomathematik-bsc#:~:text=mehr-,'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'TU Berlin'
                   -
                     type: text
@@ -3131,6 +2910,8 @@ replicator:
                     text: '. Es umfasst nicht nur mathematische Module, sondern auch einen technischen Bereich, ein Praktikum und einen Bereich für frei wählbare Kurse. Im technischen Bereich können Kurse wie Physikalischen Ingenieurswissenschaften, Elektrotechnik, Maschinenbau oder Verkehrswesen ausgewählt werden. Der Studiengang Technomathematik ist ohne NC.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3163,6 +2944,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -3170,18 +2952,12 @@ replicator:
                     text: 'Karriereaussichten nach dem Technomathematik-Studium'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die Karrieremöglichkeiten für Technomathematiker sind vielfältig und hängen oft von der gewählten Spezialisierung und den individuellen Interessen ab. Mit ihren mathematischen und technischen Fähigkeiten sind sie gefragte Fachkräfte in vielen Branchen, in denen komplexe Probleme gelöst und Daten analysiert werden müssen.'
-                attrs:
-                  textAlign: start
               -
                 type: bulletList
                 content:
@@ -3190,6 +2966,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3205,6 +2983,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3220,6 +3000,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3235,6 +3017,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3250,6 +3034,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3267,8 +3053,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /blog/bachelorarbeit-thema-informatik
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Informatikkenntnissen
                           -
                             type: text
@@ -3278,6 +3065,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3293,6 +3082,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3308,6 +3099,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3323,6 +3116,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3340,8 +3135,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /jobs
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'berufliche Weiterentwicklung'
                           -
                             type: text
@@ -3376,11 +3172,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: Disclaimer
               -
                 type: paragraph
@@ -3389,11 +3180,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
             show_as_card: false
         type: row
