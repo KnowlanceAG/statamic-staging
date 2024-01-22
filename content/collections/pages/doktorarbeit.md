@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,24 +16,20 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Doktorarbeit schreiben lassen'
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: bold
-          -
             type: textColor
             attrs:
               color: black
-              hex: '#000'
         text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Dissertation'
   -
     type: set
@@ -95,6 +91,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -102,28 +100,26 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 replicator:
   -
@@ -169,36 +165,30 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
-                    marks: {  }
                     text: 'Services anhand unserer Kundenstimmen'
               -
                 type: heading
                 attrs:
-                  level: 4
                   textAlign: center
+                  level: 4
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
               -
                 type: set
@@ -238,270 +228,154 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Professionelle Unterstützung bei Ihrer Doktorarbeit durch Ghostwriter'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Hilfe bei Ihrer Doktorarbeit kann Ihnen ein'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' akademischer '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Ghostwriter
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' '
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'leisten, wenn Sie sich als Doktorand eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Doktorarbeit schreiben lassen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ein '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Ghostwriting
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' ohne aufwendige Einarbeitungszeit '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'zu jedem Zeitpunkt der Schreibphase als Hilfestellung zu beauftragen, '
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'sei es bei der Literaturrecherche, der Auswertung von Daten sowie dem Verfassen des Exposés oder der Arbeit.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Sie können einen erfahrenen Ghostwriter direkt zu Beginn des Schreibprozesses für verschiedene Aufgaben beauftragen. Dazu zählen die Themenfindung bzw. Themenwahl, die Literaturrecherche und die Auswertung deren Ergebnisse, der Aufbau der '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: Dissertation
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', die Anwendung der methodischen Ansätzen, und die Erstellung des Exposés. Auch eine bereits von Ihnen verfasste Arbeit können Sie durch ein wissenschaftliches Lektorat oder eine professionelle Plagiatsprüfung aufwerten lassen. Mit einem erfahrenen Ghostwriter steht Ihrer Promotion nichts mehr im Wege.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Ebenfalls können Sie '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Hilfestellungen während des Studiums'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' in Anspruch nehmen oder sich zu komplexen Teilaspekten beraten lassen. Schließlich stellt eine Doktorarbeit erheblich hinsichtlich des Umfangs und der Anforderungen höhere Ansprüche als beispielsweise eine Hausarbeit, Bachelorarbeit oder Masterarbeit oder eine gewöhnliche Projektarbeit. '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Alle unsere Leistungen werden von erfahrenen Experten und Ghostwritern aus dem jeweiligen akademischen Fachbereich betreut'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', die das methodische Know-How und selbstverständlich auch Ihr Forschungsthema perfekt beherrschen.'
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: left
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: "Mustervorlage für Doktorarbeit schreiben\_lassen"
                   -
                     type: hardBreak
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '– Wie funktioniert die Kooperation?'
             show_as_card: false
         type: row
@@ -527,15 +401,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: center
+                  level: 3
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Kostenlose Anfrage'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -555,15 +430,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: center
+                  level: 3
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Unverbindliches Angebot'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -583,15 +459,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: center
+                  level: 3
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Wir schreiben für Sie'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -611,15 +488,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: center
+                  level: 3
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Finale Lieferung'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -646,6 +524,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -653,6 +532,8 @@ replicator:
                     text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -664,13 +545,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -753,6 +635,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1050,6 +933,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1057,6 +941,8 @@ replicator:
                     text: 'Wie schreiben professionelle Ghostwriter?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1068,8 +954,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting/ghostwriting-agentur
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriting-Agentur
                   -
                     type: text
@@ -1085,6 +972,8 @@ replicator:
                     text: ', die ihre eigene Promotion bereits absolviert haben und sich tagtäglich mit wissenschaftlichen Schreibarbeiten, Projektarbeiten, methodischen Ansätzen, Forschungsarbeiten und Auswertungen in unserem Schreibservice beschäftigen. '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1099,13 +988,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/jura
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Jura
                   -
                     type: text
@@ -1160,6 +1050,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1167,147 +1058,78 @@ replicator:
                     text: 'Warum sollten Sie Hilfe bei Ihrer Doktorarbeit in Anspruch nehmen?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'In vielen Ländern, besonders in Deutschland, gilt der '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Doktorabschluss als klassischer Karrierebeschleuniger'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Neben besseren Karrierechancen, werden Arbeitnehmer mit Doktorgrad laut Statistik auch mit höheren Löhnen belohnt. In einigen Branchen, wie der Forschung, Medizin und Wissenschaft, ist der Doktorgrad sogar grundlegend für jeglichen Berufserfolg.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die aufwändigste Form der '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'experimentellen Doktorarbeit haben Medizinstudierende'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Sie benötigen meist zwei Semester länger. Hier verbringen Promovenden viel Zeit im Labor mit Forschungsmaterialien und um Experimente durchzuführen sowie mit deren Auswertung. Jedoch lohnt sich die Schreibarbeit nicht nur im Fachgebiet Medizin, wenn Sie im späteren Berufsleben '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'an einer Universität oder in der Forschung arbeiten'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' möchten, ist das Verfassen einer Doktorarbeit und das Erreichen der Promotion ebenfalls sehr vorteilhaft bzw. sogar notwendig.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Auch generell ist der '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'akademische Aufstieg sehr zeitintensiv und arbeitslastig'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass die Auszeichnung mit einem Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten sich in ihrem akademischen Forschungsbereich neu einzufinden. Daher empfiehlt sich eine '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'professionelle Unterstützung'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' durch einen Ghostwriter, besonders wenn Sie berufsbegleitend promovieren. '
-                  -
-                    type: text
-                    text: 'Gerne bieten unsere erfahrenen akademischen Ghostwriter Ihnen auch alternative Dienstleistungen wie die Auswertung Ihrer Experimente oder eine professionelle '
+                    text: ' durch einen Ghostwriter, besonders wenn Sie berufsbegleitend promovieren. Gerne bieten unsere erfahrenen akademischen Ghostwriter Ihnen auch alternative Dienstleistungen wie die Auswertung Ihrer Experimente oder eine professionelle '
                   -
                     type: text
                     marks:
@@ -1315,8 +1137,9 @@ replicator:
                         type: link
                         attrs:
                           href: /promotionsberatung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Promotionsberatung
                   -
                     type: text
@@ -1342,12 +1165,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
@@ -1919,157 +1741,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -2448,14 +2204,6 @@ replicator:
                                     text: 'Protokoll schreiben lassen'
                                 attrs:
                                   textAlign: start
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2498,71 +2246,38 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Bei Problemen mit Ihrer Dissertation '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'helfen Ihnen akademische Ghostwriter'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', die Ihre Forschungsarbeit lektorieren und korrigieren. Um sicher zu gehen, dass ausreichend auf sämtliche Quellen verwiesen wurde, hilft es, den Text auf Plagiate zu prüfen. Wir verwenden hierfür die professionelle Software '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: Copyleaks
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', die im akademischen Kontext weit verbreitet ist.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wenn Sie in der Schreibphase Unterstützung benötigen, die über'
-                  -
-                    type: text
-                    text: ' das Korrekturlesen hinaus geht, können Sie sich auch von einem unserer erfahrenen Ghostwriter eine Mustervorlage für Ihre '
+                    text: 'Wenn Sie in der Schreibphase Unterstützung benötigen, die über das Korrekturlesen hinaus geht, können Sie sich auch von einem unserer erfahrenen Ghostwriter eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -2579,43 +2294,29 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriting
                   -
                     type: text
                     text: '-Doktorarbeit als Muster nutzen, wenn Sie Ihre eigene Arbeit verfassen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Wenn die Karriere im Vordergrund steht, sollten Sie sich nicht primär mit der Fragestellung aufhalten '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '„Wie schreibe ich eine Doktorarbeit?“'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', sondern auf mögliche Hilfestellungen zurückgreifen können.'
             show_as_card: false
           -
@@ -2660,6 +2361,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -2667,221 +2369,119 @@ replicator:
                     text: 'Zur Doktorarbeit'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die Voraussetzung für den höchsten akademischen Grad bzw. für den Doktor ist ein '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'sehr guter Hochschulabschluss mit Promotionsrecht'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Genauere Zulassungskriterien erfahren Sie an Ihrer jeweiligen Fakultät. Der Begriff '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '"Doktorarbeit"'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' kann auch als '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '"Dissertation"'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' verwendet werden. Die Doktorarbeit ist eine wissenschaftliche Arbeit, die an Hochschulen mit Promotionsrecht das Erlangen der Doktorwürde oder des Doktorgrades ermöglicht.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Der Vorgang wird auch Promotion genannt. Die '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Promotionsprogramme
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' sind unterschiedlich aufgebaut, meist müssen die Promovierenden bestimmte Seminare belegen und Lehrveranstaltungen besuchen. Um Ihr Promotionsverfahren zu betreuen, benötigen Sie einen erfahrenen '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Dozenten bzw. einen Doktorvater'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', der Sie mit seiner Erfahrung unterstützt, wenn Sie Ihre Arbeit schreiben.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Jedoch sind Sie noch nicht mit Ihrem Promotionsprogramm fertig, nachdem Sie die Auswertung fertiggestellt und Ihre Doktorarbeit erfolgreich abgeben haben. Um die Verleihung des akademischen Doktorgrades zu erreichen, müssten Sie noch '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Rigorosum und Disputation bestehen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Rigorosum ist eine '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /blog/doktorarbeit-verteidigen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'mündliche Prüfung'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: " und Disputation ist eine wissenschaftliche Diskussion, in der von Ihnen eine Verteidigung über Ihre Arbeit erlangt wird.\_"
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Es gibt keine Hochschulen oder Universitäten, die zum Erlangen des Doktortitels von den Doktoranden nicht eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Doktorarbeit schreiben lassen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Promovenden sollen darauf geprüft werden, ob sie in der Lage sind, die Auswertung von empirischen Daten durchzuführen und eine wissenschaftliche Arbeit mit neuen Erkenntnissen eigenständig zu verfassen.'
             show_as_card: true
           -
@@ -2944,29 +2544,15 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Dieser Prozess dauert oft mehrere Jahre und wird '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'von einem erfahrenen Doktorvater betreut'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ', der zu bestimmten Maßen ein Coaching bei der Dissertation leistet. Die Bearbeitung der Doktorarbeit kann auf verschiedene Weisen erfolgen, welche abhängig vom Fachbereich variieren.'
               -
                 type: paragraph
@@ -2975,33 +2561,16 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Der Doktorand kann sich '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'theoretisch mit einem Sachverhalt beschäftigen oder empirisch/experimentell ermittelte Daten auswerten, interpretieren, sowie analysieren'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                    text: '. Die Untersuchungen geschehen oftmals durch Umfragen im Bereich der BWL und VWL und durch Experimente in de'
-                  -
-                    type: text
-                    text: 'r Forschung, Biologie, Medizin, '
+                    text: '. Die Untersuchungen geschehen oftmals durch Umfragen im Bereich der BWL und VWL und durch Experimente in der Forschung, Biologie, Medizin, '
                   -
                     type: text
                     marks:
@@ -3012,47 +2581,18 @@ replicator:
                           rel: null
                           target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: Rechtswissenschaften
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                    text: ' oder'
-                  -
-                    type: text
-                    text: ' Psychologie. Der Umfang der Doktorarbeit ist ebenfalls stark abhängig vom Fachgebiet, liegt a'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                    text: 'ber '
+                    text: ' oder Psychologie. Der Umfang der Doktorarbeit ist ebenfalls stark abhängig vom Fachgebiet, liegt aber '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'generell zwischen 150 und 500 Seiten'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: .
               -
                 type: paragraph
@@ -3061,29 +2601,15 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Zwar gibt es seitens Doktorvätern und Hochschulen einige unterschiedliche Promotionsordnungen, jedoch veröffentlichen Hochschulen oft eine Vorlage einer Dissertation als Beispiel um ihren Studierenden zu helfen. Unterstützend dazu können Sie sich als Doktorand von einem Ghostwriter eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Doktorarbeit schreiben lassen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' und diese Ghostwriting-Doktorarbeit als Orientierungshilfe nutzen. Unsere akademischen Autoren haben zu jeder wissenschaftlichen Fragestellung eine Lösung eine Lösung für Sie.'
               -
                 type: heading
@@ -3120,10 +2646,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'Umgang mit Urheberrecht & Quellennutzung:'
                           -
                             type: text
@@ -3141,10 +2663,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'Limitationen im Verständnis von KI:'
                           -
                             type: text
@@ -3162,10 +2680,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'KI und der Originalitätsfaktor:'
                           -
                             type: text
@@ -3183,10 +2697,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'Das Dilemma der Selbstsicherheit von KI:'
                           -
                             type: text
@@ -3204,10 +2714,6 @@ replicator:
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-bold)
                             text: 'Die intensive Auseinandersetzung mit KI in akademischen Kreisen:'
                           -
                             type: text
@@ -3242,11 +2748,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Gliederung und Formalien einer Doktorarbeit'
               -
                 type: paragraph
@@ -3255,65 +2756,33 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Einige Voraussetzungen von diversen '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: Promotionsausschüssen
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' zur Erstellung von Dissertationen haben sich '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'als gängig erwiesen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: '. Wenn Sie Ihre selbst verfasste Arbeit an unserer Ghostwriter zur Korrektur geben, überprüfen unsere Ghostwriter selbstverständlich auch die -'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Einhaltung dieser Formalia'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: '. Falls Sie von uns eine Mustervorlage erstellen lassen, übernehmen wir selbstverständlich auch Ihre individuellen Anforderungen. Teilen Sie uns diese einfach in Ihrer '
                   -
                     type: text
@@ -3327,18 +2796,9 @@ replicator:
                           title: null
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'unverbindlichen Anfrage'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' mit!'
             show_as_card: false
         type: row
@@ -3384,16 +2844,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/deckblatt-vorlage
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Deckblatt
                               -
                                 type: listItem
@@ -3405,16 +2861,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /blog/bachelorarbeit-abstract
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Abstract
                               -
                                 type: listItem
@@ -3424,12 +2876,6 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: Vorwort
                               -
                                 type: listItem
@@ -3441,16 +2887,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/inhaltsverzeichnis-vorlage
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
                               -
                                 type: listItem
@@ -3462,40 +2904,26 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/abbildungsverzeichnis
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Abbildungs
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: '- und '
                                       -
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/tabellenverzeichnis-beispiel
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Tabellenverzeichnis
                               -
                                 type: listItem
@@ -3507,16 +2935,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/abkuerzungsverzeichnis
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Abkürzungsverzeichnis
                               -
                                 type: listItem
@@ -3528,16 +2952,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /blog/bachelorarbeit-einleitung
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Einleitung
                               -
                                 type: listItem
@@ -3547,12 +2967,6 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: Hauptteil
                               -
                                 type: listItem
@@ -3562,12 +2976,6 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: Schlussteil/Fazit
                               -
                                 type: listItem
@@ -3579,16 +2987,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/literaturverzeichnis-beispiel
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Literaturverzeichnis
                               -
                                 type: listItem
@@ -3600,16 +3004,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/anhangsverzeichnis
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: Anhang
                               -
                                 type: listItem
@@ -3621,16 +3021,12 @@ replicator:
                                         type: text
                                         marks:
                                           -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
                                             type: link
                                             attrs:
                                               href: /gwriters-akademie/eidesstattliche-erklaerung-muster
-                                              target: null
                                               rel: null
+                                              target: null
+                                              title: null
                                         text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
                         active: false
             show_as_card: true
@@ -3664,11 +3060,6 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Wichtig: Vor der Abgabe müssen Formatierungsrichtlinien beachtet werden'
                           -
                             type: bulletList
@@ -3768,10 +3159,6 @@ replicator:
                     marks:
                       -
                         type: italic
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
             show_as_card: false
         type: row
@@ -3906,7 +3293,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705934104
+updated_at: 1705955784
 template: default
 use_meta_keywords: false
 no_index_page: false
