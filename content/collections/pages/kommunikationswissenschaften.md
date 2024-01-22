@@ -129,7 +129,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705938687
+updated_at: 1705938710
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3569,8 +3569,8 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
@@ -3579,10 +3579,11 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: Disclaimer
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
@@ -3591,99 +3592,92 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
+                  textAlign: start
                   level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                    text: 'Nützliche Weblinks'
+              -
+                type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Nützliche Weblinks'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/index.html'
-                          target: _blank
                           rel: nofollow
-                    text: 'Studienfächer und Studiengänge von A bis Z – Ludwig-Maximilians-Universität München'
-                  -
-                    type: hardBreak
-                    marks: {  }
-                  -
-                    type: text
-                    marks:
+                          target: _blank
+                          title: null
                       -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
+                    text: 'Studienfächer und Studiengänge von A bis Z – Ludwig-Maximilians-Universität München'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
                           href: 'https://www.uni-due.de/'
-                          target: _blank
                           rel: nofollow
-                    text: 'Universität Duisburg-Essen'
-                  -
-                    type: hardBreak
-                    marks: {  }
-                  -
-                    type: text
-                    marks:
+                          target: _blank
+                          title: null
                       -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
+                    text: 'Universität Duisburg-Essen'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
                           href: 'https://www.ikmz.uzh.ch/de.html'
-                          target: _blank
                           rel: nofollow
-                    text: 'Institut für Kommunikationswissenschaft und Medienforschung – Universität Zürich'
-                  -
-                    type: hardBreak
-                    marks: {  }
-                  -
-                    type: text
-                    marks:
+                          target: _blank
+                          title: null
                       -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
+                    text: 'Institut für Kommunikationswissenschaft und Medienforschung – Universität Zürich'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Kommunikationswissenschaft'
-                          target: _blank
                           rel: nofollow
+                          target: _blank
+                          title: null
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
                     text: 'Grobe Informationen zur Kommunikationswissenschaft – Wikipedia'
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
