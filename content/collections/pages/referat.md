@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,19 +16,15 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Referat schreiben lassen'
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: 'Professionelle Hilfe von akademischen Ghostwritern für Ihr Referat'
   -
     type: set
@@ -90,6 +86,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -97,33 +95,31 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705937498
+updated_at: 1705957933
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -352,6 +348,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -372,8 +370,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Seminararbeit schreiben'
                   -
                     type: text
@@ -385,8 +384,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/kolloquium-bachelorarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Kolloquium
                   -
                     type: text
@@ -398,8 +398,9 @@ replicator:
                         type: link
                         attrs:
                           href: /gwriters-akademie/powerpoint-praesentation-vorlage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Kolloquium Präsentation Vorlage'
                   -
                     type: text
@@ -411,8 +412,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Hausarbeit
                   -
                     type: text
@@ -424,8 +426,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Masterarbeit
                   -
                     type: text
@@ -437,25 +440,13 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
                     text: .
-              -
-                type: set
-                attrs:
-                  id: lmqqhid9
-                  values:
-                    type: floating_img
-                    dateien:
-                      - blog/2023/referat-schreiben-lassen/referat-schreiben-lassen-min.jpg
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -486,6 +477,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -493,18 +485,12 @@ replicator:
                     text: 'Fertige Referate vs. Referat schreiben lassen?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'In der akademischen Welt stehen Studierende oft vor der Entscheidung, ob sie ein Referat selbst erstellen sollen oder ob sie ein bereits fertiges Referat erwerben oder schreiben lassen möchten. Beide Optionen haben ihre Vor- und Nachteile, die es zu berücksichtigen gilt.'
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -521,6 +507,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -538,10 +525,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -555,10 +543,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -575,56 +564,42 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Zeitersparnis:'
+                                text: 'Zeitersparnis: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Fertige Referate sind schnell verfügbar und erfordern keine zusätzliche Zeit für Recherche und Schreiben.'
-                            attrs:
-                              textAlign: start
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Plagiatsgefahr:'
+                                text: 'Plagiatsgefahr: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Wenn Studierende ein bereits bestehendes Referat ohne ausreichende Quellenangabe verwenden, kann dies als Plagiat betrachtet werden.'
-                            attrs:
-                              textAlign: start
                   -
                     type: tableRow
                     content:
@@ -634,56 +609,42 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Kostengünstig:'
+                                text: 'Kostengünstig: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Oft sind bereits erstellte Referate preiswerter als maßgeschneiderte Dienstleistungen.'
-                            attrs:
-                              textAlign: start
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Mangelnde Anpassung:'
+                                text: 'Mangelnde Anpassung: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Fertige Referate entsprechen möglicherweise nicht genau den Anforderungen der jeweiligen Aufgabe oder des Dozenten.'
-                            attrs:
-                              textAlign: start
                   -
                     type: tableRow
                     content:
@@ -693,56 +654,42 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Vielfalt:'
+                                text: 'Vielfalt: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Es gibt eine breite Auswahl an bereits vorhandenen Referaten zu verschiedenen Themen.'
-                            attrs:
-                              textAlign: start
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Begrenzte Originalität:'
+                                text: 'Begrenzte Originalität: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Diese Referate sind nicht einzigartig und können von vielen anderen Studierenden verwendet werden.'
-                            attrs:
-                              textAlign: start
             show_as_card: false
           -
             id: lmqqxdnj
@@ -750,19 +697,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Referat schreiben lassen'
               -
                 type: table
@@ -776,10 +715,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -793,10 +733,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -813,56 +754,42 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Maßgeschneidert:'
+                                text: 'Maßgeschneidert: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Ein individuell angefertigtes Referat kann genau den Anforderungen und Wünschen des Studierenden entsprechen.'
-                            attrs:
-                              textAlign: start
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Zeitaufwand:'
+                                text: 'Zeitaufwand: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Die Erstellung eines individuellen Referats erfordert Zeit für Kommunikation und Abstimmung mit dem Ghostwriter.'
-                            attrs:
-                              textAlign: start
                   -
                     type: tableRow
                     content:
@@ -872,56 +799,42 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Plagiatsfrei:'
+                                text: 'Plagiatsfrei: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Wenn von einem professionellen Ghostwriter geschrieben, minimiert dies das Risiko von Plagiaten erheblich.'
-                            attrs:
-                              textAlign: start
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Kosten:'
+                                text: 'Kosten: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Der Service eines Ghostwriters kann etwas teurer sein als der Kauf eines bereits erstellten Referats.'
-                            attrs:
-                              textAlign: start
                   -
                     type: tableRow
                     content:
@@ -931,38 +844,32 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Qualität:'
+                                text: 'Qualität: '
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Die Qualität eines auf Bestellung geschriebenen Referats kann höher sein, da erfahrene Autoren daran arbeiten.'
-                            attrs:
-                              textAlign: start
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -994,56 +901,39 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Referat schreiben: Beispiel'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Beim Schreiben eines Referats gibt es einige wichtige Punkte zu beachten, um sicherzustellen, dass Ihre Präsentation effektiv und informativ ist. In diesem Beispiel möchte ein BWL-Student sein Referat schreiben:'
-                attrs:
-                  textAlign: start
               -
                 type: orderedList
                 attrs:
-                  order: 1
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Klare Zielsetzung:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1052,37 +942,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Definieren Sie das Hauptziel Ihres Referats. Zum Beispiel: "Ziel dieses Referats ist es, die wichtigsten Finanzierungsoptionen für Start-ups zu erläutern."'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Gliederung und Struktur:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1091,37 +970,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Verwenden Sie eine klare Gliederung, z.B. Einleitung, Hauptteil und Schluss, um den logischen Aufbau Ihrer Präsentation sicherzustellen.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Verständliche Sprache:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1130,37 +998,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Vermeiden Sie Fachbegriffe oder Abkürzungen, die Ihr Publikum möglicherweise nicht versteht. Erklären Sie Fachbegriffe, wenn Sie sie verwenden.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Relevante Beispiele:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1169,37 +1026,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Nutzen Sie konkrete Beispiele, um Ihre Informationen zu veranschaulichen. Zum Beispiel: "Ein bekanntes Beispiel für erfolgreiches Bootstrapping ist das Unternehmen XYZ, das ohne externe Investitionen gestartet ist."'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Quellenangaben:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1208,37 +1054,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Fügen Sie Quellenangaben für statistische Daten oder Zitate hinzu, um die Glaubwürdigkeit Ihrer Informationen zu erhöhen. Nutzen Sie wissenschaftliche Quellen. '
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Visualisierungen:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1247,37 +1082,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Verwenden Sie Diagramme oder Grafiken, um komplexe Informationen leichter verständlich zu machen. Zum Beispiel: Ein Balkendiagramm, um Umsatzsteigerungen darzustellen.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Interaktion mit dem Publikum:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1286,37 +1110,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Stellen Sie Fragen, die das Publikum zum Nachdenken anregen. Zum Beispiel: "Welche Finanzierungsoption würden Sie für Ihr eigenes Start-up wählen?"'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Zeitmanagement:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1325,37 +1138,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Planen Sie Ihre Zeit sorgfältig, um sicherzustellen, dass Sie alle wichtigen Punkte abdecken können, ohne zu viel Zeit für einen Bereich zu verwenden.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Klare Schlussfolgerungen:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1364,37 +1166,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Fassen Sie die wichtigsten Erkenntnisse am Ende Ihres Referats zusammen und ziehen Sie klare Schlussfolgerungen. Zum Beispiel: "Insgesamt bietet Bootstrapping Start-ups die Möglichkeit, ihre Unabhängigkeit zu wahren, aber es erfordert ein hohes Maß an unternehmerischem Geschick."'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Üben und Feedback einholen:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1403,37 +1194,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Üben Sie Ihre Präsentation mehrmals, idealerweise vor Kommilitonen oder einem Mentor, um Ihr Präsentationstempo, Ihre Stimme und Ihren Auftritt zu verbessern.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Sicherheit im Umgang mit Fragen:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1442,37 +1222,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Denken Sie über mögliche Fragen nach, die nach Ihrer Präsentation gestellt werden könnten, und bereiten Sie klare und fundierte Antworten vor.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Einbindung der aktuellen Forschung:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -1481,128 +1250,76 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Wenn möglich, beziehen Sie aktuelle Forschungsergebnisse oder Trends in Ihr Referat ein, um die Relevanz Ihres Themas zu unterstreichen.'
-                                attrs:
-                                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Diese Punkte helfen einem BWL-Studenten dabei, ein effektives und informatives Referat zu erstellen, das das Interesse des Publikums weckt und den Zweck der '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/praesentationen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Präsentation
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' erfüllt. Wenn Sie aus dem Bereich '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/bwl
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'BWL Ghostwriter'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' für die Erstellung einer Präsentation Vorlage für Ihr Referat schreiben lassen möchten, stellen Sie uns bitte eine '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'kostenlose Anfrage'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Als Orientierungshilfe können Sie auch unsere '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /gwriters-akademie/powerpoint-praesentation-vorlage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'kostenlose Präsentation Vorlage'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' herunterladen.'
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -1614,8 +1331,6 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1647,32 +1362,20 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Übersicht: Verschiedene Arten von Grafiken für Präsentationen und Referate'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Diese Tabelle kann Ihnen helfen, die am besten geeigneten Grafiken für Ihr Referat auszuwählen, je nachdem, welches Ziel Sie verfolgen und welche Art von Informationen Sie vermitteln möchten.'
-                attrs:
-                  textAlign: start
               -
                 type: table
                 content:
@@ -1685,48 +1388,36 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgba(236, 236, 241, 0.2)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Art der Grafik'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableHeader
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgba(236, 236, 241, 0.2)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Verwendungszweck
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -1736,44 +1427,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Diagramme
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Darstellung von statistischen Daten und Trends'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -1783,44 +1460,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Grafiken/Bilder
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Veranschaulichung des Themas durch visuelle Elemente'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -1830,44 +1493,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Mind Maps'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Visualisierung komplexer Ideen und Zusammenhänge'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -1877,44 +1526,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Tabellen
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Klar und übersichtlich Präsentation von Informationen'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -1924,44 +1559,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Flowcharts
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Darstellung von Prozessen und Abläufen'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -1971,44 +1592,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Word Clouds'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Hervorheben von Schlüsselbegriffen und Konzepten'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2018,44 +1625,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Illustrationen
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Vereinfachung komplizierter Themen durch Bilder'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2065,44 +1658,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Zeitleisten
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Chronologische Darstellung von Ereignissen'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2112,44 +1691,30 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: QR-Codes
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Verlinkung zu Online-Ressourcen'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2159,53 +1724,38 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Animationen
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Darstellung von Prozessen oder Bewegungen'
-                            attrs:
-                              textAlign: left
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
@@ -2777,157 +2327,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -2939,16 +2423,16 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/ebook
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'eBook schreiben lassen'
                                   -
                                     type: hardBreak
@@ -2957,21 +2441,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/lernskript
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Lernskript schreiben lassen'
                                   -
                                     type: hardBreak
@@ -2980,21 +2463,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/praesentationen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Präsentationen erstellen lassen'
                                   -
                                     type: hardBreak
@@ -3003,21 +2485,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/statistische-analysen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Ghostwriter Statistik'
                                   -
                                     type: hardBreak
@@ -3026,21 +2507,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /expose
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Exposé schreiben lassen'
                                   -
                                     type: hardBreak
@@ -3049,32 +2529,21 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/referat
-                                          target: null
                                           rel: null
-                                    text: 'Referat schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
+                                          target: null
+                                          title: null
                                       -
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                attrs:
-                                  textAlign: start
+                                    text: 'Referat schreiben lassen'
                           -
                             id: ljoh9nu0
                             headline: Studienarbeiten
@@ -3308,6 +2777,8 @@ replicator:
                                   textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -3321,6 +2792,8 @@ replicator:
                     spacing_top: false
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -3359,8 +2832,6 @@ replicator:
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -3608,16 +3079,6 @@ replicator:
                               -
                                 type: text
                                 text: 'Dies ist ein webbasierter Dienst von Google, der ähnlich wie PowerPoint funktioniert. Es ermöglicht die Zusammenarbeit in Echtzeit und bietet viele Vorlagen.'
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 3
             show_as_card: false
         type: row
         enabled: true
@@ -3649,6 +3110,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -3656,6 +3118,8 @@ replicator:
                     text: 'Referat schreiben lassen: Ghostwriter'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
@@ -3664,22 +3128,21 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Wenn Sie keine vorgefertigte Präsentation kaufen möchten, sondern mit einem '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
                     text: 'akademischen Ghostwriter'
                   -
                     type: text
@@ -3688,33 +3151,28 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: ' eine Vorlage für Ihr Referat schreiben lassen möchten, sollten Sie sich einen Überblick über die Zusammenarbeit mit uns verschaffen.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Schritt 1: Kostenlose Anfrage'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Zunächst sollten Sie Ihre Anforderungen und Erwartungen an das Referat klar definieren. Was ist das Thema des Vortrags? Welche spezifischen Anforderungen hat Ihr Dozent oder Ihre Dozentin? Wenn Sie sich entschieden haben, das Referat schreiben zu lassen, können Sie eine kostenlose Anfrage bei unserer '
                   -
                     type: text
@@ -3723,12 +3181,12 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting/ghostwriting-agentur
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'professionellen Ghostwriting-Agentur'
                   -
                     type: text
-                    marks: {  }
                     text: ' stellen. Diese Anfrage sollte alle relevanten Informationen zu Ihrem Projekt enthalten, wie das Thema, den Umfang, den gewünschten Stil und den Abgabetermin. '
                   -
                     type: text
@@ -3737,20 +3195,20 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Auch diese Datenschutzmaßnahme wird im Vertrag angekündigt und unterschrieben.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    text: 'Schritt 3: Unverbindliches Angebot'
+                    text: 'Schritt 2: Unverbindliches Angebot'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
@@ -3759,29 +3217,25 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Nach der kostenlosen Anfrage erhalten Sie in kurzer Zeit ein unverbindliches Angebot. Wenn Sie mit dem Angebot zufrieden sind und zustimmen, wird ein Werkvertrag zwischen der Agentur und dem Auftraggeber abgeschlossen. In diesem Werkvertrag werden alle offenen Fragen beantwortet. Ein wichtiger Punkt, der beim Beauftragen eines Ghostwriters sehr nachgefragt wird, sind die persönlichen Daten. Diese werden bis zum Ende des Prozesses mit niemandem geteilt, auch nicht mit dem Ghostwriter. Nach der Abschlusslieferung werden alle persönlichen Daten des Auftraggebers sowie die erstellte Arbeit aus der Datenbank gelöscht.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
-                    text: 'Schritt 4: Auswahl des Ghostwriters'
+                    text: 'Schritt 3: Auswahl des Ghostwriters'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
@@ -3790,10 +3244,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Unsere Ghostwriting-Agentur GWriters wird Ihnen einen passenden Ghostwriter zuweisen, der über das notwendige Fachwissen und die Erfahrung im gewünschten Bereich verfügt, sei es BWL, VWL, Informatik, Geschichte oder ein anderes Fachgebiet. Die Kommunikation zwischen Auftraggeber und Ghostwriter wird vom Projektmanager überwacht, um sicherzustellen, dass alle Ihre Anforderungen und Erwartungen berücksichtigt werden.'
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: DZ7MWmhN
@@ -3801,26 +3252,19 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: start
                   level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Schritt 4: Zusammenarbeit und Erstellung'
+              -
+                type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Schritt5: Zusammenarbeit und Erstellung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks: {  }
                     text: 'Der Ghostwriter wird mit der '
                   -
                     type: text
@@ -3829,12 +3273,12 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/literaturrecherche-datenbanken-quellen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Literaturrecherche
                   -
                     type: text
-                    marks: {  }
                     text: ' beginnen, um die erforderlichen Informationen für das Referat zu sammeln. Dies umfasst die Suche nach wissenschaftlichen Quellen, Büchern, Artikeln und anderen relevanten Materialien. Basierend auf der Recherche erstellt der Ghostwriter eine klare Gliederung für das Referat. Diese Gliederung dient als Leitfaden für die Struktur des Referats. Der Ghostwriter verfasst das Referat entsprechend der Gliederung und den vereinbarten Vorgaben. Dabei wird auf eine klare und verständliche Formulierung geachtet.  Anschließen überprüfet unsere Agentur das Referat mit '
                   -
                     type: text
@@ -3843,34 +3287,26 @@ replicator:
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Plagiatsprüfungssoftware
                   -
                     type: text
-                    marks: {  }
                     text: ', um sicherzustellen, dass es frei von Plagiaten ist.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Schritt 4: Qualitätssicherung'
+                    text: 'Schritt 5: Qualitätssicherung'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3878,48 +3314,33 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Schritt 5: Lieferung und Überprüfung'
+                    text: 'Schritt 6: Lieferung und Überprüfung'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Das fertige Referat wird Ihnen rechtzeitig vor dem vereinbarten Abgabetermin zur Verfügung gestellt. Sie sollten das Referat gründlich überprüfen, um sicherzustellen, dass es Ihren Erwartungen entspricht und Ihren Anforderungen gerecht wird.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Schritt 6: Abschluss'
+                    text: 'Schritt 7: Abschluss'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3953,11 +3374,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: Disclaimer
               -
                 type: paragraph
@@ -3966,11 +3382,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
                 type: heading
@@ -3991,11 +3402,6 @@ replicator:
                       - 9b95698d-a7bd-4012-a525-5cc43c2434b4
                       - e67b3f8a-aa07-4834-a747-608fdf37f8be
                       - 85952363-75e0-4471-951d-63fb7d4b2f01
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
             show_as_card: false
         type: row
         enabled: true
