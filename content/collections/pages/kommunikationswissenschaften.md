@@ -129,7 +129,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705942775
+updated_at: 1705954021
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -150,7 +150,7 @@ replicator:
               -
                 type: paragraph
                 attrs:
-                  textAlign: center
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -194,10 +194,6 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Ghostwriter & Kommunikationswissenschaft'
                   -
                     type: listItem
@@ -217,10 +213,6 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Kommunikation & Wissenschaft'
                   -
                     type: listItem
@@ -240,10 +232,6 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
                             text: 'Studium der Kommunikationswissenschaften'
                   -
                     type: listItem
@@ -422,15 +410,10 @@ replicator:
               -
                 type: paragraph
                 attrs:
-                  textAlign: start
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Unser Team von erfahrenen Akademikern aus der Kommunikationswissenschaft unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand.'
               -
                 type: set
@@ -449,10 +432,6 @@ replicator:
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Kommunikation Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
@@ -466,10 +445,6 @@ replicator:
                           title: null
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -546,7 +521,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  textAlign: left
+                  textAlign: center
                   level: 2
                 content:
                   -
@@ -574,157 +549,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
