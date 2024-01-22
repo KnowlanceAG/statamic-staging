@@ -4105,6 +4105,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -4112,6 +4113,8 @@ replicator:
                     text: 'Die Menschen hinter dem Geist'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4145,12 +4148,16 @@ replicator:
                     text: ' angetrieben.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Bei Drehbüchern oder Büchern stellt sich im ersten Moment zwar die Frage, warum diese Leute ihr Werk nicht selbst veröffentlichen, wenn es qualitativ einwandfrei verfasst ist. Beantworten lässt sich diese Frage allerdings schnell: In der Regel fehlt der Bekanntheitsgrad oder die Liquidität, um eine Veröffentlichung inklusive Marketing in einem effektiven Umfang umzusetzen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4166,6 +4173,8 @@ replicator:
                     text: ' für die Karrierechancen im Beruf wächst auch der Markt für akademische Ghostwriter stetig weiter. Doch nicht nur die Nachfrage ist hoch: Wissenschaftliche Autoren werden häufig verhältnismäßig schlecht bezahlt. Viele dieser Menschen entschließen sich von daher zu einer zusätzlichen Nebentätigkeit.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4182,6 +4191,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -4189,6 +4199,8 @@ replicator:
                     text: Anonymität
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4204,6 +4216,8 @@ replicator:
                     text: '. Diese werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4238,6 +4252,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -4245,6 +4260,8 @@ replicator:
                     text: 'Falsche Schreibweisen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4252,6 +4269,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -4355,6 +4373,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -4362,6 +4381,8 @@ replicator:
                     text: Disclaimer
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4417,7 +4438,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705938017
+updated_at: 1705938179
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
