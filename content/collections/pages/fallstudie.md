@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,24 +16,20 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Fallstudie schreiben lassen'
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: bold
-          -
             type: textColor
             attrs:
               color: '#000!important'
-              hex: '#000'
         text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Fallstudie'
   -
     type: set
@@ -95,6 +91,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -102,28 +100,26 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 replicator:
   -
@@ -142,10 +138,11 @@ replicator:
                   id: gJCdR1fO
                   values:
                     type: insert_html
-                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Lösung von Fallstudien. Unsere professionellen Projektmanager finden den passenden akademischen Ghostwriter, der Ihren individuellen Anforderungen in einer Fallstudie entspricht. Sie möchten für eine <b>Fallstudie Ghostwriter</b> beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere eine Musterstudie für Ihre Fallstudie erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. Unsere Ghostwriting-Agentur arbeitet mit akademisch ausgebildeten, erfahrenen Ghostwritern in verschiedenen interdisziplinären Disziplinen zusammen.'
+                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Lösung von Fallstudien. Unsere professionellen Projektmanager finden den passenden akademischen Ghostwriter, der Ihren individuellen Anforderungen in einer Fallstudie entspricht. Sie möchten für eine &lt;b&gt;Fallstudie Ghostwriter&lt;/b&gt; beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere eine Musterstudie für Ihre Fallstudie erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. Unsere Ghostwriting-Agentur arbeitet mit akademisch ausgebildeten, erfahrenen Ghostwritern in verschiedenen interdisziplinären Disziplinen zusammen.'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -159,24 +156,20 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#definition'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Was ist eine Fallstudie?'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -185,6 +178,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -193,58 +188,55 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#arten'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Arten von Fallstudien'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#ghostwriter'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Fallstudie schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#schreiben'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Häufig gestellte Fragen: Fallstudie schreiben'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -253,8 +245,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#beispiel'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'In 5 Schritten Fallstudie schreiben: Beispiel'
             show_as_card: false
         type: row
@@ -279,36 +272,25 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
-                    marks: {  }
                     text: 'Services anhand unserer Kundenstimmen'
               -
                 type: heading
                 attrs:
-                  level: 4
                   textAlign: center
+                  level: 4
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
               -
                 type: set
@@ -317,11 +299,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <!-- ProvenExpert Bewertungssiegel -->
-                      <div id="pewl"></div>
-                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
-                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
-                      <!-- ProvenExpert Bewertungssiegel Ende -->
+                      &lt;!-- ProvenExpert Bewertungssiegel --&gt;
+                      &lt;div id="pewl"&gt;&lt;/div&gt;
+                      &lt;script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&amp;avatar=0&amp;competence=0&amp;style=white" async&gt;&lt;/script&gt;
+                      &lt;link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print"&gt;
+                      &lt;!-- ProvenExpert Bewertungssiegel Ende --&gt;
             show_as_card: false
         type: row
         enabled: true
@@ -355,28 +337,24 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Was ist eine Fallstudie?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Die Fallstudie, auch als Case Study bezeichnet, ist eine gängige Methode in der qualitativen Forschung und wird oft im Kontext von Bachelorarbeiten oder Masterarbeiten angewendet. Eine Fallstudie ist eine detaillierte Untersuchung eines spezifischen Falls, einer Situation oder eines Phänomens. Die sozialwissenschaftliche Methode eignet sich auch für das Arbeiten in anderen Fächern im Bereich der sogenannten „Humanities“, darunter Politik- oder Wirtschaftswissenschaft, Medien- und Kommunikationswissenschaften, aber auch Psychologie und Sprachwissenschaft.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -397,6 +375,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -404,6 +383,8 @@ replicator:
                     text: 'Arten von Fallstudien'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -415,8 +396,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/case-study-erstellen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Case Study im Unternehmenskontext'
                   -
                     type: text
@@ -424,6 +406,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -431,18 +414,12 @@ replicator:
                     text: 'Problemfindungsfall: Beispiel'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
                     text: 'In diesem Fall handelt es sich um eine Situation, in der Probleme und Lösungen identifiziert werden müssen.'
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -453,6 +430,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -460,6 +438,8 @@ replicator:
                     text: 'Beurteilungsfall: Beispiel'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -474,6 +454,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -481,6 +462,8 @@ replicator:
                     text: 'Informationsfall: Beispiel '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -495,6 +478,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -502,6 +486,8 @@ replicator:
                     text: 'Untersuchungsfall: Beispiel'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -514,10 +500,6 @@ replicator:
                     type: insert_html
                     html: '<div style="border: 4px solid #FF660A; padding: 20px;"><b>Beispiel:</b><br> Ein Unternehmen hat in den letzten Quartalen einen Umsatzrückgang verzeichnet, und die Geschäftsleitung ist besorgt über die Ursachen dieses Rückgangs. Sie möchten eine gründliche Untersuchung durchführen, um die Gründe für den Umsatzrückgang zu identifizieren und entsprechende Maßnahmen zu ergreifen. </div>'
               -
-                type: heading
-                attrs:
-                  level: 2
-              -
                 type: set
                 attrs:
                   id: lms3klzv
@@ -525,44 +507,33 @@ replicator:
                     type: anchor_target
                     anchor_name: schreiben-lassen
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: left
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Mustervorlage für Fallstudie schreiben\_lassen"
                   -
                     type: hardBreak
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: '– Wie funktioniert die Kooperation?'
               -
                 type: set
@@ -714,6 +685,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -721,6 +693,8 @@ replicator:
                     text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -732,13 +706,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -1123,53 +1098,42 @@ replicator:
                     type: anchor_target
                     anchor_name: ghostwriter
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Fallstudie schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Möglicherweise müssen Sie eine Fallstudie in Ihrer Bachelorarbeit oder Masterarbeit verfassen, sind jedoch unsicher, da Sie nicht über ausreichende Literatur und Theorie verfügen und den aktuellen Forschungsstand zum Fallbeispiel nicht kennen. Diese wichtigen Informationen können gerne Ihnen für Ihre Fallstudie Ghostwriter herausfiltern und zusammenstellen.  '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Eine Fallstudie wird in Abschlussarbeiten und Facharbeiten oft verlangt, da sie eine Brücke zwischen theoretischem Wissen und praktischer Anwendung schafft. Sie ermöglicht ein tiefgehendes Verständnis des Themas, fördert Forschungsfähigkeiten, kritisches Denken und klare Kommunikation. Zudem bereitet sie Studierende auf berufliche Herausforderungen vor, da Fallstudien in vielen Branchen ein gängiges Instrument zur Problemlösung sind.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Sie möchten eine Musterarbeit für Ihre Bachelorarbeit schreiben lassen, in der Sie eine Fallstudie schreiben sollen. Besonders das Thema die Sie ausgesucht haben, benötigt Datenerhebung und einen Lösungsansatz. Unsere Ghostwriter können Ihnen dabei helfen. '
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -1183,6 +1147,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1198,6 +1164,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1213,6 +1181,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1228,6 +1198,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1260,12 +1232,16 @@ replicator:
                             text: 'Wie reagieren Kunden auf Social-Media-Marketing-Kampagnen?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Hier können aus dem Fachbereich Marketing Ghostwriter die notwendigen Social-Media-Methoden nutzen, um Antworten auf alle Forschungsfragen zu finden. In diesem Fall geht es darum, die Auswirkungen von Social-Media-Marketing auf den Umsatz zu untersuchen, Daten zu sammeln und zu analysieren, um Erkenntnisse zu gewinnen. Dies erfordert eine gründliche Analyse und Forschung des Themas, was am besten als Untersuchungsfall beschrieben wird. Durch die Untersuchung dieser Fragen können Ghostwriter Einblicke in das Thema gewinnen und Hypothesen für zukünftige Forschung entwickeln.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
@@ -1277,22 +1253,13 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/case-study-loesung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Case Study Übungen mit Lösungen'
                   -
                     type: text
                     text: '. Hier finden Sie konkrete Beispiele und wichtige Informationen für Ihre wissenschaftliche Arbeit, wie beispielsweise Hausarbeiten.'
-                  -
-                    type: hardBreak
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0)'
-                          hex: '#000'
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -1315,8 +1282,6 @@ replicator:
             id: lmUilup5
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   id: lms3lf9q
@@ -1326,18 +1291,16 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Häufig gestellte Fragen: Fallstudie schreiben'
               -
                 type: set
@@ -1353,7 +1316,7 @@ replicator:
                           -
                             type: orderedList
                             attrs:
-                              order: 1
+                              start: 1
                             content:
                               -
                                 type: listItem
@@ -1363,15 +1326,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(32, 33, 36)'
-                                              hex: '#000'
                                         text: 'Ziel Ihrer Forschung festlegen '
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1380,15 +1335,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(32, 33, 36)'
-                                              hex: '#000'
                                         text: 'Fall/Problem identifizieren'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1397,15 +1344,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(32, 33, 36)'
-                                              hex: '#000'
                                         text: 'Literaturrecherche (Theorie suchen & finden)'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1414,15 +1353,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(32, 33, 36)'
-                                              hex: '#000'
                                         text: 'Fall erklären und beschreiben'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1431,15 +1362,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Fall mithilfe einer spezifischen Forschungsmethode untersuchen'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1457,15 +1380,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Entweder neue Lösungsansätze entwickeln oder vorhandene Ansätze beibehalten'
-                                    attrs:
-                                      textAlign: start
                         active: false
                       -
                         id: lnswenw8
@@ -1476,40 +1391,14 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: 'Eine Fallstudie wird in der Regel im Präsens geschrieben, insbesondere wenn Sie über die Fallstudie selbst, die Forschungsmethoden und die Ergebnisse sprechen. '
                               -
                                 type: hardBreak
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                               -
                                 type: hardBreak
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: 'Hier sind einige Beispiele in der richtigen Zeitform:'
-                            attrs:
-                              textAlign: start
                           -
                             type: bulletList
                             content:
@@ -1521,15 +1410,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: '"Die Fallstudie konzentriert sich auf ein Unternehmen in der Einzelhandelsbranche."'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1538,15 +1419,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: '"Die Forscher sammeln Daten aus Interviews und Dokumentenanalysen."'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1555,15 +1428,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: '"Die Ergebnisse zeigen, dass Social-Media-Marketing einen signifikanten Einfluss auf den Umsatz hat."'
-                                    attrs:
-                                      textAlign: start
                         active: false
                       -
                         id: lnswiubk
@@ -1579,15 +1444,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Relevanz des Themas'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1596,15 +1453,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Klares Ziel oder Forschungsfrage'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1613,15 +1462,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Sorgfältige Auswahl des Fallbeispiels'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1630,15 +1471,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Umfangreiche Datenerhebung'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1647,15 +1480,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Detaillierte Untersuchung'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1664,15 +1489,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Einbettung in einen theoretischen Rahmen: Die Studie sollte in eine theoretische Perspektive eingebettet sein.'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1681,15 +1498,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Klare Struktur der Studie'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1698,15 +1507,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Konsistenter Schreibstil'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: listItem
                                 content:
@@ -1715,15 +1516,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: 'rgb(55, 65, 81)'
-                                              hex: '#000'
                                         text: 'Klare Schlussfolgerungen und Empfehlungen'
-                                    attrs:
-                                      textAlign: start
                         active: false
                         headline: 'Was macht eine gute Fallstudie aus?'
                       -
@@ -1735,18 +1528,12 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(55, 65, 81)'
-                                      hex: '#000'
                                 text: 'Eine Fallstudie ist eine Methode zur detaillierten Untersuchung eines bestimmten Falls oder Phänomens, um Erkenntnisse zu gewinnen oder Fragestellungen zu beantworten.'
-                            attrs:
-                              textAlign: start
                         active: false
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -1780,8 +1567,6 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1813,6 +1598,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1820,34 +1606,20 @@ replicator:
                     text: 'In 5 Schritten Fallstudie schreiben: Beispiel'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Diese Schritte helfen Ihnen, eine Fallstudie zu erstellen, die ein spezifisches Thema analysiert und zu fundierten Schlussfolgerungen kommt.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
                     text: 'Schritt 1: Thema auswählen🔎  '
               -
                 type: bulletList
@@ -1857,6 +1629,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1870,19 +1644,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
                     text: 'Schritt 2: Fallbeschreibung✍'
               -
                 type: bulletList
@@ -1892,6 +1658,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1904,34 +1672,20 @@ replicator:
                             text: ': Beschreiben Sie das ausgewählte Einzelhandelsunternehmen, seine Produkte, Zielgruppen und sein bestehendes Marketing.'
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: var(--tw-prose-body)
-                                  hex: '#000'
                             text: 'Das ausgewählte Einzelhandelsunternehmen ist "ABC Electronics", ein Elektronikgeschäft mit Filialen in mehreren Städten. ABC Electronics ist spezialisiert auf den Verkauf von Unterhaltungselektronik und Haushaltsgeräten. Das Unternehmen hat eine breite Kundenbasis, darunter technikbegeisterte Konsumenten und Familien.'
-                        attrs:
-                          textAlign: start
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
                     text: 'Schritt 3: Theorie und Literatur'
               -
                 type: bulletList
@@ -1941,6 +1695,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1954,19 +1710,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
                     text: 'Schritt 4: Daten sammeln und analysieren'
               -
                 type: bulletList
@@ -1976,6 +1724,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1989,19 +1739,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--tw-prose-bold)
-                          hex: '#000'
                     text: 'Schritt 5: Ergebnisse präsentieren'
               -
                 type: bulletList
@@ -2011,6 +1753,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2023,6 +1767,8 @@ replicator:
                             text: ': Präsentieren Sie Ihre Ergebnisse, indem Sie den Anstieg des Umsatzes nach der Implementierung von Social-Media-Marketing-Strategien für ABC Electronics aufzeigen. Veranschaulichen Sie, wie diese Strategien dazu beigetragen haben, mehr Kunden anzuziehen und den Umsatz zu steigern. Welche Vor und Nachteile die Social-Media-Marketing gebracht hat.'
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2040,10 +1786,11 @@ replicator:
                                   rowspan: 1
                                   colwidth:
                                     - 318
-                                  background: null
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2057,10 +1804,11 @@ replicator:
                                   colspan: 1
                                   rowspan: 1
                                   colwidth: null
-                                  background: null
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: left
                                     content:
                                       -
                                         type: text
@@ -2078,59 +1826,46 @@ replicator:
                                   rowspan: 1
                                   colwidth:
                                     - 318
-                                  background: null
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: start
                                     content:
                                       -
                                         type: text
                                         marks:
                                           -
                                             type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: 'Erhöhte Markenbekanntheit:'
                                       -
                                         type: text
-                                        marks: {  }
                                         text: 'Durch Social-Media-Marketing kann ABC Electronics die Sichtbarkeit seiner Marke steigern und ein größeres Publikum erreichen.'
-                                    attrs:
-                                      textAlign: start
                               -
                                 type: tableCell
                                 attrs:
                                   colspan: 1
                                   rowspan: 1
                                   colwidth: null
-                                  background: null
                                 content:
                                   -
                                     type: paragraph
+                                    attrs:
+                                      textAlign: start
                                     content:
                                       -
                                         type: text
                                         marks:
                                           -
                                             type: bold
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
                                         text: 'Negatives Feedback:'
                                       -
                                         type: text
-                                        marks: {  }
                                         text: 'Negative Kommentare oder Bewertungen in sozialen Medien können einen negativen Einfluss auf das Image des Unternehmens haben.'
-                                    attrs:
-                                      textAlign: start
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2138,19 +1873,12 @@ replicator:
                     text: 'Schritt 6 (falls nötig ist): neue Lösungsansätze finden'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Für die Fallstudie könnten Sie diese Vor- und Nachteile weiter untersuchen und darauf eingehen, wie sie sich auf den Umsatz und den Erfolg von ABC Electronics auswirken. Dies würde es Ihnen ermöglichen, fundierte Schlussfolgerungen und Empfehlungen '
-                  -
-                    type: text
-                    text: 'abzuleiten. In dem Beispiel mit '
+                    text: 'Für die Fallstudie könnten Sie diese Vor- und Nachteile weiter untersuchen und darauf eingehen, wie sie sich auf den Umsatz und den Erfolg von ABC Electronics auswirken. Dies würde es Ihnen ermöglichen, fundierte Schlussfolgerungen und Empfehlungen abzuleiten. In dem Beispiel mit '
                   -
                     type: text
                     marks:
@@ -2160,10 +1888,6 @@ replicator:
                   -
                     type: text
                     text: ' könnte das Unternehmen ein effizientes System zur Überwachung sozialer Medien einrichten, um negative Kommentare und Bewertungen frühzeitig zu erkennen. Dann kann es schnell reagieren, die Anliegen der Kunden ernst nehmen und Lösungen anbieten, um die Probleme zu beheben. Dies kann dazu beitragen, Kundenbeschwerden in positive Erfahrungen umzuwandeln.'
-                attrs:
-                  textAlign: start
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2765,157 +2489,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -2927,16 +2585,16 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/ebook
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'eBook schreiben lassen'
                                   -
                                     type: hardBreak
@@ -2945,21 +2603,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/lernskript
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Lernskript schreiben lassen'
                                   -
                                     type: hardBreak
@@ -2968,21 +2625,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/praesentationen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Präsentationen erstellen lassen'
                                   -
                                     type: hardBreak
@@ -2991,21 +2647,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/statistische-analysen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Ghostwriter Statistik'
                                   -
                                     type: hardBreak
@@ -3014,21 +2669,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /expose
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Exposé schreiben lassen'
                                   -
                                     type: hardBreak
@@ -3037,32 +2691,21 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/referat
-                                          target: null
                                           rel: null
-                                    text: 'Referat schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
+                                          target: null
+                                          title: null
                                       -
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                attrs:
-                                  textAlign: start
+                                    text: 'Referat schreiben lassen'
                           -
                             id: ljoh9nu0
                             headline: Studienarbeiten
@@ -3330,11 +2973,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
             show_as_card: false
         type: row
@@ -3356,13 +2994,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Einige unserer Blogartikel zum Thema "Fallstudie schreiben lassen"'
               -
                 type: set
@@ -3386,7 +3017,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705937123
+updated_at: 1705957429
 template: default
 use_meta_keywords: false
 no_index_page: false
