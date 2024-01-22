@@ -129,7 +129,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705946758
+updated_at: 1705954687
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -149,6 +149,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -160,8 +162,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriter
                   -
                     type: text
@@ -173,8 +176,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/maschinenbau
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Maschinenbau Ghostwriter'
                   -
                     type: text
@@ -186,14 +190,17 @@ replicator:
                         type: link
                         attrs:
                           href: /experten
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Experten
                   -
                     type: text
                     text: ' kompetent in wissenschaftlichen Arbeiten um.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -216,34 +223,27 @@ replicator:
                     custom_sidebar_placement: 'on'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Ingenieurwissenschaften Ghostwriter suchen, dann können Sie uns gerne jetzt eine\_"
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -251,8 +251,6 @@ replicator:
                       -
                         type: bold
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung von einem Ghostwriter aus Ihrem Fachbereich wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Projektarbeiten, Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen Ihres Studiengangs erfüllt.'
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -276,22 +274,20 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Ingenieurwissenschaften Ghostwriter-Erfahrungen unserer Kunden'
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: center
+                  level: 3
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
               -
                 type: set
@@ -300,11 +296,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <!-- ProvenExpert Bewertungssiegel -->
-                      <div id="pewl"></div>
-                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
-                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
-                      <!-- ProvenExpert Bewertungssiegel Ende -->
+                      &lt;!-- ProvenExpert Bewertungssiegel --&gt;
+                      &lt;div id="pewl"&gt;&lt;/div&gt;
+                      &lt;script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&amp;avatar=0&amp;competence=0&amp;style=white" async&gt;&lt;/script&gt;
+                      &lt;link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print"&gt;
+                      &lt;!-- ProvenExpert Bewertungssiegel Ende --&gt;
             show_as_card: false
         type: row
         enabled: true
@@ -331,20 +327,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Unsere Ingenieurwissenschaften-Ghostwriter'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -383,20 +375,25 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Masterarbeit schreiben zu lassen'
                   -
                     type: text
                     text: .
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Der Studiengang Ingenieurwissenschaften bringt komplexe technische Herausforderungen in verschiedenen Ingenieurdisziplinen mit sich. Um diese Probleme frühzeitig zu bewältigen, empfehlen wir Ihnen, einen Ghostwriter im Bereich Ingenieurwissenschaften zu beauftragen. Das Ghostwriting unterstützt Sie nicht nur bei Ihren Abschlussarbeiten, sondern auch beim Erstellen von Modellen und Konzepten im Kontext von technischen Geräten.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -408,8 +405,9 @@ replicator:
                         type: link
                         attrs:
                           href: /lektorat/lektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektor
                   -
                     type: text
@@ -421,8 +419,9 @@ replicator:
                         type: link
                         attrs:
                           href: /korrektorat/korrektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektor
                   -
                     type: text
@@ -434,8 +433,9 @@ replicator:
                         type: link
                         attrs:
                           href: /leistungen/uebersetzung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Übersetzer
                   -
                     type: text
@@ -447,8 +447,9 @@ replicator:
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektorat
                   -
                     type: text
@@ -460,14 +461,13 @@ replicator:
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Plagiatsprüfung
                   -
                     type: text
                     text: ' durchführen, können Sie außerdem sicherstellen, dass bei der Bewertung Ihrer Projektarbeit oder Abschlussarbeit keine unangenehmen Überraschungen auftreten.'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -576,20 +576,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Ingenieurwissenschaften & Ghostwriting'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -598,8 +594,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriting
                   -
                     type: text
@@ -625,6 +622,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -652,157 +650,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -1731,6 +1663,8 @@ replicator:
                                     text: 'Zahnmedizin Ghostwriter'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -1754,6 +1688,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1761,6 +1696,8 @@ replicator:
                     text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1772,13 +1709,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Ghostwriting
                   -
                     type: text
@@ -1790,13 +1728,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage'
                   -
                     type: text
@@ -1965,6 +1904,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1972,6 +1912,8 @@ replicator:
                     text: 'Über Ingenieurwissenschaften'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1996,6 +1938,8 @@ replicator:
                     text: ' umfasst.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2021,6 +1965,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2028,6 +1973,8 @@ replicator:
                     text: 'Vertiefungsfach: Maschinenbau'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2035,6 +1982,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -2042,6 +1990,8 @@ replicator:
                     text: 'Studieninhalte: Ingenieurwissenschaften'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2071,20 +2021,25 @@ replicator:
                         type: link
                         attrs:
                           href: /leistungen/uebersetzung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'übersetzen lassen'
                   -
                     type: text
                     text: ' können.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'In den Grundlagenfächern sollte eine Verbindung zwischen naturwissenschaftlichen, wirtschaftlichen und ingenieurwissenschaftlichen Disziplinen hergestellt werden. Hierbei haben Studierende oft Schwierigkeiten, diese drei Disziplinen zu integrieren, da Hochschulen oft nur die notwendigen Informationen in den Grundlagenfächern liefern, und erst in den Vertiefungsfächern werden die drei Disziplinen zusammengeführt. Daher ist es ratsam, sich gut vorzubereiten, um diese Probleme zu vermeiden. Unsere Ghostwriter in diesen Fachbereichen sind Experten und arbeiten interdisziplinär zusammen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2097,6 +2052,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2109,6 +2066,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2121,6 +2080,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2133,6 +2094,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2145,6 +2108,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2157,6 +2122,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -2167,6 +2134,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2174,6 +2142,8 @@ replicator:
                     text: Vertiefungsmodule
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2212,8 +2182,9 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://h-da.de/studium/studienangebot/studiengaenge/ingenieurwissenschaften'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Hochschule Darmstadt'
                   -
                     type: text
@@ -2231,10 +2202,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 334
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2243,8 +2215,9 @@ replicator:
                                     type: link
                                     attrs:
                                       href: /ghostwriter/maschinenbau
-                                      target: null
                                       rel: null
+                                      target: null
+                                      title: null
                                 text: 'Allgemeiner Maschinenbau'
                               -
                                 type: text
@@ -2256,10 +2229,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 333
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2274,10 +2248,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 334
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2286,8 +2261,9 @@ replicator:
                                     type: link
                                     attrs:
                                       href: /ghostwriter/bauingenieurwesen
-                                      target: null
                                       rel: null
+                                      target: null
+                                      title: null
                                 text: Bauingenieurwesen
                               -
                                 type: text
@@ -2299,10 +2275,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 333
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2317,10 +2294,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 334
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2332,10 +2310,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 333
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2350,10 +2329,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 334
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2362,8 +2342,9 @@ replicator:
                                     type: link
                                     attrs:
                                       href: /ghostwriter/elektrotechnik
-                                      target: null
                                       rel: null
+                                      target: null
+                                      title: null
                                 text: 'Elektrotechnik und Informationstechnik'
                               -
                                 type: text
@@ -2375,10 +2356,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 333
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2393,10 +2375,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 334
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2408,10 +2391,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 333
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2426,10 +2410,11 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 334
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2441,16 +2426,19 @@ replicator:
                           rowspan: 1
                           colwidth:
                             - 333
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 text: 'Kunststofftechnik (B.Eng.) (M.Eng.)'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2462,8 +2450,9 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.hof-university.de/studium/studiengaenge-und-weiterbildungs-programme/studiengaenge/ingenieurwissenschaften-modular-beng.html?utm_source=StudyCheck&utm_campaign=StudyCheck&utm_medium=Premiumprofil-Studiengang'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Hochschule Hof'
                   -
                     type: text
@@ -2480,6 +2469,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -2487,6 +2477,8 @@ replicator:
                     text: 'Aubau: Ingenieurwissenschaften Bachelor'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2511,6 +2503,8 @@ replicator:
                     text: '. Das Studium schließt im siebten Semester mit einer Praxis- und Bachelorarbeit ab, die in Zusammenarbeit mit einem Unternehmen oder einem Forschungsinstitut absolviert werden kann. Die Voraussetzungen für die Zulassung zum Studiengang sind die allgemeine oder fachgebundene Hochschulreife, die Fachhochschulreife oder gegebenenfalls eine berufliche Qualifikation.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2522,8 +2516,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
@@ -2535,8 +2530,9 @@ replicator:
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'kostenlose Anfrage'
                   -
                     type: text
@@ -2544,6 +2540,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2551,6 +2548,8 @@ replicator:
                     text: Masterstudium
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
