@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,19 +16,15 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Summary schreiben lassen'
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: 'Mustervorlage für Ihre Summary von akademischen Ghostwritern'
   -
     type: set
@@ -90,6 +86,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -97,28 +95,26 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 replicator:
   -
@@ -137,10 +133,11 @@ replicator:
                   id: gJCdR1fO
                   values:
                     type: insert_html
-                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Optimierung von Summaries für Ihre Abschlussarbeit. Unsere professionellen Projektmanager finden den geeigneten akademischen Ghostwriter, der Ihren individuellen Anforderungen in einem Summary für Ihre Abschlussarbeit entspricht. Sie möchten für ein <b>Bachelorarbeit-Summary Ghostwriter</b> beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere ein Muster-Summary für Ihre wissenschatliche Arbeit erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. In unserer Ghostwriting-Agentur kooperieren wir mit akademisch qualifizierten und erfahrenen Ghostwritern aus diversen interdisziplinären Fachbereichen.'
+                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Optimierung von Summaries für Ihre Abschlussarbeit. Unsere professionellen Projektmanager finden den geeigneten akademischen Ghostwriter, der Ihren individuellen Anforderungen in einem Summary für Ihre Abschlussarbeit entspricht. Sie möchten für ein &lt;b&gt;Bachelorarbeit-Summary Ghostwriter&lt;/b&gt; beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere ein Muster-Summary für Ihre wissenschatliche Arbeit erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. In unserer Ghostwriting-Agentur kooperieren wir mit akademisch qualifizierten und erfahrenen Ghostwritern aus diversen interdisziplinären Fachbereichen.'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -154,6 +151,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -162,66 +161,57 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#definition'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Definition Summary'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#schreiben-lassen'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: "Mustervorlage für Summary schreiben\_lassen"
                           -
                             type: hardBreak
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#schreiben-lassen'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#schreiben-lassen'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: '– Wie funktioniert die Kooperation?'
-                        attrs:
-                          textAlign: left
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -230,14 +220,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#schreiben'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'So können Sie Ihr Summary schreiben'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -246,14 +239,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#executive-summary'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Summary vs. Executive Summary'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -262,32 +258,29 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#beispiel'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Summary schreiben: Beispiel'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#ghostwriter'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Summary schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -296,6 +289,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -304,8 +299,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#ai-tools'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Mit AI-Tools Summary schreiben'
             show_as_card: false
         type: row
@@ -330,36 +326,30 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
-                    marks: {  }
                     text: 'Services anhand unserer Kundenstimmen'
               -
                 type: heading
                 attrs:
-                  level: 4
                   textAlign: center
+                  level: 4
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
               -
                 type: set
@@ -406,6 +396,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -413,6 +404,8 @@ replicator:
                     text: 'Definition Summary'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -433,8 +426,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/text-verkuerzen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Verkürzungen von Texten'
                   -
                     type: text
@@ -452,18 +446,12 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Ein erfolgreiches Summary enthält:'
-                attrs:
-                  textAlign: start
               -
                 type: table
                 content:
@@ -476,10 +464,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -493,17 +482,15 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Wichtigsten Fakten, Thesen oder Ereignisse'
-                            attrs:
-                              textAlign: start
                   -
                     type: tableRow
                     content:
@@ -513,10 +500,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -530,17 +518,15 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Deutlich kürzer als der Originaltext'
-                            attrs:
-                              textAlign: start
                   -
                     type: tableRow
                     content:
@@ -550,10 +536,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -567,17 +554,15 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Klar formulierte Sätze und präzise Ausdrücke'
-                            attrs:
-                              textAlign: start
                   -
                     type: tableRow
                     content:
@@ -587,10 +572,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -604,19 +590,19 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: start
                             content:
                               -
                                 type: text
-                                marks: {  }
                                 text: 'Objektiv bleiben und keine persönlichen Meinungen oder Bewertungen'
-                            attrs:
-                              textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -629,44 +615,33 @@ replicator:
                     type: anchor_target
                     anchor_name: schreiben-lassen
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Mustervorlage für Summary schreiben\_lassen"
                   -
                     type: hardBreak
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: '– Wie funktioniert die Kooperation?'
               -
                 type: set
@@ -844,6 +819,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -851,6 +827,8 @@ replicator:
                     text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -862,13 +840,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -1255,6 +1234,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1262,6 +1242,8 @@ replicator:
                     text: 'So können Sie Ihr Summary schreiben'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1273,8 +1255,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Ghostwriter beauftragen'
                   -
                     type: text
@@ -1286,8 +1269,9 @@ replicator:
                         type: link
                         attrs:
                           href: /experten
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Fachexperten
                   -
                     type: text
@@ -1295,13 +1279,15 @@ replicator:
               -
                 type: orderedList
                 attrs:
-                  order: 1
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1311,6 +1297,8 @@ replicator:
                             text: 'Identifizieren Sie die Schlüsselpunkte'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1322,8 +1310,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/hypothese-forschungsfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Forschungsfragen
                   -
                     type: text
@@ -1335,8 +1324,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/qualitative-quantitative-methoden
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Methoden
                   -
                     type: text
@@ -1348,8 +1338,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Masterarbeit
                   -
                     type: text
@@ -1357,13 +1348,15 @@ replicator:
               -
                 type: orderedList
                 attrs:
-                  order: 2
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1373,6 +1366,8 @@ replicator:
                             text: 'Kürzen Sie den Text'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1380,13 +1375,15 @@ replicator:
               -
                 type: orderedList
                 attrs:
-                  order: 3
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1396,6 +1393,8 @@ replicator:
                             text: 'Beibehaltung der Struktur'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1403,13 +1402,15 @@ replicator:
               -
                 type: orderedList
                 attrs:
-                  order: 4
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1419,6 +1420,8 @@ replicator:
                             text: 'Verwendung klarer Sprache'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1426,13 +1429,15 @@ replicator:
               -
                 type: orderedList
                 attrs:
-                  order: 5
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1442,6 +1447,8 @@ replicator:
                             text: 'Forschungsergebnisse darstellen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1449,13 +1456,15 @@ replicator:
               -
                 type: orderedList
                 attrs:
-                  order: 6
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -1465,31 +1474,20 @@ replicator:
                             text: 'Überprüfung auf Vollständigkeit'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Lassen Sie Ihr Bachelorarbeit-Summary von einem Ghostwriter überprüfen, um sicherzustellen, dass es alle wichtigen Aspekte Ihrer Arbeit abdeckt, einschließlich der Forschungsfrage, Methoden, Ergebnisse und Schlussfolgerungen.'
               -
-                type: blockquote
+                type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Denken Sie daran, dass das Summary als kurze, aber präzise Darstellung Ihrer Abschlussarbeit dienen soll. Es sollte Lesern genügend Informationen geben, um den Inhalt zu verstehen, ohne den gesamten Text lesen zu müssen.'
-                    attrs:
-                      textAlign: start
-              -
-                type: heading
-                attrs:
-                  level: 3
+                    type: text
+                    text: 'Denken Sie daran, dass das Summary als kurze, aber präzise Darstellung Ihrer Abschlussarbeit dienen soll. Es sollte Lesern genügend Informationen geben, um den Inhalt zu verstehen, ohne den gesamten Text lesen zu müssen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1515,12 +1513,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
@@ -1832,8 +1829,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/finanzwissenschaften
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Finanzwissenschaften Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1844,8 +1842,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/medienwissenschaften
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Medienwissenschaften Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1856,8 +1855,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/bwl
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'BWL Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1868,8 +1868,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/marketing
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Marketing Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1880,8 +1881,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftsinformatik
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Wirtschaftsinformatik Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1892,8 +1894,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftswissenschaften
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Wirtschaftswissenschaften Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1904,8 +1907,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/personalmanagement
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Personalmanagement Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1916,13 +1920,10 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#Internationale'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Internationale BWL Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: hardBreak
                           -
                             id: ljoh4b21
                             headline: Geisteswissenschaften
@@ -2092,157 +2093,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -2254,16 +2189,16 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/ebook
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'eBook schreiben lassen'
                                   -
                                     type: hardBreak
@@ -2272,21 +2207,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/lernskript
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Lernskript schreiben lassen'
                                   -
                                     type: hardBreak
@@ -2295,21 +2229,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/praesentationen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Präsentationen erstellen lassen'
                                   -
                                     type: hardBreak
@@ -2318,21 +2251,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/statistische-analysen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Ghostwriter Statistik'
                                   -
                                     type: hardBreak
@@ -2341,21 +2273,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /expose
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Exposé schreiben lassen'
                                   -
                                     type: hardBreak
@@ -2364,32 +2295,21 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/referat
-                                          target: null
                                           rel: null
-                                    text: 'Referat schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
+                                          target: null
+                                          title: null
                                       -
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                attrs:
-                                  textAlign: start
+                                    text: 'Referat schreiben lassen'
                           -
                             id: ljoh9nu0
                             headline: Studienarbeiten
@@ -2623,6 +2543,8 @@ replicator:
                                   textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2660,6 +2582,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -2667,18 +2590,12 @@ replicator:
                     text: 'Summary vs. Executive Summary'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Sowohl "Summary" als auch "Executive Summary" sind Begriffe, die in verschiedenen Kontexten verwendet werden. Beide dienen dazu, Lesern einen schnellen Überblick zu verschaffen, aber der Begriff "Executive Summary" betont oft den geschäftlichen Kontext und die spezifische Zielgruppe von Führungskräften.'
-                attrs:
-                  textAlign: start
               -
                 type: table
                 content:
@@ -2691,10 +2608,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2708,10 +2626,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2728,10 +2647,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2742,10 +2662,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2759,10 +2680,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2773,10 +2695,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2790,10 +2713,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2804,16 +2728,19 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 text: 'wichtige Erkenntnisse'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2821,27 +2748,22 @@ replicator:
               -
                 type: orderedList
                 attrs:
-                  order: 1
+                  start: 1
                 content:
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Hintergrund und Zielsetzung:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -2850,37 +2772,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Eine kurze Einführung in das Forschungsthema und die Hauptziele der Arbeit.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Forschungsfragen oder Hypothesen:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -2889,37 +2800,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Eine klare Darstellung der Forschungsfragen oder Hypothesen, die in der Arbeit behandelt werden.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Methodik:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -2928,37 +2828,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Eine knappe Beschreibung der Forschungsmethoden, die für die Datenerhebung und Analyse verwendet wurden.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Hauptergebnisse:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -2967,37 +2856,26 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Die wichtigsten Ergebnisse der Forschung, einschließlich der Schlussfolgerungen oder Hauptbefunde.'
-                                attrs:
-                                  textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Empfehlungen oder Implikationen:'
-                        attrs:
-                          textAlign: start
                       -
                         type: bulletList
                         content:
@@ -3006,18 +2884,12 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: start
                                 content:
                                   -
                                     type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                     text: 'Wenn zutreffend, können auch Empfehlungen oder Implikationen für zukünftige Forschung oder Praxis aufgeführt werden.'
-                                attrs:
-                                  textAlign: start
               -
                 type: set
                 attrs:
@@ -3028,6 +2900,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -3035,6 +2908,8 @@ replicator:
                     text: 'Summary schreiben: Beispiel'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3044,37 +2919,28 @@ replicator:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: start
                     content:
                       -
                         type: text
                         marks:
                           -
                             type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
                         text: 'Titel der Bachelorarbeit:'
                       -
                         type: text
-                        marks: {  }
                         text: ' '
                       -
                         type: text
                         marks:
                           -
                             type: italic
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
                         text: '"Einfluss von Social Media Marketing auf das Kaufverhalten von Millennials: Eine empirische Analyse in der Einzelhandelsbranche"'
-                    attrs:
-                      textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3189,18 +3055,12 @@ replicator:
                     text: ' in den Marketingbemühungen besonders wichtig sind. Diese Erkenntnisse haben weitreichende Implikationen für Unternehmen, die ihre Marketingstrategien an die Bedürfnisse der Millennials anpassen möchten."'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die Länge eines Summary kann je nach den Anforderungen Ihrer Hochschule und den spezifischen Richtlinien Ihrer Bachelorarbeit unterschiedlich sein. In der Regel sollte ein Summary jedoch relativ kurz und präzise sein. Ein üblicher Richtwert für ein Bachelorarbeit-Summary liegt oft zwischen 150 und 300 Wörtern.'
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -3238,13 +3098,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Summary schreiben lassen - erfahrene Ghostwriter unterstützen Sie!'
               -
                 type: paragraph
@@ -3345,11 +3198,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Sie möchten eine Musterarbeit für Ihre '
                   -
                     type: text
@@ -3361,18 +3209,9 @@ replicator:
                           rel: null
                           target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: Hausarbeit
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ' oder '
                   -
                     type: text
@@ -3384,18 +3223,9 @@ replicator:
                           rel: null
                           target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: ', in der Sie ein Summary schreiben sollen. Sie können gerne bei einem Ghostwriter Ihr Summary schreiben.'
               -
                 type: set
@@ -3464,11 +3294,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
             show_as_card: false
         type: row
@@ -3491,8 +3316,6 @@ replicator:
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -3520,7 +3343,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705937580
+updated_at: 1705958063
 template: default
 use_meta_keywords: false
 no_index_page: false
