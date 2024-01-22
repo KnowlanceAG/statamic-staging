@@ -133,6 +133,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -144,8 +146,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'wissenschaftliche Arbeit schreiben lassen'
                   -
                     type: text
@@ -173,29 +176,25 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter-Services anhand unserer Kundenstimmen'
               -
                 type: heading
                 attrs:
-                  level: 4
                   textAlign: center
+                  level: 4
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
             show_as_card: false
         type: row
@@ -249,6 +248,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -256,20 +256,12 @@ replicator:
                     text: 'Ghostwriter - durch GWriters neu definiert'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks: {  }
-                    text: 'Ein Ghostwriter '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
-                          hex: '#000'
-                    text: 'ist nicht etwa ein '
+                    text: 'Ein Ghostwriter ist nicht etwa ein '
                   -
                     type: text
                     marks:
@@ -277,64 +269,36 @@ replicator:
                         type: link
                         attrs:
                           href: /lektorat/lektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektor
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
-                          hex: '#000'
                     text: ' oder '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /korrektorat/korrektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektor
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
-                          hex: '#000'
                     text: '. Der „Geist“ kontrolliert oder überarbeitet in der Regel keine Arbeiten, sondern '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
-                          hex: '#000'
                     text: 'verfasst selbstständig ein Werk nach den individuellen Vorgaben einer anderen Person'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
-                          hex: '#000'
                     text: ' - dessen Rechte er an den Käufer abtritt. Mit der Abgabe aller Nutzungsrechte taucht der Ghostwriter dann nicht mehr als Autor auf und ist für den Leser somit als Verfasser unsichtbar. Er ist ein Geist – ein Ghostwriter.'
-                attrs:
-                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -457,6 +421,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -464,271 +429,157 @@ replicator:
                     text: 'Wer sind unsere Ghostwriter?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Unsere unsichtbaren Textverfasser sind im Alltag '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'häufig Doktoren und Professoren'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten. Aufgrund ihrer praktischen Erfahrung und fachlichen Kenntnisse in ihrem jeweiligen Fachbereich können diese Sie zu jedem Zeitpunkt der Texterstellung unterstützen. Unsere '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriting/ghostwriting-agentur
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'professionelle Ghostwriter-Agentur'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' arbeitet ausschließlich mit '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'hochqualifizierten Akademikern'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' zusammen, die versiert und zuverlässig Mustervorlagen für unterschiedliche wissenschaftliche Aufgaben (Hochschularbeiten, Abschlussarbeiten, Businesspläne, '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/praesentationen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Präsentationen
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' etc.) nach Kundenwünschen erstellen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Unsere anonymen Autoren bieten zu vielen wissenschaftlichen Themenbereichen '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'professionelle Unterstützung'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' an: bei der Textüberarbeitung, Formulierung von Texten, Literaturrecherche, Themenfindung, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein. Diese Unterstützung kann neben der '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Erstellung von Mustervorlagen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' auch durch Coaching sowie Beratung erfolgen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Wir finden für Sie rund um das Thema „wissenschaftliches Arbeiten“ für jede Aufgabenstellung passende Fachautoren als Hilfestellung, wenn Sie eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Hausarbeit
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: Seminararbeit
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', Bachelorarbeit und '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Masterarbeit schreiben lassen'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' möchten'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: .
             show_as_card: false
         type: row
@@ -1007,6 +858,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1014,6 +866,8 @@ replicator:
                     text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1025,13 +879,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -1143,6 +998,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1150,6 +1006,8 @@ replicator:
                     text: 'Akademische Ghostwriter'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1170,8 +1028,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
@@ -1187,6 +1046,8 @@ replicator:
                     text: '. '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1202,6 +1063,8 @@ replicator:
                     text: ', Übernahme und Dokumentation der Literaturrecherche zu einem bestimmten Thema oder auch dem Verfassen von Fachartikeln.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1226,6 +1089,8 @@ replicator:
                     text: ' mit der Erstellung von wissenschaftlich fundierten Texten für geschäftliche Zwecke.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -1236,19 +1101,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
                     text: 'Unsere Leistungen im Überblick'
               -
                 type: set
@@ -1262,7 +1119,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität &amp;amp; Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -1270,7 +1127,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche &amp;amp; fachliche Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -1301,119 +1158,63 @@ replicator:
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
                         text: 'Das professionelle Leistungspaket von Ghostwritern, die '
                       -
                         type: text
                         marks:
                           -
                             type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
                         text: 'nach Kundenanforderungen Mustervorlagen für geschäftliche und akademischen Zwecken verfassen'
                       -
                         type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
                         text: ', beinhaltet weitere Leistungsbereiche, wie das Korrektorat, Lektorat und Plagiatsprüfung. '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte und wissenschaftliche Sätze zu formulieren. Schließlich wird die Musterarbeit von einem Fachautoren im '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Leistungsbereich des Lektorats und Korrektorats'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' überprüft. Nach den Korrekturen kann eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'umfassende Plagiatsprüfung erfolgen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: .
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Akademische Ghostwriter oder Ghostwriterinnen schreiben nicht nur wissenschaftliche Musterarbeiten, einen Ghostwriter kann man auch für das Zeichnen beauftragen, genauer gesagt für das '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Erstellen technischer Zeichnungen'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Besonders im Architekturstudium oder Ingenieursstudium möchten viele Studierende Musterzeichnungen für ihre Abgaben erstellen lassen.'
               -
                 type: set
@@ -1449,6 +1250,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1456,70 +1258,42 @@ replicator:
                     text: 'Seriöse Ghostwriter finden'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Ein häufiges Problem im heutigen Ghostwriting Markt ist es, einen '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'professionellen und seriösen Ghostwriter finden'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' zu können, ohne dabei an einen sogenannten Hobbyschreiber oder gar eine zwielichtige Agentur zu geraten. Denn im schlimmsten Fall erhält man dabei ein Plagiat oder eine aus einer anderen Sprache übersetzte Arbeit.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'seriöse Ghostwriting Agentur arbeitet mit zertifizierten Ghostwritern'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' aus jedem Fachbereich. Wenn Sie zum Beispiel Physik studieren, beauftragt unser professioneller Schreibservice ausschließliche ausgebildete Physiker für Ihre Projekte, keinesfalls Hobbyschreiber.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
             show_as_card: false
           -
             id: N8ACA0ip
@@ -1558,6 +1332,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1565,111 +1340,60 @@ replicator:
                     text: 'Zusammenarbeit von Ghostwritern & Agenturen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Zudem spielt eine seriöse Schreibagentur eine wichtige Rolle beim Finden eines geeigneten akademischen Ghostwriters. Eine Agentur für Ghostwriter verfügt, wenn sie als seriös einzustufen ist, über einen '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'weitreichenden Pool von Ghostwritern'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Aus diesem können genau die Schreiber ausgewählt werden, die die erforderlichen Qualifikationen für die jeweilige Aufgabe mitbringen. Sei es die erforderliche fachliche Kompetenz oder auch das Wissen, wie die vorliegenden Daten statistisch ausgewertet oder welche akademischen Formalia eingehalten werden müssen. '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Darüber hinaus stellt eine Schreibagentur ihren Ghostwritern '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'professionelle Programme kostenlos zur Verfügung'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Dazu zählen Plagiatssoftware, Zugriff auf relevanten Datenbanken/ Fachzeitschriften, automatisierten Zitiersystemen sowie Programme für quantitative Auswertungen oder qualitative Inhaltsanalysen wie SPSS und '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: MAXQDA
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Für inhaltliche Korrekturen einer Musterarbeit beauftragt ein akademischer Dienstleister in der Regel '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'unabhängige professionelle Lektoren'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: .
             show_as_card: false
         type: row
@@ -1697,6 +1421,7 @@ replicator:
                   -
                     type: heading
                     attrs:
+                      textAlign: left
                       level: 3
                     content:
                       -
@@ -1704,6 +1429,8 @@ replicator:
                         text: 'Vertrauenswürdige Ghostwriter Vergleiche lesen'
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: left
                     content:
                       -
                         type: text
@@ -1734,6 +1461,8 @@ replicator:
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -1743,6 +1472,8 @@ replicator:
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -1752,6 +1483,8 @@ replicator:
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -1761,6 +1494,8 @@ replicator:
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -1778,6 +1513,8 @@ replicator:
                     padding-y: 15
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1839,6 +1576,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -1846,6 +1584,8 @@ replicator:
                     text: 'Webseite der Ghostwriter Agentur '
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1866,8 +1606,9 @@ replicator:
                         type: link
                         attrs:
                           href: /impressum
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Impressum
                   -
                     type: text
@@ -1888,8 +1629,9 @@ replicator:
                         type: link
                         attrs:
                           href: /datenschutzerklaerung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Datenschutzerklärung
                   -
                     type: text
@@ -1897,6 +1639,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -1904,6 +1647,8 @@ replicator:
                     text: 'Verhalten der Mitarbeiter & Ghostwriter'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1947,22 +1692,19 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
                   textAlign: start
+                  level: 3
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Ghostwriter schreiben individuelle Unikate'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1983,8 +1725,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Hausarbeit kaufen'
                   -
                     type: text
@@ -1996,8 +1739,9 @@ replicator:
                         type: link
                         attrs:
                           href: '/faq#qualitaet'
-                          target: _blank
                           rel: 'noopener noreferrer'
+                          target: _blank
+                          title: null
                     text: Ghostwriting-Qualitätsansprüchen
                   -
                     type: text
@@ -2005,6 +1749,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2012,6 +1757,8 @@ replicator:
                     text: 'Nur legale Ghostwriting-Services'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2023,8 +1770,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/plagiate-ghostwriting-legal
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Ghostwriting legal'
                   -
                     type: text
@@ -2038,6 +1786,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2045,6 +1794,8 @@ replicator:
                     text: 'Hinter welchen Kulissen verbergen sich Ghostwriter?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2106,6 +1857,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2124,6 +1877,8 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
@@ -2140,21 +1895,15 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/facharbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Facharbeit schreiben lassen'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2168,6 +1917,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2186,6 +1937,8 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
@@ -2202,21 +1955,15 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Hausarbeit schreiben lassen'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2230,6 +1977,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2248,6 +1997,8 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
@@ -2264,21 +2015,15 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Seminararbeit schreiben lassen'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2300,6 +2045,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2318,6 +2065,8 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
@@ -2334,21 +2083,15 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Bachelorarbeit schreiben lassen'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2362,6 +2105,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2380,6 +2125,8 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
@@ -2396,21 +2143,15 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Masterarbeit schreiben lassen'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2424,6 +2165,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2442,6 +2185,8 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
@@ -2458,21 +2203,15 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/doktorarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Doktorarbeit schreiben lassen'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2523,6 +2262,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2541,47 +2282,33 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Mehr erfahren:'
                   -
                     type: hardBreak
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/jura
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Jura Ghostwriter'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2595,6 +2322,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2613,47 +2342,33 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Mehr erfahren:'
                   -
                     type: hardBreak
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/bwl
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'BWL Ghostwriter'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2667,6 +2382,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2685,47 +2402,33 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Mehr erfahren:'
                   -
                     type: hardBreak
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/medizin
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Medizin Ghostwriter'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2747,6 +2450,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2765,47 +2470,33 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Mehr erfahren:'
                   -
                     type: hardBreak
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/sozialwissenschaften
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Sozialwissenschaften Ghostwriter'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2819,6 +2510,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2837,47 +2530,33 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Mehr erfahren:'
                   -
                     type: hardBreak
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/psychologie
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Psychologie Ghostwriter'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2891,6 +2570,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2909,47 +2590,33 @@ replicator:
                     padding-y: 10
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Mehr erfahren:'
                   -
                     type: hardBreak
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/zahnmedizin
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'Zahnmedizin Ghostwriter'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -2972,12 +2639,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: center
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
@@ -3549,157 +3215,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -4080,8 +3680,12 @@ replicator:
                                   textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -4336,7 +3940,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: "Die Berufsgruppe des akademischen Ghostwriters wird in der Öffentlichkeit wenig wahrgenommen. Das Phänomen ist jedoch keineswegs eine moderne Erscheinung. Akademisches\_Ghostwriting\_ist so alt wie das System der akademischen Lehre & Bildung selbst. Erwähnenswert ist, dass es sich bei akademischen Ghostwritern häufig um wissenschaftliche Autoren handelt, die auf diesem Wege – zum Teil neben Ihrer Haupttätigkeit – akademische Arbeiten verfassen. Akademische Ghostwriter kommen dabei aus den verschiedensten Fachbereichen und (Forschungs-)Gebieten. Insbesondere in den Rechts- und\_Wirtschaftswissenschaften\_ist akademisches Ghostwriting weit verbreitet."
+                                text: "Die Berufsgruppe des akademischen Ghostwriters wird in der Öffentlichkeit wenig wahrgenommen. Das Phänomen ist jedoch keineswegs eine moderne Erscheinung. Akademisches\_Ghostwriting\_ist so alt wie das System der akademischen Lehre &amp; Bildung selbst. Erwähnenswert ist, dass es sich bei akademischen Ghostwritern häufig um wissenschaftliche Autoren handelt, die auf diesem Wege – zum Teil neben Ihrer Haupttätigkeit – akademische Arbeiten verfassen. Akademische Ghostwriter kommen dabei aus den verschiedensten Fachbereichen und (Forschungs-)Gebieten. Insbesondere in den Rechts- und\_Wirtschaftswissenschaften\_ist akademisches Ghostwriting weit verbreitet."
                         active: false
                       -
                         id: BlVf3uoN
@@ -4438,7 +4042,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705938179
+updated_at: 1705955029
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
