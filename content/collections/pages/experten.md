@@ -5,7 +5,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705932830
+updated_at: 1705932962
 teaser:
   -
     type: heading
@@ -228,6 +228,13 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lrp0fjel
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
                   id: vFuPdZhu
                   values:
                     type: experts_list
@@ -255,31 +262,6 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-  -
-    id: SQWeYFxS
-    bard:
-      -
-        type: set
-        attrs:
-          id: vFuPdZhu
-          values:
-            type: experts_list
-            experts:
-              - 1afd0ee6-02cf-44ee-86a3-9d7b2992ad91
-              - bdab7ac8-0923-4d8c-b848-caa250aa5e62
-              - ba5d8a21-c7c4-4743-931e-ef2dfef89cc9
-              - ece9c0d8-5e69-4361-a79d-acbdb0675182
-              - 5bbd2a1b-3cbe-423a-8557-bd86be4fabf6
-              - 682e727e-01a6-4404-b346-59a732bc38e7
-              - 83109076-1fe8-49c2-9fd0-195ddadead51
-              - 8237be5e-4438-4b5b-94e6-d80f2f590ad5
-              - 6fd5f928-d931-42b1-b5eb-8f395f5bd71e
-              - ff5a8835-3e93-4d7c-9aa9-5ce0b70c47cc
-              - 75d4fab6-ece8-4981-a963-a48e457b3f56
-              - a66fcf42-7a09-43e7-b46b-535a147a7033
-    type: editor
-    enabled: true
-    show_as_card: false
   -
     id: bEGlEGSZ
     is_full: true
