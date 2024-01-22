@@ -2711,6 +2711,8 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
@@ -2721,12 +2723,11 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
                     text: 'Dipl.-Betriebswirt Marcus Wittkamp'
-                attrs:
-                  textAlign: center
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
@@ -2737,10 +2738,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
                     text: 'Supervisor & Senior Ghostwriter'
-                attrs:
-                  textAlign: center
               -
                 type: set
                 attrs:
@@ -3501,7 +3499,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705956179
+updated_at: 1705956206
 template: default
 use_meta_keywords: false
 no_index_page: false
