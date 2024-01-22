@@ -130,7 +130,7 @@ page_title: 'Ghostwriter Maschinenbau, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705944590
+updated_at: 1705952817
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -150,32 +150,20 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'Unsere Maschinenbau Ghostwriter'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'Ghostwriter von GWriters im Maschinenbau Sie in Ihrem Studium vollumfänglich und professionell unterstützen. Diese verfügen einerseits über eine tief gehende Expertise im Fachgebiet Maschinenbau und sind andererseits immer auf dem aktuellen Stand der Forschung. Dies schließt auch aktuelle Entwicklungen und aktuelle Themenstellungen im Bereich des Maschinenbaues. Unsere Ghostwriter können Sie bei einer Vielzahl möglicher Aufgabenstellungen in diesem Fachbereich unterstützen:'
-                attrs:
-                  textAlign: start
               -
                 type: bulletList
                 content:
@@ -184,100 +172,64 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(68, 68, 68)'
-                                  hex: '#000'
                             text: 'bei komplexen ingenieurwissenschaftlichen Projekten'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(68, 68, 68)'
-                                  hex: '#000'
                             text: 'bei mathematischen Berechnungen'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(68, 68, 68)'
-                                  hex: '#000'
                             text: 'bei der Erstellung von technischen Zeichnungen'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(68, 68, 68)'
-                                  hex: '#000'
                             text: 'bei der Erstellung von Simulationen'
-                        attrs:
-                          textAlign: start
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: start
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(68, 68, 68)'
-                                  hex: '#000'
                             text: 'bei der Durchführung von Fallstudien'
-                        attrs:
-                          textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'sowie auch bei klassischen Hausarbeiten und Bachelorarbeit im Maschinenbau und anderen wissenschaftlichen Arbeiten durch die Erstellung von Mustervorlagen, die alle Anforderungen akademischer Arbeiten erfüllen. Dabei begleiten die Ghostwriter von GWriters Sie sowohl im Grundstudium, als auch dann später im Hauptstudium sowie in Vertiefungsrichtungen und im Maschinenbau-Master.'
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -287,34 +239,27 @@ replicator:
                     custom_sidebar_placement: 'on'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Maschinenbau Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -322,8 +267,6 @@ replicator:
                       -
                         type: bold
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -334,6 +277,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -354,172 +298,142 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: underline
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(193, 76, 0)'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: underline
                     text: Ghostwriting
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/uebersetzung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Übersetzung
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: kolgsve4
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /korrektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /leistungen/formatierung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Formatierung
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Plagiatsprüfung
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: dE3sHY6g
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'MAXQDA Auswertung'
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
                         type: link
                         attrs:
                           href: /promotionsberatung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Promotionsberatung
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -535,7 +449,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  textAlign: left
+                  textAlign: center
                   level: 2
                 content:
                   -
@@ -563,157 +477,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/bachelorarbeit-schreiben-lassen#maschinenbau-ghostwriter'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Ghostwriter Bachelorarbeit Maschinenbau'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -1704,11 +1552,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Maschinenbau in Deutschland'
               -
                 type: heading
