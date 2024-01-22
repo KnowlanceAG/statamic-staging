@@ -129,7 +129,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705938710
+updated_at: 1705942164
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -149,10 +149,11 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Bei GWriters bieten wir Ihnen kompetente Unterstützung im Fachbereich Kommunikationswissenschaften. Wir stellen sicher, dass Sie den passenden '
                   -
                     type: text
@@ -162,19 +163,15 @@ replicator:
                     text: 'akademischen Ghostwriter für Ihre Aufgabenstellungen'
                   -
                     type: text
-                    marks: {  }
                     text: ' finden, der genau Ihren individuellen Anforderungen entspricht. Wenn Sie Ihr akademisches Projekt im Bereich Kommunikationswissenschaften vertrauensvoll in die Hände eines Ghostwriters geben möchten und eine Mustervorlage für Ihre wissenschaftliche Arbeit von einem Experten erstellen lassen möchten, dann empfehlen wir Ihnen, sich an eine seriöse Ghostwriting-Agentur zu wenden. Diese Agentur arbeitet ausschließlich mit erfahrenen Kommunikationswissenschaftlern, Doktoren und Professoren zusammen.'
-                attrs:
-                  textAlign: center
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: Inhaltsverzeichnis
               -
                 type: bulletList
@@ -184,75 +181,77 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: '#ghostwriter-kommunikation'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
                             text: 'Ghostwriter & Kommunikationswissenschaft'
-                        attrs:
-                          textAlign: left
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                               -
                                 type: link
                                 attrs:
                                   href: '#kommunikation'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
                             text: 'Kommunikation & Wissenschaft'
-                        attrs:
-                          textAlign: left
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             marks:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
                                 type: link
                                 attrs:
                                   href: '#studium'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
                             text: 'Studium der Kommunikationswissenschaften'
-                        attrs:
-                          textAlign: left
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -261,16 +260,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#unterschied'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Kommunikationsdesign und Kommunikationswissenschaften'
-                        attrs:
-                          textAlign: left
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -279,16 +279,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#kommunikationsdesign'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Ghostwriter Kommunikationsdesign'
-                        attrs:
-                          textAlign: left
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -297,16 +298,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#arbeiten'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Als was arbeiten noch Ghostwriter im Kommunikationsdesign?'
-                        attrs:
-                          textAlign: left
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -315,11 +317,10 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#aufgaben'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Aufgaben: Ghostwriter Kommunikationsdesign'
-                        attrs:
-                          textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -341,6 +342,15 @@ replicator:
           -
             id: rq5Wd7tN
             bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Leistungen für Ihren Erfolg'
               -
                 type: set
                 attrs:
@@ -372,6 +382,10 @@ replicator:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
                         hover_content: 'Überwinden Sie sprachliche Hindernisse: Unser Team erstellt erstklassige, fachspezifische (im Bereich Kommunikationswissenschaften) Übersetzungen von akademischen Texten, Arbeiten, Klausuren und mehr.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -407,6 +421,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
@@ -415,10 +431,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Unser Team von erfahrenen Akademikern aus der Kommunikationswissenschaft unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand.'
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -428,6 +441,8 @@ replicator:
                     custom_sidebar_placement: 'on'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
@@ -438,24 +453,23 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Kommunikation Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          rel: null
+                          target: null
+                          title: null
                       -
                         type: bold
                       -
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -463,30 +477,6 @@ replicator:
                       -
                         type: bold
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                attrs:
-                  textAlign: start
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: lldx4zz9
-    columns_replicator:
-      -
-        id: lldx51h2
-        single_col: true
-        grid:
-          -
-            id: rq5Wd7tN
-            bard:
               -
                 type: set
                 attrs:
@@ -497,114 +487,66 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: start
                   level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter & Kommunikationswissenschaft'
+              -
+                type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Ghostwriter & Kommunikationswissenschaft'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: "Jeder unserer Freelancer und\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriter
                   -
                     type: text
-                    marks: {  }
                     text: "\_der Kommunikationswissenschaft besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Arbeiten vorweisen. Häufig arbeitet der akademische Kommunikationswissenschaft-Ghostwriter auch als\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /lektorat/lektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektor
                   -
                     type: text
-                    marks: {  }
                     text: ",\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /korrektorat/korrektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektor
                   -
                     type: text
-                    marks: {  }
                     text: "\_und Übersetzer, kann jedoch auch bei der Erstellung der Arbeit beratend zur Seite stehen. Er bietet dabei dem Studenten ein Coaching zur individuellen Unterstützung bei der Erstellung einer wissenschaftlichen Arbeit. Dadurch erweitert der Student seinen Wissensstand für die Anfertigung wissenschaftlicher Arbeiten, außerdem steigt natürlich die Qualität seiner Arbeit."
-                attrs:
-                  textAlign: start
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: lldx5z05
-    columns_replicator:
-      -
-        id: lldx607x
-        single_col: true
-        grid:
-          -
-            id: rq5Wd7tN
-            bard:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1710,32 +1652,6 @@ replicator:
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
               -
-                type: paragraph
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: true
-    border: false
-    type: add_section
-    enabled: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-  -
-    id: lldxdty4
-    columns_replicator:
-      -
-        id: lldxdv85
-        single_col: true
-        grid:
-          -
-            id: rq5Wd7tN
-            bard:
-              -
                 type: set
                 attrs:
                   id: lldyh6q8
@@ -1743,132 +1659,81 @@ replicator:
                     type: anchor_target
                     anchor_name: kommunikation
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
+                  textAlign: start
                   level: 2
+                content:
+                  -
+                    type: text
+                    text: Allgemeines
+              -
+                type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Allgemeines
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: "Die Kommunikationswissenschaft zählen zu den Sozial- und Geisteswissenschaften. Sie befasst sich weitläufig mit den Interaktionsvorgängen des Menschen, insbesondere mit der Art der Interaktion und der jeweiligen Wirkung. Die passenden Fähigkeiten erlernt der Student in einem Studium an einer Hochschule oder Universität. Neben einigen Prüfungs- und Klausurleistungen wird der Student der Kommunikationswissenschaften auch häufig mit einer\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/examensarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Examensarbeit
                   -
                     type: text
-                    marks: {  }
                     text: ', Hausarbeit oder Semesterarbeit konfrontiert. Außerdem ist es im Bachelorstudium üblich, dass die Universitäten oder Fachhochschulen von ihren Studenten der Kommunikationswissenschaften eine Bachelorarbeit schreiben lassen. Durch die vielfältigen und hohen Anforderungen im Studium engagieren einige Studenten der Kommunikationswissenschaften Ghostwriter und akademische Freelancer von GWriters.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
+                  textAlign: start
                   level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Kommunikation & Wissenschaft'
+              -
+                type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Kommunikation & Wissenschaft'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Schon in der Antike wurden Teilbereiche der heutigen Kommunikationswissenschaft im Studium gelehrt, in Form von Rhetorik oder persuasiver Kommunikation. Zudem ist das Studium der Kommunikationswissenschaft verknüpft mit der '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/medienwissenschaften
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Medienwissenschaften
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' und behandelt peripher außerdem Bereiche der '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter/sprachwissenschaften
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Sprachwissenschaften
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: .
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -1881,51 +1746,34 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Des Weiteren spielen mittlerweile auch Journalistik und die Wissenschaft der PR eine Rolle. Heute ist der Studieninhalt in diesem Fachbereich abhängig von der jeweiligen Universität oder Hochschule, so liegt der Schwerpunkt der einen auf der Massenkommunikation, während sich andere mit der Individualkommunikation auseinandersetzen.'
                 attrs:
                   textAlign: start
-              -
-                type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                    text: 'Des Weiteren spielen mittlerweile auch Journalistik und die Wissenschaft der PR eine Rolle. Heute ist der Studieninhalt in diesem Fachbereich abhängig von der jeweiligen Universität oder Hochschule, so liegt der Schwerpunkt der einen auf der Massenkommunikation, während sich andere mit der Individualkommunikation auseinandersetzen.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
                     text: "Im Allgemeinen dient das Studium dazu, Probleme im Dreieck der Sprache – Kommunikation – Medien zu identifizieren und durch wissenschaftliche Methoden zu analysieren und zu lösen. Der Studiengang vermittelt das fachliche Wissen sowie die Kompetenz und Methodik, die den Studenten auf eine selbstständige und anspruchsvolle Tätigkeit in unterschiedlichen Berufszweigen vorbereitet. Er besteht aus zahlreichen Prüfungen und wissenschaftlichen Arbeiten, die zu schreiben sind. Daher werden nicht selten von Studenten der Kommunikation Ghostwriter beauftragt. Dabei sollte bei Prüfungsleistungen, beispielsweise wenn Studenten von einem Kommunikation-Ghostwriter Hausarbeiten schreiben lassen, die\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriting
                   -
                     type: text
-                    marks: {  }
                     text: '-Hausarbeit als Mustervorlage genutzt werden und nur der Orientierung helfen.'
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -1946,46 +1794,28 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Studium der Kommunikationswissenschaften'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Das Studium der Kommunikationswissenschaft lässt sich an zahlreichen Universitäten im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) absolvieren. Meist wird der Studiengang mit der verwandten Medienwissenschaft kombiniert, außerdem wird er oft auch als Publizistikwissenschaft bezeichnet. Aufgrund der hohen Studiennachfrage des Fachs erfolgt die Studienplatzvergabe anhand des zuständigen Auswahlverfahrens (Numerus clausus). Oftmals werden zudem Auswahlverfahren eingebunden, um die Eignung der Bewerber zu überprüfen. Neben überragenden Schulnoten wird auch auf überdurchschnittliche Sprachkenntnisse Wert gelegt. So muss der Bewerber neben Deutsch und Englisch meist noch eine dritte Sprache auf hohem Niveau beherrschen.'
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Im Rahmen der Vertiefungsphase im Bachelor- und Masterstudium sind die Universitäten aufgefordert, dass sie von ihren Studenten der Kommunikationswissenschaften pro Semester mindestens eine Hausarbeit schreiben lassen. Nach dem Masterstudium kann die Studienlaufbahn mit einer Promotion fortgesetzt werden, um den Doktorgrad zu erlangen. Eine Dissertation (oder Doktorarbeit) erfordert oftmals eine jahrelange Auseinandersetzung mit einer wissenschaftlichen Forschungslücke. Nicht selten werden in der Kommunikationswissenschaft Ghostwriter und akademische Freelancer kontaktiert, die bei der wissenschaftlichen Arbeit durch die Erstellung einer Mustervorlage unterstützen.'
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -2052,28 +1882,18 @@ replicator:
               -
                 type: paragraph
                 attrs:
-                  textAlign: start
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Kommunikationsdesign ist ein eigenständiger Bereich, der sich auf die visuelle Gestaltung von Kommunikation konzentriert und eng mit visueller Kommunikation, Grafikdesign und kreativen Medien verbunden ist. Es ist nicht dasselbe wie Kommunikationswissenschaften, obwohl beide Bereiche auf Kommunikation abzielen.'
               -
                 type: paragraph
                 attrs:
-                  textAlign: start
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Hier ist eine Tabelle, die die Unterschiede zwischen Kommunikationsdesign und Kommunikationswissenschaften verdeutlicht:'
             show_as_card: false
           -
@@ -2081,6 +1901,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: table
                 content:
@@ -2093,58 +1915,41 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                       -
                         type: tableHeader
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgba(236, 236, 241, 0.2)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Kommunikationsdesign
-                            attrs:
-                              textAlign: left
                       -
                         type: tableHeader
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgba(236, 236, 241, 0.2)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Kommunikationswissenschaften
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2154,68 +1959,48 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Fokus
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Visuelle Gestaltung von Kommunikation'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Theorie und Praxis der Kommunikation in verschiedenen Kontexten'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2225,68 +2010,48 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Methoden und Ansätze'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Kreative Gestaltungstechniken, visuelle Kommunikation'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Wissenschaftliche Methoden wie Forschung, Analyse von Medieninhalten, Umfragen'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2296,68 +2061,48 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Berufsfelder
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Grafikdesign, Webdesign, Werbung, UI/UX-Design'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Journalismus, Public Relations, Medienmanagement, Marktforschung etc.'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2367,68 +2112,48 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Zielgruppe
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Ansprechende visuelle Präsentation von Informationen'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Analyse und Erklärung von Kommunikationsprozessen, Interaktionen'
-                            attrs:
-                              textAlign: left
                   -
                     type: tableRow
                     content:
@@ -2438,82 +2163,826 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: Schwerpunkt
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Ästhetik, Kreativität, visuelle Gestaltung'
-                            attrs:
-                              textAlign: left
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
                                 text: 'Theorie, Forschung, Analyse, Medieninhalte'
-                            attrs:
-                              textAlign: left
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Diese Tabelle fasst die Hauptunterschiede zwischen den beiden Bereichen kompakt zusammen und zeigt ihre jeweiligen Schwerpunkte und Aufgabenbereiche auf.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: lrp5pqnq
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 2xfEn7jq
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lldyjjyo
+                  values:
+                    type: anchor_target
+                    anchor_name: kommunikationsdesign
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter Kommunikationsdesign'
+              -
+                type: paragraph
                 attrs:
                   textAlign: start
+                content:
+                  -
+                    type: text
+                    text: 'Ein Ghostwriter im Kommunikationsdesign kann eine Vielzahl von Aufgaben in verschiedenen Bereichen übernehmen. Hier sind einige Beispiele:'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Hochschullehre: '
+                          -
+                            type: text
+                            text: 'Als Dozent an einer Universität oder Hochschule halten Ghostwriter Vorlesungen, Seminare und Workshops im Bereich Kommunikationsdesign. Sie vermittelt theoretisches Wissen, fördert praktische Fähigkeiten und betreuen Studierende bei ihren Projekten.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Forschung: '
+                          -
+                            type: text
+                            text: 'Hier führen im Fachbereich Kommunikationsdesign Ghostwriter Forschungsprojekte durch, um neue Erkenntnisse in den Bereichen visuelle Kommunikation, Designtheorie, Nutzererfahrung (UX) und andere relevante Gebiete zu gewinnen.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Publikationen: '
+                          -
+                            type: text
+                            text: 'Sie schreiben wissenschaftliche Artikel z.B. Bachelorarbeit und veröffentlichen Forschungsberichte und Bücher über Themen wie Designtrends, Gestaltungsprinzipien, visuelle Rhetorik und digitale Medien.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Beratung: '
+                          -
+                            type: text
+                            text: 'Akademiker nutzen ihre Fachkenntnisse, um Designberatung für Unternehmen, Agenturen oder Organisationen anzubieten. Sie unterstützen bei der Entwicklung von Markenidentitäten, Benutzeroberflächen-Design und Kommunikationsstrategien.'
+            show_as_card: false
+          -
+            id: lrp5pzio
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lldy8p96
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Gestaltungsprojekte: '
+                          -
+                            type: text
+                            text: 'Sie arbeiten in Designstudios, Werbeagenturen oder als freiberufliche Designer. Hier entwickeln sie kreative Konzepte, gestalten Werbematerialien, Websites, Apps, Verpackungen und andere visuelle Kommunikationsmittel.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'UX-Design: '
+                          -
+                            type: text
+                            text: 'In der User Experience (UX)-Branche arbeiten sie daran, benutzerfreundliche und ansprechende digitale Produkte zu gestalten, die die Bedürfnisse und Erwartungen der Nutzer erfüllen.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Designmanagement: '
+                          -
+                            type: text
+                            text: 'Auch Ghostwriter im Kommunikationsdesign sind in Unternehmen oder Organisationen tätig, um Designstrategien zu entwickeln, Designteams zu führen und die Integration von Design in Geschäftsprozesse zu fördern.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Medienproduktion: '
+                          -
+                            type: text
+                            text: 'Sie erstellen in den Bereichen Grafikdesign, Animation, Filmproduktion und anderen Medienindustrien arbeiten, um visuelle Inhalte.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Selbstständigkeit: '
+                          -
+                            type: text
+                            text: 'Viele Experten entscheiden sich für eine selbstständige Karriere und bieten ihre Dienstleistungen als Ghostwriter, Kommunikationsdesigner oder Designberater an.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Zusammenfassend umfasst der Tätigkeitsbereich eines Ghostwriters im Fachbereich Kommunikationsdesign eine breite Palette, die von Lehre und Forschung bis hin zur praktischen Anwendung von Designkonzepten reichen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: lrp5qq4c
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 2xfEn7jq
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lldykf1s
+                  values:
+                    type: anchor_target
+                    anchor_name: arbeiten
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Als was arbeiten noch Ghostwriter im Kommunikationsdesign?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    text: 'Diese Beispiele veranschaulichen, wie ein Ghostwriter mit Expertise im Bereich Kommunikationsdesign verschiedene Aufgaben übernehmen, um qualitativ hochwertige und relevante Inhalte zu erstellen.'
+              -
+                type: table
+                content:
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableHeader
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Tätigkeitsfeld
+                      -
+                        type: tableHeader
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Beispiele für Aufgaben'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Fachartikel und Blogbeiträge'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Verfassen von Artikeln über aktuelle Designtrends, Farbtheorie, Typografie-Richtlinien etc.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Marketinginhalte
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Erstellung von Texten für Werbebroschüren von Designagenturen, die ihre kreativen Dienstleistungen bewerben.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Website-Inhalte
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Verfassen von Inhalten für Portfolios von Kommunikationsdesignern, um ihre Arbeit online zu präsentieren.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Redaktion und Korrekturlesen'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Überprüfung und Überarbeitung von Texten, um stilistische Klarheit, Grammatik und Rechtschreibung sicherzustellen.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Anleitungen und Tutorials'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Erstellen von Anleitungen für die Verwendung von Designsoftware oder Tutorials zur Erstellung bestimmter Effekte.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Präsentationsmaterial
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Entwicklung von Texten für Präsentationen auf Designkonferenzen, die die neuesten Gestaltungstrends aufzeigen.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Unterstützung bei Buchprojekten'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Zusammenarbeit mit Designexperten zur Erstellung von Fachbüchern über visuelle Kommunikation und Design.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Kreative Konzepte'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Entwurf von kreativen Ideen für Werbekampagnen, Markenidentität und visuelle Kommunikationsstrategien.'
+            show_as_card: false
+          -
+            id: lrp5qt44
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lldyko2v
+                  values:
+                    type: anchor_target
+                    anchor_name: aufgaben
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Aufgaben: Ghostwriter Kommunikationsdesign'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    text: 'Ein Ghostwriter mit einem abgeschlossenen Studium und Berufserfahrung im Bereich Kommunikationsdesign kann eine Reihe von Aufgaben übernehmen:'
+              -
+                type: orderedList
+                attrs:
+                  start: 1
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Verfassen von Fachartikeln und Blogbeiträgen:'
+                          -
+                            type: text
+                            text: 'Der Ghostwriter kann Artikel zu Themen im Bereich Kommunikationsdesign verfassen, die in Fachzeitschriften, Blogs oder Online-Magazinen veröffentlicht werden.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Erstellung von Designinhalten:'
+                          -
+                            type: text
+                            text: 'Er kann Texte für Marketingmaterialien, Portfolios von Designern, Designagenturen oder Websites verfassen, um deren Dienstleistungen und Projekte zu präsentieren.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Verfassen von Anleitungen und Tutorials:'
+                          -
+                            type: text
+                            text: 'Der Ghostwriter kann Anleitungen, Tutorials oder Handbücher für Designsoftware, kreative Techniken oder Gestaltungsprinzipien erstellen.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Gestaltungskonzepte und Erklärungen:'
+                          -
+                            type: text
+                            text: 'Er kann Texte verfassen, die Gestaltungskonzepte, Designentscheidungen und kreative Prozesse für Projekte oder Kampagnen erklären.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Beratungstexte:'
+                          -
+                            type: text
+                            text: 'Der Ghostwriter kann informative und beratende Texte zu Themen wie Markenbildung, visuelle Identität und Designstrategien verfassen.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Verfassen von Präsentationsinhalten:'
+                          -
+                            type: text
+                            text: 'Er kann Texte für Präsentationen auf Designkonferenzen, in Workshops oder für Kundenvorstellungen erstellen.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Redaktionelle Unterstützung:'
+                          -
+                            type: text
+                            text: 'Der Ghostwriter kann Designmaterial überarbeiten, um sicherzustellen, dass die Texte klar, verständlich und professionell sind.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Ghostwriting für Buchprojekte:'
+                          -
+                            type: text
+                            text: 'In Zusammenarbeit mit Designexperten kann er als Ghostwriter für Fachbücher im Bereich Kommunikationsdesign tätig sein.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Unterstützung bei wissenschaftlichen Arbeiten:'
+                          -
+                            type: text
+                            text: 'Insbesondere kann ein Ghostwriter den Studierenden helfen, Studierende können eine Arbeit für Ihre Bachelorarbeit schreiben lassen.'
             show_as_card: false
         type: row
         enabled: true
@@ -2526,1039 +2995,8 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: lldxliur
-    columns_replicator:
-      -
-        id: lldxlknf
-        columns_per_row: 2
-        single_col: false
-        grid:
-          -
-            id: rq5Wd7tN
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lldyjjyo
-                  values:
-                    type: anchor_target
-                    anchor_name: kommunikationsdesign
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter Kommunikationsdesign'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Ein Ghostwriter im Kommunikationsdesign kann eine Vielzahl von Aufgaben in verschiedenen Bereichen übernehmen. Hier sind einige Beispiele:'
-                attrs:
-                  textAlign: start
-              -
-                type: bulletList
-                content:
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Hochschullehre:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Als Dozent an einer Universität oder Hochschule halten Ghostwriter Vorlesungen, Seminare und Workshops im Bereich Kommunikationsdesign. Sie vermittelt theoretisches Wissen, fördert praktische Fähigkeiten und betreuen Studierende bei ihren Projekten.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Forschung:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Hier führen im Fachbereich Kommunikationsdesign Ghostwriter Forschungsprojekte durch, um neue Erkenntnisse in den Bereichen visuelle Kommunikation, Designtheorie, Nutzererfahrung (UX) und andere relevante Gebiete zu gewinnen.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Publikationen:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Sie schreiben wissenschaftliche Artikel z.B. Bachelorarbeit und veröffentlichen Forschungsberichte und Bücher über Themen wie Designtrends, Gestaltungsprinzipien, visuelle Rhetorik und digitale Medien.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Beratung:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Akademiker nutzen ihre Fachkenntnisse, um Designberatung für Unternehmen, Agenturen oder Organisationen anzubieten. Sie unterstützen bei der Entwicklung von Markenidentitäten, Benutzeroberflächen-Design und Kommunikationsstrategien.'
-                        attrs:
-                          textAlign: start
-            show_as_card: false
-          -
-            id: lldxlzok
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lldy8p96
-                  values:
-                    type: spacer
-                    padding-y: 30
-              -
-                type: paragraph
-              -
-                type: bulletList
-                content:
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Gestaltungsprojekte:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Sie arbeiten in Designstudios, Werbeagenturen oder als freiberufliche Designer. Hier entwickeln sie kreative Konzepte, gestalten Werbematerialien, Websites, Apps, Verpackungen und andere visuelle Kommunikationsmittel.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'UX-Design:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'In der User Experience (UX)-Branche arbeiten sie daran, benutzerfreundliche und ansprechende digitale Produkte zu gestalten, die die Bedürfnisse und Erwartungen der Nutzer erfüllen.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Designmanagement:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Auch Ghostwriter im Kommunikationsdesign sind in Unternehmen oder Organisationen tätig, um Designstrategien zu entwickeln, Designteams zu führen und die Integration von Design in Geschäftsprozesse zu fördern.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Medienproduktion:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Sie erstellen in den Bereichen Grafikdesign, Animation, Filmproduktion und anderen Medienindustrien arbeiten, um visuelle Inhalte.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Selbstständigkeit:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Viele Experten entscheiden sich für eine selbstständige Karriere und bieten ihre Dienstleistungen als Ghostwriter, Kommunikationsdesigner oder Designberater an.'
-                        attrs:
-                          textAlign: start
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Zusammenfassend umfasst der Tätigkeitsbereich eines Ghostwriters im Fachbereich Kommunikationsdesign eine breite Palette, die von Lehre und Forschung bis hin zur praktischen Anwendung von Designkonzepten reichen.'
-                attrs:
-                  textAlign: start
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-    remove_spacing: true
-    is_full: true
-    border: false
-    type: add_section
-    enabled: true
-    bg_toggle: false
-  -
     id: lldxn2dv
     columns_replicator:
-      -
-        id: lldxn3n6
-        columns_per_row: 2
-        single_col: false
-        grid:
-          -
-            id: rq5Wd7tN
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lldykf1s
-                  values:
-                    type: anchor_target
-                    anchor_name: arbeiten
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Als was arbeiten noch Ghostwriter im Kommunikationsdesign?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Diese Beispiele veranschaulichen, wie ein Ghostwriter mit Expertise im Bereich Kommunikationsdesign verschiedene Aufgaben übernehmen, um qualitativ hochwertige und relevante Inhalte zu erstellen.'
-                attrs:
-                  textAlign: start
-              -
-                type: table
-                content:
-                  -
-                    type: tableRow
-                    content:
-                      -
-                        type: tableHeader
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgba(236, 236, 241, 0.2)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Tätigkeitsfeld
-                            attrs:
-                              textAlign: left
-                      -
-                        type: tableHeader
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: 'rgba(236, 236, 241, 0.2)'
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Beispiele für Aufgaben'
-                            attrs:
-                              textAlign: left
-                  -
-                    type: tableRow
-                    content:
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Fachartikel und Blogbeiträge'
-                            attrs:
-                              textAlign: left
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Verfassen von Artikeln über aktuelle Designtrends, Farbtheorie, Typografie-Richtlinien etc.'
-                            attrs:
-                              textAlign: left
-                  -
-                    type: tableRow
-                    content:
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Marketinginhalte
-                            attrs:
-                              textAlign: left
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Erstellung von Texten für Werbebroschüren von Designagenturen, die ihre kreativen Dienstleistungen bewerben.'
-                            attrs:
-                              textAlign: left
-                  -
-                    type: tableRow
-                    content:
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Website-Inhalte
-                            attrs:
-                              textAlign: left
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Verfassen von Inhalten für Portfolios von Kommunikationsdesignern, um ihre Arbeit online zu präsentieren.'
-                            attrs:
-                              textAlign: left
-                  -
-                    type: tableRow
-                    content:
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Redaktion und Korrekturlesen'
-                            attrs:
-                              textAlign: left
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Überprüfung und Überarbeitung von Texten, um stilistische Klarheit, Grammatik und Rechtschreibung sicherzustellen.'
-                            attrs:
-                              textAlign: left
-                  -
-                    type: tableRow
-                    content:
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Anleitungen und Tutorials'
-                            attrs:
-                              textAlign: left
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Erstellen von Anleitungen für die Verwendung von Designsoftware oder Tutorials zur Erstellung bestimmter Effekte.'
-                            attrs:
-                              textAlign: left
-                  -
-                    type: tableRow
-                    content:
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: Präsentationsmaterial
-                            attrs:
-                              textAlign: left
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Entwicklung von Texten für Präsentationen auf Designkonferenzen, die die neuesten Gestaltungstrends aufzeigen.'
-                            attrs:
-                              textAlign: left
-                  -
-                    type: tableRow
-                    content:
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Unterstützung bei Buchprojekten'
-                            attrs:
-                              textAlign: left
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Zusammenarbeit mit Designexperten zur Erstellung von Fachbüchern über visuelle Kommunikation und Design.'
-                            attrs:
-                              textAlign: left
-                  -
-                    type: tableRow
-                    content:
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Kreative Konzepte'
-                            attrs:
-                              textAlign: left
-                      -
-                        type: tableCell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Entwurf von kreativen Ideen für Werbekampagnen, Markenidentität und visuelle Kommunikationsstrategien.'
-                            attrs:
-                              textAlign: left
-            show_as_card: false
-          -
-            id: lldxni59
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lldyko2v
-                  values:
-                    type: anchor_target
-                    anchor_name: aufgaben
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Aufgaben: Ghostwriter Kommunikationsdesign'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Ein Ghostwriter mit einem abgeschlossenen Studium und Berufserfahrung im Bereich Kommunikationsdesign kann eine Reihe von Aufgaben übernehmen:'
-                attrs:
-                  textAlign: start
-              -
-                type: orderedList
-                attrs:
-                  order: 1
-                content:
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Verfassen von Fachartikeln und Blogbeiträgen:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Der Ghostwriter kann Artikel zu Themen im Bereich Kommunikationsdesign verfassen, die in Fachzeitschriften, Blogs oder Online-Magazinen veröffentlicht werden.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Erstellung von Designinhalten:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Er kann Texte für Marketingmaterialien, Portfolios von Designern, Designagenturen oder Websites verfassen, um deren Dienstleistungen und Projekte zu präsentieren.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Verfassen von Anleitungen und Tutorials:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Der Ghostwriter kann Anleitungen, Tutorials oder Handbücher für Designsoftware, kreative Techniken oder Gestaltungsprinzipien erstellen.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Gestaltungskonzepte und Erklärungen:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Er kann Texte verfassen, die Gestaltungskonzepte, Designentscheidungen und kreative Prozesse für Projekte oder Kampagnen erklären.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Beratungstexte:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Der Ghostwriter kann informative und beratende Texte zu Themen wie Markenbildung, visuelle Identität und Designstrategien verfassen.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Verfassen von Präsentationsinhalten:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Er kann Texte für Präsentationen auf Designkonferenzen, in Workshops oder für Kundenvorstellungen erstellen.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Redaktionelle Unterstützung:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Der Ghostwriter kann Designmaterial überarbeiten, um sicherzustellen, dass die Texte klar, verständlich und professionell sind.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Ghostwriting für Buchprojekte:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'In Zusammenarbeit mit Designexperten kann er als Ghostwriter für Fachbücher im Bereich Kommunikationsdesign tätig sein.'
-                        attrs:
-                          textAlign: start
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Unterstützung bei wissenschaftlichen Arbeiten:'
-                          -
-                            type: text
-                            marks: {  }
-                            text: 'Insbesondere kann ein Ghostwriter den Studierenden helfen, '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Studierende können eine Arbeit für Ihre Bachelorarbeit schreiben lassen.'
-                        attrs:
-                          textAlign: start
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
       -
         id: lldxnwvh
         single_col: true
@@ -3569,48 +3007,33 @@ replicator:
               -
                 type: heading
                 attrs:
-                  textAlign: start
-                  level: 2
+                  textAlign: left
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: Disclaimer
               -
                 type: paragraph
                 attrs:
-                  textAlign: start
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
                 attrs:
-                  textAlign: start
+                  textAlign: left
                   level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
                 attrs:
-                  textAlign: start
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3619,13 +3042,9 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/index.html'
-                          rel: nofollow
-                          target: _blank
+                          rel: null
+                          target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Studienfächer und Studiengänge von A bis Z – Ludwig-Maximilians-Universität München'
                   -
                     type: hardBreak
@@ -3636,13 +3055,9 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.uni-due.de/'
-                          rel: nofollow
-                          target: _blank
+                          rel: null
+                          target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Universität Duisburg-Essen'
                   -
                     type: hardBreak
@@ -3653,13 +3068,9 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.ikmz.uzh.ch/de.html'
-                          rel: nofollow
-                          target: _blank
+                          rel: null
+                          target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Institut für Kommunikationswissenschaft und Medienforschung – Universität Zürich'
                   -
                     type: hardBreak
@@ -3670,13 +3081,9 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Kommunikationswissenschaft'
-                          rel: nofollow
-                          target: _blank
+                          rel: null
+                          target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Grobe Informationen zur Kommunikationswissenschaft – Wikipedia'
             show_as_card: false
         type: row
