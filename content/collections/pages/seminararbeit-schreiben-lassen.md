@@ -4130,15 +4130,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: Disclaimer
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4147,19 +4148,15 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
-                attrs:
-                  textAlign: left
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Einige unserer Blogartikel zum Thema Seminararbeit & Mustervorlage für Seminararbeit schreiben lassen'
               -
                 type: set
@@ -4174,15 +4171,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Nützliche Weblinks & Referenzen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -4191,12 +4189,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.slm.uni-hamburg.de/iaa/studium/downloads/hausarbeiten-und-lektuerelisten.html'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Hausarbeiten und Lektürelisten - Universität Hamburg'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -4204,11 +4202,10 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.uni-muenster.de/imperia/md/content/ew/personen/fuerstenau/zak_leitfaden_erstellung_seminarbeit_10-07.pdf'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Formvorgaben für Seminararbeiten - Westfälische Wilhelms-Universität Münster'
-                attrs:
-                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -4221,7 +4218,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705935570
+updated_at: 1705936733
 template: default
 use_meta_keywords: false
 no_index_page: false
