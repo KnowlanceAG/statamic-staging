@@ -129,7 +129,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705943151
+updated_at: 1705951376
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -148,37 +148,26 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'Aufgrund der umfangreichen Anforderungen und zeitintensiven Aufgaben, vor denen ein Student der Architektur in einem knapp kalkulierten Zeitplan steht, ist es für ihn nahezu unmöglich, stets qualitativ hochwertige Arbeiten zu liefern. Mithilfe unserer Architektur-'
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriter
                   -
                     type: text
-                    marks: {  }
                     text: "\_kann Freiraum geschaffen werden um wichtige Abgaben mit der gebotenen Sorgfalt anzufertigen oder für anstehende Klausuren zu lernen."
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -188,34 +177,27 @@ replicator:
                     custom_sidebar_placement: 'on'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Wenn Sie bei Ihrer akademischen Arbeit im Fachbereich Architektur Unterstützung benötigen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
@@ -223,75 +205,51 @@ replicator:
                       -
                         type: bold
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                attrs:
-                  textAlign: start
               -
                 type: heading
                 attrs:
+                  textAlign: start
                   level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Freelancer & Ghostwriter'
+              -
+                type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Unsere Freelancer & Ghostwriter'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Unser Team von erfahrenen Akademikern aus der Architektur unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder unserer Freelancer und Ghostwriter der Architektur besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von architektonischen Arbeiten vorweisen. Neben dem Beraten und dem Coaching bei der gesamten Arbeit, kann der Ghostwriter auch lediglich als\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /lektorat/lektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektor
                   -
                     type: text
-                    marks: {  }
                     text: ",\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /korrektorat/korrektor
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektor
                   -
                     type: text
-                    marks: {  }
                     text: "\_und Übersetzer beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt."
-                attrs:
-                  textAlign: start
               -
                 type: set
                 attrs:
@@ -302,6 +260,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -322,172 +281,142 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: underline
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(193, 76, 0)'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: underline
                     text: Ghostwriting
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/uebersetzung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Übersetzung
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: 0LBGkEl2
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /korrektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /leistungen/formatierung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Formatierung
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Plagiatsprüfung
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: nOCihBGx
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'MAXQDA Auswertung'
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
                         type: link
                         attrs:
                           href: /promotionsberatung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Promotionsberatung
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
