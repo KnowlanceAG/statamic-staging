@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,19 +16,15 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Präsentationen erstellen lassen'
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: 'Professionelle Hilfe von akademischen Ghostwritern bei Ihrer Präsentation'
   -
     type: set
@@ -90,6 +86,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -97,28 +95,26 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 replicator:
   -
@@ -133,6 +129,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -144,8 +142,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriter
                   -
                     type: text
@@ -157,8 +156,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting/ghostwriting-agentur
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriting-Agentur
                   -
                     type: text
@@ -172,48 +172,40 @@ replicator:
                     custom_sidebar_placement: 'on'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Zudem können auch Präsentationsentwürfe durch eine professionelle Beratung ergänzt oder überarbeitet werden. Die Visualisierung einer wissenschaftlichen Folienpräsentation sollte verständlich sein und mit wichtigen Inhalten sowie passenden Grafikformaten versehen werden.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'In der heutigen Arbeits- und Studienwelt laufen die Kommunikation und wichtige Übertragungen fast nur noch über digitalen Kanäle ab. Die Visualisierung der Zusammenfassungen von Ergebnissen, Planungen oder Analysen werden kaum noch persönlich über Flipcharts oder Pinnwände übertragen, sondern über unterschiedlichen Tools wie PowerPoint, per Zoom oder andere digitale Konferenzplattformen publiziert.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Auch wenn die digitale Darstellung von zusammengefassten Daten sich einfach anhört, leiden viele Präsentationsersteller unter Zeitmangel, weil sie Schwierigkeiten bei der Zusammenführung von Daten haben. Besonders wenn eine Vielzahl wichtiger Informationen kurz und knapp zusammengefasst werden muss.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: "Daher verschaffen sich einige Unternehmen oder Studenten eine umfassende Hilfe, indem sie Musterpräsentation von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre PowerPoint-Präsentation erstellen lassen."
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -225,13 +217,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'unverbindliche Anfrage'
                   -
                     type: text
@@ -242,6 +235,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -249,18 +243,16 @@ replicator:
                     text: 'Der Einsatz von Ghostwritern beim Erstellen von Präsentationen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die wichtigste Voraussetzung für das Gelingen eines Referats ist die gründliche Vorbereitung der PowerPoint-Folien. Ein ausgefeiltes Manuskript legt den Grundstein für den richtigen Transport von wissenschaftlichen Ergebnissen. Ein qualitativ hochwertiges Manuskript zu schreiben, erfordert eine intensive Recherche, die exakte Visualisierung durch den versierten Umgang mit Medien und die Nutzung fachgerechter Sprache. Oft fehlt Referenten die Zeit zu dieser gründlichen Vorbereitung auf ihren Vortrag.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -272,135 +264,89 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriting
                   -
                     type: text
                     text: ' setzt hier an, plant und verfasst Manuskripte und übernimmt die Entwicklung der Präsentation, den Vorgaben des Referenten entsprechend. Dabei hat der Ghostwriter stets die jeweilige Zielgruppe vor Augen und richtet die Präsentation der Ergebnisse auf diese aus. Damit ergänzt der Ghostwriter sinnvoll die Arbeit des Referenten im Vorfeld des Vortrages und verhilft diesem dadurch zu beruflichem Erfolg.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Diese Zielgruppen können Studenten, Schüler aber auch Mitarbeiter aus einem Unternehmen sein. Besonders Studierende wissen nicht, wie sie ihre '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Hausarbeit
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' oder '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Bachelorarbeit
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' auf wenige Folien komprimieren sollen. Häufig fordern Hochschulen von Studenten nach der Bachelorarbeit oder '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Masterarbeit
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', dass diese ein '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /blog/kolloquium-bachelorarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Kolloquium
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' vorbereiten. Dabei gelten unterschiedliche Leitfäden, je nach Hochschulvorgaben ändern sich die Richtlinien einer Präsentation.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Beim Kolloquium müssen Studierende entweder alle wichtigen Informationen der Abschlussarbeit zusammenfassen und in einer PowerPoint-Präsentation vor dem Dozenten wiedergeben oder sie werden mündlich über das Konzept der Bachelorarbeit befragt. Das Kolloquium ist eine gute Möglichkeit um die Note der Abschlussarbeit zu verbessern und die eigenen Argumente zu verteidigen.'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -408,225 +354,143 @@ replicator:
                     text: 'Weitere Leistungsbereiche von GWriters'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Außer der Musterpräsentationen gibt es weitere Leistungsbereiche in denen wir unsere professionelle Dienstleistung anbieten, wie das '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /korrektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektorat
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ', '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektorat
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' oder eine professionelle Beratung. Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch können Studierende den Text von einem Fachautoren lektorieren lassen, was hilft, den Textinhalt zu überprüfen. Die beiden Leistungen werden von Experten in Ihrem Fachbereich betreut, die das methodische Know-How und das Forschungsthema beherrschen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Während des Erstellungsprozesses der PowerPoint-Präsentation kann ein Ghostwriter mit Fachwissen Sie bei jeder Problemstellung begleiten. Diese Probleme können bei der Literaturrecherche, bei statistischen Analysen, mit der Verfügbarkeit kostenpflichtiger Bilder, der Erstellung von Diagrammen, Datenauswertungen, der Zitierung oder der Zusammenfassung von vielen wissenschaftlichen Ergebnissen sein.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Nicht nur inhaltliche Probleme können von einem Ghostwriter gelöst werden. Darüber hinaus kennen sie alle PowerPoint-Funktionen und geben während der Präsentationserstellung immer wieder Tricks und Tipps. Um den Folieninhalt ohne Karteikarten, fließend und ohne Füllwörter übertragen zu können, ist die Notizen-Funktion vom PowerPoint-Tool empfehlenswert.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Neben diesen Problemfeldern erhalten Sie noch weitere Verbesserungstipps von unseren Profis bezüglich der Präsentationshaltung und Aussprache. Unsere qualifizierten Präsentationsersteller geben während und nach dem Erstellungsprozess für jeden Schritt Anweisungen. Eine professionelle Checkliste für ein PowerPoint-Referat erhalten Sie '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /blog/bachelorarbeit-praesentation-powerpoint
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: hier
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' und in unserer GWriters Akademie stellen wir Ihnen zusätzlich auch ein '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /gwriters-akademie/powerpoint-praesentation-vorlage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Vorlage für Ihre Kolloquium-Präsentation'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' bereit.'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Wann und wie: eine Mustervorlage für Präsentation erstellen lassen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Aufgrund eines Ghostwriters Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit zu jedem Zeitpunkt der Erstellung von Präsentation als Hilfestellung zu beauftragen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Oft entstehen Probleme zu Beginn der Präsentationserstellung bei der Zusammenfassung von Untersuchungsergebnissen, er Grafikerstellung, der Quellenrecherche und beim Designprozess.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Musterpräsentationen als PowerPoint-Datei (.pptx) sind eine gute Orientierungshilfe, besonders wenn Sie noch nie wichtige Punkte, Informationen und Analysen zusammengefasst haben. Auch bei der Erstellung von Unternehmenspräsentationen, Businesspräsentationen und '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /blog/kolloquium-bachelorarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Kolloquium für Bachelorarbeit'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: " und Masterarbeit, möchten viele Präsentationsbeauftragte einen perfekten Mustervortrag für Ihre Präsentation erstellen lassen. Die Unterstützung ist eine gute Optimierung für Ihre Präsentation. \_"
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -635,16 +499,11 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '1. Anfrage für unsere Dienstleistung schicken'
               -
                 type: bulletList
@@ -654,33 +513,21 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Anfrageformular: Thema und Anforderungen, Telefonnummer, Emailadresse, Umfang der Texterstellung, Lieferdatum'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    text: "2.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Kostenloses Angebot erhalten'
+                    text: "2.\_Kostenloses Angebot erhalten"
               -
                 type: bulletList
                 content:
@@ -689,33 +536,21 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Angebot: Passende Autoren, Kosten für die Aufgabenstellung, Planung der Teillieferungen'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    text: "3.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Nach der Zusage: Auftragserteilung der Dienstleistung'
+                    text: "3.\_Nach der Zusage: Auftragserteilung der Dienstleistung"
               -
                 type: bulletList
                 content:
@@ -724,33 +559,21 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Bearbeitungsprozess des Auftrags, Zwischenstand der Mustervorlage gemeinsam mit Auftraggeber analysieren um Feedbacks umsetzen zu können'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    text: "4.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Feinschliff der Musterpräsentation'
+                    text: "4.\_Feinschliff der Musterpräsentation"
               -
                 type: bulletList
                 content:
@@ -759,33 +582,21 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Lektorieren und korrigieren der Mustervorlage von einem unabhängigen Bearbeiter, Plagiatsprüfung'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
                     type: text
-                    text: "5.\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Lieferung der Musterpräsentation'
+                    text: "5.\_Lieferung der Musterpräsentation"
               -
                 type: bulletList
                 content:
@@ -794,55 +605,38 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Qualitätsprüfung durch einen Supervisor, Lieferung der Musterpräsentation'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Die ganze Kommunikation zwischen dem Auftraggeber und dem qualifizierten Bearbeiter bleibt Anonym. Da der '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /blog/gwriters-diskretion-kunden
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Datenschutz
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' besonders wichtig für unsere Agentur ist, werden auch alle Daten vom Auftraggeber im Anschluss an den Auftrag und die Bereitstellung des wissenschaftlichen Ergebnisses gelöscht.'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -863,6 +657,8 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -871,152 +667,130 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriting
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
                           href: /korrektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'MAXQDA Auswertung'
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: YcbmRmx1
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektorat
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
                           href: /leistungen/formatierung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Formatierung
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
-                      -
                         type: link
                         attrs:
                           href: /promotionsberatung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Promotionsberatung
-                attrs:
-                  textAlign: start
             show_as_card: false
           -
             id: 8AbrNZZe
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /leistungen/uebersetzung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Übersetzung
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Plagiatsprüfung
-                attrs:
-                  textAlign: start
             show_as_card: false
         type: row
         enabled: true
@@ -1347,8 +1121,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/finanzwissenschaften
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Finanzwissenschaften Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1359,8 +1134,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/medienwissenschaften
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Medienwissenschaften Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1371,8 +1147,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/bwl
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'BWL Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1383,8 +1160,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/marketing
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Marketing Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1395,8 +1173,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftsinformatik
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Wirtschaftsinformatik Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1407,8 +1186,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/wirtschaftswissenschaften
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Wirtschaftswissenschaften Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1419,8 +1199,9 @@ replicator:
                                         type: link
                                         attrs:
                                           href: /ghostwriter/personalmanagement
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Personalmanagement Ghostwriter'
                                   -
                                     type: hardBreak
@@ -1431,13 +1212,10 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#Internationale'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Internationale BWL Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: hardBreak
                           -
                             id: ljoh4b21
                             headline: Geisteswissenschaften
@@ -1607,157 +1385,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -1769,16 +1481,16 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/ebook
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'eBook schreiben lassen'
                                   -
                                     type: hardBreak
@@ -1787,21 +1499,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/lernskript
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Lernskript schreiben lassen'
                                   -
                                     type: hardBreak
@@ -1810,21 +1521,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/praesentationen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Präsentationen erstellen lassen'
                                   -
                                     type: hardBreak
@@ -1833,21 +1543,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/statistische-analysen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Ghostwriter Statistik'
                                   -
                                     type: hardBreak
@@ -1856,21 +1565,20 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /expose
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
                                     text: 'Exposé schreiben lassen'
                                   -
                                     type: hardBreak
@@ -1879,32 +1587,21 @@ replicator:
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/referat
-                                          target: null
                                           rel: null
-                                    text: 'Referat schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
+                                          target: null
+                                          title: null
                                       -
                                         type: textColor
                                         attrs:
                                           color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                attrs:
-                                  textAlign: start
+                                    text: 'Referat schreiben lassen'
                           -
                             id: ljoh9nu0
                             headline: Studienarbeiten
@@ -2181,11 +1878,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Unter einer Präsentation oder Referat versteht man das Vortragen und die Visualisierung von Ergebnissen, die man aus der wissenschaftlichen Beschäftigung mit Dokumenten, Sachen, Themen und Problemfeldern gewonnen hat. Die Art der Präsentation (PowerPoint-Präsentation, Vortrag mit Handout, Folien, usw.) wählt der Präsentator selbst oder je nach Vorgabe in Abstimmung auf die Zielgruppe und Situation. Ein schriftliches Manuskript gibt dem Referenten Sicherheit beim Vortrag, hilft ihm, den Roten Faden in seinem Vortrag zu bewahren und schützt ihn davor, wesentliche Aspekte zu vergessen. Neben dem gut vorbereiteten Inhalt spielen Gestik, Mimik, Stimme und Sprache des Sprechers für das Gelingen der Präsentation eine wichtige Rolle bei den Zuhörern.'
               -
                 type: heading
@@ -2204,11 +1896,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Inhalt für PowerPoint-Präsentation:'
               -
                 type: table
@@ -2233,10 +1920,6 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: Fehler
                       -
                         type: tableCell
@@ -2273,11 +1956,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Texte eins zu eins übernehmen'
                           -
                             type: paragraph
@@ -2319,11 +1997,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Wenige/keine Bilder oder Grafiken einfügen'
                           -
                             type: paragraph
@@ -2365,11 +2038,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Folien voll beschriften'
                           -
                             type: paragraph
@@ -2411,11 +2079,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Zu buntes PowerPoint Layout erstellen'
                       -
                         type: tableCell
@@ -2431,11 +2094,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Schlichtes passendes Präsentationsdesign zum ausgesuchten Thema erstellen'
                           -
                             type: paragraph
@@ -2462,11 +2120,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Zu viele Folien verwenden'
                           -
                             type: paragraph
@@ -2498,11 +2151,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Bei 15 Minutigen Vortrag à 25 Folienanzahl ausreichend'
                   -
                     type: tableRow
@@ -2521,11 +2169,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Folien unsystematisch anordnen'
                           -
                             type: paragraph
@@ -2549,26 +2192,11 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Die Struktur der Folien einhalten, '
                               -
                                 type: hardBreak
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'die Gliederung sinnvoll aufbauen'
                   -
                     type: tableRow
@@ -2587,11 +2215,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Stilmittel: inhaltliche, grammatikalische Fehler'
                       -
                         type: tableCell
@@ -2607,11 +2230,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Gute, verständliche Formulierungen'
                           -
                             type: paragraph
@@ -2638,11 +2256,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Abgehackten Übergänge'
                           -
                             type: paragraph
@@ -2666,11 +2279,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Fließende und passende Inhalts-Übergänge einpflegen'
                           -
                             type: paragraph
@@ -2697,11 +2305,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Langweilige Folien gestalten, Publikum nicht einbinden'
                           -
                             type: paragraph
@@ -2725,11 +2328,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Aufmerksamkeit des Publikums erregen, kreative und abwechslungsreiche Folien gestalten (Besonders in der Einleitung),'
                           -
                             type: paragraph
@@ -2756,29 +2354,15 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Zeitmangel:'
                               -
                                 type: text
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: ' '
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'mehr oder weniger als die vorgegebene Zeit vortragen'
                       -
                         type: tableCell
@@ -2794,11 +2378,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Vorgegebene Zeit einhalten (nicht mehr oder weniger)'
                           -
                             type: paragraph
@@ -2816,11 +2395,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
                     text: 'Körpersprache & Vortragsweise:'
               -
                 type: table
@@ -2845,10 +2419,6 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: Fehler
                       -
                         type: tableCell
@@ -2885,11 +2455,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Häufige Handbewegungen'
                           -
                             type: paragraph
@@ -2931,11 +2496,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Blick auf das Visualisierungstool versperren'
                       -
                         type: tableCell
@@ -3007,11 +2567,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Füllwörter wie ehm, also, quasi etc. benutzen'
                           -
                             type: paragraph
@@ -3086,11 +2641,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Inhalt stumpf auswendig lernen'
                       -
                         type: tableCell
@@ -3106,26 +2656,11 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Inhalt verstehen und verarbeiten,'
                               -
                                 type: hardBreak
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'wenn nötig Karteikarten oder Notizen von PowerPoint benutzen'
                           -
                             type: paragraph
@@ -3185,11 +2720,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Zu lange und komplexe Sätze'
                       -
                         type: tableCell
@@ -3205,11 +2735,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Kurze und verständliche Sätze bilden'
                           -
                             type: paragraph
@@ -3251,26 +2776,11 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Gliederungspunkte folgen,'
                               -
                                 type: hardBreak
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'roten Faden finden'
                   -
                     type: tableRow
@@ -3304,11 +2814,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'In wissenschaftlicher Sprache sprechen'
                   -
                     type: tableRow
@@ -3342,11 +2847,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'An passenden Stellen den Stimmenton höher halten (Besonders am Anfang des Vortrags)'
                           -
                             type: paragraph
@@ -3388,26 +2888,11 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Bilder/Grafiken mit einem Stab zeigen, '
                               -
                                 type: hardBreak
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'alle Fakten und Zahlen in einer Infografik erklären'
                           -
                             type: paragraph
@@ -3449,11 +2934,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Gute Schlussfolgerung formulieren'
                           -
                             type: paragraph
@@ -3480,11 +2960,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Überflüssige Inhalte einpflegen'
                           -
                             type: paragraph
@@ -3508,26 +2983,11 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Über wichtigen Punkte sprechen,'
                               -
                                 type: hardBreak
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Empfehlung: Handout erstellen'
                   -
                     type: tableRow
@@ -3546,11 +3006,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Inhalte auf den Folien überspringen'
                       -
                         type: tableCell
@@ -3566,11 +3021,6 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
                                 text: 'Auf alle Folienpunkte eingehen, auch wenn die Zeit nicht ausreicht'
               -
                 type: heading
@@ -3597,10 +3047,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Einige unserer Blogartikel zum Thema '
-                  -
-                    type: text
-                    text: 'Präsentation erstellen lassen'
+                    text: 'Einige unserer Blogartikel zum Thema Präsentation erstellen lassen'
               -
                 type: set
                 attrs:
@@ -3622,7 +3069,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705935454
+updated_at: 1705956773
 template: default
 meta_title: 'Professionelle Präsentation/Vortrag erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
