@@ -3788,12 +3788,11 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Einige unserer Blogartikel zur Dissertation & Mustervorlage für Doktorarbeit schreiben lassen'
               -
                 type: set
@@ -3808,15 +3807,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Weitere Links & Referenzen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3825,12 +3825,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.itp1.uni-stuttgart.de/de/publikationen/'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Abschlussarbeiten - Universität Stuttgart'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -3838,12 +3838,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://studieren.de/promovieren-doktortitel.0.html'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Der Weg zum Doktortitel - studieren.de'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -3851,12 +3851,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.sueddeutsche.de/thema/Promotion'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Promotion - Süddeutsche Zeitung'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -3864,12 +3864,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.karriere.de/mein-geld/promotion-und-gehalt-in-welchen-jobs-sich-der-doktortitel-auszahlt/'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Promotion und Gehalt - karriere.de'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -3877,12 +3877,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.wiwo.de/erfolg/management/gehaltsreport-fuehrungskraefte-doktortitel-bringt-20-000-euro-mehr-gehalt/8920324.html'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Doktortitel bringt 20.000 Euro mehr Gehalt - Wirtschaftswoche'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -3890,11 +3890,10 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.doccheck.com/de/detail/articles/11846-renaissance-des-doktortitels-ein-zweischneidiger-diskurs'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Renaissance des Doktortitels- ein zweischneidiger Diskurs - Doccheck'
-                attrs:
-                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -3907,7 +3906,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705934075
+updated_at: 1705934104
 template: default
 use_meta_keywords: false
 no_index_page: false
