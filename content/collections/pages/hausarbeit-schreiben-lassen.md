@@ -2927,15 +2927,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: Disclaimer
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2944,19 +2945,15 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                          hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
-                attrs:
-                  textAlign: left
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Einige unserer Blogartikel zum Thema Hausarbeit schreiben lassen'
               -
                 type: set
@@ -2971,15 +2968,16 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Weitere Links & Referenzen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2988,12 +2986,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.germanistik.uni-bonn.de/institut/abteilungen/vergleichende-literaturwissenschaft-komparatistik/studium/studienberatung/leitfaden-zum-verfassen-einer-wissenschaftlichen-hausarbeit/view'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Leitfaden zum Verfassen einer wissenschaftlichen Hausarbeit - Universität Bonn'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -3001,12 +2999,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.jura.uni-frankfurt.de/90083151/Erstellung_von_Hausarbeiten_Leitfaden_fuer_Studierende_2020_07_WEB.pdf'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Leitfaden für das Verfassen von Jura Hausarbeiten - Goethe Universität Frankfurt am Main'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -3014,12 +3012,12 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.uni-potsdam.de/fileadmin/projects/schulpaedagogik/Dokumente/Hausarbeit_Anleitung.pdf'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Leitfaden zum Verfassen einer Hausarbeit - Uni Potsdam'
                   -
                     type: hardBreak
-                    marks: {  }
                   -
                     type: text
                     marks:
@@ -3027,11 +3025,10 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://geschichte.uni-greifswald.de/institut/mitarbeitende/fachschaftsrat/fsr-tipps/tipps-zum-schreiben-von-hausarbeiten/'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Tipps zum Schreiben von Hausarbeiten - Uni Greifswald'
-                attrs:
-                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -3044,7 +3041,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705934333
+updated_at: 1705934394
 template: default
 use_meta_keywords: false
 no_index_page: false
