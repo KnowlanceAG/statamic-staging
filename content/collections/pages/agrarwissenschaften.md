@@ -127,7 +127,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705949801
+updated_at: 1705954589
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -431,6 +431,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -438,6 +439,8 @@ replicator:
                     text: 'Unsere Ghostwriter für Agrarwissenschaften'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -458,8 +461,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Seminararbeit
                   -
                     type: text
@@ -471,14 +475,17 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/doktorarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Dissertation
                   -
                     type: text
                     text: .
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -490,8 +497,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/biologie
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Biologie Ghostwritern'
                   -
                     type: text
@@ -503,8 +511,9 @@ replicator:
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'kostenlose und unverbindliche Anfrage'
                   -
                     type: text
@@ -531,69 +540,52 @@ replicator:
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: blockquote
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: center
                     content:
                       -
                         type: text
                         marks:
                           -
                             type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
                         text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet Agrarwissenschaften Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
                       -
                         type: text
                         marks:
                           -
-                            type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                          -
                             type: link
                             attrs:
                               href: /anfrage
-                              target: null
                               rel: null
+                              target: null
+                              title: null
+                          -
+                            type: bold
                         text: 'unverbindliche Anfrage schicken'
                       -
                         type: text
                         marks:
                           -
                             type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
                         text: '. '
-                    attrs:
-                      textAlign: center
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: center
                     content:
                       -
                         type: text
                         marks:
                           -
                             type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
                         text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie zu Ihrer Arbeit eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen wie bspw. Klausuren erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                    attrs:
-                      textAlign: center
             show_as_card: false
         type: row
         enabled: true
@@ -626,6 +618,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -633,6 +626,8 @@ replicator:
                     text: 'Allgemeines zum Agrarwissenschaften Studium'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -663,6 +658,8 @@ replicator:
                     text: '. Eine weitere zentrale Bedeutung kommt den ökologischen Bedingungen zu, etwa den klimatischen Voraussetzungen, der Fruchtbarkeit des Bodens usw.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -700,6 +697,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: center
                   level: 2
                 content:
                   -
@@ -727,157 +725,91 @@ replicator:
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Diplomarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Examensarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Magisterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Bachelorarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterarbeit schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                       -
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Masterthesis schreiben lassen'
                                   -
                                     type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
                                   -
                                     type: text
                                     marks:
                                       -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
                                         type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Doktorarbeit schreiben lassen'
-                                attrs:
-                                  textAlign: start
                           -
                             id: ljoh8o20
                             headline: 'Sonstige Arbeiten'
@@ -1814,6 +1746,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1821,12 +1754,16 @@ replicator:
                     text: 'Karriereaussichten nach dem Agrarwissenschaften Studium'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Mit einem abgeschlossenen Studium in Agrarwissenschaften haben Sie sehr gute Karriereaussichten. Der Klimawandel trägt dazu bei, dass Agrarwissenschaften Jobs immer wichtiger werden. Agrarwissenschaftler werden gebraucht, um die Folgen von extremer Trockenheit, von sintflutartigen Regenfällen, von den schnellen Veränderungen von Flora und Fauna zu bewältigen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1838,8 +1775,9 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.absolventa.de/jobs/channel/agrarwissenschaften/thema/gehalt'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Einstiegsgehalt für Agrarwissenschaftler'
                   -
                     type: text
@@ -1884,6 +1822,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -1891,20 +1830,16 @@ replicator:
                     text: 'Warum sollte man Agrarwissenschaften-Ghostwriter beauftragen?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(55, 65, 81)'
-                          hex: '#000'
                     text: 'Warum Sie aus dem Fachbereich Agrarwissenschaften Ghostwriter beauftragen sollten? Damit Sie von deren spezialisiertem Wissen und Expertise profitieren zu können. Dies kann Zeit sparen, da sie bereits über das notwendige Fachwissen verfügen und eine hochwertige wissenschaftliche Arbeit liefern können. Unsere Experten können auch bei der Forschung und Datensammlung helfen, individuelle Anpassungen vornehmen und sicherstellen, dass die Arbeit den wissenschaftlichen Standards entspricht. Dies ist besonders nützlich bei komplexen Projekten und kann bei der Vorbereitung auf eine berufliche Karriere im Bereich Agrarwissenschaften unterstützen. '
-                attrs:
-                  textAlign: start
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -1990,6 +1925,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -1997,6 +1933,8 @@ replicator:
                     text: 'Aufbau eines Agrarwissenschaften Studiums'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2014,6 +1952,8 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2036,10 +1976,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2053,10 +1994,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2073,10 +2015,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2093,10 +2036,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2110,10 +2054,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2130,10 +2075,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2147,10 +2093,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2167,16 +2114,19 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 text: '6 LP'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2188,8 +2138,9 @@ replicator:
                         type: link
                         attrs:
                           href: /assets/downloads/blog/module-erganzungsbereich-agrarwissenschaften.docx
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Humboldt-Uni die Wahl aus 45 Modulen'
                   -
                     type: text
@@ -2208,6 +2159,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -2215,6 +2167,8 @@ replicator:
                     text: 'Studienplan: Agrarwissenschaften'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2231,10 +2185,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2245,19 +2200,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: white
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: Pflichtmodul
                       -
                         type: tableCell
@@ -2265,19 +2215,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: white
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Wahlpflichtmodul oder Ergänzungsmodul'
                   -
                     type: tableRow
@@ -2288,10 +2233,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2302,19 +2248,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(247, 150, 70)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Grundlagen der Biochemie'
                       -
                         type: tableCell
@@ -2322,10 +2263,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2339,10 +2281,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2353,19 +2296,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(146, 208, 80)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: Nutztierhaltung
                       -
                         type: tableCell
@@ -2373,10 +2311,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2390,10 +2329,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2404,19 +2344,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: yellow
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Grundlagen des Agrarmarketing'
                       -
                         type: tableCell
@@ -2424,10 +2359,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2441,10 +2377,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2455,19 +2392,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(247, 150, 70)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Biologie der Pflanzen'
                       -
                         type: tableCell
@@ -2475,10 +2407,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2498,10 +2431,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2512,19 +2446,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(247, 150, 70)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Biologie der Tiere'
                       -
                         type: tableCell
@@ -2532,10 +2461,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2549,10 +2479,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2563,19 +2494,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: red
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Grundlagen der Physik und Meteorologie'
                       -
                         type: tableCell
@@ -2583,10 +2509,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2600,10 +2527,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2614,19 +2542,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(0, 112, 192)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: Bodenkunde
                       -
                         type: tableCell
@@ -2634,10 +2557,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2651,10 +2575,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2665,19 +2590,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(247, 150, 70)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Genetik und Pflanzenzüchtung'
                       -
                         type: tableCell
@@ -2685,10 +2605,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2702,10 +2623,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2716,19 +2638,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(247, 150, 70)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Tierzucht und -genetik'
                       -
                         type: tableCell
@@ -2736,10 +2653,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2753,10 +2671,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2767,19 +2686,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(247, 150, 70)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Phytomedizin I: Grundlagen der Phytomedizin'
                       -
                         type: tableCell
@@ -2787,10 +2701,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2804,10 +2719,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2818,19 +2734,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(146, 208, 80)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Pflanzenernährung und Düngung'
                       -
                         type: tableCell
@@ -2838,10 +2749,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2855,10 +2767,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2869,19 +2782,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(253, 233, 217)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: Agrarpolitik
                       -
                         type: tableCell
@@ -2889,10 +2797,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2906,10 +2815,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2920,19 +2830,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(146, 208, 80)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Ackerbau und Pflanzenbau'
                       -
                         type: tableCell
@@ -2940,10 +2845,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2957,10 +2863,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -2971,19 +2878,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(146, 208, 80)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Tierernährung und Futtermittelkunde'
                       -
                         type: tableCell
@@ -2991,10 +2893,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3008,10 +2911,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3022,19 +2926,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: red
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Mathematik und Statistik'
                       -
                         type: tableCell
@@ -3042,10 +2941,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3059,10 +2959,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3073,19 +2974,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(0, 112, 192)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Agrar- und Gartenbautechnik'
                       -
                         type: tableCell
@@ -3093,10 +2989,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3110,10 +3007,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3124,19 +3022,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: yellow
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Einführung in die Volkswirtschaftslehre'
                       -
                         type: tableCell
@@ -3144,10 +3037,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3161,10 +3055,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3175,19 +3070,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: yellow
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Analyse und Planung von Agrarbetrieben'
                       -
                         type: tableCell
@@ -3195,10 +3085,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3212,10 +3103,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3226,19 +3118,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(0, 112, 192)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: Agrarökologie
                       -
                         type: tableCell
@@ -3246,10 +3133,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3263,10 +3151,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3277,19 +3166,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: yellow
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: 'Umwelt- und Ressourcenökonomie'
                       -
                         type: tableCell
@@ -3297,10 +3181,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3314,10 +3199,11 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
@@ -3328,19 +3214,14 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: 'rgb(182, 221, 232)'
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: black
-                                      hex: '#000'
                                 text: Bachelorarbeit
                       -
                         type: tableCell
@@ -3348,16 +3229,19 @@ replicator:
                           colspan: 1
                           rowspan: 1
                           colwidth: null
-                          background: null
                         content:
                           -
                             type: paragraph
+                            attrs:
+                              textAlign: left
                             content:
                               -
                                 type: text
                                 text: "\_"
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3370,6 +3254,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3384,6 +3270,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3393,6 +3281,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3402,6 +3292,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3411,6 +3303,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -3445,6 +3339,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -3452,18 +3347,24 @@ replicator:
                     text: 'Inhalte des Agrarwissenschaften Studiums'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Wie Sie an der Beispieltabelle der HU Berlin gesehen haben, sind die Inhalte eines Agrarwissenschaften Studiums sehr vielfältig. Rein biologische Inhalte spielen eine große Rolle, aber Sie erwerben auch betriebswirtschaftliche und Marketingkenntnisse.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Für die Feldstudien müssen Sie auch mathematische und statistische Fertigkeiten auf höherem Niveau haben. Auch politische Aspekte spielen eine Rolle im Studiengang Agrarwissenschaft. Durch diese große Bandbreite des Faches müssen Sie selbst in vielen Bereichen Fächern fit sein. Die Anforderungen an die Studenten in Agrarwissenschaften sind also hoch.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3475,8 +3376,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Hausarbeiten schreiben lassen'
                   -
                     type: text
@@ -3513,6 +3415,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -3520,6 +3423,8 @@ replicator:
                     text: 'Ghostwriter: Agrarwissenschaften'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3531,8 +3436,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/ghostwriter-abschlussarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Mustervorlage für die Abschlussarbeit'
                   -
                     type: text
@@ -3544,8 +3450,9 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
@@ -3557,14 +3464,17 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Masterarbeit schreiben lassen'
                   -
                     type: text
                     text: .
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3576,8 +3486,9 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/literaturrecherche-datenbanken-quellen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Literaturrecherche
                   -
                     type: text
@@ -3589,14 +3500,17 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/forschungsdesign-beispiel
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Beratung beim Studiendesign'
                   -
                     type: text
                     text: ' ist ebenfalls möglich.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3608,8 +3522,9 @@ replicator:
                         type: link
                         attrs:
                           href: /lektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Lektorat
                   -
                     type: text
@@ -3621,8 +3536,9 @@ replicator:
                         type: link
                         attrs:
                           href: /korrektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Korrektorat
                   -
                     type: text
@@ -3634,14 +3550,17 @@ replicator:
                         type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Plagiatsprüfung
                   -
                     type: text
                     text: ' gibt Ihnen die Sicherheit, dass Sie nicht aus Versehen Teile aus anderen Arbeiten übernommen haben.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -3698,11 +3617,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>
-                      Kaufentscheidungen von Landwirten bei Liegeboxenbelägen, Liegeboxenabtrennungen und Laufflächenbelägen</b><br><br>
+                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
+                        &lt;b&gt;
+                      Kaufentscheidungen von Landwirten bei Liegeboxenbelägen, Liegeboxenabtrennungen und Laufflächenbelägen&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 
-                      Hier stehen ökonomische Aspekte im Vordergrund. Aus agrarwissenschaftlicher Sicht ist die artgerechte Tierhaltung bedeutsam. Die Arbeit dient als Überprüfung, welche Aspekte Landwirte bei ihren Entscheidungen berücksichtigen.</div>
+                      Hier stehen ökonomische Aspekte im Vordergrund. Aus agrarwissenschaftlicher Sicht ist die artgerechte Tierhaltung bedeutsam. Die Arbeit dient als Überprüfung, welche Aspekte Landwirte bei ihren Entscheidungen berücksichtigen.&lt;/div&gt;
               -
                 type: set
                 attrs:
@@ -3717,12 +3636,12 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>
+                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
+                        &lt;b&gt;
                       Zweikultur-Nutzungssysteme für die Biogasproduktion
-                      </b><br><br>
+                      &lt;/b&gt;&lt;br&gt;&lt;br&gt;
 
-                      Es wird untersucht, inwieweit sich Möglichkeiten der Anbaumethode eines Zweinutzungssytems zur Herstellung von Biomasse für die Energieerzeugung mit ökologischen Aspekten und Fragen der Biodiversität verbinden lassen. Zweinutzung bedeutet, dass der Naturschutz und der nachhaltige Ausbau von erneuerbaren Energien verbunden werden.</div>
+                      Es wird untersucht, inwieweit sich Möglichkeiten der Anbaumethode eines Zweinutzungssytems zur Herstellung von Biomasse für die Energieerzeugung mit ökologischen Aspekten und Fragen der Biodiversität verbinden lassen. Zweinutzung bedeutet, dass der Naturschutz und der nachhaltige Ausbau von erneuerbaren Energien verbunden werden.&lt;/div&gt;
               -
                 type: set
                 attrs:
@@ -3737,11 +3656,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>
-                      Verwendungseignung und Zielwert von Clematisarten und -sorten mit Wildcharakter</b><br><br>
+                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
+                        &lt;b&gt;
+                      Verwendungseignung und Zielwert von Clematisarten und -sorten mit Wildcharakter&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 
-                      Bei dieser Arbeit handelt es sich um eine Feldstudie: Es werden verschiedene Clematisarten untersucht, die in einer Versuchsanstalt angebaut werden. Es geht darum, verschiedene Nutzungseigenschaften zu identifizieren, um optimale Standortbedingungen zu finden.</div>
+                      Bei dieser Arbeit handelt es sich um eine Feldstudie: Es werden verschiedene Clematisarten untersucht, die in einer Versuchsanstalt angebaut werden. Es geht darum, verschiedene Nutzungseigenschaften zu identifizieren, um optimale Standortbedingungen zu finden.&lt;/div&gt;
               -
                 type: set
                 attrs:
@@ -3756,11 +3675,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>
-                      Bedeutung und Potentiale von Waldflächen und Forstwirtschaft für ein Ländliches Regionalmanagement - am Beispiel des Landkreises Osterode am Harz</b><br><br>
+                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
+                        &lt;b&gt;
+                      Bedeutung und Potentiale von Waldflächen und Forstwirtschaft für ein Ländliches Regionalmanagement - am Beispiel des Landkreises Osterode am Harz&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 
-                      Es erfolgt eine Potenzialanalyse einer ländlichen Region. Es werden Standortfaktoren, mögliche Potentiale und Handlungsempfehlungen in Bezug auf Wald, Forstwirtschaft und ländliches Regionalmanagement beschrieben.</div>
+                      Es erfolgt eine Potenzialanalyse einer ländlichen Region. Es werden Standortfaktoren, mögliche Potentiale und Handlungsempfehlungen in Bezug auf Wald, Forstwirtschaft und ländliches Regionalmanagement beschrieben.&lt;/div&gt;
               -
                 type: set
                 attrs:
@@ -3775,11 +3694,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <div style="border: 2px solid #FF660A; padding: 20px;">
-                        <b>
-                      Zur Fischproduktion aus Kreislaufanlagen in der Aquakultur.</b><br><br>
+                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
+                        &lt;b&gt;
+                      Zur Fischproduktion aus Kreislaufanlagen in der Aquakultur.&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 
-                      In dieser Arbeit wird das Potential der Kreislaufanlagen in der Fischzucht untersucht. Es soll herausgefunden werden, inwieweit diese Produktionsmethode marktwirtschaftlichen Kriterien genügt und geeignet ist, um der globalen Hungerproblematik etwas entgegenzusetzen.</div>
+                      In dieser Arbeit wird das Potential der Kreislaufanlagen in der Fischzucht untersucht. Es soll herausgefunden werden, inwieweit diese Produktionsmethode marktwirtschaftlichen Kriterien genügt und geeignet ist, um der globalen Hungerproblematik etwas entgegenzusetzen.&lt;/div&gt;
               -
                 type: paragraph
                 attrs:
