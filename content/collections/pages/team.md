@@ -5,7 +5,7 @@ title: Team
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995501
+updated_at: 1705995506
 page_title: 'Unser Team • GWriters.de'
 teaser:
   -
@@ -56,8 +56,8 @@ replicator:
       -
         type: heading
         attrs:
-          level: 2
           textAlign: center
+          level: 2
         content:
           -
             type: text
@@ -66,10 +66,11 @@ replicator:
                 type: textColor
                 attrs:
                   color: 'rgb(68, 68, 68)'
-                  hex: '#000'
             text: 'Unsere Mitarbeiter im Überblick'
       -
         type: paragraph
+        attrs:
+          textAlign: center
         content:
           -
             type: text
@@ -78,10 +79,7 @@ replicator:
                 type: textColor
                 attrs:
                   color: 'rgb(68, 68, 68)'
-                  hex: '#000'
             text: 'Montags bis Freitags von 9-18 Uhr und in dringenden Fällen auch an Wochenenden für Sie erreichbar.'
-        attrs:
-          textAlign: center
       -
         type: set
         attrs:
@@ -111,6 +109,8 @@ replicator:
             in_flow: false
       -
         type: paragraph
+        attrs:
+          textAlign: left
     type: editor
     enabled: true
     show_as_card: false
