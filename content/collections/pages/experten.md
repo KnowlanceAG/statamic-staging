@@ -5,7 +5,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705933009
+updated_at: 1705993584
 teaser:
   -
     type: heading
@@ -191,8 +191,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /ghostwriting
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'akademischen Ghostwriting Services'
                           -
                             type: text
@@ -204,8 +205,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /ghostwriter/bwl
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Ghostwritern aus der BWL'
                           -
                             type: text
@@ -217,8 +219,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /ghostwriter/jura
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Jura
                           -
                             type: text
@@ -324,8 +327,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /ghostwriter/informatik
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Informatik
                           -
                             type: text
@@ -337,8 +341,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /ghostwriter/psychologie
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Psychologie '
                           -
                             type: text
@@ -350,8 +355,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /ghostwriter/mathematik
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Mathematik '
                           -
                             type: text
@@ -363,8 +369,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /ghostwriter/medizin
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Medizin Ghostwriter'
                           -
                             type: text
