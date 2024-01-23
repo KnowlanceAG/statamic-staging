@@ -483,7 +483,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995966
+updated_at: 1705995969
 meta_description: 'AI Detector: deutsch & zuverlässig ✓ von KI-Experten entwickelt & trainiert ✓ für akademischen Einsatz ➤ Jetzt Content kostenlos auf AI prüfen!'
 og_title: 'AI Detector - Kostenlos für Alle! • GWriters.de'
 og_description: 'Kostenloser AI Detector - keine Anmeldung erforderlich! Testen Sie direkt unseren KI Detector und stellen Sie die Originalität Ihrer Texte sicher.'
