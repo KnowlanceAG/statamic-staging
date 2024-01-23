@@ -3,7 +3,7 @@ id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 blueprint: pages
 title: 'Das Unternehmen'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995483
+updated_at: 1705995490
 teaser:
   -
     type: heading
@@ -383,6 +383,8 @@ replicator:
                     padding-y: 12
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -394,8 +396,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/medizin
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: medizinisches
                   -
                     type: text
@@ -407,8 +410,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/jura
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Jura
                   -
                     type: text
@@ -420,8 +424,9 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter/bwl
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: BWL-Ghostwriting
                   -
                     type: text
