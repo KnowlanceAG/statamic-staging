@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,7 +16,6 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Akademisches Ghostwriting'
       -
         type: hardBreak
@@ -25,7 +24,6 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
       -
         type: text
         marks:
@@ -33,7 +31,6 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: '& Ghostwriter in Österreich'
 replicator:
   -
@@ -176,7 +173,7 @@ replicator:
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705996096
+updated_at: 1705996099
 page_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
 template: without-teaser
 meta_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
