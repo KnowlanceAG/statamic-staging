@@ -140,9 +140,9 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;p style="font-size:18px" align="center"&gt;
-                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei der Ghostwriting Agentur GWriters finden Sie exakt den &lt;b&gt;akademischen Ghostwriter für Ihre Bachelorarbeit&lt;/b&gt;, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an akademischen Fachrichtungen von Informatik über Maschinenbau und Politikwissenschaften bis Psychologie.
-                      &lt;/p&gt;
+                      <p style="font-size:18px" align="center">
+                      Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei der Ghostwriting Agentur GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an akademischen Fachrichtungen von Informatik über Maschinenbau und Politikwissenschaften bis Psychologie.
+                      </p>
               -
                 type: set
                 attrs:

@@ -296,11 +296,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;!-- ProvenExpert Bewertungssiegel --&gt;
-                      &lt;div id="pewl"&gt;&lt;/div&gt;
-                      &lt;script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&amp;avatar=0&amp;competence=0&amp;style=white" async&gt;&lt;/script&gt;
-                      &lt;link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print"&gt;
-                      &lt;!-- ProvenExpert Bewertungssiegel Ende --&gt;
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&amp;avatar=0&amp;competence=0&amp;style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
             show_as_card: false
         type: row
         enabled: true

@@ -2584,9 +2584,9 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-                      Ein Unternehmen, das Elektronikprodukte herstellt, möchte seine Produkte auf internationalen Märkten einführen. Die internationale Geschäftsstrategie umfasst die Entscheidung, welche Länder für den Markteintritt ausgewählt werden sollen, wie die Produkte an die Bedürfnisse und kulturellen Vorlieben der jeweiligen Länder angepasst werden und welche Vertriebskanäle am effektivsten sind.&lt;/div&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>
+                      Ein Unternehmen, das Elektronikprodukte herstellt, möchte seine Produkte auf internationalen Märkten einführen. Die internationale Geschäftsstrategie umfasst die Entscheidung, welche Länder für den Markteintritt ausgewählt werden sollen, wie die Produkte an die Bedürfnisse und kulturellen Vorlieben der jeweiligen Länder angepasst werden und welche Vertriebskanäle am effektivsten sind.</div>
               -
                 type: heading
                 attrs:
@@ -2611,8 +2611,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ein Unternehmen, das Sportbekleidung herstellt, möchte seine Produkte global vermarkten. Es muss seine Marketingkampagnen an die kulturellen Unterschiede und sportlichen Präferenzen der verschiedenen Länder anpassen. So könnte eine Werbekampagne in Europa andere Aspekte hervorheben als eine Kampagne in Asien, um die jeweiligen Zielgruppen anzusprechen.&lt;/div&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen, das Sportbekleidung herstellt, möchte seine Produkte global vermarkten. Es muss seine Marketingkampagnen an die kulturellen Unterschiede und sportlichen Präferenzen der verschiedenen Länder anpassen. So könnte eine Werbekampagne in Europa andere Aspekte hervorheben als eine Kampagne in Asien, um die jeweiligen Zielgruppen anzusprechen.</div>
               -
                 type: heading
                 attrs:
@@ -2637,8 +2637,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ein Unternehmen hat Niederlassungen in verschiedenen Ländern und muss sich mit unterschiedlichen Währungen und Wechselkursen auseinandersetzen. Bei der Budgetplanung und Finanzierung muss es Währungsrisiken berücksichtigen und geeignete Absicherungsstrategien entwickeln, um Verluste aufgrund von Währungsschwankungen zu minimieren.&lt;/div&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen hat Niederlassungen in verschiedenen Ländern und muss sich mit unterschiedlichen Währungen und Wechselkursen auseinandersetzen. Bei der Budgetplanung und Finanzierung muss es Währungsrisiken berücksichtigen und geeignete Absicherungsstrategien entwickeln, um Verluste aufgrund von Währungsschwankungen zu minimieren.</div>
               -
                 type: heading
                 attrs:
@@ -2663,8 +2663,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ein Automobilhersteller bezieht Teile von Lieferanten aus verschiedenen Ländern. Das Unternehmen muss sicherstellen, dass die Teile pünktlich geliefert werden, Zollvorschriften eingehalten werden und die Lieferkette effizient funktioniert, um die Produktionsprozesse nicht zu beeinträchtigen.&lt;/div&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Automobilhersteller bezieht Teile von Lieferanten aus verschiedenen Ländern. Das Unternehmen muss sicherstellen, dass die Teile pünktlich geliefert werden, Zollvorschriften eingehalten werden und die Lieferkette effizient funktioniert, um die Produktionsprozesse nicht zu beeinträchtigen.</div>
               -
                 type: heading
                 attrs:
@@ -2689,8 +2689,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ein Unternehmen eröffnet eine Filiale in einem neuen Land. Es muss sich mit den kulturellen Unterschieden in Bezug auf Arbeitskultur, Arbeitsrecht und soziale Normen auseinandersetzen. Das Personalmanagement muss sicherstellen, dass die Mitarbeiter aus verschiedenen Ländern gut integriert werden und in einer harmonischen Arbeitsumgebung arbeiten können.&lt;/div&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen eröffnet eine Filiale in einem neuen Land. Es muss sich mit den kulturellen Unterschieden in Bezug auf Arbeitskultur, Arbeitsrecht und soziale Normen auseinandersetzen. Das Personalmanagement muss sicherstellen, dass die Mitarbeiter aus verschiedenen Ländern gut integriert werden und in einer harmonischen Arbeitsumgebung arbeiten können.</div>
               -
                 type: heading
                 attrs:
@@ -2715,8 +2715,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ein Unternehmen möchte seine Produkte in Ländern mit unterschiedlichen Rechts- und Ethikstandards verkaufen. Es muss sicherstellen, dass seine Geschäftspraktiken den lokalen Vorschriften entsprechen, um Konflikte oder rechtliche Probleme zu vermeiden.&lt;/div&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b><br><br>Ein Unternehmen möchte seine Produkte in Ländern mit unterschiedlichen Rechts- und Ethikstandards verkaufen. Es muss sicherstellen, dass seine Geschäftspraktiken den lokalen Vorschriften entsprechen, um Konflikte oder rechtliche Probleme zu vermeiden.</div>
               -
                 type: paragraph
                 attrs:

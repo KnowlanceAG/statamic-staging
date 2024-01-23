@@ -124,7 +124,7 @@ replicator:
                   id: lin1iv87
                   values:
                     type: insert_html
-                    html: >-
+                    html: |-
                       <p style="font-size:18px" align="center">
 
                       Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei
@@ -463,7 +463,7 @@ replicator:
                   id: epBUf1T1
                   values:
                     type: insert_html
-                    html: >-
+                    html: |-
                       <!-- ProvenExpert Bewertungssiegel -->
 
                       <div id="pewl"></div>

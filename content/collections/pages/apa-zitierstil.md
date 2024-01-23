@@ -1141,11 +1141,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;
-                          &lt;b&gt;APA Zitierstil Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Williams, K.D. (2001). Ostracism. The Power of Silence. New York: Guillford Publications.
-                      &lt;br&gt;&lt;br&gt;&lt;span style="background-color: #91C6E8;"&gt;Nachname, Initialen des/der Vornamen. &lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;(Jahr).&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Titel kursiv.&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;Ort:&lt;/span&gt;&lt;span style="background-color: #F261DD;"&gt;Verlag.&lt;/span&gt; 
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>APA Zitierstil Beispiel:</b><br><br>Williams, K.D. (2001). Ostracism. The Power of Silence. New York: Guillford Publications.
+                      <br><br><span style="background-color: #91C6E8;">Nachname, Initialen des/der Vornamen. </span><span style="background-color: #C891E8;">(Jahr).</span><span style="background-color: #EFA052;">Titel kursiv.</span><span style="background-color: #CAE891;">Ort:</span><span style="background-color: #F261DD;">Verlag.</span> 
 
-                      &lt;/div&gt;
+                      </div>
               -
                 type: paragraph
                 attrs:

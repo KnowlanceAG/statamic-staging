@@ -493,10 +493,10 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;
-                          &lt;b&gt;Harvard Zitierstil Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Bakó und Zana (2020) halten fest, …
-                      &lt;br&gt;&lt;br&gt;&lt;span style="background-color: #91C6E8;"&gt;Autor&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;(Jahr)&lt;/span&gt;
-                      &lt;/div&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>Bakó und Zana (2020) halten fest, …
+                      <br><br><span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">(Jahr)</span>
+                      </div>
               -
                 type: set
                 attrs:
@@ -511,10 +511,10 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;
-                          &lt;b&gt;Harvard Zitierstil Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;…kann konstatiert werden (Bakó &amp; Zana 2020).
-                      &lt;br&gt;&lt;br&gt;(&lt;span style="background-color: #91C6E8;"&gt;Autor&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Jahr&lt;/span&gt;)
-                      &lt;/div&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>…kann konstatiert werden (Bakó &amp; Zana 2020).
+                      <br><br>(<span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">Jahr</span>)
+                      </div>
               -
                 type: heading
                 attrs:
@@ -539,10 +539,10 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;
-                          &lt;b&gt;Harvard Zitierstil Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Drexler (2018) schlägt vor, dass „xx yy zz“ (S. 145).
-                      &lt;br&gt;&lt;br&gt;&lt;span style="background-color: #91C6E8;"&gt;Autor&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;(Jahr)&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Text&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;(Seitenanzahl).&lt;/span&gt;
-                      &lt;/div&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>Drexler (2018) schlägt vor, dass „xx yy zz“ (S. 145).
+                      <br><br><span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">(Jahr)</span><span style="background-color: #EFA052;">Text</span><span style="background-color: #CAE891;">(Seitenanzahl).</span>
+                      </div>
               -
                 type: set
                 attrs:
@@ -557,12 +557,12 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;
-                          &lt;b&gt;Harvard Zitierstil Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;(Drexler 2018, S. 145).&nbsp; 
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>(Drexler 2018, S. 145).&nbsp; 
 
-                      &lt;br&gt;&lt;br&gt;(&lt;span style="background-color: #91C6E8;"&gt;Autor&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Jahr,&lt;/span&gt;
-                        &lt;span style="background-color: #CAE891;"&gt;Seitenanzahl&lt;/span&gt;)
-                      &lt;/div&gt;
+                      <br><br>(<span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">Jahr,</span>
+                        <span style="background-color: #CAE891;">Seitenanzahl</span>)
+                      </div>
               -
                 type: paragraph
                 attrs:
@@ -604,15 +604,15 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;&lt;b&gt;Harvard-Style: Literaturverzeichnis Beispiel&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;"><b>Harvard-Style: Literaturverzeichnis Beispiel</b><br><br>
 
-                      &lt;span style="background-color: #91C6E8;"&gt;Drexler, K.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;(2018):&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;Ererbte Wunden heilen. Therapie der transgenerationalen Traumatisierung,&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;3. Aufl.,&lt;/span&gt;&lt;span style="background-color: #F29141;"&gt;Stuttgart:&lt;/span&gt;&lt;span style="background-color: #F261DD;"&gt;Klett-Cotta.&lt;/span&gt;
-                      &lt;br&gt;&lt;br&gt;
-                      &lt;span style="background-color: #91C6E8;"&gt;Nachname,&nbsp;Vorname&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;(Jahr):&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;Titel,&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Auflage,&lt;/span&gt;&lt;span style="background-color: #F29141;"&gt;Ort:&lt;/span&gt;&lt;span style="background-color: #F261DD;"&gt;Verlag.&lt;/span&gt; &lt;br&gt;&lt;br&gt;
-                      bei zwei Autoren setzen Sie ein &amp; zwischen die Namen, der Rest verändert sich nicht, also so: &lt;br&gt;&lt;br&gt;
+                      <span style="background-color: #91C6E8;">Drexler, K.</span><span style="background-color: #C891E8;">(2018):</span><span style="background-color: #CAE891;">Ererbte Wunden heilen. Therapie der transgenerationalen Traumatisierung,</span><span style="background-color: #E87667;">3. Aufl.,</span><span style="background-color: #F29141;">Stuttgart:</span><span style="background-color: #F261DD;">Klett-Cotta.</span>
+                      <br><br>
+                      <span style="background-color: #91C6E8;">Nachname,&nbsp;Vorname</span><span style="background-color: #C891E8;">(Jahr):</span><span style="background-color: #CAE891;">Titel,</span><span style="background-color: #E87667;">Auflage,</span><span style="background-color: #F29141;">Ort:</span><span style="background-color: #F261DD;">Verlag.</span> <br><br>
+                      bei zwei Autoren setzen Sie ein &amp; zwischen die Namen, der Rest verändert sich nicht, also so: <br><br>
                         Bakó, T., &amp; Zana, K. (2020). Transgenerational trauma and therapy. The transgenerational atmosphere. Milton Park: Routledge.
                         
-                      &lt;/div&gt;
+                      </div>
               -
                 type: set
                 attrs:

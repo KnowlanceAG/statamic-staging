@@ -1436,8 +1436,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;Beispiel:&lt;/b&gt; Biotechnologie in der Lebensmittelproduktion - Herstellung von Insulin durch Gentechnik&lt;/div&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>Beispiel:</b> Biotechnologie in der Lebensmittelproduktion - Herstellung von Insulin durch Gentechnik</div>
               -
                 type: paragraph
                 attrs:

@@ -198,7 +198,7 @@ replicator:
                   id: ldaat51b
                   values:
                     type: insert_html
-                    html: >-
+                    html: |-
                       <!-- ProvenExpert Bewertungssiegel -->
 
                       <div id="pewl"></div>

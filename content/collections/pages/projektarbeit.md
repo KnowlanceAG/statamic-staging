@@ -139,7 +139,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |
-                      GWriters bietet Ihnen kompetente Hilfe für Ihre wissenschaftlichen Projektarbeiten. Unsere Experten finden für Ihre Projektarbeit genau den passenden &lt;b&gt;akademischen Ghostwriter&lt;/b&gt;, der Ihren individuellen Anforderungen entspricht. Sie möchten Ihr akademisches Projekt in sichere Hände geben und für eine Projektarbeit Ghostwriter beauftragen? Möchten Sie eine qualitativ hochwertige Mustervorlage für Ihre Projektarbeit erstellen lassen? Unsere Ghostwriting-Agentur arbeitet mit renommierten Experten, Doktoren und Professoren zusammen. Verlassen Sie sich auf unser Expertenteam, um Ihre akademische Projektarbeit erfolgreich zu gestalten und Ihre Ziele zu erreichen.
+                      GWriters bietet Ihnen kompetente Hilfe für Ihre wissenschaftlichen Projektarbeiten. Unsere Experten finden für Ihre Projektarbeit genau den passenden <b>akademischen Ghostwriter</b>, der Ihren individuellen Anforderungen entspricht. Sie möchten Ihr akademisches Projekt in sichere Hände geben und für eine Projektarbeit Ghostwriter beauftragen? Möchten Sie eine qualitativ hochwertige Mustervorlage für Ihre Projektarbeit erstellen lassen? Unsere Ghostwriting-Agentur arbeitet mit renommierten Experten, Doktoren und Professoren zusammen. Verlassen Sie sich auf unser Expertenteam, um Ihre akademische Projektarbeit erfolgreich zu gestalten und Ihre Ziele zu erreichen.
               -
                 type: heading
                 attrs:

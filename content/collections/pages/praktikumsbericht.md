@@ -134,9 +134,9 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;p style="font-size:18px" align="center"&gt;
-                      Benötigen Sie Hilfe beim Verfassen Ihres Praktikumsberichts? Bei der Ghostwriting-Agentur GWriters finden Sie den passenden &lt;b&gt;akademischen Ghostwriter für Ihren Praktikumsbericht&lt;/b&gt;, der Ihren individuellen Anforderungen gerecht wird
-                      &lt;/p&gt;
+                      <p style="font-size:18px" align="center">
+                      Benötigen Sie Hilfe beim Verfassen Ihres Praktikumsberichts? Bei der Ghostwriting-Agentur GWriters finden Sie den passenden <b>akademischen Ghostwriter für Ihren Praktikumsbericht</b>, der Ihren individuellen Anforderungen gerecht wird
+                      </p>
               -
                 type: set
                 attrs:

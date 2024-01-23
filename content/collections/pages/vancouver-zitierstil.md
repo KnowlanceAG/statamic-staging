@@ -759,12 +759,12 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;&lt;b&gt;Zeitschriftenartikel Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;"><b>Zeitschriftenartikel Beispiel:</b><br><br>
 
-                      &lt;span style="background-color: #91C6E8;"&gt;20.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Piippo-Savolainen E, Korppi M&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;(2007)&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Birth season, respiratory viruses and asthma in children.&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Pediatr Pulmonol&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;42:&lt;/span&gt;&lt;span style="background-color: #E8677A;"&gt;477-478; 479 &lt;/span&gt; 
-                      &lt;br&gt;&lt;br&gt;
-                      &lt;b&gt;Format:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-                      &lt;span style="background-color: #91C6E8;"&gt;Nummer.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Nachname Der/Des Verfassenden, Initial(en)&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;(Jahr)&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Titel des Artikels.&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Titel der Fachzeitschrift&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;Band:&lt;/span&gt;&lt;span style="background-color: #E8677A;"&gt;Seiten, Seitenanzahl &lt;/span&gt; &lt;/div&gt;
+                      <span style="background-color: #91C6E8;">20.</span><span style="background-color: #C891E8;">Piippo-Savolainen E, Korppi M</span><span style="background-color: #CAE891;">(2007)</span><span style="background-color: #EFA052;">Birth season, respiratory viruses and asthma in children.</span><span style="background-color: #E87667;">Pediatr Pulmonol</span><span style="background-color: #67E2E8;">42:</span><span style="background-color: #E8677A;">477-478; 479 </span> 
+                      <br><br>
+                      <b>Format:</b><br><br>
+                      <span style="background-color: #91C6E8;">Nummer.</span><span style="background-color: #C891E8;">Nachname Der/Des Verfassenden, Initial(en)</span><span style="background-color: #CAE891;">(Jahr)</span><span style="background-color: #EFA052;">Titel des Artikels.</span><span style="background-color: #E87667;">Titel der Fachzeitschrift</span><span style="background-color: #67E2E8;">Band:</span><span style="background-color: #E8677A;">Seiten, Seitenanzahl </span> </div>
               -
                 type: paragraph
                 attrs:
@@ -874,12 +874,12 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;&lt;b&gt;Internetquellen Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;"><b>Internetquellen Beispiel:</b><br><br>
 
-                      &lt;span style="background-color: #91C6E8;"&gt;24.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Deutsche Gesellschaft für Sozialmedizin und Prävention:&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Salomon-Neumann-Medaille [Internet].&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;2021 [zitiert 6. Oktober 2023]&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;Verfügbar unter: https://www.dgsmp.de/die-gesellschaft/salomon-neumann-medaille/&lt;/span&gt;
-                      &lt;br&gt;&lt;br&gt;
-                      &lt;b&gt;Format:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-                      &lt;span style="background-color: #91C6E8;"&gt;Nummer.&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Name der Internetseite:&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Titel [Internet].&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Jahr [Aufrufdatum]&lt;/span&gt;&lt;span style="background-color: #67E2E8;"&gt;Verfügbar unter: [URL]&lt;/span&gt; &lt;/div&gt;
+                      <span style="background-color: #91C6E8;">24.</span><span style="background-color: #C891E8;">Deutsche Gesellschaft für Sozialmedizin und Prävention:</span><span style="background-color: #EFA052;">Salomon-Neumann-Medaille [Internet].</span><span style="background-color: #E87667;">2021 [zitiert 6. Oktober 2023]</span><span style="background-color: #67E2E8;">Verfügbar unter: https://www.dgsmp.de/die-gesellschaft/salomon-neumann-medaille/</span>
+                      <br><br>
+                      <b>Format:</b><br><br>
+                      <span style="background-color: #91C6E8;">Nummer.</span><span style="background-color: #C891E8;">Name der Internetseite:</span><span style="background-color: #EFA052;">Titel [Internet].</span><span style="background-color: #E87667;">Jahr [Aufrufdatum]</span><span style="background-color: #67E2E8;">Verfügbar unter: [URL]</span> </div>
               -
                 type: paragraph
                 attrs:

@@ -1062,12 +1062,12 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;
-                        Müller, J. &lt;b&gt;Motivation&lt;/b&gt;, Konflikt und Handlungskontrolle, Berlin: Springer, 1983.&lt;br&gt;&lt;br&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                        Müller, J. <b>Motivation</b>, Konflikt und Handlungskontrolle, Berlin: Springer, 1983.<br><br>
 
-                        Müller, J. &lt;b&gt;Wille&lt;/b&gt; und Freiheitserleben: Formen der Selbststeuerung, Göttingen: Hogrefe, 1994.
+                        Müller, J. <b>Wille</b> und Freiheitserleben: Formen der Selbststeuerung, Göttingen: Hogrefe, 1994.
 
-                      &lt;/div&gt;
+                      </div>
               -
                 type: paragraph
                 attrs:
@@ -1286,11 +1286,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 4px solid #FF660A; padding: 20px;"&gt;&lt;b&gt;MLA Literaturverzeichnis Beispiel:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-                      &lt;span style="background-color: #91C6E8;"&gt;Müller,&lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;J.&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;Motivation, Konflikt und Handlungskontrolle.&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Berlin: Springer,&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;2002.&lt;/span&gt;
-                      &lt;br&gt;&lt;br&gt;&lt;b&gt;Format:&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-                      &lt;span style="background-color: #91C6E8;"&gt;Nachname, &lt;/span&gt;&lt;span style="background-color: #C891E8;"&gt;Vorname.&lt;/span&gt;&lt;span style="background-color: #CAE891;"&gt;Titel.&lt;/span&gt;&lt;span style="background-color: #EFA052;"&gt;Verlagsort: Verlag,&lt;/span&gt;&lt;span style="background-color: #E87667;"&gt;Veröffentlichungsjahr.&lt;/span&gt;
-                      &lt;/div&gt;
+                      <div style="border: 4px solid #FF660A; padding: 20px;"><b>MLA Literaturverzeichnis Beispiel:</b><br><br>
+                      <span style="background-color: #91C6E8;">Müller,</span><span style="background-color: #C891E8;">J.</span><span style="background-color: #CAE891;">Motivation, Konflikt und Handlungskontrolle.</span><span style="background-color: #EFA052;">Berlin: Springer,</span><span style="background-color: #E87667;">2002.</span>
+                      <br><br><b>Format:</b><br><br>
+                      <span style="background-color: #91C6E8;">Nachname, </span><span style="background-color: #C891E8;">Vorname.</span><span style="background-color: #CAE891;">Titel.</span><span style="background-color: #EFA052;">Verlagsort: Verlag,</span><span style="background-color: #E87667;">Veröffentlichungsjahr.</span>
+                      </div>
               -
                 type: set
                 attrs:

@@ -139,7 +139,7 @@ replicator:
                   id: uoivkKkL
                   values:
                     type: insert_html
-                    html: >-
+                    html: |-
                       <p style="font-size:18px" align="center"> 
 
                       Unsere Ghostwriting-Agentur, GWriter, steht Ihnen mit
@@ -2617,7 +2617,7 @@ replicator:
                   id: ll2ahoga
                   values:
                     type: insert_html
-                    html: >-
+                    html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
                         <b>
                       Populismus und seine Auswirkungen auf die demokratischen
@@ -2639,7 +2639,7 @@ replicator:
                   id: ll2akve8
                   values:
                     type: insert_html
-                    html: >-
+                    html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
                         <b>
                       Internationale Konflikte im 21. Jahrhundert: Eine
@@ -2663,7 +2663,7 @@ replicator:
                   id: ll2alw9n
                   values:
                     type: insert_html
-                    html: >-
+                    html: |-
                       <div style="border: 2px solid #FF660A; padding: 20px;">
                         <b>
                       Politische Partizipation junger Menschen:

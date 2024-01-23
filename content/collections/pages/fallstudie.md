@@ -138,7 +138,7 @@ replicator:
                   id: gJCdR1fO
                   values:
                     type: insert_html
-                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Lösung von Fallstudien. Unsere professionellen Projektmanager finden den passenden akademischen Ghostwriter, der Ihren individuellen Anforderungen in einer Fallstudie entspricht. Sie möchten für eine &lt;b&gt;Fallstudie Ghostwriter&lt;/b&gt; beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere eine Musterstudie für Ihre Fallstudie erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. Unsere Ghostwriting-Agentur arbeitet mit akademisch ausgebildeten, erfahrenen Ghostwritern in verschiedenen interdisziplinären Disziplinen zusammen.'
+                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Lösung von Fallstudien. Unsere professionellen Projektmanager finden den passenden akademischen Ghostwriter, der Ihren individuellen Anforderungen in einer Fallstudie entspricht. Sie möchten für eine <b>Fallstudie Ghostwriter</b> beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere eine Musterstudie für Ihre Fallstudie erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. Unsere Ghostwriting-Agentur arbeitet mit akademisch ausgebildeten, erfahrenen Ghostwritern in verschiedenen interdisziplinären Disziplinen zusammen.'
               -
                 type: heading
                 attrs:
@@ -299,11 +299,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;!-- ProvenExpert Bewertungssiegel --&gt;
-                      &lt;div id="pewl"&gt;&lt;/div&gt;
-                      &lt;script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&amp;avatar=0&amp;competence=0&amp;style=white" async&gt;&lt;/script&gt;
-                      &lt;link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print"&gt;
-                      &lt;!-- ProvenExpert Bewertungssiegel Ende --&gt;
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&amp;avatar=0&amp;competence=0&amp;style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
             show_as_card: false
         type: row
         enabled: true

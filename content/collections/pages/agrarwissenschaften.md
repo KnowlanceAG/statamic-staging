@@ -3619,11 +3619,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;
-                      Kaufentscheidungen von Landwirten bei Liegeboxenbelägen, Liegeboxenabtrennungen und Laufflächenbelägen&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>
+                      Kaufentscheidungen von Landwirten bei Liegeboxenbelägen, Liegeboxenabtrennungen und Laufflächenbelägen</b><br><br>
 
-                      Hier stehen ökonomische Aspekte im Vordergrund. Aus agrarwissenschaftlicher Sicht ist die artgerechte Tierhaltung bedeutsam. Die Arbeit dient als Überprüfung, welche Aspekte Landwirte bei ihren Entscheidungen berücksichtigen.&lt;/div&gt;
+                      Hier stehen ökonomische Aspekte im Vordergrund. Aus agrarwissenschaftlicher Sicht ist die artgerechte Tierhaltung bedeutsam. Die Arbeit dient als Überprüfung, welche Aspekte Landwirte bei ihren Entscheidungen berücksichtigen.</div>
               -
                 type: set
                 attrs:
@@ -3638,12 +3638,12 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>
                       Zweikultur-Nutzungssysteme für die Biogasproduktion
-                      &lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      </b><br><br>
 
-                      Es wird untersucht, inwieweit sich Möglichkeiten der Anbaumethode eines Zweinutzungssytems zur Herstellung von Biomasse für die Energieerzeugung mit ökologischen Aspekten und Fragen der Biodiversität verbinden lassen. Zweinutzung bedeutet, dass der Naturschutz und der nachhaltige Ausbau von erneuerbaren Energien verbunden werden.&lt;/div&gt;
+                      Es wird untersucht, inwieweit sich Möglichkeiten der Anbaumethode eines Zweinutzungssytems zur Herstellung von Biomasse für die Energieerzeugung mit ökologischen Aspekten und Fragen der Biodiversität verbinden lassen. Zweinutzung bedeutet, dass der Naturschutz und der nachhaltige Ausbau von erneuerbaren Energien verbunden werden.</div>
               -
                 type: set
                 attrs:
@@ -3658,11 +3658,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;
-                      Verwendungseignung und Zielwert von Clematisarten und -sorten mit Wildcharakter&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>
+                      Verwendungseignung und Zielwert von Clematisarten und -sorten mit Wildcharakter</b><br><br>
 
-                      Bei dieser Arbeit handelt es sich um eine Feldstudie: Es werden verschiedene Clematisarten untersucht, die in einer Versuchsanstalt angebaut werden. Es geht darum, verschiedene Nutzungseigenschaften zu identifizieren, um optimale Standortbedingungen zu finden.&lt;/div&gt;
+                      Bei dieser Arbeit handelt es sich um eine Feldstudie: Es werden verschiedene Clematisarten untersucht, die in einer Versuchsanstalt angebaut werden. Es geht darum, verschiedene Nutzungseigenschaften zu identifizieren, um optimale Standortbedingungen zu finden.</div>
               -
                 type: set
                 attrs:
@@ -3677,11 +3677,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;
-                      Bedeutung und Potentiale von Waldflächen und Forstwirtschaft für ein Ländliches Regionalmanagement - am Beispiel des Landkreises Osterode am Harz&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>
+                      Bedeutung und Potentiale von Waldflächen und Forstwirtschaft für ein Ländliches Regionalmanagement - am Beispiel des Landkreises Osterode am Harz</b><br><br>
 
-                      Es erfolgt eine Potenzialanalyse einer ländlichen Region. Es werden Standortfaktoren, mögliche Potentiale und Handlungsempfehlungen in Bezug auf Wald, Forstwirtschaft und ländliches Regionalmanagement beschrieben.&lt;/div&gt;
+                      Es erfolgt eine Potenzialanalyse einer ländlichen Region. Es werden Standortfaktoren, mögliche Potentiale und Handlungsempfehlungen in Bezug auf Wald, Forstwirtschaft und ländliches Regionalmanagement beschrieben.</div>
               -
                 type: set
                 attrs:
@@ -3696,11 +3696,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;div style="border: 2px solid #FF660A; padding: 20px;"&gt;
-                        &lt;b&gt;
-                      Zur Fischproduktion aus Kreislaufanlagen in der Aquakultur.&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+                      <div style="border: 2px solid #FF660A; padding: 20px;">
+                        <b>
+                      Zur Fischproduktion aus Kreislaufanlagen in der Aquakultur.</b><br><br>
 
-                      In dieser Arbeit wird das Potential der Kreislaufanlagen in der Fischzucht untersucht. Es soll herausgefunden werden, inwieweit diese Produktionsmethode marktwirtschaftlichen Kriterien genügt und geeignet ist, um der globalen Hungerproblematik etwas entgegenzusetzen.&lt;/div&gt;
+                      In dieser Arbeit wird das Potential der Kreislaufanlagen in der Fischzucht untersucht. Es soll herausgefunden werden, inwieweit diese Produktionsmethode marktwirtschaftlichen Kriterien genügt und geeignet ist, um der globalen Hungerproblematik etwas entgegenzusetzen.</div>
               -
                 type: paragraph
                 attrs:

@@ -133,7 +133,7 @@ replicator:
                   id: gJCdR1fO
                   values:
                     type: insert_html
-                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Optimierung von Summaries für Ihre Abschlussarbeit. Unsere professionellen Projektmanager finden den geeigneten akademischen Ghostwriter, der Ihren individuellen Anforderungen in einem Summary für Ihre Abschlussarbeit entspricht. Sie möchten für ein &lt;b&gt;Bachelorarbeit-Summary Ghostwriter&lt;/b&gt; beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere ein Muster-Summary für Ihre wissenschatliche Arbeit erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. In unserer Ghostwriting-Agentur kooperieren wir mit akademisch qualifizierten und erfahrenen Ghostwritern aus diversen interdisziplinären Fachbereichen.'
+                    html: 'Unsere Agentur GWriters bietet kompetente Unterstützung bei der Erstellung und Optimierung von Summaries für Ihre Abschlussarbeit. Unsere professionellen Projektmanager finden den geeigneten akademischen Ghostwriter, der Ihren individuellen Anforderungen in einem Summary für Ihre Abschlussarbeit entspricht. Sie möchten für ein <b>Bachelorarbeit-Summary Ghostwriter</b> beauftragen? Möchten Sie in Ihrer Abschlussarbeit insbesondere ein Muster-Summary für Ihre wissenschatliche Arbeit erstellen lassen? Schicken Sie uns gerne eine unverbindliche Anfrage, und Sie erhalten ein kostenloses Angebot. In unserer Ghostwriting-Agentur kooperieren wir mit akademisch qualifizierten und erfahrenen Ghostwritern aus diversen interdisziplinären Fachbereichen.'
               -
                 type: heading
                 attrs:
