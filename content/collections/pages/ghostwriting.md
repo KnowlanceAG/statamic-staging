@@ -1791,6 +1791,8 @@ replicator:
                     padding-y: 12
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -2309,7 +2311,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705994188
+updated_at: 1705994194
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
 meta_description: 'Ghostwriting - Akademische Ghostwriter schreiben wissenschaftliche Artikel, Manuskripte und Arbeiten mit Qualität ✔️ 18.000 zufriedene Kunden seit 2012!'
 use_meta_keywords: false
