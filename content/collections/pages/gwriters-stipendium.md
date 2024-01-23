@@ -3,13 +3,13 @@ id: a016335c-333e-432d-838d-460350d21052
 blueprint: pages
 title: 'Das GWriters Stipendium'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995773
+updated_at: 1705995779
 teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -18,7 +18,6 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Das GWriters Stipendium'
   -
     type: set
