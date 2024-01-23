@@ -5,7 +5,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705993359
+updated_at: 1705993366
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -144,8 +144,8 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
                   textAlign: left
+                  level: 2
                 content:
                   -
                     type: text
@@ -154,7 +154,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'Unser bester Service für Ihre Zufriedenheit'
               -
                 type: set
