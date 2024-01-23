@@ -1,71 +1,56 @@
 ---
 id: 440d37a0-43d8-493b-8ae3-8033f5703e77
 blueprint: pages
-title: 'Test Editor'
+title: Test Editor
 teaser:
-  -
-    type: paragraph
+  - type: paragraph
     attrs:
       textAlign: left
     content:
-      -
-        type: text
+      - type: text
         text: 'Dies ist ein '
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: bold
-          -
-            type: textColor
+          - type: bold
+          - type: textColor
             attrs:
               color: orange-500
         text: neuer
-      -
-        type: text
+      - type: text
         text: ' Text.'
-  -
-    type: paragraph
+  - type: paragraph
     attrs:
       textAlign: left
     content:
-      -
-        type: text
+      - type: text
         text: 'Dies ist ein '
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: link
+          - type: link
             attrs:
-              href: 'https://uscreen.de'
+              href: https://uscreen.de
               rel: noopener
               target: _blank
-              title: 'Link zu uscreen'
+              title: Link zu uscreen
         text: Link
-      -
-        type: text
+      - type: text
         text: .
-  -
-    type: paragraph
+  - type: paragraph
     attrs:
       textAlign: left
-  -
-    type: paragraph
+  - type: paragraph
     attrs:
       textAlign: left
     content:
-      -
-        type: text
+      - type: text
         marks:
-          -
-            type: link
+          - type: link
             attrs:
-              href: 'https://www.uscreen.de'
+              href: https://www.uscreen.de
               rel: null
               target: _blank
               title: Uscreen
-        text: 'Neuer Link'
+        text: Neuer Link
 sitemap_active: true
 breadcrumbs_active: true
 use_meta_keywords: false
@@ -77,24 +62,19 @@ override_twitter_settings: false
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
 updated_at: 1705405081
 replicator:
-  -
-    id: lq16ufkr
+  - id: lq16ufkr
     columns_replicator:
-      -
-        id: lq16uh50
+      - id: lq16uh50
         single_col: false
         grid:
-          -
-            id: VEzrZvzS
+          - id: VEzrZvzS
             bard:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: left
                 content:
-                  -
-                    type: text
-                    text: 'Dies ist ein anderer Text.'
+                  - type: text
+                    text: Dies ist ein anderer Text.
             show_as_card: false
         type: row
         enabled: true
