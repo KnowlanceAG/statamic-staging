@@ -5,35 +5,34 @@ title: Team
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1684756670
-page_title: Unser Team • GWriters.de
+updated_at: 1705995501
+page_title: 'Unser Team • GWriters.de'
 teaser:
-  - type: heading
+  -
+    type: heading
     attrs:
+      textAlign: center
       level: 1
-      textAlign: center
     content:
-      - type: text
-        marks: []
-        text: Unser Team
-  - type: paragraph
-    content:
-      - type: text
-        marks: []
-        text: >-
-          Hier finden Sie die Mitarbeiter unserer akademischen Ghostwriter
-          Agentur.
+      -
+        type: text
+        text: 'Unser Team'
+  -
+    type: paragraph
     attrs:
       textAlign: center
-  - type: paragraph
     content:
-      - type: text
-        marks: []
-        text: >-
-          Menschen, die sich täglich mit viel Know-How & Feingefühl um die
-          erfolgreiche Umsetzung Ihrer akademischen Projekte kümmern.
+      -
+        type: text
+        text: 'Hier finden Sie die Mitarbeiter unserer akademischen Ghostwriter Agentur.'
+  -
+    type: paragraph
     attrs:
       textAlign: center
+    content:
+      -
+        type: text
+        text: 'Menschen, die sich täglich mit viel Know-How & Feingefühl um die erfolgreiche Umsetzung Ihrer akademischen Projekte kümmern.'
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 use_meta_keywords: false
 no_index_page: false
@@ -42,9 +41,11 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
-  - id: UeTiUhC6
+  -
+    id: UeTiUhC6
     bard:
-      - type: set
+      -
+        type: set
         attrs:
           id: VWscIXef
           values:
@@ -52,32 +53,37 @@ replicator:
             has_border: false
             assets:
               - team/gwriters-team-ghostwriter.jpg
-      - type: heading
+      -
+        type: heading
         attrs:
           level: 2
           textAlign: center
         content:
-          - type: text
+          -
+            type: text
             marks:
-              - type: textColor
+              -
+                type: textColor
                 attrs:
-                  color: rgb(68, 68, 68)
+                  color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: Unsere Mitarbeiter im Überblick
-      - type: paragraph
+            text: 'Unsere Mitarbeiter im Überblick'
+      -
+        type: paragraph
         content:
-          - type: text
+          -
+            type: text
             marks:
-              - type: textColor
+              -
+                type: textColor
                 attrs:
-                  color: rgb(68, 68, 68)
+                  color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: >-
-              Montags bis Freitags von 9-18 Uhr und in dringenden Fällen auch an
-              Wochenenden für Sie erreichbar.
+            text: 'Montags bis Freitags von 9-18 Uhr und in dringenden Fällen auch an Wochenenden für Sie erreichbar.'
         attrs:
           textAlign: center
-      - type: set
+      -
+        type: set
         attrs:
           id: Q4wnyMD6
           values:
@@ -103,18 +109,15 @@ replicator:
               - 8ede280d-eba3-4ad9-9d78-2eaec92444ac
               - c167d814-0006-480c-99b5-7dd093d04f69
             in_flow: false
-      - type: paragraph
+      -
+        type: paragraph
     type: editor
     enabled: true
     show_as_card: false
-meta_title: Unser Team • GWriters
-meta_description: >-
-  Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Menschen, die sich
-  täglich mit viel Know-How & Feingefühl um Ihre akademischen Projekte kümmern.
-og_title: Unser Team • GWriters
-og_description: >-
-  Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Menschen, die sich
-  täglich mit viel Know-How & Feingefühl um Ihre akademischen Projekte kümmern.
+meta_title: 'Unser Team • GWriters'
+meta_description: 'Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Menschen, die sich täglich mit viel Know-How & Feingefühl um Ihre akademischen Projekte kümmern.'
+og_title: 'Unser Team • GWriters'
+og_description: 'Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Menschen, die sich täglich mit viel Know-How & Feingefühl um Ihre akademischen Projekte kümmern.'
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true
