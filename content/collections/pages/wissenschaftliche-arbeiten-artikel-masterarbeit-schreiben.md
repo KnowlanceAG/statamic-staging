@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,10 +16,11 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Wissenschaftliche Arbeiten und Artikel lesen - Die 11 besten Tipps'
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -27,8 +28,6 @@ teaser:
           -
             type: bold
         text: 'Akademische Experten erklären Ihnen, wie Sie wissenschaftliche Arbeiten und Artikel lesen und von Ihrem Lernerfolg profitieren, wenn Sie Ihre Masterarbeit schreiben'
-    attrs:
-      textAlign: center
   -
     type: set
     attrs:
@@ -41,6 +40,8 @@ teaser:
         spacing_top: false
   -
     type: paragraph
+    attrs:
+      textAlign: left
 replicator:
   -
     id: rmoshE3E
@@ -268,7 +269,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705996110
+updated_at: 1705996117
 page_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_description: 'Wie Sie wissenschaftliche Arbeiten lesen und verstehen - unsere erfahrenen akademischen Experten erläutern Ihnen die besten Tipps und Richtlinien.'
