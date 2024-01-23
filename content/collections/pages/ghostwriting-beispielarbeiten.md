@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,10 +16,11 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Ghostwriting Beispielarbeiten'
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -27,8 +28,6 @@ teaser:
           -
             type: bold
         text: 'Verschiedenste Fach-, Haus- und Seminararbeit Beispiele von unseren Ghostwriting Experten für Sie - Als Leitfaden für Ihre wissenschaftliche Arbeit und als anschauliches Beispiel für unsere Qualitätsstandards auf akademischem Niveau. Benötigen Sie noch weitere Unterstützung?'
-    attrs:
-      textAlign: center
   -
     type: set
     attrs:
@@ -89,6 +88,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -96,33 +97,31 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995560
+updated_at: 1705995564
 replicator:
   -
     id: ygwBHZhL
