@@ -5,7 +5,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705933145
+updated_at: 1705993662
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -138,6 +138,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -147,9 +148,6 @@ replicator:
             type: hardBreak
           -
             type: text
-            marks:
-              -
-                type: bold
             text: 'Zuverlässigkeit und Qualität neu definiert!'
       -
         type: set
@@ -163,7 +161,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Häufig erkundigen sich Kunden nach der Sicherheit unserer Dienstleistung. Hierfür haben wir selbstverständlich vollstes Verständnis, denn wenige Themen sind sensibler als die eigene akademische Karriere. Wir garantieren, dass wenn Sie bei uns für unseren akademischen '
                   -
                     type: text
@@ -172,12 +169,12 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriting-Service
                   -
                     type: text
-                    marks: {  }
                     text: ' bezahlen, dass Sie dafür auch wirklich eine hochwertige '
                   -
                     type: text
@@ -186,12 +183,12 @@ replicator:
                         type: link
                         attrs:
                           href: /blog/ghostwriter-mustervorlage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Mustervorlage
                   -
                     type: text
-                    marks: {  }
                     text: ' erhalten. Wir haben das Problem der Risikoverteilung zwischen unserem Unternehmen, dem Kunden und dem '
                   -
                     type: text
@@ -200,21 +197,18 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriter
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Ghostwriter
                   -
                     type: text
-                    marks: {  }
                     text: ' effektiv gelöst, indem wir Teillieferungen anbieten. Das bedeutet, dass Sie als Kunde wirklich erst dann zahlen, wenn Sie eine Lieferung von uns erhalten. Der Ghostwriter kann indes sicher sein, dass er auch für seine Leistungen entlohnt wird. Somit sind beide Parteien abgesichert und das Risiko ist auf allen Seiten minimiert. Wir garantieren sowohl unseren Ghostwritern als auch unseren Kunden vollste Anonymität. Bei der Auftragserteilung wird Ihnen ein Mitarbeiter von uns als persönlicher Projektmanager zugeteilt und dieser übernimmt für Sie die gesamte Kommunikation mit Ihrem Ghostwriter. So ist Ihr persönlicher Projektmanager auch die einzige Person, die Ihren echten Namen und den echten Namen des Ghostwriters kennt. Des Weiteren erhalten alle Parteien ausschließlich anonymisierte Dateien. Das bedeutet, dass jegliche persönlichen Informationen werden entfernt und es keine Namen in den Unterlagen sichtbar sind. Natürlich berücksichtigt Ihr Ghostwriter auch Ihre spezifischen Formatvorgaben, Literaturanforderungen oder vorgeschriebene Inhalte. Bestenfalls senden Sie uns diese gleich am Anfang der Texterstellung zu. Am Ende wird Ihre Arbeit von einem internen Supervisor lektoriert, der auch gern Ihre spezifischen Formatvorgaben noch einmal berücksichtigt.'
-                attrs:
-                  textAlign: left
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks: {  }
                     text: 'Viele Kunden möchten natürlich wissen "Wer schreibt überhaupt meine Arbeit?" Das hängt sehr von Ihrem individuellen Auftrag ab. Wir garantieren dafür, immer den qualifiziertesten Ghostwriter für Ihr Projekt einzusetzen. Es ist klar, dass kein Master-Absolvent oder Diplom-Absolvent eine Mustervorlage für eine '
                   -
                     type: text
@@ -223,12 +217,12 @@ replicator:
                         type: link
                         attrs:
                           href: /arbeiten/doktorarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Doktorarbeit schreibt'
                   -
                     type: text
-                    marks: {  }
                     text: ', sondern dass wir in solchen Fällen auch wirklich darauf achten, entweder Doktoren oder habilitierte Professoren zu verpflichten, die umfangreiche Erfahrung mit dem spezifischen Thema haben und absolute Experten auf ihrem Gebiet sind. Wir selbst sind daran interessiert immer die höchste Qualität zu liefern, da dies auch unser Anspruch an uns selber ist und wir unserem Ruf als professionelle und hochwertige '
                   -
                     type: text
@@ -237,15 +231,13 @@ replicator:
                         type: link
                         attrs:
                           href: /ghostwriting/ghostwriting-agentur
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Ghostwriter Agentur'
                   -
                     type: text
-                    marks: {  }
                     text: ' bei jedem Auftrag gerecht werden möchten. Dementsprechend sind wir immer daran interessiert Ihnen die bestmögliche Qualität zu liefern. Jede Arbeit, die von unseren akademischen Ghostwritern erstellt wird, wird von einem internen Supervisor lektoriert und einer Plagiatsprüfung unterzogen. So garantieren wir Ihre Zufriedenheit und stellen sicher, dass unsere Kunden hochwertige wissenschaftliche Unikate erhalten.'
-                attrs:
-                  textAlign: left
             text_ausrichtung: text-left
             column_count: true
     type: editor
@@ -281,13 +273,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
                     text: Ghostwriting
               -
                 type: paragraph
@@ -336,13 +321,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
                     text: Lektorat
               -
                 type: paragraph
@@ -386,36 +364,24 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 4
                   textAlign: center
+                  level: 4
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: Korrektorat
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#999999'
-                          hex: '#000'
                     text: 'Vier Augen sehen mehr als zwei. Ein professionelles Korrektorat überarbeitet sprachliche Fehler Ihrer wissenschaftlichen Arbeit.'
-                attrs:
-                  textAlign: center
               -
                 type: paragraph
+                attrs:
+                  textAlign: center
                 content:
                   -
                     type: text
@@ -424,11 +390,10 @@ replicator:
                         type: link
                         attrs:
                           href: /korrektorat
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Mehr zum Korrektorat'
-                attrs:
-                  textAlign: center
             show_as_card: false
         type: row
         enabled: true
@@ -460,13 +425,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
                     text: 'MAXQDA Auswertung'
               -
                 type: paragraph
@@ -491,10 +449,6 @@ replicator:
                           rel: null
                           target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
                     text: 'Mehr zur MAXQDA Auswertung'
             show_as_card: false
           -
@@ -519,13 +473,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
                     text: Formatierung
               -
                 type: paragraph
@@ -550,10 +497,6 @@ replicator:
                           rel: null
                           target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
                     text: 'Mehr zur Formatierung'
             show_as_card: false
           -
@@ -634,13 +577,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
                     text: Übersetzung
               -
                 type: paragraph
@@ -665,10 +601,6 @@ replicator:
                           rel: null
                           target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
                     text: 'Mehr zur Übersetzung'
             show_as_card: false
           -
@@ -693,13 +625,6 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
                     text: Promotionsberatung
               -
                 type: paragraph
@@ -724,10 +649,6 @@ replicator:
                           rel: null
                           target: null
                           title: null
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
                     text: 'Mehr zur Promotionsberatung'
             show_as_card: false
         type: row
@@ -759,16 +680,9 @@ replicator:
                         type: heading
                         attrs:
                           level: 2
-                          textAlign: center
                         content:
                           -
                             type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
                             text: 'Das macht uns so besonders'
                       -
                         type: paragraph
@@ -783,8 +697,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /leistungen/uebersetzung
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Übersetzung
                           -
                             type: text
@@ -796,8 +711,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: /leistungen/plagiatspruefung
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Plagiatsprüfungen
                           -
                             type: text
