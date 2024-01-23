@@ -1545,7 +1545,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705994719
+updated_at: 1705994725
 template: with-side-bar
 meta_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden & Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
