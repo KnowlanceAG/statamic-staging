@@ -3,7 +3,7 @@ id: a429a015-f680-4717-8b76-bf0d66ce02d4
 blueprint: pages
 title: 'Über GWriters'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995426
+updated_at: 1705995438
 teaser:
   -
     type: heading
@@ -614,6 +614,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -621,6 +622,8 @@ replicator:
                     text: 'Unsere Preise'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -632,8 +635,9 @@ replicator:
                         type: link
                         attrs:
                           href: /preise
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Ghostwriter Preisen'
                   -
                     type: text
@@ -645,8 +649,9 @@ replicator:
                         type: link
                         attrs:
                           href: /gwriters-erfahrung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: GWriters-Erfahrungen
                   -
                     type: text
@@ -658,6 +663,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -665,6 +671,8 @@ replicator:
                     text: 'Unsere Autoren'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -676,8 +684,9 @@ replicator:
                         type: link
                         attrs:
                           href: /anfrage
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: Anfragen
                   -
                     type: text
@@ -689,8 +698,9 @@ replicator:
                         type: link
                         attrs:
                           href: /experten
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Vorstellung ausgewählter Experten'
                   -
                     type: text
@@ -702,6 +712,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 3
                 content:
                   -
@@ -709,6 +720,8 @@ replicator:
                     text: 'Unser Team'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -720,8 +733,9 @@ replicator:
                         type: link
                         attrs:
                           href: /team
-                          target: null
                           rel: null
+                          target: null
+                          title: null
                     text: 'Team von Akademikern'
                   -
                     type: text
