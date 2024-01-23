@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,17 +16,15 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Korrektor gesucht'
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks: {  }
         text: "Akademische Korrektoren und Ghostwriter\_überprüfen & korrigieren Ihre wissenschaftliche Arbeit"
   -
     type: set
@@ -88,6 +86,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -95,28 +95,26 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 replicator:
   -
@@ -303,7 +301,7 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705994791
+updated_at: 1705994797
 page_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_description: 'Korrektor gesucht? Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches sowie Informationen zu Ablauf, Kosten & Preisen finden Sie bei GWriters!'
