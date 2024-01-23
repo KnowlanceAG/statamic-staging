@@ -116,6 +116,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -129,6 +130,8 @@ replicator:
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -137,14 +140,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#definition'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'APA Zitierung: Woher kommt sie?'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -153,14 +159,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#im-text'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Richtig zitieren: APA-Kurzbeleg im Text'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -169,14 +178,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#literaturverzeichnis'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Besonders knifflig: korrektes APA-Literaturverzeichnis'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -185,8 +197,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#beispiel'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Literaturverzeichnis APA Zitierstil: Beispiele für alle Varianten'
                       -
                         type: bulletList
@@ -196,6 +209,8 @@ replicator:
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -204,14 +219,17 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#autor'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Beitrag mit einem Autor'
                           -
                             type: listItem
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -220,14 +238,17 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#autoren'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Beitrag mit mehreren Autoren'
                           -
                             type: listItem
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -236,14 +257,17 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#buch'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Beitrag aus einem Sammelband'
                           -
                             type: listItem
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -252,14 +276,17 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#zeitschrift'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: Zeitschriftenbeitrag
                           -
                             type: listItem
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -268,14 +295,17 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#zeitung'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: Zeitungsartikel
                           -
                             type: listItem
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -284,14 +314,17 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#internet'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: Internetquelle
                           -
                             type: listItem
                             content:
                               -
                                 type: paragraph
+                                attrs:
+                                  textAlign: left
                                 content:
                                   -
                                     type: text
@@ -300,14 +333,17 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '#studie'
-                                          target: null
                                           rel: null
+                                          target: null
+                                          title: null
                                     text: 'Verwendete Studie'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -316,14 +352,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#ghostwriter'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'APA-Zitierstil mit professioneller Unterstützung'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -332,14 +371,17 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#richtlinien'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'APA-Richtlinien: Das Wichtigste im Überblick'
                   -
                     type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -348,8 +390,9 @@ replicator:
                                 type: link
                                 attrs:
                                   href: '#faq'
-                                  target: null
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Häufig gestellte Fragen'
             show_as_card: false
         type: row
@@ -1927,7 +1970,7 @@ og_title: 'APA Zitierweise in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Richtig Zitieren nach APA? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705997039
+updated_at: 1705997043
 schema_objects: |-
   <script type="application/ld+json">
   {
