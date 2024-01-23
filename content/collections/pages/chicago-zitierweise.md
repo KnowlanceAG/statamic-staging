@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,7 +16,6 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Die Chicago Zitierweise richtig verwenden – Beispiele & Generator'
 replicator:
   -
@@ -2096,5 +2095,5 @@ og_title: 'Die Chicago Zitierweise richtig verwenden | Beispiele & Generator'
 og_description: 'Meistern Sie die Chicago-Zitierweise für wissenschaftliche Arbeiten – mit einfachen Beispielen für fehlerfreie Quellenangaben von Büchern, Internetquellen etc. 💪🎓'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705996644
+updated_at: 1705996650
 ---
