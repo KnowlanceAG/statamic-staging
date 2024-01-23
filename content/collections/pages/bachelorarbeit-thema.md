@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,10 +16,11 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Bachelorarbeit in BWL 2023: 75 kostenlose Themenvorschläge'
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -27,8 +28,6 @@ teaser:
           -
             type: bold
         text: 'Unsere akademischen Ghostwriter unterstützen Sie mit 75 Themenvorschlägen aus 6 BWL Foschungsgebieten, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Bachelorarbeit!'
-    attrs:
-      textAlign: center
   -
     type: set
     attrs:
@@ -89,6 +88,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -96,28 +97,26 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 teaser_bg: blog/header-so-funktionierts-1024x138.jpg
 replicator:
@@ -2265,7 +2264,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995848
+updated_at: 1705995891
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
