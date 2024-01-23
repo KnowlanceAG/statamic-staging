@@ -577,6 +577,8 @@ replicator:
                     padding-y: 12
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -952,7 +954,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995392
+updated_at: 1705995398
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
