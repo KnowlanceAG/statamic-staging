@@ -1308,14 +1308,6 @@ replicator:
                     type: text
                     text: 'Die Regeln für das Zitieren von Gesetzen sind umfangreich, aber eindeutig. Es gibt kaum Ausnahmen – wenn Sie sich also an alle Regeln halten, dann kann nichts schief gehen.'
               -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: "\_"
-              -
                 type: heading
                 attrs:
                   textAlign: left
@@ -1395,5 +1387,5 @@ og_title: 'Gesetze zitieren: so machen Sie ALLES richtig! + Generator'
 og_description: 'Gesetze zitieren: Im Text oder in der Fußnote? Unsere Jura Experten erklären Ihnen mit wissenschaftlichen Beispielen wie Gesetze richtig zitiert werden! ⚖📃'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705996607
+updated_at: 1705996624
 ---
