@@ -1714,7 +1714,7 @@ og_title: 'Vancouver-Zitierstil in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Vancouver-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705997177
+updated_at: 1705997187
 schema_objects: |-
   <script type="application/ld+json">
   {
