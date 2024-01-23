@@ -891,5 +891,5 @@ og_title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
 og_description: 'Sie möchten wissen, wie Sie konkrete, hochwertige und seriöse Internetquellen für Ihre wissenschaftliche Arbeit finden & diese richtig einbauen können? Dann richtet sich dieser Artikel an Sie!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705996541
+updated_at: 1705996545
 ---
