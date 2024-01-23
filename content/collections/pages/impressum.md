@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,10 +16,11 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: Impressum
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -27,8 +28,6 @@ teaser:
           -
             type: bold
         text: 'GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen.'
-    attrs:
-      textAlign: center
   -
     type: set
     attrs:
@@ -40,7 +39,7 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705997578
+updated_at: 1705997583
 replicator:
   -
     id: tXPiv864
