@@ -6,8 +6,8 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
@@ -16,7 +16,6 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Internetquellen zitieren – Alles, was Sie wissen müssen + Generator'
 replicator:
   -
@@ -865,9 +864,6 @@ replicator:
                     entries:
                       - 85952363-75e0-4471-951d-63fb7d4b2f01
                       - 7da80f7c-3cf3-4c93-b61e-7b1ebe9eff5b
-                      - 23a3cd20-097d-414c-8f15-d744ae288576
-                      - e769cbbf-6254-4622-8b2c-8dc2ae4ddaaf
-                      - 1d153b9b-b107-4f93-a2a3-7b52fb81408b
                       - 884b09f8-2dce-4e99-9860-dd1a3c39f5bc
             show_as_card: false
         type: row
@@ -895,5 +891,5 @@ og_title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
 og_description: 'Sie möchten wissen, wie Sie konkrete, hochwertige und seriöse Internetquellen für Ihre wissenschaftliche Arbeit finden & diese richtig einbauen können? Dann richtet sich dieser Artikel an Sie!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705996530
+updated_at: 1705996541
 ---
