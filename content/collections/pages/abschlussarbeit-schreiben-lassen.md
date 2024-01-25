@@ -1167,6 +1167,13 @@ replicator:
                     svg_file: logo-startseite/icon-lektorat.svg
                     custom_svg_width: 95
               -
+                type: set
+                attrs:
+                  id: lrtja90f
+                  values:
+                    type: spacer
+                    padding-y: 3
+              -
                 type: heading
                 attrs:
                   textAlign: center
@@ -1187,6 +1194,13 @@ replicator:
           -
             id: KYFJspJr
             bard:
+              -
+                type: set
+                attrs:
+                  id: lrtjbshb
+                  values:
+                    type: spacer
+                    padding-y: 8
               -
                 type: set
                 attrs:
@@ -1262,15 +1276,18 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lrtjgutk
+                  values:
+                    type: spacer
+                    padding-y: 4
+              -
+                type: set
+                attrs:
                   id: lrtgw0z1
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
-                    custom_svg_width: 100
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
+                    custom_svg_width: 90
               -
                 type: heading
                 attrs:
@@ -1295,11 +1312,22 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lrtjf5u5
+                  values:
+                    type: spacer
+                    padding-y: 4
+              -
+                type: set
+                attrs:
                   id: XnRBnsDQ
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-lieferung-orange.svg
-                    custom_svg_width: 80
+                    custom_svg_width: 90
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: heading
                 attrs:
@@ -1321,6 +1349,44 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+      -
+        id: lrtjkik2
+        single_col: true
+        grid:
+          -
+            id: Ph9PaP5Z
+            bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Anfragen und Angebote bei GWriters sind vollständig unverbindlich'
+                  -
+                    type: text
+                    text: '. Kosten entstehen erst nach verbindlicher Auftragsbestätigung durch einen Vertragsschluss. GWriters legt Wert auf transparente und diskrete Prozesse für eine erfolgreiche Zusammenarbeit.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'GWriters ermöglicht einen einfachen Weg zum Erfolg bei der Erstellung von Musterarbeiten für Abschlussarbeiten, wobei Diskretion, Qualitätskontrolle und individuelle Betreuung im Mittelpunkt stehen.'
+            show_as_card: true
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     border: true
@@ -2456,28 +2522,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: lrtgyzcs
-    bard:
-      -
-        type: paragraph
-        attrs:
-          textAlign: left
-        content:
-          -
-            type: text
-            text: 'Anfragen und Angebote bei GWriters sind vollständig unverbindlich. Kosten entstehen erst nach verbindlicher Auftragsbestätigung durch einen Vertragsschluss. GWriters legt Wert auf transparente und diskrete Prozesse für eine erfolgreiche Zusammenarbeit.'
-      -
-        type: paragraph
-        attrs:
-          textAlign: left
-        content:
-          -
-            type: text
-            text: 'GWriters ermöglicht einen einfachen Weg zum Erfolg bei der Erstellung von Musterarbeiten für Abschlussarbeiten, wobei Diskretion, Qualitätskontrolle und individuelle Betreuung im Mittelpunkt stehen.'
-    show_as_card: false
-    type: editor
-    enabled: true
-  -
     id: HBzKiiRG
     columns_replicator:
       -
@@ -2506,7 +2550,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches '
+                    text: 'Wenn Sie bei Ihrer Abschlussarbeit Unterstützung oder akademisches '
                   -
                     type: text
                     marks:
@@ -2659,6 +2703,1241 @@ replicator:
     border: false
     type: add_section
     enabled: true
+    columns_replicator:
+      -
+        id: lrtjm8mx
+        single_col: true
+        grid:
+          -
+            id: fdc7d47r
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'In 3 Montan oder in 1 Wochen Abschlussarbeit schreiben'
+              -
+                type: table
+                content:
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'In 3 Monaten ohne Hilfe Abschlussarbeit schreiben'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'In 1 Woche mit einem Ghostwriter Abschlussarbeiten schreiben'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Abschlussthemenwahl:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Wählen Sie ein Abschlussthema aus, das sowohl Ihre Interessen als auch Ihre fachlichen Fähigkeiten widerspiegelt.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Lassen Sie sich von einem Ghostwriter Abschlussthemen vorschlagen.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Berücksichtigen Sie dabei die Vorgaben Ihrer Hochschule und sprechen Sie mögliche Themen mit Ihrem Betreuer ab.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Literaturrecherche:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Führen Sie eine gründliche Literaturrecherche durch, um den aktuellen Stand der Forschung zu Ihrem gewählten Thema zu verstehen.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Wenn Sie eine Musterarbeit für Ihre Abschlussarbeit schreiben lassen möchten, führen unsere Ghostwriter eine kostenlose Literaturrecherche mit relevanten Datenbanken durch, einschließlich kostenpflichtiger Ressourcen. Welcher Zitationsstil für Ihre Arbeit geeignet ist, wissen unsere Ghostwriter, dementsprechend wird Ihre Arbeit richtig zitiert!'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Sammeln Sie relevante Daten, Studien und Theorien, die Ihnen bei der Entwicklung Ihrer Forschungsfrage helfen.'
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Vergessen Sie nicht, einen einheitlichen Zitierstil für Ihre Quellenangaben anzugeben. Zur Sicherheit nutzen Sie unseren kostenlosen Zitationsgenerator.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Problemstellung und Zielsetzung:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Formulieren Sie klar die Problemstellung und Forschungsfrage, die Ihre Abschlussarbeit adressieren soll.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere Profis finden die richtige Problemstellung für das geeignete Abschlussthema.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Setzen Sie klare Ziele für Ihre Abschlussarbeit z.B. Bachelorarbeit, um den Umfang und die Ausrichtung Ihrer Forschung zu definieren.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Gliederung erstellen:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Strukturieren Sie Ihre Arbeit mit einer klaren Gliederung, die Einleitung, Hauptteil und Schluss umfasst.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere Experten arbeiten sorgfältig und präzise, um Ihnen einen Gliederungsentwurf mit der korrekten Struktur Ihrer Arbeit zu erstellen. Das Grundgerüst Ihrer Arbeit wird direkt an Sie weitergegeben. Es wird eine kostenfreie Feedbackschleife eingeführt, um sicherzustellen, dass die Gliederung Ihren Anforderungen entspricht. Falls weitere Änderungswünsche erforderlich sind, werden diese von unseren Experten kostenfrei umgesetzt.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Unterteilen Sie den Hauptteil in logische Abschnitte, die den Forschungsfragen entsprechen.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Einleitung:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Präsentieren Sie Ihr Forschungsthema und die Relevanz für Ihr Fachgebiet.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Wichtig in einer Einleitung ist, dass die Länge je nach Seitenzahl unterschiedlich sein kann und dass sie einen kurzen Überblick über Ihre Arbeit bietet. Unsere Mitarbeiter orientieren sich dabei an einer klaren Struktur und wissen bereits aufgrund ihrer Erfahrung, wie Ihre Musterarbeit gegliedert werden soll.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Formulieren Sie die Forschungsfrage(n) und erläutern Sie Ihre Herangehensweise, welche Forschungsmethode Sie in Ihrer Abschlussarbeit anwenden werden.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Hauptteil:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Bearbeiten Sie systematisch Ihre Forschungsfragen unter Verwendung von Theorien, Methoden und Daten.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere Experten arbeiten systematisch und wissen, welche Theorien für Ihr Themenfeld wichtig sind. Entsprechend suchen sie die passende Forschungsmethode.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Strukturieren Sie den Hauptteil gemäß Ihrer Gliederung und argumentieren Sie klar und präzise.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Forschungsmethodik:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Beschreiben Sie detailliert die Forschungsmethode, die Sie für Ihre Untersuchung verwendet haben. Unter Forschungsmethoden können Sie zwischen quantitativen und qualitativen Ansätzen unterscheiden.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Besonders in diesem Bereich sind unsere Autoren Experten. Sie wissen genau, wie eine Methodik angewendet werden soll. Wenn es beispielsweise um eine Umfrage für Ihre Abschlussarbeit geht, erstellen sie Fragebögen und finden dazu die geeigneten Teilnehmer.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Begründen Sie Ihre Methodenwahl und zeigen Sie auf, wie Sie zu Ihren Ergebnissen gelangt sind.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Zudem begründen unsere Fachexperten die Wahl der Forschungsmethoden in Ihrer Arbeit.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Forschungsergebnisse:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Präsentieren Sie Ihre Forschungsergebnisse in klarer Form, z. B. durch Tabellen, Grafiken oder andere visuelle Hilfsmittel.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Hierbei ist es entscheidend, die Forschungsergebnisse qualitativ und verständlich zu präsentieren. Die Verwendung von visuellen Daten zur Darstellung der Ergebnisse ist äußerst vorteilhaft und trägt zur verbesserten Verständlichkeit Ihrer Arbeit bei. Darüber hinaus arbeiten wir mit qualitativ hochwertigen Tools.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Interpretieren Sie Ihre Ergebnisse und ordnen Sie sie im Kontext der Forschungsfragen ein.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Diskussion:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Diskutieren Sie Ihre Ergebnisse und interpretieren Sie sie im Zusammenhang mit bestehender Literatur. Bitte keine eigene Meinung abgeben.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Der Diskussionsteil ist von zentraler Bedeutung in einer Abschlussarbeit. Hierbei ist es entscheidend, keine persönliche Meinung zu äußern, sondern die Ergebnisse wissenschaftlich zu interpretieren. Dies ist ebenfalls Teil der Arbeit unserer Ghostwriter.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Betonen Sie die Bedeutung Ihrer Forschung und diskutieren Sie mögliche Einschränkungen Ihrer Studie.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Schluss/Fazit:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Fassen Sie die wichtigsten Ergebnisse zusammen und beantworten Sie die Forschungsfragen.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Im Fazitteil einer Abschlussarbeit fassen unsere Fachexperten alle Ergebnisse zusammen und beantworten die Forschungsfrage anhand der Ergebnisse. Auf Grundlage dieser Ergebnisse leiten die Experten mögliche zukünftige Forschungen ab.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Geben Sie einen Ausblick auf mögliche zukünftige Forschungen im Kontext Ihrer Arbeit.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Literaturverzeichnis:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Erstellen Sie ein vollständiges Literaturverzeichnis gemäß den Zitierregeln Ihrer Hochschule.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Hier kennen unsere Autoren alle wichtigen Zitierregeln und wissen wie ein Literaturverzeichnis aufgebaut wird.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Korrekturlesen:'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Lassen Sie Ihre Arbeit von anderen professionellen Expert aus Ihrem Fachbereich korrekturlesen, um Fehler zu identifizieren.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Das Korrekturlesen von einem unabhängigen Lektorat wird ebenfalls von uns kostenfrei durchgeführt. Zudem wird eine kostenlose Plagiatsprüfung für Ihre Abschlussarbeit durchgeführt, um Plagiate zu vermeiden.'
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: 'Überprüfen Sie Ihre Abschlussarbeit auf Grammatik, Rechtschreibung, Inhalt und Formatierung.'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
   -
     id: lihlrru7
     columns_replicator:
@@ -2706,9 +3985,419 @@ replicator:
     border: false
     type: add_section
     enabled: true
+  -
+    id: lrtjoe3r
+    columns_replicator:
+      -
+        id: lrtjofyk
+        single_col: true
+        grid:
+          -
+            id: HkFRWy3X
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Checkliste: Abschlussarbeit schreiben'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Hier ist eine Checkliste für eine Abschlussarbeit, die Ihnen helfen kann sicherzustellen, dass alle wichtigen Aspekte berücksichtigt werden:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Themenwahl:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Ist das Forschungsthema klar definiert und relevant für Ihren Studiengang?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Literaturrecherche:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Wurde eine umfassende Literaturrecherche durchgeführt?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Sind die relevanten Quellen aus Fachzeitschriften, Büchern und anderen wissenschaftlichen Publikationen?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Forschungsfrage(n) und Zielsetzung:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Sind klare Forschungsfragen formuliert?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Ist die Zielsetzung der Arbeit deutlich definiert?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Gliederung:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Liegt eine strukturierte Gliederung vor?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Sind Einleitung, Hauptteil, Methodik, Ergebnisse, Diskussion und Schluss enthalten?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Methodik:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Ist die Forschungsmethode detailliert beschrieben?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Sind die verwendeten Instrumente und Verfahren klar dargestellt?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ergebnisse:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Sind die Forschungsergebnisse präzise und verständlich präsentiert?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Sind visuelle Hilfsmittel wie Diagramme oder Tabellen sinnvoll eingesetzt?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Diskussion:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Wurden die Ergebnisse wissenschaftlich interpretiert?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Wurde auf mögliche Einschränkungen der Studie eingegangen?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Schluss:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Sind die wichtigsten Ergebnisse zusammengefasst?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Gibt es einen Ausblick auf zukünftige Forschungsmöglichkeiten?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Zitierstil:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Wird ein einheitlicher Zitierstil verwendet?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Sind alle Quellen korrekt zitiert?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sprache und Stil:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Ist die Arbeit sprachlich korrekt und verständlich geschrieben?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Wurde die Arbeit auf Rechtschreibfehler und Grammatik überprüft?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Korrekturlesen und Lektorat:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Wurde die Arbeit von einem unabhängigen Lektorat korrekturgelesen?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Plagiatsprüfung:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Wurde eine Plagiatsprüfung durchgeführt, um sicherzustellen, dass keine unzulässigen Kopien vorliegen?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Formatierung:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Entspricht die Formatierung den Vorgaben Ihrer Hochschule?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Einhaltung von Abgabefristen:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Wurden alle Abgabefristen eingehalten?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Feedback und Anpassungen:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Wurde Feedback von Betreuern oder anderen Personen berücksichtigt?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '☐ Sind eventuelle Anpassungen anhand von Feedback umgesetzt worden?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: "\_"
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706206311
+updated_at: 1706207241
 template: default
 use_meta_keywords: false
 no_index_page: false
