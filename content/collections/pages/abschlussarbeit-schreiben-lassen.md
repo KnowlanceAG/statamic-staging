@@ -1136,7 +1136,7 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-anfrage-orange.svg
-                    custom_svg_width: 110
+                    custom_svg_width: 100
               -
                 type: heading
                 attrs:
@@ -1165,7 +1165,7 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/icon-lektorat.svg
-                    custom_svg_width: 85
+                    custom_svg_width: 95
               -
                 type: heading
                 attrs:
@@ -2708,7 +2708,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706206263
+updated_at: 1706206311
 template: default
 use_meta_keywords: false
 no_index_page: false
