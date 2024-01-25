@@ -1,4 +1,11 @@
 {
+  "version": "2.85.0",
+  "name": "gwriters-statamic-cms",
+  "description": "Gwriters Statamic CMS",
+  "author": {
+    "name": "u|screen GmbH",
+    "email": "developers@uscreen.de"
+  },
   "private": true,
   "scripts": {
     "dev": "pnpm run development",
