@@ -1136,7 +1136,7 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-anfrage-orange.svg
-                    custom_svg_width: 100
+                    custom_svg_width: 110
               -
                 type: heading
                 attrs:
@@ -1202,7 +1202,7 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-angebot-orange.svg
-                    custom_svg_width: 100
+                    custom_svg_width: 85
               -
                 type: heading
                 attrs:
@@ -1282,7 +1282,7 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
-                    custom_svg_width: 120
+                    custom_svg_width: 100
               -
                 type: paragraph
                 attrs:
@@ -1315,7 +1315,7 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: seiten/so-funktioniert-es/icon-lieferung-orange.svg
-                    custom_svg_width: 100
+                    custom_svg_width: 80
               -
                 type: heading
                 attrs:
@@ -2724,7 +2724,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706206130
+updated_at: 1706206198
 template: default
 use_meta_keywords: false
 no_index_page: false
