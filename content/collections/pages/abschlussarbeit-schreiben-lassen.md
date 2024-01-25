@@ -330,7 +330,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#wissenschaftliche-arbeit'
+                                  href: '#wissenschaftliche-arbeiten'
                                   rel: null
                                   target: null
                                   title: null
@@ -1321,7 +1321,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /arbeiten/projektarbeiten
+                                  href: /arbeiten/projektarbeit
                                   rel: null
                                   target: _blank
                                   title: null
@@ -4922,7 +4922,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706209882
+updated_at: 1706210106
 template: default
 use_meta_keywords: false
 no_index_page: false
