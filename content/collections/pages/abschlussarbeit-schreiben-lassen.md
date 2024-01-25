@@ -175,11 +175,11 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#leistungenvorteile'
+                                  href: '#definition'
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Bachelorarbeit von GWriters schreiben lassen: Leistungen & Vorteile'
+                            text: 'Was ist eine Abschlussarbeit?'
                   -
                     type: listItem
                     content:
@@ -194,14 +194,226 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '#fachbereiche'
+                                  href: '#leistungenvorteile'
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Fachbereiche Bachelorarbeiten, unter anderem'
+                            text: 'Abschlussarbeit Ghostwriting: Ihre Vorteile im Überblick'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
                           -
                             type: text
-                            text: ':'
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#arbeitenarten'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: '5 mögliche Arten von Abschlussarbeiten schreiben lassen'
+                      -
+                        type: bulletList
+                        content:
+                          -
+                            type: listItem
+                            content:
+                              -
+                                type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#bachelorarbeit'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Ghostwriter Abschlussarbeit: Bachelorarbeit '
+                          -
+                            type: listItem
+                            content:
+                              -
+                                type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#masterarbeit'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Ghostwriter Abschlussarbeit: Masterarbeit'
+                          -
+                            type: listItem
+                            content:
+                              -
+                                type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#doktorarbeit'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Ghostwriter Abschlussarbeit Dissertation'
+                          -
+                            type: listItem
+                            content:
+                              -
+                                type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#magisterarbeit'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Ghostwriter Abschlussarbeit: Magisterarbeit'
+                          -
+                            type: listItem
+                            content:
+                              -
+                                type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#diplomarbeit'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Ghostwriter Abschlussarbeit: Diplomarbeit'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#wissenschaftliche-arbeit'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Wissenschaftliche Arbeiten schreiben lassen als Musterarbeit '
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'GWriters: So einfach zum Erfolg mit einer Musterarbeit für Abschlussarbeit'
+                      -
+                        type: bulletList
+                        content:
+                          -
+                            type: listItem
+                            content:
+                              -
+                                type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#beispiel'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Beispiel Abschlussarbeit von unseren Ghostwritern'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#schnell'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'In 3 Montan oder in 1 Woche Abschlussarbeit schreiben'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#checkliste'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Checkliste: Abschlussarbeit schreiben'
             show_as_card: false
         type: row
         enabled: true
@@ -294,6 +506,13 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 15
+              -
+                type: set
+                attrs:
+                  id: lrtl803g
+                  values:
+                    type: anchor_target
+                    anchor_name: definition
               -
                 type: heading
                 attrs:
@@ -623,6 +842,13 @@ replicator:
             id: LMVuW6vH
             bard:
               -
+                type: set
+                attrs:
+                  id: lrtkxc4k
+                  values:
+                    type: anchor_target
+                    anchor_name: arbeitenarten
+              -
                 type: heading
                 attrs:
                   textAlign: left
@@ -669,13 +895,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 15
-              -
-                type: set
-                attrs:
-                  id: lin2ki33
-                  values:
-                    type: anchor_target
-                    anchor_name: Arrbeitenarten
               -
                 type: set
                 attrs:
@@ -992,6 +1211,13 @@ replicator:
                             type: paragraph
                         active: false
               -
+                type: set
+                attrs:
+                  id: lrtl03jf
+                  values:
+                    type: anchor_target
+                    anchor_name: wissenschaftliche-arbeiten
+              -
                 type: heading
                 attrs:
                   textAlign: left
@@ -1130,6 +1356,13 @@ replicator:
           -
             id: cUWiZObZ
             bard:
+              -
+                type: set
+                attrs:
+                  id: lrtl1kza
+                  values:
+                    type: anchor_target
+                    anchor_name: ghostwriter
               -
                 type: heading
                 attrs:
@@ -1456,6 +1689,13 @@ replicator:
             id: lFxlbzr3
             bard:
               -
+                type: set
+                attrs:
+                  id: lrtl3xrx
+                  values:
+                    type: anchor_target
+                    anchor_name: beispiel
+              -
                 type: heading
                 attrs:
                   textAlign: left
@@ -1481,6 +1721,10 @@ replicator:
                   -
                     type: text
                     text: ' herunter. Diese Vorlage wurde von einem unserer erfahrensten Ghostwriter erstellt, um Ihnen einen Einblick in unsere Qualifikationen und Qualitätsstandards zu geben. Auf diese Weise erhalten Sie von Anfang an Klarheit darüber, was Sie erwartet, wenn Sie sich für die ausgezeichneten Dienstleistungen der akademischen Ghostwriting-Agentur GWriters entscheiden.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
               -
                 type: set
                 attrs:
@@ -2560,6 +2804,10 @@ replicator:
                 attrs:
                   textAlign: left
                   level: 2
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -2762,6 +3010,13 @@ replicator:
           -
             id: fdc7d47r
             bard:
+              -
+                type: set
+                attrs:
+                  id: lrtl59w4
+                  values:
+                    type: anchor_target
+                    anchor_name: schnell
               -
                 type: heading
                 attrs:
@@ -4259,6 +4514,13 @@ replicator:
             id: HkFRWy3X
             bard:
               -
+                type: set
+                attrs:
+                  id: lrtl63sk
+                  values:
+                    type: anchor_target
+                    anchor_name: checkliste
+              -
                 type: heading
                 attrs:
                   textAlign: left
@@ -4660,7 +4922,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706209126
+updated_at: 1706209882
 template: default
 use_meta_keywords: false
 no_index_page: false
