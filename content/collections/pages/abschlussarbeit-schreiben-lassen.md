@@ -626,11 +626,6 @@ replicator:
                     type: anchor_target
                     anchor_name: Arrbeitenarten
               -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
-              -
                 type: set
                 attrs:
                   id: lin2kzv9
@@ -1079,7 +1074,7 @@ replicator:
     columns_replicator:
       -
         id: WHE7qDqT
-        single_col: true
+        single_col: false
         grid:
           -
             id: cUWiZObZ
@@ -1121,10 +1116,6 @@ replicator:
                 type: paragraph
                 attrs:
                   textAlign: left
-                content:
-                  -
-                    type: text
-                    text: s
             show_as_card: false
         type: row
         enabled: true
@@ -1347,10 +1338,12 @@ replicator:
         enabled: true
         responsive_columns: 0
     remove_spacing: false
-    is_full: false
-    border: false
+    is_full: true
+    border: true
     type: add_section
     enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     id: xej6edx8
     columns_replicator:
@@ -2731,7 +2724,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706203474
+updated_at: 1706205765
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2745,10 +2738,10 @@ og_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Ghostwriter für Ihre Bachelorarbeit ✓ mit Plagiatsprüfung ✓ 30+ Fachbereiche (BWL, Jura, u.v.m.) ➤ Vorlage für Bachelorarbeit schreiben lassen!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Bachelorarbeit schreiben lassen'
+alternative_page_title: 'Abschlussarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
-page_title: 'Bachelorarbeit schreiben lassen'
+page_title: 'Abschlussarbeit schreiben lassen'
 schema_objects: |-
   <script type="application/ld+json">
   {
