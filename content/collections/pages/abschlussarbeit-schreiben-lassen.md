@@ -1159,14 +1159,6 @@ replicator:
             id: 9Nd0e0jE
             bard:
               -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: s
-              -
                 type: set
                 attrs:
                   id: WWuHXJL7
@@ -1239,21 +1231,13 @@ replicator:
             id: vtBqCwO3
             bard:
               -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: s
-              -
                 type: set
                 attrs:
                   id: CRFTCIG1
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/icon-plagiat.svg
-                    custom_svg_width: 120
+                    custom_svg_width: 100
               -
                 type: heading
                 attrs:
@@ -2724,7 +2708,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706206198
+updated_at: 1706206263
 template: default
 use_meta_keywords: false
 no_index_page: false
