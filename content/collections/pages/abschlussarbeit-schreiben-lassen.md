@@ -310,7 +310,35 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Was versteht man unter einer Abschlussarbeit und wann schreibt man eine? Diese Fragen stellen sich Studierende oft, da während des Studiums oft wenig Zeit bleibt, darüber nachzudenken. Eine Abschlussarbeit ist eine wissenschaftliche Arbeit, die am Ende eines Studiengangs oder einer akademischen Ausbildung verfasst wird. Sie dient dazu, die erworbenen Kenntnisse und Fähigkeiten zu vertiefen und zu zeigen, dass der Verfasser in der Lage ist, eigenständig wissenschaftlich zu arbeiten. Häufig wird eine Abschlussarbeit auch im Rahmen eines Praktikums in einem Unternehmen verfasst. Dabei kann es sich sowohl um ein Forschungsthema als auch um praxisorientierte Fragestellungen handeln. Zu jeder Fragestellung Ihrer Abschlussthesis unterstützen unsere Professoren und Experten Sie auf diesem Weg.'
+                    text: 'Was versteht man unter einer Abschlussarbeit und wann schreibt man eine? Diese Fragen stellen sich Studierende oft, da während des Studiums oft wenig Zeit bleibt, darüber nachzudenken. Eine Abschlussarbeit ist eine wissenschaftliche Arbeit, die am Ende eines Studiengangs oder einer akademischen Ausbildung verfasst wird. Sie dient dazu, die erworbenen Kenntnisse und Fähigkeiten zu vertiefen und zu zeigen, dass der Verfasser in der Lage ist, eigenständig wissenschaftlich zu arbeiten. Häufig wird eine Abschlussarbeit auch im Rahmen eines Praktikums in einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-unternehmen
+                          rel: null
+                          target: _blank
+                          title: null
+                    text: Unternehmen
+                  -
+                    type: text
+                    text: ' verfasst. Dabei kann es sich sowohl um ein Forschungsthema als auch um praxisorientierte Fragestellungen handeln. Zu jeder Fragestellung Ihrer Abschlussthesis unterstützen unsere Professoren und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /experten
+                          rel: null
+                          target: null
+                          title: null
+                    text: Experten
+                  -
+                    type: text
+                    text: ' Sie auf diesem Weg.'
               -
                 type: set
                 attrs:
@@ -610,7 +638,30 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bei welcher Art von Abschlussarbeit haben Sie Schwierigkeiten? Wenn Sie eine Musterarbeit für Ihre Abschlussarbeit schreiben lassen möchten, sollten Sie die entsprechende Art Ihrer Abschlussarbeit wählen und uns eine kostenlose Anfrage schicken. Abschlussarbeiten können in verschiedenen akademischen Kontexten und Studienrichtungen auftreten. Hier sind die wichtigen Arten von Abschlussarbeiten:'
+                    text: 'Bei welcher Art von Abschlussarbeit haben Sie Schwierigkeiten? Wenn Sie eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Musterarbeit für Ihre Abschlussarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ' möchten, sollten Sie die entsprechende Art Ihrer Abschlussarbeit wählen und uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          rel: null
+                          target: _blank
+                          title: null
+                    text: 'kostenlose Anfrage'
+                  -
+                    type: text
+                    text: ' schicken. Abschlussarbeiten können in verschiedenen akademischen Kontexten und Studienrichtungen auftreten. Hier sind die wichtigen Arten von Abschlussarbeiten:'
               -
                 type: set
                 attrs:
@@ -2719,7 +2770,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In 3 Montan oder in 1 Wochen Abschlussarbeit schreiben'
+                    text: 'In 3 Montan oder in 1 Woche Abschlussarbeit schreiben'
               -
                 type: table
                 content:
@@ -2746,7 +2797,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2764,7 +2816,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2776,7 +2829,7 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                text: 'In 1 Woche mit einem Ghostwriter Abschlussarbeiten schreiben'
+                                text: 'In 1 Woche mit einem Ghostwriter zusammen eine Abschlussarbeit schreiben'
                   -
                     type: tableRow
                     content:
@@ -2797,13 +2850,14 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                text: 'Abschlussthemenwahl:'
+                                text: 'Abschlussarbeit Themenwahl:'
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2818,7 +2872,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2827,7 +2882,21 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Lassen Sie sich von einem Ghostwriter Abschlussthemen vorschlagen.'
+                                text: 'Lassen Sie sich von einem Ghostwriter '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/abschlussarbeit-thema
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: 'Abschlussarbeit Themen'
+                              -
+                                type: text
+                                text: ' vorschlagen.'
                   -
                     type: tableRow
                     content:
@@ -2851,7 +2920,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2866,7 +2936,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2902,7 +2973,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2917,7 +2989,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2926,7 +2999,21 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wenn Sie eine Musterarbeit für Ihre Abschlussarbeit schreiben lassen möchten, führen unsere Ghostwriter eine kostenlose Literaturrecherche mit relevanten Datenbanken durch, einschließlich kostenpflichtiger Ressourcen. Welcher Zitationsstil für Ihre Arbeit geeignet ist, wissen unsere Ghostwriter, dementsprechend wird Ihre Arbeit richtig zitiert!'
+                                text: 'Wenn Sie eine Musterarbeit für Ihre Abschlussarbeit schreiben lassen möchten, führen unsere Ghostwriter eine kostenlose Literaturrecherche mit '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/literaturrecherche-datenbanken-quellen
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: 'relevanten Datenbanken'
+                              -
+                                type: text
+                                text: ' durch, einschließlich kostenpflichtiger Ressourcen. Welcher Zitationsstil für Ihre Arbeit geeignet ist, wissen unsere Ghostwriter, dementsprechend wird Ihre Arbeit richtig zitiert!'
                   -
                     type: tableRow
                     content:
@@ -2950,7 +3037,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2972,16 +3060,13 @@ replicator:
                             type: paragraph
                             attrs:
                               textAlign: left
-                            content:
-                              -
-                                type: text
-                                text: 'Vergessen Sie nicht, einen einheitlichen Zitierstil für Ihre Quellenangaben anzugeben. Zur Sicherheit nutzen Sie unseren kostenlosen Zitationsgenerator.'
                       -
                         type: tableCell
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -2990,7 +3075,21 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: "\_"
+                                text: 'Vergessen Sie nicht, einen einheitlichen Zitierstil für Ihre Quellenangaben anzugeben. Zur Sicherheit nutzen Sie unseren '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /zitationsgenerator
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: 'kostenlosen Zitationsgenerator'
+                              -
+                                type: text
+                                text: '. '
                   -
                     type: tableRow
                     content:
@@ -3017,7 +3116,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3032,7 +3132,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3065,7 +3166,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3080,7 +3182,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3116,7 +3219,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3131,7 +3235,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3140,7 +3245,21 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Unsere Experten arbeiten sorgfältig und präzise, um Ihnen einen Gliederungsentwurf mit der korrekten Struktur Ihrer Arbeit zu erstellen. Das Grundgerüst Ihrer Arbeit wird direkt an Sie weitergegeben. Es wird eine kostenfreie Feedbackschleife eingeführt, um sicherzustellen, dass die Gliederung Ihren Anforderungen entspricht. Falls weitere Änderungswünsche erforderlich sind, werden diese von unseren Experten kostenfrei umgesetzt.'
+                                text: 'Unsere Experten arbeiten sorgfältig und präzise, um Ihnen einen Gliederungsentwurf mit der korrekten Struktur Ihrer Arbeit zu erstellen. '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/aufbau-wissenschaftliche-arbeit
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: 'Die Aufbau Ihrer Abschlussarbeit'
+                              -
+                                type: text
+                                text: ' wird direkt an Sie weitergegeben. Es wird eine kostenfreie Feedbackschleife eingeführt, um sicherzustellen, dass die Gliederung Ihren Anforderungen entspricht. Falls weitere Änderungswünsche erforderlich sind, werden diese von unseren Experten kostenfrei umgesetzt.'
                   -
                     type: tableRow
                     content:
@@ -3164,7 +3283,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3179,7 +3299,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3215,7 +3336,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3230,7 +3352,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3239,7 +3362,21 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wichtig in einer Einleitung ist, dass die Länge je nach Seitenzahl unterschiedlich sein kann und dass sie einen kurzen Überblick über Ihre Arbeit bietet. Unsere Mitarbeiter orientieren sich dabei an einer klaren Struktur und wissen bereits aufgrund ihrer Erfahrung, wie Ihre Musterarbeit gegliedert werden soll.'
+                                text: 'Wichtig in '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/bachelorarbeit-einleitung
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: 'Einleitung von Bachelorarbeit'
+                              -
+                                type: text
+                                text: ' ist, dass die Länge je nach Seitenzahl unterschiedlich sein kann und dass sie einen kurzen Überblick über Ihre Arbeit bietet. Unsere Mitarbeiter orientieren sich dabei an einer klaren Struktur und wissen bereits aufgrund ihrer Erfahrung, wie Ihre Musterarbeit gegliedert werden soll.'
                   -
                     type: tableRow
                     content:
@@ -3263,7 +3400,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3278,7 +3416,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3314,7 +3453,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3329,7 +3469,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3338,7 +3479,21 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Unsere Experten arbeiten systematisch und wissen, welche Theorien für Ihr Themenfeld wichtig sind. Entsprechend suchen sie die passende Forschungsmethode.'
+                                text: 'Unsere Experten arbeiten systematisch und wissen, welche Theorien für Ihr Themenfeld wichtig sind. Entsprechend suchen sie die '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/methoden-empirische-sozialforschung
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: 'passende Forschungsmethode'
+                              -
+                                type: text
+                                text: .
                   -
                     type: tableRow
                     content:
@@ -3362,7 +3517,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3377,7 +3533,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3413,7 +3570,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3428,7 +3586,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3437,7 +3596,35 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Besonders in diesem Bereich sind unsere Autoren Experten. Sie wissen genau, wie eine Methodik angewendet werden soll. Wenn es beispielsweise um eine Umfrage für Ihre Abschlussarbeit geht, erstellen sie Fragebögen und finden dazu die geeigneten Teilnehmer.'
+                                text: 'Besonders in diesem Bereich sind unsere Autoren Experten. Sie wissen genau, wie eine Methodik angewendet werden soll. Wenn es beispielsweise um eine '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/umfrage-erstellen-tools
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: 'Umfrage für Ihre Abschlussarbeit '
+                              -
+                                type: text
+                                text: 'geht, erstellen sie Fragebögen und '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/umfrage-teilnehmer-finden
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: 'finden dazu die geeigneten Teilnehmer'
+                              -
+                                type: text
+                                text: .
                   -
                     type: tableRow
                     content:
@@ -3461,7 +3648,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3476,7 +3664,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3512,7 +3701,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3527,7 +3717,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3560,7 +3751,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3575,7 +3767,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3611,7 +3804,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3626,7 +3820,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3659,7 +3854,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3674,7 +3870,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3710,7 +3907,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3725,7 +3923,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3734,7 +3933,21 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Im Fazitteil einer Abschlussarbeit fassen unsere Fachexperten alle Ergebnisse zusammen und beantworten die Forschungsfrage anhand der Ergebnisse. Auf Grundlage dieser Ergebnisse leiten die Experten mögliche zukünftige Forschungen ab.'
+                                text: 'Im '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/fazit-bachelorarbeit-beispiel
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: Fazitteil
+                              -
+                                type: text
+                                text: ' fassen unsere Fachexperten alle Ergebnisse zusammen und beantworten die Forschungsfrage anhand der Ergebnisse. Auf Grundlage dieser Ergebnisse leiten die Experten mögliche zukünftige Forschungen ab.'
                   -
                     type: tableRow
                     content:
@@ -3758,7 +3971,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3773,7 +3987,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3809,7 +4024,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3824,7 +4040,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3833,7 +4050,21 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Hier kennen unsere Autoren alle wichtigen Zitierregeln und wissen wie ein Literaturverzeichnis aufgebaut wird.'
+                                text: 'Hier kennen unsere Autoren alle wichtigen Zitierregeln und wissen wie ein '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /gwriters-akademie/literaturverzeichnis-beispiel
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: Literaturverzeichnis
+                              -
+                                type: text
+                                text: ' aufgebaut wird.'
                   -
                     type: tableRow
                     content:
@@ -3860,7 +4091,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3875,7 +4107,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3884,7 +4117,35 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Das Korrekturlesen von einem unabhängigen Lektorat wird ebenfalls von uns kostenfrei durchgeführt. Zudem wird eine kostenlose Plagiatsprüfung für Ihre Abschlussarbeit durchgeführt, um Plagiate zu vermeiden.'
+                                text: 'Das Korrekturlesen von einem unabhängigen '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /lektorat
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: Lektorat
+                              -
+                                type: text
+                                text: ' wird ebenfalls von uns kostenfrei durchgeführt. Zudem wird eine '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /leistungen/plagiatspruefung
+                                      rel: null
+                                      target: _blank
+                                      title: null
+                                text: 'kostenlose Plagiatsprüfung'
+                              -
+                                type: text
+                                text: ' für Ihre Abschlussarbeit durchgeführt, um Plagiate zu vermeiden.'
                   -
                     type: tableRow
                     content:
@@ -3908,7 +4169,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -3923,7 +4185,8 @@ replicator:
                         attrs:
                           colspan: 1
                           rowspan: 1
-                          colwidth: null
+                          colwidth:
+                            - 238
                         content:
                           -
                             type: paragraph
@@ -4397,7 +4660,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706207699
+updated_at: 1706209126
 template: default
 use_meta_keywords: false
 no_index_page: false
