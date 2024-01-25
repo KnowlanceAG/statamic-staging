@@ -1075,6 +1075,283 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: hVj4fyj7
+    columns_replicator:
+      -
+        id: WHE7qDqT
+        single_col: true
+        grid:
+          -
+            id: cUWiZObZ
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'GWriters: So einfach zum Erfolg mit einer Musterarbeit für Abschlussarbeit'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'GWriters ist eine dynamisch wachsende Plattform im deutschsprachigen Raum, die hochwertige akademische Dienstleistungen vermittelt. Mit einem Pool von über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '3000 Professoren, Autoren, Doktoren, Übersetzern und Beratern'
+                  -
+                    type: text
+                    text: ' bietet GWriters maßgeschneiderte Unterstützung durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten.'
+              -
+                type: set
+                attrs:
+                  id: aBgRb1ri
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: s
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: Zm8LTn9X
+        columns_per_row: 4
+        single_col: true
+        grid:
+          -
+            id: Bnhov2ki
+            bard:
+              -
+                type: set
+                attrs:
+                  id: gpAUPzAG
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-anfrage-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Kostenlose Anfrage stellen'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    text: 'Beginnen Sie den Prozess mit einer kostenlosen und unverbindlichen Anfrage über das Anfrageformular, Telefon oder E-Mail. Geben Sie Informationen zum Thema, Ihrer Deadline, dem gewünschten Umfang und geplanten Inhalten an.'
+            show_as_card: false
+          -
+            id: 9Nd0e0jE
+            bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: s
+              -
+                type: set
+                attrs:
+                  id: WWuHXJL7
+                  values:
+                    type: custom_svg_width
+                    svg_file: logo-startseite/icon-lektorat.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Auswahl des Ghostwriters'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    text: 'GWriters wählt den passenden Ghostwriter aus der Datenbank unter Berücksichtigung von Qualifikationen, Erfahrung und internen Ratings aus. Die Fokussierung liegt auf der besten fachlichen Qualifikation.'
+            show_as_card: false
+          -
+            id: KYFJspJr
+            bard:
+              -
+                type: set
+                attrs:
+                  id: WWuHXJL7
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-angebot-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Unverbindliches Angebot'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    text: 'Ihr potenzieller Ghostwriter wird kontaktiert, und gemeinsam werden die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /preise
+                          rel: null
+                          target: _blank
+                          title: null
+                    text: Ghostwriter-Preise
+                  -
+                    type: text
+                    text: ' sowie alle Details des Projekts besprochen. GWriters garantiert einen Festpreis, der Lektorat und Plagiatsprüfung einschließt.'
+            show_as_card: false
+          -
+            id: vtBqCwO3
+            bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: s
+              -
+                type: set
+                attrs:
+                  id: CRFTCIG1
+                  values:
+                    type: custom_svg_width
+                    svg_file: logo-startseite/icon-plagiat.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Diskretion '
+              -
+                type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    text: 'Alle relevanten Daten für das Angebot werden streng vertraulich behandelt. Telefonkonferenzen werden von GWriters eingeleitet, und persönliche Informationen bleiben vertraulich. '
+            show_as_card: true
+          -
+            id: lrtgmpek
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lrtgw0z1
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
+                    custom_svg_width: 120
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Wir schreiben für Sie'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    text: 'Nach Auftragserteilung schreiben wir die Mustervorlage für Ihre Abschlussarbeit. Sie erhalten regelmäßig Zwischenstände, Feedbacks setzen wir kostenfrei um.'
+            show_as_card: false
+          -
+            id: lrtgbxev
+            bard:
+              -
+                type: set
+                attrs:
+                  id: XnRBnsDQ
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-lieferung-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Finale Lieferung'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    text: 'Sie erhalten die finale Abschlussarbeit als Musterarbeit , garantiert frei von Plagiaten und durch ein Lektorat nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: xej6edx8
     columns_replicator:
       -
@@ -1128,28 +1405,6 @@ replicator:
                     ex_spacing_top: false
                     ex_fachbereich:
                       - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: hVj4fyj7
-    columns_replicator:
-      -
-        id: WHE7qDqT
-        single_col: true
-        grid:
-          -
-            id: cUWiZObZ
-            bard:
               -
                 type: heading
                 attrs:
@@ -2211,257 +2466,15 @@ replicator:
                 attrs:
                   textAlign: left
                   level: 2
-                content:
-                  -
-                    type: text
-                    text: 'GWriters: So einfach zum Erfolg mit einer Musterarbeit für Abschlussarbeit'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: 'GWriters ist eine dynamisch wachsende Plattform im deutschsprachigen Raum, die hochwertige akademische Dienstleistungen vermittelt. Mit einem Pool von über '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '3000 Professoren, Autoren, Doktoren, Übersetzern und Beratern'
-                  -
-                    type: text
-                    text: ' bietet GWriters maßgeschneiderte Unterstützung durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten.'
-              -
-                type: set
-                attrs:
-                  id: aBgRb1ri
-                  values:
-                    type: spacer
-                    padding-y: 15
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: Zm8LTn9X
-        columns_per_row: 4
-        single_col: true
-        grid:
-          -
-            id: Bnhov2ki
-            bard:
-              -
-                type: set
-                attrs:
-                  id: gpAUPzAG
-                  values:
-                    type: custom_svg_width
-                    svg_file: seiten/so-funktioniert-es/icon-anfrage-orange.svg
-                    custom_svg_width: 120
-              -
-                type: heading
-                attrs:
-                  textAlign: center
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Kostenlose Anfrage stellen'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: center
-                content:
-                  -
-                    type: text
-                    text: 'Beginnen Sie den Prozess mit einer kostenlosen und unverbindlichen Anfrage über das Anfrageformular, Telefon oder E-Mail. Geben Sie Informationen zum Thema, Ihrer Deadline, dem gewünschten Umfang und geplanten Inhalten an.'
-            show_as_card: false
-          -
-            id: 9Nd0e0jE
-            bard:
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: s
-              -
-                type: set
-                attrs:
-                  id: WWuHXJL7
-                  values:
-                    type: custom_svg_width
-                    svg_file: logo-startseite/icon-lektorat.svg
-                    custom_svg_width: 120
-              -
-                type: heading
-                attrs:
-                  textAlign: center
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Auswahl des Ghostwriters'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: center
-                content:
-                  -
-                    type: text
-                    text: 'GWriters wählt den passenden Ghostwriter aus der Datenbank unter Berücksichtigung von Qualifikationen, Erfahrung und internen Ratings aus. Die Fokussierung liegt auf der besten fachlichen Qualifikation.'
-            show_as_card: false
-          -
-            id: KYFJspJr
-            bard:
-              -
-                type: set
-                attrs:
-                  id: WWuHXJL7
-                  values:
-                    type: custom_svg_width
-                    svg_file: seiten/so-funktioniert-es/icon-angebot-orange.svg
-                    custom_svg_width: 120
-              -
-                type: heading
-                attrs:
-                  textAlign: center
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Unverbindliches Angebot'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: center
-                content:
-                  -
-                    type: text
-                    text: 'Ihr potenzieller Ghostwriter wird kontaktiert, und gemeinsam werden die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /preise
-                          rel: null
-                          target: _blank
-                          title: null
-                    text: Ghostwriter-Preise
-                  -
-                    type: text
-                    text: ' sowie alle Details des Projekts besprochen. GWriters garantiert einen Festpreis, der Lektorat und Plagiatsprüfung einschließt.'
-            show_as_card: false
-          -
-            id: vtBqCwO3
-            bard:
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: s
-              -
-                type: set
-                attrs:
-                  id: CRFTCIG1
-                  values:
-                    type: custom_svg_width
-                    svg_file: logo-startseite/icon-plagiat.svg
-                    custom_svg_width: 120
-              -
-                type: heading
-                attrs:
-                  textAlign: center
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Diskretion '
-              -
-                type: paragraph
-                attrs:
-                  textAlign: center
-                content:
-                  -
-                    type: text
-                    text: 'Alle relevanten Daten für das Angebot werden streng vertraulich behandelt. Telefonkonferenzen werden von GWriters eingeleitet, und persönliche Informationen bleiben vertraulich. '
-            show_as_card: true
-          -
-            id: lrtgmpek
-            bard:
-              -
-                type: set
-                attrs:
-                  id: lrtgw0z1
-                  values:
-                    type: custom_svg_width
-                    svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
-                    custom_svg_width: 120
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-              -
-                type: heading
-                attrs:
-                  textAlign: center
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Wir schreiben für Sie'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: center
-                content:
-                  -
-                    type: text
-                    text: 'Nach Auftragserteilung schreiben wir die Mustervorlage für Ihre Abschlussarbeit. Sie erhalten regelmäßig Zwischenstände, Feedbacks setzen wir kostenfrei um.'
-            show_as_card: false
-          -
-            id: lrtgbxev
-            bard:
-              -
-                type: set
-                attrs:
-                  id: XnRBnsDQ
-                  values:
-                    type: custom_svg_width
-                    svg_file: seiten/so-funktioniert-es/icon-lieferung-orange.svg
-                    custom_svg_width: 120
-              -
-                type: heading
-                attrs:
-                  textAlign: center
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Finale Lieferung'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: center
-                content:
-                  -
-                    type: text
-                    text: 'Sie erhalten die finale Abschlussarbeit als Musterarbeit , garantiert frei von Plagiaten und durch ein Lektorat nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#ffffff'
     border: false
     type: add_section
     enabled: true
@@ -2685,7 +2698,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Erfahrene Ghostwriter für Ihre Bachelorarbeit'
+                    text: 'Erfahrene Ghostwriter für Ihre Abschlussarbeit'
               -
                 type: set
                 attrs:
@@ -2714,726 +2727,9 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    id: lihlrv2u
-    columns_replicator:
-      -
-        id: lihlv8er
-        single_col: true
-        grid:
-          -
-            id: 1nqorlsk
-            bard:
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Bachelorarbeit schreiben lassen - in Zeiten von ChatGPT & KI'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: 'In der wissenschaftlichen Gemeinschaft sollte der Einsatz von KI-Technologien sorgfältig überdacht werden. Während KIs in diversen Sektoren hilfreich sein können, sind sie dennoch nicht in der Lage, die Tiefgründigkeit, Kreativität und das kritische Denkvermögen, das ein akademischer Ghostwriter in den Forschungsprozess einbringt, vollständig nachzuahmen. Bei der Erstellung von Bachelorarbeiten kann der Gebrauch von KI aufgrund diverser technischer und juristischer Herausforderungen bedenklich sein.'
-              -
-                type: orderedList
-                attrs:
-                  start: 1
-                content:
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        attrs:
-                          textAlign: start
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Rechtliche Hürden und Quellenmanagement:'
-                          -
-                            type: hardBreak
-                          -
-                            type: text
-                            text: 'Inhalte, generiert von KI-Systemen, könnten problematisch sein, da sie eventuell urheberrechtlich geschützte Inhalte ohne angemessene Zitierung integrieren könnten. Hierdurch könnten rechtliche Schwierigkeiten entstehen. Ein akademischer Ghostwriter achtet jedoch darauf, dass alle Zitate korrekt und im Einklang mit akademischen Standards sind. Zudem hat sich gezeigt, dass KIs manchmal dazu neigen, nicht existierende Quellen zu nutzen, um ihre Behauptungen zu untermauern.'
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        attrs:
-                          textAlign: start
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Begrenztes KI-Verständnis:'
-                          -
-                            type: text
-                            text: 'Trotz ihrer beeindruckenden Datenverarbeitungsfähigkeiten können KIs dennoch komplexe wissenschaftliche Ideen missverstehen oder aus dem Kontext reißen. Ein akademischer Ghostwriter, mit seinem tiefgreifenden Wissen und Verständnis, kann hingegen auch in Disziplinen, die auf menschlichen Erfahrungen basieren, wie beispielsweise den '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /ghostwriter/kommunikationswissenschaften
-                                  rel: null
-                                  target: _blank
-                                  title: null
-                            text: Kommunikationswissenschaften
-                          -
-                            type: text
-                            text: ', authentisch und akkurat arbeiten.'
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        attrs:
-                          textAlign: start
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Originalität und KI:'
-                          -
-                            type: text
-                            text: 'Wissenschaftliche Beiträge sollen stets Neues und Originelles bieten. Aber KIs, da sie auf bestehenden Datenstrukturen operieren, könnten Schwierigkeiten haben, wirklich neuartige Perspektiven in wissenschaftlichen Arbeiten zu eröffnen. Menschen hingegen sind dafür bekannt, Pionierarbeit in ihren jeweiligen Fachgebieten zu leisten.'
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        attrs:
-                          textAlign: start
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Die Grenzen der KI-Kapazität:'
-                          -
-                            type: text
-                            text: 'KIs sind oft in ihrer eigenen Datenwelt gefangen und nehmen diese als absolute Wahrheiten wahr. Ihre Fähigkeit zur kritischen Analyse ist begrenzt. Im Kontrast dazu verfügen akademische Ghostwriter über die Fähigkeiten, Daten zu hinterfragen, alternative Theorien zu berücksichtigen und bestehende Annahmen zu überprüfen.'
-                  -
-                    type: listItem
-                    content:
-                      -
-                        type: paragraph
-                        attrs:
-                          textAlign: start
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Die wachsende KI-Aufmerksamkeit in Hochschuleinrichtungen:'
-                          -
-                            type: text
-                            text: 'Da KI immer mehr in den Mittelpunkt rückt, werden Diskussionen über ihre Nutzung im akademischen Bereich immer häufiger. Bald könnten Institutionen verpflichtet werden, den Gebrauch von KI transparenter zu gestalten, beispielsweise durch die Schaffung von Datenbanken für KI-erstellte Texte oder die Implementierung bestimmter Textmuster. Wie verlässlich AI Texte jetzt schon erkannt werden, zeigt unser '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /ai-detector
-                                  rel: null
-                                  target: _blank
-                                  title: null
-                            text: 'KI Detektor auf deutsch'
-                          -
-                            type: text
-                            text: ', den Sie jetzt kostenlos ausprobieren können.'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: 'Die Anwendung von KI mag in einigen Bereichen vorteilhaft sein, doch wenn es um das Verfassen von Bachelorarbeiten geht, sollte die menschliche Expertise nicht unterschätzt werden.'
-              -
-                type: set
-                attrs:
-                  id: liojqqz0
-                  values:
-                    type: anchor_target
-                    anchor_name: faq
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Häufig gestellte Fragen zum Thema Bachelor Thesis schreiben lassen'
-              -
-                type: set
-                attrs:
-                  id: liaq6vmf
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
-                      -
-                        id: liaq6wra
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Was ist eine Bachelorarbeit?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Eine Bachelorarbeit ist die wissenschaftliche Abschlussarbeit nach einem Bachelorstudium. Sie umfasst in der Regel eine Einleitung, Literaturübersicht, Methodik, Ergebnisse, Diskussion und Schlussfolgerung.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Der Bachelorabschluss ist der erste akademische Grad, der innerhalb der EU und einigen englischsprachigen Ländern an Universitäten erreicht werden kann.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'In Deutschland wird der Bachelortitel im Zuge einer Hochschulprüfung verliehen. Dazu&nbsp;müssen Studierende im Verlauf der Hochschulzeit eine gewisse Anzahl an ECTS-Punkten erreichen. Den Studienabschluss bildet ein schriftlicher Leistungsnachweis sowie eine mündliche Abschlussprüfung. Das Schreiben einer Bachelorarbeit (Bachelor Thesis) dabei die gängige Form des schriftlichen Examens.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Note der Bachelor Thesis beeinflusst die Gesamtabschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden und eine tiefgehende Recherche nach Literatur sind dabei grundlegend für den Erfolg.'
-                        active: false
-                      -
-                        id: liaq8pub
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Welche (formalen) Kriterien muss ich beim Schreiben der Bachelorarbeit beachten?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Je nach Fachrichtung und Institution umfasst die Bachelor Thesis 20 bis 60 Seiten inklusive Inhaltsverzeichnis und Exposé. Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig für die Formatierung erwiesen. Laut Prüfungsordnung gelten diese Voraussetzungen:'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Gliederung:'
-                          -
-                            type: bulletList
-                            content:
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Deckblatt
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Abstract
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Vorwort
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Abbildungsverzeichnis und Tabellenverzeichnis'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Abkürzungsverzeichnis
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Einleitung
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Haupttei
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Schlussteil/Fazit
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Literaturverzeichnis
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: Anhang
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '&nbsp;'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Formatierung:'
-                          -
-                            type: bulletList
-                            content:
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Schriftart: Times New Roman (oder Arial Größe 11)'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Schriftgröße: 12 Punkt'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Zeilenabstand: 1,5'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Absatzformat: Blocksatz (auf Trennung achten)'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Fußnoten: Schriftgröße 10'
-                              -
-                                type: listItem
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Seitenzahlen: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Bachelorarbeit, Literaturverzeichnis und Anhang'
-                        active: false
-                      -
-                        id: liaqb6y1
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Was kostet eine Bachelorarbeit Normseite, wenn ich eine Mustervorlage von einem Ghostwriter schreiben lasse?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Unsere Preise für Ihre Bachelorarbeit in Jura, BWL und anderen Fachbereichen beginnen ab 100,- € pro Normseite. Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis gelten nicht als Normseite und  sind gratis inkludiert.'
-                        active: false
-                      -
-                        id: liaqbnp0
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Ist es legal, wenn ich die Vorlage für meine Bachelorarbeit vom Ghostwriter schreiben lasse?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Ja,'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: ' '
-                              -
-                                type: text
-                                text: 'Ghostwriting ist Deutschland legal, wenn man sich an Regeln hält Der Auftraggeber eines Ghostwriting-Bachelorarbeit kann in jedem Falle das Werk als Mustervorlage bei der Erstellung seiner eigenen Arbeit verwenden. Es kann ebenso verwendet werden, um den Stand der Forschung vorab zu klären bzw. die eigene Recherche zu überprüfen etc. Ausführliche Informationen zum finden Sie hier: '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: '/faq/#ghostwriting-strafbar'
-                                      rel: null
-                                      target: null
-                                      title: null
-                                text: 'Ist Ghostwriting strafbar?'
-                        active: false
-                      -
-                        id: lidhjyud
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Kann ich auch meine Bachelorarbeit auch auf Englisch oder in einer anderen Sprache schreiben lassen?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Selbstverständlich. Unsere Ghostwriting-Agentur verfügt über ein umfangreiches und vielfältiges Team von Autoren, die in verschiedenen Sprachen versiert sind. Unabhängig davon, ob Sie Ihre Bachelorarbeit in Englisch, Deutsch, Französisch, Spanisch oder einer anderen Sprache verfassen möchten, können wir einen passenden muttersprachlichen Autor für Sie finden. Unsere Autoren sind nicht nur sprachlich kompetent, sondern haben auch ein tiefes Verständnis der kulturellen und akademischen Kontexte, die mit ihren jeweiligen Sprachen verbunden sind. Dies stellt sicher, dass Ihre Arbeit nicht nur sprachlich korrekt, sondern auch inhaltlich relevant und kulturell angemessen ist.'
-                        active: false
-                      -
-                        id: lidhlcxe
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Wie lange braucht ein Ghostwriter, um die Mustervorlage meiner Bachelorarbeit zu schreiben?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Dauer für das Verfassen einer Bachelorarbeit durch einen Ghostwriter hängt von verschiedenen Faktoren ab, darunter die Komplexität des Themas, die erforderliche Forschung und die Länge der Arbeit. Im Allgemeinen können Sie jedoch erwarten, dass der Prozess mehrere Wochen dauert.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Dieser Zeitraum beinhaltet nicht nur das tatsächliche Schreiben, sondern auch die Zeit für die Forschung, die Planung der Arbeit, die Überprüfung und das Korrekturlesen. Darüber hinaus ermöglicht es auch eine angemessene Zeit für die Überprüfung und mögliche Überarbeitungen basierend auf Ihrem Feedback.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Es ist wichtig zu beachten, dass eine gute Bachelorarbeit Zeit und Sorgfalt erfordert. Unsere Ghostwriter sind bemüht, hochwertige Arbeiten zu liefern, und wir empfehlen daher, genügend Zeit für den Prozess einzuplanen. Eine stark eingeschränkte Bearbeitungszeit kann zu zusätzlichen Kosten führen, da sie den Autor dazu zwingt, innerhalb eines begrenzten Zeitrahmens zu arbeiten. Daher empfehlen wir, uns so früh wie möglich zu kontaktieren, um sicherzustellen, dass Ihre Bachelorarbeit rechtzeitig und zu Ihrer Zufriedenheit abgeschlossen wird.'
-                        active: false
-              -
-                type: set
-                attrs:
-                  id: liaqegaf
-                  values:
-                    type: spacer
-                    padding-y: 20
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                    text: Disclaimer
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
-              -
-                type: set
-                attrs:
-                  id: lihly0sq
-                  values:
-                    type: spacer
-                    padding-y: 20
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: lihlvbmj
-        single_col: false
-        grid:
-          -
-            id: 1nqorlsk
-            bard:
-              -
-                type: set
-                attrs:
-                  id: liaqf6et
-                  values:
-                    type: blog_entries
-                    entries:
-                      - 65463e24-c877-41a0-9331-f3112d4ecc02
-                      - 78e588a4-2c02-44b9-b5b1-e7a880e0b64c
-                      - a714a5f1-abe3-4915-ab56-268753205e28
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Weitere Links & Referenzen'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.bmbf.de/de/der-bologna-prozess-die-europaeische-studienreform-1038.html'
-                          rel: 'noopener noreferrer'
-                          target: _blank
-                          title: null
-                    text: 'Bologna Prozess - Deutsches Bundesministerium für Bildung und Forschung'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www2.daad.de/hochschulen/ausschreibungen/projekte/de/11342-foerderprogramme-finden/?projektid=57317077&s=1'
-                          rel: 'noopener noreferrer'
-                          target: _blank
-                          title: null
-                    text: 'Bachelor Plus - Deutscher Akademischer Austauschdienst'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=LEGISSUM:c11088'
-                          rel: 'noopener noreferrer'
-                          target: _blank
-                          title: null
-                    text: 'Bologna Prozess - Europäisches Recht'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Ghostwriter'
-                          rel: 'noopener noreferrer'
-                          target: _blank
-                          title: null
-                    text: 'Ghostwriter - Wikipedia'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Bachelorarbeit'
-                          rel: 'noopener noreferrer'
-                          target: _blank
-                          title: null
-                    text: 'Bachelorarbeit - Wikipedia'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.bildungsserver.de/Zur-Einfuehrung-von-Bachelor-und-Master-Studiengaengen-in-Deutschland-2534-de.html'
-                          rel: 'noopener noreferrer'
-                          target: _blank
-                          title: null
-                    text: 'Zur Einführung von Bachelor- und Masterstudiengängen - Deutscher Bildungsserver'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706202889
+updated_at: 1706203423
 template: default
 use_meta_keywords: false
 no_index_page: false
