@@ -1123,8 +1123,8 @@ replicator:
         columns_per_row: 0
       -
         id: Zm8LTn9X
-        columns_per_row: 4
-        single_col: true
+        columns_per_row: 6
+        single_col: false
         grid:
           -
             id: Bnhov2ki
@@ -2724,7 +2724,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706205765
+updated_at: 1706205845
 template: default
 use_meta_keywords: false
 no_index_page: false
