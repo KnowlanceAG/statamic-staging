@@ -943,7 +943,121 @@ replicator:
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
+                          -
+                            type: paragraph
                         active: false
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Wissenschaftliche Arbeiten schreiben lassen als Musterarbeit '
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Andere Arbeiten wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten
+                          rel: null
+                          target: _blank
+                          title: null
+                    text: 'wissenschaftliche Arbeiten'
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/studienarbeit
+                          rel: null
+                          target: _blank
+                          title: null
+                    text: Studienarbeiten
+                  -
+                    type: text
+                    text: ' oder Projektarbeiten werden in vielen Studiengängen verlangt. Auch hier können unsere Ghostwriter in verschiedenen Fachbereichen Ihnen Hilfe anbieten, insbesondere bei Projektarbeiten, Seminararbeiten und Hausarbeiten. '
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Seminararbeit und Hausarbeit: In vielen Studiengängen müssen Studierende Seminararbeiten und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/hausarbeit-schreiben-lassen
+                                  rel: null
+                                  target: _blank
+                                  title: null
+                            text: Hausarbeiten
+                          -
+                            type: text
+                            text: ' schreiben. Diese können als kleinere Form von Abschlussarbeiten betrachtet werden und erfordern oft eine gründliche Recherche und Analyse. Häufig werden Hausarbeiten basierend auf einem Thema geschrieben. Jedoch sieht das in einer Seminararbeit ganz anders aus. In einer Seminararbeit werden oft die Seminarinhalte bearbeitet und erweitert. Aus Erfahrung möchten Studierende eine Musterarbeit für ihre '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/seminararbeit-schreiben-lassen
+                                  rel: null
+                                  target: _blank
+                                  title: null
+                            text: 'Seminararbeit schreiben lassen'
+                          -
+                            type: text
+                            text: '. '
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Projektarbeit: Gelegentlich wird eine Projektarbeit als wissenschaftliche Arbeit verlangt. Dabei können praktische Erfahrungen und Anwendungen eines bestimmten Fachgebiets eine Rolle spielen. Unsere erfahrenen Ghostwriter verfügen über umfangreiche praktische und theoretische Kenntnisse in der Erstellung von Projektarbeiten. Sie können vertrauensvoll einen '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/projektarbeiten
+                                  rel: null
+                                  target: _blank
+                                  title: null
+                            text: 'Ghostwriter für Ihre Projektarbeit bei uns beauftragen'
+                          -
+                            type: text
+                            text: .
               -
                 type: set
                 attrs:
@@ -979,7 +1093,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Beispiel Bachelorarbeit von unseren Ghostwritern'
+                    text: 'Beispiel Abschlussarbeit von unseren Ghostwritern'
               -
                 type: paragraph
                 attrs:
@@ -987,16 +1101,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Laden Sie sich unser Beispiel für eine '
+                    text: 'Laden Sie jetzt '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Ghostwriter-Bachelorarbeit jetzt kostenlos herunter'
+                    text: 'kostenlos unser Beispiel für eine Bachelorarbeit vom Ghostwriter'
                   -
                     type: text
-                    text: '. Diese Mustervorlage wurde von einem unserer kompetentesten Ghostwriter verfasst, sodass Sie sich einen Eindruck von unseren Qualifikationen und Qualitätsstandards machen können. So wissen Sie von Anfang an, was Sie erwartet, wenn Sie sich für den ausgezeichneten Service der akademischen Ghostwriting Agentur GWriters entscheiden.'
+                    text: ' herunter. Diese Vorlage wurde von einem unserer erfahrensten Ghostwriter erstellt, um Ihnen einen Einblick in unsere Qualifikationen und Qualitätsstandards zu geben. Auf diese Weise erhalten Sie von Anfang an Klarheit darüber, was Sie erwartet, wenn Sie sich für die ausgezeichneten Dienstleistungen der akademischen Ghostwriting-Agentur GWriters entscheiden.'
               -
                 type: set
                 attrs:
@@ -2101,7 +2215,24 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'So läuft die Zusammenarbeit ab'
+                    text: 'GWriters: So einfach zum Erfolg mit einer Musterarbeit für Abschlussarbeit'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'GWriters ist eine dynamisch wachsende Plattform im deutschsprachigen Raum, die hochwertige akademische Dienstleistungen vermittelt. Mit einem Pool von über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '3000 Professoren, Autoren, Doktoren, Übersetzern und Beratern'
+                  -
+                    type: text
+                    text: ' bietet GWriters maßgeschneiderte Unterstützung durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten.'
               -
                 type: set
                 attrs:
@@ -2133,28 +2264,60 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: center
                   level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Kostenlose Anfrage stellen'
+              -
+                type: paragraph
+                attrs:
                   textAlign: center
                 content:
                   -
                     type: text
-                    marks: {  }
-                    text: 'Kostenlose Anfrage'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#333333'
-                          hex: '#000'
-                    text: 'Sie kontaktieren uns über das Anfrageformular oder telefonisch. Ein Kundenberater meldet sich umgehend für ein unverbindliches Erstgespräch.'
+                    text: 'Beginnen Sie den Prozess mit einer kostenlosen und unverbindlichen Anfrage über das Anfrageformular, Telefon oder E-Mail. Geben Sie Informationen zum Thema, Ihrer Deadline, dem gewünschten Umfang und geplanten Inhalten an.'
             show_as_card: false
           -
             id: 9Nd0e0jE
+            bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: s
+              -
+                type: set
+                attrs:
+                  id: WWuHXJL7
+                  values:
+                    type: custom_svg_width
+                    svg_file: logo-startseite/icon-lektorat.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Auswahl des Ghostwriters'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    text: 'GWriters wählt den passenden Ghostwriter aus der Datenbank unter Berücksichtigung von Qualifikationen, Erfahrung und internen Ratings aus. Die Fokussierung liegt auf der besten fachlichen Qualifikation.'
+            show_as_card: false
+          -
+            id: KYFJspJr
             bard:
               -
                 type: set
@@ -2167,62 +2330,107 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: center
                   level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Unverbindliches Angebot'
+              -
+                type: paragraph
+                attrs:
                   textAlign: center
                 content:
                   -
                     type: text
-                    marks: {  }
-                    text: 'Unverbindliches Angebot'
-              -
-                type: paragraph
-                content:
+                    text: 'Ihr potenzieller Ghostwriter wird kontaktiert, und gemeinsam werden die '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
+                        type: link
                         attrs:
-                          color: '#333333'
-                          hex: '#000'
-                    text: 'Sie erhalten ein unverbindliches, individuell auf Sie zugeschnittenes Angebot inklusive vorläufiger Auftragsplanung.'
+                          href: /preise
+                          rel: null
+                          target: _blank
+                          title: null
+                    text: Ghostwriter-Preise
+                  -
+                    type: text
+                    text: ' sowie alle Details des Projekts besprochen. GWriters garantiert einen Festpreis, der Lektorat und Plagiatsprüfung einschließt.'
             show_as_card: false
           -
-            id: KYFJspJr
+            id: vtBqCwO3
             bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: s
               -
                 type: set
                 attrs:
                   id: CRFTCIG1
                   values:
                     type: custom_svg_width
-                    svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
+                    svg_file: logo-startseite/icon-plagiat.svg
                     custom_svg_width: 120
               -
                 type: heading
                 attrs:
+                  textAlign: center
                   level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Diskretion '
+              -
+                type: paragraph
+                attrs:
                   textAlign: center
                 content:
                   -
                     type: text
-                    marks: {  }
-                    text: 'Wir schreiben für Sie'
+                    text: 'Alle relevanten Daten für das Angebot werden streng vertraulich behandelt. Telefonkonferenzen werden von GWriters eingeleitet, und persönliche Informationen bleiben vertraulich. '
+            show_as_card: true
+          -
+            id: lrtgmpek
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lrtgw0z1
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
+                    custom_svg_width: 120
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 3
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#333333'
-                          hex: '#000'
-                    text: 'Nach Auftragserteilung schreiben wir die Mustervorlage für Ihre Bachelorarbeit. Sie erhalten regelmäßig Zwischenstände, Feedbacks setzen wir kostenfrei um.'
+                    text: 'Wir schreiben für Sie'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    text: 'Nach Auftragserteilung schreiben wir die Mustervorlage für Ihre Abschlussarbeit. Sie erhalten regelmäßig Zwischenstände, Feedbacks setzen wir kostenfrei um.'
             show_as_card: false
           -
-            id: vtBqCwO3
+            id: lrtgbxev
             bard:
               -
                 type: set
@@ -2235,25 +2443,20 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: center
                   level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Finale Lieferung'
+              -
+                type: paragraph
+                attrs:
                   textAlign: center
                 content:
                   -
                     type: text
-                    marks: {  }
-                    text: 'Finale Lieferung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#333333'
-                          hex: '#000'
-                    text: 'Sie erhalten das finale Dokument, garantiert frei von Plagiaten und durch ein Lektorat nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
+                    text: 'Sie erhalten die finale Abschlussarbeit als Musterarbeit , garantiert frei von Plagiaten und durch ein Lektorat nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
             show_as_card: false
         type: row
         enabled: true
@@ -2262,6 +2465,28 @@ replicator:
     is_full: false
     border: false
     type: add_section
+    enabled: true
+  -
+    id: lrtgyzcs
+    bard:
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: 'Anfragen und Angebote bei GWriters sind vollständig unverbindlich. Kosten entstehen erst nach verbindlicher Auftragsbestätigung durch einen Vertragsschluss. GWriters legt Wert auf transparente und diskrete Prozesse für eine erfolgreiche Zusammenarbeit.'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: 'GWriters ermöglicht einen einfachen Weg zum Erfolg bei der Erstellung von Musterarbeiten für Abschlussarbeiten, wobei Diskretion, Qualitätskontrolle und individuelle Betreuung im Mittelpunkt stehen.'
+    show_as_card: false
+    type: editor
     enabled: true
   -
     id: HBzKiiRG
@@ -2438,228 +2663,6 @@ replicator:
     enabled: true
   -
     id: 5s6CJZc3
-    columns_replicator:
-      -
-        id: pJKBLsKo
-        columns_per_row: 2
-        single_col: true
-        grid:
-          -
-            id: ae9kQIgY
-            bard:
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Hilfe beim Schreiben der Bachelor Thesis: Profitieren Sie von unserem Coaching'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: 'Im Video zeigen wir Ihnen, in welchen Punkten wir Sie mit unser Bachelorarbeit Coaching Service unterstützen können. Unsere Coaches können Sie bspw. bei der richtigen Anwendung der der Zitierweise, durch eine Plagiatsprüfung oder durch ein Korrekturlesen im Rahmen eines Lektorats unterstützen.'
-            show_as_card: false
-          -
-            id: CyFLCJWN
-            bard:
-              -
-                type: set
-                attrs:
-                  id: bVrtTn7Y
-                  values:
-                    type: video
-                    video: 'https://www.youtube.com/embed/EBDyFVLD0V0'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-      -
-        id: liapor9m
-        single_col: true
-        grid:
-          -
-            id: 73cOWkpP
-            bard:
-              -
-                type: set
-                attrs:
-                  id: liojqcp2
-                  values:
-                    type: anchor_target
-                    anchor_name: kosten
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Bachelorarbeit schreiben lassen: Kosten & Preise'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: 'Mit Hilfe unseres Preisrechners können Sie einfach und schnell den groben Preisrahmen für Ihre Bachelorarbeit kalkulieren. Für ein individuelles Angebot nutzen Sie unser '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          rel: null
-                          target: null
-                          title: null
-                    text: Anfrageformular
-                  -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: 'Für die Berechnung der Kosten der Bachelorarbeit zählen wir die reinen Normseiten. Dies geschieht streng nach der offiziellen Definition der VG Wort. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'So sichern wir eine faire und nachvollziehbare Berechnungsgrundlage. '
-                  -
-                    type: text
-                    text: 'Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis werden dabei nicht berücksichtigt, diese sind gratis inkludiert. Bei der Preisberechnung für Korrekturlesen, Lektorate oder Plagiatsprüfungen gehen wir analog vor.'
-              -
-                type: set
-                attrs:
-                  id: rUvX2W8i
-                  values:
-                    type: preisrechner
-                    show_calulator: true
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hier finden Sie detaillierte Informationen zu unseren '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /preise
-                          rel: null
-                          target: null
-                          title: null
-                      -
-                        type: bold
-                    text: 'Ghostwriter Preisen'
-                  -
-                    type: text
-                    text: .
-              -
-                type: set
-                attrs:
-                  id: liaqrm0k
-                  values:
-                    type: spacer
-                    padding-y: 20
-              -
-                type: heading
-                attrs:
-                  textAlign: left
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Diese Faktoren beeinflussen die Höhe der Kosten'
-              -
-                type: set
-                attrs:
-                  id: liapt557
-                  values:
-                    type: accordion_custom_wrapper
-                    items:
-                      -
-                        id: liapt662
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 4
-                            content:
-                              -
-                                type: text
-                                text: 'Komplexität des Bachelorarbeit-Themas'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Für GWriters schreiben ausschließlich hochqualifizierte akademischen Experten Ihre Bachelorarbeit Vorlage. Wissenschaftliche Qualifikation ersetzt jedoch nicht die gründliche Einarbeitung in Ihr Thema. Die Kosten ist zudem abhängig davon, ob Sie eine Vorlage für eine empirische oder eine theoretische Bachelorarbeit schreiben lassen.'
-                        active: false
-                      -
-                        id: liaptxpf
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 4
-                            content:
-                              -
-                                type: text
-                                text: 'Fachbereich (Fachautoren)'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Einige Fachbereiche zeichnen sich beim wissenschaftlichen Schreiben durch eine höhere Komplexität aus als andere. Daher erwarten und erhalten Ghostwriter aus diesen Bereichen eine höhere Honorierung ihrer Leistungen. Ein Thema aus den Politikwissenschaften stellt bspw. andere Anforderungen an den Ghostwriter, als ein Thema aus der höheren Mathematik. '
-                        active: false
-                      -
-                        id: liapuki3
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 4
-                            content:
-                              -
-                                type: text
-                                text: 'Individuelle zeitliche Vorgaben & Umfang'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Unsere akademischen Ghostwriter können in Notfällen ganze Bachelorarbeiten an einem Wochenende schreiben. Bei dringenden Aufträgen ist dies möglich. Jedoch möchten sie für diese Extraarbeit fair entlohnt werden. Daher spielt die verfügbare Bearbeitungszeit eine wesentliche Rolle für die Kosten.'
-                        active: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -3431,7 +3434,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706197601
+updated_at: 1706202638
 template: default
 use_meta_keywords: false
 no_index_page: false
