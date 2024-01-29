@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'monographie beispiel'
 size: 19721
 last_modified: 1706539101
 width: 984
