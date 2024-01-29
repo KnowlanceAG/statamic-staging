@@ -1,5 +1,6 @@
 ---
 id: 9863c52a-c34a-4eae-b8ab-6fb5c6984fac
+published: false
 blueprint: pages
 title: Abschlussarbeit
 teaser:
@@ -4917,7 +4918,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1706535453
+updated_at: 1706535567
 template: default
 use_meta_keywords: false
 no_index_page: false
