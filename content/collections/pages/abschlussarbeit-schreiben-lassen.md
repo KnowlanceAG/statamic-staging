@@ -389,7 +389,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'In 3 Montan oder in 1 Woche Abschlussarbeit schreiben'
+                            text: 'In 3 Monaten oder in 1 Woche Abschlussarbeit schreiben ?'
                   -
                     type: listItem
                     content:
@@ -3020,7 +3020,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In 3 Montan oder in 1 Woche Abschlussarbeit schreiben'
+                    text: 'In 3 Monaten oder in 1 Woche Abschlussarbeit schreiben?'
               -
                 type: table
                 content:
@@ -4916,8 +4916,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1706534958
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1706535453
 template: default
 use_meta_keywords: false
 no_index_page: false
