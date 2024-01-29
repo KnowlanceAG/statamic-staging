@@ -473,21 +473,7 @@ replicator:
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
-                    text: ', bei der Ihr Ghos'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          rel: null
-                          target: null
-                          title: null
-                    text: /
-                  -
-                    type: text
-                    text: 'twriter den Vancouver Stil anwendet.'
+                    text: ', bei der Ihr Ghostwriter den Vancouver Stil anwendet.'
               -
                 type: set
                 attrs:
@@ -1713,8 +1699,8 @@ sitemap_changefreq: daily
 og_title: 'Vancouver-Zitierstil in Abschlussarbeiten | Beispiele & Generator'
 og_description: 'Vancouver-Zitierstil richtig anwenden! Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
 override_twitter_settings: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705997187
+updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
+updated_at: 1706542530
 schema_objects: |-
   <script type="application/ld+json">
   {
