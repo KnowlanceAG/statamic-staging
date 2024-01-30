@@ -6,31 +6,25 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
         marks:
-          -
-            type: bold
           -
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Bachelorarbeit schreiben lassen'
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Bachelorarbeit'
   -
     type: set
@@ -92,6 +86,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -99,28 +95,26 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 replicator:
   -
@@ -180,7 +174,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Bachelorarbeit von GWriters schreiben lassen: Leistungen & Vorteile'
+                            text: 'Bachelorarbeit schreiben lassen: Leistungen & Vorteile von GWriters'
                   -
                     type: listItem
                     content:
@@ -199,7 +193,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Fachbereiche Bachelorarbeiten, unter anderem'
+                            text: 'Bachelorarbeit Ghostwriter aus allen Fachbereichen'
                           -
                             type: text
                             text: ':'
@@ -237,7 +231,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelorarbeit BWL'
+                            text: 'BWL Bachelorarbeit schreiben lassen'
                   -
                     type: listItem
                     content:
@@ -256,7 +250,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelorarbeit Bauingenieurwesen'
+                            text: 'Bauingenieurwesen Bachelorarbeit schreiben lassenn'
                   -
                     type: listItem
                     content:
@@ -275,7 +269,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelorarbeit Elektrotechnik'
+                            text: 'Elektrotechnik Bachelorarbeit schreiben lassen'
                   -
                     type: listItem
                     content:
@@ -294,7 +288,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelorarbeit Maschinenbau'
+                            text: 'Maschinenbau Bachelorarbeit schreiben lassen'
                   -
                     type: listItem
                     content:
@@ -313,7 +307,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelorarbeit Informatik'
+                            text: 'Informatik Bachelorarbeit schreiben lassen'
             show_as_card: false
           -
             id: lin1gc06
@@ -339,7 +333,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelorarbeit Jura'
+                            text: 'Jura Bachelorarbeit schreiben lassen'
                   -
                     type: listItem
                     content:
@@ -358,7 +352,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelorarbeit Psychologie'
+                            text: 'Psychologie Bachelorarbeit schreiben lassen'
                   -
                     type: listItem
                     content:
@@ -377,7 +371,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelorarbeit Chemie'
+                            text: 'Chemie Bachelorarbeit schreiben lassen'
                   -
                     type: listItem
                     content:
@@ -396,7 +390,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelorarbeit Soziale Arbeit'
+                            text: 'Soziale Arbeit Bachelorarbeit schreiben lassen'
             show_as_card: false
         type: row
         enabled: true
@@ -448,7 +442,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Mit welchen Kosten muss ich rechnen?'
+                            text: 'Bachelorarbeit schreiben lassen: Kosten'
                   -
                     type: listItem
                     content:
@@ -467,7 +461,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Ghostwriter Bachelor Thesis: Häufig gestellte Fragen'
+                            text: 'Ghostwriter Bachelorarbeit: Häufig gestellte Fragen'
             show_as_card: false
         type: row
         enabled: true
@@ -1106,8 +1100,8 @@ replicator:
                               id: lkjvyx3h
                               values:
                                 type: button
-                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_link: 'entry::89bfdf0d-d156-4ee5-9575-09e85f7e3655'
+                                button_text: 'BWL Ghostwriter'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1143,8 +1137,8 @@ replicator:
                               id: lkjw01d8
                               values:
                                 type: button
-                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_link: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
+                                button_text: 'Jura Ghostwriter'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1180,8 +1174,8 @@ replicator:
                               id: lkjw0kmi
                               values:
                                 type: button
-                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_link: 'entry::84a37239-87ee-45fb-b2d1-058a86fecfbb'
+                                button_text: 'Maschinenbau Ghostwriter'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1217,8 +1211,8 @@ replicator:
                               id: lkjw1jyp
                               values:
                                 type: button
-                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_link: 'entry::1de3d76b-f23a-41a8-a629-15b48a07223e'
+                                button_text: 'Informatik Ghostwriter'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1254,8 +1248,8 @@ replicator:
                               id: lkjw28fq
                               values:
                                 type: button
-                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_link: 'entry::1bcd3fce-dda5-4bdb-9752-44e657ae9eb0'
+                                button_text: 'Elektrotechnik Ghostwriter'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1291,8 +1285,8 @@ replicator:
                               id: lkjw2t77
                               values:
                                 type: button
-                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_link: 'entry::9944d809-005e-4651-bf9b-5555f0229245'
+                                button_text: 'Bauingenieurwesen Ghostwriter'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1375,8 +1369,8 @@ replicator:
                               id: lkjw3ekn
                               values:
                                 type: button
-                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_link: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
+                                button_text: 'Psychologie Ghostwriter'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1412,8 +1406,8 @@ replicator:
                               id: lkjw40v7
                               values:
                                 type: button
-                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_link: 'entry::a8ea4ded-d453-4bd5-94e7-2249ccf8f0de'
+                                button_text: 'Chemie Ghostwriter'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1449,8 +1443,8 @@ replicator:
                               id: lkjw5imf
                               values:
                                 type: button
-                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_link: 'entry::925eedca-5fbe-4da9-a307-807426feaeeb'
+                                button_text: 'Soziale Arbeit Ghostwriter'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1462,6 +1456,21 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 20
+              -
+                type: set
+                attrs:
+                  id: ls0l8uht
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'Jetzt kostenlos anfragen'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
             show_as_card: false
         type: row
         enabled: true
@@ -3942,7 +3951,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705955523
+updated_at: 1706633068
 template: default
 use_meta_keywords: false
 no_index_page: false
