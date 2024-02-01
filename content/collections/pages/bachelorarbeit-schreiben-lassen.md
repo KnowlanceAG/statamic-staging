@@ -1079,7 +1079,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ghostwriter Bachelorarbeit BWL'
+                                text: 'BWL Bachelorarbeit schreiben lassen'
                         accordion_content:
                           -
                             type: set
@@ -1101,7 +1101,7 @@ replicator:
                               values:
                                 type: button
                                 button_link: 'entry::89bfdf0d-d156-4ee5-9575-09e85f7e3655'
-                                button_text: 'BWL Ghostwriter'
+                                button_text: 'Ghostwriter BWL'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1116,7 +1116,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ghostwriter Bachelorarbeit Jura'
+                                text: 'Jura Bachelorarbeit schreiben lassen'
                         accordion_content:
                           -
                             type: set
@@ -1138,7 +1138,7 @@ replicator:
                               values:
                                 type: button
                                 button_link: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
-                                button_text: 'Jura Ghostwriter'
+                                button_text: 'Ghostwriter Jura'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1153,7 +1153,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ghostwriter Bachelorarbeit Maschinenbau'
+                                text: 'Maschinenbau Bachelorarbeit schreiben lassen'
                         accordion_content:
                           -
                             type: set
@@ -1175,7 +1175,7 @@ replicator:
                               values:
                                 type: button
                                 button_link: 'entry::84a37239-87ee-45fb-b2d1-058a86fecfbb'
-                                button_text: 'Maschinenbau Ghostwriter'
+                                button_text: 'Ghostwriter Maschinenbau'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1190,7 +1190,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ghostwriter Bachelorarbeit Informatik'
+                                text: 'Informatik Bachelorarbeit schreiben lassen'
                         accordion_content:
                           -
                             type: set
@@ -1212,7 +1212,7 @@ replicator:
                               values:
                                 type: button
                                 button_link: 'entry::1de3d76b-f23a-41a8-a629-15b48a07223e'
-                                button_text: 'Informatik Ghostwriter'
+                                button_text: 'Ghostwriter Informatik'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1227,7 +1227,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ghostwriter Bachelorarbeit Elektrotechnik'
+                                text: 'Elektrotechnik Bachelorarbeit schreiben lassen'
                         accordion_content:
                           -
                             type: set
@@ -1249,7 +1249,7 @@ replicator:
                               values:
                                 type: button
                                 button_link: 'entry::1bcd3fce-dda5-4bdb-9752-44e657ae9eb0'
-                                button_text: 'Elektrotechnik Ghostwriter'
+                                button_text: 'Ghostwriter Elektrotechnik'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1264,7 +1264,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ghostwriter Bachelorarbeit Bauingenieurwesen'
+                                text: 'Bauingenieurwesen Bachelorarbeit schreiben lassen'
                         accordion_content:
                           -
                             type: set
@@ -1286,7 +1286,7 @@ replicator:
                               values:
                                 type: button
                                 button_link: 'entry::9944d809-005e-4651-bf9b-5555f0229245'
-                                button_text: 'Bauingenieurwesen Ghostwriter'
+                                button_text: 'Ghostwriter Bauingenieurwesen'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1301,7 +1301,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ghostwriter Bachelorarbeit Psychologie'
+                                text: 'Psychologie Bachelorarbeit schreiben lassen'
                         accordion_content:
                           -
                             type: set
@@ -1370,7 +1370,7 @@ replicator:
                               values:
                                 type: button
                                 button_link: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
-                                button_text: 'Psychologie Ghostwriter'
+                                button_text: 'Ghostwriter Psychologie'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1385,7 +1385,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ghostwriter Bachelorarbeit Chemie'
+                                text: 'Chemie Bachelorarbeit schreiben lassen'
                         accordion_content:
                           -
                             type: set
@@ -1407,7 +1407,7 @@ replicator:
                               values:
                                 type: button
                                 button_link: 'entry::a8ea4ded-d453-4bd5-94e7-2249ccf8f0de'
-                                button_text: 'Chemie Ghostwriter'
+                                button_text: 'Ghostwriter Chemie'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -1422,7 +1422,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ghostwriter Bachelorarbeit Soziale Arbeit'
+                                text: 'Soziale Arbeit Bachelorarbeit schreiben lassen'
                         accordion_content:
                           -
                             type: set
@@ -1444,7 +1444,7 @@ replicator:
                               values:
                                 type: button
                                 button_link: 'entry::925eedca-5fbe-4da9-a307-807426feaeeb'
-                                button_text: 'Soziale Arbeit Ghostwriter'
+                                button_text: 'Ghostwriter Soziale Arbeit'
                                 color: '#FF6606'
                                 button_align: justify-start
                                 spacing_top: true
@@ -3951,7 +3951,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1706636229
+updated_at: 1706802622
 template: default
 use_meta_keywords: false
 no_index_page: false
