@@ -362,20 +362,11 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
                     text: "Mustervorlage für Doktorarbeit schreiben\_lassen"
                   -
                     type: hardBreak
-                    marks:
-                      -
-                        type: bold
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
                     text: '– Wie funktioniert die Kooperation?'
             show_as_card: false
         type: row
@@ -3293,7 +3284,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705955799
+updated_at: 1706791926
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3302,9 +3293,9 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 meta_title: 'Doktorarbeit schreiben lassen | Ghostwriter Dissertation'
-meta_description: 'Ghostwriter Dissertation | wissenschaftliche Doktorarbeit schreiben lassen | akademische Ghostwriter helfen schnell, diskret und geprüft auf Qualität & Plagiate.'
+meta_description: 'Ghostwriter Dissertation | wissenschaftliche Doktorarbeit schreiben lassen | akademische Ghostwriter helfen schnell, diskret und geprüft auf Qualität.'
 og_title: 'Doktorarbeit schreiben lassen | Ghostwriter Dissertation'
-og_description: 'Ghostwriter Dissertation | wissenschaftliche Doktorarbeit schreiben lassen | akademische Ghostwriter helfen schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_description: 'Ghostwriter Dissertation | wissenschaftliche Doktorarbeit schreiben lassen | akademische Ghostwriter helfen schnell, diskret und geprüft auf Qualität.'
 og_image: GWriters-Logo.png
 sitemap_active: true
 page_title: 'Doktorarbeit schreiben lassen'
