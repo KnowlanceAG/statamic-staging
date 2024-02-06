@@ -6,22 +6,21 @@ teaser:
   -
     type: heading
     attrs:
-      level: 1
       textAlign: center
+      level: 1
     content:
       -
         type: text
         marks:
           -
-            type: bold
-          -
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'BWL Ghostwriter'
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -32,10 +31,7 @@ teaser:
             type: textColor
             attrs:
               color: 'rgb(68, 68, 68)'
-              hex: '#000'
         text: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-    attrs:
-      textAlign: center
   -
     type: set
     attrs:
@@ -96,6 +92,8 @@ teaser:
         padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
@@ -103,33 +101,31 @@ teaser:
           -
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
-    attrs:
-      textAlign: center
   -
     type: heading
     attrs:
-      level: 2
       textAlign: center
+      level: 2
     content:
       -
         type: text
         marks:
           -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-          -
             type: link
             attrs:
               href: 'tel:##phone##'
-              target: null
               rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
         text: '##phone##'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1707226205
+updated_at: 1707226217
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
