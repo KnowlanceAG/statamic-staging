@@ -125,7 +125,7 @@ teaser:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1707226217
+updated_at: 1707229484
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -150,7 +150,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den\_akademischen Ghostwriter für Ihre BWL Aufgabenstellungen, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Betriebswirtschaftslehre in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre "
+                    text: "Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den\_akademischen Ghostwriter für Ihre BWL Aufgabenstellungen, der zu Ihren individuellen Anforderungen passt und Sie wie ein Betreuer während des ganzen Schreibprozesses unterstützt. Sie möchten Ihr akademisches Projekt im Fachbereich Betriebswirtschaftslehre in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre "
                   -
                     type: text
                     marks:
@@ -164,7 +164,7 @@ replicator:
                     text: 'wissenschaftliche Arbeit schreiben lassen'
                   -
                     type: text
-                    text: '? Dann wenden Sie sich mit Ihrer Arbeit an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.'
+                    text: '? Dann wenden Sie sich mit Ihrer Arbeit an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern mit Masterabschluss, Doktoren und Professoren arbeitet.'
               -
                 type: heading
                 attrs:
@@ -490,7 +490,7 @@ replicator:
                     text: 'qualitativ hochwertige Ausarbeitungen'
                   -
                     type: text
-                    text: ' sowie Projektarbeiten liefern und trotz der vielen anspruchsvollen Klausuren stets einen sehr guten Notendurchschnitt erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studierenden neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu der fehlenden Erfahrung und dem Leistungsdruck ein zusätzlicher Zeitdruck hinzu. '
+                    text: ' sowie Hausarbeiten, Seminararbeiten und Projektarbeiten liefern und trotz der vielen anspruchsvollen Klausuren stets einen sehr guten Notendurchschnitt erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studierenden neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu der fehlenden Erfahrung und dem Leistungsdruck an vielen Hochschulen ein zusätzlicher Zeitdruck hinzu. '
               -
                 type: paragraph
                 attrs:
@@ -514,7 +514,7 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: "\_benötigt. Unsere Auftraggeber haben in ihrer Studienlaufbahn besonders Schwierigkeiten bei der "
+                    text: "\_benötigt. Unsere Auftraggeber haben in ihrer Studienlaufbahn und im Schreibprozess besonders Schwierigkeiten bei der "
                   -
                     type: text
                     marks:
@@ -528,7 +528,7 @@ replicator:
                     text: Themenfindung
                   -
                     type: text
-                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsarbeit & Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederungen, sodass die professionelle Unterstützung durch einen erfahrenen akademischen Ghostwriter ratsam ist. Ein Lektorat oder eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL sind zudem ebenfalls sehr zu empfehlen.'
+                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsarbeit & Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederungen, sodass die professionelle Unterstützung durch einen erfahrenen akademischen Ghostwriter ratsam ist. Unsere Experten helfen Ihnen, Fehler im Schreibprozess zu vermeiden und Ihre Zielsetzung optimal zu erreichen, sodass Sie sich voll und ganz auf das Studieren konzentrieren können. Ein Lektorat oder eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL sind zudem ebenfalls sehr zu empfehlen.'
             show_as_card: false
         type: row
         enabled: true
@@ -550,70 +550,49 @@ replicator:
             id: kMbKV71o
             bard:
               -
-                type: paragraph
-              -
                 type: blockquote
                 content:
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: center
                     content:
                       -
                         type: text
                         marks:
                           -
                             type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
                         text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet BWL Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
                       -
                         type: text
                         marks:
                           -
-                            type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                          -
                             type: link
                             attrs:
                               href: /anfrage
-                              target: null
                               rel: null
+                              target: null
+                              title: null
+                          -
+                            type: bold
                         text: 'unverbindliche Anfrage schicken'
                       -
                         type: text
                         marks:
                           -
                             type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
                         text: '. '
-                    attrs:
-                      textAlign: center
                   -
                     type: paragraph
+                    attrs:
+                      textAlign: center
                     content:
                       -
                         type: text
                         marks:
                           -
                             type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
                         text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie zu Ihrer Arbeit eine kostenlose telefonische Beratung durch einen erfahrenen Ghostwriter wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen wie bspw. Klausuren erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                    attrs:
-                      textAlign: center
             show_as_card: false
         type: row
         enabled: true
@@ -668,7 +647,7 @@ replicator:
                     text: 'erfahrenen akademischen Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse'
                   -
                     type: text
-                    text: ' und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. Auch haben unsere Autoren hervorragend Kenntnisse in Teilgebieten der Betriebswirtschaftslehre wie dem Rechnungswesen oder in verwandten bzw. verbundenen Fachgebieten wie der Volkswirtschaftslehre, der Mathematik und sogar den Ingenieurwissenschaften. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studierenden, dem Thema der Arbeit und der notwendigen Forschungsarbeit. Schließlich hat bspw. eine Hausarbeit andere Ansprüche an den Verfasser als eine Doktorarbeit.'
+                    text: ', Erfahrungen in seinem Einsatzbereich sowie mindestens einen Masterabschluss und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen, innerhalb und außerhalb von Hochschule. Auch haben unsere Autoren hervorragend Kenntnisse in Teilgebieten der Betriebswirtschaftslehre wie dem Rechnungswesen oder in verwandten bzw. verbundenen Fachgebieten wie der Volkswirtschaftslehre, der Mathematik und sogar den Ingenieurwissenschaften. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten, besser als jeder Betreuer an einer Hochschule. Dieser variiert nach dem persönlichen Einsatz des Studierenden, dem Thema der Arbeit und der notwendigen Forschungsarbeit. Schließlich hat bspw. eine Hausarbeit oder eine Seminararbeit andere Ansprüche an den Verfasser als eine Doktorarbeit.'
               -
                 type: paragraph
                 attrs:
@@ -698,7 +677,7 @@ replicator:
                     text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit"
                   -
                     type: text
-                    text: ' oder verschiedener Teilbereiche als Leistungen bei einem Ghostwriter in Auftrag geben. So ist es auch üblich, dass der Ghostwriter Studierende bereits bei der Suche nach der passenden Literatur im Rahmen der Literaturrecherche unterstützt, ihnen bei der Texterstellung beratend zur Seite steht oder bereits durch die Studierenden fertig geschriebene Arbeiten lektoriert und korrigiert. Ein solches Lektorat von einem erfahrenen Ghostwriter verleiht Ihrer Arbeit zusammen mit einer Plagiatsprüfung den letzten Schliff. Auch ein Coaching und Training ist möglich, um die Studierenden auf eine Klausur vorzubereiten oder sie in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen. Und nicht zuletzt bieten unsere Ghostwriter auch Übersetzungen von akademischen Arbeiten, Klausuren und allen anderen Arten von Texten an.'
+                    text: ' oder verschiedener Teilbereiche als Leistungen sowie die Erstellung eines Konzepts nach den eigenen Vorgaben bei einem Ghostwriter in Auftrag geben. So ist es auch üblich, dass der Ghostwriter Studierende bereits bei der Suche nach der passenden Literatur und Quellen im Rahmen der Literaturrecherche unterstützt, ihnen bei der Texterstellung während der gesamten Bearbeitungszeit beratend zur Seite steht oder bereits durch die Studierenden fertig geschriebene Arbeiten lektoriert und korrigiert. Ein solches Lektorat von einem erfahrenen Ghostwriter verleiht Ihrer Arbeit zusammen mit einer Plagiatsprüfung den letzten Schliff und vermeidet versehentliche Fehler. Auch ein Coaching und Training ist möglich, um die Studierenden auf eine Klausur vorzubereiten oder sie in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten und Forschungsarbeit durchzuführen. Und nicht zuletzt bieten unsere Ghostwriter auch Übersetzungen von akademischen Arbeiten, Klausuren und allen anderen Arten von Texten an.'
               -
                 type: set
                 attrs:
@@ -1780,7 +1759,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Des Weiteren sind viele BWL-Konzepte und -Strategien dynamisch und entwickeln sich ständig weiter. Eine KI, die nicht laufend mit aktuellen wirtschaftlichen Entwicklungen oder Theorien aktualisiert wird, könnte veraltete oder nicht mehr relevante Informationen verwenden.'
+                    text: 'Des Weiteren sind viele BWL-Konzepte und -Strategien dynamisch und entwickeln sich ständig weiter. Eine KI, die nicht laufend mit aktuellen wirtschaftlichen Entwicklungen, Theorien und neuen Quellen aktualisiert wird, könnte veraltete oder nicht mehr relevante Informationen verwenden.'
               -
                 type: heading
                 attrs:
@@ -1873,7 +1852,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftlern, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse und Erfahrung im Umgang mit der Literaturrecherche und Forschungsarbeiten.'
+                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftler, zertifizierte Professoren und wissenschaftliche Mitarbeiter in den Fachgebieten BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse und Erfahrung im Umgang mit der Literaturrecherche, dem Umgang mit wissenschaftlichen Quellen und Forschungsarbeiten. Letztlich kennen diese auch den aktuellen Forschungsstand perfekt und können Sie somit vollumfänglich unterstützen.'
               -
                 type: paragraph
                 attrs:
@@ -2003,7 +1982,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
+                    text: 'die BWL betrachtet Themenstellungen und Konzepte aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
               -
                 type: paragraph
                 attrs:
