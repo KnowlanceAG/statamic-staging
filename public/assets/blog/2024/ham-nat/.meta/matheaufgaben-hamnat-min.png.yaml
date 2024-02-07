@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'ham nat online test'
 size: 4150
 last_modified: 1707317031
 width: 401
