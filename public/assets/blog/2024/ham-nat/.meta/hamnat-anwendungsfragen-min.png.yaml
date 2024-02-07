@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'ham nat test anwendungsfragen'
 size: 30205
 last_modified: 1707317037
 width: 1289
