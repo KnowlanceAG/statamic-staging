@@ -1,0 +1,17 @@
+<div class="p-12 bg-gray-200 flex sm:flex-row flex-col">
+    <div class="p-4 sm:w-1/2 w-full flex justify-center">
+      {{ if ex_image }}
+        {{ responsive:ex_image alt="{ex_image:alt}" class="" }}
+      {{ /if }}
+    </div>
+    <div class="sm:w-1/2 w-full">
+        <h2>{{ ex_title }}</h2>
+        <p>Fachbereich: {{ ex_fachbereich }}<a href="{{ url }}" class="text-orange-500">{{ title }}</a> {{ /ex_fachbereich }}<br>
+        Arbeitenart: {{ ex_type }} <br>
+        Seiten: {{ ex_pages }}<br>
+        Zitation: {{ ex_zitation }}<br>
+        </p>
+        <p class="flex {{ if ex_button_align }}{{ ex_button_align }}{{ else }}justify-center{{ /if }}"><a href="{{ ex_button_link }}" class="px-10 py-3 {{ if !spacing_top }}mt-8{{ /if }} inline-block {{ if !color }}bg-orange-500 hover:bg-orange-700 hover:opacity-100{{ /if }} text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95" {{ if color }} style="background-color: {{ color }}" {{ /if }}>{{ ex_button_text }}</a></p>
+
+    </div>
+</div>

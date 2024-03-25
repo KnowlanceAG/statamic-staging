@@ -1,18 +1,17 @@
 ---
+id: 7cad538c-ad74-4617-825e-bbac46ebf310
+blueprint: pages
 title: Übersetzung
 teaser:
   -
     type: heading
     attrs:
       level: 1
+      textAlign: center
     content:
       -
         type: text
         marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
           -
             type: textColor
             attrs:
@@ -27,77 +26,165 @@ teaser:
         marks:
           -
             type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
         text: "Erfahrene akademische Experten\_übersetzen Ihre wissenschaftliche Arbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate."
-  -
-    type: paragraph
+    attrs:
+      textAlign: center
   -
     type: set
     attrs:
+      id: VMzv7F2L
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: qHjx0ebp
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: zvfzF9cG
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz & 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR & garantieren Ihre Anonymität zu 100%.'
+          -
+            id: pWlpBRmt
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen & kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: H4Vnnibn
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle & pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+          -
+            id: SOpkBEwM
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: Kn2J2Y12
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: mE1pHadP
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+        spacing_top: false
+  -
+    type: set
+    attrs:
+      id: qA6BtD01
+      values:
+        type: spacer
+        padding-y: 20
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+    attrs:
+      textAlign: center
+  -
+    type: heading
+    attrs:
+      level: 2
+      textAlign: center
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 replicator:
   -
-    columns-replicator:
+    id: jFdDYF8s
+    columns_replicator:
       -
-        columns_per_row: 1
-        single-col: false
+        id: yUb57lvQ
+        single_col: false
         grid:
           -
+            id: rQreZL4X
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'In Zeiten von Internationalisierung und Globalisierung müssen Texte häufig in andere Sprachen übertragen werden. Dies gilt natürlich auch für Übersetzungen von akademischen Texten und wissenschaftlichen Arbeiten.'
                   -
-                    type: hard_break
+                    type: hardBreak
                   -
-                    type: hard_break
+                    type: hardBreak
                   -
                     type: text
                     text: 'Verschiedene Gründe sind für die Notwendigkeit einer Übersetzung von wissenschaftlichen Ausarbeitungen in andere Sprachen denkbar:'
               -
-                type: bullet_list
+                type: bulletList
                 content:
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Viele wissenschaftliche Arbeiten, Texte, Artikel, Executive Summaries, usw. müssen nicht nur auf Deutsch, sondern auch auf Englisch oder eventuell in einer anderen Sprache abgegeben werden'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Veröffentlichungen in internationalen Fachzeitschriften erfolgen üblicherweise in englischer Sprache'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Ergebnisse wissenschaftlicher Forschungen bzw. Arbeiten sollen einer breiten Öffentlichkeit präsentiert werden'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -105,6 +192,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -112,54 +200,68 @@ replicator:
                     text: 'Übersetzungen bei GWriters'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Unser Übersetzungsteam übersetzt wissenschaftliche Texte, Arbeiten und Dokumente in höchster Qualität in bzw. aus vielen wichtigen Sprachen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Wir bieten:'
               -
-                type: bullet_list
+                type: bulletList
                 content:
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Schnelle und flexible Bearbeitung Ihrer Übersetzungen'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Fachsprachlich versierte Spezialisten & Muttersprachler'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Konsequente Qualitätskontrolle durch Supervisor & Betreuer'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Die zeitnahe, gründliche und fachspezifische Übersetzung wird durch unser Team aus Diplom-Übersetzern, Juristen, Wirtschaftswissenschaftlern, Ingenieuren und vielen anderen akademischen Experten aus verschiedenen Fachbereichen garantiert. Alle Mitarbeiter verfügen über reichhaltige Erfahrung in der jeweiligen Fachterminologie und gewährleisten damit die bestmögliche sprachliche Exaktheit in der jeweiligen Zielsprache. Alle für akademische Übersetzungen eingesetzten Mitarbeiter verfügen über Auslandserfahrung und/oder haben dort bereits wissenschaftliche Arbeiten zur Veröffentlichung gebracht haben. GWriters garantiert eine konsequente Qualitätskontrolle und zuverlässigen Service.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -170,9 +272,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/anfrage'
-                          target: null
+                          href: /anfrage
                           rel: null
+                          target: null
+                          title: null
                     text: Anfrage
                   -
                     type: text
@@ -180,721 +283,1066 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: center
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Wichtige Fachbereiche:'
+                    text: 'Wichtige Fachbereiche und Arbeiten'
+              -
+                type: set
+                attrs:
+                  id: ljoh1u6i
+                  values:
+                    type: custom_link_list
+                    raster:
+                      -
+                        id: ljoh22s8
+                        text: Fachrichtungen
+                        eintraege:
+                          -
+                            id: ljoh2bsp
+                            headline: 'Technische Fachrichtungen'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/architektur
+                                          target: null
+                                          rel: null
+                                    text: 'Architektur Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/bauingenieurwesen
+                                          target: null
+                                          rel: null
+                                    text: 'Bauingenieurwesen Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/elektrotechnik
+                                          target: null
+                                          rel: null
+                                    text: 'Elektrotechnik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/maschinenbau
+                                          target: null
+                                          rel: null
+                                    text: 'Maschinenbau Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/informatik
+                                          target: null
+                                          rel: null
+                                    text: 'Informatik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          target: null
+                                          rel: null
+                                    text: 'Softwarelokalisierung Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          target: null
+                                          rel: null
+                                    text: 'Biotechnologie Ghostwriter'
+                                  -
+                                    type: text
+                                    text: ' '
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/technomathematik
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Technomathematik'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/ingenieurwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Ingenieurwissenschaften'
+                          -
+                            id: ljoh2wxw
+                            headline: Naturwissenschaften
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/biologie
+                                          target: null
+                                          rel: null
+                                    text: 'Biologie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/chemie
+                                          target: null
+                                          rel: null
+                                    text: 'Chemie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/geologie
+                                          target: null
+                                          rel: null
+                                    text: 'Geologie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/geowissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Geowissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/mathematik
+                                          target: null
+                                          rel: null
+                                    text: 'Mathematik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/agrarwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Agrarwissenschaften'
+                          -
+                            id: ljoh3l91
+                            headline: Sozialwissenschaften
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          target: null
+                                          rel: null
+                                    text: 'Erziehungswissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/kommunikationswissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Kommunikationswissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/soziale-arbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Soziale Arbeit Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/sozialwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Sozialwissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/soziologie
+                                          target: null
+                                          rel: null
+                                    text: 'Soziologie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/sprachwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Sprachwissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kommunikationsdesign'
+                                  -
+                                    type: text
+                                    text: ' '
+                          -
+                            id: ljoh3x4b
+                            headline: 'Wirtschaftliche Fachbereiche'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/finanzwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Finanzwissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/medienwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Medienwissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/bwl
+                                          target: null
+                                          rel: null
+                                    text: 'BWL Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/marketing
+                                          target: null
+                                          rel: null
+                                    text: 'Marketing Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/wirtschaftsinformatik
+                                          target: null
+                                          rel: null
+                                    text: 'Wirtschaftsinformatik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/wirtschaftswissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Wirtschaftswissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/personalmanagement
+                                          target: null
+                                          rel: null
+                                    text: 'Personalmanagement Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Internationale'
+                                          target: null
+                                          rel: null
+                                    text: 'Internationale BWL Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: hardBreak
+                          -
+                            id: ljoh4b21
+                            headline: Geisteswissenschaften
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/germanistik-ghostwriter
+                                          target: null
+                                          rel: null
+                                    text: 'Germanistik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/anglistik
+                                          target: null
+                                          rel: null
+                                    text: 'Anglistik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/geschichte
+                                          target: null
+                                          rel: null
+                                    text: 'Geschichte Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/kunst
+                                          target: null
+                                          rel: null
+                                    text: 'Kunst Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/literatur
+                                          target: null
+                                          rel: null
+                                    text: 'Literatur Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/jura
+                                          target: null
+                                          rel: null
+                                    text: 'Jura Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/philosophie
+                                          target: null
+                                          rel: null
+                                    text: 'Philosophie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kunstgeschichte'
+                          -
+                            id: ljoh4l6j
+                            headline: 'Medizinische Fachrichtungen'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/medizin
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Medizin'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/pflegewissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Pflegewissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/psychologie
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Psychologie'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/zahnmedizin
+                                          target: null
+                                          rel: null
+                                    text: 'Zahnmedizin Ghostwriter'
+                      -
+                        id: ljoh1weq
+                        text: Arbeiten
+                        eintraege:
+                          -
+                            id: ljoh5n3s
+                            headline: Abschlussarbeiten
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/diplomarbeit
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Diplomarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/examensarbeit
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Examensarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/magisterarbeit
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Magisterarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Bachelorarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/masterarbeit-schreiben-lassen
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Masterarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Masterthesis schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/doktorarbeit
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Doktorarbeit schreiben lassen'
+                          -
+                            id: ljoh8o20
+                            headline: 'Sonstige Arbeiten'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/ebook
+                                          target: null
+                                          rel: null
+                                    text: 'eBook schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/lernskript
+                                          target: null
+                                          rel: null
+                                    text: 'Lernskript schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/praesentationen
+                                          target: null
+                                          rel: null
+                                    text: 'Präsentationen erstellen lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/statistische-analysen
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Statistik'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /expose
+                                          target: null
+                                          rel: null
+                                    text: 'Exposé schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/referat
+                                          target: null
+                                          rel: null
+                                    text: 'Referat schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                attrs:
+                                  textAlign: start
+                          -
+                            id: ljoh9nu0
+                            headline: Studienarbeiten
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/essay
+                                          target: null
+                                          rel: null
+                                    text: 'Essay schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/hausarbeit-schreiben-lassen
+                                          target: null
+                                          rel: null
+                                    text: 'Hausarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/facharbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Facharbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/seminararbeit-schreiben-lassen
+                                          target: null
+                                          rel: null
+                                    text: 'Seminararbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/studienarbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Studienarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/fallstudie
+                                          target: null
+                                          rel: null
+                                    text: 'Fallstudie schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/praktikumsbericht
+                                          target: null
+                                          rel: null
+                                    text: 'Praktikumsbericht schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/projektarbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Projektarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/summary
+                                          target: null
+                                          rel: null
+                                    text: 'Summary schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/protokoll
+                                          target: null
+                                          rel: null
+                                    text: 'Protokoll schreiben lassen'
+                                attrs:
+                                  textAlign: start
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+            show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-      -
-        columns_per_row: '3'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/architektur'
-                          target: null
-                          rel: null
-                    text: Architektur
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
-                          target: null
-                          rel: null
-                    text: BWL
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/erziehungswissenschaften-ghostwriter'
-                          target: null
-                          rel: null
-                    text: Erziehungswissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/germanistik-ghostwriter'
-                          target: null
-                          rel: null
-                    text: Germanistik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/jura'
-                          target: null
-                          rel: null
-                    text: Jura
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/literatur'
-                          target: null
-                          rel: null
-                    text: Literatur
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/mathematik'
-                          target: null
-                          rel: null
-                    text: Mathematik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/pflegewissenschaften'
-                          target: null
-                          rel: null
-                    text: Pflegewissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/soziale-arbeit'
-                          target: null
-                          rel: null
-                    text: 'Soziale Arbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/vwl'
-                          target: null
-                          rel: null
-                    text: VWL
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/zahnmedizin'
-                          target: null
-                          rel: null
-                    text: Zahnmedizin
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bauingenieurwesen'
-                          target: null
-                          rel: null
-                    text: Bauingenieurwesen
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/chemie'
-                          target: null
-                          rel: null
-                    text: Chemie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/finanzwissenschaften'
-                          target: null
-                          rel: null
-                    text: Finanzwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/geschichte'
-                          target: null
-                          rel: null
-                    text: Geschichte
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
-                          target: null
-                          rel: null
-                    text: Kommunikation
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/marketing'
-                          target: null
-                          rel: null
-                    text: Marketing
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medienwissenschaften'
-                          target: null
-                          rel: null
-                    text: Medienwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/philosophie'
-                          target: null
-                          rel: null
-                    text: Philosophie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/soziologie'
-                          target: null
-                          rel: null
-                    text: Soziologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftsinformatik'
-                          target: null
-                          rel: null
-                    text: Wirtschaftsinformatik
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/biologie'
-                          target: null
-                          rel: null
-                    text: Biologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/elektrotechnik'
-                          target: null
-                          rel: null
-                    text: Elektrotechnik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/geologie'
-                          target: null
-                          rel: null
-                    text: Geologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/informatik'
-                          target: null
-                          rel: null
-                    text: Informatik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/kunst'
-                          target: null
-                          rel: null
-                    text: Kunst
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/maschinenbau'
-                          target: null
-                          rel: null
-                    text: Maschinenbau
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medizin'
-                          target: null
-                          rel: null
-                    text: Medizin
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/psychologie'
-                          target: null
-                          rel: null
-                    text: Psychologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/sprachwissenschaften'
-                          target: null
-                          rel: null
-                    text: Sprachwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftswissenschaften'
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
-        type: row
-        enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    border: false
+    is_full: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619013797
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705993965
 meta_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 meta_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
@@ -903,8 +1351,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
-id: 7cad538c-ad74-4617-825e-bbac46ebf310
+og_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
+og_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
+og_image: GWriters-Logo.png
+sitemap_active: true
+breadcrumbs_active: true
 ---

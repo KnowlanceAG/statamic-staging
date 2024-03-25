@@ -1,20 +1,18 @@
 <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {{ entries }}
         <div class="bg-gray-300">
-            <div class="w-full max-h-56 object-cover overflow-hidden">
-                <a href="{{ url }}">
-                    {{ post_image }}
-                        {{ responsive:post_image alt="{alt}" class=" mb-2" }}
-                    {{ /post_image }}
-                </a>
-            </div>
+            <a href="{{ url }}">
+                <div class="w-full max-h-56 object-cover overflow-hidden">
+                    {{ if post_image }}
+                        {{ post_image }}
+                            {{ responsive:post_image alt="{alt}" class=" mb-2" }}
+                        {{ /post_image }}
+                    {{ /if }}
+                </div>
+                <h4 class="px-4 text-black hover:text-orange-500 hover:transition-color hover:duration-200" >{{ title }}</h4>
+            </a>
             <div class="p-4">
-                <h4>{{ title }}</h4>
-                {{ short_text }}
-                <p>
-                    <br>
-                    <a href="{{ url }}" class="px-4 py-3 text-xs font-300 text-white uppercase rounded-md bg-red-400 hover:transition-colors hover:duration-200 hover:bg-red-500">Weiterlesen</a>
-                </p>
+                {{ short_text | shortcode  }}
             </div>
         </div>
     {{ /entries }}

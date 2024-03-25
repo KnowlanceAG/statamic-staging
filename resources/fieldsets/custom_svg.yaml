@@ -1,0 +1,46 @@
+title: 'SVG Bild - Größe einstellbar'
+fields:
+  -
+    handle: svg_file
+    field:
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      max_files: 1
+      display: 'SVG Datei'
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
+      validate:
+        - required
+        - 'mimes:svg'
+  -
+    handle: custom_svg_width
+    field:
+      min: 25
+      max: 150
+      step: 5
+      default: '65'
+      display: 'Bild Breite'
+      type: range
+      icon: range
+      instructions: 'Angabe in px'
+      listable: hidden
+      instructions_position: above
+  -
+    handle: link_field
+    field:
+      collections:
+        - akademie
+        - blog
+        - pages
+        - presse
+        - team
+      display: Link
+      type: link
+      icon: link
+      listable: hidden
+      instructions_position: above

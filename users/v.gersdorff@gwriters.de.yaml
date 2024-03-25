@@ -1,0 +1,36 @@
+name: 'Anna Milena von Gersdorff'
+super: false
+avatar: team/anna-milena-von-gersdorff-gwriters.jpg
+position:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '(Head of Marketing)'
+short_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Anna Milena von Gersdorff leitet als Online-Marketing Expertin den GWriters Blog sowie alle Veröffentlichungen, Änderungen und Sonderaktionen auf unserer Webseite. Darüber hinaus ist Sie für gesamte Öffentlichkeitsarbeit und die Kommunikation mit unseren Medienpartnern zuständig.'
+roles:
+  - redakteure
+groups:
+  - redakteure
+team_profil:
+  - 1e772779-291e-43ee-81ae-7726c207cd48
+slug: anna-milena-von-gersdorff
+id: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
+password_hash: $2y$10$5yl27KADsRE8BfhKHsXigulw4kymO6rjMm.yAZFG21QugNvxMPvVC
+preferences:
+  collections:
+    team:
+      columns:
+        - photo
+        - title
+        - position
+        - link
+    pages:
+      after_save: continue_editing

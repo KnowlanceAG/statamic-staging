@@ -1,115 +1,393 @@
-{{ form:create in="{ form:handle }"
-id="form"
-class="flex flex-wrap form-self"
-x-ref="form"
-x-data="sending()"
-data-submission-type="{ form:handle }"
-@submit.prevent="sendForm()"
-action="{ config:app:url }/!/forms/{ form:handle }"
-}}
-    <div class="w-full grid md:grid-cols-12 gap-y-6 md:gap-x-6 pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8 bg-gray-200">
-        {{# Honeypot spam protection. #}}
-        <div class="hidden">
-            <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1" for="fax">Fax <sup class="text-notice-400">*</sup></label>
-            <input class="form-input w-full" id="fax" type="fax" name="fax" tabindex="-1" autocomplete="off"/>
-        </div>
-
-        {{ fields }}
-            <div class="flex flex-col space-y-4
-                {{ width == '25' ?= 'md:col-span-3' }}
-                {{ width == '33' ?= 'md:col-span-4' }}
-                {{ width == '50' ?= 'md:col-span-6' }}
-                {{ width == '66' ?= 'md:col-span-8' }}
-                {{ width == '75' ?= 'md:col-span-9' }}
-                {{ width == '100' ?= 'md:col-span-12' }}"
-            >
-                <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1" for="{{ handle }}">{{ trans key="{display}" }} {{ if validate | contains:required }}<sup class="text-red-500">*</sup>{{ /if }}</label>
-                {{# Load notification when there is a validation error with the name field. #}}
-                <template x-if="errors.{{ handle }}">
-                    {{ partial src="components/notification" type="error" attribute="x-text='errors.{handle}'" }}
-                </template>
-                {{ field }}
-            </div>
-        {{ /fields }}
-
-        <div class="my-4 md:col-span-12">
-            {{ form_info_text }}
-                {{ text }}
-            {{ /form_info_text }}
-        </div>
-
-        <div class="md:col-span-12 flex">
-            <button
-            class="bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
-            type="submit">
-                {{ if form.handle == 'autorenbewerbung'}}
-                    Bewerbung absenden
-                {{ elseif form.handle == 'anfrage'}}
-                    Anfrage absenden
-                {{ else }}
-                    Absenden
-                {{ /if }}
-            </button>
-        </div>
-
-        <template x-if="success">
-            {{
-                partial
-                src="components/notification"
-                type="success"
-                class="md:col-span-12"
-                content="Vielen Dank, wir haben Ihre Nachricht erhalten und werden Sie so schnell wie möglich kontaktieren."
-            }}
-        </template>
+{{ form:create in="{ form:handle }" id="form" class="flex flex-wrap form-self"
+x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
+@submit.prevent="sendForm()" action="javascript:void(0);"
+ }}
+  <div
+    class="w-full grid md:grid-cols-12 gap-y-6 md:gap-x-6 pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8 bg-gray-200">
+    {{# Honeypot spam protection. #}}
+    <div class="hidden">
+      <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1" for="fax">
+        Fax
+        <sup class="text-notice-400">*</sup>
+      </label>
+      <input class="form-input w-full" id="fax" type="fax" name="fax" tabindex="-1" autocomplete="off" />
     </div>
-{{ /form:create }}
 
-{{ dynamic_token }}
+    {{ fields where="handle:gw_source" }}
+      <div class="hidden">
+        {{ field }}
+      </div>
+    {{ /fields }}
+
+    {{ if form.handle == 'anfrage' }}
+      <!-- Topic data -->
+      <div class="flex flex-col md:col-span-12">
+        <h3 class="mt-0">IHR PROJEKT</h3>
+      </div>
+      <div class="flex space-y-4 md:col-span-6">
+        {{ fields where="handle:fachrichtung" }}
+          {{ partial:content/form_element marginTopNone="true" fullWidth="true" }}
+        {{ /fields }}
+      </div>
+      <div class="flex space-y-4 md:col-span-6">
+        {{ fields where="handle:zitationsstil" }}
+          {{ partial:content/form_element marginTopNone="true" fullWidth="true" }}
+        {{ /fields }}
+      </div>
+      {{ fields where="handle:work_type" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:survey_progress" }}
+        {{ partial:content/form_element cls="hidden" }}
+      {{ /fields }}
+      {{ fields where="handle:arbeitsthema_spezifikationen_usw" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:seitenzahl" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:lieferdatum" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:file" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+
+      <!-- Personal data -->
+      <div class="flex flex-col md:col-span-12"">
+      <h3 class="mt-0">PERSÖNLICHE DATEN</h3>
+        <p>Wir benötigen nur Ihre E-Mail Adresse, alle anderen Angaben sind freiwillig. Allerdings ist eine Telefonnummer für eine individuelle Abstimmung sehr vorteilhaft. Ihre persönlichen Daten werden <span class="font-bold">streng vertraulich</span> behandelt. Wenn Sie unser Angebot nicht annehmen, werden Ihre Daten <span class="font-bold">innerhalb weniger Tage gelöscht!</span></p>
+      </div>
+      {{ fields where="handle:name" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:nachname" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:e_mail_adresse" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:telefon" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:callback_needed" }}
+        <div class="flex space-y-4 md:col-span-12">
+          <div class="flex items-center">
+            <button type="button" id="callbackbutton" class="bg-gray-300 relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2" role="switch" aria-checked="false" aria-labelledby="annual-billing-label">
+              <span aria-hidden="true" class="translate-x-0 pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out"></span>
+            </button>
+            <span class="ml-3 text-sm text-gray-600">
+              Wünschen Sie einen Telefontermin? Wir rufen Sie gerne zurück!
+            </span>
+          </div>
+        </div>
+        {{ partial:content/form_element cls="hidden"}}
+      {{ /fields }}
+      {{ fields where="handle:callback_date" }}
+        {{ partial:content/form_element cls="hidden" }}
+      {{ /fields }}
+      {{ fields where="handle:callback_time_from" }}
+        {{ partial:content/form_element cls="hidden" }}
+      {{ /fields }}
+      {{ fields where="handle:callback_time_to" }}
+        {{ partial:content/form_element cls="hidden" }}
+      {{ /fields }}
+
+      <!-- Promocode -->
+      {{ fields where="handle:promocode" }}
+        <div class="flex space-y-4 md:col-span-12">
+          <div class="flex items-center">
+            <button type="button" id="promobutton" class="bg-gray-300 relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2" role="switch" aria-checked="false" aria-labelledby="annual-billing-label">
+              <span aria-hidden="true" class="translate-x-0 pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out"></span>
+            </button>
+            <span class="ml-3 text-sm text-gray-600">
+              Ich habe einen Promocode
+            </span>
+          </div>
+        </div>
+        {{ partial:content/form_element cls="hidden"}}
+      {{ /fields }}
+
+    {{ else }}
+      {{ fields }}
+        {{ if handle !== 'req_ip' && handle !== 'gw_source' }}
+          {{ partial:content/form_element }}
+        {{ /if }}
+      {{ /fields }}
+    {{ /if }}
+
+    <div class="my-4 md:col-span-12">
+      {{ form_info_text }}
+        {{ text | shortcode }}
+      {{ /form_info_text }}
+    </div>
+
+    <div class="md:col-span-12 flex">
+      <button
+        class="relative bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
+        type="submit">
+        <span id="submit-button-text">
+          {{ if form.handle == 'autorenbewerbung' }} Bewerbung absenden {{ elseif
+            form.handle == 'anfrage' }}
+            Anfrage absenden {{ else }}
+            Absenden {{ /if }}
+        </span>
+        <span id="submit-button-spinner" class="opacity-0">
+          <div class="spinner absolute left-0 right-0 top-4">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
+        </span>
+      </button>
+    </div>
+  </div>
+{{ /form:create }}
 <script>
-    function sending() {
-        return {
-            error: false,
-            errors: [],
-            sending: false,
-            success: false,
-            sendForm() {
-                this.sending = true;
-                var form = document.querySelector('.form-self');
-                var route = '/!/cpssg/forms/';
-                if (form) {
-                    var formURL = new URL(form.action);
-                    var formOrigin = formURL.origin;
-                    var submissionURL = formOrigin + route + form.dataset.submissionType;
-                    fetch(submissionURL, {
-                        headers: {
-                            'X-Requested-With' : 'XMLHttpRequest'
-                        },
-                        method: 'POST',
-                        body: new FormData(this.$refs.form)})
-                    .then(res => res.json())
-                    .then(json => {
-                        if (json['success']) {
-                            this.errors = [];
-                            this.success = true;
-                            this.error = false;
-                            this.sending = false;
-                            this.$refs.form.reset();
-                        }
-                        if (json['error']) {
-                            this.sending = false;
-                            this.error = true;
-                            this.success = false;
-                            this.errors = json['error'];
-                        }
-                    })
-                    .catch(err => {
-                        err.text().then( errorMessage => {
-                            this.sending = false
-                            console.log('errorMessage')
-                        })
-                    })
-                }
-            }
-        }
+  const adjustCallbackTime = (ev) => {
+    if (ev.id === 'callback_time_to') {
+      const timeFrom = form.querySelector('#callback_time_from select')
+      if (!timeFrom) return
+      timeFrom.value = ev.value < timeFrom.value ? ev.value : timeFrom.value
+      return
     }
+    const timeTo = form.querySelector('#callback_time_to select')
+    if (!timeTo) return
+    timeTo.value = ev.value > timeTo.value ? ev.value : timeTo.value
+  }
+
+  const promobutton = document.querySelector('#promobutton')
+
+  const enablePromocode = () => {
+    const promocode = document.querySelector('#promocode')
+    if (promocode) {
+      promocode.classList.toggle('hidden')
+    }
+    promobutton.classList.toggle('bg-gray-200')
+    promobutton.classList.toggle('bg-orange-500')
+    const knob = promobutton.querySelector('span')
+    if (knob) {
+      knob.classList.toggle('translate-x-0')
+      knob.classList.toggle('translate-x-5')
+    }
+  }
+
+  if (promobutton) {
+    promobutton.addEventListener('click', enablePromocode)
+  }
+
+  const callbackbutton = document.querySelector('#callbackbutton')
+  const callbackNeeded = document.querySelector('#callback_needed input[type="checkbox"]')
+
+  const enableCallback = () => {
+    if (!callbackNeeded) return
+    callbackNeeded.checked = !callbackNeeded.checked
+
+    callbackbutton.classList.toggle('bg-gray-200')
+    callbackbutton.classList.toggle('bg-orange-500')
+    const knob = callbackbutton.querySelector('span')
+    if (knob) {
+      knob.classList.toggle('translate-x-0')
+      knob.classList.toggle('translate-x-5')
+    }
+
+    const callbackDate = document.querySelector('#callback_date')
+    if (callbackDate) callbackDate.classList.toggle('hidden')
+    const callbackTimeFrom = document.querySelector('#callback_time_from')
+    if (callbackTimeFrom) callbackTimeFrom.classList.toggle('hidden')
+    const callbackTimeTo = document.querySelector('#callback_time_to')
+    if (callbackTimeTo) callbackTimeTo.classList.toggle('hidden')
+  }
+
+  if (callbackbutton) {
+    callbackbutton.addEventListener('click', enableCallback)
+  }
+
+
+  const workTypeRadio = document.querySelectorAll('#work_type input[type="radio"]')
+  const surveyProgress = document.querySelector('#survey_progress')
+  const empiricWork = ['work_type_empiric_qualitative', 'work_type_empiric_quantitative']
+  const toggleSurveyProgress = (val) => {
+    if (empiricWork.includes(val.target.id)) {
+      surveyProgress.classList.remove('hidden')
+    } else {
+      surveyProgress.classList.add('hidden')
+    }
+  }
+  for (const radio of workTypeRadio) {
+    radio.addEventListener('change', toggleSurveyProgress)
+  }
+
+  const actionUrl =
+    "{{ config:cpssg:dynamic_site_url }}/!/forms/{{ form:handle }}"
+  const tokenRoute = '/!/DynamicToken/refresh'
+  const selector = 'form.form-self input[name="_token"]'
+  const minutes = 15
+
+  const formURL = new URL(actionUrl);
+  const formOrigin = formURL.origin
+  const tokenURL = formOrigin + tokenRoute;
+
+  const isIFrame = !(window === window.parent || window.opener)
+  if (isIFrame) {
+    document.body.classList.add('iframe')
+    const form = document.querySelector('form')
+    if (form) {
+      form.parentElement.classList.remove('lg:col-span-2')
+      form.parentElement.classList.add('lg:col-span-3')
+    }
+  }
+
+  // Receive and refresh form token
+  const hiddenInputs = document.querySelectorAll(selector);
+  if (hiddenInputs.length) {
+    function httpGetAsync(theUrl, callback) {
+      const xmlHttp = new XMLHttpRequest();
+      xmlHttp.onreadystatechange = function () {
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+          try {
+            const token = JSON.parse(xmlHttp.responseText);
+            callback((token || {}).csrf_token);
+          } catch (err) {
+            console.log('Error parsing token', err);
+          }
+      };
+      xmlHttp.open('GET', theUrl, true); // true for asynchronous
+      xmlHttp.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+      xmlHttp.send(null);
+    }
+
+    function setToken(token) {
+      document
+        .querySelectorAll(selector)
+        .forEach(function (item) {
+          item.value = token;
+        });
+    }
+
+    function updateToken() {
+      httpGetAsync(tokenURL, setToken);
+    }
+    updateToken();
+    setInterval(updateToken, minutes * 60 * 1000);
+  }
+
+  function clientTranslation(name, preprocessed) {
+    if (
+      name === 'e_mail_adresse' &&
+      preprocessed !== 'Bitte e mail adresse angeben.'
+    ) {
+      return preprocessed
+    }
+
+    if (
+      ['file', 'datei_anhang', 'upload'].includes(name) &&
+      preprocessed.startsWith('Muss eine Datei vom Typ')
+    ) {
+      return 'Folgende Dateiformate werden akzeptiert: jpg/jpeg, png, pdf, doc, docx, xls, xlsx, zip'
+    }
+
+    switch (name) {
+      case 'e_mail_adresse':
+        return 'Bitte eine E-Mail-Adresse angeben.'
+      case 'fachrichtung':
+        return 'Bitte die gewünschte Fachrichtung für die Anfrage auswählen.'
+      case 'arbeitsthema_spezifikationen_usw':
+        return 'Bitte eine Beschreibung für die Anfrage angeben.'
+      case 'fachbereiche_and_interessensschwerpunkte':
+        return 'Bitte Fachbereiche angeben.'
+      case 'file':
+        return 'Bitte laden Sie eine Datei hoch.'
+    }
+    return 'Bitte das Feld ausfüllen.'
+  }
+
+  function sending() {
+    return {
+      error: false,
+      errors: [],
+      sending: false,
+      success: false,
+      submitButtonText: null,
+      submitButtonSpinner: null,
+      toggleButtonSpinner() {
+        if (this.submitButtonText) {
+          this.submitButtonText.classList.toggle('opacity-0')
+        }
+        if (this.submitButtonSpinner) {
+          this.submitButtonSpinner.classList.toggle('opacity-0')
+        }
+      },
+      initButtonSpinner() {
+        this.submitButtonText = form.querySelector('#submit-button-text')
+        this.submitButtonSpinner = form.querySelector('#submit-button-spinner')
+        this.toggleButtonSpinner()
+      },
+      sendForm() {
+        this.sending = true
+        const form = document.querySelector('.form-self')
+        const route = '/!/cpssg/forms/'
+        if (actionUrl) {
+          this.initButtonSpinner()
+          const formURL = new URL(actionUrl)
+          const formData = new FormData(this.$refs.form)
+
+          // add utm data from localStorage #14116
+          const utm = JSON.parse(localStorage.getItem('utm') || '[]')
+          for (const entry of utm) {
+            formData.append(entry.key, entry.value)
+          }
+
+          // added affiliate as source
+          const sourceValue = isIFrame ? 'Affiliate' : window.location.hostname
+          formData.append('gw_source', sourceValue)
+
+          const formOrigin = formURL.origin
+          const submissionURL = formOrigin + route + form.dataset.submissionType
+          fetch(submissionURL, {
+            headers: {
+              'X-Requested-With': 'XMLHttpRequest',
+            },
+            method: 'POST',
+            body: formData,
+          })
+            .then((res) => res.json())
+            .then((json) => {
+              if (json['success']) {
+                this.toggleButtonSpinner()
+                this.errors = []
+                this.success = true
+                this.error = false
+                this.sending = false
+                this.$refs.form.reset()
+                localStorage.removeItem('utm') // #14116
+                localStorage.removeItem('utm_time') // #14116
+                window.location.assign('/anfrage-abgesendet')
+              }
+              if (json['error']) {
+                this.toggleButtonSpinner()
+                this.sending = false
+                this.error = true
+                this.success = false
+                this.errors = json['error']
+                form.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                  inline: "nearest"
+                });
+              }
+            })
+            .catch((err) => {
+              this.toggleButtonSpinner()
+              this.sending = false
+              if (err && err.text) {
+                err.text().then((errorMessage) => {
+                  console.log('errorMessage', errorMessage)
+                })
+              }
+            })
+        }
+      },
+    }
+  }
 </script>

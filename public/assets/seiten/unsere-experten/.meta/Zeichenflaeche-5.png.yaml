@@ -1,5 +1,7 @@
-data: {  }
+data:
+  alt: 'unsere experten'
 size: 113137
-last_modified: 1615278604
+last_modified: 1619516601
 width: 2000
 height: 1467
+mime_type: image/png

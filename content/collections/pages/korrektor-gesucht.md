@@ -1,41 +1,76 @@
 ---
 id: 0bf935ee-19ca-4690-9c7f-9cb5c399a9b0
+blueprint: pages
 title: 'Korrektor gesucht'
 teaser:
   -
     type: heading
     attrs:
+      textAlign: center
       level: 1
     content:
       -
         type: text
         marks:
           -
-            type: textAlign
-            attrs:
-              align: center
-          -
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Korrektor gesucht'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: "Akademische Korrektoren und Ghostwriter\_– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate."
+        text: "Akademische Korrektoren und Ghostwriter\_überprüfen & korrigieren Ihre wissenschaftliche Arbeit"
   -
     type: set
     attrs:
+      id: IdxqLDdw
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: aYH8JBUT
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: kLgbTumz
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: MkBo1Asm
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: 2dqZNpcq
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            id: rEuggwkD
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: NiRLZjYD
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: ECLsxL5M
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -43,14 +78,52 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      id: iaA7HWBv
+      values:
+        type: spacer
+        padding-y: 20
+  -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+    attrs:
+      textAlign: center
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+        text: '##phone##'
 replicator:
   -
+    id: cBVK3FrA
     bard:
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -61,16 +134,18 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrektor'
-                  target: null
+                  href: /korrektorat/korrektor
                   rel: null
-            text: 'Korrektor '
+                  target: null
+                  title: null
+            text: Korrektor
           -
             type: text
-            text: 'gesucht, muss meist ein Text auf Rechtschreib- oder grammatikalische Fehler untersucht werden. Hier kann es sich um alle Arten von Texten handeln. So werden Werbebroschüren und -schilder, Zeitungen, Kataloge, aber auch wissenschaftliche Arbeiten von Korrektoren bearbeitet.'
+            text: ' gesucht, muss meist ein Text auf Rechtschreib- oder grammatikalische Fehler untersucht werden. Hier kann es sich um alle Arten von Texten handeln. So werden Werbebroschüren und -schilder, Zeitungen, Kataloge, aber auch wissenschaftliche Arbeiten von Korrektoren bearbeitet.'
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -78,6 +153,8 @@ replicator:
             text: 'Von wem wurde früher ein Korrektor gesucht?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -85,6 +162,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -92,6 +170,8 @@ replicator:
             text: 'Von wem wird heutzutage ein Korrektor gesucht?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -102,9 +182,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
-                  target: null
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   rel: null
+                  target: null
+                  title: null
             text: Hausarbeiten
           -
             type: text
@@ -115,9 +196,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
-                  target: null
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   rel: null
+                  target: null
+                  title: null
             text: Bachelorarbeit
           -
             type: text
@@ -128,9 +210,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
-                  target: null
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   rel: null
+                  target: null
+                  title: null
             text: Masterarbeit
           -
             type: text
@@ -141,9 +224,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
-                  target: null
+                  href: /arbeiten/diplomarbeit
                   rel: null
+                  target: null
+                  title: null
             text: Diplomarbeit
           -
             type: text
@@ -151,6 +235,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -158,86 +243,78 @@ replicator:
             text: 'Warum wird ein wissenschaftlicher Korrektor gesucht?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
-            text: 'Hier liegt der Schwerpunkt auf der Beschreibung des wissenschaftlichen Korrektors, denn in einer globalisierten Welt der Arbeitsteilung sind Spezialsierungen auf einzelne Teilgebiete einer wissenschaftlichen Disziplin üblich geworden und Voraussetzung um auf dem Weltmarkt zu bestehen. Arbeitsgruppen bestehen daher oft aus Experten einzelner Teilgebiete, da ein Einzelner nicht mehr in der Lage sein kann, sich in allen erforderlichen Unterdisziplinen soweit auszukennen, wie es für die erfolgreiche Bearbeitung einer Aufgabe vonnöten ist. Dies führte jedoch dazu, dass die Anforderungen an einen Korrektor stark gestiegen sind. Früher waren Korrektoren zumeist Akademiker der geisteswissenschaftlichen Fachbereiche, die Übung in der Erstellung von Texten hatten und über gute sprachliche Kenntnisse verfügten. Um einen Text aber effektiv bearbeiten zu können muss man nicht nur die Sprache, in welcher der Text verfasst ist, beherrschen, sondern man muss ihn verstehen können. Dieses wird bei heutigem Spezialisierungsgrad, gerade bei akademischen Arbeiten, allerdings immer schwerer. Daher ist es nötig, dass dieser Umstand bei der Suche eines Korrektors berücksichtigt wird. Er sollte nämlich neben perfekten sprachlichen Fähigkeiten auch fachliches Wissen mitbringen um die Aufgabe qualitativ hochwertig zu erfüllen. Der fachlich versierte, wissenschaftliche Korrektor wird daher mehr gesucht denn je.'
+            text: 'Hier liegt der Schwerpunkt auf der Beschreibung des wissenschaftlichen Korrektors, denn in einer globalisierten Welt der Arbeitsteilung sind Spezialsierungen auf einzelne Teilgebiete einer wissenschaftlichen Disziplin üblich geworden und Voraussetzung um auf dem Weltmarkt zu bestehen. Arbeitsgruppen bestehen daher oft aus Experten bzw. '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  rel: null
+                  target: null
+                  title: null
+            text: Ghostwriter
+          -
+            type: text
+            text: ' einzelner Teilgebiete, da ein Einzelner nicht mehr in der Lage sein kann, sich in allen erforderlichen Unterdisziplinen soweit auszukennen, wie es für die erfolgreiche Bearbeitung einer Aufgabe vonnöten ist. Dies führte jedoch dazu, dass die Anforderungen an einen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/korrektorat-lektorat-textredaktion
+                  rel: null
+                  target: null
+                  title: null
+            text: Textredakteur
+          -
+            type: text
+            text: ' stark gestiegen sind. Früher waren Korrektoren zumeist Akademiker der geisteswissenschaftlichen Fachbereiche, die Übung in der Erstellung von Texten hatten und über gute sprachliche Kenntnisse verfügten. Um einen Text aber effektiv bearbeiten zu können muss man nicht nur die Sprache, in welcher der Text verfasst ist, beherrschen, sondern man muss ihn verstehen können. Dieses wird bei heutigem Spezialisierungsgrad, gerade bei akademischen Arbeiten, allerdings immer schwerer. Daher ist es nötig, dass dieser Umstand bei der Suche eines Korrektors berücksichtigt wird. Er sollte nämlich neben perfekten sprachlichen Fähigkeiten auch fachliches Wissen mitbringen um die Aufgabe qualitativ hochwertig zu erfüllen. Der fachlich versierte, wissenschaftliche Korrektor wird daher mehr gesucht denn je.'
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
             type: text
             text: 'Blogartikel zum Thema Korrektor, Korrektor gesucht und Jobs bei GWriters'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/bewerbung-ghostwriter-gwriters'
-                  target: null
-                  rel: null
-            text: 'Video: Was Du bei der Bewerbung als Ghostwriter bei GWriters beachten solltest'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/ghostwriting-lektorat-korrektorat'
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/akademisches-ghostwriting-alternativen'
-                  target: null
-                  rel: null
-            text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/wiki'
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+        type: set
+        attrs:
+          id: m52vt8O6
+          values:
+            type: blog_entries
+            entries:
+              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+              - 27876560-a260-4e18-89b1-417c11b8b31f
+              - be792eef-d56d-4a1a-b00d-e000278c4eec
     show_as_card: false
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619469431
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705994797
 page_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
-meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
+meta_description: 'Korrektor gesucht? Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches sowie Informationen zu Ablauf, Kosten & Preisen finden Sie bei GWriters!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: with-side-bar
+og_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
+og_description: 'Korrektor gesucht? Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches sowie Informationen zu Ablauf, Kosten & Preisen finden Sie bei GWriters!'
+og_image: GWriters-Logo.png
+sitemap_active: true
+breadcrumbs_active: true
 ---

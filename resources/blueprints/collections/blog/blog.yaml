@@ -60,10 +60,10 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
+            - 'unique_entry_value:{collection},{id},{site}'
       -
         handle: author
         field:
@@ -83,6 +83,8 @@ sections:
           instructions: 'Langtext und Bild werden nicht angezeigt. Autoren Name bleibt sichtbar.'
           listable: hidden
       -
+        import: breadcrubs_active
+      -
         handle: category
         field:
           mode: default
@@ -92,6 +94,14 @@ sections:
           type: terms
           icon: taxonomy
           listable: hidden
+      -
+        handle: blog_categories
+        field:
+          type: terms
+          taxonomies:
+            - blog_categories
+          display: 'Blog Kategorien'
+          mode: select
   post_detail:
     display: 'Beitragsdetail Seite'
     fields:

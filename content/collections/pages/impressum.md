@@ -1,60 +1,64 @@
 ---
-title: IMPRESSUM
+id: 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
+blueprint: pages
+title: Impressum
 teaser:
   -
     type: heading
     attrs:
+      textAlign: center
       level: 1
     content:
       -
         type: text
         marks:
           -
-            type: textAlign
+            type: textColor
             attrs:
-              align: center
+              color: orange-500
         text: Impressum
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
         marks:
           -
             type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
         text: 'GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen.'
   -
     type: set
     attrs:
+      id: OKGZN1SP
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
-  -
-    type: paragraph
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618910929
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+        spacing_top: false
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705997583
 replicator:
   -
+    id: tXPiv864
     bard:
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             marks:
               -
                 type: bold
-            text: 'Unsere internationalen Webseiten in den Ländern'
+            text: 'Für Kunden aus Deutschland und der Schweiz erfolgt die Abwicklung aller Projekte & Betreuung der Plattformen'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -65,9 +69,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de'
-                  target: null
+                  href: /
                   rel: null
+                  target: null
+                  title: null
             text: GWriters.de
           -
             type: text
@@ -79,11 +84,12 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://ghostwriter.de'
-                  target: null
                   rel: null
+                  target: null
+                  title: null
             text: Ghostwriter.de
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: 'Schweiz - '
@@ -93,9 +99,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.gwriters.ch'
-                  target: null
+                  href: 'https://gwriters.ch'
                   rel: null
+                  target: null
+                  title: null
             text: GWriters.ch
           -
             type: text
@@ -107,14 +114,108 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://ghostwriter.ch'
-                  target: null
                   rel: null
+                  target: null
+                  title: null
             text: Ghostwriter.ch
-          -
-            type: hard_break
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
           -
             type: text
-            text: "Großbritannien & USA -\_"
+            marks:
+              -
+                type: bold
+            text: 'durch das deutschsprachige Team'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: 'Knowlance AG'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: 'Artherstrasse 28A'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: '6300 Zug'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: Schweiz
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Telefon: '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'tel:##phone##'
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: bold
+            text: '##phone##'
+          -
+            type: hardBreak
+            marks:
+              -
+                type: bold
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'E-Mail: '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:##email##'
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: bold
+            text: '##email##'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Unsere internationale Webseite:'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
           -
             type: text
             marks:
@@ -122,72 +223,48 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://gwriters.net'
-                  target: null
                   rel: null
+                  target: null
+                  title: null
             text: GWriters.net
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             marks:
               -
                 type: bold
-            text: 'werden betrieben durch die'
+            text: 'wird betrieben durch die'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             text: 'GWriters International Inc.'
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: '1201 N. Orange Street'
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: Wilmington
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: 'DE 19801, USA'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Für Kunden aus Deutschland und der Schweiz erfolgt die Betreuung & Abwicklung aller Projekte durch das deutschsprachige Team'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Knowlance AG'
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Artherstrasse 28A'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '6300 Zug'
-          -
-            type: hard_break
-          -
-            type: text
-            text: Schweiz
-      -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -195,6 +272,8 @@ replicator:
             text: Disclaimer
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -204,27 +283,31 @@ replicator:
             text: 'Haftung für Inhalte'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             text: 'Wir bemühen uns die Inhalte unserer Seite aktuell zu halten. Trotz sorgfältiger Bearbeitung bleibt eine Haftung ausgeschlossen.'
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: 'Wir sind für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.'
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: 'Wir sind als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.'
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: 'Bei bekannt werden von Rechtsverletzungen, werden wir diese Inhalte umgehend entfernen. Eine diesbezügliche Haftung übernehmen wir erst ab dem Zeitpunkt der Kenntnis einer möglichen Rechtsverletzung.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -234,12 +317,16 @@ replicator:
             text: 'Haftung für Links'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             text: 'Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Für die Inhalte und die Richtigkeit der Informationen verlinkter Websites fremder Informationsanbieter wird keine Gewähr übernommen. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße ohne Beanstandung überprüft. Bei bekannt werden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -249,12 +336,16 @@ replicator:
             text: Urheberrecht
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             text: 'Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten stellen geistiges Eigentum des jeweiligen Verfassers dar. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung von derartigen Inhalten und Werken bedarf der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -264,13 +355,16 @@ replicator:
             text: Werbung
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             text: 'Der Nutzung von allen veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung wird widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.'
     type: editor
     enabled: true
-meta_title: impressum
+    show_as_card: false
+meta_title: 'GWriters • Impressum'
 meta_description: 'GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 use_meta_keywords: false
 no_index_page: false
@@ -278,8 +372,11 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: with-side-bar
-id: 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
+page_title: 'GWriters • Impressum'
+og_title: 'GWriters • Impressum'
+og_description: 'GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
+og_image: GWriters-Logo.png
+sitemap_active: true
+breadcrumbs_active: true
 ---

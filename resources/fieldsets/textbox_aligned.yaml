@@ -1,0 +1,70 @@
+title: 'Textbox mit Ausrichtung'
+fields:
+  -
+    handle: bard
+    field:
+      always_show_set_button: false
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - h1
+        - h4
+        - h5
+        - h6
+        - underline
+        - strikethrough
+        - superscript
+        - subscript
+        - code
+        - codeblock
+        - horizontalrule
+      save_html: false
+      toolbar_mode: floating
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      display: Bard
+      type: bard
+      icon: bard
+      listable: hidden
+  -
+    handle: text_ausrichtung
+    field:
+      options:
+        text-left: 'Text links'
+        text-right: 'Text rechts'
+        text-center: 'Text zentriert'
+        text-justify: 'Text Blocksatz'
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Text Ausrichtung'
+      type: select
+      icon: select
+      instructions: 'Bitte wählen ...'
+      listable: hidden
+  -
+    handle: column_count
+    field:
+      default: false
+      display: 'Zwei Spalten'
+      type: toggle
+      icon: toggle
+      instructions: 'Automatischer Textumbruch auf zwei Spalten'
+      listable: hidden

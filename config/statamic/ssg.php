@@ -2,7 +2,7 @@
 
 return [
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Base URL
     |--------------------------------------------------------------------------
@@ -13,9 +13,9 @@ return [
     |
     */
 
-    'base_url' => config('app.url'),
+  'base_url' => config('app.url'),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Destination Directory
     |--------------------------------------------------------------------------
@@ -24,9 +24,9 @@ return [
     |
     */
 
-    'destination' => storage_path('app/static'),
+  'destination' => storage_path('app/static'),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Files and Symlinks
     |--------------------------------------------------------------------------
@@ -38,18 +38,20 @@ return [
     |
     */
 
-    'copy' => [
-        public_path('css') => 'css',
-        public_path('js') => 'js',
-        public_path('assets') => 'assets'
-    ],
+  'copy' => [
+    public_path('css') => 'css',
+    public_path('js') => 'js',
+    public_path('img') => 'img',
+    public_path('fonts') => 'fonts',
+    public_path('assets') => 'assets'
+  ],
 
-    'symlinks' => [
-        // public_path('css') => 'css',
-        // public_path('js') => 'js',
-    ],
+  'symlinks' => [
+    // public_path('css') => 'css',
+    // public_path('js') => 'js',
+  ],
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Additional URLs
     |--------------------------------------------------------------------------
@@ -59,11 +61,9 @@ return [
     |
     */
 
-    'urls' => [
-        //
-    ],
+  'urls' => [],
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Exclude URLs
     |--------------------------------------------------------------------------
@@ -72,11 +72,24 @@ return [
     |
     */
 
-    'exclude' => [
-        //
-    ],
+  'exclude' => [
+    //
+  ],
 
-    /*
+  /*
+    |--------------------------------------------------------------------------
+    | Pagination Route
+    |--------------------------------------------------------------------------
+    |
+    | Here you may define how paginated entries are routed. This will take
+    | effect wherever pagination is detected in your antlers templates,
+    | like if you use the `paginate` param on the `collection` tag.
+    |
+    */
+
+    'pagination_route' => '{url}/{page_name}/{page_number}',
+
+  /*
     |--------------------------------------------------------------------------
     | Glide
     |--------------------------------------------------------------------------
@@ -87,8 +100,11 @@ return [
     |
     */
 
-    'glide' => [
-        'directory' => 'img',
-    ],
+  'glide' => [
+    'override' => false,
+    'directory' => 'img',
+  ],
+
+  'failures' => false, // 'errors' or 'warnings'
 
 ];

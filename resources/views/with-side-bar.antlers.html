@@ -1,18 +1,21 @@
 {{ partial src="partials/teaser" }}
 
-<section class="py-8 px-4 max-w-screen">
-    <div class="content container mx-auto max-w-screen-xl clear-both">
-        <div class="lg:grid lg:grid-cols-3 lg:gap-8">
-            <div class="lg:col-span-2">
+<section class="lg:py-8 px-4 max-w-screen">
+  <div class="content container mx-auto max-w-screen-xl clear-both">
+    <div class="lg:grid lg:grid-cols-3 lg:gap-8">
+      <div class="lg:col-span-2">
 
-                {{ replicator }}
-                    {{ partial src="partials/content/{type}" }}
-                {{ /replicator }}
+        {{ replicator }}
+          {{ partial src="partials/content/{type}" }}
+        {{ /replicator }}
 
-            </div>
-            <aside class="mb-8">
-                {{ partial src="partials/sidebar" }}
-            </aside>
-        </div>
+      </div>
+      <aside
+        class="mb-8">
+        {{ yield:sidebar }}
+          {{ partial src="partials/sidebar" }}
+        {{ /yield:sidebar }}
+      </aside>
     </div>
+  </div>
 </section>

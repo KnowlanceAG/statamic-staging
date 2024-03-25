@@ -1,0 +1,6 @@
+{{ if config:app:google_tracking }}
+  <script type="text/plain" data-cookiecategory="analytics">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'OptInGoogleAnalytics' });
+  </script>
+{{ /if }}

@@ -1,0 +1,15 @@
+title: 'Experten Slider'
+fields:
+  -
+    handle: experts
+    field:
+      mode: default
+      create: true
+      collections:
+        - team
+      display: Experten
+      type: entries
+      icon: entries
+      instructions: 'Bitte Experten wählen'
+      listable: hidden
+      instructions_position: above

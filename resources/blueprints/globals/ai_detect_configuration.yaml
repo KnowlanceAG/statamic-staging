@@ -1,0 +1,31 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: api_url
+        field:
+          input_type: url
+          antlers: false
+          default: 'https://api.originality.ai/api/v1/scan/ai'
+          display: API-URL-Adresse
+          type: text
+          icon: text
+          instructions: 'Die URL-Adresse der API'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: api_key
+        field:
+          input_type: password
+          antlers: false
+          display: API-Key
+          type: text
+          icon: text
+          instructions: 'API Key'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false

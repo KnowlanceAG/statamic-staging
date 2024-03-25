@@ -1,49 +1,45 @@
 title: Spalten
 fields:
-  -
-    handle: responsive_columns
+  - handle: responsive_columns
     field:
       step: 1
       min: 1
       max: 6
       default: 1
-      display: 'Responsive Spalten je Zeile'
+      display: "Responsive Spalten je Zeile"
       type: range
       icon: range
-      instructions: 'Smartphone Spalten Anzahl'
+      instructions: "Smartphone Spalten Anzahl"
       listable: hidden
       if:
-        grid.lenght: '> 1'
-  -
-    handle: columns_per_row
+        grid.lenght: "> 1"
+  - handle: columns_per_row
     field:
       step: 1
       min: 1
       max: 12
       default: 1
-      display: 'Spalten je Zeile'
+      display: "Spalten je Zeile"
       type: range
       icon: range
-      instructions: 'Bitte wählen ...'
+      instructions: "Bitte wählen ..."
       listable: hidden
       if:
-        grid.length: '> 1'
-  -
-    handle: single-col
+        grid.length: "> 1"
+  - handle: single_col
     field:
-      display: 'Zentriert mit 75% Breite'
+      display: "Zentriert mit 75% Breite"
       type: toggle
       icon: toggle
       listable: hidden
-      instructions: 'Reduziert eine einzel Splatenbreite von 100% auf max. 75%'
-      if:
-        grid.length: '<= 1'
-  -
-    handle: grid
+      instructions: "Reduziert die Spaltenbreite von 100% auf max. 75%"
+      instructions_position: above
+      visibility: visible
+      default: false
+  - handle: grid
     field:
       fields:
-        -
-          import: bard
+        - import: bard
       mode: stacked
       reorderable: true
       display: Spalten
@@ -51,4 +47,4 @@ fields:
       icon: grid
       listable: true
       min_rows: 1
-      add_row: 'Spalte hinzufügen'
+      add_row: "Spalte hinzufügen"

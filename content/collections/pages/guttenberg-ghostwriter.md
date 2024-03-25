@@ -1,41 +1,76 @@
 ---
 id: cb8b4351-575f-40a2-a85a-a6d16d23f12d
+blueprint: pages
 title: 'Guttenberg Ghostwriter'
 teaser:
   -
     type: heading
     attrs:
+      textAlign: center
       level: 1
     content:
       -
         type: text
         marks:
           -
-            type: textAlign
-            attrs:
-              align: center
-          -
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Guttenberg Ghostwriter'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: "Hier\_finden Sie Informationen zum Fall Guttenberg und seriöse akademische Ghostwriter\_– diskret und mehrfach geprüft auf Qualität & Plagiate."
+        text: "Hier\_finden Sie Informationen zum Fall Guttenberg und seriöse akademische Ghostwriter"
   -
     type: set
     attrs:
+      id: CmnLB0MR
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: w5sB9oYp
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: 9ytjpKwF
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: xGLf95Bk
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: Z55sTtme
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            id: fFCKUoTr
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: ydt91PK0
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: sYYprTDc
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -43,14 +78,52 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      id: CubazWH3
+      values:
+        type: spacer
+        padding-y: 20
+  -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+    attrs:
+      textAlign: center
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+        text: '##phone##'
 replicator:
   -
+    id: RXuCGHOU
     bard:
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -61,9 +134,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
-                  target: null
+                  href: /arbeiten/doktorarbeit
                   rel: null
+                  target: null
+                  title: null
             text: Doktorarbeit
           -
             type: text
@@ -71,6 +145,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -78,6 +153,8 @@ replicator:
             text: 'Der Fall zu Guttenberg'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -88,9 +165,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
-                  target: null
+                  href: /ghostwriter
                   rel: null
+                  target: null
+                  title: null
             text: Ghostwriter
           -
             type: text
@@ -101,9 +179,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
-                  target: null
+                  href: /ghostwriting
                   rel: null
+                  target: null
+                  title: null
             text: Ghostwriting
           -
             type: text
@@ -111,6 +190,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -118,6 +198,8 @@ replicator:
             text: 'Wie kann Ghostwriting nachgewiesen werden?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -128,9 +210,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
-                  target: null
+                  href: /ghostwriting/ghostwriting-agentur
                   rel: null
+                  target: null
+                  title: null
             text: 'Ghostwriting Agentur'
           -
             type: text
@@ -138,6 +221,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -145,6 +229,8 @@ replicator:
             text: 'Wie schützt man sich vor Plagiaten beim Ghostwriting?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -152,81 +238,28 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
             type: text
             text: 'Interessante Blogartikel zum Guttenberg Fall'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/ghostwriting-plagiate'
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriting & Plagiate – Was ist ihr Unterschied & warum ist er so wichtig?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/gwriters-plagiat'
-                  target: null
-                  rel: null
-            text: 'Woher weiß ich, dass ich bei GWriters kein Plagiat erhalte?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/promotionsberater-ghostwriter'
-                  target: null
-                  rel: null
-            text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/plagiat'
-                  target: null
-                  rel: null
-            text: 'Die große Infosammlung zu Plagiaten'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/wiki'
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+        type: set
+        attrs:
+          id: E9YOV0Tb
+          values:
+            type: blog_entries
+            entries:
+              - 6711bbb6-53ac-47dd-a424-b9b451d428e0
+              - 30956aca-67ef-4908-83c3-b0ca5e8cea26
+              - ca5797f0-28d2-48ca-be1d-5c6ca8c1b01c
     show_as_card: false
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619456800
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705994485
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -234,9 +267,12 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Der Guttenberg Ghostwriter - Alles was Sie wissen müssen • GWriters'
 meta_title: 'Der Guttenberg Ghostwriter - Alles was Sie wissen müssen • GWriters'
 meta_description: 'Erfahren Sie alles über den Guttenberg Ghostwriter Fall aus der Perspektive unserer Ghostwriting Agentur.'
+og_title: 'Der Guttenberg Ghostwriter - Alles was Sie wissen müssen • GWriters'
+og_description: 'Erfahren Sie alles über den Guttenberg Ghostwriter Fall aus der Perspektive unserer Ghostwriting Agentur.'
+og_image: GWriters-Logo.png
+sitemap_active: true
+breadcrumbs_active: true
 ---

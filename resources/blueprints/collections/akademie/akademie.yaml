@@ -25,6 +25,21 @@ sections:
               fields:
                 -
                   import: ce_image
+            teaser_icon_columns:
+              display: 'Icon Spalten'
+              fields:
+                -
+                  import: teaser_icon_columns
+            spacer:
+              display: Abstandshalter
+              fields:
+                -
+                  import: spacer
+            show_sidebar_mobile:
+              display: 'Sidebar mobil hier darstellen'
+              fields:
+                -
+                  import: sidebar_element
           buttons:
             - h1
             - h2
@@ -51,6 +66,10 @@ sections:
           type: bard
           icon: bard
           listable: hidden
+          instructions_position: above
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
       -
         handle: teaser_bg
         field:
@@ -83,7 +102,7 @@ sections:
           mode: default
           collections:
             - akademie
-          display: 'Weitere Vorlagen'
+          display: 'Weitere Vorlagen / Wissenskategorien'
           type: entries
           icon: entries
           instructions: 'Bitte weiter Vorlagen auswählen ...'
@@ -94,6 +113,9 @@ sections:
           mode: default
           collections:
             - blog
+            - pages
+            - akademie
+            - presse
           display: 'Mehr aus unserem Blog'
           type: entries
           icon: entries
@@ -106,10 +128,10 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
+            - 'unique_entry_value:{collection},{id},{site}'
       -
         handle: page_title
         field:
@@ -119,11 +141,30 @@ sections:
           type: text
           icon: text
           listable: hidden
+      -
+        handle: link_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Link Text'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+      -
+        import: breadcrubs_active
   kurz_text:
     display: 'Kurz Text'
     fields:
       -
-        handle: academy_short_text-headline
+        handle: academy_short_text_headline
         field:
           input_type: text
           antlers: false

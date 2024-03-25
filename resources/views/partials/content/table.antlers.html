@@ -4,7 +4,7 @@
             {{ table_structure }}
                 <tr>
                     {{ cells }}
-                        <td>{{ value | markdown }}</td>
+                        <td>{{ value | shortcode | markdown }}</td>
                     {{ /cells }}
                 </tr>
             {{ /table_structure }}

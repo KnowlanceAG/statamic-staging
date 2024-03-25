@@ -1,0 +1,38 @@
+<div class="overflow-visible max-w-1144">
+    <div class="expert-slider flex flex-row">
+        {{ experts }}
+            <div class="flex flex-col items-start">
+                {{ photo }}
+                    {{ if link }}
+                        <a href="{{ link }}">
+                            {{ responsive:photo alt="{ alt }" class="rounded-full w-48 max-w-full h-auto align-middle border-none" }}
+                        </a>
+                    {{ else }}
+                        {{ responsive:photo alt="{ alt }" class="rounded-full w-48 max-w-full h-auto align-middle border-none" }}
+                    {{ /if }}
+                {{ /photo }}
+
+                <p class="mt-4 mb-0"><strong>{{ title }}</strong></p>
+                <p class="mb-4">{{ detail_position }}</p>
+                <div class="last:-mb-4">
+                    {{ bard }}
+                        {{ partial src="partials/content/{type}" }}
+                    {{ /bard }}
+                </div>
+            </div>
+        {{ /experts }}
+    </div>
+
+    <div class="controls max-w-xs mx-auto justify-center flex flex-row " id="customize-controls" aria-label="Carousel Navigation" tabindex="0">
+        <div class="prev" aria-controls="customize" tabindex="-1" data-controls="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 cursor-pointer text-orange-500 hover:orange-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+        </div>
+        <div class="next" aria-controls="customize" tabindex="-1" data-controls="next">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 cursor-pointer text-orange-500 hover:range-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+        </div>
+    </div>
+</div>

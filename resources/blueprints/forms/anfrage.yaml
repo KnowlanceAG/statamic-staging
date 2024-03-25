@@ -2,18 +2,17 @@ sections:
   main:
     display: Main
     fields:
-      -
-        handle: name
+      - handle: name
         field:
           input_type: text
           antlers: false
-          display: Name
+          display: Vorname
           type: text
           icon: text
           listable: hidden
           width: 50
-      -
-        handle: nachname
+          tooltip: "Bitte hinterlassen Sie uns Ihren Vornamen. Ein persönlicher Kontakt ist uns wichtig!"
+      - handle: nachname
         field:
           input_type: text
           antlers: false
@@ -22,20 +21,20 @@ sections:
           icon: text
           listable: hidden
           width: 50
-      -
-        handle: e_mail_adresse
+          tooltip: "Bitte hinterlassen Sie uns Ihren Nachnamen. Ein persönlicher Kontakt ist uns wichtig!"
+      - handle: e_mail_adresse
         field:
           input_type: email
           antlers: false
-          display: 'E-Mail Adresse'
+          display: "E-Mail Adresse"
           type: text
           icon: text
           listable: hidden
+          tooltip: "Ihre E-Mail-Adresse dient nur der Kommunikation und wird streng vertraulich behandelt."
           validate:
             - required
             - austria_mail
-      -
-        handle: telefon
+      - handle: telefon
         field:
           input_type: text
           antlers: false
@@ -43,29 +42,54 @@ sections:
           type: text
           icon: text
           listable: hidden
+          tooltip: "Wir würde Sie gern zeitnah telefonisch kontaktieren. Ihre Telefonnummer wird natürlich ebenfalls vertraulich behandelt."
           validate:
             - austria_phone
-      -
-        handle: fachrichtung
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      - handle: fachrichtung
         field:
-          placeholder: 'Bitte wählen'
+          placeholder: "Bitte wählen"
           options:
-            Wirtschaft: Wirtschaft
-            'Jura & Rechtswissenschaften': 'Jura & Rechtswissenschaften'
-            Informatik: Informatik
-            'Gesellschafts- & Sozialwissenschaften': 'Gesellschafts- &amp; Sozialwissenschaften'
-            'Medien & Kommunikation': 'Medien & Kommunikation'
-            'Medizin & Gesundheitswesen': 'Medizin & Gesundheitswesen'
-            'Naturwissenschaften & Mathematik': 'Naturwissenschaften & Mathematik'
-            'Sprach- & Kulturwissenschaften': 'Sprach- & Kulturwissenschaften'
-            'Technik & Ingenieurwesen': 'Technik &amp; Ingenieurwesen'
+            "Agrar- & Forstwissenschaften": "Agrar- & Forstwissenschaften"
+            Anglistik: Anglistik
+            Architektur: Architektur
+            Biologie: Biologie
+            BWL: BWL
+            Chemie: Chemie
+            Elektrotechnik: Elektrotechnik
+            Erziehungswissenschaften: Erziehungswissenschaften
+            Finanzwissenschaften: Finanzwissenschaften
             Geisteswissenschaften: Geisteswissenschaften
-            'Kunst / Gestaltung': 'Kunst / Gestaltung'
-            Musik: Musik
-            'Agrar- & Forstwissenschaften': 'Agrar- & Forstwissenschaften'
-            Sportwissenschaften: Sportwissenschaften
+            Geologie: Geologie
+            Geowissenschaften: Geowissenschaften
+            Germanistik: Germanistik
+            Geschichte: Geschichte
+            "Gesellschafts- & Sozialwissenschaften": "Gesellschafts- &amp; Sozialwissenschaften"
+            Informatik: Informatik
             Interdisziplinär: Interdisziplinär
+            "Jura & Rechtswissenschaften": "Jura & Rechtswissenschaften"
+            "Kunst / Gestaltung": "Kunst / Gestaltung"
+            Literatur: Literatur
+            Marketing: Marketing
+            "Medien & Kommunikation": "Medien & Kommunikation"
+            "Medizin & Gesundheitswesen": "Medizin & Gesundheitswesen"
+            Musik: Musik
+            "Naturwissenschaften & Mathematik": "Naturwissenschaften & Mathematik"
+            Personalmanagement: Personalmanagement
+            Pflegewissenschaften: Pflegewissenschaften
+            Philosophie: Philosophie
+            Psychologie: Psychologie
             Sonstige: Sonstige
+            "Soziale Arbeit": "Soziale Arbeit"
+            Sportwissenschaften: Sportwissenschaften
+            "Sprach- & Kulturwissenschaften": "Sprach- & Kulturwissenschaften"
+            "Technik & Ingenieurwesen": "Technik &amp; Ingenieurwesen"
+            VWL: VWL
+            Wirtschaft: Wirtschaft
+            Wirtschaftsinformatik: Wirtschaftsinformatik
+            Zahnmedizin: Zahnmedizin
           multiple: false
           clearable: false
           searchable: true
@@ -78,38 +102,65 @@ sections:
           listable: hidden
           validate:
             - required
-      -
-        handle: arbeitsthema_spezifikationen_usw
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      - handle: zitationsstil
+        field:
+          options:
+            "AMA Style": "AMA Style"
+            "APA Style": "APA Style"
+            "Chicago Style": "Chicago Style"
+            "Deutscher Stil (Fußnoten)": "Deutscher Stil (Fußnoten)"
+            "Harvard Style": "Harvard Style"
+            "IEEE Style": "IEEE Style"
+            "MLA Style": "MLA Style"
+            "Sonstige": "Sonstige"
+          multiple: false
+          clearable: true
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Zitationsstil
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: true
+      - handle: arbeitsthema_spezifikationen_usw
         field:
           antlers: false
-          display: 'Arbeitsthema, Spezifikationen, usw.'
+          display: "Arbeitsthema, Spezifikationen, usw."
           type: textarea
           icon: textarea
           listable: hidden
+          infotext: "Teilen Sie uns bitte den Umfang, den inhaltlichen Rahmen (das Thema), die verbleibende Bearbeitungszeit und ggf. weitere wichtige Informationen zur Ausfertigung eines individuellen Angebotes mit. Je spezifischer Ihre Angaben sind, umso besser und schneller können wir Ihnen helfen. Vielen Dank!"
           validate:
             - required
-      -
-        handle: seitenzahl
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      - handle: seitenzahl
         field:
           input_type: text
           antlers: false
-          display: Seitenzahl
+          display: "Seitenzahl, Wörter oder Zeichen"
           type: text
           icon: text
           listable: hidden
           width: 50
-      -
-        handle: lieferdatum
+      - handle: lieferdatum
         field:
-          input_type: text
+          input_type: date
           antlers: false
           display: Lieferdatum
           type: text
           icon: text
           listable: hidden
           width: 50
-      -
-        handle: file
+      - handle: file
         field:
           mode: grid
           container: formular_uploads
@@ -119,10 +170,42 @@ sections:
           display: Datei-Anhang
           type: assets
           icon: assets
-          instructions: 'Falls Sie uns eine Datei (z.B. .doc, .pdf, .xls) mitsenden möchten, nutzen Sie die bitte die Upload-Funktion. Je mehr Informationen Sie uns zukommen lassen, umso besser können wir Ihnen helfen.'
+          instructions: "Falls Sie uns eine Datei (z.B. .doc, .pdf, .xls) mitsenden möchten, nutzen Sie die bitte die Upload-Funktion. Je mehr Informationen Sie uns zukommen lassen, umso besser können wir Ihnen helfen. <br>__Um mehrere Dateien hochzuladen bitten wir Sie, diese gebündelt im Auswahlfenster zu selektieren.__"
           listable: hidden
-      -
-        handle: promocode
+          validate:
+            - "mimetypes:image/jpeg,image/png,application/pdf,application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+      - handle: work_type
+        field:
+          options:
+            Literaturarbeit: Literaturarbeit
+            "Empirische_Arbeit_Qualitative": "Empirische Arbeit (Qualitativ; bspw. Interviews)"
+            "Empirische_Arbeit_Quantitative": "Empirische Arbeit (Quantitativ; bspw. Umfrage / Finanzdaten)"
+          inline: false
+          cast_booleans: false
+          default: literature
+          display: "Art der Arbeit"
+          type: radio
+          icon: radio
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      - handle: survey_progress
+        field:
+          options:
+            Ja: Ja
+            Nein: Nein
+            Teilweise: Teilweise
+          inline: true
+          cast_booleans: false
+          display: "Stand der Umfrage"
+          type: radio
+          icon: radio
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      - handle: promocode
         field:
           input_type: text
           antlers: false
@@ -130,3 +213,95 @@ sections:
           type: text
           icon: text
           listable: hidden
+      - handle: callback_needed
+        field:
+          inline_label: "Wünschen Sie einen Telefontermin? Wir rufen Sie gerne zurück!"
+          default: false
+          display: "Rückruf erwünscht"
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      - handle: callback_date
+        field:
+          input_type: date
+          antlers: false
+          display: Rückrufdatum
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          if:
+            callback_needed: "equals true"
+      - handle: callback_time_from
+        field:
+          input_type: time
+          antlers: false
+          display: "Rückrufzeit von"
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          if:
+            callback_needed: "equals true"
+      - handle: callback_time_to
+        field:
+          input_type: time
+          antlers: false
+          display: "Rückrufzeit bis"
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          if:
+            callback_needed: "equals true"
+      - handle: gw_source
+        field:
+          input_type: text
+          antlers: false
+          display: gw_source
+          type: text
+          icon: text
+          listable: hidden
+      - handle: req_ip
+        field:
+          input_type: text
+          antlers: false
+          display: req_ip
+          type: text
+          icon: text
+          instructions: "Request IP"
+          listable: hidden
+      - handle: utm_medium
+        field:
+          input_type: hidden
+          antlers: false
+          display: utm_medium
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: hidden
+          always_save: false
+      - handle: utm_source
+        field:
+          input_type: hidden
+          antlers: false
+          display: utm_source
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: hidden
+          always_save: false

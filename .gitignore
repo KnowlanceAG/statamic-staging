@@ -1,7 +1,8 @@
 /node_modules
 /public/hot
 /public/storage
-/public/vendor/statamic
+/storage/forms
+/storage/uploads
 /storage/*.key
 /vendor
 .env
@@ -15,3 +16,11 @@ yarn-error.log
 .DS_Store
 composer.phar
 .vscode
+ssg-lockfile
+.dccache
+/.antlers.json
+/storage/antlers-language-server
+/public/img
+/Requests
+/yaml-test
+/yaml/content

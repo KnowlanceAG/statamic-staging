@@ -1,41 +1,45 @@
-<figure class="my-8 flex {{ if img-alignment }}{{ img-alignment }}{{ else }}justify-center{{ /if }} {{ if has_border }}border border-gray-500 m-8{{ /if }}">
+{{ if assets }}
+<figure class="my-8 flex {{ if img_alignment }}{{ img_alignment }}{{ else }}justify-center{{ /if }} {{ if has_border }}border border-gray-500 m-8{{ /if }}">
     {{ if link }}
         <a href="{{ link }}">
-            {{ assets }}
+          {{ assets }}
+              {{ if extension == 'svg' || extension == 'gif' }}
+                  <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
+                  {{ if caption }}
+                      <figcaption class="text-center">
+                          <i class="text-sm text-gray-550">{{ caption | shortcode }}</i>
+                      </figcaption>
+                  {{ /if }}
+              {{ else }}
+                  {{ responsive:assets alt="{assets:alt}" class="" }}
+                  {{ if caption }}
+                      <figcaption class="text-center">
+                          <i class="text-sm text-gray-550">{{ caption | shortcode }}</i>
+                      </figcaption>
+                  {{ /if }}
+              {{ /if }}
+          {{ /assets }}
+        </a>
+    {{ else }}
+        {{ assets }}
+            <div>
                 {{ if extension == 'svg' || extension == 'gif' }}
                     <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
                     {{ if caption }}
                         <figcaption class="text-center">
-                            <i class="text-sm text-gray-550">{{ caption }}</i>
+                            <i class="text-sm text-gray-550">{{ caption | shortcode }}</i>
                         </figcaption>
                     {{ /if }}
                 {{ else }}
                     {{ responsive:assets alt="{alt}" class="" }}
                     {{ if caption }}
                         <figcaption class="text-center">
-                            <i class="text-sm text-gray-550">{{ caption }}</i>
+                            <i class="text-sm text-gray-550">{{ caption | shortcode }}</i>
                         </figcaption>
                     {{ /if }}
                 {{ /if }}
-            {{ /assets }}
-        </a>
-    {{ else }}
-        {{ assets }}
-            {{ if extension == 'svg' || extension == 'gif' }}
-                <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
-                {{ if caption }}
-                    <figcaption class="text-center">
-                        <i class="text-sm text-gray-550">{{ caption }}</i>
-                    </figcaption>
-                {{ /if }}
-            {{ else }}
-                {{ responsive:assets alt="{alt}" class="" }}
-                {{ if caption }}
-                    <figcaption class="text-center">
-                        <i class="text-sm text-gray-550">{{ caption }}</i>
-                    </figcaption>
-                {{ /if }}
-            {{ /if }}
+            </div>
         {{ /assets }}
     {{ /if }}
 </figure>
+{{ /if }}

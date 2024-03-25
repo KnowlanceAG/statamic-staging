@@ -9,7 +9,7 @@ fields:
           display: 'Add section'
           fields:
             -
-              import: new-columns
+              import: new_columns
         editor:
           display: 'Add Editor'
           fields:
@@ -25,8 +25,25 @@ fields:
           fields:
             -
               import: presse_listing
+        show_sidebar_mobile:
+          display: 'Sidebar mobil hier darstellen'
+          fields:
+            -
+              import: sidebar_element
+        breadcrumbs_element:
+          display: 'Breadcrumbs Element'
+          fields: {  }
+        citation_generator:
+          display: Zitationsgenerator
+          fields:
+            -
+              import: citation_generator
       display: Replicator
       type: replicator
       icon: replicator
       listable: hidden
       instructions: 'Replicator für Content Elemente'
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      previews: true

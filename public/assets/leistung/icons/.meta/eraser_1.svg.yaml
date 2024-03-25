@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: Korrektorat
 size: 1146
-last_modified: 1618916440
+last_modified: 1619516965
 width: '150'
 height: '150'
 mime_type: image/svg+xml

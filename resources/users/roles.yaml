@@ -95,6 +95,7 @@ redakteure:
     - 'configure forms'
     - 'access cache utility'
     - 'access search utility'
+    - 'access default site'
 admin:
   title: Admin
   permissions:
@@ -210,3 +211,12 @@ admin:
     - 'delete other authors blog entries'
     - 'delete other authors pages entries'
     - 'delete other authors team entries'
+    - 'assign user groups'
+    - 'assign roles'
+    - 'configure form fields'
+    - 'access default site'
+super_admin:
+  title: 'Super Admin'
+  permissions:
+    - super
+    - 'access default site'

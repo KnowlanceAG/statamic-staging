@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}" class="max-w-screen overflow-x-hidden">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-language" content="de-DE">
+  <meta name="robots" content="noindex">
+  <link rel="alternate" hreflang="de-DE" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
+  <link rel="alternate" hreflang="de-CH" href="https://gwriters.ch{{ current_uri == '/' ? '' : current_uri }}" />
+  <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
+  {{ if meta_title }}
+  {{ elseif page_title }}
+    <title>
+      {{ page_title }}
+    </title>
+  {{ elseif author_slug }}
+    {{ users slug:is="{author_slug}" }}
+      <title>
+        {{ short_text | shortcode | strip_tags | excerpt:. }}.
+      </title>
+      <meta name="description" content="{{ short_text | shortcode | strip_tags }}" />
+    {{ /users }}
+  {{ else }}
+    <title>GWriters •
+      {{ title ?? site:name }}
+    </title>
+  {{ /if }}
+  <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+
+  <link rel="icon" href="/assets/webseite/gwriters-logo-32x32.png" sizes="32x32">
+  <link rel="shortcut icon" href="/assets/webseite/gwriters-logo-32x32.png">
+  <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-57x57.png" sizes="57x57">
+  <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png" sizes="114x114">
+  {{ if !author_slug }}
+    {{# TODO: Check for necessary content #}}
+  {{ /if }}
+  {{ partial src="partials/analytics_header" }}
+</head>
+
+<body
+  class="{{ if id == "home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen">
+  {{ partial src="partials/analytics_body" }}
+  {{ aardvark-seo:body }}
+  {{ partial src="partials/header" }}
+  {{ template_content }}
+  {{ partial src="partials/footer" }}
+  <script src="{{ mix src='/js/site.js' }}"></script>
+  <script src="{{ mix src='/js/app.js' }}"></script>
+
+  {{ cookie_notice }}
+  {{ aardvark-seo:footer }}
+</body>
+
+</html>

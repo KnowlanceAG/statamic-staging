@@ -2,8 +2,7 @@ sections:
   contact_de:
     display: Deutschland
     fields:
-      -
-        handle: phone-de
+      - handle: phone_de_DE
         field:
           input_type: text
           antlers: false
@@ -11,20 +10,18 @@ sections:
           type: text
           icon: text
           listable: hidden
-      -
-        handle: mail-address-de
+      - handle: mail_address_de_DE
         field:
           input_type: text
           antlers: false
-          display: 'E-Mail Adresse'
+          display: "E-Mail Adresse"
           type: text
           icon: text
           listable: hidden
   contact_ch:
     display: Schweiz
     fields:
-      -
-        handle: phone-ch
+      - handle: phone_de_CH
         field:
           input_type: text
           antlers: false
@@ -32,12 +29,11 @@ sections:
           type: text
           icon: text
           listable: hidden
-      -
-        handle: mail-address-ch
+      - handle: mail_address_de_CH
         field:
           input_type: text
           antlers: false
-          display: 'E-Mail Adresse'
+          display: "E-Mail Adresse"
           type: text
           icon: text
           listable: hidden

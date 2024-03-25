@@ -1,2 +1,13 @@
 title: Kontakt
 honeypot: telefoon
+email:
+  -
+    to: kontakt@gwriters.de
+    from: service@gwriters.de
+    subject: 'gwriters.de - Kontaktanfrage'
+    html: mail-templates/mail-default_contact
+  -
+    to: '{{ email }}'
+    subject: 'gwriters.de - Ihre Anfrage'
+    html: mail-templates/mail-thx_contact
+    from: service@gwriters.de

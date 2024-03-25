@@ -1,19 +1,77 @@
 <div class="link-list">
-    <div class="block text-center">
-        <div class="inline-flex flex-row mb-4 link-list-header">
-            {{ raster }}
-                <p class="{{ if first }}active {{ /if }} font-bold px-6 py-4 uppercase border-b-2 border-gray-200 cursor-pointer" data-target="link-wrapper-{{ index }}">{{ text }}</p>
-            {{ /raster }}
-        </div>
+  <div class="block text-center">
+    <div class="inline-flex flex-row mb-4 link-list-header">
+      {{ raster }}
+        <p class="{{ if first }}active{{ /if }} font-bold p-2 md:px-6 md:py-4 uppercase border-b-2 border-gray-200 cursor-pointer"
+          data-target="link-wrapper-{{ index }}">
+          {{ text | shortcode }}
+        </p>
+      {{ /raster }}
     </div>
+  </div>
 
-    {{ raster }}
-        <div class="link-list-body {{ if first }}active {{ /if }}link-wrapper-{{ index }}">
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
-                {{ eintraege }}
-                    <a href="{{ url }}" alt="{{ title }}" class="font-Montserrat text-sm text-orange-500 hover:text-orange-700 hover:underline">{{ title }}</a>
-                {{ /eintraege }}
-            </div>
+  {{ raster }}
+    <div class="link-list-body {{ if first }}active{{ /if }} link-wrapper-{{ index }}">
+      {{ if text !== "Fachrichtungen" && text !== "Arbeiten" }}
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
+          {{ eintraege }}
+            <a href="{{ url }}" alt="{{ title }}"
+              class="text-sm text-orange-500 font-Montserrat hover:text-orange-700 hover:underline">
+              {{ if alternative_page_title }}
+                {{ alternative_page_title }}
+              {{ else }}
+                {{ title }}
+              {{ /if }}
+            </a>
+          {{ /eintraege }}
         </div>
-    {{ /raster }}
+      {{ else }}
+        <div class="flex justify-center">
+          <div class="w-full md:max-w-screen-md">
+            {{ categorize:list }}
+              {{ category }}
+                <div class="accordion-tab mb-4 {{ if active }}active{{ /if }}">
+                  <div class="block px-2 py-2 bg-gray-400 header md:px-6 md:py-4 hover:cursor-pointer"
+                    data-target="#accordion-tab-{{ index }}">
+                    <div class="flex justify-between p-0 m-0 hover:text-orange-500">
+                      <span class="mt-2 text-base md:mt-1 md:text-xl">
+                        {{ title }}
+                      </span>
+                      <div class="w-10">
+                        {{ icon | raw }}
+                      </div>
+                    </div>
+                  </div>
+                  <div id="accordion-tab-{{ index }}" class="overflow-hidden transition-all duration-500 content">
+                    <ul class="mt-8 list-none">
+                      {{ entries }}
+                        <li>
+                          {{ if jumpmark }}
+                            <a href="{{ url }}#{{ jumpmark }}" alt="{{ title }}" 
+                            class="p-3 text-sm text-orange-500 font-Montserrat hover:text-orange-700 hover:underline">
+                          {{ else }}
+                            <a href="{{ url }}" alt="{{ title }}"
+                              class="p-3 text-sm text-orange-500 font-Montserrat hover:text-orange-700 hover:underline">
+                          {{ /if }}
+                            {{ if link_text_overwrite }}
+                              {{ link_text_overwrite }} 
+                            {{ /if }}
+                            {{ if alternative_page_title }}
+                              {{ alternative_page_title }}
+                            {{ else }}
+                              {{ title }}
+                            {{ /if }}
+                          </a>
+                        </li>
+                      {{ /entries }}
+                    </ul>
+                  </div>
+                </div>
+              {{ /category }}
+            {{ /categorize:list }}
+          </div>
+        </div>
+      {{ /if }}
+    </div>
+  {{ /raster }}
 </div>

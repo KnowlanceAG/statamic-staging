@@ -12,7 +12,7 @@
                 {{ if downloads }}
                     <div class="text-center">
                         {{ downloads }}
-                            <a href="{{ path }}" class="px-10 py-3 inline-block bg-orange-500 hover:bg-orange-700 hover:opacity-100 text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95">Herunterladen</a>
+                            <a href="{{ url }}" class="px-10 py-3 inline-block bg-orange-500 hover:bg-orange-700 hover:opacity-100 text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95">Herunterladen</a>
                         {{ /downloads }}
                     </div>
                 {{ /if }}
@@ -20,9 +20,15 @@
                 {{ if more_templates }}
                     <div class="my-20">
                         <h4 class="mb-6 text-center with-cutter">Weitere Vorlagen</h4>
-                        <div class="grid grid-cols-3 gap-8">
+                        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 md:gap-8">
                             {{ more_templates }}
-                                <a href="{{ url }}" class="p-3 text-center text-xs bg-gray-300 rounded-sm hover:bg-gray-500">{{ title }}</a>
+                                <a href="{{ url }}" class="p-3 text-center text-xs bg-gray-300 rounded-sm hover:bg-gray-500">
+                                    {{ if link_title }}
+                                        {{ link_title }}
+                                    {{ else }}
+                                        {{ title | shortcode  }}
+                                    {{ /if }}
+                                </a>
                             {{ /more_templates }}
                         </div>
                     </div>
@@ -33,14 +39,16 @@
                         <h4 class="mb-6 text-center with-cutter">Mehr aus unserem Blog</h4>
                         <ul class="list-none pl-0">
                         {{ from_the_blog }}
-                            <li class="pl-0 mb-1"><a href="{{ url }}" class="text-orange-500 hover:text-orange-700">>&nbsp;&nbsp;<span class="hover:underline">{{ title }}</span></a></li>
+                            <li class="pl-0 mb-1"><a href="{{ url }}" class="text-orange-500 hover:text-orange-700">>&nbsp;&nbsp;<span class="hover:underline">{{ title | shortcode  }}</span></a></li>
                         {{ /from_the_blog }}
                         </ul>
                     </div>
                 {{ /if }}
             </div>
             <aside class="my-8">
+              {{ yield:sidebar }}
                 {{ partial src="partials/sidebar" }}
+              {{ /yield:sidebar }}
             </aside>
         </div>
     </div>

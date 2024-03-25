@@ -1,0 +1,11 @@
+<div class="mx-auto mt-8 md:max-w-xl lg:max-w-none flex flex-col sm:flex-wrap md:grid md:grid-cols-2 lg:grid-cols-4 justify-center gap-6 md:gap-12">
+    {{ columns }}
+        <div class="flex flex-row gap-4 relative group md:cursor-pointer has-teaser-tooltip">
+            <div class="bg-orange-500 rounded-full w-12 h-12 p-3 self-center flex-none">
+                <img src="{{ icon:url }}" alt="{{ icon:alt }}" />
+            </div>
+            <h3 class="m-0 text-base leading-5 self-center">{{ headline | shortcode }}</h3>
+            <div class="inline-block invisible group-hover:visible absolute group-hover:opacity-90 z-10 py-2 px-3 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 shadow-sm teaser-tooltip">{{ tooltip_infotext | shortcode }}</div>
+        </div>
+    {{ /columns }}
+</div>

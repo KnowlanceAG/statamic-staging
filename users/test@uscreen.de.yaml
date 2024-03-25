@@ -6,22 +6,49 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
+      per_page: 500
     blog:
       after_save: continue_editing
       per_page: 100
+      columns:
+        - title
+        - slug
+        - date
     team:
       columns:
         - title
         - position
         - photo
+    presse:
+      after_save: continue_editing
+    akademie:
+      per_page: 100
   assets:
     downloads:
       mode: table
   forms:
     anfrage:
       columns:
-        - datestamp
         - name
         - nachname
         - lieferdatum
         - e_mail_adresse
+        - gw_source
+        - req_ip
+        - datestamp
+      per_page: 100
+    autorenbewerbung:
+      columns:
+        - datestamp
+        - nachname
+        - e_mail_adresse
+        - gw_source
+        - req_ip
+    contact-form:
+      columns:
+        - datestamp
+        - name
+        - email
+        - subject
+        - gw_source
+        - req_ip

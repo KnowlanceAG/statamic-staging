@@ -1,7 +1,7 @@
-{{ get_content from="/404" }}
-    {{ content }}
+{{ get_content from="/error-404" }}
+  {{ content | shortcode }}
 
-    {{ replicator }}
-        {{ partial src="partials/content/{type}" }}
-    {{ /replicator }}
-{{ /get_content}}
+  {{ replicator }}
+    {{ partial src="partials/content/{type}" }}
+  {{ /replicator }}
+{{ /get_content }}

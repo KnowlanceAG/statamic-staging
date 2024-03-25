@@ -1,0 +1,116 @@
+title: 'Accordion Custom'
+fields:
+  -
+    handle: items
+    field:
+      fields:
+        -
+          handle: headline
+          field:
+            always_show_set_button: false
+            buttons:
+              - h2
+              - h3
+              - bold
+              - italic
+              - removeformat
+              - anchor
+              - table
+              - h1
+              - h4
+              - h5
+              - h6
+              - underline
+              - strikethrough
+              - superscript
+              - subscript
+            save_html: false
+            toolbar_mode: fixed
+            link_noopener: false
+            link_noreferrer: false
+            target_blank: false
+            reading_time: false
+            fullscreen: true
+            allow_source: true
+            enable_input_rules: true
+            enable_paste_rules: true
+            display: Überschrift
+            type: bard
+            icon: bard
+            listable: hidden
+            instructions_position: above
+        -
+          handle: accordion_content
+          field:
+            always_show_set_button: false
+            buttons:
+              - h2
+              - h3
+              - bold
+              - italic
+              - unorderedlist
+              - orderedlist
+              - removeformat
+              - quote
+              - anchor
+              - image
+              - table
+              - h1
+              - h4
+              - h5
+              - h6
+              - underline
+              - strikethrough
+              - superscript
+              - subscript
+            save_html: false
+            toolbar_mode: fixed
+            link_noopener: false
+            link_noreferrer: false
+            target_blank: false
+            reading_time: false
+            fullscreen: true
+            allow_source: true
+            enable_input_rules: true
+            enable_paste_rules: true
+            display: Content
+            type: bard
+            icon: bard
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+            collapse: false
+            previews: true
+            sets:
+              anchor_target:
+                display: 'Anker Ziel'
+                fields:
+                  -
+                    import: anchor_target
+              button:
+                display: Button
+                fields:
+                  -
+                    import: ce_button
+            antlers: false
+            remove_empty_nodes: false
+        -
+          handle: active
+          field:
+            default: false
+            display: Aktiv
+            type: toggle
+            icon: toggle
+            instructions: Geöffnet
+            listable: hidden
+            instructions_position: above
+      mode: stacked
+      reorderable: true
+      display: Items
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

@@ -1,0 +1,17 @@
+title: Sidebar-Element
+fields:
+  -
+    handle: custom_sidebar_placement
+    field:
+      options:
+        'on': Sichtbar
+        'off': Unsichtbar
+      inline: true
+      cast_booleans: true
+      default: 'on'
+      display: Sichtbarkeit
+      type: radio
+      icon: radio
+      instructions: 'Rendert die Sidebar für mobile Bildweiten an dieser Stelle'
+      listable: hidden
+      instructions_position: above

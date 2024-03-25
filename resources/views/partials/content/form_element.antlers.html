@@ -1,0 +1,106 @@
+<div class="flex flex-col space-y-4
+  {{ if !fullWidth }}
+    {{ width == '25' ?= 'md:col-span-3' }}
+    {{ width == '33' ?= 'md:col-span-4' }}
+    {{ width == '50' ?= 'md:col-span-6' }}
+    {{ width == '66' ?= 'md:col-span-8' }}
+    {{ width == '75' ?= 'md:col-span-9' }}
+    {{ width == '100' ?= 'md:col-span-12' }}{{ else }}w-full{{ /if }}
+  {{ cls }}" id="{{ handle }}">
+  <label class="block uppercase tracking-wide text-black text-xs {{ marginTopNone ? 'mt-0' : 'mt-4' }} mb-1"
+    for="{{ handle }}">
+    {{ trans key="{display}" }}
+    {{ if validate | contains('required') }}
+      <sup class="text-red-500">*</sup>
+    {{ /if }}
+  </label>
+  {{ if infotext }}
+    <p>{{ infotext }}</p>
+  {{ /if }}
+  <div x-bind:class="{
+        'border border-red-500' : errors.{{ handle }}
+    }">
+    {{ if tooltip }}
+      <div class="relative has-tooltip">
+        <span
+          class='w-auto max-w-full px-2 py-1 text-xs leading-5 text-black bg-white border border-gray-300 rounded shadow-xl tooltip ml-14'>
+          {{ tooltip }}
+        </span>
+        {{ field }}
+      </div>
+      {{ elseif handle === "callback_time_from" || handle === "callback_time_to" }}
+        <select id="{{ handle }}" name="{{ handle }}" onchange="adjustCallbackTime({{ handle }})">
+          <option value="08:00">08:00</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+        </select>
+      {{ elseif handle === "work_type" }}
+          <div>
+            <p class="text-sm">Bitte wählen Sie, ob es sich um eine Empirische Arbeit oder um eine Literaturarbeit handelt.</p>
+            <fieldset class="mt-4">
+              <legend class="sr-only">Empirische Arbeit oder Literaturarbeit</legend>
+              <div class="space-y-4">
+                <div class="flex items-center">
+                  <input id="work_type_literature" name="{{ handle }}" value="Literaturarbeit" type="radio" checked class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
+                  <label for="work_type_literature" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Literaturarbeit</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="work_type_empiric_qualitative" name="{{ handle }}" value="Empirische Arbeit (Qualitativ)" type="radio" class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
+                  <label for="work_type_empiric_qualitative" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Empirische Arbeit (Qualitativ; bspw. Interviews)</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="work_type_empiric_quantitative" name="{{ handle }}" value="Empirische Arbeit (Qualitativ)" type="radio" class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
+                  <label for="work_type_empiric_quantitative" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Empirische Arbeit (Quantitativ; bspw. Umfrage / Finanzdaten)</label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+      {{ elseif handle === "survey_progress" }}
+          <div>
+            <p class="text-sm">Ist die Umfrage bereits fertig / ausgewertet?</p>
+            <fieldset class="mt-4">
+              <legend class="sr-only">Umfrage bereits fertig beziehungsweise ausgewertet?</legend>
+              <div class="space-y-4 sm:flex sm:items-center sm:space-x-10 sm:space-y-0">
+                <div class="flex items-center">
+                  <input id="survey_progress_yes" name="{{ handle }}" type="radio" value="Ja" checked class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
+                  <label for="survey_progress_yes" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Ja</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="survey_progress_no" name="{{ handle }}" type="radio" value="Nein" class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
+                  <label for="survey_progress_no" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Nein</label>
+                </div>
+                <div class="flex items-center">
+                  <input id="survey_progress_partially" name="{{ handle }}" type="radio" value="Teilweise" class="h-4 w-4 border-gray-300 text-orange-500 focus:ring-orange-500">
+                  <label for="survey_progress_partially" class="ml-3 block text-sm font-medium leading-6 text-gray-900">Teilweise</label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+    {{ else }}
+      {{ field }}
+    {{ /if }}
+
+    {{ if instructions }}
+      <p class="text-sm text-gray-700">
+        {{ instructions | markdown }}
+      </p>
+    {{ /if }}
+  </div>
+  {{# Load notification when there is a validation error with the name field.
+#}}
+  <template x-if="errors.{{ handle }}">
+    {{ partial src="components/notification" type="error"
+  attribute="x-text='clientTranslation(\"{handle}\", errors.{ handle })'"
+  handle="{handle}" }}
+  </template>
+</div>

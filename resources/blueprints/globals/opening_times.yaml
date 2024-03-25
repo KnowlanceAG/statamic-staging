@@ -1,0 +1,7 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: oeffnungszeiten
+        field: phone_cta.open

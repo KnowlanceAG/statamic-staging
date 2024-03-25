@@ -1,0 +1,38 @@
+{{ partial src="partials/teaser" }}
+<section class="px-4 mt-16 max-w-screen">
+
+    <div class="content container mx-auto max-w-screen-xl clear-both">
+
+        {{ replicator }}
+            {{ partial src="partials/content/{type}" }}
+        {{ /replicator }}
+
+        {{ if downloads }}
+            <div class="text-center">
+                {{ downloads }}
+                    <a href="{{ url }}"
+                        class="px-10 py-3 inline-block bg-orange-500 hover:bg-orange-700 hover:opacity-100 text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95">Herunterladen</a>
+                {{ /downloads }}
+            </div>
+        {{ /if }}
+
+        {{ if more_templates }}
+            <div class="my-20">
+                <h4 class="mb-6 text-center with-cutter">Unsere Wissenskategorien</h4>
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 md:gap-8">
+                    {{ more_templates }}
+                        <div>
+                            <h2 class="hover:text-orange-500"><a href="{{ url }}">{{ academy_short_text_headline }}</a>
+                            </h2>
+                            <p class="inline">
+                                {{ academy_short_text | shortcode | raw }}
+                                <a href="{{ url }}" class="text-orange-500 inline">Mehr lesen...</a>
+                            </p>
+                        </div>
+                    {{ /more_templates }}
+                </div>
+            </div>
+        {{ /if }}
+
+    </div>
+</section>

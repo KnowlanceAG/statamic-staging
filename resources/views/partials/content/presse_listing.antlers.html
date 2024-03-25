@@ -1,43 +1,48 @@
 <div class="mt-10">
-    {{ collections }}
-        {{ collection:{{handle}} as="col" limit="10" paginate="true" }}
-            {{ col }}
-                <div class="mb-20 border-t border-gray-300 pt-10">
-                    {{ post_image }}
-                        <a href="{{ uri }}">
-                            {{ if extension == 'svg' || extension == 'gif' }}
-                                <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
-                            {{ else }}
-                                {{ responsive:post_image alt="{alt}" class="mb-2" }}
-                            {{ /if }}
-                        </a>
-                    {{ /post_image }}
-                    <h3 class="mb-0">
-                        <a href="{{ uri }}" class="text-black hover:text-orange-500 hover:transition-color hover:duration-200">
-                            {{ title }}
-                        </a>
-                    </h3>
-                    <p class="block mb-0">
-                        <b>Datum: </b>
-                        {{ published_at }}
-                        <b>Erschienen in: </b>
-                        {{ if published_in_link }}
-                            <a href="{{ published_in_link }}" target="_blank">
-                        {{ /if }}
-                        {{ published_in_name }}
-                        {{ if published_in_link }}
-                            </a>
-                        {{ /if }}
-                         <b>Autor: </b>{{ external_author }}
-                    </p>
-                    {{ short_text }}
-                    <a href="{{ url }}" class="px-8 py-2 my-3 inline-block border border-orange-500 text-orange-500 text-sm hover:bg-orange-500 hover:text-white hover:transition-color duration-300">ARTIKEL LESEN</a>
-                </div>
-            {{ /col }}
+  {{ collections }}
+    {{ collection:presse as="col" limit="{config:app:pagination_limit}" paginate="true" sort="published_at:desc" }}
+      {{ col }}
+        <div class="mb-20 border-t border-gray-300 pt-10">
+          {{ if post_image }}
+            {{ post_image }}
+              <a href="{{ uri }}">
+                {{ if extension == 'svg' || extension == 'gif' }}
+                  <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}"
+                    {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                {{ else }}
+                  {{ responsive:post_image alt="{alt}" class="mb-2" }}
+                {{ /if }}
+              </a>
+            {{ /post_image }}
+          {{ /if }}
+          <h3 class="mb-0">
+            <a href="{{ uri }}" class="text-black hover:text-orange-500 hover:transition-color hover:duration-200">
+              {{ title }}
+            </a>
+          </h3>
+          <p class="block mb-0">
+            <b>Datum: </b>
+            {{ published_at format="d.m.Y" }}
+            <b>Erschienen in: </b>
+            {{ if published_in_link }}
+              <a href="{{ published_in_link }}" target="_blank">
+            {{ /if }}
+            {{ published_in_name }}
+            {{ if published_in_link }}
+              </a>
+            {{ /if }}
+            <b>Autor: </b>{{ external_author }}
+          </p>
+          {{ short_text | shortcode  }}
+          <a href="{{ url }}"
+            class="px-8 py-2 my-3 inline-block border border-orange-500 text-orange-500 text-sm hover:bg-orange-500 hover:text-white hover:transition-color duration-300">ARTIKEL
+            LESEN</a>
+        </div>
+      {{ /col }}
 
-            {{ paginate }}
-                {{ partial src="partials/pagination" }}
-            {{ /paginate }}
-        {{ /collection:{{handle}} }}
-    {{ /collections }}
+      {{ paginate }}
+        {{ partial src="partials/pagination" }}
+      {{ /paginate }}
+    {{ /collection:presse }}
+  {{ /collections }}
 </div>

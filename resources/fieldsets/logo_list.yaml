@@ -1,0 +1,13 @@
+title: Logo-Liste
+fields:
+  -
+    handle: dateien
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      display: Dateien
+      type: assets
+      icon: assets
+      listable: hidden

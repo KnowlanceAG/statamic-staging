@@ -1,0 +1,1303 @@
+---
+id: ff31aab0-28c4-4293-b3dd-df88d7c95e84
+blueprint: pages
+title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 1
+      textAlign: center
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+        text: 'Zitierregeln nach Harvard - praktische Beispiele & Generator'
+replicator:
+  -
+    id: lpl97bt5
+    columns_replicator:
+      -
+        id: lpl97d3t
+        single_col: true
+        grid:
+          -
+            id: II9wqGdB
+            bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Die Harvard Zitierweise ist einer der am häufigsten verwendeten Zitierstile in der akademischen Welt. Die Harvard Zitierweise, bekannt für ihre einfache und intuitive Anwendung, ist besonders in den Sozial- und Geisteswissenschaften beliebt. Sie zeichnet sich durch die Verwendung von Autor-Jahr-Zitaten im Text und einer ausführlichen Auflistung der Quellen im Literaturverzeichnis aus.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    text: 'Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'kostenloser Zitationsgenerator'
+                  -
+                    type: text
+                    text: ' ist ein maßgeschneidertes Tool, das speziell entwickelt wurde, um Ihnen die korrekte Anwendung der Harvard Zitierweise zu erleichtern. Mit diesem Tool können Sie mühelos präzise und konsistente Zitate und Literaturverzeichnisse erstellen, die den Anforderungen des Harvard-Stils gerecht werden. Unser Generator ist benutzerfreundlich und zeitsparend, was ihn zu einem unverzichtbaren Hilfsmittel für Studierende, Akademiker und Forscher macht, die sich auf diesen Zitierstil verlassen.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    text: 'Nutzen Sie unseren Zitationsgenerator, um Ihre wissenschaftlichen Arbeiten mit akkurat zitierten Quellen zu bereichern und erleben Sie, wie einfach und effizient die Harvard Zitierweise in Ihre Forschung integriert werden kann.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lpl97ae0
+    columns_replicator:
+      -
+        id: lpl97huf
+        single_col: true
+        grid:
+          -
+            id: II9wqGdB
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lpl97r0i
+                  values:
+                    type: citation_generator
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lp8ijf6u
+    columns_replicator:
+      -
+        id: lp8ijh4a
+        single_col: true
+        grid:
+          -
+            id: Bv9XTlai
+            bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'In sozial- und geisteswissenschaftlichen Fächern werden Quellenangaben üblicherweise nach der Harvard-Methode gemacht. Diese Methode gehört mit APA zu den häufigsten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/zitierweisen
+                          rel: null
+                          target: null
+                          title: null
+                    text: Zitierweisen
+                  -
+                    type: text
+                    text: ' weltweit. Anders als im APA-Stil sind die Vorgaben weniger streng, wenn Sie nach Harvard zitieren. Klar ist lediglich, dass alle Quellenangaben im Fließtext erfolgen. Die weiteren Details regeln die Hochschulen. Weil die Regeln nicht so eindeutig sind, haben Sie einen größeren Spielraum. Dennoch müssen Sie natürlich einen Rahmen beachten beim Zitieren nach Harvard. In diesem Beitrag zeigen wir Ihnen, worauf Sie achten müssen. Die Beispiele aus unserem Beitrag orientieren sich an den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://home.uni-leipzig.de/schreibportal/zitationsregeln/'
+                          rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
+                    text: 'Harvard-Regeln der Universität Leipzig'
+                  -
+                    type: text
+                    text: .
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lp8ikadq
+        single_col: true
+        grid:
+          -
+            id: Bv9XTlai
+            bard:
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#definition'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Zitieren nach Harvard'
+                      -
+                        type: bulletList
+                        content:
+                          -
+                            type: listItem
+                            content:
+                              -
+                                type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#fussnote'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Harvard zitieren: Keine Verweise in den Fußnoten!'
+                          -
+                            type: listItem
+                            content:
+                              -
+                                type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#direktes-zitat'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Direktes Zitieren '
+                          -
+                            type: listItem
+                            content:
+                              -
+                                type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#indirektes-zitat'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Indirektes Zitieren'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#internetquellen'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Internetquelle zitieren im Harvard-Stil'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#abbildungen'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Abbildungen zitieren nach Harvard-Regeln'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#gesetze'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Gesetze zitieren Harvard'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#literaturverzeichnis'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Wie sieht ein Literaturverzeichnis im Harvard-Stil aus?'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#wichtige-fragen'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Häufige Fragen und Antworten'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lp8ilhe9
+        single_col: true
+        grid:
+          -
+            id: Bv9XTlai
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lixf5ptf
+                  values:
+                    type: anchor_target
+                    anchor_name: definition
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Zitieren nach Harvard'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Die Harvard-Zitierweise wurde an der US-amerikanischen Elitehochschule Harvard entwickelt. Deswegen wird sie auch als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'amerikanische Zitierweise '
+                  -
+                    type: text
+                    text: 'bezeichnet. Wegen der Art und Weise, in der die Quellen angegeben werden, wird auch von der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Autor-Jahr-Zitationsmethode '
+                  -
+                    type: text
+                    text: 'gesprochen. Wenn Sie ein Buch zitieren nach Harvard, dann schreiben Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'im Fließtext'
+                  -
+                    type: text
+                    text: ' in Klammern zuerst den Nachnamen des Autors, anschließend geben Sie das Jahr an, in dem das Buch erschienen ist.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Die Regeln sind beim Harvard-Stil nicht so streng wie bei anderen Varianten der Zitation, etwa dem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/ieee-zitierstil
+                          rel: null
+                          target: null
+                          title: null
+                    text: IEEE-Zitierstil
+                  -
+                    type: text
+                    text: '. Wichtig ist jedoch, dass die Angaben in Ihrer eigenen Arbeit konsistent sind. Wenn Sie bei Ihrer Abschlussarbeit auf Nummer sicher gehen wollen, können Sie ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'professionelles Lektorat'
+                  -
+                    type: text
+                    text: ' in Auftrag geben. Dann sind Sie sicher, dass die Vorgaben zur Zitation korrekt umgesetzt werden.'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: "Harvard Zitierweise in der Übersicht\_"
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Verweise im Text können Sie folgendermaßen machen:'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Indirekte Zitate'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'im Fließtext nach dem Schema [Autor] [(Jahr)], beispielsweise so:'
+              -
+                type: set
+                attrs:
+                  id: lpilrl7z
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>Bakó und Zana (2020) halten fest, …
+                      <br><br><span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">(Jahr)</span>
+                      </div>
+              -
+                type: set
+                attrs:
+                  id: lpimtsaj
+                  values:
+                    type: spacer
+                    padding-y: 12
+              -
+                type: set
+                attrs:
+                  id: lpimpsf0
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>…kann konstatiert werden (Bakó &amp; Zana 2020).
+                      <br><br>(<span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">Jahr</span>)
+                      </div>
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Direkte Zitate'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Bei direkten Zitaten bleibt das Schema gleich. Sie müssen allerdings jeweils noch die Seitenzahl dazuschreiben.'
+              -
+                type: set
+                attrs:
+                  id: lpimurtd
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>Drexler (2018) schlägt vor, dass „xx yy zz“ (S. 145).
+                      <br><br><span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">(Jahr)</span><span style="background-color: #EFA052;">Text</span><span style="background-color: #CAE891;">(Seitenanzahl).</span>
+                      </div>
+              -
+                type: set
+                attrs:
+                  id: lpimyiyg
+                  values:
+                    type: spacer
+                    padding-y: 12
+              -
+                type: set
+                attrs:
+                  id: lpimypo8
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 4px solid #FF660A; padding: 20px;">
+                          <b>Harvard Zitierstil Beispiel:</b><br><br>(Drexler 2018, S. 145).&nbsp; 
+
+                      <br><br>(<span style="background-color: #91C6E8;">Autor</span><span style="background-color: #C891E8;">Jahr,</span>
+                        <span style="background-color: #CAE891;">Seitenanzahl</span>)
+                      </div>
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Im Literaturverzeichnis sehen unsere Beispielquellen dann so aus:'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: Das
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' '
+                  -
+                    type: text
+                    text: Werk
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' eines Autors'
+                  -
+                    type: text
+                    text: ' wird so angeführt:'
+              -
+                type: set
+                attrs:
+                  id: lpin887t
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div style="border: 4px solid #FF660A; padding: 20px;"><b>Harvard-Style: Literaturverzeichnis Beispiel</b><br><br>
+
+                      <span style="background-color: #91C6E8;">Drexler, K.</span><span style="background-color: #C891E8;">(2018):</span><span style="background-color: #CAE891;">Ererbte Wunden heilen. Therapie der transgenerationalen Traumatisierung,</span><span style="background-color: #E87667;">3. Aufl.,</span><span style="background-color: #F29141;">Stuttgart:</span><span style="background-color: #F261DD;">Klett-Cotta.</span>
+                      <br><br>
+                      <span style="background-color: #91C6E8;">Nachname,&nbsp;Vorname</span><span style="background-color: #C891E8;">(Jahr):</span><span style="background-color: #CAE891;">Titel,</span><span style="background-color: #E87667;">Auflage,</span><span style="background-color: #F29141;">Ort:</span><span style="background-color: #F261DD;">Verlag.</span> <br><br>
+                      bei zwei Autoren setzen Sie ein &amp; zwischen die Namen, der Rest verändert sich nicht, also so: <br><br>
+                        Bakó, T., &amp; Zana, K. (2020). Transgenerational trauma and therapy. The transgenerational atmosphere. Milton Park: Routledge.
+                        
+                      </div>
+              -
+                type: set
+                attrs:
+                  id: lkh3mjn8
+                  values:
+                    type: anchor_target
+                    anchor_name: fussnote
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Harvard zitieren: Keine Verweise in den Fußnoten!'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Die wichtigste Regel beim Harvard zitieren ist, dass keine Quellenangaben in den Fußnoten gemacht werden. Sie machen alle Verweise im laufenden Text. Diese Vorschrift ist verpflichtend, anders als bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/chicago-zitierweise
+                          rel: null
+                          target: null
+                          title: null
+                    text: Chicago-Zitierweise
+                  -
+                    type: text
+                    text: ', wo Sie zwischen Text- und Fußnotenreferenzen wählen können.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Beim Harvard Zitieren kommen lediglich weiterführende Erklärungen in die Fußnoten. Literaturbelege hingegen werden immer im Fließtext gemacht. Für die verschiedenen Quellenarten gelten unterschiedliche Richtlinien, für die Sie in diesem Beitrag jeweils Beispiele sehen. Im folgenden Bild wird in der Fußnote eine weiterführende Erklärung gegeben, die den Fließtext ergänzt.'
+              -
+                type: set
+                attrs:
+                  id: lpinwzpk
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-fussnote-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: set
+                attrs:
+                  id: lmfzgs7u
+                  values:
+                    type: anchor_target
+                    anchor_name: direktes-zitat
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Direktes Zitieren Harvard'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'In der Harvard Zitierweise wird bei direkten Zitaten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'immer die Seitenzahl'
+                  -
+                    type: text
+                    text: ' angegeben, von der das konkrete Zitat stammt. Sie geben also den Autor, das Jahr des Erscheinens und die Seitenzahl in einer Klammer direkt hinter den Anführungszeichen an.'
+              -
+                type: set
+                attrs:
+                  id: lpinxd1b
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/direktes-zitat-harvard-min-1701197826.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Es gibt auch die Möglichkeit, die Quelle im direkten Zitat aufzuteilen. Sie geben dann zunächst einleitend den Autornamen und das Jahr an. Die Seitenzahl folgt erst nach dem direkten Zitat. Das erhöht die Lesbarkeit.'
+              -
+                type: set
+                attrs:
+                  id: lmfyec0g
+                  values:
+                    type: floating_img
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/direktes-zitat-im-text.jpg
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Grundsätzlich ist beim Harvard Zitieren Unterstützung durch Programme z.B. Harvard Zitiergenerator möglich, mit dem Sie korrekte Zitatangaben erstellen können. In Word können Sie die Harvard-Zitierweise einstellen. Dazu wählen Sie im Reiter „Verweise“ die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Formatvorlage Harvard'
+                  -
+                    type: text
+                    text: .
+              -
+                type: set
+                attrs:
+                  id: lpiorbdt
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-word-min.jpg
+                    img_size: w-full
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Verweisen Sie mehrfach hintereinander auf die gleiche Quelle, dann können Sie auch „ebd.“ benutzen. Es besteht allerdings keine Pflicht zum '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ebenda-zitieren
+                          rel: null
+                          target: null
+                          title: null
+                    text: ebd.-Zitieren
+                  -
+                    type: text
+                    text: '. Bei Unsicherheiten kann Ihnen ein Ghostwriter helfen. Sie können sich eine Vorlage für eine Bachelorarbeit oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Masterarbeit erstellen lassen'
+                  -
+                    type: text
+                    text: ', bei der korrekt nach dem Harvard-Stil zitiert wird.'
+              -
+                type: set
+                attrs:
+                  id: lpiqqg1n
+                  values:
+                    type: anchor_target
+                    anchor_name: indirektes-zitat
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Indirektes Zitieren'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie indirekt zitieren, dann können Sie das durch ein „vgl.“ kennzeichnen. Die Angabe des „vgl.“ ist in diesem Falle optional. Es sind beide Varianten möglich. Auch hier sollten Sie sich die Vorgaben Ihrer Hochschule genau durchlesen. In jedem Falle gehören auch indirekte Verweise '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'nicht in die Fußnoten, sondern in den Fließtext.'
+                  -
+                    type: text
+                    text: ' Wenn Sie sich eine Vorlage für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', können Sie sicher sein, dass alle Vorgaben korrekt umgesetzt werden. Unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          rel: null
+                          target: null
+                          title: null
+                    text: Zitiergenerator
+                  -
+                    type: text
+                    text: ' hilft Ihnen ebenfalls beim Einhalten der korrekten Zitierweise.'
+              -
+                type: set
+                attrs:
+                  id: lmfyf750
+                  values:
+                    type: floating_img
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/indirektes-zitat-harvard-min.jpg
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Diese Regel gilt nicht nur, wenn Sie ein Buch zitieren nach Harvard. Auch wenn Sie Studien zitieren nach Harvard, geben Sie die Quelle nach diesem Muster an. Bei mehreren Autoren gilt: Bei bis zu zwei Autoren werden alle Namen angegeben.'
+              -
+                type: set
+                attrs:
+                  id: lpioub4e
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/indirektes-zitat-harvard-im-text-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Haben mehr als zwei Autoren eine Studie verfasst, dann geben Sie nur den Hauptautor an und kürzen die restlichen Autoren mit „et al.“ ab. Ins Literaturverzeichnis gehören dann wieder alle Namen. Dazu und auch, wie Sie einen Sammelband zitieren nach Harvard, erfahren Sie weiter unten im Beitrag noch mehr.'
+              -
+                type: set
+                attrs:
+                  id: lpiov77i
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/zitieren-et-al-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Haben Sie schon unseren professionellen Zitationsgenerator entdeckt? Hier können Sie überprüfen, ob Sie Ihre Quelle korrekt zitiert haben. Zusätzlich dazu können Sie die gesuchte Ressource direkt angeben, und Ihnen wird die richtige Zitierweise direkt generiert.'
+              -
+                type: set
+                attrs:
+                  id: lpiu638d
+                  values:
+                    type: citation_generator
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+              -
+                type: set
+                attrs:
+                  id: lmfzhmae
+                  values:
+                    type: anchor_target
+                    anchor_name: internetquellen
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Internetquelle zitieren im Harvard-Stil'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie Texte verwenden, die nur im Netz abrufbar sind, dann behandeln Sie diese nach der Harvard-Zitierweise im Fließtext wie eine Buchquelle oder eine Studie: Sie zitieren bei bis zu zwei Autoren alle Namen und bei drei und mehr Autoren schreiben Sie „Autor 1 et al.“. Hinzu kommt in jedem Falle das Jahr des Erscheinens der Internetquelle.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Ins Literaturverzeichnis gehören dann die URL und das Datum des letzten Abrufs. Das kann dann etwa so aussehen:'
+              -
+                type: set
+                attrs:
+                  id: lmfygfti
+                  values:
+                    type: floating_img
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/internetquelle-harvard.jpg
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+              -
+                type: set
+                attrs:
+                  id: lmfzi8x6
+                  values:
+                    type: anchor_target
+                    anchor_name: abbildungen
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Abbildungen zitieren nach Harvard-Zitierweise'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Tabellen und Abbildungen werden nach Harvard-Vorgaben nummeriert und mit einem kurzen Titel versehen. In unserem Beispiel wurde eine eigene Abbildung erstellt. Die Daten stammen von einem Statistikportal. Dieses müssen Sie als Quelle angeben. Sie setzen also Autor, Jahreszahl und gegebenenfalls auch die Seitenzahl als Quellenverweis hinter den Kurztitel der Abbildung.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Im Text selbst verweisen Sie dann jeweils auf die Nummer der Abbildung, wenn Sie noch genauere Ausführungen dazu machen. Beim Erstellen von Abbildungen kann ein Ghostwriter Sie unterstützen. Wenn Sie beispielsweise in '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/soziologie
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Soziologie einen Ghostwriter'
+                  -
+                    type: text
+                    text: ' beauftragen, dann hat dieser Zugang zu den wichtigsten Datenbanken und kann an Hand statistischer Daten Abbildungen für Ihr Thema erstellen.'
+              -
+                type: set
+                attrs:
+                  id: lmfyis7i
+                  values:
+                    type: floating_img
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-beispiel-min.jpg
+              -
+                type: set
+                attrs:
+                  id: lmfzky9l
+                  values:
+                    type: anchor_target
+                    anchor_name: gesetze
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Gesetze zitieren Harvard'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'In jeder wissenschaftlichen Arbeit ist es wichtig, dass Sie die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/literaturquellen-richtig-zitieren
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Literaturquellen richtig zitieren'
+                  -
+                    type: text
+                    text: '. Bei juristischen Arbeiten müssen Sie auf Gesetzestexte verweisen. Hierzu müssen Sie Paragraph, Absatz, Satz und Kurztitel des Gesetzbuches anführen. Dies geschieht nach der Harvard-Methode direkt im Fließtext. Wenn Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator/gesetze-zitieren
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Gesetze zitieren'
+                  -
+                    type: text
+                    text: ', wird die Quellenangabe also unmittelbar nach dem Gesetz gemacht, auf das Sie verweisen.'
+              -
+                type: set
+                attrs:
+                  id: lmfymbly
+                  values:
+                    type: floating_img
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-gesetze-zitieren-min.jpg
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Wichtig ist, dass bei juristischen Arbeiten die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Gesetze
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'nicht im Literaturverzeichnis '
+                  -
+                    type: text
+                    text: 'aufgeführt werden. Bei solchen Arbeiten ist also höchste Sorgfalt geboten. Dabei kann in '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter/jura
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Jura ein Ghostwriter'
+                  -
+                    type: text
+                    text: ' Sie unterstützen.'
+              -
+                type: set
+                attrs:
+                  id: lkh3m7f0
+                  values:
+                    type: anchor_target
+                    anchor_name: literaturverzeichnis
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie sieht ein Literaturverzeichnis im Harvard-Stil aus?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Ein korrektes Literaturverzeichnis nach Harvard erstellen Sie im folgenden Format: Autorname (Erscheinungsjahr des Werkes): '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: Titel
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: 'in Kursivschreibung'
+                  -
+                    type: text
+                    text: ', Auflage, Ort: Verlag. Beim Autornamen wird der Nachname ausgeschrieben, der Vorname wird nach dem ersten Buchstaben abgekürzt. Je nach Dokumententyp sind noch weitere Angaben nötig. Hier sehen Sie die wichtigsten Beispiele:'
+              -
+                type: set
+                attrs:
+                  id: lpiozrqn
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2023/harvard-zitieren/harvard-literaturverzeichnis-min.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: set
+                attrs:
+                  id: lpip0f13
+                  values:
+                    type: anchor_target
+                    anchor_name: wichtige-fragen
+              -
+                type: set
+                attrs:
+                  id: lpip0rdx
+                  values:
+                    type: faq_section
+                    faq_tabs:
+                      -
+                        id: lpip0swp
+                        tab_headline: 'FAQ: Harvard Zitierweise'
+                        items:
+                          -
+                            id: lpip12si
+                            headline: 'An welcher Stelle werden in der Harvard Zitierweise die Quellenangaben gemacht?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: 'Alle Quellen werden im Fließtext direkt hinter der zu belegenden Stelle gemacht. Sie setzen die Quelle in Klammern.'
+                            active: false
+                          -
+                            id: lpip2127
+                            headline: 'Gibt es in der Harvard-Zitierweise auch Fußnoten?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: 'Ja, Sie können Fußnoten machen. Allerdings gehören dort nur weiterführende Informationen hinein. Quellenbelege haben in den Fußnoten nichts zu suchen.'
+                            active: false
+                          -
+                            id: lpip2iue
+                            headline: 'Gibt es Unterschiede bei Harvard Zitierweise zwischen direkten und indirekten Zitaten?'
+                            accordion_content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: 'Ja, die gibt es. Bei direkten Zitaten geben Sie immer die Seitenzahl mit an. Bei indirekten Zitaten reicht die Angabe von Autor/en und Erscheinungsjahr des Werkes. Sie können bei indirekten Zitaten auch ein „vgl.“ davor setzen. Das handhaben die Hochschulen jedoch sehr unterschiedlich.'
+                            active: false
+              -
+                type: set
+                attrs:
+                  id: le8ja1pz
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 7da80f7c-3cf3-4c93-b61e-7b1ebe9eff5b
+                      - 85952363-75e0-4471-951d-63fb7d4b2f01
+                      - 9a117a53-9616-4d75-9405-a17e779f00b8
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+page_title: 'In der Abschlussarbeit mit Harvard zitieren - einfach erklärt!'
+sitemap_active: true
+breadcrumbs_active: true
+template: default
+parent: 533158ef-db5d-4fdb-aa49-570d84cac9c7
+meta_title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
+meta_description: 'Richtig nach der Harvard-Methode zitieren? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+og_title: 'In der Abschlussarbeit mit Harvard zitieren | Beispiele & Generator'
+og_description: 'Richtig nach der Harvard-Methode zitieren? Mit praktischen Beispielen und unserem professionellen Zitationsgenerator verweisen Sie korrekt in Ihrer Abschlussarbeit!'
+override_twitter_settings: false
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705996901
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "An welcher Stelle werden in der Harvard Zitierweise die Quellenangaben gemacht?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alle Quellen werden im Fließtext direkt hinter der zu belegenden Stelle gemacht. Sie setzen die Quelle in Klammern."
+      }
+    },{
+      "@type": "Question",
+      "name": "Gibt es in der Harvard-Zitierweise auch Fußnoten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Sie können Fußnoten machen. Allerdings gehören dort nur weiterführende Informationen hinein. Quellenbelege haben in den Fußnoten nichts zu suchen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Gibt es Unterschiede bei Harvard Zitierweise zwischen direkten und indirekten Zitaten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, die gibt es. Bei direkten Zitaten geben Sie immer die Seitenzahl mit an. Bei indirekten Zitaten reicht die Angabe von Autor/en und Erscheinungsjahr des Werkes. Sie können bei indirekten Zitaten auch ein „vgl.“ davor setzen. Das handhaben die Hochschulen jedoch sehr unterschiedlich."
+      }
+    }]
+  }
+  </script>
+---

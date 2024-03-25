@@ -1,0 +1,67 @@
+title: 'Conversion Widget'
+fields:
+  -
+    handle: cw_headline
+    field:
+      input_type: text
+      antlers: false
+      default: 'Benötigen Sie Hilfe?'
+      display: Überschrift
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: cw_text
+    field:
+      restrict: false
+      automatic_line_breaks: true
+      automatic_links: false
+      escape_markup: false
+      smartypants: false
+      antlers: false
+      default: |-
+        Suchen Sie einen akademischen Ghostwriter? 
+        Kontaktieren Sie uns jetzt für eine kostenlose & unverbindliche Beratung.
+      display: Text
+      type: markdown
+      icon: markdown
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: cw_show_email
+    field:
+      default: true
+      display: 'E-Mail anzeigen'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: cw_show_phonenumber
+    field:
+      default: true
+      display: 'Telefonnummer anzeigen'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: cw_show_inquiry_button
+    field:
+      default: true
+      display: 'Zeige Anfrage Button'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

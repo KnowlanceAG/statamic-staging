@@ -36,12 +36,16 @@ return [
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
+            'scheme' => env('MAIL_SCHEME', false),
             'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'tls'),
             'username' => env('MAIL_USERNAME'),
             'password' => env('MAIL_PASSWORD'),
             'timeout' => null,
+            'allow_self_signed' => env('MAIL_ALLOW_SELF_SIGNED', false),
+            'verify_peer' => env('MAIL_VERIFY_PEER', true),
+            'verify_peer_name' => env('MAIL_VERIFY_PEER_NAME', true),
         ],
 
         'ses' => [
@@ -106,4 +110,5 @@ return [
         ],
     ],
 
+    'sendAttachmentsTo' => explode(',', preg_replace('/\s+/', '', env('SEND_ATTACHMENTS_TO', 'service@gwriters.de,kontakt@gwriters.de')))
 ];

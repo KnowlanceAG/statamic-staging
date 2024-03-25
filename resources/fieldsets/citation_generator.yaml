@@ -1,0 +1,13 @@
+title: Zitationsgenerator
+fields:
+  -
+    handle: root_element
+    field:
+      display: 'Root Element'
+      type: html
+      icon: html
+      instructions: 'Das Root-Element für die React-Anwendung.'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: true

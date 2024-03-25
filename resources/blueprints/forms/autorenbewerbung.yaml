@@ -12,6 +12,7 @@ sections:
           icon: text
           width: 50
           listable: hidden
+          tooltip: 'Bitte hinterlassen Sie uns Ihren Vornamen. Ein persönlicher Kontakt ist uns wichtig!'
       -
         handle: nachname
         field:
@@ -22,15 +23,19 @@ sections:
           icon: text
           width: 50
           listable: hidden
+          tooltip: 'Bitte hinterlassen Sie uns Ihren Nachnamen. Ein persönlicher Kontakt ist uns wichtig!'
       -
         handle: e_mail_adresse
         field:
-          input_type: text
+          input_type: email
           antlers: false
           display: 'E-Mail Adresse'
           type: text
           icon: text
           listable: hidden
+          tooltip: 'Ihre E-Mail-Adresse dient nur der Kommunikation und wird streng vertraulich behandelt.'
+          validate:
+            - required
       -
         handle: telefonnummer
         field:
@@ -40,6 +45,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          tooltip: 'Wir würde Sie gern zeitnah telefonisch kontaktieren. Ihre Telefonnummer wird natürlich ebenfalls vertraulich behandelt.'
       -
         handle: qualifikation
         field:
@@ -70,6 +76,8 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
+          validate:
+            - required
       -
         handle: weitere_informationen
         field:
@@ -79,14 +87,40 @@ sections:
           icon: textarea
           listable: hidden
       -
-        handle: datei-anhang
+        handle: file
         field:
           mode: grid
           container: formular_uploads
           restrict: false
           allow_uploads: true
+          max_files: 5
           display: Datei-Anhang
           type: assets
           icon: assets
-          instructions: 'Anhänge wie ihren Lebenslauf, Anschreiben oder Zeugnisse o. ä. können Sie hier hochladen.'
+          instructions: 'Anhänge wie ihren Lebenslauf, Anschreiben oder Zeugnisse o. ä. können Sie hier hochladen. <br>__Um mehrere Dateien hochzuladen bitten wir Sie, diese gebündelt im Auswahlfenster zu selektieren.__'
           listable: hidden
+          validate:
+            - 'mimetypes:image/jpeg,image/png,application/pdf,application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+      -
+        handle: gw_source
+        field:
+          input_type: text
+          antlers: false
+          display: gw_source
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: hidden
+      -
+        handle: req_ip
+        field:
+          input_type: text
+          antlers: false
+          display: req_ip
+          type: text
+          icon: text
+          instructions: 'Request IP'
+          listable: hidden
+          instructions_position: above
+          visibility: hidden

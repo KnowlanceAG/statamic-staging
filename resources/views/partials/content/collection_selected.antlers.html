@@ -1,0 +1,24 @@
+<div class="is-full h-auto">
+    <div class="mx-auto max-w-screen-2xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {{ entries }}
+            <div class="">
+                {{ if photo }}
+                  {{ photo }}
+                      {{ if extension == 'svg' || extension == 'gif' }}
+                          <img class="" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                      {{ else }}
+                          {{ responsive:photo alt="{alt}" class="" }}
+                      {{ /if }}
+                  {{ /photo }}
+                {{ /if }}
+                <h3>
+                    {{ title }}
+                </h3>
+                <p>{{ position }}</p>
+            </div>
+            {{ /entries }}
+
+        </div>
+    </div>
+</div>

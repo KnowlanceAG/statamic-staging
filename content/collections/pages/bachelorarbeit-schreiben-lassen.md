@@ -1,2174 +1,4015 @@
 ---
+id: 68b88fd1-ec03-4ea8-9292-431555e47744
+blueprint: pages
 title: Bachelorarbeit
 teaser:
   -
     type: heading
     attrs:
+      textAlign: center
       level: 1
     content:
       -
         type: text
         marks:
           -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
             type: textColor
             attrs:
-              color: '#ff6602'
-        text: 'Mustervorlage für Bachelorarbeit schreiben lassen'
+              color: orange-500
+        text: 'Bachelorarbeit schreiben lassen'
+  -
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Bachelorarbeit'
+  -
+    type: set
+    attrs:
+      id: zwnaYou3
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: 2FC4RyrC
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: wNkymqh9
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: Awfm0X4k
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: 0f6BxR0G
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            id: GQNX6eXT
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: 3kZE4d3D
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: 2V4ZjCGH
+      values:
+        type: button
+        button_link: /anfrage
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: set
+    attrs:
+      id: WyfqrGif
+      values:
+        type: spacer
+        padding-y: 20
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
         marks:
           -
             type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Professionelle Hilfe vom akademischen Ghostwriter bei Ihrer Bachelorarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
   -
-    type: set
+    type: heading
     attrs:
-      values:
-        type: button
-        button_link: 'https://gwriters.de/anfrage'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
-        color: '#FF6606'
+      textAlign: center
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+        text: '##phone##'
+replicator:
+  -
+    id: EW79BIrE
+    columns_replicator:
+      -
+        id: lin1fne3
+        single_col: true
+        grid:
+          -
+            id: uDIvG2qz
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lin1iv87
+                  values:
+                    type: insert_html
+                    html: |-
+                      <p style="font-size:18px" align="center">
+                      Sie möchten sich Ihre <b>Bachelorarbeit schreiben lassen</b>? Bei der Ghostwriting Agentur GWriters finden Sie exakt den akademischen <b>Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an akademischen Fachrichtungen von Informatik über Maschinenbau und Politikwissenschaften bis Psychologie.
+                      </p>
+              -
+                type: set
+                attrs:
+                  id: lin1j00m
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Inhaltsverzeichnis
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#leistungenvorteile'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Bachelorarbeit schreiben lassen: Leistungen & Vorteile von GWriters'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#fachbereiche'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Bachelorarbeit Ghostwriter aus allen Fachbereichen'
+                          -
+                            type: text
+                            text: ':'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lin1g8nm
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: uDIvG2qz
+            bard:
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#bwl-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'BWL Bachelorarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#bauingenieurwesen-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Bauingenieurwesen Bachelorarbeit schreiben lassenn'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#elektrotechnik-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Elektrotechnik Bachelorarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#maschinenbau-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Maschinenbau Bachelorarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#informatik-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Informatik Bachelorarbeit schreiben lassen'
+            show_as_card: false
+          -
+            id: lin1gc06
+            bard:
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#jura-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Jura Bachelorarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#psychologie-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Psychologie Bachelorarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#chemie-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Chemie Bachelorarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#sozialearbeit-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Soziale Arbeit Bachelorarbeit schreiben lassen'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: 4rIl9jX9
+        single_col: true
+        grid:
+          -
+            id: zzOZBEUQ
+            bard:
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#zusammenarbeit'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'So läuft die Zusammenarbeit ab'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#kosten'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Bachelorarbeit schreiben lassen: Kosten'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#faq'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Ghostwriter Bachelorarbeit: Häufig gestellte Fragen'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: LBYdF9mp
+    columns_replicator:
+      -
+        id: 39YB7Mz0
+        single_col: false
+        grid:
+          -
+            id: MC0nbSqL
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    marks: {  }
+                    text: 'Bachelorarbeit Ghostwriter-Erfahrungen unserer Kunden'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    marks: {  }
+                    text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: KLyQFub7
+        single_col: false
+        grid:
+          -
+            id: KFvHtceQ
+            bard:
+              -
+                type: set
+                attrs:
+                  id: epBUf1T1
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+  -
+    id: TyyTODZj
+    columns_replicator:
+      -
+        id: rmOjerLI
+        single_col: true
+        grid:
+          -
+            id: zTGQFwTg
+            bard:
+              -
+                type: set
+                attrs:
+                  id: liaqp5vv
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'So hilft ein Ghostwriter beim Schreiben der Bachelorarbeit'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Ein akademischer Ghostwriter unterstützt Sie im Studium und bei Ihrer Bachelor Thesis durch seine Erfahrungen und fachlichen Kenntnisse genauso professionell wie ein Betreuer der Universität. Den Zeitpunkt und Umfang bestimmen Sie. Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeitet unsere Agentur garantiert nur mit den besten wissenschaftlichen Autoren zusammen und mit absoluter Diskretion!'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Unsere akademischen Ghostwriter '
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '✔️ kennen den aktuellen Forschungsstand zu vielen akademischen Themenstellungen '
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '✔️ haben als Autoren auf alle relevanten Datenbanken Zugriff'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: '✔️ haben als Doktoren und Professoren die nötige wissenschaftliche Erfahrung.'
+              -
+                type: set
+                attrs:
+                  id: lkgq94ms
+                  values:
+                    type: button
+                    button_link: 'entry::a0a35314-4e42-429e-ae58-9c7bd8fae01c'
+                    button_text: 'MEHR ÜBER UNSERE GHOSTWRITER'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+              -
+                type: set
+                attrs:
+                  id: liaqntch
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: set
+                attrs:
+                  id: lin2im05
+                  values:
+                    type: anchor_target
+                    anchor_name: leistungenvorteile
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Bachelorarbeit Ghostwriting: Ihre Vorteile im Überblick'
+              -
+                type: set
+                attrs:
+                  id: idpiKwsW
+                  values:
+                    type: spacer
+                    padding-y: 15
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: 8cPG0I8z
+        columns_per_row: 4
+        single_col: true
+        grid:
+          -
+            id: D4MaBDsY
+            bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+              -
+                type: set
+                attrs:
+                  id: HpVEtHiI
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/security.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: XQF2ntiK
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Datenschutz & 100% Anonymität'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Agentur '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantiert Diskretion & Ihre Anonymität '
+                  -
+                    type: text
+                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+              -
+                type: set
+                attrs:
+                  id: 3TjpGiRB
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+          -
+            id: xgdroNUb
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  id: 9Ej3bN7F
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: BM3tP1rh
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Kostenlose Änderung nach Ihrem Feedback'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sie zufrieden sind!'
+              -
+                type: set
+                attrs:
+                  id: budi4yes
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+          -
+            id: BB0Mk5Ag
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  id: tQfBiRIf
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/stopwatch.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: YV5zQOGW
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Schnelle & pünktliche Lieferung'
+                attrs:
+                  textAlign: start
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren die pünktliche Lieferung'
+                  -
+                    type: text
+                    text: ' Ihrer Ausarbeitung! Wir liefern Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+              -
+                type: set
+                attrs:
+                  id: OBgNDGrJ
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+          -
+            id: bOvEhtop
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  id: TpJE3MXd
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/magistrate.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: 3dMSpe4A
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Top-Qualität von Experten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademischen Experten, die sonst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' arbeiten, verfassen Ihre Mustervorlage. So garantieren wir die richtige Qualität Ihrer Ausarbeitung.'
+              -
+                type: set
+                attrs:
+                  id: ImFfLNVU
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: liagrx6g
+        single_col: true
+        grid:
+          -
+            id: LMVuW6vH
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'GWriters unterstützt Sie: '
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'direkt zu Beginn der Bearbeitung bei der Themenauswahl und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/literaturrecherche-datenbanken-quellen
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Literaturrecherche
+                          -
+                            type: text
+                            text: ' '
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'beim Aufbau der Bachelor Thesis (Literaturrecherche, Forschungsfrage, Einleitung, Hauptteil, Fazit), Gliederung (Kapitel, Unterkapitel) sowie beim Exposé.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'beim Schreiben: Sie können eine vollständige Mustervorlage für Ihre Bachelorarbeit schreiben lassen. Diese Ghostwriter-Bachelorarbeit nutzen Sie als Vorlage für Ihre eigene akademische Arbeit. Auch die Auswertung Ihrer Daten und die Darstellung der Ergebnisse könne Teil des Auftrags werden.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'beim Finalisieren: Sie haben die Abschlussarbeit bereits geschrieben – und sind nicht zufrieden? Unsere erfahrenen Ghostwriter übernehmen die Überarbeitung der Zitierweise und anderer wissenschaftlicher Aspekte Ihrer Projektarbeit.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'beim Abschluss: Wir übernehmen das '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /korrektorat
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Korrektorat
+                          -
+                            type: text
+                            text: ' (einfaches Korrekturlesen) und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /lektorat/lektorat-bachelorarbeit
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Lektorat Ihrer Bachelorarbeit'
+                          -
+                            type: text
+                            text: ' sowie die Formatierung und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /leistungen/plagiatspruefung
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'überprüfen sie gründlich auf Plagiate'
+                          -
+                            type: text
+                            text: ' mit professioneller Software für Plagiatsprüfungen. Auch formale Aspekte wie die Zitierweise überprüfen wir im Rahmen eines Lektorats.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Sie möchten sich eine Mustervorlage für Ihre Bachelorarbeit von Ghostwritern schreiben lassen und benötigen noch Informationen? Kontaktieren Sie uns schnell und kostenlos:'
+              -
+                type: set
+                attrs:
+                  id: liagvfyy
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: set
+                attrs:
+                  id: liahk1y8
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: set
+                attrs:
+                  id: lin2ki33
+                  values:
+                    type: anchor_target
+                    anchor_name: fachbereiche
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fachbereiche: Für welche Studiengänge kann ich eine Mustervorlage erstellen lassen?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Sie können sich für fast alle Fachbereiche eine Vorlage für Ihre Bachelorarbeit schreiben lassen. Hier finden Sie nähere Infos sowie Beispiel-Vorlagen für Bachelorarbeiten beliebter Studiengänge:'
+              -
+                type: set
+                attrs:
+                  id: lin2kzv9
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
+                      -
+                        id: lin2l0zr
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'BWL Bachelorarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4faow3
+                              values:
+                                type: anchor_target
+                                anchor_name: bwl-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere BWL-Ghostwriter sind stets up-to-date und nah an der Forschung, um die Aktualität der Themenstellungen und Inhalte zu gewährleisten. Sie haben vielfältige Erfahrung im unternehmerischen Kontext, um Forschungsergebnisse in der Praxis bewerten und Forschungsfragen aus dem Studium untersuchen zu können. Die Grundlagen der Betriebswirtschaftslehre sind selbstverständlich, viele unserer Ghostwriter haben zudem in diesem Fach promoviert. Ihre Bachelorarbeit ist also in den besten Händen.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjvyx3h
+                              values:
+                                type: button
+                                button_link: 'entry::89bfdf0d-d156-4ee5-9575-09e85f7e3655'
+                                button_text: 'Ghostwriter BWL'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                        active: false
+                      -
+                        id: lj4fb1u3
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Jura Bachelorarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fbr24
+                              values:
+                                type: anchor_target
+                                anchor_name: jura-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Anforderungen für eine professionelle Bachelorarbeit in Jura sind besonders hoch. Ghostwriter müssen für solche Aufträge nicht nur den Gutachten- und Urteilsstil beherrschen, sondern auch die aktuelle Gesetzes- und Urteilslage zum Thema kennen. Unsere Mitarbeiter haben durch ihre Tätigkeiten in Anwaltskanzleien und ihre Spezialisierungen Zugriff auf relevante Jura-Datenbanken und Publikationen. Dadurch können sie bei der Erstellung Ihrer Bachelorarbeit auf umfangreiches Wissen zurückgreifen und beherrschen auch die besondere Zitierweise, die im Bezug auf Gesetzestexte erforderlich ist.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw01d8
+                              values:
+                                type: button
+                                button_link: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
+                                button_text: 'Ghostwriter Jura'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                        active: false
+                      -
+                        id: lj4fc4gy
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Maschinenbau Bachelorarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fcaez
+                              values:
+                                type: anchor_target
+                                anchor_name: maschinenbau-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Bachelorarbeit Ghostwriter im Maschinenbau verfügen über eine tief gehende Expertise im Fachgebiet und sind immer auf dem aktuellen Stand der Forschung. Wir unterstützen Sie gern, zum Beispiel bei mathematischen Berechnungen, der Erstellung von technischen Zeichnungen oder Erstellung von Simulationen für Ihre Bachelorarbeit. Auch die Auswertung von technischen Daten und die Darstellung der Ergebnisse für eine Projektarbeit übernehmen wir gerne.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw0kmi
+                              values:
+                                type: button
+                                button_link: 'entry::84a37239-87ee-45fb-b2d1-058a86fecfbb'
+                                button_text: 'Ghostwriter Maschinenbau'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                        active: false
+                      -
+                        id: lj4fcswl
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Informatik Bachelorarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fcvlb
+                              values:
+                                type: anchor_target
+                                anchor_name: informatik-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Informatiker zählen zu den begehrtesten Fachkräften, aber das Studium ist anspruchsvoll und geprägt von hohen Durchfallquoten. Wir unterstützen Sie bei Ihrer Bachelorarbeit im Fach Informatik mit erfahrenen Ghostwritern.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw1jyp
+                              values:
+                                type: button
+                                button_link: 'entry::1de3d76b-f23a-41a8-a629-15b48a07223e'
+                                button_text: 'Ghostwriter Informatik'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                        active: false
+                      -
+                        id: lj4fdc12
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Elektrotechnik Bachelorarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fdels
+                              values:
+                                type: anchor_target
+                                anchor_name: elektrotechnik-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ghostwriter für Bachelorarbeiten im Bereich Elektrotechnik müssen über fundiertes Fachwissen in den relevanten Themengebieten verfügen und zudem Kenntnisse im Umgang mit den gängigen Tools und Programmen zur Erstellung von technischen Zeichnungen und Modellen haben. Unsere Ghostwriter erfüllen diese hohen Anforderungen und unterstützen Sie neben zudem gern bei der Planung von Laborexperimenten und Datenauswertung sowie der Darstellung der Ergebnisse für Ihre Projektarbeit.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw28fq
+                              values:
+                                type: button
+                                button_link: 'entry::1bcd3fce-dda5-4bdb-9752-44e657ae9eb0'
+                                button_text: 'Ghostwriter Elektrotechnik'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                        active: false
+                      -
+                        id: lj4feylm
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Bauingenieurwesen Bachelorarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4ff6oe
+                              values:
+                                type: anchor_target
+                                anchor_name: bauingenieurwesen-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Für Ihre Bachelorarbeit im Bauingenieurswesen: Unsere Ghostwriter haben nicht nur praktische Erfahrung als Ingenieure, sondern auch wissenschaftliches Know-how. Sie wissen, welche Datenbanken und Recherchestrategien zu verwenden sind.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw2t77
+                              values:
+                                type: button
+                                button_link: 'entry::9944d809-005e-4651-bf9b-5555f0229245'
+                                button_text: 'Ghostwriter Bauingenieurwesen'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                        active: false
+                      -
+                        id: lj4ffhcq
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Psychologie Bachelorarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4ffqmq
+                              values:
+                                type: anchor_target
+                                anchor_name: psychologie-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'GWriters Psychologie Ghostwriter haben einen wissenschaftlichen Abschluss in dem Fachgebiet und sind zudem alle in der Psychologie tätig. Sei es als Psychotherapeut oder in Wirtschaft, Human Resources oder Unternehmensberatung. Natürlich bringen unsere Ghostwriter das komplette methodische Know How mit, das zur Erstellung wissenschaftlicher Arbeit im Fachbereich Psychologie benötigt wird.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: hardBreak
+                              -
+                                type: text
+                                text: 'Neben einer vollständigen Mustervorlage für Ihre Bachelorarbeit in Psychologie können unsere Ghostwriter Sie in folgenden Bereichen unterstützen:'
+                          -
+                            type: bulletList
+                            content:
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Quantitative und qualitative Datenanalysen'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Unterstützung bei der Konzeption von Forschungsprojekten'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Planung und Vorbereitung von Experimenten'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'statistische Hypothesentests'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw3ekn
+                              values:
+                                type: button
+                                button_link: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
+                                button_text: 'Ghostwriter Psychologie'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                        active: false
+                      -
+                        id: lj4fg6u5
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Chemie Bachelorarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fgafn
+                              values:
+                                type: anchor_target
+                                anchor_name: chemie-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Das Chemiestudium ist bekannt für seine hohen Durchfallquoten und den anspruchsvollen Schwierigkeitsgrad, der zeitaufwendige Laborversuche und die Auswertung der gesammelten Daten zur Beantwortung von Forschungsfragen erfordert. Gerade in bei einer naturwissenschaftlichen Bachelorarbeit wie im Bereich Chemie sind Ghostwriter eine große Hilfe. Unsere Chemie-Ghostwriter sind Experten mit viel Erfahrung in wissenschaftlicher Arbeit.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw40v7
+                              values:
+                                type: button
+                                button_link: 'entry::a8ea4ded-d453-4bd5-94e7-2249ccf8f0de'
+                                button_text: 'Ghostwriter Chemie'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                        active: false
+                      -
+                        id: lj4fgsbk
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Soziale Arbeit Bachelorarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lj4fgzs0
+                              values:
+                                type: anchor_target
+                                anchor_name: sozialearbeit-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Unser Ghostwriter im Bereich der Sozialen Arbeit haben selbst jahrelange Erfahrung auf diesem Fachgebiet. Unser Team von erfahrenen Akademikern aus der Sozialen Arbeit unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung Ihrer Bachelorarbeit.'
+                          -
+                            type: set
+                            attrs:
+                              id: lkjw5imf
+                              values:
+                                type: button
+                                button_link: 'entry::925eedca-5fbe-4da9-a307-807426feaeeb'
+                                button_text: 'Ghostwriter Soziale Arbeit'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                        active: false
+              -
+                type: set
+                attrs:
+                  id: lihl5u9g
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
+                  id: ls0l8uht
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'Jetzt kostenlos anfragen'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: xej6edx8
+    columns_replicator:
+      -
+        id: 8j4Apaql
+        single_col: true
+        grid:
+          -
+            id: lFxlbzr3
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Beispiel Bachelorarbeit von unseren Ghostwritern'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Laden Sie sich unser Beispiel für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ghostwriter-Bachelorarbeit jetzt kostenlos herunter'
+                  -
+                    type: text
+                    text: '. Diese Mustervorlage wurde von einem unserer kompetentesten Ghostwriter verfasst, sodass Sie sich einen Eindruck von unseren Qualifikationen und Qualitätsstandards machen können. So wissen Sie von Anfang an, was Sie erwartet, wenn Sie sich für den ausgezeichneten Service der akademischen Ghostwriting Agentur GWriters entscheiden.'
+              -
+                type: set
+                attrs:
+                  id: qeGs5Inq
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-bachelorarbeit-biografiearbeit.jpg
+                    ex_title: 'Biografiearbeit und pädagogische Professionalität'
+                    ex_type: Bachelorarbeit
+                    ex_pages: '31'
+                    ex_zitation: APA-Style
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/bachelorarbeit-beispiel-biografiearbeit.pdf
+                    ex_button_text: 'KOSTENLOS HERUNTERLADEN'
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+                    ex_fachbereich:
+                      - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: hVj4fyj7
+    columns_replicator:
+      -
+        id: WHE7qDqT
+        single_col: true
+        grid:
+          -
+            id: cUWiZObZ
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Übersicht aller Fachrichtungen & Arbeiten'
+              -
+                type: set
+                attrs:
+                  id: ljoh1u6i
+                  values:
+                    type: custom_link_list
+                    raster:
+                      -
+                        id: ljoh22s8
+                        text: Fachrichtungen
+                        eintraege:
+                          -
+                            id: ljoh2bsp
+                            headline: 'Technische Fachrichtungen'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/architektur
+                                          target: null
+                                          rel: null
+                                    text: 'Architektur Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/bauingenieurwesen
+                                          target: null
+                                          rel: null
+                                    text: 'Bauingenieurwesen Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/elektrotechnik
+                                          target: null
+                                          rel: null
+                                    text: 'Elektrotechnik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/maschinenbau
+                                          target: null
+                                          rel: null
+                                    text: 'Maschinenbau Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/informatik
+                                          target: null
+                                          rel: null
+                                    text: 'Informatik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          target: null
+                                          rel: null
+                                    text: 'Softwarelokalisierung Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          target: null
+                                          rel: null
+                                    text: 'Biotechnologie Ghostwriter'
+                                  -
+                                    type: text
+                                    text: ' '
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/technomathematik
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Technomathematik'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/ingenieurwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Ingenieurwissenschaften'
+                          -
+                            id: ljoh2wxw
+                            headline: Naturwissenschaften
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/biologie
+                                          target: null
+                                          rel: null
+                                    text: 'Biologie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/chemie
+                                          target: null
+                                          rel: null
+                                    text: 'Chemie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/geologie
+                                          target: null
+                                          rel: null
+                                    text: 'Geologie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/geowissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Geowissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/mathematik
+                                          target: null
+                                          rel: null
+                                    text: 'Mathematik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/agrarwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Agrarwissenschaften'
+                          -
+                            id: ljoh3l91
+                            headline: Sozialwissenschaften
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          target: null
+                                          rel: null
+                                    text: 'Erziehungswissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/kommunikationswissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Kommunikationswissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/soziale-arbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Soziale Arbeit Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/sozialwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Sozialwissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/soziologie
+                                          target: null
+                                          rel: null
+                                    text: 'Soziologie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/sprachwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Sprachwissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kommunikationsdesign'
+                                  -
+                                    type: text
+                                    text: ' '
+                          -
+                            id: ljoh3x4b
+                            headline: 'Wirtschaftliche Fachbereiche'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/finanzwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Finanzwissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/medienwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Medienwissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/bwl
+                                          target: null
+                                          rel: null
+                                    text: 'BWL Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/marketing
+                                          target: null
+                                          rel: null
+                                    text: 'Marketing Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/wirtschaftsinformatik
+                                          target: null
+                                          rel: null
+                                    text: 'Wirtschaftsinformatik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/wirtschaftswissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Wirtschaftswissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/personalmanagement
+                                          target: null
+                                          rel: null
+                                    text: 'Personalmanagement Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '#Internationale'
+                                          target: null
+                                          rel: null
+                                    text: 'Internationale BWL Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: hardBreak
+                          -
+                            id: ljoh4b21
+                            headline: Geisteswissenschaften
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/germanistik-ghostwriter
+                                          target: null
+                                          rel: null
+                                    text: 'Germanistik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/anglistik
+                                          target: null
+                                          rel: null
+                                    text: 'Anglistik Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/geschichte
+                                          target: null
+                                          rel: null
+                                    text: 'Geschichte Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/kunst
+                                          target: null
+                                          rel: null
+                                    text: 'Kunst Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/literatur
+                                          target: null
+                                          rel: null
+                                    text: 'Literatur Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/jura
+                                          target: null
+                                          rel: null
+                                    text: 'Jura Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/philosophie
+                                          target: null
+                                          rel: null
+                                    text: 'Philosophie Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Kunstgeschichte'
+                          -
+                            id: ljoh4l6j
+                            headline: 'Medizinische Fachrichtungen'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/medizin
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Medizin'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/pflegewissenschaften
+                                          target: null
+                                          rel: null
+                                    text: 'Pflegewissenschaften Ghostwriter'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/psychologie
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Psychologie'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /ghostwriter/zahnmedizin
+                                          target: null
+                                          rel: null
+                                    text: 'Zahnmedizin Ghostwriter'
+                      -
+                        id: ljoh1weq
+                        text: Arbeiten
+                        eintraege:
+                          -
+                            id: ljoh5n3s
+                            headline: Abschlussarbeiten
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/diplomarbeit
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Diplomarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/examensarbeit
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Examensarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/magisterarbeit
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Magisterarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Bachelorarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/masterarbeit-schreiben-lassen
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Masterarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Masterthesis schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/doktorarbeit
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: 'Doktorarbeit schreiben lassen'
+                          -
+                            id: ljoh8o20
+                            headline: 'Sonstige Arbeiten'
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/ebook
+                                          target: null
+                                          rel: null
+                                    text: 'eBook schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/lernskript
+                                          target: null
+                                          rel: null
+                                    text: 'Lernskript schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/praesentationen
+                                          target: null
+                                          rel: null
+                                    text: 'Präsentationen erstellen lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/statistische-analysen
+                                          target: null
+                                          rel: null
+                                    text: 'Ghostwriter Statistik'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /expose
+                                          target: null
+                                          rel: null
+                                    text: 'Exposé schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/referat
+                                          target: null
+                                          rel: null
+                                    text: 'Referat schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                attrs:
+                                  textAlign: start
+                          -
+                            id: ljoh9nu0
+                            headline: Studienarbeiten
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/essay
+                                          target: null
+                                          rel: null
+                                    text: 'Essay schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/hausarbeit-schreiben-lassen
+                                          target: null
+                                          rel: null
+                                    text: 'Hausarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/facharbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Facharbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/seminararbeit-schreiben-lassen
+                                          target: null
+                                          rel: null
+                                    text: 'Seminararbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/studienarbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Studienarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/fallstudie
+                                          target: null
+                                          rel: null
+                                    text: 'Fallstudie schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/praktikumsbericht
+                                          target: null
+                                          rel: null
+                                    text: 'Praktikumsbericht schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/projektarbeit
+                                          target: null
+                                          rel: null
+                                    text: 'Projektarbeit schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/summary
+                                          target: null
+                                          rel: null
+                                    text: 'Summary schreiben lassen'
+                                  -
+                                    type: hardBreak
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                  -
+                                    type: text
+                                    marks:
+                                      -
+                                        type: textColor
+                                        attrs:
+                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
+                                          hex: '#000'
+                                      -
+                                        type: link
+                                        attrs:
+                                          href: /arbeiten/protokoll
+                                          target: null
+                                          rel: null
+                                    text: 'Protokoll schreiben lassen'
+                                attrs:
+                                  textAlign: start
+              -
+                type: set
+                attrs:
+                  id: lihl9wqf
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
+                  id: liojpfyh
+                  values:
+                    type: anchor_target
+                    anchor_name: zusammenarbeit
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'So läuft die Zusammenarbeit ab'
+              -
+                type: set
+                attrs:
+                  id: aBgRb1ri
+                  values:
+                    type: spacer
+                    padding-y: 15
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: Zm8LTn9X
+        columns_per_row: 4
+        single_col: true
+        grid:
+          -
+            id: Bnhov2ki
+            bard:
+              -
+                type: set
+                attrs:
+                  id: gpAUPzAG
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-anfrage-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    marks: {  }
+                    text: 'Kostenlose Anfrage'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#333333'
+                          hex: '#000'
+                    text: 'Sie kontaktieren uns über das Anfrageformular oder telefonisch. Ein Kundenberater meldet sich umgehend für ein unverbindliches Erstgespräch.'
+            show_as_card: false
+          -
+            id: 9Nd0e0jE
+            bard:
+              -
+                type: set
+                attrs:
+                  id: WWuHXJL7
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-angebot-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    marks: {  }
+                    text: 'Unverbindliches Angebot'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#333333'
+                          hex: '#000'
+                    text: 'Sie erhalten ein unverbindliches, individuell auf Sie zugeschnittenes Angebot inklusive vorläufiger Auftragsplanung.'
+            show_as_card: false
+          -
+            id: KYFJspJr
+            bard:
+              -
+                type: set
+                attrs:
+                  id: CRFTCIG1
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    marks: {  }
+                    text: 'Wir schreiben für Sie'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#333333'
+                          hex: '#000'
+                    text: 'Nach Auftragserteilung schreiben wir die Mustervorlage für Ihre Bachelorarbeit. Sie erhalten regelmäßig Zwischenstände, Feedbacks setzen wir kostenfrei um.'
+            show_as_card: false
+          -
+            id: vtBqCwO3
+            bard:
+              -
+                type: set
+                attrs:
+                  id: XnRBnsDQ
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-lieferung-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                  textAlign: center
+                content:
+                  -
+                    type: text
+                    marks: {  }
+                    text: 'Finale Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#333333'
+                          hex: '#000'
+                    text: 'Sie erhalten das finale Dokument, garantiert frei von Plagiaten und durch ein Lektorat nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: HBzKiiRG
+    columns_replicator:
+      -
+        id: fIQJfNPH
+        single_col: false
+        grid:
+          -
+            id: GO5VCMeC
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' benötigen, dann senden Sie uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: 0ubypp07
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: EllWPGbj
+            bard:
+              -
+                type: set
+                attrs:
+                  id: OMeALlWB
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 8 - 20 Uhr'
+            show_as_card: true
+          -
+            id: UjZ9fyjm
+            bard:
+              -
+                type: set
+                attrs:
+                  id: S9HNcMh5
+                  values:
+                    type: spacer
+                    padding-y: 12
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '100,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  id: CvzBjDvR
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-center
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  id: DTOsSWP8
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: true
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: laif7i2w
+        single_col: false
+        grid:
+          -
+            id: ajJOTRIb
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Ansprechpartner bei GWriters'
+              -
+                type: set
+                attrs:
+                  id: laif3jj1
+                  values:
+                    type: team_liste
+                    in_flow: true
+                    team_mitglieder:
+                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
+                      - a0275a30-5d74-46a4-84d6-acc7e827e95e
+                      - 0443cc18-5f72-486a-91de-9648a8fc0b2f
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: 5s6CJZc3
+    columns_replicator:
+      -
+        id: pJKBLsKo
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: ae9kQIgY
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Hilfe beim Schreiben der Bachelor Thesis: Profitieren Sie von unserem Coaching'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Im Video zeigen wir Ihnen, in welchen Punkten wir Sie mit unser Bachelorarbeit Coaching Service unterstützen können. Unsere Coaches können Sie bspw. bei der richtigen Anwendung der der Zitierweise, durch eine Plagiatsprüfung oder durch ein Korrekturlesen im Rahmen eines Lektorats unterstützen.'
+            show_as_card: false
+          -
+            id: CyFLCJWN
+            bard:
+              -
+                type: set
+                attrs:
+                  id: bVrtTn7Y
+                  values:
+                    type: video
+                    video: 'https://www.youtube.com/embed/EBDyFVLD0V0'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: liapor9m
+        single_col: true
+        grid:
+          -
+            id: 73cOWkpP
+            bard:
+              -
+                type: set
+                attrs:
+                  id: liojqcp2
+                  values:
+                    type: anchor_target
+                    anchor_name: kosten
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Bachelorarbeit schreiben lassen: Kosten & Preise'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Mit Hilfe unseres Preisrechners können Sie einfach und schnell den groben Preisrahmen für Ihre Bachelorarbeit kalkulieren. Für ein individuelles Angebot nutzen Sie unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          rel: null
+                          target: null
+                          title: null
+                    text: Anfrageformular
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Für die Berechnung der Kosten der Bachelorarbeit zählen wir die reinen Normseiten. Dies geschieht streng nach der offiziellen Definition der VG Wort. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'So sichern wir eine faire und nachvollziehbare Berechnungsgrundlage. '
+                  -
+                    type: text
+                    text: 'Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis werden dabei nicht berücksichtigt, diese sind gratis inkludiert. Bei der Preisberechnung für Korrekturlesen, Lektorate oder Plagiatsprüfungen gehen wir analog vor.'
+              -
+                type: set
+                attrs:
+                  id: rUvX2W8i
+                  values:
+                    type: preisrechner
+                    show_calulator: true
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Hier finden Sie detaillierte Informationen zu unseren '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /preise
+                          rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
+                    text: 'Ghostwriter Preisen'
+                  -
+                    type: text
+                    text: .
+              -
+                type: set
+                attrs:
+                  id: liaqrm0k
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Diese Faktoren beeinflussen die Höhe der Kosten'
+              -
+                type: set
+                attrs:
+                  id: liapt557
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
+                      -
+                        id: liapt662
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 4
+                            content:
+                              -
+                                type: text
+                                text: 'Komplexität des Bachelorarbeit-Themas'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Für GWriters schreiben ausschließlich hochqualifizierte akademischen Experten Ihre Bachelorarbeit Vorlage. Wissenschaftliche Qualifikation ersetzt jedoch nicht die gründliche Einarbeitung in Ihr Thema. Die Kosten ist zudem abhängig davon, ob Sie eine Vorlage für eine empirische oder eine theoretische Bachelorarbeit schreiben lassen.'
+                        active: false
+                      -
+                        id: liaptxpf
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 4
+                            content:
+                              -
+                                type: text
+                                text: 'Fachbereich (Fachautoren)'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Einige Fachbereiche zeichnen sich beim wissenschaftlichen Schreiben durch eine höhere Komplexität aus als andere. Daher erwarten und erhalten Ghostwriter aus diesen Bereichen eine höhere Honorierung ihrer Leistungen. Ein Thema aus den Politikwissenschaften stellt bspw. andere Anforderungen an den Ghostwriter, als ein Thema aus der höheren Mathematik. '
+                        active: false
+                      -
+                        id: liapuki3
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 4
+                            content:
+                              -
+                                type: text
+                                text: 'Individuelle zeitliche Vorgaben & Umfang'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere akademischen Ghostwriter können in Notfällen ganze Bachelorarbeiten an einem Wochenende schreiben. Bei dringenden Aufträgen ist dies möglich. Jedoch möchten sie für diese Extraarbeit fair entlohnt werden. Daher spielt die verfügbare Bearbeitungszeit eine wesentliche Rolle für die Kosten.'
+                        active: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lihlrru7
+    columns_replicator:
+      -
+        id: lihlrvt2
+        single_col: false
+        grid:
+          -
+            id: 1nqorlsk
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Erfahrene Ghostwriter für Ihre Bachelorarbeit'
+              -
+                type: set
+                attrs:
+                  id: lihlzy5g
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: set
+                attrs:
+                  id: lihlsj2r
+                  values:
+                    type: experts_list
+                    experts:
+                      - bdab7ac8-0923-4d8c-b848-caa250aa5e62
+                      - 5bbd2a1b-3cbe-423a-8557-bd86be4fabf6
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lihlrv2u
+    columns_replicator:
+      -
+        id: lihlv8er
+        single_col: true
+        grid:
+          -
+            id: 1nqorlsk
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Bachelorarbeit schreiben lassen - in Zeiten von ChatGPT & KI'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'In der wissenschaftlichen Gemeinschaft sollte der Einsatz von KI-Technologien sorgfältig überdacht werden. Während KIs in diversen Sektoren hilfreich sein können, sind sie dennoch nicht in der Lage, die Tiefgründigkeit, Kreativität und das kritische Denkvermögen, das ein akademischer Ghostwriter in den Forschungsprozess einbringt, vollständig nachzuahmen. Bei der Erstellung von Bachelorarbeiten kann der Gebrauch von KI aufgrund diverser technischer und juristischer Herausforderungen bedenklich sein.'
+              -
+                type: orderedList
+                attrs:
+                  start: 1
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Rechtliche Hürden und Quellenmanagement:'
+                          -
+                            type: hardBreak
+                          -
+                            type: text
+                            text: 'Inhalte, generiert von KI-Systemen, könnten problematisch sein, da sie eventuell urheberrechtlich geschützte Inhalte ohne angemessene Zitierung integrieren könnten. Hierdurch könnten rechtliche Schwierigkeiten entstehen. Ein akademischer Ghostwriter achtet jedoch darauf, dass alle Zitate korrekt und im Einklang mit akademischen Standards sind. Zudem hat sich gezeigt, dass KIs manchmal dazu neigen, nicht existierende Quellen zu nutzen, um ihre Behauptungen zu untermauern.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Begrenztes KI-Verständnis:'
+                          -
+                            type: text
+                            text: 'Trotz ihrer beeindruckenden Datenverarbeitungsfähigkeiten können KIs dennoch komplexe wissenschaftliche Ideen missverstehen oder aus dem Kontext reißen. Ein akademischer Ghostwriter, mit seinem tiefgreifenden Wissen und Verständnis, kann hingegen auch in Disziplinen, die auf menschlichen Erfahrungen basieren, wie beispielsweise den '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /ghostwriter/kommunikationswissenschaften
+                                  rel: null
+                                  target: _blank
+                                  title: null
+                            text: Kommunikationswissenschaften
+                          -
+                            type: text
+                            text: ', authentisch und akkurat arbeiten.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Originalität und KI:'
+                          -
+                            type: text
+                            text: 'Wissenschaftliche Beiträge sollen stets Neues und Originelles bieten. Aber KIs, da sie auf bestehenden Datenstrukturen operieren, könnten Schwierigkeiten haben, wirklich neuartige Perspektiven in wissenschaftlichen Arbeiten zu eröffnen. Menschen hingegen sind dafür bekannt, Pionierarbeit in ihren jeweiligen Fachgebieten zu leisten.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Die Grenzen der KI-Kapazität:'
+                          -
+                            type: text
+                            text: 'KIs sind oft in ihrer eigenen Datenwelt gefangen und nehmen diese als absolute Wahrheiten wahr. Ihre Fähigkeit zur kritischen Analyse ist begrenzt. Im Kontrast dazu verfügen akademische Ghostwriter über die Fähigkeiten, Daten zu hinterfragen, alternative Theorien zu berücksichtigen und bestehende Annahmen zu überprüfen.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: start
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Die wachsende KI-Aufmerksamkeit in Hochschuleinrichtungen:'
+                          -
+                            type: text
+                            text: 'Da KI immer mehr in den Mittelpunkt rückt, werden Diskussionen über ihre Nutzung im akademischen Bereich immer häufiger. Bald könnten Institutionen verpflichtet werden, den Gebrauch von KI transparenter zu gestalten, beispielsweise durch die Schaffung von Datenbanken für KI-erstellte Texte oder die Implementierung bestimmter Textmuster. Wie verlässlich AI Texte jetzt schon erkannt werden, zeigt unser '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /ai-detector
+                                  rel: null
+                                  target: _blank
+                                  title: null
+                            text: 'KI Detektor auf deutsch'
+                          -
+                            type: text
+                            text: ', den Sie jetzt kostenlos ausprobieren können.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Die Anwendung von KI mag in einigen Bereichen vorteilhaft sein, doch wenn es um das Verfassen von Bachelorarbeiten geht, sollte die menschliche Expertise nicht unterschätzt werden.'
+              -
+                type: set
+                attrs:
+                  id: liojqqz0
+                  values:
+                    type: anchor_target
+                    anchor_name: faq
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Häufig gestellte Fragen zum Thema Bachelor Thesis schreiben lassen'
+              -
+                type: set
+                attrs:
+                  id: liaq6vmf
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
+                      -
+                        id: liaq6wra
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Was ist eine Bachelorarbeit?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Eine Bachelorarbeit ist die wissenschaftliche Abschlussarbeit nach einem Bachelorstudium. Sie umfasst in der Regel eine Einleitung, Literaturübersicht, Methodik, Ergebnisse, Diskussion und Schlussfolgerung.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Der Bachelorabschluss ist der erste akademische Grad, der innerhalb der EU und einigen englischsprachigen Ländern an Universitäten erreicht werden kann.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'In Deutschland wird der Bachelortitel im Zuge einer Hochschulprüfung verliehen. Dazu&nbsp;müssen Studierende im Verlauf der Hochschulzeit eine gewisse Anzahl an ECTS-Punkten erreichen. Den Studienabschluss bildet ein schriftlicher Leistungsnachweis sowie eine mündliche Abschlussprüfung. Das Schreiben einer Bachelorarbeit (Bachelor Thesis) dabei die gängige Form des schriftlichen Examens.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Note der Bachelor Thesis beeinflusst die Gesamtabschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden und eine tiefgehende Recherche nach Literatur sind dabei grundlegend für den Erfolg.'
+                        active: false
+                      -
+                        id: liaq8pub
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Welche (formalen) Kriterien muss ich beim Schreiben der Bachelorarbeit beachten?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Je nach Fachrichtung und Institution umfasst die Bachelor Thesis 20 bis 60 Seiten inklusive Inhaltsverzeichnis und Exposé. Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig für die Formatierung erwiesen. Laut Prüfungsordnung gelten diese Voraussetzungen:'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Gliederung:'
+                          -
+                            type: bulletList
+                            content:
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Deckblatt
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Abstract
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Vorwort
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Abbildungsverzeichnis und Tabellenverzeichnis'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Abkürzungsverzeichnis
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Einleitung
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Haupttei
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Schlussteil/Fazit
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Literaturverzeichnis
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: Anhang
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '&nbsp;'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Formatierung:'
+                          -
+                            type: bulletList
+                            content:
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Schriftart: Times New Roman (oder Arial Größe 11)'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Schriftgröße: 12 Punkt'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Zeilenabstand: 1,5'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Absatzformat: Blocksatz (auf Trennung achten)'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Fußnoten: Schriftgröße 10'
+                              -
+                                type: listItem
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Seitenzahlen: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Bachelorarbeit, Literaturverzeichnis und Anhang'
+                        active: false
+                      -
+                        id: liaqb6y1
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Was kostet eine Bachelorarbeit Normseite, wenn ich eine Mustervorlage von einem Ghostwriter schreiben lasse?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere Preise für Ihre Bachelorarbeit in Jura, BWL und anderen Fachbereichen beginnen ab 100,- € pro Normseite. Titelblätter, Verzeichnisse und Anhänge der Bachelor Thesis gelten nicht als Normseite und  sind gratis inkludiert.'
+                        active: false
+                      -
+                        id: liaqbnp0
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Ist es legal, wenn ich die Vorlage für meine Bachelorarbeit vom Ghostwriter schreiben lasse?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ja,'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: ' '
+                              -
+                                type: text
+                                text: 'Ghostwriting ist Deutschland legal, wenn man sich an Regeln hält Der Auftraggeber eines Ghostwriting-Bachelorarbeit kann in jedem Falle das Werk als Mustervorlage bei der Erstellung seiner eigenen Arbeit verwenden. Es kann ebenso verwendet werden, um den Stand der Forschung vorab zu klären bzw. die eigene Recherche zu überprüfen etc. Ausführliche Informationen zum finden Sie hier: '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: '/faq/#ghostwriting-strafbar'
+                                      rel: null
+                                      target: null
+                                      title: null
+                                text: 'Ist Ghostwriting strafbar?'
+                        active: false
+                      -
+                        id: lidhjyud
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Kann ich auch meine Bachelorarbeit auch auf Englisch oder in einer anderen Sprache schreiben lassen?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Selbstverständlich. Unsere Ghostwriting-Agentur verfügt über ein umfangreiches und vielfältiges Team von Autoren, die in verschiedenen Sprachen versiert sind. Unabhängig davon, ob Sie Ihre Bachelorarbeit in Englisch, Deutsch, Französisch, Spanisch oder einer anderen Sprache verfassen möchten, können wir einen passenden muttersprachlichen Autor für Sie finden. Unsere Autoren sind nicht nur sprachlich kompetent, sondern haben auch ein tiefes Verständnis der kulturellen und akademischen Kontexte, die mit ihren jeweiligen Sprachen verbunden sind. Dies stellt sicher, dass Ihre Arbeit nicht nur sprachlich korrekt, sondern auch inhaltlich relevant und kulturell angemessen ist.'
+                        active: false
+                      -
+                        id: lidhlcxe
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Wie lange braucht ein Ghostwriter, um die Mustervorlage meiner Bachelorarbeit zu schreiben?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Dauer für das Verfassen einer Bachelorarbeit durch einen Ghostwriter hängt von verschiedenen Faktoren ab, darunter die Komplexität des Themas, die erforderliche Forschung und die Länge der Arbeit. Im Allgemeinen können Sie jedoch erwarten, dass der Prozess mehrere Wochen dauert.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Dieser Zeitraum beinhaltet nicht nur das tatsächliche Schreiben, sondern auch die Zeit für die Forschung, die Planung der Arbeit, die Überprüfung und das Korrekturlesen. Darüber hinaus ermöglicht es auch eine angemessene Zeit für die Überprüfung und mögliche Überarbeitungen basierend auf Ihrem Feedback.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Es ist wichtig zu beachten, dass eine gute Bachelorarbeit Zeit und Sorgfalt erfordert. Unsere Ghostwriter sind bemüht, hochwertige Arbeiten zu liefern, und wir empfehlen daher, genügend Zeit für den Prozess einzuplanen. Eine stark eingeschränkte Bearbeitungszeit kann zu zusätzlichen Kosten führen, da sie den Autor dazu zwingt, innerhalb eines begrenzten Zeitrahmens zu arbeiten. Daher empfehlen wir, uns so früh wie möglich zu kontaktieren, um sicherzustellen, dass Ihre Bachelorarbeit rechtzeitig und zu Ihrer Zufriedenheit abgeschlossen wird.'
+                        active: false
+              -
+                type: set
+                attrs:
+                  id: liaqegaf
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: Disclaimer
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
+              -
+                type: set
+                attrs:
+                  id: lihly0sq
+                  values:
+                    type: spacer
+                    padding-y: 20
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lihlvbmj
+        single_col: false
+        grid:
+          -
+            id: 1nqorlsk
+            bard:
+              -
+                type: set
+                attrs:
+                  id: liaqf6et
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 65463e24-c877-41a0-9331-f3112d4ecc02
+                      - 78e588a4-2c02-44b9-b5b1-e7a880e0b64c
+                      - a714a5f1-abe3-4915-ab56-268753205e28
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Weitere Links & Referenzen'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.bmbf.de/de/der-bologna-prozess-die-europaeische-studienreform-1038.html'
+                          rel: 'noopener noreferrer'
+                          target: _blank
+                          title: null
+                    text: 'Bologna Prozess - Deutsches Bundesministerium für Bildung und Forschung'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www2.daad.de/hochschulen/ausschreibungen/projekte/de/11342-foerderprogramme-finden/?projektid=57317077&s=1'
+                          rel: 'noopener noreferrer'
+                          target: _blank
+                          title: null
+                    text: 'Bachelor Plus - Deutscher Akademischer Austauschdienst'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=LEGISSUM:c11088'
+                          rel: 'noopener noreferrer'
+                          target: _blank
+                          title: null
+                    text: 'Bologna Prozess - Europäisches Recht'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Ghostwriter'
+                          rel: 'noopener noreferrer'
+                          target: _blank
+                          title: null
+                    text: 'Ghostwriter - Wikipedia'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Bachelorarbeit'
+                          rel: 'noopener noreferrer'
+                          target: _blank
+                          title: null
+                    text: 'Bachelorarbeit - Wikipedia'
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.bildungsserver.de/Zur-Einfuehrung-von-Bachelor-und-Master-Studiengaengen-in-Deutschland-2534-de.html'
+                          rel: 'noopener noreferrer'
+                          target: _blank
+                          title: null
+                    text: 'Zur Einführung von Bachelor- und Masterstudiengängen - Deutscher Bildungsserver'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618542778
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1706802641
+template: default
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
-replicator:
-  -
-    bard:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ein akademischer '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/ghostwriter'
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            text: ' kann durch seine Erfahrungen und fachlichen Kenntnisse ohne Schwierigkeiten zu verschiedenen Zeitpunkten der Bearbeitung beauftragt werden. Dies kann direkt zu Beginn geschehen, bei der Suche nach dem passenden Thema, dem Aufbau einer Bachelorarbeit, deren Gliederung und Exposé. Es ist ebenfalls möglich, dass der Bearbeiter bei einer bereits begonnenen Arbeit Hilfe leistet oder während des gesamten Ablaufs das Coaching der Bachelorarbeit anbietet. Eine weitere Option bietet das '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
-                  target: null
-                  rel: null
-            text: Lektorat
-          -
-            type: text
-            text: ' und Korrektorat der Bachelorarbeit, die bereits von dem Studenten fertiggestellt wurde. Anschließend kann eine umfassende '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
-                  target: null
-                  rel: null
-            text: Plagiatsprüfung
-          -
-            type: text
-            text: ' erfolgen, da Studenten nicht selten Schwierigkeiten bei dem ordnungsgemäßen Umgang mit Quellen aufweisen. Zudem ist es möglich, dass Studenten von akademischen Ghostwritern eine Mustervorlage für ihre Bachelorarbeit schreiben lassen und diese Ghostwriter-Bachelorarbeit als Vorlage für ihre eigene Arbeit nutzen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/anfrage'
-                  target: null
-                  rel: null
-            text: 'unverbindliche Anfrage schicken'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Ghostwriter Bachelorarbeit: Warum sollte man sich unterstützen lassen?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Statt sich in der ohnehin schon kurzen Bearbeitungszeit mit der Frage zu beschäftigen „Wie schreibe ich eine Bachelorarbeit?” und somit wertvolle Bearbeitungszeit zu verlieren, wenden sich einige Studenten an akademische Freelancer. Diese helfen, indem sie die Bachelorarbeit lektorieren, bei Bedarf eine Textkorrektur vornehmen oder vorab eine '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
-                  target: null
-                  rel: null
-            text: Ghostwriting
-          -
-            type: text
-            text: '-Bachelorarbeit als Mustervorlage anfertigen.'
-      -
-        type: set
-        attrs:
-          values:
-            type: video
-            video: 'https://www.youtube.com/embed/EBDyFVLD0V0'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Unsere akademischen Ghostwriter weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten. Im obigen Video erklären wir Ihnen, wie sich der Coaching Service von GWriters für Bachelorarbeiten und natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten gestaltet. Wenn Sie bei Ihrer Bachelorarbeit Hilfe benötigen, wenden Sie sich gerne an uns über '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/anfrage'
-                  target: null
-                  rel: null
-            text: 'unser Kontaktformular'
-          -
-            type: text
-            text: ' um eine kostenlose Beratung zu erhalten. Unsere Kundenberater unterstützen Sie gerne bei der Entscheidung, wenn Sie Sich nicht sicher sind, ob für Sie ein gezieltes Coaching genügt oder Sie sich doch eine professionelle Mustervorlage für Ihre Bachelorarbeit schreiben lassen möchten.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Unsere Leistungen'
-    type: editor
-    enabled: true
-  -
-    columns-replicator:
-      -
-        columns_per_row: '3'
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/leistungen/ghostwriting'
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/leistungen/korrektorat'
-                          target: null
-                          rel: null
-                    text: Korrektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/leistungen/maxqda-auswertung'
-                          target: null
-                          rel: null
-                    text: 'MAXQDA Auswertung'
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/leistungen/lektorat'
-                          target: null
-                          rel: null
-                    text: Lektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/leistungen/formatierung'
-                          target: null
-                          rel: null
-                    text: Formatierung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/leistungen/uebersetzung'
-                          target: null
-                          rel: null
-                    text: Übersetzung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
-        type: row
-        enabled: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-  -
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wichtige Fachbereiche:'
-    type: editor
-    enabled: true
-  -
-    columns-replicator:
-      -
-        columns_per_row: '3'
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(193, 76, 0)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/architektur'
-                          target: null
-                          rel: null
-                    text: Architektur
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
-                          target: null
-                          rel: null
-                    text: BWL
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/erziehungswissenschaften-ghostwriter'
-                          target: null
-                          rel: null
-                    text: Erziehungswissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/germanistik-ghostwriter'
-                          target: null
-                          rel: null
-                    text: Germanistik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/jura'
-                          target: null
-                          rel: null
-                    text: Jura
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/literatur'
-                          target: null
-                          rel: null
-                    text: Literatur
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/mathematik'
-                          target: null
-                          rel: null
-                    text: Mathematik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/pflegewissenschaften'
-                          target: null
-                          rel: null
-                    text: Pflegewissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/soziale-arbeit'
-                          target: null
-                          rel: null
-                    text: 'Soziale Arbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/vwl'
-                          target: null
-                          rel: null
-                    text: VWL
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/zahnmedizin'
-                          target: null
-                          rel: null
-                    text: Zahnmedizin
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bauingenieurwesen'
-                          target: null
-                          rel: null
-                    text: Bauingenieurwesen
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/chemie'
-                          target: null
-                          rel: null
-                    text: Chemie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/finanzwissenschaften'
-                          target: null
-                          rel: null
-                    text: Finanzwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/geschichte'
-                          target: null
-                          rel: null
-                    text: Geschichte
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
-                          target: null
-                          rel: null
-                    text: Kommunikation
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/marketing'
-                          target: null
-                          rel: null
-                    text: Marketing
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medienwissenschaften'
-                          target: null
-                          rel: null
-                    text: Medienwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/philosophie'
-                          target: null
-                          rel: null
-                    text: Philosophie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/soziologie'
-                          target: null
-                          rel: null
-                    text: Soziologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftsinformatik'
-                          target: null
-                          rel: null
-                    text: Wirtschaftsinformatik
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/biologie'
-                          target: null
-                          rel: null
-                    text: Biologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/elektrotechnik'
-                          target: null
-                          rel: null
-                    text: Elektrotechnik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/geologie'
-                          target: null
-                          rel: null
-                    text: Geologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/informatik'
-                          target: null
-                          rel: null
-                    text: Informatik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/kunst'
-                          target: null
-                          rel: null
-                    text: Kunst
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/maschinenbau'
-                          target: null
-                          rel: null
-                    text: Maschinenbau
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medizin'
-                          target: null
-                          rel: null
-                    text: Medizin
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/psychologie'
-                          target: null
-                          rel: null
-                    text: Psychologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/sprachwissenschaften'
-                          target: null
-                          rel: null
-                    text: Sprachwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftswissenschaften'
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
-        type: row
-        enabled: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-  -
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Zum Bachelor'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Der Bachelor ist der erste akademische Grad, welcher bei einem Studium innerhalb der EU und einigen englischsprachigen Ländern erreicht werden kann. Er wird mit der Bachelorarbeit, auch Bachelor Thesis genannt, abgeschlossen. Dabei handelt es sich um eine wissenschaftliche Arbeit, bei der der Student seine fachlichen Kompetenzen unter Beweis stellt. Die Note der Bachelorarbeit beeinflusst die Abschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Daher sind die Beherrschung des Studienfachs und der sichere Einsatz von wissenschaftlichen Methoden grundlegend für den Erfolg. Bei einigen Studenten hat es sich ergeben, dass sie von einem Ghostwriter ihre Bachelorarbeit schreiben lassen, da sie die damit verbundene Arbeit aus zeitlichen oder persönlichen Gründen möglichst gering halten möchten. Die Ghostwriting-Bachelorarbeit sollte jedoch nur unterstützend sein, das Werk eines Ghostwriters darf nicht als eigenes ausgegeben werden und soll lediglich als Orientierungshilfe dienen.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Internationale Unterschiede'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Um die Wettbewerbsfähigkeit zu erhöhen, eine Vergleichbarkeit von Studiengängen zu erreichen und die Mobilität und Flexibilität im Studium zu gewährleisten, wurde 1999 von 29 EU-Bildungsministern die Bologna-Erklärung unterzeichnet. Die Umsetzung des Bologna-Prozesses hat in der Hochschullandschaft weitreichende Auswirkungen gehabt. So wurden beispielsweise Diplomstudiengänge, abgeschlossen mit dem Schreiben der Magisterarbeit und Diplomarbeit, weitgehend abgeschafft. Ein zweistufiges System von Hochschulabschlüssen wurde eingeführt. Man spricht heutzutage vom Bachelor-/Masterstudium.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Dessen Abschluss wird erreicht, indem Hochschulen von ihren Studenten eine Masterarbeit/ Bachelorarbeit schreiben lassen. Darauf kann durch die Erarbeitung einer Dissertation, auch Doktorarbeit genannt, die Erlangung des Doktortitels folgen. Das europäische System ist nicht zu vergleichen mit dem in den Vereinigten Staaten von Amerika. Dort ist die Vergabe des Titels eines Bachelors nicht einheitlichen Richtlinien unterworfen. Auch Colleges wird die Möglichkeit geboten, dass sie Studenten eine Bachelorarbeit schreiben lassen. Unterscheiden muss man diesen Abschluss aber von denen der Eliteuniversitäten in den USA. Trotz scheinbar gleicher Abschlussbezeichnung steckt ein anderes Bildungsniveau dahinter, was oft zu Problemen in der Akkreditierung von Studienleistungen führt.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Der Bachelor in Deutschland und Europa'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'In Deutschland wird der Bachelortitel im Zuge einer Hochschulprüfung verliehen. Dazu gehören, nebst dem Studium, in welchem eine gewisse Anzahl an ECTS-Punkten erreicht werden muss, auch das Anfertigen einer Bachelorarbeit sowie eine mündliche Prüfung. In Deutschland finden sich lediglich unterschiedliche organisatorische Regelungen von Lehrinstituten, die von ihren Studenten eine Bachelorarbeit schreiben lassen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Nicht immer beendet man sein Bachelorstudium mit dieser Art von Examensarbeit. Da das Bildungssystem in Deutschland von den Bundesländern geregelt wird, können diese Richtlinien festlegen, nach denen ein Studium abgeschlossen wird. Dies muss das Verfassen einer Bachelorarbeit nicht vorsehen. Die Kultusministerkonferenz sieht es jedoch im Zuge der Qualitätssicherung vor, dass Lehrinstitute von Studenten eine Bachelorarbeit schreiben lassen.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wie schreibt man eine Bachelorarbeit?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Je nach Fachrichtung und Institution umfasst sie inklusive Inhaltsverzeichnis und Exposé 20-60 Seiten. Oft werden dabei auch die Anzahl der Wörter und der Aufbau der Bachelorarbeit durch die Hochschule oder Universität festgelegt. Neben Themenfindung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Ansprechpartners zur Betreuung der Bachelorarbeit oder zum '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/korrektorat/korrekturlesen'
-                  target: null
-                  rel: null
-            text: Korrekturlesen
-          -
-            type: text
-            text: ', sind auch zahlreiche formale Richtlinien zu beachten. Insgesamt beläuft sich die dafür vorgesehene Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele kann ein Student entweder von dem Lehrinstitut selbst erlangen oder von einem Ghostwriter eine Bachelorarbeit schreiben lassen, welches der Orientierungshilfe dient.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich einige Formalien als gängig erwiesen:'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Gliederung einer Bachelorarbeit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Deckblatt'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Inhaltsverzeichnis Bachelorarbeit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Einleitung'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Hauptteil'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Schluss / Fazit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Literatur- und Quellenverzeichnis'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Anhang'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Formatierung einer Bachelorarbeit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Seitenzahlen: unten zentriert/rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Schriftgröße und –art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Zeilenabstand: 1,5-zeilig'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Mustervorlage für Bachelorarbeit schreiben lassen – Kosten & wie sie berechnet werden'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Das Schreiben der Bachelorarbeit ist die letzte große Hürde im Bachelorstudium. Um diese Hürde erfolgreich zu meistern, wenden sich einige Studenten an '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/'
-                  target: null
-                  rel: null
-            text: 'akademische Ghostwriter'
-          -
-            type: text
-            text: '. Akademische Ghostwriter erstellen einen hochwertigen wissenschaftlichen Entwurf der Bachelorarbeit, anhand derer Studenten ihre eigene Arbeit deutlich effizienter schreiben können. Die Kosten für das Schreiben lassen einer Bachelorarbeit werden bei unseren Ghostwritern von einigen Faktoren beeinflusst. Einen groben Überblick über unsere Kosten bietet Ihnen '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/preise'
-                  target: null
-                  rel: null
-            text: 'unser Preisrechner'
-          -
-            type: text
-            text: '. Für ein individuelles und unverbindliches Kostenangebot können Sie einfach & schnell '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/anfrage'
-                  target: null
-                  rel: null
-            text: 'unser Anfrageformular'
-          -
-            type: text
-            text: ' nutzen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Zu den Kostenfaktoren einer Bachelorarbeit gehören:'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'die Komplexität des Bachelorarbeit-Themas'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'der Fachbereich'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'die Bearbeitungsdauer'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'der Umfang der Bachelorarbeit'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'weitere individuelle Vorgaben'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Komplexität des Themas & ihre Auswirkung auf Bachelorarbeit-Kosten'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Grundsätzlich können Sie bei GWriters ausschließlich solche Ghostwriter Mustervorlagen für Bachelorarbeiten schreiben lassen, die Experten in dem spezifischen Fachgebiet der jeweiligen Arbeit sind. Aufgrund unseres breit aufgestellten und hochqualifizierten Expertenteams können Sie bei GWriters jederzeit qualitativ hochwertige Mustervorlagen für Ihre Bachelorarbeit kaufen. Dennoch schließt die '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/leistungen'
-                  target: null
-                  rel: null
-            text: 'Beauftragung von akademischen Experten'
-          -
-            type: text
-            text: ' keine gründliche Einarbeitung in das Thema aus. Schließlich soll ein Unikat entstehen, welches für den Kunden individuell geschrieben wird.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Je nachdem, ob es sich um eine empirische Bachelorarbeit oder eine theoretische Arbeit handelt, können die Kosten für das Schreiben lassen der Mustervorlage für die Bachelorarbeit variieren. Sollte der Ghostwriter beispielsweise für das Schreiben der Bachelorarbeit-Mustervorlage eigenständig Umfragen durchführen, größere Datensätze mit Software wie SPSS oder R auswerten oder Experimente in Laboren umsetzen, beeinflusst dies natürlich die Bachelorarbeit-Kosten.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Mustervorlage für Bachelorarbeit schreiben lassen: Fachbereich als Kostenfaktor'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Seit 2011 haben wir bei GWriters unseren Stamm an Ghostwritern, Lektoren und anderen akademischen Experten stetig ausgebaut. Daher ist es uns möglich, Ghostwriter Mustervorlagen für Bachelorarbeiten aus den '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/fachbereiche-gwriters'
-                  target: null
-                  rel: null
-            text: 'verschiedensten Fachbereichen'
-          -
-            type: text
-            text: ' schreiben zu lassen. Einige dieser Fachbereiche zeichnen sich durch eine höhere Komplexität aus als andere, aus welchen Gründen Ghostwriter aus diesen Bereichen eine höhere Honorierung ihrer Leistungen erwarten und erhalten.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Zu diesen Fachbereichen gehören:'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/jura'
-                          target: null
-                          rel: null
-                    text: Jura
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/informatik'
-                          target: null
-                          rel: null
-                    text: Informatik
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Naturwissenschaften (z.B. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/biologie'
-                          target: null
-                          rel: null
-                    text: Biologie
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/chemie'
-                          target: null
-                          rel: null
-                    text: Chemie
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/mathematik'
-                          target: null
-                          rel: null
-                    text: Mathematik
-                  -
-                    type: text
-                    text: )
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medizin'
-                          target: null
-                          rel: null
-                    text: Medizin
-                  -
-                    type: text
-                    text: /
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/zahnmedizin'
-                          target: null
-                          rel: null
-                    text: Zahnmedizin
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/architektur'
-                          target: null
-                          rel: null
-                    text: Architektur
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ingenieurwissenschaften (z.B. Maschinenbau)'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Bearbeitungsdauer & ihr Einfluss auf Bachelorarbeit-Preise von Ghostwritern'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'An einem üblichen Arbeitsalltag schreiben akademische Ghostwriter bis zu 5 Textseiten einer wissenschaftlichen Arbeit. Bei dringenden Aufträgen und in Notfällen ist es unseren akademischen Ghostwritern teilweise möglich, ganze Bachelorarbeiten an einem Wochenende zu schreiben. Jedoch möchten sie für diese Extraarbeit fair entlohnt werden. Daher spielt die Dringlichkeit und zur Verfügung stehende Bearbeitungszeit eine wesentliche Rolle der Kosten beim Bachelorarbeit schreiben lassen.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Umfang der Bachelorarbeit als Kostenfaktor'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Bei der Berechnung der Kosten eines wissenschaftlichen Textes zählen wir bei GWriters die reinen Textseiten. Titelblätter, Verzeichnisse und Anhänge werden dabei nicht berücksichtigt und sind bei einer Bachelorarbeit gratis inkludiert. Zudem bestimmen wir die Anzahl der Textseiten streng nach der offiziellen Definition der VG Wort, sodass es eine für alle Seiten faire und nachvollziehbare Berechnungsgrundlage gibt.'
-      -
-        type: horizontal_rule
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: 'https://gwriters.de/anfrage'
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
-      -
-        type: horizontal_rule
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Bachelorarbeit schreiben wie ein Profi – 7 praktische Tipps'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Sie haben haben die Basics beim Schreiben Ihrer Bachelorarbeit verinnerlicht und wollen Sich noch steigern? Oder haben Sie sich bei GWriters eine Mustervorlage für Ihre Bachelorarbeit schreiben lassen und wollen dieser jetzt noch eine persönliche Note verleihen? Kein Problem. Im Folgenden geben wir Ihnen 7 Tipps von unseren akademischen Experten, mit denen Sie Ihre Bachelorarbeit wie ein Profi schreiben.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: '1. Wie kann ich Ablenkungen beim Bachelorarbeit schreiben eliminieren?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Wenn Sie sich auf Ihren Bachelorarbeit konzentrieren, dann sollten Sie alle anderen Ablenkungen so weit wie möglich reduzieren. Achten Sie beispielsweis darauf, dass'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'das Smartphone außer Reichweite liegt'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie von Spotify abgemeldet sind'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie eventuell auch Ihren Netflix-Account für diese Zeit pausieren'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie Ihre E-Mails erst überprüfen, wenn Sie mit dem täglichen Pensum Bachelorarbeit fertig sind.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Kurzum: Befreien Sie sich von allen Ablenkungen und fokussieren Sie sich auf das Wesentliche.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Wenn Sie wie viele Studenten in einer WG oder mit Ihrem Partner zusammenwohnen, bitten Sie darum, während dieser Zeit nicht gestört zu werden. Sollten die Störungen zu Hause durch das Alltagsleben dennoch zu massiv sein, wechslen Sie an einen ruhigeren Ort, wie beispielsweise die Universitätsbibliothek. In vielen Bibliotheken können Sie Sich zum Beispiel eine Arbeitskabine mieten. Beantragen Sie diese jedoch schon ein paar Monate vor dem Beginn der Bachelorarbeit, da solche Kabinen sehr begehrt sind.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: '2. Welche nützlichen Tools gibt es für das Schreiben der Bachelorarbeit?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'In Zeiten der Digitalisierung können Sie Sich aus einer Fülle an Tools bedienen, um Ihre Bachelorarbeit zu optimieren. Dabei gibt es vor allem zwei Bereiche, die besonders wichtig sind:'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Rechtschreibung, Stil und Grammatik'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Viele Studenten verschenken wertvolle Punkte durch falsche Zeichensetzung, Wortdopplungen, schiefe Sprachbilder etc. Das muss jedoch nicht sein, da Ihnen diese Tools die Korrekturarbeit erleichtern können. Im Folgenden finden Sie drei Werkzeuge für diesen Zweck:'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.duden.de/rechtschreibpruefung-online'
-                          target: null
-                          rel: null
-                    text: 'Duden Rechtschreibprüfung Online'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.rechtschreibung-pruefen.de/'
-                          target: null
-                          rel: null
-                    text: Rechtschreibung-Pruefen.de
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.korrekturen.de/rechtschreibpruefung.shtml'
-                          target: null
-                          rel: null
-                    text: 'Grammatik- und Rechtschreibprüfung (Korrekturen.de)'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Lösungen wie diese ergänzen die in Word oder OpenOffice Writer integrierte und manchmal unzureichende Rechtschreibhilfe.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Organisation von Wissen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Struktur ist der Grundpfeiler einer erfolgreichen Bachelorarbeit. Machen Sie Sich daher mit einem professionellen Programm für wissenschaftliches Arbeiten vertraut. Auch hier existieren verschiedene Lösungen, die alle ihre Vor- und Nachteile haben. Wichtig ist, dass Sie die für Sich passende Software finden. Hier sind drei der beliebtesten Programme zum Bündeln von Quellen und Zitaten:'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://endnote.com/'
-                          target: null
-                          rel: null
-                    text: EndNote
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.citavi.com/de'
-                          target: null
-                          rel: null
-                    text: Citavi
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.zotero.org/'
-                          target: null
-                          rel: null
-                    text: Zotero
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Für all diese Tools finden Sie im Netz auch Anleitungen auf YouTube oder in Blogs. Solche Programme helfen Ihnen dabei, Verweise innerhalb Ihrer Bachelorarbeit nach einem festgelegten Zitationsstil zu platzieren und erstellen parallel das Literatur- und Abbildungsverzeichnis. Noch effektiver ist es, wenn Sie einen Kurs an Ihrer Hochschule für eines der Programme besuchst. Diese werden meistens in den Universitätsbibliotheken kostenlos angeboten.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: '3. Wie kann ich Professoren und andere Experten kontaktieren?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die klassische Literaturrecherche durchlaufen alle Studenten, die eine theoretische Bachelorarbeit verfassen. Auch bei einer empirischen Arbeit konzentrieren sich viele nur auf die eigenen Experimente und die anschließende Auswertung anhand allgemein bekannter Quellen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Gehen Sie stattdessen die Extrameile und nehmen Sie Kontakt zu Professoren und Doktoranden in Ihrem Fachgebiet auf, um mehr über zentrale Literatur oder neue Entwicklungen in Ihrem Forschungsgebiet zu erfahren. Nur keine falsche Scheu – auch Koryphäen helfen gern weiter, sofern sie ein wenig Zeit finden. Umso mehr sollten Sie darauf bedacht sein, eine kurze, aussagekräftige und höfliche E-Mail zu verfassen. Fragen Sie auch andere Experten wie Buchautoren, Coaches oder Fachkräfte in Unternehmen an, die sich nicht im akademischen Umfeld bewegen. Diese können wertvolle Informationen liefern, mit denen Sie Sich von den üblichen, den Prüfern längst bekannten Quellen, abheben.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: '4. Wie kann ich mein Zeitmanagement beim Bachelorarbeit schreiben verbessern?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Rechtzeitig mit der Bachelorarbeit anzufangen ist der effektivste und hilfreichste Tipp zum Thema Zeitmanagement. Modernes Zeitmanagement geht hierbei längst über klassische Tortendiagramme hinaus. Entscheidend ist, dass Sie die Fristen Ihrer Bachelorarbeit gleichermaßen im Kalender und im Kopf haben.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Schaffen Sie Sich außerdem neben der Arbeit einen Ausgleich. Es ist sinnvoller, effektiv und gesünder vier Stunden pro Tag an der Bachelorarbeit zu sitzen und sich Entspannung am Abend sowie zwischendurch zu gönnen, als sich unter Zeitdruck und Panik drei Tage vor der Abgabe die Nächte um die Ohren zu schlagen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ähnlich wie bei den weiter oben erwähnten Tools können Ihnen aber auch hier wieder digitale Angebote wie '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://www.primaerp.com/de_de/'
-                  target: null
-                  rel: null
-            text: primaERP
-          -
-            type: text
-            text: ', '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://trackingtime.co/de/'
-                  target: null
-                  rel: null
-            text: TrackingTime
-          -
-            type: text
-            text: ' oder '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://toggl.com/'
-                  target: null
-                  rel: null
-            text: Toggl
-          -
-            type: text
-            text: ' beim Zeitmanagement weiterhelfen. Darüber hinaus ist es wichtig, Prioritäten zu setzen. Und die Bachelorarbeit sollte natürlich ganz oben auf dieser Liste stehen.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: '5. Wie und wofür kann ich Akademische Profis beauftragen?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Warum die ganze Arbeit allein machen? Holen Sie sich die Hilfe von Korrektoren und Lektoren, lassen Sie Sich mit einem Textcoaching auf neue Gedanken bringen oder von einem Ghostwriter eine Mustervorlage Ihrer Bachelorarbeit schreiben lassen. Diese Unterstützung kann eine große Entlastung sein, ganz besonders dann, wenn Sie Sich mit Ihrer Bachelorarbeit überfordert fühlen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Hierfür stellen sich '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/'
-                  target: null
-                  rel: null
-            text: 'neben erfahrenen Lektoren auch Professoren, Doktoren und Wissenschaftler zur Verfügung'
-          -
-            type: text
-            text: '. Neben ausführlichen Gesprächen, für welche die meisten Betreuer an Hochschulen kaum noch Zeit haben, können externe Coaches Seelentröster und fachliche Helfer zugleich sein. Vielen Studenten hilft bereits der Gedanke, jederzeit einen kompetenten Ansprechpartner auf Augenhöhe an ihrer Seite zu haben.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: '6. Wie sollte ich das ideale Setting wählen?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die richtige Umgebung ist beim Schreiben einer Bachelorarbeit von großer Bedeutung. '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://www.wiwo.de/erfolg/beruf/produktivitaet-wer-sich-im-buero-wohlfuehlt-leistet-mehr/9855430.html'
-                  target: null
-                  rel: null
-            text: 'Wer sich beim Arbeiten wohlfühlt, ist nachweislich produktiver.'
-          -
-            type: text
-            text: ' Das gilt natürlich auch für Studenten und ihre Bachelorarbeit. Sorgen Sie daher für einen sauberen, gepflegten und aufgeräumten Arbeitsplatz. Ihr Schreibtisch sollte frei von unnützen Gegenständen sein. Nützlich sind übrigens nicht nur Werkzeuge wie Stifte und Notizblöcke, sondern auch ein schönes Foto oder ein motivierender Kalenderspruch.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Alles, was Ihr körperliches und seelisches Wohlbefinden steigert, ist erlaubt. Ideal ist es, wenn Du in einem wohl temperierten, ordentlichen und ruhigen Raum arbeiten kannst, der von Ihrem Schlafplatz entfernt ist. So vermeiden Sie, dass Sie nicht abschalten können. Wenn Ihnen dies zu Hause nicht möglich ist, suchen Sie sich einen angenehmen Arbeitsort. Sie können auch in der Natur am See oder im Park arbeiten, wenn Sie dort einen mobilen Internetzugriff haben und sich dieser Atmosphäre besser konzentrieren können.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: '7. Worauf sollte ich während der Bachelorarbeit noch Wert legen?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Struktur, Organisation und die Entlastung durch Bachelorarbeit Hilfe können den Stress einer Arbeit deutlich senken. Entscheidend ist allerdings, wie Sie während dieser Zeit mit Sich selbst umgehen. Achten Sie auf genügend Schlaf, frisches und gesundes Essen, ausreichend Bewegung und soziale Kontakte. Erlauben Sie Sich selbst, mit Freunden auszugehen, die Familie zu besuchen und neue Energie zu tanken. Im seltensten Falle ist es empfehlenswert, wochenlang wie ein Eremit im stillen Kämmerlein an der Bachelorarbeit zu schreiben. Vermeiden Sie darüber hinaus langes Feiern, zu viel Kaffee, Nikotin und Alkohol. Ein Kater kann Sie um Tage zurückwerfen und Ihre Motivation in den Keller rutschen lassen.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Fazit zu unseren 7 Profi-Tipps'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Mit diesen sieben Tipps schreiben Sie Ihre Bachelorarbeit wie ein Profi. Sie kennen jetzt nicht nur die übliche Standard-Vorgehensweise, sondern können mit Effizienz, Effektivität und Originalität punkten. Legen Sie noch heute los und finden Sie die richtige Balance zwischen Fleiß und Erholung.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: Disclaimer
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Unsere Blogartikel zum Thema Bachelorarbeit & Mustervorlage für Bachelorarbeit schreiben lassen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/bachelorarbeit-hilfe'
-                  target: null
-                  rel: null
-            text: 'Video: Bachelorarbeit-Hilfe • Was ist möglich & worauf sollte ich achten?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/empirische-theoretische-bachelorarbeit'
-                  target: null
-                  rel: null
-            text: 'Empirisch vs. theoretisch: Für welche Bachelorarbeit solltest Du Dich entscheiden?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/bachelorarbeit-dauer'
-                  target: null
-                  rel: null
-            text: 'Bachelorarbeit Dauer – Wie viel Zeit sollte ich mir einplanen?'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Weitere Weblinks & Referenzen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://www.bmbf.de/de/der-bologna-prozess-die-europaeische-studienreform-1038.html'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Bologna Prozess - Deutsches Bundesministerium für Bildung und Forschung'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://www2.daad.de/hochschulen/ausschreibungen/projekte/de/11342-foerderprogramme-finden/?projektid=57317077&s=1'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Bachelor Plus - Deutscher Akademischer Austauschdienst'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=LEGISSUM:c11088'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Bologna Prozess - Europäisches Recht'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://de.wikipedia.org/wiki/Ghostwriter'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Ghostwriter - Wikipedia'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://de.wikipedia.org/wiki/Bachelorarbeit'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Bachelorarbeit - Wikipedia'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://www.bildungsserver.de/Zur-Einfuehrung-von-Bachelor-und-Master-Studiengaengen-in-Deutschland-2534-de.html'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Zur Einführung von Bachelor- und Masterstudiengängen - Deutscher Bildungsserver'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/wiki'
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
-    type: editor
-    enabled: true
-template: with-side-bar
-teaser_bg:
-  - seiten/arbeiten/header-so-funktionierts.jpg.jpg
-meta_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
-meta_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-id: 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
+meta_title: 'Bachelorarbeit schreiben lassen | seriöse Ghostwriter'
+meta_description: 'Ghostwriter für Ihre Bachelorarbeit ✓ mit Plagiatsprüfung ✓ 30+ Fachbereiche (BWL, Jura, u.v.m.) ➤ Vorlage für Bachelorarbeit schreiben lassen!'
+og_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
+og_description: 'Ghostwriter für Ihre Bachelorarbeit ✓ mit Plagiatsprüfung ✓ 30+ Fachbereiche (BWL, Jura, u.v.m.) ➤ Vorlage für Bachelorarbeit schreiben lassen!'
+og_image: GWriters-Logo.png
+sitemap_active: true
+alternative_page_title: 'Bachelorarbeit schreiben lassen'
+arbeitsgruppe: a_abschlussarbeiten
+breadcrumbs_active: true
+page_title: 'Bachelorarbeit schreiben lassen'
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "HowTo",
+    "name": "Bachelorarbeit schreiben lassen",
+    "description": "Sie benötigen Hilfe bei Ihrer Bachelor Thesis? Bei GWriters finden Sie exakt den akademischen Ghostwriter für Ihre Bachelorarbeit, der zu Ihren individuellen Anforderungen passt. Wählen Sie aus einer Vielzahl an Fachrichtungen von Informatik über Maschinenbau bis Psychologie.",
+    "image": "https://gwriters.de/assets/webseite/brand_gwriters.png",
+    "totalTime": "P2W",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": "3000"
+    },
+    "step": [{
+      "@type": "HowToStep",
+      "text": "Sie kontaktieren uns über das Anfrageformular oder telefonisch. Ein Kundenberater meldet sich umgehend für ein unverbindliches Erstgespräch.",
+      "image": "https://gwriters.de/assets/seiten/so-funktioniert-es/icon-anfrage-orange.svg",
+      "name": "Kostenlose Anfrage",
+      "url": "https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen#zusammenarbeit"
+    },{
+      "@type": "HowToStep",
+      "text": "Sie erhalten ein unverbindliches, individuell auf Sie zugeschnittenes Angebot inklusive vorläufiger Auftragsplanung.",
+      "image": "https://gwriters.de/assets/seiten/so-funktioniert-es/icon-angebot-orange.svg",
+      "name": "Unverbindliches Angebot",
+      "url": "https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen#zusammenarbeit"
+    },{
+      "@type": "HowToStep",
+      "text": "Nach Auftragserteilung schreiben wir die Mustervorlage für Ihre Bachelorarbeit. Sie erhalten regelmäßig Zwischenstände, Feedbacks setzen wir kostenfrei um.",
+      "image": "https://gwriters.de/assets/seiten/so-funktioniert-es/icon-auftrag-orange.svg",
+      "name": "Wir schreiben für Sie",
+      "url": "https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen#zusammenarbeit"
+    },{
+      "@type": "HowToStep",
+      "text": "Sie erhalten das finale Dokument, garantiert frei von Plagiaten und nach dem 4-Augen-Prinzip auf Qualität geprüft. Änderungswünsche setzen wir kostenfrei um.",
+      "image": "https://gwriters.de/assets/seiten/so-funktioniert-es/icon-lieferung-orange.svg",
+      "name": "Finale Lieferung",
+      "url": "https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen#zusammenarbeit"
+    }]
+  }
+  </script>
+teaser_bg: seiten/arbeiten/gwriters_bachelorarbeit_2000x512.jpg
+jumpmark: mutlu@gwriters.net
 ---

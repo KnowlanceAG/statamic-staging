@@ -1,54 +1,129 @@
 ---
 id: ea1688ce-8482-41e9-b395-d1b237d8ddaa
+blueprint: pages
 title: Textkorrektur
 teaser:
   -
     type: heading
     attrs:
+      textAlign: center
       level: 1
     content:
       -
         type: text
         marks:
           -
-            type: textAlign
-            attrs:
-              align: center
-          -
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: Textkorrektur
   -
-    type: paragraph
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: "Bei uns können Sie eine Textkorrektur Ihrer akademischen Arbeit durchführen lassen\_– schnell, diskret und mehrfach geprüft auf Qualität."
+        text: "Bei uns können Sie eine Textkorrektur Ihrer akademischen Arbeit durchführen lassen\_– von erfahrenen Experten"
   -
     type: set
     attrs:
+      id: WafXn5EN
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: G9Mtkyg4
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: WFmuWewa
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: gzMNvjES
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: gNQKrXF3
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            id: IOsOmWI6
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: 1aGyYSrk
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: b4Qm7KiK
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+  -
+    type: set
+    attrs:
+      id: fFJOt5jo
+      values:
+        type: spacer
+        padding-y: 20
+  -
+    type: paragraph
+    attrs:
+      textAlign: center
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+        text: '##phone##'
 replicator:
   -
+    id: lh4rIBui
     bard:
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -59,9 +134,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrekturlesen/'
-                  target: null
+                  href: /korrektorat
                   rel: null
+                  target: null
+                  title: null
             text: ' Korrekturlesen'
           -
             type: text
@@ -72,9 +148,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrektor'
-                  target: null
+                  href: /korrektorat/korrektor
                   rel: null
+                  target: null
+                  title: null
             text: Korrektor
           -
             type: text
@@ -82,6 +159,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -89,6 +167,8 @@ replicator:
             text: 'Wer bietet eine Textkorrektur an?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -99,9 +179,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
-                  target: null
+                  href: /lektorat
                   rel: null
+                  target: null
+                  title: null
             text: Lektorat
           -
             type: text
@@ -112,9 +193,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/lektorat/lektor'
-                  target: null
+                  href: /lektorat/lektor
                   rel: null
+                  target: null
+                  title: null
             text: Lektor
           -
             type: text
@@ -122,6 +204,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -129,6 +212,8 @@ replicator:
             text: 'Gibt es Textkorrektur auch online?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -139,9 +224,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/kontakt'
-                  target: null
+                  href: /anfrage
                   rel: null
+                  target: null
+                  title: null
             text: Kontakt
           -
             type: text
@@ -149,79 +235,41 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
             type: text
             text: 'Blogartikel zum Thema Textkorrektur'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/korrektorat-lektorat-textredaktion'
-                  target: null
-                  rel: null
-            text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/suche-ghostwriter'
-                  target: null
-                  rel: null
-            text: 'Tipps für die Ghostwriter-Suche'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/ghostwriting-lektorat-korrektorat'
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/wiki'
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+        type: set
+        attrs:
+          id: XA3uyoCe
+          values:
+            type: blog_entries
+            entries:
+              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+              - 27876560-a260-4e18-89b1-417c11b8b31f
+              - a0ec0e1a-317f-4c4c-a06f-9ffd3c508726
     show_as_card: false
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619470962
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705994817
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Benötigen Sie eine Textkorrektur? Wir helfen weiter • GWriters'
 template: with-side-bar
 meta_title: 'Benötigen Sie eine Textkorrektur? Wir helfen weiter • GWriters'
 meta_description: 'Benötigen Sie eine Textkorrektur Ihrer wissenschaftlichen Arbeit? GWriters.de bietet Ihnen Korrektoren zu fairen Preisen und hoher Qualität.'
+og_title: 'Benötigen Sie eine Textkorrektur? Wir helfen weiter • GWriters'
+og_description: 'Benötigen Sie eine Textkorrektur Ihrer wissenschaftlichen Arbeit? GWriters.de bietet Ihnen Korrektoren zu fairen Preisen und hoher Qualität.'
+og_image: GWriters-Logo.png
+sitemap_active: true
+breadcrumbs_active: true
 ---

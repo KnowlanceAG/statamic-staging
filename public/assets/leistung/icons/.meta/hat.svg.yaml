@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: promotionsberatung
 size: 1658
-last_modified: 1618916439
+last_modified: 1619516965
 width: '150'
 height: '150'
 mime_type: image/svg+xml

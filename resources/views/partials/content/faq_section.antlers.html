@@ -1,0 +1,43 @@
+<div class="link-list">
+    <div class="block text-center">
+        <div class="inline-flex flex-row mb-4 link-list-header">
+            {{ faq_tabs }}
+                <p class="{{ if first }}active{{ /if }} font-bold p-2 md:px-6 md:py-4 uppercase border-b-2 border-gray-200 cursor-pointer" data-target="link-wrapper-{{ index }}">
+                    {{ tab_headline | shortcode }}
+                </p>
+            {{ /faq_tabs }}
+        </div>
+    </div>
+  
+    {{ faq_tabs }}
+        <div class="link-list-body {{ if first }}active{{ /if }} link-wrapper-{{ index }}">
+            <div class="flex justify-center">
+                <div class="w-full md:max-w-screen-md">
+                    {{ items }}
+                    <div class="accordion-tab mb-4 {{ if active }}active{{ /if }}">
+                        <div class="block px-2 py-2 bg-gray-400 header md:px-6 md:py-4 hover:cursor-pointer" data-target="#accordion-tab-{{ index }}">
+                            <div class="flex justify-between p-0 m-0 hover:text-orange-500">
+                                <span class="text-base md:text-xl">
+                                    {{ headline }}
+                                </span>
+                            </div>
+                        </div>
+                        <div id="accordion-tab-{{ index }}" class="flex flex-col px-2 overflow-hidden transition-all duration-500 md:px-6 content">
+                            <span class="w-full h-4" aria-hidden="true"><!-- spacer --></span>
+                            {{ accordion_content }}
+                                {{ partial src="partials/content/{type}" }}
+                            {{ /accordion_content }}
+                        </div>
+                    </div>
+                    {{ /items }}
+                </div>
+            </div>
+        </div>
+    {{ /faq_tabs }}
+  </div>
+
+
+
+
+
+  

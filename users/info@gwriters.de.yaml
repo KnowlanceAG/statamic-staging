@@ -3,5 +3,20 @@ roles:
   - redakteure
 groups:
   - redakteure
+slug: akademischer-ghostwriter
+position:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Professioneller Ghostwriter'
+short_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Unser akademischer Ghostwriter - Experte für wissenschaftliches Arbeiten und Verfassen akademischer Texte.'
 id: df1163f3-91f8-4fcd-a1a1-b243353247df
 password_hash: $2y$10$282YwRGW4lXgXXtm25iAAOYav1uHv14JnKWJGm3tF4Q6a1kY4JuEa

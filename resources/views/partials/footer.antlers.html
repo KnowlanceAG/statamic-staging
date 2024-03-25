@@ -1,13 +1,13 @@
 <footer>
-    <section class="px-4 bg-orange-500 py-24">
-        <div class="container mx-auto max-w-screen-xl flex flex-col text-center">
+    <section class="px-4 py-24 bg-orange-500">
+        <div class="container flex flex-col max-w-screen-xl mx-auto text-center">
             {{ footer_cta }}
-                <h3 class="mt-0 text-lg text-white block font-normal">
+                <h3 class="block mt-0 text-lg font-normal text-white">
                     {{ cta_headline }}
                 </h3>
                 {{ if cta_button }}
                     <div>
-                        <a href="{{ cta_button }}" class="mt-12 py-4 px-7 inline-block hover:transition-all hover:duration-300 text-white font-bold roundet border-2 border-white hover:bg-white hover:text-orange-500">
+                        <a href="{{ cta_button }}" class="inline-block py-4 mt-12 font-bold text-white border-2 border-white px-7 hover:transition-all hover:duration-300 roundet hover:bg-white hover:text-orange-500">
                             {{ cta_button_text }}
                         </a>
                     </div>
@@ -15,33 +15,43 @@
             {{/footer_cta}}
         </div>
     </section>
-    <section class="px-4 bg-gray-100 pt-20 pb-8">
-        <div class="container mx-auto max-w-screen-xl md:flex md:justify-around">
+    <section class="px-4 pt-20 pb-8 bg-gray-100">
+        <div class="container max-w-screen-xl mx-auto md:flex md:justify-around">
             <div>
-                <h5 class="uppercase mb-4 font-semibold text-sm">ÜBER GWRITERS</h5>
+                <h5 class="mb-4 text-sm font-semibold uppercase">ÜBER GWRITERS</h5>
                 <p class="flex flex-col">
                     {{ nav handle="footer_first_column" }}
-                        <a href="{{ url }}" class="text-xs font-sans text-gray-600 hover:text-gray-900">
+                        <a href="{{ url }}" class="font-sans text-xs text-gray-600 hover:text-gray-900">
                             {{ title }}
                         </a>
                     {{ /nav }}
                 </p>
             </div>
             <div>
-                <h5 class="uppercase mb-4 font-semibold text-sm">INFORMATIONEN</h5>
+                <h5 class="mb-4 text-sm font-semibold uppercase">LEISTUNGEN</h5>
                 <p class="flex flex-col">
                     {{ nav handle="footer_second_column" }}
-                        <a href="{{ url }}" class="text-xs font-sans text-gray-600 hover:text-gray-900">
+                        <a href="{{ url }}" class="font-sans text-xs text-gray-600 hover:text-gray-900">
                             {{ title }}
                         </a>
                     {{ /nav }}
                 </p>
             </div>
             <div>
-                <h5 class="uppercase mb-4 font-semibold text-sm">FÜR AUTOREN</h5>
+                <h5 class="mb-4 text-sm font-semibold uppercase">INFORMATIONEN</h5>
                 <p class="flex flex-col">
                     {{ nav handle="footer_third_column" }}
-                        <a href="{{ url }}" class="text-xs font-sans text-gray-600 hover:text-gray-900">
+                        <a href="{{ url }}" class="font-sans text-xs text-gray-600 hover:text-gray-900">
+                            {{ title }}
+                        </a>
+                    {{ /nav }}
+                </p>
+            </div>
+            <div>
+                <h5 class="mb-4 text-sm font-semibold uppercase">FÜR AUTOREN</h5>
+                <p class="flex flex-col">
+                    {{ nav handle="footer_fourth_column" }}
+                        <a href="{{ url }}" class="font-sans text-xs text-gray-600 hover:text-gray-900">
                             {{ title }}
                         </a>
                     {{ /nav }}
@@ -49,36 +59,46 @@
             </div>
         </div>
     </section>
-    <section class="px-4 bg-gray-100 pt-12 pb-16">
-        <div class="container mx-auto max-w-screen-sm flex justify-around">
+    <section class="hidden px-4 pb-8 bg-gray-100 md:block md:pt-20">
+        <div class="flex max-w-screen-xl mx-auto">
+            {{ partial src="partials/footer_paymentprovider" }}
+        </div>
+    </section>
+    <section class="px-4 pb-8 -mt-4 bg-gray-100 md:pt-12 md:pb-16">
+        <div class="container max-w-screen-sm mx-auto md:flex md:justify-around">
             {{ nav handle="footer_gwriters_international" }}
-                <a href="{{ url }}" alt="{{ title }}" rel="noopener" class="flags {{ title }} text-xs font-bold font-sans text-gray-600 hover:text-gray-900" target="_blank">
+                <a href="{{ url }}" alt="{{ title }}" rel="noopener" class="my-4 block md:inline-block flags {{ title }} text-xs font-bold font-sans text-gray-600 hover:text-gray-900" target="_blank">
                     {{ title }}
                 </a>
             {{ /nav }}
         </div>
     </section>
-    <section class="px-4 bg-gray-500 py-6">
-        <div class="container mx-auto max-w-screen-xl md:flex md:justify-between md:items-center">
+    <section class="px-4 pb-8 bg-gray-100 md:hidden md:pt-20">
+        <div class="flex max-w-screen-xl mx-auto">
+            {{ partial src="partials/footer_paymentprovider" }}
+        </div>
+    </section>
+    <section class="px-4 py-6 bg-gray-500">
+        <div class="container max-w-screen-xl mx-auto md:flex md:justify-between md:items-center">
             <div class="mb-4 md:mb-0">
                 <p class="mb-0">
-                    <span class="text-xs">{{ copyright }}{{ text }}{{ /copyright }}</span>
+                    <span class="text-xs">{{ copyright }}{{ text | shortcode }}{{ /copyright }}</span>
                 </p>
             </div>
             <div class="sm:flex sm:flex-row">
                 {{ social_media_links }}
-                    <div class="social-media-links mr-2 mb-4 md:mb-0 flex items-center">
+                    <div class="flex items-center mb-4 mr-2 social-media-links md:mb-0">
                         {{ if facebook_link }}
-                            <a href="{{ facebook_link }}" target="_blank" rel="noreferrer" class="icon fb inline-block text-xs mr-8"><!-- {{ facebook_link }} --></a>
+                            <a href="{{ facebook_link }}" aria-label="facebook" target="_blank" rel="noreferrer" class="inline-block mr-8 text-xs icon fb"><!-- {{ facebook_link }} --></a>
                         {{ /if }}
                         {{ if youtube_link }}
-                            <a href="{{ youtube_link }}" target="_blank" rel="noreferrer" class="icon yt inline-block text-xs mr-8"><!-- {{ youtube_link }} --></a>
+                            <a href="{{ youtube_link }}" aria-label="youtube" target="_blank" rel="noreferrer" class="inline-block mr-8 text-xs icon yt"><!-- {{ youtube_link }} --></a>
                         {{ /if }}
                         {{ if twitter_link }}
-                            <a href="{{ twitter_link }}" target="_blank" rel="noreferrer" class="icon tw inline-block text-xs mr-8"><!-- {{ twitter_link }} --></a>
+                            <a href="{{ twitter_link }}" aria-label="twitter" target="_blank" rel="noreferrer" class="inline-block mr-8 text-xs icon tw"><!-- {{ twitter_link }} --></a>
                         {{ /if }}
                         {{ if instagram_link }}
-                            <a href="{{ instagram_link }}" target="_blank" rel="noreferrer" class="icon insta inline-block text-xs mr-8"><!-- {{ instagram_link }} --></a>
+                            <a href="{{ instagram_link }}" aria-label="instagram" target="_blank" rel="noreferrer" class="inline-block mr-8 text-xs icon insta"><!-- {{ instagram_link }} --></a>
                         {{ /if }}
                     </div>
                 {{ /social_media_links }}
@@ -89,11 +109,14 @@
                             {{ title }}
                         </a>
                     {{ else }}
-                        <a href="{{ url }}" class="text-xs uppercase mr-4">
+                        <a href="{{ url }}" class="mr-4 text-xs uppercase">
                             {{ title }}
                         </a>
                     {{ /if }}
                 {{ /nav }}
+                <a class="ml-4 text-xs uppercase cookie-consent-settings" href="#">
+                  Cookies
+                </a>
             </div>
         </div>
     </section>

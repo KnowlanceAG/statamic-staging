@@ -1,0 +1,40 @@
+title: 'FAQ Bereich'
+fields:
+  -
+    handle: faq_tabs
+    field:
+      fields:
+        -
+          handle: tab_headline
+          field:
+            input_type: text
+            antlers: false
+            display: 'Tab Überschrift'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          handle: accordion
+          field:
+            display: Accordion
+            type: section
+            icon: section
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+            always_save: false
+        -
+          import: accordion
+      mode: stacked
+      add_row: 'Tab hinzufügen'
+      reorderable: true
+      display: Tabs
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

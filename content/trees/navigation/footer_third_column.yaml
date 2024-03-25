@@ -1,13 +1,27 @@
 tree:
   -
-    entry: a429a015-f680-4717-8b76-bf0d66ce02d4
+    id: 1f297a5d-14f2-4b87-b26d-5fd938211554
+    title: 'GWriters Blog'
+    url: /blog
   -
-    entry: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
+    id: f951d558-5eb6-4a1a-8732-fa11639cb1c3
+    entry: 046e5eb8-8a16-431a-abdf-c079ed2d95d0
+    title: 'Kostenloser AI Detector'
   -
-    entry: 08690e7d-78e7-40cc-8e39-9d87681c01f7
+    id: 42da2717-b58e-4508-9cee-3f6606af7ac8
+    entry: 533158ef-db5d-4fdb-aa49-570d84cac9c7
+    title: 'Kostenloser Zitationsgenerator'
   -
-    entry: 010a016f-92f5-482d-bcee-60b232e7c328
+    id: b725f15d-6949-43b7-b274-03a40b4c1e07
+    entry: 1298a2b5-6e23-404b-8806-26e687fda624
   -
-    entry: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
+    id: 659159d0-6b34-4f44-bd66-ed5823d25361
+    entry: b2decf22-7419-401e-9a2d-3713194ce4d0
   -
-    entry: a016335c-333e-432d-838d-460350d21052
+    id: b1273f1e-42bb-45ef-a044-fc652de980e5
+    title: 'Hilfe & FAQ'
+    url: /faq
+  -
+    id: 3ef1b0f3-1580-4f56-9624-2af4968d2c57
+    title: AGB
+    url: /agb

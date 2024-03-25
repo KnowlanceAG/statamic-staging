@@ -1,0 +1,16 @@
+<div class="my-8 flex flex-col {{ if reverse_columns=='bild_text'}}md:flex-row{{ else }}md:flex-row-reverse{{ /if }} gap-8">
+    <div class="md:w-1/2 flex flex-col justify-center {{ vertical_alignment_img }}">
+        {{ if bild }}
+          {{ bild }}
+              {{ if extension == 'svg' || extension == 'gif' }}
+                <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ bild:alt }}" {{ /if }}>
+              {{ else }}
+                  {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="{ width }" }}
+              {{ /if }}
+          {{ /bild }}
+        {{ /if }}
+    </div>
+    <div class="md:w-1/2 flex flex-col justify-center {{ vertical_alignment_text }}">
+        {{ text | shortcode }}
+    </div>
+</div>

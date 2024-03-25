@@ -1,114 +1,271 @@
 title: Pages
-sections:
+tabs:
   main:
     display: Main
-    fields:
+    sections:
       -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
-      -
-        handle: teaser
-        field:
-          always_show_set_button: false
-          sets:
-            button:
-              display: Button
-              fields:
-                -
-                  import: ce_button
-            bilder:
-              display: Bild
-              fields:
-                -
-                  import: ce_image
-            text_box-alignment:
-              display: 'Textbox mit Ausrichtung'
-              fields:
-                -
-                  import: textbox-aligned
-          buttons:
-            - h2
-            - h3
-            - bold
-            - italic
-            - unorderedlist
-            - orderedlist
-            - removeformat
-            - quote
-            - anchor
-            - image
-            - table
-            - h1
-            - h4
-            - h5
-            - underline
-            - superscript
-            - subscript
-            - code
-            - codeblock
-            - horizontalrule
-          save_html: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: true
-          allow_source: true
-          display: Teaser
-          type: bard
-          icon: bard
-          listable: hidden
-      -
-        handle: teaser_bg
-        field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          display: 'Teaser Hintergrund'
-          type: assets
-          icon: assets
-          listable: hidden
-      -
-        import: ce_replicator
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: teaser
+            field:
+              always_show_set_button: false
+              sets:
+                main:
+                  display: Hauptteil
+                  instructions: null
+                  icon: null
+                  sets:
+                    button:
+                      display: Button
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          import: ce_button
+                    bilder:
+                      display: Bild
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          import: ce_image
+                    text_box_alignment:
+                      display: 'Textbox mit Ausrichtung'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          import: textbox_aligned
+                    teaser_icon_columns:
+                      display: 'Icon Spalten'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          import: teaser_icon_columns
+                    spacer:
+                      display: Abstandshalter
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          import: spacer
+                    show_sidebar_mobile:
+                      display: 'Sidebar mobil hier darstellen'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          import: sidebar_element
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+                - h1
+                - h4
+                - h5
+                - underline
+                - superscript
+                - subscript
+                - code
+                - codeblock
+                - horizontalrule
+                - color
+                - alignleft
+                - aligncenter
+                - alignright
+                - alignjustify
+              save_html: false
+              toolbar_mode: fixed
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              reading_time: false
+              fullscreen: true
+              allow_source: true
+              display: Teaser
+              type: bard
+              icon: bard
+              listable: hidden
+              instructions_position: above
+              enable_input_rules: true
+              enable_paste_rules: true
+              antlers: false
+              visibility: visible
+              replicator_preview: true
+              smart_typography: false
+              inline: false
+              word_count: false
+              remove_empty_nodes: false
+              collapse: false
+              previews: true
+              hide_display: false
+          -
+            import: responsive_assets
+          -
+            import: ce_replicator
   sidebar:
     display: 'Seiten Einstellungen'
-    fields:
+    sections:
       -
-        handle: slug
-        field:
-          type: slug
-          required: true
-          localizable: true
-          validate:
-            - required
-      -
-        handle: page_title
-        field:
-          input_type: text
-          antlers: false
-          display: 'Seiten Titel'
-          type: text
-          icon: text
-          listable: hidden
-          instructions: 'Wird im Browsertab und in den Favoriten angezeigt.'
-      -
-        handle: parent
-        field:
-          type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true
-      -
-        handle: template
-        field:
-          type: template
-          display: Template
-          localizable: true
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate:
+                - required
+                - 'unique_entry_value:{collection},{id},{site}'
+          -
+            handle: page_title
+            field:
+              input_type: text
+              antlers: false
+              display: 'Seiten Titel'
+              type: text
+              icon: text
+              listable: hidden
+              instructions: 'Wird im Browsertab und in den Favoriten angezeigt.'
+          -
+            handle: alternative_page_title
+            field:
+              input_type: text
+              antlers: false
+              display: 'Alternativer Seiten Titel'
+              type: text
+              icon: text
+              instructions: optional
+              listable: hidden
+              instructions_position: above
+          -
+            handle: sitemap_active
+            field:
+              default: true
+              display: 'Sitemap aktiv'
+              type: toggle
+              icon: toggle
+              instructions: 'Seite in Sitemap aufnehmen'
+              listable: hidden
+              instructions_position: above
+          -
+            import: breadcrubs_active
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: abschnitt_link_list_category
+            field:
+              display: 'Link Liste Kategorie'
+              type: section
+              icon: section
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: fachrichtungsgruppe
+            field:
+              options:
+                g_technische_fachrichtungen: 'Technische Fachrichtungen'
+                g_medizinische_fachrichtungen: 'Medizinische Fachrichtungen'
+                g_wirtschaftliche_fachbereiche: 'Wirtschaftliche Fachbereiche'
+                g_naturwissenschaften: Naturwissenschaften
+                g_geisteswissenschaften: Geisteswissenschaften
+                g_sozialwissenschaften: Sozialwissenschaften
+              multiple: false
+              max_items: 1
+              clearable: true
+              searchable: true
+              taggable: false
+              push_tags: false
+              cast_booleans: false
+              display: Fachrichtungsgruppe
+              type: select
+              icon: select
+              instructions: 'Wählen Sie die Gruppe der Fachrichtungen, der diese Seite zugeordnet ist'
+              listable: hidden
+              if: parentIsFachrichtungen
+          -
+            handle: arbeitsgruppe
+            field:
+              options:
+                a_studienarbeiten: Studienarbeiten
+                a_abschlussarbeiten: Abschlussarbeiten
+                a_sonstige_arbeiten: 'Sonstige Arbeiten'
+              multiple: false
+              max_items: 1
+              clearable: true
+              searchable: true
+              taggable: false
+              push_tags: false
+              cast_booleans: false
+              display: Arbeitsgruppe
+              type: select
+              icon: select
+              instructions: 'Wählen Sie eine Arbeitsgruppe, der diese Seite zugeordnet ist'
+              listable: hidden
+              if: parentIsArbeiten
+          -
+            handle: abschnitt_extend_link_list
+            field:
+              display: 'Erweiterung Link Liste'
+              type: section
+              icon: section
+              instructions: 'Link Text und Sprungmarke'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: link_text_overwrite
+            field:
+              input_type: text
+              antlers: false
+              display: 'Link Text überschreiben'
+              type: text
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: jumpmark
+            field:
+              input_type: text
+              antlers: false
+              display: Sprungmarke
+              type: text
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+              prepend: '#'

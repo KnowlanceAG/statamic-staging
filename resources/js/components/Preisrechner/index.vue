@@ -10,11 +10,11 @@
             <select v-model="service" id="service" class="w-full">
                 <option value="">Leistung wählen..</option>
                 <option
-                    v-for="service in serviceOptions"
-                    :key="service.key"
-                    :value="service.value"
+                    v-for="service in services"
+                    :key="service"
+                    :value="service"
                 >
-                    {{ service.key }}
+                    {{ service }}
                 </option>
             </select>
         </div>
@@ -27,11 +27,11 @@
             <select v-model="specialField" id="specialField" class="w-full">
                 <option value="">Fachbereich wählen..</option>
                 <option
-                    v-for="specialField in specialFieldOptions"
-                    :key="specialField.key"
-                    :value="specialField.value"
+                    v-for="specialField in Object.keys(options.specialField)"
+                    :key="specialField"
+                    :value="specialField"
                 >
-                    {{ specialField.key }}
+                    {{ specialField }}
                 </option>
             </select>
         </div>
@@ -42,11 +42,11 @@
             <select v-model="qualityLevel" id="qualityLevel" class="w-full">
                 <option value="">Qualitätslevel wählen..</option>
                 <option
-                    v-for="qualityLevel in qualityLevelOptions"
-                    :key="qualityLevel.key"
-                    :value="qualityLevel.value"
+                    v-for="qualityLevel in Object.keys(options.qualityLevel)"
+                    :key="qualityLevel"
+                    :value="qualityLevel"
                 >
-                    {{ qualityLevel.key }}
+                    {{ qualityLevel }} - {{ options.qualityDescription[qualityLevel] }}
                 </option>
              </select>
         </div>
@@ -57,11 +57,14 @@
             <input
                 v-model="pages"
                 type="number"
-                pattern="\d*"
+                inputmode="numeric"
+                pattern="[0-9]+"
                 autocomplete="off"
+                min="0"
                 max="9999"
                 id="pages"
                 class="w-full"
+                @input="validatePages"
             />
         </div>
         <div class="lg:col-span-2">
@@ -74,8 +77,10 @@
                 <input
                     v-model="timeUnit"
                     type="number"
-                    pattern="\d*"
+                    inputmode="numeric"
+                    pattern="[0-9]+"
                     autocomplete="off"
+                    min="1"
                     max="99999"
                     id="timeUnit"
                     class="w-full pr-2"
@@ -96,15 +101,21 @@
       </div>
       <div>
         <p class="text-xs leading-5">
-            Die angezeigte Preiskalkulation dient zur Vermittlung einer groben
-            Preisvorstellung. Ein individuelles &amp; unverbindliches
-            Preisangebot erhalten Sie innerhalb weniger Stunden über das
-            nebenstehend verlinkte Anfrageformular, per Mail oder Telefon.
+            Die angezeigte Preiskalkulation für die Qualitätsstufe "Academic"
+            dient zur Vermittlung einer groben Preisvorstellung und beruht auf
+            einer literaturbasierten Arbeit ohne eigene Forschung.
+            Ein individuelles &amp; unverbindliches Preisangebot erhalten Sie
+            innerhalb weniger Stunden über das nebenstehend verlinkte Anfrageformular,
+            per Mail oder Telefon.
         </p>
       </div>
       <div>
         <div class="bg-gray-200">
-          <div v-if="result" class="p-4 text-green-500 bg-green-300 border border-green-400">
+          <p v-if="pagesPerDay > 50" class="p-4 text-xs leading-5 text-red-500 bg-red-300 border border-red-400">
+            Es können maximal 50 Seiten pro Tag bearbeitet werden, bitte
+            korrigieren Sie Ihre Eingabe.
+          </p>
+          <div v-else-if="result" class="p-4 text-green-500 bg-green-300 border border-green-400">
             <label class="control-label">berechneter Preis</label>
             <h2
               id="preisrechner_result"
@@ -114,16 +125,10 @@
             </h2>
             <label class="control-label">inkl. MwSt.</label>
           </div>
-          <div v-else>
-            <p v-if="pagesPerDay > 50" class="p-4 text-xs leading-5 text-red-500 bg-red-300 border border-red-400">
-              Es können maximal 50 Seiten pro Tag bearbeitet werden, bitte
-              korrigieren Sie Ihre Eingabe.
-            </p>
-            <p v-else class="p-4 text-xs leading-5 text-green-500 bg-green-300 border border-green-400">
-              Bitte alle Felder ausfüllen, vorher kann kein Preis berechnet
-              werden.
-            </p>
-          </div>
+          <p v-else class="p-4 text-xs leading-5 text-green-500 bg-green-300 border border-green-400">
+            Bitte alle Felder ausfüllen, vorher kann kein Preis berechnet
+            werden.
+          </p>
         </div>
       </div>
     </div>
@@ -156,20 +161,15 @@ export default {
   watch: {
     pages: function(value) {
       if (value > 9999) this.pages = 9999
+      if (value < 0) this.pages = 1
     },
     timeUnit: function(value) {
       if (value > 999999) this.timeUnit = 999999
     }
   },
   computed: {
-    serviceOptions() {
-      return this.mapArrays(this.options.service)
-    },
-    specialFieldOptions() {
-      return this.mapArrays(this.options.specialField)
-    },
-    qualityLevelOptions() {
-      return this.mapArrays(this.options.qualityLevel)
+    services() {
+      return Object.keys(this.options.service[this.topLevelDomain])
     },
     timeTypeOptions() {
       return this.mapArrays(this.options.timeType)
@@ -178,10 +178,16 @@ export default {
       return parseInt(this.timeUnit) * parseInt(this.timeType)
     },
     pagesPerDay() {
-      if (!this.daysToDeliver || !this.pages) return null
+      if (
+          !this.daysToDeliver
+          || this.daysToDeliver < 1
+          || !this.pages
+        ) return null
+
       return this.pages / this.daysToDeliver
     },
     pagesPerDayIndex() {
+      if (!this.pagesPerDay) return null
       const index = this.options.pagesPerDay.find(
         p => this.pagesPerDay <= p.threshold
       )
@@ -196,30 +202,50 @@ export default {
     complete() {
       return (
         this.pages &&
-        this.service &&
-        this.specialField &&
-        this.qualityLevel &&
+        this.service && options.service[this.topLevelDomain][this.service] &&
+        this.specialField && options.specialField[this.specialField] &&
+        this.qualityLevel && options.qualityLevel[this.qualityLevel] &&
         this.pagesPerDayIndex &&
         this.pageFactorIndex
       )
     },
+    topLevelDomain() {
+      const tld = window.location.origin.split('.').pop()
+      return ['me', 'test', 'net'].includes(tld) ? 'de' : tld
+    },
     result() {
       if (!this.complete) return false
-      const result =
-        this.pages *
-        this.service *
-        this.specialField *
-        this.qualityLevel *
-        this.pagesPerDayIndex *
-        this.pageFactorIndex
 
-      return result.toLocaleString('de-DE', {
+      const tld = this.topLevelDomain
+      const localeString = tld === 'de' ? 'de-DE' : 'de-CH'
+      const currency = tld === 'de' ? 'EUR' : 'CHF'
+
+      if (options.service[tld][this.service].fixed) {
+        const result = options.service[tld][this.service].price
+        return result.toLocaleString(localeString, {
         style: 'currency',
-        currency: 'EUR'
+        currency
+        })
+      }
+
+      const result =
+        Number.parseInt(this.pages) *
+        options.service[tld][this.service].price *
+        options.specialField[this.specialField] *
+        options.qualityLevel[this.qualityLevel] *
+        Number.parseFloat(this.pagesPerDayIndex) *
+        Number.parseFloat(this.pageFactorIndex)
+
+      return result.toLocaleString(localeString, {
+        style: 'currency',
+        currency
       })
     }
   },
   methods: {
+    validatePages({ target }) {
+      this.pages = Number.parseInt(target.value)
+    },
     mapArrays(array) {
       if (!array) return []
       return array.map(o => {

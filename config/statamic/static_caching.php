@@ -2,7 +2,7 @@
 
 return [
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Active Static Caching Strategy
     |--------------------------------------------------------------------------
@@ -12,9 +12,9 @@ return [
     |
     */
 
-    'strategy' => env('STATAMIC_STATIC_CACHING_STRATEGY', null),
+  'strategy' => env('STATAMIC_STATIC_CACHING_STRATEGY', null),
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Caching Strategies
     |--------------------------------------------------------------------------
@@ -26,22 +26,22 @@ return [
     |
     */
 
-    'strategies' => [
+  'strategies' => [
 
-        'half' => [
-            'driver' => 'application',
-            'expiry' => null,
-        ],
-
-        'full' => [
-            'driver' => 'file',
-            'path' => public_path('static'),
-            'lock_hold_length' => 0,
-        ],
-
+    'half' => [
+      'driver' => 'application',
+      'expiry' => null,
     ],
 
-    /*
+    'full' => [
+      'driver' => 'file',
+      'path' => public_path('static'),
+      'lock_hold_length' => 0,
+    ],
+
+  ],
+
+  /*
     |--------------------------------------------------------------------------
     | Exclusions
     |--------------------------------------------------------------------------
@@ -52,11 +52,16 @@ return [
     |
     */
 
-    'exclude' => [
-        //
-    ],
+  'exclude' => [
+    '/anfrage',
+    '/anfrage/',
+    '/als-autor-bewerben',
+    '/als-autor-bewerben/',
+    '/kontakt',
+    '/kontakt/'
+  ],
 
-    /*
+  /*
     |--------------------------------------------------------------------------
     | Invalidation Rules
     |--------------------------------------------------------------------------
@@ -69,17 +74,35 @@ return [
     |
     */
 
-    'invalidation' => [
-
-        'class' => null,
-
-        'rules' => [
-            //
+  'invalidation' => [
+    'rules' => [
+      'collections' => [
+        'blog' => [
+          'urls' => [
+            '/blog/page/*'
+          ]
         ],
-
+        'presse' => [
+          'urls' => [
+            '/presse/page/*'
+          ]
+        ],
+        'akademie' => [
+          'urls' => [
+            '/gwriters-akademie'
+          ]
+        ],
+        'team' => [
+          'urls' => [
+            '/team'
+          ]
+        ]
+      ]
     ],
 
-    /*
+  ],
+
+  /*
     |--------------------------------------------------------------------------
     | Ignoring Query Strings
     |--------------------------------------------------------------------------
@@ -90,6 +113,6 @@ return [
     |
     */
 
-    'ignore_query_strings' => false,
+  'ignore_query_strings' => false,
 
 ];

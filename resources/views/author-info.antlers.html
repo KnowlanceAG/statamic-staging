@@ -1,0 +1,39 @@
+<section class="py-24 px-4 max-w-screen">
+  <div class="content container mx-auto max-w-screen-xl clear-both">
+    <div class="lg:grid lg:grid-cols-3 lg:gap-8">
+      <div class="lg:col-span-2">
+        {{ user:profile field="slug" :value="author_slug" }}
+          {{ if !id }}
+            {{ redirect to="/404" }}
+          {{ /if }}
+
+          {{ avatar }}
+            <div class="bg-white border-b-4 shadow-sm p-2 mb-8 flex flex-col lg:flex-row space-x-6">
+                {{ responsive:avatar alt="Foto {alt}" class="mx-auto h-auto w-40 md:w-auto rounded-full" }}
+                <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
+                  <div class="flex flex-col justify-center lg:justify-start text-gray-550">
+                    <h1 class="mt-4 py-0 text-center leading-none">{{ name }}</h1>
+                    <div class="my-0 font-bold text-center">{{ position }}</div>
+                    <p>{{ short_text }}</p>
+                  </div>
+                </div>
+            </div>
+          {{ /avatar }}
+
+          <h2>Beiträge von {{ name }}</h2>
+          {{ collection:blog as="col" limit="{config:app:pagination_limit}" paginate="true" author:contains="{id}" sort="date:desc" }}
+            {{ partial src="partials/content/blogentry" }}
+            {{ paginate }}
+              {{ partial src="partials/pagination" handle="blog" }}
+            {{ /paginate }}
+          {{ /collection:blog }}
+        {{ /user:profile }}
+      </div>
+      <aside class="mb-8">
+        {{ yield:sidebar }}
+          {{ partial src="partials/sidebar" }}
+        {{ /yield:sidebar }}
+      </aside>
+    </div>
+  </div>
+</section>

@@ -31,3 +31,12 @@ sections:
           type: text
           icon: text
           listable: hidden
+      -
+        handle: imagelink
+        field:
+          display: Link
+          type: link
+          icon: link
+          instructions: optional
+          listable: hidden
+          instructions_position: above

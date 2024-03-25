@@ -1,46 +1,58 @@
 <section class="px-4 my-16 max-w-screen">
-    <div class="content container mx-auto max-w-screen-xl clear-both">
-        <div class="lg:grid lg:grid-cols-3 lg:gap-8">
-            <div class="lg:col-span-2">
-                {{ if teaser_image }}
-                    {{ responsive:teaser_image alt="{post_image:alt}" class="self-center" }}
-                {{ else }}
-                    {{ responsive:post_image alt="{alt}" class="self-center" }}
-                {{ /if }}
-                {{ if detail_title }}
-                    <h1 class="text-2xl my-6 text-orange-500">
-                        {{ detail_title }}
-                    </h1>
-                {{ else }}
-                    <h1 class="text-2xl my-6 text-orange-500">
-                        {{ title }}
-                    </h1>
-                {{ /if }}
+  <div class="content container mx-auto max-w-screen-xl clear-both">
+    <div class="lg:grid lg:grid-cols-3 lg:gap-8">
+      <div class="lg:col-span-2">
+        {{ if teaser_image }}
+          {{ teaser_image }}
+            {{ responsive:teaser_image alt="{alt}" class="self-center" }}
+          {{ /teaser_image }}
+        {{ else }}
+          {{ if post_image }}
+            {{ post_image }}
+              {{ responsive:post_image alt="{alt}" class="self-center" }}
+            {{ /post_image }}
+          {{ /if }}
+        {{ /if }}
+        {{ if detail_title }}
+          <h1 class="text-2xl my-6 text-orange-500">
+            {{ detail_title | shortcode }}
+          </h1>
+        {{ else }}
+          <h1 class="text-2xl my-6 text-orange-500">
+            {{ title | shortcode }}
+          </h1>
+        {{ /if }}
 
-                <p class="block">
-                    <b>Datum: </b>
-                    {{ published_at }}
-                    <b>Erschienen in: </b>
-                    {{ if published_in_link }}
-                        <a href="{{ published_in_link }}" target="_blank">
-                    {{ /if }}
-                    {{ published_in_name }}
-                    {{ if published_in_link }}
-                        </a>
-                    {{ /if }}
-                     <b>Autor: </b>{{ external_author }}
-                </p>
+        <p class="block">
+          <b>Datum: </b>
+          {{ published_at format="d.m.Y"  }}
+          <b>Erschienen in: </b>
+          {{ if published_in_link }}
+            <a href="{{ published_in_link }}" target="_blank">
+          {{ /if }}
+          {{ published_in_name }}
+          {{ if published_in_link }}
+            </a>
+          {{ /if }}
+          <b>Autor: </b>
+          {{ external_author }}
+        </p>
 
 
-                {{ replicator }}
-                    {{ partial src="partials/content/{type}" }}
-                {{ /replicator }}
+        {{ replicator }}
+          {{ partial src="partials/content/{type}" }}
+        {{ /replicator }}
+
+        <a href="/presse/page/1" class="mt-8 block text-orange-500 font-medium">
+          < zurück zur Presse Übersicht</a>
 
 
-            </div>
-            <aside class="mb-8">
-                {{ partial src="partials/sidebar" }}
-            </aside>
-        </div>
+      </div>
+      <aside class="mb-8">
+        {{ yield:sidebar }}
+          {{ partial src="partials/sidebar" }}
+        {{ /yield:sidebar }}
+      </aside>
     </div>
+  </div>
 </section>

@@ -11,6 +11,12 @@ fields:
       type: assets
       icon: assets
       listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      show_filename: true
+      validate:
+        - image
   -
     handle: img_size
     field:
@@ -48,3 +54,14 @@ fields:
       listable: hidden
       if:
         img_size: '!== w-full'
+  -
+    handle: image_options
+    field:
+      inline: false
+      options:
+        no_upscale: 'Vergrößerung verbieten'
+      display: Bild-Optionen
+      type: checkboxes
+      icon: checkboxes
+      listable: hidden
+      instructions_position: above

@@ -81,32 +81,50 @@ sections:
           icon: textarea
           listable: hidden
       -
-        handle: iframe_html
+        handle: trust_logos
         field:
-          theme: material
-          mode: htmlmixed
-          indent_type: tabs
-          indent_size: 4
-          key_map: default
-          line_numbers: true
-          line_wrapping: true
-          display: 'HTML Code Iframe'
-          type: code
-          icon: code
+          fields:
+            -
+              handle: logo
+              field:
+                mode: list
+                container: assets
+                restrict: false
+                allow_uploads: true
+                show_filename: true
+                display: Logo
+                type: assets
+                icon: assets
+                instructions: 'Bitte Trust Logo wählen'
+                listable: hidden
+                instructions_position: above
+                max_files: 1
+            -
+              handle: trust_link
+              field:
+                display: Link
+                type: link
+                icon: link
+                listable: hidden
+                instructions_position: above
+            -
+              handle: link_hover_title
+              field:
+                input_type: text
+                antlers: false
+                display: 'Link Hover Titel'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+          mode: stacked
+          add_row: 'Logo hinzufügen'
+          reorderable: true
+          display: 'Trust Logos'
+          type: grid
+          icon: grid
           listable: hidden
-          width: 50
-      -
-        handle: logo_image
-        field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          display: 'Logo Image'
-          type: assets
-          icon: assets
-          listable: hidden
-          width: 50
+          instructions_position: above
       -
         handle: feature_liste
         field:

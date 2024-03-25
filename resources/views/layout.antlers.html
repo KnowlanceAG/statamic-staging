@@ -1,46 +1,124 @@
 <!doctype html>
-<html lang="{{ site:short_locale }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        {{ if meta_title }}
-
-        {{ elseif page_title }}
-            <title>{{ page_title }}</title>
-        {{ else }}
-            <title>GWriters • {{ title ?? site:name }}</title>
+<html lang="{{ site:locale | replace('_', '-') | lower }}" class="overflow-x-hidden max-w-screen">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="content-language" content="{{ site:locale | replace('_', '-') | lower }}">
+  {{ if current_template == 'errors/404' || current_uri | contains('blog/page') || current_uri | contains('presse/page') || (current_uri | contains_all('/author', '/page')) }}
+    <meta name="robots" content="noindex, follow">
+  {{ else }}
+    {{ if no_index_page }}
+      {{ if no_follow_links }}
+        <meta name="robots" content="noindex, nofollow">
+      {{ else }}
+        <meta name="robots" content="noindex, follow">
+      {{ /if }}
+    {{ /if }}
+  {{ /if }}
+  <link rel="alternate" hreflang="de-de" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
+  <link rel="alternate" hreflang="de-ch" href="https://gwriters.ch{{ current_uri == '/' ? '' : current_uri }}" />
+  <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
+  {{ if meta_title }}
+  {{ elseif page_title }}
+    <title>
+      {{ page_title | shortcode }}
+    </title>
+  {{ elseif author_slug }}
+    {{ users slug:is="{author_slug}" }}
+      <title>
+        {{ short_text | shortcode | strip_tags | excerpt:. }}.
+      </title>
+      <meta name="description" content="{{ short_text | shortcode | strip_tags }}" />
+    {{ /users }}
+  {{ else }}
+    <title>GWriters •
+      {{ title ?? site:name }}
+    </title>
+  {{ /if }}
+  <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+  <link rel="icon" href="/assets/webseite/gwriters-logo-32x32.png" sizes="32x32">
+  <link rel="shortcut icon" href="/assets/webseite/gwriters-logo-32x32.png">
+  <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-57x57.png" sizes="57x57">
+  <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png" sizes="114x114">
+  {{ if !author_slug && current_template !== 'errors/404' }}
+    {{ seo_data }}
+      <title>
+        {{ calculated_title }}
+      </title>
+      {{ if meta_description }}
+        <meta name="description" content="{{ meta_description }}">
+      {{ /if }}
+      {{ if use_meta_keywords }}
+        <meta name="keywords" content="{{ meta_keywords join=', ' }}">
+      {{ /if }}
+      <!-- Start: Canonical content -->
+      {{ if canonical_url }}
+        <link rel="canonical" href="{{ canonical_url }}">
+        <meta property="og:url" content="{{ canonical_url }}">
+      {{ elseif current_uri | starts_with('/presse') || current_uri | starts_with('/blog') }}
+        <meta property="og:url" content="{{ current_url }}">
+        {{ if current_uri | not_paginated_page }}
+          <link rel="canonical" href="{{ current_url }}">
         {{ /if }}
+      {{ else }}
+        <!-- purely generated -->
+        <link rel="canonical" href="{{ aardvark-seo:generated_canonical }}">
+        <meta property="og:url" content="{{ aardvark-seo:generated_canonical }}">
+      {{ /if }}
+      <!-- End: Canonical content -->
 
-        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+      <!-- Start OpenGraph content -->
+      <meta property="og:site_name" content="{{ aardvark_general_settings:site_name }}">
+      <meta property="og:title" content="{{ og_title or calculated_title | shortcode }}">
+      <meta property="og:description" content="{{ og_description or meta_description | shortcode }}">
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="{{ site:locale | lower }}">
+      {{ if calculated_og_image }}
+        {{ calculated_og_image }}
+          <meta property="og:image" content="{{ permalink }}">
+          <meta property="og:image:width" content="{{ width }}">
+          <meta property="og:image:height" content="{{ height }}">
+          <meta property="og:image:alt" content="{{ alt }}">
+        {{ /calculated_og_image }}
+      {{ /if }}
+      <!-- End OpenGraph content -->
+      {{ if schema_objects | length > 0 }}
+        {{ schema_objects }}
+      {{ else }}
+        {{ aardvark-seo:graph }}
+      {{ /if }}
+    {{ /seo_data }}
+  {{ elseif author_slug && current_uri | starts_with('/author') }}
+    <meta property="og:url" content="{{ current_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="{{ site:locale | lower }}">
+    {{ if current_uri | not_paginated_page }}
+      <link rel="canonical" href="{{ current_url }}">
+    {{ /if }}
+  {{ /if }}
+  {{ partial src="partials/analytics_header" }}
+</head>
 
-        <link rel="icon" href="/assets/webseite/gwriters-logo-32x32.png" sizes="32x32">
-        <link rel="shortcut icon" href="/assets/webseite/gwriters-logo-32x32.png">
-        <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-57x57.png"
-            sizes="57x57">
-        <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-76x76.png"
-            sizes="76x76">
-        <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-120x120.png"
-            sizes="120x120">
-        <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png"
-            sizes="114x114">
+<body
+  class="{{ if id == "home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-36 body {{ template }} w-screen"
+  tabIndex=0>
+  {{ partial src="partials/analytics_body" }}
+  {{ aardvark-seo:body }}
+  {{ partial src="partials/header" }}
+  {{ template_content }}
+  {{ partial src="partials/footer" }}
+  <script src="{{ mix src='/js/site.js' }}"></script>
+  <script src="{{ mix src='/js/app.js' }}"></script>
 
-        {{ aardvark-seo:head }}
-
-    </head>
-    <body class="{{ if id=="home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }}">
-        {{ aardvark-seo:body }}
-
-        {{ partial src="partials/header" }}
-
-        {{ template_content }}
-
-        {{ partial src="partials/footer" }}
-
-        <script src="{{ mix src='/js/site.js' }}"></script>
-        <script src="{{ mix src='/js/app.js' }}"></script>
-
-        {{ aardvark-seo:footer }}
-    </body>
+  {{ cookie_notice }}
+  {{ aardvark-seo:footer }}
+  {{ if rating_widget_footer && current_uri | not_article_page }}
+    {{ rating_widget_footer }}
+      {{ widget_code_html }}
+    {{ /rating_widget_footer }}
+  {{ /if }}
+</body>
 </html>

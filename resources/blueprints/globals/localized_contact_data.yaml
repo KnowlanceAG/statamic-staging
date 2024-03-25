@@ -1,0 +1,96 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: phone_de_DE
+        field:
+          type: text
+          display: 'Telefonnummer DE'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+      -
+        handle: mail_address_de_DE
+        field:
+          type: text
+          display: 'E-Mail-Adresse DE'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+          width: 50
+      -
+        handle: mail_subject_de_DE
+        field:
+          input_type: text
+          antlers: false
+          display: 'E-Mail-Betreff DE'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: whatsapp_de_DE
+        field:
+          input_type: text
+          antlers: false
+          display: 'WhatsApp DE'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: phone_de_CH
+        field:
+          type: text
+          display: 'Telefonnummer CH'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+      -
+        handle: mail_address_de_CH
+        field:
+          type: text
+          display: 'E-Mail-Adresse CH'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+          width: 50
+      -
+        handle: mail_subject_de_CH
+        field:
+          input_type: text
+          antlers: false
+          display: 'E-Mail-Betreff CH'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: whatsapp_de_CH
+        field:
+          input_type: text
+          antlers: false
+          display: 'WhatsApp CH'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false

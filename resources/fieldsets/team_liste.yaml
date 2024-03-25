@@ -1,6 +1,18 @@
 title: 'Team Liste'
 fields:
   -
+    handle: in_flow
+    field:
+      default: false
+      display: 'Im Flow halten'
+      type: toggle
+      icon: toggle
+      instructions: 'Positionierung im Layout-Flow'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: true
+  -
     handle: team_mitglieder
     field:
       mode: default

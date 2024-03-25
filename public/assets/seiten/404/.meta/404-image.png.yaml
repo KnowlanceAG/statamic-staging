@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'unerreichbare Seite'
 size: 4306
-last_modified: 1615372090
+last_modified: 1619516601
 width: 272
 height: 230
 mime_type: image/png

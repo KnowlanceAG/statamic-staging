@@ -1,2 +1,13 @@
 title: Autorenbewerbung
 honeypot: mobile
+email:
+  -
+    to: service@gwriters.de
+    from: service@gwriters.de
+    subject: 'Autoren Bewerbung über gwriters.de'
+    html: mail-templates/mail-default_autorenbewerbung
+  -
+    to: '{{ e_mail_adresse }}'
+    html: mail-templates/mail-thx_autorenbewerbung
+    subject: 'gwriters.de - Ihre Bewerbung'
+    from: service@gwriters.de

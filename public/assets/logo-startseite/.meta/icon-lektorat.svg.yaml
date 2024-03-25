@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'lektorat service icon'
 size: 1148
-last_modified: 1616757646
+last_modified: 1619516965
 width: '128'
 height: '128'
 mime_type: image/svg

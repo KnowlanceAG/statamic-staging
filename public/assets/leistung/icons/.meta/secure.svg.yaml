@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: plagiatsprüfung
 size: 1633
-last_modified: 1618916434
+last_modified: 1619516965
 width: '150'
 height: '150'
 mime_type: image/svg+xml

@@ -1,4 +1,4 @@
-<div class="flex justify-center my-8 max-w-full">
+<div class="flex justify-center my-8 video-container">
     {{ if video | is_embeddable }}
         <!-- Youtube and Vimeo -->
         <iframe class="lazy" width="750" height="422" data-src="{{ video | embed_url }}" frameborder="0" allow="autoplay; encrypted-media"

@@ -1,41 +1,76 @@
 ---
 id: b9b1d323-3250-4ab0-b8a1-ade30acce135
+blueprint: pages
 title: 'Korrektorat Preise'
 teaser:
   -
     type: heading
     attrs:
+      textAlign: center
       level: 1
     content:
       -
         type: text
         marks:
           -
-            type: textAlign
-            attrs:
-              align: center
-          -
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: "Korrektorat\_Preise"
   -
-    type: paragraph
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Informationen zu Preisen und akademischen Korrektoren – schnell, diskret und mehrfach geprüft auf Qualität.'
+        text: 'Informationen zu Preisen & akademischen Korrektoren für Ihr Korrektorat'
   -
     type: set
     attrs:
+      id: Z2EnBbHp
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: Dl2cyjXO
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: NHVM8PhX
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: 2UEPwJLH
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: z3s5zIdn
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            id: N9NCJG3J
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: 4iAGonu0
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: 1KPBx1e3
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -43,14 +78,52 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      id: sppk583D
+      values:
+        type: spacer
+        padding-y: 20
+  -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+    attrs:
+      textAlign: center
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+        text: '##phone##'
 replicator:
   -
+    id: qxeDohy8
     bard:
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -61,9 +134,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/preise'
-                  target: null
+                  href: /preise
                   rel: null
+                  target: null
+                  title: null
             text: Preise
           -
             type: text
@@ -74,9 +148,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/korrektorat'
-                  target: null
+                  href: /korrektorat
                   rel: null
+                  target: null
+                  title: null
             text: Korrektorat
           -
             type: text
@@ -87,9 +162,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
-                  target: null
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   rel: null
+                  target: null
+                  title: null
             text: Hausarbeit
           -
             type: text
@@ -100,9 +176,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
-                  target: null
+                  href: /arbeiten/diplomarbeit
                   rel: null
+                  target: null
+                  title: null
             text: Diplomarbeit
           -
             type: text
@@ -110,6 +187,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -117,6 +195,8 @@ replicator:
             text: 'Der Umfang entscheidet.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -127,9 +207,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrektor'
-                  target: null
+                  href: /korrektorat/korrektor
                   rel: null
+                  target: null
+                  title: null
             text: Korrektor
           -
             type: text
@@ -137,6 +218,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -144,6 +226,8 @@ replicator:
             text: 'Erfahrung zählt.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -154,9 +238,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/jura'
-                  target: null
+                  href: /ghostwriter/jura
                   rel: null
+                  target: null
+                  title: null
             text: Jura
           -
             type: text
@@ -164,70 +249,29 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
             type: text
             text: 'Blogartikel zum Thema Korrektorat & Korrektorat Preise'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/korrektorat-lektorat-textredaktion'
-                  target: null
-                  rel: null
-            text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/akademisches-ghostwriting-alternativen'
-                  target: null
-                  rel: null
-            text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/ghostwriter-preise'
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriter-Preise bei GWriters'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/wiki'
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+        type: set
+        attrs:
+          id: 5zS74Ws9
+          values:
+            type: blog_entries
+            entries:
+              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+              - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
+              - be792eef-d56d-4a1a-b00d-e000278c4eec
     show_as_card: false
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619469411
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705994747
 page_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'
@@ -237,6 +281,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
+og_title: 'Korrektorat Preise - sicher und fair • GWriters'
+og_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'
+og_image: GWriters-Logo.png
+sitemap_active: true
+breadcrumbs_active: true
 ---

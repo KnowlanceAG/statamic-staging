@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'gwriters ghostwriter'
 size: 47812
-last_modified: 1613745181
+last_modified: 1619516601
 width: 2000
 height: 855
 mime_type: image/jpeg

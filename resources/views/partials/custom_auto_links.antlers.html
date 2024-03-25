@@ -1,9 +1,9 @@
 {{ paginate }}
 <ul class="pagination">
     {{ if prev_page }}
-        <li class="relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a href="{{ prev_page }}">&laquo;</a></li>
+        <li class="relative inline-flex items-center border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a class="px-2" href="{{ prev_page|url_path }}">&laquo;</a></li>
     {{ else }}
-        <li class="hidden"><span>&laquo;</span></li>
+        <li class="hidden"><span class="px-2">&laquo;</span></li>
     {{ /if }}
 
     {{ links:segments }}
@@ -11,42 +11,42 @@
 
     {{ first }}
         {{ if page == current_page }}
-            <li class="relative inline-flex items-center px-2 border border-orange-500 text-sm font-medium rounded-md text-orange-500 bg-white hover:bg-orange-500 hover:text-white active"><span>{{ page }}</span></li>
+            <li class="relative inline-flex items-center border border-orange-500 text-sm font-medium rounded-md text-orange-500 bg-white hover:bg-orange-500 hover:text-white active"><span class="px-2">{{ page }}</span></li>
         {{ else }}
-            <li class="relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a href="{{ url }}">{{ page }}</a></li>
+            <li class="relative inline-flex items-center border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a class="px-2" href="{{ url|url_path }}">{{ page }}</a></li>
         {{ /if }}
     {{ /first }}
 
     {{ if slider }}
-        <li class="disabled relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white"><span>...</span></li>
+        <li class="disabled relative inline-flex items-center border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white"><span class="px-2">...</span></li>
     {{ /if }}
 
     {{ slider }}
         {{ if page == current_page }}
-            <li class="relative inline-flex items-center px-2 border border-orange-500 text-sm font-medium rounded-md text-orange-500 bg-white hover:bg-orange-500 hover:text-white active"><span>{{ page }}</span></li>
+            <li class="relative inline-flex items-center border border-orange-500 text-sm font-medium rounded-md text-orange-500 bg-white hover:bg-orange-500 hover:text-white active"><span class="px-2">{{ page }}</span></li>
         {{ else }}
-            <li class="relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a href="{{ url }}">{{ page }}</a></li>
+            <li class="relative inline-flex items-center border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a class="px-2" href="{{ url|url_path }}">{{ page }}</a></li>
         {{ /if }}
     {{ /slider }}
 
     {{ if slider || (!slider && last) }}
-    <li class="disabled relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white"><span>...</span></li>
+    <li class="disabled relative inline-flex items-center border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white"><span class="px-2">...</span></li>
     {{ /if }}
 
     {{ last }}
         {{ if page == current_page }}
-            <li class="relative inline-flex items-center px-2 border border-orange-500 text-sm font-medium rounded-md text-orange-500 bg-white hover:bg-orange-500 hover:text-white active"><span>{{ page }}</span></li>
+            <li class="relative inline-flex items-center border border-orange-500 text-sm font-medium rounded-md text-orange-500 bg-white hover:bg-orange-500 hover:text-white active"><span class="px-2">{{ page }}</span></li>
         {{ else }}
-            <li class="relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a href="{{ url }}">{{ page }}</a></li>
+            <li class="relative inline-flex items-center border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a class="px-2" href="{{ url|url_path }}">{{ page }}</a></li>
         {{ /if }}
     {{ /last }}
 
     {{ /links:segments }}
 
     {{ if next_page }}
-        <li class="relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a href="{{ next_page }}">&raquo;</a></li>
+        <li class="relative inline-flex items-center border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a class="px-2" href="{{ next_page|url_path }}">&raquo;</a></li>
     {{ else }}
-        <li class="hidden"><span>&raquo;</span></li>
+        <li class="hidden"><span class="px-2">&raquo;</span></li>
     {{ /if }}
 </ul>
 {{ /paginate }}

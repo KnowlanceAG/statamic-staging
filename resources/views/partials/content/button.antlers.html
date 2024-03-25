@@ -1,1 +1,8 @@
-<p class="flex {{ if button_align }}{{ button_align }}{{ else }}justify-center{{ /if }}"><a href="{{ button_link }}" class="px-10 py-3 {{ if !spacing_top }}mt-8{{ /if }} inline-block {{ if !color }}bg-orange-500 hover:bg-orange-700 hover:opacity-100{{ /if }} text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95" {{ if color }} style="background-color: {{ color }}" {{ /if }}>{{ button_text }}</a></p>
+<p class="flex {{ if button_align }}{{ button_align }}{{ else }}justify-center{{ /if }}">
+    <a href="{{ button_link }}" class="px-10 py-3 {{ if !spacing_top }}mt-8{{ /if }} inline-block {{ if !color }}bg-orange-500 hover:bg-orange-700 hover:opacity-100{{ /if }} text-white font-300 uppercase rounded-sm text-center hover:transition-colors hover:duration-200 hover:bg-opacity-95 {{ if btn_icon }} flex flex-row justify-between items-center gap-x-4{{ /if }}" {{ if color }} style="background-color: {{ color }}" {{ /if }}>
+        {{ if btn_icon }}
+            {{ responsive:btn_icon alt="{btn_icon:alt}" class="w-8 h-8" }}
+        {{ /if }}
+        {{ button_text | shortcode }}
+    </a>
+</p>

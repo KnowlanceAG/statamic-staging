@@ -1,0 +1,92 @@
+title: new_columns
+fields:
+  -
+    handle: columns_replicator
+    field:
+      collapse: false
+      sets:
+        row:
+          display: Row
+          fields:
+            -
+              import: columns
+      display: Section
+      type: replicator
+      icon: replicator
+      listable: hidden
+  -
+    handle: remove_spacing
+    field:
+      display: 'Abstand entfernen'
+      type: toggle
+      icon: toggle
+      instructions: 'Entfernt Abstand Oben und Unten.'
+      listable: hidden
+  -
+    handle: is_full
+    field:
+      display: 'Volle Breite'
+      type: toggle
+      icon: toggle
+      listable: hidden
+  -
+    handle: bg_toggle
+    field:
+      display: 'Farbe oder Hintergrundbild'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      if:
+        is_full: '=== true'
+  -
+    handle: bg_color
+    field:
+      swatches:
+        - '#FF660A'
+        - '#F9F9F9'
+        - '#D6D6D6'
+      theme: nano
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: Hintergrundfarbe
+      type: color
+      icon: color
+      listable: hidden
+      if:
+        bg_toggle: '=== false'
+        is_full: '=== true'
+  -
+    handle: bg_image
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: 'Hintergrund Bild'
+      type: assets
+      icon: assets
+      instructions: 'Bitte ein Bild auswählen ...'
+      listable: hidden
+      if:
+        is_full: '=== true'
+        bg_toggle: '=== true'
+  -
+    handle: bg_image_fixed
+    field:
+      display: 'Hintergrundbild fixiert'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      if:
+        bg_toggle: '=== true'
+  -
+    handle: border
+    field:
+      display: Border
+      type: toggle
+      icon: toggle
+      instructions: 'Orange Linien Ober- und Unterhalb.'
+      listable: hidden

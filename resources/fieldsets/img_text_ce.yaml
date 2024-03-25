@@ -1,0 +1,89 @@
+title: 'NEU - bild_text'
+fields:
+  -
+    handle: bild
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      display: Bild
+      type: assets
+      icon: assets
+      listable: hidden
+      width: 75
+  -
+    handle: vertical_alignment_img
+    field:
+      options:
+        self-start: Oben
+        self-center: Mitte
+        self-end: Unten
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      default: self-start
+      display: 'Vertikale Ausrichtung Bild'
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      width: 25
+  -
+    handle: text
+    field:
+      restrict: false
+      automatic_line_breaks: true
+      automatic_links: false
+      escape_markup: false
+      smartypants: false
+      antlers: false
+      display: Markdown
+      type: markdown
+      icon: markdown
+      listable: hidden
+      width: 75
+  -
+    handle: vertical_alignment_text
+    field:
+      options:
+        self-start: Oben
+        self-center: Mitte
+        self-end: Unten
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      default: self-start
+      display: 'Vertikale Ausrichtung Text'
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      width: 25
+  -
+    handle: reverse_columns
+    field:
+      options:
+        bild_text: 'Bild links, Text rechts'
+        text_bild: 'Text links, Bild rechts'
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Spalten Anordnung'
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      instructions: 'Nur im Desktop'
+      default: bild_text

@@ -1,41 +1,37 @@
 ---
 id: fba4bedd-aa85-4e2b-a1dd-ec135ff75e80
-title: wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
+blueprint: pages
+title: 'Wissenschaftliche Arbeiten und Artikel lesen - Die 11 besten Tipps'
 teaser:
   -
     type: heading
     attrs:
+      textAlign: center
       level: 1
     content:
       -
         type: text
         marks:
           -
-            type: textAlign
-            attrs:
-              align: center
-          -
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Wissenschaftliche Arbeiten und Artikel lesen - Die 11 besten Tipps'
   -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
         marks:
           -
             type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
         text: 'Akademische Experten erklären Ihnen, wie Sie wissenschaftliche Arbeiten und Artikel lesen und von Ihrem Lernerfolg profitieren, wenn Sie Ihre Masterarbeit schreiben'
   -
     type: set
     attrs:
+      id: Yb9GOF0I
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -44,13 +40,16 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+    attrs:
+      textAlign: left
 replicator:
   -
+    id: rmoshE3E
     bard:
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -61,9 +60,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
-                  target: null
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   rel: null
+                  target: null
+                  title: null
             text: 'Masterarbeit schreiben lassen'
           -
             type: text
@@ -71,6 +71,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -78,6 +79,8 @@ replicator:
             text: '1. Die wichtigsten Grundlagen für die eigene Masterarbeit'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -94,6 +97,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -101,6 +105,8 @@ replicator:
             text: '2. Mehrfach lesen für besseres Verständnis'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -108,6 +114,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -115,6 +122,8 @@ replicator:
             text: '3. Die zentrale These identifizieren'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -122,6 +131,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -129,6 +139,8 @@ replicator:
             text: '4. Schlüssige Argumentation?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -136,6 +148,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -143,6 +156,8 @@ replicator:
             text: '5. Zentrale Argumente herausarbeiten und verstehen'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -150,6 +165,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -157,6 +173,8 @@ replicator:
             text: '6. Gegenargumente = Existenzberechtigung?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -164,6 +182,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -171,6 +190,8 @@ replicator:
             text: '7. Offene Fragen bieten die Basis für zukünftige Forschung'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -178,6 +199,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -185,6 +207,8 @@ replicator:
             text: '8. Arbeit in wissenschaftlichen Kontext einordnen und verstehen'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -192,6 +216,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -199,6 +224,8 @@ replicator:
             text: '9. Wie werden Argumente untermauert und validiert?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -206,6 +233,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -213,6 +241,8 @@ replicator:
             text: '10. Stil des Autors erkennen und verstehen'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -220,6 +250,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -227,6 +258,8 @@ replicator:
             text: '11. Wissenschaftliche Techniken verstehen und hinterfragen'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -235,8 +268,8 @@ replicator:
     type: editor
     enabled: true
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619474210
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705996117
 page_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_description: 'Wie Sie wissenschaftliche Arbeiten lesen und verstehen - unsere erfahrenen akademischen Experten erläutern Ihnen die besten Tipps und Richtlinien.'
@@ -246,6 +279,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
+og_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
+og_description: 'Wie Sie wissenschaftliche Arbeiten lesen und verstehen - unsere erfahrenen akademischen Experten erläutern Ihnen die besten Tipps und Richtlinien.'
+og_image: GWriters-Logo.png
+breadcrumbs_active: true
+sitemap_active: true
 ---

@@ -1,5 +1,7 @@
-data: {  }
+data:
+  alt: 'Gwriters Logo'
 size: 2538
-last_modified: 1613657412
+last_modified: 1619516601
 width: 342
 height: 70
+mime_type: image/png

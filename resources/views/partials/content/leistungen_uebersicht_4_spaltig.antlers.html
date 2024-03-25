@@ -1,0 +1,20 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0">
+    {{ grid }}
+        <div class="hover-content border border-gray-400 px8 py-6 flex flex-col relative">
+                <a {{ if link }} {{ link }} href="{{ url }}" {{ /link }} {{ /if }} class="">
+                    {{ image }}
+                        <img src="{{ url }}" class="mx-auto" width="{{ if width }}{{ width }}{{ else }}120{{ /if }}" height="{{ if height }}{{ height }}{{ else }}120{{ /if }}" alt="{{ alt }}" style="max-width: 65px" />
+                    {{ /image }}
+
+                <div class="my-4 w-16 border-t-2 border-gray-300 block mx-auto">
+                    <!-- hr -->
+                </div>
+
+                <p class="text-center uppercase mb-0"><strong>{{ headline | shortcode }}</strong></p>
+                <div class="hidden-content opacity-0 p-4 flex flex flex-wrap content-center absolute top-0 left-0 w-full h-full bg-white text-center">
+                    {{ hover_content | wrap:p.text-orange-500.text-xs.mb-0 }}
+                </div>
+            </a>
+        </div>
+    {{ /grid }}
+</div>

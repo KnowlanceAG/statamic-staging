@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'gwriters akademie'
 size: 4016
-last_modified: 1615372090
+last_modified: 1619516601
 width: 598
 height: 86
 mime_type: image/png

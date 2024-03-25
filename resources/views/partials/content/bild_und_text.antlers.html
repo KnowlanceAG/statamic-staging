@@ -1,29 +1,41 @@
 <div class="my-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-    {{ if ausrichtung=='bild-text' }}
-        <div>
+  {{ if ausrichtung=='bild_text' }}
+    <div>
+      {{ if bild }}
+        {{ bild }}
+          {{ if extension == 'svg' || extension == 'gif' }}
+            <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200"
+              src="{{ url }}" {{ if alt }} alt="
+            {{ bild:alt }}" {{ /if }}>
+          {{ else }}
+            {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="{ width }" }}
+          {{ /if }}
+        {{ /bild }}
+      {{ /if }}
+    </div>
+    <div>
+      <p class="text-gray-550">
+        {{ text | shortcode }}
+      </p>
+    </div>
+  {{ else }}
+      <div class="order-2 md:order-1">
+        <p class="text-gray-550">
+          {{ text | shortcode }}
+        </p>
+      </div>
+      <div class="order-1 md:order-2">
+        {{ if bild }}
+          {{ bild }}
             {{ if extension == 'svg' || extension == 'gif' }}
-                <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ bild }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+              <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200"
+                src="{{ url }}" {{ if alt }} alt="
+              {{ alt }}" {{ /if }}>
             {{ else }}
-                {{ responsive:bild alt="{alt}" class="w-full h-auto" }}
+              {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="{ width }" }}
             {{ /if }}
-        </div>
-        <div>
-            <p class="text-gray-550">
-                {{ text }}
-            </p>
-        </div>
-    {{ else }}
-        <div>
-            <p class="text-gray-550">
-                {{ text }}
-            </p>
-        </div>
-        <div>
-            {{ if extension == 'svg' || extension == 'gif' }}
-                <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ bild }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
-            {{ else }}
-                {{ responsive:bild alt="{alt}" class="w-full h-auto" }}
-            {{ /if }}
-        </div>
-    {{ /if }}
+          {{ /bild }}
+        {{ /if }}
+      </div>
+  {{ /if }}
 </div>

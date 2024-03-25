@@ -1,18 +1,22 @@
-<div class="mt-12 md:flex">
+<div class="md:mt-12 md:flex">
     {{ entries }}
         {{ if kurz_oder_langversion }}
-            <div class="md:w-1/3 md:mx-1 md:mb-2 p-4 inline-block border border-gray-300 bg-gray-200 rounded-xl text-center">
-                <h2 class="font-bold mb-2 mt-1">{{ academy_teaser_headline }}</h2>
+            <div
+                class="mt-8 md:w-1/3 md:mx-1 md:mb-2 p-4 inline-block border border-gray-300 bg-gray-200 rounded-xl text-center">
+                <h2 class="font-bold mb-2 mt-1">{{ academy_teaser_headline | shortcode  }}</h2>
                 <div class="text-justify">
-                    {{ academy_teaser_text }}
+                    {{ academy_teaser_text | shortcode  }}
                 </div>
-                <a href="{{ url }}" class="px-4 py-3 mt-2 block text-xs font-300 border border-gray-500 text-gray-800 uppercase rounded-md bg-gray-400 hover:transition-colors hover:duration-200 hover:bg-gray-500">Mehr über {{ title }}</a>
+                <a href="{{ url }}"
+                    class="px-4 py-3 mt-2 block text-xs font-300 border border-gray-500 text-gray-800 uppercase rounded-md bg-gray-400 hover:transition-colors hover:duration-200 hover:bg-gray-500">Mehr
+                    über {{ title | shortcode  }}</a>
             </div>
+
         {{ else }}
             <a href="{{ url }}"
-                class="md:w-1/2 md:ml-2 md:mb-2 p-4 pb-0 inline-block border-4 border-gray-400 rounded-xl hover:border-orange-500 text-center">
-                <h5 class="font-bold mb-2">{{ academy_short_text-headline }}</h5>
-                {{ academy_short_text }}
+                class="mt-2 md:-mt-12 md:w-1/2 md:ml-2 md:mb-2 p-4 pb-0 inline-block border-4 border-gray-400 rounded-xl hover:border-orange-500 text-center">
+                <h5 class="font-bold mb-2">{{ academy_short_text_headline | shortcode  }}</h5>
+                {{ academy_short_text | shortcode  }}
             </a>
         {{ /if }}
     {{ /entries }}

@@ -3,5 +3,30 @@ roles:
   - redakteure
 groups:
   - redakteure
+avatar: team/wittkamp_gwriters_ghostwriter-1.jpeg
+position:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Akademischer Ghostwriter & Senior Supervisor'
+short_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: start
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+              hex: '#000'
+        text: 'Als Experte sowohl für akademische Arbeiten und wissenschaftliche Methoden, als auch für alle wirtschaftswissenschaftlichen Fachbereiche bereichert Marcus Wittkamp bereits seit einigen Jahren unser diversifiziertes Team als Supervsior, Senior Ghostwriter und Blog-Autor für wissenschaftliche Themen.'
 id: ed75d83c-c930-4f42-89ea-6dfa305bae5f
 password_hash: $2y$10$oe7JvblVVSHuDkzqadgU1uF2Qp70HQuoYTC5fNNwKtGhr/RBcJDlW

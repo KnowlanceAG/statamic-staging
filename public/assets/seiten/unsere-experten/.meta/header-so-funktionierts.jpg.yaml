@@ -1,5 +1,7 @@
-data: {  }
+data:
+  alt: 'Akademischer Ghostwriter'
 size: 12434
-last_modified: 1613674309
+last_modified: 1619516601
 width: 2000
 height: 270
+mime_type: image/jpeg

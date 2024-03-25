@@ -1,0 +1,52 @@
+<p>Kundenanfrage vom
+  {{ date timezone="Europe/Berlin" format="d.m.Y, H:i:s" }}
+</p>
+
+<p>--------------------------</p>
+<p>
+  {{ if name }}Vorname:
+    {{ name }}<br>
+  {{ /if }}
+  {{ if nachname }}Nachname:
+    {{ nachname }}<br>
+  {{ /if }}
+  {{ if e_mail_adresse }}Emailadresse:
+    {{ e_mail_adresse }}<br>
+  {{ /if }}
+  {{ if telefon }}Telefon:
+    {{ telefon }}<br>
+  {{ /if }}
+  {{ if fachrichtung }}Fachbereich:
+    {{ fachrichtung }}<br>
+  {{ /if }}
+  {{ if zitationsstil }}Zitationsstil:
+    {{ zitationsstil }}<br>
+  {{ /if }}
+  {{ if arbeitsthema_spezifikationen_usw }}Spezifikation:
+    {{ arbeitsthema_spezifikationen_usw }}<br>
+  {{ /if }}
+  {{ if seitenzahl }}Seitenzahl, Wörter oder Zeichen:
+    {{ seitenzahl }}<br>
+  {{ /if }}
+  {{ if work_type }}Art der Arbeit:
+    {{ work_type }}<br>
+    {{ if work_type !== 'Literaturarbeit' && survey_progress }}Umfrage bereits fertig / ausgewertet:
+      {{ survey_progress }}<br>
+    {{ /if }}
+  {{ /if }}
+  {{ if callback_needed }}Rückruf erwünscht am:
+    {{ callback_date timezone="Europe/Berlin" format="d.m.Y" }} ({{ callback_time_from }} - {{ callback_time_to }} Uhr)<br>
+  {{ /if }}
+  {{ if lieferdatum }}Abgabedatum:
+    {{ lieferdatum timezone="Europe/Berlin" format="d.m.Y" }}</br>
+  {{ /if }}
+  {{ if promocode }}Promocode:
+    {{ promocode }}<br>
+  {{ /if }}
+  {{ if gw_source }}Source:
+    {{ gw_source }}<br>
+  {{ /if }}
+  {{ if req_ip }}Request IP:
+    {{ req_ip }}
+  {{ /if }}
+<p>

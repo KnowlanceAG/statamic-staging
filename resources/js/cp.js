@@ -3,12 +3,12 @@
  * https://statamic.dev/extending/control-panel
  */
 
-/** Example Fieldtype
-
-import ExampleFieldtype from './components/fieldtypes/ExampleFieldtype.vue';
-
 Statamic.booting(() => {
-    Statamic.$components.register('example-fieldtype', ExampleFieldtype);
-});
+  Statamic.$conditions.add('parentIsFachrichtungen', ({ values }) => {
+    return (values.parent || [])[0] === 'e45d6722-981e-4f80-bc4c-3c767caf4b6d'
+  })
 
-*/
+  Statamic.$conditions.add('parentIsArbeiten', ({ values }) => {
+    return (values.parent || [])[0] === 'd118c7b2-141d-4bac-972d-c1502381a340'
+  })
+})

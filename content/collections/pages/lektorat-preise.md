@@ -1,41 +1,76 @@
 ---
 id: 42821712-5a96-4c53-9c55-cdde80d798ae
+blueprint: pages
 title: 'Lektorat Preise'
 teaser:
   -
     type: heading
     attrs:
+      textAlign: center
       level: 1
     content:
       -
         type: text
         marks:
           -
-            type: textAlign
-            attrs:
-              align: center
-          -
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: 'Lektorat Preise'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: "Hier finden Sie akademische Lektoren\_und Informationen zu Lektorat-Preisen."
+        text: "Hier finden Sie akademische Lektoren\_und Informationen zu Lektorat-Preisen"
   -
     type: set
     attrs:
+      id: cR8nzLHR
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: 17Y9sE2U
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: YecGTICo
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: MOKGuGBu
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: ELPXK7xN
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            id: 1YWF76xo
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: jJhvH1dh
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: GHrq0yie
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -43,14 +78,52 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      id: IZgz64MO
+      values:
+        type: spacer
+        padding-y: 20
+  -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+    attrs:
+      textAlign: center
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+        text: '##phone##'
 replicator:
   -
+    id: wI26DH71
     bard:
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -61,9 +134,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
-                  target: null
+                  href: /lektorat
                   rel: null
+                  target: null
+                  title: null
             text: ' Lektorat '
           -
             type: text
@@ -71,6 +145,7 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
@@ -78,38 +153,30 @@ replicator:
             text: 'Der Preis entscheidet- oder nicht?'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
-            text: 'Dass der Preis eines solchen Lektorats ein Kriterium sein könnte es nicht in Anspruch zu nehmen ist meist ein unbegründeter Verdacht. Das Preis-Leistungs-Verhältnis ist in dem meisten Fällen sehr gut und natürlich individuell unterschiedlich. Ist ein Text bereits perfekt geschrieben hat man sein Geld unnötig investiert. Die Erfahrung hat aber gezeigt, dass es keine perfekten Texte gibt und gerade bei unerfahrenen Verfassern meist eine Menge zu verbessern ist. Unerfahren kann es vor allem sein, einen '
+            text: 'Dass der Preis eines solchen Lektorats ein Kriterium sein könnte es nicht in Anspruch zu nehmen ist meist ein unbegründeter Verdacht. Das Preis-Leistungs-Verhältnis ist in dem meisten Fällen sehr gut und natürlich individuell unterschiedlich. Ist ein Text bereits perfekt geschrieben hat man sein Geld unnötig investiert. Die Erfahrung hat aber gezeigt, dass es keine perfekten Texte gibt und gerade bei unerfahrenen Verfassern meist eine Menge zu verbessern ist. Unerfahren kann es vor allem sein, einen Lektor wegen des Preises nicht in Anspruch zu nehmen. Bücher von erfahrenen Schriftstellern werden selbstverständlich lektoriert, da gibt es so gut wie keine Ausnahmen. Auch im akademischen Bereich ist es unüblich eine wissenschaftliche Abhandlung zu veröffentlichen ohne sie vorher von einem '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/lektorat/lektor'
-                  target: null
+                  href: /lektorat/lektor
                   rel: null
-            text: Lektor
-          -
-            type: text
-            text: ' wegen des Preises nicht in Anspruch zu nehmen. Bücher von erfahrenen Schriftstellern werden selbstverständlich lektoriert, da gibt es so gut wie keine Ausnahmen. Auch im akademischen Bereich ist es unüblich eine wissenschaftliche Abhandlung zu veröffentlichen ohne sie vorher von einem '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/lektorat/lektor'
                   target: null
-                  rel: null
+                  title: null
             text: 'Lektor '
           -
             type: text
             text: 'bearbeitet haben zu lassen.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -120,96 +187,119 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
-                  target: null
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   rel: null
+                  target: null
+                  title: null
             text: ' Bachelorarbeit '
           -
             type: text
             text: 'oder einer Abschlussarbeit ist von zahlreichen Faktoren abhängig.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             text: 'So spielen, unter anderem, folgende Faktoren eine Rolle beim Preis des Lektorats:'
       -
-        type: bullet_list
+        type: bulletList
         content:
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: Umfang
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: Anspruch
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: Themenbereich
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: Abgabefrist/Dringlichkeit
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Sprache (z.B. Lektorat auf Deutsch oder Englisch)'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: "Eventuelle Sonderaufwendungen (z.B. notwendige Wochenendpauschale oder \_\_überdurchschnittlich viele verlangte Rücksprachen)"
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             text: "\_"
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             text: 'Für ein Lektorat findet man bei der Suche über das Internet die verschiedensten Preisklassen.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
             text: 'Jedoch sollte klar sein, dass man (gerade) beim Lektorat seiner Abschlussarbeit auf Qualität setzen sollte.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -220,15 +310,18 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/preise'
-                  target: null
+                  href: /preise
                   rel: null
+                  target: null
+                  title: null
             text: 'Preise für ein gutes Lektorat'
           -
             type: text
             text: ' bewegen sich in der Regel im Bereich von 3 bis 5 Euro pro Seite.'
       -
         type: paragraph
+        attrs:
+          textAlign: left
         content:
           -
             type: text
@@ -239,9 +332,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/bwl'
-                  target: null
+                  href: /ghostwriter/bwl
                   rel: null
+                  target: null
+                  title: null
             text: BWL
           -
             type: text
@@ -252,9 +346,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/jura'
-                  target: null
+                  href: /ghostwriter/jura
                   rel: null
+                  target: null
+                  title: null
             text: 'Jura '
           -
             type: text
@@ -262,70 +357,29 @@ replicator:
       -
         type: heading
         attrs:
+          textAlign: left
           level: 2
         content:
           -
             type: text
             text: 'Blogartikel zum Thema Lektorat & Lektorat Preise'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/korrektorat-lektorat-textredaktion'
-                  target: null
-                  rel: null
-            text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/ghostwriter-preise'
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriter-Preise bei GWriters'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/akademische-ghostwriter-gwriters-angebot'
-                  target: null
-                  rel: null
-            text: 'Video: Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/wiki'
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
+        type: set
+        attrs:
+          id: pzw2SLfk
+          values:
+            type: blog_entries
+            entries:
+              - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
+              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+              - 27876560-a260-4e18-89b1-417c11b8b31f
     show_as_card: false
     type: editor
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619471868
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705994915
 page_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
 meta_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
 meta_description: 'Sie möchten mehr über die Lektorat Preise erfahren? Die professionelle Ghostwriting Agentur GWriters.de informiert Sie über die Preise für Ihren Lektor.'
@@ -335,6 +389,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
+og_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
+og_description: 'Sie möchten mehr über die Lektorat Preise erfahren? Die professionelle Ghostwriting Agentur GWriters.de informiert Sie über die Preise für Ihren Lektor.'
+og_image: GWriters-Logo.png
+sitemap_active: true
+breadcrumbs_active: true
 ---

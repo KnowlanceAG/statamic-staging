@@ -1,83 +1,166 @@
 ---
+id: 6dd15231-c8e7-43fe-949e-af68de19ab1b
+blueprint: pages
 title: Promotionsberatung
 teaser:
   -
     type: heading
     attrs:
+      textAlign: center
       level: 1
     content:
       -
         type: text
         marks:
           -
-            type: textAlign
-            attrs:
-              align: center
-          -
             type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
         text: Promotionsberatung
   -
+    type: heading
+    attrs:
+      textAlign: center
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Bei uns erhalten Sie eine seriöse Promotionsberatung durch erfahrene akademische Experten!'
+  -
+    type: set
+    attrs:
+      id: yP4J4FAr
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      id: cBtW18GN
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            id: aBwVZWbm
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            id: 3wX4eJc8
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
+          -
+            id: fJGscRaX
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            id: 9lpV7ZfB
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      id: RTvhGKkF
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      id: BtyUbsQo
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: set
+    attrs:
+      id: szCcXoPV
+      values:
+        type: spacer
+        padding-y: 20
+  -
     type: paragraph
+    attrs:
+      textAlign: center
     content:
       -
         type: text
         marks:
           -
             type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Bei uns erhalten Sie eine seriöse Promotionsberatung durch erfahrene akademische Experten!'
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
   -
-    type: set
+    type: heading
     attrs:
-      values:
-        type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
-        color: '#FF6606'
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+      textAlign: center
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              rel: null
+              target: null
+              title: null
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+        text: '##phone##'
 replicator:
   -
-    columns-replicator:
+    id: 45v1okgS
+    columns_replicator:
       -
-        columns_per_row: 1
-        single-col: false
+        id: 0cb5psg6
+        single_col: false
         grid:
           -
+            id: VUyf5pdx
             bard:
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    text: 'In Deutschland, Österreich und der Schweiz gilt der Doktortitel nach wie vor als klassischer Karrierebeschleuniger. In einigen Bereichen & Branchen, wie der Forschung,'
+                    text: 'In Deutschland und der Schweiz gilt der Doktortitel nach wie vor als klassischer Karrierebeschleuniger. In einigen Bereichen & Branchen, wie der Forschung, '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medizin'
-                          target: null
+                          href: /ghostwriter/medizin
                           rel: null
-                    text: ' Medizin'
+                          target: null
+                          title: null
+                    text: Medizin
                   -
                     type: text
                     text: ' und Wissenschaft, gilt ein beruflicher Fortschritt ohne Promotion sogar als unmöglich. Promovierte Hochschul- oder Universitätsabsolventen gelten als fachkundig und leistungsbereit und erreichen durchschnittlich 10.000€ mehr Jahresgehalt in ihrem Einstiegsjob als ihre Arbeitskollegen ohne Doktortitel. Jedoch ist der akademische Aufstieg sehr zeitintensiv und arbeitsaufwendig. Von den bundesweit rund 60.000 Doktoranden kommt Expertenschätzungen zufolge nicht einmal jeder Zweite ans Ziel. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass der Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten einen Doktorvater für eine berufsbegleitende Promotion zu finden.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'In solchen Fällen kann die professionelle Hilfe von Experten oft dabei helfen, auch nach dem Berufseinstieg noch berufsbegleitend promovieren zu können. Diese unterstützen bei der Recherche und Auswahl einer passenden Hochschule und eines passenden Doktorvaters und weitergehenden Hilfestellungen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -89,13 +172,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/anfrage'
-                          target: null
+                          href: /anfrage
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'sprechen Sie uns gerne an'
                   -
                     type: text
@@ -106,6 +190,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -113,81 +198,99 @@ replicator:
                     text: 'Wann macht eine Promotionsberatung Sinn?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Generell lässt sich feststellen, dass eine Promotionsberatung in jedem Fall Sinn macht, denn die Hilfestellung und Anleitung durch einen erfahrenen Akademiker hat in jedem Fall einen positiven Einfluss auf den Arbeitsprozess und letztendlich natürlich auch auf das Ergebnis des Promotionsprojekts. Doch besonders sinnvoll ist eine solche seriöse Promotionsberatung dann, wenn besondere Faktoren die Promotion zusätzlich erschweren. Einer der häufigsten Fälle ist hier eine berufsbegleitende Promotion. Diese ist für viele aufgrund des gleichzeitigen Verdiensts sehr interessant, bring jedoch auch eine hohe Doppelbelastung mit sich. Die wichtigsten Informationen zu berufsbegleitenden Promotionsprogrammen haben wir hier einmal für Sie zusammengefasst:'
               -
-                type: bullet_list
+                type: bulletList
                 content:
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Die berufsbegleitende Promotion ist eine lohnenswerte Alternative zur Vollzeitpromotion als interner Uni-Doktorand. Besonders geeignet ist sie für alle diejenigen Uni- oder FH-Absolventen, die ihre Karriereperspektiven nicht in der Hochschullaufbahn, sondern im Management von Wirtschaft und Industrie sehen und entwickeln möchten.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Mit dem wissenschaftlichen Know-How eines Promotionsstudiums lässt sich ein signifikanter Wettbewerbsvorteil im unternehmerischen Umfeld erzielen. Der international anerkannte Doktortitel auf DBA- oder PhD-Basis steigert die Anerkennung als Führungspersönlichkeit, erweitert den persönlichen Verantwortungsspielraum und ist mit einem höherem Einkommen verbunden.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Mehrere Hochschulen in Deutschland und im Ausland bieten mittlerweile tragfähige Möglichkeiten, nebenberuflich mit Erfolg zu promovieren, Tendenz steigend. Die Doppelbelastung aus Berufstätigkeit und wissenschaftlicher Leistung ist zwar erheblich und der finanzielle Aufwand für ein Promotionsstudium nicht zu unterschätzen. Durch die Teilnahme an strukturierten Promotionsprogramme und das gute persönliche Betreuungsverhältnis kann heute jedoch mit sehr guten Erfolgsaussichten die nebenberufliche Promotion in Angriff genommen werden.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Wer an einer deutschen Hochschule berufsbegleitend promovieren möchte, sollte sich zunächst auf die wichtigste Schlüsselstelle – die Betreuungszusage eines geeigneten Lehrstuhlinhabers – konzentrieren. Eine weitere Schüsselstelle ist die Teilnahme an einem strukturierten Promotionsprogramm, das speziell für den nebenberuflichen Titelerwerb eingerichtet sind.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Voraussetzung für den erfolgreichen Abschluss sind neben hoher Motivation ein sehr gutes persönliches Zeitmanagement, gute Stressresistenz und eine solide Selbstständigkeit im akademischen Arbeiten und Forschen über einen Zeitraum von bis zu vier Jahren.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Der möglichen Verlockung, den Doktortitel auf kurzen Wegen zu erwerben, sollte in keinem Fall nachgegeben werden. Titelhandel ist rechtlich nicht zugelassen, das unzulässige Führen gekaufter Titel ist strafbar. Grundsätzlich seriös sind Vermittlungsstellen, die Kontakte zu akkreditierten Hochschulen mit strukturierten Promotionsprogrammen und validen Kooperationspartnern im In- und Ausland herstellen.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Über unseren professionellen Service der Promotionsberatung für berufsbegleitende Promotionen hinaus haben wir für Sie eine umfangreiche Sammlung von Informationsmaterialien zu diversen Promotionsstudien und besonders berufsbegleitenden Promotionsprogrammen, verschiedenen Möglichkeiten zur berufsbegleitenden Promotion, der Suche nach einem Doktorvater, unserer seriösen Promotionsberatung und auch zu eher fragwürdigen Methoden wie Titel kaufen zusammengestellt. Finden Sie alle Informationen hierzu auf den folgenden Seiten:'
               -
-                type: bullet_list
+                type: bulletList
                 content:
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -195,15 +298,18 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/berufsbegleitend-promovieren-interne-externe-promotion'
-                                  target: null
+                                  href: /promotionsberatung/berufsbegleitend-promovieren-interne-externe-promotion
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Berufsbegleitende Promotion im Überblick: interne versus externe Promotion'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -211,15 +317,18 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme'
-                                  target: null
+                                  href: /promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Berufsbegleitend promovieren in standardisierten Promotionsprogrammen'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -227,15 +336,18 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/titel-kaufen-promotionsvermittler/'
-                                  target: null
+                                  href: /promotionsberatung/titel-kaufen-promotionsvermittler
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Titel kaufen und Doktortitel kaufen'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -243,15 +355,18 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/doktorvater-finden'
-                                  target: null
+                                  href: /promotionsberatung/doktorvater-finden
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Doktorvater finden für berufsbegleitende Promotion'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -259,15 +374,18 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/berufsbegleitender-doctor-business-administration-phd'
-                                  target: null
+                                  href: /promotionsberatung/berufsbegleitender-doctor-business-administration-phd
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Ph. D. versus DBA'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -275,15 +393,18 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/phd-berufsbegleitend'
-                                  target: null
+                                  href: /promotionsberatung/phd-berufsbegleitend
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Doctor of Philosophy (Ph. D.)'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -291,15 +412,18 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/doctor-business-administration-berufsbegleitend'
-                                  target: null
+                                  href: /promotionsberatung/doctor-business-administration-berufsbegleitend
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Doctor of Business Administration'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -307,13 +431,15 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/master-business-administration'
-                                  target: null
+                                  href: /promotionsberatung/master-business-administration
                                   rel: null
+                                  target: null
+                                  title: null
                             text: 'Master of Business Administration'
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -321,6 +447,8 @@ replicator:
                     text: 'Ist eine Promotionsberatung legal?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -331,9 +459,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
-                          target: null
+                          href: /arbeiten/doktorarbeit
                           rel: null
+                          target: null
+                          title: null
                     text: 'Doktorarbeit schreiben lassen'
                   -
                     type: text
@@ -341,6 +470,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -348,6 +478,8 @@ replicator:
                     text: 'Welche strafrechtlichen Folgen hat eine illegale Promotionsberatung?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -355,6 +487,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -362,25 +495,16 @@ replicator:
                     text: 'Ist die Vermittlung eines ausländischen Doktortitels strafbar?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
-                    text: 'Grundsätzlich ist der Erwerb eines Doktortitels im Ausland nicht illegal. Neben der Erarbeitung und Verfassung der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
-                          target: null
-                          rel: null
-                    text: Doktorarbeit
-                  -
-                    type: text
-                    text: ', ist allerdings auch die Institution ein Kriterium für die Zulässigkeit der Titelverleihung. Nur über ausländische Institutionen, die zur Verleihung der Doktorwürde befugt und von deutschen Behörden anerkannt sind, kann rechtmäßig eine Promotion erfolgen. Hierbei gilt es darauf zu achten, stets an einer international anerkannten Hochschule zu promovieren.'
+                    text: 'Grundsätzlich ist der Erwerb eines Doktortitels im Ausland nicht illegal. Neben der Erarbeitung und Verfassung der Doktorarbeit, ist allerdings auch die Institution ein Kriterium für die Zulässigkeit der Titelverleihung. Nur über ausländische Institutionen, die zur Verleihung der Doktorwürde befugt und von deutschen Behörden anerkannt sind, kann rechtmäßig eine Promotion erfolgen. Hierbei gilt es darauf zu achten, stets an einer international anerkannten Hochschule zu promovieren.'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -392,13 +516,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/anfrage'
-                          target: null
+                          href: /anfrage
                           rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
                     text: 'sprechen Sie uns gerne an'
                   -
                     type: text
@@ -409,6 +534,7 @@ replicator:
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -416,40 +542,33 @@ replicator:
                     text: 'Woran erkennt man illegale Promotionsberater?'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
                     text: 'Illegale Promotionsberater erkennen kann man anhand einer Reihe zentraler Kriterien:'
               -
-                type: bullet_list
+                type: bulletList
                 content:
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
-                            text: 'Promotionsberater, die ihre Tätigkeiten illegal ausüben, wollen das Risiko aufzufallen möglichst gering halten. Aus diesem Grund minimieren sie den schriftlichen '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/kontakt'
-                                  target: null
-                                  rel: null
-                            text: Kontakt
-                          -
-                            type: text
-                            text: .
+                            text: 'Promotionsberater, die ihre Tätigkeiten illegal ausüben, wollen das Risiko aufzufallen möglichst gering halten. Aus diesem Grund minimieren sie den schriftlichen Kontakt.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
@@ -460,107 +579,59 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
-                                  target: null
+                                  href: /ghostwriter/kommunikationswissenschaften
                                   rel: null
+                                  target: null
+                                  title: null
                             text: Kommunikation
                           -
                             type: text
                             text: ' mit der Universität oder ein tatsächlicher Besuch nicht erforderlich.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Die Promotion kann innerhalb einiger Wochen stattfinden und wird von einem Doktorvater betreut, dessen Existenz schleierhaft und eher fragwürdig ist.'
                   -
-                    type: list_item
+                    type: listItem
                     content:
                       -
                         type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
                             type: text
                             text: 'Teilweise agieren illegale Promotionsberater aus dem Ausland oder verbergen ihren wahren Aufenthaltsort gegebenenfalls vollständig.'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Weitere Informationen finden Sie auch hier: '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/verschiedenes/diplom-kaufen'
-                          target: null
-                          rel: null
-                    text: 'Diplom kaufen'
-              -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
                     type: text
                     text: 'Unsere Blogartikel zum Thema Promotionsberatung & Doktorarbeit'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/blog/promotionsberater-ghostwriter'
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/blog/dissertation-ausland'
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Dissertation im Ausland schreiben – Was gibt es zu beachten?'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/blog/doktorvater-finden'
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Doktorvater finden – Praktische Tipps für Deine Suche'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/blog/doktorarbeit-erfolgreich'
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Was macht eine erfolgreiche Doktorarbeit aus?'
+                type: set
+                attrs:
+                  id: q6uLzUWZ
+                  values:
+                    type: blog_entries
+                    entries:
+                      - a11daeb3-1d73-4d6f-9c46-9d0e0c86c4e1
+                      - 02161546-8b85-4c4e-8a83-9665f754b478
+                      - 0ad74efd-d968-4546-a1e4-92bde4e9f83e
               -
                 type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   -
@@ -568,6 +639,8 @@ replicator:
                     text: 'Weitere Links & Referenzen'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -576,11 +649,14 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.vonderhorst.de/publikationen/30-200503-grauzone-promotionsberatung'
-                          target: _blank
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Doktortitel "Wenn Geld fließt, ist das Titelkauf" - Rechtsanwalt Dr. Rutger von der Horst'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -588,12 +664,15 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.karriere.de/karrierebeschleuniger-doktortitel-zwei-buchstaben-punkt-/23037918.html'
-                          target: _blank
+                          href: 'https://www.karriere.de/mein-geld/promotion-und-gehalt-in-welchen-jobs-sich-der-doktortitel-auszahlt/'
                           rel: 'noopener noreferrer nofollow'
-                    text: 'Karrierebeschleuniger Doktortitel - Karriere.de'
+                          target: _blank
+                          title: null
+                    text: 'Promotion und Gehalt - Karriere.de'
               -
                 type: paragraph
+                attrs:
+                  textAlign: left
                 content:
                   -
                     type: text
@@ -601,50 +680,24 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.focus.de/wissen/mensch/campus/doktor-spiele-doktor-titel_aid_604014.html'
-                          target: _blank
+                          href: 'https://www.focus.de/wissen/mensch/campus/wie-viel-ist-ein-doktor-titel-wert-karrierechancen_id_2040326.html'
                           rel: 'noopener noreferrer nofollow'
+                          target: _blank
+                          title: null
                     text: 'Doktor-Titel - Focus Online'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.karriere.de/gehaltsreport-finanzspritze-doktortitel/23048498.html'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Finanzspritze Doktortitel - Karriere.de'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/wiki'
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
+            show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
     type: add_section
     enabled: true
+    border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619013819
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705995096
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false
@@ -653,8 +706,11 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Unsere seriöse Promotionsberatung • GWriters'
-id: 6dd15231-c8e7-43fe-949e-af68de19ab1b
+template: with-side-bar
+og_title: 'Unsere seriöse Promotionsberatung • GWriters'
+og_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
+og_image: GWriters-Logo.png
+sitemap_active: true
+breadcrumbs_active: true
 ---

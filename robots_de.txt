@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: */feed
+Disallow: /cdn-cgi/beacon/
+Allow: /assets/*
+Allow: /img/*
+
+User-agent: GPTBot
+Allow: /
+Disallow: /blog/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /blog/
+
+Sitemap: https://gwriters.de/sitemap.xml

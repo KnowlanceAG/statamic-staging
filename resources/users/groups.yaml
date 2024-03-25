@@ -6,3 +6,7 @@ admin:
   title: Administratoren
   roles:
     - admin
+superadmin:
+  title: SuperAdmin
+  roles:
+    - super_admin

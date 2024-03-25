@@ -15,13 +15,11 @@ return [
     |
     */
 
-    'paths' => ['api/*'],
+    'paths' => ['api/*', '/!/DynamicToken/*', '/!/aidetect'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
-
-    'allowed_origins_patterns' => [],
+    'allowed_origins_patterns' => explode(',', preg_replace('/\s+/', '', env('CORS_PATTERNS', ''))),
 
     'allowed_headers' => ['*'],
 

@@ -1,22 +1,22 @@
 ---
-title: Presse
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619157228
+id: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
+blueprint: pages
+title: 'GWriters & Team in der Presse'
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1705995514
 replicator:
   -
+    id: 9QbV7aPs
     bard:
       -
         type: heading
         attrs:
           level: 1
+          textAlign: left
         content:
           -
             type: text
             marks:
-              -
-                type: textAlign
-                attrs:
-                  align: left
               -
                 type: textColor
                 attrs:
@@ -25,7 +25,9 @@ replicator:
             text: 'GWriters & Team in der Presse'
     type: editor
     enabled: true
+    show_as_card: false
   -
+    id: rvZcRe0l
     collections:
       - presse
     type: presse_listing
@@ -36,8 +38,12 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: without-teaser-with-sidebar
-id: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
+meta_title: 'GWriters.de & Team in der Presse • GWriters'
+meta_description: 'Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und seriöse Ghostwriter Agenturen.'
+og_title: 'GWriters.de & Team in der Presse • GWriters'
+og_description: 'Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und seriöse Ghostwriter Agenturen.'
+og_image: GWriters-Logo.png
+breadcrumbs_active: true
+sitemap_active: true
 ---

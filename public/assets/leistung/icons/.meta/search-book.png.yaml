@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Maxqda Auswertung Icon'
 size: 4294
-last_modified: 1619072699
+last_modified: 1619516965
 width: 128
 height: 128
 mime_type: image/png

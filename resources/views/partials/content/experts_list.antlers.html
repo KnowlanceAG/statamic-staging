@@ -2,13 +2,16 @@
     {{ experts }}
 
     <div class="w-full mb-12">
-
-            {{ if link }}
-                <a href="{{ link }}">
-                    {{ responsive:photo alt="{alt}" class="rounded-full w-48 max-w-full h-auto align-middle border-none" }}
-                </a>
-            {{ else }}
-                {{ responsive:photo alt="{alt}" class="rounded-full w-48 max-w-full h-auto align-middle border-none" }}
+            {{ if photo }}
+              {{ photo }}
+                  {{ if link }}
+                      <a href="{{ link }}">
+                          {{ responsive:photo alt="{ alt }" class="rounded-full w-48 max-w-full h-auto align-middle border-none" }}
+                      </a>
+                  {{ else }}
+                      {{ responsive:photo alt="{ alt }" class="rounded-full w-48 max-w-full h-auto align-middle border-none" }}
+                  {{ /if }}
+              {{ /photo }}
             {{ /if }}
 
             <p class="mt-4 mb-0"><strong>{{ title }}</strong></p>
