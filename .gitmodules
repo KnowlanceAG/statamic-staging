@@ -7,3 +7,12 @@
 [submodule "addons/uscreen/better-statamic-bard-text-color"]
 	path = addons/uscreen/better-statamic-bard-text-color
 	url = git@gitlab.uscreen.net:uscreen/statamic-addons/better-statamic-bard-text-color.git
+[submodule "better-statamic-bard-text-color"]
+	path = better-statamic-bard-text-color
+	url = https://github.com/KnowlanceAG/better-statamic-bard-text-color
+[submodule "statamic-addons-cpssg"]
+	path = statamic-addons-cpssg
+	url = https://github.com/KnowlanceAG/statamic-addons-cpssg
+[submodule "statamic-addons-link-extended"]
+	path = statamic-addons-link-extended
+	url = https://github.com/KnowlanceAG/statamic-addons-link-extended
