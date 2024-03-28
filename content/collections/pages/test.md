@@ -1,10 +1,9 @@
 ---
 id: 942c2c8b-0964-473f-bd8d-10426b828eb8
-published: false
 blueprint: pages
 title: test123
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1711617011
+updated_at: 1711617056
 replicator:
   -
     id: laieiq4o
@@ -718,9 +717,9 @@ replicator:
     type: editor
     enabled: true
 use_meta_keywords: false
-no_index_page: false
-no_follow_links: false
-sitemap_priority: '0.5'
+no_index_page: true
+no_follow_links: true
+sitemap_priority: '0.0'
 sitemap_changefreq: daily
 override_twitter_settings: false
 teaser:
