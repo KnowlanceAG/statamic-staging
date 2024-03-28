@@ -15,13 +15,13 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: Was ist ein "akademischer" Ghostwriter?
       - type: set
         attrs:
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: "16"
       - type: paragraph
       - type: paragraph
         content:
@@ -30,16 +30,16 @@ replicator:
               - type: bold
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: "Als\_"
           - type: text
             marks:
               - type: bold
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriter
@@ -60,15 +60,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: "Die Berufsgruppe des akademischen Ghostwriters wird in der Öffentlichkeit wenig wahrgenommen. Das Phänomen ist jedoch keineswegs eine moderne Erscheinung. Akademisches\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriting
@@ -82,11 +82,11 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter/wirtschaftswissenschaften
+                  href: /wirtschaftswissenschaften
                   target: null
                   rel: null
             text: Wirtschaftswissenschaften
@@ -102,8 +102,8 @@ replicator:
               - type: bold
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq
@@ -126,7 +126,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

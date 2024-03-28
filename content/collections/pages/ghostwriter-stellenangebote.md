@@ -1,728 +1,577 @@
 ---
 id: bfe3b004-159d-4f4d-bd0d-309563de9806
 blueprint: pages
-title: 'Ghostwriter Stellenangebote'
+title: "Ghostwriter Stellenangebote"
 replicator:
-  -
-    id: zpFdfi31
+  - id: zpFdfi31
     bard:
-      -
-        type: heading
+      - type: heading
         attrs:
           textAlign: left
           level: 1
         content:
-          -
-            type: text
-            text: 'Ghostwriter Stellenangebote'
-      -
-        type: paragraph
+          - type: text
+            text: "Ghostwriter Stellenangebote"
+      - type: paragraph
         attrs:
           textAlign: start
         content:
-          -
-            type: text
-            text: 'Aufgrund des starken Wachstums von GWriters und des kontinuierlich steigenden Bedarfs nach akademischen Freelancern suchen wir aktuell insbesondere:'
-      -
-        type: bulletList
+          - type: text
+            text: "Aufgrund des starken Wachstums von GWriters und des kontinuierlich steigenden Bedarfs nach akademischen Freelancern suchen wir aktuell insbesondere:"
+      - type: bulletList
         content:
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /ghostwriter
                           rel: null
                           target: null
                           title: null
-                    text: 'akademische Ghostwriter'
-          -
-            type: listItem
+                    text: "akademische Ghostwriter"
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /lektorat/lektor
                           rel: null
                           target: null
                           title: null
                     text: Lektoren
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
                           href: /korrektorat/korrektor
                           rel: null
                           target: null
                           title: null
                     text: Korrektoren
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     text: Übersetzer
-      -
-        type: heading
+      - type: heading
         attrs:
           textAlign: start
           level: 2
         content:
-          -
-            type: text
-            text: 'Stellenangebote als Ghostwriter'
-      -
-        type: paragraph
+          - type: text
+            text: "Stellenangebote als Ghostwriter"
+      - type: paragraph
         attrs:
           textAlign: start
         content:
-          -
-            type: text
+          - type: text
             text: "Konkret bietet GWriters beispielsweise\_"
-          -
-            type: text
+          - type: text
             marks:
-              -
-                type: link
+              - type: link
                 attrs:
                   href: /jobs
                   rel: null
                   target: null
                   title: null
             text: Jobs
-          -
-            type: text
+          - type: text
             text: "\_& Stellenangebote aus folgenden Fachbereichen:"
-      -
-        type: bulletList
+      - type: bulletList
         content:
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/architektur
+                          href: /architektur
                           rel: null
                           target: null
                           title: null
                     text: Architektur
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/bauingenieurwesen
+                          href: /bauingenieurwesen
                           rel: null
                           target: null
                           title: null
                     text: Bauingenieurwesen
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/biologie
+                          href: /biologie
                           rel: null
                           target: null
                           title: null
                     text: Biologie
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           rel: null
                           target: null
                           title: null
                     text: BWL
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/chemie
+                          href: /chemie
                           rel: null
                           target: null
                           title: null
                     text: Chemie
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/elektrotechnik
+                          href: /elektrotechnik
                           rel: null
                           target: null
                           title: null
                     text: Elektrotechnik
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                          href: /erziehungswissenschaften-ghostwriter
                           rel: null
                           target: null
                           title: null
                     text: Erziehungswissenschaften
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/finanzwissenschaften
+                          href: /finanzwissenschaften
                           rel: null
                           target: null
                           title: null
                     text: Finanzwissenschaften
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/germanistik-ghostwriter
+                          href: /germanistik-ghostwriter
                           rel: null
                           target: null
                           title: null
                     text: Germanistik
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/geschichte
+                          href: /geschichte
                           rel: null
                           target: null
                           title: null
                     text: Geschichte
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/informatik
+                          href: /informatik
                           rel: null
                           target: null
                           title: null
                     text: Informatik
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           rel: null
                           target: null
                           title: null
                     text: Jura
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/kommunikationswissenschaften
+                          href: /kommunikationswissenschaften
                           rel: null
                           target: null
                           title: null
                     text: Kommunikation
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/kunst
+                          href: /kunst
                           rel: null
                           target: null
                           title: null
                     text: Kunst
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/literatur
+                          href: /literatur
                           rel: null
                           target: null
                           title: null
                     text: Literatur
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/marketing
+                          href: /marketing
                           rel: null
                           target: null
                           title: null
                     text: Marketing
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/maschinenbau
+                          href: /maschinenbau
                           rel: null
                           target: null
                           title: null
                     text: Maschinenbau
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/mathematik
+                          href: /mathematik
                           rel: null
                           target: null
                           title: null
                     text: Mathematik
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/medienwissenschaften
+                          href: /medienwissenschaften
                           rel: null
                           target: null
                           title: null
                     text: Medienwissenschaften
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/medizin
+                          href: /medizin
                           rel: null
                           target: null
                           title: null
                     text: Medizin
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/pflegewissenschaften
+                          href: /pflegewissenschaften
                           rel: null
                           target: null
                           title: null
                     text: Pflegewissenschaften
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/philosophie
+                          href: /philosophie
                           rel: null
                           target: null
                           title: null
                     text: Philosophie
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/psychologie
+                          href: /psychologie
                           rel: null
                           target: null
                           title: null
                     text: Psychologie
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/soziale-arbeit
+                          href: /soziale-arbeit
                           rel: null
                           target: null
                           title: null
-                    text: 'Soziale Arbeit'
-          -
-            type: listItem
+                    text: "Soziale Arbeit"
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/soziologie
+                          href: /soziologie
                           rel: null
                           target: null
                           title: null
                     text: Soziologie
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/sprachwissenschaften
+                          href: /sprachwissenschaften
                           rel: null
                           target: null
                           title: null
                     text: Sprachwissenschaften
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           rel: null
                           target: null
                           title: null
                     text: VWL
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftsinformatik
+                          href: /wirtschaftsinformatik
                           rel: null
                           target: null
                           title: null
                     text: Wirtschaftsinformatik
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           rel: null
                           target: null
                           title: null
                     text: Wirtschaftswissenschaften
-          -
-            type: listItem
+          - type: listItem
             content:
-              -
-                type: paragraph
+              - type: paragraph
                 attrs:
                   textAlign: start
                 content:
-                  -
-                    type: text
+                  - type: text
                     marks:
-                      -
-                        type: link
+                      - type: link
                         attrs:
-                          href: /ghostwriter/zahnmedizin
+                          href: /zahnmedizin
                           rel: null
                           target: null
                           title: null
                     text: Zahnmedizin
-      -
-        type: paragraph
+      - type: paragraph
         attrs:
           textAlign: start
         content:
-          -
-            type: text
-            text: 'Wenn Sie bereits im Rahmen Ihres Hochschulstudiums hinreichende Erfahrungen mit wissenschaftlichen Arbeiten gesammelt haben, bewerben Sie sich gerne bei GWriters. Wenn Sie auf der Suche nach einer sinnvollen Nebenbeschäftigung sind, mit der Sie einen äußerst lukrativen Verdienst erzielen können, dann könnte das Stellenangebot als freiberuflicher Ghostwriter im GWriters Team genau das Richtige für Sie sein! Wir suchen Ghostwriter, Lektoren, Korrektoren, Übersetzer und weiter akademische Profis für Jobs aus den verschiedensten akademischen Fachrichtungen.'
+          - type: text
+            text: "Wenn Sie bereits im Rahmen Ihres Hochschulstudiums hinreichende Erfahrungen mit wissenschaftlichen Arbeiten gesammelt haben, bewerben Sie sich gerne bei GWriters. Wenn Sie auf der Suche nach einer sinnvollen Nebenbeschäftigung sind, mit der Sie einen äußerst lukrativen Verdienst erzielen können, dann könnte das Stellenangebot als freiberuflicher Ghostwriter im GWriters Team genau das Richtige für Sie sein! Wir suchen Ghostwriter, Lektoren, Korrektoren, Übersetzer und weiter akademische Profis für Jobs aus den verschiedensten akademischen Fachrichtungen."
     show_as_card: false
     type: editor
     enabled: true
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
 updated_at: 1705995353
-page_title: 'GWriters • Ghostwriter Stellenangebote'
-meta_title: 'GWriters • Ghostwriter Stellenangebote'
-meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Stellenangebote bei GWriters!'
+page_title: "GWriters • Ghostwriter Stellenangebote"
+meta_title: "GWriters • Ghostwriter Stellenangebote"
+meta_description: "Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Stellenangebote bei GWriters!"
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
-og_title: 'GWriters • Ghostwriter Stellenangebote'
-og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Stellenangebote bei GWriters!'
+og_title: "GWriters • Ghostwriter Stellenangebote"
+og_description: "Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Stellenangebote bei GWriters!"
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true

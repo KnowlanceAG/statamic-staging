@@ -15,7 +15,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: BWL Ghostwriter
   - type: paragraph
     content:
@@ -25,7 +25,7 @@ teaser:
           - type: textColor
             attrs:
               color: rgb(68, 68, 68)
-              hex: '#000'
+              hex: "#000"
         text: >-
           Hilfe durch Experten und akademische Ghostwriter der BWL – schnell,
           diskret und mehrfach geprüft auf Qualität & Plagiate.
@@ -37,7 +37,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: paragraph
 teaser_bg: seiten/header-so-funktionierts.jpeg
@@ -49,7 +49,7 @@ updated_at: 1638796417
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
@@ -66,14 +66,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "BWL ist unter Studenten ein äußerst beliebter Studiengang und ist aus diesem Grund an vielen Hochschulen „überlaufen“. Wer auffallen will, muss immerzu qualitativ hochwertige Ausarbeitungen liefern und stets sehr gute Noten erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studenten neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu dem Leistungsdruck ein zusätzlicher Zeitdruck hinzu. Speziell im Bereich der BWL wird aus diesem Grund oftmals die Hilfe unserer\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriter
@@ -93,7 +93,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Wenn Sie bei Ihrer akademischen Arbeit im Fachbereich BWL Unterstützung benötigen, dann können Sie uns gerne sofort eine\_"
                   - type: text
                     marks:
@@ -101,7 +101,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /anfrage
@@ -133,7 +133,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Unsere BWL-Ghostwriter
               - type: paragraph
                 content:
@@ -142,14 +142,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Jeder unserer ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. Er kann entweder das\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriting
@@ -177,7 +177,7 @@ replicator:
         enabled: true
         responsive_columns: 1
         single_col: false
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         grid:
           - bard:
               - type: paragraph
@@ -336,7 +336,7 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Akademische Arbeiten:'
+                    text: "Akademische Arbeiten:"
             show_as_card: false
         type: row
         enabled: true
@@ -350,7 +350,7 @@ replicator:
     remove_spacing: true
     border: false
   - columns_replicator:
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         grid:
           - bard:
               - type: paragraph
@@ -533,7 +533,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Allgemeines zur BWL
               - type: paragraph
                 content:
@@ -542,17 +542,17 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Die Betriebswirtschaftslehre (BWL), auch Betriebsökonomie genannt, ist ein Teilgebiet der\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -564,10 +564,10 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           target: null
                           rel: null
                     text: VWL
@@ -606,7 +606,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Aufbau eines BWL-Studiums
               - type: paragraph
                 content:
@@ -615,7 +615,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Kenntnisse der Betriebswirtschaft kann man durch eine
                       Lehre im kaufmännischen Bereich, ein berufsbegleitendes
@@ -647,7 +647,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Das Studium der BWL besteht beim Bachelorstudiengang aus 6
                       Semestern und kann mit dem Masterstudiengang, bestehend
@@ -673,7 +673,7 @@ replicator:
                     type: button
                     button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
                     button_text: JETZT KOSTENLOS ANFRAGEN
-                    color: '#FF6606'
+                    color: "#FF6606"
                     spacing_top: false
               - type: horizontal_rule
               - type: heading
@@ -686,7 +686,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Inhalte des BWL-Studiums
               - type: paragraph
                 content:
@@ -695,7 +695,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       In dem betriebswirtschaftlichen Studium lernen Studenten
                       u.a. Projekte zu managen, betriebliche Abläufe zu
@@ -721,17 +721,17 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Wissens bilden Grundlagenfächer wie Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/marketing
+                          href: /marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -749,7 +749,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Im Detail gehören zu den wesentlichen Elementen eines
                       betriebswirtschaftlichen Studiums die Themen Planung,
@@ -775,7 +775,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Jedoch bereiten gerade die Grundlagenfächer Mathe,
                       Statistik und Recht sehr vielen Studenten erhebliche
@@ -800,7 +800,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Disclaimer
               - type: paragraph
                 content:
@@ -809,7 +809,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
                 attrs:
                   textAlign: start
@@ -823,7 +823,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Nützliche Weblinks
               - type: paragraph
                 content:
@@ -832,7 +832,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://ranking.zeit.de/che/de/
@@ -846,7 +846,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-
@@ -861,7 +861,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://www.handelsblatt.com/
@@ -875,7 +875,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://ranking.zeit.de/che/de/fachinfo/24

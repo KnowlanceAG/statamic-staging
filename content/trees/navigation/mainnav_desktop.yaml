@@ -35,6 +35,9 @@ tree:
               -
                 id: 8c9d90a0-91a2-4d57-aba0-9e9ab664fb5f
                 entry: 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+              -
+                id: c844e8d6-caa5-4a55-9304-69c69e2cb11d
+                entry: 9863c52a-c34a-4eae-b8ab-6fb5c6984fac
           -
             id: 8ccbdb17-efba-4eb2-a224-cc5e027229ed
             title: 'Studienarbeiten schreiben lassen'
@@ -91,6 +94,9 @@ tree:
               -
                 id: 782600c5-fa87-4669-9216-e6d881fb0552
                 entry: b42eb586-1305-4faf-8d59-79e53ff91373
+              -
+                id: 3c8bd30f-04a3-4def-a34f-57a0a7a6759f
+                entry: aaa7f3a7-268e-40f2-86c3-16bce70dc56b
       -
         id: 4281b9da-a64c-47a7-881c-3cd725c3abad
         title: Fachrichtungen
@@ -100,159 +106,163 @@ tree:
             title: 'Technische Fachrichtungen'
             children:
               -
-                id: 28f29d7a-29a3-415a-a58d-aee528f335c6
-                entry: 1390d32b-dd5d-49d2-85ff-21833c97c8ed
-              -
-                id: 237b4a27-c6d7-4915-82fe-78ddf127a94d
-                entry: 9944d809-005e-4651-bf9b-5555f0229245
-              -
-                id: bf152127-78af-4cdc-ad8c-8cd46a5f0d08
-                entry: 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
-              -
-                id: 78b16d4e-0c7e-4a36-b3c5-dd265f764208
-                entry: 84a37239-87ee-45fb-b2d1-058a86fecfbb
-              -
-                id: 52a5305c-da2b-4db6-9991-483e9e17904f
-                entry: 274572ca-1608-4345-8e5b-d51e74845491
-              -
-                id: f60dfe18-9047-49ed-b8b3-e3372d970f32
-                entry: 1de3d76b-f23a-41a8-a629-15b48a07223e
-              -
                 id: e68173e9-8149-465f-94f7-f77becbcb623
                 title: Softwarelokalisierung
-                url: '/ghostwriter/informatik#softwarelokalisierung'
+                url: '/informatik#softwarelokalisierung'
               -
-                id: 79c6b52c-a5f1-4512-bfa1-67e0c384795a
+                id: a82c7d2b-a79e-4068-aa76-10f6357f3091
+                entry: 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+              -
+                id: 9708af75-13c2-4bad-93e4-010906f91bef
+                entry: 9944d809-005e-4651-bf9b-5555f0229245
+              -
+                id: 347bdfa5-bde4-4c81-8ea5-79bc123d622f
+                entry: 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
+              -
+                id: 4ed3506d-b8fc-4748-a5d6-c00ceaf02c79
+                entry: 84a37239-87ee-45fb-b2d1-058a86fecfbb
+              -
+                id: fae1dcdc-0c6a-4f8d-8920-f353fb51c1e3
+                entry: 274572ca-1608-4345-8e5b-d51e74845491
+              -
+                id: 377739f4-1ce6-43cb-827b-0cfe5fac9cd7
+                entry: 1de3d76b-f23a-41a8-a629-15b48a07223e
+              -
+                id: f4df0bba-b9d4-49ab-8701-8cd7d4fb469e
                 entry: b76dc919-f8fb-400e-86bc-ddb33ec06cb8
           -
             id: a31056a0-2c9b-4264-bf31-04858a0b2bc0
             title: Naturwissenschaften
             children:
               -
-                id: 28471033-6d2e-4b1c-aa53-d6f2c114a0b4
-                entry: 9232eaf7-a636-467d-9699-5e34e4a7c4a9
-              -
                 id: 1e497c27-8c2f-4b0f-9c70-26306cb16dc7
                 title: Biotechnologie
-                url: '/ghostwriter/biologie#biotechnologie'
+                url: '/biologie#biotechnologie'
               -
-                id: 9c6092ac-97e5-4e37-91f7-8e992021ba9c
+                id: 27453309-7b98-4aa9-8180-5f164d5e9fc2
+                entry: 9232eaf7-a636-467d-9699-5e34e4a7c4a9
+              -
+                id: 1a050be9-6977-4a5d-abbc-c594c0d6c341
                 entry: a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
               -
-                id: a4214bef-46c5-4531-a0db-3f764b2b360d
+                id: 817dfc72-a8f8-4c4d-8cab-a55affd8d482
                 entry: 45680fad-6f7a-437f-88c2-23e0bc080818
               -
-                id: 06d038cf-99bd-480e-943f-a87954d246ca
+                id: f9f3000a-840c-49e5-9dc7-5a3edb357018
                 entry: f501c52c-7217-448e-bb53-d6f84c7e51c8
               -
-                id: 912093fa-ebe7-4858-8f3e-6e32c25c0c70
+                id: 72b699e7-bb67-41ca-acf8-39b67cc2a121
                 entry: 34f7528d-839e-4ef6-b735-627084dba887
               -
-                id: 0cb1253d-d09b-410e-b7c9-8a3ca9ceb8d1
+                id: 6f1cbf46-f04c-4e56-83b7-f5265237336d
                 entry: 4e8bb552-4039-414e-ad1d-2e70d1245726
+              -
+                id: 5424ec41-9cf1-4069-adea-ac71a324d7b6
+                title: Biologie2
+                url: /biologie
           -
-            id: b51d8d71-1573-4a62-aad0-e90d568ce6d7
+            id: cb5c4406-fced-43a0-9338-72006899f428
             title: Sozialwissenschaften
             children:
               -
-                id: 0ff8ff87-b547-4442-b3de-9b2f123b6b7a
-                entry: 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
-              -
-                id: c7c1154d-6556-4510-9b8a-8ea3a3bb5aea
-                entry: 925eedca-5fbe-4da9-a307-807426feaeeb
-              -
-                id: 7eaf1d58-048e-46af-9f8e-24bd92909dbc
-                entry: f07c0010-40dd-407e-bf32-a1a260b5016b
-              -
-                id: dbcdb6f1-0094-47c4-b5f4-bfe97aa55d98
-                entry: b8930678-fff6-4d7a-8ae8-056605f303f2
-              -
-                id: aad3e4d1-8944-4fbe-b854-23b65b8addab
-                entry: 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
-              -
-                id: 36c1e40f-52e2-45b6-8a6e-6c43a49d9c44
-                entry: 390b1775-dafe-4f7a-b1c1-afe41c4efe70
-              -
                 id: eb2fc856-f556-4f45-9309-a9eae925dcdd
                 title: Kommunikationsdesign
-                url: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                url: '/kommunikationswissenschaften#kommunikationsdesign'
+              -
+                id: d808873c-1ccb-496c-ba53-a962191e15d5
+                entry: 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
+              -
+                id: b663cd52-5389-43b4-9f00-ddb050b77b78
+                entry: 925eedca-5fbe-4da9-a307-807426feaeeb
+              -
+                id: 594a3f84-fcd0-4852-9629-f33c13cbfc6f
+                entry: 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+              -
+                id: 0962d55f-ee47-4481-aa8b-c64442cba5f8
+                entry: f07c0010-40dd-407e-bf32-a1a260b5016b
+              -
+                id: 9561809f-efec-41dc-8c87-1df30af2c7be
+                entry: b8930678-fff6-4d7a-8ae8-056605f303f2
+              -
+                id: f6a619a1-9fd1-44ee-ae5b-743b9a47ae90
+                entry: 390b1775-dafe-4f7a-b1c1-afe41c4efe70
           -
             id: c7e0e997-6f04-44b1-9409-46a8c7bd1f00
             title: 'Wirtschaftliche Fachbereiche'
             children:
               -
-                id: 08dfc2de-7b53-4a77-9896-75ae83abd6a9
-                entry: 522e26b9-451d-43a8-a204-2e0f75b87f4b
-              -
-                id: b2a347a4-c09b-4c89-ae42-de575bc3bea4
-                entry: 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
-              -
-                id: 776a0d7e-b504-4820-90d9-aab19c4dff00
-                entry: 06fbb3f4-51c2-4f11-832e-9b72a495857d
-              -
-                id: d619b1a7-0ef9-4b1d-9815-1eb7f804aeb2
-                entry: a66a5239-e3b6-4216-9286-fbd0c5b5d98b
-              -
-                id: 0276f2e0-c782-40a3-92f2-645dcdf3f214
-                entry: f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-              -
-                id: 7d358208-1421-484c-8a5f-98fc8ae60dec
-                entry: c15ef599-1566-42e7-8dde-929af350c15a
-              -
-                id: c69bb324-4d0e-48a1-9967-75ebfb1fd384
-                entry: 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-              -
                 id: fdf9baef-68f8-4cf5-b65e-9777a0e3cdc7
                 title: 'Internationale BWL'
-                url: '/ghostwriter/bwl#internationale'
+                url: '/bwl#internationale'
               -
-                id: 12562117-89b2-47a1-a1e6-d6a5220c0418
+                id: 083c9f89-e6bd-4449-ae9d-262f8dc77f01
+                entry: 522e26b9-451d-43a8-a204-2e0f75b87f4b
+              -
+                id: 91b41998-7dc9-46ce-93c0-1a01a6667313
+                entry: 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
+              -
+                id: 8397c9ee-3cb4-4a0e-8c70-e1e7d06a32ee
+                entry: 06fbb3f4-51c2-4f11-832e-9b72a495857d
+              -
+                id: 8911c71b-10ee-49c0-91c1-f65bf7705229
+                entry: 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+              -
+                id: e1423c2d-d411-4060-ba28-2bb4b36ef980
+                entry: f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+              -
+                id: 5122c89a-9e1d-4e03-a7ef-0d8c143b395c
+                entry: a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+              -
+                id: 911274e2-858a-4a53-98ed-2546a350db5c
+                entry: c15ef599-1566-42e7-8dde-929af350c15a
+              -
+                id: e5f10cd3-b24f-493a-aa33-0a79546cdbf1
                 entry: 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
           -
             id: 519f077a-3869-478f-a210-201a96073125
             title: Geisteswissenschaften
             children:
               -
-                id: e1fc3750-b864-4b23-ba18-301e406c0c1f
-                entry: 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
-              -
-                id: cb78bf11-ef7e-4d7e-9b68-025e2768873f
-                entry: d72509d7-bb3a-40dd-a757-3317732e2a57
-              -
-                id: 03c8d6fd-6ea1-4c34-8f4f-9194ca3bc49a
-                entry: a9561621-8360-4ecf-855c-753f4a217c5a
-              -
-                id: 6b1bea27-d431-487b-849e-83eb5d81c387
-                entry: 21aff10c-582a-440f-9f50-1af525566292
-              -
-                id: ce25ea45-5b98-4e72-9e82-5b60e6c9c0dd
-                entry: fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
-              -
-                id: b9fe33ef-22f1-493d-833f-60d632892606
-                entry: 24308319-8d41-41a9-ad35-e9cf2ceba726
-              -
-                id: 38c64462-25cf-475a-87a1-b21da4ecac5a
-                entry: 1d98acf0-a0bc-4e18-bb1c-cb42cb096f00
-              -
                 id: 0f15af7b-f6ea-46fa-a416-d54e7892d0f1
                 title: Kunstgeschichte
-                url: '/ghostwriter/kunst#kunstgeschichte'
+                url: '/kunst#kunstgeschichte'
+              -
+                id: a7f2b213-0864-4e54-be4d-07bc82803f26
+                entry: 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
+              -
+                id: 036e9549-63db-48ae-851f-c524c3dc3ea0
+                entry: d72509d7-bb3a-40dd-a757-3317732e2a57
+              -
+                id: 968dcbe6-67f0-44c0-8476-18d1356809de
+                entry: a9561621-8360-4ecf-855c-753f4a217c5a
+              -
+                id: 20c28b5d-e9f9-45c6-b730-7c272944aa64
+                entry: 21aff10c-582a-440f-9f50-1af525566292
+              -
+                id: bef04c82-6bca-4abe-b1dc-a81a024553b6
+                entry: fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+              -
+                id: f3749050-422b-41d5-a43a-1b2ae06bd1b1
+                entry: 24308319-8d41-41a9-ad35-e9cf2ceba726
+              -
+                id: 11a1adde-3776-4c51-bb63-8bd6b7f7be44
+                entry: 1d98acf0-a0bc-4e18-bb1c-cb42cb096f00
           -
             id: ecbc3f43-8690-4c01-968b-8b574c22fab0
             title: 'Medizinische Fachrichtungen'
             children:
               -
-                id: 60705fec-84e2-46ad-b17d-1c5fed95e252
+                id: 3c8d1f0c-fb1d-4573-99f3-8e30db8568a1
                 entry: b850974c-8d2d-4448-b168-3dccef384025
               -
-                id: 2410a13b-9fb9-4482-92f2-784f6a10a619
+                id: 69bf7e93-1b69-49fc-b3aa-6c720626a949
+                entry: 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+              -
+                id: 9dedc039-782b-4576-9539-d8ef5dbd7ff2
                 entry: 051a1060-2c31-4edd-af39-c44fe3842526
               -
-                id: 167afd9b-8045-4ae8-9b75-01531eaa46e0
+                id: 93acb00f-88ed-4da1-b8d3-c612ef4f9a19
                 entry: 839e6791-eebd-4bc8-8975-a278836a9c05
-              -
-                id: 51c81dd4-95e7-40d0-b09a-acab77db3d52
-                entry: 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
   -
     id: 1492c781-385b-4379-9bbb-3ec797c8be25
     entry: 7aff708e-5d48-409e-9242-fd82c155f5ee

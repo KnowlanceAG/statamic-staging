@@ -15,7 +15,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Mustervorlage für Bachelorarbeit schreiben lassen
   - type: paragraph
     content:
@@ -34,7 +34,7 @@ teaser:
         type: button
         button_link: /anfrage
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
@@ -42,7 +42,7 @@ updated_at: 1641820916
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
@@ -52,7 +52,7 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Ein akademischer '
+            text: "Ein akademischer "
           - type: text
             marks:
               - type: link
@@ -62,7 +62,7 @@ replicator:
                   rel: null
             text: Ghostwriter
           - type: text
-            text: ' kann durch seine Erfahrungen und fachlichen Kenntnisse Studenten professionell unterstützen. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelorarbeit (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé.'
+            text: " kann durch seine Erfahrungen und fachlichen Kenntnisse Studenten professionell unterstützen. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelorarbeit (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé."
       - type: paragraph
         content:
           - type: text
@@ -70,7 +70,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Zudem ist es möglich, dass Studierende von akademischen
               Ghostwritern eine Mustervorlage für ihre Bachelorarbeit schreiben
@@ -83,7 +83,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Außerdem kennen akademische Ghostwriter den aktuellen
               Forschungsstand zu vielen Themenstellungen und haben auf
@@ -95,7 +95,7 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Eine weitere Option bietet das '
+            text: "Eine weitere Option bietet das "
           - type: text
             marks:
               - type: link
@@ -105,7 +105,7 @@ replicator:
                   rel: null
             text: Lektorat
           - type: text
-            text: ' und Korrektorat der Bachelorarbeit, die bereits von dem Studenten fertiggestellt wurde. Anschließend kann eine umfassende '
+            text: " und Korrektorat der Bachelorarbeit, die bereits von dem Studenten fertiggestellt wurde. Anschließend kann eine umfassende "
           - type: text
             marks:
               - type: link
@@ -115,7 +115,7 @@ replicator:
                   rel: null
             text: Plagiatsprüfung
           - type: text
-            text: ' erfolgen. Es ist ebenfalls möglich, dass eine Ghostwriterin Bachelorarbeiten, in jedem Abschnitt, die bereits begonnen wurden, überarbeitet. Alternativ können Studenten während des gesamten Ablaufs der Bachelorarbeit ein Coaching anfordern.'
+            text: " erfolgen. Es ist ebenfalls möglich, dass eine Ghostwriterin Bachelorarbeiten, in jedem Abschnitt, die bereits begonnen wurden, überarbeitet. Alternativ können Studenten während des gesamten Ablaufs der Bachelorarbeit ein Coaching anfordern."
       - type: paragraph
         content:
           - type: text
@@ -123,7 +123,7 @@ replicator:
               - type: bold
             text: >-
               Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches
-              Ghostwriting benötigen, dann senden Sie uns eine 
+              Ghostwriting benötigen, dann senden Sie uns eine
           - type: text
             marks:
               - type: bold
@@ -167,7 +167,7 @@ replicator:
               Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle
               Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden
               sich einige Studenten an akademische Freelancer und professionelle
-              wissenschaftliche Ghostwriter. 
+              wissenschaftliche Ghostwriter.
       - type: paragraph
         content:
           - type: text
@@ -176,7 +176,7 @@ replicator:
               Lektor bzw. Wissenschaftslektor kontrollieren lassen oder bei
               Bedarf eine Korrekturschleife vornehmen lassen. Und anschließend
               helfen sie auch mit einem Plagiatscheck, um den Text plagiatsfrei
-              fertigen zu stellen. Auch können Sie vorab eine 
+              fertigen zu stellen. Auch können Sie vorab eine
           - type: text
             marks:
               - type: link
@@ -186,7 +186,7 @@ replicator:
                   rel: null
             text: Ghostwriting
           - type: text
-            text: '-Bachelorarbeit als Mustervorlage anfertigen.'
+            text: "-Bachelorarbeit als Mustervorlage anfertigen."
       - type: set
         attrs:
           values:
@@ -199,13 +199,13 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen
               hervorragende fachliche Kompetenzen und methodische Erfahrung im
               Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese
               Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen,
-              individuell abgestimmt auf Ihre Bedürfnisse bieten. 
+              individuell abgestimmt auf Ihre Bedürfnisse bieten.
       - type: paragraph
         content:
           - type: text
@@ -213,7 +213,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Im obigen Video erklären wir Ihnen, wie sich der Coaching Service
               von unserer akademischen Ghostwriting-Agentur für Bachelorarbeiten
@@ -228,15 +228,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#444444'
-                  hex: '#000'
+                  color: "#444444"
+                  hex: "#000"
             text: "Zu jeder Fragestellung während des Schreibprozesses von Bachelorarbeit stehen unsere akademischen Autoren zur Verfügung. Unser Schreibservice kooperiert mit zertifizierten Professoren und Doktoren zusammen. Diese unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/fallstudienanalyse-nach-yin
@@ -247,15 +247,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#444444'
-                  hex: '#000'
+                  color: "#444444"
+                  hex: "#000"
             text: ", ein\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/leitfadengestuetztes-experteninterview
@@ -266,15 +266,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#444444'
-                  hex: '#000'
+                  color: "#444444"
+                  hex: "#000"
             text: "\_oder eine\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/swot-analyse-beispiel
@@ -285,15 +285,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#444444'
-                  hex: '#000'
+                  color: "#444444"
+                  hex: "#000"
             text: "\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung an."
       - type: paragraph
         content:
           - type: text
             text: >-
               Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder wissenschaftliche
-              Texterstellung benötigen, wenden Sie sich gerne an uns. Über 
+              Texterstellung benötigen, wenden Sie sich gerne an uns. Über
           - type: text
             marks:
               - type: bold
@@ -304,7 +304,7 @@ replicator:
                   rel: null
             text: unser Kontaktformular
           - type: text
-            text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Unsere Kundenberater beraten Sie dazu gerne! '
+            text: " erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Unsere Kundenberater beraten Sie dazu gerne! "
     type: editor
     enabled: true
     show_as_card: false
@@ -319,13 +319,13 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Unsere Leistungen:'
+                    text: "Unsere Leistungen:"
                   - type: hard_break
             show_as_card: false
         type: row
         enabled: true
       - responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: "3"
         single_col: false
         grid:
           - bard:
@@ -347,8 +347,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat
@@ -363,8 +363,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
@@ -381,8 +381,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat
@@ -397,8 +397,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/formatierung
@@ -413,8 +413,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /promotionsberatung
@@ -431,8 +431,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -447,8 +447,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
@@ -470,13 +470,13 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Wichtige Fachbereiche:'
+                    text: "Wichtige Fachbereiche:"
                   - type: hard_break
             show_as_card: false
         type: row
         enabled: true
       - responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: "3"
         single_col: false
         grid:
           - bard:
@@ -487,11 +487,11 @@ replicator:
                       - type: underline
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/architektur
+                          href: /architektur
                           target: null
                           rel: null
                     text: Architektur
@@ -503,11 +503,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: BWL
@@ -519,11 +519,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                          href: /erziehungswissenschaften-ghostwriter
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -535,11 +535,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/germanistik-ghostwriter
+                          href: /germanistik-ghostwriter
                           target: null
                           rel: null
                     text: Germanistik
@@ -551,11 +551,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           target: null
                           rel: null
                     text: Jura
@@ -567,11 +567,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/literatur
+                          href: /literatur
                           target: null
                           rel: null
                     text: Literatur
@@ -583,11 +583,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/mathematik
+                          href: /mathematik
                           target: null
                           rel: null
                     text: Mathematik
@@ -599,11 +599,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/pflegewissenschaften
+                          href: /pflegewissenschaften
                           target: null
                           rel: null
                     text: Pflegewissenschaften
@@ -615,11 +615,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziale-arbeit
+                          href: /soziale-arbeit
                           target: null
                           rel: null
                     text: Soziale Arbeit
@@ -631,11 +631,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           target: null
                           rel: null
                     text: VWL
@@ -647,11 +647,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/zahnmedizin
+                          href: /zahnmedizin
                           target: null
                           rel: null
                     text: Zahnmedizin
@@ -665,11 +665,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/bauingenieurwesen
+                          href: /bauingenieurwesen
                           target: null
                           rel: null
                     text: Bauingenieurwesen
@@ -681,11 +681,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/chemie
+                          href: /chemie
                           target: null
                           rel: null
                     text: Chemie
@@ -697,11 +697,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/finanzwissenschaften
+                          href: /finanzwissenschaften
                           target: null
                           rel: null
                     text: Finanzwissenschaften
@@ -713,11 +713,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/geschichte
+                          href: /geschichte
                           target: null
                           rel: null
                     text: Geschichte
@@ -729,11 +729,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/kommunikationswissenschaften
+                          href: /kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikation
@@ -745,11 +745,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/marketing
+                          href: /marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -761,11 +761,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/medienwissenschaften
+                          href: /medienwissenschaften
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -777,11 +777,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/philosophie
+                          href: /philosophie
                           target: null
                           rel: null
                     text: Philosophie
@@ -793,11 +793,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziologie
+                          href: /soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -809,11 +809,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftsinformatik
+                          href: /wirtschaftsinformatik
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
@@ -827,11 +827,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/biologie
+                          href: /biologie
                           target: null
                           rel: null
                     text: Biologie
@@ -843,11 +843,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/elektrotechnik
+                          href: /elektrotechnik
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -859,11 +859,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/geologie
+                          href: /geologie
                           target: null
                           rel: null
                     text: Geologie
@@ -875,11 +875,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/informatik
+                          href: /informatik
                           target: null
                           rel: null
                     text: Informatik
@@ -891,11 +891,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/kunst
+                          href: /kunst
                           target: null
                           rel: null
                     text: Kunst
@@ -907,11 +907,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/maschinenbau
+                          href: /maschinenbau
                           target: null
                           rel: null
                     text: Maschinenbau
@@ -923,11 +923,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/medizin
+                          href: /medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -939,11 +939,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/psychologie
+                          href: /psychologie
                           target: null
                           rel: null
                     text: Psychologie
@@ -955,11 +955,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/sprachwissenschaften
+                          href: /sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften
@@ -971,11 +971,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -1120,7 +1120,7 @@ replicator:
               Bachelorarbeit. Neben Themenwahl und Literaturrecherche stehe auf
               der To Do Liste auch die Anwendung formaler Richtlinien. Außerdem
               müssen Studenten nach Ansprechpartnern als Betreuer der
-              Bachelorarbeit oder zum 
+              Bachelorarbeit oder zum
           - type: text
             marks:
               - type: link
@@ -1130,7 +1130,7 @@ replicator:
                   rel: null
             text: Korrekturlesen
           - type: text
-            text: ' suchen.'
+            text: " suchen."
       - type: paragraph
         content:
           - type: text
@@ -1153,7 +1153,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Formatierungsrichtlinien und Kriterien werden durch die
               jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige
@@ -1171,7 +1171,7 @@ replicator:
                   rel: null
             text: Gliederung
           - type: text
-            text: ' einer Masterarbeit'
+            text: " einer Masterarbeit"
       - type: bullet_list
         content:
           - type: list_item
@@ -1182,8 +1182,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /gwriters-akademie/deckblatt-vorlage
@@ -1200,8 +1200,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /blog/bachelorarbeit-abstract
@@ -1216,8 +1216,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Vorwort
           - type: list_item
             content:
@@ -1227,8 +1227,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /gwriters-akademie/inhaltsverzeichnis-vorlage
@@ -1243,8 +1243,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /gwriters-akademie/abbildungsverzeichnis
@@ -1255,15 +1255,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '- und '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: "- und "
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /gwriters-akademie/tabellenverzeichnis-beispiel
@@ -1278,8 +1278,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /gwriters-akademie/abkuerzungsverzeichnis
@@ -1294,8 +1294,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /blog/bachelorarbeit-einleitung
@@ -1310,8 +1310,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Hauptteil
           - type: list_item
             content:
@@ -1321,8 +1321,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Schlussteil/Fazit
           - type: list_item
             content:
@@ -1332,8 +1332,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /gwriters-akademie/literaturverzeichnis-beispiel
@@ -1348,8 +1348,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /gwriters-akademie/anhangsverzeichnis
@@ -1364,8 +1364,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /gwriters-akademie/eidesstattliche-erklaerung-muster
@@ -1378,19 +1378,19 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen,
               sowohl im Literaturverzeichnis noch in der Fußnote. Wie ein Zitat
               aufgebaut sein soll und welche Regeln hierbei gehalten werden
-              müssen, erfahren Sie in einzelnen Etappen 
+              müssen, erfahren Sie in einzelnen Etappen
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/literaturquellen-richtig-zitieren
@@ -1401,15 +1401,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: .
       - type: heading
         attrs:
           level: 2
         content:
           - type: text
-            text: 'Allgemeine Formatierungsrichtlinien einer Bachelorarbeit '
+            text: "Allgemeine Formatierungsrichtlinien einer Bachelorarbeit "
       - type: bullet_list
         content:
           - type: list_item
@@ -1417,19 +1417,19 @@ replicator:
               - type: paragraph
                 content:
                   - type: text
-                    text: 'Schriftart: Times New Roman (oder Arial Größe 11) '
+                    text: "Schriftart: Times New Roman (oder Arial Größe 11) "
           - type: list_item
             content:
               - type: paragraph
                 content:
                   - type: text
-                    text: 'Schriftgröße: 12 Punkt'
+                    text: "Schriftgröße: 12 Punkt"
           - type: list_item
             content:
               - type: paragraph
                 content:
                   - type: text
-                    text: 'Zeilenabstand: 1,5'
+                    text: "Zeilenabstand: 1,5"
           - type: list_item
             content:
               - type: paragraph
@@ -1443,7 +1443,7 @@ replicator:
               - type: paragraph
                 content:
                   - type: text
-                    text: 'Absatzformat: Blocksatz (auf Trennung achten)'
+                    text: "Absatzformat: Blocksatz (auf Trennung achten)"
           - type: list_item
             content:
               - type: paragraph
@@ -1465,7 +1465,7 @@ replicator:
               - type: paragraph
                 content:
                   - type: text
-                    text: 'Fußnoten: Schriftgröße 10 '
+                    text: "Fußnoten: Schriftgröße 10 "
           - type: list_item
             content:
               - type: paragraph
@@ -1482,7 +1482,7 @@ replicator:
             type: button
             button_link: /anfrage
             button_text: JETZT KOSTENLOS ANFRAGEN
-            color: '#FF6606'
+            color: "#FF6606"
             spacing_top: false
       - type: horizontal_rule
       - type: heading
@@ -1509,7 +1509,7 @@ replicator:
             text: >-
               Die Kosten für das Schreiben lassen einer Bachelorarbeit werden
               bei unseren Ghostwritern von einigen Faktoren beeinflusst. Einen
-              groben Überblick über unsere Kosten bietet Ihnen 
+              groben Überblick über unsere Kosten bietet Ihnen
           - type: text
             marks:
               - type: link
@@ -1521,7 +1521,7 @@ replicator:
           - type: text
             text: >-
               . Für ein individuelles und unverbindliches Kostenangebot können
-              Sie einfach & schnell 
+              Sie einfach & schnell
           - type: text
             marks:
               - type: bold
@@ -1532,13 +1532,13 @@ replicator:
                   rel: null
             text: unser Anfrageformular
           - type: text
-            text: ' nutzen.'
+            text: " nutzen."
       - type: heading
         attrs:
           level: 3
         content:
           - type: text
-            text: 'Zu den Kostenfaktoren einer Bachelorarbeit gehören:'
+            text: "Zu den Kostenfaktoren einer Bachelorarbeit gehören:"
       - type: bullet_list
         content:
           - type: list_item
@@ -1592,7 +1592,7 @@ replicator:
               Bei GWriters können Sie jederzeit qualitativ hochwertige
               Mustervorlagen für Ihre Bachelorarbeit kaufen. Dies ermöglichen
               wir durch unser breit aufgestelltes und hochqualifiziertes
-              Expertenteam. Dennoch schließt die 
+              Expertenteam. Dennoch schließt die
           - type: text
             marks:
               - type: link
@@ -1602,7 +1602,7 @@ replicator:
                   rel: null
             text: Beauftragung von akademischen Experten
           - type: text
-            text: ' keine gründliche Einarbeitung in das Thema aus. Schließlich soll ein Unikat entstehen, welches für den Kunden individuell geschrieben wird.'
+            text: " keine gründliche Einarbeitung in das Thema aus. Schließlich soll ein Unikat entstehen, welches für den Kunden individuell geschrieben wird."
       - type: paragraph
         content:
           - type: text
@@ -1633,7 +1633,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Einige Fachbereiche zeichnen sich beim wissenschaftlichen
               Schreiben durch eine höhere Komplexität aus als andere. Daher
@@ -1668,7 +1668,7 @@ replicator:
           level: 3
         content:
           - type: text
-            text: 'Kostenumfang der Bachelorarbeit '
+            text: "Kostenumfang der Bachelorarbeit "
       - type: paragraph
         content:
           - type: text

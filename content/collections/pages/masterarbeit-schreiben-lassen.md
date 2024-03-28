@@ -101,10 +101,9 @@ teaser:
             type: bold
         text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
   -
-    type: heading
+    type: paragraph
     attrs:
       textAlign: center
-      level: 2
     content:
       -
         type: text
@@ -116,6 +115,8 @@ teaser:
               rel: null
               target: null
               title: null
+          -
+            type: bold
           -
             type: textColor
             attrs:
@@ -140,7 +141,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Masterarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                        Sie möchten sich Ihre <b>Masterarbeit schreiben lassen</b>? Bei der Ghostwriting Agentur GWriters stoßen Sie auf den perfekten akademischen <b>Ghostwriter für Ihre Masterarbeit</b>, der Ihre persönlichen Anforderungen voll und ganz erfüllt. Wählen Sie aus einem breiten Spektrum akademischer Disziplinen – von Sozialwissenschaften über BWL und VWL bis hin zu Mathematik – und überlassen Sie Ihr wissenschaftliches Projekt einem Expertenteam, das sich ausschließlich aus erfahrenen Akademikern, Doktoren und Professoren zusammensetzt.
                       </p>
               -
                 type: heading
@@ -173,87 +174,252 @@ replicator:
                                   target: null
                                   title: null
                             text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Masterarbeit'
+                  -
+                    type: listItem
+                    content:
                       -
-                        type: bulletList
+                        type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
-                            type: listItem
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: paragraph
+                                type: link
                                 attrs:
-                                  textAlign: left
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#zusammenarbeit'
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: "Mustervorlage für Masterarbeit schreiben\_lassen"
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#zusammenarbeit'
-                                          rel: null
-                                          target: null
-                                          title: null
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#zusammenarbeit'
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: '– Wie funktioniert die Kooperation?'
+                                  href: '#zusammenarbeit'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: "Mustervorlage für Masterarbeit schreiben\_lassen – Unsere Garantien"
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
                           -
-                            type: listItem
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: paragraph
+                                type: link
                                 attrs:
-                                  textAlign: left
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#beispiel'
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Kostenlos: Beispiel-Masterarbeit '
+                                  href: '#beispiel'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Kostenlos: Beispiel-Masterarbeit '
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
                           -
-                            type: listItem
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: paragraph
+                                type: link
                                 attrs:
-                                  textAlign: left
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#grund'
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Ghostwriter Masterarbeit: Warum sollte man sich helfen lassen?'
+                                  href: '#grund'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Ghostwriter Masterarbeit: Warum sollte man sich helfen lassen?'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lu2sqkm7
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: LZ0DJkkk
+            bard:
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#bwl-masterarbeit-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'BWL Masterarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#germanistik-masterarbeit-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Germanistik Masterarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#ingenieurwissenschaften-masterarbeit-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Ingenieurwissenschaften Masterarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#marketing-masterarbeit-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Marketing Masterarbeit schreiben lassen'
+            show_as_card: false
+          -
+            id: lu2sr0tw
+            bard:
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#mathematik-masterarbeit-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Mathematik Masterarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#sozialwissenschaften-masterarbeit-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Sozialwissenschaften Masterarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#vwl-masterarbeit-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'VWL Masterarbeit schreiben lassen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: '#wirtschaftswissenschaften-masterarbeit-ghostwriter'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Wirtschaftswissenschaften Masterarbeit schreiben lassen'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: lu2swds3
+        single_col: true
+        grid:
+          -
+            id: LZ0DJkkk
+            bard:
+              -
+                type: bulletList
+                content:
                   -
                     type: listItem
                     content:
@@ -273,28 +439,25 @@ replicator:
                                   target: null
                                   title: null
                             text: 'Mehr zum Master-Studium'
+                  -
+                    type: listItem
+                    content:
                       -
-                        type: bulletList
+                        type: paragraph
+                        attrs:
+                          textAlign: left
                         content:
                           -
-                            type: listItem
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: paragraph
+                                type: link
                                 attrs:
-                                  textAlign: left
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#ablauf'
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Wie schreibt man eine Masterarbeit?'
+                                  href: '#ablauf'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Wie schreibt man eine Masterarbeit?'
                   -
                     type: listItem
                     content:
@@ -380,17 +543,12 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    text: 'Services anhand unserer Kundenstimmen'
+                    text: 'Masterarbeit-Ghostwriter Erfahrungen unserer Kunden'
               -
                 type: heading
                 attrs:
                   textAlign: center
-                  level: 4
+                  level: 3
                 content:
                   -
                     type: text
@@ -581,22 +739,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#000!important'
-                    text: "Mustervorlage für Masterarbeit schreiben\_lassen"
-                  -
-                    type: hardBreak
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                    text: '– Wie funktioniert die Kooperation?'
+                    text: 'Masterarbeit Ghostwriting: Unsere Garantien für Sie'
               -
                 type: set
                 attrs:
@@ -611,6 +754,613 @@ replicator:
         columns_per_row: 0
       -
         id: lalg3vtx
+        columns_per_row: 4
+        single_col: true
+        grid:
+          -
+            id: rMynGq5i
+            bard:
+              -
+                type: set
+                attrs:
+                  id: gpAUPzAG
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/security.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: lu2gmyfc
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Datenschutz & 100% Anonymität'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Agentur '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantiert Diskretion & Ihre Anonymität '
+                  -
+                    type: text
+                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+              -
+                type: set
+                attrs:
+                  id: lu2gny7h
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+          -
+            id: lalg3xcf
+            bard:
+              -
+                type: set
+                attrs:
+                  id: WWuHXJL7
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: lu2gopvc
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Kostenlose Änderung nach Ihrem Feedback'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Wir passen die Ausarbeitung Ihrer Masterarbeit gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sie zufrieden sind!'
+              -
+                type: set
+                attrs:
+                  id: lu2gpao2
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+          -
+            id: lalg3yqv
+            bard:
+              -
+                type: set
+                attrs:
+                  id: CRFTCIG1
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/stopwatch.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: lu2grmfa
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Schnelle & pünktliche Lieferung'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren die pünktliche Lieferung'
+                  -
+                    type: text
+                    text: ' Ihrer Ausarbeitung! Wir liefern Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+              -
+                type: set
+                attrs:
+                  id: lu2gqvmr
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+          -
+            id: lalg3zn6
+            bard:
+              -
+                type: set
+                attrs:
+                  id: XnRBnsDQ
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/magistrate.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  id: lu2gsuj6
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Top-Qualität von Experten'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Akademischen Experten, die sonst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' arbeiten, verfassen Ihre Mustervorlage. So garantieren wir die richtige Qualität Ihrer Ausarbeitung.'
+              -
+                type: set
+                attrs:
+                  id: lu2gt5dx
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: lu2iurjg
+        single_col: true
+        grid:
+          -
+            id: 8tOSkm7N
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lu2iv7h2
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: set
+                attrs:
+                  id: lu2j0387
+                  values:
+                    type: spacer
+                    padding-y: 15
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lu2l4k4e
+        single_col: true
+        grid:
+          -
+            id: Xzv8SzWK
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fachbereiche: Für welche Masterstudiengänge kann ich eine Mustervorlage erstellen lassen?'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Sie haben die Möglichkeit, Vorlagen für Ihre Masterarbeit in nahezu jedem Fachbereich erstellen zu lassen. Weitere Informationen finden Sie hier.'
+              -
+                type: set
+                attrs:
+                  id: lu2l9z29
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
+                      -
+                        id: lu2la1ti
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'BWL Masterarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lu2laxl0
+                              values:
+                                type: anchor_target
+                                anchor_name: bwl-masterarbeit-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere Ghostwriter im Bereich Betriebswirtschaftslehre unterstützen Sie mit Fachwissen und praxisorientierten Einsichten bei Ihrer Masterarbeit. Von Finanzmanagement über Marketing bis zu Organisationsentwicklung, sie bieten analytische Tiefe und innovative Lösungen für ein breites Themenspektrum. Mit Zugang zu aktuellen Forschungen helfen sie Ihnen, komplexe BWL-Probleme zu entschlüsseln und Ihre Arbeit sowohl wissenschaftlich fundiert als auch praxisrelevant zu gestalten. Ziel ist es, eine Masterarbeit zu erstellen, die akademische Exzellenz mit realweltlicher Anwendbarkeit verbindet.'
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lc0zf
+                              values:
+                                type: button
+                                button_link: 'entry::89bfdf0d-d156-4ee5-9575-09e85f7e3655'
+                                button_text: 'Ghostwriter BWL'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                          -
+                            type: paragraph
+                        active: false
+                      -
+                        id: lu2lctmt
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Germanistik Masterarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lu2ld93f
+                              values:
+                                type: anchor_target
+                                anchor_name: germanistik-masterarbeit-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere Experten im Fachbereich Germanistik bringen umfassendes Wissen in Literatur, Sprachwissenschaft und Kulturgeschichte mit. Sie sind bestens vertraut mit den aktuellen Diskursen und Theorien und können auf eine breite Palette von Quellen und Forschungsliteratur zurückgreifen. Egal, ob es um die Analyse literarischer Texte, linguistische Untersuchungen oder kulturgeschichtliche Forschungen geht, unsere Ghostwriter unterstützen Sie mit ihrer Expertise bei der Konzeption, Recherche und Verfassung Ihrer Masterarbeit in Germanistik. Ein besonderer Fokus liegt dabei auf der kritischen Auseinandersetzung mit Texten sowie auf der Anwendung moderner methodischer Ansätze.'
+                          -
+                            type: set
+                            attrs:
+                              id: lu2ldurc
+                              values:
+                                type: button
+                                button_link: 'entry::6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f'
+                                button_text: 'Ghostwriter Germanistik'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                          -
+                            type: paragraph
+                        active: false
+                      -
+                        id: lu2lg7wc
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Ingenieurwissenschaften Masterarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lggzf
+                              values:
+                                type: anchor_target
+                                anchor_name: ingenieurwissenschaften-masterarbeit-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'In den Ingenieurwissenschaften ist die Verbindung von theoretischem Wissen und praktischer Anwendung entscheidend. Unsere Ghostwriter haben nicht nur in ihren jeweiligen Fachbereichen wie Maschinenbau, Elektrotechnik oder Bauingenieurwesen einen wissenschaftlichen Abschluss, sondern bringen auch praktische Erfahrungen aus der Industrie oder Forschungseinrichtungen mit. Dies ermöglicht es ihnen, aktuelle Forschungsfragen zu bearbeiten, innovative Lösungsansätze zu entwickeln und Ihre Masterarbeit mit fundierten Kenntnissen zu untermauern. Von der Entwicklung komplexer Modelle bis hin zur Anwendung spezifischer Software oder experimenteller Methoden – wir bieten Ihnen professionelle Unterstützung.'
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lhhdr
+                              values:
+                                type: button
+                                button_link: 'entry::b76dc919-f8fb-400e-86bc-ddb33ec06cb8'
+                                button_text: 'Ghostwriter Ingenieurwissenschaften'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                          -
+                            type: paragraph
+                        active: false
+                      -
+                        id: lu2lifpu
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Marketing Masterarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lu2liplh
+                              values:
+                                type: anchor_target
+                                anchor_name: marketing-masterarbeit-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Im dynamischen Feld des Marketings müssen Ghostwriter nicht nur über fundiertes Fachwissen, sondern auch über ein tiefes Verständnis aktueller Marktrends und Konsumentenverhaltensweisen verfügen. Unsere Experten unterstützen Sie bei der Erstellung Ihrer Masterarbeit in Themenbereichen wie digitales Marketing, Verbraucherpsychologie, Markenmanagement oder strategische Marktanalyse. Durch ihre Erfahrung in der Marketingpraxis und kontinuierliche Weiterbildung sind sie in der Lage, innovative Marketingstrategien zu entwickeln, umfangreiche Marktanalysen durchzuführen und effektive Kommunikationspläne zu entwerfen.'
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lj7um
+                              values:
+                                type: button
+                                button_text: 'Ghostwriter Marketing'
+                                color: '#FF6606'
+                                spacing_top: true
+                                button_link: 'entry::1f00cb9f-f41d-4dec-b33f-df5243fa7c17'
+                                button_align: justify-start
+                          -
+                            type: paragraph
+                        active: false
+                      -
+                        id: lu2lnpyn
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Mathematik Masterarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lnzq0
+                              values:
+                                type: anchor_target
+                                anchor_name: mathematik-masterarbeit-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Mathematik ist ein grundlegendes Werkzeug in vielen Wissenschafts- und Ingenieurdisziplinen und erfordert ein hohes Maß an Präzision und Abstraktionsvermögen. Unsere Ghostwriter in Mathematik sind Experten in ihren Spezialgebieten, sei es in reiner Mathematik, angewandter Mathematik oder statistischen Methoden. Sie unterstützen Sie bei der Entwicklung mathematischer Modelle, der Durchführung komplexer Berechnungen und der Anwendung statistischer Verfahren zur Datenanalyse. Egal, ob es um Optimierungsprobleme, Differentialgleichungen oder komplexe Datenstrukturen geht, wir helfen Ihnen, die Forschungsfragen Ihrer Masterarbeit präzise zu beantworten.'
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lpa3s
+                              values:
+                                type: button
+                                button_link: 'entry::f501c52c-7217-448e-bb53-d6f84c7e51c8'
+                                button_text: 'Ghostwriter Mathematik'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                          -
+                            type: paragraph
+                        active: false
+                      -
+                        id: lu2lq6os
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Sozialwissenschaften Masterarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lq9un
+                              values:
+                                type: anchor_target
+                                anchor_name: sozialwissenschaften-masterarbeit-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Sozialwissenschaften befassen sich mit der Analyse und Interpretation menschlichen Verhaltens, sozialer Strukturen und kultureller Phänomene. Unsere Ghostwriter sind in Disziplinen wie Soziologie, Politikwissenschaft, Anthropologie oder Erziehungswissenschaft ausgebildet und verfügen über umfangreiche Erfahrungen in der Anwendung qualitativer und quantitativer Forschungsmethoden. Sie unterstützen Sie bei der Erstellung Ihrer Masterarbeit durch fundierte Theoriearbeit, sorgfältige Datenanalyse und die Entwicklung von Forschungsdesigns, die tiefgreifende Einblicke in soziale Prozesse und Strukturen ermöglichen.'
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lqihg
+                              values:
+                                type: button
+                                button_link: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+                                button_text: 'Ghostwriter Sozialwissenschaften'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                          -
+                            type: paragraph
+                        active: false
+                      -
+                        id: lu2ltiv3
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'VWL Masterarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lu2ltr60
+                              values:
+                                type: anchor_target
+                                anchor_name: vwl-masterarbeit-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Volkswirtschaftslehre ist ein Fachbereich, der nicht nur theoretisches Verständnis, sondern auch die Fähigkeit zur Analyse komplexer wirtschaftlicher Zusammenhänge erfordert. Unsere Ghostwriter in VWL sind Experten in Makroökonomie, Mikroökonomie, Entwicklungsökonomie und vielen anderen Teilgebieten. Sie unterstützen Sie bei der Entwicklung von ökonomischen Modellen, der Durchführung empirischer Analysen und der Anwendung ökonometrischer Methoden. Durch ihre akademische und praktische Erfahrung können sie aktuelle wirtschaftliche Fragestellungen aufgreifen und fundierte Lösungsansätze bieten.'
+                          -
+                            type: set
+                            attrs:
+                              id: lu2ltyll
+                              values:
+                                type: button
+                                button_link: 'entry::06fbb3f4-51c2-4f11-832e-9b72a495857d'
+                                button_text: 'Ghostwriter VWL'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                          -
+                            type: paragraph
+                        active: false
+                      -
+                        id: lu2lv41j
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                text: 'Wirtschaftswissenschaften Masterarbeit schreiben lassen'
+                        accordion_content:
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lvbew
+                              values:
+                                type: anchor_target
+                                anchor_name: wirtschaftswissenschaften-masterarbeit-ghostwriter
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere Ghostwriter im Bereich Wirtschaftswissenschaften kombinieren fundiertes Fachwissen mit praxisnahen Einblicken, um Ihnen bei Ihrer Masterarbeit zur Seite zu stehen. Spezialisiert auf Themen wie Unternehmensstrategie, Finanzmärkte, Wirtschaftspolitik und vieles mehr nutzen sie aktuelle Forschungserkenntnisse für die Analyse und Entwicklung innovativer Lösungsansätze. Sie unterstützen bei der empirischen Untersuchung, der Anwendung ökonomischer Theorien und der Erarbeitung praxisrelevanter Erkenntnisse. Egal ob es um Marktanalysen, politische Entscheidungsprozesse oder die Evaluation von Geschäftsmodellen geht – unsere Experten helfen, Ihre Arbeit wissenschaftlich fundiert und gleichzeitig anwendungsorientiert zu gestalten.'
+                          -
+                            type: set
+                            attrs:
+                              id: lu2lvihx
+                              values:
+                                type: button
+                                button_link: 'entry::f6b25bd5-5d78-4383-94fb-61ced5ca56ed'
+                                button_text: 'Ghostwriter Wirtschaftswissenschaften'
+                                color: '#FF6606'
+                                button_align: justify-start
+                                spacing_top: true
+                          -
+                            type: paragraph
+                        active: false
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lu2gkuzk
         columns_per_row: 4
         single_col: true
         grid:
@@ -727,7 +1477,7 @@ replicator:
                     text: 'Die finale Lieferung erhalten Sie garantiert frei von Plagiaten dank professioneller Plagiatsprüfung und durch ein Lektorat nach unserem 4-Augen-Prinzip auf Qualität geprüft. Falls Sie Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.'
             show_as_card: false
         type: row
-        enabled: true
+        enabled: false
         responsive_columns: 0
     remove_spacing: false
     is_full: false
@@ -888,261 +1638,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: 5myvGzLj
-    columns_replicator:
-      -
-        id: 3KMdxTHS
-        single_col: true
-        grid:
-          -
-            id: doaYOIy2
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Garantien für Sie'
-              -
-                type: set
-                attrs:
-                  id: PhS751Ja
-                  values:
-                    type: spacer
-                    padding-y: 15
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: Lqus8Zof
-        columns_per_row: 4
-        grid:
-          -
-            id: OVygIfhl
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: k0dP0vG7
-                  values:
-                    type: custom_svg_width
-                    svg_file: leistung/icons/security.svg
-                    custom_svg_width: 65
-              -
-                type: set
-                attrs:
-                  id: 5rvHdoS6
-                  values:
-                    type: spacer
-                    padding-y: 10
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Datenschutz & 100% Anonymität'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wir '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'garantieren Ihre Anonymität '
-                  -
-                    type: text
-                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
-              -
-                type: set
-                attrs:
-                  id: U31buXSt
-                  values:
-                    type: spacer
-                    padding-y: 10
-            show_as_card: false
-          -
-            id: RtaZ2dno
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: 62RxzmwG
-                  values:
-                    type: custom_svg_width
-                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom_svg_width: 65
-              -
-                type: set
-                attrs:
-                  id: cbfiQHwy
-                  values:
-                    type: spacer
-                    padding-y: 10
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Kostenlose Änderung nach Ihrem Feedback im Preis enthalten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Sie zufrieden sind!'
-              -
-                type: set
-                attrs:
-                  id: C72MQmHY
-                  values:
-                    type: spacer
-                    padding-y: 10
-            show_as_card: false
-          -
-            id: gPkmiz9r
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: I5NWpECK
-                  values:
-                    type: custom_svg_width
-                    svg_file: leistung/icons/stopwatch.svg
-                    custom_svg_width: 65
-              -
-                type: set
-                attrs:
-                  id: LiJXQKfa
-                  values:
-                    type: spacer
-                    padding-y: 10
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Schnelle & pünktliche Lieferung'
-                attrs:
-                  textAlign: start
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wir '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'garantieren die pünktliche Lieferung'
-                  -
-                    type: text
-                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage und alle Ergebnisse zum vereinbarten Datum in lektorierter & finaler Form.'
-              -
-                type: set
-                attrs:
-                  id: HUqmUZZe
-                  values:
-                    type: spacer
-                    padding-y: 10
-            show_as_card: false
-          -
-            id: QyVt7cph
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  id: Iojek3V5
-                  values:
-                    type: custom_svg_width
-                    svg_file: leistung/icons/magistrate.svg
-                    custom_svg_width: 65
-              -
-                type: set
-                attrs:
-                  id: GDZ9itXz
-                  values:
-                    type: spacer
-                    padding-y: 10
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Top-Qualität von Experten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Akademischen Experten die sonst als '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Doktoren & Professoren'
-                  -
-                    type: text
-                    text: ' arbeiten, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung.'
-              -
-                type: set
-                attrs:
-                  id: X2CExsez
-                  values:
-                    type: spacer
-                    padding-y: 10
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: true
-        responsive_columns: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
     id: lalfm5os
     columns_replicator:
       -
@@ -1239,7 +1734,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           rel: null
                           target: null
                           title: null
@@ -1467,7 +1962,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/architektur
+                                          href: /architektur
                                           target: null
                                           rel: null
                                     text: 'Architektur Ghostwriter'
@@ -1479,7 +1974,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/bauingenieurwesen
+                                          href: /bauingenieurwesen
                                           target: null
                                           rel: null
                                     text: 'Bauingenieurwesen Ghostwriter'
@@ -1491,7 +1986,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/elektrotechnik
+                                          href: /elektrotechnik
                                           target: null
                                           rel: null
                                     text: 'Elektrotechnik Ghostwriter'
@@ -1503,7 +1998,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/maschinenbau
+                                          href: /maschinenbau
                                           target: null
                                           rel: null
                                     text: 'Maschinenbau Ghostwriter'
@@ -1515,7 +2010,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/informatik
+                                          href: /informatik
                                           target: null
                                           rel: null
                                     text: 'Informatik Ghostwriter'
@@ -1527,7 +2022,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          href: '/informatik#Softwarelokalisierung'
                                           target: null
                                           rel: null
                                     text: 'Softwarelokalisierung Ghostwriter'
@@ -1539,7 +2034,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          href: '/biologie#biotechnologie'
                                           target: null
                                           rel: null
                                     text: 'Biotechnologie Ghostwriter'
@@ -1554,7 +2049,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/technomathematik
+                                          href: /technomathematik
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Technomathematik'
@@ -1566,7 +2061,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/ingenieurwissenschaften
+                                          href: /ingenieurwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Ingenieurwissenschaften'
@@ -1583,7 +2078,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/biologie
+                                          href: /biologie
                                           target: null
                                           rel: null
                                     text: 'Biologie Ghostwriter'
@@ -1595,7 +2090,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/chemie
+                                          href: /chemie
                                           target: null
                                           rel: null
                                     text: 'Chemie Ghostwriter'
@@ -1607,7 +2102,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geologie
+                                          href: /geologie
                                           target: null
                                           rel: null
                                     text: 'Geologie Ghostwriter'
@@ -1619,7 +2114,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geowissenschaften
+                                          href: /geowissenschaften
                                           target: null
                                           rel: null
                                     text: 'Geowissenschaften Ghostwriter'
@@ -1631,7 +2126,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/mathematik
+                                          href: /mathematik
                                           target: null
                                           rel: null
                                     text: 'Mathematik Ghostwriter'
@@ -1643,7 +2138,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/agrarwissenschaften
+                                          href: /agrarwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Agrarwissenschaften'
@@ -1660,7 +2155,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          href: /erziehungswissenschaften-ghostwriter
                                           target: null
                                           rel: null
                                     text: 'Erziehungswissenschaften Ghostwriter'
@@ -1672,7 +2167,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/kommunikationswissenschaften
+                                          href: /kommunikationswissenschaften
                                           target: null
                                           rel: null
                                     text: 'Kommunikationswissenschaften Ghostwriter'
@@ -1684,7 +2179,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/soziale-arbeit
+                                          href: /soziale-arbeit
                                           target: null
                                           rel: null
                                     text: 'Soziale Arbeit Ghostwriter'
@@ -1696,7 +2191,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/sozialwissenschaften
+                                          href: /sozialwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Sozialwissenschaften Ghostwriter'
@@ -1708,7 +2203,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/soziologie
+                                          href: /soziologie
                                           target: null
                                           rel: null
                                     text: 'Soziologie Ghostwriter'
@@ -1720,7 +2215,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/sprachwissenschaften
+                                          href: /sprachwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Sprachwissenschaften Ghostwriter'
@@ -1732,7 +2227,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          href: '/kommunikationswissenschaften#kommunikationsdesign'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kommunikationsdesign'
@@ -1752,7 +2247,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/finanzwissenschaften
+                                          href: /finanzwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Finanzwissenschaften Ghostwriter'
@@ -1764,7 +2259,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/medienwissenschaften
+                                          href: /medienwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Medienwissenschaften Ghostwriter'
@@ -1776,7 +2271,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/bwl
+                                          href: /bwl
                                           target: null
                                           rel: null
                                     text: 'BWL Ghostwriter'
@@ -1788,7 +2283,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/marketing
+                                          href: /marketing
                                           target: null
                                           rel: null
                                     text: 'Marketing Ghostwriter'
@@ -1800,7 +2295,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftsinformatik
+                                          href: /wirtschaftsinformatik
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftsinformatik Ghostwriter'
@@ -1812,7 +2307,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftswissenschaften
+                                          href: /wirtschaftswissenschaften
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftswissenschaften Ghostwriter'
@@ -1824,7 +2319,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/personalmanagement
+                                          href: /personalmanagement
                                           target: null
                                           rel: null
                                     text: 'Personalmanagement Ghostwriter'
@@ -1857,7 +2352,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/germanistik-ghostwriter
+                                          href: /germanistik-ghostwriter
                                           target: null
                                           rel: null
                                     text: 'Germanistik Ghostwriter'
@@ -1869,7 +2364,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/anglistik
+                                          href: /anglistik
                                           target: null
                                           rel: null
                                     text: 'Anglistik Ghostwriter'
@@ -1881,7 +2376,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geschichte
+                                          href: /geschichte
                                           target: null
                                           rel: null
                                     text: 'Geschichte Ghostwriter'
@@ -1893,7 +2388,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/kunst
+                                          href: /kunst
                                           target: null
                                           rel: null
                                     text: 'Kunst Ghostwriter'
@@ -1905,7 +2400,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/literatur
+                                          href: /literatur
                                           target: null
                                           rel: null
                                     text: 'Literatur Ghostwriter'
@@ -1917,7 +2412,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/jura
+                                          href: /jura
                                           target: null
                                           rel: null
                                     text: 'Jura Ghostwriter'
@@ -1929,7 +2424,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/philosophie
+                                          href: /philosophie
                                           target: null
                                           rel: null
                                     text: 'Philosophie Ghostwriter'
@@ -1941,7 +2436,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          href: '/kunst#kunstgeschichte'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kunstgeschichte'
@@ -1958,7 +2453,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/medizin
+                                          href: /medizin
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Medizin'
@@ -1970,7 +2465,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/pflegewissenschaften
+                                          href: /pflegewissenschaften
                                           target: null
                                           rel: null
                                     text: 'Pflegewissenschaften Ghostwriter'
@@ -1982,7 +2477,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/psychologie
+                                          href: /psychologie
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Psychologie'
@@ -1994,7 +2489,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/zahnmedizin
+                                          href: /zahnmedizin
                                           target: null
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
@@ -2081,1027 +2576,6 @@ replicator:
                                         type: link
                                         attrs:
                                           href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Masterthesis schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/doktorarbeit
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Doktorarbeit schreiben lassen'
-                          -
-                            id: ljoh8o20
-                            headline: 'Sonstige Arbeiten'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/ebook
-                                          target: null
-                                          rel: null
-                                    text: 'eBook schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/lernskript
-                                          target: null
-                                          rel: null
-                                    text: 'Lernskript schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/praesentationen
-                                          target: null
-                                          rel: null
-                                    text: 'Präsentationen erstellen lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/statistische-analysen
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Statistik'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /expose
-                                          target: null
-                                          rel: null
-                                    text: 'Exposé schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/referat
-                                          target: null
-                                          rel: null
-                                    text: 'Referat schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                attrs:
-                                  textAlign: start
-                          -
-                            id: ljoh9nu0
-                            headline: Studienarbeiten
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/essay
-                                          target: null
-                                          rel: null
-                                    text: 'Essay schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/hausarbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Hausarbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/facharbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Facharbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/seminararbeit-schreiben-lassen
-                                          target: null
-                                          rel: null
-                                    text: 'Seminararbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/studienarbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Studienarbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/fallstudie
-                                          target: null
-                                          rel: null
-                                    text: 'Fallstudie schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/praktikumsbericht
-                                          target: null
-                                          rel: null
-                                    text: 'Praktikumsbericht schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/projektarbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Projektarbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/summary
-                                          target: null
-                                          rel: null
-                                    text: 'Summary schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: textColor
-                                        attrs:
-                                          color: 'rgba(255,102,6,var(--tw-text-opacity)) !important'
-                                          hex: '#000'
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/protokoll
-                                          target: null
-                                          rel: null
-                                    text: 'Protokoll schreiben lassen'
-                                attrs:
-                                  textAlign: start
-              -
-                type: set
-                attrs:
-                  id: ljoh1u6i
-                  values:
-                    type: custom_link_list
-                    raster:
-                      -
-                        id: ljoh22s8
-                        text: Fachrichtungen
-                        eintraege:
-                          -
-                            id: ljoh2bsp
-                            headline: 'Technische Fachrichtungen'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/architektur
-                                          target: null
-                                          rel: null
-                                    text: 'Architektur Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/bauingenieurwesen
-                                          target: null
-                                          rel: null
-                                    text: 'Bauingenieurwesen Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/elektrotechnik
-                                          target: null
-                                          rel: null
-                                    text: 'Elektrotechnik Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/maschinenbau
-                                          target: null
-                                          rel: null
-                                    text: 'Maschinenbau Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/informatik
-                                          target: null
-                                          rel: null
-                                    text: 'Informatik Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
-                                          target: null
-                                          rel: null
-                                    text: 'Softwarelokalisierung Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/ghostwriter/biologie#biotechnologie'
-                                          target: null
-                                          rel: null
-                                    text: 'Biotechnologie Ghostwriter'
-                                  -
-                                    type: text
-                                    text: ' '
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/technomathematik
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Technomathematik'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/ingenieurwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Ingenieurwissenschaften'
-                          -
-                            id: ljoh2wxw
-                            headline: Naturwissenschaften
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/biologie
-                                          target: null
-                                          rel: null
-                                    text: 'Biologie Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/chemie
-                                          target: null
-                                          rel: null
-                                    text: 'Chemie Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/geologie
-                                          target: null
-                                          rel: null
-                                    text: 'Geologie Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/geowissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Geowissenschaften Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/mathematik
-                                          target: null
-                                          rel: null
-                                    text: 'Mathematik Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/agrarwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Agrarwissenschaften'
-                          -
-                            id: ljoh3l91
-                            headline: Sozialwissenschaften
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
-                                          target: null
-                                          rel: null
-                                    text: 'Erziehungswissenschaften Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/kommunikationswissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Kommunikationswissenschaften Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/soziale-arbeit
-                                          target: null
-                                          rel: null
-                                    text: 'Soziale Arbeit Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/sozialwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Sozialwissenschaften Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/soziologie
-                                          target: null
-                                          rel: null
-                                    text: 'Soziologie Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/sprachwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Sprachwissenschaften Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Kommunikationsdesign'
-                                  -
-                                    type: text
-                                    text: ' '
-                          -
-                            id: ljoh3x4b
-                            headline: 'Wirtschaftliche Fachbereiche'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/finanzwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Finanzwissenschaften Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/medienwissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Medienwissenschaften Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/bwl
-                                          target: null
-                                          rel: null
-                                    text: 'BWL Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/marketing
-                                          target: null
-                                          rel: null
-                                    text: 'Marketing Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/wirtschaftsinformatik
-                                          target: null
-                                          rel: null
-                                    text: 'Wirtschaftsinformatik Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/wirtschaftswissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Wirtschaftswissenschaften Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/personalmanagement
-                                          target: null
-                                          rel: null
-                                    text: 'Personalmanagement Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#Internationale'
-                                          target: null
-                                          rel: null
-                                    text: 'Internationale BWL Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: hardBreak
-                          -
-                            id: ljoh4b21
-                            headline: Geisteswissenschaften
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/germanistik-ghostwriter
-                                          target: null
-                                          rel: null
-                                    text: 'Germanistik Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/anglistik
-                                          target: null
-                                          rel: null
-                                    text: 'Anglistik Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/geschichte
-                                          target: null
-                                          rel: null
-                                    text: 'Geschichte Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/kunst
-                                          target: null
-                                          rel: null
-                                    text: 'Kunst Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/literatur
-                                          target: null
-                                          rel: null
-                                    text: 'Literatur Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/philosophie
-                                          target: null
-                                          rel: null
-                                    text: 'Philosophie Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '/ghostwriter/kunst#kunstgeschichte'
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Kunstgeschichte'
-                          -
-                            id: ljoh4l6j
-                            headline: 'Medizinische Fachrichtungen'
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/medizin
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Medizin'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/pflegewissenschaften
-                                          target: null
-                                          rel: null
-                                    text: 'Pflegewissenschaften Ghostwriter'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/psychologie
-                                          target: null
-                                          rel: null
-                                    text: 'Ghostwriter Psychologie'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /ghostwriter/zahnmedizin
-                                          target: null
-                                          rel: null
-                                    text: 'Zahnmedizin Ghostwriter'
-                      -
-                        id: ljoh1weq
-                        text: Arbeiten
-                        eintraege:
-                          -
-                            id: ljoh5n3s
-                            headline: Abschlussarbeiten
-                            content:
-                              -
-                                type: paragraph
-                                content:
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/diplomarbeit
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Diplomarbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/examensarbeit
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Examensarbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/magisterarbeit
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Magisterarbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Bachelorarbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: /arbeiten/masterarbeit-schreiben-lassen
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: 'Masterarbeit schreiben lassen'
-                                  -
-                                    type: hardBreak
-                                  -
-                                    type: text
-                                    marks:
-                                      -
-                                        type: link
-                                        attrs:
-                                          href: '#masterthesis-schreiben-lassen'
                                           rel: null
                                           target: null
                                           title: null
@@ -3993,7 +3467,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /ghostwriter/soziologie
+                                  href: /soziologie
                                   rel: null
                                   target: _blank
                                   title: null
@@ -4808,7 +4282,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           rel: null
                           target: null
                           title: null
@@ -5015,7 +4489,7 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Master'
-                          rel: 'noopener noreferrer nofollow'
+                          rel: 'noopener noreferrer'
                           target: _blank
                           title: null
                     text: 'Master - Wikipedia'
@@ -5028,7 +4502,7 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fcampus%2F2010%2F03%2FStudium-Master-Empfehlungsschreiben'
-                          rel: 'noopener noreferrer nofollow'
+                          rel: 'noopener noreferrer'
                           target: _blank
                           title: null
                     text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
@@ -5041,7 +4515,7 @@ replicator:
                         type: link
                         attrs:
                           href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
-                          rel: 'noopener noreferrer nofollow'
+                          rel: 'noopener noreferrer'
                           target: _blank
                           title: null
                     text: 'In der Bologna-Falle - FAZ'
@@ -5056,8 +4530,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705956700
+updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
+updated_at: 1711268227
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -5065,7 +4539,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Masterarbeit schreiben lassen | seriöse & diskrete Ghostwriter'
+meta_title: 'Masterarbeit schreiben lassen | seriöse Ghostwriter'
 meta_description: 'Masterarbeit schreiben lassen | Ghostwriter für Masterarbeiten unterstützen Studenten kompetent | 100% diskret & geprüft auf Qualität & Plagiate ✔️'
 og_title: 'Masterarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Masterarbeit schreiben lassen | Ghostwriter für Masterarbeiten unterstützen Studenten kompetent | 100% diskret & geprüft auf Qualität & Plagiate ✔️'

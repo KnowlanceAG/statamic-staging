@@ -15,13 +15,13 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: Was ist Ghostwriting?
       - type: set
         attrs:
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: "16"
       - type: paragraph
       - type: paragraph
         content:
@@ -31,7 +31,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriting
@@ -48,7 +48,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/was-ist-ein-ghostwriter
@@ -68,14 +68,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Ghostwriting zeichnet sich weiterhin durch die Abgabe aller Urheber- und Nutzungsrechte des ursprünglichen Autors an den Kunden aus. Der Text wird also im engen Dialog mit dem Kunden erstellt. Der Text wird dabei zum Eigentum des Kunden, obwohl dieser nicht selbst tätig war. Der ursprüngliche Autor bleibt unbekannt. Der Text entstand also wie von Geisterhand – von einem\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriter
@@ -90,10 +90,10 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter/geschichte
+                  href: /geschichte
                   target: null
                   rel: null
             text: Geschichte
@@ -110,7 +110,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq
@@ -134,7 +134,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

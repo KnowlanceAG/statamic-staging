@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Ghostwriter Marketing
   - type: paragraph
     content:
@@ -32,7 +32,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: paragraph
 teaser_bg: seiten/header-so-funktionierts.jpeg
@@ -44,7 +44,7 @@ updated_at: 1643740925
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
@@ -68,12 +68,12 @@ replicator:
                       marktorientierten Unternehmensführung, um den Bedürfnissen
                       der Kunden auf bestmögliche Art gerecht zu werden.
                       Aufgrund seiner Funktion als Treiber des unternehmerischen
-                      Absatzes, ist Marketing ein Bereich der 
+                      Absatzes, ist Marketing ein Bereich der
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: Betriebswirtschaftslehre
@@ -122,7 +122,7 @@ replicator:
                     text: >-
                       Wenn Sie für Ihre akademischen Arbeit im Fachbereich
                       Mathematik Ghostwriter suchen, dann können Sie uns gerne
-                      sofort eine 
+                      sofort eine
                   - type: text
                     marks:
                       - type: bold
@@ -163,7 +163,7 @@ replicator:
                       Marketingstudium als äußerst facettenreich dar. Aufgrund
                       des zeitintensiven und breit gefächerten Studiums
                       beauftragen nicht selten Studenten aus dem Bereich
-                      Marketing 
+                      Marketing
                   - type: text
                     marks:
                       - type: link
@@ -173,7 +173,7 @@ replicator:
                           rel: null
                     text: Ghostwriter
                   - type: text
-                    text: ' und Freelancer, die sie bei der Erstellung wissenschaftlicher Arbeiten unterstützen durch Mustervorlagen. Dies kann in Form einer umfassenden Textredaktion geschehen, jedoch auch einzelne Teilbereiche, wie das '
+                    text: " und Freelancer, die sie bei der Erstellung wissenschaftlicher Arbeiten unterstützen durch Mustervorlagen. Dies kann in Form einer umfassenden Textredaktion geschehen, jedoch auch einzelne Teilbereiche, wie das "
                   - type: text
                     marks:
                       - type: link
@@ -183,7 +183,7 @@ replicator:
                           rel: null
                     text: Lektorat
                   - type: text
-                    text: ' und '
+                    text: " und "
                   - type: text
                     marks:
                       - type: link
@@ -193,7 +193,7 @@ replicator:
                           rel: null
                     text: Korrektorat
                   - type: text
-                    text: ' und die Suche nach der passenden Literatur umfassen.'
+                    text: " und die Suche nach der passenden Literatur umfassen."
               - type: paragraph
                 content:
                   - type: text
@@ -221,7 +221,7 @@ replicator:
         enabled: true
         responsive_columns: 1
         single_col: false
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         grid:
           - bard:
               - type: paragraph
@@ -380,7 +380,7 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Akademische Arbeiten:'
+                    text: "Akademische Arbeiten:"
             show_as_card: false
         type: row
         enabled: true
@@ -394,7 +394,7 @@ replicator:
     remove_spacing: true
     border: false
   - columns_replicator:
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         grid:
           - bard:
               - type: paragraph
@@ -605,17 +605,17 @@ replicator:
                       Fachbereich haben, sondern auch darüber hinaus alle
                       Anforderungen dieses Fachbereichs erfüllen und weitere
                       akademische Abschlüsse in verwandten Fachbereichen wie
-                      beispielsweise BWL und 
+                      beispielsweise BWL und
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           target: null
                           rel: null
                     text: VWL
                   - type: text
-                    text: ' vorweisen können.'
+                    text: " vorweisen können."
               - type: paragraph
                 content:
                   - type: text
@@ -653,7 +653,7 @@ replicator:
                       Abhilfe und kann im Regelfall zeitnah eine passende Lösung
                       bieten, die Studenten entlastet und diesen hilft, sich auf
                       wichtige Prüfungen zu konzentrieren. Auch ist im
-                      Fachbereich Marketing 
+                      Fachbereich Marketing
                   - type: text
                     marks:
                       - type: link
@@ -663,7 +663,7 @@ replicator:
                           rel: null
                     text: Ghostwriting
                   - type: text
-                    text: ' nicht unüblich, da viele Studenten sich wertvolle Arbeitszeit sparen, indem Sie sich von einem Ghostwriter eine Mustervorlage schreiben lassen.'
+                    text: " nicht unüblich, da viele Studenten sich wertvolle Arbeitszeit sparen, indem Sie sich von einem Ghostwriter eine Mustervorlage schreiben lassen."
               - type: heading
                 attrs:
                   level: 2
@@ -723,7 +723,7 @@ replicator:
                     type: button
                     button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
                     button_text: JETZT KOSTENLOS ANFRAGEN
-                    color: '#FF6606'
+                    color: "#FF6606"
                     spacing_top: false
               - type: horizontal_rule
               - type: heading
@@ -741,7 +741,7 @@ replicator:
                       Marketing-Management, Sales-Management, aber auch Social
                       Networks und Marketing Communication. Aufgrund vieler
                       unterschiedlicher Leistungen, die in Form von Praktika
-                      oder wissenschaftlichen Arbeiten, wie einer Hausarbeit, 
+                      oder wissenschaftlichen Arbeiten, wie einer Hausarbeit,
                   - type: text
                     marks:
                       - type: link
@@ -751,7 +751,7 @@ replicator:
                           rel: null
                     text: Seminararbeit
                   - type: text
-                    text: ' oder Examensarbeit, in einem Kurs geleistet werden müssen, ist der Studiengang Marketing mit viel Arbeit und Fleiß verbunden. Viele Konzepte versprechen Lösungsmöglichkeiten für eine Problemstellung, wobei es gilt, die besten zu entwickeln und umzusetzen. Es erfordert nicht nur viel Motivation, Selbstdisziplin und Können, sondern auch einen enormen Zeitaufwand um das Marketingstudium mit den bestmöglichen Leistungen zu absolvieren.'
+                    text: " oder Examensarbeit, in einem Kurs geleistet werden müssen, ist der Studiengang Marketing mit viel Arbeit und Fleiß verbunden. Viele Konzepte versprechen Lösungsmöglichkeiten für eine Problemstellung, wobei es gilt, die besten zu entwickeln und umzusetzen. Es erfordert nicht nur viel Motivation, Selbstdisziplin und Können, sondern auch einen enormen Zeitaufwand um das Marketingstudium mit den bestmöglichen Leistungen zu absolvieren."
               - type: paragraph
                 content:
                   - type: text

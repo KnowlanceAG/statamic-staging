@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Ghostwriter Sozialwissenschaften
   - type: paragraph
     content:
@@ -79,7 +79,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: set
     attrs:
@@ -92,7 +92,7 @@ teaser:
       - type: text
         marks:
           - type: bold
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+        text: "Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:"
     attrs:
       textAlign: center
   - type: heading
@@ -105,13 +105,13 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
           - type: link
             attrs:
               href: tel:##phone##
               target: null
               rel: null
-        text: '##phone##'
+        text: "##phone##"
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
@@ -121,7 +121,7 @@ updated_at: 1674569087
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
@@ -178,8 +178,8 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie
                       hier eine Auswahl:
@@ -239,15 +239,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "Ein Studium der Sozialwissenschaften ist ein sehr interessantes, vielfältiges und abwechslungsreiches Studium. Das zeigt sich insbesondere darin, dass die Berufschancen danach sehr hoch sind. Aufgrund der hohen Anzahl von Absolventen in dieser Fachrichtung ist für eine sozialwissenschaftliche Karriere ein hervorragender Abschluss besonders wichtig, um sich von konkurrierenden Absolventen abzusetzen. Um die eigenen Chancen auf einen guten Abschluss zu steigern, werden im Fach der Sozialwissenschaften\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriter
@@ -260,8 +260,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /experten
@@ -274,8 +274,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Erfahrungen im akademischen und beruflichen Bereich
                   - type: text
                     text: .
@@ -285,8 +285,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Das Studium der Sozialwissenschaften prägt ein hoher
                       Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl
@@ -324,8 +324,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Unsere Leistungen im Fachbereich Sozialwissenschaften
               - type: set
                 attrs:
@@ -381,7 +381,7 @@ replicator:
                   values:
                     type: button
                     button_text: ALLE LEISTUNGEN IM FACHBEREICH Sozialwissenschaften
-                    color: '#FF6606'
+                    color: "#FF6606"
                     spacing_top: false
                     button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
               - type: paragraph
@@ -393,7 +393,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: "#F9F9F9"
     border: false
     type: add_section
     enabled: true
@@ -413,8 +413,8 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Wie können Sozialwissenschaften Ghostwriter helfen?
               - type: paragraph
                 content:
@@ -422,8 +422,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Ghostwriter der Sozialwissenschaften bringen ein
                       umfassendes Know-How mit, sowohl aus praktischer Sicht,
@@ -441,30 +441,30 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Im Studiengang der Sozialwissenschaften gilt
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' interdisziplinäres Denken'
+                          color: "#000!important"
+                          hex: "#000"
+                    text: " interdisziplinäres Denken"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: ", da sich hier enge Verbindungen zu den Fachrichtungen Betriebswirtschaftslehre und Volkswirtschaftslehre finden. Vor allem hier können Sozialwissenschaften Ghostwriter Sie zusammen mit anderen unserer Ghostwriter in einem interdisziplinären Team unterstützen. Eine ideale Unterstützung durch einen Ghostwriter kann beispielsweise in Form von Coaching oder bei der\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /blog/ghostwriter-abschlussarbeit-schreiben-lassen
@@ -477,15 +477,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
@@ -498,8 +498,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
@@ -512,8 +512,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
@@ -526,8 +526,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/masterarbeit-schreiben-lassen
@@ -538,15 +538,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' oder '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: " oder "
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/doktorarbeit
@@ -560,7 +560,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Das Studium der Sozialwissenschaften prägt ein hoher
                       Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl
@@ -568,21 +568,21 @@ replicator:
                       Fachbereich Sozialwissenschaften müssen eine Vielzahl von
                       Informationen aufnehmen und aufbereiten können. Gerade
                       hier können Ghostwriter aus dem Fachbereich
-                      Sozialwissenschaften 
+                      Sozialwissenschaften
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Sie als Student
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: ' unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
+                          hex: "#000"
+                    text: " unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten."
             show_as_card: false
         type: row
         enabled: true
@@ -607,16 +607,16 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "Wenn Sie bei Ihrer akademischen Arbeit im Studiengang Sozialwissenschaften Unterstützung benötigen, dann können Sie an unsere Agentur gerne sofort eine\_"
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /anfrage
@@ -649,7 +649,7 @@ replicator:
     type: add_section
     enabled: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: "#F9F9F9"
   - id: KU6desbi
     columns_replicator:
       - id: VU31hpFG
@@ -738,24 +738,24 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Warum sollte man '
+                    text: "Warum sollte man "
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Sozialwissenschaften
                   - type: text
-                    text: '-Ghostwriter beauftragen?'
+                    text: "-Ghostwriter beauftragen?"
               - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Die Aufgaben eines Ghostwriters in den
                       Sozialwissenschaften sind, Sie in Ihrer Studienzeit zu
@@ -765,68 +765,68 @@ replicator:
                       aber auch die Erstellung von Mustervorlagen für
                       Hausarbeiten, Bachelorarbeiten, Masterarbeiten oder
                       Doktorarbeiten sind Themenstellungen, die einen
-                      Ghostwriter in den Sozialwissenschaften betreffen. 
+                      Ghostwriter in den Sozialwissenschaften betreffen.
               - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Hierzu ist ein '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: "Hierzu ist ein "
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: fachliches Know-How
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' notwendig, aber auch '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: " notwendig, aber auch "
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: entsprechende Kenntnisse in der englischen Sprache
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. Denn eine Vielzahl der '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: ". Denn eine Vielzahl der "
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Literatur aus dem angloamerikanischen Raum
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' wird in den Sozialwissenschaften verwendet, da viele Studien englischsprachig geprägt sind. Gemeinsam mit dem vorhandenen Fach-Know-how bindet das das runde Paket des Wissens, das ein Ghostwriter in den Sozialwissenschaften mitbringen muss. '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: " wird in den Sozialwissenschaften verwendet, da viele Studien englischsprachig geprägt sind. Gemeinsam mit dem vorhandenen Fach-Know-how bindet das das runde Paket des Wissens, das ein Ghostwriter in den Sozialwissenschaften mitbringen muss. "
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Allerdings stellt die Fachrichtung der
                       Sozialwissenschaften Ghostwriter auch immer vor die
@@ -858,7 +858,7 @@ replicator:
                     type: button
                     button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
                     button_text: JETZT KOSTENLOS ANFRAGEN
-                    color: '#FF6606'
+                    color: "#FF6606"
                     button_align: justify-center
                     spacing_top: false
             show_as_card: false
@@ -869,7 +869,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: "#F9F9F9"
     border: false
     type: add_section
     enabled: true
@@ -890,7 +890,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: Beispiel Bachelorarbeit in Sozialwissenschaften
               - type: paragraph
                 content:
@@ -899,7 +899,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Die folgende Mustervorlage für eine Bachelorarbeit im
                       Studiengang der Sozialwissenschaften zum Thema
@@ -919,7 +919,7 @@ replicator:
                       Sozialwissenschaften Bachelorarbeit Beispiel jetzt
                       KOSTENLOS herunterladen!
                     ex_type: Bachelorarbeit
-                    ex_pages: '31'
+                    ex_pages: "31"
                     ex_zitation: APA-Style
                     ex_button_link: >-
                       /assets/downloads/ghostwriting-beispielarbeiten/bachelorarbeit-beispiel-biografiearbeit.pdf
@@ -958,7 +958,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: Was sind Sozialwissenschaften?
               - type: paragraph
                 content:
@@ -967,7 +967,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Sozialwissenschaften werden auch als
                       Gesellschaftswissenschaften verstanden. Sie bezeichnen
@@ -989,7 +989,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: Unterschied zwischen anderen Wissenschaften
               - type: paragraph
                 content:
@@ -998,7 +998,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Im Unterschied zu anderen Wissenschaften gilt hier der
                       Forschungsstand der Menschen, wie sie sind und wie sie auf
@@ -1017,8 +1017,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Teildisziplinen von Sozialwissenschaften
               - type: paragraph
                 content:
@@ -1026,8 +1026,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Der Begriff Sozialwissenschaften ist ein Oberbegriff für
                       verschiedene Disziplinen, die das gesellschaftlichen
@@ -1044,15 +1044,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "Wissenschaftler aus diesem Studienbereich beschäftigen sich nicht nur mit aktuellen Fragestellungen der Gesellschaft. Stattdessen ist das\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-
@@ -1069,7 +1069,7 @@ replicator:
     remove_spacing: true
     is_full: true
     bg_toggle: false
-    bg_color: '#F0F0F0'
+    bg_color: "#F0F0F0"
     border: false
     type: add_section
     enabled: true
@@ -1090,8 +1090,8 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: 'Studium der Sozialwissenschaften-Voraussetzungen:'
+                          hex: "#000"
+                    text: "Studium der Sozialwissenschaften-Voraussetzungen:"
               - type: paragraph
                 content:
                   - type: text
@@ -1099,7 +1099,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Die hohen Anforderungen an ein Studium in den
                       Sozialwissenschaften zeigen sich bereits am NC. Der NC
@@ -1115,13 +1115,13 @@ replicator:
                       allen Dingen sehr gute Deutschkenntnisse und Interesse am
                       Lesen haben. Denn Sie werden im Studium der
                       Sozialwissenschaften vielfältige Informationen aufnehmen
-                      und verarbeiten müssen. Auch 
+                      und verarbeiten müssen. Auch
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -1133,7 +1133,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: " in der englischen Sprache\_"
                   - type: text
                     text: >-
@@ -1147,17 +1147,17 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: "Die Notwendigkeit des interdisziplinären Denkens zeigt sich auch bereits in den Vertiefungsfächern, die im Rahmen eines Studiums der Sozialwissenschaften angeboten und angesprochen werden. Hier finden sich intensive Beziehungen und Verbindungen zum Beispiel zur\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: Betriebswirtschaftslehre
@@ -1168,10 +1168,10 @@ replicator:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           target: null
                           rel: null
                     text: Volkswirtschaftslehre
@@ -1182,10 +1182,10 @@ replicator:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           target: null
                           rel: null
                     text: Jura
@@ -1196,7 +1196,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                     text: "\_umfassendes Wissen aus vielen verschiedenen Forschungsbereichen"
                   - type: text
                     text: "\_mitbringen und dieses auch entsprechend zusammenführen zu können."
@@ -1238,7 +1238,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: "#F9F9F9"
     border: false
     type: add_section
     enabled: true
@@ -1259,7 +1259,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: Studieninhalte im Fachbereich Sozialwissenschaften
               - type: paragraph
                 content:
@@ -1268,17 +1268,17 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: "Die Sozialwissenschaften sind eng mit der Sozialforschung und der praxisbezogenen Lehre verbunden. Der Studiumbereich lässt Studenten Kenntnisse zu verschiedenen gesellschaftswissenschaftlichen Methoden mit theoretischen Kenntnissen kombinieren und schafft durch praktische Berufsübungen die notwendige praktische Erfahrung für Sozialforschung und Berufsprofile. Viele Hochschulen bieten auch ein Verständnis für den Umfang verschiedener Berufsdisziplinen durch verschiedene Themen. Hier besteht die Möglichkeit als, Kernfach Sozialwissenschaften und als Nebenfach\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                          href: /erziehungswissenschaften-ghostwriter
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -1289,10 +1289,10 @@ replicator:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziologie
+                          href: /soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -1305,17 +1305,17 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: "Allgemein werden in dem Studienfach spezialisierte Fächer wie Philosophie, Pädagogik und Ethnologie behandelt. Die eingebundenen Schwerpunkte können dann später zum Beispiel in den\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/kommunikationswissenschaften
+                          href: /kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikationswissenschaften
@@ -1326,10 +1326,10 @@ replicator:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/marketing
+                          href: /marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -1340,7 +1340,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /blog/forschungsluecke-finden
@@ -1359,7 +1359,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: Studien-Aufbau Sozialwissenschaften
               - type: paragraph
                 content:
@@ -1368,7 +1368,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Ein Studium auf Bachelor- und Masterabschluss ist möglich,
                       auch ein Studium auf Lehramt ist möglich. Sie schließen
@@ -1404,7 +1404,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: Wo kann man Sozialwissenschaften studieren?
               - type: paragraph
                 content:
@@ -1413,14 +1413,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: "Zahlreiche Universitäten bieten ein Studium der Sozial-/Gesellschaftswissenschaften an. Insbesondere die\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-
@@ -1435,7 +1435,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://www.uni-frankfurt.de/77163229
@@ -1487,7 +1487,7 @@ replicator:
     type: add_section
     enabled: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: "#F9F9F9"
   - id: lda1s77a
     columns_replicator:
       - id: lda3yxbr
@@ -1524,8 +1524,8 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: 'Sozialwissenschaften: Berufe & Gehalt'
+                          hex: "#000"
+                    text: "Sozialwissenschaften: Berufe & Gehalt"
               - type: paragraph
                 content:
                   - type: text
@@ -1533,7 +1533,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Ein Berufsbild für Sozialwissenschaftler ist nicht konkret
                       vorgegeben, daher ist es wichtig, sich während des
@@ -1548,21 +1548,21 @@ replicator:
                       anschaut, die einem später als Arbeiter oder Angestellter
                       im Bereich der Gesellschaftswissenschaften erzielen kann,
                       dann sind es relativ ordentliche Beträge. Das monatliche
-                      Bruttoeinkommen liegt zwischen 
+                      Bruttoeinkommen liegt zwischen
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: 1.700 und 4.500 Euro
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       . Besonders gut sind die Verdienstmöglichkeiten in der
                       Unternehmensberatung.
@@ -1576,8 +1576,8 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: 'Sozialwissenschaften Ghostwriter: Gehalt'
+                          hex: "#000"
+                    text: "Sozialwissenschaften Ghostwriter: Gehalt"
               - type: paragraph
                 content:
                   - type: text
@@ -1585,7 +1585,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Ebenso verdienen Sozialwissenschaften Ghostwriter sehr
                       gut, da das zusammengesetzte und aktuellen Fragestellungen
@@ -1600,14 +1600,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: ' 90€- 120€ pro Seite'
+                          hex: "#000"
+                    text: " 90€- 120€ pro Seite"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       . Im Gegenzug für dieses vergleichsweise hohe Honorar
                       erhalten Ghostwriting Kunden hochqualitative
@@ -1622,7 +1622,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Akademische Ghostwriter im Bereich der
                       Sozialwissenschaften bringen ein umfassendes Know-How in
@@ -1660,8 +1660,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Disclaimer
               - type: paragraph
                 content:
@@ -1670,7 +1670,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Der guten Ordnung halber weisen wir Sie darauf hin, dass
                       jegliche von uns erstellten Ausarbeitungen auf der Annahme
@@ -1709,8 +1709,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://ranking.zeit.de/che/de/
@@ -1723,8 +1723,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-
@@ -1738,8 +1738,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://www.handelsblatt.com/
@@ -1752,8 +1752,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-

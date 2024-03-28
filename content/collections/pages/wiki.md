@@ -8,7 +8,7 @@ updated_at: 1692635533
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: Wiki • GWriters - Informationen zum Thema Ghostwriting
@@ -24,8 +24,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#ff6602'
-                  hex: '#000'
+                  color: "#ff6602"
+                  hex: "#000"
             text: Wiki
       - type: paragraph
         content:
@@ -33,8 +33,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               GWriters bietet als Plattform für akademische Dienstleistungen
               auch ein Wiki als Nachschlagewerk zu allen relevanten Begriffen in
@@ -47,9 +47,9 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: 'Arbeiten:'
+            text: "Arbeiten:"
           - type: text
-            text: ' '
+            text: " "
           - type: text
             marks:
               - type: link
@@ -193,14 +193,14 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: 'Fachrichtungen:'
+            text: "Fachrichtungen:"
           - type: text
-            text: ' '
+            text: " "
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/architektur
+                  href: /architektur
                   target: null
                   rel: null
             text: Architektur
@@ -210,7 +210,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/bauingenieurwesen
+                  href: /bauingenieurwesen
                   target: null
                   rel: null
             text: Bauingenieurwesen
@@ -220,7 +220,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/biologie
+                  href: /biologie
                   target: null
                   rel: null
             text: Biologie
@@ -230,7 +230,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/bwl
+                  href: /bwl
                   target: null
                   rel: null
             text: BWL
@@ -240,7 +240,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/chemie
+                  href: /chemie
                   target: null
                   rel: null
             text: Chemie
@@ -250,7 +250,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/elektrotechnik
+                  href: /elektrotechnik
                   target: null
                   rel: null
             text: Elektrotechnik
@@ -260,7 +260,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                  href: /erziehungswissenschaften-ghostwriter
                   target: null
                   rel: null
             text: Erziehungswissenschaften
@@ -270,7 +270,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/finanzwissenschaften
+                  href: /finanzwissenschaften
                   target: null
                   rel: null
             text: Finanzwissenschaften
@@ -280,7 +280,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/germanistik-ghostwriter
+                  href: /germanistik-ghostwriter
                   target: null
                   rel: null
             text: Germanistik
@@ -290,7 +290,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/geschichte
+                  href: /geschichte
                   target: null
                   rel: null
             text: Geschichte
@@ -300,7 +300,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/informatik
+                  href: /informatik
                   target: null
                   rel: null
             text: Informatik
@@ -310,7 +310,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/jura
+                  href: /jura
                   target: null
                   rel: null
             text: Jura
@@ -320,7 +320,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/kommunikationswissenschaften
+                  href: /kommunikationswissenschaften
                   target: null
                   rel: null
             text: Kommunikation
@@ -330,7 +330,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/kunst
+                  href: /kunst
                   target: null
                   rel: null
             text: Kunst
@@ -340,7 +340,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/literatur
+                  href: /literatur
                   target: null
                   rel: null
             text: Literatur
@@ -350,7 +350,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/marketing
+                  href: /marketing
                   target: null
                   rel: null
             text: Marketing
@@ -360,7 +360,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/mathematik
+                  href: /mathematik
                   target: null
                   rel: null
             text: Mathematik
@@ -370,7 +370,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/medienwissenschaften
+                  href: /medienwissenschaften
                   target: null
                   rel: null
             text: Medienwissenschaften
@@ -380,7 +380,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/medizin
+                  href: /medizin
                   target: null
                   rel: null
             text: Medizin
@@ -390,7 +390,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/pflegewissenschaften
+                  href: /pflegewissenschaften
                   target: null
                   rel: null
             text: Pflegewissenschaften
@@ -400,7 +400,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/philosophie
+                  href: /philosophie
                   target: null
                   rel: null
             text: Philosophie
@@ -410,7 +410,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/psychologie
+                  href: /psychologie
                   target: null
                   rel: null
             text: Psychologie
@@ -420,7 +420,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/soziale-arbeit
+                  href: /soziale-arbeit
                   target: null
                   rel: null
             text: Soziale Arbeit
@@ -430,7 +430,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/soziologie
+                  href: /soziologie
                   target: null
                   rel: null
             text: Soziologie
@@ -440,7 +440,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/sprachwissenschaften
+                  href: /sprachwissenschaften
                   target: null
                   rel: null
             text: Sprachwissenschaften
@@ -450,7 +450,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/vwl
+                  href: /vwl
                   target: null
                   rel: null
             text: VWL
@@ -460,7 +460,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/wirtschaftsinformatik
+                  href: /wirtschaftsinformatik
                   target: null
                   rel: null
             text: Wirtschaftsinformatik
@@ -470,7 +470,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/wirtschaftswissenschaften
+                  href: /wirtschaftswissenschaften
                   target: null
                   rel: null
             text: Wirtschaftswissenschaften
@@ -480,7 +480,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/zahnmedizin
+                  href: /zahnmedizin
                   target: null
                   rel: null
             text: Zahnmedizin
@@ -489,9 +489,9 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: 'Ghostwriting:'
+            text: "Ghostwriting:"
           - type: text
-            text: ' '
+            text: " "
           - type: text
             marks:
               - type: link
@@ -595,9 +595,9 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: 'Korrektorat:'
+            text: "Korrektorat:"
           - type: text
-            text: ' '
+            text: " "
           - type: text
             marks:
               - type: link
@@ -651,9 +651,9 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: 'Lektorat:'
+            text: "Lektorat:"
           - type: text
-            text: ' '
+            text: " "
           - type: text
             marks:
               - type: link
@@ -697,7 +697,7 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: 'Verschiedenes:'
+            text: "Verschiedenes:"
           - type: text
             text: "\_"
           - type: text
@@ -709,7 +709,7 @@ replicator:
                   rel: null
             text: Promotionsberatung
           - type: text
-            text: ' | '
+            text: " | "
           - type: text
             marks:
               - type: link

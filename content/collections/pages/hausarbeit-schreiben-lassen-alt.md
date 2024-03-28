@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Mustervorlage für Hausarbeit schreiben lassen
   - type: paragraph
     content:
@@ -32,7 +32,7 @@ teaser:
         type: button
         button_link: /anfrage
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: paragraph
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
@@ -48,7 +48,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Wie helfen Ihnen unsere Ghostwriter beim Schreiben einer
               Hausarbeit?
@@ -59,14 +59,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: "Ein akademischer\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: blue
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriter
@@ -78,14 +78,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: "\_beschäftigt sich täglich mit wissenschaftlichen Texten und Arbeiten. Unsere akademischen Textschreiber sind zertifizierte "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /experten
@@ -97,8 +97,8 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ' besitzen hervorragende Kenntnisse in Ihren Fachgebieten. Insbesondere Hausarbeiten begleiten Studenten in vielfacher Art und Weise während Ihres Studiums. Es ist demnach möglich, eine professionelle Unterstützung zu jedem Zeitpunkt des Arbeitsverlaufs zu beauftragen.'
+                  hex: "#000"
+            text: " besitzen hervorragende Kenntnisse in Ihren Fachgebieten. Insbesondere Hausarbeiten begleiten Studenten in vielfacher Art und Weise während Ihres Studiums. Es ist demnach möglich, eine professionelle Unterstützung zu jedem Zeitpunkt des Arbeitsverlaufs zu beauftragen."
       - type: paragraph
         content:
           - type: text
@@ -106,20 +106,20 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Aufgrund der häufig überfordernden Studien- und Privatplanung
               kommt es regelmäßig dazu, dass sich Studenten eine Mustervorlage
               für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft
               geschieht dies direkt zu Beginn einer Texterstellung, bei der
               Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, deren
-              Gliederung und 
+              Gliederung und
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/expose-erstellen
@@ -131,7 +131,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               . Zudem ist es möglich, den Ghostwriter zur Betreuung der
               Hausarbeit einzusetzen und ihn während des gesamten Prozesses
@@ -143,14 +143,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: "Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Hausarbeit Korrekturlesen zu lassen. Neben dem Korrektorat und\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: blue
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /lektorat
@@ -162,14 +162,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: "\_der wissenschaftlichen Arbeit, kann zusätzlich eine umfassende Plagiatsprüfung mit Plagiatesoftware erfolgen. Ein Plagiatcheck ist besonders zum Studienbeginn erforderlich, da aus mangelnder Erfahrung Flüchtigkeitsfehler beim Umgang mit Quellen passieren können. Einige Studenten lassen sich von einem Schreibservice wie Ghostwriter Hausarbeiten schreiben – in Form von Musterarbeiten – und nutzen solch eine\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: blue
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriting
@@ -181,8 +181,8 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: '-Hausarbeit als Musterarbeit für ihre eigene Texterstellung.'
+                  hex: "#000"
+            text: "-Hausarbeit als Musterarbeit für ihre eigene Texterstellung."
       - type: paragraph
         content:
           - type: text
@@ -191,7 +191,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: "Wenn Sie bei Ihrer Hausarbeit Unterstützung benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine\_"
           - type: text
             marks:
@@ -199,7 +199,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: blue
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /anfrage
@@ -212,7 +212,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               . Wir melden uns innerhalb weniger Stunden mit einem kostenlosen
               Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie
@@ -237,7 +237,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: Warum sollte man sich bei seiner Hausarbeit unterstützen lassen?
       - type: paragraph
         content:
@@ -246,7 +246,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Liegen aufgrund schlechter Lehrplanabstimmung in mehreren Fächern
               Hausarbeiten an, die zu ähnlicher Zeit zur Abgabe kommen sollen
@@ -265,7 +265,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Auf der einen Seite hört es sich einfach an eine Hausarbeit zu
               erstellen: einfach mal zehn bis zwanzig Seiten schreiben - fertig.
@@ -273,13 +273,13 @@ replicator:
               Erstellung einer Hausarbeit. Besondere Schwierigkeiten haben die
               Studienanfänger, denn diese kennen die relevanten Datenbanken,
               Quellen und wissenschaftlichen Arbeitsmethoden nicht. Sie wissen
-              nicht, wie sie eine 
+              nicht, wie sie eine
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/forschungsluecke-finden
@@ -291,8 +291,8 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ' und wie eine Literaturrecherche durchgeführt wird.'
+                  hex: "#000"
+            text: " und wie eine Literaturrecherche durchgeführt wird."
       - type: paragraph
         content:
           - type: text
@@ -300,7 +300,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Selbst wenn alle notwendigen Informationen für sie zur Verfügung
               stehen oder im Rahmen von Seminaren zum wissenschaftlichen
@@ -320,8 +320,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#555555'
-                  hex: '#000'
+                  color: "#555555"
+                  hex: "#000"
             text: "Hausarbeit\_schreiben:\_Wie\_sieht\_eine\_erfolgreiche\_Arbeit\_aus?"
       - type: paragraph
         content:
@@ -330,7 +330,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Ansprüche an eine wissenschaftliche Arbeit sind hoch. Denn bei
               der Erstellung einer Hausarbeit gilt „in der Kürze liegt die
@@ -353,7 +353,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Diese Probleme von Studenten können durch die Unterstützung von
               einem akademischen Ghostwriter gelöst werden. Denn professionelle
@@ -369,19 +369,19 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Vor allen Dingen kennen seriöse Ghostwriter in ihrem persönlichen
               Themenfeld immer den aktuellen Forschungsstand, da diese den
               Zugriff auf die notwendigen Datenbanken haben. Diesen Zugriff auf
               relevante Datenbanken und auch den Zugang zu modernster Analyse
-              Software wie 
+              Software wie
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /leistungen/maxqda-auswertung
@@ -393,8 +393,8 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ' erhalten Ghostwriter über unsere Ghostwriting Agentur sodass diese schnell und effizient arbeiten können. Sie begleiten den Schreibprozess Ihrer wissenschaftlichen Arbeit und finden zu jeder Frage eine passende Lösung.'
+                  hex: "#000"
+            text: " erhalten Ghostwriter über unsere Ghostwriting Agentur sodass diese schnell und effizient arbeiten können. Sie begleiten den Schreibprozess Ihrer wissenschaftlichen Arbeit und finden zu jeder Frage eine passende Lösung."
     type: editor
     enabled: true
     show_as_card: false
@@ -408,12 +408,12 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Unsere Leistungen:'
+                    text: "Unsere Leistungen:"
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         single_col: false
         grid:
           - bard:
@@ -512,8 +512,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -528,8 +528,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
@@ -551,12 +551,12 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Wichtige Fachbereiche:'
+                    text: "Wichtige Fachbereiche:"
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         single_col: false
         grid:
           - bard:
@@ -570,7 +570,7 @@ replicator:
                           color: rgb(193, 76, 0)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/architektur
+                          href: /architektur
                           target: null
                           rel: null
                     text: Architektur
@@ -585,7 +585,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: BWL
@@ -600,7 +600,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                          href: /erziehungswissenschaften-ghostwriter
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -615,7 +615,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/germanistik-ghostwriter
+                          href: /germanistik-ghostwriter
                           target: null
                           rel: null
                     text: Germanistik
@@ -630,7 +630,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           target: null
                           rel: null
                     text: Jura
@@ -645,7 +645,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/literatur
+                          href: /literatur
                           target: null
                           rel: null
                     text: Literatur
@@ -660,7 +660,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/mathematik
+                          href: /mathematik
                           target: null
                           rel: null
                     text: Mathematik
@@ -675,7 +675,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/pflegewissenschaften
+                          href: /pflegewissenschaften
                           target: null
                           rel: null
                     text: Pflegewissenschaften
@@ -690,7 +690,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziale-arbeit
+                          href: /soziale-arbeit
                           target: null
                           rel: null
                     text: Soziale Arbeit
@@ -705,7 +705,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           target: null
                           rel: null
                     text: VWL
@@ -720,7 +720,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/zahnmedizin
+                          href: /zahnmedizin
                           target: null
                           rel: null
                     text: Zahnmedizin
@@ -737,7 +737,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/bauingenieurwesen
+                          href: /bauingenieurwesen
                           target: null
                           rel: null
                     text: Bauingenieurwesen
@@ -752,7 +752,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/chemie
+                          href: /chemie
                           target: null
                           rel: null
                     text: Chemie
@@ -767,7 +767,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/finanzwissenschaften
+                          href: /finanzwissenschaften
                           target: null
                           rel: null
                     text: Finanzwissenschaften
@@ -782,7 +782,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/geschichte
+                          href: /geschichte
                           target: null
                           rel: null
                     text: Geschichte
@@ -797,7 +797,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/kommunikationswissenschaften
+                          href: /kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikation
@@ -812,7 +812,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/marketing
+                          href: /marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -827,7 +827,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/medienwissenschaften
+                          href: /medienwissenschaften
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -842,7 +842,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/philosophie
+                          href: /philosophie
                           target: null
                           rel: null
                     text: Philosophie
@@ -857,7 +857,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziologie
+                          href: /soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -872,7 +872,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftsinformatik
+                          href: /wirtschaftsinformatik
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
@@ -889,7 +889,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/biologie
+                          href: /biologie
                           target: null
                           rel: null
                     text: Biologie
@@ -904,7 +904,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/elektrotechnik
+                          href: /elektrotechnik
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -919,7 +919,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/geologie
+                          href: /geologie
                           target: null
                           rel: null
                     text: Geologie
@@ -934,7 +934,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/informatik
+                          href: /informatik
                           target: null
                           rel: null
                     text: Informatik
@@ -949,7 +949,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/kunst
+                          href: /kunst
                           target: null
                           rel: null
                     text: Kunst
@@ -964,7 +964,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/maschinenbau
+                          href: /maschinenbau
                           target: null
                           rel: null
                     text: Maschinenbau
@@ -979,7 +979,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/medizin
+                          href: /medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -994,7 +994,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/psychologie
+                          href: /psychologie
                           target: null
                           rel: null
                     text: Psychologie
@@ -1009,7 +1009,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/sprachwissenschaften
+                          href: /sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften
@@ -1024,7 +1024,7 @@ replicator:
                           color: rgb(255, 102, 2)!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -1049,7 +1049,7 @@ replicator:
             type: button
             button_link: /anfrage
             button_text: JETZT KOSTENLOS ANFRAGEN
-            color: '#FF6606'
+            color: "#FF6606"
             spacing_top: false
       - type: horizontal_rule
       - type: heading
@@ -1060,8 +1060,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#555555'
-                  hex: '#000'
+                  color: "#555555"
+                  hex: "#000"
             text: "Mustervorlage für Hausarbeit\_schreiben\_lassen:\_Welche\_Alternativen\_gibt\_es\_zum\_Ghostwriter?"
       - type: paragraph
         content:
@@ -1070,7 +1070,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Um Studenten Kompetenzen auf sprachlicher, formaler,
               kommunikativer und organisatorischer Ebene zu vermitteln,
@@ -1089,8 +1089,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               Möchten Sie eine Mustervorlage für Ihre Hausarbeit schreiben
               lassen oder mit einem akademischen Ghostwforriter selber
@@ -1101,8 +1101,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               Besonders für Erstsemesterstudenten, die mit dem Erstellen von
               wissenschaftlichen Arbeiten unerfahren sind, stellen Sie
@@ -1115,20 +1115,20 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               Zu jedem Problemfeld während des Schreibprozesses stehen unsere
               akademischen Autoren zur Verfügung. Unsere Ghostwriting-Agentur
               arbeitet mit zertifizierten Professoren und Doktoren. Diese
               unterstützen Sie in vielen wissenschaftlichen Themen, ob es um
-              eine 
+              eine
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/fallstudienanalyse-nach-yin
@@ -1139,15 +1139,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ', ein '
+                  color: "#000!important"
+                  hex: "#000"
+            text: ", ein "
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/leitfadengestuetztes-experteninterview
@@ -1158,15 +1158,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' oder eine '
+                  color: "#000!important"
+                  hex: "#000"
+            text: " oder eine "
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/swot-analyse-beispiel
@@ -1177,8 +1177,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: " handelt. Rund \_um alle wissenschaftlichen Themen bietet unsere Schreibagentur professionelle Hilfe an."
       - type: paragraph
         content:
@@ -1186,19 +1186,19 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               Besondere Schwierigkeiten haben Studierende bei ihrer
               Themenfindung, der Suche nach Ihrer Forschungsfrage, Ihrer
               Literaturrecherche und beim Aufbau Ihrer Gliederung. Wenn Sie eine
-              Hausarbeit schreiben müssen, dann sollten Sie ein gutes 
+              Hausarbeit schreiben müssen, dann sollten Sie ein gutes
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/online-nachhilfe-vorlesung
@@ -1209,15 +1209,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' einplanen, sonst können Sie den roten Faden verlieren. Denn grade das richtige Thema zu finden, das Forschungsziel zu erreichen und die zugehörigen aktuellen '
+                  color: "#000!important"
+                  hex: "#000"
+            text: " einplanen, sonst können Sie den roten Faden verlieren. Denn grade das richtige Thema zu finden, das Forschungsziel zu erreichen und die zugehörigen aktuellen "
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/literaturrecherche-datenbanken-quellen
@@ -1228,24 +1228,24 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' zu finden, benötigt viel Zeit.'
+                  color: "#000!important"
+                  hex: "#000"
+            text: " zu finden, benötigt viel Zeit."
       - type: paragraph
         content:
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: "Bei allen Aufgaben und Fragestellungen können unsere Experten Ihnen helfen. Auch wenn Sie lediglich Ihre Text überarbeiten lassen möchten oder Ihre fehlenden Textteile ergänzen lassen möchten (Einleitung, Hauptteil, Fazit). Auch ein Lektorat, eine\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /korrektorat
@@ -1258,8 +1258,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /leistungen/plagiatspruefung
@@ -1270,15 +1270,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: "\_sind gerade bei den anfänglichen wissenschaftlichen Arbeiten üblich. Es gibt auch Studenten, die einen Ghostwriter Hausarbeiten schreiben lassen. Jedoch ist solch eine "
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriting-beispielarbeiten
@@ -1289,9 +1289,9 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' lediglich als Vorlage zu nutzen und nicht als Prüfungsleistung einzureichen, man kann also nicht einfach eine Hausarbeit kaufen.'
+                  color: "#000!important"
+                  hex: "#000"
+            text: " lediglich als Vorlage zu nutzen und nicht als Prüfungsleistung einzureichen, man kann also nicht einfach eine Hausarbeit kaufen."
       - type: set
         attrs:
           values:
@@ -1302,7 +1302,7 @@ replicator:
             ex_fachbereich:
               - 06fbb3f4-51c2-4f11-832e-9b72a495857d
             ex_type: Hausarbeit
-            ex_pages: '10'
+            ex_pages: "10"
             ex_zitation: Harvard Style
             ex_button_link: entry::21ef3416-f1fd-43eb-8e38-ec597763c45f
             ex_button_text: Weiterlesen
@@ -1317,8 +1317,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#555555'
-                  hex: '#000'
+                  color: "#555555"
+                  hex: "#000"
             text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
       - type: paragraph
         content:
@@ -1327,14 +1327,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: 'Nach einer unverbindlichen '
+                  hex: "#000"
+            text: "Nach einer unverbindlichen "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /anfrage
@@ -1346,7 +1346,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               , die Sie über ein Bestellformular stellen können, erhalten Sie
               von unserer Schreibagentur ein kostenloses Leistungsangebot und
@@ -1363,7 +1363,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Zudem stellen unsere Projektmanager Ihre Anonymität und
               gleichzeitig auch die Anonymität des Autors sicher. Die
@@ -1381,19 +1381,19 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Bei der Endlieferung erhalten Sie eine hochqualitative und von
               Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur
               Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen
               Hausarbeit. Mehr Information über die Zusammenarbeit mit
-              Ghostwriter erhalten Sie 
+              Ghostwriter erhalten Sie
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /so-funktioniert-es
@@ -1405,7 +1405,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: .
       - type: set
         attrs:
@@ -1427,15 +1427,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#555555'
-                  hex: '#000'
+                  color: "#555555"
+                  hex: "#000"
             text: "Was\_ist\_eigentlich\_eine\_Hausarbeit? "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Hausarbeit ist eine akademische Arbeit, die zu Hause
               angefertigt werden soll. Das heißt, dass der Student nicht – wie
@@ -1453,7 +1453,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               In einigen Fachbereichen, wie der Medizin, Biologie und Chemie,
               wird zusätzlich zum schriftlichen Teil oftmals die Durchführung
@@ -1470,7 +1470,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Formatierungsrichtlinien und Kriterien werden durch die
               jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige
@@ -1483,131 +1483,131 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: Gliederung einer Hausarbeit
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: • Titelblatt
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: • Inhaltsverzeichnis Hausarbeit
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: • Einleitung
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: • Hauptteil
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: • Schluss
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: • Bildverzeichnis
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: • Literatur- und Quellenverzeichnis
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: • Anhang
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: '• '
+                  color: "#000!important"
+                  hex: "#000"
+            text: "• "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: Selbstständigkeitserklärung
       - type: paragraph
         content:
@@ -1617,59 +1617,59 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: Formatierungsrichtlinien einer Hausarbeit
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: '• Schriftart: Times New Roman (oder Arial Größe 11)'
+                  hex: "#000"
+            text: "• Schriftart: Times New Roman (oder Arial Größe 11)"
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: '• Schriftgröße: 12 Punkt'
+                  hex: "#000"
+            text: "• Schriftgröße: 12 Punkt"
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: '• Zeilenabstand: 1,5'
+                  hex: "#000"
+            text: "• Zeilenabstand: 1,5"
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               • Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils
               3 cm
@@ -1678,39 +1678,39 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: '• Absatzformat: Blocksatz (auf Trennung achten)'
+                  hex: "#000"
+            text: "• Absatzformat: Blocksatz (auf Trennung achten)"
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: '• Fußnoten: Schriftgröße 10'
+                  hex: "#000"
+            text: "• Fußnoten: Schriftgröße 10"
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               • Nummerierung: alle Seiten nummeriert, außer Titelblatt,
               Inhaltsverzeichnis einer Hausarbeit, Literaturverzeichnis und
@@ -1728,7 +1728,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche
               von uns erstellten Ausarbeitungen auf der Annahme basieren, dass
@@ -1782,7 +1782,7 @@ replicator:
                   href: /blog/ghostwriter-agentur
                   target: _blank
                   rel: noopener noreferrer
-            text: 'Video: Worauf Du bei einer Ghostwriter Agentur achten solltest'
+            text: "Video: Worauf Du bei einer Ghostwriter Agentur achten solltest"
       - type: heading
         attrs:
           level: 2
@@ -1855,7 +1855,7 @@ template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

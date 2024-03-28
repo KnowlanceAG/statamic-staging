@@ -118,14 +118,14 @@ teaser:
         text: '##phone##'
 replicator:
   -
-    id: tKsKJssn
+    id: lu1k8bf3
     columns_replicator:
       -
-        id: 8ZXtf5R8
-        single_col: false
+        id: lu1k8cl3
+        single_col: true
         grid:
           -
-            id: gikJL6ad
+            id: Jksa0bd2
             bard:
               -
                 type: paragraph
@@ -307,6 +307,95 @@ replicator:
                           -
                             type: text
                             text: 'richtige Zitiertechnik'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lu1kaswm
+    columns_replicator:
+      -
+        id: lu1kb0l4
+        single_col: true
+        grid:
+          -
+            id: Jksa0bd2
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriting Erfahrungen unserer Kunden'
+              -
+                type: heading
+                attrs:
+                  textAlign: center
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Überzeugen Sie sich von der Qualität unserer Leistungen, basierend auf den Bewertungen bei Proven Expert:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lu1kc343
+        single_col: false
+        grid:
+          -
+            id: Jksa0bd2
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lu1kc5m4
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lu1kev9r
+    columns_replicator:
+      -
+        id: lu1kex5s
+        single_col: true
+        grid:
+          -
+            id: Jksa0bd2
+            bard:
               -
                 type: heading
                 attrs:
@@ -391,7 +480,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           rel: null
                           target: null
                           title: null
@@ -405,7 +494,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           rel: null
                           target: null
                           title: null
@@ -497,24 +586,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Habe ich direkten Kontakt zu meinem Lektor?'
-              -
-                type: paragraph
-                attrs:
-                  textAlign: left
-                content:
-                  -
-                    type: text
-                    text: 'Nein. Ein direkter Kontakt zum Lektor besteht nicht. Fragen werden grundsätzlich über einen persönlichen Projektleiter bei GWriters vermittelt. Es kann jedoch auch eine Telefonkonferenz zwischen Kunden, GWriters und Lektoren vermittelt werden.'
+                    text: 'Lektorat: Textüberarbeitung'
               -
                 type: heading
                 attrs:
                   textAlign: left
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
-                    text: 'Ist das Lektorat im akademischen Ghostwriting bei GWriters inkludiert?'
+                    text: '1. Inhalt überarbeiten'
               -
                 type: paragraph
                 attrs:
@@ -522,30 +603,47 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ja, jeder '
+                    text: 'Im ersten Schritt gilt es, die Fehler eines Textes zu finden, zu prüfen und zu bewerten. Dann müssen diese Fehler korrigiert werden, indem der Text inhaltlich überarbeitet wird. Es wird geprüft, ob der Text inhaltlich korrekt ist.'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '2. Aufbau der Arbeit überarbeiten'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Im zweiten Schritt wird man sich dann in die Sicht des Lesers hineinversetzen und sich fragen, ob es möglicherweise Missverständnisse bei der Interpretation des Textes geben kann, die durch den '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriting
+                          href: /blog/aufbau-wissenschaftliche-arbeit
                           rel: null
                           target: null
                           title: null
-                    text: Ghostwriting
+                    text: 'Aufbau der Arbeit'
                   -
                     type: text
-                    text: '-Auftrag bei GWriters wird einem wissenschaftlichen Lektorat unterzogen. So kann die hohe Qualität der Texte gewährleistet werden.'
+                    text: ' bedingt sind. Dies würde man korrigieren, indem ein „roter Faden“ innerhalb der Arbeit sichergestellt werden muss.'
               -
                 type: heading
                 attrs:
                   textAlign: left
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
-                    text: 'Wer kann einen Lektor beauftragen?'
+                    text: '3. Sprache überarbeiten'
               -
                 type: paragraph
                 attrs:
@@ -553,16 +651,78 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Jeder, der Texte erstellt, kann einen Lektor beauftragten. Hierzu gibt es keine Begrenzungen. Wir bieten unseren Lektorats-Service sowohl für Studenten und Forscher, als auch für Unternehmen und Hobbyautoren an. Unseren erfahrenen Lektoren passen sich problemlos Ihren individuellen Anforderungen an.'
+                    text: 'Im dritten Schritt schließlich können folgende Fragen bei der Überarbeitung helfen:'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Wurde die Sprache richtig genutzt? (korrekte Rechtschreibung, korrekt gewähltes Wortbild, korrekter Satzbau)'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Ist die Sprache angemessen gewählt? (angemessene Wortwahl und angemessener Sprachstil im Hinblick auf das Niveau der Arbeit)'
               -
                 type: heading
                 attrs:
                   textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '4. Rechtschreibung und Grammatik überarbeiten'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Beim vierten Schritt wird man schließlich final (nochmals) die Arbeit in Gänze lesen, noch die ein oder andere inhaltliche Optimierung und Optimierung im Aufbau vornehmen und (letzte) Rechtschreib- und Grammatikfehler korrigieren.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lu1kf5le
+    columns_replicator:
+      -
+        id: lu1kiuw7
+        single_col: false
+        grid:
+          -
+            id: Jksa0bd2
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: center
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Wichtige Fachbereiche und Arbeiten'
+                    text: 'Wichtigen Arbeiten & Fachbereiche'
               -
                 type: set
                 attrs:
@@ -587,7 +747,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/architektur
+                                          href: /architektur
                                           target: null
                                           rel: null
                                     text: 'Architektur Ghostwriter'
@@ -599,7 +759,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/bauingenieurwesen
+                                          href: /bauingenieurwesen
                                           target: null
                                           rel: null
                                     text: 'Bauingenieurwesen Ghostwriter'
@@ -611,7 +771,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/elektrotechnik
+                                          href: /elektrotechnik
                                           target: null
                                           rel: null
                                     text: 'Elektrotechnik Ghostwriter'
@@ -623,7 +783,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/maschinenbau
+                                          href: /maschinenbau
                                           target: null
                                           rel: null
                                     text: 'Maschinenbau Ghostwriter'
@@ -635,7 +795,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/informatik
+                                          href: /informatik
                                           target: null
                                           rel: null
                                     text: 'Informatik Ghostwriter'
@@ -647,7 +807,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          href: '/informatik#Softwarelokalisierung'
                                           target: null
                                           rel: null
                                     text: 'Softwarelokalisierung Ghostwriter'
@@ -659,7 +819,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          href: '/biologie#biotechnologie'
                                           target: null
                                           rel: null
                                     text: 'Biotechnologie Ghostwriter'
@@ -674,7 +834,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/technomathematik
+                                          href: /technomathematik
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Technomathematik'
@@ -686,7 +846,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/ingenieurwissenschaften
+                                          href: /ingenieurwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Ingenieurwissenschaften'
@@ -703,7 +863,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/biologie
+                                          href: /biologie
                                           target: null
                                           rel: null
                                     text: 'Biologie Ghostwriter'
@@ -715,7 +875,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/chemie
+                                          href: /chemie
                                           target: null
                                           rel: null
                                     text: 'Chemie Ghostwriter'
@@ -727,7 +887,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geologie
+                                          href: /geologie
                                           target: null
                                           rel: null
                                     text: 'Geologie Ghostwriter'
@@ -739,7 +899,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geowissenschaften
+                                          href: /geowissenschaften
                                           target: null
                                           rel: null
                                     text: 'Geowissenschaften Ghostwriter'
@@ -751,7 +911,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/mathematik
+                                          href: /mathematik
                                           target: null
                                           rel: null
                                     text: 'Mathematik Ghostwriter'
@@ -763,7 +923,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/agrarwissenschaften
+                                          href: /agrarwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Agrarwissenschaften'
@@ -780,7 +940,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          href: /erziehungswissenschaften-ghostwriter
                                           target: null
                                           rel: null
                                     text: 'Erziehungswissenschaften Ghostwriter'
@@ -792,7 +952,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/kommunikationswissenschaften
+                                          href: /kommunikationswissenschaften
                                           target: null
                                           rel: null
                                     text: 'Kommunikationswissenschaften Ghostwriter'
@@ -804,7 +964,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/soziale-arbeit
+                                          href: /soziale-arbeit
                                           target: null
                                           rel: null
                                     text: 'Soziale Arbeit Ghostwriter'
@@ -816,7 +976,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/sozialwissenschaften
+                                          href: /sozialwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Sozialwissenschaften Ghostwriter'
@@ -828,7 +988,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/soziologie
+                                          href: /soziologie
                                           target: null
                                           rel: null
                                     text: 'Soziologie Ghostwriter'
@@ -840,7 +1000,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/sprachwissenschaften
+                                          href: /sprachwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Sprachwissenschaften Ghostwriter'
@@ -852,7 +1012,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          href: '/kommunikationswissenschaften#kommunikationsdesign'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kommunikationsdesign'
@@ -872,7 +1032,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/finanzwissenschaften
+                                          href: /finanzwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Finanzwissenschaften Ghostwriter'
@@ -884,7 +1044,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/medienwissenschaften
+                                          href: /medienwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Medienwissenschaften Ghostwriter'
@@ -896,7 +1056,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/bwl
+                                          href: /bwl
                                           target: null
                                           rel: null
                                     text: 'BWL Ghostwriter'
@@ -908,7 +1068,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/marketing
+                                          href: /marketing
                                           target: null
                                           rel: null
                                     text: 'Marketing Ghostwriter'
@@ -920,7 +1080,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftsinformatik
+                                          href: /wirtschaftsinformatik
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftsinformatik Ghostwriter'
@@ -932,7 +1092,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftswissenschaften
+                                          href: /wirtschaftswissenschaften
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftswissenschaften Ghostwriter'
@@ -944,7 +1104,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/personalmanagement
+                                          href: /personalmanagement
                                           target: null
                                           rel: null
                                     text: 'Personalmanagement Ghostwriter'
@@ -977,7 +1137,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/germanistik-ghostwriter
+                                          href: /germanistik-ghostwriter
                                           target: null
                                           rel: null
                                     text: 'Germanistik Ghostwriter'
@@ -989,7 +1149,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/anglistik
+                                          href: /anglistik
                                           target: null
                                           rel: null
                                     text: 'Anglistik Ghostwriter'
@@ -1001,7 +1161,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geschichte
+                                          href: /geschichte
                                           target: null
                                           rel: null
                                     text: 'Geschichte Ghostwriter'
@@ -1013,7 +1173,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/kunst
+                                          href: /kunst
                                           target: null
                                           rel: null
                                     text: 'Kunst Ghostwriter'
@@ -1025,7 +1185,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/literatur
+                                          href: /literatur
                                           target: null
                                           rel: null
                                     text: 'Literatur Ghostwriter'
@@ -1037,7 +1197,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/jura
+                                          href: /jura
                                           target: null
                                           rel: null
                                     text: 'Jura Ghostwriter'
@@ -1049,7 +1209,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/philosophie
+                                          href: /philosophie
                                           target: null
                                           rel: null
                                     text: 'Philosophie Ghostwriter'
@@ -1061,7 +1221,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          href: '/kunst#kunstgeschichte'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kunstgeschichte'
@@ -1078,7 +1238,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/medizin
+                                          href: /medizin
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Medizin'
@@ -1090,7 +1250,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/pflegewissenschaften
+                                          href: /pflegewissenschaften
                                           target: null
                                           rel: null
                                     text: 'Pflegewissenschaften Ghostwriter'
@@ -1102,7 +1262,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/psychologie
+                                          href: /psychologie
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Psychologie'
@@ -1114,7 +1274,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/zahnmedizin
+                                          href: /zahnmedizin
                                           target: null
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
@@ -1596,6 +1756,28 @@ replicator:
                                     text: 'Protokoll schreiben lassen'
                                 attrs:
                                   textAlign: start
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lu1kjxo7
+    columns_replicator:
+      -
+        id: lu1kk07c
+        single_col: true
+        grid:
+          -
+            id: Jksa0bd2
+            bard:
               -
                 type: heading
                 attrs:
@@ -1621,7 +1803,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wo findet man einen Lektorat Service für ein wissenschaftliches Teilgebiet?'
+                    text: 'Wo liegen die Schwierigkeiten bei der Textüberarbeitung?'
               -
                 type: paragraph
                 attrs:
@@ -1629,49 +1811,196 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Einen Lektorat Service für ein wissenschaftliches Teilgebiet zu finden ist grundsätzlich nicht einfach. Es empfiehlt sich Agenturen zu suchen, die solch einen Lektorat Service anbieten. Dies macht man am Besten im Internet über eine Suchmaschine aber auch die Gelben Seiten können eine Hilfe sein. Doch wie findet man ein passendes Angebot? Nicht abschrecken lassen darf man sich, tauchen die Begriffe „'
+                    text: 'Schwierigkeiten bei der Textüberarbeitung zeigen sich darin, dass man das Gefühl hat, irgendetwas „stimmt am Text nicht“, aber selbst nicht in der Lage ist, zu erkennen, was genau das Problem ist und damit auch keine Lösung für sich selbst findet.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Sie kennen das vielleicht: Sie lesen einen Text und merken, dass irgendetwas nicht stimmt und der Text sich „komisch“ anhört. Was tun Sie? Sie streichen Textstellen, schieben Textstellen im Text hin und her oder schreiben ganze Textteile neu. Zufrieden sind Sie aber mit dem Text immer noch nicht und das Abgabedatum rückt näher. Ein Grund dafür mag sein, dass Ihnen die notwendige Distanz zum eigenen Text fehlt und dass man zunehmend das Gefühl erhält, den Anforderungen nicht gerecht werden zu können.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Tipp:'
+                  -
+                    type: text
+                    text: ' Lesen Sie sich ruhig die Sätze Ihres Textes immer wieder während des Schreibprozesses vor und versuchen Sie sich in die Position des Lesers hineinzuversetzen. Stellen Sie sich dann die Frage: Versteht der Leser, was ich mit dem Text sagen will? Wenn ja, ist Ihr Text gut, wenn nein, sollten Sie ihn weiter optimieren.'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    attrs:
+                      textAlign: left
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Und noch ein Tipp:'
+                      -
+                        type: text
+                        text: ' Lassen Sie sich gerne noch von einer dritten Person eine Meinung einholen. Hier empfehlen wir Ihnen Ihren Text von akademischen '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: /ghostwriter
+                              rel: null
+                              target: null
+                              title: null
+                        text: Ghostwriter
+                      -
+                        type: text
+                        text: ' überprüfen zu lassen. Denn sie sind akademisch ausgebildet und überprüfen Texte aus der professionellen Perspektive.'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Unser Lektorat umschreibt Texte: Beispiel'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Im besten Fall kann das Text überarbeiten dazu führen, dass man einen hoch professionellen Text erhält, der fachlich und formal überzeugen kann!'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Folgendes Beispiel zeigt, wie mit Hilfe einer Textüberarbeitung die Qualität eines Textes deutlich gesteigert werden konnte:'
+              -
+                type: table
+                content:
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: „vorher“
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: „nachher“
+                  -
+                    type: tableRow
+                    content:
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: '„Viele Forschungen zur Thematik zeigen, dass sich die Autoren mit dem Thema beschäftigt haben. Allerdings weiß man nicht genau, welche Ergebnisse relevant sind. Den erst das in Betracht ziehen der Diskrepanz zwischen den Erwartungen und den tatsächlichen Praktiken kann diese beantworten.“'
+                      -
+                        type: tableCell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                        content:
+                          -
+                            type: paragraph
+                            attrs:
+                              textAlign: left
+                            content:
+                              -
+                                type: text
+                                text: '„Die '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/literaturrecherche-datenbanken-quellen
+                                      rel: null
+                                      target: null
+                                      title: null
+                                text: Literaturrecherche
+                              -
+                                type: text
+                                text: ' lässt in den Arbeiten von Schulze (1995), Mayer (1982) und Müller (1993) erkennen, dass ein Zusammenhang zwischen Nachhaltigkeit und Unternehmenserfolg besteht. Als relevante Erfolgsfaktoren werden in diesem Kontext die Nutzung von Kennzahlen erwähnt. In der unternehmerischen Praxis können sich so positive Umsetzungen zeigen.“'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Weitere Informationen zu Textüberarbeitungen finden Sie '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter
-                          rel: null
-                          target: null
+                          href: 'https://www.uni-bielefeld.de/fakultaeten/geschichtswissenschaft/studium/richtig-einsteigen/materialien/Textuberarbeitung.pdf'
+                          rel: 'noopener noreferrer nofollow'
+                          target: _blank
                           title: null
-                    text: Ghostwriter
+                    text: hier
                   -
                     type: text
-                    text: '“ oder „'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting/ghostwriting-agentur
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Ghostwriting Agentur'
-                  -
-                    type: text
-                    text: '“ auf. Gerade solche Angebote verfügen meist über einen herausragenden Pool an akademischen Schreibern, die in der Lage sind ganze Texte Selbstständig zu verfassen. Diese '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          rel: null
-                          target: null
-                          title: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: ' Agenturen haben in ihrem Angebot zumeist einen Korrektorat und Lektorat Service. Dies bietet sich für sie an, da sie ja bereits ein Team an fähigen Schreibern beschäftigen die auch einen Lektorat Service gut übernehmen können. Bei seriösen Anbietern kann man sich sicher sein, einen Lektor der eigenen Fachrichtung zu bekommen, denn wer ein erfolgreiches Ghostwriting leisten kann, muss der spezifischen Fachrichtung angehören. Als kleiner Tipp gilt hierbei: Ruhig erst nach einem Ghostwriting in seinem Fach fragen. Kann dieses angeboten werden, ist man mit Sicherheit hier, sucht man eine Korrektorat oder Lektorat Service, gut aufgehoben. Agenturen können leisten, was Einzelpersonen nicht können, den ganzen Service aus einer Hand. Benötigt man im Laufe seines Studiums einen Lektorat Service in verschiedenen Fächern so findet man in Agenturen den richtigen Ansprechpartner und es muss nicht mühsam ein neuer Lektorat Service für das neue Fach gesucht werden.'
+                    text: .
               -
                 type: heading
                 attrs:
@@ -1680,17 +2009,109 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Blogartikel zum Lektorat Service'
+                    text: 'Unlektorierte Texte: Fehler'
               -
-                type: set
-                attrs:
-                  id: 8sNQh29Q
-                  values:
-                    type: blog_entries
-                    entries:
-                      - 27876560-a260-4e18-89b1-417c11b8b31f
-                      - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
-                      - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Fehler 1:'
+                          -
+                            type: text
+                            text: ' Der Text ist inhaltlich gut, aber zeigt eine Vielzahl von formalen Fehlern. Seien Sie sicher, dass Ihr Professor dann bei der Benotung keine besonders gute Laune haben wird. Also: Nie einen Text ohne professionelles Korrektorat oder Lektorat abgeben.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Fehler 2:'
+                          -
+                            type: text
+                            text: ' Sie haben die von Ihnen gewählte Methodik noch nie angewandt. Schauen Sie sich am besten bei allen Forschungsrichtungen und Methoden immer Beispielarbeiten an. So bekommen Sie ein gutes Gefühl dafür, was erwartet wird.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Fehler 3:'
+                          -
+                            type: text
+                            text: ' Sie versuchen sich besonders „wissenschaftlich“ auszudrücken und machen sehr lange Sätze. Dabei gilt: In der Kürze liegt die Würze! Lieber einfach und prägnant ausdrücken. So macht man weniger Fehler und das Ergebnis klingt besser.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Fehler 4:'
+                          -
+                            type: text
+                            text: ' Der Text hat keinen „roten Faden“. Auch hier hilft ein '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /lektorat/lektor
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'guter Lektor'
+                          -
+                            type: text
+                            text: '!'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Fehler 5:'
+                          -
+                            type: text
+                            text: ' Den Text „ungesehen“ einfach abgeben. Nach dem Motto „fertig ist fertig“. Es ist nachvollziehbar: Sie sind so froh, dass die Arbeit fertig ist. Aber: Planen Sie lieber ein paar Tage mehr ein und lassen den Text entweder noch einmal selbst Revue passieren, indem sie ihn Satz für Satz laut vorlesen oder beauftragten Sie einen Ghostwriter mit der Überarbeitung. Sie werden sehen: Es lohnt sich und Sie werden zufriedener mit Ihrer Leistung und Ihrem Text sein!'
             show_as_card: false
         type: row
         enabled: true
@@ -1698,13 +2119,54 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: tKsKJssn
+    columns_replicator:
+      -
+        id: 8ZXtf5R8
+        single_col: true
+        grid:
+          -
+            id: gikJL6ad
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere wichtigen Seiten zum Lektorat Service'
+              -
+                type: set
+                attrs:
+                  id: 8sNQh29Q
+                  values:
+                    type: blog_entries
+                    entries:
+                      - e1e898c0-ff3e-4bf5-980d-640b0ea7ccee
+                      - 3fbdae79-f1df-4c4d-88b4-274db59e6461
+                      - 42821712-5a96-4c53-9c55-cdde80d798ae
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
     type: add_section
     enabled: true
     border: false
+    bg_toggle: false
+    bg_color: '#F9F9F9'
 parent: 849140c8-c582-4340-a2bc-446126149c9f
-template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705994842
+template: default
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1711054094
 meta_title: 'Lektorat Service » akademisch, professionell & diskret'
 meta_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false

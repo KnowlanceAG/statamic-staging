@@ -261,11 +261,44 @@ replicator:
                   target: null
                   title: null
             text: 'Ghostwriter Stellenangebote | mehr lesen …'
+      -
+        type: heading
+        attrs:
+          textAlign: left
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Ghostwriter Homeoffice'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: 'Wir stellen unseren Mitarbeiter die nötige Hard- und Software bereit, um zu gewährleisten, dass effektiv arbeiten im Homeoffice möglich wird und dass diese weiterhin ihre Arbeit in der gewohnten Qualität erbringen können.'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/autoren-jobs-homeoffice
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Ghostwriter Homeoffice | mehr lesen …'
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995310
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1711067145
 page_title: 'Ghostwriter Jobs bei GWriters'
 template: without-teaser-with-sidebar
 meta_title: 'Ghostwriter Jobs bei GWriters'

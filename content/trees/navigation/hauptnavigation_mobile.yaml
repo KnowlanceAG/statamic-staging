@@ -123,7 +123,7 @@ tree:
               -
                 id: 8cf191fb-ceba-438d-be7b-39b91342c4ee
                 title: Softwarelokalisierung
-                url: 'https://gwriters.de/ghostwriter/informatik#Softwarelokalisierung'
+                url: '/informatik#Softwarelokalisierung'
               -
                 id: 36506d71-b652-40c3-b00e-b5ba3020ac04
                 entry: b76dc919-f8fb-400e-86bc-ddb33ec06cb8
@@ -137,7 +137,7 @@ tree:
               -
                 id: 83bc2057-2210-43e6-b6a7-d7dd43bb86e0
                 title: Biotechnologie
-                url: 'https://gwriters.de/ghostwriter/biologie#biotechnologie'
+                url: '/biologie#biotechnologie'
               -
                 id: 9c6092ac-97e5-4e37-91f7-8e992021ba9c
                 entry: a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
@@ -175,7 +175,7 @@ tree:
               -
                 id: a1c401c8-61aa-4149-93b9-0c363d6ea0d0
                 title: Kommunikationsdesign
-                url: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                url: '/kommunikationswissenschaften#kommunikationsdesign'
           -
             id: 4370439e-daf6-48a6-9194-a84f5a92ded8
             title: 'Wirtschaftliche Fachbereiche'
@@ -204,7 +204,7 @@ tree:
               -
                 id: 18145e73-6cc1-4abe-bbcf-be5a23d1db5d
                 title: 'Internationale BWL'
-                url: '/ghostwriter/bwl#internationale'
+                url: '/bwl#internationale'
               -
                 id: e22f9b8d-a9cb-4e93-b9fe-7ce3d3a2cd42
                 entry: 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
@@ -236,7 +236,7 @@ tree:
               -
                 id: 10fe73b3-3247-42c4-a59c-5a1263b0080d
                 title: Kunstgeschichte
-                url: '/ghostwriter/kunst#kunstgeschichte'
+                url: '/kunst#kunstgeschichte'
           -
             id: e4c7273b-beef-4142-89f5-f19c8d291450
             title: 'Medizinische Fachrichtungen'

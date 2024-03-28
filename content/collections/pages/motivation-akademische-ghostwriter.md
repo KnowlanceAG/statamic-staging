@@ -16,7 +16,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: Welche Motivation haben akademische Ghostwriter?
       - type: set
         attrs:
@@ -33,7 +33,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Akademische\_"
           - type: text
             marks:
@@ -41,7 +41,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriter
@@ -61,17 +61,17 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Die Motivation der Freiberufler, welche Werke für GWriters erstellen sind sehr unterschiedlich. Im Grunde lässt sich allerdings feststellen, dass sicherlich die gleichen Beweggründe bestehen, wie bei jedem anderen Freiberufler auch. Ob Softwareentwickler, Ingenieur oder wissenschaftlicher Autor – als Freiberufler ergeben sich Freiheiten, in deren Genuss man als klassischer Arbeitnehmer selten kommen wird. Zum einen haben wissenschaftliche Autoren eine hohe zeitliche Flexibilität. Viele sind passionierte Autoren und nehmen nur die Aufträge an, an denen sie Freude finden und welche für sie in einem zeitlich akzeptablen Rahmen liegen. Weiter verdient ein Freiberufler oft mehr als ein fest Angestellter. Unsere Freiberufler sind häufig wissenschaftliche Mitarbeiter oder Doktoranden und weisen dadurch einen hohen Erfahrungsschatz beim Verfassen wissenschaftlicher Arbeiten auf. Auch als langjähriger Dozent an einer staatlichen Universität müssen diese meist mit Gehältern auskommen, welche den Einstiegsgehältern von frischen\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter/bwl
+                  href: /bwl
                   target: null
                   rel: null
             text: BWL
@@ -91,7 +91,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Natürlich trägt der Freelancer grundsätzlich ein höheres Risiko
               als ein Arbeitnehmer mit “gesichertem Arbeitsplatz”, jedoch
@@ -107,7 +107,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq
@@ -131,7 +131,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 og_title: Welche Motivation haben akademische Ghostwriter? • GWriters

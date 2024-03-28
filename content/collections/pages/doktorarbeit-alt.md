@@ -13,8 +13,8 @@ teaser:
         marks:
           - type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: "#ff6602"
+              hex: "#000"
         text: Mustervorlage für Doktorarbeit schreiben lassen
   - type: paragraph
     content:
@@ -32,7 +32,7 @@ teaser:
         type: button
         button_link: /anfrage
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
@@ -44,7 +44,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Hilfe bei der Doktorarbeit leistet oft ein akademischer
               Ghostwriter, wenn sich Doktoranden eine Mustervorlage für die
@@ -62,7 +62,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Ebenfalls ist es möglich, Hilfestellungen während des Studiums in
               Anspruch zu nehmen oder sich Beratung bei einigen Teilaspekten zu
@@ -72,7 +72,7 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Zudem können Teilleistungen wie das '
+            text: "Zudem können Teilleistungen wie das "
           - type: text
             marks:
               - type: link
@@ -82,13 +82,13 @@ replicator:
                   rel: null
             text: Lektorat
           - type: text
-            text: ' und '
+            text: " und "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               das Korrektorat der Dissertation, die bereits durch den
               Doktoranden fertiggestellt wurde, in Anspruch genommen werden. Die
@@ -102,7 +102,7 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Abschließend kann eine umfassende '
+            text: "Abschließend kann eine umfassende "
           - type: text
             marks:
               - type: link
@@ -112,13 +112,13 @@ replicator:
                   rel: null
             text: Plagiatsprüfung
           - type: text
-            text: ' erfolgen, um mögliche Flüchtigkeitsfehler bei Zitaten zu erkennen und den ordnungsgemäßen Umgang mit Quellen zu versichern. '
+            text: " erfolgen, um mögliche Flüchtigkeitsfehler bei Zitaten zu erkennen und den ordnungsgemäßen Umgang mit Quellen zu versichern. "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Oft geschieht dieser Fehler während der Literaturrecherche, denn
               viele Studierende möchten sich die Arbeit erleichtern und
@@ -130,14 +130,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: "Nicht selten werden auch Dienstleistungen wie die sog. Beratung zur Promotion in Anspruch genommen. Zudem verschaffen sich einige Doktoranden eine umfassende Hilfe, indem sie Mustervorlagen von einen\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: blue
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriter
@@ -149,7 +149,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: "\_für ihre Doktorarbeit schreiben lassen und diese Ghostwriter-Doktorarbeit als Vorlage für ihre eigene Schreibarbeit nutzen."
       - type: heading
         attrs:
@@ -164,7 +164,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Unser professionelles Leistungszentrum arbeitet mit akademisch
               ausgebildeten Autoren. Diese Autoren sind Doktoren, Professoren,
@@ -176,7 +176,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Sie beschäftigen sich tagtäglich mit wissenschaftlichen
               Schreibarbeiten und methodischen Ansätzen in unser Schreibservice.
@@ -189,7 +189,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Auch als Betreuer bei der Definition der Problemlage oder
               wissenschaftlichen Fragstellungen der Dissertation stehen unsere
@@ -202,7 +202,7 @@ replicator:
               - type: bold
             text: >-
               Wenn Sie bei Ihrer Doktorarbeit Unterstützung benötigen, dann
-              können Sie unseren Schreibservice gerne sofort eine 
+              können Sie unseren Schreibservice gerne sofort eine
           - type: text
             marks:
               - type: bold
@@ -240,7 +240,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               In vielen Ländern, besonders in Deutschland, gilt der
               Doktorabschluss nach wie vor als klassischer
@@ -256,7 +256,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: "Die aufwändigste Form der experimentellen Doktorarbeit haben Medizinstudierende. Sie benötigen meist zwei Semester länger. Jedoch lohnt sich die Schreibarbeit im Fachgebiet Medizin, wenn Sie im späteren Berufsleben an einer Universität oder in der Forschung arbeiten möchten. Hier verbringen Promovenden viel Zeit im Labor mit Forschungsmaterialien und um Experimente durchzuführen. \_"
       - type: paragraph
         content:
@@ -265,7 +265,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Auch generell ist der akademische Aufstieg sehr zeitintensiv und
               arbeitslastig. Besonders Berufstätige, die erst Jahre nach ihrem
@@ -279,7 +279,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               In solchen Fällen helfen akademische Freelancer, die die
               Forschungsarbeit lektorieren und korrigieren. Um auf Nummer sicher
@@ -287,7 +287,7 @@ replicator:
               hilft es, den Text auf Plagiate zu prüfen. Wenn in der
               Schreibphase Unterstützung gefordert ist, die über
           - type: text
-            text: ' das '
+            text: " das "
           - type: text
             marks:
               - type: link
@@ -297,7 +297,7 @@ replicator:
                   rel: null
             text: Korrekturlesen
           - type: text
-            text: ' hinaus geht, wird häufig von einem Ghostwriter eine Mustervorlage für die Dissertation schreiben gelassen und die '
+            text: " hinaus geht, wird häufig von einem Ghostwriter eine Mustervorlage für die Dissertation schreiben gelassen und die "
           - type: text
             marks:
               - type: link
@@ -307,7 +307,7 @@ replicator:
                   rel: null
             text: Ghostwriting
           - type: text
-            text: '-Doktorarbeit als Muster genutzt.'
+            text: "-Doktorarbeit als Muster genutzt."
       - type: paragraph
         content:
           - type: text
@@ -315,7 +315,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Wenn die Karriere im Vordergrund steht, sollten sich die
               Doktorandinnen nicht primär mit der Fragestellung beschäftigen
@@ -340,12 +340,12 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Unsere Leistungen:'
+                    text: "Unsere Leistungen:"
                   - type: hard_break
             show_as_card: false
         type: row
         enabled: true
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         single_col: true
         grid:
           - bard:
@@ -444,8 +444,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -460,8 +460,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
@@ -484,13 +484,13 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Wichtige Fachbereiche:'
+                    text: "Wichtige Fachbereiche:"
                   - type: hard_break
             show_as_card: false
         type: row
         enabled: true
       - responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: "3"
         single_col: false
         grid:
           - bard:
@@ -501,11 +501,11 @@ replicator:
                       - type: underline
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/architektur
+                          href: /architektur
                           target: null
                           rel: null
                     text: Architektur
@@ -517,11 +517,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: BWL
@@ -533,11 +533,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                          href: /erziehungswissenschaften-ghostwriter
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -549,11 +549,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/germanistik-ghostwriter
+                          href: /germanistik-ghostwriter
                           target: null
                           rel: null
                     text: Germanistik
@@ -565,11 +565,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           target: null
                           rel: null
                     text: Jura
@@ -581,11 +581,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/literatur
+                          href: /literatur
                           target: null
                           rel: null
                     text: Literatur
@@ -597,11 +597,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/mathematik
+                          href: /mathematik
                           target: null
                           rel: null
                     text: Mathematik
@@ -613,11 +613,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/pflegewissenschaften
+                          href: /pflegewissenschaften
                           target: null
                           rel: null
                     text: Pflegewissenschaften
@@ -629,11 +629,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziale-arbeit
+                          href: /soziale-arbeit
                           target: null
                           rel: null
                     text: Soziale Arbeit
@@ -645,11 +645,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           target: null
                           rel: null
                     text: VWL
@@ -661,11 +661,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/zahnmedizin
+                          href: /zahnmedizin
                           target: null
                           rel: null
                     text: Zahnmedizin
@@ -679,11 +679,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/bauingenieurwesen
+                          href: /bauingenieurwesen
                           target: null
                           rel: null
                     text: Bauingenieurwesen
@@ -695,11 +695,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/chemie
+                          href: /chemie
                           target: null
                           rel: null
                     text: Chemie
@@ -711,11 +711,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/finanzwissenschaften
+                          href: /finanzwissenschaften
                           target: null
                           rel: null
                     text: Finanzwissenschaften
@@ -727,11 +727,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/geschichte
+                          href: /geschichte
                           target: null
                           rel: null
                     text: Geschichte
@@ -743,11 +743,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/kommunikationswissenschaften
+                          href: /kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikation
@@ -759,11 +759,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/marketing
+                          href: /marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -775,11 +775,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/medienwissenschaften
+                          href: /medienwissenschaften
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -791,11 +791,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/philosophie
+                          href: /philosophie
                           target: null
                           rel: null
                     text: Philosophie
@@ -807,11 +807,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziologie
+                          href: /soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -823,11 +823,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftsinformatik
+                          href: /wirtschaftsinformatik
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
@@ -841,11 +841,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/biologie
+                          href: /biologie
                           target: null
                           rel: null
                     text: Biologie
@@ -857,11 +857,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/elektrotechnik
+                          href: /elektrotechnik
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -873,11 +873,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/geologie
+                          href: /geologie
                           target: null
                           rel: null
                     text: Geologie
@@ -889,11 +889,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/informatik
+                          href: /informatik
                           target: null
                           rel: null
                     text: Informatik
@@ -905,11 +905,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/kunst
+                          href: /kunst
                           target: null
                           rel: null
                     text: Kunst
@@ -921,11 +921,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/maschinenbau
+                          href: /maschinenbau
                           target: null
                           rel: null
                     text: Maschinenbau
@@ -937,11 +937,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/medizin
+                          href: /medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -953,11 +953,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/psychologie
+                          href: /psychologie
                           target: null
                           rel: null
                     text: Psychologie
@@ -969,11 +969,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/sprachwissenschaften
+                          href: /sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften
@@ -985,11 +985,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -1013,7 +1013,7 @@ replicator:
             type: button
             button_link: /anfrage
             button_text: JETZT KOSTENLOS ANFRAGEN
-            color: '#FF6606'
+            color: "#FF6606"
             spacing_top: false
       - type: horizontal_rule
       - type: heading
@@ -1029,7 +1029,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Voraussetzung für den höchsten akademischen Grad bzw. für den
               Doktor ist ein guter Hochschulabschluss mit Promotionsrecht.
@@ -1045,7 +1045,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Der Vorgang wird auch Promotion genannt. Die Promotionsprogramme
               sind unterschiedlich aufgebaut, meist müssen die Promivierenden
@@ -1059,18 +1059,18 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Jedoch sind Sie noch nicht mit Ihrem Promotionsprogramm fertig,
               nach dem Sie Ihre Doktorarbeit erfolgreich abgeben haben. Um die
               Verleihung des akademischen Doktorgrades zu erreichen, müssten Sie
-              noch Rigorosum und Disputation bestehen. Rigorosum ist eine 
+              noch Rigorosum und Disputation bestehen. Rigorosum ist eine
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/doktorarbeit-verteidigen
@@ -1082,7 +1082,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: " und Disputation ist eine wissenschaftliche Diskussion, in dem von Ihnen eine Verteidigung über Ihre Arbeit erlangt wird.\_"
       - type: paragraph
         content:
@@ -1091,7 +1091,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               So gibt es keine Hochschulen oder Universitäten, die zum Erlangen
               des Doktortitels von den Doktoranden nicht eine Doktorarbeit
@@ -1105,7 +1105,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Das Erlangen der Doktorwürde ist meist ein langwieriger
               Schreibprozess, dessen aufwändigster Teil die Ausarbeitung der
@@ -1128,14 +1128,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: 'Während eine '
+                  hex: "#000"
+            text: "Während eine "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /arbeiten/hausarbeit-schreiben-lassen
@@ -1147,14 +1147,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ', '
+                  hex: "#000"
+            text: ", "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /arbeiten/bachelorarbeit-schreiben-lassen
@@ -1166,14 +1166,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ', '
+                  hex: "#000"
+            text: ", "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /arbeiten/masterarbeit-schreiben-lassen
@@ -1185,8 +1185,8 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ' oder Diplomarbeit meist nur bereits vorhandenes Wissen zusammenfasst, wird bei der Dissertation eine Erweiterung des Wissens gefordert. Um die Doktorwürde zu erlangen, muss man demnach in der Forschung tätig gewesen sein und neue Erkenntnisse vorweisen können.'
+                  hex: "#000"
+            text: " oder Diplomarbeit meist nur bereits vorhandenes Wissen zusammenfasst, wird bei der Dissertation eine Erweiterung des Wissens gefordert. Um die Doktorwürde zu erlangen, muss man demnach in der Forschung tätig gewesen sein und neue Erkenntnisse vorweisen können."
       - type: paragraph
         content:
           - type: text
@@ -1194,7 +1194,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Dieser Prozess dauert oft mehrere Jahre und wird von einem
               Doktorvater betreut, der zu bestimmten Maßen ein Coaching bei der
@@ -1208,22 +1208,22 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Der Doktorand kann sich theoretisch mit einem Sachverhalt
               beschäftigen oder empirisch/ experimentell ermittelte Daten
               auswerten, interpretieren, sowie analysieren. Die Untersuchungen
               geschiehen oftmals durch Umfragen im Bereich der BWL und VWL und
-              durch Experimente in der Forschung, 
+              durch Experimente in der Forschung,
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter/biologie
+                  href: /biologie
                   target: null
                   rel: null
             text: Biologie
@@ -1232,17 +1232,17 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ', '
+                  hex: "#000"
+            text: ", "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter/medizin
+                  href: /medizin
                   target: null
                   rel: null
             text: Medizin
@@ -1251,17 +1251,17 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ', '
+                  hex: "#000"
+            text: ", "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter/jura
+                  href: /jura
                   target: null
                   rel: null
             text: Rechtswissenschaften
@@ -1270,17 +1270,17 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ' oder '
+                  hex: "#000"
+            text: " oder "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter/psychologie
+                  href: /psychologie
                   target: null
                   rel: null
             text: Psychologie
@@ -1289,7 +1289,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               . Der Umfang der Doktorarbeit ist ebenfalls stark abhängig vom
               Fachgebiet, liegt aber generell zwischen 150 und 500 Seiten.
@@ -1300,7 +1300,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Zwar gibt es seitens Doktorväter und Hochschulen einige
               unterschiedliche Promotionsordnungen, jedoch veröffentlichen
@@ -1319,7 +1319,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: Gliederung und Formalien einer Doktorarbeit
       - type: paragraph
         content:
@@ -1328,7 +1328,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Einige Voraussetzungen von Promotionsausschuss zur Erstellung der
               Arbeit haben sich als gängig erwiesen:
@@ -1337,7 +1337,7 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: 'Gliederung der Doktorarbeit:'
+            text: "Gliederung der Doktorarbeit:"
       - type: paragraph
         content:
           - type: text
@@ -1374,7 +1374,7 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: 'Formatierung der Doktorarbeit:'
+            text: "Formatierung der Doktorarbeit:"
       - type: paragraph
         content:
           - type: text
@@ -1383,13 +1383,13 @@ replicator:
               zweite Gliederungsebene 12-14pt
           - type: hard_break
           - type: text
-            text: '• Fußnoten: 10 pt'
+            text: "• Fußnoten: 10 pt"
           - type: hard_break
           - type: text
             text: • Zeilenabstand:1,5 fach
           - type: hard_break
           - type: text
-            text: '• Ausrichtung: Blocksatz'
+            text: "• Ausrichtung: Blocksatz"
           - type: hard_break
           - type: text
             text: >-
@@ -1398,7 +1398,7 @@ replicator:
               Überschrift sowie zwischen Absätzen im laufenden Text
           - type: hard_break
           - type: text
-            text: '• Seitenränder: links 4cm, rechts und unten 2cm, oben 3cm'
+            text: "• Seitenränder: links 4cm, rechts und unten 2cm, oben 3cm"
       - type: heading
         attrs:
           level: 2
@@ -1418,7 +1418,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Ihre Anfrage ist bei der Schreibagentur GWriters natürlich
               unverbindlich. Weiterhin gehen wir verantwortungsvoll mit den
@@ -1432,7 +1432,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Nach der Anfrage erfolgt eine Zusammenfassung aller relevanten
               Daten des Projektes mit Ihnen zusammen. In der Planungsphase
@@ -1451,7 +1451,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Weiterhin werden die konkreten Rahmenbedingungen (z.B. Schutz der
               Daten) Ihres Projektes besprochen. Auf dessen Basis erstellen wir
@@ -1459,7 +1459,7 @@ replicator:
               und demzufolge die Preise für Aufträge zur Texterstellung sind
               unterschiedlich. Denn je nach Aufgabenstellung, Fachrichtung,
               Umfang (Seitenanzahl), Zeitangabe, Qualitätslevel und Komplexität
-              des Themas werden unterschiedliche Preise festgelegt. 
+              des Themas werden unterschiedliche Preise festgelegt.
       - type: paragraph
         content:
           - type: text
@@ -1467,23 +1467,23 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Demnach werden mehrere ausgebildete fachliche Autoren für das
-              wissenschaftliche Arbeiten eingesetzt. Als Orientierungshilfe 
+              wissenschaftliche Arbeiten eingesetzt. Als Orientierungshilfe
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: 'für die Ghostwriter Preise von GWriters können Sie den '
+                  color: "#444444"
+                  hex: "#000"
+            text: "für die Ghostwriter Preise von GWriters können Sie den "
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#444444'
-                  hex: '#000'
+                  color: "#444444"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /preise
@@ -1494,15 +1494,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: ' benutzen und Ihre Anforderungen zusammenrechnen lassen. '
+                  color: "#444444"
+                  hex: "#000"
+            text: " benutzen und Ihre Anforderungen zusammenrechnen lassen. "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Sobald Sie das Leistungsangebot von unserer Schreibagentur
               annehmen, beginnt die Planungsphase Ihrer Mustervorlage.
@@ -1511,7 +1511,7 @@ replicator:
           level: 3
         content:
           - type: text
-            text: '3. Doktorarbeit schreiben lassen: Verfassen der Mustervorlage'
+            text: "3. Doktorarbeit schreiben lassen: Verfassen der Mustervorlage"
       - type: paragraph
         content:
           - type: text
@@ -1519,7 +1519,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Während der Anfertigung Ihrer Aufgabe, der von einem
               professionellen Ghostwriter als Mustervorlage erstellt wird, läuft
@@ -1541,7 +1541,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Sie erhalten einen individuellen Projektbetreuer, der Ihnen
               kontinuierlich zur Seite steht. Weiterhin erhalten Sie regelmäßig
@@ -1562,21 +1562,21 @@ replicator:
               Nachdem die eigentliche Schreibphase mit allen Teillieferungen
               abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird
               dabei von Ihrem Ghostwriter in kostenlosen Korrekturschleifen
-              eingearbeitet. Es erfolgt zudem eine 
+              eingearbeitet. Es erfolgt zudem eine
           - type: text
             marks:
               - type: bold
-            text: 'Plagiatsprüfung '
+            text: "Plagiatsprüfung "
           - type: text
             text: >-
               der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben
-              lassen. 
+              lassen.
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Gefolgt wird diese von einem zweiten Lektorat unser Schreibservice
               im Vier-Augen-Prinzip. Somit ist die Qualitätsgarantie der Arbeit
@@ -1594,7 +1594,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Mit der finalen Lieferung bekommen Sie dann Ihre individuelle
               Mustervorlage der Dissertation von Ihrem individuellen Betreuer.
@@ -1754,7 +1754,7 @@ updated_at: 1641982907
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

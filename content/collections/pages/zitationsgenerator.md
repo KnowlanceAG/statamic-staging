@@ -978,7 +978,7 @@ sitemap_active: true
 breadcrumbs_active: true
 template: default
 meta_title: 'Kostenloser Zitationsgenerator für akademische Arbeiten'
-meta_description: 'Kostenloser Zitationsgenerator | Schnelle & einfache Quellenangaben und Literaturverzeichnisse in den Zitierstilen APA, Harvard, Chicago, IEEE, MIT & mehr!'
+meta_description: 'Kostenloser Zitationsgenerator | Quellenangaben und Literaturverzeichnisse in den Zitierstilen APA, Harvard, Chicago, IEEE, MIT & mehr!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1061,5 +1061,6 @@ schema_objects: |-
   }
   </script>
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705996216
+updated_at: 1709736344
+jumpmark: buchheit@gwriters.net
 ---

@@ -16,7 +16,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: Habe ich direkten Kontakt zu meinem Ghostwriter oder Bearbeiter?
       - type: set
         attrs:
@@ -33,7 +33,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Nein. Um unserem hohen Qualitätsanspruch ständig gerecht zu
               werden, werden alle durch GWriters abgewickelten Projekte durch
@@ -47,23 +47,23 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Da es sich bei den durch uns umgesetzten Projekten primär um Texte oder Bearbeitungen mit sehr hohen Qualitätsanforderung und/oder sensible Unikate handelt, ist die ständige Koordination durch unsere Projektbetreuer und Supervisor obligatorisch. Sämtliche\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter/kommunikationswissenschaften
+                  href: /kommunikationswissenschaften
                   target: null
                   rel: null
             text: Kommunikation
@@ -79,14 +79,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Diskretion ist für uns selbstverständlich und einer der großen Vorteile, von welchen Sie profitieren. Dabei garantieren wir Ihnen kurzfristige und rasche Kommunikation, sodass die gute Zusammenarbeit zwischen Kunden und Autoren oder Bearbeitern nicht behindert wird. In Ausnahmefällen zum Beispiel bei langfristigen Buchprojekten mit besonders hohem Kommunikationsbedarf zwischen Ihnen und Ihrem Autor, stellen wir den\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /kontakt
@@ -106,7 +106,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq
@@ -130,7 +130,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 og_title: Habe ich Kontakt zu meinem Ghostwriter? • GWriters

@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Ghostwriter Wirtschaftsinformatik
   - type: paragraph
     content:
@@ -23,8 +23,8 @@ teaser:
           - type: bold
           - type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: "#000!important"
+              hex: "#000"
         text: >-
           Hilfe durch Experten und akademische Ghostwriter der
           Wirtschaftsinformatik – schnell, diskret und mehrfach geprüft auf
@@ -75,7 +75,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: set
     attrs:
@@ -87,7 +87,7 @@ teaser:
       - type: text
         marks:
           - type: bold
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+        text: "Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:"
     attrs:
       textAlign: center
   - type: heading
@@ -100,13 +100,13 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
           - type: link
             attrs:
               href: tel:##phone##
               target: null
               rel: null
-        text: '##phone##'
+        text: "##phone##"
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: Wirtschaftsinformatik Ghostwriter & Lektoren • GWriters
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
@@ -116,7 +116,7 @@ updated_at: 1667928198
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
@@ -152,8 +152,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Unsere Leistungen im Fachbereich Wirtschaftsinformatik
               - type: set
                 attrs:
@@ -214,7 +214,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: "#F9F9F9"
     border: false
     type: add_section
     enabled: true
@@ -228,8 +228,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       In der modernen, vernetzten und globalisierten Welt steigt
                       der Bedarf an
@@ -238,24 +238,24 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' Informatikern aus dem Fachbereich Wirtschaft'
+                          color: "#000!important"
+                          hex: "#000"
+                    text: " Informatikern aus dem Fachbereich Wirtschaft"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' täglich. Das Studium setzt sich meist aus einem wirtschaftlichen (betriebswirtschaftlichen) und einem informationstechnischen Teil zusammen. '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: " täglich. Das Studium setzt sich meist aus einem wirtschaftlichen (betriebswirtschaftlichen) und einem informationstechnischen Teil zusammen. "
               - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Diese Interdisziplinarität birgt allerdings auch
                       Herausforderungen. So darf ein Wirtschaftsinformatiker
@@ -264,13 +264,13 @@ replicator:
                       vorweisen können. Dies zu leisten, ist eine Schwierigkeit,
                       mit der sich Studierenden zunehmend konfrontiert sehen,
                       zumal in beiden Fächern ein hohes Pensum an schriftlichen
-                      Ausarbeitungen und 
+                      Ausarbeitungen und
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
@@ -281,15 +281,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' oder '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: " oder "
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
@@ -300,16 +300,16 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: " vorausgesetzt wird. So werden besonders in der Wirtschaftsinformatik\_"
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriter
@@ -321,15 +321,15 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       und akademische Autoren zur Unterstützung in Form von
                       Mustervorlagen als Orientierungshilfe beauftragt.
@@ -342,16 +342,16 @@ replicator:
                           - type: bold
                           - type: textColor
                             attrs:
-                              color: '#000!important'
-                              hex: '#000'
+                              color: "#000!important"
+                              hex: "#000"
                         text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftsinformatik Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                       - type: text
                         marks:
                           - type: bold
                           - type: textColor
                             attrs:
-                              color: '#000!important'
-                              hex: '#000'
+                              color: "#000!important"
+                              hex: "#000"
                           - type: link
                             attrs:
                               href: /anfrage
@@ -363,8 +363,8 @@ replicator:
                           - type: bold
                           - type: textColor
                             attrs:
-                              color: '#000!important'
-                              hex: '#000'
+                              color: "#000!important"
+                              hex: "#000"
                         text: >-
                           . Wir melden uns innerhalb weniger Stunden mit einem
                           kostenlosen Angebot bei Ihnen zurück und rufen Sie
@@ -376,8 +376,8 @@ replicator:
                           - type: bold
                           - type: textColor
                             attrs:
-                              color: '#000!important'
-                              hex: '#000'
+                              color: "#000!important"
+                              hex: "#000"
                           - type: link
                             attrs:
                               href: /arbeiten/bachelorarbeit-schreiben-lassen
@@ -389,16 +389,16 @@ replicator:
                           - type: bold
                           - type: textColor
                             attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: ', '
+                              color: "#000!important"
+                              hex: "#000"
+                        text: ", "
                       - type: text
                         marks:
                           - type: bold
                           - type: textColor
                             attrs:
-                              color: '#000!important'
-                              hex: '#000'
+                              color: "#000!important"
+                              hex: "#000"
                           - type: link
                             attrs:
                               href: /arbeiten/masterarbeit-schreiben-lassen
@@ -410,8 +410,8 @@ replicator:
                           - type: bold
                           - type: textColor
                             attrs:
-                              color: '#000!important'
-                              hex: '#000'
+                              color: "#000!important"
+                              hex: "#000"
                         text: >-
                           ) oder andere Arten von Prüfungsleistungen erstellen,
                           gerne erstellen wir Ihnen aber eine hochqualitative
@@ -429,7 +429,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: Unsere Wirtschaftsinformatik-Ghostwriter
               - type: paragraph
                 content:
@@ -438,22 +438,22 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: 'Unser Team von '
+                          hex: "#000"
+                    text: "Unser Team von "
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: 'erfahrenen Wirtschaftsinformatik Ghostwritern '
+                          hex: "#000"
+                    text: "erfahrenen Wirtschaftsinformatik Ghostwritern "
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       unterstützt Sie bei der effektiven und qualitativ
                       hochwertigen Umsetzung von akademischen Arbeiten, Texten
@@ -461,7 +461,7 @@ replicator:
                       eine Präsentation, eine Abschlussarbeit (z.B.
                       Masterarbeit) oder jede andere Form einer akademischen
                       Ausarbeitung (Hausarbeit, Seminararbeit) handelt, wir
-                      bieten Ihnen umfassenden individuellen Beistand. 
+                      bieten Ihnen umfassenden individuellen Beistand.
               - type: paragraph
                 content:
                   - type: text
@@ -469,14 +469,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: "Jeder unserer Freelancer und Ghostwriter der Wirtschaftsinformatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Mustervorlagen für architektonische Arbeiten vorweisen. Neben der Beratung und der Unterstützung bei dem gesamten Arbeitsprozess durch die Erstellung einer Mustervorlage, kann ein Ghostwriter für Wirtschaftsinformatik auch lediglich als\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat/lektor
@@ -488,14 +488,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: ",\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat/korrektor
@@ -507,14 +507,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: "\_und "
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -526,8 +526,8 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: ' beauftragt werden. So werden nicht nur Sie als Student entlastet, sondern auch das qualitative Niveau der Arbeit angehoben und eine bestmögliche Benotung bewirkt.'
+                          hex: "#000"
+                    text: " beauftragt werden. So werden nicht nur Sie als Student entlastet, sondern auch das qualitative Niveau der Arbeit angehoben und eine bestmögliche Benotung bewirkt."
             show_as_card: false
         type: row
         enabled: true
@@ -614,8 +614,8 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Zur Wirtschaftsinformatik
             show_as_card: false
         type: row
@@ -633,7 +633,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Die Kombination aus Wirtschaft und Informatik entwickelte
                       sich, um den immer komplexer werdenden Anwendungsgebieten
@@ -657,7 +657,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Ohne ausfallfrei funktionierende Datenverarbeitung und
                       konsistent arbeitende Kommunikationssysteme wären heutige
@@ -667,7 +667,7 @@ replicator:
                       Systeme für große Firmen komplexer sind und andere
                       Anforderungen an den Informatiker stellen, als dies
                       Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber
-                      jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. 
+                      jedes Unternehmen auf Wirtschaftsinformatiker angewiesen.
               - type: paragraph
                 content:
                   - type: text
@@ -676,15 +676,15 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: Das Ziel der Wirtschaftsinformatik
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: ' ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn die maschinelle Entwicklung noch nicht so weit vorangeschritten ist, um die spezifische Aufgabe in gewünschtem Maße zu übernehmen.'
+                          hex: "#000"
+                    text: " ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn die maschinelle Entwicklung noch nicht so weit vorangeschritten ist, um die spezifische Aufgabe in gewünschtem Maße zu übernehmen."
             show_as_card: false
         type: row
         enabled: true
@@ -698,7 +698,7 @@ replicator:
                     type: button
                     button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
                     button_text: KOSTENLOS UNTERSTÜTZUNG ANFRAGEN
-                    color: '#FF6606'
+                    color: "#FF6606"
                     button_align: justify-center
                     spacing_top: false
             show_as_card: false
@@ -709,7 +709,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: "#F9F9F9"
     border: false
     type: add_section
     enabled: true
@@ -727,7 +727,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: Studium der Wirtschaftsinformatik
               - type: paragraph
                 content:
@@ -736,7 +736,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Fachkenntnisse des Studienganges kann man durch eine Lehre
                       im kaufmännischen Bereich, ein berufsbegleitendes Studium,
@@ -744,27 +744,27 @@ replicator:
                       Universität oder Hochschule erlangen. In diesem
                       Studiengang nutzen Studierende IT-Kenntnisse, um
                       wirtschaftliche Prozesse in Unternehmen zu optimieren,
-                      analysieren und Probleme zu lösen. 
+                      analysieren und Probleme zu lösen.
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Der Studiengang Wirtschaftsinformatik bildet Studierenden
-                      zum Vermittler zwischen 
+                      zum Vermittler zwischen
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/informatik
+                          href: /informatik
                           target: null
                           rel: null
                     text: Informatik
@@ -774,18 +774,18 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: ' und '
+                          hex: "#000"
+                    text: " und "
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: BWL
@@ -795,8 +795,8 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
-                    text: ' (Betriebswirtschaftslehre) aus. '
+                          hex: "#000"
+                    text: " (Betriebswirtschaftslehre) aus. "
               - type: paragraph
                 content:
                   - type: text
@@ -804,14 +804,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: "Daher ist es besonders wichtig, in den Fächern Mathematik und Betriebswirtschaft gute Vorkenntnisse zu haben. Das Studium der Wirtschaftsinformatik besteht an einer Hochschule beim Bachelorstudium aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/diplomarbeit
@@ -823,13 +823,13 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       , nach der Bologna-Reform jedoch die Bachelorarbeit
                       (Bachelor Thesis) und die Masterarbeit (Master Thesis).
                       Optional kann darauf die Promotion, das Erlangen des
                       Doktortitels durch eine Dissertation oder Doktorarbeit,
-                      erfolgen. 
+                      erfolgen.
               - type: paragraph
                 content:
                   - type: text
@@ -837,7 +837,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: "Besonders hier ist im Studiengang der Wirtschaftsinformatik\_"
                   - type: text
                     marks:
@@ -845,7 +845,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: blue
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriting
@@ -873,8 +873,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Disclaimer
               - type: paragraph
                 content:
@@ -882,8 +882,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
                   - type: text
                     text: "\_"
@@ -914,8 +914,8 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Nützliche Weblinks
               - type: paragraph
                 content:
@@ -923,8 +923,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://de.wikipedia.org/wiki/Wirtschaftsinformatik
@@ -939,8 +939,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://informatikbibliothek.uni-koeln.de/
@@ -955,8 +955,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-
@@ -970,8 +970,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://gi.de/
@@ -983,8 +983,8 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://gwriters.de/wiki

@@ -15,7 +15,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Informatik Ghostwriter
   - type: paragraph
     content:
@@ -25,7 +25,7 @@ teaser:
           - type: textColor
             attrs:
               color: rgb(68, 68, 68)
-              hex: '#000'
+              hex: "#000"
         text: >-
           Hilfe durch Experten und akademische Ghostwriter der Informatik –
           schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.
@@ -37,7 +37,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: paragraph
 teaser_bg: seiten/header-so-funktionierts.jpeg
@@ -49,7 +49,7 @@ updated_at: 1643110376
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
@@ -69,7 +69,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Informatik-Ghostwriter unterstützen Sie im
                       Informatik-Studium
@@ -80,14 +80,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Die Informatik ist die Lehre von der Informationsverarbeitung mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium der Informatik erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studenten der Informatik eine Bachelorarbeit schreiben lassen. Aufgrund der zahlreichen Abgaben und anspruchsvollen Anforderungen im Studium greifen einige Studenten der Informatik auf\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriter
@@ -107,7 +107,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Informatik Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   - type: text
                     marks:
@@ -115,7 +115,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /anfrage
@@ -152,7 +152,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Informatik-Ghostwriter & Freelancer
               - type: paragraph
                 content:
@@ -161,14 +161,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Unser Team von erfahrenen Akademikern aus der Informatik unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder unserer Freelancer und Ghostwriter der Informatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von akademischen Arbeiten vorweisen. Der akademische Freelancer agiert oftmals als\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat/lektor
@@ -183,7 +183,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat/korrektor
@@ -206,7 +206,7 @@ replicator:
         enabled: true
         responsive_columns: 1
         single_col: false
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         grid:
           - bard:
               - type: paragraph
@@ -365,7 +365,7 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Akademische Arbeiten:'
+                    text: "Akademische Arbeiten:"
             show_as_card: false
         type: row
         enabled: true
@@ -379,7 +379,7 @@ replicator:
     remove_spacing: true
     border: false
   - columns_replicator:
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         grid:
           - bard:
               - type: paragraph
@@ -562,7 +562,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Warum Informatik studieren?
               - type: paragraph
                 content:
@@ -571,7 +571,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Der Umgang mit PC und Smartphones gehört schon zum Alltag
                       und ist aus unserer heutigen digitalisierten Welt nicht
@@ -590,7 +590,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Doch diese anfängliche Euphorie ist oftmals schnell wieder
                       vorbei, da das Informatikstudium ein sehr komplexes und
@@ -608,7 +608,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Zudem hat ein gut ausgebildeter Informatiker ein
                       Jahresbruttogehalt zwischen 50.000 Euro und 120.000 Euro
@@ -632,7 +632,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Studieninhalte des Informatikstudiums
               - type: paragraph
                 content:
@@ -641,7 +641,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Im Grundstudium werden komplexe und schwierige
                       Themenfelder betrachtet. Das Programmieren von
@@ -659,18 +659,18 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "Die Einführung eines Studienganges für Informatik startete in der DDR und in der Bundesrepublik etwa zeitgleich. Die TU Dresden war im Osten Vorreiter, im Westen bot die Universität Karlsruhe als erstes einen Diplomstudiengang für Informatik an. Dabei haben die Universitäten von ihren Studenten der Informatik eine Diplomarbeit schreiben lassen. Mittlerweile hat sich die Informatik in viele fachunter- und fachübergreifende Teilgebiete aufgeteilt, so gibt es neben vielen anderen Spezialdisziplinen die Ingenieurinformatik, die\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftsinformatik
+                          href: /wirtschaftsinformatik
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
@@ -686,7 +686,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Eine Hausarbeit über zwei verschiedenen Fachbereichen zu
                       schreiben ist sehr anspruchsvoll, daher benötigen viele
@@ -712,8 +712,8 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
-                    text: 'Enge Verbindungen zu anderen Fachrichtungen:'
+                          hex: "#000"
+                    text: "Enge Verbindungen zu anderen Fachrichtungen:"
               - type: bullet_list
                 content:
                   - type: list_item
@@ -725,10 +725,10 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: rgb(255, 102, 2)
-                                  hex: '#000'
+                                  hex: "#000"
                               - type: link
                                 attrs:
-                                  href: /ghostwriter/bwl
+                                  href: /bwl
                                   target: null
                                   rel: null
                             text: BWL
@@ -743,10 +743,10 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: rgb(255, 102, 2)
-                                  hex: '#000'
+                                  hex: "#000"
                               - type: link
                                 attrs:
-                                  href: /ghostwriter/chemie
+                                  href: /chemie
                                   target: null
                                   rel: null
                             text: Chemie
@@ -761,10 +761,10 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: rgb(255, 102, 2)
-                                  hex: '#000'
+                                  hex: "#000"
                               - type: link
                                 attrs:
-                                  href: /ghostwriter/mathematik
+                                  href: /mathematik
                                   target: null
                                   rel: null
                             text: Mathematik
@@ -779,10 +779,10 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: rgb(255, 102, 2)
-                                  hex: '#000'
+                                  hex: "#000"
                               - type: link
                                 attrs:
-                                  href: /ghostwriter/medizin
+                                  href: /medizin
                                   target: null
                                   rel: null
                             text: Medizin
@@ -797,10 +797,10 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: rgb(255, 102, 2)
-                                  hex: '#000'
+                                  hex: "#000"
                               - type: link
                                 attrs:
-                                  href: /ghostwriter/wirtschaftsinformatik
+                                  href: /wirtschaftsinformatik
                                   target: null
                                   rel: null
                             text: Wirtschaftsinformatik
@@ -813,7 +813,7 @@ replicator:
                     type: button
                     button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
                     button_text: JETZT KOSTENLOS ANFRAGEN
-                    color: '#FF6606'
+                    color: "#FF6606"
                     spacing_top: false
               - type: horizontal_rule
               - type: heading
@@ -826,7 +826,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Aufbau des Informatikstudiums
               - type: paragraph
                 content:
@@ -835,7 +835,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Obwohl die Informatik durchweg logisch aufgebaut ist,
                       zählt das Studium doch zu einem der anspruchsvollsten
@@ -856,7 +856,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Ein konsekutiver Masterstudiengang hat somit insgesamt mit
                       dem zuvor abgeschlossenem Bachelor eine Regelstudienzeit
@@ -875,7 +875,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Im Rahmen des fortgeschrittenen Studienverlaufs im
                       Bachelor- und Masterstudium sind die Hochschulen
@@ -899,14 +899,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Nicht nur für eine Hausarbeit, Facharbeit oder andere Abgaben während des Studiums bieten sich akademische Freelancer an. Sie können dem Studenten der Informatik auch bei einer Examensarbeit, wie der Bachelorarbeit, der Masterarbeit oder sogar der Dissertation unterstützend zur Seite stehen, indem hochqualitative Mustervorlagen verfasst werden. Besonders beliebt sind in der Informatik Ghostwriter, die einem Unternehmen bei ihrer internen IT-Struktur helfen oder ihnen Konzepte visualisieren. In solchen Fällen ist\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriting
@@ -928,7 +928,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Allgemeines zur Informatik
               - type: paragraph
                 content:
@@ -937,7 +937,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Die Informatik ist eine recht junge Naturwissenschaft und
                       baut auf dem binären Zahlensystem auf. Mit der Theorie des
@@ -961,7 +961,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Die Boolesche Algebra beschäftigt sich mit den logischen
                       Beziehungen zweier Ausdrücke, beispielsweise durch die
@@ -1039,15 +1039,15 @@ replicator:
                     text: • die Medizininformatik,
                   - type: hard_break
                   - type: text
-                    text: '• die '
+                    text: "• die "
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftsinformatik
+                          href: /wirtschaftsinformatik
                           target: null
                           rel: null
-                    text: 'Wirtschaftsinformatik '
+                    text: "Wirtschaftsinformatik "
                   - type: text
                     text: oder
                   - type: hard_break
@@ -1155,12 +1155,12 @@ replicator:
                     text: • Rechnerkommunikationen und
                   - type: hard_break
                   - type: text
-                    text: '• die '
+                    text: "• die "
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/elektrotechnik
+                          href: /elektrotechnik
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -1185,29 +1185,29 @@ replicator:
                       Letztlich gibt es die Angewandte Informatik, die eine
                       Kopplung von Informatik mit anderen Wissenschaftszweigen
                       und Wirtschaftszweigen darstellt und so die Basis zur
-                      Anwendung der Informatik in der 
+                      Anwendung der Informatik in der
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/medizin
+                          href: /medizin
                           target: null
                           rel: null
                     text: Medizin
                   - type: text
                     text: >-
                       , der Betriebs- und Volkswirtschaft, der Technik, der
-                      Naturwissenschaften und der 
+                      Naturwissenschaften und der
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/mathematik
+                          href: /mathematik
                           target: null
                           rel: null
                     text: Mathematik
                   - type: text
-                    text: ' bildet.'
+                    text: " bildet."
               - type: heading
                 attrs:
                   level: 2
@@ -1296,7 +1296,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Disclaimer
               - type: paragraph
                 content:
@@ -1305,7 +1305,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
                 attrs:
                   textAlign: start
@@ -1319,7 +1319,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Nützliche Weblinks
               - type: paragraph
                 content:
@@ -1328,7 +1328,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://www.informatik.kit.edu/
@@ -1344,7 +1344,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://ranking.zeit.de/che/de/fachinfo/1
@@ -1358,7 +1358,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://de.wikipedia.org/wiki/Informatikstudium
@@ -1372,7 +1372,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://de.wikibooks.org/wiki/Regal:EDV

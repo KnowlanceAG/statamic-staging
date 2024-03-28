@@ -13,8 +13,8 @@ teaser:
         marks:
           - type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: "#ff6602"
+              hex: "#000"
         text: Mustervorlage für Facharbeit schreiben lassen
   - type: paragraph
     content:
@@ -32,7 +32,7 @@ teaser:
         type: button
         button_link: /anfrage
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
@@ -48,7 +48,7 @@ replicator:
               andere Klausuren und Abiturprüfungen lernen - das führt auch zu
               zeitlichen Problemen. Um bei der Fragestellung ,,Wie schreibe ich
               eine Facharbeit?“ nicht alleine zu stehen, wenden sich einige
-              Schüler während dem Schreibprozess an einen akademischen 
+              Schüler während dem Schreibprozess an einen akademischen
           - type: text
             marks:
               - type: link
@@ -58,7 +58,7 @@ replicator:
                   rel: null
             text: Ghostwriter
           - type: text
-            text: ', '
+            text: ", "
           - type: text
             marks:
               - type: link
@@ -68,7 +68,7 @@ replicator:
                   rel: null
             text: Lektor
           - type: text
-            text: ' oder Korrektor von einem Schreibservice. '
+            text: " oder Korrektor von einem Schreibservice. "
       - type: paragraph
         content:
           - type: text
@@ -84,14 +84,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: 'Eine Arbeit über einen spezifischen '
+                  hex: "#000"
+            text: "Eine Arbeit über einen spezifischen "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriter
@@ -103,33 +103,33 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ' zu verfassen ist eine gute Vorbereitung für das Studium, wenn Sie als Studierende weitere wissenschaftliche Arbeiten schreiben müssen, wie Ihre erste '
+                  hex: "#000"
+            text: " zu verfassen ist eine gute Vorbereitung für das Studium, wenn Sie als Studierende weitere wissenschaftliche Arbeiten schreiben müssen, wie Ihre erste "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
-            text: 'Hausarbeit '
+            text: "Hausarbeit "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: 'oder '
+                  hex: "#000"
+            text: "oder "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /arbeiten/seminararbeit-schreiben-lassen
@@ -141,7 +141,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               . Jedoch werden die wissenschaftlichen Arbeiten von Schullehrern
               und Dozenten unterschiedlich bewertet. Ein Schullehrer bewertet
@@ -160,16 +160,16 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Neben der schulischen Hilfe durch einen Lehrer, der als Betreuer
-              bei der Facharbeit zuständig ist, kann ein 
+              bei der Facharbeit zuständig ist, kann ein
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/gwriters-coaching
@@ -181,8 +181,8 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ' durch einen sog. Akademischen Ghostwriter erfolgen. Dieser beschäftigt sich hauptberuflich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Der Schüler kann ihn aus diesem Grund ohne Schwierigkeiten zu jedem Zeitpunkt und Problem des Schreibprozesses beauftragen.'
+                  hex: "#000"
+            text: " durch einen sog. Akademischen Ghostwriter erfolgen. Dieser beschäftigt sich hauptberuflich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Der Schüler kann ihn aus diesem Grund ohne Schwierigkeiten zu jedem Zeitpunkt und Problem des Schreibprozesses beauftragen."
       - type: paragraph
         content:
           - type: text
@@ -190,17 +190,17 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Oft geschieht dies direkt zu Beginn der Texterstellung im
               Vorbereitungsprozess, bei der Forschung, der Themenfindung, der
-              Literaturrecherche (Fachliteratur), der Strukturierung, 
+              Literaturrecherche (Fachliteratur), der Strukturierung,
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /blog/aufbau-wissenschaftliche-arbeit
@@ -212,15 +212,15 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: ' (Einleitung, Kernteil, Hauptteil, Fazit, Formalitäten). Ebenfalls besteht bei Zeitnot die Möglichkeit, den Freelancer zum Coaching der Facharbeit einzusetzen und ihn während des gesamten Schreibprozesses unterstützend agieren zu lassen.'
+                  hex: "#000"
+            text: " (Einleitung, Kernteil, Hauptteil, Fazit, Formalitäten). Ebenfalls besteht bei Zeitnot die Möglichkeit, den Freelancer zum Coaching der Facharbeit einzusetzen und ihn während des gesamten Schreibprozesses unterstützend agieren zu lassen."
       - type: paragraph
         content:
           - type: text
             text: >-
               Zum Beispiel können Ghostwriter einen Gliederungsentwurf für Ihre
               Gliederung schreiben oder bei der Themenwahl, eine Liste für
-              Themen erstellen. Zudem ist das akademische 
+              Themen erstellen. Zudem ist das akademische
           - type: text
             marks:
               - type: link
@@ -230,13 +230,13 @@ replicator:
                   rel: null
             text: Ghostwriting
           - type: text
-            text: ' - die Erstellung einer Mustervorlage für die Facharbeit durch einen akademischen Experten - möglich. '
+            text: " - die Erstellung einer Mustervorlage für die Facharbeit durch einen akademischen Experten - möglich. "
       - type: heading
         attrs:
           level: 3
         content:
           - type: text
-            text: 'Weitere Leistungen in Anspruch nehmen '
+            text: "Weitere Leistungen in Anspruch nehmen "
       - type: paragraph
         content:
           - type: text
@@ -244,7 +244,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Selbst wenn der Schüler eigenständig arbeitet, ist es ratsam, die
               Facharbeit Korrekturlesen und lektorieren zu lassen. Denn die
@@ -261,7 +261,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Unsere akademischen Ghostwriter sind zertifizierte Dozenten,
               Doktoren und Professoren. In unserer Schreibagentur finden Sie in
@@ -270,7 +270,7 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Neben den Leistungen '
+            text: "Neben den Leistungen "
           - type: text
             marks:
               - type: link
@@ -280,7 +280,7 @@ replicator:
                   rel: null
             text: Korrekturlesen
           - type: text
-            text: ' und '
+            text: " und "
           - type: text
             marks:
               - type: link
@@ -290,7 +290,7 @@ replicator:
                   rel: null
             text: Lektorat
           - type: text
-            text: ' der Facharbeit, kann zusätzlich eine umfassende '
+            text: " der Facharbeit, kann zusätzlich eine umfassende "
           - type: text
             marks:
               - type: link
@@ -300,7 +300,7 @@ replicator:
                   rel: null
             text: Plagiatsprüfung
           - type: text
-            text: ' von einer Ghostwriting-Agentur erfolgen. Diese ist zu empfehlen, da besonders aus mangelnder Erfahrung mit wissenschaftlichen Texten und dem Umgang mit Fachliteratur, ungewollte Fehler passieren können. Es geschieht nicht selten, dass Schüler eine Mustervorlage für ihre Facharbeit schreiben lassen und diese Ghostwriter-Facharbeit als Vorlage für ihre eigene Arbeit nutzen.'
+            text: " von einer Ghostwriting-Agentur erfolgen. Diese ist zu empfehlen, da besonders aus mangelnder Erfahrung mit wissenschaftlichen Texten und dem Umgang mit Fachliteratur, ungewollte Fehler passieren können. Es geschieht nicht selten, dass Schüler eine Mustervorlage für ihre Facharbeit schreiben lassen und diese Ghostwriter-Facharbeit als Vorlage für ihre eigene Arbeit nutzen."
       - type: paragraph
         content:
           - type: text
@@ -308,7 +308,7 @@ replicator:
               - type: bold
             text: >-
               Wenn Sie bei Ihrer Facharbeit Unterstützung benötigen, dann können
-              Sie uns gerne sofort eine 
+              Sie uns gerne sofort eine
           - type: text
             marks:
               - type: bold
@@ -321,7 +321,7 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: ' an unseren Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten (Bachelorarbeit, Masterarbeit, Doktorarbeit) oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+            text: " an unseren Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten (Bachelorarbeit, Masterarbeit, Doktorarbeit) oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt."
       - type: set
         attrs:
           values:
@@ -340,13 +340,13 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Unsere Leistungen:'
+                    text: "Unsere Leistungen:"
                   - type: hard_break
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         single_col: false
         grid:
           - bard:
@@ -445,8 +445,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -461,8 +461,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
@@ -484,12 +484,12 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Wichtige Fachbereiche:'
+                    text: "Wichtige Fachbereiche:"
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         single_col: false
         grid:
           - bard:
@@ -503,7 +503,7 @@ replicator:
                           color: rgb(193, 76, 0)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/architektur
+                          href: /architektur
                           target: null
                           rel: null
                     text: Architektur
@@ -518,7 +518,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: BWL
@@ -533,7 +533,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                          href: /erziehungswissenschaften-ghostwriter
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -548,7 +548,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/germanistik-ghostwriter
+                          href: /germanistik-ghostwriter
                           target: null
                           rel: null
                     text: Germanistik
@@ -563,7 +563,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           target: null
                           rel: null
                     text: Jura
@@ -578,7 +578,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/literatur
+                          href: /literatur
                           target: null
                           rel: null
                     text: Literatur
@@ -593,7 +593,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/mathematik
+                          href: /mathematik
                           target: null
                           rel: null
                     text: Mathematik
@@ -608,7 +608,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/pflegewissenschaften
+                          href: /pflegewissenschaften
                           target: null
                           rel: null
                     text: Pflegewissenschaften
@@ -623,7 +623,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziale-arbeit
+                          href: /soziale-arbeit
                           target: null
                           rel: null
                     text: Soziale Arbeit
@@ -638,7 +638,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           target: null
                           rel: null
                     text: VWL
@@ -653,7 +653,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/zahnmedizin
+                          href: /zahnmedizin
                           target: null
                           rel: null
                     text: Zahnmedizin
@@ -670,7 +670,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/bauingenieurwesen
+                          href: /bauingenieurwesen
                           target: null
                           rel: null
                     text: Bauingenieurwesen
@@ -685,7 +685,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/chemie
+                          href: /chemie
                           target: null
                           rel: null
                     text: Chemie
@@ -700,7 +700,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/finanzwissenschaften
+                          href: /finanzwissenschaften
                           target: null
                           rel: null
                     text: Finanzwissenschaften
@@ -715,7 +715,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/geschichte
+                          href: /geschichte
                           target: null
                           rel: null
                     text: Geschichte
@@ -730,7 +730,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/kommunikationswissenschaften
+                          href: /kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikation
@@ -745,7 +745,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/marketing
+                          href: /marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -760,7 +760,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/medienwissenschaften
+                          href: /medienwissenschaften
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -775,7 +775,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/philosophie
+                          href: /philosophie
                           target: null
                           rel: null
                     text: Philosophie
@@ -790,7 +790,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziologie
+                          href: /soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -805,7 +805,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftsinformatik
+                          href: /wirtschaftsinformatik
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
@@ -822,7 +822,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/biologie
+                          href: /biologie
                           target: null
                           rel: null
                     text: Biologie
@@ -837,7 +837,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/elektrotechnik
+                          href: /elektrotechnik
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -852,7 +852,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/geologie
+                          href: /geologie
                           target: null
                           rel: null
                     text: Geologie
@@ -867,7 +867,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/informatik
+                          href: /informatik
                           target: null
                           rel: null
                     text: Informatik
@@ -882,7 +882,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/kunst
+                          href: /kunst
                           target: null
                           rel: null
                     text: Kunst
@@ -897,7 +897,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/maschinenbau
+                          href: /maschinenbau
                           target: null
                           rel: null
                     text: Maschinenbau
@@ -912,7 +912,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/medizin
+                          href: /medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -927,7 +927,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/psychologie
+                          href: /psychologie
                           target: null
                           rel: null
                     text: Psychologie
@@ -942,7 +942,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/sprachwissenschaften
+                          href: /sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften
@@ -957,7 +957,7 @@ replicator:
                           color: rgb(255, 102, 2)!important!important
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -982,7 +982,7 @@ replicator:
             type: button
             button_link: /anfrage
             button_text: JETZT KOSTENLOS ANFRAGEN
-            color: '#FF6606'
+            color: "#FF6606"
             spacing_top: false
       - type: horizontal_rule
       - type: heading
@@ -998,7 +998,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Facharbeit ist für viele die erste Etappe in Richtung
               wissenschaftliches Arbeiten. Hier muss ein Schüler erstmals
@@ -1013,7 +1013,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Aktualität eines Themas ist wichtig für eine wissenschaftliche
               Arbeit, um eine erfolgreiche Abiturnote zu erzielen. Hierbei kann
@@ -1028,7 +1028,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Facharbeiten werden in der reformierten Oberstufe verfasst und
               sollen bereits einigen Anforderungen der Universität entsprechen.
@@ -1043,7 +1043,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Einen Ghostwriter die Facharbeit schreiben lassen ist auch eine
               Option. Dabei ist jedoch zu beachten, dass die
@@ -1057,7 +1057,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Das ausgewählte Thema für eine fachbezogene Arbeit zeigt, dass der
               Schüler sich in diesem Themenfeld vertiefen möchten. Daher wählen
@@ -1074,7 +1074,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: Wie sieht der Bearbeitungsprozess mit einem Ghostwriter aus?
       - type: paragraph
         content:
@@ -1083,7 +1083,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Mustervorlage für Ihre Arbeit wird von unseren akademischen
               Ghostwriter nach Ihren Bedürfnissen und Anforderungen gestaltet.
@@ -1097,7 +1097,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Während der Durchführung Ihrer Aufgabe, die von einem
               professionellen Ghostwriter als Mustervorlage erstellt wird, läuft
@@ -1113,7 +1113,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Ihre Arbeit wird nach der Fertigstellung von einem unabhängigen
               Autor lektoriert und korrigiert. Abschließend wird eine
@@ -1128,7 +1128,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Plagiat-Software zeigt Ihnen die fehlenden Zitate, damit
               Verbesserungen vorgenommen werden können. Nach der
@@ -1141,7 +1141,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen
               hervorragende fachliche Kompetenzen und methodische Erfahrung im
@@ -1160,7 +1160,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Wie eine Facharbeit angefertigt werden soll, ist in Deutschland
               nicht einheitlich geregelt. Da Bildungspolitik im
@@ -1175,7 +1175,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Allgemein lässt sich sagen, dass die Facharbeit in der Oberstufe
               angefertigt werden sollte, sie kann eine Klausur im jeweiligen
@@ -1190,7 +1190,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Zum Beispiel sucht der Schüler ein Fach aus, in welchem er
               gewöhnlich besonders schlecht abschneidet um seine Note gezielt zu
@@ -1204,7 +1204,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Bei der letzten Variante wird die Themenfindung der Facharbeit
               meist erleichtert, da durch das vorhandene Interesse auch oft
@@ -1223,7 +1223,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: Leitfaden für eine Facharbeit
       - type: paragraph
         content:
@@ -1232,7 +1232,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Der Umfang einer Facharbeit variiert, liegt aber durchschnittlich
               bei 7-15 einseitig beschriebenen DIN-A4 Seiten, ein Deckblatt und
@@ -1295,13 +1295,13 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: '•Schriftart: Times New Roman (oder Arial Größe 11)'
+            text: "•Schriftart: Times New Roman (oder Arial Größe 11)"
           - type: hard_break
           - type: text
-            text: '•Schriftgröße: 12 Punkt'
+            text: "•Schriftgröße: 12 Punkt"
           - type: hard_break
           - type: text
-            text: '•Zeilenabstand: 1,5'
+            text: "•Zeilenabstand: 1,5"
           - type: hard_break
           - type: text
             text: >-
@@ -1309,10 +1309,10 @@ replicator:
               cm
           - type: hard_break
           - type: text
-            text: '•Absatzformat: Blocksatz (auf Trennung achten)'
+            text: "•Absatzformat: Blocksatz (auf Trennung achten)"
           - type: hard_break
           - type: text
-            text: '•Fußnoten: Schriftgröße 10'
+            text: "•Fußnoten: Schriftgröße 10"
           - type: hard_break
           - type: text
             text: >-
@@ -1423,7 +1423,7 @@ template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

@@ -16,7 +16,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: >-
               Wie werden wissenschaftliche Arbeiten bei GWriters üblicherweise
               formatiert?
@@ -35,7 +35,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Falls vom Auftraggeber nicht ausdrücklich anders gewünscht, gelten
               bei GWriters die folgenden Standard-Formate, welche in der
@@ -50,101 +50,101 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
-            text: '…beim Inhalt der Gliederung:'
+                  hex: "#000"
+            text: "…beim Inhalt der Gliederung:"
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: • Deckblatt
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: • Inhaltsverzeichnis
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: • Einleitung
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: • Hauptteil
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: • Schluss / Fazit
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "•\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter/literatur
+                  href: /literatur
                   target: null
                   rel: null
             text: Literatur
           - type: text
             marks: []
-            text: '- und Quellenverzeichnis'
+            text: "- und Quellenverzeichnis"
           - type: hard_break
             marks: []
           - type: text
@@ -159,14 +159,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
-            text: '…bei der '
+                  hex: "#000"
+            text: "…bei der "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /leistungen/formatierung
@@ -178,33 +178,33 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
-            text: ':'
+                  hex: "#000"
+            text: ":"
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
-            text: '• Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm'
+                  hex: "#000"
+            text: "• Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm"
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               • Seitenzahlen: unten zentriert/rechts, auf
               Deckblatt/Inhaltsverzeichnis keine Seitenzahl
@@ -213,13 +213,13 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               • Schriftgröße und –art im Fließtext: 12 Pt Arial oder Times New
               Roman, Blocksatz
@@ -228,26 +228,26 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
-            text: '• Zeilenabstand: 1,5-zeilig'
+                  hex: "#000"
+            text: "• Zeilenabstand: 1,5-zeilig"
           - type: hard_break
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               • Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen
               Abstand
@@ -256,13 +256,13 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               • Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile
               Abstand
@@ -271,13 +271,13 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               • Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch
               gestellt
@@ -291,7 +291,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq
@@ -314,7 +314,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 template: without-teaser-with-sidebar

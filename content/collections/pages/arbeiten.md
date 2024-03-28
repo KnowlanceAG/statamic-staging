@@ -3,8 +3,8 @@ id: d118c7b2-141d-4bac-972d-c1502381a340
 blueprint: pages
 title: Arbeiten
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705955246
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1710800800
 teaser:
   -
     type: heading
@@ -140,6 +140,23 @@ replicator:
           -
             id: qFb3GffW
             bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Universitäten stellen hohe und oft ungerechte Ansprüche an alle Studierenden, die sie eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'wissenschaftliche Arbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Dabei müssten die Hochschulen ihre Studierenden eigentlich auf die selbstständige wissenschaftliche Arbeit vorbereiten. Dies ist aber selten der Fall. Viel zu wenige Kurse im wissenschaftlichen Arbeiten werden angeboten und diese sind oft überfüllt. Daher sind Studentinnen, Studenten sowie deren Vertreter und auch einige Lehrende häufig der Meinung, dass die Unis sich hier verbessern müssen. '
               -
                 type: paragraph
                 attrs:
@@ -817,7 +834,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/medizin
+                          href: /medizin
                           target: null
                           rel: null
                     text: medizinisches
@@ -830,7 +847,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           target: null
                           rel: null
                     text: Jura
@@ -843,7 +860,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: BWL-Ghostwriting
@@ -1276,6 +1293,925 @@ replicator:
                 type: paragraph
                 attrs:
                   textAlign: left
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lsyg2p0e
+    columns_replicator:
+      -
+        id: lsyg2q49
+        single_col: true
+        grid:
+          -
+            id: 3pY5docn
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lsyg2u6u
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/arbeiten/ghostwriter-wissenschaftliche-arbeit.jpg
+                    img_size: w-full
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lsyec4tj
+    columns_replicator:
+      -
+        id: lsyec63s
+        single_col: true
+        grid:
+          -
+            id: 3pY5docn
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'In 5 Schritten: Eine wissenschaftliche Arbeit in wenigen Tagen schreiben'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Nicht wenige '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'professionelle akademische Ghostwriter'
+                  -
+                    type: text
+                    text: ' schaffen es, bis zu 10-20 Seiten eines wissenschaftlichen Textes an einem Tag zu schreiben. Welche Arbeitsweisen unsere Experten dabei nutzen und wie Sie es Ihnen leicht nachmachen können, erfahren Sie in diesem Abschnitt!'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '1. Beginn des Schreibprozess, nach der Literaturrecherche'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Unter unseren akademischen Ghostwritern hat es sich bewährt, vor dem eigentlichen Schreiben einzelne Kapitel von Hausarbeiten, Bachelorarbeiten oder Masterarbeiten kurz mit Stichpunkten und Literaturnotizen in einem Plan zusammenzufassen. Ein durchdachter Plan zeigt Ihnen, an welcher Stelle welche Literatur aufgegriffen werden sollte und macht das Schreiben Ihrer wissenschaftlichen Arbeit praktischerweise fast schon zur Nebensache. Dafür sollten Sie jedoch die Literaturrecherche bereits abgeschlossen und sich ausreichend in die Materie eingelesen haben, um unerwartete Probleme zu vermeiden.'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '2. Zugang zu sämtlichen Social Media Apps & Webseiten blockieren'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Produktives Arbeiten setzt eine produktive Arbeitsatmosphäre voraus. Diese wird leider gestört, wenn Ihre Freunde Sie im 30-Sekunden-Takt mit Memes über den WhatsApp-Gruppenchat versorgen. Mit einigen hilfreichen Tools ist es möglich, WhatsApp, Facebook, YouTube und andere Apps oder Seiten für bestimmte Zeiträume zu blockieren - sowohl auf Ihrem Smartphone als auch auf Ihrem Computer. Eine kleine Auflistung dieser Tools und ihrer Funktionsweisen finden Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/apps-fuer-studenten
+                          rel: null
+                          target: null
+                          title: null
+                    text: hier
+                  -
+                    type: text
+                    text: .
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '3. Planen Sie Schreibpausen ein'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Beim Verfassen wissenschaftlicher Arbeiten ist es leicht, an bestimmten Punkten ins Stocken zu geraten oder eine einseitige Sichtweise auf Problemstellungen zu entwickeln. Dies ist völlig normal und betrifft nicht nur Studierende, sondern gelegentlich auch akademische Ghostwriter. Um dem vorzubeugen, setzen erfahrene Schreiber Pausen ein. Diese Pausen erlauben es, über alles Mögliche nachzudenken - nur nicht über die wissenschaftliche Arbeit. Ein kurzer Ausflug zum Supermarkt, ein Kaffee mit Freunden oder eine kurze Sporteinheit lenken Sie optimal von Ihrer Arbeit ab. Danach können Sie mit frischem Kopf an die Fortsetzung Ihrer wissenschaftlichen Arbeit gehen. Sie werden feststellen, dass sich einige Problemfelder nach der Pause ganz anders darstellen. '
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Das Verhältnis von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '2:1'
+                  -
+                    type: text
+                    text: ' - zwei Stunden Schreiben und eine Stunde Pause - hat sich in unserem Team bereits mehrfach bewährt.'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '4. Zuerst den Hauptteil, dann die Einleitung schreiben'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Viele Studenten machen den Fehler, bei ihrer wissenschaftlichen Arbeit mit dem Schreiben der Einleitung zu beginnen. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Warum ist dies ein Fehler?'
+                  -
+                    type: text
+                    text: ' Nun, es ist gar nicht mal so einfach, ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/abschlussarbeit-thema
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'wissenschaftliches Thema'
+                  -
+                    type: text
+                    text: ' einzuleiten und es vorab zusammenzufassen, wenn noch kein Wort davon geschrieben wurde. Selbst wenn bereits ein Konzept feststeht, kann sich dieses im Schreibprozess (mehrfach) ändern. In solch einem Fall müsste die Einleitung noch einmal umgeschrieben oder sogar verworfen werden, was nicht sehr effizient ist. Nach dem Schreiben des eigentlichen Hauptteils der wissenschaftlichen Arbeit treten solche Probleme nicht auf.'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '5. Schreibe so schnell wie möglich, nicht so gut wie möglich'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Beim ersten Schreibdurchlauf ist es wichtig, so viele Fakten und Gedankengänge wie möglich auf Papier zu bringen. Die Feinheiten der Wortwahl und die Gestaltung fließender Übergänge können später überdacht werden, entweder bei einem weiteren Durchlauf oder durch ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'professionelles akademisches Lektorat'
+                  -
+                    type: text
+                    text: .
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: ltxhih1v
+    columns_replicator:
+      -
+        id: ltxhiif1
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: xmFa93Hl
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wissenschaftliche Arbeit: Aufbau'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Die Wissenschaft spezialisiert sich in unserer Zeit immer weiter, sodass die Zahl der möglichen Studienfächer beinahe unüberschaubar geworden ist. Aber egal, welches Fach Sie studieren – die grundsätzlichen Richtlinien für wissenschaftliche Arbeiten sind fast immer gleich. Eine wissenschaftliche Arbeit erkennt man in ihrem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/aufbau-wissenschaftliche-arbeit
+                          rel: null
+                          target: null
+                          title: null
+                    text: Aufbau
+                  -
+                    type: text
+                    text: ' an bestimmten Merkmalen:'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Oben auf liegt ein Deckblatt mit Namen, Kontaktdaten und Matrikelnummer des Studierenden, ferner mit dem Titel der Arbeit und Angaben zum Dozenten, Kurs und zur Hochschule.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Dann folgt das Inhaltsverzeichnis. Dieses verschafft den Leserinnen und Lesern einen schnellen Überblick über die Struktur der Arbeit. Die Überschriften der Kapitel und Unterkapitel sollten möglichst genau den Inhalt wiedergeben, den man als Leser in dem Kapitel zu erwarten hat. Und ganz wichtig: Die Kapitelüberschriften müssen 1:1 mit den Überschriften übereinstimmen, die später im Text verwendet werden.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Die Einleitung umreißt die Problemstellung. Dabei werden eine oder mehrere Leitfragen aufgestellt, die ergründet werden sollen. Auch das Ziel der Arbeit wird benannt, z.B. das konkrete Schließen einer Wissenslücke in der Forschung.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Der Hauptteil legt den Gang der Argumentation offen und umfasst auch die Erkenntnisse, zu denen Sie gekommen sind.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Am Schluss der Arbeit stehen meist das Tabellen- und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abbildungsverzeichnis
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Abbildungsverzeichnis
+                          -
+                            type: text
+                            text: ' und das Literaturverzeichnis. Gegebenenfalls folgt noch ein Anhang.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+            show_as_card: false
+          -
+            id: ltxhkol1
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Weitere Anforderungen an wissenschaftliches Arbeiten'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Der fachspezifische '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/wie-schreibe-ich-einen-forschungsstand
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Forschungsstand
+                          -
+                            type: text
+                            text: ' muss strukturiert und sachlich wiedergegeben werden und die eigene Fragestellung muss mit Bezug auf den Forschungsstand methodisch begründet werden.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Der '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/wissenschaftlicher-schreibstil
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'Schreibstil für die wissenschaftliche Arbeit'
+                          -
+                            type: text
+                            text: ' ist sachlich und an objektiver Erkenntnis orientiert. Sie geben nicht einfach nur individuelle Meinungen wieder, sondern gesicherte Forschungsergebnisse und reflektieren diese. Beispiel: Schreiben Sie nicht: „Ich bin der Meinung, dass…“, sondern: „Auf der Basis des oben genannten Zitats kann die Schlussfolgerung gezogen werden, dass…“'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Die meisten Fächer verfügen über ein eigenes Fachvokabular, dessen korrekte Verwendung auch zu den Kriterien wissenschaftlichen Arbeitens zählt. Beispiele sind die lateinischen Namen für Krankheiten und Körperteile in der '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /ghostwriter/medizin
+                                  rel: 'noopener noreferrer'
+                                  target: _blank
+                                  title: null
+                            text: Medizin
+                          -
+                            type: text
+                            text: ', z.B. Apoplexie für Schlaganfall oder Tonsillen für Mandeln. In der Literaturwissenschaft heißt die Erzählforschung auch Narratologie.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Die wissenschaftliche Arbeit muss originell sein und darf keinesfalls Plagiate enthalten, d.h. sie muss für diese Prüfungsform neu verfasst worden sein. Wie gesagt: Wer Passagen aus Texten übernimmt, muss diese kennzeichnen.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Wichtig ist ein logisch strukturierter Argumentationsgang, erkennbar als "'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'roter Faden'
+                          -
+                            type: text
+                            text: '" in wissenschaftlicher Arbeit. Dies beinhaltet die Interpretation oder Analyse eines Sachverhalts durch seine Aufschlüsselung und Untersuchung der einzelnen Bestandteile. Argumente können auch durch Zitate aus wissenschaftlichen Quellen unterstützt werden.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: ltxhl2zf
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: xmFa93Hl
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Die Formalitäten für den Aufbau wissenschaftlicher Arbeiten'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Wichtig ist es, sich an dem Institut, an dem die Hausarbeit abgegeben werden soll, über die gültigen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/formatierung
+                          rel: null
+                          target: null
+                          title: null
+                    text: Formalitäten
+                  -
+                    type: text
+                    text: ' zu informieren. Manche Institute geben z B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/tabellen-abbildungen-zitieren
+                          rel: 'noopener noreferrer'
+                          target: _blank
+                          title: null
+                    text: 'eine Form des Zitierens'
+                  -
+                    type: text
+                    text: ' vor oder erlauben eine andere Schriftart als andere Institute. Meist gelten diese oder ähnliche Vorschriften:'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Sie benutzen Druckerpapier in DIN-A4-Format und bedrucken dieses nur einseitig.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Die Seitenzahlen können oben oder unten stehen und beginnen nach dem Inhaltsverzeichnis.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Heften Sie die Arbeit in einen Schnellhefter – geben Sie keine lose Blättersammlung ab!'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Die Schriftart ist meist Times New Roman und die Schriftgröße 12. Wenn Zitate länger sind und eingerückt formatiert werden, genügt Schriftgröße 10.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Der Zeilenabstand beträgt grundsätzlich 1,5; in den Fußnoten aber nur 1.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Die Ränder sind oben und unten meist 1,5 cm breit, links 3,5 cm, rechts 2,5 cm.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Der „Schusterjunge“ ist zu vermeiden. Der Schusterjunge bezeichnet ein Layout, bei dem nur die Zeile eines neuen Abschnitts unten auf der Seite steht. Umgekehrt sollte auch eine neue Seite nicht mit der letzten Zeile eines vorangegangenen Abschnitts anfangen.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Alle Regeln müssen einheitlich für die ganze Arbeit gelten (z.B. die Zitierweise).'
+            show_as_card: false
+          -
+            id: ltxhm124
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Quellen und Literaturverzeichnis: Wissenschaftliche Arbeit'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Das Literaturverzeichnis in wissenschaftlichen Arbeiten ist besonders wichtig, weil '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Plagiate in jedem Fall strengstens vermieden werden müssen'
+                  -
+                    type: text
+                    text: ': Alle übernommenen Textpassagen müssen im Text zitiert werden – entweder mit Fußnote oder in Klammern hinter dem Zitat oder anhand der von der Hochschule geforderten Formatvorgaben. Dies gilt sowohl für wörtlich übernommene Textstellen als auch für paraphrasierte Passagen. Eine Paraphrase ist die Wiedergabe von Inhalten in eigenen Worten. Sie können gerne unseren '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /zitationsgenerator
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'kostenlosen Zitationsgenerator'
+                  -
+                    type: text
+                    text: ' nutzen, um Ihre Arbeit in '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'verschiedenen Zitierstilen '
+                  -
+                    type: text
+                    text: 'korrekt zu zitieren.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Im '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/word-automatisches-verzeichnis-erstellen
+                          rel: null
+                          target: null
+                          title: null
+                    text: Literaturverzeichnis
+                  -
+                    type: text
+                    text: " ist auch zu erkennen, wie die Information beschafft worden ist, um bereits vorhandenes Forscherwissen zu nutzen. Aus wissenschaftlich seriösen Quellen darf Wissen übernommen und als gegeben voraussetzen. Aber: Wikipedia ist für einen ersten Überblick über ein Thema jeder und jedem bekannt –\_ jedoch ist es "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'keine zitierfähige wissenschaftliche Quelle'
+                  -
+                    type: text
+                    text: '! Eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/literaturrecherche-datenbanken-quellen
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'wissenschaftliche Quelle'
+                  -
+                    type: text
+                    text: ' erkennt man an den Kennzeichen für eine wissenschaftliche Arbeit, die in diesem Text benannt werden. '
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+  -
+    id: ltxhpacp
+    columns_replicator:
+      -
+        id: ltxhpbfb
+        single_col: true
+        grid:
+          -
+            id: xmFa93Hl
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Bewertungskriterien wissenschaftlicher Arbeiten'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Wissenschaftliche Arbeiten unterliegen je nach Fachrichtung und Qualifikationsebene unterschiedlichen Bewertungskriterien. Durch Abstimmungen mit dem Gutachter der Arbeit (Lehrstuhlinhaber oder Assistent) lassen sich inhaltliche Schwerpunkte für die Ausarbeitung bereits im Vorfeld klären. Eine Selbstkontrolle im Ausarbeitungsprozess kann darüber hinaus helfen, Optimierungen im wissenschaftlichen Format der Arbeit zu prüfen und gegebenenfalls nachzubessern.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Bewertet werden wissenschaftliche Arbeiten in der Regel nach folgenden Kriterien:'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Wird durch die Arbeit ein wissenschaftlicher Erkenntnisstand zutreffend und kritisch referiert?'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Berücksichtigt der Argumentationszusammenhang den aktuell(st)en Forschungsstand (Literaturquellen)?'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Ist der Praxisbezug oder die Theorierelevanz des Beitrags erkennbar?'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Entspricht der gewählte Forschungsansatz dem Problemgegenstand?'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Werden die Hypothesen der Arbeit stringent in '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/hausarbeit-einleitung
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Einleitung
+                          -
+                            type: text
+                            text: ', Hauptteil und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/blog/fazit-bachelorarbeit-beispiel'
+                                  rel: null
+                                  target: _blank
+                                  title: null
+                            text: 'Fazit '
+                          -
+                            type: text
+                            text: 'verfolgt und ausgewertet (‚roter Faden‘)?'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Sind die wesentlichen Ergebnisse methodisch adäquat und präzise genug formuliert?'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Leistet die Arbeit einen Beitrag zur wissenschaftlichen Diskussion des abgesteckten Problemfelds?'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Werden die getroffenen Annahmen mit wissenschaftlicher Literatur untermauert? Werden die Aussagen entsprechend geprüft?'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Handelt es sich bei den verwendeten Quellen um seriöse wissenschaftliche Literatur? Wikipedia ist keine wissenschaftliche Quelle! '
             show_as_card: false
         type: row
         enabled: true

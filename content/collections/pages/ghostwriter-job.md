@@ -154,7 +154,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /ghostwriter/bwl
+                  href: /bwl
                   rel: null
                   target: null
                   title: null
@@ -168,7 +168,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /ghostwriter/jura
+                  href: /jura
                   rel: null
                   target: null
                   title: null
@@ -324,12 +324,206 @@ replicator:
           -
             type: text
             text: 'Bei GWriters ist jedes Projekt ein Unikat. Mit jedem neuen Thema gibt es eine neue intellektuelle Herausforderungen und unterschiedliche Arbeitsweisen, die ausprobiert werden können. Zudem könnt Sie Ihre eigenen Ideen in Projekte einbringen, den Grad zwischen Empirie und Theorie bei Arbeiten mitbestimmen und sich laufend in neue interessante Themenbereiche vorwagen.'
+      -
+        type: heading
+        attrs:
+          textAlign: left
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Weitere Ghostwriter Jobs - Als Copywriter Webtexte & Blogbeiträge schreiben'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: 'Eine weitere Möglichkeit für einen Ghostwriter-Job besteht darin, als Copywriter Webtexte und Blogbeiträge zu verfassen. Diese Jobs bieten Ihnen die Gelegenheit, als '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Ghostwriter bei GWriters'
+          -
+            type: text
+            text: ' ein Nebeneinkommen zu erzielen. Doch welche Anforderungen werden an Sie in solchen Ghostwriter-Jobs gestellt? Welche Aufgaben erwarten einen Copywriter und Webtexter? Wie können Sie bei GWriters '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-werden-voraussetzungen
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Ghostwriter werden'
+          -
+            type: text
+            text: '? Und welche Vorteile bietet Ihnen GWriters? Diese und weitere Fragen beantworten wir in unserem Video.'
+      -
+        type: set
+        attrs:
+          id: ltxlb28r
+          values:
+            type: insert_html
+            html: '<iframe width="750" height="422" src="https://www.youtube.com/embed/tdNI-isOqzw?si=xqoreZE7ImACLmF-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+      -
+        type: heading
+        attrs:
+          textAlign: left
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Anforderungen an einen Ghostwriter für Webtexte'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: 'Grundsätzlich gelten natürlich ähnliche Anforderungen wie beim akademischen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting
+                  rel: null
+                  target: null
+                  title: null
+            text: Ghostwriting
+          -
+            type: text
+            text: ', allerdings liegt hier der Schwerpunkt etwas mehr auf Kreativität und Eigenorganisation. Es ist wichtig, dass ein Ghostwriter, insbesondere für Webtexte, eigenständig recherchieren und sich organisieren kann, einen ansprechenden Schreibstil hat, der nicht zu formal ist, sondern den Leser mitnimmt und auf der entsprechenden Webseite hält. Der Ghostwriter muss selbstständig online Texte verfassen und bereitstellen können.'
+      -
+        type: heading
+        attrs:
+          textAlign: left
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Ghostwriter Jobs für Copywriter und Webtexter'
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: 'Im Gegensatz zum wissenschaftlichen Ghostwriting, bei dem Kunden Mustervorlagen für ihre '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Hausarbeit schreiben lassen'
+          -
+            type: text
+            text: ', besteht hier die Hauptaufgabe im Verfassen hochwertiger Inhalte. Dies umfasst die Erstellung von ansprechenden Blogbeiträgen sowie die Füllung statischer Seiten mit relevantem Content. Die Keywordoptimierung ist dabei entscheidend für die Auffindbarkeit der Texte im Internet. Diese Aufgabe obliegt oft dem Auftraggeber, der Ghostwriter für Web- und Blogtexte oder Copywriting beauftragt. Eine weitere wichtige Rolle besteht darin, das Ranking der Webseite durch keywordoptimierte Texte zu verbessern. Dies geschieht im Rahmen eines ganzheitlichen Konzepts, das jedoch in der Regel nicht vom Ghostwriter selbst entwickelt wird, sondern in Zusammenarbeit mit interdisziplinären Teams entsteht. Außerdem sollte der Ghostwriter in der Lage sein, bestehenden hochwertigen Content zu optimieren oder an neue Keywordstrukturen anzupassen.'
+      -
+        type: heading
+        attrs:
+          textAlign: left
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Die Vorteile als Copywriter bei GWriters'
+      -
+        type: orderedList
+        attrs:
+          start: 1
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Zeitliche Flexibilität'
+                  -
+                    type: text
+                    text: ': Als Online-Texter können Sie Ihre Arbeit nach Ihren eigenen Zeiten planen und sind nur an Projektfristen gebunden. Pünktlichkeit ist dennoch wichtig, aber insgesamt genießen Sie eine große zeitliche Freiheit.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Attraktiver Nebenverdienst'
+                  -
+                    type: text
+                    text: ': Wenn Sie ein Talent für das Schreiben haben und einen ansprechenden Schreibstil besitzen, können Sie nebenbei ein solides Einkommen erzielen, selbst wenn Sie bereits einen Vollzeitjob haben.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Abwechslungsreiche Tätigkeit'
+                  -
+                    type: text
+                    text: ': Sie arbeiten an verschiedenen Themen und Projekten, was die Arbeit interessant und spannend macht. Dies bietet Ihnen auch die Möglichkeit, sich in verschiedenen Bereichen weiterzuentwickeln.'
+      -
+        type: set
+        attrs:
+          id: ltxlkoeb
+          values:
+            type: button
+            button_link: /als-autor-bewerben
+            button_text: 'Als Autor bewerben'
+            color: '#FF6606'
+            button_align: justify-center
+            spacing_top: true
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
     show_as_card: false
     type: editor
     enabled: true
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995319
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1710805781
 page_title: 'GWriters • Ghostwriter Job'
 meta_title: 'GWriters • Ghostwriter Job'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Job bei GWriters!'

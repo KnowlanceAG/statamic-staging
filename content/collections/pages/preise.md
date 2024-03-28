@@ -4,8 +4,8 @@ blueprint: pages
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1706801268
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1711147444
 replicator:
   -
     id: VvunKODE
@@ -666,6 +666,471 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: lu38k2s0
+    columns_replicator:
+      -
+        id: lu38k8e8
+        columns_per_row: 3
+        single_col: false
+        grid:
+          -
+            id: inov9zvn
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: start
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Qualitätslevel: Economy'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    text: 'Zum Qualitätslevel Economy zählen überwiegend Texte aus dem nicht-akademischen Bereich. Bei GWriters werden diese Texte von Ghostwritern verfasst, von Lektoren verfeinert und durch Software auf Plagiate geprüft. Da die Texte nicht akademischer Natur sind, achten wir bei der Auswahl des Ghostwriters und des Lektoren nicht zwangsweise auf die akademischen Titel dieser Personen, sondern auf ihre Erfahrung in der Erstellung solcher Texte für GWriters und ihr Schreibtalent.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Beispiele für Texte des Qualitätslevels Economy:'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Texte für den privaten Gebrauch'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Blog Artikel'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: SEO-Texte
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: Memoiren
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: Reden
+            show_as_card: false
+          -
+            id: lu38rx8w
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: start
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Qualitätslevel: Business'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    text: 'Zum Qualitätslevel Business zählen bei GWriters Texte, die von unseren Ghostwritern im Namen von Unternehmen verfasst werden. Auch diese Texte werden von Ghostwritern geschrieben, von Lektoren überprüft und zusätzlich auf Plagiate geprüft. Ghostwriter und Lektoren dieses Qualitätslevels haben eine jahrelange Erfahrung in der Erstellung von Business-Texten. Überwiegend haben sie auch zumindest einen akademischen Titel, jedoch werden auch besonders talentierte und erfahrene Autoren ohne akademischem Abschluss bei der Expertenwahl von GWriters berücksichtigt.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Beispiele für Texte des Qualitätslevels Business:'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: Ratgeber
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: Biografien
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: Lebensläufe
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: Bewerbungsunterlagen
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'fiktionale Bücher'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Texte für Unternehmen'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Präsentationen für Jahresabschlüsse'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: Kreditbewerbungen
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: Marketingstrategien
+            show_as_card: false
+          -
+            id: lu38s0h3
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: start
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Qualitätslevels: Academic'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    text: 'Zum Qualitätslevel Academic zählt GWriters wissenschaftliche Texte. Die Erstellung dieser Texte gestaltet sich in der Regel anspruchsvoller als Texte des Qualitätslevels Economy oder Business - schließlich muss bei einem wissenschaftlichen Text recherchiert, geforscht und nach strengen akademischen Standards gearbeitet werden. Bei GWriters werden diese Texte von erfahrenen akademischen Ghostwritern erstellt, von akademischen Lektoren verbessert und zusätzlich mit spezieller Software auf Plagiate geprüft.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Beispiele für Texte des Qualitätslevels Academic:'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: Forschungsprojekte
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'wissenschaftliche Lehrbücher'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Mustervorlagen einer '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Hausarbeit
+                          -
+                            type: text
+                            text: ', '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Bachelorarbeit
+                          -
+                            type: text
+                            text: ', '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Masterarbeit
+                          -
+                            type: text
+                            text: ', '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Doktorarbeit
+                          -
+                            type: text
+                            text: ', usw.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/statistische-analysen'
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: 'statistische Analysen'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: lu38zz3g
+        single_col: false
+        grid:
+          -
+            id: inov9zvn
+            bard:
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie  noch offene Fragen haben oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen'
+                          rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
+                    text: 'Unterstützung bei Eurem Projekt'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' benötigen, können Sie gerne unser '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/anfrage'
+                          rel: 'noopener noreferrer'
+                          target: _blank
+                          title: null
+                      -
+                        type: bold
+                    text: Kontaktformular
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' nutzen oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'tel:+49 30 809 332 339'
+                          rel: null
+                          target: null
+                          title: null
+                      -
+                        type: bold
+                    text: 'uns anrufen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ', wir beraten Sie gerne!'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
     id: leso6n20
     columns_replicator:
       -
@@ -803,7 +1268,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /ghostwriter/informatik
+                                  href: /informatik
                                   rel: null
                                   target: _blank
                                   title: null
@@ -817,7 +1282,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /ghostwriter/maschinenbau
+                                  href: /maschinenbau
                                   rel: null
                                   target: null
                                   title: null
@@ -831,7 +1296,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /ghostwriter/medizin
+                                  href: /medizin
                                   rel: null
                                   target: _blank
                                   title: null
@@ -851,7 +1316,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/ghostwriter/jura#hausarbeit'
+                                  href: '/jura#hausarbeit'
                                   rel: null
                                   target: _blank
                                   title: null
@@ -865,7 +1330,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /ghostwriter/finanzwissenschaften
+                                  href: /finanzwissenschaften
                                   rel: null
                                   target: null
                                   title: null
@@ -879,7 +1344,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /ghostwriter/soziologie
+                                  href: /soziologie
                                   rel: null
                                   target: null
                                   title: null

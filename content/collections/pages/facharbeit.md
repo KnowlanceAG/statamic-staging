@@ -923,6 +923,79 @@ replicator:
                   -
                     type: text
                     text: ' und ihn während des gesamten Schreibprozesses unterstützend agieren lassen.'
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Arten von Facharbeiten'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Facharbeiten in der Sekundarstufe I und II'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Facharbeiten zur Leistungserbringung im Studium (zumeist auch als '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/seminararbeit-schreiben-lassen
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Seminararbeit
+                          -
+                            type: text
+                            text: ' oder '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/hausarbeit-schreiben-lassen
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: Hausarbeit
+                          -
+                            type: text
+                            text: ' bezeichnet)'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'Facharbeit im Rahmen eines Ausbildungsganges'
             show_as_card: false
         type: row
         enabled: true
@@ -1088,7 +1161,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/architektur
+                                          href: /architektur
                                           target: null
                                           rel: null
                                     text: 'Architektur Ghostwriter'
@@ -1100,7 +1173,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/bauingenieurwesen
+                                          href: /bauingenieurwesen
                                           target: null
                                           rel: null
                                     text: 'Bauingenieurwesen Ghostwriter'
@@ -1112,7 +1185,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/elektrotechnik
+                                          href: /elektrotechnik
                                           target: null
                                           rel: null
                                     text: 'Elektrotechnik Ghostwriter'
@@ -1124,7 +1197,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/maschinenbau
+                                          href: /maschinenbau
                                           target: null
                                           rel: null
                                     text: 'Maschinenbau Ghostwriter'
@@ -1136,7 +1209,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/informatik
+                                          href: /informatik
                                           target: null
                                           rel: null
                                     text: 'Informatik Ghostwriter'
@@ -1148,7 +1221,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          href: '/informatik#Softwarelokalisierung'
                                           target: null
                                           rel: null
                                     text: 'Softwarelokalisierung Ghostwriter'
@@ -1160,7 +1233,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          href: '/biologie#biotechnologie'
                                           target: null
                                           rel: null
                                     text: 'Biotechnologie Ghostwriter'
@@ -1175,7 +1248,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/technomathematik
+                                          href: /technomathematik
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Technomathematik'
@@ -1187,7 +1260,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/ingenieurwissenschaften
+                                          href: /ingenieurwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Ingenieurwissenschaften'
@@ -1204,7 +1277,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/biologie
+                                          href: /biologie
                                           target: null
                                           rel: null
                                     text: 'Biologie Ghostwriter'
@@ -1216,7 +1289,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/chemie
+                                          href: /chemie
                                           target: null
                                           rel: null
                                     text: 'Chemie Ghostwriter'
@@ -1228,7 +1301,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geologie
+                                          href: /geologie
                                           target: null
                                           rel: null
                                     text: 'Geologie Ghostwriter'
@@ -1240,7 +1313,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geowissenschaften
+                                          href: /geowissenschaften
                                           target: null
                                           rel: null
                                     text: 'Geowissenschaften Ghostwriter'
@@ -1252,7 +1325,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/mathematik
+                                          href: /mathematik
                                           target: null
                                           rel: null
                                     text: 'Mathematik Ghostwriter'
@@ -1264,7 +1337,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/agrarwissenschaften
+                                          href: /agrarwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Agrarwissenschaften'
@@ -1281,7 +1354,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          href: /erziehungswissenschaften-ghostwriter
                                           target: null
                                           rel: null
                                     text: 'Erziehungswissenschaften Ghostwriter'
@@ -1293,7 +1366,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/kommunikationswissenschaften
+                                          href: /kommunikationswissenschaften
                                           target: null
                                           rel: null
                                     text: 'Kommunikationswissenschaften Ghostwriter'
@@ -1305,7 +1378,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/soziale-arbeit
+                                          href: /soziale-arbeit
                                           target: null
                                           rel: null
                                     text: 'Soziale Arbeit Ghostwriter'
@@ -1317,7 +1390,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/sozialwissenschaften
+                                          href: /sozialwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Sozialwissenschaften Ghostwriter'
@@ -1329,7 +1402,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/soziologie
+                                          href: /soziologie
                                           target: null
                                           rel: null
                                     text: 'Soziologie Ghostwriter'
@@ -1341,7 +1414,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/sprachwissenschaften
+                                          href: /sprachwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Sprachwissenschaften Ghostwriter'
@@ -1353,7 +1426,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          href: '/kommunikationswissenschaften#kommunikationsdesign'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kommunikationsdesign'
@@ -1373,7 +1446,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/finanzwissenschaften
+                                          href: /finanzwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Finanzwissenschaften Ghostwriter'
@@ -1385,7 +1458,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/medienwissenschaften
+                                          href: /medienwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Medienwissenschaften Ghostwriter'
@@ -1397,7 +1470,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/bwl
+                                          href: /bwl
                                           target: null
                                           rel: null
                                     text: 'BWL Ghostwriter'
@@ -1409,7 +1482,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/marketing
+                                          href: /marketing
                                           target: null
                                           rel: null
                                     text: 'Marketing Ghostwriter'
@@ -1421,7 +1494,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftsinformatik
+                                          href: /wirtschaftsinformatik
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftsinformatik Ghostwriter'
@@ -1433,7 +1506,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftswissenschaften
+                                          href: /wirtschaftswissenschaften
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftswissenschaften Ghostwriter'
@@ -1445,7 +1518,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/personalmanagement
+                                          href: /personalmanagement
                                           target: null
                                           rel: null
                                     text: 'Personalmanagement Ghostwriter'
@@ -1478,7 +1551,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/germanistik-ghostwriter
+                                          href: /germanistik-ghostwriter
                                           target: null
                                           rel: null
                                     text: 'Germanistik Ghostwriter'
@@ -1490,7 +1563,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/anglistik
+                                          href: /anglistik
                                           target: null
                                           rel: null
                                     text: 'Anglistik Ghostwriter'
@@ -1502,7 +1575,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geschichte
+                                          href: /geschichte
                                           target: null
                                           rel: null
                                     text: 'Geschichte Ghostwriter'
@@ -1514,7 +1587,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/kunst
+                                          href: /kunst
                                           target: null
                                           rel: null
                                     text: 'Kunst Ghostwriter'
@@ -1526,7 +1599,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/literatur
+                                          href: /literatur
                                           target: null
                                           rel: null
                                     text: 'Literatur Ghostwriter'
@@ -1538,7 +1611,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/jura
+                                          href: /jura
                                           target: null
                                           rel: null
                                     text: 'Jura Ghostwriter'
@@ -1550,7 +1623,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/philosophie
+                                          href: /philosophie
                                           target: null
                                           rel: null
                                     text: 'Philosophie Ghostwriter'
@@ -1562,7 +1635,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          href: '/kunst#kunstgeschichte'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kunstgeschichte'
@@ -1579,7 +1652,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/medizin
+                                          href: /medizin
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Medizin'
@@ -1591,7 +1664,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/pflegewissenschaften
+                                          href: /pflegewissenschaften
                                           target: null
                                           rel: null
                                     text: 'Pflegewissenschaften Ghostwriter'
@@ -1603,7 +1676,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/psychologie
+                                          href: /psychologie
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Psychologie'
@@ -1615,7 +1688,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/zahnmedizin
+                                          href: /zahnmedizin
                                           target: null
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
@@ -2828,6 +2901,31 @@ replicator:
                   -
                     type: text
                     text: .
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Ziele einer Facharbeit'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Das Ziel der Facharbeit besteht darin, die eigenständige Arbeit und Auseinandersetzung des Schülers mit einem bestimmten Thema zu fördern und seinen Wissensstand gemäß den Rahmenbedingungen der Ausbildung zu überprüfen. Gleichzeitig soll die Erstellung der Facharbeit den Schüler erstmals mit einer grundlegenden Arbeitsmethode und dem wissenschaftlichen Arbeiten vertraut machen, die er im weiteren Ausbildungsweg (universitäre Ausbildung, Lehrstelle) benötigt. Daher orientiert sich die Facharbeit an den Standards von Universitätsarbeiten.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Gemäß den Richtlinien des Bundeskultusministeriums und der Kultusministerien der Länder dient die Facharbeit in der gymnasialen Oberstufe als Leistungsnachweis, der in die Abiturnote einfließen kann.'
             show_as_card: true
         type: row
         enabled: true
@@ -2975,6 +3073,155 @@ replicator:
           -
             id: fb2YC8tf
             bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Inhalt, Aufbau und Umfang einer Facharbeit'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Die Facharbeit ermöglicht es Schülern, Auszubildenden oder Studenten, entweder ein Thema ihrer Wahl frei zu wählen oder ein Thema vorzuschlagen, das vom Lehrkörper des entsprechenden Fachs vorgeschlagen wurde. Der Aufbau und Umfang der Arbeit folgen einem wissenschaftlichen Standard und können je nach Bildungseinrichtung variieren.'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Die Anfertigung einer Facharbeit umfasst typischerweise folgende Schritte:'
+              -
+                type: orderedList
+                attrs:
+                  start: 1
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Themenwahl:'
+                          -
+                            type: text
+                            text: ' Auswahl eines Themas, das Interesse weckt und zur eigenen Kompetenzentwicklung beiträgt.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Literatursuche:'
+                          -
+                            type: text
+                            text: ' Recherche von relevanten Quellen, Fachbüchern und Artikeln, um eine fundierte Grundlage für die Arbeit zu schaffen.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Studienkonzept bei empirischen Arbeiten:'
+                          -
+                            type: text
+                            text: ' Bei empirischen Arbeiten umfasst dieser Schritt die Planung und Durchführung von Studien sowie die Datenerhebung und -analyse.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Schriftliche Abhandlung:'
+                          -
+                            type: text
+                            text: ' Strukturierung und Verfassen der Facharbeit gemäß den wissenschaftlichen Standards, einschließlich Einleitung, Hauptteil und Schluss.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Vorlage der Arbeit beim Prüfer:'
+                          -
+                            type: text
+                            text: ' Einreichung der fertigen Arbeit beim zuständigen Prüfer oder Betreuer.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: '(Mündliche Verteidigung der Arbeit):'
+                          -
+                            type: text
+                            text: ' In einigen Bildungseinrichtungen kann eine mündliche Präsentation oder Verteidigung der Arbeit erforderlich sein.'
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Bewertung der schriftlichen und mündlichen Leistung durch den Prüfungsausschuss:'
+                          -
+                            type: text
+                            text: ' Abschließende Bewertung der Arbeit durch einen Prüfungsausschuss basierend auf den wissenschaftlichen Standards und den Leistungen des Schülers/Auszubildenden/Studenten.'
               -
                 type: heading
                 attrs:
@@ -3391,15 +3638,259 @@ replicator:
     enabled: true
     bg_color: '#F9F9F9'
   -
-    id: tnjDLp62
+    id: lu39ihv2
     columns_replicator:
       -
-        id: AejMe5zt
+        id: lu39ik83
         single_col: true
         grid:
           -
-            id: mXx9EdIV
+            id: PJbdukUG
             bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Länderspezifika: Facharbeit'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'In '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Baden-Württemberg
+                          -
+                            type: text
+                            text: ' ist die Facharbeit ein Instrument der Leistungsüberprüfung und des Heranführens an das wissenschaftliche Arbeiten in den Seminarkursen an beruflichen Gymnasien. Sie besteht aus einem schriftlichen und einem mündlichen Teil.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Bayern
+                          -
+                            type: text
+                            text: ' sieht die Erstellung einer Facharbeit in der gymnasialen Oberstufe vor, die entgegen den anderen Bundesländern jedoch als Seminararbeit bezeichnet wird und im Rahmen eines wissenschaftspropädeutischen sich über drei Semester erstreckenden Seminars angefertigt werden muss. Die Zeit zum Anfertigen der Facharbeit beträgt dabei 12 Monate und wird von einem sich anschließenden Vortrag begleitet. Dabei fließt die Facharbeit einerseits über ein Punktwertsystem in die Gesamtnote im Abitur ein. Anderseits definiert sie die Zulassung zum Abitur. Eine mit null Punkten bewertete Facharbeit verhindert die Zulassung des Schülers zum Abitur.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'In '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Berlin
+                          -
+                            type: text
+                            text: ' entscheidet der Schüler ob er die Note seiner Facharbeit in die Abiturnote einbringen möchte. Hier erfolgt die Anfertigung der Facharbeit nach Antragstellung im 2. Halbjahr der 12. Jahrgangsstufe des gymnasialen Bildungsweges. Die Arbeit kann muss jedoch nicht Bestandteil eines Prüfungsfaches sein. Nach Abgabe der Arbeit wird der Schüler nach Abschluss der schriftlichen und mündlichen Abiturprüfungen in einem Kolloquium mündlich zu seiner Facharbeit geprüft.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'In '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Brandenburg
+                          -
+                            type: text
+                            text: ' wird, entgegen den vorangegangen Bundesländern, bereits im ersten Halbjahr der 9. Jahrgangsstufe eine Facharbeit angefertigt. Diese wird schriftlich vorgelegt, die Benotung wird als Klassenarbeit gewertet. In der 10. Jahrgangsstufe erhält der Schüler nochmals die Möglichkeit zur Anfertigung einer Facharbeit nach einem freigewählten Thema, welches über einen Zeitraum von drei Monaten bearbeitet werden muss und dessen Bewertung anstelle einer mündlichen Prüfung als Leistungsnachweis erbracht werden kann.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Niedersachsen
+                          -
+                            type: text
+                            text: ' hält ein eigens für die Facharbeit konzipiertes Seminarfach bereit, welches in der sog. Qualifikationsphase der Oberstufe stattfindet. Für die Anfertigung der Facharbeit steht dem Schüler eine Zeit von 6 Wochen neben dem allgemeinen Schulbetrieb zur Verfügung. Die Bewertung der Facharbeit fließt in die Abiturnote ein.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Nordrhein-Westfalen
+                          -
+                            type: text
+                            text: ' verlangt die Anfertigung einer Facharbeit in der Qualifikationsphase 1 entsprechend dem G8- oder G9-Modell, welche in dem zugehörigen Fach eine Klausurnote darstellt. Die Bearbeitungszeit für die Facharbeit beträgt sechs Wochen bei gleichzeitiger intensiver Betreuung durch den Lehrer des zugehörigen Fachbereiches.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Rheinland-Pfalz
+                          -
+                            type: text
+                            text: ' sieht die Anfertigung einer Facharbeit in der 12. Jahrgangsstufe in einem der gewählten Leistungskurse vor. Die Zeit, die dem Schüler zur Verfügung steht, liegt bei zwölf Wochen. Die Facharbeit fließt mit der Wertung einer Klausurleistung in die Endnote ein. Zusätzlich kann eine zweite Facharbeit angefertigt werden, die als sog. Besondere Lernleistung 1,3fach gegenüber den anderen Leistungsnachweisen zählt.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'In '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Sachsen
+                          -
+                            type: text
+                            text: ' wird in der 10. Jahrgangsstufe in der Sekundarstufe I und bei Bedarf auch in der 11. Jahrgangsstufe der Sekundarstufe II eine Facharbeit angefertigt. Zudem besteht in Analogie zum Bundesland Rheinland-Pfalz die Möglichkeit der Anfertigung einer Facharbeit im Rahmen einer besonderen Lernleistung in der Sekundarstufe II.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Sachsen-Anhalt
+                          -
+                            type: text
+                            text: ' sieht die Anfertigung der Facharbeit in der 10. Jahrgangsstufe vor und wertet die Facharbeit als normale Leistung vergleichbar einer sog. Kurzkontrolle.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            text: 'In '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Schleswig-Holstein
+                          -
+                            type: text
+                            text: ' ist die Anfertigung einer Facharbeit den Schülern überlassen. Diese fertigen die Arbeit innerhalb von 6 Monaten in einem der Leistungskurse an, verteidigen diese am Ende des vierten Kurshalbjahres und entscheiden anschließend ob die Wertung der Facharbeit in die Abiturnote einfließen soll.'
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Thüringen
+                          -
+                            type: text
+                            text: ' sieht es als verpflichtend, dass Schüler der gymnasialen Oberstufe eine Facharbeit anfertigen, die hier als Seminarfacharbeit bezeichnet wird. Diese Arbeit wird von einer Gruppe von Schülern gemeinsam innerhalb eines Jahres erstellt.'
               -
                 type: heading
                 attrs:
@@ -3498,8 +3989,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705956206
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1711148973
 template: default
 use_meta_keywords: false
 no_index_page: false

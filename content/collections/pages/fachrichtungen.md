@@ -15,7 +15,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Fachrichtungen
   - type: paragraph
     content:
@@ -24,8 +24,8 @@ teaser:
           - type: bold
           - type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: "#000!important"
+              hex: "#000"
         text: >-
           Wir bieten Ihnen in verschiedenen Fachbereichen akademisches
           Ghostwriting, Schreibunterstützung, Lektorat, Korrektorate und
@@ -84,7 +84,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: set
     attrs:
@@ -112,13 +112,13 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
           - type: link
             attrs:
               href: tel:##phone##
               target: null
               rel: null
-        text: '##phone##'
+        text: "##phone##"
 page_title: Fachrichtungen • GWriters.de
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
@@ -127,7 +127,7 @@ updated_at: 1699350986
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
@@ -171,7 +171,7 @@ replicator:
               - type: paragraph
                 content:
                   - type: text
-                    text: 'Als seriöse '
+                    text: "Als seriöse "
                   - type: text
                     marks:
                       - type: link
@@ -181,11 +181,11 @@ replicator:
                           rel: null
                     text: Ghostwriting Agentur
                   - type: text
-                    text: ' bietet GWriters Ihnen akademische Leistungen in einer breiten Palette von wissenschaftlichen Fachrichtungen an. Von „A“ wie „Architektur“ über „B“ wie „Bauingenieurwesen“, „C“ wie „Chemie“ und „G“ wie Geschichte bis hin zu „M“ wie „Mathematik“ und „P“ wie Philosophie sowie schließlich „Z“ wie Zahnmedizin werden Leistungen offeriert.'
+                    text: " bietet GWriters Ihnen akademische Leistungen in einer breiten Palette von wissenschaftlichen Fachrichtungen an. Von „A“ wie „Architektur“ über „B“ wie „Bauingenieurwesen“, „C“ wie „Chemie“ und „G“ wie Geschichte bis hin zu „M“ wie „Mathematik“ und „P“ wie Philosophie sowie schließlich „Z“ wie Zahnmedizin werden Leistungen offeriert."
               - type: paragraph
                 content:
                   - type: text
-                    text: 'Besonders häufig nachgefragt werden dabei '
+                    text: "Besonders häufig nachgefragt werden dabei "
                   - type: text
                     marks:
                       - type: link
@@ -195,57 +195,57 @@ replicator:
                           rel: null
                     text: Ghostwriting-Dienstleistungen
                   - type: text
-                    text: ' in den Fachgebieten '
+                    text: " in den Fachgebieten "
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: BWL
                   - type: text
-                    text: ', '
+                    text: ", "
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           target: null
                           rel: null
                     text: VWL
                   - type: text
-                    text: ', den '
+                    text: ", den "
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
                   - type: text
-                    text: ' allgemein und '
+                    text: " allgemein und "
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           target: null
                           rel: null
                     text: Jura
                   - type: text
-                    text: '. Auch Dienstleistungen im Bereich der '
+                    text: ". Auch Dienstleistungen im Bereich der "
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter/medizin
+                          href: /medizin
                           target: null
                           rel: null
                     text: Medizin
                   - type: text
-                    text: ' werden zunehmend nachgefragt.'
+                    text: " werden zunehmend nachgefragt."
             show_as_card: false
         type: row
         enabled: true
@@ -264,7 +264,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(193, 76, 0)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriting
@@ -280,7 +280,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat
@@ -296,7 +296,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -308,7 +308,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "\_"
                 attrs:
                   textAlign: start
@@ -322,7 +322,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)!important
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat
@@ -338,7 +338,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)!important
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/formatierung
@@ -354,7 +354,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)!important
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
@@ -433,7 +433,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
@@ -447,7 +447,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -455,7 +455,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
@@ -469,7 +469,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -477,7 +477,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
@@ -491,13 +491,13 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                          color: "#000!important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: >-
@@ -512,7 +512,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -520,7 +520,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
@@ -534,7 +534,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -542,7 +542,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
@@ -563,7 +563,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/ebook
@@ -577,7 +577,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -585,7 +585,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/lernskript
@@ -599,7 +599,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -607,7 +607,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/praesentationen
@@ -621,7 +621,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -629,7 +629,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/statistische-analysen
@@ -643,7 +643,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -651,7 +651,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /expose
@@ -665,7 +665,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -673,7 +673,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/referat
@@ -687,7 +687,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                 attrs:
                                   textAlign: start
                           - id: ljoh9nu0
@@ -702,7 +702,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/essay
@@ -716,7 +716,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -724,7 +724,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/hausarbeit-schreiben-lassen
@@ -738,7 +738,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -746,7 +746,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/facharbeit
@@ -760,7 +760,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -768,7 +768,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/seminararbeit-schreiben-lassen
@@ -782,7 +782,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -790,7 +790,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/studienarbeit
@@ -804,7 +804,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -812,7 +812,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/fallstudie
@@ -826,7 +826,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
@@ -834,7 +834,7 @@ replicator:
                                           color: >-
                                             rgba(255,102,6,var(--tw-text-opacity))
                                             !important
-                                          hex: '#000'
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/praktikumsbericht
@@ -855,7 +855,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/architektur
+                                          href: /architektur
                                           target: null
                                           rel: null
                                     text: Architektur Ghostwriter
@@ -864,7 +864,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/bauingenieurwesen
+                                          href: /bauingenieurwesen
                                           target: null
                                           rel: null
                                     text: Bauingenieurwesen Ghostwriter
@@ -873,7 +873,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/elektrotechnik
+                                          href: /elektrotechnik
                                           target: null
                                           rel: null
                                     text: Elektrotechnik Ghostwriter
@@ -882,7 +882,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/maschinenbau
+                                          href: /maschinenbau
                                           target: null
                                           rel: null
                                     text: Maschinenbau Ghostwriter
@@ -891,7 +891,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/informatik
+                                          href: /informatik
                                           target: null
                                           rel: null
                                     text: Informatik Ghostwriter
@@ -901,7 +901,7 @@ replicator:
                                       - type: link
                                         attrs:
                                           href: >-
-                                            /ghostwriter/informatik#Softwarelokalisierung
+                                            /informatik#Softwarelokalisierung
                                           target: null
                                           rel: null
                                     text: Softwarelokalisierung Ghostwriter
@@ -910,18 +910,18 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/biologie#biotechnologie
+                                          href: /biologie#biotechnologie
                                           target: null
                                           rel: null
                                     text: Biotechnologie Ghostwriter
                                   - type: text
-                                    text: ' '
+                                    text: " "
                                   - type: hard_break
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/technomathematik
+                                          href: /technomathematik
                                           target: null
                                           rel: null
                                     text: Ghostwriter Technomathematik
@@ -934,7 +934,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/biologie
+                                          href: /biologie
                                           target: null
                                           rel: null
                                     text: Biologie Ghostwriter
@@ -943,7 +943,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/chemie
+                                          href: /chemie
                                           target: null
                                           rel: null
                                     text: Chemie Ghostwriter
@@ -952,7 +952,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/geologie
+                                          href: /geologie
                                           target: null
                                           rel: null
                                     text: Geologie Ghostwriter
@@ -961,7 +961,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/geowissenschaften
+                                          href: /geowissenschaften
                                           target: null
                                           rel: null
                                     text: Geowissenschaften Ghostwriter
@@ -970,7 +970,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/mathematik
+                                          href: /mathematik
                                           target: null
                                           rel: null
                                     text: Mathematik Ghostwriter
@@ -979,7 +979,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/agrarwissenschaften
+                                          href: /agrarwissenschaften
                                           target: null
                                           rel: null
                                     text: Ghostwriter Agrarwissenschaften
@@ -993,7 +993,7 @@ replicator:
                                       - type: link
                                         attrs:
                                           href: >-
-                                            /ghostwriter/erziehungswissenschaften-ghostwriter
+                                            /erziehungswissenschaften-ghostwriter
                                           target: null
                                           rel: null
                                     text: Erziehungswissenschaften Ghostwriter
@@ -1003,7 +1003,7 @@ replicator:
                                       - type: link
                                         attrs:
                                           href: >-
-                                            /ghostwriter/kommunikationswissenschaften
+                                            /kommunikationswissenschaften
                                           target: null
                                           rel: null
                                     text: Kommunikationswissenschaften Ghostwriter
@@ -1012,7 +1012,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/soziale-arbeit
+                                          href: /soziale-arbeit
                                           target: null
                                           rel: null
                                     text: Soziale Arbeit Ghostwriter
@@ -1021,7 +1021,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/sozialwissenschaften
+                                          href: /sozialwissenschaften
                                           target: null
                                           rel: null
                                     text: Sozialwissenschaften Ghostwriter
@@ -1030,7 +1030,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/soziologie
+                                          href: /soziologie
                                           target: null
                                           rel: null
                                     text: Soziologie Ghostwriter
@@ -1039,7 +1039,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/sprachwissenschaften
+                                          href: /sprachwissenschaften
                                           target: null
                                           rel: null
                                     text: Sprachwissenschaften Ghostwriter
@@ -1049,12 +1049,12 @@ replicator:
                                       - type: link
                                         attrs:
                                           href: >-
-                                            /ghostwriter/kommunikationswissenschaften#kommunikationsdesign
+                                            /kommunikationswissenschaften#kommunikationsdesign
                                           target: null
                                           rel: null
                                     text: Ghostwriter Kommunikationsdesign
                                   - type: text
-                                    text: ' '
+                                    text: " "
                           - id: ljoh3x4b
                             headline: Wirtschaftliche Fachbereiche
                             content:
@@ -1064,7 +1064,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/finanzwissenschaften
+                                          href: /finanzwissenschaften
                                           target: null
                                           rel: null
                                     text: Finanzwissenschaften Ghostwriter
@@ -1073,7 +1073,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/medienwissenschaften
+                                          href: /medienwissenschaften
                                           target: null
                                           rel: null
                                     text: Medienwissenschaften Ghostwriter
@@ -1082,7 +1082,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/bwl
+                                          href: /bwl
                                           target: null
                                           rel: null
                                     text: BWL Ghostwriter
@@ -1091,7 +1091,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/marketing
+                                          href: /marketing
                                           target: null
                                           rel: null
                                     text: Marketing Ghostwriter
@@ -1100,7 +1100,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftsinformatik
+                                          href: /wirtschaftsinformatik
                                           target: null
                                           rel: null
                                     text: Wirtschaftsinformatik Ghostwriter
@@ -1109,7 +1109,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftswissenschaften
+                                          href: /wirtschaftswissenschaften
                                           target: null
                                           rel: null
                                     text: Wirtschaftswissenschaften Ghostwriter
@@ -1118,7 +1118,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/personalmanagement
+                                          href: /personalmanagement
                                           target: null
                                           rel: null
                                     text: Personalmanagement Ghostwriter
@@ -1127,7 +1127,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: '#Internationale'
+                                          href: "#Internationale"
                                           target: null
                                           rel: null
                                     text: Internationale BWL Ghostwriter
@@ -1142,7 +1142,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/germanistik-ghostwriter
+                                          href: /germanistik-ghostwriter
                                           target: null
                                           rel: null
                                     text: Germanistik Ghostwriter
@@ -1151,7 +1151,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/anglistik
+                                          href: /anglistik
                                           target: null
                                           rel: null
                                     text: Anglistik Ghostwriter
@@ -1160,7 +1160,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/geschichte
+                                          href: /geschichte
                                           target: null
                                           rel: null
                                     text: Geschichte Ghostwriter
@@ -1169,7 +1169,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/kunst
+                                          href: /kunst
                                           target: null
                                           rel: null
                                     text: Kunst Ghostwriter
@@ -1178,7 +1178,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/literatur
+                                          href: /literatur
                                           target: null
                                           rel: null
                                     text: Literatur Ghostwriter
@@ -1187,7 +1187,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/philosophie
+                                          href: /philosophie
                                           target: null
                                           rel: null
                                     text: Philosophie Ghostwriter
@@ -1196,7 +1196,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/kunst#kunstgeschichte
+                                          href: /kunst#kunstgeschichte
                                           target: null
                                           rel: null
                                     text: Ghostwriter Kunstgeschichte
@@ -1209,7 +1209,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/medizin
+                                          href: /medizin
                                           target: null
                                           rel: null
                                     text: Ghostwriter Medizin
@@ -1218,7 +1218,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/pflegewissenschaften
+                                          href: /pflegewissenschaften
                                           target: null
                                           rel: null
                                     text: Pflegewissenschaften Ghostwriter
@@ -1227,7 +1227,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/psychologie
+                                          href: /psychologie
                                           target: null
                                           rel: null
                                     text: Ghostwriter Psychologie
@@ -1236,7 +1236,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/zahnmedizin
+                                          href: /zahnmedizin
                                           target: null
                                           rel: null
                                     text: Zahnmedizin Ghostwriter
@@ -1252,7 +1252,7 @@ replicator:
                     text: >-
                       Bei GWriters bieten wir Ihnen professionelle
                       Dienstleistungen in vielfältiger Form an. Neben dem
-                      klassischen Ghostwriting in Form der 
+                      klassischen Ghostwriting in Form der
                   - type: text
                     marks:
                       - type: link
@@ -1262,7 +1262,7 @@ replicator:
                           rel: null
                     text: Erstellung wissenschaftlicher Mustervorlagen
                   - type: text
-                    text: ' sind dies das '
+                    text: " sind dies das "
                   - type: text
                     marks:
                       - type: link
@@ -1272,7 +1272,7 @@ replicator:
                           rel: null
                     text: Lektorat
                   - type: text
-                    text: ', die '
+                    text: ", die "
                   - type: text
                     marks:
                       - type: link
@@ -1282,7 +1282,7 @@ replicator:
                           rel: null
                     text: Plagiatsprüfung
                   - type: text
-                    text: ', die '
+                    text: ", die "
                   - type: text
                     marks:
                       - type: link
@@ -1292,7 +1292,7 @@ replicator:
                           rel: null
                     text: Übersetzung
                   - type: text
-                    text: ', das '
+                    text: ", das "
                   - type: text
                     marks:
                       - type: link
@@ -1302,7 +1302,7 @@ replicator:
                           rel: null
                     text: Korrektorat
                   - type: text
-                    text: ', die '
+                    text: ", die "
                   - type: text
                     marks:
                       - type: link
@@ -1312,7 +1312,7 @@ replicator:
                           rel: null
                     text: Formatierung
                   - type: text
-                    text: ' und die '
+                    text: " und die "
                   - type: text
                     marks:
                       - type: link
@@ -1324,7 +1324,7 @@ replicator:
                   - type: text
                     text: >-
                       . Außerdem bieten wir Ihnen auch statistische Analysen
-                      oder 
+                      oder
                   - type: text
                     marks:
                       - type: link
@@ -1334,14 +1334,14 @@ replicator:
                           rel: null
                     text: MAXQDA-Auswertungen
                   - type: text
-                    text: ' an.'
+                    text: " an."
               - type: paragraph
                 content:
                   - type: text
                     text: >-
                       Unseren Ghostwriting-Service bieten wir für verschiedene
                       Qualitäts- und Komplexitätsstufen an. So können Sie bei
-                      uns beispielsweise Mustervorlagen für 
+                      uns beispielsweise Mustervorlagen für
                   - type: text
                     marks:
                       - type: link
@@ -1351,7 +1351,7 @@ replicator:
                           rel: null
                     text: Hausarbeiten
                   - type: text
-                    text: ', '
+                    text: ", "
                   - type: text
                     marks:
                       - type: link
@@ -1361,7 +1361,7 @@ replicator:
                           rel: null
                     text: Seminararbeiten
                   - type: text
-                    text: ', '
+                    text: ", "
                   - type: text
                     marks:
                       - type: link
@@ -1371,7 +1371,7 @@ replicator:
                           rel: null
                     text: Bachelorarbeiten
                   - type: text
-                    text: ' und '
+                    text: " und "
                   - type: text
                     marks:
                       - type: link
@@ -1381,7 +1381,7 @@ replicator:
                           rel: null
                     text: Masterarbeiten
                   - type: text
-                    text: ' schreiben lassen.'
+                    text: " schreiben lassen."
               - type: paragraph
                 content:
                   - type: text
@@ -1405,7 +1405,7 @@ replicator:
                     type: button
                     button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
                     button_text: JETZT KOSTENLOS ANFRAGEN
-                    color: '#FF6606'
+                    color: "#FF6606"
                     spacing_top: false
               - type: horizontal_rule
               - type: heading
@@ -1432,7 +1432,7 @@ replicator:
                   - type: text
                     text: >-
                       Die Erfüllung dieser Anforderungen durch die Ghostwriter
-                      und eine seriöse 
+                      und eine seriöse
                   - type: text
                     marks:
                       - type: link
@@ -1442,7 +1442,7 @@ replicator:
                           rel: null
                     text: Ghostwriting
                   - type: text
-                    text: ' Agentur stellen die Grundlage für den Erfolg in den Fachbereichen dar. Ghostwriter Erfahrungen sind dabei geprägt durch diese Anforderungen: je mehr ein Ghostwriter Erfahrungen aus dem Fachkontext mitbringt, desto eher kann akademisches Ghostwriting erfolgreich sein und ein Ghostwriting Service seinen hohen Qualitätsansprüchen gerecht werden. Bei GWriters erreichen wir durch einen strukturierten und strengen Auswahlprozess unserer Autoren konsistent höchste Qualität mit den Leistungen unserer '
+                    text: " Agentur stellen die Grundlage für den Erfolg in den Fachbereichen dar. Ghostwriter Erfahrungen sind dabei geprägt durch diese Anforderungen: je mehr ein Ghostwriter Erfahrungen aus dem Fachkontext mitbringt, desto eher kann akademisches Ghostwriting erfolgreich sein und ein Ghostwriting Service seinen hohen Qualitätsansprüchen gerecht werden. Bei GWriters erreichen wir durch einen strukturierten und strengen Auswahlprozess unserer Autoren konsistent höchste Qualität mit den Leistungen unserer "
                   - type: text
                     marks:
                       - type: link
@@ -1533,7 +1533,7 @@ replicator:
                       gemeinsam die Aufgabenstellung. Dies gilt z.B. auch, wenn
                       statistische Fragestellungen in einem Text bearbeitet
                       werden müssen. Hier können BWL Ghostwriter und VWL
-                      Ghostwriter Unterstützung durch einen 
+                      Ghostwriter Unterstützung durch einen
                   - type: text
                     marks:
                       - type: link
@@ -1543,7 +1543,7 @@ replicator:
                           rel: null
                     text: Statistiker
                   - type: text
-                    text: ' von GWriters erhalten.'
+                    text: " von GWriters erhalten."
               - type: heading
                 attrs:
                   level: 3
@@ -1624,8 +1624,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Disclaimer
               - type: paragraph
                 content:
@@ -1633,8 +1633,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Der guten Ordnung halber weisen wir Sie darauf hin, dass
                       jegliche von uns erstellten Ausarbeitungen auf der Annahme

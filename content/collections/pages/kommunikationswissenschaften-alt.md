@@ -15,7 +15,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Kommunikationswissenschaften Ghostwriter
   - type: paragraph
     content:
@@ -25,7 +25,7 @@ teaser:
           - type: textColor
             attrs:
               color: rgb(68, 68, 68)
-              hex: '#000'
+              hex: "#000"
         text: >-
           Hilfe durch Experten und akademische Ghostwriter der Kommunikation –
           schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.
@@ -83,7 +83,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: set
     attrs:
@@ -96,7 +96,7 @@ teaser:
       - type: text
         marks:
           - type: bold
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+        text: "Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:"
     attrs:
       textAlign: center
   - type: heading
@@ -109,13 +109,13 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
           - type: link
             attrs:
               href: tel:##phone##
               target: null
               rel: null
-        text: '##phone##'
+        text: "##phone##"
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
@@ -123,7 +123,7 @@ updated_at: 1698102748
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
@@ -140,7 +140,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Unser Team von erfahrenen Akademikern aus der
                       Kommunikationswissenschaft unterstützt Sie bei der zügigen
@@ -157,7 +157,7 @@ replicator:
                   id: ND3Ou1s8
                   values:
                     type: show_sidebar_mobile
-                    custom_sidebar_placement: 'on'
+                    custom_sidebar_placement: "on"
               - type: paragraph
                 content:
                   - type: text
@@ -166,7 +166,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Kommunikation Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   - type: text
                     marks:
@@ -174,7 +174,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /anfrage
@@ -206,7 +206,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Ghostwriter & Kommunikationswissenschaft
               - type: paragraph
                 content:
@@ -215,14 +215,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Jeder unserer Freelancer und\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriter
@@ -237,7 +237,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat/lektor
@@ -252,7 +252,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat/korrektor
@@ -289,7 +289,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(193, 76, 0)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriting
@@ -305,7 +305,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat
@@ -321,7 +321,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -333,7 +333,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "\_"
                 attrs:
                   textAlign: start
@@ -347,7 +347,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)!important
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat
@@ -363,7 +363,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)!important
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/formatierung
@@ -379,7 +379,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)!important
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
@@ -469,8 +469,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Allgemeines
               - type: paragraph
                 content:
@@ -478,15 +478,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "Die Kommunikationswissenschaft zählen zu den Sozial- und Geisteswissenschaften. Sie befasst sich weitläufig mit den Interaktionsvorgängen des Menschen, insbesondere mit der Art der Interaktion und der jeweiligen Wirkung. Die passenden Fähigkeiten erlernt der Student in einem Studium an einer Hochschule oder Universität. Neben einigen Prüfungs- und Klausurleistungen wird der Student der Kommunikationswissenschaften auch häufig mit einer\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/examensarbeit
@@ -515,8 +515,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Kommunikation & Wissenschaft
               - type: paragraph
                 content:
@@ -524,22 +524,22 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Schon in der Antike wurden Teilbereiche der heutigen
                       Kommunikationswissenschaft im Studium gelehrt, in Form von
                       Rhetorik oder persuasiver Kommunikation. Zudem ist das
-                      Studium der Kommunikationswissenschaft verknüpft mit der 
+                      Studium der Kommunikationswissenschaft verknüpft mit der
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/medienwissenschaften
+                          href: /medienwissenschaften
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -547,18 +547,18 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und behandelt peripher außerdem Bereiche der '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: " und behandelt peripher außerdem Bereiche der "
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/sprachwissenschaften
+                          href: /sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften
@@ -566,8 +566,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: .
                 attrs:
                   textAlign: start
@@ -586,8 +586,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Des Weiteren spielen mittlerweile auch Journalistik und
                       die Wissenschaft der PR eine Rolle. Heute ist der
@@ -604,15 +604,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "Im Allgemeinen dient das Studium dazu, Probleme im Dreieck der Sprache – Kommunikation – Medien zu identifizieren und durch wissenschaftliche Methoden zu analysieren und zu lösen. Der Studiengang vermittelt das fachliche Wissen sowie die Kompetenz und Methodik, die den Studenten auf eine selbstständige und anspruchsvolle Tätigkeit in unterschiedlichen Berufszweigen vorbereitet. Er besteht aus zahlreichen Prüfungen und wissenschaftlichen Arbeiten, die zu schreiben sind. Daher werden nicht selten von Studenten der Kommunikation Ghostwriter beauftragt. Dabei sollte bei Prüfungsleistungen, beispielsweise wenn Studenten von einem Kommunikation-Ghostwriter Hausarbeiten schreiben lassen, die\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriting
@@ -645,8 +645,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Studium der Kommunikationswissenschaften
               - type: paragraph
                 content:
@@ -654,8 +654,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Das Studium der Kommunikationswissenschaft lässt sich an
                       zahlreichen Universitäten im deutschsprachigen Raum
@@ -679,8 +679,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Im Rahmen der Vertiefungsphase im Bachelor- und
                       Masterstudium sind die Universitäten aufgefordert, dass
@@ -710,7 +710,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(55, 65, 81)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Kommunikationsdesign bezieht sich auf die Gestaltung und
                       visuelle Darstellung von Informationen, Ideen und
@@ -736,7 +736,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(55, 65, 81)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Kommunikationsdesign ist ein eigenständiger Bereich, der
                       sich auf die visuelle Gestaltung von Kommunikation
@@ -753,7 +753,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(55, 65, 81)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Hier ist eine Tabelle, die die Unterschiede zwischen
                       Kommunikationsdesign und Kommunikationswissenschaften
@@ -779,7 +779,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: inherit
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Aspekt
                             attrs:
                               textAlign: left
@@ -798,7 +798,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: inherit
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Kommunikationsdesign
                             attrs:
                               textAlign: left
@@ -817,7 +817,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: inherit
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Kommunikationswissenschaften
                             attrs:
                               textAlign: left
@@ -838,7 +838,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Fokus
                             attrs:
                               textAlign: left
@@ -856,7 +856,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Visuelle Gestaltung von Kommunikation
                             attrs:
                               textAlign: left
@@ -874,7 +874,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Theorie und Praxis der Kommunikation in
                                   verschiedenen Kontexten
@@ -897,7 +897,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Methoden und Ansätze
                             attrs:
                               textAlign: left
@@ -915,7 +915,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Kreative Gestaltungstechniken, visuelle
                                   Kommunikation
@@ -935,7 +935,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Wissenschaftliche Methoden wie Forschung,
                                   Analyse von Medieninhalten, Umfragen
@@ -958,7 +958,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Berufsfelder
                             attrs:
                               textAlign: left
@@ -976,7 +976,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Grafikdesign, Webdesign, Werbung, UI/UX-Design
                             attrs:
                               textAlign: left
@@ -994,7 +994,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Journalismus, Public Relations,
                                   Medienmanagement, Marktforschung etc.
@@ -1017,7 +1017,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Zielgruppe
                             attrs:
                               textAlign: left
@@ -1035,7 +1035,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Ansprechende visuelle Präsentation von
                                   Informationen
@@ -1055,7 +1055,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Analyse und Erklärung von
                                   Kommunikationsprozessen, Interaktionen
@@ -1078,7 +1078,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Schwerpunkt
                             attrs:
                               textAlign: left
@@ -1096,7 +1096,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Ästhetik, Kreativität, visuelle Gestaltung
                             attrs:
                               textAlign: left
@@ -1114,7 +1114,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Theorie, Forschung, Analyse, Medieninhalte
                             attrs:
                               textAlign: left
@@ -1125,7 +1125,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(55, 65, 81)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Diese Tabelle fasst die Hauptunterschiede zwischen den
                       beiden Bereichen kompakt zusammen und zeigt ihre
@@ -1145,7 +1145,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(55, 65, 81)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Ein Ghostwriter im Kommunikationsdesign kann eine Vielzahl
                       von Aufgaben in verschiedenen Bereichen übernehmen. Hier
@@ -1166,8 +1166,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Hochschullehre:'
+                                  hex: "#000"
+                            text: "Hochschullehre:"
                           - type: text
                             marks: []
                             text: >-
@@ -1189,8 +1189,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Forschung:'
+                                  hex: "#000"
+                            text: "Forschung:"
                           - type: text
                             marks: []
                             text: >-
@@ -1211,8 +1211,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Publikationen:'
+                                  hex: "#000"
+                            text: "Publikationen:"
                           - type: text
                             marks: []
                             text: >-
@@ -1233,8 +1233,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Beratung:'
+                                  hex: "#000"
+                            text: "Beratung:"
                           - type: text
                             marks: []
                             text: >-
@@ -1256,8 +1256,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Gestaltungsprojekte:'
+                                  hex: "#000"
+                            text: "Gestaltungsprojekte:"
                           - type: text
                             marks: []
                             text: >-
@@ -1278,8 +1278,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'UX-Design:'
+                                  hex: "#000"
+                            text: "UX-Design:"
                           - type: text
                             marks: []
                             text: >-
@@ -1299,8 +1299,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Designmanagement:'
+                                  hex: "#000"
+                            text: "Designmanagement:"
                           - type: text
                             marks: []
                             text: >-
@@ -1321,8 +1321,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Medienproduktion:'
+                                  hex: "#000"
+                            text: "Medienproduktion:"
                           - type: text
                             marks: []
                             text: >-
@@ -1341,8 +1341,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Selbstständigkeit:'
+                                  hex: "#000"
+                            text: "Selbstständigkeit:"
                           - type: text
                             marks: []
                             text: >-
@@ -1359,7 +1359,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(55, 65, 81)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Zusammenfassend umfasst der Tätigkeitsbereich eines
                       Ghostwriters im Fachbereich Kommunikationsdesign eine
@@ -1379,8 +1379,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Diese Beispiele veranschaulichen, wie ein Ghostwriter mit
                       Expertise im Bereich Kommunikationsdesign verschiedene
@@ -1407,7 +1407,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: inherit
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Tätigkeitsfeld
                             attrs:
                               textAlign: left
@@ -1426,7 +1426,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: inherit
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Beispiele für Aufgaben
                             attrs:
                               textAlign: left
@@ -1447,7 +1447,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Fachartikel und Blogbeiträge
                             attrs:
                               textAlign: left
@@ -1465,7 +1465,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Verfassen von Artikeln über aktuelle
                                   Designtrends, Farbtheorie,
@@ -1489,7 +1489,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Marketinginhalte
                             attrs:
                               textAlign: left
@@ -1507,7 +1507,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Erstellung von Texten für Werbebroschüren von
                                   Designagenturen, die ihre kreativen
@@ -1531,7 +1531,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Website-Inhalte
                             attrs:
                               textAlign: left
@@ -1549,7 +1549,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Verfassen von Inhalten für Portfolios von
                                   Kommunikationsdesignern, um ihre Arbeit online
@@ -1573,7 +1573,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Redaktion und Korrekturlesen
                             attrs:
                               textAlign: left
@@ -1591,7 +1591,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Überprüfung und Überarbeitung von Texten, um
                                   stilistische Klarheit, Grammatik und
@@ -1615,7 +1615,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Anleitungen und Tutorials
                             attrs:
                               textAlign: left
@@ -1633,7 +1633,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Erstellen von Anleitungen für die Verwendung
                                   von Designsoftware oder Tutorials zur
@@ -1657,7 +1657,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Präsentationsmaterial
                             attrs:
                               textAlign: left
@@ -1675,7 +1675,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Entwicklung von Texten für Präsentationen auf
                                   Designkonferenzen, die die neuesten
@@ -1699,7 +1699,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Unterstützung bei Buchprojekten
                             attrs:
                               textAlign: left
@@ -1717,7 +1717,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Zusammenarbeit mit Designexperten zur
                                   Erstellung von Fachbüchern über visuelle
@@ -1741,7 +1741,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: var(--tw-prose-bold)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Kreative Konzepte
                             attrs:
                               textAlign: left
@@ -1759,7 +1759,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(55, 65, 81)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   Entwurf von kreativen Ideen für
                                   Werbekampagnen, Markenidentität und visuelle
@@ -1771,7 +1771,7 @@ replicator:
                   level: 3
                 content:
                   - type: text
-                    text: 'Aufgaben: Ghostwriter Kommunikationsdesign'
+                    text: "Aufgaben: Ghostwriter Kommunikationsdesign"
               - type: paragraph
                 content:
                   - type: text
@@ -1779,7 +1779,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(55, 65, 81)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Ein Ghostwriter mit einem abgeschlossenen Studium und
                       Berufserfahrung im Bereich Kommunikationsdesign kann eine
@@ -1800,8 +1800,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Verfassen von Fachartikeln und Blogbeiträgen:'
+                                  hex: "#000"
+                            text: "Verfassen von Fachartikeln und Blogbeiträgen:"
                           - type: text
                             marks: []
                             text: >-
@@ -1821,8 +1821,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Erstellung von Designinhalten:'
+                                  hex: "#000"
+                            text: "Erstellung von Designinhalten:"
                           - type: text
                             marks: []
                             text: >-
@@ -1842,8 +1842,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Verfassen von Anleitungen und Tutorials:'
+                                  hex: "#000"
+                            text: "Verfassen von Anleitungen und Tutorials:"
                           - type: text
                             marks: []
                             text: >-
@@ -1862,8 +1862,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Gestaltungskonzepte und Erklärungen:'
+                                  hex: "#000"
+                            text: "Gestaltungskonzepte und Erklärungen:"
                           - type: text
                             marks: []
                             text: >-
@@ -1882,8 +1882,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Beratungstexte:'
+                                  hex: "#000"
+                            text: "Beratungstexte:"
                           - type: text
                             marks: []
                             text: >-
@@ -1902,8 +1902,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Verfassen von Präsentationsinhalten:'
+                                  hex: "#000"
+                            text: "Verfassen von Präsentationsinhalten:"
                           - type: text
                             marks: []
                             text: >-
@@ -1922,8 +1922,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Redaktionelle Unterstützung:'
+                                  hex: "#000"
+                            text: "Redaktionelle Unterstützung:"
                           - type: text
                             marks: []
                             text: >-
@@ -1942,8 +1942,8 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Ghostwriting für Buchprojekte:'
+                                  hex: "#000"
+                            text: "Ghostwriting für Buchprojekte:"
                           - type: text
                             marks: []
                             text: >-
@@ -1962,19 +1962,19 @@ replicator:
                               - type: textColor
                                 attrs:
                                   color: var(--tw-prose-bold)
-                                  hex: '#000'
-                            text: 'Unterstützung bei wissenschaftlichen Arbeiten:'
+                                  hex: "#000"
+                            text: "Unterstützung bei wissenschaftlichen Arbeiten:"
                           - type: text
                             marks: []
                             text: >-
                               Insbesondere kann ein Ghostwriter den Studierenden
-                              helfen, 
+                              helfen,
                           - type: text
                             marks:
                               - type: textColor
                                 attrs:
                                   color: rgb(52, 53, 65)
-                                  hex: '#000'
+                                  hex: "#000"
                             text: >-
                               Studierende können eine Arbeit für Ihre
                               Bachelorarbeit schreiben lassen.
@@ -1990,8 +1990,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Disclaimer
               - type: paragraph
                 content:
@@ -1999,8 +1999,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
                 attrs:
                   textAlign: start
@@ -2013,8 +2013,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Nützliche Weblinks
               - type: paragraph
                 content:
@@ -2022,8 +2022,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-
@@ -2039,8 +2039,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://www.uni-due.de/
@@ -2053,8 +2053,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://www.ikmz.uzh.ch/de.html
@@ -2069,8 +2069,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-
@@ -2087,8 +2087,8 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /wiki

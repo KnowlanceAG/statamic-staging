@@ -250,7 +250,7 @@ replicator:
                                   rel: null
                                   target: null
                                   title: null
-                            text: 'Bauingenieurwesen Bachelorarbeit schreiben lassenn'
+                            text: 'Bauingenieurwesen Bachelorarbeit schreiben lassen'
                   -
                     type: listItem
                     content:
@@ -1590,7 +1590,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/architektur
+                                          href: /architektur
                                           target: null
                                           rel: null
                                     text: 'Architektur Ghostwriter'
@@ -1602,7 +1602,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/bauingenieurwesen
+                                          href: /bauingenieurwesen
                                           target: null
                                           rel: null
                                     text: 'Bauingenieurwesen Ghostwriter'
@@ -1614,7 +1614,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/elektrotechnik
+                                          href: /elektrotechnik
                                           target: null
                                           rel: null
                                     text: 'Elektrotechnik Ghostwriter'
@@ -1626,7 +1626,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/maschinenbau
+                                          href: /maschinenbau
                                           target: null
                                           rel: null
                                     text: 'Maschinenbau Ghostwriter'
@@ -1638,7 +1638,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/informatik
+                                          href: /informatik
                                           target: null
                                           rel: null
                                     text: 'Informatik Ghostwriter'
@@ -1650,7 +1650,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/informatik#Softwarelokalisierung'
+                                          href: '/informatik#Softwarelokalisierung'
                                           target: null
                                           rel: null
                                     text: 'Softwarelokalisierung Ghostwriter'
@@ -1662,7 +1662,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/biologie#biotechnologie'
+                                          href: '/biologie#biotechnologie'
                                           target: null
                                           rel: null
                                     text: 'Biotechnologie Ghostwriter'
@@ -1677,7 +1677,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/technomathematik
+                                          href: /technomathematik
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Technomathematik'
@@ -1689,7 +1689,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/ingenieurwissenschaften
+                                          href: /ingenieurwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Ingenieurwissenschaften'
@@ -1706,7 +1706,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/biologie
+                                          href: /biologie
                                           target: null
                                           rel: null
                                     text: 'Biologie Ghostwriter'
@@ -1718,7 +1718,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/chemie
+                                          href: /chemie
                                           target: null
                                           rel: null
                                     text: 'Chemie Ghostwriter'
@@ -1730,7 +1730,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geologie
+                                          href: /geologie
                                           target: null
                                           rel: null
                                     text: 'Geologie Ghostwriter'
@@ -1742,7 +1742,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geowissenschaften
+                                          href: /geowissenschaften
                                           target: null
                                           rel: null
                                     text: 'Geowissenschaften Ghostwriter'
@@ -1754,7 +1754,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/mathematik
+                                          href: /mathematik
                                           target: null
                                           rel: null
                                     text: 'Mathematik Ghostwriter'
@@ -1766,7 +1766,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/agrarwissenschaften
+                                          href: /agrarwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Agrarwissenschaften'
@@ -1783,7 +1783,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          href: /erziehungswissenschaften-ghostwriter
                                           target: null
                                           rel: null
                                     text: 'Erziehungswissenschaften Ghostwriter'
@@ -1795,7 +1795,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/kommunikationswissenschaften
+                                          href: /kommunikationswissenschaften
                                           target: null
                                           rel: null
                                     text: 'Kommunikationswissenschaften Ghostwriter'
@@ -1807,7 +1807,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/soziale-arbeit
+                                          href: /soziale-arbeit
                                           target: null
                                           rel: null
                                     text: 'Soziale Arbeit Ghostwriter'
@@ -1819,7 +1819,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/sozialwissenschaften
+                                          href: /sozialwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Sozialwissenschaften Ghostwriter'
@@ -1831,7 +1831,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/soziologie
+                                          href: /soziologie
                                           target: null
                                           rel: null
                                     text: 'Soziologie Ghostwriter'
@@ -1843,7 +1843,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/sprachwissenschaften
+                                          href: /sprachwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Sprachwissenschaften Ghostwriter'
@@ -1855,7 +1855,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/kommunikationswissenschaften#kommunikationsdesign'
+                                          href: '/kommunikationswissenschaften#kommunikationsdesign'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kommunikationsdesign'
@@ -1875,7 +1875,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/finanzwissenschaften
+                                          href: /finanzwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Finanzwissenschaften Ghostwriter'
@@ -1887,7 +1887,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/medienwissenschaften
+                                          href: /medienwissenschaften
                                           target: null
                                           rel: null
                                     text: 'Medienwissenschaften Ghostwriter'
@@ -1899,7 +1899,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/bwl
+                                          href: /bwl
                                           target: null
                                           rel: null
                                     text: 'BWL Ghostwriter'
@@ -1911,7 +1911,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/marketing
+                                          href: /marketing
                                           target: null
                                           rel: null
                                     text: 'Marketing Ghostwriter'
@@ -1923,7 +1923,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftsinformatik
+                                          href: /wirtschaftsinformatik
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftsinformatik Ghostwriter'
@@ -1935,7 +1935,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftswissenschaften
+                                          href: /wirtschaftswissenschaften
                                           target: null
                                           rel: null
                                     text: 'Wirtschaftswissenschaften Ghostwriter'
@@ -1947,7 +1947,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/personalmanagement
+                                          href: /personalmanagement
                                           target: null
                                           rel: null
                                     text: 'Personalmanagement Ghostwriter'
@@ -1980,7 +1980,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/germanistik-ghostwriter
+                                          href: /germanistik-ghostwriter
                                           target: null
                                           rel: null
                                     text: 'Germanistik Ghostwriter'
@@ -1992,7 +1992,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/anglistik
+                                          href: /anglistik
                                           target: null
                                           rel: null
                                     text: 'Anglistik Ghostwriter'
@@ -2004,7 +2004,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/geschichte
+                                          href: /geschichte
                                           target: null
                                           rel: null
                                     text: 'Geschichte Ghostwriter'
@@ -2016,7 +2016,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/kunst
+                                          href: /kunst
                                           target: null
                                           rel: null
                                     text: 'Kunst Ghostwriter'
@@ -2028,7 +2028,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/literatur
+                                          href: /literatur
                                           target: null
                                           rel: null
                                     text: 'Literatur Ghostwriter'
@@ -2040,7 +2040,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/jura
+                                          href: /jura
                                           target: null
                                           rel: null
                                     text: 'Jura Ghostwriter'
@@ -2052,7 +2052,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/philosophie
+                                          href: /philosophie
                                           target: null
                                           rel: null
                                     text: 'Philosophie Ghostwriter'
@@ -2064,7 +2064,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/ghostwriter/kunst#kunstgeschichte'
+                                          href: '/kunst#kunstgeschichte'
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Kunstgeschichte'
@@ -2081,7 +2081,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/medizin
+                                          href: /medizin
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Medizin'
@@ -2093,7 +2093,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/pflegewissenschaften
+                                          href: /pflegewissenschaften
                                           target: null
                                           rel: null
                                     text: 'Pflegewissenschaften Ghostwriter'
@@ -2105,7 +2105,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/psychologie
+                                          href: /psychologie
                                           target: null
                                           rel: null
                                     text: 'Ghostwriter Psychologie'
@@ -2117,7 +2117,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: /ghostwriter/zahnmedizin
+                                          href: /zahnmedizin
                                           target: null
                                           rel: null
                                     text: 'Zahnmedizin Ghostwriter'
@@ -3306,7 +3306,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /ghostwriter/kommunikationswissenschaften
+                                  href: /kommunikationswissenschaften
                                   rel: null
                                   target: _blank
                                   title: null
@@ -3950,8 +3950,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1706802641
+updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
+updated_at: 1711097356
 template: default
 use_meta_keywords: false
 no_index_page: false

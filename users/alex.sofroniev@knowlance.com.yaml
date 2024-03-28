@@ -1,7 +1,9 @@
 name: 'Alex Sofroniev'
 roles:
-  - admin
+  - super_admin
 groups:
   - admin
 id: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
 password_hash: $2y$10$SCdPwBniFfdWpmGrzXKrje7on8r8.RYhFjSsHXPin748GTp/AsfqS
+preferences:
+  locale: en

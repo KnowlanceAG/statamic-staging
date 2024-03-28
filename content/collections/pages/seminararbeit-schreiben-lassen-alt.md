@@ -13,8 +13,8 @@ teaser:
         marks:
           - type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: "#ff6602"
+              hex: "#000"
         text: Mustervorlage für Seminararbeit schreiben lassen
   - type: paragraph
     content:
@@ -32,7 +32,7 @@ teaser:
         type: button
         button_link: /anfrage
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
@@ -49,7 +49,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Wissenschaftliches Schreiben ist eine der ersten großen
               Herausforderungen im Rahmen des Studiums für einen
@@ -66,7 +66,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Studierende beauftragen häufig für die Unterstützung bei ihren
               Seminararbeiten Ghostwriter. Diese bieten eine Vielzahl von
@@ -79,7 +79,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Oft geschieht dies direkt am Anfang bei der Themenwahl und der
               Definition der Leitfrage, bei Problemen bei der
@@ -95,15 +95,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: "Neben der Korrektur und dem\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#0071BC'
-                  hex: '#000'
+                  color: "#0071BC"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /lektorat
@@ -114,15 +114,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: "\_der Seminararbeit, kann zusätzlich eine umfassende\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#0071BC'
-                  hex: '#000'
+                  color: "#0071BC"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /leistungen/plagiatspruefung
@@ -133,8 +133,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: "\_durch unsere Ghostwriting-Agentur erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre Seminararbeit schreiben lassen, um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen."
       - type: paragraph
         content:
@@ -143,8 +143,8 @@ replicator:
               - type: bold
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: >-
               Wenn Sie bei Ihrer Seminararbeit Unterstützung benötigen, dann
               können Sie uns gerne sofort eine
@@ -152,16 +152,16 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
-            text: ' '
+                  color: "#333333"
+                  hex: "#000"
+            text: " "
           - type: text
             marks:
               - type: bold
               - type: textColor
                 attrs:
-                  color: '#0071BC'
-                  hex: '#000'
+                  color: "#0071BC"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /anfrage
@@ -173,8 +173,8 @@ replicator:
               - type: bold
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: >-
               . Wir melden uns innerhalb weniger Stunden mit einem kostenlosen
               Angebot bei Ihnen zurück. Falls Sie eine kostenlose telefonische
@@ -196,15 +196,15 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: "Ein akademischer\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
-                  color: '#0071BC'
-                  hex: '#000'
+                  color: "#0071BC"
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriter
@@ -215,8 +215,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: "\_beschäftigt sich täglich mit dem Verfassen von disziplinären und interdisziplinären wissenschaftlichen Texten und Arbeiten. Unsere akademischen Autoren sind zertifizierte Akademiker und besitzen zahlreiche Kenntnisse aus ihrem Fachgebiet. Unsere Ghostwriting-Agentur arbeitet ausschließlich mit professionellen Akademikern, Doktoren und Professoren zusammen."
       - type: set
         attrs:
@@ -232,8 +232,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: >-
               Da wir keine Studenten oder Hobbyschreiber beschäftigen, können
               wir Ihnen eine qualitativ hochwertige Mustervorlage garantieren.
@@ -251,7 +251,7 @@ replicator:
             ex_fachbereich:
               - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
             ex_type: Seminararbeit
-            ex_pages: '12'
+            ex_pages: "12"
             ex_zitation: Harvard Style
             ex_button_link: /ghostwriting-beispielarbeiten/seminararbeit-beispiel
             ex_button_text: WEITERLESEN
@@ -265,8 +265,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: Was ist eine Seminararbeit?
       - type: paragraph
         content:
@@ -275,7 +275,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Seminare sind Veranstaltungen an Hochschulen, die sich über den
               regen Austausch zwischen Studenten und Hochschullehrer definieren.
@@ -289,7 +289,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Dadurch soll der Student nicht nur den Umgang mit
               wissenschaftlichen Fragestellungen erlernen, sondern auch seine
@@ -303,7 +303,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Durch die nicht selten fehlende Erfahrung mit wissenschaftlichen
               Arbeiten und deren Aufgaben, in Verbindung mit Leistungs- und
@@ -317,7 +317,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Hilflosigkeit hat bei einigen Studenten dazu geführt, dass
               diese von einem erfahrenen Ghostwriter ihre Seminararbeit
@@ -334,8 +334,8 @@ replicator:
               - type: bold
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: >-
               Warum sollte man auf Hilfe von Ghostwritern bei der Seminararbeit
               zurückgreifen?
@@ -354,7 +354,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Im Rahmen eines Studiums sehen sich Studenten mit verschiedensten
               Aufgabenstellungen konfrontiert. Seminararbeiten, Klausuren und
@@ -367,7 +367,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Seminararbeiten sollen den Studenten auf das wissenschaftliche
               Arbeiten vorbereiten und sind besonders im Hinblick auf
@@ -412,8 +412,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#333333'
-                  hex: '#000'
+                  color: "#333333"
+                  hex: "#000"
             text: .
     show_as_card: false
   - columns_replicator:
@@ -427,13 +427,13 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Unser Leistungen:'
+                    text: "Unser Leistungen:"
                   - type: hard_break
             show_as_card: false
         type: row
         enabled: true
       - responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: "3"
         single_col: false
         grid:
           - bard:
@@ -453,8 +453,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat
@@ -469,8 +469,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
@@ -487,8 +487,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat
@@ -503,8 +503,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/formatierung
@@ -519,8 +519,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /promotionsberatung
@@ -537,8 +537,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -553,8 +553,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
@@ -576,13 +576,13 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Wichtige Fachbereiche:'
+                    text: "Wichtige Fachbereiche:"
                   - type: hard_break
             show_as_card: false
         type: row
         enabled: true
       - responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: "3"
         single_col: false
         grid:
           - bard:
@@ -593,11 +593,11 @@ replicator:
                       - type: underline
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/architektur
+                          href: /architektur
                           target: null
                           rel: null
                     text: Architektur
@@ -609,11 +609,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
+                          href: /bwl
                           target: null
                           rel: null
                     text: BWL
@@ -625,11 +625,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/erziehungswissenschaften-ghostwriter
+                          href: /erziehungswissenschaften-ghostwriter
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -641,11 +641,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/germanistik-ghostwriter
+                          href: /germanistik-ghostwriter
                           target: null
                           rel: null
                     text: Germanistik
@@ -657,11 +657,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/jura
+                          href: /jura
                           target: null
                           rel: null
                     text: Jura
@@ -673,11 +673,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/literatur
+                          href: /literatur
                           target: null
                           rel: null
                     text: Literatur
@@ -689,11 +689,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/mathematik
+                          href: /mathematik
                           target: null
                           rel: null
                     text: Mathematik
@@ -705,11 +705,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/pflegewissenschaften
+                          href: /pflegewissenschaften
                           target: null
                           rel: null
                     text: Pflegewissenschaften
@@ -721,11 +721,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziale-arbeit
+                          href: /soziale-arbeit
                           target: null
                           rel: null
                     text: Soziale Arbeit
@@ -737,11 +737,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/vwl
+                          href: /vwl
                           target: null
                           rel: null
                     text: VWL
@@ -753,11 +753,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/zahnmedizin
+                          href: /zahnmedizin
                           target: null
                           rel: null
                     text: Zahnmedizin
@@ -771,11 +771,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/bauingenieurwesen
+                          href: /bauingenieurwesen
                           target: null
                           rel: null
                     text: Bauingenieurwesen
@@ -787,11 +787,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/chemie
+                          href: /chemie
                           target: null
                           rel: null
                     text: Chemie
@@ -803,11 +803,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/finanzwissenschaften
+                          href: /finanzwissenschaften
                           target: null
                           rel: null
                     text: Finanzwissenschaften
@@ -819,11 +819,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/geschichte
+                          href: /geschichte
                           target: null
                           rel: null
                     text: Geschichte
@@ -835,11 +835,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/kommunikationswissenschaften
+                          href: /kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikation
@@ -851,11 +851,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/marketing
+                          href: /marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -867,11 +867,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/medienwissenschaften
+                          href: /medienwissenschaften
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -883,11 +883,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/philosophie
+                          href: /philosophie
                           target: null
                           rel: null
                     text: Philosophie
@@ -899,11 +899,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/soziologie
+                          href: /soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -915,11 +915,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftsinformatik
+                          href: /wirtschaftsinformatik
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
@@ -933,11 +933,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/biologie
+                          href: /biologie
                           target: null
                           rel: null
                     text: Biologie
@@ -949,11 +949,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/elektrotechnik
+                          href: /elektrotechnik
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -965,11 +965,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/geologie
+                          href: /geologie
                           target: null
                           rel: null
                     text: Geologie
@@ -981,11 +981,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/informatik
+                          href: /informatik
                           target: null
                           rel: null
                     text: Informatik
@@ -997,11 +997,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/kunst
+                          href: /kunst
                           target: null
                           rel: null
                     text: Kunst
@@ -1013,11 +1013,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/maschinenbau
+                          href: /maschinenbau
                           target: null
                           rel: null
                     text: Maschinenbau
@@ -1029,11 +1029,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/medizin
+                          href: /medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -1045,11 +1045,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/psychologie
+                          href: /psychologie
                           target: null
                           rel: null
                     text: Psychologie
@@ -1061,11 +1061,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/sprachwissenschaften
+                          href: /sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften
@@ -1077,11 +1077,11 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
+                          href: /wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -1107,7 +1107,7 @@ replicator:
         type: row
         enabled: true
       - responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: "2"
         single_col: false
         grid:
           - bard:
@@ -1118,7 +1118,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Nach einer unverbindlichen Anfrage auf der Webseite,
                       erhalten Sie ein kostenloses Leistungsangebot und eine
@@ -1148,7 +1148,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Bei größeren Seminararbeiten oder auch bei Ihrer
                       Abschlussarbeit ist auch eine anonyme Telefonkonferenz mit
@@ -1162,7 +1162,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Gerade diese Teillieferungstermine sind wichtig, um einen
                       Abgleich zu erhalten zwischen Ihren Anforderungen aus dem
@@ -1181,7 +1181,7 @@ replicator:
         type: row
         enabled: true
       - responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: "2"
         single_col: false
         grid:
           - bard:
@@ -1192,7 +1192,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Die Teillieferungen ermöglichen es Ihnen, regelmäßig den
                       Fortschritt der Arbeit zu prüfen und Feedback zu geben.
@@ -1205,7 +1205,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Bei Fragen und Änderungswünschen, die im Rahmen dieses
                       gesamten Projektes auftreten, ist ihr Projektmanager immer
@@ -1228,7 +1228,7 @@ replicator:
         type: row
         enabled: true
       - responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: "2"
         single_col: false
         grid:
           - bard:
@@ -1239,7 +1239,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: black
-                          hex: '#000'
+                          hex: "#000"
                     text: "Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert\_mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben."
             show_as_card: false
           - bard:
@@ -1288,7 +1288,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               In der Vorlesung hält ein Dozent Vorträge über bestimmte Themen,
               zu denen im Anschluss einzelne Fragen gestellt werden können.
@@ -1302,7 +1302,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Seminarveranstaltungen sollen in kleinen Gruppen begleitend zur
               Vorlesung stattfinden und enden mit einer zu bewertenden
@@ -1317,7 +1317,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Thematik wird gemeinsam mit dem leitenden Dozenten oder
               Kommilitonen erarbeitet, besprochen und diskutiert. Im Gegensatz
@@ -1332,7 +1332,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von
               5-20 Kursteilnehmern um ein Vielfaches. Kurse mit 80-100
@@ -1353,7 +1353,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Je nach Fachrichtung und Dozent gelten unterschiedliche
               Anforderungen bei der Anfertigung der Seminararbeit. Hierbei
@@ -1371,7 +1371,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               In den Fachbereichen der Mathematik, Physik und Informatik werden
               oftmals der sichere Umgang mit fachspezifischer Software
@@ -1385,14 +1385,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
-            text: 'Einige Formalien haben sich dabei als gängig erwiesen:'
+                  hex: "#000"
+            text: "Einige Formalien haben sich dabei als gängig erwiesen:"
       - type: paragraph
         content:
           - type: text
             marks:
               - type: bold
-            text: 'Gliederungsebenen der Seminararbeit:'
+            text: "Gliederungsebenen der Seminararbeit:"
       - type: paragraph
         content:
           - type: text
@@ -1425,11 +1425,11 @@ replicator:
           - type: text
             marks:
               - type: bold
-            text: 'Formatierung der Seminararbeit:'
+            text: "Formatierung der Seminararbeit:"
       - type: paragraph
         content:
           - type: text
-            text: '• Seitenrand: oben und unten je 2,5cm, links 5cm, rechts 1,5cm'
+            text: "• Seitenrand: oben und unten je 2,5cm, links 5cm, rechts 1,5cm"
           - type: hard_break
           - type: text
             text: >-
@@ -1442,7 +1442,7 @@ replicator:
               Roman, Blocksatz
           - type: hard_break
           - type: text
-            text: '• Zeilenabstand: 1,5-zeilig'
+            text: "• Zeilenabstand: 1,5-zeilig"
           - type: hard_break
           - type: text
             text: >-
@@ -1471,7 +1471,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
       - type: heading
         attrs:
@@ -1581,7 +1581,7 @@ replicator:
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

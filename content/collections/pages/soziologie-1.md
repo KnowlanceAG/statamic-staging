@@ -1,7 +1,8 @@
 ---
 id: e0d4cb4c-5adf-485b-886f-7ee767b1e49e
+published: false
 blueprint: pages
-title: Soziologie (Dupliziert)
+title: "Soziologie (Dupliziert)"
 teaser:
   - type: heading
     attrs:
@@ -14,8 +15,8 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
-        text: Ghostwriter Soziologie
+              hex: "#ff6606"
+        text: "Ghostwriter Soziologie"
   - type: paragraph
     content:
       - type: text
@@ -23,11 +24,9 @@ teaser:
           - type: bold
           - type: textColor
             attrs:
-              color: rgb(68, 68, 68)
-              hex: '#000'
-        text: >-
-          Hilfe durch Experten und akademische Ghostwriter der Soziologie –
-          schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.
+              color: "rgb(68, 68, 68)"
+              hex: "#000"
+        text: "Hilfe durch Experten und akademische Ghostwriter der Soziologie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate."
     attrs:
       textAlign: center
   - type: set
@@ -44,31 +43,20 @@ teaser:
         columns:
           - id: vC6PGKby
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: Datenschutz &amp; 100% Anonymität
-            tooltip_infotext: >-
-              Wir schützen Ihre Daten streng gemäß der Vorschriften von
-              DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.
+            headline: "Datenschutz &amp; 100% Anonymität"
+            tooltip_infotext: "Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%."
           - id: DWLWxLAw
             icon: logo-startseite/icon-teillieferung.svg
-            headline: Teillieferungen &amp; kostenlose Änderungen
-            tooltip_infotext: >-
-              Sie erhalten von uns regelmäßig Teillieferungen und wir setzen
-              Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf
-              Ihr Projekt nehmen.
+            headline: "Teillieferungen &amp; kostenlose Änderungen"
+            tooltip_infotext: "Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen."
           - id: Dq8XhtoU
             icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: Schnelle &amp; pünktliche Lieferung
-            tooltip_infotext: >-
-              Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte
-              Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler
-              Form.
+            headline: "Schnelle &amp; pünktliche Lieferung"
+            tooltip_infotext: "Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form."
           - id: Pp2AugUq
             icon: logo-startseite/icon-akademische-qualitaet4.svg
-            headline: Top-Qualität von akademischen Experten
-            tooltip_infotext: >-
-              Ihre Mustervorlage wird von akademischen Experten auf höchstem
-              Niveau erstellt, die oft selbst als Doktoren oder Professoren
-              beschäftigt sind.
+            headline: "Top-Qualität von akademischen Experten"
+            tooltip_infotext: "Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind."
   - type: set
     attrs:
       id: lyfJVReZ
@@ -80,9 +68,9 @@ teaser:
       id: fBXHqDWX
       values:
         type: button
-        button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
-        button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        button_link: "entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf"
+        button_text: "JETZT KOSTENLOS ANFRAGEN"
+        color: "#FF6606"
         spacing_top: false
   - type: set
     attrs:
@@ -95,7 +83,7 @@ teaser:
       - type: text
         marks:
           - type: bold
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+        text: "Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:"
     attrs:
       textAlign: center
   - type: heading
@@ -108,21 +96,21 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
           - type: link
             attrs:
-              href: tel:##phone##
+              href: "tel:##phone##"
               target: null
               rel: null
-        text: '##phone##'
+        text: "##phone##"
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1704415653
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1709301982
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
@@ -138,15 +126,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(68, 68, 68)
-                          hex: '#000'
+                          color: "rgb(68, 68, 68)"
+                          hex: "#000"
                     text: "Da Soziologische Theorien immer auf empirischen Daten fundiert sein müssen, geht mit dem Studium der Soziologie und besonders mit dem Verfassen von wissenschaftlichen Arbeiten ein hoher Zeit- & Arbeitsaufwand einher. Viele gesammelte Daten müssen ausgewertet und analysiert werden, was allgemein sehr zeit- und arbeitsintensiv ist. An diesem Punkt beauftragen Studenten der Soziologie\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriter
@@ -154,7 +142,7 @@ replicator:
                           rel: null
                     text: Ghostwriter
                   - type: text
-                    marks: []
+                    marks: {}
                     text: "\_und akademische Freelancer, um sich bei der Auswertung von Daten oder den wissenschaftlichen Texten unterstützen zu lassen. Gerade im Bereich Statistik können die Soziologie Ghostwriter von GWriters sehr gut Unterstützung leisten und Ihnen eine hervorragende methodische Hilfestellungen geben. Denn aus der Erfahrung her stellt gerade die statistische Auswertung soziologischer eine große Schwierigkeit dar für jeden Soziologie Studenten."
                 attrs:
                   textAlign: start
@@ -163,7 +151,7 @@ replicator:
                   id: GB5lFzEN
                   values:
                     type: show_sidebar_mobile
-                    custom_sidebar_placement: 'on'
+                    custom_sidebar_placement: "on"
               - type: paragraph
                 content:
                   - type: text
@@ -171,35 +159,26 @@ replicator:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: rgb(68, 68, 68)
-                          hex: '#000'
+                          color: "rgb(68, 68, 68)"
+                          hex: "#000"
                     text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Soziologie Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   - type: text
                     marks:
                       - type: bold
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /anfrage
                           target: null
                           rel: null
-                    text: unverbindliche Anfrage schicken
+                    text: "unverbindliche Anfrage schicken"
                   - type: text
                     marks:
                       - type: bold
-                    text: >-
-                      . Wir melden uns innerhalb weniger Stunden mit einem
-                      kostenlosen Angebot bei Ihnen zurück und rufen Sie auch
-                      gerne an, falls Sie eine kostenlose telefonische Beratung
-                      wünschen. Vorab: Selbstverständlich können und dürfen wir
-                      Ihnen keine Abschlussarbeiten oder andere Arten von
-                      Prüfungsleistungen erstellen, gerne erstellen wir Ihnen
-                      aber eine hochqualitative Mustervorlage nach Ihren
-                      individuellen Vorgaben, die alle akademischen Standards
-                      und Anforderungen erfüllt.
+                    text: ". Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt."
                 attrs:
                   textAlign: start
               - type: set
@@ -207,7 +186,7 @@ replicator:
                   id: Ldo193ef
                   values:
                     type: video
-                    video: https://youtu.be/ESfhBQQX3qk
+                    video: "https://youtu.be/ESfhBQQX3qk"
               - type: heading
                 attrs:
                   level: 2
@@ -217,34 +196,18 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Soziologie Ghostwriter
+                          color: "#000!important"
+                          hex: "#000"
+                    text: "Soziologie Ghostwriter"
               - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(68, 68, 68)
-                          hex: '#000'
-                    text: >-
-                      Zusätzliche stellen auch empirische Forschungsmethoden
-                      einen weiteren Schwerpunkt in der Soziologie dar und auch
-                      an dieser Stelle können die Soziologie Ghostwriter von
-                      GWriters unterstützen. Hierbei wird vorrangig die Frage
-                      nach dem Umfang von gesellschaftlichen
-                      Veränderungsprozessen und nach dem Umgang mit diesen
-                      untersucht. Solche Fragestellungen sind von zentraler
-                      Bedeutung in der empirischen Forschung. Unsere Experten
-                      unterstützen Studenten in der klassischen Statistik, aber
-                      auch in anderen Gebieten wie beispielsweise in der
-                      soziologischen Forschung, bei Strukturanalysen oder auch
-                      bei Ursachenanalyse. All diese sind Forschungsgebiete im
-                      Rahmen der Soziologie, die ein ausgedehntes Knowhow in der
-                      Methodik und in den wissenschaftlichen Arbeitstechniken
-                      erfordern. Und auch hier können die Soziologie Ghostwriter
-                      von GWriters Sie sehr intensiv unterstützen.
+                          color: "rgb(68, 68, 68)"
+                          hex: "#000"
+                    text: "Zusätzliche stellen auch empirische Forschungsmethoden einen weiteren Schwerpunkt in der Soziologie dar und auch an dieser Stelle können die Soziologie Ghostwriter von GWriters unterstützen. Hierbei wird vorrangig die Frage nach dem Umfang von gesellschaftlichen Veränderungsprozessen und nach dem Umgang mit diesen untersucht. Solche Fragestellungen sind von zentraler Bedeutung in der empirischen Forschung. Unsere Experten unterstützen Studenten in der klassischen Statistik, aber auch in anderen Gebieten wie beispielsweise in der soziologischen Forschung, bei Strukturanalysen oder auch bei Ursachenanalyse. All diese sind Forschungsgebiete im Rahmen der Soziologie, die ein ausgedehntes Knowhow in der Methodik und in den wissenschaftlichen Arbeitstechniken erfordern. Und auch hier können die Soziologie Ghostwriter von GWriters Sie sehr intensiv unterstützen."
                 attrs:
                   textAlign: start
               - type: paragraph
@@ -253,15 +216,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(68, 68, 68)
-                          hex: '#000'
+                          color: "rgb(68, 68, 68)"
+                          hex: "#000"
                     text: "Auch nach dem Studium ist besonders das Verfassen von Fachartikeln für Soziologen von Vorteil. Wenn diese sich Fachartikel zum Veröffentlichen in wissenschaftlichen Publikationen schreiben lassen, können sie auf diesem Weg ihre eigene berufliche Karriere vorantreiben und ihre Reputation steigern. Gleichzeitig können diese sich vollkommen auf andere wichtige Aufgaben ihres Berufs konzentrieren. Unter diesen Gegebenheiten kann in der Soziologie\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriting
@@ -269,14 +232,14 @@ replicator:
                           rel: null
                     text: Ghostwriting
                   - type: text
-                    marks: []
+                    marks: {}
                     text: ", oder auch nur die Konsultation von\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat/lektor
@@ -284,14 +247,14 @@ replicator:
                           rel: null
                     text: Lektoren
                   - type: text
-                    marks: []
+                    marks: {}
                     text: ",\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat/korrektor
@@ -299,7 +262,7 @@ replicator:
                           rel: null
                     text: Korrektoren
                   - type: text
-                    marks: []
+                    marks: {}
                     text: "\_oder Coaches eine wichtige Entlastung darstellen."
                 attrs:
                   textAlign: start
@@ -312,24 +275,24 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(68, 68, 68)
-                          hex: '#000'
-                    text: 'Exkurs: qualitative Inhaltsanalyse mit MAXQDA'
+                          color: "rgb(68, 68, 68)"
+                          hex: "#000"
+                    text: "Exkurs: qualitative Inhaltsanalyse mit MAXQDA"
               - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(68, 68, 68)
-                          hex: '#000'
+                          color: "rgb(68, 68, 68)"
+                          hex: "#000"
                     text: "Als zentrale wissenschaftliche Methode in der Soziologie muss hier die qualitative Inhaltsanalyse nach Mayring erwähnt werden. Diese wird mit dem dem Programm\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
@@ -337,7 +300,7 @@ replicator:
                           rel: null
                     text: MAXQDA
                   - type: text
-                    marks: []
+                    marks: {}
                     text: "\_durchgeführt, das hier das State-of-the Art ist und eine sehr hohe Bedeutung in der Soziologie hat. Auch hier bringen die Soziologie Ghostwriter von GWriters ein breites und ein umfassendes Wissen mit. Darüber hinaus stellen wir von GWriters immer die aktuellste MAXQDA Lizenz zur Verfügung, sodass wir Ihre qualitative Inhaltsanalyse in MAXQDA garantiert mit der aktuellsten und besten Software durchführen."
                 attrs:
                   textAlign: start
@@ -346,7 +309,7 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: Unsere Leistungen
+                    text: "Unsere Leistungen"
             show_as_card: false
         type: row
         enabled: true
@@ -365,8 +328,8 @@ replicator:
                       - type: underline
                       - type: textColor
                         attrs:
-                          color: rgb(193, 76, 0)
-                          hex: '#000'
+                          color: "rgb(193, 76, 0)"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriting
@@ -381,8 +344,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat
@@ -397,8 +360,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -409,8 +372,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(68, 68, 68)
-                          hex: '#000'
+                          color: "rgb(68, 68, 68)"
+                          hex: "#000"
                     text: "\_"
                 attrs:
                   textAlign: start
@@ -423,8 +386,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)!important
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat
@@ -439,8 +402,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)!important
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/formatierung
@@ -455,8 +418,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)!important
-                          hex: '#000'
+                          color: "rgb(255, 102, 2)!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
@@ -474,13 +437,13 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)!important!important
+                          color: "rgb(255, 102, 2)!important!important"
                       - type: link
                         attrs:
                           href: /leistungen/maxqda-auswertung
                           target: null
                           rel: null
-                    text: MAXQDA Auswertung
+                    text: "MAXQDA Auswertung"
                 attrs:
                   textAlign: start
               - type: paragraph
@@ -489,7 +452,7 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: rgb(255, 102, 2)!important!important
+                          color: "rgb(255, 102, 2)!important!important"
                       - type: link
                         attrs:
                           href: /promotionsberatung
@@ -510,10 +473,11 @@ replicator:
             bard:
               - type: heading
                 attrs:
+                  textAlign: left
                   level: 2
                 content:
                   - type: text
-                    text: Wichtige Akademische Arbeiten & Fachrichtungen
+                    text: "Wichtige Akademische Arbeiten & Fachrichtungen"
               - type: set
                 attrs:
                   id: ljoh1u6i
@@ -532,152 +496,126 @@ replicator:
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/diplomarbeit
                                           target: null
                                           rel: null
-                                    text: Diplomarbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Diplomarbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/examensarbeit
                                           target: null
                                           rel: null
-                                    text: Examensarbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Examensarbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/magisterarbeit
                                           target: null
                                           rel: null
-                                    text: Magisterarbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Magisterarbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: '#000!important'
-                                          hex: '#000'
+                                          color: "#000!important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
-                                          href: >-
-                                            /arbeiten/bachelorarbeit-schreiben-lassen
+                                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: Bachelorarbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Bachelorarbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/masterarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: Masterarbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Masterarbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
-                                          href: >-
-                                            /arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen
+                                          href: "/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen"
                                           target: null
                                           rel: null
-                                    text: Masterthesis schreiben lassen
-                                  - type: hard_break
+                                    text: "Masterthesis schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/doktorarbeit
                                           target: null
                                           rel: null
-                                    text: Doktorarbeit schreiben lassen
+                                    text: "Doktorarbeit schreiben lassen"
                                 attrs:
                                   textAlign: start
                           - id: ljoh8o20
-                            headline: Sonstige Arbeiten
+                            headline: "Sonstige Arbeiten"
                             content:
                               - type: paragraph
                                 content:
@@ -685,134 +623,110 @@ replicator:
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/ebook
                                           target: null
                                           rel: null
-                                    text: eBook schreiben lassen
-                                  - type: hard_break
+                                    text: "eBook schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/lernskript
                                           target: null
                                           rel: null
-                                    text: Lernskript schreiben lassen
-                                  - type: hard_break
+                                    text: "Lernskript schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/praesentationen
                                           target: null
                                           rel: null
-                                    text: Präsentationen erstellen lassen
-                                  - type: hard_break
+                                    text: "Präsentationen erstellen lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/statistische-analysen
                                           target: null
                                           rel: null
-                                    text: Ghostwriter Statistik
-                                  - type: hard_break
+                                    text: "Ghostwriter Statistik"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /expose
                                           target: null
                                           rel: null
-                                    text: Exposé schreiben lassen
-                                  - type: hard_break
+                                    text: "Exposé schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/referat
                                           target: null
                                           rel: null
-                                    text: Referat schreiben lassen
-                                  - type: hard_break
+                                    text: "Referat schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                 attrs:
                                   textAlign: start
                           - id: ljoh9nu0
@@ -824,221 +738,183 @@ replicator:
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/essay
                                           target: null
                                           rel: null
-                                    text: Essay schreiben lassen
-                                  - type: hard_break
+                                    text: "Essay schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/hausarbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: Hausarbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Hausarbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/facharbeit
                                           target: null
                                           rel: null
-                                    text: Facharbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Facharbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/seminararbeit-schreiben-lassen
                                           target: null
                                           rel: null
-                                    text: Seminararbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Seminararbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/studienarbeit
                                           target: null
                                           rel: null
-                                    text: Studienarbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Studienarbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/fallstudie
                                           target: null
                                           rel: null
-                                    text: Fallstudie schreiben lassen
-                                  - type: hard_break
+                                    text: "Fallstudie schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/praktikumsbericht
                                           target: null
                                           rel: null
-                                    text: Praktikumsbericht schreiben lassen
-                                  - type: hard_break
+                                    text: "Praktikumsbericht schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/projektarbeit
                                           target: null
                                           rel: null
-                                    text: Projektarbeit schreiben lassen
-                                  - type: hard_break
+                                    text: "Projektarbeit schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/summary
                                           target: null
                                           rel: null
-                                    text: Summary schreiben lassen
-                                  - type: hard_break
+                                    text: "Summary schreiben lassen"
+                                  - type: hardBreak
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                   - type: text
                                     marks:
                                       - type: textColor
                                         attrs:
-                                          color: >-
-                                            rgba(255,102,6,var(--tw-text-opacity))
-                                            !important
-                                          hex: '#000'
+                                          color: "rgba(255,102,6,var(--tw-text-opacity)) !important"
+                                          hex: "#000"
                                       - type: link
                                         attrs:
                                           href: /arbeiten/protokoll
                                           target: null
                                           rel: null
-                                    text: Protokoll schreiben lassen
+                                    text: "Protokoll schreiben lassen"
                                 attrs:
                                   textAlign: start
                       - id: ljoh22s8
                         text: Fachrichtungen
                         eintraege:
                           - id: ljoh2bsp
-                            headline: Technische Fachrichtungen
+                            headline: "Technische Fachrichtungen"
                             content:
                               - type: paragraph
                                 content:
@@ -1046,85 +922,84 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/architektur
+                                          href: /architektur
                                           target: null
                                           rel: null
-                                    text: Architektur Ghostwriter
-                                  - type: hard_break
+                                    text: "Architektur Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/bauingenieurwesen
+                                          href: /bauingenieurwesen
                                           target: null
                                           rel: null
-                                    text: Bauingenieurwesen Ghostwriter
-                                  - type: hard_break
+                                    text: "Bauingenieurwesen Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/elektrotechnik
+                                          href: /elektrotechnik
                                           target: null
                                           rel: null
-                                    text: Elektrotechnik Ghostwriter
-                                  - type: hard_break
+                                    text: "Elektrotechnik Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/maschinenbau
+                                          href: /maschinenbau
                                           target: null
                                           rel: null
-                                    text: Maschinenbau Ghostwriter
-                                  - type: hard_break
+                                    text: "Maschinenbau Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/informatik
+                                          href: /informatik
                                           target: null
                                           rel: null
-                                    text: Informatik Ghostwriter
-                                  - type: hard_break
+                                    text: "Informatik Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: >-
-                                            /ghostwriter/informatik#Softwarelokalisierung
+                                          href: "/informatik#Softwarelokalisierung"
                                           target: null
                                           rel: null
-                                    text: Softwarelokalisierung Ghostwriter
-                                  - type: hard_break
+                                    text: "Softwarelokalisierung Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/biologie#biotechnologie
+                                          href: "/biologie#biotechnologie"
                                           target: null
                                           rel: null
-                                    text: Biotechnologie Ghostwriter
+                                    text: "Biotechnologie Ghostwriter"
                                   - type: text
-                                    text: ' '
-                                  - type: hard_break
-                                  - type: text
-                                    marks:
-                                      - type: link
-                                        attrs:
-                                          href: /ghostwriter/technomathematik
-                                          target: null
-                                          rel: null
-                                    text: Ghostwriter Technomathematik
-                                  - type: hard_break
+                                    text: " "
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/ingenieurwissenschaften
+                                          href: /technomathematik
                                           target: null
                                           rel: null
-                                    text: Ghostwriter Ingenieurwissenschaften
+                                    text: "Ghostwriter Technomathematik"
+                                  - type: hardBreak
+                                  - type: text
+                                    marks:
+                                      - type: link
+                                        attrs:
+                                          href: /ingenieurwissenschaften
+                                          target: null
+                                          rel: null
+                                    text: "Ghostwriter Ingenieurwissenschaften"
                           - id: ljoh2wxw
                             headline: Naturwissenschaften
                             content:
@@ -1134,55 +1009,55 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/biologie
+                                          href: /biologie
                                           target: null
                                           rel: null
-                                    text: Biologie Ghostwriter
-                                  - type: hard_break
+                                    text: "Biologie Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/chemie
+                                          href: /chemie
                                           target: null
                                           rel: null
-                                    text: Chemie Ghostwriter
-                                  - type: hard_break
+                                    text: "Chemie Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/geologie
+                                          href: /geologie
                                           target: null
                                           rel: null
-                                    text: Geologie Ghostwriter
-                                  - type: hard_break
+                                    text: "Geologie Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/geowissenschaften
+                                          href: /geowissenschaften
                                           target: null
                                           rel: null
-                                    text: Geowissenschaften Ghostwriter
-                                  - type: hard_break
+                                    text: "Geowissenschaften Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/mathematik
+                                          href: /mathematik
                                           target: null
                                           rel: null
-                                    text: Mathematik Ghostwriter
-                                  - type: hard_break
+                                    text: "Mathematik Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/agrarwissenschaften
+                                          href: /agrarwissenschaften
                                           target: null
                                           rel: null
-                                    text: Ghostwriter Agrarwissenschaften
+                                    text: "Ghostwriter Agrarwissenschaften"
                           - id: ljoh3l91
                             headline: Sozialwissenschaften
                             content:
@@ -1192,71 +1067,68 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: >-
-                                            /ghostwriter/erziehungswissenschaften-ghostwriter
+                                          href: /erziehungswissenschaften-ghostwriter
                                           target: null
                                           rel: null
-                                    text: Erziehungswissenschaften Ghostwriter
-                                  - type: hard_break
+                                    text: "Erziehungswissenschaften Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: >-
-                                            /ghostwriter/kommunikationswissenschaften
+                                          href: /kommunikationswissenschaften
                                           target: null
                                           rel: null
-                                    text: Kommunikationswissenschaften Ghostwriter
-                                  - type: hard_break
+                                    text: "Kommunikationswissenschaften Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/soziale-arbeit
+                                          href: /soziale-arbeit
                                           target: null
                                           rel: null
-                                    text: Soziale Arbeit Ghostwriter
-                                  - type: hard_break
+                                    text: "Soziale Arbeit Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/sozialwissenschaften
+                                          href: /sozialwissenschaften
                                           target: null
                                           rel: null
-                                    text: Sozialwissenschaften Ghostwriter
-                                  - type: hard_break
+                                    text: "Sozialwissenschaften Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/soziologie
+                                          href: /soziologie
                                           target: null
                                           rel: null
-                                    text: Soziologie Ghostwriter
-                                  - type: hard_break
+                                    text: "Soziologie Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/sprachwissenschaften
+                                          href: /sprachwissenschaften
                                           target: null
                                           rel: null
-                                    text: Sprachwissenschaften Ghostwriter
-                                  - type: hard_break
+                                    text: "Sprachwissenschaften Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: >-
-                                            /ghostwriter/kommunikationswissenschaften#kommunikationsdesign
+                                          href: "/kommunikationswissenschaften#kommunikationsdesign"
                                           target: null
                                           rel: null
-                                    text: Ghostwriter Kommunikationsdesign
+                                    text: "Ghostwriter Kommunikationsdesign"
                                   - type: text
-                                    text: ' '
+                                    text: " "
                           - id: ljoh3x4b
-                            headline: Wirtschaftliche Fachbereiche
+                            headline: "Wirtschaftliche Fachbereiche"
                             content:
                               - type: paragraph
                                 content:
@@ -1264,75 +1136,75 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/finanzwissenschaften
+                                          href: /finanzwissenschaften
                                           target: null
                                           rel: null
-                                    text: Finanzwissenschaften Ghostwriter
-                                  - type: hard_break
+                                    text: "Finanzwissenschaften Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/medienwissenschaften
+                                          href: /medienwissenschaften
                                           target: null
                                           rel: null
-                                    text: Medienwissenschaften Ghostwriter
-                                  - type: hard_break
+                                    text: "Medienwissenschaften Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/bwl
+                                          href: /bwl
                                           target: null
                                           rel: null
-                                    text: BWL Ghostwriter
-                                  - type: hard_break
+                                    text: "BWL Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/marketing
+                                          href: /marketing
                                           target: null
                                           rel: null
-                                    text: Marketing Ghostwriter
-                                  - type: hard_break
+                                    text: "Marketing Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftsinformatik
+                                          href: /wirtschaftsinformatik
                                           target: null
                                           rel: null
-                                    text: Wirtschaftsinformatik Ghostwriter
-                                  - type: hard_break
+                                    text: "Wirtschaftsinformatik Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/wirtschaftswissenschaften
+                                          href: /wirtschaftswissenschaften
                                           target: null
                                           rel: null
-                                    text: Wirtschaftswissenschaften Ghostwriter
-                                  - type: hard_break
+                                    text: "Wirtschaftswissenschaften Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/personalmanagement
+                                          href: /personalmanagement
                                           target: null
                                           rel: null
-                                    text: Personalmanagement Ghostwriter
-                                  - type: hard_break
+                                    text: "Personalmanagement Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: '#Internationale'
+                                          href: "#Internationale"
                                           target: null
                                           rel: null
-                                    text: Internationale BWL Ghostwriter
-                                  - type: hard_break
-                                  - type: hard_break
+                                    text: "Internationale BWL Ghostwriter"
+                                  - type: hardBreak
+                                  - type: hardBreak
                           - id: ljoh4b21
                             headline: Geisteswissenschaften
                             content:
@@ -1342,75 +1214,75 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/germanistik-ghostwriter
+                                          href: /germanistik-ghostwriter
                                           target: null
                                           rel: null
-                                    text: Germanistik Ghostwriter
-                                  - type: hard_break
+                                    text: "Germanistik Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/anglistik
+                                          href: /anglistik
                                           target: null
                                           rel: null
-                                    text: Anglistik Ghostwriter
-                                  - type: hard_break
+                                    text: "Anglistik Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/geschichte
+                                          href: /geschichte
                                           target: null
                                           rel: null
-                                    text: Geschichte Ghostwriter
-                                  - type: hard_break
+                                    text: "Geschichte Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/kunst
+                                          href: /kunst
                                           target: null
                                           rel: null
-                                    text: Kunst Ghostwriter
-                                  - type: hard_break
+                                    text: "Kunst Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/literatur
+                                          href: /literatur
                                           target: null
                                           rel: null
-                                    text: Literatur Ghostwriter
-                                  - type: hard_break
+                                    text: "Literatur Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/jura
+                                          href: /jura
                                           target: null
                                           rel: null
-                                    text: Jura Ghostwriter
-                                  - type: hard_break
+                                    text: "Jura Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/philosophie
+                                          href: /philosophie
                                           target: null
                                           rel: null
-                                    text: Philosophie Ghostwriter
-                                  - type: hard_break
+                                    text: "Philosophie Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/kunst#kunstgeschichte
+                                          href: "/kunst#kunstgeschichte"
                                           target: null
                                           rel: null
-                                    text: Ghostwriter Kunstgeschichte
+                                    text: "Ghostwriter Kunstgeschichte"
                           - id: ljoh4l6j
-                            headline: Medizinische Fachrichtungen
+                            headline: "Medizinische Fachrichtungen"
                             content:
                               - type: paragraph
                                 content:
@@ -1418,64 +1290,58 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/medizin
+                                          href: /medizin
                                           target: null
                                           rel: null
-                                    text: Ghostwriter Medizin
-                                  - type: hard_break
+                                    text: "Ghostwriter Medizin"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/pflegewissenschaften
+                                          href: /pflegewissenschaften
                                           target: null
                                           rel: null
-                                    text: Pflegewissenschaften Ghostwriter
-                                  - type: hard_break
+                                    text: "Pflegewissenschaften Ghostwriter"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/psychologie
+                                          href: /psychologie
                                           target: null
                                           rel: null
-                                    text: Ghostwriter Psychologie
-                                  - type: hard_break
+                                    text: "Ghostwriter Psychologie"
+                                  - type: hardBreak
                                   - type: text
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: /ghostwriter/zahnmedizin
+                                          href: /zahnmedizin
                                           target: null
                                           rel: null
-                                    text: Zahnmedizin Ghostwriter
+                                    text: "Zahnmedizin Ghostwriter"
               - type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Allgemeines zur Soziologie
+                          color: "#000!important"
+                    text: "Allgemeines zur Soziologie"
               - type: paragraph
-                content:
-                  - type: text
-                    marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: >-
-                      Die Wissenschaft der Soziologie befasst sich mit der
-                      Erforschung des sozialen Verhaltens, also der Interaktion
-                      zwischen Menschen. Dies geschieht sowohl auf
-                      theoretischer, als auch auf empirischer Basis.
                 attrs:
                   textAlign: start
+                content:
+                  - type: text
+                    marks:
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
+                    text: "Die Wissenschaft der Soziologie befasst sich mit der Erforschung des sozialen Verhaltens, also der Interaktion zwischen Menschen. Dies geschieht sowohl auf theoretischer, als auch auf empirischer Basis."
               - type: set
                 attrs:
                   id: WNhIYHCt
@@ -1486,427 +1352,357 @@ replicator:
                     img_size: w-1/4
                     float: float-left
               - type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: >-
-                      Die Soziologie erforscht im Gegensatz zu anderen
-                      sozialwissenschaftlichen Disziplinen nicht nur bestimmte
-                      Bereiche des Sozialen, sondern untersucht alle Aspekte der
-                      sozialen Interaktion der Menschen und konzentriert sich
-                      hierbei besonders auf den Sinn und die Strukturen der
-                      sozialen Interaktion sowie auf die regulierenden Werte und
-                      Normen. Die Lehre der Soziologie erklärt somit die Gründe,
-                      den Ablauf und die Wirkung von sozialem Handeln. Da jede
-                      soziologische Theorie durch empirische Daten bewiesen
-                      werden muss oder auf deren Basis entsteht, ist das Studium
-                      und die Arbeit auf dem Gebiet der Soziologie sehr zeit-
-                      und arbeitsintensiv. Aus diesem Grund beauftragen
-                      vergleichsweise häufig Studenten der Soziologie
-                      Ghostwriter, die sie bei der Auswertung von Daten oder
-                      beim Verfassen von Arbeiten unterstützen.
-                attrs:
-                  textAlign: start
+                          color: "#000!important"
+                    text: "Die Soziologie erforscht im Gegensatz zu anderen sozialwissenschaftlichen Disziplinen nicht nur bestimmte Bereiche des Sozialen, sondern untersucht alle Aspekte der sozialen Interaktion der Menschen und konzentriert sich hierbei besonders auf den Sinn und die Strukturen der sozialen Interaktion sowie auf die regulierenden Werte und Normen. Die Lehre der Soziologie erklärt somit die Gründe, den Ablauf und die Wirkung von sozialem Handeln. Da jede soziologische Theorie durch empirische Daten bewiesen werden muss oder auf deren Basis entsteht, ist das Studium und die Arbeit auf dem Gebiet der Soziologie sehr zeit- und arbeitsintensiv. Aus diesem Grund beauftragen vergleichsweise häufig Studenten der Soziologie Ghostwriter, die sie bei der Auswertung von Daten oder beim Verfassen von Arbeiten unterstützen."
               - type: heading
                 attrs:
+                  textAlign: start
                   level: 2
+                content:
+                  - type: text
+                    marks:
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
+                    text: "Geschichte der Soziologie"
+              - type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Geschichte der Soziologie
-              - type: paragraph
-                content:
-                  - type: text
-                    marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
                     text: "Bis zum Ende des 19.Jahrhunderts war die Soziologie ein Teil der\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
-                          href: /ghostwriter/philosophie
-                          target: null
+                          href: /philosophie
                           rel: null
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: Philosophie
                   - type: text
-                    marks: []
                     text: "\_und der Ökonomie und löste sich erst dann als Einzelwissenschaft von diesen ab. Dieser Prozess ging eng mit der Entstehung der Bürgerlichen Gesellschaft und der fortschreitenden Industrialisierung einher. Seit dieser Entwicklung der Soziologie zu einer eigenständigen universitären Disziplin nimmt sie eine vermittelnde Stellung zwischen Natur- und Geisteswissenschaften ein."
-                attrs:
-                  textAlign: start
               - type: heading
                 attrs:
+                  textAlign: start
                   level: 2
+                content:
+                  - type: text
+                    marks:
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
+                    text: "Das Soziologie Studium"
+              - type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Das Soziologie Studium
-              - type: paragraph
-                content:
-                  - type: text
-                    marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
                     text: "Im Mittelpunkt eines Soziologie Studiums steht die Auseinandersetzung mit der Gesellschaft. Es wird untersucht, wie die Gesellschaft funktioniert, wie die Gesellschaft sich entwickelt und wie das Individuum in der Gesellschaft wirkt und sich entwickelt. Hinterfragt wird also die Rolle eines jeden einzelnen innerhalb der Gesellschaft, aber auch das Wirken der Individuen untereinander und der Einfluss auf andere Gesellschaften. Dies ist ein wichtiger Punkt innerhalb der Soziologie, denn damit präsentiert sich die Soziologie quasi als Querschnitteswissenschaft zu einer Vielzahl von anderen Forschungsgebieten. Hier sind beispielsweise die\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
-                          href: /ghostwriter/psychologie
-                          target: null
+                          href: /psychologie
                           rel: null
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: Psychologie
                   - type: text
-                    marks: []
                     text: ", die\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
-                          href: /ghostwriter/wirtschaftswissenschaften
-                          target: null
+                          href: /wirtschaftswissenschaften
                           rel: null
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: Wirtschaftswissenschaften
                   - type: text
-                    marks: []
                     text: "\_oder auch die Politikwissenschaften zu nennen. Dies macht deutlich, dass die Soziologie ein sehr breites und umfangreiches Feld ist, welches viele Schnittpunkte und Schnittstellen zu anderen Forschungsgebieten hat."
+              - type: paragraph
                 attrs:
                   textAlign: start
-              - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
                     text: "Besonders beliebt als Studienorte in der Soziologie sind Nürnberg und Bielefeld. Der Grund hierfür ist, dass diese beiden Studienorte eine lange Historie in der Soziologie haben und sehr bekannt sind für ihre wissenschaftliche Qualität und damit auch für die dort stattfindende Forschung. Je nach Universität kann Soziologie entweder als Ein-Studienfach oder als Zwei-Studienfach belegt werden. Ein-Studienfach bedeutet, dass Sie Ihren Schwerpunkt auf die Soziologie legen und sich gesamthaft im Rahmen der Soziologie entwickeln und forschen. Zwei-Studienfach bedeutet, dass Sie neben der Soziologie ein weiteres Fach studieren. Eine ganz klassische Kombination beispielsweise ist Soziologie und\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
-                          href: /ghostwriter/bwl
-                          target: null
+                          href: /bwl
                           rel: null
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: Betriebswirtschaft
                   - type: text
-                    marks: []
-                    text: >-
-                      , weil genau das auch der genannten Querschnittsaufgabe
-                      der Soziologie gerecht wird. Aus einer solche Kombination
-                      von Studienfächern ergeben sich dann auch für später sehr
-                      gute Berufs- und Karrieremöglichkeiten. Denken Sie
-                      beispielsweise an eine Tätigkeit in einer
-                      Beratungsgesellschaft oder auch in einem
-                      Consultingunternehmen. In der Regel wird das Studium mit
-                      einem Bachelor, mit einem Bachelor of Arts Abschluss enden
-                      und dauert hier in der Regel sechs Semester.
+                    text: ", weil genau das auch der genannten Querschnittsaufgabe der Soziologie gerecht wird. Aus einer solche Kombination von Studienfächern ergeben sich dann auch für später sehr gute Berufs- und Karrieremöglichkeiten. Denken Sie beispielsweise an eine Tätigkeit in einer Beratungsgesellschaft oder auch in einem Consultingunternehmen. In der Regel wird das Studium mit einem Bachelor, mit einem Bachelor of Arts Abschluss enden und dauert hier in der Regel sechs Semester."
+              - type: paragraph
                 attrs:
                   textAlign: start
-              - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
                     text: "Und auch nach dem abgeschlossenen Grundstudium und nach der\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: Bachelorarbeit
                   - type: text
-                    marks: []
                     text: "\_kann GWriters Sie im Studium weiter begleiten. Danach kann ein Master Studium folgen, das in der Regel vier Semester dauert, oder es kann auch eine einschlägige Promotion damit verbunden sein. Gerade im Bereich der Promotion können die GWriters\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
                           href: /promotionsberatung
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: Promotionsberater
                   - type: text
-                    marks: []
                     text: "\_Ihnen sehr nützliche Dienste leisten. In diesem Fachbereich bieten wir Ihnen ein breites Leistungsspektrum an. Es beginnt bei der Lehrstuhlsuche, der Suche nach einem Doktorvater, der Auswahl eines passenden Promotionsprogramms bis hin zur Unterstützung und Begleitung bei der Erstellung der\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
                           href: /arbeiten/doktorarbeit
-                          target: null
                           rel: null
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: Dissertation
                   - type: text
-                    marks: []
                     text: "\_selbst."
-                attrs:
-                  textAlign: start
               - type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Anforderungen eines Soziologie Studiums
+                          color: "#000!important"
+                    text: "Anforderungen eines Soziologie Studiums"
               - type: paragraph
-                content:
-                  - type: text
-                    marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: >-
-                      Ein guter Soziologe braucht ein gutes Gespür für
-                      Zusammenhänge, für das Verhalten von Menschen und dafür,
-                      wie mit Zahlen und empirischen Daten umgegangen werden
-                      muss. Aufgrund dieses starken Fokus auf die Empirie
-                      sollten Sie für ein Soziologie Studium also in jedem Fall
-                      die Bereitschaft mitbringen, sich mit Daten und
-                      statistischen Informationen auseinanderzusetzen. Diese
-                      Fähigkeiten sind für die erfolgreiche Bewältigung eines
-                      Soziologie Studiums von ganz entscheidender Bedeutung.
-                      Auch gute Englischkenntnisse sind für ein Soziologie
-                      Studium sehr wichtig, denn viele Studien laufen in
-                      Englisch ab und ein großer Teil der relevanten
-                      wissenschaftlichen Fachliteratur ist in englischer
-                      Sprache.
                 attrs:
                   textAlign: start
-              - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                    text: "Ein guter Soziologe braucht ein gutes Gespür für Zusammenhänge, für das Verhalten von Menschen und dafür, wie mit Zahlen und empirischen Daten umgegangen werden muss. Aufgrund dieses starken Fokus auf die Empirie sollten Sie für ein Soziologie Studium also in jedem Fall die Bereitschaft mitbringen, sich mit Daten und statistischen Informationen auseinanderzusetzen. Diese Fähigkeiten sind für die erfolgreiche Bewältigung eines Soziologie Studiums von ganz entscheidender Bedeutung. Auch gute Englischkenntnisse sind für ein Soziologie Studium sehr wichtig, denn viele Studien laufen in Englisch ab und ein großer Teil der relevanten wissenschaftlichen Fachliteratur ist in englischer Sprache."
+              - type: paragraph
+                attrs:
+                  textAlign: start
+                content:
+                  - type: text
+                    marks:
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: "Der wissenschaftliche Fokus im Rahmen eines Soziologie Studiums liegt vielfach auf der Erstellung von Präsentationen, von Hausarbeiten, von Referaten, der Bewältigung von Fallstudien und am Ende natürlich auf dem Verfassen einer Abschlussarbeit. Aufgrund der Anforderungen aus diesen verschiedenen Sektoren kommen hier für Sie als Student der Soziologie große Anforderungen auf Sie zu. Und hier kommen Studierende der Soziologie auch schnell an ihre Grenzen. Genau dann kann ein Soziologie Ghostwriter von GWriters wertvolle Unterstützung leisten, denn unsere Experten beherrschen alle wissenschaftlichen Arbeitsmethoden, denken vor allen Dingen fachübergreifend und bringen auch ein breites praktisches Wissen in der Soziologie mit. Auch sind diese immer auf dem aktuellen Stand der Forschung und kennen sich mit aktuellen soziologischen Fragestellungen aus. Das zeigt sich auch darin, dass die Soziologie Ghostwriter von GWriters entweder in der Forschung selber arbeiten oder im Management, in der Unternehmensberatung, im\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
-                          href: /ghostwriter/medizin
-                          target: null
+                          href: /medizin
                           rel: null
-                    text: medizinischen Bereich
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
+                    text: "medizinischen Bereich"
                   - type: text
-                    marks: []
                     text: ", im Bereich des\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
-                          href: /ghostwriter/marketing
-                          target: null
+                          href: /marketing
                           rel: null
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: Marketings
                   - type: text
-                    marks: []
                     text: ", der Marktforschung, der\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
-                          href: /ghostwriter/kommunikationswissenschaften
-                          target: null
+                          href: /kommunikationswissenschaften
                           rel: null
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
                     text: Kommunikation
                   - type: text
-                    marks: []
                     text: ", im Bereich Medien oder auch in Verlagshäusern. Das sind klassische Karrierefelder für\_ Soziologen, in denen sich auch Ihnen nach dem Studium breite Möglichkeiten bieten, sich zu platzieren und sich zu präsentieren."
-                attrs:
-                  textAlign: start
               - type: heading
                 attrs:
+                  textAlign: start
                   level: 2
+                content:
+                  - type: text
+                    marks:
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
+                    text: "Fazit zum Studium der Soziologie & Ghostwriting"
+              - type: paragraph
+                attrs:
                   textAlign: start
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Fazit zum Studium der Soziologie & Ghostwriting
-              - type: paragraph
-                content:
-                  - type: text
-                    marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
                     text: "Zusammenfassend ist die Soziologie spannendes, umfassendes und interessantes Forschungsgebiet und auch ein entsprechendes Studium, welches aber gleichzeitig vielfältige Anforderungen an Sie als Studenten stellt und hier können die Soziologie Ghostwriter von GWriters Sie in vielfältiger Art und Weise unterstützen, wenn Sie sich beispielsweise in Mustervorlage für Ihre\_"
                   - type: text
                     marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       - type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
                           rel: null
-                    text: Hausarbeit schreiben lassen
+                          target: null
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
+                    text: "Hausarbeit schreiben lassen"
                   - type: text
-                    marks: []
                     text: "\_möchten oder Unterstützung bei Ihrer Abschlussarbeit benötigen."
-                attrs:
-                  textAlign: start
               - type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
                     text: Disclaimer
               - type: paragraph
+                attrs:
+                  textAlign: start
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-                attrs:
-                  textAlign: start
               - type: heading
                 attrs:
-                  level: 2
                   textAlign: start
+                  level: 2
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Nützliche Weblinks
+                          color: "#000!important"
+                    text: "Nützliche Weblinks"
               - type: paragraph
-                content:
-                  - type: text
-                    marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      - type: link
-                        attrs:
-                          href: https://de.wikipedia.org/wiki/Soziologie
-                          target: _blank
-                          rel: nofollow
-                    text: >-
-                      Allgemeine Informationen zur Soziologie mit Linksammlung –
-                      Wikipedia
-                  - type: hard_break
-                    marks: []
-                  - type: text
-                    marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      - type: link
-                        attrs:
-                          href: https://kzfss.uni-koeln.de/de
-                          target: _blank
-                          rel: nofollow
-                    text: >-
-                      Kölner Zeitschrift für Soziologie und Sozialpsychologie –
-                      Uni Köln
-                  - type: hard_break
-                    marks: []
-                  - type: text
-                    marks:
-                      - type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      - type: link
-                        attrs:
-                          href: https://www.uni-muenster.de/Soziologie/
-                          target: _blank
-                          rel: nofollow
-                    text: Institut für Soziologie – Uni Münster
                 attrs:
                   textAlign: start
+                content:
+                  - type: text
+                    marks:
+                      - type: link
+                        attrs:
+                          href: "https://de.wikipedia.org/wiki/Soziologie"
+                          rel: nofollow
+                          target: _blank
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
+                    text: "Allgemeine Informationen zur Soziologie mit Linksammlung – Wikipedia"
+                  - type: hardBreak
+                  - type: text
+                    marks:
+                      - type: link
+                        attrs:
+                          href: "https://kzfss.uni-koeln.de/de"
+                          rel: nofollow
+                          target: _blank
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
+                    text: "Kölner Zeitschrift für Soziologie und Sozialpsychologie – Uni Köln"
+                  - type: hardBreak
+                  - type: text
+                    marks:
+                      - type: link
+                        attrs:
+                          href: "https://www.uni-muenster.de/Soziologie/"
+                          rel: nofollow
+                          target: _blank
+                          title: null
+                      - type: textColor
+                        attrs:
+                          color: "#000!important"
+                    text: "Institut für Soziologie – Uni Münster"
             show_as_card: false
         type: row
         enabled: true
@@ -1917,16 +1713,12 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: Ghostwriter Soziologie, Lektoren & Coaches • GWriters
-meta_description: >-
-  Hilfe durch Experten und akademische Ghostwriter der Soziologie – schnell,
-  diskret und mehrfach geprüft auf Qualität & Plagiate.
-og_title: Ghostwriter Soziologie, Lektoren & Coaches • GWriters
-og_description: >-
-  Hilfe durch Experten und akademische Ghostwriter der Soziologie – schnell,
-  diskret und mehrfach geprüft auf Qualität & Plagiate.
+meta_title: "Ghostwriter Soziologie, Lektoren & Coaches • GWriters"
+meta_description: "Hilfe durch Experten und akademische Ghostwriter der Soziologie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate."
+og_title: "Ghostwriter Soziologie, Lektoren & Coaches • GWriters"
+og_description: "Hilfe durch Experten und akademische Ghostwriter der Soziologie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate."
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: Soziologie Ghostwriter
+alternative_page_title: "Soziologie Ghostwriter"
 breadcrumbs_active: true
 ---
